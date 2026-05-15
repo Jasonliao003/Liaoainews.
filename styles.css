@@ -89,7 +89,7 @@ button:hover {
 
 main {
   width: min(1120px, calc(100% - 32px));
-  margin: 0 auto 48px;
+  margin: 0 auto 36px;
 }
 
 .status-panel {
@@ -412,6 +412,33 @@ body.detail-mode #refreshButton {
   background: rgba(255, 255, 255, 0.62);
 }
 
+.site-footer {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto 42px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.site-footer strong {
+  color: var(--ink);
+}
+
+.site-footer p {
+  margin: 6px 0 0;
+  line-height: 1.6;
+}
+
+.footer-meta {
+  display: grid;
+  gap: 6px;
+  text-align: right;
+}
+
 @media (max-width: 720px) {
   .topbar {
     align-items: stretch;
@@ -451,5 +478,13 @@ body.detail-mode #refreshButton {
     min-height: 54px;
     grid-template-columns: auto auto;
     gap: 8px;
+  }
+
+  .site-footer {
+    flex-direction: column;
+  }
+
+  .footer-meta {
+    text-align: left;
   }
 }

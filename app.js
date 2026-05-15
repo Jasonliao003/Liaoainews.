@@ -134,6 +134,7 @@ const els = {
   backButton: document.querySelector("#backButton"),
   detailTitle: document.querySelector("#detailTitle"),
   detailList: document.querySelector("#detailList"),
+  footerUpdated: document.querySelector("#footerUpdated"),
   dayTemplate: document.querySelector("#dayTemplate"),
   newsTemplate: document.querySelector("#newsTemplate"),
 };
@@ -157,6 +158,7 @@ function init() {
   if (cached?.articles?.length) {
     state.articles = cached.articles;
     updateStatus("ready", "已载入上次结果", `上次更新：${formatDateTime(cached.updatedAt)}`);
+    updateFooter(cached.updatedAt);
     render();
   }
 
@@ -181,6 +183,7 @@ async function loadNews(isManual) {
     state.articles = normalized;
     state.dataNotice = getDataNotice(data);
     writeCache(normalized, data.updatedAt ? new Date(data.updatedAt).getTime() : Date.now());
+    updateFooter(data.updatedAt || Date.now());
     updateStatus(
       "ready",
       isManual && !hasLocalBackend() ? "静态数据已重新加载" : "日报数据已更新",
@@ -204,6 +207,7 @@ async function loadNews(isManual) {
 
   if (isManual) {
     els.lastUpdated.textContent = `刚刚更新`;
+    updateFooter(Date.now());
   }
 }
 
@@ -377,7 +381,13 @@ function render() {
   const cache = readCache();
   if (cache?.updatedAt) {
     els.lastUpdated.textContent = `更新于 ${formatDateTime(cache.updatedAt)}`;
+    updateFooter(cache.updatedAt);
   }
+}
+
+function updateFooter(value) {
+  if (!els.footerUpdated || !value) return;
+  els.footerUpdated.textContent = `数据更新于 ${formatDateTime(value)}`;
 }
 
 function renderTags(articles) {
