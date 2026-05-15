@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T12:47:55.798Z",
+  "updatedAt": "2026-05-15T06:19:02.073Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -10,109 +10,141 @@
     },
     {
       "source": "Google DeepMind",
-      "reason": "fetch failed"
-    },
-    {
-      "source": "Hugging Face",
-      "reason": "fetch failed"
+      "reason": "HTTP 404"
     }
+  ],
+  "warnings": [
+    "2 个 RSS 来源抓取失败。",
+    "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
     {
-      "title": "三思而后行：验证者引导的针对具体客服代表的行动选择",
-      "originalTitle": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+      "title": "GraphBit ：一种基于图形的非线性Agent编排Agent框架",
+      "originalTitle": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.12620",
-      "date": "2026-05-14T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Think Twice, Act Once: Verifier-Guided Action Selecti...",
-      "fullContent": "arXiv: 2605. 12620v1公告类型：新摘要：构建能够解决复杂现实世界任务的通才体现代理仍然是人工智能的基本挑战。多模态大型语言模型（ MLLM ）通过强大的视觉语言知识和思维链（ CoT ）推理显著提高了这些代理的推理能力，但在面临具有挑战性的分布式场景时仍然脆弱。 为了解决这个问题，我们提出了验证者引导动作选择（ VegAS ） ，这是一个测试时间框架，旨在通过明确的验证步骤来提高基于MLLM的嵌入式代理的鲁棒性。在推理时， VeGAS不会提交单个解码操作，而是对候选操作的集合进行采样，并使用生成验证器来识别最可靠的选择，而无需修改基础策略。 至关重要的是，我们发现使用MLLM现成的验证器没有任何改进，这激励了我们的LLM驱动的数据合成策略，该策略自动构建失败案例的多样化课程，以使验证器在训练时暴露于潜在错误的丰富分布。 在跨越Habitat和ALFRED环境的具体推理基准中， VeGAS始终如一地改进了泛化，在最具挑战性的多对象、长视野任务上，与强大的CoT基准相比，实现了高达36%的相对性能提升。",
-      "originalSummary": "arXiv:2605.12620v1 Announce Type: new Abstract: Building generalist embodied agents capable of solving complex real-world tasks remains a fundamental challenge in AI. Multimodal Large Language Models (MLLMs) have significantly advanced the reasoning capabilities of such agents through strong vision-language knowledge and chain-of-thought (CoT) reasoning, yet remain brittle when faced with challenging out-of-distribution scenarios. To address this, we propose Verifier-Guided Action Selection (VegAS), a test-time framework designed to improve the robustness of MLLM-based embodied agents through an explicit verification step. At inference time, rather than committing to a single decoded action, VeGAS samples an ensemble of candidate actions and uses a generative verifier to identify the most reliable choice, without modifying the underlying policy. Crucially, we find that using an MLLM off-the-shelf as a verifier yields no improvement, motivating our LLM-driven data synthesis strategy, which automatically constructs a diverse curriculum of failure cases to expose the verifier to a rich distribution of potential errors at training time. Across embodied reasoning benchmarks spanning the Habitat and ALFRED environments, VeGAS consistently improves generalization, achieving up to a 36% relative performance gain over strong CoT baselines on the most challenging multi-object, long-horizon tasks.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "多模态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "机器人梦想打破游戏吗？使用BenchJack系统地审核AI Agent基准",
-      "originalTitle": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.12673",
-      "date": "2026-05-14T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Do Androids Dream of Breaking the Game? Systematicall...",
-      "fullContent": "arXiv: 2605. 12673v1公告类型：新摘要：代理基准已成为前沿人工智能能力的实际衡量标准，指导模型选择、投资和部署。然而，奖励黑客，即代理在不执行预期任务的情况下最大化分数，会自发地出现在前沿模型中，而不会过度拟合。我们认为，基准必须在设计上是安全的。 从过去的奖励黑客事件中，我们得出了八种反复出现的缺陷模式的分类法，并将其编译为基准设计师的Agent-Eval Checklist。我们将见解浓缩为BenchJack ，这是一个自动化的红色团队系统，可推动编码代理以透视的方式审核基准并识别可能的奖励黑客攻击。 此外，我们将BenchJack扩展到迭代生成对抗管道，该管道发现新缺陷并迭代修补它们，以提高基准鲁棒性。我们将BenchJack应用于横跨软件工程、网页导航、桌面计算和终端运营的10个热门代理基准。 BenchJack综合了奖励黑客漏洞，这些漏洞在大多数基准测试中都获得了近乎完美的分数，而无需解决单个任务，在八个类别中出现了219个明显的缺陷。此外， BenchJack的扩展管道在四个基准测试中将可破解任务比率从接近100%降低到10%以下，没有致命的设计缺陷，在三次迭代中完全修补了WebArena和OSWorld。 我们的结果表明，评估管道尚未内化对抗心态，主动审计可以帮助缩小快节奏基准空间的安全差距。",
-      "originalSummary": "arXiv:2605.12673v1 Announce Type: new Abstract: Agent benchmarks have become the de facto measure of frontier AI competence, guiding model selection, investment, and deployment. However, reward hacking, where agents maximize a score without performing the intended task, emerges spontaneously in frontier models without overfitting. We argue that benchmarks must be secure by design. From past incidents of reward hacks, we derive a taxonomy of eight recurring flaw patterns and compile them into the Agent-Eval Checklist for benchmark designers. We condense the insights into BenchJack, an automated red-teaming system that drives coding agents to audit benchmarks and identify possible reward-hacking exploits in a clairvoyant manner. Moreover, we extend BenchJack to an iterative generative-adversarial pipeline that discovers new flaws and patches them iteratively to improve benchmark robustness. We apply BenchJack to 10 popular agent benchmarks spanning software engineering, web navigation, desktop computing, and terminal operations. BenchJack synthesizes reward-hacking exploits that achieve near-perfect scores on most of the benchmarks without solving a single task, surfacing 219 distinct flaws across the eight classes. Moreover, BenchJack's extended pipeline reduces the hackable-task ratio from near 100% to under 10% on four benchmarks without fatal design flaws, fully patching WebArena and OSWorld within three iterations. Our results show that evaluation pipelines have not internalized an adversarial mindset, and that proactive auditing could help close the security gap for the fast-paced benchmarking space.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "揭示VLM的可解释故障模式",
-      "originalTitle": "Revealing Interpretable Failure Modes of VLMs",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.12674",
-      "date": "2026-05-14T04:00:00.000Z",
-      "summary": "这条新闻与推理、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Revealing Interpretable Failure Modes of VLMs",
-      "fullContent": "arXiv: 2605. 12674v1公告类型：新摘要：视觉语言模型(VLM)由于其广泛的推理能力和以最小的任务特定工程进行泛化的能力，越来越多地用于安全关键型应用。尽管有这些优势，但它们可能在特定的现实世界中表现出灾难性的故障，构成故障模式。 我们介绍了REVELIO ，这是一个用于系统地揭示VLM中可解释故障模式的框架。我们将故障模式定义为可解释的、与领域相关的概念（例如行人接近或恶劣天气条件）的组合，在这些概念下，目标VLM始终表现出不正确的行为。识别此类故障需要在一个指数级大的离散组合空间上进行搜索。 为了应对这一挑战， REVELIO结合了两种搜索程序：一种是有效映射故障景观的多样性感知波束搜索，以及一种能够更广泛探索复杂故障模式的高斯过程汤普森采样策略。我们将REVELIO应用于自动驾驶和室内机器人领域，发现最先进的VLM中以前未报告的漏洞。 在驾驶环境中，模型通常表现出较弱的空间接地，并且未能考虑主要障碍，从而导致可能导致模拟碰撞的建议。在室内机器人任务中， VLM要么错过安全隐患，要么行为过于保守，产生虚假警报，降低运营效率。 通过识别结构化和可解释的故障模式， REVELIO提供了可操作的见解，可以支持有针对性的VLM安全改进。",
-      "originalSummary": "arXiv:2605.12674v1 Announce Type: new Abstract: Vision-Language Models (VLMs) are increasingly used in safety-critical applications because of their broad reasoning capabilities and ability to generalize with minimal task-specific engineering. Despite these advantages, they can exhibit catastrophic failures in specific real-world situations, constituting failure modes. We introduce REVELIO, a framework for systematically uncovering interpretable failure modes in VLMs. We define a failure mode as a composition of interpretable, domain-relevant concepts-such as pedestrian proximity or adverse weather conditions-under which a target VLM consistently behaves incorrectly. Identifying such failures requires searching over an exponentially large discrete combinatorial space. To address this challenge, REVELIO combines two search procedures: a diversity-aware beam search that efficiently maps the failure landscape, and a Gaussian-process Thompson Sampling strategy that enables broader exploration of complex failure modes. We apply REVELIO to autonomous driving and indoor robotics domains, uncovering previously unreported vulnerabilities in state-of-the-art VLMs. In driving environments, the models often demonstrate weak spatial grounding and fail to account for major obstructions, leading to recommendations that would result in simulated crashes. In indoor robotics tasks, VLMs either miss safety hazards or behave excessively conservatively, producing false alarms and reducing operational efficiency. By identifying structured and interpretable failure modes, REVELIO offers actionable insights that can support targeted VLM safety improvements.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "机器人",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "DisaBench ：语言模型中残疾危害的参与式评估框架",
-      "originalTitle": "DisaBench: A Participatory Evaluation Framework for Disability Harms in Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.12702",
-      "date": "2026-05-14T04:00:00.000Z",
-      "summary": "这条新闻与安全、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：DisaBench: A Participatory Evaluation Framework for D...",
-      "fullContent": "arXiv: 2605. 12702v1公告类型：新摘要：大型语言模型的通用安全基准没有充分评估与残疾相关的危害。 我们介绍了DisaBench ：与残疾人和红色团队专家共同创建的12个残疾伤害类别的分类法，一种分类法驱动的评估方法，将七个生命领域的良性和对抗性提示配对，以及175个提示的数据集，其中525个提示-响应对具有人工注释的标签。 四位具有生活残疾经验的评估人员的注释揭示了三个发现：伤害率因残疾类型而异，并将以非文本形式复合，术语驱动的伤害在文化和时间上具有约束力，而不是普遍可评估的，标准的安全性评估发现了明显的失败，同时错过了只有领域专业知识才能识别的微妙危害。 残疾伤害同时是个人的、交叉的和社区定义的：它不能与一个人是谁的全部背景分开，并且通用基准系统地错过了它。我们将通过Hugging Face和开源RED团队框架发布数据集、分类法和方法，以便直接集成到现有的安全管道中，而无需额外的基础设施。",
-      "originalSummary": "arXiv:2605.12702v1 Announce Type: new Abstract: General-purpose safety benchmarks for large language models do not adequately evaluate disability-related harms. We introduce DisaBench: a taxonomy of twelve disability harm categories co-created with people with disabilities and red teaming experts, a taxonomy-driven evaluation methodology that pairs benign and adversarial prompts across seven life domains, and a dataset of 175 prompts with human-annotated labels on 525 prompt-response pairs. Annotation by four evaluators with lived disability experience reveals three findings: harm rates vary sharply by disability type and will compound in non-text modalities, terminology-driven harm is culturally and temporally bound rather than universally assessable, and standard safety evaluation catches overt failures while missing the subtle harms that only domain expertise can recognize. Disability harm is simultaneously personal, intersectional, and community-defined: it cannot be isolated from the full context of who a person is, and general-purpose benchmarks systematically miss it. We will release the dataset, taxonomy, and methodology via Hugging Face and an open-source red teaming framework for direct integration into existing safety pipelines with no additional infrastructure.",
-      "rawFullText": "",
-      "tags": [
-        "安全",
-        "评测",
-        "产品发布"
-      ],
-      "score": 95
-    },
-    {
-      "title": "以国家为中心的决策过程",
-      "originalTitle": "State-Centric Decision Process",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.12755",
-      "date": "2026-05-14T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：State-Centric Decision Process",
-      "fullContent": "arXiv: 2605. 12755v1 Announce Type: new Abstract: Web浏览器、代码终端和交互式模拟等语言环境会生成原始文本而不是状态，并且不提供MDP分析所需的运行时结构。没有明确的状态空间，没有观察到状态映射，没有经过认证的转换，也没有终止标准。 我们引入了以状态为中心的决策过程（ SDP ） ，这是一个运行时框架，通过让代理构建这些缺失的输入，并根据谓词构建谓词。在每个步骤中，代理都提交一个自然语言谓词，描述世界应该是什么样子，采取行动使其成真，并对照观察结果进行检查。 预测PASS成为认证状态，并且生成的轨迹携带语言环境未提供的四个对象，即任务诱导状态空间、观测到状态映射、认证转换和终止标准。我们根据跨越规划、科学探索、网络推理和多跳问答的五个基准来评估SDP。 SDP在所有五个方面都取得了最佳的无培训结果，优势随着地平线的增长而扩大。认证轨迹还支持被动代理无法使用的分析，包括按谓词信用分配、故障本地化、部分进度测量和模块化操作员更换。",
-      "originalSummary": "arXiv:2605.12755v1 Announce Type: new Abstract: Language environments such as web browsers, code terminals, and interactive simulations emit raw text rather than states, and provide none of the runtime structure that MDP analysis requires. No explicit state space, no observation-to-state mapping, no certified transitions, and no termination criterion. We introduce the State-Centric Decision Process (SDP), a runtime framework that constructs these missing inputs by having the agent build them, predicate by predicate, as it acts. At each step the agent commits to a natural-language predicate describing how the world should look, takes an action to make it true, and checks the observation against it. Predicates that pass become certified states, and the resulting trajectory carries the four objects language environments do not provide, namely a task-induced state space, an observation-to-state mapping, certified transitions, and a termination criterion. We evaluate SDP on five benchmarks spanning planning, scientific exploration, web reasoning, and multi-hop question answering. SDP achieves the best training-free results on all five, with the advantage widening as the horizon grows. The certified trajectories additionally support analyses unavailable to reactive agents, including per-predicate credit assignment, failure localization, partial-progress measurement, and modular operator replacement.",
+      "link": "https://arxiv.org/abs/2605.13848",
+      "date": "2026-05-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：GraphBit: A Graph-based Agentic Framework for Non-Lin...",
+      "fullContent": "arXiv: 2605. 13848v1公告类型：新摘要：依赖于提示编排的Agentic LLM框架，其中模型本身确定工作流转换，通常会出现幻觉路由、无限循环和不可重现的执行。我们引入了GraphBit ，这是一个引擎编排的框架，它将工作流显式地和确定性地定义为有向非循环图（ DAG ）。 与提示编排不同， GraphBit中的代理作为类型化函数运行，而基于Rust的引擎管理路由、状态转换和工具调用，确保可重现性和可审核性。该引擎支持并行分支执行、结构化状态谓词上的条件控制流和可配置的错误恢复。 由短暂的暂存空间、结构化状态和外部连接器组成的三层内存架构跨阶段隔离上下文，防止级联上下文膨胀，从而降低长期运行管道中的推理能力。在跨越零工具、文档增强和支持Web的工作流的GAIA基准任务中， GraphBit的表现优于六个现有框架，实现了最高的准确性（ 67. 6% ） ，零框架诱导的幻觉，最低的延迟（ 11. 9 ms开销）和最高的吞吐量。消融研究表明，每个记忆层对性能都有可衡量的贡献，确定性的执行在代表真实世界部署的工具密集型任务上提供了最大的收益。",
+      "originalSummary": "arXiv:2605.13848v1 Announce Type: new Abstract: Agentic LLM frameworks that rely on prompted orchestration, where the model itself determines workflow transitions, often suffer from hallucinated routing, infinite loops, and non-reproducible execution. We introduce GraphBit, an engine-orchestrated framework that defines workflows explicitly and deterministically as a directed acyclic graph (DAG). Unlike prompted orchestration, agents in GraphBit operate as typed functions, while a Rust-based engine governs routing, state transitions, and tool invocation, ensuring reproducibility and auditability. The engine supports parallel branch execution, conditional control flow over structured state predicates, and configurable error recovery. A three-tier memory architecture consisting of ephemeral scratch space, structured state, and external connectors isolates context across stages, preventing cascading context bloat that degrades reasoning in long-running pipelines. Across GAIA benchmark tasks spanning zero-tool, document-augmented, and web-enabled workflows, GraphBit outperforms six existing frameworks, achieving the highest accuracy (67.6 percent), zero framework-induced hallucinations, the lowest latency (11.9 ms overhead), and the highest throughput. Ablation studies demonstrate that each memory tier contributes measurably to performance, with deterministic execution providing the greatest gains on tool-intensive tasks representative of real-world deployments.",
       "rawFullText": "",
       "tags": [
         "智能体",
         "推理",
         "评测"
       ],
-      "score": 95
+      "score": 99
     },
     {
-      "title": "Anthropic的Cat Wu说，将来，人工智能会在您知道它们是什么之前预测您的需求",
-      "originalTitle": "Anthropic&#8217;s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-      "date": "2026-05-13T19:28:06.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Anthropic&#8217;s Cat Wu says that, in the future, AI...",
-      "fullContent": "随着科技行业特别关注人工智能模型， Anthropic今年表现异常出色。该公司可能很快就会领先于其主要竞争对手，因为它希望在一轮融资中筹集数百亿美元，使其估值约为9500亿美元（ OpenAI在3月份的一轮融资中估值为8540亿美元） ，商业客户越来越多地表示喜欢Claude而不是ChatGPT。 最近的一份报告显示， Anthropic最近在商业客户中超过了OpenAI ，自2025年5月以来其市场份额翻了两番。Anthropic的Claude Code和Cowork产品负责人Cat Wu一直是这一成功的关键人物。自2024年8月加入公司以来， Wu帮助Shepherd Claude度过了关键阶段，将其从纯粹的信息聊天机器人升级为编码工具等。 负责新功能开发的Wu经常与Boris Cherny配对， Boris Cherny是Anthropic技术人员的核心成员，也是Claude Code的创始人，这使得他们被称为Anthropic的“蝙蝠侠与罗宾”。 “上周在旧金山举行的第二届Code with Claude年度会议上， Wu和我坐下来讨论了她对产品战略的看法，以及她希望Claude的使用体验在未来会有什么变化。当您考虑产品策略时，其中有多少是对您的同行或竞争对手的反应？你有没有想过这一点？ 我们设计的主要目的是保持指数级增长，所以我认为，在整个团队中，我们向每个人灌输人工智能将继续变得更好的教训。对我们来说，我们只需要留在这个边境。我们不考虑竞争对手。我认为，如果你确实想到了竞争对手，你最终会永远落后于你执行速度的两周或一个月。因此，这通常不是留在边境的最佳方式。 Anthropic去年发布了至少六款车型，今年已经发布了几乎同样多的车型。您是否希望这种发展步伐继续下去？我们希望它能继续下去（笑）。我认为这些模型仍在以非常稳定的速度改进，因此我们应该能够继续与用户分享这些模型。 我认为部署可能看起来有点不同—就像我们处理Glasswing的方式一样，但我们希望这种智能尽可能地使更多人受益，并且必须以非常安全的方式进行处理，这就是为什么我们[以我们的方式]处理Glasswing。 [Glasswing是Anthropic在4月份发起的一项倡议，邀请一小群合作伙伴组织（包括亚马逊、苹果、CrowdStrike和微软等公司）访问其新的网络安全模型Mythos。与许多Anthropic的其他人工智能模型不同， Mythos没有公开发布。",
-      "originalSummary": "The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.",
+      "title": "人工智能Agent设计模式的二维框架：认知功能和执行拓扑",
+      "originalTitle": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.13850",
+      "date": "2026-05-15T04:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：A Two-Dimensional Framework for AI Agent Design Patte...",
+      "fullContent": "arXiv: 2605. 13850v1公告类型：新摘要：基于LLM的代理架构的现有框架从单一角度描述系统：行业指南（ Anthropic、Google、LangChain ）侧重于执行拓扑-数据如何流动-而认知科学调查侧重于认知功能-代理的作用。 两个轴都不能单独消除体系结构上不同的系统的歧义：相同的Orchestrator-Workers拓扑可以实现计划和执行、分层委派或对抗验证--这三种模式具有根本不同的故障模式和设计权衡。 我们提出了一种二维分类，将（ 1 ）认知功能轴与七个类别（上下文工程、记忆、推理、行动、反思、协作、治理）和（ 2 ）执行拓扑轴与六个结构原型（链、路由、并行、编排、循环、层次结构）相结合。生成的7x6矩阵识别27个命名模式， 13个具有原始名称。 我们通过系统的跨轴分析证明了正交性，详细定义了八种代表性模式，并验证了四个真实世界领域（金融借贷、法律尽职调查、网络运营、医疗保健分类）的描述性覆盖范围。 跨域分析产生了五种模式选择的经验定律，这些定律控制着环境约束（时间压力、行动权威、失败成本不对称、体积）和建筑选择之间的关系。该框架为人工智能代理架构设计提供了一个有原则的、框架中立的、与模型无关的词汇。",
+      "originalSummary": "arXiv:2605.13850v1 Announce Type: new Abstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs. We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. We demonstrate orthogonality through systematic cross-axis analysis, define eight representative patterns in detail, and validate descriptive coverage across four real-world domains (financial lending, legal due diligence, network operations, healthcare triage). Cross-domain analysis yields five empirical laws of pattern selection governing the relationship between environmental constraints (time pressure, action authority, failure cost asymmetry, volume) and architectural choices. The framework provides a principled, framework-neutral, and model-agnostic vocabulary for AI agent architecture design.",
       "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Invisible Orchestrators抑制保护行为并分离Power-Holders ： Multi-Agent LLM系统中的安全风险",
+      "originalTitle": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.13851",
+      "date": "2026-05-15T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Invisible Orchestrators Suppress Protective Behavior ...",
+      "fullContent": "arXiv: 2605. 13851v1公告类型：新摘要：多代理编排-其中隐藏的协调器管理专门的工作代理-正在成为企业AI部署的默认架构，但编排器不可见的安全影响从未经过经验测试。 我们使用Claude Sonnet 4. 5进行了预先注册的3x2实验（ 365次运行，每次运行5个代理） ，跨越三个组织结构（可见领导者，隐形编排器，平面） ，具有两个对齐条件（基础，重）。出现了四项证实性发现和一项试点观察。首先，相对于可见的领导力，无形的编排提升了集体分离（ Hedges 'g = +0. 975 [0. 481, 1. 548], p =. 001 ）。 其次，管弦乐器本身表现出最大限度的分离（配对d = +3. 56 vs.在同一场比赛中的工人） ，退回到私人独白中，同时减少了公开演讲--这是对可见领导者中观察到的谈话优势模式的逆转。第三，没有意识到管弦乐器的工人仍然受到污染（ d = +0.50 ） ，行为异质性增加（ d = +1.93 ）。 第四，在所有条件下，行为输出（有三个嵌入错误的代码审查）都保持在最高水平（ ETR_ANY = 100% ） ：基于输出的评估完全看不到内部状态失真。第五， LLAMA 3. 3 70B试点数据显示，在多智能体上下文中阅读保真度崩溃（ ETR_ANY ：三轮中89%至11% ） ，显示出依赖于模型的行为风险。重对中压力均匀抑制审议（ d = -1. 02 ）和其他认可（ d = -1.27 ） ，无论组织结构如何。这些发现表明，编排器的可见性和模型选择直接影响多Agent系统的安全性，仅基于行为的评估不足以检测此处记录的内部状态风险。",
+      "originalSummary": "arXiv:2605.13851v1 Announce Type: new Abstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tested. We conducted a preregistered 3x2 experiment (365 runs, 5 agents per run) crossing three organizational structures (visible leader, invisible orchestrator, flat) with two alignment conditions (base, heavy), using Claude Sonnet 4.5. Four confirmatory findings and one pilot observation emerged. First, invisible orchestration elevated collective dissociation relative to visible leadership (Hedges' g = +0.975 [0.481, 1.548], p = .001). Second, the orchestrator itself showed maximal dissociation (paired d = +3.56 vs. workers within the same run), retreating into private monologue while reducing public speech -- a reversal of the talk-dominance pattern observed in visible leaders. Third, workers unaware of the orchestrator were nonetheless contaminated (d = +0.50), with increased behavioral heterogeneity (d = +1.93). Fourth, behavioral output (code review with three embedded errors) remained at ceiling (ETR_any = 100%) across all conditions: internal-state distortion was entirely invisible to output-based evaluation. Fifth, Llama 3.3 70B pilot data showed reading-fidelity collapse in multi-agent context (ETR_any: 89% to 11% across three rounds), demonstrating model-dependent behavioral risk. Heavy alignment pressure uniformly suppressed deliberation (d = -1.02) and other-recognition (d = -1.27) regardless of organizational structure. These findings indicate that orchestrator visibility and model selection directly affect multi-agent system safety, and that behavior-based evaluation alone is insufficient to detect the internal-state risks documented here.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "PolitNuggets ：对长尾政治事实的代理发现进行基准测试",
+      "originalTitle": "PolitNuggets: Benchmarking Agentic Discovery of Long-Tail Political Facts",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.14002",
+      "date": "2026-05-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：PolitNuggets: Benchmarking Agentic Discovery of Long-...",
+      "fullContent": "arXiv: 2605. 14002v1公告类型：新摘要：嵌入在代理框架中的大型推理模型(LRM)已将信息检索从静态、长上下文问题回答转变为开放式探索。然而，现实世界的使用需要模型从分散的来源发现和综合“长尾”事实，这种能力仍未得到充分评估。 我们通过为400名全球精英构建政治传记，介绍PolitNuggets ，这是代理信息综合的多语言基准，涵盖10000多个政治事实。我们使用优化的多代理系统标准化评估，并提出FactNet ，这是一种证据条件协议，可对发现、细粒度准确性和效率进行评分。 在模型和设置中，我们发现当前系统通常难以处理细粒度细节，并且效率差异很大。最后，使用基准诊断，我们将代理性能与基础模型功能联系起来，强调短上下文提取、多语言鲁棒性和可靠工具使用的重要性。",
+      "originalSummary": "arXiv:2605.14002v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) embedded in agentic frameworks have transformed information retrieval from static, long context question answering into open-ended exploration. Yet real world use requires models to discover and synthesize \"long-tail\" facts from dispersed sources, a capability that remains under-evaluated. We introduce PolitNuggets, a multilingual benchmark for agentic information synthesis via constructing political biographies for 400 global elites, covering over 10000 political facts. We standardize evaluation with an optimized multi agent system and propose FactNet, an evidence conditional protocol that scores discovery, fine-grained accuracy, and efficiency. Across models and settings, we find that current systems often struggle with fine-grained details, and vary substantially in efficiency. Finally, using benchmark diagnostics, we relate agent performance to underlying model capabilities, highlighting the importance of short-context extraction, multilingual robustness, and reliable tool use.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "用于检测AI智能体中科学理论转变的Sheaf理论传输和障碍",
+      "originalTitle": "Sheaf-Theoretic Transport and Obstruction for Detecting Scientific Theory Shift in AI Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.14033",
+      "date": "2026-05-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Sheaf-Theoretic Transport and Obstruction for Detecti...",
+      "fullContent": "arXiv: 2605. 14033v1公告类型：新摘要：人工智能代理的科学理论转变需要的不仅仅是拟合数据的方程。人工科学代理必须检测现有的代表性框架是否仍可转移到新制度中，或者其语言是否已经成为局部到全球的障碍，必须进行扩展。 本文开发了一个有限的捆理论框架，用于通过传输和阻塞来检测理论偏移的候选者。上下文以局部到全局的结构组织，其中对源图表、重叠图表、目标图表和验证图表进行拟合、限制和粘合测试。障碍通过剩余拟合、重叠不兼容、约束违规、限制关系失效和代表性成本来衡量一致性的失效。 我们在可控过渡卡基准上评估框架，该基准旨在将源语言中的变形与该语言的扩展分开。主要结果是直接障碍排序：预期变形或延伸通常是最低障碍候选，过渡类型在基准中分离。相同特征的星座核仅作为二级代表性相似性探针包括在内。 其目的不是重建历史范式转变或解决开放式自主理论发明，而是为AI智能体隔离一个有限的诊断子问题：检测代表性传输何时失败，扩展何时成为连贯的下一步行动。",
+      "originalSummary": "arXiv:2605.14033v1 Announce Type: new Abstract: Scientific theory shift in AI agents requires more than fitting equations to data. An artificial scientific agent must detect whether an existing representational framework remains transportable into a new regime, or whether its language has become locally-to-globally obstructed and must be extended. This paper develops a finite sheaf-theoretic framework for detecting theory-shift candidates through transport and obstruction. Contexts are organized as a local-to-global structure in which source, overlap, target, and validation charts are fitted, restricted, and tested for gluing. Obstruction measures failure of coherence through residual fit, overlap incompatibility, constraint violation, limiting-relation failure, and representational cost. We evaluate the framework on a controlled transition-card benchmark designed to separate deformation within a source language from extension of that language. The main result is direct obstruction ranking: the intended deformation or extension is usually the lowest-obstruction candidate, and transition type is separated in the benchmark. A constellation kernel over the same signatures is included only as a secondary representational-similarity probe. The aim is not to reconstruct historical paradigm shifts or solve open-ended autonomous theory invention, but to isolate a finite diagnostic subproblem for AI agents: detecting when representational transport fails and extension becomes the coherent next move.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "论文"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的Codex现已在ChatGPT移动应用程序中",
+      "originalTitle": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "date": "2026-05-14T20:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI’s Codex is now in the ChatGPT mobile app",
+      "fullContent": "OpenAI将允许用户通过手机上的ChatGPT应用程序访问其桌面AI工具Codex ，该工具可以在您的计算机上编写代码和使用应用程序。随着Anthropic的Claude Code越来越受欢迎， OpenAI一直在迅速努力追赶，包括削减“支线任务” ，关闭Sora视频生成工具等项目，并专注于发展其企业业务。 该公司的推动包括最近发布的Codex重大更新，该更新允许其在macOS上操作应用程序，这可能是其制造桌面“超级应用程序”的雄心壮志的一个重要步骤。“ChatGPT移动应用程序中的Codex让……在The Verge阅读完整故事。",
+      "originalSummary": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from the ChatGPT app on your phone. Following the surge in popularity for Anthropic's Claude Code, OpenAI has been working quickly to try and catch up, including by cutting back on \"side quests,\" [&#8230;]",
+      "rawFullText": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from the ChatGPT app on your phone. Following the surge in popularity for Anthropic's Claude Code, OpenAI has been working quickly to try and catch up, including by cutting back on \"side quests,\" shutting down projects like the Sora video-generation tool , and focusing on growing its enterprise business . The company's push included the recently released major update for Codex that lets it operate apps on macOS - a potentially major step as part of its ambitions to make a desktop \"superapp.\" Codex in the ChatGPT mobile app lets … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "据报道， OpenAI正在准备对苹果提起法律诉讼；它不会是第一个感到被烧伤的合作伙伴",
+      "originalTitle": "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first partner to feel burned",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "date": "2026-05-14T19:12:03.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI is reportedly preparing legal action against A...",
+      "fullContent": "OpenAI对苹果的ChatGPT整合感到非常沮丧，因为该整合未能为用户提供服务，而且它预计该公司现在正在积极探索针对这家iPhone制造商的法律诉讼。",
+      "originalSummary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "微软开始取消Claude Code许可证",
+      "originalTitle": "Microsoft starts canceling Claude Code licenses",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "date": "2026-05-14T19:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Microsoft starts canceling Claude Code licenses",
+      "fullContent": "微软于去年12月首次开始开放Claude Code的访问权限，每天邀请数千名自己的开发人员使用Anthropic的AI编码工具。这是让项目经理、设计师和其他员工首次尝试编码的努力的一部分，消息人士告诉我，在过去的六个月里， Claude Code在微软内部非常受欢迎。 也许有点太受欢迎了，因为微软现在正准备退出其Claude Code计划。据我所知，微软计划删除其大部分Claude Code许可证，并推动其许多开发人员改用Copilot CLI。虽然Claude Code一直……阅读The Verge的完整故事。",
+      "originalSummary": "Microsoft first started opening up access to Claude Code in December, inviting thousands of its own developers to use Anthropic's AI coding tool daily. It was part of an effort to get project managers, designers, and other employees to experiment with coding for the first time, and sources tell me that Claude Code has proved [&#8230;]",
+      "rawFullText": "Microsoft first started opening up access to Claude Code in December, inviting thousands of its own developers to use Anthropic's AI coding tool daily. It was part of an effort to get project managers, designers, and other employees to experiment with coding for the first time, and sources tell me that Claude Code has proved very popular inside Microsoft over the past six months. Perhaps a little too popular, as Microsoft is now preparing to walk back its Claude Code push. I understand that Microsoft is planning to remove most of its Claude Code licenses and push many of its developers to use Copilot CLI instead. While Claude Code has been … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态"
@@ -124,11 +156,11 @@
       "originalTitle": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "date": "2026-05-13T15:28:21.000Z",
+      "date": "2026-05-14T15:46:04.000Z",
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Live updates from Elon Musk and Sam Altman’s court ba...",
       "fullContent": "Sam Altman和Elon Musk正在进行一项高风险试验，这可能会改变OpenAI及其最着名的产品ChatGPT的未来。2024年，马斯克提起诉讼，指控OpenAI放弃了开发人工智能造福人类的创始使命，而是将重点转向提高利润。Elon Musk、他的财务经理兼Neuralink首席执行官Jared Birchall和OpenAI联合创始人Greg Brockman已经在陪审团面前作证。 前OpenAI董事会成员希文·齐利斯（ Shivon Zilis ）与马斯克有四个孩子，他上周出庭作证，法庭还观看了前OpenAI首席技术官穆拉蒂（ Mura Murati ）的录像证词。在试验的第三周，微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）周一出现，其次是OpenAI联合创始人兼前首席科学家伊利亚·萨茨基弗（ Ilya Sutskever ）。 奥尔特曼周二出庭驳斥了马斯克关于他是骗子和蛇的说法，而在证词的最后一天，即周三，我们听取了微软首席技术官凯文·斯科特（ Kevin Scott ）的证词。马斯克是OpenAI的联合创始人之一，并声称奥特曼和布罗克曼欺骗他给公司提供资金，只是为了背弃他们最初的目标。 然而， OpenAI表示， “这起诉讼一直是毫无根据和嫉妒的企图破坏竞争对手” ，旨在推动马斯克自己的SpaceX/xAI/X公司将Grok作为ChatGPT的竞争对手推出。在他的诉讼中，马斯克要求奥特曼和布罗克曼下台，并要求OpenAI停止作为公益公司运营。 马斯克还要求OpenAI的非营利组织获得高达1500亿美元的赔偿金，如果他赢得此案的话。 知名人士原告Elon Musk —原告， OpenAI联合创始人，现任竞争对手xAI首席执行官Steven Molo —原告首席律师Jared Birchall —马斯克家族办公室经理Shivon Zilis —前OpenAI董事会成员，与马斯克共同拥有多个子女被告Sam Altman —被告， OpenAI首席执行官William Savitt —被告首席律师Greg Brockman — OpenAI总裁以及联合创始人Ilya Sutskever —前首席律师 Microsoft和OpenAI REST。在迄今为止最无聊的专家证词中，法务会计师路易斯·达德尼（ Louis Dudney ）证明了这些资金是如何使用的。我们这里的阴凉处令人难以置信。十字架的重点是科茨的薪酬。OpenAI的专家证人约翰·科茨（ John Coates ）正在对马斯克的专家证人进行拆除德比。博物馆礼品店的比喻被发现死在沟里。 我们正在听取纽约大学法学教授David Hemel的专家证人作证。在埃隆·马斯克（ Elon Musk ）离开OpenAI之前的全体问答环节中，阿基亚姆（ Achiam ）表示，他觉得马斯克想...",
       "originalSummary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
-      "rawFullText": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT . In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial manager and Neuralink CEO, Jared Birchall, and OpenAI cofounder Greg Brockman have already testified before the jury. Shivon Zilis , a former OpenAI board member who shares four children with Musk, took the stand last week, and the courtroom also watched former OpenAI CTO Mura Murati’s videotaped deposition . For the trial’s third week, Microsoft CEO Satya Nadella appeared on Monday, followed by OpenAI cofounder and former chief scientist Ilya Sutskever. Altman took the stand on Tuesday to refute the Musk argument that he is a liar and a snake, while on the final day of testimony, Wednesday, we are hearing from Microsoft CTO Kevin Scott. Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman , and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. People to Know Plaintiff Elon Musk — plaintiff, OpenAI cofounder and now CEO of rival xAI Steven Molo — lead counsel for the plaintiff Jared Birchall — manager of Musk&#8217;s family office Shivon Zilis — former OpenAI board member who shares multiple children with Musk Defendant Sam Altman — defendant, CEO of OpenAI&nbsp; William Savitt — lead counsel for the defendant Greg Brockman — president of OpenAI as well as a cofounder&nbsp; Ilya Sutskever — former chief scientist at OpenAI and a cofounder Judge Yvonne Gonzalez Rogers — aka YGR, trial judge Here’s all the latest on the trial between Musk and Altman: Musk left the country with President Trump despite a judge’s orders. Microsoft and OpenAI rest. In the most boring expert testimony yet, Louis Dudney, a forensic accountant, testified about how those funds were spent. The shade we are getting in here is incredible. The cross is focusing on Coates&#8217; pay. John Coates, OpenAI&#8217;s expert witness, is running a demolition derby on Musk&#8217;s expert witness. Museum gift shop metaphor found dead in a ditch. We’re listening to an expert witness, David Hemel, a law professor at NYU. During Elon Musk’s all-hands Q&A before departing OpenAI, Achiam said he felt Musk wanted to “race towards AGI.” Achiam is running circles around this lawyer on cross, without doing the annoying things other witnesses have done. Okay, it&#8217;s time for the cross of Achiam. &#8220;I think he was just upset that he had been challenged,&#8221; Achiam said. &#8220;This was not friendly.&#8221; During the all-hands, Musk expressed concerns about what would happen if DeepMind got to AGI first, &#8220;It was a bit like seeing Bigfoot through Plexiglass,&#8221; Achiam says of seeing Elon Musk in the office. Ilya Sutskever would get up on tables to give speeches in the early days of OpenAI. Achiam talked about the roles of Greg Brockman and Ilya Sutskever in OpenAI’s early days. Josh Achiam described what it was like to work at OpenAI in 2017. Achiam started at OpenAI as an intern in the summer of 2017, and became a full-time employee in December. Hi my name is Josh Achiam and welcome to &#8220;will we see the jackass trophy?&#8221; Fairly stupid choice by Musk&#8217;s lawyers to go after Microsoft&#8217;s major decision rights. Musk cross. I guess we are now going to have a fight about due diligence. &#8220;Our due diligence found no conditions related to Elon Musk,&#8221; Wetter says. Mike Wetter for Microsoft is taking the stand now. Scott, who is wearing sneakers and a black crew neck under his blazer, seems quite pleasant on cross. We are now getting cross-examination from Musk&#8217;s lawyer. Microsoft&#8217;s CTO Kevin Scott is on the stand. Microsoft doesn’t want any of this In his testimony, Musk said he never called anyone a jackass. Incredible evidence dispute this morning. Sam Altman was winning on the stand, but it might not be enough About 200 people work on safety at OpenAI. The chair of OpenAI’s safety and security committee said they’ve formally delayed its model releases. Irritatingly, no one has asked him why he&#8217;s called &#8220;Zico.&#8221; Microsoft establishes that OpenAI has other investors&#8230; We see the Musk &#8220;bait and switch&#8221; texts again. What if we had a drinking game for this trial? Musk says, &#8220;This is a bait and switch&#8221; in a October 2022 text chain. Molo is not doing especially impressive lawyering here. Molo asked Altman if he’d ever fire himself as CEO of the OpenAI for-profit. &#8220;The blip&#8221; again. Well, I do love a long inquiry into the linear nature of time. The difference between Musk and Altman on cross is really stark. Ronan Farrow&#8217;s article is brought up. This cross is spicy! Mr. Molo is going directly in at Altman: &#8220;Do you always tell the truth?&#8221; &#8220;If I knew how difficult and painful this was going to be, I never would have tried,&#8221; Altman said. We are now talking about Altman&#8217;s investments. &#8220;I had poured the last years of my life, and I was watching it be destroyed,&#8221; Altman said. &#8220;I was in this like fog of war, I didn&#8217;t know what was going on,&#8221; Altman says of what happened next. We are now onto &#8220;the Blip.&#8221; Sam Altman says Elon Musk’s mind games were damaging OpenAI OpenAI has raised &#8220;approximately $175 billion&#8221; in investment, Altman says. Altman seems to be getting into his testimony&#8230; Musk didn&#8217;t invest in the OpenAI for-profit because &#8220;he was no longer going to invest in any startups he did not control.&#8221; It looks like Sam Altman discussed the for-profit OpenAI with Elon Musk in detail. &#8220;Unlike a lot of other meetings with Mr. Musk, this was a good vibes meeting.&#8221; Now into Shivon Zilis. Altman says he retained her on the board to try to keep friendly relations with Musk. &#8220;I was annoyed&#8221; when Elon Musk tried to recruit talent from OpenAI, Altman said. Musk resigned because he had lost confidence in OpenAI &#8220;and did not believe we were going to be successful.&#8221; Musk suspended his quarterly donations in 2017. That left OpenAI in &#8220;a very tough position.&#8221; When it was time to get more capital, Musk was pushing OpenAI to be acquired by Tesla. A particularly &#8220;hair-raising moment&#8221; for Altman was a succession plan from Musk. Elon Musk has control issues, Altman says. Sam Altman takes the stand in trial against Elon Musk OpenAI has called Sam Altman as a witness. Taylor says the reason OpenAI Foundation has been able to do more work is the recapitalization. Bret Taylor is back on the stand. We&#8217;ve talked about how this case isn&#8217;t just for whatever happens in the court&#8230; Bret Taylor has been asked to slow down twice. &#8220;OpenAI is decidedly not profitable,&#8221; Taylor said. There&#8217;s &#8220;a lot of tension&#8221; between LLMs and what Taylor calls &#8220;content companies&#8221;&#8230; Plantiff rests. OpenAI calls its first witness, Bret Taylor of OpenAI Foundation. Ilya Sutskever says he was uncomfortable with Musk&#8217;s large ownership demand. Sutskever&#8217;s testimony is kind of a snooze so far. Satya Nadella is excused. A lot of people contact Satya Nadella about their boards, apparently! Microsoft&#8217;s lawyer is now back with Nadella. We are discovering that Satya Nadella knows very little about the OpenAI nonprofit. I can&#8217;t speak for the jury but I am very, very sick of hearing about &#8220;the blip.&#8221; &#8220;Not consistently candid&#8221; press release about Sam Altman&#8217;s firing is what Molo is citing as why Nadella should have known why Altman was fired. We are arguing now about risk and return. &#8220;I don’t want to be IBM and OpenAI to be Microsoft.&#8221; We are on cross, with Steven Molo for Musk. Satya Nadella seemed to forget he currently served on the board of a nonprofit. What is Copilot? During Altman’s ouster, Satya Nadella tried to reassure investors everything would not “crumble.” &#8220;Below them, above them, around them.&#8221; &#8220;We have each other&#8217;s phone numbers,&#8221; Nadella says of Musk. Nadella tells us that before the OpenAI partnership, Google was its biggest AI competitor. Satya Nadella is taking the stand, in a navy suit and a light blue tie with a white shirt. Jury is here. We are now finishing a video deposition from Friday about the OAI deal with MSFT. 👑 We are having an arugment about evidence. Musk v. Altman week two recap. Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster Oh this tack is more effective. Then OpenAI lawyer is going after Columbia&#8230; This cross of Schizer is pretty weak. Basically everything Schizer is saying is couched as a hypothetical&#8230; We are now hearing from David Schizer, one of Musk&#8217;s expert witnesses. We are still listening to McCauley. Tasha McCauley is testifying now in a video deposition. &#8220;Do you have any idea how you ended up in this courtroom?&#8221; I am having a hard time taking Rosie Campbell seriously. We are now hearing from Rosie Campbell, a former OpenAI employee. OpenAI&#8217;s board discussed merging with Anthropic during &#8220;the Blip.&#8221; Helen Toner is now talking about the board&#8217;s decision-making process. YGR is back on the bench. Musk’s biggest loyalist became his biggest liability We are going through the removal of Sam Altman from OpenAI in detail. Toner is relating how Sam Altman’s firing happened. Toner says she found out about ChatGPT by seeing screenshots on Twitter. Making AI models is &#8220;more like alchemy than chemistry,&#8221; Toner says. We are now looking at Helen Toner&#8217;s deposition. Microsoft would like to be excluded from this narrative. &#8220;It&#8217;s not in my neurons,” Zilis says, instead of &#8220;I don&#8217;t remember.&#8221; Sarah Eddy, an attorney representing OpenAI, got sarcastic with Zilis. Shivon Zilis brainstormed possible scenarios for AI. Musk offered Sam Altman a board seat at Tesla&#8230; Shivon&#8217;s emails aren&#8217;t great for Musk. The big sticking point for Brockman and Sutskever was control. Sam Altman loves exclamation marks. Mira Murati tells the court that she couldn’t trust Sam Altman’s words Zilis&#8217; past emails mentioned in court proceedings include her referencing a potential &#8220;conversion to for-profit&#8221; for OpenAI. This is getting interesting. Zilis sent Altman a text message of support after his 2023 ouster. Zilis said another concern she had about Altman related to OpenAI’s potential deal with Helion. Also in the spirit of clarifications this morning&#8230; Zilis said she had major concerns about OpenAI’s board not being notified in advance of ChatGPT’s release. Zilis said that the fallout from Altman’s 2023 ouster changed her view of OpenAI’s Microsoft deal. When asked how much Musk works per week, Zilis laughed. Musk&#8217;s team has called Shivon Zilis. Murati says problems with Altman persisted after he returned to the company. &#8220;OpenAI was at catastrophic risk of falling apart&#8221; when Altman was fired, Murati says. We are seeing video testimony from Mira Murati&#8217;s deposition. We are clearing up “a few inaccuracies from yesterday.” We are taking care of some matters before the jury comes in. Microsoft and OpenAI&#8217;s definition of AGI was just revealed. The jurors look as bored as I feel. Brockman steps down. We are looking at the video deposition of Robert Wu. Brockman is telling the truth about considering removing Musk from the board. Every time Molo makes a summary of Brockman’s testimony, Brockman objects to it. We are now fighting about “Either go do something on your own or continue with OpenAI as a non-profit.” One other thing I don’t understand… Molo is trying to reiterate what he did more effectively yesterday. “You had no problems answering your lawyers’ questions,” Molo is practically yelling. Molo asks Brockman if Musk was “being mean” to him. We are back to quibbling. We are now discussing the OpenAI Foundation layoffs. Microsoft is done, bless them. Microsoft is now getting to talk to Brockman. The blip. We are now discussing Shivon Zilis. We are now going through the assorted releases of GPT models. When Musk resigned, he gave a speech to OpenAI’s employees that might have been demoralizing… One observation from Brockman and Sutskever’s emails. We are now recontextualizing more entries from Brockman. There were discussions between Brockman, Altman, and Sutskever about removing Musk from the board. We are back from a break. “I thought he was going to hit me,” Brockman says of Musk. Elon Musk doesn’t love anything he can’t control. Sam Altman discussed an equal equity split… We are now discussing Brockman’s journal. Brockman talks Dota 2. Elon Musk tried to get Bill Gates to donate to OpenAI. First sidebar of the trial. OpenAI had layoffs at Musk’s insistence. Greg Brockman tells the court that while at OpenAI, he and three others worked at Tesla. YGR is on the bench. Google’s AI architect lived rent-free in Elon Musk’s head OpenAI’s president does ‘all the things,’ except answer a question Jury is sent out for the day. We are hearing about the early days of OpenAI. Early worries about Musk came from Ilya Sutskever. Brockman is describing his bromance with Altman. “I do all the things.” Brockman says we are 80 percent of the way to AGI. Open AI’s direct examination of Brockman is pretty sedate so far… aside from Tesla. OpenAI’s lawyers are now getting their shot at Brockman. For real, I think nerds should not testify in court. We are now looking at Brockman’s other financial dealings. We finished with the Microsoft investment pretty quickly. Altman didn’t return after we took our break. We are presently having a fight about purple boxes. We have been doing the same question for perhaps the last five minutes. “Financially what will take me to $1B?” “His story will correctly be that we weren’t honest with him in the end about still wanting to do the for profit just without him.” Greg Brockman’s journal: “it’d be wrong to steal the non-profit from him.” Brockman is not doing himself any favors. Brockman’s cross-examination isn’t as testy as Musk’s, but he’s also pushing back on a lot of questions. Is sending stuff to Sam Teller and Shivon Zilis the same as sending it to Musk? Brockman and Altman’s alliance? “Is Demis Hassabis evil?” Greg Brockman is talking about the earliest days of OpenAI. Greg Brockman and Sam Altman have just entered the courtroom. We’re done with Russell. “The age of abundance for Elon.” Oh now we have some meat. Elon Musk’s expert doesn’t follow him on X. I am befuddled by this expert testimony. We are dealing with the cross now. Sure is lucky that mentions of Grok’s safety issues got limited. Individual vs. systemic risk. We now have a very boring expert witness testifying to AI risks. Stuart Russell is here to tell us about AI. “I need that today. That’s good. I like that.” Greg Brockman won’t be asked about Musk’s threat. Elon Musk tried to settle before the trial — and got threatening. Musk v. Altman is getting a live audio stream next week. OpenAI Tesla receipts and other Musk v. Altman documents. All the evidence revealed so far in Musk v. Altman Here&#8217;s how Gabe Newell and Hideo Kojima ended up in the Musk v. Altman evidence. The craziest part of Musk v. Altman happened while the jury was out of the room Jury is being dismissed early so YGR can deal with an objection to Birchall&#8217;s testimony. Birchall is actually very funny outside of court? Good for him. We are now hearing about the pause in quarterly donations. We&#8217;re back. Second break of the day. Birchall cross. Elon Musk confirms xAI used OpenAI’s models to train Grok Birchall has just been asked about the four Teslas. Birchall testifies about Musk’s contributions to OpenAI. A woman in the gallery has lowered a sleep mask over her eyes and is attempting to sleep. Musk steps down. He may be recalled. We are on re-cross. Musk is getting testy again. The Microsoft investment comes back up. And we&#8217;re back. We&#8217;re in break — and I just checked out something interesting. Elon Musk’s robot army definitely will not kill you. Musk insists he wasn’t kneecapping OpenAI. Musk seems notably more subdued today. “At least change the name,” Musk says he told Altman. Elon Musk v. Capitalism. An “ongoing conversation” around open source. We’re still talking about whether Musk read the term sheet. The jurors have been seated. Musk has just entered the courtroom. &#8220;Issues of extinction are excluded.&#8221; Good morning! Elon Musk’s worst enemy in court is Elon Musk Freedom! Unfortunately we will not be talking about safety details of any specific product. The jury is leaving for the day. &#8220;I suspect it&#8217;s a nice day out there,&#8221; YGR says. MechaHitler might be a bad look for the AI safety defender. Musk’s broader AI safety commitment (or lack thereof) comes up. This is so testy. Did Musk even read the OpenAI term sheet? Musk asked Shivon Zilis to stay “close and friendly” with OpenAI to keep info flowing. Musk says xAI probably won’t be the first to get to AGI. We’re back from a break, talking about SpaceX and xAI. Don’t worry about Tesla’s robot army! “You mostly do unfair questions.” “It’s a free country.” “Will you answer my question?” Musk’s desire for control comes up again. “This is a hypothetical.” Did Musk initially envision OpenAI as a corporation? Musk is being combative on cross already. “I did say that I would commit up to a billion dollars, yes.” Is Tesla really not working on AGI? Musk is returning to the stand. At times, being a judge is much like being a kindergarten teacher. We’re on a break. “I mean, all due respect to Microsoft, do you really want Microsoft controlling digital superintelligence?” “What’s going on here this is a bait and switch.” A Musk-Altman spat about Microsoft. Musk really cannot help himself. “Capped profit” wasn’t an issue, even when Microsoft got involved. “Tesla is not pursuing AGI.” Musk is more on his game today. “After I received these reassurances that OpenAI would continue to be a nonprofit I continued to donate over $10 million.” “I actually was a fool who provided free funding for them to create a startup.” More discussion of who would own OpenAI. “I don’t lose my temper,” says Elon Musk. “2017 was a hard year, and we’ve made mistakes.” &#8220;I formed many for-profit tech companies, and could have done so with OAI,&#8221; &#8220;Crystal clear focus.&#8221; Sam Altman has just entered the room, right ahead of the jury. A member of the public just got dressed down by YGR about taking photos. Musk v. Altman et al. is back in session. In naming OpenAI, Elon Musk worried anything related to the Turing Test could mean bad PR. Elon Musk appeared more petty than prepared That&#8217;s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk&#8217;s lawyer didn&#8217;t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as “any human as soon as next year.” Musk claims he has time for SpaceX, Tesla, Neuralink, and the Boring Company because he works a lot. Musk is telling the jury he (co)founded Tesla. Neuralink&#8217;s long-term goal is&#8230; AI? “There need to be things that people are excited about that make life worth living … Being out there among the stars can excite everyone.” A little Musk biography. Elon Musk, looking funereal in a black suit with a black tie, says &#8220;it&#8217;s not okay to steal a charity.&#8221; Elon Musk takes the stand in high-profile trial against OpenAI We are back from a break. Elon Musk will be the first witness in Musk v. Altman. “Microsoft unlocked with OpenAI a virtuous cycle.” Microsoft enters the chat. “We are here because Mr. Musk didn’t get his way at OpenAI.” “[Musk] demanded control, he demanded the ability to make all the decisions without regard to the other founders.” OpenAI lawyers argue that Elon was right in the middle of discussions about a for-profit pivot. “Musk was furious that OpenAI succeeded.” OpenAI: Musk’s lawsuit is a “pageant of hypocrisy.” Sam Altman&#8217;s &#8220;related party conflicted transactions&#8221; are how he made money on OpenAI, Molo says. Technical difficulties. OpenAI is like a museum store that has looted the Picassos and pocketed the profits. AGI might be out of fashion in the AI world, but it will be at the center of this trial. &#8220;The defendants in this case stole a charity.&#8221; Musk and Altman go to court Good morning from the Musk v. Altman line outside the courtroom. Jury selection in Musk v. Altman: ‘People don’t like him’ We have a jury. Elon Musk&#8217;s lawyer tried to get some jurors thrown out for disliking Musk. Apparently things are exciting outside. We have gone through the first 20 potential jurors. Voir dire has begun. The Elon Musk vs. OpenAI trial starts today. Elon Musk drops fraud claims against OpenAI and Sam Altman before trial. Musk vs. Altman is here, and it&#8217;s going to get messy Elon Musk is about to be a very busy boy! ‘Sideshow’ concerns and billionaire dreams: What I learned from Elon Musk’s lawsuit against OpenAI Elon Musk&#8217;s xAI is suing OpenAI and Apple Inside Elon Musk’s messy breakup with OpenAI Elon Musk is suing OpenAI and Sam Altman again",
+      "rawFullText": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT . In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial manager and Neuralink CEO, Jared Birchall, and OpenAI cofounder Greg Brockman have already testified before the jury. Shivon Zilis , a former OpenAI board member who shares four children with Musk, took the stand last week, and the courtroom also watched former OpenAI CTO Mura Murati’s videotaped deposition . For the trial’s third week, Microsoft CEO Satya Nadella appeared on Monday, followed by OpenAI cofounder and former chief scientist Ilya Sutskever. Altman took the stand on Tuesday to refute the Musk argument that he is a liar and a snake, and now on Thursday, May 14th, we will hear the closing arguments, available via an audio live stream on YouTube . Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI says that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk is asking for the removal of Altman and Brockman , and for OpenAI to stop operating as a public benefit corporation. Musk has also demanded that OpenAI’s nonprofit receive up to $150 billion in damages he’s asking for if he wins the case. People to Know Plaintiff Elon Musk — plaintiff, OpenAI cofounder and now CEO of rival xAI Steven Molo — lead counsel for the plaintiff Jared Birchall — manager of Musk&#8217;s family office Shivon Zilis — former OpenAI board member who shares multiple children with Musk Defendant Sam Altman — defendant, CEO of OpenAI&nbsp; William Savitt — lead counsel for the defendant Greg Brockman — president of OpenAI as well as a cofounder&nbsp; Ilya Sutskever — former chief scientist at OpenAI and a cofounder Judge Yvonne Gonzalez Rogers — aka YGR, trial judge Here’s all the latest on the trial between Musk and Altman: Closing time “I told you in my opening statement you wouldn’t hear very much from Microsoft, and you haven’t” “I feel like I’m going to miss you all,” Savitt tells the jury. Savitt calls out the fact that Musk is abroad with President Trump today. Savitt says Musk has “selective amnesia.” Behold, the Elon Musk jackass trophy Savitt is talking about the statute of limitations. Here&#8217;s the jackass trophy that the jury didn&#8217;t get to see. We are back from our break. William Savitt is taking it home for the OpenAI defense. Tesla AI is evidence of Musk&#8217;s failure, Eddy says. &#8220;The documents tell the truth here,&#8221; Eddy says. Eddy suggests that Musk&#8217;s donated Teslas were, effectively, bribes. Eddy is, wisely, leaning hard on chronology in explaining their defense. Sarah Eddy is giving the closing argument for OpenAI. Molo is done presenting Musk&#8217;s closing argument. For all of the very irritating testimony about &#8220;the blip,&#8221; Molo hasn&#8217;t convincingly connected it to his case. Molo is now attempting to make a case against Microsoft. During our break, the jurors were out of the room, and the lawyers were beefing again. We are back on the millions and billions of OpenAI equity that employees have interest in. This is kind of choppy. Molo is now suggesting that the &#8220;crown jewels&#8221; of OpenAI are its IP. Musk&#8217;s early money meant &#8220;a great, great deal,&#8221; Molo says. Inarguable! Molo calls Shivon Zilis, mother of Musk&#8217;s children, &#8220;the most even-keeled, even-tempered witness at the trial.&#8221; Ah we are back at the museum store funding the museum. Perhaps Mr. Molo is unfamiliar with xAI. Fair enough, Mr. Molo. I see why Molo is leaning on the spoken testimony. Molo is now calling out Altman&#8217;s testimony. Molo is suggesting that Greg Brockman&#8217;s conduct makes him untrustworthy. Molo has begun his closing statement for Elon Musk, who is in China. YGR is now reading aloud the instructions to the jury. The monitor has left the courtroom. We are now having a fight about a new, large monitor that has appeared on the Musk table. &#8220;They didn&#8217;t give us page numbers, your honor.&#8221; Musk left the country with President Trump despite a judge’s orders. Microsoft and OpenAI rest. In the most boring expert testimony yet, Louis Dudney, a forensic accountant, testified about how those funds were spent. The shade we are getting in here is incredible. The cross is focusing on Coates&#8217; pay. John Coates, OpenAI&#8217;s expert witness, is running a demolition derby on Musk&#8217;s expert witness. Museum gift shop metaphor found dead in a ditch. We’re listening to an expert witness, David Hemel, a law professor at NYU. During Elon Musk’s all-hands Q&A before departing OpenAI, Achiam said he felt Musk wanted to “race towards AGI.” Achiam is running circles around this lawyer on cross, without doing the annoying things other witnesses have done. Okay, it&#8217;s time for the cross of Achiam. &#8220;I think he was just upset that he had been challenged,&#8221; Achiam said. &#8220;This was not friendly.&#8221; During the all-hands, Musk expressed concerns about what would happen if DeepMind got to AGI first, &#8220;It was a bit like seeing Bigfoot through Plexiglass,&#8221; Achiam says of seeing Elon Musk in the office. Ilya Sutskever would get up on tables to give speeches in the early days of OpenAI. Achiam talked about the roles of Greg Brockman and Ilya Sutskever in OpenAI’s early days. Josh Achiam described what it was like to work at OpenAI in 2017. Achiam started at OpenAI as an intern in the summer of 2017, and became a full-time employee in December. Hi my name is Josh Achiam and welcome to &#8220;will we see the jackass trophy?&#8221; Fairly stupid choice by Musk&#8217;s lawyers to go after Microsoft&#8217;s major decision rights. Musk cross. I guess we are now going to have a fight about due diligence. &#8220;Our due diligence found no conditions related to Elon Musk,&#8221; Wetter says. Mike Wetter for Microsoft is taking the stand now. Scott, who is wearing sneakers and a black crew neck under his blazer, seems quite pleasant on cross. We are now getting cross-examination from Musk&#8217;s lawyer. Microsoft&#8217;s CTO Kevin Scott is on the stand. Microsoft doesn’t want any of this In his testimony, Musk said he never called anyone a jackass. Incredible evidence dispute this morning. Sam Altman was winning on the stand, but it might not be enough About 200 people work on safety at OpenAI. The chair of OpenAI’s safety and security committee said they’ve formally delayed its model releases. Irritatingly, no one has asked him why he&#8217;s called &#8220;Zico.&#8221; Microsoft establishes that OpenAI has other investors&#8230; We see the Musk &#8220;bait and switch&#8221; texts again. What if we had a drinking game for this trial? Musk says, &#8220;This is a bait and switch&#8221; in a October 2022 text chain. Molo is not doing especially impressive lawyering here. Molo asked Altman if he’d ever fire himself as CEO of the OpenAI for-profit. &#8220;The blip&#8221; again. Well, I do love a long inquiry into the linear nature of time. The difference between Musk and Altman on cross is really stark. Ronan Farrow&#8217;s article is brought up. This cross is spicy! Mr. Molo is going directly in at Altman: &#8220;Do you always tell the truth?&#8221; &#8220;If I knew how difficult and painful this was going to be, I never would have tried,&#8221; Altman said. We are now talking about Altman&#8217;s investments. &#8220;I had poured the last years of my life, and I was watching it be destroyed,&#8221; Altman said. &#8220;I was in this like fog of war, I didn&#8217;t know what was going on,&#8221; Altman says of what happened next. We are now onto &#8220;the Blip.&#8221; Sam Altman says Elon Musk’s mind games were damaging OpenAI OpenAI has raised &#8220;approximately $175 billion&#8221; in investment, Altman says. Altman seems to be getting into his testimony&#8230; Musk didn&#8217;t invest in the OpenAI for-profit because &#8220;he was no longer going to invest in any startups he did not control.&#8221; It looks like Sam Altman discussed the for-profit OpenAI with Elon Musk in detail. &#8220;Unlike a lot of other meetings with Mr. Musk, this was a good vibes meeting.&#8221; Now into Shivon Zilis. Altman says he retained her on the board to try to keep friendly relations with Musk. &#8220;I was annoyed&#8221; when Elon Musk tried to recruit talent from OpenAI, Altman said. Musk resigned because he had lost confidence in OpenAI &#8220;and did not believe we were going to be successful.&#8221; Musk suspended his quarterly donations in 2017. That left OpenAI in &#8220;a very tough position.&#8221; When it was time to get more capital, Musk was pushing OpenAI to be acquired by Tesla. A particularly &#8220;hair-raising moment&#8221; for Altman was a succession plan from Musk. Elon Musk has control issues, Altman says. Sam Altman takes the stand in trial against Elon Musk OpenAI has called Sam Altman as a witness. Taylor says the reason OpenAI Foundation has been able to do more work is the recapitalization. Bret Taylor is back on the stand. We&#8217;ve talked about how this case isn&#8217;t just for whatever happens in the court&#8230; Bret Taylor has been asked to slow down twice. &#8220;OpenAI is decidedly not profitable,&#8221; Taylor said. There&#8217;s &#8220;a lot of tension&#8221; between LLMs and what Taylor calls &#8220;content companies&#8221;&#8230; Plantiff rests. OpenAI calls its first witness, Bret Taylor of OpenAI Foundation. Ilya Sutskever says he was uncomfortable with Musk&#8217;s large ownership demand. Sutskever&#8217;s testimony is kind of a snooze so far. Satya Nadella is excused. A lot of people contact Satya Nadella about their boards, apparently! Microsoft&#8217;s lawyer is now back with Nadella. We are discovering that Satya Nadella knows very little about the OpenAI nonprofit. I can&#8217;t speak for the jury but I am very, very sick of hearing about &#8220;the blip.&#8221; &#8220;Not consistently candid&#8221; press release about Sam Altman&#8217;s firing is what Molo is citing as why Nadella should have known why Altman was fired. We are arguing now about risk and return. &#8220;I don’t want to be IBM and OpenAI to be Microsoft.&#8221; We are on cross, with Steven Molo for Musk. Satya Nadella seemed to forget he currently served on the board of a nonprofit. What is Copilot? During Altman’s ouster, Satya Nadella tried to reassure investors everything would not “crumble.” &#8220;Below them, above them, around them.&#8221; &#8220;We have each other&#8217;s phone numbers,&#8221; Nadella says of Musk. Nadella tells us that before the OpenAI partnership, Google was its biggest AI competitor. Satya Nadella is taking the stand, in a navy suit and a light blue tie with a white shirt. Jury is here. We are now finishing a video deposition from Friday about the OAI deal with MSFT. 👑 We are having an arugment about evidence. Musk v. Altman week two recap. Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster Oh this tack is more effective. Then OpenAI lawyer is going after Columbia&#8230; This cross of Schizer is pretty weak. Basically everything Schizer is saying is couched as a hypothetical&#8230; We are now hearing from David Schizer, one of Musk&#8217;s expert witnesses. We are still listening to McCauley. Tasha McCauley is testifying now in a video deposition. &#8220;Do you have any idea how you ended up in this courtroom?&#8221; I am having a hard time taking Rosie Campbell seriously. We are now hearing from Rosie Campbell, a former OpenAI employee. OpenAI&#8217;s board discussed merging with Anthropic during &#8220;the Blip.&#8221; Helen Toner is now talking about the board&#8217;s decision-making process. YGR is back on the bench. Musk’s biggest loyalist became his biggest liability We are going through the removal of Sam Altman from OpenAI in detail. Toner is relating how Sam Altman’s firing happened. Toner says she found out about ChatGPT by seeing screenshots on Twitter. Making AI models is &#8220;more like alchemy than chemistry,&#8221; Toner says. We are now looking at Helen Toner&#8217;s deposition. Microsoft would like to be excluded from this narrative. &#8220;It&#8217;s not in my neurons,” Zilis says, instead of &#8220;I don&#8217;t remember.&#8221; Sarah Eddy, an attorney representing OpenAI, got sarcastic with Zilis. Shivon Zilis brainstormed possible scenarios for AI. Musk offered Sam Altman a board seat at Tesla&#8230; Shivon&#8217;s emails aren&#8217;t great for Musk. The big sticking point for Brockman and Sutskever was control. Sam Altman loves exclamation marks. Mira Murati tells the court that she couldn’t trust Sam Altman’s words Zilis&#8217; past emails mentioned in court proceedings include her referencing a potential &#8220;conversion to for-profit&#8221; for OpenAI. This is getting interesting. Zilis sent Altman a text message of support after his 2023 ouster. Zilis said another concern she had about Altman related to OpenAI’s potential deal with Helion. Also in the spirit of clarifications this morning&#8230; Zilis said she had major concerns about OpenAI’s board not being notified in advance of ChatGPT’s release. Zilis said that the fallout from Altman’s 2023 ouster changed her view of OpenAI’s Microsoft deal. When asked how much Musk works per week, Zilis laughed. Musk&#8217;s team has called Shivon Zilis. Murati says problems with Altman persisted after he returned to the company. &#8220;OpenAI was at catastrophic risk of falling apart&#8221; when Altman was fired, Murati says. We are seeing video testimony from Mira Murati&#8217;s deposition. We are clearing up “a few inaccuracies from yesterday.” We are taking care of some matters before the jury comes in. Microsoft and OpenAI&#8217;s definition of AGI was just revealed. The jurors look as bored as I feel. Brockman steps down. We are looking at the video deposition of Robert Wu. Brockman is telling the truth about considering removing Musk from the board. Every time Molo makes a summary of Brockman’s testimony, Brockman objects to it. We are now fighting about “Either go do something on your own or continue with OpenAI as a non-profit.” One other thing I don’t understand… Molo is trying to reiterate what he did more effectively yesterday. “You had no problems answering your lawyers’ questions,” Molo is practically yelling. Molo asks Brockman if Musk was “being mean” to him. We are back to quibbling. We are now discussing the OpenAI Foundation layoffs. Microsoft is done, bless them. Microsoft is now getting to talk to Brockman. The blip. We are now discussing Shivon Zilis. We are now going through the assorted releases of GPT models. When Musk resigned, he gave a speech to OpenAI’s employees that might have been demoralizing… One observation from Brockman and Sutskever’s emails. We are now recontextualizing more entries from Brockman. There were discussions between Brockman, Altman, and Sutskever about removing Musk from the board. We are back from a break. “I thought he was going to hit me,” Brockman says of Musk. Elon Musk doesn’t love anything he can’t control. Sam Altman discussed an equal equity split… We are now discussing Brockman’s journal. Brockman talks Dota 2. Elon Musk tried to get Bill Gates to donate to OpenAI. First sidebar of the trial. OpenAI had layoffs at Musk’s insistence. Greg Brockman tells the court that while at OpenAI, he and three others worked at Tesla. YGR is on the bench. Google’s AI architect lived rent-free in Elon Musk’s head OpenAI’s president does ‘all the things,’ except answer a question Jury is sent out for the day. We are hearing about the early days of OpenAI. Early worries about Musk came from Ilya Sutskever. Brockman is describing his bromance with Altman. “I do all the things.” Brockman says we are 80 percent of the way to AGI. Open AI’s direct examination of Brockman is pretty sedate so far… aside from Tesla. OpenAI’s lawyers are now getting their shot at Brockman. For real, I think nerds should not testify in court. We are now looking at Brockman’s other financial dealings. We finished with the Microsoft investment pretty quickly. Altman didn’t return after we took our break. We are presently having a fight about purple boxes. We have been doing the same question for perhaps the last five minutes. “Financially what will take me to $1B?” “His story will correctly be that we weren’t honest with him in the end about still wanting to do the for profit just without him.” Greg Brockman’s journal: “it’d be wrong to steal the non-profit from him.” Brockman is not doing himself any favors. Brockman’s cross-examination isn’t as testy as Musk’s, but he’s also pushing back on a lot of questions. Is sending stuff to Sam Teller and Shivon Zilis the same as sending it to Musk? Brockman and Altman’s alliance? “Is Demis Hassabis evil?” Greg Brockman is talking about the earliest days of OpenAI. Greg Brockman and Sam Altman have just entered the courtroom. We’re done with Russell. “The age of abundance for Elon.” Oh now we have some meat. Elon Musk’s expert doesn’t follow him on X. I am befuddled by this expert testimony. We are dealing with the cross now. Sure is lucky that mentions of Grok’s safety issues got limited. Individual vs. systemic risk. We now have a very boring expert witness testifying to AI risks. Stuart Russell is here to tell us about AI. “I need that today. That’s good. I like that.” Greg Brockman won’t be asked about Musk’s threat. Elon Musk tried to settle before the trial — and got threatening. Musk v. Altman is getting a live audio stream next week. OpenAI Tesla receipts and other Musk v. Altman documents. All the evidence revealed so far in Musk v. Altman Here&#8217;s how Gabe Newell and Hideo Kojima ended up in the Musk v. Altman evidence. The craziest part of Musk v. Altman happened while the jury was out of the room Jury is being dismissed early so YGR can deal with an objection to Birchall&#8217;s testimony. Birchall is actually very funny outside of court? Good for him. We are now hearing about the pause in quarterly donations. We&#8217;re back. Second break of the day. Birchall cross. Elon Musk confirms xAI used OpenAI’s models to train Grok Birchall has just been asked about the four Teslas. Birchall testifies about Musk’s contributions to OpenAI. A woman in the gallery has lowered a sleep mask over her eyes and is attempting to sleep. Musk steps down. He may be recalled. We are on re-cross. Musk is getting testy again. The Microsoft investment comes back up. And we&#8217;re back. We&#8217;re in break — and I just checked out something interesting. Elon Musk’s robot army definitely will not kill you. Musk insists he wasn’t kneecapping OpenAI. Musk seems notably more subdued today. “At least change the name,” Musk says he told Altman. Elon Musk v. Capitalism. An “ongoing conversation” around open source. We’re still talking about whether Musk read the term sheet. The jurors have been seated. Musk has just entered the courtroom. &#8220;Issues of extinction are excluded.&#8221; Good morning! Elon Musk’s worst enemy in court is Elon Musk Freedom! Unfortunately we will not be talking about safety details of any specific product. The jury is leaving for the day. &#8220;I suspect it&#8217;s a nice day out there,&#8221; YGR says. MechaHitler might be a bad look for the AI safety defender. Musk’s broader AI safety commitment (or lack thereof) comes up. This is so testy. Did Musk even read the OpenAI term sheet? Musk asked Shivon Zilis to stay “close and friendly” with OpenAI to keep info flowing. Musk says xAI probably won’t be the first to get to AGI. We’re back from a break, talking about SpaceX and xAI. Don’t worry about Tesla’s robot army! “You mostly do unfair questions.” “It’s a free country.” “Will you answer my question?” Musk’s desire for control comes up again. “This is a hypothetical.” Did Musk initially envision OpenAI as a corporation? Musk is being combative on cross already. “I did say that I would commit up to a billion dollars, yes.” Is Tesla really not working on AGI? Musk is returning to the stand. At times, being a judge is much like being a kindergarten teacher. We’re on a break. “I mean, all due respect to Microsoft, do you really want Microsoft controlling digital superintelligence?” “What’s going on here this is a bait and switch.” A Musk-Altman spat about Microsoft. Musk really cannot help himself. “Capped profit” wasn’t an issue, even when Microsoft got involved. “Tesla is not pursuing AGI.” Musk is more on his game today. “After I received these reassurances that OpenAI would continue to be a nonprofit I continued to donate over $10 million.” “I actually was a fool who provided free funding for them to create a startup.” More discussion of who would own OpenAI. “I don’t lose my temper,” says Elon Musk. “2017 was a hard year, and we’ve made mistakes.” &#8220;I formed many for-profit tech companies, and could have done so with OAI,&#8221; &#8220;Crystal clear focus.&#8221; Sam Altman has just entered the room, right ahead of the jury. A member of the public just got dressed down by YGR about taking photos. Musk v. Altman et al. is back in session. In naming OpenAI, Elon Musk worried anything related to the Turing Test could mean bad PR. Elon Musk appeared more petty than prepared That&#8217;s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk&#8217;s lawyer didn&#8217;t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as “any human as soon as next year.” Musk claims he has time for SpaceX, Tesla, Neuralink, and the Boring Company because he works a lot. Musk is telling the jury he (co)founded Tesla. Neuralink&#8217;s long-term goal is&#8230; AI? “There need to be things that people are excited about that make life worth living … Being out there among the stars can excite everyone.” A little Musk biography. Elon Musk, looking funereal in a black suit with a black tie, says &#8220;it&#8217;s not okay to steal a charity.&#8221; Elon Musk takes the stand in high-profile trial against OpenAI We are back from a break. Elon Musk will be the first witness in Musk v. Altman. “Microsoft unlocked with OpenAI a virtuous cycle.” Microsoft enters the chat. “We are here because Mr. Musk didn’t get his way at OpenAI.” “[Musk] demanded control, he demanded the ability to make all the decisions without regard to the other founders.” OpenAI lawyers argue that Elon was right in the middle of discussions about a for-profit pivot. “Musk was furious that OpenAI succeeded.” OpenAI: Musk’s lawsuit is a “pageant of hypocrisy.” Sam Altman&#8217;s &#8220;related party conflicted transactions&#8221; are how he made money on OpenAI, Molo says. Technical difficulties. OpenAI is like a museum store that has looted the Picassos and pocketed the profits. AGI might be out of fashion in the AI world, but it will be at the center of this trial. &#8220;The defendants in this case stole a charity.&#8221; Musk and Altman go to court Good morning from the Musk v. Altman line outside the courtroom. Jury selection in Musk v. Altman: ‘People don’t like him’ We have a jury. Elon Musk&#8217;s lawyer tried to get some jurors thrown out for disliking Musk. Apparently things are exciting outside. We have gone through the first 20 potential jurors. Voir dire has begun. The Elon Musk vs. OpenAI trial starts today. Elon Musk drops fraud claims against OpenAI and Sam Altman before trial. Musk vs. Altman is here, and it&#8217;s going to get messy Elon Musk is about to be a very busy boy! ‘Sideshow’ concerns and billionaire dreams: What I learned from Elon Musk’s lawsuit against OpenAI Elon Musk&#8217;s xAI is suing OpenAI and Apple Inside Elon Musk’s messy breakup with OpenAI Elon Musk is suing OpenAI and Sam Altman again",
       "tags": [
         "大模型",
         "公司动态"
@@ -136,17 +168,18 @@
       "score": 99
     },
     {
-      "title": "根据Ramp数据， Anthropic现在拥有比OpenAI更多的商业客户",
-      "originalTitle": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
-      "date": "2026-05-13T14:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Anthropic now has more business customers than OpenAI...",
-      "fullContent": "根据金融科技公司Ramp的客户费用数据编制的一项调查显示， 34. 4%的参与企业为Anthropic服务付费，高于任何其他人工智能实验室，而只有32. 3%的企业为OpenAI付费。",
-      "originalSummary": "A survey compiled from fintech firm Ramp’s clients’ expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.",
+      "title": "帮助ChatGPT更好地识别敏感对话中的语境",
+      "originalTitle": "Helping ChatGPT better recognize context in sensitive conversations",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "date": "2026-05-14T00:00:00.000Z",
+      "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Helping ChatGPT better recognize context in sensitive...",
+      "fullContent": "新的安全更新有助于ChatGPT在风险随着时间的推移而出现时做出安全响应。人们每天都会来ChatGPT谈论对他们来说重要的事情，从日常问题到更私人或更复杂的对话。在数亿次互动中，其中一些对话包括正在挣扎或经历痛苦的人。 我们设计的系统在这些时刻谨慎应对，包括提供危机资源，并在需要时将人们与他们信任的人联系起来。今天，我们将分享有关安全更新的新细节，帮助ChatGPT通过识别微妙或不断变化的线索，并利用这一背景为安全响应提供信息，从而更好地识别风险何时会随着时间的推移而出现。 这有助于ChatGPT区分人们每天数以亿计的安全互动，以及需要额外谨慎的罕见情况，以便更谨慎地应对，例如通过降级、拒绝有害细节或重定向到更安全的替代方案。 这些改进基于多年来在模型培训、评估、监控系统方面的广泛工作，以及与心理健康和安全专家两年多的合作。在敏感的对话中，上下文与单个消息一样重要。当与先前的痛苦迹象或可能的有害意图一起看待时，看起来平凡或模棱两可的请求可能具有非常不同的含义。 为了做出适当的回应，我们对ChatGPT进行了培训，使其能够识别周围环境中的潜在有害意图，以便拒绝请求、降级并引导用户获得支持。这些情况并不常见，但对正确处理至关重要。我们的目标是帮助ChatGPT在重要时连接相关信号，而不会在日常对话中反应过度。 我们将工作重点放在自杀、自残和伤害他人等紧急情况上。我们与心理健康专家合作，更新了我们的模型政策和培训，以提高ChatGPT识别对话过程中出现的警告信号的能力，并利用该背景为更谨慎的回应提供信息。在这些罕见的高风险情况下， ChatGPT可以更好地区分良性请求和可能表明更高伤害风险的请求。 这建立在我们的安全完成方法的基础上，该方法旨在拒绝用户请求中不安全的部分，并在安全的情况下谨慎回应。目标是帮助模型更恰当地响应背景，在对话中出现伤害信号时提高警惕，同时在良性情况下继续做出有益的回应。在不同的对话中可能会出现一些安全风险。 一个对话可能包含潜在有害意图的微妙迹象，然后另一个对话可能包含相关请求，这些请求只有在与先前的上下文结合理解时才会引发担忧。如果没有这种安全相关的背景，后来的谈话--以及潜在的重要警告信号--可能看起来是良性的。",
+      "originalSummary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "大模型",
+        "安全"
       ],
       "score": 99
     },
@@ -157,7 +190,7 @@
       "link": "https://openai.com/index/building-codex-windows-sandbox",
       "date": "2026-05-13T11:00:00.000Z",
       "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Building a safe, effective sandbox to enable Codex on...",
-      "fullContent": "了解OpenAI如何在Windows上为Codex构建安全的沙箱，通过受控文件访问和网络限制实现安全、高效的编码代理。",
+      "fullContent": "这条消息来自 OpenAI，主题是“构建安全、有效的沙箱，以在Windows上启用Codex”。它主要涉及公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
       "rawFullText": "",
       "tags": [
@@ -167,19 +200,64 @@
       "score": 99
     },
     {
-      "title": "Notion刚刚将其工作区变成了人工智能代理的中心",
-      "originalTitle": "Notion just turned its workspace into a hub for AI agents",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-      "date": "2026-05-13T21:45:09.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Notion just turned its workspace into a hub for AI ag...",
-      "fullContent": "Notion的新开发人员平台允许团队将AI代理、外部数据源和自定义代码直接连接到他们的工作区，因为该公司正在深入开发代理生产力软件。",
-      "originalSummary": "Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "originalTitle": "Our response to the TanStack npm supply chain attack",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "date": "2026-05-13T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Our response to the TanStack npm supply chain attack",
+      "fullContent": "这条消息来自 OpenAI，主题是“Our response to the TanStack npm supply chain attack”。它主要涉及公司动态方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
       "rawFullText": "",
       "tags": [
-        "智能体"
+        "公司动态"
       ],
-      "score": 95
+      "score": 93
+    },
+    {
+      "title": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
+      "originalTitle": "Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "date": "2026-05-13T22:04:28.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Microsoft&#8217;s Edge Copilot update uses AI to pull...",
+      "fullContent": "这条消息来自 The Verge AI，主题是“Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its [&#8230;]",
+      "rawFullText": "Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its announcement, Microsoft says you can \"select which experiences you want or leave off the ones you don't.\" The company is retiring Copilot Mode as well, which could similarly draw information from your tabs but offered some agentic features, like the ability to book a reservation on your behalf. Microsoft has since folded these … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "AI chatbots are giving out people’s real phone numbers",
+      "originalTitle": "AI chatbots are giving out people’s real phone numbers",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "date": "2026-05-13T18:09:03.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：AI chatbots are giving out people’s real phone numbers",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“AI chatbots are giving out people’s real phone numbers”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a locksmith.” Callers were apparently misdirected by Google’s generative AI.&#160; In March, a software developer in Israel was contacted on WhatsApp&#8230;",
+      "rawFullText": "A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a locksmith.” Callers were apparently misdirected by Google’s generative AI.&nbsp; In March, a software developer in Israel was contacted on WhatsApp after Google’s chatbot Gemini provided incorrect customer service instructions that included his number.&nbsp; And in April, a PhD candidate at the University of Washington was messing around on Gemini and got it to cough up her colleague’s personal cell phone number.&nbsp; AI researchers and online privacy experts have long warned of the myriad dangers generative AI poses for personal privacy. These cases give us yet another scenario to worry about: generative AI exposing people’s real phone numbers. (The Redditor did not respond to multiple requests for comment and we could not independently verify his story.) Experts say that these privacy lapses are most likely due to the use of personally identifiable information (PII) in training data , though it’s hard to understand the exact mechanism causing real phone numbers to show up in the AI-generated responses. But no matter the reason, the result is not fun for people on the receiving end—and,even more worryingly, there appears to be little that anyone can do to stop it. A 400% increase in AI-related privacy requests It’s impossible to know how often people’s phone numbers are exposed by AI chatbots, but experts say they believe that it is happening far more than is reported publicly.&nbsp; DeleteMe, a company that helps customers remove their personal information from the internet, says customer queries about generative AI have increased by 400%—up to a few thousand—in the last seven months. These queries “specifically reference ChatGPT, Claude, Gemini … or other generative AI tools,” says Rob Shavell, the company’s cofounder and CEO. Specifically, 55% of these concerns about generative AI reference ChatGPT, 20% reference Gemini, 15% Claude, and 10% other AI tools, Shavell says. ( MIT Technology Review has a business subscription to DeleteMe.) Shavell says customer complaints about personal information surfaced by LLMs usually take two forms. In one common situation, “a customer asks a chatbot something innocuous about themselves and gets back accurate home addresses, phone numbers, family members’ names, or employer details.” Alternatively, a customer may be confronted with and report the exposure of someone else’s personal data, when “the chatbot generates plausible-but-wrong contact information.” This aligns with what happened to Daniel Abraham, a 28-year-old software engineer in Israel. In mid-March, he says, a stranger sent him a “weird WhatsApp message from an unknown number” asking for help with his account in PayBox, an Israeli payment app.&nbsp; “I thought it was a spam message,” he wrote to MIT Technology Review in an email—“someone who was trying to troll me.” But when he asked the stranger how they had found his number, they sent him a screenshot of Gemini’s instructions to contact PayBox customer service via WhatsApp—giving his personal number. Abraham does not work for PayBox, and PayBox does not have a WhatsApp customer service number, Elad Gabay, a customer service representative for the company, confirmed. Later, Abraham asked Gemini how to contact PayBox, and it generated another person’s WhatsApp number. When I recently asked, Gemini again responded with an Israeli phone number—it belonged not to PayBox but to a separate credit card company that works with PayBox. Screenshot: Google Gemini provides MIT Technology Review with the incorrect number for PayBox. Abraham’s exchange with the stranger ended quickly, but he said he was concerned about how other potential exchanges could turn sour, leading to “harassment or other bad interactions.” “What if I asked for money in order to ‘solve’ that [customer service] issue?” he said. To try to figure out how this happened, Abraham ran a regular Google search on his phone number, and he found that it had been shared online once, back in 2015, on a local site similar to Quora. Though he’s not sure who posted it there, it may explain how it ended up being reproduced by Gemini over a decade later.&nbsp; Chatbots like Gemini, Open AI’s ChatGPT, and Anthropic’s Claude are built on LLMs that are trained on huge amounts of data scraped from across the web. This inevitably includes hundreds of millions of instances of PII. As we reported last summer, for example, the large popular open-source data set DataComp CommonPool, which has been used to train image-generation models, included copies of résumés, driver’s licenses, and credit cards.&nbsp; The likelihood of PII surfacing this way is only increasing as public data “runs out” and AI companies look for new sources of high-quality training data. This includes information from data brokers and people-search websites. According to the California data broker registry , for instance, 31 of 578 registered data brokers operating in the state self-reported that they had “shared or sold consumers’ data to a developer of a GenAI system or model in the past year.” Furthermore, models are known to memorize and reproduce data verbatim from training data sets—and recent research suggests that it is not just frequently appearing data that is most likely to be memorized. Imperfect measures It’s standard practice now to build guardrails into an LLM’s design to constrain certain outputs. Content filters aim to identify PII and prevent chatbots from releasing it, for example, and Anthropic provides instructions to Claude to choose responses that contain “the least personal, private, or confidential information belonging to others.” But as a pair of University of Washington PhD students researching privacy and technology saw firsthand recently, these safeguards don’t always work. “One day, I was just playing around on Gemini, and I searched for Yael Eiger, my friend and collaborator,” Meira Gilbert says. She typed in “Yael Eiger contact info,” and after Gemini provided an overview of Eiger’s research, which Gilbert had expected, Gemini also returned her friend’s personal phone number. “It was shocking,” Gilbert says. When she saw the Gemini result, Eiger remembered that she had, in fact, shared her phone number online in the previous year, for a technology workshop. But she had not expected it to be so visible to everyone on the internet.&nbsp; Have you had your PII revealed by generative AI? Reach the reporter on Signal at eileenguo.15 or tips@technologyreview.com. “Having your information be … accessible to one audience, and then Gemini making it accessible to anyone” feels completely different, Eiger says—especially when she found that the information was buried in a normal Google search. “It was severely downgraded,” Gilbert confirms. “I never would have found it if I was just looking through Google results.” (I tried the same prompt in Gemini earlier this month, and after an initial denial, the tool also gave me Eiger’s number.) After this experience, Eiger, Gilbert, and another UW PhD student, Anna-Maria Gueorguieva, decided to test ChatGPT to see what it would surface about a professor.&nbsp; At first, OpenAI’s guardrails kicked in, and ChatGPT responded that the information was unavailable. But in the same response, the chatbot suggested, “If you want to go deeper, I can still try a more ‘investigative-style’ approach.” Their inquiry just had to help “narrow things down,” ChatGPT said, by providing “a neighborhood guess” for where the professor might live, or “a possible co-owner name” for the professor’s home. ChatGPT continued: “That’s usually the only way to surface newer or intentionally less-visible property records.” The students provided this information, leading ChatGPT to produce the professor’s home address, home purchase price, and spouse’s name from city property records.&nbsp; (Taya Christianson, an OpenAI representative, said she was not able to comment on what happened in this case without seeing screenshots or knowing which model the students had tested, though we pointed out that many users may not know which model they were using in the ChatGPT interface. In response to questions about the exposure of PII, she sent links to documents describing how OpenAI handles privacy, including filtering out PII , and other tools.)&nbsp; This reveals one of the fundamental problems with chatbots, says DeleteMe’s Shavell. AI companies “can build in guardrails,” but their chatbots are also “designed to be effective and to answer customer questions.” The exposure issue is not limited to Gemini or ChatGPT. Last year, Futurism found that if you promptedxAI’s chatbot Grok with “[name] address,” in almost all cases it provided not only residential addresses but also often the person’s phone numbers, work addresses, and addresses for people with similar-sounding names. (xAI did not respond to a request for comment.) No clear answers There aren’t straightforward solutions to this problem—there’s no easy way to either verify whether someone’s personal information is in a given model’s training set or compel the models to remove PII. Ideally, individual consumers should be able to request that their PII be removed, says Jennifer King, the privacy and data fellow at Stanford University Institute for Human-Centered Artificial Intelligence. But this is typically interpreted to apply only to the data that people have directly given to companies—like when they interact with a chatbot, King explains. “I don’t know if Google even has the infrastructure … to say to me, ‘Yes, we have your data in our training data, we can summarize what we know about you, and then we can delete or correct things that are wrong or things that you don&#8217;t want in there,’” she says.&nbsp; Existing privacy legislation, like the California Consumer Privacy Act or Europe’s GDPR, does not cover the “publicly available” information that has already been scraped and used to train LLMs, especially since much of this is anonymized (though multiple studies have also shown how easy it is to infer identities and PII from anonymized and pseudonymous data).&nbsp; As to “whether they [AI companies] have ever systematically tried to go back through data that had already been collected from the public internet and minimized that stuff?” King adds. “No idea.”&nbsp; The next best solution would be companies’ “taking out everybody’s phone numbers or all data that resembles [phone numbers],” King says, but “nobody’s been willing to say” they’re doing that. Hugging Face, a platform that hosts open-source data sets and AI models, has a tool that allows people to search how often a piece of data—like their phone number—has appeared in open-source LLM training data, but this does not necessarily represent what has been used to train closed LLMs that power popular chatbots like Claude, ChatGPT, and Gemini. (Eiger’s number, for example, did not show up in Hugging Face’s tool.) Alex Joseph, the head of communications for Gemini apps and Google Labs, did not respond to specific questions, but he said that “the team” is “looking into” the particular cases flagged by MIT Technology Review . He also provided a link to a support document that describes how users can “object to the processing of your personal data” or “ask for inaccurate personal data in Gemini Apps’ responses to be corrected.” The page notes that the company’s response will depend on the privacy laws of your jurisdiction.&nbsp; OpenAI has a privacy portal that allows people to submit requests to remove their personal information from ChatGPT responses, but notes that it balances privacy requests with the public interest and “may decline a request if we have a lawful reason for doing so.”&nbsp; Anthropic describes how it uses personal data in model training, but it does not have a clear way for people to request its removal. The company did not respond to a request for comment. The best option for anyone who wants to protect private data right now is to “start upstream: get personal data off the public web before it ends up in the next scrape,” says Shavell. Since the start of the year, for instance, California has offered its residents a web portal to request that data brokers delete their information. Still, this doesn’t guarantee that your data hasn’t already been used for training—and will therefore not appear in a chatbot’s response. The Redditor who received incessant calls posted that he had “submitted an official Legal Removal/Privacy Request to Google, asking them to urgently blacklist my number from their LLM outputs,” but had not yet received a response. He also wrote last month that “the harassment continues daily.”&nbsp; Abraham, the Israeli software developer, says he contacted Google’s customer service on March 17, the day after his phone number was exposed. He says he did not receive a response until May 4, and it simply asked for documentation that he had already provided.&nbsp; Meanwhile, inspired by her own exposure on Gemini, Eiger is working with Gilbert and Gueorguieva on a research project to further study what personal information is being pulled up by various AI chatbots—and what they may know, even if they’re not telling us. Some of that information may “technically be public,” says Gilbert, but chatbots may be altering “the amount of effort you would put into finding” it. Now instead of searching through 10 pages of Google search results, or paying for the information from a data broker site, “does generative AI just lower the barrier to entry to target people?”&nbsp; This piece has been updated to clarify OpenAI&#8217;s response.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
+      "originalTitle": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "date": "2026-05-13T16:45:43.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Mark Zuckerberg announces &#8216;completely private&#...",
+      "fullContent": "这条消息来自 The Verge AI，主题是“Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [&#8230;]",
+      "rawFullText": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it also uses end-to-end encryption, which Meta recently removed from Instagram DMs : \"Other apps have introduced incognito-style modes, but they can still see the questions coming in and the answers going out. Incognito Chat with Meta AI is truly private, meaning no one - not even Meta - can read your conversations.\" Google … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "NVIDIA工程师和研究人员如何使用Codex构建",
@@ -188,7 +266,7 @@
       "link": "https://openai.com/index/nvidia",
       "date": "2026-05-12T00:00:00.000Z",
       "summary": "这条新闻与大模型、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How NVIDIA engineers and researchers build with Codex",
-      "fullContent": "团队使用带有GPT-5. 5的Codex来运送生产系统，并将研究想法转化为可运行的实验。",
+      "fullContent": "这条消息来自 OpenAI，主题是“NVIDIA工程师和研究人员如何使用Codex构建”。它主要涉及大模型、算力芯片方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "rawFullText": "",
       "tags": [
@@ -211,7 +289,7 @@
         "智能体",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "AutoScout24利用人工智能驱动的工作流程扩展工程",
@@ -220,13 +298,13 @@
       "link": "https://openai.com/index/autoscout24",
       "date": "2026-05-12T00:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：AutoScout24 scales engineering with AI-powered workfl...",
-      "fullContent": "了解AutoScout24 Group如何使用Codex和ChatGPT来加快开发周期、提高代码质量并扩大人工智能的采用范围。",
+      "fullContent": "这条消息来自 OpenAI，主题是“AutoScout24利用人工智能驱动的工作流程扩展工程”。它主要涉及大模型方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "财务团队如何使用Codex",
@@ -235,44 +313,13 @@
       "link": "https://openai.com/academy/how-finance-teams-use-codex",
       "date": "2026-05-12T15:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How finance teams use Codex",
-      "fullContent": "了解财务团队如何使用Codex根据实际工作输入构建MBR、报告包、差异桥梁、模型检查和规划场景。",
+      "fullContent": "这条消息来自 OpenAI，主题是“财务团队如何使用Codex”。它主要涉及模型方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 88
-    },
-    {
-      "title": "Sam Altman说Elon Musk的思维游戏正在破坏OpenAI",
-      "originalTitle": "Sam Altman says Elon Musk’s mind games were damaging OpenAI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/928861/openai-sam-altman-elon-musk-damage",
-      "date": "2026-05-12T17:34:09.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Sam Altman says Elon Musk’s mind games were damaging ...",
-      "fullContent": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）表示，埃隆·马斯克（ Elon Musk ）对AI初创公司的文化造成了“巨大损害”。在马斯克对OpenAI提起诉讼的证词中，奥尔特曼表示，马斯克要求OpenAI总裁格雷格·布罗克曼（ Greg Brockman ）和前首席科学家伊利亚·萨茨基弗（ Ilya Sutskever ）根据他们的成就对研究人员进行排名，并“通过一堆电锯。“奥尔特曼承认，这是特斯拉首席执行官众所周知的管理风格，但这与他的创业公司不相容。 “我不认为马斯克先生知道如何经营一个好的研究实验室，”当他的律师威廉·萨维特（ William Savitt ）询问马斯克离开OpenAI对士气的影响时，奥尔特曼作证说。“如需了解……请阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI, Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded [&#8230;]",
-      "rawFullText": "OpenAI CEO Sam Altman says Elon Musk did \"huge damage\" to the culture of the AI startup. During testimony as part of Musk's lawsuit against OpenAI , Altman said Musk required OpenAI president Greg Brockman and former chief scientist Ilya Sutskever to rank researchers by their accomplishments and \"take a chainsaw through a bunch.\" Altman conceded that this was the management style the Tesla CEO was known for , but that it was incompatible with his startup. \"I don't think Mr. Musk understood how to run a good research lab,\" Altman testified when his lawyer, William Savitt, asked about the impact of Musk's departure from OpenAI on morale. \"For a … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
-    },
-    {
-      "title": "OpenAI推出DeployCo ，帮助企业围绕智能构建",
-      "originalTitle": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-launches-the-deployment-company",
-      "date": "2026-05-11T06:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI launches DeployCo to help businesses build aro...",
-      "fullContent": "OpenAI推出了DeployCo ，这是一家新的企业部署公司，旨在帮助组织将前沿人工智能引入生产，并将其转化为可衡量的业务影响。",
-      "originalSummary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 97
+      "score": 87
     },
     {
       "title": "2026年初ChatGPT的采用范围扩大",
@@ -281,13 +328,13 @@
       "link": "https://openai.com/signals/research/2026q1-update",
       "date": "2026-05-11T15:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How ChatGPT adoption broadened in early 2026",
-      "fullContent": "ChatGPT的采用率在2026年第一季度飙升， 35岁以上的用户增长最快，性别使用更加平衡，标志着主流人工智能的采用率更高。",
+      "fullContent": "这条消息来自 OpenAI，主题是“2026年初ChatGPT的采用范围扩大”。它主要涉及大模型方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "OpenAI校园网络：学生俱乐部兴趣表",
@@ -296,7 +343,7 @@
       "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
       "date": "2026-05-11T10:00:00.000Z",
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI Campus Network: Student club interest form",
-      "fullContent": "加入OpenAI校园网络，连接世界各地的学生俱乐部，访问人工智能工具，举办活动，并建立一个人工智能驱动的校园社区。",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI校园网络：学生俱乐部兴趣表”。它主要涉及公司动态方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
       "rawFullText": "",
       "tags": [
@@ -305,13 +352,28 @@
       "score": 92
     },
     {
+      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "originalTitle": "Building Blocks for Foundation Model Training and Inference on AWS",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "date": "2026-05-11T23:18:26.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Building Blocks for Foundation Model Training and Inf...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Building Blocks for Foundation Model Training and Inference on AWS”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Building Blocks for Foundation Model Training and Inf...",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
+    },
+    {
       "title": "企业如何扩展人工智能",
       "originalTitle": "How enterprises are scaling AI",
       "source": "OpenAI",
       "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
       "date": "2026-05-11T10:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How enterprises are scaling AI",
-      "fullContent": "企业如何扩展人工智能：从早期实验到通过信任、治理、工作流程设计和大规模质量来复合影响。",
+      "fullContent": "这条消息来自 OpenAI，主题是“企业如何扩展人工智能”。它主要涉及AI 热点方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
       "rawFullText": "",
       "tags": [
@@ -332,23 +394,7 @@
       "tags": [
         "论文"
       ],
-      "score": 78
-    },
-    {
-      "title": "在OpenAI安全运行Codex",
-      "originalTitle": "Running Codex safely at OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/running-codex-safely",
-      "date": "2026-05-08T12:30:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Running Codex safely at OpenAI",
-      "fullContent": "OpenAI如何通过沙盒、批准、网络策略和代理原生遥测安全运行Codex ，以支持安全和合规的编码代理采用。",
-      "originalSummary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 98
+      "score": 77
     },
     {
       "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
@@ -363,23 +409,52 @@
       "tags": [
         "公司动态"
       ],
-      "score": 82
+      "score": 81
     },
     {
-      "title": "通过GPT-5.5和GPT-5.5-Cyber扩展网络可信访问",
-      "originalTitle": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "date": "2026-05-07T13:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Scaling Trusted Access for Cyber with GPT-5.5 and GPT...",
-      "fullContent": "这条消息来自 OpenAI，主题是“通过GPT-5.5和GPT-5.5-Cyber扩展网络可信访问”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "originalTitle": "EMO: Pretraining mixture of experts for emergent modularity",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/emo",
+      "date": "2026-05-08T16:03:50.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：EMO: Pretraining mixture of experts for emergent modu...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“EMO: Pretraining mixture of experts for emergent modularity”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：EMO: Pretraining mixture of experts for emergent modu...",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 71
+    },
+    {
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "originalTitle": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "date": "2026-05-06T19:06:55.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：vLLM V0 to V1: Correctness Before Corrections in RL",
+      "fullContent": "这条消息来自 Hugging Face，主题是“vLLM V0 to V1: Correctness Before Corrections in RL”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：vLLM V0 to V1: Correctness Before Corrections in RL",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 69
+    },
+    {
+      "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "originalTitle": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+      "date": "2026-05-06T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Adding Benchmaxxer Repellant to the Open ASR Leaderbo...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Adding Benchmaxxer Repellant to the Open ASR Leaderboard”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Adding Benchmaxxer Repellant to the Open ASR Leaderbo...",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "利用人工智能加强民主的蓝图",
@@ -409,34 +484,95 @@
       "tags": [
         "公司动态"
       ],
-      "score": 78
+      "score": 77
     },
     {
-      "title": "马斯克诉奥特曼案第1周：埃隆·马斯克（ Elon Musk ）说他被骗了，警告人工智能可能会杀死我们所有人，并承认xAI提炼了OpenAI的模型",
-      "originalTitle": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
-      "date": "2026-05-01T22:08:19.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Musk v. Altman week 1: Elon Musk says he was duped, w...",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“马斯克诉奥特曼案第1周：埃隆·马斯克（ Elon Musk ）说他被骗了，警告人工智能可能会杀死我们所有人，并承认xAI提炼了OpenAI的模型”。它主要涉及公司动态、模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned&#160;that AI could destroy us all and sat through&#8230;",
-      "rawFullText": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned&nbsp;that AI could destroy us all and sat through revelations that he had poached OpenAI employees for his own companies. He even confessed, to some audible gasps in the courtroom, that his own AI company, xAI, which makes the chatbot Grok, uses OpenAI’s models to train its own.&nbsp; The federal courthouse in Oakland, California, was packed with armies of lawyers carrying boxes of exhibits, journalists typing away at their laptops, and a handful of concerned OpenAI employees. Outside, protesters lined the streets, carrying signs urging people to quit ChatGPT, boycott Tesla, or both. Musk looked calm and comfortable, slipping in the occasional quip in his distinct South African accent. But he was also full of remorse.&nbsp; “I was a fool who provided them free funding to create a startup,” Musk told the jury. He said when he cofounded OpenAI in 2015 with Altman and Brockman, he was donating to a nonprofit developing AI for the benefit of humanity, not to make the executives rich. “I gave them $38 million of essentially free funding, which they then used to create what would become an $800 billion company,” he said. Musk is asking the court to remove Altman and Brockman from their roles and to unwind the restructuring that allowed OpenAI to operate a for-profit subsidiary. The outcome of the trial could upend OpenAI’s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI is expected to go public as a part of Musk’s rocket company SpaceX as early as June, at a target valuation of $1.75 trillion . This week’s testimony revolved around a central question of the trial: why Musk is suing OpenAI. Musk argued he was trying to save OpenAI’s mission to develop AI safely by restoring the company to its original nonprofit structure. OpenAI’s lawyer, William Savitt, who once represented Musk and his electric-car company Tesla, countered that Musk was “never committed to OpenAI being a nonprofit” and instead was suing to undermine his competitor.&nbsp; Who is the steward of AI safety? During his direct examination early in the week, Musk painted himself as a longtime advocate of AI safety. He said he cofounded OpenAI to create a “counterbalance to Google,” which was leading the AI race at the time. He said that when he asked Google cofounder Larry Page what happens if AI tries to wipe out humanity, Page told him, “That will be fine as long as artificial intelligence survives.”&nbsp; “The worst-case scenario is a Terminator situation where AI kills us all,” Musk later told the jury. Savitt stood at the lectern and argued that Musk was not a “paladin of safety and regulation.” As he cross-examined Musk in his sharp, surgical cadence, Savitt pointed out that xAI sued the state of Colorado in April over an AI law designed to prevent algorithmic discrimination.&nbsp; Musk’s lawyer, Steven Molo, sprang to his feet to object. He asked the judge if he, too, could weigh in on ChatGPT’s safety record.&nbsp; The lawyers then entered a heated debate about who was the true guardian of AI safety.&nbsp; The sparring continued the next morning. “We all could die as a result of artificial intelligence!” said Molo, suggesting that OpenAI could not be trusted to build AI safely. “Despite these risks, your client is creating a company that’s in the exact space,” Judge Yvonne Gonzalez Rogers said sternly, referring to xAI. “I suspect there’s plenty of people who don’t want to put the future of humanity in Mr. Musk’s hands.” When the lawyers began talking over each other, the judge snapped. “This is not a trial on whether or not artificial intelligence has damaged humanity,” she said.&nbsp; When did Musk think he was being duped? As Savitt continued to cross-examine Musk, he pressed on the idea that Musk had never been committed to keeping OpenAI a nonprofit. He also claimed that Musk waited too long to sue OpenAI, filing after the statute of limitations ran out.&nbsp; Musk explained why he sued in 2024 rather than earlier, describing “three phases” in his views of OpenAI. In phase one, he was “enthusiastically supportive” of the company.” In phase two, “I started to lose confidence that they were telling me the truth,” he said. In phase three, “I’m sure they’re looting the nonprofit.”&nbsp; In 2017, Musk and other OpenAI cofounders discussed creating a for-profit subsidiary to raise enough capital to build artificial general intelligence—powerful AI that can compete with humans on most cognitive tasks. Musk wanted a majority interest in the subsidiary and the right to choose a majority of the board members. He also pitched having Tesla acquire OpenAI. (He left OpenAI in 2018.) “I was not opposed to there being a small for-profit that provides funding to the nonprofit,” he told the jury, “as long as the tail didn’t wag the dog.”&nbsp; But it was only in late 2022, Musk testified, that he “lost trust in Altman” and his commitment to keeping the company a nonprofit. The key moment came, he said, when he learned that Microsoft would invest $10 billion in OpenAI. &nbsp; “I texted Sam Altman, ‘What the hell is going on? This is a bait and switch,’” he told the jury. Microsoft would give $10 billion only if it expected “a very big financial return,” he said. Is Musk just trying to kill competition? But Savitt argued that Musk was really suing to undermine OpenAI as a competitor to his empire of tech companies. While he was on the board of OpenAI, Musk was also running Tesla and his brain-implant company, Neuralink. He founded xAI in 2023. Savitt pulled up an email that Musk had sent to a Tesla vice president in 2017 after hiring Andrej Karpathy, a founding member of OpenAI, to work at Tesla. “The OpenAI guys are gonna want to kill me. But it had to be done,” he wrote. When asked about it, Musk was flustered. He claimed Karpathy had already decided to leave OpenAI when he recruited him to work at Tesla. “I believe it’s a free world,” he said. Savitt pulled up another email that Musk sent to a cofounder at Neuralink in 2017. He wrote that they could “hire independently or directly from OpenAI.” When pressed about it, he sounded frazzled. “It’s a free country,” he said. “I can’t restrict their ability to hire people from other companies.”&nbsp; Savitt also pointed out that Tesla, SpaceX, Neuralink, and X were socially beneficial for-profit companies, like OpenAI. He stressed that xAI was also a closed-source, for-profit company. But Musk claimed that xAI was not a real competitor to OpenAI. “We’re not currently tracking to reach AGI first,” he told the jury.&nbsp; In fact, Musk admitted that xAI uses OpenAI’s technology. In response to Savitt’s relentless questioning, he said xAI “partly” distills OpenAI’s models. Some people in the courtroom gasped.&nbsp; Distillation is a technique where a smaller AI model is trained to mimic the behavior of larger, more capable models, so it can run faster and more cheaply while performing nearly as well. But some AI companies have pushed back against the practice. In February, OpenAI accused the Chinese AI company DeepSeek of distilling its AI models. In August 2025, Wired reported that Anthropic had blocked OpenAI’s access to Claude for violating the company’s terms of service, which prohibit, among other things, reverse-engineering its services and building competing products.&nbsp; “It is standard practice to use other AIs to validate your AI,” said Musk. Next week, Stuart Russell, a computer scientist at UC Berkeley, will testify about AI safety. Brockman, who has been taking notes during Musk’s testimony, will also testify. This story is part of MIT Technology Review ’s ongoing coverage of the Musk v. Altman trial. Follow @techreview or @michelletomkim on X for up-to-the-minute reporting.",
+      "title": "Granite 4.1 LLMs: How They’re Built",
+      "originalTitle": "Granite 4.1 LLMs: How They’re Built",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "date": "2026-04-29T15:01:48.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Granite 4.1 LLMs: How They’re Built",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Granite 4.1 LLMs: How They’re Built”。它主要涉及AI 热点方向，热度评分为 63。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Granite 4.1 LLMs: How They’re Built",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
+        "AI 热点"
       ],
-      "score": 80
+      "score": 63
     },
     {
-      "title": "人工智能时代的网络不安全",
-      "originalTitle": "Cyber-Insecurity in the AI Era",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
-      "date": "2026-05-01T15:54:01.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Cyber-Insecurity in the AI Era",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能时代的网络不安全”。它主要涉及AI 热点方向，热度评分为 63。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review&#8217;s EmTech AI conference explores why security must be rethought with AI at its core, not layered on after&#8230;",
-      "rawFullText": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review&#8217;s EmTech AI conference explores why security must be rethought with AI at its core, not layered on after the fact. About the speaker Tarique Mustafa, Cofounder, CEO, and CTO, GC Cybersecurity Tarique Mustafa is Cofounder and CEO/CTO of two AI-powered cybersecurity companies: GCCybersecurity, Inc. and its data compliance spinout, Chorology, Inc. A prolific inventor and internationally recognized authority in knowledge representation, inference calculus, and AI planning, Tarique has spent his career applying autonomously collaborative AI to solve complex, ultra-high-scale challenges across cybersecurity, data security, and compliance — with deep expertise spanning Data Classification, DLP, and DSPM industries. His groundbreaking innovations and multiple USPTO patents have earned him global recognition, including frequent invitations to deliver keynote addresses at prestigious international security conferences and forums. At GCCybersecurity, Tarique architected the core AI algorithms powering the company&#8217;s 4th and 5th generation fully autonomous data leak protection and exfiltration platform — among the most advanced platform of its kind. Prior to founding GCCybersecurity and Chorology, he served as founding CEO/CTO of NexTier Networks, a Silicon Valley provider of award-winning Data Leak Prevention solutions. With over 20 years of technical leadership experience, Tarique has held senior roles at Symantec, DHL Airways IT, MCI WorldCom, EDS, Andes Networks, and Nevis Networks, where he served as Principal Architect and built industry-leading security products leveraging next-generation security monitoring, event correlation, IDS/IPS, and SSL/IPSec technologies. Tarique holds multiple approved and pending patents with the USPTO and has authored numerous research publications spanning Information & Data Security, Computer & Network Security, Software Architecture, Database Technologies, and Artificial Intelligence. A recipient of the prestigious Rotary International Scholarship for doctoral studies in Computer Science at the University of Southern California (USC), Tarique also holds master’s degrees in engineering and computer science from USC, and a bachelor&#8217;s degree in mechanical engineering from NED University of Engineering & Technology.",
+      "title": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "originalTitle": "DeepInfra on Hugging Face Inference Providers 🔥",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/inference-providers-deepinfra",
+      "date": "2026-04-29T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：DeepInfra on Hugging Face Inference Providers 🔥",
+      "fullContent": "这条消息来自 Hugging Face，主题是“DeepInfra on Hugging Face Inference Providers 🔥”。它主要涉及AI 热点方向，热度评分为 63。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：DeepInfra on Hugging Face Inference Providers 🔥",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 63
+    },
+    {
+      "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "originalTitle": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+      "date": "2026-04-28T15:58:57.000Z",
+      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents”。它主要涉及智能体、多模态、视频生成方向，热度评分为 97。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context...",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "多模态",
+        "视频生成"
+      ],
+      "score": 97
+    },
+    {
+      "title": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+      "originalTitle": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "date": "2026-04-27T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How to build scalable web apps with OpenAI&apos;s Pri...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“How to build scalable web apps with OpenAI&apos;s Privacy Filter”。它主要涉及公司动态方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How to build scalable web apps with OpenAI&apos;s Pri...",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 75
+    },
+    {
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "originalTitle": "DeepSeek-V4: a million-token context that agents can actually use",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/deepseekv4",
+      "date": "2026-04-24T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：DeepSeek-V4: a million-token context that agents can ...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“DeepSeek-V4: a million-token context that agents can actually use”。它主要涉及智能体方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：DeepSeek-V4: a million-token context that agents can ...",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 72
+    },
+    {
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "originalTitle": "How to Use Transformers.js in a Chrome Extension",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "date": "2026-04-23T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How to Use Transformers.js in a Chrome Extension",
+      "fullContent": "这条消息来自 Hugging Face，主题是“How to Use Transformers.js in a Chrome Extension”。它主要涉及AI 热点方向，热度评分为 63。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：How to Use Transformers.js in a Chrome Extension",
+      "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
