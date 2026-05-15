@@ -1,0 +1,14 @@
+{
+  "name": "ai-news-radar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 热点日报原型：RSS 抓取、JSON 数据和静态前端。",
+  "scripts": {
+    "fetch": "node scripts/fetch-news.js",
+    "start": "node server.js",
+    "dev": "node dev.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

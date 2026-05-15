@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI 热点日报</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">AI News Radar</p>
+        <h1 id="appTitle">AI 热点日报</h1>
+      </div>
+      <button id="refreshButton" type="button">立即更新</button>
+    </header>
+
+    <main>
+      <section id="statusPanel" class="status-panel" aria-live="polite">
+        <div>
+          <span class="status-dot" id="statusDot"></span>
+          <strong id="statusTitle">准备抓取今日热点</strong>
+          <p id="statusText">每天自动更新一次；英文来源会先做中文化整理。</p>
+        </div>
+        <div class="stats">
+          <span id="sourceCount">0 个来源</span>
+          <span id="lastUpdated">尚未更新</span>
+        </div>
+      </section>
+
+      <section id="controls" class="controls" aria-label="新闻筛选">
+        <label>
+          <span>关键词</span>
+          <input id="searchInput" type="search" placeholder="搜索模型、公司、监管、论文..." />
+        </label>
+        <label>
+          <span>标签</span>
+          <select id="tagFilter">
+            <option value="all">全部标签</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="timeline" class="timeline" aria-label="按日期展示的 AI 新闻"></section>
+
+      <section id="detailView" class="detail-view" aria-label="单日 AI 新闻详情" hidden>
+        <button id="backButton" class="back-button" type="button">返回日报列表</button>
+        <div class="detail-heading">
+          <p class="day-kicker">Top 5 brief</p>
+          <h2 id="detailTitle"></h2>
+        </div>
+        <div id="detailList" class="news-list"></div>
+      </section>
+    </main>
+
+    <template id="dayTemplate">
+      <article class="day-card" tabindex="0" role="button">
+        <div class="day-heading">
+          <div>
+            <p class="day-kicker">Daily brief</p>
+            <h2></h2>
+          </div>
+          <span class="day-count"></span>
+        </div>
+        <ol class="headline-list"></ol>
+        <div class="day-action">
+          <span></span>
+          <strong>查看完整 5 条</strong>
+        </div>
+      </article>
+    </template>
+
+    <template id="newsTemplate">
+      <a class="news-card" target="_blank" rel="noreferrer">
+        <div class="news-main">
+          <div class="card-topline">
+            <span class="source"></span>
+            <span class="published"></span>
+          </div>
+          <h3></h3>
+          <p class="original-title"></p>
+          <p class="full-content"></p>
+          <div class="tags"></div>
+        </div>
+        <div class="score">
+          <span class="score-value"></span>
+          <span>热度</span>
+        </div>
+      </a>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
