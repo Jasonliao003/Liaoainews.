@@ -209,7 +209,9 @@ async function translateArticleTitle(article, cache) {
 
   try {
     const translatedTitle = await translateWithMyMemory(originalTitle);
-    const title = isUsableChineseTitle(translatedTitle) ? translatedTitle : article.title;
+    const title = isUsableChineseTitle(translatedTitle)
+      ? translatedTitle
+      : makeFallbackChineseTitle(article, article.tags || []);
     if (looksChinese(title)) {
       cache[cacheKey] = title;
     }
@@ -449,8 +451,8 @@ function enrichArticle(article) {
   const rawSummary = stripHtml(article.rawSummary || article.summary || "");
   const rawFullText = stripHtml(article.rawFullText || "");
   const date = validDate(article.date);
-  const translatedTitle = looksChinese(title) ? title : title;
   const tags = article.tags?.length ? article.tags : inferTags(`${title} ${rawSummary}`);
+  const translatedTitle = looksChinese(title) ? title : makeFallbackChineseTitle(article, tags);
   const score = article.score || scoreArticle(title, rawSummary, article.sourceWeight || 10, date);
 
   return {
@@ -476,6 +478,12 @@ function makeSummary(title, rawSummary, tags) {
 function makeFullContent(title, source, tags, score) {
   const tagText = tags.slice(0, 3).join("、") || "AI 行业";
   return `这条消息来自 ${source || "公开来源"}，主题是“${title}”。它主要涉及${tagText}方向，热度评分为 ${score}。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。`;
+}
+
+function makeFallbackChineseTitle(article, tags = []) {
+  const source = article.source || "公开来源";
+  const tagText = tags.slice(0, 2).join("、") || "AI";
+  return `${source}：${tagText}相关动态`;
 }
 
 function inferTags(text) {

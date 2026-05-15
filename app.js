@@ -255,7 +255,7 @@ function applyTranslationCache(articles, cache) {
   return articles.map((article) => {
     const originalTitle = article.originalTitle || article.title;
     const cachedTitle = cache[normalizeCacheKey(originalTitle)];
-    const title = cachedTitle && looksChinese(cachedTitle) ? cachedTitle : article.title;
+    const title = cachedTitle && looksChinese(cachedTitle) ? cachedTitle : getDisplayTitle(article);
     return {
       ...article,
       title,
@@ -291,8 +291,8 @@ function buildDailyBrief(articles) {
 function enrichArticle(article) {
   const title = article.title || article.originalTitle || "未命名新闻";
   const rawSummary = stripHtml(article.rawSummary || article.summary || "");
-  const translatedTitle = looksChinese(title) ? title : title;
   const tags = article.tags?.length ? article.tags : inferTags(`${title} ${rawSummary}`);
+  const translatedTitle = looksChinese(title) ? title : makeFallbackChineseTitle(article, tags);
   const date = validDate(article.date);
   const score = article.score || scoreArticle(title, rawSummary, article.sourceWeight || 10, date);
 
@@ -424,6 +424,7 @@ function renderDayCard(day, articles) {
   card.querySelector("h2").textContent = formatDay(day);
   card.querySelector(".day-count").textContent = `${sorted.length} 条重点`;
   card.querySelector(".day-action span").textContent = `最高热度 ${sorted[0]?.score || "--"}`;
+  card.querySelector(".day-action strong").textContent = `查看完整 ${sorted.length} 条`;
 
   sorted.slice(0, 3).forEach((article) => {
     const item = document.createElement("li");
@@ -543,6 +544,19 @@ function looksMostlyChinese(value) {
   const chineseCount = (text.match(/[\u4e00-\u9fff]/g) || []).length;
   const letterCount = (text.match(/[A-Za-z]/g) || []).length;
   return chineseCount > 20 && chineseCount >= letterCount;
+}
+
+function getDisplayTitle(article) {
+  const title = article.title || "";
+  if (looksChinese(title)) return title;
+  return makeFallbackChineseTitle(article, article.tags || inferTags(`${article.originalTitle || title} ${article.summary || ""}`));
+}
+
+function makeFallbackChineseTitle(article, tags = []) {
+  const source = article.source || "公开来源";
+  const tagText = tags.slice(0, 2).join("、") || "AI";
+  const originalTitle = article.originalTitle || article.title || "AI 新闻";
+  return `${source}：${tagText}相关动态`;
 }
 
 function updateStatus(type, title, text) {
