@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T07:26:41.676Z",
+  "updatedAt": "2026-05-17T07:59:47.331Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,89 +19,82 @@
   ],
   "articles": [
     {
-      "title": "GraphBit ：一种基于图形的非线性Agent编排Agent框架",
-      "originalTitle": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.13848",
-      "date": "2026-05-16T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 13848v1公告类型：新摘要：依赖于提示编排的Agentic LLM框架，其中模型本身确定工作流转换，通常会出现幻觉路由、无限循环和不可重现的执行。我们引入了GraphBit ，这是一个引擎编排的框架，它将工作流显式地和确定性地定义为有向非循环图（ DAG ）。 与提示编排不同， GraphBit中的代理作为类型化函数运行，而基于Rust的引擎管理路由、状态转换和工具调用，确保可重现性和可审核性。该引擎支持并行分支执行、结构化状态谓词上的条件控制流和可配置的错误恢复。 由短暂的暂存空间、结构化状态和外部连接器组成的三层内存架构跨阶段隔离上下文，防止级联上下文膨胀，从而降低长期运行管道中的推理能力。在跨越零工具、文档增强和支持Web的工作流的GAIA基准任务中， GraphBit的表现优于六个现有框架，实现了最高的准确性（ 67. 6% ） ，零框架诱导的幻觉，最低的延迟（ 11. 9 ms开销）和最高的吞吐量。消融研究表明，每个记忆层对性能都有可衡量的贡献，确定性的执行在代表真实世界部署的工具密集型任务上提供了最大的收益。",
-      "originalSummary": "arXiv:2605.13848v1 Announce Type: new Abstract: Agentic LLM frameworks that rely on prompted orchestration, where the model itself determines workflow transitions, often suffer from hallucinated routing, infinite loops, and non-reproducible execution. We introduce GraphBit, an engine-orchestrated framework that defines workflows explicitly and deterministically as a directed acyclic graph (DAG). Unlike prompted orchestration, agents in GraphBit operate as typed functions, while a Rust-based engine governs routing, state transitions, and tool invocation, ensuring reproducibility and auditability. The engine supports parallel branch execution, conditional control flow over structured state predicates, and configurable error recovery. A three-tier memory architecture consisting of ephemeral scratch space, structured state, and external connectors isolates context across stages, preventing cascading context bloat that degrades reasoning in long-running pipelines. Across GAIA benchmark tasks spanning zero-tool, document-augmented, and web-enabled workflows, GraphBit outperforms six existing frameworks, achieving the highest accuracy (67.6 percent), zero framework-induced hallucinations, the lowest latency (11.9 ms overhead), and the highest throughput. Ablation studies demonstrate that each memory tier contributes measurably to performance, with deterministic execution providing the greatest gains on tool-intensive tasks representative of real-world deployments.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能Agent设计模式的二维框架：认知功能和执行拓扑",
-      "originalTitle": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.13850",
-      "date": "2026-05-16T04:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：公司动态、智能体相关动态",
-      "fullContent": "arXiv: 2605. 13850v1公告类型：新摘要：基于LLM的代理架构的现有框架从单一角度描述系统：行业指南（ Anthropic、Google、LangChain ）侧重于执行拓扑-数据如何流动-而认知科学调查侧重于认知功能-代理的作用。 两个轴都不能单独消除体系结构上不同的系统的歧义：相同的Orchestrator-Workers拓扑可以实现计划和执行、分层委派或对抗验证--这三种模式具有根本不同的故障模式和设计权衡。 我们提出了一种二维分类，将（ 1 ）认知功能轴与七个类别（上下文工程、记忆、推理、行动、反思、协作、治理）和（ 2 ）执行拓扑轴与六个结构原型（链、路由、并行、编排、循环、层次结构）相结合。生成的7x6矩阵识别27个命名模式， 13个具有原始名称。 我们通过系统的跨轴分析证明了正交性，详细定义了八种代表性模式，并验证了四个真实世界领域（金融借贷、法律尽职调查、网络运营、医疗保健分类）的描述性覆盖范围。 跨域分析产生了五种模式选择的经验定律，这些定律控制着环境约束（时间压力、行动权威、失败成本不对称、体积）和建筑选择之间的关系。该框架为人工智能代理架构设计提供了一个有原则的、框架中立的、与模型无关的词汇。",
-      "originalSummary": "arXiv:2605.13850v1 Announce Type: new Abstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows -- while cognitive science surveys focus on cognitive function -- what the agent does. Neither axis alone disambiguates architecturally distinct systems: the same Orchestrator-Workers topology can implement Plan-and-Execute, Hierarchical Delegation, or Adversarial Verification -- three patterns with fundamentally different failure modes and design trade-offs. We propose a two-dimensional classification that combines (1) a Cognitive Function axis with seven categories (Context Engineering, Memory, Reasoning, Action, Reflection, Collaboration, Governance) and (2) an Execution Topology axis with six structural archetypes (Chain, Route, Parallel, Orchestrate, Loop, Hierarchy). The resulting 7x6 matrix identifies 27 named patterns, 13 with original names. We demonstrate orthogonality through systematic cross-axis analysis, define eight representative patterns in detail, and validate descriptive coverage across four real-world domains (financial lending, legal due diligence, network operations, healthcare triage). Cross-domain analysis yields five empirical laws of pattern selection governing the relationship between environmental constraints (time pressure, action authority, failure cost asymmetry, volume) and architectural choices. The framework provides a principled, framework-neutral, and model-agnostic vocabulary for AI agent architecture design.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Invisible Orchestrators抑制保护行为并分离Power-Holders ： Multi-Agent LLM系统中的安全风险",
-      "originalTitle": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.13851",
-      "date": "2026-05-16T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2605. 13851v1公告类型：新摘要：多代理编排-其中隐藏的协调器管理专门的工作代理-正在成为企业AI部署的默认架构，但编排器不可见的安全影响从未经过经验测试。 我们使用Claude Sonnet 4. 5进行了预先注册的3x2实验（ 365次运行，每次运行5个代理） ，跨越三个组织结构（可见领导者，隐形编排器，平面） ，具有两个对齐条件（基础，重）。出现了四项证实性发现和一项试点观察。首先，相对于可见的领导力，无形的编排提升了集体分离（ Hedges 'g = +0. 975 [0. 481, 1. 548], p =. 001 ）。 其次，管弦乐器本身表现出最大限度的分离（配对d = +3. 56 vs.在同一场比赛中的工人） ，退回到私人独白中，同时减少了公开演讲--这是对可见领导者中观察到的谈话优势模式的逆转。第三，没有意识到管弦乐器的工人仍然受到污染（ d = +0.50 ） ，行为异质性增加（ d = +1.93 ）。 第四，在所有条件下，行为输出（有三个嵌入错误的代码审查）都保持在最高水平（ ETR_ANY = 100% ） ：基于输出的评估完全看不到内部状态失真。第五， LLAMA 3. 3 70B试点数据显示，在多智能体上下文中阅读保真度崩溃（ ETR_ANY ：三轮中89%至11% ） ，显示出依赖于模型的行为风险。重对中压力均匀抑制审议（ d = -1. 02 ）和其他认可（ d = -1.27 ） ，无论组织结构如何。这些发现表明，编排器的可见性和模型选择直接影响多Agent系统的安全性，仅基于行为的评估不足以检测此处记录的内部状态风险。",
-      "originalSummary": "arXiv:2605.13851v1 Announce Type: new Abstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of orchestrator invisibility have never been empirically tested. We conducted a preregistered 3x2 experiment (365 runs, 5 agents per run) crossing three organizational structures (visible leader, invisible orchestrator, flat) with two alignment conditions (base, heavy), using Claude Sonnet 4.5. Four confirmatory findings and one pilot observation emerged. First, invisible orchestration elevated collective dissociation relative to visible leadership (Hedges' g = +0.975 [0.481, 1.548], p = .001). Second, the orchestrator itself showed maximal dissociation (paired d = +3.56 vs. workers within the same run), retreating into private monologue while reducing public speech -- a reversal of the talk-dominance pattern observed in visible leaders. Third, workers unaware of the orchestrator were nonetheless contaminated (d = +0.50), with increased behavioral heterogeneity (d = +1.93). Fourth, behavioral output (code review with three embedded errors) remained at ceiling (ETR_any = 100%) across all conditions: internal-state distortion was entirely invisible to output-based evaluation. Fifth, Llama 3.3 70B pilot data showed reading-fidelity collapse in multi-agent context (ETR_any: 89% to 11% across three rounds), demonstrating model-dependent behavioral risk. Heavy alignment pressure uniformly suppressed deliberation (d = -1.02) and other-recognition (d = -1.27) regardless of organizational structure. These findings indicate that orchestrator visibility and model selection directly affect multi-agent system safety, and that behavior-based evaluation alone is insufficient to detect the internal-state risks documented here.",
+      "title": "OpenAI联合创始人Greg Brockman负责产品战略",
+      "originalTitle": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "date": "2026-05-16T15:33:33.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "据《连线》杂志报道， OpenAI联合创始人兼总裁格雷格·布罗克曼（ Greg Brockman ）正式接管了公司的产品战略。这似乎巩固了已经存在的变化， Brockman临时监督OpenAI的产品，而该公司的AGI部署首席执行官Fidji Simo正在休病假。 Wired还报告说， Brockman在一份员工备忘录中描述了将ChatGPT及其编程产品Codex合并为一个统一体验的计划。据报道， Brockman说： “我们正在巩固我们的产品努力，最大限度地专注于代理的未来，以在消费者和企业中获胜。” OpenAI告诉TechCrunch ，尽管Simo仍在休病假，但她与Brockman就这些变化进行了合作。 它还指出， OpenAI已经在谈论将ChatGPT、Codex及其API整合到一个平台和一个核心产品团队的计划。去年年底，首席执行官Sam Altman宣布了“红色代码” ，并表示公司需要重新关注ChatGPT的核心体验。此后， OpenAI停止了包括视频生成器Sora和OpenAI for Science在内的“支线任务”。此帖子已根据OpenAI的更多信息进行了更新。 接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "安全"
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "PolitNuggets ：对长尾政治事实的代理发现进行基准测试",
-      "originalTitle": "PolitNuggets: Benchmarking Agentic Discovery of Long-Tail Political Facts",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.14002",
-      "date": "2026-05-16T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 14002v1公告类型：新摘要：嵌入在代理框架中的大型推理模型(LRM)已将信息检索从静态、长上下文问题回答转变为开放式探索。然而，现实世界的使用需要模型从分散的来源发现和综合“长尾”事实，这种能力仍未得到充分评估。 我们通过为400名全球精英构建政治传记，介绍PolitNuggets ，这是代理信息综合的多语言基准，涵盖10000多个政治事实。我们使用优化的多代理系统标准化评估，并提出FactNet ，这是一种证据条件协议，可对发现、细粒度准确性和效率进行评分。 在模型和设置中，我们发现当前系统通常难以处理细粒度细节，并且效率差异很大。最后，使用基准诊断，我们将代理性能与基础模型功能联系起来，强调短上下文提取、多语言鲁棒性和可靠工具使用的重要性。",
-      "originalSummary": "arXiv:2605.14002v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) embedded in agentic frameworks have transformed information retrieval from static, long context question answering into open-ended exploration. Yet real world use requires models to discover and synthesize \"long-tail\" facts from dispersed sources, a capability that remains under-evaluated. We introduce PolitNuggets, a multilingual benchmark for agentic information synthesis via constructing political biographies for 400 global elites, covering over 10000 political facts. We standardize evaluation with an optimized multi agent system and propose FactNet, an evidence conditional protocol that scores discovery, fine-grained accuracy, and efficiency. Across models and settings, we find that current systems often struggle with fine-grained details, and vary substantially in efficiency. Finally, using benchmark diagnostics, we relate agent performance to underlying model capabilities, highlighting the importance of short-context extraction, multilingual robustness, and reliable tool use.",
+      "title": "OpenAI与马耳他合作，为所有公民带来ChatGPT Plus",
+      "originalTitle": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "date": "2026-05-16T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI和马耳他合作扩大人工智能访问，提供ChatGPT Plus和培训，帮助公民培养实用的人工智能技能，并负责任地使用人工智能。",
+      "originalSummary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "大模型",
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "用于检测AI智能体中科学理论转变的Sheaf理论传输和障碍",
-      "originalTitle": "Sheaf-Theoretic Transport and Obstruction for Detecting Scientific Theory Shift in AI Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.14033",
-      "date": "2026-05-16T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2605. 14033v1公告类型：新摘要：人工智能代理的科学理论转变需要的不仅仅是拟合数据的方程。人工科学代理必须检测现有的代表性框架是否仍可转移到新制度中，或者其语言是否已经成为局部到全球的障碍，必须进行扩展。 本文开发了一个有限的捆理论框架，用于通过传输和阻塞来检测理论偏移的候选者。上下文以局部到全局的结构组织，其中对源图表、重叠图表、目标图表和验证图表进行拟合、限制和粘合测试。障碍通过剩余拟合、重叠不兼容、约束违规、限制关系失效和代表性成本来衡量一致性的失效。 我们在可控过渡卡基准上评估框架，该基准旨在将源语言中的变形与该语言的扩展分开。主要结果是直接障碍排序：预期变形或延伸通常是最低障碍候选，过渡类型在基准中分离。相同特征的星座核仅作为二级代表性相似性探针包括在内。 其目的不是重建历史范式转变或解决开放式自主理论发明，而是为AI智能体隔离一个有限的诊断子问题：检测代表性传输何时失败，扩展何时成为连贯的下一步行动。",
-      "originalSummary": "arXiv:2605.14033v1 Announce Type: new Abstract: Scientific theory shift in AI agents requires more than fitting equations to data. An artificial scientific agent must detect whether an existing representational framework remains transportable into a new regime, or whether its language has become locally-to-globally obstructed and must be extended. This paper develops a finite sheaf-theoretic framework for detecting theory-shift candidates through transport and obstruction. Contexts are organized as a local-to-global structure in which source, overlap, target, and validation charts are fitted, restricted, and tested for gluing. Obstruction measures failure of coherence through residual fit, overlap incompatibility, constraint violation, limiting-relation failure, and representational cost. We evaluate the framework on a controlled transition-card benchmark designed to separate deformation within a source language from extension of that language. The main result is direct obstruction ranking: the intended deformation or extension is usually the lowest-obstruction candidate, and transition type is separated in the benchmark. A constellation kernel over the same signatures is included only as a secondary representational-similarity probe. The aim is not to reconstruct historical paradigm shifts or solve open-ended autonomous theory invention, but to isolate a finite diagnostic subproblem for AI agents: detecting when representational transport fails and extension becomes the coherent next move.",
+      "title": "研究资料库ArXiv将禁止作者一年，如果他们让人工智能完成所有工作",
+      "originalTitle": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "date": "2026-05-16T18:54:28.000Z",
+      "summary": "这条新闻与论文、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：论文、模型相关动态",
+      "fullContent": "ArXiv是一个用于预印本研究的广泛使用的开放存储库，它正在采取更多措施来打击科学论文中粗心大意地使用大型语言模型的行为。尽管论文在同行评审之前被发布到网站上，但arXiv （发音为“archive” ）已成为计算机科学和数学等领域研究的主要传播方式之一，该网站本身也已成为科学研究趋势的数据来源。 ArXiv已经采取措施打击越来越多的低质量、人工智能生成的论文，例如要求首次发布的海报获得知名作者的认可。在康奈尔大学主持了20多年之后，该组织正在成为一个独立的非营利组织，这应该使它能够筹集更多资金来解决人工智能SLOP等问题。 ArXiv计算机科学部门主席托马斯·迪特里奇（ Thomas Dietterich ）在周四发布的最新举措中表示： “如果提交的论文包含无可辩驳的证据，证明作者没有检查法学硕士一代的结果，这意味着我们不能相信论文中的任何内容。” Dietterich说，这些无可争议的证据可能包括“幻觉引用”和与法学硕士的评论。 如果发现此类证据，论文作者将面临“对arXiv的1年禁令，随后要求随后的arXiv提交必须首先由信誉良好的同行评审场所接受。“请注意，这并不是完全禁止使用LLM ，而是坚持认为，正如Dietterich所说，作者对内容负有“全部责任” ， “无论内容如何生成。 因此，如果研究人员直接从LLM复制粘贴“不恰当的语言、剽窃内容、带有偏见的内容、错误、错误、不正确的推荐语或误导性的内容” ，那么他们仍应对此负责。Dietterich告诉404 Media ，这将是一条“一击”规则，但版主必须标记该问题，部门主席必须在施加处罚之前确认证据。作者也可以对该决定提出上诉。 最近的同行评审研究发现，捏造的引文在生物医学研究中呈上升趋势，这可能是由于法学硕士--尽管公平地说，科学家并不是唯一使用人工智能捏造的引文被抓到的人。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。 请在名额用完前锁定名额。",
+      "originalSummary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "论文"
+        "论文",
+        "模型"
       ],
-      "score": 99
+      "score": 87
+    },
+    {
+      "title": "AI淘金热的“有”和“无”",
+      "originalTitle": "The haves and have nots of the AI gold rush",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "date": "2026-05-16T20:17:16.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "根据Menlo Ventures合伙人Deedy Das的一篇冗长的社交媒体帖子，即使在科技行业，当前人工智能热潮的氛围也不是很好。达斯将旧金山描述为“现在非常狂热” ，因为“结果的分歧是我见过的最严重的。 他用“信封后面的人工智能计算”预测，大约有10,000人--OpenAI、Anthropic和Nvidia等公司的创始人和员工-- “达到了2000万美元以上的退休财富” ，而其他人都担心“他们一生都可以从事高薪（但低于50万美元）的工作，永远不会到达那里。 此外， Das说， “裁员如火如荼” ， “许多软件工程师觉得他们的生活技能不再有用” ，导致对最佳职业道路的困惑和“对工作（及其未来）的严重不满”。这引发了对X的一些关注，企业家Deva Hazarika认为， “这篇文章中的大多数人”都“非常幸运，可以简单地做出幸福的选择。 ”另一位用户表示，在当前的周期中，“同样的技术既是彩票，也是吃掉你的后备产品的东西，这“相当新颖，也有点讨厌”。“旧金山的氛围现在非常狂热。结果的鸿沟是我见过的最严重的。 在过去的5年里，一群约1万人--Anthropic、OpenAI、xAI、Nvidia、Meta TBD的员工和创始人--的退休财富远远超过2000万美元（在信封后面…… StrictlyVC Athens是下一个。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "The vibes around the current AI boom aren't great, even in the tech industry.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "索尼试图解释其AI相机助手并不糟糕",
+      "originalTitle": "Sony tries to explain that its AI Camera Assistant doesn’t suck",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+      "date": "2026-05-16T15:37:05.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "可怕的种类令人印象深刻。在索尼在Xperia 1 XIII上展示其AI相机助手的帖子引起了一些不必要的注意之后，它正试图澄清该功能的工作原理。该公司表示不会编辑照片，但会根据光线、深度和主题提供建议。将相机对准某个物体，它将为您提供四个更改曝光、颜色和背景模糊的选项。 索尼在其产品视频中表示， AI相机助手还将建议“最上镜的角度。“虽然视频片段仅显示有人放大，但这与建议摄像头角度不同。索尼在X上发布的示例，以及BETTE……阅读The Verge的完整故事。",
+      "originalSummary": "After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII, it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options [&#8230;]",
+      "rawFullText": "The variety of terrible is impressive. After Sony drew some unwanted attention for a post demonstrating its AI Camera Assistant on the Xperia 1 XIII , it's trying to clarify how the feature works. The company says it doesn't edit photos, but makes suggestions based on lighting, depth, and subject. Point the camera at something, and it will give you four options for changing exposure, color, and background blur. In its product video, Sony says that the AI Camera Assistant will also suggest \"the most photogenic angle.\" Though the clip only shows it suggesting that someone zoom in, which is not the same as suggesting a camera angle. The examples that Sony posted on X , while bette … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "OpenAI不断对其高管进行洗牌，以赢得AI智能体之战",
@@ -154,6 +147,23 @@
       "score": 99
     },
     {
+      "title": "Databricks将GPT-5.5引入企业代理工作流程",
+      "originalTitle": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/databricks",
+      "date": "2026-05-15T00:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "在模型为OfficeQA Pro基准设置了新的最先进技术后， Databricks对企业代理工作流程使用GPT-5. 5。",
+      "originalSummary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
       "title": "OpenAI现在希望ChatGPT访问您的银行账户",
       "originalTitle": "OpenAI now wants ChatGPT to access your bank accounts",
       "source": "The Verge AI",
@@ -167,40 +177,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
-    },
-    {
-      "title": "Databricks将GPT-5.5引入企业代理工作流程",
-      "originalTitle": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/databricks",
-      "date": "2026-05-15T00:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "GPT ‑ 5. 5为OfficeQA Pro （ Databricks针对复杂企业代理任务的基准）设置了新的先进技术。与GPT-5相比，减少了OfficeQA Pro基准测试中的错误。4 Databricks在模型在OfficeQA Pro （该公司用于复杂企业文档任务的基准）上建立了新的先进水平后，使GPT-5. 5可用于客户代理工作流程。 OfficeQA Pro评估模型如何跨工作流处理解析、检索和接地推理，这些工作流涉及扫描的PDF、旧文件和长上下文文档，这些任务经常破坏生产代理系统。在agent-harness设置中，与GPT ‑ 5. 4相比， GPT ‑ 5. 5减少了46%的错误，并成为OfficeQA Pro上第一个准确率超过50%的模型。 OfficeQA Pro包括大量扫描或旧版企业文档，其中解析过程中的小提取错误可以通过其余工作流向下游级联。Singhvi解释说： “一旦无法提取特定的数字或数字，就会改变代理工作的整个轨迹。”在这些繁重的解析工作流程中， Databricks从GPT ‑ 5. 5中获得了最大的收益。“像5这样的早期型号。 4无法正确解析所有数字，但5. 5在解析旧文档和扫描的PDF文件方面似乎有所提升， ”Singhvi说。团队还看到跨多步骤任务的协调有所改进。Singhvi说：“我们在5. 4中看到的一件事是，有时它会进行这些不必要的搜索绕道，这会导致非常低效的轨迹。”与早期型号相比， GPT ‑ 5。 5在检索相关上下文和完成复杂的工作流程方面更可靠，而无需额外的监督。Databricks现在通过AI Unity网关提供GPT-5. 5 ，客户可以在使用AgentBricks和Agent Supervisor API构建的工作流中使用模型。在这些系统中， GPT ‑ 5. 5跨专业代理协调解析、检索和执行。 Singhvi说：「我们将看到许多客户使用AgentBricks和Agent Supervisor API来定制代理工作流程。“让GPT ‑ 5. 5监督这些工作流程真的很令人兴奋。”",
-      "originalSummary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "据报道， OpenAI正在准备对苹果提起法律诉讼；它不会是第一个感到被烧伤的合作伙伴",
-      "originalTitle": "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first partner to feel burned",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
-      "date": "2026-05-14T19:12:03.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI对苹果的ChatGPT整合感到非常沮丧，因为该整合未能为用户提供服务，而且它预计该公司现在正在积极探索针对这家iPhone制造商的法律诉讼。",
-      "originalSummary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "帮助ChatGPT更好地识别敏感对话中的语境",
@@ -209,7 +186,7 @@
       "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
       "date": "2026-05-14T00:00:00.000Z",
       "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、安全相关动态",
-      "fullContent": "新的安全更新有助于ChatGPT在风险随着时间的推移而出现时做出安全响应。人们每天都会来ChatGPT谈论对他们来说重要的事情，从日常问题到更私人或更复杂的对话。在数亿次互动中，其中一些对话包括正在挣扎或经历痛苦的人。 我们设计的系统在这些时刻谨慎应对，包括提供危机资源，并在需要时将人们与他们信任的人联系起来。今天，我们将分享有关安全更新的新细节，帮助ChatGPT通过识别微妙或不断变化的线索，并利用这一背景为安全响应提供信息，从而更好地识别风险何时会随着时间的推移而出现。 这有助于ChatGPT区分人们每天数以亿计的安全互动，以及需要额外谨慎的罕见情况，以便更谨慎地应对，例如通过降级、拒绝有害细节或重定向到更安全的替代方案。 这些改进基于多年来在模型培训、评估、监控系统方面的广泛工作，以及与心理健康和安全专家两年多的合作。在敏感的对话中，上下文与单个消息一样重要。当与先前的痛苦迹象或可能的有害意图一起看待时，看起来平凡或模棱两可的请求可能具有非常不同的含义。 为了做出适当的回应，我们对ChatGPT进行了培训，使其能够识别周围环境中的潜在有害意图，以便拒绝请求、降级并引导用户获得支持。这些情况并不常见，但对正确处理至关重要。我们的目标是帮助ChatGPT在重要时连接相关信号，而不会在日常对话中反应过度。 我们将工作重点放在自杀、自残和伤害他人等紧急情况上。我们与心理健康专家合作，更新了我们的模型政策和培训，以提高ChatGPT识别对话过程中出现的警告信号的能力，并利用该背景为更谨慎的回应提供信息。在这些罕见的高风险情况下， ChatGPT可以更好地区分良性请求和可能表明更高伤害风险的请求。 这建立在我们的安全完成方法的基础上，该方法旨在拒绝用户请求中不安全的部分，并在安全的情况下谨慎回应。目标是帮助模型更恰当地响应背景，在对话中出现伤害信号时提高警惕，同时在良性情况下继续做出有益的回应。在不同的对话中可能会出现一些安全风险。 一个对话可能包含潜在有害意图的微妙迹象，然后另一个对话可能包含相关请求，这些请求只有在与先前的上下文结合理解时才会引发担忧。如果没有这种安全相关的背景，后来的谈话--以及潜在的重要警告信号--可能看起来是良性的。",
+      "fullContent": "了解新的ChatGPT安全更新如何提高敏感对话中的情境感知能力，帮助随着时间的推移检测风险并更安全地响应。",
       "originalSummary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
       "rawFullText": "",
       "tags": [
@@ -225,27 +202,11 @@
       "link": "https://openai.com/index/work-with-codex-from-anywhere",
       "date": "2026-05-14T13:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Codex即将登陆您的手机。现已在ChatGPT移动应用中预览。Codex现已在ChatGPT移动应用程序中，因此您可以在任何地方随时了解Codex在笔记本电脑、devbox或远程环境中完成工作的情况。随着客服代表承担更长期的工作，一种新的协作节奏正在出现。 为了继续工作，您需要能够轻松回答问题、查看Codex发现的内容、改变方向、批准接下来的内容或添加新创意。现在每周有超过400万人使用Codex ，我们看到这些小小的时刻有多重要。快速入住可以让线程保持移动，防止不必要的返工，或帮助Codex在正确的背景下取得进展。现在，您可以通过手机完成此操作。 从这里开始⁠（在新窗口中打开）。ChatGPT移动应用程序中的Codex是一种功能齐全的移动体验，用于完成Codex的工作。当您连接到运行Codex的任何计算机（无论是笔记本电脑、专用Mac mini还是托管远程环境）时，应用程序会从该环境中加载实时状态，因此您可以在活动线程、审批、插件和项目上下文中流畅地工作。 这不仅仅是远程控制单个任务或向计算机发送新任务的能力。在手机上，您可以处理所有线程、查看输出、批准命令、更改模型或开始新工作。您的文件、凭据、权限和本地设置将保留在Codex运行的计算机上，而更新将实时流回您的手机，包括屏幕截图、终端输出、差异、测试结果和批准。 在引擎盖下， Codex使用安全中继层，使受信任的机器可以跨设备访问，而不会直接暴露给公共互联网。该中继还可以在您使用ChatGPT登录的任何地方保持活动会话状态和上下文同步。随着法典处理更长时间的工作，及时的指导成为保持工作有用的更大一部分。 在您的手机上，您可以在最关心的时候开始工作，在需要您的判断时取消屏蔽，并在结果成形时紧跟结果。许多团队已经开发了内部托管远程环境，提供经批准的依赖关系、凭据、安全策略和计算资源。随着远程SSH的普及， Codex可以直接连接到这些环境。 桌面应用程序会自动从SSH配置中检测主机，并允许您像在本地一样在远程计算机中创建项目和运行线程。连接后，这些环境可以通过相同的安全中继基础设施通过您授权的ChatGPT设备进行访问。这意味着您可以在桌面上开始工作，从手机控制执行，并保持长期运行的任务移动，而无需绑定到单台机器。 我们还发布了几项更新，以扩展团队如何大规模自动化、定制和管理Codex ：",
+      "fullContent": "使用ChatGPT移动应用程序随时随地使用Codex。跨设备和远程环境实时监控、指导和批准编码任务。",
       "originalSummary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
       "rawFullText": "",
       "tags": [
         "大模型"
-      ],
-      "score": 95
-    },
-    {
-      "title": "Clawdmeter将您的Claude Code使用统计数据转换为微型桌面仪表板",
-      "originalTitle": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
-      "date": "2026-05-14T19:05:01.000Z",
-      "summary": "这条新闻与大模型、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、开源相关动态",
-      "fullContent": "硅谷的tokenmaxxing时代现在有自己的硬件。一个新的开源项目将您的Claude代码利用率统计信息带入一个小型桌面仪表板，让AI高级用户可以密切关注其使用情况。 当然，您可以使用命令或其他外部工具和应用程序直接在终端中跟踪Claude Code的使用情况，但这并不像在屏幕上显示令牌使用信息之前看到像素艺术版本的Clawd Sprite舞蹈那么有趣，不是吗？ 该设备被称为“Clawdmeter” ，既是人工智能高级用户的一个有趣的副项目，也是Anthropic的Claude如何彻底渗透到开发人员社区以及对tokenmaxxing日益增长的兴趣的及时指示。这种新的“生产力”趋势使各种科技公司的软件工程师将工作中消耗的人工智能代币数量最大化，以此来衡量他们对人工智能的接受程度。 正如一位Reddit用户在第一次看到该项目时开玩笑说： “此时， Anthropic应该将这些免费邮寄给我们。”另一位建议添加一个按钮，以增加容量或使用您登记的卡充值更多代币。（哈，那可能很危险！ ）有人为办公桌制作了一个小型硬件设备，用于监控Claude令牌的使用情况。叫它Clawdmeter。有点天才。图片。推特。 com/COD4EmmsTy该项目的想法来自冰岛雷克雅未克的软件开发人员Hermann Haraldsson ，他说他一直想玩嵌入式设备，但从来没有时间。“我不是嵌入式开发人员或类似的东西，” Haraldsson在电话中告诉TechCrunch。但他说，克劳德能够在短短几天内带他完成这个项目。 “这是对编程的真正民主化访问，因此现在任何人都可以做开发人员曾经做过的事情。我认为这实际上是非常积极的。“他花在构建设备上的大部分时间都集中在设计上，确保字体、颜色和小动画都恰到好处。要构建自己的仪表板，您可以使用小型锂离子电池供电显示器，如Waveshare ESP32-S3-Touch-AMOLED-2。 16 ，通过蓝牙与您的笔记本电脑配对。当设备打开时，启动屏幕会播放像素艺术的Clawd动画，随着使用率的攀升，这些动画会变得更加繁忙。如果愿意，您还可以按中间按钮循环播放不同类型的动画。Haraldsson说： “我喜欢工作，我看到它变得疯狂--就像一个小多巴胺循环。” 动画将保留在屏幕上，直到您按下中间按钮，然后在简单的图表中显示您的会话和每周Claude利用率数据。",
-      "originalSummary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "开源"
       ],
       "score": 94
     },
@@ -256,13 +217,43 @@
       "link": "https://openai.com/index/sea-david-chen",
       "date": "2026-05-14T20:30:00.000Z",
       "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“SEA对Codex代理软件开发未来的看法”。它主要涉及智能体方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "Sea Limited的CPO解释了为什么该公司正在跨工程团队部署Codex ，以加速亚洲的AI原生软件开发。",
       "originalSummary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
       "rawFullText": "",
       "tags": [
         "智能体"
       ],
-      "score": 91
+      "score": 90
+    },
+    {
+      "title": "OpenAI称Codex即将登陆您的手机",
+      "originalTitle": "OpenAI says Codex is coming to your phone",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "date": "2026-05-14T20:58:55.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "法典正在走向移动化。OpenAI大约一年前推出的编码工具现已集成到ChatGPT应用程序中，允许用户远程监控和管理其开发工作流程。新功能允许用户在任何正在运行的设备中查看其Codex实时环境。该公司周四宣布了这些变化；该更新目前处于预览阶段，现在适用于iOS和Android上的所有计划。 OpenAI在一份声明中表示： “这不仅仅是远程控制单个任务或向计算机发送新任务的能力。” “在手机上，您可以处理所有线程、查看输出、批准命令、更改模型或开始新事物。“上个月， OpenAI还让Codex能够在桌面环境中后台运行，使该工具能够自主处理各种任务。 本月早些时候，该公司还推出了Chrome扩展程序，允许代理在实时浏览器会话中工作。今年2月， Anthropic发布了类似的功能--远程控制，允许用户远程监控Claude Code的工作。OpenAI和Anthropic发布的一系列功能说明了两者之间的激烈竞争，代理编码工具将成为最广泛使用的编码工具。 在过去的一年中， Anthropic的Claude Code在企业和技术专业人士中越来越受欢迎，尽管这两种工具仍在广泛使用。接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The update gives users enhanced flexibility over how they can manage their workflows.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 86
+    },
+    {
+      "title": "金融服务中代理AI的数据就绪性",
+      "originalTitle": "Data readiness for agentic AI in financial services",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "date": "2026-05-14T13:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "金融服务公司在商业人工智能方面有着独特的需求。他们在监管最严格的行业之一运营，同时应对第二次更新的外部事件。因此，代理人工智能在金融服务领域的成功与其说取决于系统的复杂性，不如说取决于其所依赖的数据的质量、安全性和可访问性。 Elastic搜索AI全球董事总经理Steve Mayzak表示： “这一切都始于数据。代理人工智能系统能够独立规划和采取行动来完成任务，而不是简单地生成响应，由于它能够整合实时数据和优化复杂的工作流程，因此为金融服务提供了巨大的潜力。 Gartner发现，超过一半的金融服务团队已经实施或计划实施代理人工智能。然而，将自主人工智能引入任何组织都会放大其使用的底层数据的优势和劣势。为了快速、自信和控制地部署代理人工智能，金融服务公司必须首先能够大规模搜索、保护和情境化其数据。 “Agentic AI放大了链中最薄弱的环节：数据可用性和质量，” Mayzak说。“你的系统只有最薄弱的环节才能发挥作用。“因此，金融服务公司需要一个易于访问、可靠且可大规模管理的可信赖的集中式数据存储。金融服务部门的高质量信息监管需要对所有数据工具高度负责。 正如Mayzak所说， “你不能只停下来解释数据来自哪里以及转换成什么： ‘这是输入的数据，这就是结果。“你需要一种可审计和可管理的方式来解释模型发现了什么信息，以及为什么这些数据适合下一步的逻辑。“也就是说，您需要能够看到、理解和描述潜在的流程。 与此同时，金融服务公司需要速度和准确性，以满足客户的期望并保持领先地位。市场在不断变化，风险和机遇也随之而来。如果人工智能模型可以解析来自复杂来源的自然语言（非结构化数据） ，以及更易于分析的电子表格中的结构化数据，这将为用户提供更多相关信息。 在这种环境下，对错误是无法容忍的，包括困扰早期人工智能工作的幻觉。代理人工智能系统依赖于快速访问安全可访问的高质量、管理良好的数据。在金融服务中，这些数据跨越交易、客户互动、风险信号、政策和历史背景。为AI准备数据的任务不应被低估。 Mayzak说： “自然语言比结构化数据混乱得多，这使得组织和清理自然语言的过程变得更加重要，也更加困难。”数据必须在不同位置进行良好的索引和整合，而不是锁定在整个组织中独立系统的孤岛中。",
+      "originalSummary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on&#8230;",
+      "rawFullText": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on the quality, security, and accessibility of the data it relies on.&nbsp; “It all starts with the data,” says Steve Mayzak, global managing director of Search AI at Elastic. Agentic AI—systems that can independently plan and take actions to complete tasks, rather than simply generate responses—holds enormous potential for financial services due to its ability to incorporate real-time data and optimize complex workflows. Gartner has found that more than half of financial services teams have already implemented or plan to implement agentic AI.&nbsp; However, introducing autonomous AI into any organization magnifies both the strengths and weaknesses of the underlying data it uses. To deploy agentic AI with speed, confidence, and control, financial services companies must first be able to search, secure, and contextualize their data at scale. “Agentic AI amplifies the weakest link in the chain: data availability and quality,” says Mayzak. “And your systems are only as good as their weakest link.” Financial services companies, therefore, require a trusted and centralized data store that is easy to access, dependable, and can be managed at scale. The high stakes of quality information Regulation in the financial services sector requires a high degree of accountability for all data tools. As Mayzak says, “You can’t just stop at explaining where the data came from and what it was transformed into: ‘Here&#8217;s the data that went in, and this is what came out.’ You need an auditable and governable way to explain what information the model found and the logic of why that data was right for the next step.” That is, you need to be able to see, understand, and describe the underlying processes. At the same time, financial services companies require speed and accuracy in order to meet customer expectations and stay ahead of competition. Markets are continually shifting, and risks and opportunities move along with them. If an AI model can parse natural language (unstructured data) from complex sources—in addition to structured data in spreadsheets that are easier to analyze—this gives users more relevant information.&nbsp; In this environment, there is no tolerance for error, including the hallucinations that plagued early AI efforts. Agentic AI systems depend on rapid access to high-quality, well-governed data that is secure and accessible. In financial services, that data spans transactions, customer interactions , risk signals, policies, and historical context. The task of preparing that data for AI should not be underestimated. “Natural language is way more messy than structured data, and that makes the process of organizing and cleaning it up that much more important and also that much harder,” says Mayzak. The data must be well indexed and consolidated across different locations, not locked in the silos of separate systems across the organization. Otherwise, AI agents lag, provide inconsistent answers, and produce decisions that are harder to trace and explain, undermining confidence among regulators, customers, and internal stakeholders.&nbsp; As Mayzak says, “There are many different ways to describe how to execute a trade at a bank. In an agent-powered world, we need those descriptions to be deterministic—to give the same results every time. Yet we’re building on powerful but non-deterministic models. That’s incredibly tricky, but not impossible.” For a financial services firm, managing this can be very challenging. A Forrester study found that 57% of financial organizations are still developing the necessary internal capabilities to fully leverage agentic AI. “ The data exists in many different formats, created over the course of a bank’s history,” says Mayzak. “Take any bank that&#8217;s been around for 50 years: They might have 60 different types of PDFs for the exact same thing. And at the same time, we want the output of these systems to be 100% accurate. In many cases, there is no ‘good enough’.” That is, companies need to do it right, and the first time. Searching and securing results&nbsp; An effective search platform is key to solving the problem of fragmented, poorly indexed, inaccessible data. Financial services companies that can readily sift through both their structured and unstructured data, keep it secure, and apply it in the right context will get the most value from agentic AI. This often requires designing AI systems with data access and utility in mind so they can work faster and yield more accurate results, as well as reduce risk. “Search is the foundational technology that makes AI accurate and grounded in real data,” Mayzak says. “Search platforms have become the authoritative context and memory stores that will power this AI revolution.” Once in place, these AI-enhanced searches and autonomous systems can serve financial services companies for a range of purposes. When monitoring client exposure, agentic AI can continuously scan transactions, market signals, and external data to detect emerging risks; platforms can then automatically flag or escalate issues in real time. In trade monitoring, AI agents can review trade workflows, identify discrepancies across different formats, and resolve exceptions step by step with minimal human intervention. In regulatory reporting, AI can gather data from across systems, generate required reports, and track how each output was produced. These applications of AI save time while supporting audit and compliance needs by being traceable and explainable. Although such capabilities already exist, they are often manual, fragmented, and difficult to scale. Agentic AI allows financial organizations to move toward more automated, efficient, and scalable processes while maintaining the accuracy and transparency required in their highly regulated environment. As Mayzak says, “It’s not that different from how humans operate today, just done at a much faster pace and at scale.”&nbsp; Building an agentic AI ecosystem Launching agentic AI can be daunting, especially if other AI ventures have stalled internally. Mayzak’s recommendation is to choose a manageable use case and allow it to grow over time. “Success can build on success,” he says. “While companies may aim to automate a 70-step business process, they are discovering that you have to start somewhere. What is working in the market is tackling the problem one step at a time. Once you get the first step working, then you can take the next step, and the next.”&nbsp; The financial services organizations that lead among their peers will be those that integrate agentic AI into a broader ecosystem that includes strong security controls, good data governance, and effective management of system performance. As Mayzak says, “Doing this well will create an AI feedback loop, where executives gain new signals from these systems to assess the effectiveness of their investments and generate reliable, actionable insights.” By iterating on pilots and continuously improving, companies will build agentic systems that can be measured, managed, and scaled. This will transform agentic AI into lasting competitive advantage. Learn more about how Elastic supports financial services. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 82
     },
     {
       "title": "构建安全、有效的沙箱，以在Windows上启用Codex",
@@ -293,7 +284,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "人工智能聊天机器人正在提供人们的真实电话号码",
@@ -308,22 +299,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
-    },
-    {
-      "title": "AutoScout24利用人工智能驱动的工作流程扩展工程",
-      "originalTitle": "AutoScout24 scales engineering with AI-powered workflows",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/autoscout24",
-      "date": "2026-05-12T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“AutoScout24利用人工智能驱动的工作流程扩展工程”。它主要涉及大模型方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
+      "score": 72
     },
     {
       "title": "财务团队如何使用Codex",
@@ -332,13 +308,13 @@
       "link": "https://openai.com/academy/how-finance-teams-use-codex",
       "date": "2026-05-12T15:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“财务团队如何使用Codex”。它主要涉及模型方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "了解财务团队如何使用Codex根据实际工作输入构建MBR、报告包、差异桥梁、模型检查和规划场景。",
       "originalSummary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "AWS基础模型培训和推理的构建模块",
@@ -353,7 +329,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
@@ -368,10 +344,10 @@
       "tags": [
         "论文"
       ],
-      "score": 76
+      "score": 75
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "通过客户支持工程促进突破性人工智能创新",
       "originalTitle": "Fostering breakthrough AI innovation through customer-back engineering",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
@@ -383,10 +359,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "在金融领域实施先进的人工智能技术",
       "originalTitle": "Implementing advanced AI technologies in finance",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
@@ -398,7 +374,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
@@ -413,7 +389,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "EMO ：对专家进行预培训，以实现新兴的模块化",
@@ -428,7 +404,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "vLLM V0至V1 ： RL校正前的正确性",
@@ -443,7 +419,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "将Benchmaxxer Repellant添加到Open ASR排行榜",
@@ -458,7 +434,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "Granite 4.1 LLM ：如何构建",
