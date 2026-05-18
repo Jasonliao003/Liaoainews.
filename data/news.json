@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T07:59:47.331Z",
+  "updatedAt": "2026-05-18T12:17:59.200Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,165 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "SDOF ：通过状态受限的调度来驯服多代理业务流程中的协调税",
+      "originalTitle": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.15204",
+      "date": "2026-05-18T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2605. 15204v1公告类型：新摘要： LangChain、LangGraph和CrewAI等多代理编排框架通过基于图形的管道路由任务，但不强制执行管理实际业务流程的阶段约束。我们提出了SDOF ，这是一个将多代理执行视为约束状态机的框架。 SDOF通过两个主要防御层运行，由三个组件实现： （ 1 ）通过生成奖励建模（ GRPO ）训练的在线-RLHF专用意图路由器和（ 2 ）具有GoalStage有限自动检查和前置/后置SkillRegistry可审计执行控制验证的StateAwareDispatcher。 在Beisen iTalent平台（ 6000多家企业）支持的招聘系统上， 185个专家策划的场景触发了1671次实时API调用。在这个受FSM约束的对抗路由基准上，我们基于GSPO的7B Intent Router实现了比零点GPT-4o更高的关节精度（ 80. 9%对48. 9% ）。在端到端执行中， SDOF达到86. 5 ％的任务完成率（ 95 ％置信区间80. 8至90. 7 ）并阻止注射中的所有22个操作，非法HR子集。在更广泛的消息级拦截审计下， SDOF达到100%的精确度和88%的召回率，专家协议kappa = 0. 94。对跨越8个服务域的960个SGD派生对话的单独评估在我们的FSM映射下显示了201个阶段顺序冲突，其中41个发生在正常拆分中。 此arXiv版本报告当前已验证的范围；扩展的多种子培训比较和更深入的工作流评估将在后续更新中发布。",
+      "originalSummary": "arXiv:2605.15204v1 Announce Type: new Abstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent execution as a constrained state machine. SDOF operates through two primary defensive layers, implemented by three components: (1) an Online-RLHF Specialized Intent Router trained via Generative Reward Modeling (GRPO) and (2) a StateAwareDispatcher with GoalStage finite-automaton checks and precondition/postcondition SkillRegistry validation for auditable execution control. On a recruitment system backed by the Beisen iTalent platform (6000+ enterprises), 185 expert-curated scenarios trigger 1671 live API calls. Our GSPO-aligned 7B Intent Router achieves higher joint accuracy than zero-shot GPT-4o on this FSM-constrained adversarial routing benchmark (80.9% versus 48.9%). In end-to-end execution, SDOF reaches 86.5% task completion (95% confidence interval 80.8 to 90.7) and blocks all 22 operations in the injection, illegal HR subset. Under a broader message-level blocking audit, SDOF attains precision 100% and recall 88%, expert agreement kappa=0.94. A separate evaluation on 960 SGD-derived dialogues spanning 8 service domains surfaces 201 stage-order conflicts under our FSM mapping, 41 of which arise in the normal split. This arXiv version reports the current validated scope; extended multi-seed training comparisons and deeper workflow evaluations will be released in a subsequent update.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SkillSmith ：将Agent技能编译为边界引导的运行时接口",
+      "originalTitle": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.15215",
+      "date": "2026-05-18T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 15215v1公告类型：新摘要：最近，技能已被广泛应用于各个领域的基于大型语言模型（ LLM ）的代理系统。在现有框架中，一旦与运行时任务匹配，技能通常会作为上下文指导注入代理推理循环，从而实现专门的任务解决能力。 我们发现，这种执行范式引入了两种主要的冗余来源：不相关的上下文注入和重复的特定技能推理和规划。为此，我们提出了SkillSmith ，这是一个边界优先的编译器运行时框架，可将技能包离线编译为最小的可执行接口。 通过从技能中提取细粒度的操作边界， SkillSmith使代理能够在运行时动态访问并仅执行相关组件，从而最大限度地减少不必要的上下文注入和冗余推理开销。在对SkillsBench基准的评估中， SkillSmith将解决阶段代币的使用量减少了57. 44% ，思维迭代减少了42. 99% ，解决时间减少了50. 57% （速度提高了2. 02倍） ，代币比例货币成本减少了57%。 与使用原始技能相比， 44%。此外，由更强大的模型产生的编译工件可以由更小或更高效的运行时模型重用，从而在原始技能解释失败的情况下提高任务准确性。源代码和数据可在https://github. com/AetherHeart-AI/Aeloon上获得。",
+      "originalSummary": "arXiv:2605.15215v1 Announce Type: new Abstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime task, enabling specialized task-solving capabilities. We find that this execution paradigm introduces two major sources of redundancy: irrelevant context injection and repeated skill-specific reasoning and planning. To this end, we propose SkillSmith, a boundary-first compiler-runtime framework that compiles skill packages offline into minimal executable interfaces. By extracting fine-grained operational boundaries from skills, SkillSmith enables agents to dynamically access and execute only the relevant components at runtime, thereby minimizing unnecessary context injection and redundant reasoning overhead. In the evaluation on SkillsBench benchmark, SkillSmith reduces solve-stage token usage by 57.44%, thinking iterations by 42.99%, solve time by 50.57% (2.02x faster), and token-proportional monetary cost by 57.44% compared with using raw-skills. Moreover, compiled artifacts produced by a stronger model can be reused by a smaller or more efficient runtime model, improving task accuracy in cases where raw skill interpretation fails. The source code and data are available at https://github.com/AetherHeart-AI/Aeloon.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ICRL ：通过强化学习学习内化自我批评",
+      "originalTitle": "ICRL: Learning to Internalize Self-Critique with Reinforcement Learning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.15224",
+      "date": "2026-05-18T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 15224v1 Announce Type: new Abstract:基于大型语言模型的代理会犯错，但批评通常可以引导相同的模型走向正确的行为。然而，当批评被删除时，模型可能会在同一查询上再次失败，这表明它没有将批评的指导内化为其潜在的能力。 同时，冻结的批评者无法随着时间的推移提高其反馈质量，从而限制了迭代自我改进的潜力。为了解决这个问题，我们建议学习通过强化学习（ ICRL ）将自我批评内化，这是一个新颖的框架，可以联合训练来自共享主干的求解者和批评者，将批评引发的成功转化为无助求解能力。 批评者根据解决者随后的绩效提升获得奖励，激励可操作的反馈。为了解决批评条件和无批评行为之间的分布转变， ICRL引入了分布-校准重新加权比率，该比率选择性地传递与求解器自身提示分布兼容的批评引导改进。 此外，角色分组优势估计可稳定两个角色的联合优化。这些机制共同确保求解者在没有外部批评的情况下学习提高自己，而不是依赖于批评条件的行为。我们使用Qwen3-4B和Qwen3-8B作为骨干，在跨越代理和数学推理任务的各种基准上评估ICRL。结果显示持续改善，平均增益为6。 在代理任务上比GRPO高4分，在数学推理上高7. 0分。值得注意的是，学到的8B批评者与32B批评者相当，而使用的代币却少得多。代码可在https://github. com/brick-pid/ICRL上找到。",
+      "originalSummary": "arXiv:2605.15224v1 Announce Type: new Abstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's guidance into its underlying capability. Meanwhile, a frozen critic cannot improve its feedback quality over time, limiting the potential for iterative self-improvement. To address this, we propose learning to internalize self-critique with reinforcement learning(ICRL), a novel framework that jointly trains a solver and a critic from a shared backbone to convert critique-induced success into unassisted solver ability. The critic is rewarded based on the solver's subsequent performance gain, incentivizing actionable feedback. To address the distribution shift between critique-conditioned and critique-free behavior, ICRL introduces a distribution-calibration re-weighting ratio that selectively transfers critique-guided improvements compatible with the solver's own prompt distribution. Additionally, a role-wise group advantage estimation stabilizes joint optimization across the two roles. Together, these mechanisms ensure that the solver learns to improve itself without external critique, rather than becoming dependent on critique-conditioned behavior. We evaluate ICRL on diverse benchmarks spanning agentic and mathematical reasoning tasks, using Qwen3-4B and Qwen3-8B as backbones. Results show consistent improvements, with average gains of 6.4 points over GRPO on agentic tasks, and 7.0 points on mathematical reasoning. Notably, the learned 8B critic is comparable to 32B critics while using substantially fewer tokens. The code is available at https://github.com/brick-pid/ICRL.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "CAX-Agent ：用于可靠APDL自动化的轻量级代理线束",
+      "originalTitle": "CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.15218",
+      "date": "2026-05-18T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2605. 15218v1公告类型：新摘要：为MAPDL有限元仿真部署的大型语言模型面临着实际的可靠性挑战：没有结构化的执行控制、工具封装和故障恢复，输出可能不一致，任务故障很常见。Agent Harness范例通过插入管理工具生命周期、工作流状态和恢复升级的特定于域的业务流程中间件来解决这个问题。 本文介绍了CAX-Agent的架构，这是一种专为MAPDL自动化构建的轻量级代理线束，并对其核心组件之一--恢复策略进行了实证评估。CAX-Agent将执行分为三个层次： LLM服务、代理线束和解算器后端，其恢复阶梯从确定性规则修补升级到模型驱动的再生，再到上下文丰富和人工干预。 我们在50个标准结构基准上评估了三种恢复策略（ no_recovery、rule_only和model_only ） ，每个策略三次重复运行（总计450个案例运行）。两名独立的人类评分者在盲态条件下对任务完成情况进行评分；评分者间一致性较强（二次加权Cohen's kappa = 0. 84 ， 96%的评分对在一分内）。MODEL_ONLY的最佳完成率（ 0. 9267 ）、任务分数（ 3. 59/4 ）、总分（ 9. 16/10 ）和零干预率（ 0. 84 ） ，仅优于规则（ 0. 7733 ， 3. 17/4 ， 7. 03/10 ， 0. 00 ）和无恢复（ 0. 6933 ， 2. 74/4 ， 5. 60/10 ， 0. 00 ） ，效果大小较大（ Cliff's delta = 0. 81-0. 87 ）。该基准故意使用简单的几何形状来隔离恢复策略效应；我们讨论了这些发现的范围和更广泛的验证方向。",
+      "originalSummary": "arXiv:2605.15218v1 Announce Type: new Abstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent Harness paradigm addresses this by inserting domain-specific orchestration middleware that manages tool lifecycles, workflow state, and recovery escalation. This paper presents the architecture of CAX-Agent, a lightweight agent harness purpose-built for MAPDL automation, and empirically evaluates one of its core components -- the recovery policy.CAX-Agent organizes execution into three layers -- LLM service, agent harness, and solver backend -- with a recovery ladder that escalates from deterministic rule patching through model-driven regeneration to context enrichment and human intervention. We evaluate three recovery strategies (no_recovery, rule_only, and model_only) on 50 standard structural benchmarks with three repeated runs per strategy (450 case-runs total). Two independent human raters score task completion under blind conditions; inter-rater agreement is strong (quadratic weighted Cohen's kappa = 0.84, 96 percent of score pairs within one point). Model_only achieves the best completion rate (0.9267), task score (3.59/4), total score (9.16/10), and zero-intervention rate (0.84), outperforming rule_only (0.7733, 3.17/4, 7.03/10, 0.00) and no_recovery (0.6933, 2.74/4, 5.60/10, 0.00) with large effect sizes (Cliff's delta = 0.81-0.87). The benchmark uses deliberately simple geometries to isolate recovery-policy effects; we discuss the scope of these findings and directions for broader validation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "论文"
+      ],
+      "score": 97
+    },
+    {
+      "title": "NIMO控制器：基于模型上下文协议的自动驾驶实验室编排器",
+      "originalTitle": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.15227",
+      "date": "2026-05-18T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2605. 15227v1公告类型：新摘要：自动驾驶实验室（ SDL ）作为加速科学发现的一种手段越来越受到关注；然而，开发SDL软件的技术要求仍然很高。为了提高可访问性，已经提出了协调软件框架来协调SDL组件。 尽管如此，现有框架主要是为人际交互而设计的，并不提供适合人工智能代理的标准化界面。在这项工作中，我们提出了一种基于模型上下文协议(MCP)的SDL软件架构，其中所有SDL功能都通过MCP服务器公开。根据这一设计原则，我们引入了一个基于MCP的SDL编排器，名为NIMO Controller。 它提供了通过基于MCP的工具发现自动生成的可视化编程界面，允许人类用户无需编写代码即可设计实验工作流程。人工智能代理也可以访问相同的MCP后端，为人类用户和人工智能代理提供统一的界面。我们通过对颜色匹配SDL的案例研究来演示所提议的系统。结果验证了所提出的基于MCP的SDL架构的可用性。",
+      "originalSummary": "arXiv:2605.15227v1 Announce Type: new Abstract: Self-driving laboratories (SDLs) have attracted increasing attention as a means of accelerating scientific discovery; however, developing SDL software remains technically demanding. To improve accessibility, orchestration software frameworks have been proposed to coordinate SDL components. Nevertheless, existing frameworks are primarily designed for human interaction and do not provide standardized interfaces suitable for AI agents. In this work, we propose an SDL software architecture based on the Model Context Protocol (MCP), in which all SDL functionalities are exposed through MCP servers. Following this design principle, we introduce an MCP-based SDL orchestrator, named NIMO Controller. It provides a visual programming interface automatically generated through MCP-based tool discovery, allowing human users to design experimental workflows without writing code. The same MCP backend can also be accessed by AI agents, providing a unified interface for both human users and AI agents. We demonstrate the proposed system through a case study on a color-matching SDL. The results validate the usability of the proposed MCP-based SDL architecture.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "为什么在Elon Musk-OpenAI试验中信任是一个大问题",
+      "originalTitle": "Why trust is a big question at the Elon Musk-OpenAI trial",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "date": "2026-05-17T19:46:34.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "埃隆·马斯克（ Elon Musk ）和OpenAI的律师本周进行了最后辩论，现在由陪审员来决定OpenAI是否做错了什么，因为它已经转变为一个稍微更多的营利组织。 但正如克尔斯滕·科罗塞克（ Kirsten Korosec ）、肖恩·奥凯恩（ Sean O’Kane ）和我在TechCrunch的Equity播客的最新一集中指出的那样，在审判的最后几天，一个重要的主题是OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）是否值得信赖--例如，马斯克的律师史蒂夫·莫洛（ Steve Molo ）向奥尔特曼（ Altman ）询问他在国会证词中所作的陈述是否真实。Kirsten指出，马斯克自己做了很多误导性的陈述，这种信任不仅仅是奥特曼的问题。 她说： “对于许多科技记者、政策制定者和越来越多的消费者来说，这是一个关于所有人工智能实验室的基本问题。” “这真的归结为信任，因为我们不一定有洞察力—这些都是私营公司，面纱背后还有很多东西。“请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 Anthony Ha ： [审判结束]导致我们的一位作家Tim Fernholz发布了这个非常挑衅的标题， [这]只是说： “谁信任Sam Altman ？“有人想尝试回答这个问题吗？ Kirsten Korosec ：是的， Anthony ，我会把它扔回去给你。你相信Sam Altman吗？ Anthony ：这是一个有趣的问题，因为在新闻背景下讨论这个问题有点疯狂，但实际上这在很多方面都是审判的核心。Anthony ：实际上，这似乎是理解OpenAI发生的许多事情的核心，尤其是他们现在称之为“Blip”的巨大行政权力斗争。 看起来很多和Altman一起工作的人都不信任他。他承认了这一点，因为他会谈论这样一个事实，即他认识到自己一直在避免冲突，告诉人们他们想听到什么，他正在努力做到这一点。我的意思是，这听起来似乎是合理的，我可以理解在某些情况下这会导致误解。 [但是]我也是一个非常厌恶冲突的人，我想如果这些东西中的任何一个被审判，人们就不会问， “安东尼·哈值得信赖吗？“ Kirsten ：我想人们会说你是值得信赖的。我要说的是，这个问题虽然具有挑衅性，但不仅仅是概括了这次试验的内容。 我会进一步缩小范围，并说这是许多科技记者、政策制定者和越来越多的消费者对所有人工智能实验室的一个基本问题。这真的归结为信任，因为我们不一定有洞察力—这些都是私营公司，面纱背后还有很多东西。",
+      "originalSummary": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "苹果的Siri改造可能包括自动删除聊天",
+      "originalTitle": "Apple’s Siri revamp could include auto-deleting chats",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+      "date": "2026-05-17T20:15:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "根据彭博社的马克·古尔曼（ Mark Gurman ）的说法，当苹果在6月份的全球开发者大会上推出新版Siri时，隐私将成为一个主要主题。Siri的重新推出被广泛认为是苹果重新确立其在人工智能领域相关性的大好机会。Gurman说，作为这一努力的一部分，公司高管将争辩说，他们正在采取比大多数其他人工智能公司更隐私友好的方法。 据报道，苹果将推出首款由Google Gemini提供支持的独立Siri应用，为用户提供让人联想到ChatGPT的聊天机器人体验。但与其他聊天机器人相比，该应用程序对用户信息的使用和存储时间应该有更多的限制。 例如， Gurman表示， Siri可能包含类似于消息应用程序的功能，允许用户在30天或一年后自动删除对话，或无限期保留它们。古尔曼还表示，苹果可能会强调隐私，以此作为与竞争产品相比Siri的缺点的借口，而这种强调可能会掩盖谷歌正在处理一些安全性的事实。接下来是StrictlyVC Athens。 直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Privacy will be a major theme when Apple unveils a new version of Siri.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "如果你在2026年发表毕业典礼演讲，也许不要提及人工智能",
+      "originalTitle": "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
+      "date": "2026-05-17T16:32:04.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“如果你在2026年发表毕业典礼演讲，也许不要提及人工智能”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "It's tough to get graduating students excited about a future shaped by artificial intelligence.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "TechCrunch AI：AI 热点相关动态",
+      "originalTitle": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "date": "2026-05-17T16:05:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "The Verge AI：AI 热点相关动态",
+      "originalTitle": "Revamped Siri will reportedly offer autodeleting chats",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "date": "2026-05-17T18:40:28.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat histories. [&#8230;]",
+      "rawFullText": "Apple is hoping that its record on privacy can be the differentiator on the AI front and maybe even buy it a little slack as it continues to lag behind the competition. According to Bloomberg 's Mark Gurman, the more chatbot-like Siri set to debut in iOS 27 will include the option to autodelete chat histories. Users will be able to save conversations for 30 days, one year, or forever. That's in stark contrast to the other major players in the space that generally only offer temporary incognito chats, if that. It appears Apple is betting that people are willing to give up some convenience in the name of greater privacy, as anxiety around AI c … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
     {
       "title": "OpenAI联合创始人Greg Brockman负责产品战略",
       "originalTitle": "OpenAI co-founder Greg Brockman takes charge of product strategy",
@@ -64,7 +223,7 @@
         "论文",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "AI淘金热的“有”和“无”",
@@ -79,7 +238,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "索尼试图解释其AI相机助手并不糟糕",
@@ -94,7 +253,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "OpenAI不断对其高管进行洗牌，以赢得AI智能体之战",
@@ -164,20 +323,19 @@
       "score": 99
     },
     {
-      "title": "OpenAI现在希望ChatGPT访问您的银行账户",
-      "originalTitle": "OpenAI now wants ChatGPT to access your bank accounts",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection",
-      "date": "2026-05-15T16:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "ChatGPT甚至会知道您有多少信用卡债务。|图片： OpenAI您对人工智能的信任即将受到考验： OpenAI将很快让聊天机器人直接访问您的银行账户。今天在预览版中宣布的新功能将允许用户将ChatGPT与Plaid “安全连接” ， Plaid是12,000家金融机构使用的银行到应用的桥接平台，包括Schwab、Fidelity、Chase、Capital One等。 OpenAI在其公告中表示： “每月已有超过2亿人使用ChatGPT ，并提出财务问题-从预算到如何削减支出的提示。” “现在，用户可以安全地将他们的金融账户与Plaid连接，以全面了解他们的FI...阅读The Verge的完整故事。",
-      "originalSummary": "Your trust in AI is about to be put to the test: OpenAI will soon let you give the chatbot direct access to your bank accounts. The new feature announced in preview today will allow users to \"securely connect\" ChatGPT with Plaid - the bank-to-app bridging platform used by 12,000 financial institutions, including Schwab, Fidelity, [&#8230;]",
-      "rawFullText": "ChatGPT will even know how much credit card debt you have. | Image: OpenAI Your trust in AI is about to be put to the test: OpenAI will soon let you give the chatbot direct access to your bank accounts. The new feature announced in preview today will allow users to \"securely connect\" ChatGPT with Plaid - the bank-to-app bridging platform used by 12,000 financial institutions, including Schwab, Fidelity, Chase, Capital One, and more. \"More than 200 million people are already going to ChatGPT every month with finance questions - from budgeting to tips on how to cut back on spending,\" OpenAI said in its announcement. \"Now, users can securely connect their financial accounts with Plaid to get the full view of their fi … Read the full story at The Verge.",
+      "title": "OpenAI：大模型相关动态",
+      "originalTitle": "A new personal finance experience in ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/personal-finance-chatgpt",
+      "date": "2026-05-15T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：大模型相关动态”。它主要涉及大模型方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "大模型"
       ],
-      "score": 98
+      "score": 93
     },
     {
       "title": "帮助ChatGPT更好地识别敏感对话中的语境",
@@ -208,7 +366,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "SEA对Codex代理软件开发未来的看法",
@@ -223,22 +381,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
-    },
-    {
-      "title": "OpenAI称Codex即将登陆您的手机",
-      "originalTitle": "OpenAI says Codex is coming to your phone",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-      "date": "2026-05-14T20:58:55.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "法典正在走向移动化。OpenAI大约一年前推出的编码工具现已集成到ChatGPT应用程序中，允许用户远程监控和管理其开发工作流程。新功能允许用户在任何正在运行的设备中查看其Codex实时环境。该公司周四宣布了这些变化；该更新目前处于预览阶段，现在适用于iOS和Android上的所有计划。 OpenAI在一份声明中表示： “这不仅仅是远程控制单个任务或向计算机发送新任务的能力。” “在手机上，您可以处理所有线程、查看输出、批准命令、更改模型或开始新事物。“上个月， OpenAI还让Codex能够在桌面环境中后台运行，使该工具能够自主处理各种任务。 本月早些时候，该公司还推出了Chrome扩展程序，允许代理在实时浏览器会话中工作。今年2月， Anthropic发布了类似的功能--远程控制，允许用户远程监控Claude Code的工作。OpenAI和Anthropic发布的一系列功能说明了两者之间的激烈竞争，代理编码工具将成为最广泛使用的编码工具。 在过去的一年中， Anthropic的Claude Code在企业和技术专业人士中越来越受欢迎，尽管这两种工具仍在广泛使用。接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "The update gives users enhanced flexibility over how they can manage their workflows.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
+      "score": 89
     },
     {
       "title": "金融服务中代理AI的数据就绪性",
@@ -253,7 +396,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
+    },
+    {
+      "title": "MIT Technology Review：视频生成相关动态",
+      "originalTitle": "The shock of seeing your body used in deepfake porn",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
+      "date": "2026-05-14T09:00:00.000Z",
+      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：视频生成相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：视频生成相关动态”。它主要涉及视频生成方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return&#8230;",
+      "rawFullText": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return some of that content, and also something alarming that she’d never seen before: one of her old videos, but with someone else’s face on her body. “At first, I thought it was just a different person,” says Jennifer, who is being identified by a pseudonym to protect her privacy.&nbsp; But then she recognized a distinctly garish background from a video she’d shot around 2013, and she realized: “Somebody used me in a deepfake.” Eerily, the facial recognition tech had identified her because the image still contained some of Jennifer’s features—her cheekbones, her brow, the shape of her chin. “It’s like I’m wearing somebody else’s face like a mask,” she says.&nbsp; “It’s like I’m wearing somebody else’s face like a mask.” Conversations about sexualized deepfakes—which fall under the umbrella of nonconsensual intimate imagery, or NCII—most often center on the people whose faces are featured doing something they didn’t really do or on bodies that aren’t really theirs. These are often popular celebrities, though over the past few years more people ( mostly women and sometimes youths ) have been targeted, sparking alarm, fear, and even legislation. But these discussions and societal responses usually are not concerned with the bodies the faces are attached to in these images and videos. As Jennifer, now 37 and a psychotherapist working in New York City, says: “There’s never any discussion about Whose body is this ?”&nbsp; For years, the answer has generally been adult content creators. Deepfakes in fact earned their name back in November 2017, when someone with the Reddit username “deepfakes” uploaded videos showing faces of stars like Scarlett Johansson and Gal Gadot pasted onto porn actors’ bodies. The nonconsensual use of their bodies “happens all the time” in deepfakes, says Corey Silverstein, an attorney specializing in the adult industry.&nbsp; But more recently, as generative AI has improved, and as “nudify” apps have begun to proliferate, the issue has grown far more complicated—and, arguably, more dangerous for creators’ futures.&nbsp; Porn actors’ bodies aren’t necessarily being taken directly from sexual images and videos anymore, or at least not in an identifiable way. Instead, they are inevitably being used as training data to inform how new AI-generated bodies look, move, and perform. This threatens the livelihood and rights of porn actors as their work is used to train AI nudes that in turn could take away their business. And that’s not all: Advancements in AI have also made it possible for people to wholly re-create these performers’ likenesses without their consent, and the AI copycats may do things the performers wouldn’t do in real life. This could mean their digital doubles are participating in certain sex acts that they haven’t agreed to do, or even perpetrating scams against fans. Adult content creators are already marginalized by a society that largely fails to protect their safety and rights, and these developments put them in an even more vulnerable position. After Jennifer found the deepfake featuring her body, she posted on social media about the psychological effects: “I’ve never seen anyone ask whether that might be traumatic for the person whose body was used without consent too. IT IS!” Several other creators I spoke with shared the mental toll that comes with knowing their bodies have been used nonconsensually, as well as the fear that they’ll suffer financially as other people pirate their work. Silverstein says he hears from adult actors every day who “are concerned that their content is being exploited via AI, and they’re trying to figure out how to protect it.”&nbsp; One law professor and expert in violence against women calls these creators the “forgotten victims” of NCII deepfakes. And several of the people I spoke with worry that as the US develops a legal framework to combat nonconsensual sexual content online, adult actors are only at risk of further injury; instead of helping them, the crackdown on deepfakes may provide a loophole through which their content and careers could be stripped from the internet altogether. How deepfakes cause “embodied harms” During his preteen years in the 1970s, Spike Irons, now a porn actor and president of the adult content platform XChatFans, was “in love” with Farrah Fawcett. Though Fawcett did not pose nude, Jones managed to get his hands on what looked like pictures of her naked. “People were cutting out faces and pasting them on bodies,” Irons says. “Deepfakes, before AI, had been going around for quite a while. They just weren’t as prolific.” The early public internet was rife with websites capitalizing on the idea that you could use technology to “see” celebrities naked. “People would just use Microsoft Paint,” says Silverstein, the attorney. It was a simple way to mash up celebrities’ faces with porn.&nbsp; People later used software like Adobe After Effects or FakeApp, which was designed to swap two individuals’ faces in images or videos. None of these programs required serious expertise to alter content, so there was a low barrier to entry. That, plus the wealth of porn performers’ videos online, helped make face-swap deepfakes that used real bodies prevalent by the 2010s. When, later in the decade, deepfakes of Gal Gadot and Emma Watson caused something of a broader panic, their faces were allegedly swapped onto the bodies of the porn actors Pepper XO and Mary Moody , respectively. But it wasn’t just high-profile actors like them whose bodies were being used. Jennifer was “a very minor performer,” she says. “If it happened to me, I feel like it could happen to anybody who’s shot porn.” Since he started his practice in 2006, Silverstein says, “numerous clients” have reached out to report “ This is my body on so-and-so .”&nbsp; Both people whose faces appear in NCII deepfakes and those whose bodies are used this way can feel serious distress. Experts call this type of damage “embodied harms,” says Anne Craanen, who researches gender-based violence at the UK’s Institute for Strategic Dialogue, an organization that analyzes extremist content, disinformation, and online threats.&nbsp; The term reflects the fact that even though the content exists in the virtual realm, it can cause physiological effects, including body dysmorphia. The face-swapped entity occupies the uncanny valley, distorting self-perception. After discovering their faces in sexual deepfakes, many people feel silenced, experts told me; they may “self-censor,” as Craanen puts it, and step back from public-facing life. Allison Mahoney, an attorney who works with abuse survivors, says that people whose faces appear in NCII can experience depression, anxiety, and suicidal ideation: “I’ve had multiple clients tell me that they don’t sleep at night, that they’re losing their hair.”&nbsp; Independent creators aren’t just “having sex on camera.” For someone to rip off their work “for their own entertainment or financial gain fucking sucks.” Though the impact on people whose bodies are used hasn’t been discussed or studied as often, Jennifer says that “it’s just a really terrible feeling, knowing that you are part of somebody else’s abuse.” She sees it as akin to “a new form of sexual violence.” The uncertainty that comes with not being aware of what your body is doing online can be highly unsettling. Like Jennifer, many adult actors don’t really know what’s out there. But some devoted followers know the actors’ bodies well—often recognizing tattoos, scars, or birthmarks—and “very quickly they bring [deepfakes] to the adult performer’s attention,” says Silverstein. Or performers will stumble upon the content by chance; some 20 years ago, for instance, the first such client to tell Silverstein her body was being used in a deepfake happened to be searching Nicole Kidman online when she found that one of the results showed Kidman’s face on her porn. “She was devastated, obviously, because they took her body,” he says, “and they were monetizing it.”&nbsp; Otherwise, this imagery may be found by an organization like Takedown Piracy, one of several copyright enforcement companies serving adult content creators. US copyright violations can be challenging to prove if someone’s body lacks distinguishing features, says Reba Rocket, Takedown Piracy’s chief operating and marketing officer. But Rocket says her team has added digital fingerprinting technology to clients’ material to help flag and remove problematic videos, often finding them before clients realize they’re online.&nbsp; By capturing “tens of thousands of tiny little visual data points” from videos, digital fingerprinting creates unique corresponding files that can be used to identify them, Rocket says—kind of like an invisible watermark. The prints remain even if pirates alter the videos or replace performers’ faces. Takedown Piracy has digitally fingerprinted more than half a billion videos and the organization has gotten 130 million copyrighted videos taken down from Google alone (though, of those videos, Rocket hasn’t tracked how many of these specifically include someone else’s face on a performer’s body).&nbsp; Besides copyright, a range of legal tools can be used to try to combat NCII, says Eric Goldman, a law professor at Santa Clara University. For example, victims can claim invasion of privacy. But using these tools isn’t particularly straightforward, and they may not even apply when it comes to someone’s body. If there aren’t, for instance, unique markers indicating that a body in a deepfake belongs to the person who says it does, US law “doesn’t really treat [this content] as invasion of privacy,” Goldman says, “because we don’t know who to attribute it to.” In a 2018 study that reviewed “judicial resolution” of cases involving NCII, Goldman found that one successful way plaintiffs were able to win cases was to assert “intentional affliction of emotional distress.” But again, that hinges on the ability to clearly identify the person in the content. Relevant statutes, he adds, might also require “intent to harm the individual,” which may be hard to show for people whose bodies alone are featured. “AI girls will do whatever you want” In the last few years, Silverstein says, it’s become less and less common to see the bodies of real adult content creators in deepfakes, at least in a way that makes them clearly identifiable.&nbsp; Sometimes the bodies have been manipulated using AI or simpler editing tools. This can be as basic as erasing a birthmark or changing the size of a body part—minor edits that make it impossible to identify someone’s image beyond a reasonable doubt, so even porn actors who can tell that an altered image used their body as a base won’t get very far in the legal realm. “A lot of people are like, That looks like my body ,” says Silverstein, but when he asks them how, they’ll reply, It just does .&nbsp; At the same time, other users are now creating NCII with wholly AI-generated bodies. In “nudify” apps, anyone with a minimal grasp of technology can upload a photo of someone’s clothed body and have it replaced with a fake naked one. “So [much] of this content being created is just someone’s face on an AI body,” Silverstein says. Such apps have drawn a ton of attention recently, in incidents from Grok’s “nudifying” minors to Meta&#8217;s running ads for —and then suing —the nudify app Crushmate. But there’s been relatively little attention paid to the content being used to train them. They almost certainly draw on the more than 10,000 terabytes of online porn, and performers have virtually zero recourse. One reason is that creators aren’t able to demonstrate with any certainty that their content is being used to train AI models like those used by nudify apps. “These things are all a black box,” says Hany Farid, a professor at the University of California, Berkeley, who specializes in digital forensics. But “given the ubiquity” of adult content, he adds, it’s a “reasonable assumption” that online porn is being used in AI training.&nbsp; “It’s just not at all difficult to come up with pornographic data sets on the internet,” says Stephen Casper, a computer science PhD student at MIT who researches deepfakes. What’s more, he says, plenty of shadowy online communities provide “user guides” on how to use this data to train AI, and in particular programs that generate nudes.&nbsp; It’s not certain whether this activity falls within the US legal definition of “fair use”—an issue that’s currently being litigated in several lawsuits from other types of content creators—but Casper argues that even if it does, it’s ethically murky for porn created by consenting adults 10 years ago to wind up in those training data sets. When people “have their stuff used in a way that doesn’t respect or reflect reasonable expectations that they had at that time about what they were creating and how it would be used,” he says, there’s “a legitimate sense in which it’s kind of … nonconsensual.”&nbsp; Adult performers who started working years ago couldn’t possibly have consented to AI anything; Jennifer calls AI-related risks “retroactively placed.” Contracts that porn actors signed before AI, adds Silverstein, might provide that “the publisher could do anything with the content using technology that now exists or here and after will be discovered.” That felt more innocuous when producers were talking about the shift from VHS to DVD, because that didn’t change the content itself, just the way it was conveyed. It’s a far different prospect for someone to use your content to train a program to create new content … content that could replace your work altogether.&nbsp; Of course, this all affects creators’ bottom line—not unlike the way Google’s AI overviews affect revenue for online publishers who’ve stopped getting clicks when people are content with just reading AI-generated summaries. Performers’ “concern is … it’s another way to pirate [their] content,” says Rocket.&nbsp; After all, independent creators aren’t just “having sex on camera,” as the adult content creator Allie Eve Knox puts it. They’re paying for filming equipment and location rentals, and then spending hours editing and marketing. For someone to then rip off and distort that content “for their own entertainment or financial gain,” she says, “fucking sucks.” KIM HOECKELE Tanya Tate, a longtime adult content creator, tells me about another highly unsettling AI-created situation: She was recently chatting with a fan on Mynx, a sexting app, when he asked her if she knew him. She told him no, and “his eyes just started watering,” Tate says. He was upset because he thought she did know him. Turns out he’d sent $20,000 to a scammer who’d used an AI-generated deepfake of Tate to seduce him.&nbsp; Several men, Tate subsequently learned, had been scammed by an AI version of her, and some of them began blaming her for their losses and posting false statements about her online. When she reported one particularly aggressive harasser to the police, they told her he was exercising his “freedom of speech,” she says. Rocket, too, is familiar with situations where AI is used to take advantage of fans. “The actual content creator will get nasty emails from these people who’ve been scammed,” she says. Other porn actors say they fear that their likenesses have been used without consent to do other things they wouldn’t do. One, Octavia Red, tells me she doesn’t do anal scenes, “but I’m sure there’s tons of deepfake anal videos of me that I didn’t consent to.” That could cost her, she fears, if viewers choose to watch those videos instead of subscribing to her websites. And it could cause fans to develop false expectations about what kind of porn she’ll create. “I saw one AI creator saying, ‘Well, AI girls will do whatever you want. They don’t say no,’” says Rocket. “That horrifies me … especially if they’re training those AI models on real people. I don’t think they understand the damage to mental health or reputation that that can create. And once it’s on the internet, it’s there forever.”&nbsp; Efforts to “scrub adult content from the internet” As AI technology improves, it’s increasingly difficult for people to discern any type of real video from the best AI-generated ones on their own. In one 2025 study , UC Berkeley’s Farid found that participants correctly identified AI-generated voices about 60% of the time (not much better than random chance), while advances like false heartbeats make AI-generated humans tougher than ever to spot. Nevertheless, most lawyers and legal experts I spoke with said copyright laws are still adult performers’ best bet in the US legal system, at least for getting their face-swapped content taken down. For his clients, Silverstein says, he tries to figure out the content’s origins and then issue takedown requests under the Digital Millennium Copyright Act , a 1998 law that adapted copyright law for the internet era. “Even recently, I had a performer who has an insanely well-known tattoo,” he says, and with a DMCA subpoena he managed to identify the poster of the content, who voluntarily removed it.&nbsp; But this way of working is becoming increasingly rare. These days it’s nearly “impossible,” Silverstein says, to determine who produced a deepfake, because many platforms that host pirated content operate facelessly. They’re also often based in places that “don’t really care about US law when it comes to copyrights,” says Rocket—places like Russia, the Seychelles, and the Netherlands.&nbsp; While governments in the EU , the UK , and Australia have said they will ban or restrict access to nudify apps , it’s not an easily executed proposition . As Craanen notes, when app stores remove these services, they often simply reappear under different names, providing the same services. And social platforms where people share NCII deepfakes, argues Rocket, are slacking in getting them removed. “It’s endless, and it’s ridiculous, because places like Twitter and Facebook have the same technology we do,” Rocket says. “They can identify something as an infringement instantly, but they choose not to.” (An Apple spokesperson, Adam Dema, said in an email that “&#8217;nudification’ apps are against our guidelines” in the app store, and it has “proactively rejected many of these apps and removed many others,” flagging a reporting portal for users. A Google spokesperson emailed, “Google Play does not allow apps that contain sexual content,” noting that the company takes “proactive steps to detect and remove apps with harmful content” and has suspended hundreds of apps for violating its policy. A Meta spokesperson shared a blog post about actions that company has taken against nudify apps but did not respond to follow-up questions about copyrighted material. X did not respond to a request for comment.) As porn performers are forced to navigate AI-related threats, the only current federal law to address deepfakes may not help them much—and could even make matters worse. The Take It Down Act , which became US law last year, criminalizes publishing NCII and requires websites to remove it within 48 hours. But, as Farid notes, people could weaponize the measure by reporting porn that was made legally and with consent and claiming that it’s NCII. This could result in the content’s removal, which would hurt the performers who made it. Santa Clara’s Goldman points to Project 2025, the Heritage Foundation’s policy blueprint for the second Trump administration, which aims to wipe porn from the web . The Take It Down Act, he argues, “allows for the coordinated effort to scrub adult content from the internet.”&nbsp; US lawmakers have a history of hurting sex workers in their attempts to regulate explicit content online. State-level age verification laws are an example; visitors can pretty easily get around these measures, but they can still result in reduced revenue for adult performers (because of lower traffic to those sites and the high price of age-checking services they have to purchase).&nbsp; “They’re always doing something to fuck with the porn industry, but not in a way that actually helps sex workers,” says Jennifer. “If they do something, they’re taking away your income again—as opposed to something like giving you more rights to your image, [which] would be tremendously helpful.”&nbsp; But as generative AI plays an increasingly large role in NCII deepfakes, the types of images to which adult performers have rights moves deeper into a gray area. Can actors lay claim to AI images likely trained on their bodies? How about AI-generated videos that impersonate them, like the one that tricked Tanya Tate’s fan? The biggest challenge will be creating “legitimate, effective laws that will absolutely protect content creators from abusing their likeness to train and create AI,” Rocket says. “Absent that, we’re just going to have to keep pulling content down from the internet that’s fake.” In the meantime, a few porn actors tell me, they’re trying to take advantage of copyright laws that weren’t really made for them; they’ve signed with platforms that host their AI-generated duplicates, with whom fans pay to chat, in part so they’ll have contracts that protect ownership of their AI likenesses. When I spoke with the actor Kiki Daire in September 2025 for a story on adult creators’ “AI twins ,” she said she “own[ed] her AI” because she’d signed a contract with Spicey AI, a site that hosted AI duplicates of adult performers. If another company or person created her AI-generated likeness, she added, “I have a leg to stand on, as far as being able to shut that down.”&nbsp;&nbsp; Even this, though, is not a sure thing; Spicey AI, for instance, shut down several months after I spoke with Daire, so it’s unlikely that her contract would hold. And when I spoke in October with Rachael Cavalli, another adult actor who had signed with an AI duplicate site in hopes it’d help protect her AI image, she admitted, “I don’t have time to sit around and look for companies that have used my image or turned something into a video that I didn’t actually do … it’s a lot of work.” In other words, having rights to your AI image on paper doesn’t make it easier to track down all the potentially infinite breaches of those rights online. If she’d known what she knows about technology today, Jennifer says, she doesn’t think she would have done porn. The risks have increased too much, and too unpredictably. She now does in-person sex work; it’s “not necessarily safer,” she says, “but it’s a different risk profile that I feel more equipped to manage.” Plus, she figures AI is unlikely to replace in-person sex workers the way it could porn actors: “I don’t think there’s going to be stripper robots.”&nbsp; Jessica Klein is a Philadelphia-based freelance journalist covering intimate partner violence, cryptocurrency, and other topics.",
+      "tags": [
+        "视频生成"
+      ],
+      "score": 79
     },
     {
       "title": "构建安全、有效的沙箱，以在Windows上启用Codex",
@@ -284,7 +442,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "人工智能聊天机器人正在提供人们的真实电话号码",
@@ -299,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "财务团队如何使用Codex",
@@ -314,7 +472,7 @@
       "tags": [
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "AWS基础模型培训和推理的构建模块",
@@ -329,7 +487,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
@@ -344,7 +502,7 @@
       "tags": [
         "论文"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "通过客户支持工程促进突破性人工智能创新",
@@ -359,7 +517,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "在金融领域实施先进的人工智能技术",
@@ -374,7 +532,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
@@ -389,7 +547,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "EMO ：对专家进行预培训，以实现新兴的模块化",
@@ -404,7 +562,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "vLLM V0至V1 ： RL校正前的正确性",
@@ -419,7 +577,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "将Benchmaxxer Repellant添加到Open ASR排行榜",
@@ -434,7 +592,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "Granite 4.1 LLM ：如何构建",
