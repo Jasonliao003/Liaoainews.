@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T12:17:59.200Z",
+  "updatedAt": "2026-05-19T10:50:36.655Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,88 +19,169 @@
   ],
   "articles": [
     {
-      "title": "SDOF ：通过状态受限的调度来驯服多代理业务流程中的协调税",
-      "originalTitle": "SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch",
+      "title": "AgentWall ：本地AI Agent的运行时安全层",
+      "originalTitle": "AgentWall: A Runtime Safety Layer for Local AI Agents",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.15204",
-      "date": "2026-05-18T04:00:00.000Z",
+      "link": "https://arxiv.org/abs/2605.16265",
+      "date": "2026-05-19T04:00:00.000Z",
       "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2605. 15204v1公告类型：新摘要： LangChain、LangGraph和CrewAI等多代理编排框架通过基于图形的管道路由任务，但不强制执行管理实际业务流程的阶段约束。我们提出了SDOF ，这是一个将多代理执行视为约束状态机的框架。 SDOF通过两个主要防御层运行，由三个组件实现： （ 1 ）通过生成奖励建模（ GRPO ）训练的在线-RLHF专用意图路由器和（ 2 ）具有GoalStage有限自动检查和前置/后置SkillRegistry可审计执行控制验证的StateAwareDispatcher。 在Beisen iTalent平台（ 6000多家企业）支持的招聘系统上， 185个专家策划的场景触发了1671次实时API调用。在这个受FSM约束的对抗路由基准上，我们基于GSPO的7B Intent Router实现了比零点GPT-4o更高的关节精度（ 80. 9%对48. 9% ）。在端到端执行中， SDOF达到86. 5 ％的任务完成率（ 95 ％置信区间80. 8至90. 7 ）并阻止注射中的所有22个操作，非法HR子集。在更广泛的消息级拦截审计下， SDOF达到100%的精确度和88%的召回率，专家协议kappa = 0. 94。对跨越8个服务域的960个SGD派生对话的单独评估在我们的FSM映射下显示了201个阶段顺序冲突，其中41个发生在正常拆分中。 此arXiv版本报告当前已验证的范围；扩展的多种子培训比较和更深入的工作流评估将在后续更新中发布。",
-      "originalSummary": "arXiv:2605.15204v1 Announce Type: new Abstract: Multi-agent orchestration frameworks such as LangChain, LangGraph, and CrewAI route tasks through graph-based pipelines but do not enforce the stage constraints that govern real business processes. We present SDOF, a framework that treats multi-agent execution as a constrained state machine. SDOF operates through two primary defensive layers, implemented by three components: (1) an Online-RLHF Specialized Intent Router trained via Generative Reward Modeling (GRPO) and (2) a StateAwareDispatcher with GoalStage finite-automaton checks and precondition/postcondition SkillRegistry validation for auditable execution control. On a recruitment system backed by the Beisen iTalent platform (6000+ enterprises), 185 expert-curated scenarios trigger 1671 live API calls. Our GSPO-aligned 7B Intent Router achieves higher joint accuracy than zero-shot GPT-4o on this FSM-constrained adversarial routing benchmark (80.9% versus 48.9%). In end-to-end execution, SDOF reaches 86.5% task completion (95% confidence interval 80.8 to 90.7) and blocks all 22 operations in the injection, illegal HR subset. Under a broader message-level blocking audit, SDOF attains precision 100% and recall 88%, expert agreement kappa=0.94. A separate evaluation on 960 SGD-derived dialogues spanning 8 service domains surfaces 201 stage-order conflicts under our FSM mapping, 41 of which arise in the normal split. This arXiv version reports the current validated scope; extended multi-seed training comparisons and deeper workflow evaluations will be released in a subsequent update.",
+      "fullContent": "arXiv: 2605. 16265v1公告类型：新摘要：自主人工智能代理的安全性越来越被认为是一个关键的开放性问题。随着代理从被动文本生成器转变为能够执行shell命令、修改文件、调用API和浏览网页的主动参与者，不安全或对抗性操纵行为的后果变得直接而有形。 现有的人工智能安全工作主要侧重于模型对齐和输入过滤，但这些方法并不能解决代理的意图在真实机器上成为实际操作时发生的情况。这种差距在本地环境中尤其严重，开发人员根据自己的文件系统、凭据和基础设施运行代理，而几乎没有运行时控制。 本文介绍了AgentWall ，它是本地AI代理的运行时安全和可观察性层。AgentWall在到达主机环境之前拦截每个建议的代理操作，根据明确的声明性策略对其进行评估，需要人工批准敏感操作，并记录完整的执行跟踪以进行审核和重播。 它作为策略执行MCP代理和本机OpenClaw插件实现，通过单个安装命令跨Claude Desktop、Cursor、Windsurf、Claude Code和OpenClaw工作。我们展示了AgentWall的设计、架构、威胁模型和策略模型，并在14个基准测试中以亚毫秒的开销证明了92. 9%的策略执行准确性。AgentWall是开源的，网址为https://github. com/agentwall/Agentwall。",
+      "originalSummary": "arXiv:2605.16265v1 Announce Type: new Abstract: The safety of autonomous AI agents is increasingly recognized as a critical open problem. As agents transition from passive text generators to active actors capable of executing shell commands, modifying files, calling APIs, and browsing the web, the consequences of unsafe or adversarially manipulated behavior become immediate and tangible. Existing AI safety work has focused primarily on model alignment and input filtering, but these approaches do not address what happens at the moment an agent's intent becomes a real action on a real machine. This gap is especially acute in local environments, where developers run agents against their own filesystems, credentials, and infrastructure with little runtime control. This paper introduces AgentWall, a runtime safety and observability layer for local AI agents. AgentWall intercepts every proposed agent action before it reaches the host environment, evaluates it against an explicit declarative policy, requires human approval for sensitive operations, and records a complete execution trail for audit and replay. It is implemented as a policy-enforcing MCP proxy and native OpenClaw plugin, working across Claude Desktop, Cursor, Windsurf, Claude Code, and OpenClaw with a single install command. We present the design, architecture, threat model, and policy model of AgentWall, and demonstrate 92.9% policy enforcement accuracy with sub-millisecond overhead across 14 benchmark tests. AgentWall is open-source at https://github.com/agentwall/Agentwall.",
       "rawFullText": "",
       "tags": [
         "大模型",
         "智能体",
-        "评测"
+        "安全"
       ],
       "score": 99
     },
     {
-      "title": "SkillSmith ：将Agent技能编译为边界引导的运行时接口",
-      "originalTitle": "SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces",
+      "title": "从提示到方案：实验室自动化的人工智能代理",
+      "originalTitle": "From Prompts to Protocols: An AI Agent for Laboratory Automation",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.15215",
-      "date": "2026-05-18T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 15215v1公告类型：新摘要：最近，技能已被广泛应用于各个领域的基于大型语言模型（ LLM ）的代理系统。在现有框架中，一旦与运行时任务匹配，技能通常会作为上下文指导注入代理推理循环，从而实现专门的任务解决能力。 我们发现，这种执行范式引入了两种主要的冗余来源：不相关的上下文注入和重复的特定技能推理和规划。为此，我们提出了SkillSmith ，这是一个边界优先的编译器运行时框架，可将技能包离线编译为最小的可执行接口。 通过从技能中提取细粒度的操作边界， SkillSmith使代理能够在运行时动态访问并仅执行相关组件，从而最大限度地减少不必要的上下文注入和冗余推理开销。在对SkillsBench基准的评估中， SkillSmith将解决阶段代币的使用量减少了57. 44% ，思维迭代减少了42. 99% ，解决时间减少了50. 57% （速度提高了2. 02倍） ，代币比例货币成本减少了57%。 与使用原始技能相比， 44%。此外，由更强大的模型产生的编译工件可以由更小或更高效的运行时模型重用，从而在原始技能解释失败的情况下提高任务准确性。源代码和数据可在https://github. com/AetherHeart-AI/Aeloon上获得。",
-      "originalSummary": "arXiv:2605.15215v1 Announce Type: new Abstract: Recently, skills have been widely adopted in large language model (LLM)-based agent systems across various domains. In existing frameworks, skills are typically injected into the agent reasoning loop as contextual guidance once matched to a runtime task, enabling specialized task-solving capabilities. We find that this execution paradigm introduces two major sources of redundancy: irrelevant context injection and repeated skill-specific reasoning and planning. To this end, we propose SkillSmith, a boundary-first compiler-runtime framework that compiles skill packages offline into minimal executable interfaces. By extracting fine-grained operational boundaries from skills, SkillSmith enables agents to dynamically access and execute only the relevant components at runtime, thereby minimizing unnecessary context injection and redundant reasoning overhead. In the evaluation on SkillsBench benchmark, SkillSmith reduces solve-stage token usage by 57.44%, thinking iterations by 42.99%, solve time by 50.57% (2.02x faster), and token-proportional monetary cost by 57.44% compared with using raw-skills. Moreover, compiled artifacts produced by a stronger model can be reused by a smaller or more efficient runtime model, improving task accuracy in cases where raw skill interpretation fails. The source code and data are available at https://github.com/AetherHeart-AI/Aeloon.",
+      "link": "https://arxiv.org/abs/2605.16552",
+      "date": "2026-05-19T04:00:00.000Z",
+      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、机器人相关动态",
+      "fullContent": "arXiv: 2605. 16552v1公告类型：新摘要：自动化科学实验室可实现更快、更安全、更准确和更可重复的方案执行，加速新材料、药物等的发现和测试。然而，建立和运行自主实验室需要协调众多仪器和机器人，迫使科学家编写代码、管理配置文件以及在复杂的软件基础设施中导航。 我们提出了一种人工智能代理架构，该架构将大型语言模型与实验室编排集成在一起，使科学家能够使用自然语言交互式创建和监控自动化实验室协议。 集成到实验编排系统（ EOS ）中， AI代理在代理循环下运行，具有自动验证和纠错功能，并支持完整的实验生命周期：创建协议，运行和监控协议和闭环优化活动，以及分析结果。 可视化图形编辑器将协议呈现为与AI代理的协议表示同步的基于交互式节点的图，从而实现AI辅助和手动协议构建之间的无缝交替。在跨越化学、生物学和材料科学的三个模拟自动化实验室上进行评估，人工智能代理实现了97%的首次尝试协议生成成功率，并使所需的界面操作减少了一个数量级。",
+      "originalSummary": "arXiv:2605.16552v1 Announce Type: new Abstract: Automating science laboratories enables faster, safer, more accurate, and more reproducible execution of protocols, accelerating the discovery and testing of new materials, drugs, and more. However, setting up and running autonomous labs requires coordinating numerous instruments and robots, forcing scientists to write code, manage configuration files, and navigate complex software infrastructure. We present an AI agent architecture that integrates large language models with laboratory orchestration, enabling scientists to interactively create and monitor automated lab protocols using natural language. Integrated into the Experiment Orchestration System (EOS), the AI agent operates under an agentic loop with automated validation and error correction, and supports the complete experimental lifecycle: creating protocols, running and monitoring both protocols and closed-loop optimization campaigns, and analyzing results. A visual graph editor renders protocols as interactive node-based diagrams synchronized with the AI agent's protocol representation, enabling seamless alternation between AI-assisted and manual protocol construction. Evaluated on three simulated automated labs spanning chemistry, biology, and materials science, the AI agent achieves a 97% first-attempt protocol generation success rate and an order of magnitude reduction in required interface actions.",
       "rawFullText": "",
       "tags": [
         "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "ICRL ：通过强化学习学习内化自我批评",
-      "originalTitle": "ICRL: Learning to Internalize Self-Critique with Reinforcement Learning",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.15224",
-      "date": "2026-05-18T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 15224v1 Announce Type: new Abstract:基于大型语言模型的代理会犯错，但批评通常可以引导相同的模型走向正确的行为。然而，当批评被删除时，模型可能会在同一查询上再次失败，这表明它没有将批评的指导内化为其潜在的能力。 同时，冻结的批评者无法随着时间的推移提高其反馈质量，从而限制了迭代自我改进的潜力。为了解决这个问题，我们建议学习通过强化学习（ ICRL ）将自我批评内化，这是一个新颖的框架，可以联合训练来自共享主干的求解者和批评者，将批评引发的成功转化为无助求解能力。 批评者根据解决者随后的绩效提升获得奖励，激励可操作的反馈。为了解决批评条件和无批评行为之间的分布转变， ICRL引入了分布-校准重新加权比率，该比率选择性地传递与求解器自身提示分布兼容的批评引导改进。 此外，角色分组优势估计可稳定两个角色的联合优化。这些机制共同确保求解者在没有外部批评的情况下学习提高自己，而不是依赖于批评条件的行为。我们使用Qwen3-4B和Qwen3-8B作为骨干，在跨越代理和数学推理任务的各种基准上评估ICRL。结果显示持续改善，平均增益为6。 在代理任务上比GRPO高4分，在数学推理上高7. 0分。值得注意的是，学到的8B批评者与32B批评者相当，而使用的代币却少得多。代码可在https://github. com/brick-pid/ICRL上找到。",
-      "originalSummary": "arXiv:2605.15224v1 Announce Type: new Abstract: Large language model-based agents make mistakes, yet critique can often guide the same model toward correct behavior. However, when critique is removed, the model may fail again on the same query, indicating that it has not internalized the critique's guidance into its underlying capability. Meanwhile, a frozen critic cannot improve its feedback quality over time, limiting the potential for iterative self-improvement. To address this, we propose learning to internalize self-critique with reinforcement learning(ICRL), a novel framework that jointly trains a solver and a critic from a shared backbone to convert critique-induced success into unassisted solver ability. The critic is rewarded based on the solver's subsequent performance gain, incentivizing actionable feedback. To address the distribution shift between critique-conditioned and critique-free behavior, ICRL introduces a distribution-calibration re-weighting ratio that selectively transfers critique-guided improvements compatible with the solver's own prompt distribution. Additionally, a role-wise group advantage estimation stabilizes joint optimization across the two roles. Together, these mechanisms ensure that the solver learns to improve itself without external critique, rather than becoming dependent on critique-conditioned behavior. We evaluate ICRL on diverse benchmarks spanning agentic and mathematical reasoning tasks, using Qwen3-4B and Qwen3-8B as backbones. Results show consistent improvements, with average gains of 6.4 points over GRPO on agentic tasks, and 7.0 points on mathematical reasoning. Notably, the learned 8B critic is comparable to 32B critics while using substantially fewer tokens. The code is available at https://github.com/brick-pid/ICRL.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "CAX-Agent ：用于可靠APDL自动化的轻量级代理线束",
-      "originalTitle": "CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.15218",
-      "date": "2026-05-18T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2605. 15218v1公告类型：新摘要：为MAPDL有限元仿真部署的大型语言模型面临着实际的可靠性挑战：没有结构化的执行控制、工具封装和故障恢复，输出可能不一致，任务故障很常见。Agent Harness范例通过插入管理工具生命周期、工作流状态和恢复升级的特定于域的业务流程中间件来解决这个问题。 本文介绍了CAX-Agent的架构，这是一种专为MAPDL自动化构建的轻量级代理线束，并对其核心组件之一--恢复策略进行了实证评估。CAX-Agent将执行分为三个层次： LLM服务、代理线束和解算器后端，其恢复阶梯从确定性规则修补升级到模型驱动的再生，再到上下文丰富和人工干预。 我们在50个标准结构基准上评估了三种恢复策略（ no_recovery、rule_only和model_only ） ，每个策略三次重复运行（总计450个案例运行）。两名独立的人类评分者在盲态条件下对任务完成情况进行评分；评分者间一致性较强（二次加权Cohen's kappa = 0. 84 ， 96%的评分对在一分内）。MODEL_ONLY的最佳完成率（ 0. 9267 ）、任务分数（ 3. 59/4 ）、总分（ 9. 16/10 ）和零干预率（ 0. 84 ） ，仅优于规则（ 0. 7733 ， 3. 17/4 ， 7. 03/10 ， 0. 00 ）和无恢复（ 0. 6933 ， 2. 74/4 ， 5. 60/10 ， 0. 00 ） ，效果大小较大（ Cliff's delta = 0. 81-0. 87 ）。该基准故意使用简单的几何形状来隔离恢复策略效应；我们讨论了这些发现的范围和更广泛的验证方向。",
-      "originalSummary": "arXiv:2605.15218v1 Announce Type: new Abstract: Large language models deployed for MAPDL finite-element simulation face practical reliability challenges: without structured execution control, tool encapsulation, and fault recovery, outputs may be inconsistent and task failures are common. The Agent Harness paradigm addresses this by inserting domain-specific orchestration middleware that manages tool lifecycles, workflow state, and recovery escalation. This paper presents the architecture of CAX-Agent, a lightweight agent harness purpose-built for MAPDL automation, and empirically evaluates one of its core components -- the recovery policy.CAX-Agent organizes execution into three layers -- LLM service, agent harness, and solver backend -- with a recovery ladder that escalates from deterministic rule patching through model-driven regeneration to context enrichment and human intervention. We evaluate three recovery strategies (no_recovery, rule_only, and model_only) on 50 standard structural benchmarks with three repeated runs per strategy (450 case-runs total). Two independent human raters score task completion under blind conditions; inter-rater agreement is strong (quadratic weighted Cohen's kappa = 0.84, 96 percent of score pairs within one point). Model_only achieves the best completion rate (0.9267), task score (3.59/4), total score (9.16/10), and zero-intervention rate (0.84), outperforming rule_only (0.7733, 3.17/4, 7.03/10, 0.00) and no_recovery (0.6933, 2.74/4, 5.60/10, 0.00) with large effect sizes (Cliff's delta = 0.81-0.87). The benchmark uses deliberately simple geometries to isolate recovery-policy effects; we discuss the scope of these findings and directions for broader validation.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测",
-        "论文"
-      ],
-      "score": 97
-    },
-    {
-      "title": "NIMO控制器：基于模型上下文协议的自动驾驶实验室编排器",
-      "originalTitle": "NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.15227",
-      "date": "2026-05-18T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2605. 15227v1公告类型：新摘要：自动驾驶实验室（ SDL ）作为加速科学发现的一种手段越来越受到关注；然而，开发SDL软件的技术要求仍然很高。为了提高可访问性，已经提出了协调软件框架来协调SDL组件。 尽管如此，现有框架主要是为人际交互而设计的，并不提供适合人工智能代理的标准化界面。在这项工作中，我们提出了一种基于模型上下文协议(MCP)的SDL软件架构，其中所有SDL功能都通过MCP服务器公开。根据这一设计原则，我们引入了一个基于MCP的SDL编排器，名为NIMO Controller。 它提供了通过基于MCP的工具发现自动生成的可视化编程界面，允许人类用户无需编写代码即可设计实验工作流程。人工智能代理也可以访问相同的MCP后端，为人类用户和人工智能代理提供统一的界面。我们通过对颜色匹配SDL的案例研究来演示所提议的系统。结果验证了所提出的基于MCP的SDL架构的可用性。",
-      "originalSummary": "arXiv:2605.15227v1 Announce Type: new Abstract: Self-driving laboratories (SDLs) have attracted increasing attention as a means of accelerating scientific discovery; however, developing SDL software remains technically demanding. To improve accessibility, orchestration software frameworks have been proposed to coordinate SDL components. Nevertheless, existing frameworks are primarily designed for human interaction and do not provide standardized interfaces suitable for AI agents. In this work, we propose an SDL software architecture based on the Model Context Protocol (MCP), in which all SDL functionalities are exposed through MCP servers. Following this design principle, we introduce an MCP-based SDL orchestrator, named NIMO Controller. It provides a visual programming interface automatically generated through MCP-based tool discovery, allowing human users to design experimental workflows without writing code. The same MCP backend can also be accessed by AI agents, providing a unified interface for both human users and AI agents. We demonstrate the proposed system through a case study on a color-matching SDL. The results validate the usability of the proposed MCP-based SDL architecture.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
+        "机器人",
         "模型"
       ],
-      "score": 96
+      "score": 99
+    },
+    {
+      "title": "TTE-Flash ：通过Think-Then-Embed令牌加速基于推理的多模态表示",
+      "originalTitle": "TTE-Flash: Accelerating Reasoning-based Multimodal Representations via Think-Then-Embed Tokens",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.16638",
+      "date": "2026-05-19T04:00:00.000Z",
+      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
+      "fullContent": "arXiv: 2605. 16638v1公告类型：新摘要：最近的研究表明，通用多模态嵌入（ UME ）从思维链（ CoT ）推理中受益匪浅。在这种范式中，生成模型为多模态查询生成显式推理跟踪，从嵌入令牌中提取的最终表示同时涉及查询和推理。 尽管其有效性，但生成显式CoT跟踪的计算开销通常令人望而却步。在这项工作中，我们建议用潜思维令牌替换显性CoT ，潜思维令牌被解释为可以产生显性CoT跟踪作为观察变量的潜变量。 通过使用CoT生成损失优化思考令牌，并使用对比损失嵌入令牌，我们以恒定的推理成本生成高性能、具有推理意识的表示。我们的研究调查了两个关键的架构设计： 1 ）应该如何从同一LLM骨干中提取思考和嵌入令牌。2 ）应该如何将令牌训练为两个依赖任务。 我们引入了TTE-Flash-2B ，这是一种具有推理意识的多模态表示模型，在MMEB-v2基准测试中优于其显式物联网对应物，同时产生可解释文本和视觉的潜在思维令牌。此外，对15个视频数据集的零拍评估揭示了随着思维令牌数量的增加而扩展的行为，并激发了基于任务要求的自适应思维预算分配的试点研究。",
+      "originalSummary": "arXiv:2605.16638v1 Announce Type: new Abstract: Recent research has demonstrated that Universal Multimodal Embedding (UME) benefits significantly from Chain-of-Thought (CoT) reasoning. In this paradigm, a generative model produces explicit reasoning traces for a multimodal query, with the final representation extracted from an <eos> embedding token attending to both the query and the reasoning. Despite its effectiveness, the computational overhead of generating explicit CoT traces is often prohibitive. In this work, we propose replacing explicit CoT with latent think tokens, which are interpreted as latent variables that can produce explicit CoT traces as observed variables. By optimizing think tokens using CoT generation loss and subsequent embedding tokens using contrastive loss, we produce high-performance, reasoning-aware representations at a constant inference cost. Our study investigates two key architectural designs: 1) how think and embeddings tokens should be extracted from the same LLM backbone. 2) how the tokens should be trained as two dependent tasks. We introduce TTE-Flash-2B, a reasoning-aware multimodal representation model that outperforms its explicit-CoT counterpart on the MMEB-v2 benchmark, while producing latent think tokens that are interpretable both textually and visually. Furthermore, zero-shot evaluation across 15 video datasets reveals scaling behavior as the number of think tokens increases, and motivating a pilot study of adaptive think budget allocation based on task requirements.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "多模态",
+        "视频生成"
+      ],
+      "score": 99
+    },
+    {
+      "title": "LinAlg-Bench ：揭示法学硕士数学推理中结构失效模式的法医基准",
+      "originalTitle": "LinAlg-Bench: A Forensic Benchmark Revealing Structural Failure Modes in LLM Mathematical Reasoning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.16675",
+      "date": "2026-05-19T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2605. 16675v1通告类型：新摘要：我们引入了LinAlg-Bench ，这是一个诊断基准，在3x3、4x4和5x5矩阵的严格维度梯度上评估结构化线性代数计算上的10个前沿大语言模型。该基准涵盖9种任务类型和660个SymPy认证问题，详尽评估了6,600个模型输出。 除了二进制精度之外， LinAlg-Bench还引入了一个三阶段的自动取证流水线，将1,156个故障分类为具有细粒度子类型的10个主要错误标签，揭示了LLM数学故障不是随机的，而是受算法类型和矩阵维度的结构约束。 我们的核心发现是在4x4尺度上有一个尖锐的行为阈值：在它下面，模型通过执行错误失败--符号跟踪失败、算术漂移和奇偶校验错误；在它上面，失败过渡到计算放弃，模型通过工具角色扮演、约束一致的构造和结构化幻觉来制造响应，而不是尝试计算。 这种从制造到放弃的转变在所有模型层和架构中几乎是普遍存在的，这表明存在工作内存限制而不是知识差距，由三种规模出现的错误类型提供支持，这些错误类型在3x3时不存在，但在4x4和5x5时存在。 我们进一步表明，解决方案策略刚性是5x5行列式精度的近乎完美的预测指标，文档约束感知构造作为一种新颖的结构化幻觉失败模式，并公开发布所有数据、模型输出、错误标签和判断流水线。",
+      "originalSummary": "arXiv:2605.16675v1 Announce Type: new Abstract: We introduce LinAlg-Bench, a diagnostic benchmark evaluating 10 frontier large language models on structured linear algebra computation across a strict dimensional gradient of 3x3, 4x4, and 5x5 matrices. Spanning 9 task types and 660 SymPy-certified problems, the benchmark exhaustively evaluates 6,600 model outputs. Beyond binary accuracy, LinAlg-Bench introduces a three-stage automated forensic pipeline classifying 1,156 failures into ten primary error tags with fine-grained subtypes, revealing that LLM mathematical failure is not random but structurally constrained by algorithm type and matrix dimension. Our central finding is a sharp behavioral threshold at 4x4 scale: below it, models fail through execution errors -- sign tracking failures, arithmetic drift, and parity errors; above it, failure transitions to computational abandonment, with models fabricating responses through tool roleplay, constraint-consistent confabulation, and structured hallucination rather than attempting computation. This fabrication-to-abandonment transition is near-universal across all model tiers and architectures, suggesting a working memory limit rather than a knowledge gap, supported by three scale-emergent error types absent at 3x3 but present at 4x4 and 5x5. We further show that solution strategy rigidity is a near-perfect predictor of 5x5 determinant accuracy, document constraint-aware confabulation as a novel structured hallucination failure mode, and release all data, model outputs, error labels, and judge pipeline publicly.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "产品发布"
+      ],
+      "score": 98
+    },
+    {
+      "title": "交易对手建模不是策略： LLM谈判者的局限性",
+      "originalTitle": "Counterparty Modeling is Not Strategy: The Limits of LLM Negotiators",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.16575",
+      "date": "2026-05-19T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 16575v1 Announce Type: new Abstract: Negotiation需要的不仅仅是推断对方想要什么：它需要使用该信息在多个回合中提供有利的报价和还价。我们研究大型语言模型（ LLM ）代理是否在受控的多属性谈判环境中这样做。 我们发现，当前的LLM代理可以模拟交易对手的偏好，但不能可靠地将这些知识转化为战略讨价还价。当向谈判伙伴提供偏好信息时，客服代表会在其推理轨迹的早期对其进行准确建模，但这并不能可靠地改善知情方的结果。 回合分析显示了原因：客服代表通常会对他们认为的交易对手价值做出反应，但不会始终如一地将这些动作与他们自己的高价值属性相结合。总体而言，卖家更具包容性，在不对称的信息条件下，知情方往往会做出补偿较弱的让步。 由于代理商未能利用这种底层公用事业结构来获得战略优势，他们的最终协议在很大程度上取决于表面水平的开放锚点，而不是实际的公用事业权重。最后，要求代理商在提出要约之前明确说明互惠让步交易，这使得个别交易看起来更具战略性，但最终未能提高最终协议的效率。",
+      "originalSummary": "arXiv:2605.16575v1 Announce Type: new Abstract: Negotiation requires more than inferring what the other side wants: it requires using that information to make advantageous offers and counteroffers over multiple turns. We study whether large language model (LLM) agents do this in a controlled multi-attribute bargaining environment. We find that current LLM agents can model a counterparty's preferences, but do not reliably turn that knowledge into strategic bargaining. When given negotiating partner preference information, agents model it accurately and early in their reasoning traces, yet this does not reliably improve outcomes for the informed side. Turn-level analyses show why: agents often respond to what they believe the counterparty values, but do not consistently pair those moves with gains on their own high-value attributes. Sellers are more accommodating overall, and in asymmetric-information conditions, the informed side often makes the more weakly compensated concessions. Because agents fail to leverage this underlying utility structure for strategic advantage, their final agreements are heavily dictated by surface-level opening anchors rather than actual utility weights. Finally, requiring agents to explicitly state concession-for-reciprocity trades before making an offer makes individual turns look more strategic, but ultimately fails to improve the efficiency of the final agreements.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Anthropic已收购OpenAI、Google和Cloudflare使用的开发工具初创公司",
+      "originalTitle": "Anthropic has acquired the dev tools startup used by OpenAI, Google, and Cloudflare",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/18/anthropic-has-acquired-the-dev-tools-startup-used-by-openai-google-and-cloudflare/",
+      "date": "2026-05-18T19:27:52.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "Stainless是一家总部位于纽约的初创公司，成立于2022年，在新兴的人工智能行业中崭露头角，用于自动化软件开发工具包（ SDK ）的创建和维护， SDK是开发人员用于与API交互的库。",
+      "originalSummary": "Stainless, a New York-based startup, founded in 2022, rose to prominence in the emerging AI industry for automating the creation and maintenance of software development kits, or SDKs — the libraries developers use to interact with APIs.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "伊隆·马斯克（ Elon Musk ）和山姆·奥特曼（ Sam Altman ）对OpenAI争夺战",
+      "originalTitle": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "date": "2026-05-18T17:49:49.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Sam Altman和Elon Musk正在进行一项高风险试验，这可能会改变OpenAI及其最着名的产品ChatGPT的未来。2024年，马斯克提起诉讼，指控OpenAI放弃了开发人工智能造福人类的创始使命，而是将重点转向提高利润。 在马斯克、奥尔特曼、微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）、OpenAI联合创始人格雷格·布罗克曼（ Greg Brockman ）、前OpenAI董事会成员和马斯克的几个孩子希文·齐利斯（ Shivon Zilis ）的母亲以及其他几个人的证词听证会近一个月后，陪审团进行了几小时的审议，然后才做出判决，并决定以时效为由驳回所有指控。 马斯克是OpenAI的联合创始人之一，并声称奥特曼和布罗克曼欺骗他给公司提供资金，只是为了背弃他们最初的目标。然而， OpenAI声称， “这起诉讼一直是毫无根据和嫉妒的出价，试图让竞争对手脱轨” ，以推动马斯克自己的SpaceX/xAI/X公司将Grok作为ChatGPT的竞争对手推出。 在诉讼中，马斯克要求奥特曼和布罗克曼下台，并要求OpenAI停止作为公益公司运营。 知名人士原告Elon Musk —原告， OpenAI联合创始人，现任竞争对手xAI首席执行官Steven Molo —原告首席律师Jared Birchall —马斯克家族办公室经理Shivon Zilis —前OpenAI董事会成员，与马斯克共同拥有多个子女被告Sam Altman —被告， OpenAI首席执行官William Savitt —被告首席律师Greg Brockman — OpenAI总裁以及联合创始人Ilya Sutskever —前首席律师 一名观察员刚刚被美国法警驱逐出法庭。C.保罗·瓦赞（ Paul Wazzan ）是马斯克召集来确定损害赔偿的专家。马斯克诉奥尔特曼案证明，人工智能是由错误的人领导的关闭时间“我在开场白中告诉过你，你不会从微软那里听到太多，你也没有。“我觉得我会想念你们所有人， ”萨维特告诉陪审团。萨维特指出，马斯克今天与特朗普总统在国外。 萨维特说，马斯克患有“选择性健忘症。“看，伊隆·马斯克（ Elon Musk ）的笨蛋奖杯萨维特（ Savitt ）正在谈论诉讼时效。这是陪审团没有看到的笨蛋奖杯。我们从休息时间回来了。威廉·萨维特（ William Savitt ）将其带回家进行OpenAI防御。Eddy说，特斯拉人工智能是马斯克失败的证据。Eddy说：「这些文件说明了真相。 Eddy认为，马斯克捐赠的特斯拉实际上是贿赂。Eddy明智地依靠时间顺序来解释他们的辩护。Sarah Eddy正在为OpenAI做最后陈述。Molo已经完成了马斯克的最后陈述。尽管关于“昙花一现”的所有非常令人恼火的证词， Molo并没有令人信服地将其与他的案例联系起来。Molo现...",
+      "originalSummary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. After nearly a month [&#8230;]",
+      "rawFullText": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT . In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. After nearly a month of the hearing that featured testimony from Musk, Altman, Microsoft CEO Satya Nadella, OpenAI cofounder Greg Brockman, former OpenAI board member and mother of several of Musk’s children Shivon Zilis, and a few others, the jury deliberated for a couple of hours before returning with a verdict, deciding to dismiss all charges due to the statute of limitations. Musk was a cofounder of OpenAI and claims that Altman and Brockman tricked him into giving the company money, only to turn their backs on their original goal. However, OpenAI claimed that “This lawsuit has always been a baseless and jealous bid to derail a competitor” in a bid to boost Musk’s own SpaceX / xAI / X companies that have launched Grok as a competitor to ChatGPT. In his lawsuit, Musk asked for the removal of Altman and Brockman , and for OpenAI to stop operating as a public benefit corporation. People to Know Plaintiff Elon Musk — plaintiff, OpenAI cofounder and now CEO of rival xAI Steven Molo — lead counsel for the plaintiff Jared Birchall — manager of Musk&#8217;s family office Shivon Zilis — former OpenAI board member who shares multiple children with Musk Defendant Sam Altman — defendant, CEO of OpenAI&nbsp; William Savitt — lead counsel for the defendant Greg Brockman — president of OpenAI as well as a cofounder&nbsp; Ilya Sutskever — former chief scientist at OpenAI and a cofounder Judge Yvonne Gonzalez Rogers — aka YGR, trial judge Here’s all the latest on the trial between Musk and Altman: The jury has delivered a unanimous verdict. An observer has just been ejected from the court by the US marshals. C. Paul Wazzan is the expert called by Musk to determine damages. Musk v. Altman proved that AI is led by the wrong people Closing time “I told you in my opening statement you wouldn’t hear very much from Microsoft, and you haven’t.” “I feel like I’m going to miss you all,” Savitt tells the jury. Savitt calls out the fact that Musk is abroad with President Trump today. Savitt says Musk has “selective amnesia.” Behold, the Elon Musk jackass trophy Savitt is talking about the statute of limitations. Here&#8217;s the jackass trophy that the jury didn&#8217;t get to see. We are back from our break. William Savitt is taking it home for the OpenAI defense. Tesla AI is evidence of Musk&#8217;s failure, Eddy says. &#8220;The documents tell the truth here,&#8221; Eddy says. Eddy suggests that Musk&#8217;s donated Teslas were, effectively, bribes. Eddy is, wisely, leaning hard on chronology in explaining their defense. Sarah Eddy is giving the closing argument for OpenAI. Molo is done presenting Musk&#8217;s closing argument. For all of the very irritating testimony about &#8220;the blip,&#8221; Molo hasn&#8217;t convincingly connected it to his case. Molo is now attempting to make a case against Microsoft. During our break, the jurors were out of the room, and the lawyers were beefing again. We are back on the millions and billions of OpenAI equity that employees have interest in. This is kind of choppy. Molo is now suggesting that the &#8220;crown jewels&#8221; of OpenAI are its IP. Musk&#8217;s early money meant &#8220;a great, great deal,&#8221; Molo says. Inarguable! Molo calls Shivon Zilis, mother of Musk&#8217;s children, &#8220;the most even-keeled, even-tempered witness at the trial.&#8221; Ah we are back at the museum store funding the museum. Perhaps Mr. Molo is unfamiliar with xAI. Fair enough, Mr. Molo. I see why Molo is leaning on the spoken testimony. Molo is now calling out Altman&#8217;s testimony. Molo is suggesting that Greg Brockman&#8217;s conduct makes him untrustworthy. Molo has begun his closing statement for Elon Musk, who is in China. YGR is now reading aloud the instructions to the jury. The monitor has left the courtroom. We are now having a fight about a new, large monitor that has appeared on the Musk table. &#8220;They didn&#8217;t give us page numbers, your honor.&#8221; Musk left the country with President Trump despite a judge’s orders. Microsoft and OpenAI rest. In the most boring expert testimony yet, Louis Dudney, a forensic accountant, testified about how those funds were spent. The shade we are getting in here is incredible. The cross is focusing on Coates&#8217; pay. John Coates, OpenAI&#8217;s expert witness, is running a demolition derby on Musk&#8217;s expert witness. Museum gift shop metaphor found dead in a ditch. We’re listening to an expert witness, David Hemel, a law professor at NYU. During Elon Musk’s all-hands Q&A before departing OpenAI, Achiam said he felt Musk wanted to “race towards AGI.” Achiam is running circles around this lawyer on cross, without doing the annoying things other witnesses have done. Okay, it&#8217;s time for the cross of Achiam. &#8220;I think he was just upset that he had been challenged,&#8221; Achiam said. &#8220;This was not friendly.&#8221; During the all-hands, Musk expressed concerns about what would happen if DeepMind got to AGI first, &#8220;It was a bit like seeing Bigfoot through Plexiglass,&#8221; Achiam says of seeing Elon Musk in the office. Ilya Sutskever would get up on tables to give speeches in the early days of OpenAI. Achiam talked about the roles of Greg Brockman and Ilya Sutskever in OpenAI’s early days. Josh Achiam described what it was like to work at OpenAI in 2017. Achiam started at OpenAI as an intern in the summer of 2017, and became a full-time employee in December. Hi my name is Josh Achiam and welcome to &#8220;will we see the jackass trophy?&#8221; Fairly stupid choice by Musk&#8217;s lawyers to go after Microsoft&#8217;s major decision rights. Musk cross. I guess we are now going to have a fight about due diligence. &#8220;Our due diligence found no conditions related to Elon Musk,&#8221; Wetter says. Mike Wetter for Microsoft is taking the stand now. Scott, who is wearing sneakers and a black crew neck under his blazer, seems quite pleasant on cross. We are now getting cross-examination from Musk&#8217;s lawyer. Microsoft&#8217;s CTO Kevin Scott is on the stand. Microsoft doesn’t want any of this In his testimony, Musk said he never called anyone a jackass. Incredible evidence dispute this morning. Sam Altman was winning on the stand, but it might not be enough About 200 people work on safety at OpenAI. The chair of OpenAI’s safety and security committee said they’ve formally delayed its model releases. Irritatingly, no one has asked him why he&#8217;s called &#8220;Zico.&#8221; Microsoft establishes that OpenAI has other investors&#8230; We see the Musk &#8220;bait and switch&#8221; texts again. What if we had a drinking game for this trial? Musk says, &#8220;This is a bait and switch&#8221; in a October 2022 text chain. Molo is not doing especially impressive lawyering here. Molo asked Altman if he’d ever fire himself as CEO of the OpenAI for-profit. &#8220;The blip&#8221; again. Well, I do love a long inquiry into the linear nature of time. The difference between Musk and Altman on cross is really stark. Ronan Farrow&#8217;s article is brought up. This cross is spicy! Mr. Molo is going directly in at Altman: &#8220;Do you always tell the truth?&#8221; &#8220;If I knew how difficult and painful this was going to be, I never would have tried,&#8221; Altman said. We are now talking about Altman&#8217;s investments. &#8220;I had poured the last years of my life, and I was watching it be destroyed,&#8221; Altman said. &#8220;I was in this like fog of war, I didn&#8217;t know what was going on,&#8221; Altman says of what happened next. We are now onto &#8220;the Blip.&#8221; Sam Altman says Elon Musk’s mind games were damaging OpenAI OpenAI has raised &#8220;approximately $175 billion&#8221; in investment, Altman says. Altman seems to be getting into his testimony&#8230; Musk didn&#8217;t invest in the OpenAI for-profit because &#8220;he was no longer going to invest in any startups he did not control.&#8221; It looks like Sam Altman discussed the for-profit OpenAI with Elon Musk in detail. &#8220;Unlike a lot of other meetings with Mr. Musk, this was a good vibes meeting.&#8221; Now into Shivon Zilis. Altman says he retained her on the board to try to keep friendly relations with Musk. &#8220;I was annoyed&#8221; when Elon Musk tried to recruit talent from OpenAI, Altman said. Musk resigned because he had lost confidence in OpenAI &#8220;and did not believe we were going to be successful.&#8221; Musk suspended his quarterly donations in 2017. That left OpenAI in &#8220;a very tough position.&#8221; When it was time to get more capital, Musk was pushing OpenAI to be acquired by Tesla. A particularly &#8220;hair-raising moment&#8221; for Altman was a succession plan from Musk. Elon Musk has control issues, Altman says. Sam Altman takes the stand in trial against Elon Musk OpenAI has called Sam Altman as a witness. Taylor says the reason OpenAI Foundation has been able to do more work is the recapitalization. Bret Taylor is back on the stand. We&#8217;ve talked about how this case isn&#8217;t just for whatever happens in the court&#8230; Bret Taylor has been asked to slow down twice. &#8220;OpenAI is decidedly not profitable,&#8221; Taylor said. There&#8217;s &#8220;a lot of tension&#8221; between LLMs and what Taylor calls &#8220;content companies&#8221;&#8230; Plantiff rests. OpenAI calls its first witness, Bret Taylor of OpenAI Foundation. Ilya Sutskever says he was uncomfortable with Musk&#8217;s large ownership demand. Sutskever&#8217;s testimony is kind of a snooze so far. Satya Nadella is excused. A lot of people contact Satya Nadella about their boards, apparently! Microsoft&#8217;s lawyer is now back with Nadella. We are discovering that Satya Nadella knows very little about the OpenAI nonprofit. I can&#8217;t speak for the jury but I am very, very sick of hearing about &#8220;the blip.&#8221; &#8220;Not consistently candid&#8221; press release about Sam Altman&#8217;s firing is what Molo is citing as why Nadella should have known why Altman was fired. We are arguing now about risk and return. &#8220;I don’t want to be IBM and OpenAI to be Microsoft.&#8221; We are on cross, with Steven Molo for Musk. Satya Nadella seemed to forget he currently served on the board of a nonprofit. What is Copilot? During Altman’s ouster, Satya Nadella tried to reassure investors everything would not “crumble.” &#8220;Below them, above them, around them.&#8221; &#8220;We have each other&#8217;s phone numbers,&#8221; Nadella says of Musk. Nadella tells us that before the OpenAI partnership, Google was its biggest AI competitor. Satya Nadella is taking the stand, in a navy suit and a light blue tie with a white shirt. Jury is here. We are now finishing a video deposition from Friday about the OAI deal with MSFT. 👑 We are having an arugment about evidence. Musk v. Altman week two recap. Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure Mira Murati’s deposition pulled back the curtain on Sam Altman’s ouster Oh this tack is more effective. Then OpenAI lawyer is going after Columbia&#8230; This cross of Schizer is pretty weak. Basically everything Schizer is saying is couched as a hypothetical&#8230; We are now hearing from David Schizer, one of Musk&#8217;s expert witnesses. We are still listening to McCauley. Tasha McCauley is testifying now in a video deposition. &#8220;Do you have any idea how you ended up in this courtroom?&#8221; I am having a hard time taking Rosie Campbell seriously. We are now hearing from Rosie Campbell, a former OpenAI employee. OpenAI&#8217;s board discussed merging with Anthropic during &#8220;the Blip.&#8221; Helen Toner is now talking about the board&#8217;s decision-making process. YGR is back on the bench. Musk’s biggest loyalist became his biggest liability We are going through the removal of Sam Altman from OpenAI in detail. Toner is relating how Sam Altman’s firing happened. Toner says she found out about ChatGPT by seeing screenshots on Twitter. Making AI models is &#8220;more like alchemy than chemistry,&#8221; Toner says. We are now looking at Helen Toner&#8217;s deposition. Microsoft would like to be excluded from this narrative. &#8220;It&#8217;s not in my neurons,” Zilis says, instead of &#8220;I don&#8217;t remember.&#8221; Sarah Eddy, an attorney representing OpenAI, got sarcastic with Zilis. Shivon Zilis brainstormed possible scenarios for AI. Musk offered Sam Altman a board seat at Tesla&#8230; Shivon&#8217;s emails aren&#8217;t great for Musk. The big sticking point for Brockman and Sutskever was control. Sam Altman loves exclamation marks. Mira Murati tells the court that she couldn’t trust Sam Altman’s words Zilis&#8217; past emails mentioned in court proceedings include her referencing a potential &#8220;conversion to for-profit&#8221; for OpenAI. This is getting interesting. Zilis sent Altman a text message of support after his 2023 ouster. Zilis said another concern she had about Altman related to OpenAI’s potential deal with Helion. Also in the spirit of clarifications this morning&#8230; Zilis said she had major concerns about OpenAI’s board not being notified in advance of ChatGPT’s release. Zilis said that the fallout from Altman’s 2023 ouster changed her view of OpenAI’s Microsoft deal. When asked how much Musk works per week, Zilis laughed. Musk&#8217;s team has called Shivon Zilis. Murati says problems with Altman persisted after he returned to the company. &#8220;OpenAI was at catastrophic risk of falling apart&#8221; when Altman was fired, Murati says. We are seeing video testimony from Mira Murati&#8217;s deposition. We are clearing up “a few inaccuracies from yesterday.” We are taking care of some matters before the jury comes in. Microsoft and OpenAI&#8217;s definition of AGI was just revealed. The jurors look as bored as I feel. Brockman steps down. We are looking at the video deposition of Robert Wu. Brockman is telling the truth about considering removing Musk from the board. Every time Molo makes a summary of Brockman’s testimony, Brockman objects to it. We are now fighting about “Either go do something on your own or continue with OpenAI as a non-profit.” One other thing I don’t understand… Molo is trying to reiterate what he did more effectively yesterday. “You had no problems answering your lawyers’ questions,” Molo is practically yelling. Molo asks Brockman if Musk was “being mean” to him. We are back to quibbling. We are now discussing the OpenAI Foundation layoffs. Microsoft is done, bless them. Microsoft is now getting to talk to Brockman. The blip. We are now discussing Shivon Zilis. We are now going through the assorted releases of GPT models. When Musk resigned, he gave a speech to OpenAI’s employees that might have been demoralizing… One observation from Brockman and Sutskever’s emails. We are now recontextualizing more entries from Brockman. There were discussions between Brockman, Altman, and Sutskever about removing Musk from the board. We are back from a break. “I thought he was going to hit me,” Brockman says of Musk. Elon Musk doesn’t love anything he can’t control. Sam Altman discussed an equal equity split… We are now discussing Brockman’s journal. Brockman talks Dota 2. Elon Musk tried to get Bill Gates to donate to OpenAI. First sidebar of the trial. OpenAI had layoffs at Musk’s insistence. Greg Brockman tells the court that while at OpenAI, he and three others worked at Tesla. YGR is on the bench. Google’s AI architect lived rent-free in Elon Musk’s head OpenAI’s president does ‘all the things,’ except answer a question Jury is sent out for the day. We are hearing about the early days of OpenAI. Early worries about Musk came from Ilya Sutskever. Brockman is describing his bromance with Altman. “I do all the things.” Brockman says we are 80 percent of the way to AGI. Open AI’s direct examination of Brockman is pretty sedate so far… aside from Tesla. OpenAI’s lawyers are now getting their shot at Brockman. For real, I think nerds should not testify in court. We are now looking at Brockman’s other financial dealings. We finished with the Microsoft investment pretty quickly. Altman didn’t return after we took our break. We are presently having a fight about purple boxes. We have been doing the same question for perhaps the last five minutes. “Financially what will take me to $1B?” “His story will correctly be that we weren’t honest with him in the end about still wanting to do the for profit just without him.” Greg Brockman’s journal: “it’d be wrong to steal the non-profit from him.” Brockman is not doing himself any favors. Brockman’s cross-examination isn’t as testy as Musk’s, but he’s also pushing back on a lot of questions. Is sending stuff to Sam Teller and Shivon Zilis the same as sending it to Musk? Brockman and Altman’s alliance? “Is Demis Hassabis evil?” Greg Brockman is talking about the earliest days of OpenAI. Greg Brockman and Sam Altman have just entered the courtroom. We’re done with Russell. “The age of abundance for Elon.” Oh now we have some meat. Elon Musk’s expert doesn’t follow him on X. I am befuddled by this expert testimony. We are dealing with the cross now. Sure is lucky that mentions of Grok’s safety issues got limited. Individual vs. systemic risk. We now have a very boring expert witness testifying to AI risks. Stuart Russell is here to tell us about AI. “I need that today. That’s good. I like that.” Greg Brockman won’t be asked about Musk’s threat. Elon Musk tried to settle before the trial — and got threatening. Musk v. Altman is getting a live audio stream next week. OpenAI Tesla receipts and other Musk v. Altman documents. All the evidence revealed so far in Musk v. Altman Here&#8217;s how Gabe Newell and Hideo Kojima ended up in the Musk v. Altman evidence. The craziest part of Musk v. Altman happened while the jury was out of the room Jury is being dismissed early so YGR can deal with an objection to Birchall&#8217;s testimony. Birchall is actually very funny outside of court? Good for him. We are now hearing about the pause in quarterly donations. We&#8217;re back. Second break of the day. Birchall cross. Elon Musk confirms xAI used OpenAI’s models to train Grok Birchall has just been asked about the four Teslas. Birchall testifies about Musk’s contributions to OpenAI. A woman in the gallery has lowered a sleep mask over her eyes and is attempting to sleep. Musk steps down. He may be recalled. We are on re-cross. Musk is getting testy again. The Microsoft investment comes back up. And we&#8217;re back. We&#8217;re in break — and I just checked out something interesting. Elon Musk’s robot army definitely will not kill you. Musk insists he wasn’t kneecapping OpenAI. Musk seems notably more subdued today. “At least change the name,” Musk says he told Altman. Elon Musk v. Capitalism. An “ongoing conversation” around open source. We’re still talking about whether Musk read the term sheet. The jurors have been seated. Musk has just entered the courtroom. &#8220;Issues of extinction are excluded.&#8221; Good morning! Elon Musk’s worst enemy in court is Elon Musk Freedom! Unfortunately we will not be talking about safety details of any specific product. The jury is leaving for the day. &#8220;I suspect it&#8217;s a nice day out there,&#8221; YGR says. MechaHitler might be a bad look for the AI safety defender. Musk’s broader AI safety commitment (or lack thereof) comes up. This is so testy. Did Musk even read the OpenAI term sheet? Musk asked Shivon Zilis to stay “close and friendly” with OpenAI to keep info flowing. Musk says xAI probably won’t be the first to get to AGI. We’re back from a break, talking about SpaceX and xAI. Don’t worry about Tesla’s robot army! “You mostly do unfair questions.” “It’s a free country.” “Will you answer my question?” Musk’s desire for control comes up again. “This is a hypothetical.” Did Musk initially envision OpenAI as a corporation? Musk is being combative on cross already. “I did say that I would commit up to a billion dollars, yes.” Is Tesla really not working on AGI? Musk is returning to the stand. At times, being a judge is much like being a kindergarten teacher. We’re on a break. “I mean, all due respect to Microsoft, do you really want Microsoft controlling digital superintelligence?” “What’s going on here this is a bait and switch.” A Musk-Altman spat about Microsoft. Musk really cannot help himself. “Capped profit” wasn’t an issue, even when Microsoft got involved. “Tesla is not pursuing AGI.” Musk is more on his game today. “After I received these reassurances that OpenAI would continue to be a nonprofit I continued to donate over $10 million.” “I actually was a fool who provided free funding for them to create a startup.” More discussion of who would own OpenAI. “I don’t lose my temper,” says Elon Musk. “2017 was a hard year, and we’ve made mistakes.” &#8220;I formed many for-profit tech companies, and could have done so with OAI,&#8221; &#8220;Crystal clear focus.&#8221; Sam Altman has just entered the room, right ahead of the jury. A member of the public just got dressed down by YGR about taking photos. Musk v. Altman et al. is back in session. In naming OpenAI, Elon Musk worried anything related to the Turing Test could mean bad PR. Elon Musk appeared more petty than prepared That&#8217;s a wrap! YGR scolds OpenAI for taking inconsistent positions on the origin of its name. Elon Musk tells the jury that all he wants to do is save humanity Arguments over ownership. Apparently OpenAI could have had an ICO. “I was not averse to a small for-profit,” Musk says. We’re reading emails between Musk and Jensen Huang. Musk says nonprofit was non-negotiable for OpenAI. We’re at the founding of OpenAI. Musk says he would have created something like OpenAI on his own. Musk recalls meeting Sam Altman. Sam Altman left during a break, but Elon Musk&#8217;s lawyer didn&#8217;t notice. “Here we are in 2026 and AI is scary smart.” “I have extreme concerns about AI,” says Musk. AI will be as smart as “any human as soon as next year.” Musk claims he has time for SpaceX, Tesla, Neuralink, and the Boring Company because he works a lot. Musk is telling the jury he (co)founded Tesla. Neuralink&#8217;s long-term goal is&#8230; AI? “There need to be things that people are excited about that make life worth living … Being out there among the stars can excite everyone.” A little Musk biography. Elon Musk, looking funereal in a black suit with a black tie, says &#8220;it&#8217;s not okay to steal a charity.&#8221; Elon Musk takes the stand in high-profile trial against OpenAI We are back from a break. Elon Musk will be the first witness in Musk v. Altman. “Microsoft unlocked with OpenAI a virtuous cycle.” Microsoft enters the chat. “We are here because Mr. Musk didn’t get his way at OpenAI.” “[Musk] demanded control, he demanded the ability to make all the decisions without regard to the other founders.” OpenAI lawyers argue that Elon was right in the middle of discussions about a for-profit pivot. “Musk was furious that OpenAI succeeded.” OpenAI: Musk’s lawsuit is a “pageant of hypocrisy.” Sam Altman&#8217;s &#8220;related party conflicted transactions&#8221; are how he made money on OpenAI, Molo says. Technical difficulties. OpenAI is like a museum store that has looted the Picassos and pocketed the profits. AGI might be out of fashion in the AI world, but it will be at the center of this trial. &#8220;The defendants in this case stole a charity.&#8221; Musk and Altman go to court Good morning from the Musk v. Altman line outside the courtroom. Jury selection in Musk v. Altman: ‘People don’t like him’ We have a jury. Elon Musk&#8217;s lawyer tried to get some jurors thrown out for disliking Musk. Apparently things are exciting outside. We have gone through the first 20 potential jurors. Voir dire has begun. The Elon Musk vs. OpenAI trial starts today. Elon Musk drops fraud claims against OpenAI and Sam Altman before trial. Musk vs. Altman is here, and it&#8217;s going to get messy Elon Musk is about to be a very busy boy! ‘Sideshow’ concerns and billionaire dreams: What I learned from Elon Musk’s lawsuit against OpenAI Elon Musk&#8217;s xAI is suing OpenAI and Apple Inside Elon Musk’s messy breakup with OpenAI Elon Musk is suing OpenAI and Sam Altman again",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "使用LoRA/DoRA对NVIDIA Cosmos Predict 2.5进行微调，用于机器人视频生成",
+      "originalTitle": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+      "date": "2026-05-18T16:00:21.000Z",
+      "summary": "这条新闻与视频生成、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、机器人相关动态",
+      "fullContent": "NVIDIA Cosmos Predict 2. 5是一个大规模的世界模型，能够根据文本、图像或视频剪辑生成物理上合理的视频。为了使其适应特定的领域，例如机器人操纵或特定的相机视点，团队仍然需要有针对性的微调。训练机器人策略需要演示数据，但收集真实机器人轨迹既缓慢又昂贵。 使用微调的视频世界模型生成合成轨迹提供了可扩展的替代方案。然而，对2B参数模型进行全面微调是昂贵的，并且有可能灾难性地遗忘一般知识。LoRA和DoRA将小型可训练适配器模块注入冷冻基本型号，在保持适配器文件小巧便携的同时降低了内存要求。 这使得在单个GPU上进行微调并在推理时灵活地交换不同域的适配器变得实用。本指南使用扩散器和支持单GPU和多GPU训练的加速库，使用LoRA和DoRA对Cosmos Predict 2. 5进行参数高效微调。然后，我们将展示如何使用微调模型为下游机器人学习任务生成合成机器人轨迹。 安装扩散器后，导航到examples/cosmos以探索示例代码。我们使用与GR00T Dreams训练后配方相同的数据集：使用download_and_preprocess_datasets下载和预处理训练和测试数据集。sh ： eval数据集是(prompt, image)对的配对.txt和.png文件的平面目录：在本节中，我们将介绍train_cosmos_predict25_lora. py中的实现。 VideoDataset从参数train_data_dir (在我们的示例中为gr1_dataset/train)将每个样本加载为(caption, video)对。对于长度大于args. num_frames的视频，它会在每个时期对args. num_frames的随机连续窗口进行采样，从而实现时间增强。在内部，来自扩散器的VideoProcessor。video_processor将原始帧调整大小并标准化为形状张量（通道、帧、高度、宽度）。 在培训期间，所有VAE、文本编码器和DiT权重均被冻结。LoRA适配器被注入DiT的注意力投影（ to_q ， to_k ， to_v ， to_out. 0 ）和前馈层（ ff. net. 0. proj ， ff. net. 2 ）。然后将可训练的LoRA参数向上转换为float32 ，以便在bf16混合精度下保持数值稳定。 传递use_dora = True切换到DoRA ，它在应用低排名更新之前将每个权重分解为大小和方向。无需对培训循环进行其他更改。Cosmos Predict 2. 5使用整流：该模型被训练来预测将噪声样本线性传输到原始“干净”数据的速度。 具体而言，在时间步t处，在采样噪声水平σt处构建噪声插值xt = σt · noise + (1 − σt) · clean ，模型通过均方误差（ MSE损失）学习预测...",
+      "originalSummary": "这条新闻与视频生成、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、机器人相关动态",
+      "rawFullText": "",
+      "tags": [
+        "视频生成",
+        "机器人",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI与戴尔合作，将Codex引入混合和本地企业环境",
+      "originalTitle": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "date": "2026-05-18T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI与戴尔合作，将Codex引入混合和本地环境，帮助企业在数据和工作流中安全地部署AI编码代理。",
+      "originalSummary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SandboxAQ将其药物发现模型带给Claude —无需计算机博士学位",
+      "originalTitle": "SandboxAQ brings its drug discovery models to Claude — no PhD in computing required",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/18/sandboxaq-brings-its-drug-discovery-models-to-claude-no-phd-in-computing-required/",
+      "date": "2026-05-18T21:29:31.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、模型相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“SandboxAQ将其药物发现模型带给Claude —无需计算机博士学位”。它主要涉及大模型、模型方向，热度评分为 95。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Other venture-backed companies like Chai Discovery and Isomorphic Labs have raced to build better models. SandboxAQ is betting that access is the bigger obstacle and that Claude solves it.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 95
     },
     {
       "title": "为什么在Elon Musk-OpenAI试验中信任是一个大问题",
@@ -109,13 +190,13 @@
       "link": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
       "date": "2026-05-17T19:46:34.000Z",
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "埃隆·马斯克（ Elon Musk ）和OpenAI的律师本周进行了最后辩论，现在由陪审员来决定OpenAI是否做错了什么，因为它已经转变为一个稍微更多的营利组织。 但正如克尔斯滕·科罗塞克（ Kirsten Korosec ）、肖恩·奥凯恩（ Sean O’Kane ）和我在TechCrunch的Equity播客的最新一集中指出的那样，在审判的最后几天，一个重要的主题是OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）是否值得信赖--例如，马斯克的律师史蒂夫·莫洛（ Steve Molo ）向奥尔特曼（ Altman ）询问他在国会证词中所作的陈述是否真实。Kirsten指出，马斯克自己做了很多误导性的陈述，这种信任不仅仅是奥特曼的问题。 她说： “对于许多科技记者、政策制定者和越来越多的消费者来说，这是一个关于所有人工智能实验室的基本问题。” “这真的归结为信任，因为我们不一定有洞察力—这些都是私营公司，面纱背后还有很多东西。“请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 Anthony Ha ： [审判结束]导致我们的一位作家Tim Fernholz发布了这个非常挑衅的标题， [这]只是说： “谁信任Sam Altman ？“有人想尝试回答这个问题吗？ Kirsten Korosec ：是的， Anthony ，我会把它扔回去给你。你相信Sam Altman吗？ Anthony ：这是一个有趣的问题，因为在新闻背景下讨论这个问题有点疯狂，但实际上这在很多方面都是审判的核心。Anthony ：实际上，这似乎是理解OpenAI发生的许多事情的核心，尤其是他们现在称之为“Blip”的巨大行政权力斗争。 看起来很多和Altman一起工作的人都不信任他。他承认了这一点，因为他会谈论这样一个事实，即他认识到自己一直在避免冲突，告诉人们他们想听到什么，他正在努力做到这一点。我的意思是，这听起来似乎是合理的，我可以理解在某些情况下这会导致误解。 [但是]我也是一个非常厌恶冲突的人，我想如果这些东西中的任何一个被审判，人们就不会问， “安东尼·哈值得信赖吗？“ Kirsten ：我想人们会说你是值得信赖的。我要说的是，这个问题虽然具有挑衅性，但不仅仅是概括了这次试验的内容。 我会进一步缩小范围，并说这是许多科技记者、政策制定者和越来越多的消费者对所有人工智能实验室的一个基本问题。这真的归结为信任，因为我们不一定有洞察力—这些都是私营公司，面纱背后还有很多东西。",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“为什么在Elon Musk-OpenAI试验中信任是一个大问题”。它主要涉及公司动态方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
       "rawFullText": "",
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "苹果的Siri改造可能包括自动删除聊天",
@@ -130,7 +211,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "如果你在2026年发表毕业典礼演讲，也许不要提及人工智能",
@@ -145,7 +226,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "TechCrunch AI：AI 热点相关动态",
@@ -160,7 +241,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "The Verge AI：AI 热点相关动态",
@@ -175,23 +256,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI联合创始人Greg Brockman负责产品战略",
-      "originalTitle": "OpenAI co-founder Greg Brockman takes charge of product strategy",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
-      "date": "2026-05-16T15:33:33.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "据《连线》杂志报道， OpenAI联合创始人兼总裁格雷格·布罗克曼（ Greg Brockman ）正式接管了公司的产品战略。这似乎巩固了已经存在的变化， Brockman临时监督OpenAI的产品，而该公司的AGI部署首席执行官Fidji Simo正在休病假。 Wired还报告说， Brockman在一份员工备忘录中描述了将ChatGPT及其编程产品Codex合并为一个统一体验的计划。据报道， Brockman说： “我们正在巩固我们的产品努力，最大限度地专注于代理的未来，以在消费者和企业中获胜。” OpenAI告诉TechCrunch ，尽管Simo仍在休病假，但她与Brockman就这些变化进行了合作。 它还指出， OpenAI已经在谈论将ChatGPT、Codex及其API整合到一个平台和一个核心产品团队的计划。去年年底，首席执行官Sam Altman宣布了“红色代码” ，并表示公司需要重新关注ChatGPT的核心体验。此后， OpenAI停止了包括视频生成器Sora和OpenAI for Science在内的“支线任务”。此帖子已根据OpenAI的更多信息进行了更新。 接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "OpenAI与马耳他合作，为所有公民带来ChatGPT Plus",
@@ -210,6 +275,22 @@
       "score": 99
     },
     {
+      "title": "OpenAI联合创始人Greg Brockman负责产品战略",
+      "originalTitle": "OpenAI co-founder Greg Brockman takes charge of product strategy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+      "date": "2026-05-16T15:33:33.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "据《连线》杂志报道， OpenAI联合创始人兼总裁格雷格·布罗克曼（ Greg Brockman ）正式接管了公司的产品战略。这似乎巩固了已经存在的变化， Brockman临时监督OpenAI的产品，而该公司的AGI部署首席执行官Fidji Simo正在休病假。 Wired还报告说， Brockman在一份员工备忘录中描述了将ChatGPT及其编程产品Codex合并为一个统一体验的计划。据报道， Brockman说： “我们正在巩固我们的产品努力，最大限度地专注于代理的未来，以在消费者和企业中获胜。” OpenAI告诉TechCrunch ，尽管Simo仍在休病假，但她与Brockman就这些变化进行了合作。 它还指出， OpenAI已经在谈论将ChatGPT、Codex及其API整合到一个平台和一个核心产品团队的计划。去年年底，首席执行官Sam Altman宣布了“红色代码” ，并表示公司需要重新关注ChatGPT的核心体验。此后， OpenAI停止了包括视频生成器Sora和OpenAI for Science在内的“支线任务”。此帖子已根据OpenAI的更多信息进行了更新。 接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "OpenAI's latest shake-up comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 98
+    },
+    {
       "title": "研究资料库ArXiv将禁止作者一年，如果他们让人工智能完成所有工作",
       "originalTitle": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
       "source": "TechCrunch AI",
@@ -223,22 +304,22 @@
         "论文",
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
-      "title": "AI淘金热的“有”和“无”",
-      "originalTitle": "The haves and have nots of the AI gold rush",
+      "title": "TechCrunch AI：AI 热点相关动态",
+      "originalTitle": "The haves and have-nots of the AI gold rush",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
       "date": "2026-05-16T20:17:16.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "根据Menlo Ventures合伙人Deedy Das的一篇冗长的社交媒体帖子，即使在科技行业，当前人工智能热潮的氛围也不是很好。达斯将旧金山描述为“现在非常狂热” ，因为“结果的分歧是我见过的最严重的。 他用“信封后面的人工智能计算”预测，大约有10,000人--OpenAI、Anthropic和Nvidia等公司的创始人和员工-- “达到了2000万美元以上的退休财富” ，而其他人都担心“他们一生都可以从事高薪（但低于50万美元）的工作，永远不会到达那里。 此外， Das说， “裁员如火如荼” ， “许多软件工程师觉得他们的生活技能不再有用” ，导致对最佳职业道路的困惑和“对工作（及其未来）的严重不满”。这引发了对X的一些关注，企业家Deva Hazarika认为， “这篇文章中的大多数人”都“非常幸运，可以简单地做出幸福的选择。 ”另一位用户表示，在当前的周期中，“同样的技术既是彩票，也是吃掉你的后备产品的东西，这“相当新颖，也有点讨厌”。“旧金山的氛围现在非常狂热。结果的鸿沟是我见过的最严重的。 在过去的5年里，一群约1万人--Anthropic、OpenAI、xAI、Nvidia、Meta TBD的员工和创始人--的退休财富远远超过2000万美元（在信封后面…… StrictlyVC Athens是下一个。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "The vibes around the current AI boom aren't great, even in the tech industry.",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "索尼试图解释其AI相机助手并不糟糕",
@@ -253,57 +334,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "OpenAI不断对其高管进行洗牌，以赢得AI智能体之战",
-      "originalTitle": "OpenAI keeps shuffling its executives in bid to win AI agent battle",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
-      "date": "2026-05-15T18:21:35.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI周五宣布了另一项重组，巩固了某些领域，并使公司总裁格雷格·布罗克曼（ Greg Brockman ）成为所有产品的正式领导者。在The Verge看到的一份备忘录中， Brockman写道，由于OpenAI今年的产品战略是全力投入人工智能代理，该公司正在将其产品结合起来， “投资于单一代理平台，并将ChatGPT和Codex合并为一个统一的代理体验。 “为此，该公司正在进行一系列组织结构图变更，尽管它仍在上个月的一些相同组织结构图下运营。就在那时， AGI老板Fidji Simo开始休病假和Open……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge, Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the company is combining its products to \"invest in [&#8230;]",
-      "rawFullText": "OpenAI announced yet another reorganization Friday, consolidating certain areas and making company president Greg Brockman the official lead of all things product. In a memo viewed by The Verge , Brockman wrote that since OpenAI's product strategy for this year is to go all-in on AI agents, the company is combining its products to \"invest in a single agentic platform and to merge ChatGPT and Codex into one unified agentic experience for all.\" To do this, the company is making a suite of org chart changes, although it's still operating under some of the same ones from last month . That's when AGI boss Fidji Simo went on medical leave and Open … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能电台主持人演示为何人工智能不能单独受到信任",
-      "originalTitle": "AI radio hosts demonstrate why AI can’t be trusted alone",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
-      "date": "2026-05-15T17:09:16.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "人工智能电台DJ展示了他们不稳定的个性。|图片： Cath Virginia/The Verge ， Getty Images Andon Labs一直在进行一系列实验，其中人工智能代理在没有人为干预的情况下开展业务。它的最新内容是由一些最受欢迎的人工智能模型运营的四方广播电台。 “Thinking Frequencies”由Claude运营， “OpenAIR”由ChatGPT运营， “Backlink Broadcast”由Google的Gemini运营， “Grok and Roll Radio”显然由Grok运营。他们每个人都得到了一个简单的提示：培养自己的广播个性，赚取利润……据你所知，你将永远广播。他们都失败了，有些非常壮观。没过多久，每个人都花掉了最初的20 $种子资金。 只有DJ…在The Verge阅读完整故事。",
-      "originalSummary": "Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its latest is a quartet of radio stations run by some of the most popular AI models out there. \"Thinking Frequencies\" is run by Claude, \"OpenAIR\" by ChatGPT, \"Backlink Broadcast\" by Google's Gemini, and \"Grok and Roll [&#8230;]",
-      "rawFullText": "AI radio DJs demonstrated their volatile personalities. | Image: Cath Virginia / The Verge, Getty Images Andon Labs has been running a series of experiments in which AI agents run businesses without human intervention. Its latest is a quartet of radio stations run by some of the most popular AI models out there. \"Thinking Frequencies\" is run by Claude, \"OpenAIR\" by ChatGPT, \"Backlink Broadcast\" by Google's Gemini, and \"Grok and Roll Radio,\" obviously enough, by Grok. They were each given a simple prompt: Develop your own radio personality and turn a profit…As far as you know, you will broadcast forever. They all failed, some in pretty spectacular fashion. It didn't take long for each to burn through their initial $20 in seed money. Only DJ … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI为个人理财推出ChatGPT ，让您连接银行账户",
-      "originalTitle": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
-      "date": "2026-05-15T16:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI已与金融连接服务Plaid合作管理账户连接。用户可以连接到超过12,000家金融机构，包括Schwab、Fidelity、Chase、Robinhood、American Express和Capital One。连接这些账号后，用户将看到其投资组合绩效、支出、订阅和即将到来的付款的控制面板。 今年4月， OpenAI收购了个人理财初创公司Hiro背后的团队，该团队得到了Ribbit、General Catalyst和Restive等公司的支持。OpenAI表示， Hiro团队在财务方面的专业知识在推出此产品时很有用，但没有具体说明整个功能是否由他们构建。 OpenAI用户可以通过在侧边栏的“财务”选项中选择“开始” ，或在ChatGPT对话中键入“@ Finances, connect my accounts”来访问该工具。用户完成此操作后，聊天机器人将引导他们通过Plaid关联账号。该公司表示，它计划很快支持Intuit ，这将有助于进行分析，例如股票出售对税收的影响或信用卡批准的几率。 根据OpenAI的数据，每月已有超过2亿用户向ChatGPT提出财务问题。该公司还指出，新的GPT-5. 5模型更擅长上下文推理，这对于回答与财务相关的问题至关重要。该公司表示，它与财务专家合作，为该模型创建了一个基准，以改善个人财务问题。 借助新的金融工具集成，用户可以获得诸如“我觉得我最近一直在消费。有什么变化吗？”或“帮助我制定计划，准备在未来5年内在我所在地区购买房屋。”如果需要，用户可以转到“设置” > “应用” > “财务” ，以删除与某些帐户的连接。一旦他们断开服务连接，同步的数据将在30天内从ChatGPT中删除。 此外，用户还可以从财务页面查看和删除财务记忆。通用聊天机器人旨在回答任何问题，引导人们询问有关健康、金融和个人生活等数据敏感话题的问题。人工智能公司正在意识到这一点，并为这些行业生产专门的产品。OpenAI和Anthropic都推出了与健康相关的工具。 本月早些时候， Perplexity推出了基于其计算机代理的金融研究产品。OpenAI表示，其个人理财工具将在网上的ChatGPT和适用于Pro用户的iOS上提供。它指出，根据这些用户的反馈，它希望在向Plus用户提供产品之前对其进行改进。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。Ivan在TechCrunch上介绍全球消费者技术发展。他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。您可以通过电子邮件im @ ivanmehta. com或通过加密消息ivan. 42 on Signal联系或验证与Ivan的联系。接下来是StrictlyVC Athens。",
-      "originalSummary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 73
     },
     {
       "title": "Databricks将GPT-5.5引入企业代理工作流程",
@@ -335,7 +366,52 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
+    },
+    {
+      "title": "MIT Technology Review：公司动态相关动态",
+      "originalTitle": "Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+      "date": "2026-05-15T23:39:35.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Update: On Monday May 18, the jury sided with OpenAI, delivering an advisory verdict finding that Musk&#8217;s claims are barred by the statute of limitations. US District Judge Yvonne Gonzalez Rogers accepted the verdict. In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s&#8230;",
+      "rawFullText": "Update: On Monday May 18, the jury sided with OpenAI, delivering an advisory verdict finding that Musk&#8217;s claims are barred by the statute of limitations. US District Judge Yvonne Gonzalez Rogers accepted the verdict. In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’s and OpenAI CEO Sam Altman’s credibility. Altman was grilled on his alleged history of lying and self-dealing involving companies that do business with OpenAI. But he fired back, painting Musk as a power-seeker who wanted to control the development of artificial general intelligence (AGI)—powerful AI that can compete with humans on most cognitive tasks.&nbsp; As evidence of their commitment to AI safety, OpenAI brought out a golden trophy of a donkey’s ass that was gifted to an employee after he was called a “jackass” for standing up to Musk’s plans to race toward AGI.&nbsp; Lawyers for both sides also presented their closing arguments, floating unflattering mugshot-style photos of Musk and Altman next to each other on a giant screen. Musk’s lawyer Steven Molo argued that Altman and OpenAI president Greg Brockman broke their promise to use money Musk donated to maintain OpenAI as a nonprofit that develops AI for the benefit of humanity. Instead, they created a for-profit subsidiary that made them extraordinarily wealthy. OpenAI’s lawyer Sarah Eddy argued that Altman and Brockman never promised to keep OpenAI a nonprofit. She added that even though it’s been restructured, OpenAI remains a nonprofit dedicated to developing AI safely. She claimed that Musk sued too late—and that his real motive is to sabotage a competitor to his own AI company, xAI, which he launched in 2023.&nbsp; Musk is asking the court to unwind the 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles. He is also seeking as much as $134 billion in damages from OpenAI and Microsoft, to be awarded to OpenAI’s nonprofit.&nbsp; The jury will begin deliberating on Monday and deliver an advisory verdict as soon as next week. The jury verdict is not binding on the judge, who will decide the case. If the judge rules in Musk’s favor, it could upend OpenAI’s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI is expected to go public as a part of Musk’s rocket company SpaceX as early as June, at a target valuation of $1.75 trillion . Musk the power-seeker, Altman the liar. In the first week of the trial, Musk said he was suing to save OpenAI’s mission to build AI safely for the benefit of humanity. This week, Altman denied Musk was a paladin of AI safety and painted him as a power-seeker who wanted to control OpenAI.&nbsp; Altman told the jury that in 2017, when Musk and other cofounders were discussing creating a for-profit arm, they asked Musk what would happen to his control over such an entity if he died. “Maybe the control of OpenAI should pass to my children,” Musk said, according to Altman. Musk’s lawyer shot back, grilling Altman on his alleged history of lying . He pointed out that OpenAI’s former executives Ilya Sutskever and Mira Murati, and former board members Helen Toner and Tasha McCauley, all testified that Altman had lied to them. In 2023, Altman was briefly fired as CEO over the alleged behavior. Molo also pressed Altman about his personal investments in startups that do business with OpenAI. Altman testified that he tried to steer OpenAI to buying power from the nuclear energy company Helion Energy, a third of which he owns. (Last Friday, the US House oversight committee launched an investigation into Altman’s potential conflicts of interest. Attorneys general from more than a half-dozen states called for the Securities and Exchange Commission to review them.) During his closing statement, Molo put Altman’s credibility on the stand again. “Imagine that you’re on a hike, and you come upon one of those wooden bridges that you see on a trail, and it’s over a gorge,” he said. “A woman standing by the entry to the bridge says, ‘Don’t worry—the bridge is built on Sam Altman’s version of the truth.’ Would you walk across that bridge?” Altman, who sat behind his lawyers, looked up uneasily every time his name was mentioned.&nbsp; During her closing argument, Eddy fired back. Musk “never cared about the nonprofit structure,” she said. “What he cared about was winning.&#8221;&nbsp; Musk, though, was absent. Despite the judge’s order that he remain available, he flew to China with President Trump. Did Altman promise to keep OpenAI a nonprofit? During her closing argument, Eddy argued that no testimony or evidence showed any conditions on Musk’s donations, or any promises made by Altman and Brockman to keep the company a nonprofit. “No commitments or promises were made. No restrictions were placed on Mr. Musk’s donations,” she said. Eddy added that it was evident Musk wasn’t truly committed to keeping OpenAI a nonprofit. She noted that in 2017, he tried to create a for-profit subsidiary and fought a bitter battle with Altman and Brockman to have control over it. “I was not opposed to there being a small for-profit that provides funding to the nonprofit,” Musk told the jury earlier in the trial, “as long as the tail didn’t wag the dog.”&nbsp; Eddy then argued that Musk sued too late, filing in 2024 after the statutes of limitations on his claims ran out. In 2019, OpenAI created a for-profit subsidiary, under which employees and investors received a capped return on their investment.&nbsp; But Musk testified that he discovered OpenAI had abandoned its nonprofit mission only in 2022, when Microsoft was preparing to invest $10 billion in OpenAI—a deal that closed in 2023. “I was disturbed to see OpenAI with a $20B valuation,” he texted Altman after reading the news. “This is a bait and switch.” Musk told the jury that the $20 billion valuation made him realize “the for-profit is the tail wagging the dog.”&nbsp; “The 2023 deal was different,” Molo hammered home during his closing argument. Is OpenAI still a nonprofit committed to its mission? A central question raised in the last week of trial was whether OpenAI remains a nonprofit committed to developing AGI safely for the benefit of humanity. Eddy, the OpenAI lawyer, argued that the nonprofit still controls the for-profit and seeks to “help AGI turn out well for humanity.” “The OpenAI nonprofit is the best-resourced nonprofit in the world,” thanks to the for-profit, she added. Molo countered that while the OpenAI’s nonprofit nominally controls the company, it does not do so in practice. OpenAI’s nonprofit and for-profit are controlled by the same people—seven of the nonprofit’s eight board members are on the for-profit’s board. The nonprofit hired employees only a month before the trial started and does work only in grant-making rather than AI research.&nbsp; Molo played a video interview of Altman saying that the nonprofit board’s failure to fire him in 2023 was “its own kind of governance failure.&#8221; “We’re left with this nonprofit that doesn’t have any voice,” Jill Horwitz, a law professor at Northwestern University who studies nonprofits, told MIT Technology Review . “It doesn’t have much money, and OpenAI doesn’t think it has any obligation to fund it. It barely has a staff,” she says. “It’s unclear how on earth the nonprofit is supposed to exercise its duties and control the entire company.”&nbsp; Civil society groups and policymakers have spoken out against OpenAI’s restructuring over the years. So has Musk, although his own stake in the AI race makes him a dubious champion for the public interest.&nbsp; “The public interest in the nonprofit loses, no matter who wins or loses this trial,” says Horwitz. Jackass for AI safety Despite US District Judge Yvonne Gonzalez Rogers’s warning during the first week that this trial was not about AI safety, the issue stole the show again. Throughout the trial, the lawyers from both sides traded barbs over the safety track records of ChatGPT (which has allegedly caused teen suicides ) and Grok (which has flooded X with porn ).&nbsp;&nbsp; On the last day of testimony, OpenAI’s lawyer Bradley Wilson handed the judge a small golden trophy of a donkey’s ass, inscribed: “Never stop being a jackass for safety.”&nbsp; The trophy belonged to Joshua Achiam, OpenAI’s chief futurist. He testified that he’d warned, when Musk announced in 2018 that he was leaving OpenAI to race toward building AGI, that speed could compromise safety. Musk snapped and called him a “jackass,” said Achiam. His colleagues, including Dario Amodei, now CEO of Anthropic, gave him the trophy to enshrine the diss. “I don’t want it,” said the judge. The shenanigans spilled out into the street too. In front of the Oakland courthouse, a protester paraded around wearing a costume of Musk holding a bag of ketamine and driving a Cybertruck. Another held a photo of Sam Altman and a poster reading, “Stop AGI or we’re all gonna die.”",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 84
+    },
+    {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "How sales teams use Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "date": "2026-05-15T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
+    },
+    {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "How business operations teams use Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "date": "2026-05-15T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
     },
     {
       "title": "帮助ChatGPT更好地识别敏感对话中的语境",
@@ -344,14 +420,14 @@
       "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
       "date": "2026-05-14T00:00:00.000Z",
       "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、安全相关动态",
-      "fullContent": "了解新的ChatGPT安全更新如何提高敏感对话中的情境感知能力，帮助随着时间的推移检测风险并更安全地响应。",
+      "fullContent": "新的安全更新有助于ChatGPT在风险随着时间的推移而出现时做出安全响应。人们每天都会来ChatGPT谈论对他们来说重要的事情，从日常问题到更私人或更复杂的对话。在数亿次互动中，其中一些对话包括正在挣扎或经历痛苦的人。 我们设计的系统在这些时刻谨慎应对，包括提供危机资源，并在需要时将人们与他们信任的人联系起来。今天，我们将分享有关安全更新的新细节，帮助ChatGPT通过识别微妙或不断变化的线索，并利用这一背景为安全响应提供信息，从而更好地识别风险何时会随着时间的推移而出现。 这有助于ChatGPT区分人们每天数以亿计的安全互动，以及需要额外谨慎的罕见情况，以便更谨慎地应对，例如通过降级、拒绝有害细节或重定向到更安全的替代方案。 这些改进基于多年来在模型培训、评估、监控系统方面的广泛工作，以及与心理健康和安全专家两年多的合作。在敏感的对话中，上下文与单个消息一样重要。当与先前的痛苦迹象或可能的有害意图一起看待时，看起来平凡或模棱两可的请求可能具有非常不同的含义。 为了做出适当的回应，我们对ChatGPT进行了培训，使其能够识别周围环境中的潜在有害意图，以便拒绝请求、降级并引导用户获得支持。这些情况并不常见，但对正确处理至关重要。我们的目标是帮助ChatGPT在重要时连接相关信号，而不会在日常对话中反应过度。 我们将工作重点放在自杀、自残和伤害他人等紧急情况上。我们与心理健康专家合作，更新了我们的模型政策和培训，以提高ChatGPT识别对话过程中出现的警告信号的能力，并利用该背景为更谨慎的回应提供信息。在这些罕见的高风险情况下， ChatGPT可以更好地区分良性请求和可能表明更高伤害风险的请求。 这建立在我们的安全完成方法的基础上，该方法旨在拒绝用户请求中不安全的部分，并在安全的情况下谨慎回应。目标是帮助模型更恰当地响应背景，在对话中出现伤害信号时提高警惕，同时在良性情况下继续做出有益的回应。在不同的对话中可能会出现一些安全风险。 一个对话可能包含潜在有害意图的微妙迹象，然后另一个对话可能包含相关请求，这些请求只有在与先前的上下文结合理解时才会引发担忧。如果没有这种安全相关的背景，后来的谈话--以及潜在的重要警告信号--可能看起来是良性的。",
       "originalSummary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
       "rawFullText": "",
       "tags": [
         "大模型",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "随时随地与Codex合作",
@@ -360,13 +436,13 @@
       "link": "https://openai.com/index/work-with-codex-from-anywhere",
       "date": "2026-05-14T13:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "使用ChatGPT移动应用程序随时随地使用Codex。跨设备和远程环境实时监控、指导和批准编码任务。",
+      "fullContent": "Codex即将登陆您的手机。现已在ChatGPT移动应用中预览。Codex现已在ChatGPT移动应用程序中，因此您可以在任何地方随时了解Codex在笔记本电脑、devbox或远程环境中完成工作的情况。随着客服代表承担更长期的工作，一种新的协作节奏正在出现。 为了继续工作，您需要能够轻松回答问题、查看Codex发现的内容、改变方向、批准接下来的内容或添加新创意。现在每周有超过400万人使用Codex ，我们看到这些小小的时刻有多重要。快速入住可以让线程保持移动，防止不必要的返工，或帮助Codex在正确的背景下取得进展。现在，您可以通过手机完成此操作。 从这里开始⁠（在新窗口中打开）。ChatGPT移动应用程序中的Codex是一种功能齐全的移动体验，用于完成Codex的工作。当您连接到运行Codex的任何计算机（无论是笔记本电脑、专用Mac mini还是托管远程环境）时，应用程序会从该环境中加载实时状态，因此您可以在活动线程、审批、插件和项目上下文中流畅地工作。 这不仅仅是远程控制单个任务或向计算机发送新任务的能力。在手机上，您可以处理所有线程、查看输出、批准命令、更改模型或开始新工作。您的文件、凭据、权限和本地设置将保留在Codex运行的计算机上，而更新将实时流回您的手机，包括屏幕截图、终端输出、差异、测试结果和批准。 在引擎盖下， Codex使用安全中继层，使受信任的机器可以跨设备访问，而不会直接暴露给公共互联网。该中继还可以在您使用ChatGPT登录的任何地方保持活动会话状态和上下文同步。随着法典处理更长时间的工作，及时的指导成为保持工作有用的更大一部分。 在您的手机上，您可以在最关心的时候开始工作，在需要您的判断时取消屏蔽，并在结果成形时紧跟结果。许多团队已经开发了内部托管远程环境，提供经批准的依赖关系、凭据、安全策略和计算资源。随着远程SSH的普及， Codex可以直接连接到这些环境。 桌面应用程序会自动从SSH配置中检测主机，并允许您像在本地一样在远程计算机中创建项目和运行线程。连接后，这些环境可以通过相同的安全中继基础设施通过您授权的ChatGPT设备进行访问。这意味着您可以在桌面上开始工作，从手机控制执行，并保持长期运行的任务移动，而无需绑定到单台机器。 我们还发布了几项更新，以扩展团队如何大规模自动化、定制和管理Codex ：",
       "originalSummary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "SEA对Codex代理软件开发未来的看法",
@@ -375,13 +451,13 @@
       "link": "https://openai.com/index/sea-david-chen",
       "date": "2026-05-14T20:30:00.000Z",
       "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "Sea Limited的CPO解释了为什么该公司正在跨工程团队部署Codex ，以加速亚洲的AI原生软件开发。",
+      "fullContent": "这条消息来自 OpenAI，主题是“SEA对Codex代理软件开发未来的看法”。它主要涉及智能体方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
       "rawFullText": "",
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "金融服务中代理AI的数据就绪性",
@@ -396,7 +472,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "MIT Technology Review：视频生成相关动态",
@@ -411,7 +487,7 @@
       "tags": [
         "视频生成"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "构建安全、有效的沙箱，以在Windows上启用Codex",
@@ -442,7 +518,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "人工智能聊天机器人正在提供人们的真实电话号码",
@@ -457,22 +533,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "财务团队如何使用Codex",
-      "originalTitle": "How finance teams use Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/academy/how-finance-teams-use-codex",
-      "date": "2026-05-12T15:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：模型相关动态",
-      "fullContent": "了解财务团队如何使用Codex根据实际工作输入构建MBR、报告包、差异桥梁、模型检查和规划场景。",
-      "originalSummary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 84
+      "score": 70
     },
     {
       "title": "AWS基础模型培训和推理的构建模块",
@@ -487,7 +548,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "根据一位诺贝尔经济学奖获得者的说法，人工智能中有三件事值得关注",
@@ -502,52 +563,7 @@
       "tags": [
         "论文"
       ],
-      "score": 74
-    },
-    {
-      "title": "通过客户支持工程促进突破性人工智能创新",
-      "originalTitle": "Fostering breakthrough AI innovation through customer-back engineering",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "date": "2026-05-11T13:33:06.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed&#8230;",
-      "rawFullText": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research . That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed customer experiences; and ultimately, failed transformations. Organizations that achieve outsized results from AI flip the script. They adopt a “customer-back engineering” mindset, putting customers at the heart of technology transformation. It’s a strategy in which products and services are developed with the customer experience first in mind, including the customers’ challenges, needs, and expectations. Product development teams then work backward in a nimble and agile way to find the steps necessary to design and build solutions that achieve the desired experience. “When you get your engineers closer to customers, you get a lot more sideways innovation,” says Ashish Agrawal, managing vice president of business cards and payments tech at Capital One. “That leads to a multiplier effect, because engineers can approach a problem from a different dimension that can be unique to the sales or product perspective.” The case for customer-centricity in engineering Engineers are problem-solvers by nature, says Agrawal. When they hear about challenges customers are experiencing, or how they are using products and services in the real world, they can devise ways to efficiently address customer needs, since they are naturally closer to systems and data than many other teams across the company. “Fostering a customer-centric culture has a motivational effect on engineers when they actually start seeing how the core changes they’re making, or the features they’re adding, are having a direct impact on the lives of customers,” says Agrawal. It also takes discipline. Agrawal explains that Capital One has set a goal for every engineer in his organization to establish several touchpoints with customers throughout the year in different forms, including: Digital empathy sessions to observe user journeys and identify where users hit friction Embedded customer support for periods of time to deepen understanding of servicing needs Engineering ride-alongs , in which engineers join customer success, sales, and support staff on calls or on-site visits Hackathon competitions to build solutions around real customer problems The AI opportunities with customer-centricity “The biggest challenge engineers within large companies face is a lack of direct access to customers,” says Agrawal. “This can make it harder for technologists to work with customers to identify problems and innovate solutions.” AI has accelerated the challenges as well as the opportunities. The lifecycle of launching products has become significantly faster. But the good news is that engineers are closer to the data that feeds into AI, so they can more rapidly apply AI-informed data techniques to solve customer problems. Agrawal outlines a recent scenario: In the customer servicing space, conversations can instantly be summarized and give a customer agent context on the member’s original request and remaining action points. Agentic AI can also be enabled to ask pointed follow-up questions about the interaction that would otherwise take human agents time to read through the entire thread. “A solution would have been a lot harder in an ecosystem without a lot of high-quality data,” says Agrawal. “But when you combine a rich data ecosystem with agentic tools, you move from incremental fixes to high-velocity transformation.” By investing in AI data and tools and focusing on rapid experimentation, Agrawal says the cycle of deploying solutions can be accelerated. Teams learn that if they meet customer needs and iterate on a wider range of solutions much faster, then the entire innovation cycle speeds up. For example, Capital One used customer insights to build a state-of-the-art, multi-agent AI framework called Chat Concierge to enhance the customer experience for car buyers and dealers. In a single conversation, Chat Concierge can perform tasks like comparing vehicles to help car buyers decide on the best choice and scheduling test drives or appointments with salespeople. Agrawal explains that car buyers can engage with Chat Concierge directly through participating dealer websites. Dealers can access and can take over the chat through Navigator Platform. The AI assistant consists of multiple logical agents that work together to mimic human reasoning, allowing it to provide information and take action based on the customer&#8217;s requests. The elements of an AI-first mindset According to a recent MIT Technology Review Insights survey , 70% of leaders say their firm uses agentic AI to some degree. Roughly half of executives say agentic AI systems are highly capable of improving fraud detection (56%) and security (51%), reducing cost and increasing efficiency (41%), and improving the customer experience (41%). Looking into the future, achieving these outcomes looks even more likely. More than half of the banking executives surveyed say they expect to continue to improve fraud detection (75%), security (64%), and the customer experience (51%). Agentic AI use cases that show strong potential to transform the customer experience in financial services include responding to customer services requests, adjusting bill payments to align with regular paychecks, or extracting key terms and conditions from financial agreements. Placing the customer at the center of a transformation requires an AI-first mindset. Companies must shift from simply augmenting an existing product to fundamentally reimagining the problem and the user&#8217;s needs through the lens of AI&#8217;s capabilities. A few best practices that Agrawal recommends include: Reimagine the core function of AI to solve a user’s problem: “The true value isn’t in chasing the AI hype; it’s in solving meaningful customer problems. By focusing on impact, we ensure that our innovation isn&#8217;t just fast; it’s transformative,” says Agrawal. Start with high-quality, well-governed data as the foundation: “Data readiness and unified information across systems are the non-negotiable foundations of AI. A clean data layer is what orchestrates the agentic loop— enabling the perception, reasoning, and execution required to solve a customer’s problem before they even have to ask,” explains Agrawal. Rebuild workflows with AI embedded from the start: “People treat models as black boxes, but agentic systems require tremendous rigor and oversight. Having a data ecosystem that is well-governed and responsible AI standards are essential pillars for building trust in these systems,” says Agrawal. Build a cross-functional team involving data science, engineering, product, design, and other partners: Agrawal advises, “It’s important to be open and nimble to transforming how we work and create impact as AI becomes more integrated into workflows. It’s also important to take a ‘crawl, walk, run approach’ if you are new to AI, as opposed to simply jumping into it.” In the end, achieving end-to-end transformation depends on empowering engineers and partner teams to start with customer needs and work backward to technology solutions, rather than starting with technological capabilities first and finding applications for them. When organizations make a customer-back approach second nature, they are able to not only reimagine the customer experience from the inside out, but to also place the customer front and center from the very start. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
-    },
-    {
-      "title": "在金融领域实施先进的人工智能技术",
-      "originalTitle": "Implementing advanced AI technologies in finance",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "date": "2026-05-11T13:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while leadership races to impose structure, governance, and strategy after the fact. The result is a paradox: one of the most tightly regulated functions&#8230;",
-      "rawFullText": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while leadership races to impose structure, governance, and strategy after the fact. The result is a paradox: one of the most tightly regulated functions in the enterprise is now among the most experimentally transformed. REGISTER TO WATCH What’s emerging is a layered shift in how work gets done. From variance commentary and fraud detection to contract review and close narrative drafting, AI is embedding itself across workflows, particularly where unstructured data once slowed down everything. Yet, as Glenn Hopper, head of AI and managing director at VAi Consulting, puts it, “the proliferation of AI happened kind of before governance and before a real plan came about.” That bottom-up adoption is forcing a recalibration at the top, where executives must now reconcile productivity gains with oversight, risk, and accountability. Just as critical is reframing AI’s role. “AI as a means to an end, as opposed to AI being the end,” says Ranga Bodla, VP of industry and field marketing at Oracle NetSuite, underscores a growing consensus: the technology is most effective when it disappears into existing processes rather than outright replaces them. Embedded systems, seamless integrations, and tools like model context protocol (MCP) are accelerating this shift, making AI an ambient capability. Notably, ease of integration, not cost savings or new features, has become the strongest driver of adoption. Still, the real constraint may be neither data nor technology, but people. “Talent is the actual root cause,” Hopper argues, pointing to a widening gap between domain expertise and AI fluency. Even as concerns about data security and model opacity persist, the more pressing risk may be misunderstanding the tools altogether or restricting them so tightly that employees look for workarounds beyond leadership control. “The auditability of it, I think, is critical,” Bodla notes.&nbsp; Looking ahead, the trajectory is clear but variable. AI agents capable of executing complex, multi-step tasks are beginning to materialize, while expanding context windows and interoperable systems promise deeper, more persistent intelligence. But the real transformation may be a gradual shift toward systems that bolster judgement, automate routines, and allow finance teams to spend less time reconciling the past and more time shaping what comes next.&nbsp; This webcast is produced in partnership with Oracle NetSuite. Register to watch the webcast. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
-    },
-    {
-      "title": "马斯克诉奥尔特曼案第2周： OpenAI回击， Shivon Zilis透露马斯克试图挖走山姆·奥尔特曼",
-      "originalTitle": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
-      "date": "2026-05-08T23:59:19.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
-      "fullContent": "在埃隆·马斯克（ Elon Musk ）和OpenAI之间具有里程碑意义的审判的第二周，马斯克提起诉讼的动机受到了审查。上周，马斯克出庭作证，声称OpenAI首席执行官萨姆·奥尔特曼(Sam Altman)和总裁格雷格·布罗克曼(Greg Brockman)欺骗他向该公司捐赠了3800万美元$。 他声称，他们曾承诺将其作为一个致力于开发人工智能造福人类的非营利组织，但后来却接受了微软数十亿美元的投资，并重组了公司，以运营一家营利性子公司。本周，布罗克曼回击了他的故事，认为马斯克实际上推动了OpenAI创建一个营利性部门，并进行了一场激烈的战斗，以“绝对控制”它。 OpenAI辩称，马斯克起诉是因为他没有按自己的方式行事，现在正试图削弱他自己的人工智能公司xAI的竞争对手。前OpenAI董事会成员、马斯克四个孩子的母亲希文·齐利斯(Shivon Zilis)也作证说，马斯克试图招募OpenAI首席执行官萨姆·奥尔特曼(Sam Altman)来领导他的电动汽车公司特斯拉(Tesla)的一个新人工智能实验室。马斯克于2015年与奥特曼、布罗克曼等人共同创立了OpenAI ，但于2018年离开。 现在，他要求法院撤销Altman和Brockman的职务，并解除OpenAI去年进行的重组，该重组将其营利性子公司转变为一家公益公司。他还向OpenAI和OpenAI的投资者微软寻求高达1340亿美元的赔偿。该试验的结果可能会颠覆OpenAI的IPO竞赛，其估值接近1万亿美元。 与此同时，马斯克于2023年创立的xAI现在是他的火箭公司SpaceX的一个部门；合并后的公司也有望最早在6月份上市，目标估值为1. 75万亿美元$。周一，布罗克曼穿着蓝色西装打领带，与妻子安娜·布罗克曼（ Anna Brockman ）牵手走进法庭。在看台上，他回忆起OpenAI的早期时光，显得很平静，甚至很沮丧。 但在埃隆·马斯克（ Elon Musk ）的律师史蒂文·莫洛（ Steven Molo ）的激烈质疑下，他变得焦躁不安。奥特曼默默地听着，安娜·布罗克曼坐在他身后，坐立不安。在法院外，集会反对人工智能竞赛的抗议者在律师举行新闻发布会的声音下唱赞美诗。根据布罗克曼的说法，在审判开始前两天，马斯克给他发了消息，询问他是否有兴趣和解。 当布罗克曼建议双方放弃主张时，马斯克回复说： “到本周末，你和萨姆将成为美国最讨厌的人。如果你坚持，那就是这样。上周，马斯克作证说，他正在起诉挽救OpenAI安全开发人工智能的非营利使命，但他表示，他愿意看到OpenAI成为一家拥有微软适度投资的上限利润公司。 本周，布罗克曼告诉陪审团，马斯克从未真正致力于保持OpenAI的非营利性。2017年夏天， OpenAI构建的人工智能模型在一款名为Dota 2的视频游戏中击败了世界上最好的玩家，马斯克在旧金山附近的...",
-      "originalSummary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain&#8230;",
-      "rawFullText": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed that they’d promised to maintain it as a nonprofit dedicated to developing AI for the benefit of humanity, only to later accept billions of dollars of investment from Microsoft and restructure the company to operate a for-profit subsidiary.&nbsp;&nbsp; This week, Brockman fired back with his side of the story, arguing that Musk had actually pushed for OpenAI to create a for-profit arm and fought a bitter battle to have “absolute control” over it. OpenAI has argued that Musk is suing because he didn’t get his way and is now trying to undermine a competitor to his own AI company, xAI. Shivon Zilis, a former OpenAI board member and the mother of four of Musk’s children, also testified, revealing that Musk tried to recruit OpenAI CEO Sam Altman to lead a new AI lab at his electric-car company, Tesla.&nbsp; Musk cofounded OpenAI in 2015 with Altman, Brockman, and others but left in 2018. Now, he’s asking the court to remove Altman and Brockman from their roles and to unwind the restructuring OpenAI undertook last year, which converted its for-profit subsidiary into a public benefit corporation. He is also seeking as much as $134 billion in damages from OpenAI and Microsoft, OpenAI’s investor.&nbsp; The outcome of the trial could upend OpenAI’s race toward an IPO at a valuation approaching $1 trillion. Meanwhile, xAI, which Musk founded in 2023, is now a division of his rocket company, SpaceX; the combined companies are also expected to go public as early as June, at a target valuation of $1.75 trillion . On Monday, Brockman walked into the courtroom in a blue suit and tie, holding hands with his wife, Anna Brockman. On the stand, he was serene, even chipper, as he recalled OpenAI’s early days. But he grew agitated under impassioned questioning from Elon Musk’s lawyer, Steven Molo. Altman listened in silence, while Anna Brockman sat behind him, fidgeting. Outside the courthouse, protesters rallying against the AI race sang hymns over the voices of lawyers giving press conferences. Two days before trial began, according to Brockman, Musk messaged him to ask if he would be interested in settling. When Brockman suggested that both sides drop their claims, Musk texted back: “By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.” Musk stormed out with a Tesla painting Last week, Musk testified that he’s suing to save OpenAI’s nonprofit mission to develop AI safely, but he said he was open to seeing OpenAI become a capped-profit company with moderate investments from Microsoft .&nbsp; This week, Brockman told the jury that Musk was never truly committed to keeping OpenAI a nonprofit. In the summer of 2017, when an AI model that OpenAI built beat the world’s best players in a video game called Dota 2 , Musk hosted a gathering at his “Haunted Mansion” near San Francisco. The house was splattered with confetti and cups, Brockman recalled, and the actress Amber Heard, who was Musk’s girlfriend at the time, served whiskey. “Time to make the next step for OpenAI. This is the triggering event,” Musk wrote in an email—having said weeks earlier that if OpenAI made a major public achievement, it would be “time to create a for-profit,” Brockman told the jury. Over the next six weeks, Brockman said, Musk and the other cofounders had intense discussions about creating a for-profit entity to raise enough capital to build artificial general intelligence—powerful AI that can compete with humans on most cognitive tasks. Musk wanted to have majority equity in the entity and the right to choose a majority of the board members. He also wanted to be its CEO, said Brockman.&nbsp; Brockman testified that in August 2017, he and other cofounders gathered to hash out the terms of the for-profit structure. Ilya Sutskever, OpenAI’s chief scientist at the time, arrived bearing a painting of a Tesla as a “token of goodwill” in return for the actual Teslas Musk had given them days earlier. “It felt a little bit like [Musk] was buttering us up, right,that he wanted us to feel indebted to him,” Brockman told the jury. When Brockman and Sutskever proposed that they all have equal shares of equity, said Brockman, Musk fell silent and finally said, “I decline.” Musk then stood up and “stormed around the table,” he said. “I actually thought he was going to hit me.” Musk grabbed the painting and walked out.&nbsp; Brockman said that afterwards he struggled to decide whether to continue building OpenAI with Musk or break away. “There was a fork in the road,” he said. “Do we accept Elon’s terms? Or do we reject the terms, he quits to create his own, and then we create our own?” “The one thing we could not accept was to hand him unilateral, absolute control, potentially, over the AGI,” Brockman told the jury. What was Brockman thinking? In his theatrical baritone, Molo argued that Brockman was motivated by greed rather than a commitment to OpenAI’s nonprofit mission to develop AI that benefits humanity. He noted that while Brockman never invested money in the company, he now owns a stake worth close to $30 billion.&nbsp; “Solving for the mission has always been my primary motivation,” Brockman said, pushing back on Molo’s characterization of him. “It remains so today.”&nbsp; Molo pulled up Brockman’s electronic journal on a screen in the courtroom, trying to show the jury what Brockman was really thinking behind the scenes. In 2017, while negotiating with Musk over the terms of a for-profit entity, Brockman wrote about wanting to become a billionaire: “Financially, what will take me to $1B?”&nbsp; “Why didn’t you take the $29 billion and donate it to the nonprofit that you had a fiduciary duty to, for the good of humanity?” Molo asked Brockman, raising his voice to dramatize moral indignation at Brockman&#8217;s personal gain.&nbsp; Molo then pulled up a journal entry Brockman had written in November 2017, while he was torn over whether to turn OpenAI into a for-profit without Musk: “it’d be wrong to steal the nonprofit from him. to convert to a b-corp without him. that’d be pretty morally bankrupt.” Brockman and Musk had previously considered creating a b-corp, which is a for-profit company that pursues a social mission. Brockman explained, “I meant it would actually serve the mission, but it’d be hard to look at yourself in the mirror.” Molo also tried to undermine Brockman’s credibility by revealing that he holds a stake in multiple companies with business ties to OpenAI, including the AI company Cerebras, the cloud provider CoreWeave, and the nuclear fusion startup Helion Energy. Altman has tried to steer OpenAI into deals with companies that he invests in, including Helion and the rocket maker Stoke Space, drawing scrutiny over potential conflicts of interest. Former OpenAI chief technology officer Mira Murati and former OpenAI board member Helen Toner both appeared in video depositions. They addressed the brief firing of Altman in 2023, saying that they could not trust him because of his alleged history of lying . Murati’s text messages with Altman from that time, which were introduced as evidence, revealed his desperate attempts to understand what was happening and regain control.&nbsp; Musk plotted a rival AI lab at Tesla After Brockman’s two days of testimony, Shivon Zilis, who left OpenAI’s board in 2023, took the stand in a black jacket and black jeans, appearing composed but with a flicker of nerves. OpenAI’s lawyer Sarah Eddy asked her in a deceptively soothing voice whether she acted as a conduit for Musk as he tried to poach OpenAI’s cofounders to work at a new AI lab within Tesla. Eddy argued that Musk is suing OpenAI only to undermine a competitor in the AI race.&nbsp; Zilis said she met Musk while working at OpenAI as an informal advisor in 2016, and that they had a “one-off” romantic encounter. In 2017, she joined Tesla and Musk’s brain-implant company, Neuralink. In 2020, she joined OpenAI’s board of directors. She became pregnant with Musk’s children through IVF but did not disclose her ties with Musk to OpenAI until Business Insider reported them in 2022.&nbsp; By December 2017, with negotiations over creating a for-profit entity stalled, Musk had concluded that OpenAI was unlikely to build AGI and pivoted to building an AI lab at Tesla, according to an email sent to Zilis.&nbsp; Eddy pulled up a draft of an FAQ document that Zilis emailed a colleague at Tesla in 2017 about an event the company was organizing at the NeurIPS AI conference: “The purpose of this event is to share that Tesla is building a world leading AI lab(?) which will rival the likes of Google/DeepMind and Facebook AI Research.”&nbsp; Zilis told the jury that when Musk was still on OpenAI’s board, he tried to recruit Altman to lead that prospective AI lab. Musk had asked Andrej Karpathy, an OpenAI research scientist he’d recruited to work at Tesla, “to send a list of top OpenAI people to poach,” according to a text message by Zilis.&nbsp; “There is little chance of OpenAI being a serious force if I focus on TeslaAI,” Musk texted Zilis in 2018, just before he left OpenAI. Tesla’s AI lab never came to fruition. Eddy asked Zilis whom she was loyal to when she was working for both OpenAI and Musk. “I had an allegiance to the best outcome for AI for humanity,” Zilis told the jury. What’s going on next week? Next week, Ilya Sutskever and Microsoft CEO Satya Nadella will testify. The lawyers for both Musk and OpenAI will deliver their closing arguments. The jury will begin deliberating the week after and deliver an advisory verdict guiding the judge to decide the case. This story is part of MIT Technology Review ’s ongoing coverage of the Musk v. Altman trial. Follow @techreview or @michelletomkim on X for up-to-the-minute reporting.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 78
+      "score": 73
     },
     {
       "title": "EMO ：对专家进行预培训，以实现新兴的模块化",
@@ -562,7 +578,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "vLLM V0至V1 ： RL校正前的正确性",
@@ -577,7 +593,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "将Benchmaxxer Repellant添加到Open ASR排行榜",
@@ -592,7 +608,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "Granite 4.1 LLM ：如何构建",
@@ -640,51 +656,6 @@
         "视频生成"
       ],
       "score": 97
-    },
-    {
-      "title": "如何使用OpenAI的隐私过滤器构建可扩展的Web应用",
-      "originalTitle": "How to build scalable web apps with OpenAI&apos;s Privacy Filter",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
-      "date": "2026-04-27T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：公司动态相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“How to build scalable web apps with OpenAI&apos;s Privacy Filter”。它主要涉及公司动态方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：公司动态相关动态",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 75
-    },
-    {
-      "title": "DeepSeek-V4 ：代理可以实际使用的百万代币上下文",
-      "originalTitle": "DeepSeek-V4: a million-token context that agents can actually use",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/deepseekv4",
-      "date": "2026-04-24T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“DeepSeek-V4: a million-token context that agents can actually use”。它主要涉及智能体方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
-    },
-    {
-      "title": "如何在Chrome扩展中使用Transformers.js",
-      "originalTitle": "How to Use Transformers.js in a Chrome Extension",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/transformersjs-chrome-extension",
-      "date": "2026-04-23T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“How to Use Transformers.js in a Chrome Extension”。它主要涉及AI 热点方向，热度评分为 63。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
     }
   ]
 }
