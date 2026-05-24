@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T07:56:35.914Z",
+  "updatedAt": "2026-05-24T08:07:19.426Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,23 @@
   ],
   "articles": [
     {
+      "title": "谷歌新的Anything-to-anything人工智能模型是狂野的",
+      "originalTitle": "Google’s new anything-to-anything AI model is wild",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "date": "2026-05-23T11:00:00.000Z",
+      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、视频生成相关动态",
+      "fullContent": "只是一只玩得很开心的毛绒鹿。|图片：双子座/The Verge去年，我深度伪造了我孩子的毛绒动物，让它看起来像他的毛绒鹿在度假。这是一个实验，看看我是否可以重现谷歌正在运行的双子座广告中描绘的事件，我从来没有向我四岁的孩子展示过鹿巴迪的冒险视频。 但这是一个启发性的练习，让我思考了很多关于生成式人工智能的一些无害的乐趣和全面的SLOP之间的区别。也许维恩图是一个完美的圆圈！也许不是。但我可以肯定的是，制作逼真视频的工具非常好，只需要很少的努力和专业知识。这一趋势是……阅读The Verge的完整故事。",
+      "originalSummary": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. [&#8230;]",
+      "rawFullText": "Just a stuffed deer having the time of his life. | Image: Gemini / The Verge Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. But it was a revealing exercise that made me think a lot about the difference between some harmless fun with generative AI and full-on slop. Maybe that Venn diagram is a perfect circle! Maybe not. But what I know for sure is that the tools to make realistic videos are surprisingly good, requiring surprisingly little effort and know-how. And that trend is c … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "视频生成",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
       "title": "使用Nemotron-Labs扩散语言模型实现光速文本生成",
       "originalTitle": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
       "source": "Hugging Face",
@@ -31,7 +48,37 @@
       "tags": [
         "模型"
       ],
-      "score": 83
+      "score": 82
+    },
+    {
+      "title": "法拉利正在使用IBM的人工智能打造F1超级粉丝",
+      "originalTitle": "Ferrari is using IBM&#8217;s AI to create F1 superfans",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "date": "2026-05-23T15:08:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "两年前， IBM意识到其体育合作伙伴名单中有一个明显的遗漏：一级方程式。一级方程式已经成为世界上最受欢迎的运动之一，特别是在美国， Netflix的“Drive to Survive”记录了F1车手的工作生活，并将他们变成了主流名人。 这项以技术为中心的运动也已成为AWS、Oracle和Anthropic等科技公司的热门门槛，这些公司与团队合作，以提供赞助可见性，并提供可以提供竞争优势的数据分析和人工智能工具。因此，当IBM开始寻找下一个主要的体育合作伙伴关系时，难怪该公司选择了F1及其最具标志性的车队之一Scuderia Ferrari HP。 “他们是历史上最成功的球队，” IBM体育和娱乐合作伙伴副总裁Kameryn Stanhouse告诉TechCrunch。然而，这种伙伴关系的核心是促使其他团队开始与科技巨头合作的原因：获得更复杂的技术解决方案，帮助他们充分利用人工智能。 事实上，斯坦豪斯说，体育运动最好的部分之一就是有多少数据可用，可以用来帮助人们适应人工智能。“他们实际上看到了人工智能如何为他们服务，”她谈到人工智能在体育故事中的应用。IBM-Ferrari的合作伙伴关系以讲故事的理念为中心，通过彻底改造为法拉利车迷应用程序提供动力的技术来提高车迷的参与度。 为了解决这个问题，法拉利聘请了斯特凡诺·帕拉德（ Stefano Pallard ）担任新角色“球迷发展负责人” ，他表示，球队想要解决的挑战不仅仅是吸引球迷，而是“让他们每个人都觉得我们认识他们。他告诉TechCrunch ：“这首先从我们从轨道上获得的数据开始，并将其转化为易于跟踪和参与的内容。” 车队在每场比赛中每秒处理数百万个数据点，捕捉驾驶员和赛车的每一个动作。将其转化为粉丝可以参与的内容，只是高级企业人工智能帮助企业更好地与消费者互动的一种方式。 在11支车队中，法拉利是少数几个（与迈凯轮和威廉姆斯等车队一样）拥有独立粉丝应用程序策略而不是依靠社交媒体或官方F1平台的车队之一，这表明这项运动正慢慢开始利用其日益增长的全球粉丝群。法拉利应用程序的一些变化很简单，比如用意大利语提供。 尽管法拉利是一家意大利公司，其许多粉丝都是意大利人，但在IBM合作之前，他们的粉丝应用程序没有意大利语版本。斯坦豪斯说，旧的法拉利车迷应用程序是人们去寻找比赛细节然后离开的地方。",
+      "originalSummary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "埃隆·马斯克（ Elon Musk ）放弃了太阳能（在地球上）",
+      "originalTitle": "Elon Musk has given up on solar power (on Earth)",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+      "date": "2026-05-23T13:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "埃隆·马斯克（ Elon Musk ）是否放弃了我们所知的特斯拉总体规划、电气化经济、太阳能？从本周发布的SpaceX IPO文件来看，看起来确实如此。对于那些没有卷入马斯克时代的人来说，回顾一下：特斯拉多年来发布了四个总体规划，虽然细节各不相同，但直通线一直是经济的电气化。 马斯克在他的第一版中说得最好： “特斯拉汽车的总体目标……是帮助加快从开采和燃烧碳氢化合物经济向太阳能电力经济的转变。但最近，马斯克的一家公司xAI已经拥抱了开采和燃烧碳氢化合物经济，使用了数十台不受监管的天然气涡轮机为其数据中心供电，并计划购买2 $。 80亿，有效地巩固了化石燃料在公司人工智能运营中的作用。对于一个以清洁能源为基础建立自己的帝国的商人来说，这是一个奇怪的转变--他毫不犹豫地指示他的公司互相收购。SpaceX花了1.31亿美元购买了1279辆Cybertrucks ，而xAI在过去两年中花了6.97亿美元购买了特斯拉Megapacks ，这是该公司将用于管理峰值负载的电网规模电池存储系统。 但到目前为止， xAI还没有从特斯拉购买大量的太阳能电池板。SpaceX提交的文件中并没有遗漏太阳能，它只是集中在太空，该公司将其吹捧为数据中心电力的未来。陆地太阳能获得了一些提名--不是作为xAI数据中心的电源，而是为了展示SpaceX认为太空太阳能会有多好。 众所周知，马斯克和其他硅谷高管已经痴迷于太空太阳能。SpaceX表示，由于全天候照明，基于太空的太阳能电池阵列可以产生“超过五倍于地面能量的能量”。随着人工智能数据中心在地球上遭遇反对，像马斯克这样的首席执行官已经开始考虑在24/7的阳光下提供动力的大型服务器机架。锤子，遇见钉子。 即使SpaceX能够降低将数据中心推进轨道的成本，但经济充其量也是具有挑战性的。Starlink卫星的电价比地面数据中心通常花费的电价高出几倍，保护芯片免受空间苛刻的影响并不容易或便宜。目前还不清楚人工智能培训是否可以分布在多个卫星上，从而留下了大量的人工智能工作。 这不仅仅是SpaceX需要解决的一个问题，而是许多问题。马斯克很可能认为xAI目前的数据中心是权宜之计，一旦SpaceX能够将价值数千兆瓦的服务器放入轨道--在他看来，可能只有几年的时间--他就会废弃地面上的东西，包括天然气涡轮机，而不必再考虑NIMBY了。当然，风险在于他错了。 不过，马斯克担心的不仅仅是NIMBY。他显然担心人工智能的计算需求将很快超过我们在地球上所能提供的。在整个SEC文件中，都提到了“太瓦级年度人工智能计算增长” ，这将需要电力来匹配。考虑到当今世界上所有数据中心的使用功率约为40千兆瓦，这是一个惊人的数字。",
+      "originalSummary": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
     },
     {
       "title": "OpenAI被Gartner评为企业编码代理领导者",
@@ -62,7 +109,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -77,7 +124,7 @@
       "tags": [
         "研究"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "三星内存芯片员工今年协商34万美元奖金",
@@ -92,7 +139,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "维珍大西洋航空如何通过Codex更快地发货",
@@ -107,7 +154,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "AdventHealth借助OpenAI推进全人护理",
@@ -139,7 +186,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "《克劳德的人类代码》展示了编码的未来--无论你喜欢与否",
@@ -155,22 +202,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 98
-    },
-    {
-      "title": "Spotify Studio的AI代理为您创建每日播客",
-      "originalTitle": "Spotify Studio&#8217;s AI agent creates a daily podcast just for you",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
-      "date": "2026-05-21T15:47:29.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "Studio by Spotify Labs是一款全新的独立AI应用程序，可使用聊天机器人提示在您的PC上生成每日简报、播客和播放列表。人工智能生成的内容来自您的Spotify收听历史记录，以及您连接到的应用程序的信息，如您的电子邮件收件箱、日历和笔记。Spotify表示，其人工智能还可以“代表您采取行动” ，例如研究主题、使用网络浏览器、组织信息以及帮助完成任务。 “您在Studio中生成的任何内容，例如每日简报播客，都可以保存到您的Spotify库中。它将在“未来几周内”推出，作为18岁用户的研究预览……阅读The Verge的完整故事。",
-      "originalSummary": "Studio by Spotify Labs is a new standalone AI app that generates a daily briefing, podcasts, and playlists on your PC using chatbot prompts. The AI-generated content draws from your Spotify listening history, as well as info from apps you connect to it, like your email inbox, calendar, and notes. Spotify says its AI can [&#8230;]",
-      "rawFullText": "Studio by Spotify Labs is a new standalone AI app that generates a daily briefing, podcasts, and playlists on your PC using chatbot prompts. The AI-generated content draws from your Spotify listening history, as well as info from apps you connect to it, like your email inbox, calendar, and notes. Spotify says its AI can also \"take action on your behalf,\" such as \"researching topics, using a web browser, organizing information, and helping complete tasks.\" Any content you generate in Studio, like a daily briefing podcast, can be saved to your Spotify library. It will be launching \"in the coming weeks\" as a research preview for users 18 and … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 93
+      "score": 97
     },
     {
       "title": "特朗普推迟了人工智能安全行政命令，称语言“可能是一个障碍”",
@@ -186,7 +218,22 @@
         "产品发布",
         "模型"
       ],
-      "score": 87
+      "score": 86
+    },
+    {
+      "title": "在绝望的时刻，毕业生在羞辱科技CEO中找到希望",
+      "originalTitle": "In desperate times, graduates find hope in humiliating tech CEOs",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
+      "date": "2026-05-21T20:00:06.000Z",
+      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
+      "fullContent": "大学毕业生正在嘘声和质疑那些在毕业典礼上赞扬人工智能的企业高管，唯一真正对此感到惊讶的人似乎是高管们自己。在一系列病毒视频中，像前谷歌首席执行官埃里克·施密特（ Eric Schmidt ）这样的2026年毕业典礼演讲者在赞扬人工智能并将该技术描述为不可避免和强制性的之后，面临着来自学生的响亮而持续的嘲笑。 这些视频显然引起了年轻人的共鸣，他们在日益不稳定的世界中进入了一个黯淡的就业市场。“他们应该得到他们所得到的一切，” Penny Oliver最近毕业时患有POLI......在The Verge阅读完整故事。",
+      "originalSummary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric Schmidt face loud and sustained jeers from students after praising [&#8230;]",
+      "rawFullText": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric Schmidt face loud and sustained jeers from students after praising AI and describing the technology as both inevitable and mandatory. The videos have clearly struck a chord among young people entering a bleak job market in an increasingly unstable world . \"They deserve everything they're getting,\" Penny Oliver, who recently graduated with a poli … Read the full story at The Verge.",
+      "tags": [
+        "视频生成"
+      ],
+      "score": 81
     },
     {
       "title": "OpenAI模型反驳了离散几何中的中心猜想",
@@ -202,7 +249,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Ramp工程师如何通过Codex加速代码审查",
@@ -217,7 +264,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "OpenAI国家教育的下一阶段",
@@ -232,7 +279,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "为新加坡推出OpenAI",
@@ -248,7 +295,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "推进内容来源，打造更安全、更透明的人工智能生态系统",
@@ -263,7 +310,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
@@ -278,7 +325,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "这就是为什么伊隆·马斯克输掉了对OpenAI的诉讼",
@@ -293,7 +340,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
@@ -308,7 +355,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "OpenAI与戴尔合作，将Codex引入混合和本地企业环境",
@@ -339,7 +386,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "本周对Google有何期待",
@@ -354,7 +401,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
@@ -369,7 +416,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "探索Anduril和Meta为战争打造智能眼镜的历程",
@@ -384,7 +431,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "OpenAI与马耳他合作，为所有公民带来ChatGPT Plus",
@@ -432,25 +479,25 @@
       "tags": [
         "公司动态"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "OpenAI：AI 热点相关动态",
-      "originalTitle": "How data science teams use Codex",
+      "title": "销售团队如何使用Codex",
+      "originalTitle": "How sales teams use Codex",
       "source": "OpenAI",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "date": "2026-05-15T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "中国短剧如何成为人工智能内容机器",
       "originalTitle": "How Chinese short dramas became AI content machines",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
@@ -462,10 +509,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "花岗岩嵌入多语言R2 ：开放式Apache 2.0多语言嵌入， 32K上下文—最佳Sub-100M检索质量",
       "originalTitle": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
@@ -477,10 +524,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "解锁连续批处理中的异步性",
       "originalTitle": "Unlocking asynchronicity in continuous batching",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/continuous_async",
@@ -492,7 +539,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "AWS基础模型培训和推理的构建模块",
@@ -507,7 +554,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "vLLM V0至V1 ： RL校正前的正确性",
