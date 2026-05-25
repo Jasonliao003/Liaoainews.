@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T08:07:19.426Z",
+  "updatedAt": "2026-05-25T12:13:46.428Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,136 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "RMA ：研究级数学问题的代理系统",
+      "originalTitle": "RMA: an Agentic System for Research-Level Mathematical Problems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.22875",
+      "date": "2026-05-25T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2605. 22875v1公告类型：新摘要：我们提出$\\ textbf {Research Math Agents (RMA)} $ ，这是一个用于研究级数学问题自动推理的代理框架。与以前以竞争数学或形式定理证明为中心的研究不同， RMA针对的是需要长视野推理、文献基础和迭代证明细化的研究级数学问题。 RMA将研究级证明求解分解为专门的模块，用于问题分析、文献搜索和理解、公平比较、知识库构建和证明验证，所有这些都由初始值设定项、提议项和验证项代理通过共享结构化内存进行协调。 在这个统一的框架中，这些代理在多角色、多轮工作流程中运行，通过迭代反馈协同生成、优化和验证候选人证明。我们在第一个证明基准上评估RMA ，该基准由不同领域的专家数学家贡献的十个研究级问题组成。通过全面的专家评估， RMA在第一证明基准（包括GPT-5 ）上表现出色。 2R和Aletheia ，解决了十分之八的研究问题，并产生了更合理和可读的证明。我们的全面消融研究进一步表明，性能提升源于结构化推理模块、迭代改进和基于验证器的反馈的交互作用，而不是任何单个组件。我们的解决方案和实施将在验收后公开提供。",
+      "originalSummary": "arXiv:2605.22875v1 Announce Type: new Abstract: We present $\\textbf{Research Math Agents (RMA)}$, an agentic framework for automated reasoning on research-level mathematical problems. Unlike prior studies centered on competition mathematics or formal theorem proving, RMA targets research-level mathematical problems that require long-horizon reasoning, literature grounding, and iterative proof refinement. RMA decomposes research-level proof solving into specialized modules for problem analysis, literature search and understanding, fair comparison, knowledge-bank construction, and proof verification, all coordinated by initializer, proposer, and verifier agents through a shared structured memory. Within this unified framework, these agents operate in a multi-role, multi-round workflow, collaboratively generating, refining, and verifying candidate proofs through iterative feedback. We evaluate RMA on the First Proof benchmark, which consists of ten research-level problems contributed by expert mathematicians across diverse domains. Through comprehensive expert evaluation, RMA outperforms strong baselines on the First Proof benchmark, including GPT-5.2R and Aletheia, solving eight out of ten research problems and producing more logically sound and readable proofs. Our comprehensive ablation studies further show that performance gains arise from the interaction of structured reasoning modules, iterative refinement, and verifier-based feedback, rather than any single component. Our solutions and implementations will be made publicly available upon acceptance.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SciAtlas ：自动化科学研究的大规模知识图谱",
+      "originalTitle": "SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.22878",
+      "date": "2026-05-25T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 22878v1公告类型：新摘要：全球学术产出的指数级增长使研究人员和人工智能代理面临着前所未有的“信息爆炸” ，其中分散和非结构化的知识组织阻碍了深度跨学科整合。 当前的学术检索工具主要依赖于表面关键字匹配或向量空间语义检索，这些工具缺乏导航复杂逻辑连接所需的拓扑推理能力。基于代理深度研究的框架往往容易产生逻辑幻觉，并消耗高昂的推理成本。 为了弥合这一差距，我们在本报告中介绍了SciAtlas ，这是一种大规模、多学科、异构的学术资源知识图谱，设计为全景科学进化网络。通过整合来自26个学科的4300多万篇论文，以及总共1.57亿个实体和3B三胞胎， SciAtlas提供了一个结构化的拓扑认知基础，消除了学科障碍，并为AI代理提供了全球视野。 此外，我们开发了一种具有三路协同召回和图重新排序的神经符号检索算法，实现了从简单语义匹配到确定性关联发现的无缝过渡。 我们还介绍了SciAtlas的关键应用方向，包括文献综述、自动研究趋势合成、创意定位和学术轨迹探索，以证明SciAtlas可以作为有效的“认知地图” ，在显著降低推理成本的同时，增强自动化科学研究的全循环能力。我们在GitHub存储库中发布了KG检索和各种下游任务的接口。",
+      "originalSummary": "arXiv:2605.22878v1 Announce Type: new Abstract: The exponential growth of global academic output has confronted researchers and AI agents with an unprecedented ``information explosion,'' where fragmented and unstructured knowledge organization impedes deep interdisciplinary integration. Current academic retrieval tools predominantly rely on superficial keyword matching or vector-space semantic retrieval, which lack the topological reasoning capabilities required to navigate complex logical connections. Agentic deep-research-based frameworks are often prone to logical hallucinations and consuming high inference costs. To bridge this gap, in this report, we introduce SciAtlas, a large-scale, multi-disciplinary, heterogeneous academic resource knowledge graph designed as a panoramic scientific evolution network. By integrating over 43M papers from 26 disciplines, and a total of 157M entities and 3B triplets, SciAtlas provides a structured topological cognitive substrate that dismantles disciplinary barriers and furnishes AI agents with a global perspective. Furthermore, we develop a neuro-symbolic retrieval algorithm featuring tri-path collaborative recall and graph reranking, achieving a seamless transition from simple semantic matching to deterministic association discovery. We also present key application directions of SciAtlas, including literature review, automated research trend synthesis, idea positioning, and academic trajectory exploration, to demonstrate that SciAtlas can serve as an effective ``cognitive map'' to empower the full loop of automated scientific research while significantly reducing reasoning costs. We have released the interfaces for KG retrieval and various downstream tasks in our GitHub repo.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "每个成功目标的能量： Agentic AI系统的目标级能量核算",
+      "originalTitle": "Energy per Successful Goal: Goal-Level Energy Accounting for Agentic AI Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.22883",
+      "date": "2026-05-25T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 22883v1公告类型：新摘要：当前AI能源基准测量单个模型调用或训练运行的粒度消耗。对于经典的单圈工作负载，此单元保持一致。 对于代理系统-单个用户目标可能触发多步编排、工具调用、重试和故障恢复周期-调用计数是实现工件而不是任务属性，推理级规范化错误地表示目标完成的能量成本。 我们提出了A-LEMS （代理法学硕士能量测量系统） ，这是一个跨层测量框架，重新定义了人工智能能量核算的单位，从每次推断的能量到每次成功目标的能量（ EPG ）。EPG汇总所有执行尝试（包括失败和重试）的总工作流能量，并通过成功完成的目标进行标准化。 A-LEMS通过时间边界模型、将RAPL信号映射到工作流级别能量的五层观察流水线以及将每个测量值绑定到硬件和运行时配置的可重现性协议来形式化能量归因。在EpG的基础上，我们定义了编排开销指数（ OOI ） ，在相同的任务标准下隔离编排相对于线性执行的能耗成本。 在五个推理和三个工具增强任务系列中，代理工作流在每个成功目标上消耗的平均能量是线性基线的4. 33倍（ 888. 1焦耳vs 205. 3焦耳）。这种开销是由编排结构驱动的，而不是推理计算。对于工具增强的任务， OOI反转低于1. 0x ：代理执行比线性执行更便宜，确认指标捕获编排结构而不是固定的向上偏差。 这些研究结果表明，每次推理的能量对于智能AI来说是不够的。EpG和OOI为精确基准提供了测量基础，其中编排结构是能源成本的主要决定因素。",
+      "originalSummary": "arXiv:2605.22883v1 Announce Type: new Abstract: Current AI energy benchmarks measure consumption at the granularity of a single model invocation or training run. For classical single-turn workloads this unit remains coherent. For agentic systems - where a single user goal may trigger multi-step orchestration, tool calls, retries, and failure-recovery cycles - the invocation count is an implementation artifact rather than a task property, and inference-level normalization misrepresents the energy cost of goal completion. We present A-LEMS (Agentic LLM Energy Measurement System), a cross-layer measurement framework that redefines the unit of AI energy accounting from energy per inference to Energy per Successful Goal (EpG). EpG aggregates total workflow energy across all execution attempts, including failures and retries, normalized by successfully completed goals. A-LEMS formalizes energy attribution through a temporal boundary model, a five-layer observation pipeline mapping RAPL signals to workflow-level energy, and a reproducibility protocol binding every measurement to hardware and runtime configuration. Building on EpG, we define the Orchestration Overhead Index (OOI), isolating the energy cost of orchestration relative to linear execution under identical task criteria. Across five reasoning and three tool-augmented task families, agentic workflows consume 4.33x higher mean energy per successful goal than linear baselines (888.1 J vs 205.3 J). This overhead is driven by orchestration structure, not inference compute. For tool-augmented tasks, OOI inverts below 1.0x: agentic execution is cheaper than linear, confirming the metric captures orchestration structure rather than a fixed upward bias. These findings establish that energy-per-inference is insufficient for agentic AI. EpG and OOI provide the measurement foundation for accurate benchmarking, where orchestration structure is the primary determinant of energy cost.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "归纳演绎综合：使AI能够生成正式验证的系统",
+      "originalTitle": "Inductive Deductive Synthesis: Enabling AI to Generate Formally Verified Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.23109",
+      "date": "2026-05-25T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2605. 23109v1公告类型：新摘要：人工智能代理越来越擅长生成、测试和优化代码。然而，他们无法完成需要正式保证完全覆盖的任务，而单靠测试无法提供这些任务。分布式系统就是一个很好的例子：读写之间的一致性等属性必须在每种可能的事件交织下都保持不变。 机械化的形式验证可以保证这种正确性，但通常需要数月至数年的专家努力。作为证据，即使是SOTA编码代理（采用GPT-5. 4的Codex和采用Opus 4. 6的Claude Code ）也只在2/7分布式键值存储规范上取得成功。 在本文中，我们提出了解决这一差距的第一种有效方法，即归纳演绎合成（ IDS ） ，它联合和增量地合成实施和证明，并从系统地尝试有希望的策略的失败尝试中学习。作为代理LLM系统， IDS在大约6. 8小时内实现7/7 ，平均每规格$ 106 ，比专家工作快约200倍，比SOTA代理便宜17%。 IDS进一步将性能反馈整合到同一个循环中，实现速度比已发布的已验证系统快3倍。",
+      "originalSummary": "arXiv:2605.23109v1 Announce Type: new Abstract: AI agents increasingly excel at generating, testing, and refining code. However, they fall short on tasks requiring formal guarantees of full coverage that testing alone cannot provide. Distributed systems are a prime example: properties such as consistency between reads and writes must hold under every possible interleaving of events. Mechanized formal verification can guarantee such correctness, but typically demands months to years of expert effort. As evidence, even SOTA coding agents (Codex with GPT-5.4 and Claude Code with Opus 4.6) succeed on only 2/7 distributed key-value-store specifications. In this paper, we present the first effective approach to addressing this gap, Inductive Deductive Synthesis (IDS), which jointly and incrementally synthesizes implementation and proof, and learns from failed attempts to systematically try promising strategies. Built as an agentic LLM system, IDS achieves 7/7 in about 6.8 hours and $106 per spec on average, roughly 200x faster than expert effort and 17% cheaper than SOTA agents. IDS further incorporates performance feedback into the same loop, yielding implementations up to 3x faster than published verified systems.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "论文"
+      ],
+      "score": 99
+    },
+    {
+      "title": "PathCal ：有效推理的状态感知反射标记校准",
+      "originalTitle": "PathCal: State-Aware Reflection-Marker Calibration for Efficient Reasoning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.23074",
+      "date": "2026-05-25T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2605. 23074v1公告类型：新摘要：大型推理语言模型（ LRM ）的出现为通过在推理过程中生成长形式的思维链（ CoT ）轨迹，通过测试时间缩放来解决复杂的推理任务铺平了道路。 同时，这些轨迹通常包含明确的反射标记，如“等待”、“但是”和“替代” ，分别表示犹豫、修改和考虑替代探索。最近关于测试时间控制的研究利用轻量级手柄等标记进行转向推理，通常将其视为单个粗粒度类别，而不是区分其独特的功能角色。 在本文中，我们进行了类型抑制和固定前缀干预，揭示了反射标记不仅在功能角色方面存在差异，而且在何时发挥最大影响。具体而言，不同的标记类以不同的方式影响准确性和生成长度，在模型进入稳定的推理轨迹之前，标记选择是最重要的。 在这些发现的激励下，我们引入了PathCal ，这是一种新型的免训练解码控制器，通过区分标记类型并仅在局部不确定状态下进行干预来校准推理路径。 在每个解码步骤中， PathCal利用反射标记的分布来估计维持当前推理轨迹和启动竞争分支之间的局部竞争，并在竞争分支证据变得过多时轻轻地重新平衡标记对数。 六个推理基准的实验表明， PathCal在不依赖外部验证器或额外采样的情况下，实现了更好的效率--性能权衡、提高或保持准确性，同时缩短了生成时间。",
+      "originalSummary": "arXiv:2605.23074v1 Announce Type: new Abstract: The emergence of Large Reasoning Language Models (LRMs) has paved the way for tackling complex reasoning tasks through test-time scaling by generating long-form Chain-of-Thought (CoT) trajectories during inference. Meanwhile, these trajectories often contain explicit reflection markers such as ``wait'', ``but'', and ``alternatively'', signaling hesitation, revision, and the consideration of alternative explorations, respectively. Recent studies on test-time control leverage such markers as lightweight handles for steering reasoning, typically treating them as a single coarse-grained category rather than distinguishing their distinct functional roles. In this paper, we conduct type-wise suppression and fixed-prefix intervention, revealing that reflection markers differ not only in their functional roles but also in when they exert the greatest influence. Specifically, different marker classes affect accuracy and generation length in distinct ways, and marker choices are most consequential before the model settles into a stable reasoning trajectory. Motivated by these findings, we introduce PathCal, a novel training-free decoding controller that calibrates reasoning paths by distinguishing marker types and intervening only at locally uncertain states. At each decoding step, PathCal utilizes the distribution over reflection-markers to estimate local competition between maintaining the current reasoning trajectory and initiating a competing branch, and softly rebalances marker logits when competing-branch evidence becomes excessive. Experiments across six reasoning benchmarks demonstrate that PathCal achieves a better efficiency--performance trade-off, improving or preserving accuracy while reducing generation length, without relying on external verifiers or additional sampling.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "论文"
+      ],
+      "score": 97
+    },
+    {
+      "title": "每个人都在实时导航人工智能安全—甚至是谷歌",
+      "originalTitle": "Everyone is navigating AI security in real time &#8212; even Google",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+      "date": "2026-05-24T21:39:21.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "我最近有机会在洛杉矶的一次活动后台与Google Cloud首席运营官Francis de Souza进行了座谈。在我们周围的喧嚣中， de Souza以大学教授平静、谨慎的方式发言，为我们所有人都在经历的人工智能安全时刻的公司提供了有用的建议，并指出“会有一个过渡期，然后我认为我们会到达这个更好的地方。 “他当时并不是在谈论谷歌，但很明显，即使是谷歌也在解决问题。De Souza的核心信息是安全专业人员多年来一直试图让高管们内化，现在被人工智能变得紧迫：安全不能是事后的想法。“随着公司开始这一人工智能之旅，他们需要采取平台方法， ”他说。 “安全不是你以后可以做的事情，也不是你可以留给员工自己做的事情。他特别警告“影子人工智能”--员工在没有组织监督的情况下使用消费者工具--并认为公司需要从一开始就要求其平台提供安全性、治理性和可审计性。 “没有数据战略和安全战略，就没有人工智能战略。他们需要齐头并进。“他还提出，威胁格局已经发生了根本性的变化，以至于旧的防御模式过于缓慢。 他指出，从最初的违规行为到下一阶段的切换之间的平均时间已从8小时降至22秒，并且攻击面已经远远超出了传统的网络边界。“除了你平时的房产，你现在还有模特。您有数据管道用于训练模型。您有客服代表，您有提示。所有这些都需要得到保护。 “de Souza指出了一个没有得到足够关注的威胁：在公司内部系统中移动的代理可能会发现多年来没有人想到的被遗忘的数据存储库。“许多组织都有旧的SharePoint服务器[和访问控制] ，它们还没有真正更新，但这并不重要，因为没有人真正知道它们在哪里。 但是，漫游企业的代理将找到这些数据资产，并公开其中的数据。“在他看来，答案是用机器速度来满足机器速度。他说：“我们现在看到人工智能原生、完全代理防御的出现，组织可以运行代理来推动他们的防御。”“你现在可以让人类监督完全的物理防御，而不是让人类主导防御，甚至是让人类参与其中。 “他补充说，这已经成为一个领导力问题，而不仅仅是一个技术问题。“这是董事会级别的问题，也是高管团队的问题。这不仅仅是安全团队的问题。“但即使人工智能承担了更多的防御性工作量，有资格监督它的人仍然短缺，人工智能本身引入的漏洞也比安全团队能够解决的速度更快。",
+      "originalSummary": "We're in the transition period -- all of us.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "我试过亚马逊的Bee可穿戴设备，既好奇又有点毛骨悚然",
+      "originalTitle": "I tried Amazon&#8217;s Bee wearable and am both intrigued and slightly creeped out",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "date": "2026-05-24T15:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“我试过亚马逊的Bee可穿戴设备，既好奇又有点毛骨悚然”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "The Verge AI：AI 热点相关动态",
+      "originalTitle": "Hackers are learning to exploit chatbot &#8216;personalities&#8217;",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/column/935545/hackers-ai-chatbots",
+      "date": "2026-05-24T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Hacking the first generation of AI chatbots was a laughably simple affair. [&#8230;]",
+      "rawFullText": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on AI mischief, follow Robert Hart . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started Hacking the first generation of AI chatbots was a laughably simple affair. You didn't need any technical know-how, backdoor access, or even a basic understanding of what a large language model was. You didn't need to code. To get an AI system that had cost billions to build to abandon its safety instructions, sometimes all you had to do was ask. These attacks, known as jailbreaks, had the quality … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
     {
       "title": "谷歌新的Anything-to-anything人工智能模型是狂野的",
       "originalTitle": "Google’s new anything-to-anything AI model is wild",
@@ -48,7 +178,7 @@
       "tags": [
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "法拉利正在使用IBM的人工智能打造F1超级粉丝",
@@ -63,7 +193,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "埃隆·马斯克（ Elon Musk ）放弃了太阳能（在地球上）",
@@ -78,7 +208,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "OpenAI被Gartner评为企业编码代理领导者",
@@ -109,7 +239,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -124,22 +254,7 @@
       "tags": [
         "研究"
       ],
-      "score": 85
-    },
-    {
-      "title": "三星内存芯片员工今年协商34万美元奖金",
-      "originalTitle": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
-      "date": "2026-05-22T11:05:25.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "48,000名三星员工威胁要罢工，除非取消奖金上限。|照片： Jung Yeon-je/法新社通过Getty Images详细介绍了三星与威胁要罢工的半导体员工之间达成的初步协议。据报道，这笔交易使一些工人有资格获得平均年度奖金$ 340,000。 拟议的18天罢工取决于三星对半导体部门员工的奖金上限，以及SK海力士员工可能获得的奖金大幅增加， SK海力士是另一家韩国芯片制造商，由于对人工智能组件的需求而享受繁荣。根据新协议的条款，路透社报道称，所有芯片工人将获得年薪的50%作为定期现金奖金。 进一步…阅读The Verge的完整故事。",
-      "originalSummary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
-      "rawFullText": "48,000 Samsung workers had threatened to strike unless bonus caps were lifted. | Photo: Jung Yeon-je / AFP via Getty Images Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible bonuses available to employees of SK Hynix, another South Korean chipmaker enjoying a boom thanks to demand for AI components. Under the terms of the new deal, Reuters reports that all &#8203;chip workers will receive 50 percent of their annual salary as a regular bonus in cash. Further … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 81
+      "score": 83
     },
     {
       "title": "维珍大西洋航空如何通过Codex更快地发货",
@@ -154,7 +269,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "三星内存芯片员工今年协商34万美元奖金",
+      "originalTitle": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
+      "date": "2026-05-22T11:05:25.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "48,000名三星员工威胁要罢工，除非取消奖金上限。|照片： Jung Yeon-je/法新社通过Getty Images详细介绍了三星与威胁要罢工的半导体员工之间达成的初步协议。据报道，这笔交易使一些工人有资格获得平均年度奖金$ 340,000。 拟议的18天罢工取决于三星对半导体部门员工的奖金上限，以及SK海力士员工可能获得的奖金大幅增加， SK海力士是另一家韩国芯片制造商，由于对人工智能组件的需求而享受繁荣。根据新协议的条款，路透社报道称，所有芯片工人将获得年薪的50%作为定期现金奖金。 进一步…阅读The Verge的完整故事。",
+      "originalSummary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
+      "rawFullText": "48,000 Samsung workers had threatened to strike unless bonus caps were lifted. | Photo: Jung Yeon-je / AFP via Getty Images Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible bonuses available to employees of SK Hynix, another South Korean chipmaker enjoying a boom thanks to demand for AI components. Under the terms of the new deal, Reuters reports that all &#8203;chip workers will receive 50 percent of their annual salary as a regular bonus in cash. Further … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 79
     },
     {
       "title": "AdventHealth借助OpenAI推进全人护理",
@@ -186,7 +316,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "《克劳德的人类代码》展示了编码的未来--无论你喜欢与否",
@@ -202,23 +332,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
-    },
-    {
-      "title": "特朗普推迟了人工智能安全行政命令，称语言“可能是一个障碍”",
-      "originalTitle": "Trump delays AI security executive order, saying language &#8216;could have been a blocker&#8217;",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
-      "date": "2026-05-21T17:30:45.000Z",
-      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布、模型相关动态",
-      "fullContent": "唐纳德·特朗普总统推迟签署一项行政命令，该命令将允许政府在人工智能模型发布之前对其进行评估。特朗普声称他对该命令的语言不满意： “我不喜欢它的某些方面，”他告诉白宫新闻库。“我们正在领导中国，我们正在领导每个人，我不想做任何会妨碍领导的事情。 “非官方原因：根据几份报告，没有足够的科技首席执行官能够在短时间内赶到华盛顿特区。在没有照片的情况下签署行政命令是什么？预期的行政命令将责成国家网络总监办公室和其他机构制定一个流程，在发布之前评估人工智能模型的安全性。 这在一定程度上是为了回应Anthropic's Mythos和OpenAI's GPT-5. 5 Cyber的发布所带来的担忧，这两者都可以快速找到并利用安全漏洞。根据美国有线电视新闻网（ CNN ）的说法， EO语言的关键症结之一是建议人工智能公司在发布前14至90天与政府分享先进模型。特朗普表示，他担心EO今天的语言“可能是一个障碍。 」接下来是StrictlyVC Athens。直接从欧洲技术领导者那里听到未经过滤的见解，并与塑造未来的人们建立联系。请在名额用完前锁定名额。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.",
-      "rawFullText": "",
-      "tags": [
-        "产品发布",
-        "模型"
-      ],
-      "score": 86
+      "score": 96
     },
     {
       "title": "在绝望的时刻，毕业生在羞辱科技CEO中找到希望",
@@ -233,7 +347,22 @@
       "tags": [
         "视频生成"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "MIT Technology Review：模型相关动态",
+      "originalTitle": "Roundtables: Can AI Learn to Understand the World?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
+      "date": "2026-05-21T20:41:05.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：模型相关动态”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter&#8230;",
+      "rawFullText": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter Grace Huckins exploring how AI might enter the physical world. Speakers : Mat Honan , Editor in Chief, Will Douglas Heaven , AI Senior Editor, and Grace Huckins , AI Reporter Recorded on May 21, 2026 Related Stories: How Pokémon Go is giving delivery robots an inch-perfect view of the world 10 Things That Matter in AI Right Now:&nbsp;World&nbsp;Models Yann LeCun has a bold new vision for the future of AI",
+      "tags": [
+        "模型"
+      ],
+      "score": 78
     },
     {
       "title": "OpenAI模型反驳了离散几何中的中心猜想",
@@ -249,7 +378,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Ramp工程师如何通过Codex加速代码审查",
@@ -264,7 +393,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "OpenAI国家教育的下一阶段",
@@ -279,7 +408,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "为新加坡推出OpenAI",
@@ -295,7 +424,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "推进内容来源，打造更安全、更透明的人工智能生态系统",
@@ -310,7 +439,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 89
     },
     {
       "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
@@ -325,7 +454,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "这就是为什么伊隆·马斯克输掉了对OpenAI的诉讼",
@@ -340,7 +469,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
@@ -355,7 +484,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "OpenAI与戴尔合作，将Codex引入混合和本地企业环境",
@@ -371,7 +500,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 99
+      "score": 97
     },
     {
       "title": "Open Agent排行榜",
@@ -386,7 +515,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "本周对Google有何期待",
@@ -401,7 +530,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
@@ -416,7 +545,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "探索Anduril和Meta为战争打造智能眼镜的历程",
@@ -431,7 +560,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "OpenAI与马耳他合作，为所有公民带来ChatGPT Plus",
@@ -447,7 +576,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Databricks将GPT-5.5引入企业代理工作流程",
@@ -479,7 +608,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "销售团队如何使用Codex",
@@ -494,7 +623,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "中国短剧如何成为人工智能内容机器",
@@ -509,7 +638,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 65
     },
     {
       "title": "花岗岩嵌入多语言R2 ：开放式Apache 2.0多语言嵌入， 32K上下文—最佳Sub-100M检索质量",
@@ -524,7 +653,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "解锁连续批处理中的异步性",
@@ -539,7 +668,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "AWS基础模型培训和推理的构建模块",
@@ -554,7 +683,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "vLLM V0至V1 ： RL校正前的正确性",
