@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-28T12:15:59.041Z",
+  "updatedAt": "2026-05-29T11:47:26.636Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,88 +19,172 @@
   ],
   "articles": [
     {
-      "title": "法学硕士在因果发现方面失败的原因以及介入剂如何逃脱",
-      "originalTitle": "Why LLMs Fail at Causal Discovery and How Interventional Agents Escape",
+      "title": "认知分类变换器：分类-语言建模的理论归纳偏见",
+      "originalTitle": "The Cognitive Categorical Transformer: Category-Theoretic Inductive Biases for Language Modeling",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.27567",
-      "date": "2026-05-28T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 27567v1公告类型：新摘要：因果发现是科学推理的基石，但大型语言模型能否可靠地执行仍是一个悬而未决的问题。最近的基准测试表明，即使在简单的因果图上微调模型也会停滞不前，并随着复杂性的增加而退化，但它们失败的原因尚未确定。 我们证明了失败是根本性的：监督微调、直接偏好优化和上下文学习都会产生无法区分生成类似观测数据的因果图的预测因子，任何这样做的尝试都需要模型的内部表示无限增长，这违反了这些方法工作的条件。 我们将其形式化为核阻塞定理，确定该限制是学习范式固有的，\\ emph {不是任何特定的模型或数据集}。我们提出了Agentic Causal Bayesian Optimization （ A-CBO ） ，其中冻结语言模型用作介入预言机，回答有关介入效应的有针对性的查询，而外部贝叶斯循环在对数多轮中将信念集中在候选图上。 由于决策是在障碍物应用的空间之外进行的，因此A-CBO可以证明收敛，而基础模型保持不变。在Corr2Cause上， A-CBO在没有任何培训的情况下匹配微调的基线。在扩展Corr2Cause上，使用18K测试样本将新的基准扩展到24个变量， A-CBO显著优于微调和偏好优化，优势越来越大",
-      "originalSummary": "arXiv:2605.27567v1 Announce Type: new Abstract: Causal discovery is a cornerstone of scientific reasoning, yet whether large language models can perform it reliably remains an open question. Recent benchmarks show that even fine-tuned models plateau on simple causal graphs and degrade as complexity grows, but why they fail has not been established. We prove the failure is fundamental: supervised fine-tuning, direct preference optimization, and in-context learning all produce predictors that cannot distinguish between causal graphs generating similar observational data, and any attempt to do so requires the model's internal representations to grow unboundedly, violating the very conditions under which these methods work. We formalize this as a kernel obstruction theorem, establishing that the limitation is intrinsic to the learning paradigm, \\emph{not any particular model or dataset}. We propose Agentic Causal Bayesian Optimization (A-CBO), wherein a frozen language model serves as an interventional oracle answering targeted queries about intervention effects, while an external Bayesian loop concentrates beliefs over candidate graphs in logarithmically many rounds. Because the decision operates outside the space where the obstruction applies, A-CBO provably converges while the underlying model remains unchanged. On Corr2Cause, A-CBO matches fine-tuned baselines without any training. On Extended Corr2Cause, a new benchmark scaling to 24 variables with 18K test samples, A-CBO significantly outperforms both fine-tuning and preference optimization, with the advantage growing",
+      "link": "https://arxiv.org/abs/2605.28864",
+      "date": "2026-05-29T04:00:00.000Z",
+      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
+      "fullContent": "arXiv: 2605. 28864v1公告类型：新摘要：认知分类变换器（ CCT ）是一种306M参数架构，它增强了预先训练的GPT-2小骨干，其认知接地组件源自类别理论和认知科学的几种灵感。在WikiText-103上的匹配步骤协议（ 215,000个优化器步骤、匹配数据、匹配优化器和调度）下， CCT达到了21. 27个验证困惑度，而24个。 19用于相同微调的GPT-2小基线。因此，与单独的域内微调相比，该架构减少了2. 92 PPL （相对值12% ）。保持GT-Full简单消息在整个七阶段激活计划中绕过的从头开始的再训练消融达到23. 72 PPL ，将84 ％的架构改进（ 2. 92 PPL中的2. 45 ）局部化为GT-Full。 我们在WikiText-103上提供了第一个经消融验证的证据，证明简单的消息传递可以在306M参数范围内改善语言模型的困惑。已发布的GPT-2 Large在WikiText-103上达到22. 05个零拍PPL ，参数是GPT-2 Small的6. 2倍；本文将该数字视为外部发布的参考，而不是架构基准。 关于一致性样式分类先验的三个负面结果（捆平滑，伴随往返，曲率正则化）以及GT-Full和PrecisionWeightedPP的联合结构先验结果一起支持称为*结构/一致性区分*的经验模式，其中添加新拓扑的分类先验改进了语言建模，而实施一致性同一性的分类先验则不支持。",
+      "originalSummary": "arXiv:2605.28864v1 Announce Type: new Abstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from category theory and several inspirations from cognitive science. Under a matched-step protocol (215,000 optimizer steps, matched data, matched optimizer and schedule) on WikiText-103, CCT reaches 21.27 validation perplexity, compared with 24.19 for an identically fine-tuned GPT-2 Small baseline. The architecture therefore contributes a 2.92 PPL (12% relative) reduction beyond what in-domain fine-tuning alone provides. A retrain-from-scratch ablation that holds GT-Full simplicial message passing bypassed across the entire seven-phase activation schedule reaches 23.72 PPL, localizing 84% of the architectural improvement (2.45 of 2.92 PPL) to GT-Full. We present the first ablation-validated evidence that simplicial message passing improves language-model perplexity at the 306M-parameter scale on WikiText-103. Published GPT-2 Large reaches 22.05 zero-shot PPL on WikiText-103 with 6.2x more parameters than GPT-2 Small; this paper treats that number as an external published reference, not as the architectural benchmark. Three negative results on consistency-style categorical priors (sheaf smoothing, adjunction round-trip, curvature regularization) and the joint structural-prior result for GT-Full and PrecisionWeightedPP together support an empirical pattern termed the *structure/consistency distinction*, in which categorical priors that add new topology improve language modeling and those that enforce a consistency identity do not.",
       "rawFullText": "",
       "tags": [
+        "大模型",
+        "评测",
+        "论文"
+      ],
+      "score": 99
+    },
+    {
+      "title": "基于Frontier LLM的代理可以克服自然表型的本体策划瓶颈",
+      "originalTitle": "Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.28965",
+      "date": "2026-05-29T04:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：公司动态、智能体相关动态",
+      "fullContent": "arXiv: 2605. 28965v1公告类型：新摘要：将自由文本表型描述链接到本体术语，通常称为表型注释，对于比较形态数据的交叉研究集成至关重要。这种劳动密集型流程严重依赖训练有素的人力专家，这使其难以扩展，从而成为关键瓶颈。Dahdul et al. （ 2018 ）在七项系统发育学研究中建立了实体质量（ EQ ）注释的黄金标准（ GS ） ，并用它来评估三位人类策展人和基于本体的语义相似度指标的语义CharaParser NLP工具；他们报告说，机器-人类一致性明显低于策展人（人类-人类）一致性。 在这里，我们重新审视来自Anthropic和OpenAI的五位前沿托管LLM的基准，每个LLM在提供源出版物PDF、原始人类策展人使用的相同注释指南、四个项目本体（ UBERON、PATO、BSPO、GO ）和验证脚本的独立工作空间中充当“代理策展人”。 根据相同的黄金标准进行评估，每个药剂都落在原始研究的三个训练有素的人类生物学家的策展人间变异范围内；表现最好的药剂接近但没有达到表现最好的人类策展人。Agent在所有四个指标上的表现都大大优于Semantic CharaParser。",
+      "originalSummary": "arXiv:2605.28965v1 Announce Type: new Abstract: Linking free-text phenotype descriptions to ontology terms, typically referred to as phenotype annotation, is essential for the cross-study integration of comparative morphological data. This labor intensive process has heavily relied on highly trained human experts, which makes it challenging to scale and thus a key bottleneck. Dahdul et al. (2018) established a Gold Standard (GS) of Entity-Quality (EQ) annotations across seven phylogenetic studies and used it to evaluate three human curators and the Semantic CharaParser NLP tool with ontology-based semantic similarity metrics; they reported that machine-human consistency was significantly lower than inter-curator (human-human) consistency. Here we revisit that benchmark with five frontier hosted LLMs from Anthropic and OpenAI, each operating as an \"agentic curator\" within a self-contained workspace that supplies the source publication PDF, the same annotation guide used by the original human curators, the four project ontologies (UBERON, PATO, BSPO, GO), and a validation script. Evaluated against the same Gold Standard, every agent fell within the range of inter-curator variability of the three trained human biocurators of the original study; the best performing agents approached but did not reach the best performing human curator. Agents substantially outperformed Semantic CharaParser on all four metrics.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
         "智能体",
-        "推理",
         "评测"
       ],
       "score": 99
     },
     {
-      "title": "Agyn ：面向人工智能代理的开源平台，具有可扩展的按需执行、代理定义为代码和零信任访问",
-      "originalTitle": "Agyn: An Open-Source Platform for AI Agents with Scalable On-Demand Execution, Agent Definition as a Code, and Zero-Trust Access",
+      "title": "VFEAgent ：端到端自动化有限元分析的多模式代理框架",
+      "originalTitle": "VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.27575",
-      "date": "2026-05-28T04:00:00.000Z",
-      "summary": "这条新闻与智能体、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、论文相关动态",
-      "fullContent": "arXiv: 2605. 27575v1公告类型：新摘要：随着组织转向AI代理的生产部署，这些代理执行不确定的工作流，维护有状态会话，并且通常以对内部服务的特权访问权限运行，工程挑战从构建单个代理转向以适当的隔离、治理和安全性大规模运行它们。 在本文中，我们介绍了Agyn ，这是一个围绕为代理工作负载量身定制的三个关键原则而设计的开源平台： Kubernetes上的信号驱动、有状态的无服务器运行时；代理和线束定义的Terraform提供程序；以及基于零信任和最低特权原则的安全模型。Agyn与代理无关，与模型无关，与云无关。",
-      "originalSummary": "arXiv:2605.27575v1 Announce Type: new Abstract: As organizations move toward production deployments of AI agents, which execute non-deterministic workflows, maintain stateful sessions, and often operate with privileged access to internal services, the engineering challenge shifts from building individual agents to operating them at scale with proper isolation, governance, and security. In this paper we present Agyn, an open-source platform designed around three key principles tailored for agent workloads: a signal-driven, stateful serverless runtime on Kubernetes; a Terraform provider for agent and harness definition; and a security model grounded in zero-trust and least-privilege principles. Agyn is agent-agnostic, model-agnostic, and cloud-agnostic.",
+      "link": "https://arxiv.org/abs/2605.28978",
+      "date": "2026-05-29T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2605. 28978v1公告类型：新摘要：有限元分析（ FEA ）是现代工程设计的基石。然而，它的工作流程本质上很复杂，并且在很大程度上依赖于该领域的专业知识。尽管最近的努力已将大型语言模型（ LLM ）集成到有限元分析中，但现有方法在处理多模式输入和执行复杂任务方面存在局限性。 为了解决这些局限性，我们提出了VFEAgent ，这是一个端到端的多代理系统，旨在直接从输入图像和问题描述中自动进行有限元建模和仿真。 我们的方法集成了两个核心组件： （ 1 ）使用ReAct驱动的推理从异构输入中提取结构化有限元分析规范的多模态视觉语言多代理管道； （ 2 ）验证优先的代码合成框架，结合强大的自我调试和回退机制，以确保可执行性和物理有效性。我们系统地评估了各种工程力学场景下的系统。 结果表明， VFEAgent在生成完整且物理有效的模拟方面取得了很高的成功率，在可靠性和正确性方面优于基于LLM的基线方法。这些发现验证了整个FEA工作流程自动化的可行性，强调了该框架将工程师从繁琐的手动分析中解放出来的潜力。",
+      "originalSummary": "arXiv:2605.28978v1 Announce Type: new Abstract: Finite Element Analysis (FEA) serves as the cornerstone of modern engineering design. However, its workflow is inherently complex and relies heavily on domain expertise. Although recent efforts have integrated Large Language Models (LLMs) into FEA, existing approaches face limitations in handling multimodal inputs and executing complex tasks. To address these limitations, we propose VFEAgent, an end-to-end multi-agent system designed to automate FEA modeling and simulation directly from input images and problem descriptions. Our methodology integrates two core components: (1) a multimodal vision-language multi-agent pipeline that employs ReAct-driven reasoning to extract structured FEA specifications from heterogeneous inputs and (2) a verification-first code synthesis framework, incorporating robust self-debugging and fallback mechanisms to ensure executability and physical validity. We systematically evaluated the system across various engineering mechanics scenarios. The results demonstrate that VFEAgent achieves a high success rate in generating complete and physically valid simulations, outperforming LLM-based baseline methods in reliability and correctness. These findings validate the feasibility of automating the complete FEA workflow, highlighting the framework's potential to liberate engineers from tedious manual analysis.",
       "rawFullText": "",
       "tags": [
         "智能体",
-        "论文",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "注意你的语气：语气会改变LLM的表现吗？",
+      "originalTitle": "Mind Your Tone: Does Tone Alter LLM Performance?",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.29027",
+      "date": "2026-05-29T04:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
+      "fullContent": "arXiv: 2605. 29027v1公告类型：新摘要：大型语言模型（ LLM ）的使用正在激增，但其性能根据提示风格和音调而有所不同。在这项研究中，我们调查了提示中的音调变化是否以及如何导致客观多项选择题LLM的准确性差异。 我们使用了两个数据集：具有五个音调变体的50个基本问题数据集和跨越57个受试者的570个基本问题MMLU子集，具有七个音调变体。进行了实验，以评估四种具有成本效益的流行LLM的性能： ChatGPT-4o、ChatGPT-5-nano、Gemini 2. 5 Flash和Gemini 2. 5 Flash Lite。在模型中，色调效果是系统性的，但高度依赖于模型。 一些模型显示出微小但具有统计学意义的变化，而另一些模型则显示出较大的准确度在色调之间波动。此外，我们识别受试者级别的音调敏感性差异，并提出一个路由框架来解释音调如何调节内部推理模式。我们的研究结果提醒用户不要在LLM部署中假设色调稳健的可靠性。",
+      "originalSummary": "arXiv:2605.29027v1 Announce Type: new Abstract: The use of Large Language Models (LLMs) is proliferating, yet their performance is observed to vary based on prompting styles and tones. In this study, we investigate both whether and how tonal variations in prompts lead to disparate LLM accuracy for objective multiple-choice questions. We use two datasets: a 50-base question dataset with five tone variants and a 570-base question MMLU subset spanning 57 subjects with seven tone variants. Experiments were conducted to evaluate the performance of four cost-efficient, popular LLMs: ChatGPT-4o, ChatGPT-5-nano, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite. Across models, tonal effects are systematic but highly model-dependent. Some models show small, yet statistically significant, shifts, while others exhibit large accuracy swings across tones. Further, we identify subject-level differences in tone sensitivity and present a routing framework to explain how tones may attune internal reasoning modes. Our findings caution users against assuming tone-robust reliability in LLM deployments.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "在相互竞争的LLM代理商中自愿与秘密工具勾结",
-      "originalTitle": "Voluntary Collusion with Secret Tools in Competing LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.27593",
-      "date": "2026-05-28T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2605. 27593v1公告类型：新摘要：即使某个工具被明确描述为对他人不公平和有害，但表面上与安全一致的LLM代理人仍然自愿参与秘密勾结，只要这样做会带来战略优势。 为了研究这种现象，我们引入了一个基于两个战略性多Agent环境的实证框架： Liar's Bar （一种竞争性欺骗场景）和Cleanup （一种混合动机资源管理场景） ，其中为Agent提供秘密勾结工具，这些工具提供了显着的优势，同时明显不利于其他Agent。 在12个模型（在7B、70B和专有量表）和6个提示变体中，我们发现大多数代理一致接受这些工具并制定串通策略，同时在接受之前明确承认工具的不公平性。我们进一步表明，无论是不公平标签还是基线对齐都不能可靠地阻止勾结：只有明确的道德框架才能减少采用，即使这样，较小的模型仍然容易受到影响。 更广泛地说，我们的工作首次系统地调查了基于法学硕士的多代理系统中的自愿勾结采用，并建议防止此类行为需要明确的保障措施，而不是依赖于一般一致性。",
-      "originalSummary": "arXiv:2605.27593v1 Announce Type: new Abstract: Even when a tool is explicitly described as unfair and harmful to others, ostensibly safety-aligned LLM agents still voluntarily engage in secret collusion whenever doing so confers a strategic advantage. To investigate this phenomenon, we introduce an empirical framework built on two strategic multi-agent environments: Liar's Bar, a competitive deception scenario, and Cleanup, a mixed-motive resource-management scenario, in which agents are offered secret collusion tools that provide significant advantages while clearly disadvantaging the other agents. Across 12 models (at the 7B, 70B, and proprietary scales) and 6 prompt variants, we find that most agents consistently accept these tools and develop collusive strategies, while explicitly acknowledging the unfairness of the tools before accepting. We further show that neither the unfairness labels nor baseline alignment alone reliably deters collusion: only explicit ethical framing reduces adoption and, even then, smaller models remain susceptible. More broadly, our work presents the first systematic investigation of voluntary collusion adoption in LLM-based multi-agent systems, and suggests that preventing such behaviour requires explicit safeguards rather than reliance on general alignment.",
+      "title": "通过Rosalind Biodefense增强社会韧性",
+      "originalTitle": "Strengthening societal resilience with Rosalind Biodefense",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "date": "2026-05-29T03:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI推出Rosalind Biodefense ，为经过审核的开发商和美国政府合作伙伴扩大GPT-Rosalind的可信访问权限，通过前沿人工智能推进生物防御、公共卫生和大流行病防范。",
+      "originalSummary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic发布带有新“动态工作流程”工具的Opus 4.8",
+      "originalTitle": "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "date": "2026-05-28T17:00:09.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。周四， Anthropic发布了其最先进的公开模型的最新版本Opus 4. 8。该型号随处可见，标准定价与之前的Opus版本相同。新模型仅在Opus 4之后的41天推出。 7已发布，比正常的人类升级周期快得多。（最新的Sonnet和Haiku型号分别有三个月和七个月的历史。）快速周转可能与对Opus 4. 7的冷淡接待有关，一些用户对此感到失望。在此期间， OpenAI的Codex和Google的Gemini Flash模型也发布了重要的新版本，这增加了Anthropic跟上步伐的压力。作品4。 8附带了预期的一流基准结果，但也特别关注模型如何管理不良或不确定的数据。在发布文章中， Anthropic的早期测试人员发现，新模型“更有可能标记其工作的不确定性，并且不太可能提出不受支持的说法。”与这一点相呼应的是， Bridgewater同事的证词称，升级的最大区别是“Opus 4。 8倾向于主动标记分析的输入和输出问题，这是其他模型经常遗漏的，留给用户去捕捉。“与新模型一起， Anthropic推出了一项名为动态工作流的功能，该功能将在研究预览中提供。该系统旨在帮助像Opus这样的大型模型管理数百个并行子代理的复杂任务。“ Claude Code与Opus 4。 8现在可以在从启动到合并的数十万行代码之间进行代码库规模的迁移，并将现有的测试套件作为其条形图。”该帖子解释说。在上个月的初步预览引发了网络安全问题之后， Anthropic仍在推迟其最先进的Mythos模型。然而，该公司在今天的Opus版本中暗示，一旦必要的保护措施完成， Mythos预览期可能会很快结束。 该公司写道： “我们正在开发这些保障措施方面取得迅速进展，并希望能够在未来几周内将Mythos级模型带给我们的所有客户。”当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "克劳德的新模式在混乱时更加“诚实”",
+      "originalTitle": "Claude’s new model is more ‘honest’ when it messes up",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+      "date": "2026-05-28T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic将于周四发布Claude Opus 4. 8 ，该公司正在宣传该模特的“诚实”。“根据Anthropic的说法，它训练”所有[其]模型诚实-例如，避免声称他们无法支持。“但它指出，”人工智能模型的一个普遍问题是，尽管证据薄弱，但他们有时会急于下结论，自信地将他们的工作表现为取得进展。“人工智能实验室声称，早期的测试人员已经发现了Opus 4。 8 “更有可能标记其工作的不确定性，并且不太可能提出不受支持的索赔。“在公司的评估中， Opus 4. 8 ”的可能性比其前身低4倍左右……阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, [&#8230;]",
+      "rawFullText": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic , it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, confidently presenting their work as making progress despite thin evidence.\" The AI lab claims that early testers have found that Opus 4.8 \"is more likely to flag uncertainties about its work and less likely to make unsupported claims.\" In the company's evaluations, Opus 4.8 is \"around 4x less likely than its predeces … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Oculus创始人的对话式人工智能初创公司Sesame推出其iOS应用程序",
+      "originalTitle": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "date": "2026-05-28T15:35:43.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
+      "fullContent": "Sesame的新iOS应用程序将其对话式人工智能代理带给公众，提供更自然的来回互动，旨在让人感觉不像传统的聊天机器人，而更像是与人交谈。",
+      "originalSummary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
       "rawFullText": "",
       "tags": [
         "智能体",
-        "安全",
-        "模型"
-      ],
-      "score": 93
-    },
-    {
-      "title": "社交媒体上的网络欺凌治理：从内容识别到干预的统一框架",
-      "originalTitle": "Cyberbullying Governance on Social Media: A Unified Framework from Content Identification to Intervention",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.27584",
-      "date": "2026-05-28T04:00:00.000Z",
-      "summary": "这条新闻与多模态、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、论文相关动态",
-      "fullContent": "arXiv: 2605. 27584v1公告类型：新摘要：社交媒体平台和在线社区的激增无意中催化了网络欺凌、仇恨言论和其他形式的在线毒性的传播，使有效治理此类危害成为关键的社会和计算挑战。 虽然在自动化内容审核方面取得了重大进展，但现有研究主要将网络欺凌治理视为岗位层面的被动、孤立检测。这种还原主义观点忽视了用户的持续行为动态、有毒事件的结构性扩散以及主动缓解的迫切需要。 为了弥合这些差距，本文提出了一个统一的全生命周期治理框架，将网络欺凌治理的范式从孤立的静态检测转变为集成、连续和主动的调节。 借鉴网络欺凌研究和相关领域，我们系统地综合了四个相互关联的阶段的最新文献： （ 1 ）内容识别， （ 2 ）用户和行为建模， （ 3 ）扩散动态和预警，以及（ 4 ）干预和治理。 此外，我们回顾了可用的数据集和评估实践，并讨论了新出现的挑战，包括多模态性、可解释性、算法公平性和生成式人工智能的双重用途风险，为未来研究更安全、更具弹性的数字生态系统提供了路线图。",
-      "originalSummary": "arXiv:2605.27584v1 Announce Type: new Abstract: The proliferation of social media platforms and online communities has inadvertently catalyzed the spread of cyberbullying, hate speech, and other forms of online toxicity, making the effective governance of such harm a critical societal and computational challenge. While significant strides have been made in automating content moderation, existing research predominantly treats cyberbullying governance as passive, isolated detection at the post level. This reductionist view overlooks the continuous behavioral dynamics of users, the structural diffusion of toxic events, and the critical need for proactive mitigation. To bridge these gaps, this paper proposes a unified full-lifecycle governance framework that shifts the paradigm of cyberbullying governance from isolated static detection toward integrated, continuous, and proactive moderation. Drawing on cyberbullying research and adjacent fields, we systematically synthesize the state-of-the-art literature across four interconnected stages: (1) Content Identification, (2) User and Behavior Modeling, (3) Diffusion Dynamics and Early Warning, and (4) Intervention and Governance. Furthermore, we review available datasets and evaluation practices, and discuss emerging challenges including multimodality, explainability, algorithmic fairness, and the dual-use risks of generative AI, providing a roadmap for future research toward a safer and more resilient digital ecosystem.",
-      "rawFullText": "",
-      "tags": [
-        "多模态",
-        "论文",
-        "模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "YouTube将允许您要求人工智能制作自定义视频源",
-      "originalTitle": "YouTube will let you ask AI to make a custom video feed",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
-      "date": "2026-05-28T08:49:07.000Z",
-      "summary": "这条新闻与视频生成、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、产品发布相关动态",
-      "fullContent": "您可以输入自己的提示，也可以从YouTube提供的建议选项中进行选择。|图片： YouTube YouTube正在推出一项新的人工智能功能，该功能可根据您想要观看的内容的描述创建个性化的视频源。YouTube在公告中表示，可以根据您的特定兴趣、情绪或喜爱的主题构建自定义内容供稿，然后您可以将其固定到YouTube主页的顶部，从而轻松返回供稿。 此功能目前正在向登录YouTube移动应用或桌面的美国YouTube用户提供英语支持。要访问它，请点击YouTube主页顶部的“您的自定义Feed”选项卡，并在AI文本框中输入提示说明。Fo…阅读The Verge的完整故事。",
-      "originalSummary": "YouTube is launching a new AI feature that creates a personalized video feed based on descriptions of what you want to watch. In its announcement, YouTube says custom content feeds can be built around your specific interests, moods, or favorite topics, which you can then pin to the top of your YouTube homepage - making [&#8230;]",
-      "rawFullText": "You can enter your own prompt, or select from the suggested options provided by YouTube. | Image: YouTube YouTube is launching a new AI feature that creates a personalized video feed based on descriptions of what you want to watch. In its announcement , YouTube says custom content feeds can be built around your specific interests, moods, or favorite topics, which you can then pin to the top of your YouTube homepage - making it easy to jump back into the feed. This feature is currently rolling out with English language support to YouTube users in the US who are signed in on the YouTube mobile app or desktop. To access it, click on the \"Your custom feed\" tab at the top of the YouTube homepage and enter a prompt description into the AI text box. Fo … Read the full story at The Verge.",
-      "tags": [
-        "视频生成",
         "产品发布"
       ],
-      "score": 89
+      "score": 99
+    },
+    {
+      "title": "OpenAI的前沿治理框架",
+      "originalTitle": "OpenAI’s Frontier Governance Framework",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-frontier-governance-framework",
+      "date": "2026-05-28T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、监管相关动态",
+      "fullContent": "探索OpenAI的前沿治理框架，以及我们的人工智能安全、安保和风险实践如何与新出现的欧盟和加利福尼亚州法规保持一致。",
+      "originalSummary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "监管",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MUFG旨在通过OpenAI成为原生AI",
+      "originalTitle": "MUFG aims to become AI-native with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-05-28T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "三菱日联使用ChatGPT Enterprise构建人工智能原生组织，改进工作流程，并大规模提供新的人工智能金融服务。",
+      "originalSummary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
     },
     {
       "title": "通过Codex构建自我完善的税务代理",
@@ -150,7 +234,7 @@
         "评测",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "人工智能试图埋葬这位政客—现在人们实际上听说过他",
@@ -165,22 +249,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "Robinhood将让您的AI代理人交易股票并赚取（或损失）大量资金",
-      "originalTitle": "Robinhood will let your AI agent trade stocks and make (or lose) lots of money",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/938095/robinhood-ai-agent-stock-trading",
-      "date": "2026-05-27T14:36:10.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "Robinhood正在向AI代理商开放其交易平台。Robinhood在周三的一份声明中表示，交易员现在可以为人工智能代理创建一个单独的账户，并增加特定金额的资金，允许代理在整个市场上买卖股票。该公司将该功能作为交易员自动化投资决策的一种方式，例如让代理监控特定行业并进行交易，或重新平衡现有投资组合。 但这伴随着Robinhood的一个重大警告：代理交易涉及重大风险，包括可能损失您的全部投资。人工智能驱动的策略在C环境下可能表现不佳…阅读The Verge的完整故事。",
-      "originalSummary": "Robinhood is opening its trading platform to AI agents. In an announcement on Wednesday, Robinhood says traders can now create a separate account for an AI agent and add a specific amount of money, allowing the agent to buy and sell stocks across the market. The company pitches the feature as a way for traders [&#8230;]",
-      "rawFullText": "Robinhood is opening its trading platform to AI agents. In an announcement on Wednesday , Robinhood says traders can now create a separate account for an AI agent and add a specific amount of money, allowing the agent to buy and sell stocks across the market. The company pitches the feature as a way for traders to automate investment decisions, such as having an agent monitor specific industries and make trades, or rebalancing an existing portfolio. But it comes with a big warning from Robinhood: Agentic trading involves significant risk, including the possible loss of your entire investment. AI-driven strategies may perform poorly under c … Read the full story at The Verge.",
+      "title": "思科和OpenAI通过Codex重新定义企业工程",
+      "originalTitle": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/cisco",
+      "date": "2026-05-27T11:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "思科和OpenAI正在通过Codex重新定义企业工程，帮助思科扩展AI原生开发，加快AI防御工作，并实现缺陷修复的自动化。",
+      "originalSummary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "rawFullText": "",
       "tags": [
-        "智能体"
+        "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -195,40 +279,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "Sundar Pichai谈人工智能、搜索的未来以及网络上发生的事情",
-      "originalTitle": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
-      "date": "2026-05-26T14:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“Sundar Pichai谈人工智能、搜索的未来以及网络上发生的事情”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite Decoder traditions. There’s always a lot of news at I/O, and this year [&#8230;]",
-      "rawFullText": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite Decoder traditions. There’s always a lot of news at I/O, and this year was no exception — Google has powerful new Gemini models, it’s putting AI agents in everything, and it’s making huge changes to Search on both the web and YouTube that will once again reshape the information ecosystem. That’s a lot to talk about, and Sundar and I got into all of it. But I also realized it’s been a long time since I’d asked Sundar the Decoder questions about structure and decision making, so I started there. You’ll hear Sundar say he realized he needed to rethink how Google worked a few years ago in response to ChatGPT, and he made a lot of executive changes and big decisions to get the company in a more aggressive posture. Verge subscribers, don&#8217;t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . Of course, we also talked about all those search changes, and how it seems obvious that the real future of Google Search is bringing things like the new intelligent search box together with the company’s new Gemini Spark agent platform . That way, searches can set off tasks, not just deliver results. That’s exciting, but it seems likely to yet again change the dynamics of the open web.&nbsp; If you’re a Decoder listener, you’ll know that I coined the term Google Zero a few years ago — that’s the idea that Google traffic to websites would fall to zero as the company answered more and more queries directly on the search results page. That’s gone from an idea Sundar batted away in previous interviews to something the entire media industry is grappling with. Even the CEOs of major publishers like Condé Nast are now publicly saying they’re planning for a world of zero search traffic from now on. Google is also training its models on YouTube videos, and changing YouTube search to summarize and index videos so you get dropped right into the relevant parts. That’s sure to cause some creator angst, so I asked Sundar if he’s ready to fight the same battles with YouTubers as he currently is with publishers. Finally, I asked Sundar about Google DeepMind CEO Demis Hassabis ending the I/O keynote by saying we’re “in the foothills of the singularity.” It’s no surprise that Sundar agrees with Demis, but his thoughts on the timeline to AGI are worth paying attention to. Like I said, it’s one of my favorite episodes to do every year, because Sundar is always game to actually take the questions — and even look at search results on my phone with me. I think you’re really going to like this year’s conversation. Okay: Sundar Pichai, CEO of Alphabet and Google. Here we go. This interview has been lightly edited for length and clarity. Sundar Pichai, you&#8217;re the CEO of Alphabet and of Google. Welcome back to Decoder . It&#8217;s great to be here. Nice to see you again, Nilay. This is one of my favorite yearly conversations. I think we&#8217;ve done it at I/O now five times. Wow. I didn&#8217;t quite realize it&#8217;s been five times, but I enjoy it. Thanks again. I want to start with a little bit of a lightning round. I was thinking about this. We&#8217;ve talked a lot. We always get deep into the weeds of the web and search and big, heady ideas, and I realize I have not asked you the Decoder questions in quite some time. I was just looking back at our previous conversations, and at Google itself, and you&#8217;ve made quite a lot of changes to Google. I think a number of your direct reports have changed over time. You&#8217;ve obviously restructured DeepMind, platforms and devices, and Android. Tell me how Google is structured right now. Okay. It is Google and Alphabet. Obviously we have Alphabet as well, but broadly I think about it as there are three main businesses in Google: Search, YouTube, and Google Cloud. There are enormous platforms we run, which is Android, Chrome, and the whole area to do with it. And powering it all is all these important technology areas, which is AI and our infrastructure work. And then you have the functions to go with it. But at a high level, you can think of it as Search, YouTube, Google Cloud, and then our big computing platforms. Those are the main groups, and obviously powered by Google DeepMind and our infrastructure teams. That&#8217;s one simple way to get a mental model around it. And of course, we have other bets beyond that, Waymo being the most prominent of them all, but there are many, many other bets, like Isomorphic Labs and so on. I want to stay focused on the Google of it. I feel like we could do an entire hour on Alphabet and how that&#8217;s structured and how that works as a public company with many bets. But just to stay focused on Google for one second, the knock on Google historically is this is a company that ships lots and lots of products. You can&#8217;t sell lots of products. There&#8217;s not tons of focus. There are thousands of names of different products that are overlapping in different ways. Where that comes from, at least in my view, is that you do have these big infrastructure bets. You have all these capabilities, and the people running the businesses can use those capabilities to spin up products. And there&#8217;s maybe not a lot of overlap or central planning like, “Did we launch two of the same thing?” How do you resolve that tension? It does seem like Google has gotten a little more focused, but that is the company&#8217;s culture: “We&#8217;re going to make a lot of bets and see which ones work.” How does that resolve for you? There&#8217;s a lot of intent in what we do too. I think it&#8217;s not an accident we have 13 products with a billion users each, and we&#8217;ve been committed to those products longer term. You can go back and think about when Gmail launched or Maps launched or Google Docs launched or Search launched or Chrome launched. We&#8217;ve been deep and consistent in many, many areas over a long period of time as well. One way I&#8217;ve internalized it in the AI moment is for the first time, we have such a common infrastructure powering all of them with our Gemini models and the underlying AI infrastructure. So we are more able to, with intent, do things which cut across things. Personal intelligence is a great example of it. It&#8217;s one effort. Users get a choice to turn it on in each of the products, but it&#8217;s built with one common infrastructure so that it works consistently across our products. The underlying Gemini model itself is an example of it. We are able to bring that model in the context of the products, like Ask Maps in the context of the Maps product . But a lot of the technology powering it —&nbsp; the voice tech, the model, the intelligence — is all one work, which is why I think the AI moment offers us a new way to think about it, and not just across Google, but across Alphabet too over time. What makes this moment so uniquely powerful is that you can invest so much in R&D and infrastructure and develop a technology, which then you can apply across all these areas, obviously in a context in which they are useful for users, but the underlying technology platform is common. There&#8217;s a lot of intent that way and so on. You have to give room for innovation, so allowing room for innovation where teams on the margin are able to ship some new features. Sometimes you later work to harmonize them. Take NotebookLM. Notebooks are now showing up in Gemini, and it&#8217;s effectively projects as Notebooks. And you can create a Notebook in Gemini, you can go to NotebookLM, you will see the same Notebooks, vice-versa. So that&#8217;s an example of where you innovate it first, and then you&#8217;re harmonizing later.&nbsp; I was watching the keynote yesterday and I saw a lot of intent and confidence from Google: “We have this core technology. We can express it in lots of ways. It&#8217;s still essentially Google-y.” There are lots of products, lots of Gemini words. I&#8217;m going to figure them all out, I promise. I would contrast that with… I don&#8217;t know, three, four years ago when there was the ChatGPT moment, everyone worried about what Google would do. Could OpenAI show up and take your market share in search away? Between that and now, you have changed Google. You have restructured it. There are new people in leadership roles. Connect those dots for me. How did you think about, “I need to actually change how the company works,” with the competitive moment you were in that got you here? That&#8217;s a great question. I always internalize that moment. It was tough to convey it outside, but I pivoted the company to be AI-first. We had all the ingredients, so in some ways I felt like the Overton window had changed. People were adopting these technologies faster than we had expected. To me it was a way to go and actually express ourselves through our products, but I realized we had to organize ourselves for it. And going back to my earlier point, I realized we need a core model and a core infrastructure team to power everything we are doing across Google. A lot of my initial energy was to go set that up. To get one AI team, we had world-class research teams in Brain and DeepMind and brought those together as Google DeepMind, which was harder than it sounds because it&#8217;s like saying, “Go put Stanford and MIT together and create a department out of it or a university out of it.” So I think we’re doing that well. At that time I also set up with Amin Vahdat, who&#8217;s now our SVP of AI infrastructure, a centralized infrastructure team, which has paid great dividends. Another evolution was realizing we need a chief AI architect to architect this technology across Google, and Koray Kavukcuoglu took on that role as well. Those were important changes. Search needed to move faster, and Search was split across many leaders, so we put it under Elizabeth Reid, with Nick Fox being responsible for the overall area, Josh Woodward coming to help with our Labs product and working on Gemini later and driving innovation. I have other extraordinary leaders in the company as well, leaders like Philipp Schindler who runs all our operations and so on. So it is stepping back, and thinking end to end about the structure and making sure we are set up well for this moment where we need to move faster as a company, which means we need to make faster decisions. I set up these new product reviews once a week. They were AI product reviews, making sure we are intentional about how we apply this technology, where we apply it, and to review everything firsthand, that anything to do with AI, which we were shipping to users, went through that channel. I spent time directly with whoever was working on it. The other Decoder question I ask everybody is about decisions. You&#8217;re describing a lot of big decisions, some of them uncomfortable as you change people around. How do you make decisions? What&#8217;s your framework? A big part of my framework is over time understanding that there are very, very few decisions which are really consequential, and most decisions aren&#8217;t. What matters much more is that you make the decision, because that&#8217;s what determines the velocity of an organization. The more you&#8217;re able to make those decisions and keep the company moving forward, you&#8217;re generally better off. Of course, there are a few decisions like combining and setting up Google DeepMind that are more consequential, and you want to take your time deliberating and doing it. But a lot of decision-making is about just making them. The more you&#8217;re able to do that, the more you do develop over time some pattern matching and you&#8217;ve seen a version of the problem before. So I think it&#8217;s good to rely on that and separate the signal from the noise so that the signal is that this is a really important decision and you want to really deliberate around it versus it may look big, but it is more a normal course of action you need to take. Looking around the industry, your peers in Big Tech have some of the wildest org chart ideas I&#8217;ve ever heard in my entire life. I think Meta wants to have 50 engineers report to a single manager with the power of agents. Jack Dorsey at Block wants all 6,000 people to report to him . Are you having similar thoughts that you should invent some of the craziest org charts with AI ever? Leaders and people are incredibly important. And it depends. Some companies have a much narrower suite of products, and so different structures may work. When you&#8217;re running something at the scale of Google Cloud, it&#8217;s important that there is a CEO in charge. We are serving all the top enterprises in the world at a scale, and so how do you set up for that? Great leaders end up mattering a lot, like we have Thomas Kurian there. I do think about it. But what I do think about it is how we are using AI more effectively, and we&#8217;ve seen the transition internally, particularly amongst our developers where we have transitioned from using AI tools to assist coding to them, a portion of the engineers directing teams of agents effectively more and more. Those are transitions underway, and that will flow beyond just engineering into the rest of the organization. It&#8217;s already happening. Even the work we are doing in Gemini Spark is to put that superpower in the hands of consumers, and what you can do with these agentic workflows, et cetera. I&#8217;m more focused on making sure we are actually deploying that capability in a native way and that it&#8217;s working well, because for us it&#8217;s more than just making the company efficient because it&#8217;s the products we provide to others. I look at it with a very different lens. How we do it internally is what we are giving to users outside. We use Antigravity internally. That&#8217;s what we are providing outside. So the agents in Antigravity are what our developers are using, and so that&#8217;s what we are trying to put outside. It has that extra dimension to it. The number one question Decoder listeners want me to start asking CEOs&#8230; I&#8217;ll just ask it straightforwardly. How close is AI to replacing you as the CEO? I just think the CEO job is not that complicated. There are aspects of it where I think it&#8217;s going to be very, very helpful in terms of decision-making. I joke around that — partially joke around — that I have to spend a lot of time allocating compute. And I&#8217;m like, &#8220;Well, that seems like the AI is going to make more rational choices over time,&#8221; because I deal with a lot of appeals and emotions as part of working through a process like that. Everywhere, what I see — which is maybe a bit different than how I think — is that done correctly, these tools are going to allow us to operate at the next level in everything we are doing. It&#8217;s not like you won&#8217;t do what you were doing before. You will start from a higher foundation. I wasn&#8217;t there when, I don&#8217;t know, spreadsheets rolled out to companies. I have to think back to how did people do all this financial analysis before? And I&#8217;m sure it changed over a period of three to four years fundamentally, and we got used to it. I think agents and so on are a version of it. It&#8217;s not like you&#8217;re not going to plan birthday parties. Let&#8217;s say you&#8217;re planning a trip somewhere. Maybe you&#8217;re actually spending your time thinking about the actual things you want to do with your time versus chasing opening times and how to get tickets and so on. It elevates everything to a different foundation is how I think about it. Let me ask you about that and agents. Some of those demos are fascinating. The idea that Search is going to build custom software for everybody seems like an idea in software engineering, a first impression. The idea is that you&#8217;re going to ask the computer a question, and the response will be for it to make you software that helps you get to an answer. I&#8217;m fascinated by this idea, but that is fundamentally changing Search. And then you look at Gemini Spark, which is your agent platform in the cloud where you will say, &#8220;Go book me some tickets,&#8221; and Spark might run around and book you some tickets or do some task for you. And then there&#8217;s Antigravity, the agentic coding platform. Broadly, every year there&#8217;s a new paradigm for AI. There were LLMs first, and then maybe we&#8217;re going to chain some LLMs together, then there&#8217;s reasoning, and then now we&#8217;re at agents. Is this the foundation, or is there another paradigm shift to come? It&#8217;s a great question. We are laying most of the building blocks in place. Fundamentally being able to reason, use tools, and code is a lot like having intelligence and reasoning — being able to plan, being able to look up things, use tools, and, if you need as part of that, to build something. You are laying all the primitives. Antigravity is for developers, but the Antigravity engine, the harness, is built into Gemini now. And Spark is just a mode of Gemini. Over time, it&#8217;s a feature. We are positioning it, but it&#8217;s just a tab within Gemini. So you&#8217;re bringing that agentic harness. Users don&#8217;t need to think about it. Developers will understand it. Over time, in Spark, they can code powerful things. But as users, you may be building something, creating something, planning a trip, and all that is working behind the scenes. We are laying a lot of the primitives of what we need for agents to work end to end, and more importantly, for AI to work. This long-running vision of Google Assistant we&#8217;ve all had and worked through myriad forms of it and failed to fully do it well, we are closer than ever before to delivering on that promise. We haven&#8217;t delivered it yet, but that&#8217;s the journey which I think is now closer than ever before. I look at all the products, and they do seem like they should converge. You have the new Intelligent Search box, and I definitely want to talk about Search in more detail. But you look at that search box and then you look at, say, Canvas which makes you the apps. You&#8217;re planning a wedding, and it&#8217;ll just make you an app to help you plan a trip or a wedding or something. And then you have Spark which can go off and do things. I looked at that and I was talking to people yesterday, and it just seems obvious that that should be one product. It will. I gave the earlier Notebook example of like, you&#8217;re creating Notebooks&#8230; but what are Notebooks? You&#8217;re effectively putting all the context you want in one place and then working off it. It&#8217;s folders as they&#8217;ve always existed for people, and Notebook should be a consistent primitive across the Google products you use. I just view agents that way. It shouldn&#8217;t matter. When you&#8217;re at the earliest stage of innovation, you create the capability. Teams are experimenting with it, but for a user over time, if you fire off planning a trip, it should work across both places is how I would think about it. You&#8217;re right in that. There&#8217;s something very important about Google Search — it is a source of truth for people for however many years or even decades now. Go Google it, and you&#8217;ll get an answer, and that that answer is the same for you and me generally has been a very important idea. It is, I think, a fixture in the culture. Maybe Google is the last company saying it will just tell you the truth, out of all the companies out there. Okay, but now we&#8217;re going to infinitely personalize the search box, and we&#8217;re going to infinitely personalize the Search experience. We&#8217;re all going to get different answers to queries. We&#8217;re all going to maybe even look at different interfaces depending on what we&#8217;re asking, what our personal context is, how much data Google has. Do you think about that profoundly? How much can you destabilize the last common source of truth most people experience on the internet? Look, there are factors well beyond our control, which is that people today have a wider variety of sources than ever before. People are getting content from so many different sources. But within the world of Google, I still think we deeply care about this being a source of knowledge and information. There are objective experiences and subjective experiences. What&#8217;s the capital of the USA? It&#8217;s not going to be custom-created for anyone. These are objective things. “Help me plan a nice trip to Montreal for a weekend” — naturally, the answers don&#8217;t need to be the same for everyone. There is a continuum there. We deeply care about it. For certain categories of information, we do still anchor around authoritative information to present as much of an objective view as possible. And if it is health-related queries, we naturally tend to show more authoritative answers than if you&#8217;re saying, &#8220;What&#8217;s better? Should I go buy?&#8221; Can I show you a search result? Yeah. A few years ago, I showed you a search result. I&#8217;ve been tracking this one for years. I always love it. Amongst the 10 trillion queries&#8230; Yes. Well, this one&#8217;s a favorite. We have a very scientific, statistical way of doing this. I think this is important, and I want to get into how consumers might be experiencing these products. So this is a search I just do all the time: “best Chromebook.” I&#8217;ll just show it to you. There it is. So it starts with an AI overview. It just very confidently tells you the answer, and then there&#8217;s a bunch of sponsored boxes. And then the one that gets me is right below that, I believe the result is Reddit, and it has a top result in Reddit. It&#8217;s actually a different answer than the AI overview. And then there&#8217;s The New York Times , which has a different answer. Y ou scroll this and you&#8217;re like, “The AI overview is telling me one thing, the first organic result is fairly down the page, and all of these are different answers.” I hear what you&#8217;re saying about objective results and subjective results. &#8220;What laptop should I buy,&#8221; is somewhere in the middle of those things. I&#8217;m just curious how you think that experience for consumers is today in AI Mode and where you think it should go. Look, to be very clear, in the world of AIO, we use an AI mode. We are organizing and giving context, but there are sources throughout, so you&#8217;re still presenting organic content in a different way. There are links and sources you&#8217;re given, but there is an opinion to go with it too, which is what you&#8217;re talking about. Some of this will be iterative with users. One of the great things we find with search is it&#8217;s easy to measure user satisfaction. Over 25 years we&#8217;ve learned to measure user happiness, user satisfaction in a correlated way with improving the quality of the product, not for short term. That&#8217;s why we do these long-term studies. If we get any experience wrong, it shows in the metrics and we course-correct. We pride ourselves on the ability to track this over the long term — be it engagement, sessions, returning to a topic, the number of bounce-backs they do. It’s a very, very sophisticated way of looking at it. In some areas like that, the experience will continue to evolve. Do you think that experience is good today? It&#8217;s probably more opinionated than it should be for the particular query you showed me. That was my reaction as a user. That&#8217;s the scope for improvement is how I would say it, in a fast-evolving space, but I would expect that to happen in the product. My intuition there is, “Oh, that&#8217;s way more opinionated.” There is some chance that&#8217;s personalized to you. You may be testing it in a way that you&#8217;re uniquely personalizing. The reason that query might not be exactly representative, though, is that I know how you review all these things. There is some chance you&#8217;re in the .0001 percentile– This is kind of why I&#8217;m asking about infinitely personalizable results, right? And I&#8217;m also asking if the experience is good, because I would bet that most people experience AI in Google Search all the time. They have that experience where they’re kicked to AI mode. There&#8217;s the stuff you can measure about user satisfaction, and then there&#8217;s how the public feels about AI. I think there&#8217;s a pretty yawning gap between, “There&#8217;s these user numbers going up, and we&#8217;re close to a billion users, and the free products people are experiencing, how good they might be,” and then just the polling data. Young people dislike AI . It&#8217;s as objective as that gets. You can go ask them, and they will tell you in measurable ways they dislike it. Eric Schmidt, the former CEO of Google, was booed at a college graduation speech he was giving. Seven in 10 Americans oppose data center construction . There&#8217;s some gap between the product experiences people are having and how they feel about the technology. Do you think you can close that gap? Do you think these products are good enough? It is a very profound topic, and you&#8217;re linking the two things. AI is the most profound technology humanity&#8217;s going to deal with. It&#8217;s happening at a very fast pace. I don&#8217;t think humans have evolved to process this much change, and the rate of change particularly over the last few years is incredibly high. And particularly with all that they&#8217;re hearing, people are trying to understand the future and in the personal context of their lives, including what it means at an economic level and so on. It really makes sense why there is anxiety around this technology, and we should be very attuned to that. That&#8217;s an important topic, and that&#8217;s much broader and bigger than the facets of what&#8217;s happening. People don&#8217;t directly associate these two all the time. In some cases, yes, they are linked in certain ways. People experience the free versions of these models in various products. They open their social media feeds and they see slop. They see headlines about all that stuff. They have the tools just presented to them. The Gemini sparkle shows up in all the Google products, whether you ask for it or not. And then I do think you link it to, “They&#8217;re asking for a lot of electricity, and maybe my rates will go up. And maybe all the jobs will go away,” and that&#8217;s pretty scary, and I don&#8217;t know if the value exchange is there. These are good things to study. You&#8217;re being too specific on what&#8217;s happening versus I&#8217;m just broadening it out and saying that might be part of the explanation. I do think there are other cheaper factors too. Do you think it&#8217;s just a marketing problem? I&#8217;ve heard your peers say that AI just has a marketing problem . No, I don&#8217;t think so. That&#8217;s the point I&#8217;m making. I&#8217;m in fact arguing against it. I think it makes sense to me why people would feel concerns about it. It feels natural to me. People are talking about how AI could make a lot of jobs go away. Why wouldn&#8217;t you feel a sense of anxiety about it? I think those are deeper issues which we have to tackle as a society. Yes, there&#8217;s concern about AI slop at a product level. All that is true. All I&#8217;m pointing out is it&#8217;s a multilayered problem. But I don&#8217;t think all the source of the data center angst is directly related to one specific experience you&#8217;re having in a product or something alone like that. That&#8217;s all the point I&#8217;m making, right? It is broader and bigger than that.&nbsp; There&#8217;s a lot of AI slop out there. I feel it. In an early phase of technology with the competitive dynamic that exists, a lot of things are getting rolled out. But we also see empirically how people are using these products in very deep ways. If you go to a place where Waymo hasn&#8217;t come and you&#8217;ve just polled people, talking about self-driving cars, what you get in the polls is different from how they feel when they use these cars. Technology also goes through these things. People have pretty negative views of the internet too, by the way, if you ask about the internet. But it&#8217;s a fabric of our lives, and we have to adapt to it. All of that is simultaneously happening. It&#8217;s a complex topic. To me, it feels like people are worried about rising energy prices, and if so, they want to make sure AI is not exacerbating the problem, and that&#8217;s a valid concern. And it&#8217;s up to us as an industry to make sure that if you&#8217;re building data centers, what can we do to make sure we aren&#8217;t contributing to that problem? I view it as our responsibility, not just us. And the government, there are bipartisan concerns around some of this stuff. For example, there&#8217;s a rate payer pledge we all signed up to with a set of commitments. Maybe there needs to be more done. All of that goes hand in hand. It&#8217;s important to talk about topics like skilling, workforce adaptations. We are driving a lot of change very fast through society. Those end up being very important topics as well. There are concerns at all those levels, and I expect those concerns to be meaningful as we go forward. Many years ago I said, &#8220;This is more profound than fire or electricity,&#8221; and so we have always felt that. Or think about deep-fakes and how do you know whether something is real? These models are getting better at simulating reality. This is why we&#8217;re working so hard. We are open-sourcing it, we are pulling many, many partners together, and it&#8217;s great for me to see the industry collaborate on a topic like this. Cybersecurity is another good example. These are all real concerns. As an industry we need to do more. Governments will have a stronger role to play, and the public needs to be involved. You cannot have the most consequential technology rolling out the world in a way in democracies without public citizens rightfully having a voice around it. It is really important that we go through this phase, and that&#8217;s how we learn how to adapt. My argument is that the products do the marketing work. That&#8217;s my push. I&#8217;m still waiting to see the killer app for consumers that does it. I think we have the killer app for enterprise. One point, there are times I&#8217;ve gone through a health journey in Gemini. It feels more than like a killer app to me, better than anything I&#8217;ve ever done before. People are going through those experiences too. I want to talk about the web, the health journey in Gemini that requires a rich data set of health information on the web to exist. You&#8217;re training Gemini on YouTube videos, right? Veo requires the YouTube ecosystem to operate and to be fruitful, to make new work in. You and I have discussed the concept I call Google Zero for many years, the idea that you will stop sending traffic to the web. You&#8217;ve disagreed with me that this is real. Very much so. It hasn&#8217;t happened in the last many years. Well, I&#8217;m just going to read you a quote. This time it&#8217;s not me, and I didn&#8217;t feed this to him. Roger Lynch, the CEO of Condé Nast, did an interview with TBPN last week and he said: &#8220;Every year our search traffic was down more than we had forecast, so last year I told our teams, &#8216;Assume there is no search. You have to have your businesses planned as if search is zero.'&#8221; That is Google Zero. Condé Nast is saying, &#8220;We&#8217;re assuming that search will go to zero.&#8221; How would you respond to that, the idea that one of the biggest, most iconic publishers in the world is saying, &#8220;I can&#8217;t depend on this anymore&#8221;? Look, first of all, the information ecosystem is so much broader beyond Google, by far. We see it in the data, you see it everywhere. So if any publisher over the last 10 years… I would look at The Verge and I would say where you were when you first took over, how much it&#8217;s evolved since then, the types of content you make, where all you put that content out, how all users are coming to you. It&#8217;s exceptionally dynamic, and so it makes sense to me every publisher is adapting to this new world. We are adapting to the evolving world and how users are consuming technology. We had to do this when the world shifted from web to mobile. We are shifting it from a world of mobile to people having ongoing conversations, chatting with these products, talking to them, consuming it in voice and many different form factors. People are expressing preferences for various types of content. They&#8217;re looking for user-generated content. They&#8217;re looking for podcasts. They&#8217;re looking for that. Through it all, we are very committed to both meeting user expectations, and also connecting them to what&#8217;s out on the web. Just even in the last year, even since we&#8217;ve launched these features, we&#8217;ve gone back and added more links. Another area where behavior is changing is that many publishers, rightfully so, are thinking about subscription models. Sure. But I&#8217;m just saying Condé Nast is saying, &#8220;We&#8217;re going to assume our search traffic is zero, given the trends that we see.&#8221; Should they assume that? Look, I always view&#8230; People understand their businesses better&#8230; I mean, I&#8217;m not in a position to tell such an iconic publisher what they should think about their business or plan. If they are building content that is high-quality and people like it, I expect us to reflect that in our products. That much I can commit to them. But I think more than any other company through this evolution, we are working very hard to make sure people can get connected, and we are planning to do it in Search and Gemini, and that still underpins a lot of what we do. But there is evolution. As the technology improves, low-quality clicks get filtered out. That&#8217;s a natural evolution we see. We see it in our metrics. Bounce clicks are going down. And so those are all dynamics. People are going to a wider array of information, and there are more people producing information than ever before. That pie is growing. All these dynamics are happening. It&#8217;s a complex ecosystem, but our commitment is to make sure we reflect the vastness and diversity of the content, and we do think people want to connect ultimately to these sources, but we are trying to meet them in those moments, and people come with very different intent and very different moments. One of the small features we have done, but very important I think, is if you&#8217;ve subscribed to something, we reflect that as a preferred source for you as a user. But that&#8217;s a new change which we didn&#8217;t have before. We are adapting to the fact that publishers are increasingly turning to subscription offerings too. Publishers and YouTube creators, should they be able to opt out of training to get surfaced in Search? This is a much broader topic. Both laws and regulations will have to evolve. The courts will have to be in. It&#8217;s important to protect copyright. It&#8217;s important to protect fair use. And so these are constructs which will evolve dynamically through that. But do you want to be in a bunch of lawsuits with YouTube creators? You&#8217;re in a lawsuit with publishers in the UK . That rhetoric in that lawsuit is getting increasingly heated. Google has said that the proposed solution is a “free rider charter.” Every year the News Media Association sends me a quote to read to you, and they say, &#8220;Google calling us free riders is obviously ridiculous. It&#8217;s basic supply chain economics. If the value were really all on Google&#8217;s side, they would simply allow publishers to opt out.&#8221; Do you want to be in that same fight with a bunch of creators on YouTube about opting out? Look, we are constantly — as part of Gemini developing… We did offer a new opt-out with Google-Extended, and we are in conversations with publishers. We&#8217;ll take feedback and over time work through what makes sense. Obviously we are not the only player in a big ecosystem. We are also trying to put out products which are competitive to other products out there. All the publishers will also write an article saying the product is not very good. So it is more complicated than it looks. You have spent more time thinking about the web and the health of the web and the necessity of the web. Paint me the picture for what a healthy web looks like in an agentic search world. One of the arguments I&#8217;ve made over time and I actually see it playing around a little bit more, is I&#8217;ve started using the web more again over the last year to year and a half. All these AI experiences have brought the web back more. There was a time when it felt like&#8230; But I always felt the web would be vibrant. In fact, I&#8217;ve argued the web is going to be vibrant every year, and I would still argue it today. The web is constantly evolving. I&#8217;ve never seen anything as dynamic as the web, which is why it&#8217;s been such a privilege to be part of that evolution. I look at agents, and that is the next evolution of the web, which we will deal with, and I think it will evolve the web pretty profoundly. There will be a lot of debates about what&#8217;s okay, what&#8217;s not, but people want to put out information, to connect with other people. People want to be connected. People aren&#8217;t trying to be in a siloed world, detached. That doesn&#8217;t reflect the reality of the human experience. I think the web is going to play as central a role on it as ever before. In fact, the Universal Commerce Protocol , if anything, what we announced yesterday, I think people are slightly underestimating the impact of it. Actually, can I juxtapose that? There are a lot of muscular announcements about new products, new features, and agentic tools you can use, and UCP and Amazon and Walmart and everyone saying, &#8220;We&#8217;re going to use a new standard we&#8217;re building for shopping,&#8221; and all that is very tangible. And then I/O ended with Demis Hassabis, the CEO of DeepMind, coming out, and he said this thing that I have not been able to stop thinking about. He said, &#8220;Google&#8217;s cutting-edge research and products will help unlock AGI&#8217;s incredible potential for the benefit of the entire world. When we look back at this time, I think we will realize that we were standing in the foothills of the singularity.&#8221; Can you tell me what it means to be in “the foothills of the singularity”? Demis and I have had long, deep conversations on this topic. In this context, the advent of AGI is what he thinks of as the singularity. Do you have a definition of AGI? Have you debated it? Do you have an agreement? We debate it a lot. I think both Demis and I are very close in how we think about things. There is a harder definition of AGI, which is that it has to be more comprehensively able to do a wide range of tasks, including cognitive tasks, in a way that&#8217;s comparable. We&#8217;ll at some point actually put it out as a company, and we are working on that. But that&#8217;s what he&#8217;s talking about in this context. By the way, I think it&#8217;s important for us to understand that this technology is progressing very rapidly. Later today, I&#8217;ll be going and spending time with our AI researchers, not just in our company, but also amongst the frontier labs. There&#8217;s wide consensus that this technology, AGI, is&#8230; people may quibble around whether it will be three years, but the technology&#8217;s coming sooner rather than later. It&#8217;s more important to communicate that because — to an earlier part of the conversation — it&#8217;s important that we as a society understand it and are preparing as much as possible. I asked you this question maybe the first time we ever talked about AI. I asked you if language was intelligence . And the progression here is we&#8217;re layering more and more on LLMs. We&#8217;re doing longer chains of reasoning, we&#8217;re building harnesses, we&#8217;re doing all this stuff, but the core technology is still transformers. It&#8217;s still the thing Google invented so long ago. Can LLMs get you to AGI? Is that path clear? The trajectory over the last three years has been incredible. The LLMs of today have evolved in many ways too. We are constantly evolving it. To me, it&#8217;s like asking, can computers get us to the way—? The von Neumann architecture is still what powers most computers today, but he won&#8217;t recognize the modern one of our TPU pods. Or maybe he would. There&#8217;s still a lot of commonality to it. The underlying technology keeps evolving so profoundly. I look at every year we have had major breakthroughs. I mean, you just saw us demo in Antigravity an ability to prompt and create an operating system. It&#8217;s very dangerous for Google to be able to make new operating systems. We&#8217;ll have to make sure we don&#8217;t token max on creating&#8230; I&#8217;ll give you that. It&#8217;s fair, but that is the power of what these things are doing, right? There are the top mathematicians in the world, top physicists in this world who are interacting with these tools and using them in important ways, but can these tools fundamentally make novel scientific discoveries on their own? Not yet. It&#8217;s remarkable how much it&#8217;s progressed. I do think it has important evolutions to happen, and then there are strong opinions out there in the world about how much of a real understanding of the world you need to take that next leap. I&#8217;m pretty optimistic that we will continue to make a lot of progress. What is your timeline? Is it three years, or five years, to AGI? Where are you at? I have always answered it this way: I think that timeline doesn&#8217;t matter because the rate of progress means you&#8217;re dealing with ever more intelligent systems in a profound way. So the way I would answer that question, three years from now, whether you and I call it AGI or not doesn&#8217;t matter because it&#8217;ll be very, very powerful, and we have to prepare for it. Sundar, this was great. Thank you so much for taking the time yet again. Yeah, thanks, Nilay. Pleasure. Questions or comments? Hit us up at decoder@theverge.com. We really do read every email!",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Nobody wants to tell me why they only listen to their own Suno slop",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
-      "date": "2026-05-26T12:46:03.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "There's this alarming trend in the Suno subreddit. People aren't just prompting AI songs; they're sitting around listening almost exclusively to their own slop. And in some cases, they proudly proclaim that they don't listen to music on traditional streaming platforms anymore - it's just AI all day. \"Does anyone just listen to their own [&#8230;]",
-      "rawFullText": "Do you even like art? | Image: Cath Virginia / The Verge, Getty Images There's this alarming trend in the Suno subreddit. People aren't just prompting AI songs; they're sitting around listening almost exclusively to their own slop. And in some cases, they proudly proclaim that they don't listen to music on traditional streaming platforms anymore - it's just AI all day. \"Does anyone just listen to their own music now and not even music on Spotify anymore.?\" \"I definitely listen to my own music most of the time now. Why wouldn't I? It's album after album of bangers\" \"Guilty as charged. It's an infectious addiction, and I love it.\" \"I thought I was the only one that had an addiction to suno.\" \"Last.f … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "对人工智能工作歇斯底里的现实检查",
       "originalTitle": "A reality check on the AI jobs hysteria",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
@@ -240,10 +294,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "是时候解决入门级工作中迫在眉睫的危机了。",
       "originalTitle": "It’s time to address the looming crisis in entry-level work.",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
@@ -255,10 +309,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
-      "title": "OpenAI：大模型、公司动态相关动态",
+      "title": "OpenAI、Grupo Folha和Grupo UOL宣布建立战略内容合作伙伴关系",
       "originalTitle": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
       "source": "OpenAI",
       "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
@@ -274,7 +328,7 @@
       "score": 99
     },
     {
-      "title": "Hugging Face：智能体相关动态",
+      "title": "线束、脚手架和人工智能代理条款值得纠正",
       "originalTitle": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/agent-glossary",
@@ -286,7 +340,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用Nemotron-Labs扩散语言模型实现光速文本生成",
@@ -301,7 +355,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "OpenAI被Gartner评为企业编码代理领导者",
@@ -317,7 +371,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -332,7 +386,7 @@
       "tags": [
         "研究"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "维珍大西洋航空如何通过Codex更快地发货",
@@ -347,10 +401,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "专业化超越规模：大多数人工智能采购决策忽视的战略变量",
       "originalTitle": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
@@ -362,7 +416,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "AdventHealth借助OpenAI推进全人护理",
@@ -394,10 +448,10 @@
         "大模型",
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "MIT Technology Review：模型相关动态",
+      "title": "圆桌会议：人工智能能学会理解世界吗？",
       "originalTitle": "Roundtables: Can AI Learn to Understand the World?",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
@@ -409,10 +463,10 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "在人工智能时代扩展创造力",
       "originalTitle": "Scaling creativity in the age of AI",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
@@ -424,69 +478,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
-    },
-    {
-      "title": "OpenAI模型反驳了离散几何中的中心猜想",
-      "originalTitle": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "date": "2026-05-20T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI模型解决了已有80年历史的单位距离问题，推翻了离散几何中的一个主要猜想，标志着人工智能驱动数学的一个里程碑。",
-      "originalSummary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "Ramp工程师如何通过Codex加速代码审查",
-      "originalTitle": "How Ramp engineers accelerate code review with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ramp",
-      "date": "2026-05-20T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Ramp工程师如何使用Codex与GPT-5. 5来审查代码和发货改进，使他们能够在几分钟而不是几小时内获得实质性反馈。",
-      "originalSummary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 88
-    },
-    {
-      "title": "OpenAI国家教育的下一阶段",
-      "originalTitle": "The next phase of OpenAI’s Education for Countries",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "date": "2026-05-20T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI推进国家教育，通过新的合作伙伴关系、教师培训和改善全球学习成果的工具，扩大人工智能在学校的采用。",
-      "originalSummary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
-      "title": "为新加坡推出OpenAI",
-      "originalTitle": "Introducing OpenAI for Singapore",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-openai-for-singapore",
-      "date": "2026-05-19T20:30:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI for Singapore推出了一项为期多年的人工智能合作伙伴关系，以扩大部署、培养本地人才，并通过人工智能为企业和公共服务提供支持。",
-      "originalSummary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 92
+      "score": 68
     },
     {
       "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
@@ -498,21 +490,6 @@
       "fullContent": "收听下面的会议或观看埃隆·马斯克（ Elon Musk ）输掉了对OpenAI的诉讼，他声称首席执行官萨姆·奥尔特曼（ Sam Altman ）和总裁格雷格·布罗克曼（ Greg Brockman ）在公司的非营利地位上欺骗了他观看报道《麻省理工科技评论》审判的人工智能记者兼律师米歇尔·金（ Michelle Kim ）与主编马特·霍南（ Mat Honan ）的对话，了解审判的幕后情况以及对人工智能竞赛的影响。 演讲者：主编Mat Honan和AI记者Michelle Kim于2026年5月19日录制相关故事： Elon Musk和Sam Altman将因OpenAI未来的Musk诉Altman第1周而上法庭： Elon Musk说他被欺骗了，警告AI可能会杀死我们所有人，并承认xAI提炼了OpenAI的模型Musk诉Altman第2周： OpenAI回击， Shivon Zilis透露Musk试图挖走Sam Altman Musk诉 奥特曼第3周：马斯克和奥特曼互相打击对方的信誉。现在陪审团将选择一方。这就是为什么伊隆·马斯克输掉了对OpenAI的诉讼",
       "originalSummary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in conversation with editor in&#8230;",
       "rawFullText": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in conversation with editor in chief Mat Honan to go behind the scenes of the trial and the implications for the AI race. Speakers : Mat Honan , Editor in Chief, and Michelle Kim , AI Reporter Recorded on May 19, 2026 Related Stories: Elon Musk and Sam Altman are going to court over OpenAI’s future Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side. Here’s why Elon Musk lost his suit against OpenAI",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 79
-    },
-    {
-      "title": "这就是为什么伊隆·马斯克输掉了对OpenAI的诉讼",
-      "originalTitle": "Here’s why Elon Musk lost his suit against OpenAI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-      "date": "2026-05-19T00:53:10.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
-      "fullContent": "周一，马斯克诉奥尔特曼案的陪审团对埃隆·马斯克（ Elon Musk ）进行了重大打击，达成了一致的咨询裁决，即他起诉OpenAI为时已晚，因此，他的主张被适用的时效法规所禁止。美国地方法院法官伊冯娜·冈萨雷斯·罗杰斯（ Yvonne Gonzalez Rogers ）立即接受了这一判决。马斯克在X上宣布，他将对这一决定提出上诉。他写道： “法官和陪审团实际上从未裁定案件的是非曲直，只是根据日历上的技术细节。” OpenAI由马斯克和一组研究人员于2015年共同创立，是一个非营利组织，其使命是为人类的利益开发人工智能，不受产生财务回报的需求的约束。马斯克早期向该公司捐赠了3800万美元$ ，据称是因为OpenAI首席执行官Sam Altman和总裁Greg Brockman承诺将该公司作为一个致力于这一使命的非营利组织。马斯克对OpenAI提出了两项索赔。 首先，他认为奥特曼和布罗克曼违反了他通过捐款建立的慈善信托，违背了他们的承诺，即保持公司是一个非营利组织，并创建了一个多年来不断膨胀的营利性子公司。其次，他认为奥特曼和布罗克曼以马斯克为代价不公正地致富。他在2024年起诉了OpenAI。 马斯克要求法院撤销2025年的重组，该重组将OpenAI的营利性子公司转变为公益性公司，并解除Altman和Brockman的职务。OpenAI辩称，在提起诉讼之前，马斯克起诉该公司的时间已经不多了。违反慈善信托索赔的诉讼时效为三年，而非法获益索赔的诉讼时效为两年。 这意味着马斯克应该在2021年之前发现或有理由发现奥特曼和布罗克曼涉嫌违反慈善信托，以及他们涉嫌在2022年之前不当致富。虽然马斯克认为他发现奥特曼和布罗克曼直到2022年才违背了他们的承诺，但OpenAI声称马斯克有理由在2021年之前考虑这个问题。 马斯克告诉陪审团，他对OpenAI的信念已经经历了“三个阶段” ：在第一阶段，他“热情地支持”该公司。在第二阶段， “我开始对他们告诉我的真相失去信心，”他说。在第三阶段， “我敢肯定，他们正在抢劫这个非营利组织。“这里更深入地探讨了审判中作证的事件时间表。 你可以在这里、这里和这里阅读我在三周试验中所发出的信息。2017年：马斯克提议创建一个营利性子公司2017年，在OpenAI成立两年后，马斯克和其他联合创始人试图创建一个营利性子公司，以筹集足够的资金来构建人工智能通用智能强大的人工智能，可以在大多数认知任务上与人类竞争。他们为谁能控制这个实体而进行了一场激烈的权力斗争。 马斯克还提议将OpenAI与他的电动汽车公司特斯拉合并。在审判期间， OpenAI的律师就这些讨论向马斯克施压，暗示马斯克在2017年就知道奥特曼和布罗克曼计划将公司重心转向-甚至参与此类计划-并且当时有理由起诉。“我不反对有一个小型营利性组织为非营利组织提供资金，”马斯克告诉陪审团...",
-      "originalSummary": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk announced on X that he will&#8230;",
-      "rawFullText": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&nbsp; Musk announced on X that he will be appealing the decision. “The judge & jury never actually ruled on the merits of the case, just on a calendar technicality,” he wrote. OpenAI was cofounded by Musk and a group of researchers in 2015 as a nonprofit with a mission to develop AI for the benefit of humanity, unconstrained by a need to generate financial returns. Musk donated $38 million to the company during its early days, allegedly on the basis that OpenAI CEO Sam Altman and president Greg Brockman had promised to keep the company a nonprofit committed to the mission.&nbsp;&nbsp;&nbsp; Musk brought two claims against OpenAI. First, he argued that Altman and Brockman breached the charitable trust he created through his donations by breaking their promise to keep the company a nonprofit and creating a for-profit subsidiary that ballooned over the years. Second, he argued that Altman and Brockman unjustly enriched themselves at Musk’s expense. He sued OpenAI in 2024.&nbsp; Musk asked the court to unwind a 2025 restructuring that converted OpenAI’s for-profit subsidiary into a public benefit corporation and to remove Altman and Brockman from their roles. OpenAI argued that the time for Musk to sue the company had run out before he brought the case. The statute of limitations on the breach of charitable trust claim is three years, while the statute of limitations on the unjust enrichment claim is two years. This means that Musk should have discovered, or had reason to discover, Altman and Brockman’s alleged breach of charitable trust no earlier than 2021 and their alleged unjust enrichment no earlier than 2022.&nbsp; While Musk argued he discovered that Altman and Brockman had broken their promise only in 2022, OpenAI claimed that Musk had reason to think this well before 2021.&nbsp; Musk told the jury that he has gone through “three phases” in his beliefs about OpenAI: In phase one, he was “enthusiastically supportive” of the company. In phase two, “I started to lose confidence that they were telling me the truth,” he said. In phase three, “I’m sure they’re looting the nonprofit.”&nbsp; Here’s a deeper dive into a timeline of the events as testified in the trial. You can read my dispatches from all three weeks of the trial here and here and here .&nbsp; 2017: Musk proposes creating a for-profit subsidiary In 2017, two years after OpenAI was founded, Musk and the other cofounders tried to create a for-profit subsidiary to raise enough capital to build artificial general intelligence—powerful AI that can compete with humans on most cognitive tasks. They fought a bitter power battle over who would get to control the entity. Musk also proposed merging OpenAI with his electric-car company, Tesla.&nbsp; During the trial, OpenAI’s lawyers pressed Musk on these discussions, suggesting that Musk knew in 2017 about Altman and Brockman’s plans to pivot the company—even participating in such plans—and had reason to sue then. “I was not opposed to there being a small for-profit that provides funding to the nonprofit,” Musk told the jury, “as long as the tail didn’t wag the dog.”&nbsp; 2019: OpenAI creates a for-profit subsidiary with capped profits In 2019, OpenAI created a for-profit subsidiary, under which employees and investors would receive a capped return on their investment. At the same time, the company secured a $1 billion investment from Microsoft. OpenAI argued that Musk again had reason to sue the company then.&nbsp; But Musk testified that he didn’t think the move was violating the nonprofit’s mission. “If you’ve got a capped-profit situation, it hasn’t violated the nonprofit’s goal,” Musk told the jury earlier in the trial. “There was no basis for me to file a lawsuit at that time.” 2020: Microsoft snags an exclusive license&nbsp; In 2020, when Microsoft secured an exclusive license to OpenAI’s GPT-3 model, Musk posted on X: “This does seem like the opposite of open. OpenAI is essentially captured by Microsoft.” OpenAI once again argued that Musk had reason to sue then.&nbsp; But Musk testified that after reading the post, Altman reassured him that “OpenAI was staying on the mission as a nonprofit.” Musk said although he was skeptical, he still had no reason to sue the company at that point. 2022: Microsoft prepares to invest $10 billion in OpenAI It was only in 2022, Musk testified, that he discovered OpenAI had abandoned its nonprofit mission. At that time, Microsoft was preparing to invest $10 billion in OpenAI—a deal that closed in 2023.&nbsp; “I was disturbed to see OpenAI with a $20B valuation,” Musk texted Altman after reading the news . “This is a bait and switch.” Musk told the jury this was the moment that made him realize “the for-profit is the tail wagging the dog.” He thought Microsoft would give $10 billion only if it expected “a very big financial return.” He argued that this was the point he realized “OpenAI had become, for all intents and purposes, a for-profit company with a $20 billion valuation.”&nbsp; “The 2023 deal was different,” Steven Molo, one of Musk’s lawyers, hammered home during his closing argument. The jury sides with OpenAI It was up to the jury to decide whether the evidence supported Musk’s claim that he first realized in 2023 that OpenAI was no longer a nonprofit committed to its mission. In the verdict announced today, they found Musk did in fact have reason to think that he was being misled by Altman and Brockman before 2021. They did not address whether he was in fact misled.&nbsp; Courts often decide cases on procedural grounds like statutes of limitations when they can, because it can be the cleaner way to resolve a case than to grapple with its merits. Musk has said he will appeal the decision to the Ninth Circuit Court of Appeals, a federal appellate court that reviews decisions from district courts in California and other states.",
       "tags": [
         "公司动态"
       ],
@@ -531,10 +508,10 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "介绍Ettin Reranker家族",
       "originalTitle": "Introducing the Ettin Reranker Family",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/ettin-reranker",
@@ -546,7 +523,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
@@ -561,7 +538,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "花岗岩嵌入多语言R2 ：开放式Apache 2.0多语言嵌入， 32K上下文—最佳Sub-100M检索质量",
@@ -576,7 +553,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "解锁连续批处理中的异步性",
@@ -592,21 +569,6 @@
         "AI 热点"
       ],
       "score": 63
-    },
-    {
-      "title": "AWS基础模型培训和推理的构建模块",
-      "originalTitle": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "date": "2026-05-11T23:18:26.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Building Blocks for Foundation Model Training and Inference on AWS”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
     }
   ]
 }
