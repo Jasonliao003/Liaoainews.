@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T11:47:26.636Z",
+  "updatedAt": "2026-05-30T08:10:22.558Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,69 +19,18 @@
   ],
   "articles": [
     {
-      "title": "认知分类变换器：分类-语言建模的理论归纳偏见",
-      "originalTitle": "The Cognitive Categorical Transformer: Category-Theoretic Inductive Biases for Language Modeling",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.28864",
-      "date": "2026-05-29T04:00:00.000Z",
-      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
-      "fullContent": "arXiv: 2605. 28864v1公告类型：新摘要：认知分类变换器（ CCT ）是一种306M参数架构，它增强了预先训练的GPT-2小骨干，其认知接地组件源自类别理论和认知科学的几种灵感。在WikiText-103上的匹配步骤协议（ 215,000个优化器步骤、匹配数据、匹配优化器和调度）下， CCT达到了21. 27个验证困惑度，而24个。 19用于相同微调的GPT-2小基线。因此，与单独的域内微调相比，该架构减少了2. 92 PPL （相对值12% ）。保持GT-Full简单消息在整个七阶段激活计划中绕过的从头开始的再训练消融达到23. 72 PPL ，将84 ％的架构改进（ 2. 92 PPL中的2. 45 ）局部化为GT-Full。 我们在WikiText-103上提供了第一个经消融验证的证据，证明简单的消息传递可以在306M参数范围内改善语言模型的困惑。已发布的GPT-2 Large在WikiText-103上达到22. 05个零拍PPL ，参数是GPT-2 Small的6. 2倍；本文将该数字视为外部发布的参考，而不是架构基准。 关于一致性样式分类先验的三个负面结果（捆平滑，伴随往返，曲率正则化）以及GT-Full和PrecisionWeightedPP的联合结构先验结果一起支持称为*结构/一致性区分*的经验模式，其中添加新拓扑的分类先验改进了语言建模，而实施一致性同一性的分类先验则不支持。",
-      "originalSummary": "arXiv:2605.28864v1 Announce Type: new Abstract: The Cognitive Categorical Transformer (CCT) is a 306M-parameter architecture that augments a pretrained GPT-2 Small backbone with cognitively grounded components derived from category theory and several inspirations from cognitive science. Under a matched-step protocol (215,000 optimizer steps, matched data, matched optimizer and schedule) on WikiText-103, CCT reaches 21.27 validation perplexity, compared with 24.19 for an identically fine-tuned GPT-2 Small baseline. The architecture therefore contributes a 2.92 PPL (12% relative) reduction beyond what in-domain fine-tuning alone provides. A retrain-from-scratch ablation that holds GT-Full simplicial message passing bypassed across the entire seven-phase activation schedule reaches 23.72 PPL, localizing 84% of the architectural improvement (2.45 of 2.92 PPL) to GT-Full. We present the first ablation-validated evidence that simplicial message passing improves language-model perplexity at the 306M-parameter scale on WikiText-103. Published GPT-2 Large reaches 22.05 zero-shot PPL on WikiText-103 with 6.2x more parameters than GPT-2 Small; this paper treats that number as an external published reference, not as the architectural benchmark. Three negative results on consistency-style categorical priors (sheaf smoothing, adjunction round-trip, curvature regularization) and the joint structural-prior result for GT-Full and PrecisionWeightedPP together support an empirical pattern termed the *structure/consistency distinction*, in which categorical priors that add new topology improve language modeling and those that enforce a consistency identity do not.",
+      "title": "在英伟达$ 200亿非收购后，据报道，人工智能芯片初创公司Groq筹集了$ 6.5亿",
+      "originalTitle": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "date": "2026-05-29T17:27:13.000Z",
+      "summary": "这条新闻与算力芯片、投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、投融资相关动态",
+      "fullContent": "芯片制造商Groq希望筹集6.5亿美元的内部资金，因为它从硬件转向更多地关注人工智能推理，即改进人工智能模型响应提示请求的方式的过程。",
+      "originalSummary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "评测",
-        "论文"
-      ],
-      "score": 99
-    },
-    {
-      "title": "基于Frontier LLM的代理可以克服自然表型的本体策划瓶颈",
-      "originalTitle": "Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.28965",
-      "date": "2026-05-29T04:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：公司动态、智能体相关动态",
-      "fullContent": "arXiv: 2605. 28965v1公告类型：新摘要：将自由文本表型描述链接到本体术语，通常称为表型注释，对于比较形态数据的交叉研究集成至关重要。这种劳动密集型流程严重依赖训练有素的人力专家，这使其难以扩展，从而成为关键瓶颈。Dahdul et al. （ 2018 ）在七项系统发育学研究中建立了实体质量（ EQ ）注释的黄金标准（ GS ） ，并用它来评估三位人类策展人和基于本体的语义相似度指标的语义CharaParser NLP工具；他们报告说，机器-人类一致性明显低于策展人（人类-人类）一致性。 在这里，我们重新审视来自Anthropic和OpenAI的五位前沿托管LLM的基准，每个LLM在提供源出版物PDF、原始人类策展人使用的相同注释指南、四个项目本体（ UBERON、PATO、BSPO、GO ）和验证脚本的独立工作空间中充当“代理策展人”。 根据相同的黄金标准进行评估，每个药剂都落在原始研究的三个训练有素的人类生物学家的策展人间变异范围内；表现最好的药剂接近但没有达到表现最好的人类策展人。Agent在所有四个指标上的表现都大大优于Semantic CharaParser。",
-      "originalSummary": "arXiv:2605.28965v1 Announce Type: new Abstract: Linking free-text phenotype descriptions to ontology terms, typically referred to as phenotype annotation, is essential for the cross-study integration of comparative morphological data. This labor intensive process has heavily relied on highly trained human experts, which makes it challenging to scale and thus a key bottleneck. Dahdul et al. (2018) established a Gold Standard (GS) of Entity-Quality (EQ) annotations across seven phylogenetic studies and used it to evaluate three human curators and the Semantic CharaParser NLP tool with ontology-based semantic similarity metrics; they reported that machine-human consistency was significantly lower than inter-curator (human-human) consistency. Here we revisit that benchmark with five frontier hosted LLMs from Anthropic and OpenAI, each operating as an \"agentic curator\" within a self-contained workspace that supplies the source publication PDF, the same annotation guide used by the original human curators, the four project ontologies (UBERON, PATO, BSPO, GO), and a validation script. Evaluated against the same Gold Standard, every agent fell within the range of inter-curator variability of the three trained human biocurators of the original study; the best performing agents approached but did not reach the best performing human curator. Agents substantially outperformed Semantic CharaParser on all four metrics.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "VFEAgent ：端到端自动化有限元分析的多模式代理框架",
-      "originalTitle": "VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.28978",
-      "date": "2026-05-29T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2605. 28978v1公告类型：新摘要：有限元分析（ FEA ）是现代工程设计的基石。然而，它的工作流程本质上很复杂，并且在很大程度上依赖于该领域的专业知识。尽管最近的努力已将大型语言模型（ LLM ）集成到有限元分析中，但现有方法在处理多模式输入和执行复杂任务方面存在局限性。 为了解决这些局限性，我们提出了VFEAgent ，这是一个端到端的多代理系统，旨在直接从输入图像和问题描述中自动进行有限元建模和仿真。 我们的方法集成了两个核心组件： （ 1 ）使用ReAct驱动的推理从异构输入中提取结构化有限元分析规范的多模态视觉语言多代理管道； （ 2 ）验证优先的代码合成框架，结合强大的自我调试和回退机制，以确保可执行性和物理有效性。我们系统地评估了各种工程力学场景下的系统。 结果表明， VFEAgent在生成完整且物理有效的模拟方面取得了很高的成功率，在可靠性和正确性方面优于基于LLM的基线方法。这些发现验证了整个FEA工作流程自动化的可行性，强调了该框架将工程师从繁琐的手动分析中解放出来的潜力。",
-      "originalSummary": "arXiv:2605.28978v1 Announce Type: new Abstract: Finite Element Analysis (FEA) serves as the cornerstone of modern engineering design. However, its workflow is inherently complex and relies heavily on domain expertise. Although recent efforts have integrated Large Language Models (LLMs) into FEA, existing approaches face limitations in handling multimodal inputs and executing complex tasks. To address these limitations, we propose VFEAgent, an end-to-end multi-agent system designed to automate FEA modeling and simulation directly from input images and problem descriptions. Our methodology integrates two core components: (1) a multimodal vision-language multi-agent pipeline that employs ReAct-driven reasoning to extract structured FEA specifications from heterogeneous inputs and (2) a verification-first code synthesis framework, incorporating robust self-debugging and fallback mechanisms to ensure executability and physical validity. We systematically evaluated the system across various engineering mechanics scenarios. The results demonstrate that VFEAgent achieves a high success rate in generating complete and physically valid simulations, outperforming LLM-based baseline methods in reliability and correctness. These findings validate the feasibility of automating the complete FEA workflow, highlighting the framework's potential to liberate engineers from tedious manual analysis.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "多模态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "注意你的语气：语气会改变LLM的表现吗？",
-      "originalTitle": "Mind Your Tone: Does Tone Alter LLM Performance?",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.29027",
-      "date": "2026-05-29T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2605. 29027v1公告类型：新摘要：大型语言模型（ LLM ）的使用正在激增，但其性能根据提示风格和音调而有所不同。在这项研究中，我们调查了提示中的音调变化是否以及如何导致客观多项选择题LLM的准确性差异。 我们使用了两个数据集：具有五个音调变体的50个基本问题数据集和跨越57个受试者的570个基本问题MMLU子集，具有七个音调变体。进行了实验，以评估四种具有成本效益的流行LLM的性能： ChatGPT-4o、ChatGPT-5-nano、Gemini 2. 5 Flash和Gemini 2. 5 Flash Lite。在模型中，色调效果是系统性的，但高度依赖于模型。 一些模型显示出微小但具有统计学意义的变化，而另一些模型则显示出较大的准确度在色调之间波动。此外，我们识别受试者级别的音调敏感性差异，并提出一个路由框架来解释音调如何调节内部推理模式。我们的研究结果提醒用户不要在LLM部署中假设色调稳健的可靠性。",
-      "originalSummary": "arXiv:2605.29027v1 Announce Type: new Abstract: The use of Large Language Models (LLMs) is proliferating, yet their performance is observed to vary based on prompting styles and tones. In this study, we investigate both whether and how tonal variations in prompts lead to disparate LLM accuracy for objective multiple-choice questions. We use two datasets: a 50-base question dataset with five tone variants and a 570-base question MMLU subset spanning 57 subjects with seven tone variants. Experiments were conducted to evaluate the performance of four cost-efficient, popular LLMs: ChatGPT-4o, ChatGPT-5-nano, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite. Across models, tonal effects are systematic but highly model-dependent. Some models show small, yet statistically significant, shifts, while others exhibit large accuracy swings across tones. Further, we identify subject-level differences in tone sensitivity and present a routing framework to explain how tones may attune internal reasoning modes. Our findings caution users against assuming tone-robust reliability in LLM deployments.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
+        "算力芯片",
+        "投融资",
         "模型"
       ],
       "score": 99
@@ -104,21 +53,50 @@
       "score": 99
     },
     {
-      "title": "Anthropic发布带有新“动态工作流程”工具的Opus 4.8",
-      "originalTitle": "Anthropic releases Opus 4.8 with new &#8216;dynamic workflow&#8217; tool",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
-      "date": "2026-05-28T17:00:09.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。周四， Anthropic发布了其最先进的公开模型的最新版本Opus 4. 8。该型号随处可见，标准定价与之前的Opus版本相同。新模型仅在Opus 4之后的41天推出。 7已发布，比正常的人类升级周期快得多。（最新的Sonnet和Haiku型号分别有三个月和七个月的历史。）快速周转可能与对Opus 4. 7的冷淡接待有关，一些用户对此感到失望。在此期间， OpenAI的Codex和Google的Gemini Flash模型也发布了重要的新版本，这增加了Anthropic跟上步伐的压力。作品4。 8附带了预期的一流基准结果，但也特别关注模型如何管理不良或不确定的数据。在发布文章中， Anthropic的早期测试人员发现，新模型“更有可能标记其工作的不确定性，并且不太可能提出不受支持的说法。”与这一点相呼应的是， Bridgewater同事的证词称，升级的最大区别是“Opus 4。 8倾向于主动标记分析的输入和输出问题，这是其他模型经常遗漏的，留给用户去捕捉。“与新模型一起， Anthropic推出了一项名为动态工作流的功能，该功能将在研究预览中提供。该系统旨在帮助像Opus这样的大型模型管理数百个并行子代理的复杂任务。“ Claude Code与Opus 4。 8现在可以在从启动到合并的数十万行代码之间进行代码库规模的迁移，并将现有的测试套件作为其条形图。”该帖子解释说。在上个月的初步预览引发了网络安全问题之后， Anthropic仍在推迟其最先进的Mythos模型。然而，该公司在今天的Opus版本中暗示，一旦必要的保护措施完成， Mythos预览期可能会很快结束。 该公司写道： “我们正在开发这些保障措施方面取得迅速进展，并希望能够在未来几周内将Mythos级模型带给我们的所有客户。”当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "title": "值得信赖的第三方评估的共享攻略",
+      "originalTitle": "A shared playbook for trustworthy third party evaluations",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "date": "2026-05-29T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI分享有关第三方人工智能评估的指导，涵盖如何评估前沿系统的模型功能、保障措施和有效性。",
+      "originalSummary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "智能体",
-        "产品发布"
+        "模型"
       ],
       "score": 99
+    },
+    {
+      "title": "Braintrust如何通过Codex将客户请求转化为代码",
+      "originalTitle": "How Braintrust turns customer requests into code with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/braintrust",
+      "date": "2026-05-29T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "Braintrust工程师如何将Codex与GPT-5. 5结合使用，以更快地运行实验和编码。",
+      "originalSummary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "当公司变得过于人工智能化时会发生什么？",
+      "originalTitle": "What happens when companies become too AI-pilled?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+      "date": "2026-05-29T17:57:05.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "Box创始人Aaron Levie指出，决定人工智能可以取代你的工作的人也是最不可能理解你的工作真正涉及的人，他指出这是“人工智能精神病”的一个例子。“事实上， ClickUp最近削减了22%的人工智能代理人员， 2026年的技术裁员已经接近2025年的水平， […]",
+      "originalSummary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
     },
     {
       "title": "克劳德的新模式在混乱时更加“诚实”",
@@ -134,22 +112,6 @@
         "大模型",
         "公司动态",
         "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Oculus创始人的对话式人工智能初创公司Sesame推出其iOS应用程序",
-      "originalTitle": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
-      "date": "2026-05-28T15:35:43.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
-      "fullContent": "Sesame的新iOS应用程序将其对话式人工智能代理带给公众，提供更自然的来回互动，旨在让人感觉不像传统的聊天机器人，而更像是与人交谈。",
-      "originalSummary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布"
       ],
       "score": 99
     },
@@ -185,6 +147,36 @@
         "公司动态"
       ],
       "score": 99
+    },
+    {
+      "title": "互联网正在为机器重建",
+      "originalTitle": "The internet is being rebuilt for machines",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "date": "2026-05-28T21:24:01.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "随着人工智能代理从实验转向生产， AWS、Cloudflare和其他公司正在重新设计云基础设施，以实现由机器生成的互联网流量而不是人类用户主导的未来。",
+      "originalSummary": "As AI agents move from experiments to production, AWS, Cloudflare, and others are redesigning cloud infrastructure for a future dominated by machine-generated internet traffic instead of human users.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 94
+    },
+    {
+      "title": "Endava如何使用Codex构建代理组织",
+      "originalTitle": "How Endava builds an agentic organization with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/endava",
+      "date": "2026-05-28T12:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
+      "fullContent": "了解Endava如何使用Codex构建代理组织，加速软件交付并将需求分析从数周减少到数小时。",
+      "originalSummary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 91
     },
     {
       "title": "通过Codex构建自我完善的税务代理",
@@ -234,22 +226,7 @@
         "评测",
         "模型"
       ],
-      "score": 97
-    },
-    {
-      "title": "人工智能试图埋葬这位政客—现在人们实际上听说过他",
-      "originalTitle": "AI tried to bury this politician — now people have actually heard of him",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/policy/937650/ai-alex-bores-openai-anthropic-ny12",
-      "date": "2026-05-27T15:40:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "NY-12国会候选人Alex Bores在竞选活动中发表讲话。|彭博社（ Bloomberg ）通过盖蒂图片社（ Getty Images ） 6月纽约第12届国会选区的民主党初选结束时， Anthropic和OpenAI将花费数百万美元争夺人工智能的政治未来：谁来监管它，或者谁将因试图监管它而受到惩罚。 但他们不和的真正赢家可能是他们目前正在争夺的那个人：一位曾经晦涩难懂的纽约州议员，他们让史翠珊成为人工智能安全监管的典范。自2025年底以来，由OpenAI、Palantir和a16z高管资助的超级PAC Leading the Future已经花费了数百万美元来对抗Alex Bores ，后者撰写了......阅读The Verge的完整故事。",
-      "originalSummary": "By the time that the Democratic primary for New York's 12th congressional district wraps up in June, Anthropic and OpenAI will have spent millions on their battle over the political future of AI: who gets to regulate it, or who will be punished for trying to regulate it. But the real winner of their feud [&#8230;]",
-      "rawFullText": "NY-12 congressional candidate Alex Bores speaks during a campaign event. | Bloomberg via Getty Images By the time that the Democratic primary for New York's 12th congressional district wraps up in June, Anthropic and OpenAI will have spent millions on their battle over the political future of AI: who gets to regulate it, or who will be punished for trying to regulate it. But the real winner of their feud may be the guy they're currently fighting over: a once-obscure New York state assemblyman, who they've Streisand-effected into becoming the poster child for AI safety regulation. Ever since late 2025, Leading the Future, a super PAC funded by OpenAI, Palantir, and a16z executives, has spent millions against Alex Bores, who wrote one of the … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "思科和OpenAI通过Codex重新定义企业工程",
@@ -267,6 +244,21 @@
       "score": 93
     },
     {
+      "title": "2026年选举信息和保障措施",
+      "originalTitle": "Election information and safeguards in 2026",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/election-safeguards-2026",
+      "date": "2026-05-27T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "在全球选举之前，我们正在帮助人们获取信息，为网络维护者提供支持，并提高人工智能的透明度",
+      "originalSummary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 80
+    },
+    {
       "title": "在人工智能时代重新思考组织设计",
       "originalTitle": "Rethinking organizational design in the age of agentic AI",
       "source": "MIT Technology Review",
@@ -279,7 +271,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -297,15 +289,15 @@
       "score": 72
     },
     {
-      "title": "是时候解决入门级工作中迫在眉睫的危机了。",
-      "originalTitle": "It’s time to address the looming crisis in entry-level work.",
+      "title": "是时候解决入门级工作中迫在眉睫的危机了",
+      "originalTitle": "It’s time to address the looming crisis in entry-level work",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
       "date": "2026-05-26T09:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "到目前为止，人工智能还没有产生大规模失业的清晰故事。发达国家的总就业人数大致保持稳定，最近的评估发现，人工智能改变了标题数字的证据有限。但一个令人不安的变化可能隐藏在表面之下：职业阶梯的第一个梯级的安静削弱。 最令人担忧的证据正是我们应该首先看到的：在职业生涯早期的招聘中。斯坦福数字经济实验室（ Stanford Digital Economy Lab ）于2025年11月发布的一份工作文件发现，在人工智能影响最大的职业中， 22至25岁的工人在生成式人工智能传播后，即使在控制了可能影响公司就业决策的其他因素后，就业率也相对下降了16%。 2026年3月的一份人类学报告为类似的结论提供了暗示性证据。在这些职业中，经验更丰富的工人并没有遭受同样的下降。在人工智能风险较低的入门级工作中，就业也没有下降。这种担忧是暴露于人工智能的早期职业工作所特有的。这不是一个小信号。 这表明，公司可能正在使用人工智能来代替人们传统上获得第一个立足点的初级任务--至少对于那些广泛使用生成式人工智能的工作，如软件开发人员、客户服务代表、计算机程序员和信息系统经理。现在是时候改变我们培训、准备和支持即将进入劳动力市场的年轻人的方式了。 教育机构需要为人工智能增强的劳动力时代重新定位。政府必须激励企业雇用和培训早期职业工人。反过来，企业需要认识到培养一支在人工智能方面有经验的长期劳动力的重要性--这一过程始于入门级员工。 学生自己不仅应该承担成为人工智能流利的责任，还应该学习如何将这些知识应用于各个领域。简而言之，我们必须改变传统上对入门级工作的看法。尤其如此，因为近期毕业生的更广泛劳动力市场也在走软。 纽约联邦储备银行报告称， 2025年第四季度，近期大学毕业生的失业率上升至5. 6% ，而就业不足率（通常不需要大学学位的工作的毕业生比例）达到42. 5% ，为新冠肺炎疫情以来的最高水平。没有单一的统计数据可以证明人工智能是导致这种恶化的唯一原因。 总体而言，新冠肺炎疫情后招聘人数减少，年轻人特别容易受到疫情放缓的影响。但是，忽视人工智能正在加速从学校到工作的艰难过渡的可能性是错误的。这些统计数据背后隐藏着巨大的个人痛苦。",
       "originalSummary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career&#8230;",
-      "rawFullText": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career ladder. The most worrisome evidence is showing up exactly where we should expect it first: in early-career hiring. A working paper released in November 2025 by the Stanford Digital Economy Lab found that workers aged 22 to 25 in the most AI-exposed occupations experienced a 16% relative decline in employment after the spread of generative AI, even after controlling for other factors that might affect firms’ employment decisions. An Anthropic report from March 2026 provides suggestive evidence that led to a similar conclusion. More experienced workers in those same occupations did not suffer the same decline. Employment is not also declining in the entry-level jobs with low AI exposure. The concern is specific to early-career jobs that are exposed to AI. That is not a minor signal. It suggests that firms may be using AI to substitute for the junior tasks through which people traditionally gain their first foothold—at least for those in jobs where generative AI is used extensively, like software developers, customer service representatives, computer programmers, and information systems managers. The time is now to make changes in the way we train, prepare, and support young people who are about to enter the workforce. Educational institutions need to reorient for the era of an AI-augmented workforce. Governments must incentivize businesses to hire and train early-career workers. Businesses, in turn, need to recognize the importance of developing a long-term workforce experienced in AI—a process that begins with entry-level workers. And students themselves should take on the responsibility of not only becoming AI fluent but learning how to apply that knowledge in various fields. In short, we must change the way we have traditionally thought of entry-level work. This is especially true because the broader labor market for recent graduates is also softening. The Federal Reserve Bank of New York reported that in the fourth quarter of 2025, the unemployment rate for recent college graduates rose to 5.6%, while the underemployment rate (the share of graduates working in jobs that typically do not require a college degree) reached 42.5%, its highest level since the covid pandemic. No single statistic can prove that AI is the sole cause of that deterioration. Hiring in general is way down post-pandemic, and young people are particularly vulnerable to the slowdown. But it would be a mistake to ignore the possibility that AI is accelerating an already difficult transition from school to work. Behind these statistics is a great deal of personal distress. Recent graduates today often submit hundreds of applications before they receive a single offer , and surveys consistently find elevated rates of anxiety, financial precarity, and burnout among young workers in extended job searches. If AI quietly closes the door on typical early jobs, people will pay the price in delayed independence, postponed family formation, and the sense that their first serious professional efforts have been refused. It also matters because entry-level jobs are part of the economy&#8217;s training system. Junior analysts learn which numbers can be trusted. Young software developers learn how production systems fail. New marketers learn how customers behave outside the neat language of dashboards. Early-career legal and financial staff learn how rules, judgment, deadlines, and human relationships actually interact. If AI absorbs more of the drafting, triage, coding, summarizing, and administrative preparation that once helped train entry-level workers, firms may become more efficient in the short run while society becomes less capable in the longer run. The right way to improve the skills of young workers is not to tell them, “Learn to code.” That advice, which shaped more than a decade of federal initiatives and university expansion, rested on the premise that coding was a stable, scalable skill almost anyone could learn and parlay into a middle-class job. The premise no longer holds. The layer of work AI handles well—translating a specification into routine code, reproducing standard patterns, debugging predictable errors—is precisely the layer that “learn to code” programs were built around. Supervising AI systems in their work is now a much more relevant skill. So understanding the outputs AI systems produce will become very important. To help people develop such skills, we should require universities, community colleges, and professional programs to embed AI literacy, data literacy, prompt-based workflow skills, verification skills, and domain judgment into ordinary degrees. Every graduate should know how to use AI tools, check their output, understand their limits, and combine them with human expertise. This matters even for graduates entering occupations that look relatively safe from AI, such as those in health care. Almost every job contains tasks—drafting, summarizing, scheduling, research, basic data work, routine communication—for which AI is already a substantial productivity tool. The competition most young workers will experience is not human versus machine but colleague versus AI-augmented colleague. For most young workers, the realistic path to making themselves valuable is not to avoid AI but to become fluent in the technology and combine that with domain judgment, contextual reasoning, and human relationship skills. To this end, schools should emphasize paid co-ops, apprenticeships, and employer-linked projects so students build judgment in real workplaces before they graduate. Governments should also create targeted tax credits, wage subsidies , and training grants for employers that hire early-career workers into structured, AI-augmented roles. The architecture for this kind of conditional, behavior-linked subsidy already exists in US tax policy. What is missing is a version of these instruments built specifically around early-career AI-augmented work. Firms, for their part, should stop making hiring decisions based only on short-run cost savings from AI. Young workers are not valuable only for the tasks they perform this quarter. Their value lies in learning, skill formation, institutional memory, and future productivity. Entry-level hiring is not just an expense. It is an investment in the future stock of judgment inside the firm. The most effective AI-augmented senior workforce of the late 2030s will be drawn overwhelmingly from the junior cohort of today. Firms that automate away the learning stage may improve their immediate margins but find themselves, a decade from now, without anyone who understands how their own AI-driven workflows actually behave. Students graduating this spring and next face a tough labor market in transition. AI fluency is becoming a commodity. Domain expertise without AI fluency is being outpaced. The combination is what is genuinely scarce. The mechanical engineer with knowledge of manufacturing and AI proficiency; the software programmer with knowledge of financial services who is also a whiz at AI—these are the types of people who will be in demand. Georgios Petropoulos is an assistant professor at the USC Marshall School of Business. His research focuses on the implications of information technologies for innovation, competition policy, and labor mark ets.",
+      "rawFullText": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career ladder. The most worrisome evidence is showing up exactly where we should expect it first: in early-career hiring. A working paper released in November 2025 by the Stanford Digital Economy Lab found that workers aged 22 to 25 in the most AI-exposed occupations experienced a 16% relative decline in employment after the spread of generative AI, even after controlling for other factors that might affect firms’ employment decisions. An Anthropic report from March 2026 provides suggestive evidence for a similar conclusion. More experienced workers in those same occupations did not suffer the same decline. Employment is also not declining in the entry-level jobs with low AI exposure. The concern is specific to early-career jobs that are exposed to AI. That is not a minor signal. It suggests that firms may be using AI to substitute for the junior tasks through which people traditionally gain their first foothold—at least for those in jobs where generative AI is used extensively, like software developers, customer service representatives, computer programmers, and information systems managers. The time is now to make changes in the way we train, prepare, and support young people who are about to enter the workforce. Educational institutions need to reorient for the era of an AI-augmented workforce. Governments must incentivize businesses to hire and train early-career workers. Businesses, in turn, need to recognize the importance of developing a long-term workforce experienced in AI—a process that begins with entry-level workers. And students themselves should take on the responsibility of not only becoming AI fluent but learning how to apply that knowledge in various fields. In short, we must change the way we have traditionally thought of entry-level work. This is especially true because the broader labor market for recent graduates is also softening. The Federal Reserve Bank of New York reported that in the fourth quarter of 2025, the unemployment rate for recent college graduates rose to 5.6%, while the underemployment rate (the share of graduates working in jobs that typically do not require a college degree) reached 42.5%, its highest level since the covid pandemic. No single statistic can prove that AI is the sole cause of that deterioration. Hiring in general is way down post-pandemic, and young people are particularly vulnerable to the slowdown. But it would be a mistake to ignore the possibility that AI is accelerating an already difficult transition from school to work. Behind these statistics is a great deal of personal distress. Recent graduates today often submit hundreds of applications before they receive a single offer , and surveys consistently find elevated rates of anxiety, financial precarity, and burnout among young workers in extended job searches. If AI quietly closes the door on typical early jobs, people will pay the price in delayed independence, postponed family formation, and the sense that their first serious professional efforts have been refused. It also matters because entry-level jobs are part of the economy&#8217;s training system. Junior analysts learn which numbers can be trusted. Young software developers learn how production systems fail. New marketers learn how customers behave outside the neat language of dashboards. Early-career legal and financial staff learn how rules, judgment, deadlines, and human relationships actually interact. If AI absorbs more of the drafting, triage, coding, summarizing, and administrative preparation that once helped train entry-level workers, firms may become more efficient in the short run while society becomes less capable in the longer run. The right way to improve the skills of young workers is not to tell them, “Learn to code.” That advice, which shaped more than a decade of federal initiatives and university expansion, rested on the premise that coding was a stable, scalable skill almost anyone could learn and parlay into a middle-class job. The premise no longer holds. The layer of work AI handles well—translating a specification into routine code, reproducing standard patterns, debugging predictable errors—is precisely the layer that “learn to code” programs were built around. Supervising AI systems in their work is now a much more relevant skill. So understanding the outputs AI systems produce will become very important. To help people develop such skills, we should require universities, community colleges, and professional programs to embed AI literacy, data literacy, prompt-based workflow skills, verification skills, and domain judgment into ordinary degrees. Every graduate should know how to use AI tools, check their output, understand their limits, and combine them with human expertise. This matters even for graduates entering occupations that look relatively safe from AI, such as those in health care. Almost every job contains tasks—drafting, summarizing, scheduling, research, basic data work, routine communication—for which AI is already a substantial productivity tool. The competition most young workers will experience is not human versus machine but colleague versus AI-augmented colleague. For most young workers, the realistic path to making themselves valuable is not to avoid AI but to become fluent in the technology and combine that with domain judgment, contextual reasoning, and human relationship skills. To this end, schools should emphasize paid co-ops, apprenticeships, and employer-linked projects so students build judgment in real workplaces before they graduate. Governments should also create targeted tax credits, wage subsidies , and training grants for employers that hire early-career workers into structured, AI-augmented roles. The architecture for this kind of conditional, behavior-linked subsidy already exists in US tax policy. What is missing is a version of these instruments built specifically around early-career AI-augmented work. Firms, for their part, should stop making hiring decisions based only on short-run cost savings from AI. Young workers are not valuable only for the tasks they perform this quarter. Their value lies in learning, skill formation, institutional memory, and future productivity. Entry-level hiring is not just an expense. It is an investment in the future stock of judgment inside the firm. The most effective AI-augmented senior workforce of the late 2030s will be drawn overwhelmingly from the junior cohort of today. Firms that automate away the learning stage may improve their immediate margins but find themselves, a decade from now, without anyone who understands how their own AI-driven workflows actually behave. Students graduating this spring and next face a tough labor market in transition. AI fluency is becoming a commodity. Domain expertise without AI fluency is being outpaced. The combination is what is genuinely scarce. The mechanical engineer with knowledge of manufacturing and AI proficiency; the software programmer with knowledge of financial services who is also a whiz at AI—these are the types of people who will be in demand. Georgios Petropoulos is an assistant professor at the USC Marshall School of Business. His research focuses on the implications of information technologies for innovation, competition policy, and labor mark ets.",
       "tags": [
         "AI 热点"
       ],
@@ -340,7 +332,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "使用Nemotron-Labs扩散语言模型实现光速文本生成",
@@ -355,23 +347,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
-    },
-    {
-      "title": "OpenAI被Gartner评为企业编码代理领导者",
-      "originalTitle": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "date": "2026-05-22T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI被评为2026年Gartner企业AI编码代理魔力象限的领导者， Codex因其创新和企业级部署而获得认可。",
-      "originalSummary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 97
+      "score": 76
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -389,21 +365,6 @@
       "score": 79
     },
     {
-      "title": "维珍大西洋航空如何通过Codex更快地发货",
-      "originalTitle": "How Virgin Atlantic ships faster with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/virgin-atlantic",
-      "date": "2026-05-22T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "维珍大西洋如何使用Codex在固定的假期旅行截止日期前出货其改进的移动应用程序，达到接近整体的单元测试覆盖率和零P1缺陷。",
-      "originalSummary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
       "title": "专业化超越规模：大多数人工智能采购决策忽视的战略变量",
       "originalTitle": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
       "source": "Hugging Face",
@@ -416,23 +377,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "AdventHealth借助OpenAI推进全人护理",
-      "originalTitle": "AdventHealth advances whole-person care with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/adventhealth",
-      "date": "2026-05-21T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“AdventHealth借助OpenAI推进全人护理”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 70
     },
     {
       "title": "《克劳德的人类代码》展示了编码的未来--无论你喜欢与否",
@@ -448,7 +393,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "圆桌会议：人工智能能学会理解世界吗？",
@@ -463,7 +408,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "在人工智能时代扩展创造力",
@@ -474,11 +419,11 @@
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
       "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our&#8230;",
-      "rawFullText": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our feet. Social and streaming platforms have multiplied, audiences have fragmented, and our demand for fresh, unique media is insatiable. A recent McKinsey podcast cites that we are watching upwards of 12 hours of video content daily, often on multiple devices and multiple platforms. All this content is expensive to produce: With a baseline budget of $150M, a Hollywood feature runs $1M per minute of finished film; prestige streaming content is in the hundreds of thousands per minute. And since consumers want to engage with authentic, original material , every company is now effectively a media company. That means we all face the same pressure: more content, with the same time and budget constraints. There is no longer a question whether to use AI for content; the math doesn&#8217;t work any other way. What leaders need to focus on now is how to adapt responsibly, protect brand integrity, uplift team creativity, and build customer trust. A few things worth holding onto as this era accelerates: AI amplifies what&#8217;s already there, both good and bad. Weak strategy stays weak. Responsible adoption means knowing what&#8217;s in your tools and models. Provenance and transparency are the foundation, not the finish line. Scale without taste is just noise. Investing in your team&#8217;s judgment is what makes more content matter. Fundamentals of great storytelling have not changed. Regardless of format or channel, what makes audiences lean in are still characters, arc, ingenuity, and surprise. The permanent sprint Creative teams are trapped on the endless hamster wheel of production, and it’s not slowing down. According to Adobe research, content demand will grow 5x over the next two years . Social content shelf life is now measured in hours, not weeks. Keeping fresh work in the pipeline is a permanent sprint, requiring teams to rethink how creative production functions. The first move is freeing creative teams by having AI absorb the repetitive work so they have space for the strategic creative decisions that require human ingenuity. In a recent study from Adobe , 94% of creatives report that AI helps them produce content faster, saving an average of 17 hours per week. That recovered time is not a productivity metric; it is renewed creative capacity. As a use case, Nestlé offers a useful blueprint. Its teams operate across 180 countries with a portfolio of iconic brands including Nescafé, KitKat, and Purina. Using Adobe Firefly Custom Models embedded in existing content workflows allows teams to generate assets in a brand-informed style without disrupting creative flow. At Nestlé, workflow cycle times dropped 50% . &#8220;With Firefly Custom Models, we can react at the speed of culture. It&#8217;s the closest thing we&#8217;ve had to magic.&#8221; says Wael Jabi, global strategic comms lead for KitKat. As we move into the agentic era, the possibilities expand further. Adobe&#8217;s Creative Agent thinks in systems, not tasks, orchestrating across workflows, apps, and processes to close the gap between idea and execution, and get teams out of the production cycles that consume their productivity. Build for your brand, not every brand A company’s brand is how the world recognizes and connects with them. And it’s more than a collection of assets—it is dynamic, subjective, and expressed in thousands of micro-decisions made every day by the people who know it best. As production scales, keeping everything tuned to the brand gets more challenging. Off-the-shelf AI cannot replicate the level of nuance creative teams bring to content, and there’s a real cost to getting it wrong; diluting a brand in market with almost-right output is not an acceptable option. Customer trust is fragile. Starting with a bespoke AI model built with Adobe Firefly Foundry addresses this directly. Firefly Foundry starts with a commercially safe base model and trains further on a company’s IP, making it possible to produce content that genuinely reflects the team&#8217;s vision. And to ensure that Firefly Foundry models truly represent the creatives at the helm, Adobe has partnered with film studios like Wonder Studios, Promise.ai, and B5 Studios, and the “big three” talent agencies CAA, UTA, and WME to deeply understand what it means (and what it takes) to build an IP-immersive model that keeps creatives at the center as these film studios and talent agencies scale their visions. These brand ecosystems can accelerate nearly every phase of the production process, from ideation and storyboarding to production and promotion, all while preserving artistry and authorship. And to power the next generation of creativity and content, Adobe has recently announced a strategic partnership with NVIDIA , delivering best-in-class creative control along with enterprise-grade, commercially safe content at scale. Generic AI gives teams a starting point. But a model trained on a brand&#8217;s own IP gets them to the finish line, while still leaving room for the creative calls that matter most. When agents become the audience AI is not only reshaping how we create; it is reshaping how customers find and engage with brands entirely. According to Adobe Digital Insights, AI-powered shopping has surged 4,700% . Agentic web traffic is up 7,851% year over year . Yet, most businesses still have significant gaps in AI-led brand visibility. If content is invisible to AI agents, then a brand is invisible to customers. Major League Baseball is ahead of this curve . Using Adobe LLM Optimizer, the league monitors how its content surfaces across AI interfaces and makes real-time adjustments to maintain visibility. As fans search for tickets, stats, or game-day experiences, the league ensures its brand shows up wherever that search is happening. And with Adobe’s recent acquisition of Semrush, brand visibility goes even further. The agentic web created an entirely new content surface that did not exist two years ago, and this exponential proliferation of content illustrates precisely why scaled, on-brand content production has become a strategic imperative. A well-built agentic foundation offers full visibility into (and control over) every piece of content, from production to performance. How to prepare for AI integration Here are a few steps to get started: Audit before automation. Content supply chains usually include duplicated processes, unclear ownership, and assets living in many different places. Before AI can accelerate anything, develop a clear map of how content moves through the organization today: who creates it, who approves it, where it lives, and where it breaks down. AI applied to a broken process just breaks it faster. Walk through workflows. Resist the urge to overhaul everything at once. Start with production tasks that are high-volume, low-stakes, and well-defined: asset resizing, localization, and background generation. Use those wins to build internal confidence before expanding into more complex creative territory. Build responsible governance from the start. Governance added as an afterthought becomes a bottleneck. Building it in from the beginning creates a competitive advantage that lets teams move fast with confidence. And this means clear policies on model training, content provenance, human review thresholds, and communicating AI use to customers. The brands that earn lasting trust will treat transparency as a feature, not a footnote. This content was produced by Adobe. It was not written by MIT Technology Review’s editorial staff.",
+      "rawFullText": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our feet. Social and streaming platforms have multiplied, audiences have fragmented, and our demand for fresh, unique media is insatiable. A recent McKinsey podcast cites that we are watching upwards of 12 hours of video content daily, often on multiple devices and multiple platforms. All this content is expensive to produce: With a baseline budget of $150M, a Hollywood feature runs $1M per minute of finished film; prestige streaming content is in the hundreds of thousands per minute. And since consumers want to engage with authentic, original material , every company is now effectively a media company. That means we all face the same pressure: more content, with the same time and budget constraints. There is no longer a question whether to use AI for content; the math doesn&#8217;t work any other way. What leaders need to focus on now is how to adapt responsibly, protect brand integrity, uplift team creativity, and build customer trust. A few things worth holding onto as this era accelerates: AI amplifies what&#8217;s already there, both good and bad. Weak strategy stays weak. Responsible adoption means knowing what&#8217;s in your tools and models. Provenance and transparency are the foundation, not the finish line. Scale without taste is just noise. Investing in your team&#8217;s judgment is what makes more content matter. Fundamentals of great storytelling have not changed. Regardless of format or channel, what makes audiences lean in are still characters, arc, ingenuity, and surprise. The permanent sprint Creative teams are trapped on the endless hamster wheel of production, and it’s not slowing down. According to Adobe research, content demand will grow 5x over the next two years . Social content shelf life is now measured in hours, not weeks. Keeping fresh work in the pipeline is a permanent sprint, requiring teams to rethink how creative production functions. The first move is freeing creative teams by having AI absorb the repetitive work so they have space for the strategic creative decisions that require human ingenuity. In a recent study from Adobe , 94% of creatives report that AI helps them produce content faster, saving an average of 17 hours per week. That recovered time is not a productivity metric; it is renewed creative capacity. As a use case, Nestlé offers a useful blueprint. Its teams operate across 180 countries with a portfolio of iconic brands including Nescafé, KitKat, and Purina. Using Adobe Firefly Custom Models embedded in existing content workflows allows teams to generate assets in a brand-informed style without disrupting creative flow. At Nestlé, workflow cycle times dropped 50% . &#8220;With Firefly Custom Models, we can react at the speed of culture. It&#8217;s the closest thing we&#8217;ve had to magic.&#8221; says Wael Jabi, global strategic comms lead for KitKat. As we move into the agentic era, the possibilities expand further. Adobe&#8217;s Creative Agent thinks in systems, not tasks, orchestrating across workflows, apps, and processes to close the gap between idea and execution, and get teams out of the production cycles that consume their productivity. Build for your brand, not every brand A company’s brand is how the world recognizes and connects with them. And it’s more than a collection of assets—it is dynamic, subjective, and expressed in thousands of micro-decisions made every day by the people who know it best. As production scales, keeping everything tuned to the brand gets more challenging. Off-the-shelf AI cannot replicate the level of nuance creative teams bring to content, and there’s a real cost to getting it wrong; diluting a brand in market with almost-right output is not an acceptable option. Customer trust is fragile. Starting with a bespoke AI model built with Adobe Firefly Foundry addresses this directly. Firefly Foundry starts with a commercially safe base model and trains further on a company’s IP, making it possible to produce content that genuinely reflects the team&#8217;s vision. And to ensure that Firefly Foundry models truly represent the creatives at the helm, Adobe has partnered with film studios like Wonder Studios, Promise.ai, and B5 Studios, and the “big three” talent agencies CAA, UTA, and WME to deeply understand what it means (and what it takes) to build an IP-immersive model that keeps creatives at the center as these film studios and talent agencies scale their visions. These brand ecosystems can accelerate nearly every phase of the production process, from ideation and storyboarding to production and promotion, all while preserving artistry and authorship. And to power the next generation of creativity and content, Adobe has recently announced a strategic partnership with NVIDIA , delivering best-in-class creative control along with enterprise-grade, commercially safe content at scale. Generic AI gives teams a starting point. But a model trained on a brand&#8217;s own IP gets them to the finish line, while still leaving room for the creative calls that matter most. When agents become the audience AI is not only reshaping how we create; it is reshaping how customers find and engage with brands entirely. According to Adobe Digital Insights, AI-powered shopping has surged 4,700% . Agentic web traffic is up 7,851% year over year . Yet, most businesses still have significant gaps in AI-led brand visibility. If content is invisible to AI agents, then a brand is invisible to customers. Major League Baseball is ahead of this curve . Using Adobe LLM Optimizer, the league monitors how its content surfaces across AI interfaces and makes real-time adjustments to maintain visibility. As fans search for tickets, stats, or game-day experiences, the league ensures its brand shows up wherever that search is happening. And with Adobe’s recent acquisition of Semrush, brand visibility goes even further. The agentic web created an entirely new content surface that did not exist two years ago, and this exponential proliferation of content illustrates precisely why scaled, on-brand content production has become a strategic imperative. A well-built agentic foundation offers full visibility into (and control over) every piece of content, from production to performance. How to prepare for AI integration Here are a few steps to get started: Audit before automation. Content supply chains usually include duplicated processes, unclear ownership, and assets living in many different places. Before AI can accelerate anything, develop a clear map of how content moves through the organization today: who creates it, who approves it, where it lives, and where it breaks down. AI applied to a broken process just breaks it faster. Walk through workflows. Resist the urge to overhaul everything at once. Start with production tasks that are high-volume, low-stakes, and well-defined: asset resizing, localization, and background generation. Use those wins to build internal confidence before expanding into more complex creative territory. Build responsible governance from the start. Governance added as an afterthought becomes a bottleneck. Building it in from the beginning creates a competitive advantage that lets teams move fast with confidence. And this means clear policies on model training, content provenance, human review thresholds, and communicating AI use to customers. The brands that earn lasting trust will treat transparency as a feature, not a footnote. Register today for the MIT Technology Review and Adobe LinkedIn Live event: Brand, Trust, and Creativity in the Age of AI . This content was produced by Adobe. It was not written by MIT Technology Review’s editorial staff.",
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
@@ -493,7 +438,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
@@ -508,7 +453,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "介绍Ettin Reranker家族",
@@ -523,7 +468,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
@@ -538,7 +483,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "花岗岩嵌入多语言R2 ：开放式Apache 2.0多语言嵌入， 32K上下文—最佳Sub-100M检索质量",
