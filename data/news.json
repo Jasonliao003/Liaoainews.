@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-31T09:38:12.154Z",
+  "updatedAt": "2026-06-01T19:25:11.064Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,147 @@
   ],
   "articles": [
     {
+      "title": "欢迎NVIDIA Cosmos 3 ：物理AI推理和行动的首个开放式全模型",
+      "originalTitle": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "date": "2026-06-01T04:44:55.000Z",
+      "summary": "这条新闻与推理、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：推理、算力芯片相关动态",
+      "fullContent": "第1部分： Cosmos 3有什么新功能？第2部分： Cosmos 3功能第3部分：将Cosmos 3与扩散器一起使用第4部分：物理AI的数据集第5部分： Cosmos框架第6部分：资源确认NVIDIA Cosmos 3在这里-今天可以在Hugging Face上使用。 Cosmos 3代表了物理AI世界基础模型（ WFM ）的重大飞跃：一个单一的、统一的全方位模型，将世界生成、物理推理和动作生成结合在一个模型中。无需在不同的模型和推理管道之间徘徊- Cosmos 3可以做到这一切。无论您是为机器人、自动驾驶汽车还是智能空间而构建， Cosmos 3都为您奠定了模拟和理解物理世界的基础。 与之前的Cosmos版本相比， Cosmos 3的最大变化是它是一个基于Mixture-of-Transformers （ MoT ）架构的全方位模型。以前，开发人员必须使用不同的模型来实现不同的功能，例如世界生成（ Cosmos Predict ）、受控生成（ Cosmos Transfer ）、场景理解（ Cosmos Reason ）和策略生成（ Cosmos Policy ）。 Cosmos 3在单个模型中实现了所有这一切，该模型可以在一个统一的前传中推理和生成不同的模式。Cosmos 3有助于构建能够理解现实世界的物理AI系统。不仅仅是像素和令牌，还有运动、因果关系、物理和动作。 如果您正在训练机器人折叠衣物、构建自动驾驶模拟或为仓库安全场景生成合成培训数据， Cosmos 3就是为这些用例设计的基础模型。Cosmos 3为机器人挑选和放置用例生成的视频。使用Cosmos 3进行仓库安全数据的图像到视频生成。自动驾驶应用中的Cosmos 3思维链推理。 Cosmos 3建立在MoT骨干网之上，可在单个统一架构内处理所有模式（文本、图像、视频、音频和动作）。每种模态首先由专用编码器（用于视觉理解的ViT、用于视觉/音频生成的VAE和用于动作的域感知向量）编码，然后投影到共享表示空间中。 输入序列分为两个子序列：通过next-token预测处理推理和理解的自回归（ AR ）子序列，以及通过迭代去噪处理生成的扩散（ DM ）子序列。 AR和DM代币在每个变压器层内使用单独的参数集，但通过共同注意进行交互-这就是让单个模型在充当VLM、视频生成器、正向/反向动态模型或机器人策略之间无缝切换而无需任何架构更改的原因。",
+      "originalSummary": "这条新闻与推理、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：推理、算力芯片相关动态",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "PhyDrawGen ：从自然语言生成物理接地图",
+      "originalTitle": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.30512",
+      "date": "2026-06-01T04:00:00.000Z",
+      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
+      "fullContent": "arXiv: 2605. 30512v1公告类型: new摘要:从文本生成物理图需要严格遵守物理定律。虽然当前的生成模型产生了视觉上合理的输出，但它们系统地使力矢量产生幻觉，忽略守恒定律，并违反了几何约束。我们提出了PhyDrawGen ，这是一种神经符号流水线，将语义场景理解与物理约束满意度分离。 首先，大型语言模型从问题文本中提取类型化的场景图。然后，确定性求解器将此图转换为平面直线图（ PSLG ） ，将力平衡、光路和场拓扑编码为精确的几何图元。最后，微调的Qwen-VL模型实现了可视化接地的Propose-Verify循环，以迭代纠正任何约束违规。 PhyDrawGen以跨越力学、光学和电磁学的1,449个问题为基准进行评估，其性能明显优于GPT-5图像、Gemini 2. 5 Flash和Gemini 3 Pro ，即使在不寻常的物体问题上也能显示出强大的物理精度。",
+      "originalSummary": "arXiv:2605.30512v1 Announce Type: new Abstract: Generating physics diagrams from text requires strict adherence to physical laws. While current generative models produce visually plausible outputs, they systematically hallucinate force vectors, ignore conservation laws, and violate geometric constraints. We present PhyDrawGen, a neuro-symbolic pipeline that decouples semantic scene understanding from physical constraint satisfaction. First, a large language model extracts a typed scene graph from the problem text. A deterministic solver then converts this graph into a Planar Straight-Line Graph (PSLG), encoding force balance, optical paths, and field topologies as exact geometric primitives. Finally, a fine-tuned Qwen-VL model implements a visually grounded propose-verify loop to iteratively correct any constraint violations. Evaluated on a benchmark of 1,449 problems spanning mechanics, optics, and electromagnetism, PhyDrawGen significantly outperforms GPT-5-image, Gemini 2.5 Flash, and Gemini 3 Pro, demonstrating robust physical accuracy even on unusual-object problems.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "评测",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "线束更新不是线束优势：解开自我进化LLM代理的演进能力",
+      "originalTitle": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.30621",
+      "date": "2026-06-01T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2605. 30621v1公告类型：新摘要： LLM代理越来越多地被部署为围绕可编辑外部线束构建的系统，包括提示、技能、记忆和工具，在不更改模型参数的情况下塑造任务执行。线束自我进化通过从执行证据中更新这些线束来适应此类代理。 然而，目前尚不清楚模型在任务解决中的基本能力是否预测了其在线束自我进化中的能力：哪些模型产生有用的线束更新，哪些模型实际上从中受益？我们分析了两种线束自我进化能力： （ i ）线束更新，从执行证据中生成有用的持久线束更新的能力； （ ii ）线束受益，在任务解决期间从更新的线束中受益的能力。 我们的分析揭示了两个发现。首先，线束更新的基本能力是平的：来自不同能力层的模型产生线束更新，导致惊人的相似收益；甚至Qwen3. 5-9B的更新产生的收益与Claude Opus ~ 4. 6相当。 其次，线束效益在基础能力方面是非单调的：弱层模型从更新的线束中受益不多，中层模型受益最多，而强层模型受益不如中层。我们将弱层的低增益追溯到两种故障模式：弱层模型可能无法激活相关的线束神器，或者激活它们但未能忠实地跟随它们。 这些研究结果表明，将能力预算投资于任务解决代理而不是进化代理，并针对代理培训中的线索调用和长远指导。我们的源代码可在https://github. com/A-EVO-Lab/a-evolve/tree/release/harness-evolution上公开获取。",
+      "originalSummary": "arXiv:2605.30621v1 Announce Type: new Abstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing model parameters. Harness self-evolution adapts such agents by updating these harnesses from execution evidence. Yet it remains unclear whether a model's base capability in task-solving predicts its capabilities in harness self-evolution: which models produce useful harness updates, and which actually benefit from them? We analyze two harness self-evolution capabilities: (i) harness-updating, the capability to produce useful persistent harness updates from execution evidence; (ii) harness-benefit, the capability to benefit from updated harnesses during task solving. Our analysis reveals two findings. First, harness-updating is flat in base capability: models from different capability tiers produce harness updates that lead to surprisingly similar gains; even Qwen3.5-9B's updates yield gains comparable to those of Claude Opus~4.6. Second, harness-benefit is non-monotonic in base capability: weak-tier models benefit little from updated harnesses, mid-tier models benefit most, and strong-tier models benefit less than mid-tier. We trace low gains at the weak tier to two failure modes: weak-tier models may fail to activate relevant harness artifacts, or activate them but fail to follow them faithfully. These findings suggest investing capability budget in the task-solving agent rather than the evolver, and targeting harness invocation and long-horizon instruction following in agent training. Our source code is publicly available at https://github.com/A-EVO-Lab/a-evolve/tree/release/harness-evolution.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MAVEN ：改进Agentic工具调用中的泛化",
+      "originalTitle": "MAVEN: Improving Generalization in Agentic Tool Calling",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2605.30738",
+      "date": "2026-06-01T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2605. 30738v1公告类型：新摘要：跨代理工具调用环境的泛化仍然是可靠的代理推理系统的核心挑战。尽管大型语言模型在单个基准上取得了强劲的成果，但其组成推理策略、保留中间状态和协调跨领域工具的能力仍未得到充分探索。 我们提出了MAVEN （模块化代理验证和执行网络） ，这是一种用于结构化分解、自适应工具编排和中间验证的轻量级符号推理支架。 我们在已建立的工具调用基准（包括BFCL v3、TauBench、Tau2Bench、AceBench ）上评估MAVEN ，并引入MAVEN-Bench ，这是一种具有明确验证和对抗性任务组合的多步数学和物理推理的压力测试基准。 MAVEN-Bench暴露了部分推理质量和端到端任务成功率之间的巨大差距；在直接MAVEN-Bench运行中， MAVEN将其GPT-OSS-120b基础模型的准确率从48%提高到71% ，而无需额外的训练。 它还与前沿专有基线保持竞争力，同时使用开放式重量骨干，估计成本比约为1/10 ，这表明以轻量级验证为中心的支架可以加强成分推理，并激发对野外代理商的更多过程意识评估。",
+      "originalSummary": "arXiv:2605.30738v1 Announce Type: new Abstract: Generalization across agentic tool-calling environments remains a central challenge for reliable agentic reasoning systems. Although large language models achieve strong results on individual benchmarks, their ability to compose reasoning strategies, preserve intermediate states, and coordinate tools across domains remains underexplored. We present MAVEN (Modular Agentic Verification and Execution Network), a lightweight symbolic reasoning scaffold for structured decomposition, adaptive tool orchestration, and intermediate verification. We evaluate MAVEN across established tool-calling benchmarks, including BFCL v3, TauBench, Tau2Bench, AceBench, and introduce MAVEN-Bench, a stress-test benchmark for multi-step mathematical and physical reasoning with explicit verification and adversarial task composition. MAVEN-Bench exposes a substantial gap between partial reasoning quality and end-to-end task success; in direct MAVEN-Bench runs, MAVEN improves its GPT-OSS-120b base model from 48% to 71% accuracy without additional training. It also remains competitive with frontier proprietary baselines while using an open-weight backbone with an estimated cost ratio of roughly 1/10, suggesting that lightweight verification-centered scaffolds can strengthen compositional reasoning and motivate more process-aware evaluation of agents in the wild.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic已正式申请上市",
+      "originalTitle": "Anthropic has officially filed to go public",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
+      "date": "2026-06-01T16:40:38.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "经过数月对OpenAI或Anthropic是否会首次公开募股的猜测， Anthropic周一达到了一个关键的里程碑：向美国证券交易委员会申请启动这一流程。该文件为大规模IPO奠定了基础。截至上周的融资， Anthropic被称为全球最有价值的初创公司，后期估值为9650亿美元（ $ ）。 这超过了其最大竞争对手OpenAI的8520亿美元的成交后估值$。根据该公司的一篇博客文章， Anthropic选择秘密向美国证券交易委员会提交其注册声明草案……阅读The Verge的完整故事。",
+      "originalSummary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fundraise last [&#8230;]",
+      "rawFullText": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fundraise last week, Anthropic is being called the world's most valuable startup, with a post-money valuation of $965 billion. That tops the $852 billion post-money valuation of OpenAI, which is its biggest rival. Anthropic chose to submit its draft registration statement to the SEC confidentially, according to a blog post from the company, meani … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 98
+    },
+    {
+      "title": "Erin Brockovich瞄准数据中心保密",
+      "originalTitle": "Erin Brockovich takes aim at data center secrecy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/",
+      "date": "2026-05-31T21:05:14.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。环保活动家Erin Brockovich有一个新的使命：提高数据中心建设的透明度以及这些数据中心对附近社区的影响。 布罗科维奇最近推出了一个网站，上面有美国各地数据中心的地图。茱莉亚·罗伯茨（ Julia Roberts ）在一部电影中饰演布罗科维奇，戏剧化了她对太平洋燃气电力公司（ Pacific Gas & Electric ）的法律该网站将地图描述为“正在进行的工作” ，其中包括周围社区成员报告的数据中心。 Brockovich在一篇Substack帖子中表示，在4月份呼吁报告数据中心相关问题后，她仅在第一个月就收到了近4000份提交。她写道： “最常见的一个问题--不仅仅是噪音，不仅仅是用水量，不仅仅是水电费上涨--是提交后不断出现的一个词：透明度。” Brockovich补充说，她不是“对数据中心或人工智能进行全面的论证” ，而是反对“我们的地图文件模式：在许可证已经获得后宣布的项目，不回电话的开发商，在邻居知道项目正在考虑之前签署保密协议的地方官员。“从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "Environmental activist Erin Brockovich has a new mission.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "理解关于人工智能精神病的辩论",
+      "originalTitle": "Making sense of the debate over AI psychosis",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "date": "2026-05-31T15:30:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。Box创始人Aaron Levie本周在社交媒体上发表了一篇帖子，暗示科技CEO “特别容易患上人工智能精神病。在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我尽力解开Levie的评论。 一方面，我们注意到他并没有否认人工智能工具，只是坚持认为首席执行官需要真正使用这些工具来理解它们。 与其他更广泛反弹的迹象相比，这是一个相对温和的怀疑，无论你看到即将毕业的大学生嘘声人工智能，围绕科技行业裁员的不良氛围，还是在谷歌宣布将更多人工智能带入搜索体验之后，搜索引擎DuckDuckGo的安装量明显激增。 Kirsten表示，谷歌面临着一个两难境地，即“追逐它觉得必须跟上的东西，但它却扰乱了人们对品牌最重视的东西，而且并没有改善它。”更广泛地说，她想知道“这个反人工智能的时刻是否是初创公司或其他业务领域的机会。“请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。安东尼·哈：人工智能是令人难以置信的两极分化。 这是很难谈论的部分内容；你可能会觉得有点疯狂，因为[同时，]每个人都在使用它，每个人都喜欢它，但没有人使用它，每个人都讨厌它。对于许多人来说，这两件事都是真实的。 在用户方面，有一件事非常引人注目，我们[已经]谈到了谷歌关于搜索的公告，以及人工智能如何成为搜索中更大的一部分—尽管看到谷歌如何尝试稍微后退一点，或者至少在10个蓝色链接体验方面增加一些细微差别，仍然有很多方法可以获得它，这很有趣。它不会完全消失。 但我认为很多人对谷歌的发展方向并不感到兴奋。所以你看，例如， DuckDuckGo说安装量增加了30 ％ ，这是一个巨大的飞跃。当然， DuckDuckGo是一个比谷歌小得多的产品。我认为谷歌并没有立即陷入任何麻烦，但我认为这表明有一个非常重要的受众群体不喜欢当前的人工智能方向。 肖恩·奥凯恩（ Sean O’Kane ） ：当我看到所有这些真正推动人工智能功能和产品的领先人工智能实验室或科技公司时，我会说一件我一直在寻找的事情--对我来说，这似乎只是对人类学方法的崩溃，这种真正试图理解你想为人们提供什么并坚持下去的想法。而谷歌是我认为实际上仍在朝着另一个方向发展的公司之一。",
+      "originalSummary": "On the latest episode of Equity, we debate whether tech CEOs are \"uniquely prone to AI psychosis.\"",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
+    {
+      "title": "我去寻找给你比特币吸烟的人工智能杂草电子烟",
+      "originalTitle": "I went looking for the AI weed vape that gives you Bitcoin for smoking",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/933916/ai-powered-crypto-cannabis-vape",
+      "date": "2026-05-31T13:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "加密大麻电子烟在4月20日找到了我，这是世界各地大麻爱好者的高峰假期。它穿过Slack ，带着一个男人的缩略图，呼出一股蒸汽，上面印着“每一次命中都会传递比特币”的字样。它声称在宣传一款名为Gudtrip的设备，我认为它的一切听起来都是假的。所以我去找它。 经过数周的搜索，我最终发现了数十封电子邮件，以及跨越大陆的报告工作，在某种程度上甚至比我想象的还要愚蠢。我的第一个停靠港是Gudtrip的网站，这只会让电子烟看起来更像是一个恶作剧。该公司对PR的描述…阅读The Verge的完整故事。",
+      "originalSummary": "The crypto weed vape found me on 4/20, the high holiday of cannabis enthusiasts everywhere. It arrived over Slack with the thumbnail of a man exhaling a plume of vapor, the words \"every hit delivers Bitcoin\" emblazoned across it. It claimed to be advertising a device called Gudtrip, and I thought everything about it sounded [&#8230;]",
+      "rawFullText": "The crypto weed vape found me on 4/20, the high holiday of cannabis enthusiasts everywhere. It arrived over Slack with the thumbnail of a man exhaling a plume of vapor, the words \"every hit delivers Bitcoin\" emblazoned across it. It claimed to be advertising a device called Gudtrip, and I thought everything about it sounded fake. So I went looking for it. What I eventually found, after weeks of searching, dozens of emails, and a reporting effort that spanned continents, was somehow even dumber than I'd imagined. My first port of call was Gudtrip's website , which only made the vape seem more like a prank. The company's description of the pr … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
       "title": "我让谷歌的24/7人工智能助手Gemini Spark发挥作用，它实际上非常有用",
       "originalTitle": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
       "date": "2026-05-30T15:30:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。 Gemini Spark是谷歌新的全天候代理助手，旨在帮助您“导航您的数字生活” ，这本质上意味着完成您的在线待办事项，总结您没有时间阅读的事情（例如整个收件箱） ，或者组织一些本来会耗费太多屏幕时间的手工劳动，例如个人费用电子表格。 该服务在5月份的谷歌年度开发者大会上首次推出，首席执行官Sundar Pichai开玩笑说，在云中的虚拟机上运行的Spark意味着“是的，您可以关闭笔记本电脑。“这里的笑话是，他正在将Spark与其他代理AI系统进行比较，例如广受欢迎的OpenClaw ，它需要让机器保持清醒才能运行其任务。 他建议， Spark对我们其他人来说是一种智能人工智能--那些宁愿通过设置一台始终在线的人工智能机器来完成任务而不用费神的人。在实践中， Spark仍然非常适合与工作相邻的任务，因为它与Google的生产力应用程序（如Gmail、日历、文档、表格和幻灯片）集成在一起。（毕竟，您在个人生活中准备了多少次卡组？ 除非您是Z世代的创作者，向长期离线的朋友解释最新的模因，否则是？ ）谷歌也在努力提出真实世界的例子，让人们相信Spark是个人使用的“必备”工具，而不是“有好处”的工具。 它对“个人工作效率”的建议之一是使用Spark扫描当天的电子邮件和日历，并向您发送包含前三项必做任务的概述”，这已经假设您是在日历或电子邮件应用程序中记下待办事项的人，而不是记事本（虚拟或其他） ，或者只是在您的大脑中保留运行列表。（例如，在Walgreens购买处方药和洗发水。购买更多狗粮。 周六和朋友一起玩。） Google还建议您将Spark用作周末规划器，通过起草Google文档“根据我即将到来的周末开放的日历块建议三项免费活动” ，再次假设您是线下生活中的某种日程安排书呆子。尽管如此，随着双子座火花的抢先体验，我决定用我自己的一些现实世界的建议来完成它的步伐。 我很惊讶这是一个相当有用的消费者人工智能的实现，但不是一个值得拥有自己的品牌。对于一项最初的任务，我请求Spark帮助进行与购物相关的研究。我们的想法是帮助我进行日常的当地药店家居用品之旅，所以我根据我可以剪辑的每周优惠和优惠券向Spark询问产品建议。",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“我让谷歌的24/7人工智能助手Gemini Spark发挥作用，它实际上非常有用”。它主要涉及大模型方向，热度评分为 86。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 88
+      "score": 86
     },
     {
       "title": "人工智能骗子正在制造假黑人出售Shein垃圾",
@@ -46,37 +174,37 @@
       "tags": [
         "视频生成"
       ],
-      "score": 83
+      "score": 81
     },
     {
-      "title": "软银表示将投资高达750亿美元(€ 750亿美元)建设法国数据中心",
-      "originalTitle": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "title": "TechCrunch AI：AI 热点相关动态",
+      "originalTitle": "SoftBank says it will invest up to €75B to build French data centers",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
       "date": "2026-05-30T21:45:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前获得高达$ 410的Disrupt Early Bird优惠。PT.立即注册。软银集团今天宣布，计划花费高达750亿欧元（约合870亿美元）来扩大法国的数据中心容量。该公司表示，目标是开发和运营高达5千兆瓦的额外数据中心容量。 该计划的第一阶段包括在敦刻尔克（ Loon-Plage ）、博斯克尔（ Bosquel ）和布尚（ Bouchain ）建造数据中心，到2031年为上法兰西地区提供3.1千兆瓦的容量。OpenAI的投资者和客户软银表示，这将是其在欧洲最大的人工智能基础设施投资。 法国经济部长罗兰·莱斯库尔（ Roland Lescure ）在一份声明中表示，这一宣布“证明了总统埃马纽埃尔·马克龙（ Emmanuel Macron ）将法国定位为人工智能价值链上的主要目的地的雄心壮志。“在美国，由于环境问题，以及数据中心如何影响电网和公用事业价格的问题，对数据中心建设的反对正在升温。 尽管如此，软银早些时候宣布计划在俄亥俄州建立一个数据中心，由一个新的9.2千兆瓦天然气工厂提供动力。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "“真是个笑话” ： Github Copilot基于令牌的新计费方式引发了开发人员的惊愕",
-      "originalTitle": "&#8216;What a joke&#8217;: Github Copilot&#8217;s new token-based billing spurs consternation among devs",
+      "originalTitle": "&#8216;What a joke&#8217;: GitHub Copilot&#8217;s new token-based billing spurs consternation among devs",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
       "date": "2026-05-30T16:30:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
       "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。至少对于这个小家伙来说，微软的Github Copilot的黄金时代似乎已经结束。该公司正在将其计费系统从统一的订阅费率转换为代币使用系统，该系统有可能以更高的费率向用户收费。 规模较大的企业可能仍然有足够的动力，但规模较小的公司和工人可能会想知道他们应该如何平衡每月的预算。这些变化将于6月1日进行，这意味着用户将根据他们工作时烧毁的代币数量收费，而不是根据请求收取较低的统一费率。 一些遭受金融鞭笞的开发商已经前往Reddit和X等地哀叹，在许多情况下，这似乎是成本的急剧上升。“真是个笑话，”一位Redditor最近写道，声称虽然他们目前每月只支付约29 $ ，但新费率将使他们的成本激增至每月近750 $。“这种新的使用模式非常昂贵。我正在通过取消来调整我的。 以此为代价，它不再具有成本效益，也不再以任何实际方式有用。另一位用户发布了“哇，没想到新的定价模式会这么荒谬”的屏幕截图，显示他们的成本从50 $左右飙升至3000 $左右。增加的声音听起来很极端。 然而，一些Copilot用户反驳了这种批评，并指出，如果你知道自己在做什么，你真的不应该定期通过这么多代币。那些批评者坚持认为，花这么多钱的人是氛围编码者，实际开发知识很少。“我们中的一些人整天工作，仍然几乎没有超额，然后这些屏幕截图之间存在巨大差异。 我很难相信这是工作量的复杂性差异， ”一位用户写道。他们后来补充说：“像这样疯狂的唯一方法是，如果你纯粹是‘氛围编码’ ，并进行大量臃肿的迭代。”“即使是小型服装，如果用作工具，也非常实惠，几乎适用于任何供应商。“其他人则专注于公司以前模式背后的令人难以置信的经济学。 一位Reddit用户在最近的一篇帖子中问道： “天哪，副驾驶损失了多少钱。” Copilot背后的经济学似乎并不总是那么容易掌握，该公司必须花费多少钱来补贴其用户群正在进行的vibe-coding冒险行为同样是神秘的，并且隐藏在公众视野之外。 虽然有些人批评了这些变化，有些人批评了这些批评，但还有一些在线声音认为，鉴于微软鼓励用户不分青红皂白地使用其聊天机器人，开发人员有充分的理由感到不安，现在似乎正在把地毯从他们下面拉出来。",
-      "originalSummary": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+      "originalSummary": "The golden age of Microsoft's GitHub Copilot appears to be at an end.",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 74
     },
     {
       "title": "据报道， Meta正在开发一种人工智能吊坠",
@@ -91,24 +219,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
-    },
-    {
-      "title": "在英伟达$ 200亿非收购后，据报道，人工智能芯片初创公司Groq筹集了$ 6.5亿",
-      "originalTitle": "After Nvidia&#8217;s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-      "date": "2026-05-29T17:27:13.000Z",
-      "summary": "这条新闻与算力芯片、投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、投融资相关动态",
-      "fullContent": "芯片制造商Groq希望筹集6.5亿美元的内部资金，因为它从硬件转向更多地关注人工智能推理，即改进人工智能模型响应提示请求的方式的过程。",
-      "originalSummary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片",
-        "投融资",
-        "模型"
-      ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "通过Rosalind Biodefense增强社会韧性",
@@ -141,7 +252,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Braintrust如何通过Codex将客户请求转化为代码",
@@ -156,37 +267,51 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 93
     },
     {
-      "title": "当公司变得过于人工智能化时会发生什么？",
-      "originalTitle": "What happens when companies become too AI-pilled?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-      "date": "2026-05-29T17:57:05.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "Box创始人Aaron Levie指出，决定人工智能可以取代你的工作的人也是最不可能理解你的工作真正涉及的人，他指出这是“人工智能精神病”的一个例子。“事实上， ClickUp最近削减了22%的人工智能代理人员， 2026年的技术裁员已经接近2025年的水平， […]",
-      "originalSummary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs in 2026 are already nearly matching all of 2025, [&#8230;]",
+      "title": "OpenAI：公司动态相关动态",
+      "originalTitle": "Boston Children’s uses AI to unlock new diagnoses",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/boston-childrens-hospital",
+      "date": "2026-05-29T12:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
       "rawFullText": "",
       "tags": [
-        "智能体"
+        "公司动态"
       ],
-      "score": 94
+      "score": 92
     },
     {
-      "title": "克劳德的新模式在混乱时更加“诚实”",
-      "originalTitle": "Claude’s new model is more ‘honest’ when it messes up",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
-      "date": "2026-05-28T17:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic将于周四发布Claude Opus 4. 8 ，该公司正在宣传该模特的“诚实”。“根据Anthropic的说法，它训练”所有[其]模型诚实-例如，避免声称他们无法支持。“但它指出，”人工智能模型的一个普遍问题是，尽管证据薄弱，但他们有时会急于下结论，自信地将他们的工作表现为取得进展。“人工智能实验室声称，早期的测试人员已经发现了Opus 4。 8 “更有可能标记其工作的不确定性，并且不太可能提出不受支持的索赔。“在公司的评估中， Opus 4. 8 ”的可能性比其前身低4倍左右……阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic, it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, [&#8230;]",
-      "rawFullText": "Anthropic is releasing Claude Opus 4.8 on Thursday, and the company is touting the model's \"honesty.\" According to Anthropic , it trains \"all [its] models to be honest - for instance, to avoid making claims that they can't support.\" But it notes that \"a general problem with AI models is that they sometimes jump to conclusions, confidently presenting their work as making progress despite thin evidence.\" The AI lab claims that early testers have found that Opus 4.8 \"is more likely to flag uncertainties about its work and less likely to make unsupported claims.\" In the company's evaluations, Opus 4.8 is \"around 4x less likely than its predeces … Read the full story at The Verge.",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/torch-profiler",
+      "date": "2026-05-29T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "MUFG旨在通过OpenAI成为原生AI",
+      "originalTitle": "MUFG aims to become AI-native with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-05-28T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "三菱日联使用ChatGPT Enterprise构建人工智能原生组织，改进工作流程，并大规模提供新的人工智能金融服务。",
+      "originalSummary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态",
-        "模型"
+        "公司动态"
       ],
       "score": 99
     },
@@ -208,22 +333,6 @@
       "score": 99
     },
     {
-      "title": "MUFG旨在通过OpenAI成为原生AI",
-      "originalTitle": "MUFG aims to become AI-native with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/mufg",
-      "date": "2026-05-28T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "三菱日联使用ChatGPT Enterprise构建人工智能原生组织，改进工作流程，并大规模提供新的人工智能金融服务。",
-      "originalSummary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
       "title": "Endava如何使用Codex构建代理组织",
       "originalTitle": "How Endava builds an agentic organization with Codex",
       "source": "OpenAI",
@@ -236,22 +345,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 88
     },
     {
-      "title": "Microsoft 365 Copilot拥有更快的速度和更干净的设计",
-      "originalTitle": "Microsoft 365 Copilot gets a speed boost and cleaner design",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
-      "date": "2026-05-28T20:14:07.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "微软正在推出改进版的Microsoft 365 Copilot ，提供更干净的设计，该公司声称其加载速度是其两倍。根据Microsoft的说法，作为此次更新的一部分， Copilot将提供更可靠和结构化的响应，更易于扫描。重新设计正在桌面和移动设备上推出，并附带微软称之为“渐进披露”的功能。 “这意味着Copilot将根据您的提示为您提供工具和控件，而不是同时显示一堆选项。您现在也可以直接在Copilot升级的提示框中设置文本格式，该提示框将扩展以适合每……阅读完整故事。",
-      "originalSummary": "Microsoft is launching a revamped version of Microsoft 365 Copilot, offering a cleaner design that the company claims loads twice as fast. As part of this update, Copilot will provide more reliable and structured responses that are easier to scan, according to Microsoft. The redesign, which is rolling out across desktop and mobile devices, comes [&#8230;]",
-      "rawFullText": "Microsoft is launching a revamped version of Microsoft 365 Copilot, offering a cleaner design that the company claims loads twice as fast. As part of this update, Copilot will provide more reliable and structured responses that are easier to scan, according to Microsoft. The redesign, which is rolling out across desktop and mobile devices, comes with a feature Microsoft calls \"progressive disclosure.\" That means Copilot will present you with tools and controls based on your prompt, instead of showing a bunch of options at once. You can now format your text directly inside Copilot's upgraded prompt box as well, which will expand to fit every … Read the full story at The Verge.",
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "The AI Hype Index: AI gets booed in graduation season",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
+      "date": "2026-05-28T09:51:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can&#8230;",
+      "rawFullText": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can hear you,” he said, before conceding that fears about disappearing jobs and a broken future were “rational.” This is not exactly the message one hopes to hear while sweating under a polyester gown and tallying student loan payments. Graduates have been jeering at AI pep talks at other commencements too, including ceremonies at the University of Central Florida and Middle Tennessee State University. Still, increasingly loud skepticism hasn’t stopped OpenAI from winning court cases, raising enormous sums of money, and launching new partnerships. And AI is even earning some unlikely cheerleaders: Reese Witherspoon has warned women to embrace it or be replaced by it.",
       "tags": [
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 79
+      "score": 71
     },
     {
       "title": "通过Codex构建自我完善的税务代理",
@@ -287,23 +396,6 @@
       "score": 99
     },
     {
-      "title": "ITBench-AA ：前沿模型在代理企业IT任务的第一个基准测试中得分低于50 ％ —通过人工分析和IBM",
-      "originalTitle": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/itbench-aa",
-      "date": "2026-05-27T17:20:29.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "fullContent": "主要发现： ITBench-AA SRE概述：亮点ITBench-AA是根据其ITBench基准与@ IBM合作构建的。 人工分析和IBM软件创新实验室正在推出ITBench-AA ，这是评估代理企业IT任务模型的一系列新基准中的第一个，从现场可靠性工程任务开始，其中前沿模型得分低于50% ITBench-AA的SRE任务基准模型在Kubernetes事件响应上的性能，其中模型和代理必须通过读取日志、跟踪依赖关系和识别宏观根本原因实体来诊断实时系统 底层ITBench数据集由IBM开发，利用企业IT运营方面的深厚专业知识。在过去的6个月中，人工分析与IBM密切合作，开发了前沿人工智能评估数据集的实施，从现场可靠性工程（ SRE ）开始，随着时间的推移扩展到财务运营（ FinOps ）和首席信息安全官（ CISO ）任务。",
-      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
       "title": "思科和OpenAI通过Codex重新定义企业工程",
       "originalTitle": "Cisco and OpenAI redefine enterprise engineering with Codex",
       "source": "OpenAI",
@@ -316,7 +408,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 90
     },
     {
       "title": "2026年选举信息和保障措施",
@@ -331,7 +423,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Reachy Mini goes fully local",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "date": "2026-05-27T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -346,7 +453,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 88
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -361,7 +468,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -376,23 +483,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "OpenAI、Grupo Folha和Grupo UOL宣布建立战略内容合作伙伴关系",
-      "originalTitle": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "date": "2026-05-25T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：大模型、公司动态相关动态”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 69
     },
     {
       "title": "线束、脚手架和人工智能代理条款值得纠正",
@@ -407,22 +498,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
-    },
-    {
-      "title": "使用Nemotron-Labs扩散语言模型实现光速文本生成",
-      "originalTitle": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "date": "2026-05-23T00:02:03.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "模型、培训方案和技术报告的快速链接一个模型中的三种生成模式性能突出了我们如何通过SGLang Get Started Today训练Nemotron-Labs扩散部署和推理大型语言模型(LLM)已成为代码生成、数学问题解决、总结、文档理解和许多其他开发人员工作流程的默认界面。 然而，在引擎盖下，许多LLM仍然以相同的方式生成文本：一次一个令牌，每个令牌取决于之前出现的令牌。因此，这些模型被称为自回归，因为它们消耗自己的输出。这种自回归（ AR ）方法非常成功。它训练稳定，服务简单，并负责现代语言建模的大部分进展。 但它也会产生一个硬性限制：每个新令牌都需要一个完整的模型传递，并且必须从内存中加载每个权重，然后才能开始计算。对于构建对延迟敏感的应用程序、运行较小的批量大小或尝试更好地利用现代GPU的开发人员，逐个令牌生成可能会将性能保留在桌面上，因为GPU的大部分时间都花在内存操作上，而不是计算上。 此外，一旦令牌由自回归模型生成，它是最终的，它们本质上没有能力修改以前的令牌。因此，错误可能会在生成过程中传播。Nemotron-Labs Diffusion引入了一条新的前进道路：扩散语言模型（ DLM ） ，通过并行生成多个令牌，然后通过多个步骤迭代细化生成的令牌。 这些模型不仅可以更好地利用现代GPU的计算模型并提供显着的运行时性能优势，而且还可以修改生成的令牌，使其更适合修改现有文本并解决填充中间目标。此生成和细化属性还提供了一种内置的方法来控制推理预算。 通过减少细化步骤的数量，可以减少这些模型在运行时的计算要求。Nemotron-Labs Diffusion系列包括3B、8B和14B比例的文本模型，均在商业友好的NVIDIA Nemotron开放模型许可证下提供，以及8B比例的视觉语言模型(VLM) ，在NVIDIA源代码许可证下提供，赋予广泛的研究灵活性。 在整个阵容中， NVIDIA正在发布基本型号和指令调整的聊天变体。NVIDIA还通过NVIDIA Megatron Bridge框架发布了用于训练这些模型的代码。Nemotron-Labs Diffusion是围绕一个简单的想法设计的：自回归和扩散生成不应该是单独的模型系列。它们应该是同一模型的功能。 该模型支持三种生成模式：自回归模式像标准的从左到右LLM一样运行。这保持了与开发人员已知的生成工作流程的兼容性。扩散模式逐块生成区块，在多个步骤中逐渐生成令牌。自我推测模式使用扩散来起草多个候选代币，然后使用自回归解码来验证它们。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 75
+      "score": 89
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -437,7 +513,7 @@
       "tags": [
         "研究"
       ],
-      "score": 78
+      "score": 76
     },
     {
       "title": "专业化超越规模：大多数人工智能采购决策忽视的战略变量",
@@ -452,7 +528,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 67
     },
     {
       "title": "《克劳德的人类代码》展示了编码的未来--无论你喜欢与否",
@@ -468,7 +544,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 90
+      "score": 88
     },
     {
       "title": "圆桌会议：人工智能能学会理解世界吗？",
@@ -483,7 +559,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "在人工智能时代扩展创造力",
@@ -498,7 +574,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 64
     },
     {
       "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
@@ -513,7 +589,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
@@ -528,7 +604,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 70
     },
     {
       "title": "介绍Ettin Reranker家族",
@@ -543,7 +619,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
@@ -558,7 +634,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 63
     },
     {
       "title": "花岗岩嵌入多语言R2 ：开放式Apache 2.0多语言嵌入， 32K上下文—最佳Sub-100M检索质量",
@@ -568,21 +644,6 @@
       "date": "2026-05-14T18:55:01.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "解锁连续批处理中的异步性",
-      "originalTitle": "Unlocking asynchronicity in continuous batching",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/continuous_async",
-      "date": "2026-05-14T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
