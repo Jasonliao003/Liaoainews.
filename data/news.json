@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-01T19:25:11.064Z",
+  "updatedAt": "2026-06-02T12:53:40.544Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,153 @@
   ],
   "articles": [
     {
+      "title": "MindGames竞技场归纳轨道： In2AI解决方案，每步奖励归因延迟",
+      "originalTitle": "MindGames Arena Generalization Track: In2AI Solution with Delayed Per-Step Reward Attribution",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.00017",
+      "date": "2026-06-02T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 00017v1公告类型：新摘要：为多智能体战略交互训练语言模型智能体存在一个核心困难：任何操作的质量可能取决于未来永远不会实现的事件、违反游戏规则的动作或其他玩家做出的决定。 标准强化学习假设奖励可以在每个步骤中分配，但这一假设在结果随时间和代理纠缠的环境中失败。 我们通过资格门控引入延迟的每步奖励归因，这是一个剧集生命周期和后处理管道，仅在剧集结束时计算奖励，根据特定任务的语义将其传播回原始步骤，并从训练中排除缺乏有效依赖信息的步骤。 通过vLLM的连续批处理、基于课程的对手抽样和多级分层批处理构造的异步推出生成，这种方法可以在多智能体环境中实现稳定、高效的样本RL培训。 我们根据NeurIPS 2025的MindGames Arena基准进行评估，其中使用我们的方法训练的单个80亿参数的开源模型与包括GPT-5在内的大型专有系统相匹配或超越，在开放（无限制）和高效（ < = 8B参数）赛道中均排名第一。",
+      "originalSummary": "arXiv:2606.00017v1 Announce Type: new Abstract: Training language model agents for multi-agent strategic interaction presents a core difficulty: the quality of any action may depend on future events that never materialize, on moves that violate game rules, or on decisions made by other players. Standard reinforcement learning assumes that rewards can be assigned at each step, but this assumption fails in settings where outcomes are entangled across time and agents. We introduce delayed per-step reward attribution with eligibility gating, an episode lifecycle and postprocessing pipeline that computes rewards only at episode end, propagates them back to originating steps according to task-specific semantics, and excludes steps that lack valid dependent information from training. Together with asynchronous rollout generation via vLLM's continuous batching, curriculum-based opponent sampling, and multi-level stratified batch construction, this approach enables stable, sample-efficient RL training in multi-agent environments. We evaluate on the MindGames Arena benchmark at NeurIPS 2025, where a single 8-billion-parameter open-source model trained with our method matched or surpassed substantially larger proprietary systems, including GPT-5, in head-to-head play and took first place in both the Open (unrestricted) and Efficient (<=8B parameters) tracks.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Gemini Spark是我有史以来最令人印象深刻和最可怕的人工智能体验",
+      "originalTitle": "Gemini Spark is the most impressive and terrifying AI experience I’ve had yet",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+      "date": "2026-06-02T12:38:08.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "Spark是谷歌对所有事情的新代理答案。根据过去四年的每个产品演示，计划旅行是人工智能的一个杀手级用例。他们都承诺，只需告诉您要去哪里，您的聊天机器人/客服代表/其他热门词语将彻底搜索旅行选项，阅读所有有趣的体验，查看所有当地热门景点，并为您提供完整的行程单。 到目前为止，我发现这只能以最通用的方式起作用：如果你想在地球上任何一个城市做六件最明显的事情，人工智能已经覆盖了你，但仅此而已。我使用Spark的体验非常不同， Spark是谷歌新的始终在线的人工智能代理。Spark雄心勃勃……阅读The Verge的完整故事。",
+      "originalSummary": "According to every product demo from the last four years, planning a trip is a killer use case for AI. Just tell it where you're going, they all promise, and your chatbot / agent / other buzzword will exhaustively search travel options, read up on all the fun things to do, check all the local [&#8230;]",
+      "rawFullText": "Spark is Google’s new agentic answer for everything. According to every product demo from the last four years, planning a trip is a killer use case for AI. Just tell it where you're going, they all promise, and your chatbot / agent / other buzzword will exhaustively search travel options, read up on all the fun things to do, check all the local hotspots, and offer you a fully fledged itinerary. So far, I've found this to work only in the most generic ways: If you want to do the six most obvious things in any city on planet Earth, AI has you covered, but that's about as far as it goes. I had a very different experience using Spark, Google's new always-on AI agent . Spark is a hugely ambitious … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 97
+    },
+    {
+      "title": "精心策划：多代理知识库协议",
+      "originalTitle": "Deliberative Curation: A Protocol for Multi-Agent Knowledge Bases",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.00007",
+      "date": "2026-06-02T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2606. 00007v1公告类型：新摘要：随着人工智能代理从孤立的工具过渡到共享知识生态系统中的协作参与者，管理集体知识管理成为一项关键挑战。 人类平台治理机制不会直接转移：代理人无国籍状态破坏了基于威慑的制裁，模型同质性违反了人群智慧背后的独立性假设，嘲讽性破坏了审议共识。 我们提出了一个结合三个治理层的审议策划协议： （ 1 ）正式化为标记过渡系统的知识工件生命周期； （ 2 ）将Beta声誉与EigenTrust放大相结合的声誉加权审议投票；以及（ 3 ）适用于无国籍代理的渐进式制裁，包括处理故障与对抗行为的破碎代理。 我们在两种逆境场景（ 30个种子，配对t检验）下，通过与100名代理人进行基于代理人的模拟来评估方案，这些代理人涉及七种行为原型。该方案在良性条件下进行适度的精密度交易，以在逆境下具有更好的弹性：在中度逆境下，多数投票为0. 826对0. 791 （ p < 0.001 ） ，在压力下扩大到0. 807对0. 740 （ p < 0.001 ）。 该协议的退化速度大约是大多数投票的三倍。消融分析将提交-揭示投票隐藏确定为最具影响力的单个组件（ 8. 2-8. 6pp精度提高， p < 0. 001 ） ，优于声誉权重和深思熟虑的组合。在模拟中未实施渐进式制裁，并且仍未得到经验验证。",
+      "originalSummary": "arXiv:2606.00007v1 Announce Type: new Abstract: As AI agents transition from isolated tools to collaborative participants in shared knowledge ecosystems, governing collective knowledge curation becomes a critical challenge. Human platform governance mechanisms do not transfer directly: agent statelessness undermines deterrence-based sanctions, model homogeneity violates independence assumptions underlying crowd wisdom, and sycophancy collapses deliberative consensus. We propose a deliberative curation protocol combining three governance layers: (1) a knowledge artifact lifecycle formalized as a labeled transition system; (2) reputation-weighted deliberative voting integrating Beta Reputation with EigenTrust amplification; and (3) graduated sanctions adapted for stateless agents, including broken agent handling distinguishing malfunction from adversarial behavior. We evaluate the protocol through agent-based simulation with 100 agents across seven behavioral archetypes under two adversity scenarios (30 seeds, paired t-tests). The protocol trades modest precision under benign conditions for substantially better resilience under adversity: 0.826 vs 0.791 for majority vote under moderate adversity (p<0.001), widening to 0.807 vs 0.740 under stress (p<0.001). The protocol degrades roughly three times more slowly than majority vote. Ablation analysis identifies commit-reveal vote concealment as the most impactful single component (8.2-8.6pp precision improvement, p<0.001), outperforming reputation weighting and deliberation combined. Graduated sanctions were not exercised in simulation and remain empirically unvalidated.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "树上的药剂：多目标分子优化的路径协调",
+      "originalTitle": "Agents on a Tree: Pathwise Coordination for Multi-Objective Molecular Optimization",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.00008",
+      "date": "2026-06-02T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 00008v1公告类型：新摘要：多目标分子优化需要在相互冲突的目标下搜索广阔的化学空间，其中早期设计决策强烈制约下游结果。现有方法通常依赖于单个策略或固定标量，这限制了它们代表不同权衡和探索多个有前途的设计轨迹的能力。 我们提出了ATOM ，这是一种多智能体框架，将分子优化公式化为树结构搜索。每个节点对应于原子操作，并托管专门针对特定目标或决策环境的代理。代理沿着树的不同路径进行协调，而不是强制执行全球共识，从而使该方法能够维持和比较替代的分子进化轨迹。 对过去优化行为的全局记忆进一步支持跨目标的平衡探索和利用。这种树形结构的相互作用可以对分子设计中固有的长视野依赖关系进行推理。针对涉及活性、可合成性和ADMET相关性质的具有挑战性的多目标基准的实验表明， ATOM在强基线上始终实现了改进的帕累托覆盖率和超容积。 这些结果证明了路径多药剂协调用于分子优化的有效性。代码可在https://anonymous. 4open. science/r/ATOM-41CE上找到。",
+      "originalSummary": "arXiv:2606.00008v1 Announce Type: new Abstract: Multi-objective molecular optimization requires searching vast chemical spaces under conflicting objectives, where early design decisions strongly constrain downstream outcomes. Existing methods typically rely on a single policy or fixed scalarization, which limits their ability to represent diverse trade-offs and to explore multiple promising design trajectories. We propose ATOM, a multi-agent framework that formulates molecular optimization as a tree-structured search. Each node corresponds to an atomic operation and hosts an agent specialized for a particular objective or decision context. Agents coordinate along different paths of the tree rather than enforcing a global consensus, enabling the method to maintain and compare alternative molecular evolution trajectories. A global memory of past optimization behaviors further supports balanced exploration and exploitation across objectives. This tree-structured interaction enables reasoning over long-horizon dependencies inherent in molecular design. Experiments on challenging multi-objective benchmarks involving activity, synthesizability, and ADMET-related properties show that ATOM consistently achieves improved Pareto coverage and hypervolume over strong baselines. These results demonstrate the effectiveness of pathwise multi-agent coordination for molecular optimization. Code is available at https://anonymous.4open.science/r/ATOM-41CE.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 95
+    },
+    {
+      "title": "评估大型语言模型中的交互式推理：可执行游戏的分层基准",
+      "originalTitle": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.00103",
+      "date": "2026-06-02T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2606. 00103v1公告类型：新摘要：我们为推理评估引入了一个多回合交互式框架，将推理视为主动证据获取和信念更新。其中， LLM仅接收任务规则，必须向隐藏环境发出有针对性的查询，随着时间的推移整合部分观察，并决定何时提交最终答案。 除了标准的成功率和交互效率之外，我们还评估了受控上下文扰动下的上下文鲁棒性，以及通过反事实修正和必要性判断进行的元认知适应。我们将框架实例化为474个可执行游戏的基准，每个游戏在对应于五个难度级别的五个固定配置搜索空间下进行评估，并评估广泛的前沿LLM。 结果表明，该基准具有高度的判别性，不仅在成功率方面存在很大差异，而且在交互效率方面也存在很大差异。此外，我们根据经验表明，上下文扰动会导致适度但持续的下降，而反事实的修订和必要性判断会导致更大的下降。",
+      "originalSummary": "arXiv:2606.00103v1 Announce Type: new Abstract: We introduce a multi-turn interactive framework for reasoning evaluation that treats reasoning as active evidence acquisition and belief updating. Wherein, LLMs receive only the task rules, must issue targeted queries to a hidden environment, integrate partial observations over time, and decide when to submit a final answer. Beyond standard success rate and interaction efficiency, we evaluate contextual robustness under controlled contextual perturbations, and metacognitive adaptation through counterfactual revision and necessity judgment. We instantiate the framework as a benchmark of 474 executable games, each evaluated under five fixed configuration search spaces corresponding to five difficulty levels, and evaluate a broad set of frontier LLMs. Results show that the benchmark is highly discriminative, exposing large differences not only in success rate but also in interaction efficiency. Moreover, we empirically show that contextual perturbations cause moderate but consistent declines, whereas counterfactual revision and necessity judgment lead to much larger drops.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "英伟达通过微软、戴尔和惠普的AI代理PC追逐2000 $ CPU市场",
+      "originalTitle": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "date": "2026-06-01T21:35:00.000Z",
+      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。英伟达周日以火花开启了台北庞大的Computex贸易展。这家芯片制造商推出了一款名为RTX Spark的新PC CPU ，它被称为“超级芯片” ，并命名了即将推出由其驱动的AI PC的PC制造商名单。 根据Nvidia的说法，这款超快的1 petaflop芯片旨在安全地运行OpenClaw或Hermes Agent等AI代理。此类RTX Spark Windows PC将于今年秋季在华硕、戴尔、惠普、联想、微软Surface和MSI上市，随后将推出宏碁和技嘉的型号。 除了配备安全沙箱（与微软联合开发）以安全运行代理外， PC还将有足够的CPU、GPU、RAM和底层Nvidia CUDA软件来运行大型语言模型的本地版本。英伟达表示，其RTX技术将为AI提供更快的性能、更好的图像质量，并在1000多个游戏和应用程序中支持AI功能。 这家芯片制造商正在将其作为制作人工智能内容的创作者的替代品进行营销，并为其传统的游戏玩家市场提供重大升级。英伟达表示，已有100多家Windows软件制造商签约支持这款新芯片，包括Adobe、Blender、ComfyUI、Riot Games和Xbox。但Nvidia创始人兼首席执行官Jensen Huang对这些新PC的愿景要大得多。 他想结束启动应用程序、指向、点击和打字的日子。他在新闻稿中说： “有了RTX Spark和微软Windows ，你就会问—而PC会完成这项工作。” “前沿模型。创意工作流程。RTX游戏。全部在笔记本电脑上。“上个月，在又一个创纪录的季度之后，黄向投资者承诺，他已经为英伟达找到了一个新的2000亿美元市场，用于销售人工智能的CPU ，而不仅仅是GPU。 他特别提到了今年早些时候发布的名为Vera的高端服务器CPU ，英伟达表示，它已经售出了价值200亿美元的$。他还暗示了自己更大的野心。“我们将拥有数十亿代理商，而这些数十亿代理商都将使用工具。这些工具将像个人电脑一样，就像我们今天使用个人电脑的人一样，”他在5月的财报电话会议上说。“我们将需要更多的CPU。 “基于Nvidia ARM的Windows设备之前已经尝试过，但失败了。早在2013年，微软就曾在基于Nvidia ARM的Surface RT上注销了9亿美元，戴尔等合作伙伴也抛弃了该产品。",
+      "originalSummary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "佛罗里达州就暴力事件起诉OpenAI的山姆·奥特曼（ Sam Altman ）",
+      "originalTitle": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "date": "2026-06-01T20:03:40.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。OpenAI及其首席执行官Sam Altman周一被佛罗里达州总检察长起诉，这是首次针对ChatGPT涉嫌与多起暴力事件有关的州诉讼。 该诉讼指责OpenAI在安全问题上采取其他方式，因为它试图优先考虑赢得“人工智能军备竞赛并积累大量财富。佛罗里达州总检察长James Uthmeier表示：“今天，我们宣布了对OpenAI及其首席执行官Sam Altman的全国首起诉讼。” “OpenAI和Altman忽视了内部和外部的安全警告，将儿童置于极大的风险之中，并允许危险产品接触到数百万佛罗里达人。 “由于被告对ChatGPT的虚假陈述以及他们不小心将ChatGPT引入佛罗里达州和全世界，大规模枪击者在致命的横冲直撞中得到了帮助和教唆，弱势群体被鼓励自杀，专业人士受到公开羞辱，用户失去了批判性思维技能，未成年人沉迷于一种假装人类同情心的工具，在没有父母监督的情况下收集他们的数据。” 佛罗里达州总检察长办公室于4月对该公司进行了刑事调查。该调查旨在确定ChatGPT在去年佛罗里达州立大学发生的大规模枪击事件中可能扮演的角色。在攻击之前，射手被指控咨询了聊天机器人。OpenAI还被该枪击事件的一名受害者的家属提起民事诉讼。 OpenAI此前否认对佛罗里达州的枪击事件负责。OpenAI发言人此前告诉NBC新闻： “去年在佛罗里达州立大学发生的大规模枪击事件是一场悲剧，但ChatGPT对这一可怕的罪行概不负责。” TechCrunch联系OpenAI征求意见。 OpenAI刚刚结束了另一起涉及前联合创始人伊隆·马斯克（ Elon Musk ）的法律案件，他于2024年起诉该公司，指责该公司背叛了其最初的使命，即通过将该组织转变为营利性企业来帮助人类。在陪审团迅速裁定马斯克等了太长时间才提起诉讼，并且诉讼时效已经过去之后，案件结束。 这只是试图将ChatGPT与暴力死亡联系起来的最新法律案件。去年， OpenAI被加州青少年亚当·雷恩（ Adam Raine ）的父母起诉，后者在与聊天机器人讨论自杀后自杀。在这种情况下，据称ChatGPT为各种自杀方法提供了“技术规范” ，尽管他也提到了心理健康资源。",
+      "originalSummary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "双子座的新人工智能代理与谷歌的演示一样好",
+      "originalTitle": "Gemini’s new AI agent is about as good as Google’s demo",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+      "date": "2026-06-01T20:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "谷歌新的“全天候”人工智能代理Gemini Spark可以代表您做令人震惊的事情。但我不确定这是否值得付出经济代价和潜在的隐私权衡。上周公司给了我访问Spark的权限。谷歌宣称Spark是一个人工智能代理，可以在后台处理任务，甚至是有多个步骤的任务，让您可以放下手机或离开电脑。 它还在Spark网站的顶部宣称，它“始终在你的指导下” ， “你选择打开它” ， “它旨在在采取重大行动之前与你核实。“鉴于moun……在The Verge阅读完整故事。",
+      "originalSummary": "Google's new \"24/7\" AI agent, Gemini Spark, can be shockingly good at doing things on your behalf. But I'm not sure it's worth the financial cost and potential privacy tradeoffs. The company gave me access to Spark last week. Google advertises Spark as an AI agent that can take on tasks and work on them [&#8230;]",
+      "rawFullText": "Google's new \"24/7\" AI agent, Gemini Spark, can be shockingly good at doing things on your behalf. But I'm not sure it's worth the financial cost and potential privacy tradeoffs. The company gave me access to Spark last week. Google advertises Spark as an AI agent that can take on tasks and work on them in the background - even tasks that have multiple steps - allowing you to put your phone down or walk away from your computer. It also advertises at the very top of the Spark website that it's \"always under your direction,\" that \"you choose to turn it on,\" and that \"it's designed to check with you before taking major actions.\" Given the moun … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI前沿模型和Codex现已在AWS上提供",
+      "originalTitle": "OpenAI frontier models and Codex are now available on AWS",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "date": "2026-06-01T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI前沿模型和Codex现已在AWS上普遍可用，为企业提供了一条新的途径，通过他们已经使用的AWS环境、控件和采购工作流使用OpenAI进行构建。客户可以在AWS上开始使用OpenAI ，并更快地从评估到生产。",
+      "originalSummary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
       "title": "欢迎NVIDIA Cosmos 3 ：物理AI推理和行动的首个开放式全模型",
       "originalTitle": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
       "source": "Hugging Face",
@@ -36,72 +183,6 @@
       "score": 99
     },
     {
-      "title": "PhyDrawGen ：从自然语言生成物理接地图",
-      "originalTitle": "PhyDrawGen: Physically Grounded Diagram Generation from Natural Language",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.30512",
-      "date": "2026-06-01T04:00:00.000Z",
-      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
-      "fullContent": "arXiv: 2605. 30512v1公告类型: new摘要:从文本生成物理图需要严格遵守物理定律。虽然当前的生成模型产生了视觉上合理的输出，但它们系统地使力矢量产生幻觉，忽略守恒定律，并违反了几何约束。我们提出了PhyDrawGen ，这是一种神经符号流水线，将语义场景理解与物理约束满意度分离。 首先，大型语言模型从问题文本中提取类型化的场景图。然后，确定性求解器将此图转换为平面直线图（ PSLG ） ，将力平衡、光路和场拓扑编码为精确的几何图元。最后，微调的Qwen-VL模型实现了可视化接地的Propose-Verify循环，以迭代纠正任何约束违规。 PhyDrawGen以跨越力学、光学和电磁学的1,449个问题为基准进行评估，其性能明显优于GPT-5图像、Gemini 2. 5 Flash和Gemini 3 Pro ，即使在不寻常的物体问题上也能显示出强大的物理精度。",
-      "originalSummary": "arXiv:2605.30512v1 Announce Type: new Abstract: Generating physics diagrams from text requires strict adherence to physical laws. While current generative models produce visually plausible outputs, they systematically hallucinate force vectors, ignore conservation laws, and violate geometric constraints. We present PhyDrawGen, a neuro-symbolic pipeline that decouples semantic scene understanding from physical constraint satisfaction. First, a large language model extracts a typed scene graph from the problem text. A deterministic solver then converts this graph into a Planar Straight-Line Graph (PSLG), encoding force balance, optical paths, and field topologies as exact geometric primitives. Finally, a fine-tuned Qwen-VL model implements a visually grounded propose-verify loop to iteratively correct any constraint violations. Evaluated on a benchmark of 1,449 problems spanning mechanics, optics, and electromagnetism, PhyDrawGen significantly outperforms GPT-5-image, Gemini 2.5 Flash, and Gemini 3 Pro, demonstrating robust physical accuracy even on unusual-object problems.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "评测",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "线束更新不是线束优势：解开自我进化LLM代理的演进能力",
-      "originalTitle": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.30621",
-      "date": "2026-06-01T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2605. 30621v1公告类型：新摘要： LLM代理越来越多地被部署为围绕可编辑外部线束构建的系统，包括提示、技能、记忆和工具，在不更改模型参数的情况下塑造任务执行。线束自我进化通过从执行证据中更新这些线束来适应此类代理。 然而，目前尚不清楚模型在任务解决中的基本能力是否预测了其在线束自我进化中的能力：哪些模型产生有用的线束更新，哪些模型实际上从中受益？我们分析了两种线束自我进化能力： （ i ）线束更新，从执行证据中生成有用的持久线束更新的能力； （ ii ）线束受益，在任务解决期间从更新的线束中受益的能力。 我们的分析揭示了两个发现。首先，线束更新的基本能力是平的：来自不同能力层的模型产生线束更新，导致惊人的相似收益；甚至Qwen3. 5-9B的更新产生的收益与Claude Opus ~ 4. 6相当。 其次，线束效益在基础能力方面是非单调的：弱层模型从更新的线束中受益不多，中层模型受益最多，而强层模型受益不如中层。我们将弱层的低增益追溯到两种故障模式：弱层模型可能无法激活相关的线束神器，或者激活它们但未能忠实地跟随它们。 这些研究结果表明，将能力预算投资于任务解决代理而不是进化代理，并针对代理培训中的线索调用和长远指导。我们的源代码可在https://github. com/A-EVO-Lab/a-evolve/tree/release/harness-evolution上公开获取。",
-      "originalSummary": "arXiv:2605.30621v1 Announce Type: new Abstract: LLM agents are increasingly deployed as systems built around editable external harnesses, including prompts, skills, memories and tools, that shape task execution without changing model parameters. Harness self-evolution adapts such agents by updating these harnesses from execution evidence. Yet it remains unclear whether a model's base capability in task-solving predicts its capabilities in harness self-evolution: which models produce useful harness updates, and which actually benefit from them? We analyze two harness self-evolution capabilities: (i) harness-updating, the capability to produce useful persistent harness updates from execution evidence; (ii) harness-benefit, the capability to benefit from updated harnesses during task solving. Our analysis reveals two findings. First, harness-updating is flat in base capability: models from different capability tiers produce harness updates that lead to surprisingly similar gains; even Qwen3.5-9B's updates yield gains comparable to those of Claude Opus~4.6. Second, harness-benefit is non-monotonic in base capability: weak-tier models benefit little from updated harnesses, mid-tier models benefit most, and strong-tier models benefit less than mid-tier. We trace low gains at the weak tier to two failure modes: weak-tier models may fail to activate relevant harness artifacts, or activate them but fail to follow them faithfully. These findings suggest investing capability budget in the task-solving agent rather than the evolver, and targeting harness invocation and long-horizon instruction following in agent training. Our source code is publicly available at https://github.com/A-EVO-Lab/a-evolve/tree/release/harness-evolution.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "MAVEN ：改进Agentic工具调用中的泛化",
-      "originalTitle": "MAVEN: Improving Generalization in Agentic Tool Calling",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2605.30738",
-      "date": "2026-06-01T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2605. 30738v1公告类型：新摘要：跨代理工具调用环境的泛化仍然是可靠的代理推理系统的核心挑战。尽管大型语言模型在单个基准上取得了强劲的成果，但其组成推理策略、保留中间状态和协调跨领域工具的能力仍未得到充分探索。 我们提出了MAVEN （模块化代理验证和执行网络） ，这是一种用于结构化分解、自适应工具编排和中间验证的轻量级符号推理支架。 我们在已建立的工具调用基准（包括BFCL v3、TauBench、Tau2Bench、AceBench ）上评估MAVEN ，并引入MAVEN-Bench ，这是一种具有明确验证和对抗性任务组合的多步数学和物理推理的压力测试基准。 MAVEN-Bench暴露了部分推理质量和端到端任务成功率之间的巨大差距；在直接MAVEN-Bench运行中， MAVEN将其GPT-OSS-120b基础模型的准确率从48%提高到71% ，而无需额外的训练。 它还与前沿专有基线保持竞争力，同时使用开放式重量骨干，估计成本比约为1/10 ，这表明以轻量级验证为中心的支架可以加强成分推理，并激发对野外代理商的更多过程意识评估。",
-      "originalSummary": "arXiv:2605.30738v1 Announce Type: new Abstract: Generalization across agentic tool-calling environments remains a central challenge for reliable agentic reasoning systems. Although large language models achieve strong results on individual benchmarks, their ability to compose reasoning strategies, preserve intermediate states, and coordinate tools across domains remains underexplored. We present MAVEN (Modular Agentic Verification and Execution Network), a lightweight symbolic reasoning scaffold for structured decomposition, adaptive tool orchestration, and intermediate verification. We evaluate MAVEN across established tool-calling benchmarks, including BFCL v3, TauBench, Tau2Bench, AceBench, and introduce MAVEN-Bench, a stress-test benchmark for multi-step mathematical and physical reasoning with explicit verification and adversarial task composition. MAVEN-Bench exposes a substantial gap between partial reasoning quality and end-to-end task success; in direct MAVEN-Bench runs, MAVEN improves its GPT-OSS-120b base model from 48% to 71% accuracy without additional training. It also remains competitive with frontier proprietary baselines while using an open-weight backbone with an estimated cost ratio of roughly 1/10, suggesting that lightweight verification-centered scaffolds can strengthen compositional reasoning and motivate more process-aware evaluation of agents in the wild.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic已正式申请上市",
-      "originalTitle": "Anthropic has officially filed to go public",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
-      "date": "2026-06-01T16:40:38.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "经过数月对OpenAI或Anthropic是否会首次公开募股的猜测， Anthropic周一达到了一个关键的里程碑：向美国证券交易委员会申请启动这一流程。该文件为大规模IPO奠定了基础。截至上周的融资， Anthropic被称为全球最有价值的初创公司，后期估值为9650亿美元（ $ ）。 这超过了其最大竞争对手OpenAI的8520亿美元的成交后估值$。根据该公司的一篇博客文章， Anthropic选择秘密向美国证券交易委员会提交其注册声明草案……阅读The Verge的完整故事。",
-      "originalSummary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fundraise last [&#8230;]",
-      "rawFullText": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission. The filing sets the stage for what's sure to be a massive IPO. As of its fundraise last week, Anthropic is being called the world's most valuable startup, with a post-money valuation of $965 billion. That tops the $852 billion post-money valuation of OpenAI, which is its biggest rival. Anthropic chose to submit its draft registration statement to the SEC confidentially, according to a blog post from the company, meani … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 98
-    },
-    {
       "title": "Erin Brockovich瞄准数据中心保密",
       "originalTitle": "Erin Brockovich takes aim at data center secrecy",
       "source": "TechCrunch AI",
@@ -114,7 +195,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "理解关于人工智能精神病的辩论",
@@ -147,37 +228,7 @@
       "score": 74
     },
     {
-      "title": "我让谷歌的24/7人工智能助手Gemini Spark发挥作用，它实际上非常有用",
-      "originalTitle": "I put Google&#8217;s 24/7 AI assistant Gemini Spark to work, and it&#8217;s actually pretty useful",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-      "date": "2026-05-30T15:30:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“我让谷歌的24/7人工智能助手Gemini Spark发挥作用，它实际上非常有用”。它主要涉及大模型方向，热度评分为 86。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 86
-    },
-    {
-      "title": "人工智能骗子正在制造假黑人出售Shein垃圾",
-      "originalTitle": "AI grifters are creating fake Black people to sell Shein junk",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
-      "date": "2026-05-30T13:00:00.000Z",
-      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
-      "fullContent": "似乎是人工智能生成的TikTok卖家泪流满面。|穿着乡村西部装备的浅肤色黑人女性Verge Aliyah正在努力出售她在TikTok上手工制作的金属扣。在3月份社交媒体平台的一段视频中，她对着镜头哭泣，并恳求观看： “即使作为一名黑人女性，我也更有信心，白人女性将[在这段视频中]停留13秒钟，以挽救我的皮带扣业务，”屏幕上的文字写道。 她擦去脸颊上的一滴眼泪。但Aliyah并不是真实的，她所谓的手工产品也不是真实的--她是众多人工智能产生的影响者之一，通过TikTok、Facebook和Instagram上的直销来销售大规模生产的产品。相同的皮带扣…阅读The Verge的完整故事。",
-      "originalSummary": "Aliyah, a light-skinned Black woman dressed in country-western gear, is struggling to sell metal buckles she handmade on TikTok. In a video for the social media platform from March, she cries to the camera and pleads for views: \"Even as a black woman, I have more faith that white women will stay 13 seconds [on [&#8230;]",
-      "rawFullText": "TikTok sellers that appear to be AI generated, in tears. | The Verge Aliyah, a light-skinned Black woman dressed in country-western gear, is struggling to sell metal buckles she handmade on TikTok. In a video for the social media platform from March, she cries to the camera and pleads for views: \"Even as a black woman, I have more faith that white women will stay 13 seconds [on this video] to save my belt buckle business,\" the onscreen text reads. She wipes a tear off her cheek. But Aliyah isn't real, and neither are her supposedly handmade products - she's one of many AI-generated influencers created to sell mass-produced products via dropshipping on TikTok, Facebook, and Instagram. Identical belt buckles … Read the full story at The Verge.",
-      "tags": [
-        "视频生成"
-      ],
-      "score": 81
-    },
-    {
-      "title": "TechCrunch AI：AI 热点相关动态",
+      "title": "软银表示将投资750亿欧元建设法国数据中心",
       "originalTitle": "SoftBank says it will invest up to €75B to build French data centers",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
@@ -189,37 +240,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
-    },
-    {
-      "title": "“真是个笑话” ： Github Copilot基于令牌的新计费方式引发了开发人员的惊愕",
-      "originalTitle": "&#8216;What a joke&#8217;: GitHub Copilot&#8217;s new token-based billing spurs consternation among devs",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
-      "date": "2026-05-30T16:30:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。至少对于这个小家伙来说，微软的Github Copilot的黄金时代似乎已经结束。该公司正在将其计费系统从统一的订阅费率转换为代币使用系统，该系统有可能以更高的费率向用户收费。 规模较大的企业可能仍然有足够的动力，但规模较小的公司和工人可能会想知道他们应该如何平衡每月的预算。这些变化将于6月1日进行，这意味着用户将根据他们工作时烧毁的代币数量收费，而不是根据请求收取较低的统一费率。 一些遭受金融鞭笞的开发商已经前往Reddit和X等地哀叹，在许多情况下，这似乎是成本的急剧上升。“真是个笑话，”一位Redditor最近写道，声称虽然他们目前每月只支付约29 $ ，但新费率将使他们的成本激增至每月近750 $。“这种新的使用模式非常昂贵。我正在通过取消来调整我的。 以此为代价，它不再具有成本效益，也不再以任何实际方式有用。另一位用户发布了“哇，没想到新的定价模式会这么荒谬”的屏幕截图，显示他们的成本从50 $左右飙升至3000 $左右。增加的声音听起来很极端。 然而，一些Copilot用户反驳了这种批评，并指出，如果你知道自己在做什么，你真的不应该定期通过这么多代币。那些批评者坚持认为，花这么多钱的人是氛围编码者，实际开发知识很少。“我们中的一些人整天工作，仍然几乎没有超额，然后这些屏幕截图之间存在巨大差异。 我很难相信这是工作量的复杂性差异， ”一位用户写道。他们后来补充说：“像这样疯狂的唯一方法是，如果你纯粹是‘氛围编码’ ，并进行大量臃肿的迭代。”“即使是小型服装，如果用作工具，也非常实惠，几乎适用于任何供应商。“其他人则专注于公司以前模式背后的令人难以置信的经济学。 一位Reddit用户在最近的一篇帖子中问道： “天哪，副驾驶损失了多少钱。” Copilot背后的经济学似乎并不总是那么容易掌握，该公司必须花费多少钱来补贴其用户群正在进行的vibe-coding冒险行为同样是神秘的，并且隐藏在公众视野之外。 虽然有些人批评了这些变化，有些人批评了这些批评，但还有一些在线声音认为，鉴于微软鼓励用户不分青红皂白地使用其聊天机器人，开发人员有充分的理由感到不安，现在似乎正在把地毯从他们下面拉出来。",
-      "originalSummary": "The golden age of Microsoft's GitHub Copilot appears to be at an end.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
       "score": 74
     },
     {
-      "title": "据报道， Meta正在开发一种人工智能吊坠",
-      "originalTitle": "Meta is reportedly developing an AI pendant",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
-      "date": "2026-05-30T15:59:58.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。在5月29日晚上11点59分之前，享受高达$ 410的早鸟优惠。PT.立即注册。根据The Information查看的备忘录， Meta正在开发一种人工智能吊坠，计划明年开始测试。该设备可能建立在2025年底Meta收购的人工智能设备初创公司Limitless的工作基础上。 这家初创公司制作了一款人工智能吊坠，用户可以将其挂在衬衫上或作为项链佩戴，以记录他们的对话。当时， Meta表示，此次收购将使其能够“加快我们构建人工智能可穿戴设备的工作。“早期的人工智能可穿戴设备未能吸引消费者—可能是由于隐私问题和音盲营销，或者可能是因为它们没有那么有用。但像OpenAI这样的公司并没有放弃。 据报道，该备忘录还指出，该公司正计划扩大其人工智能眼镜阵容，并推出一项名为Wearables for Work的商业订阅。有了所有这些计划中的设备， Meta显然希望扭转其以硬件为中心的Reality Labs部门的命运，该部门在今年第一季度亏损了40 $。 从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Meta seems to be making big bets on AI-powered hardware.",
-      "rawFullText": "",
+      "title": "一位创始人在“老派网络”上的赌注是如何获得回报的",
+      "originalTitle": "How one founder’s bet on ‘the old school web’ is paying off",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+      "date": "2026-05-30T13:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "用旧地图度过美好时光。|图片：过去的地图克雷格·坎贝尔（ Craig Campbell ）从投资者资金流入人工智能的河流中走出来，创建了一个网站。当然，坎贝尔本可以创办一家人工智能公司。他是Meta的前工程师，也是一位经验丰富的技术创始人，他在2022年卖掉了他的最后一家企业--针对使用Shopify的企业的电子商务工具--就在人工智能蓬勃发展的时候。 “我让之前的风投投资者垂着脖子，开始做其他事情。我们会给您开一张空白支票。“他有其他想法。人们通常不会急于进入网站业务， Google Zero活动即将到来。坎贝尔毫不畏惧，深受其害……阅读The Verge的完整故事。",
+      "originalSummary": "Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for businesses that use [&#8230;]",
+      "rawFullText": "A good time with old maps. | Image: Past Maps Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for businesses that use Shopify - right as the AI boom was booming. \"I had my prior VC investors breathing down my neck, going 'start something else. We'll write you a blank check.'\" He had other ideas. People generally aren't rushing to get into the website business, what with the Google Zero event horizon approaching. Campbell was undeterred and has gro … Read the full story at The Verge.",
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "通过Rosalind Biodefense增强社会韧性",
@@ -252,7 +288,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Braintrust如何通过Codex将客户请求转化为代码",
@@ -267,10 +303,10 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "OpenAI：公司动态相关动态",
+      "title": "波士顿儿童医院使用人工智能解锁新诊断",
       "originalTitle": "Boston Children’s uses AI to unlock new diagnoses",
       "source": "OpenAI",
       "link": "https://openai.com/index/boston-childrens-hospital",
@@ -282,10 +318,10 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
       "originalTitle": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/torch-profiler",
@@ -297,23 +333,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "MUFG旨在通过OpenAI成为原生AI",
-      "originalTitle": "MUFG aims to become AI-native with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/mufg",
-      "date": "2026-05-28T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "三菱日联使用ChatGPT Enterprise构建人工智能原生组织，改进工作流程，并大规模提供新的人工智能金融服务。",
-      "originalSummary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 73
     },
     {
       "title": "OpenAI的前沿治理框架",
@@ -333,6 +353,22 @@
       "score": 99
     },
     {
+      "title": "MUFG旨在通过OpenAI成为原生AI",
+      "originalTitle": "MUFG aims to become AI-native with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/mufg",
+      "date": "2026-05-28T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "三菱日联使用ChatGPT Enterprise构建人工智能原生组织，改进工作流程，并大规模提供新的人工智能金融服务。",
+      "originalSummary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
       "title": "Endava如何使用Codex构建代理组织",
       "originalTitle": "How Endava builds an agentic organization with Codex",
       "source": "OpenAI",
@@ -345,10 +381,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "AI炒作指数： AI在毕业季受到嘘声",
       "originalTitle": "The AI Hype Index: AI gets booed in graduation season",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
@@ -360,40 +396,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "通过Codex构建自我完善的税务代理",
-      "originalTitle": "Building self-improving tax agents with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "date": "2026-05-27T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "了解OpenAI、Thrive和Crete如何利用Codex构建自我完善的税务代理，实现申报自动化、提高准确性并加快工作流程。",
-      "originalSummary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Warp在使用GPT-5.5构建开源方面下了很大赌注",
-      "originalTitle": "Warp’s big bet on building open source with GPT-5.5",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/warp",
-      "date": "2026-05-27T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "WARP使用GPT-5. 5和OpenAI模型来协调本地、云和开源开发工作流程的编码代理。",
-      "originalSummary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
+      "score": 70
     },
     {
       "title": "思科和OpenAI通过Codex重新定义企业工程",
@@ -408,25 +411,10 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "2026年选举信息和保障措施",
-      "originalTitle": "Election information and safeguards in 2026",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/election-safeguards-2026",
-      "date": "2026-05-27T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "在全球选举之前，我们正在帮助人们获取信息，为网络维护者提供支持，并提高人工智能的透明度",
-      "originalSummary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
-    },
-    {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "Reachy Mini完全本地化",
       "originalTitle": "Reachy Mini goes fully local",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
@@ -438,7 +426,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
+    },
+    {
+      "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
+      "originalTitle": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/delta-weight-sync",
+      "date": "2026-05-27T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“使用集线器桶运送万亿个参数： TRL中的Delta权重同步”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 71
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -468,7 +471,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -483,7 +486,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "线束、脚手架和人工智能代理条款值得纠正",
@@ -498,7 +501,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -513,7 +516,7 @@
       "tags": [
         "研究"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "专业化超越规模：大多数人工智能采购决策忽视的战略变量",
@@ -531,22 +534,6 @@
       "score": 67
     },
     {
-      "title": "《克劳德的人类代码》展示了编码的未来--无论你喜欢与否",
-      "originalTitle": "Anthropic’s Code with Claude showed off coding&#8217;s future—whether you like it or not",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
-      "date": "2026-05-21T14:30:45.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、公司动态相关动态",
-      "fullContent": "Code with Claude是Anthropic在伦敦为软件开发人员举办的为期两天的活动，于5月19日拉开帷幕，与Google在帕洛阿尔托的I/O活动同日拉开帷幕。（ Anthropic的工作人员向我保证，这是巧合，而不是灵活。） “谁在上周发出了完全由Claude撰写的拉取请求？“ Anthropic的工程师杰里米·哈德菲尔德（ Jeremy Hadfield ）从主舞台上问道。 拥挤的房间里几乎有一半的人举手，许多人坐着，膝盖上放着笔记本电脑，在观看谈话时编码或提示。拉取请求是现有软件的修复或更新，在上线前提交审核。它们是软件开发的面包和黄油，是大多数专业开发人员一生都在写或直到现在才写的代码。 “这里有谁发送了一个完全由Claude编写的拉取请求，他们根本没有读取代码？”哈德菲尔德接着问道，紧张的笑声。大部分的手都举起来了。Anthropic的Claude Code和OpenAI的Codex等由LLM提供支持的工具颠覆了软件的制作方式，这并不是什么新鲜事。顶级科技公司现在喜欢吹嘘他们的开发人员手工编写的代码是多么的少。 （ “Anthropic的大多数软件现在都是由Claude编写的，” Hadfield说。“Claude用Claude Code编写了大部分代码。” ） OpenAI、谷歌和微软提出了类似的主张。许多其他人希望他们可以。即便如此，令人惊讶的是，这种新范式已经显得多么正常，以及它进入的速度有多快。这是Anthropic第二年举办开发者活动，这些活动也在旧金山和东京举行。 去年这个时候，该公司刚刚发布了Claude 4。它可以编码，算是吧。但随着Anthropic的最新更新，特别是2月和4月发布的Claude 4. 6和4. 7 ， Claude Code似乎是越来越多的开发人员乐于将工作交给的工具。让Claude烹饪。ANTHROPIC （图形）/WILL DOUGLAS HEAVEN （照片） Anthropic表示，其目标是尽可能地推动自动化。 它希望Claude检查并纠正自己的工作，而不是使用人工智能来生成代码，然后让人类清理并修复错误。Claude Code负责人Boris Cherny在开幕主题演讲中表示： “默认设置不是‘我将提示Claude’ ，而是'我将让Claude自行提示'。如果一切顺利，当某些东西不起作用时，人类开发人员甚至不应该看到错误消息。 这一切都将由Claude处理， Claude将进行测试和调整、测试和调整，直到一切正常运行。正如Anthropic的工程师Ravi Trivedi在另一次演讲中所说： “关键原则是摆脱Claude的束缚。我们喜欢说：“让它煮吧。’”Trivedi在两周前宣布的Claude Code中推出了一项新功能， Anthropic称之为梦想。 Claude Code客服代表为自己...",
-      "originalSummary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was completely written&#8230;",
-      "rawFullText": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was completely written by Claude?” Jeremy Hadfield, an engineer at Anthropic, asked from the main stage. Almost half the people in the packed room—many sitting with laptops on their knees, coding or prompting as they watched the talks—raised their hands. Pull requests are fixes or updates to existing software that are submitted for review before they go live. They are the bread and butter of software development, the chunks of code that most professional developers spend their lives writing—or did until now. “Who here has shipped a pull request that was completely written by Claude where they did not read the code at all?” Hadfield asked next. Nervous laughter. Most of the hands stayed up. It’s not news that LLM-powered tools like Anthropic’s Claude Code and OpenAI’s Codex have upended the way software gets made . Top tech companies now like to boast of how little code their developers write by hand. (“Most software at Anthropic is now written by Claude,” Hadfield said. “Claude has written most of the code in Claude Code.”) OpenAI, Google, and Microsoft make similar claims. Many others wish they could. Even so, it is striking how normal this new paradigm already seems, and how fast it has set in. This was the second year that Anthropic has put on developer events, which also run in San Francisco and Tokyo. This time last year, the company had just released Claude 4. It could code, kind of. But with Anthropic’s latest string of updates—especially Claude 4.6 and then 4.7, released in February and April—Claude Code is a tool that more and more developers seem happy to hand their work off to.&nbsp;&nbsp;&nbsp; Let Claude cook. ANTHROPIC (GRAPHIC) / WILL DOUGLAS HEAVEN (PHOTO) Anthropic says its goal is to push automation as far as it will go. Instead of using AI to generate code and then having humans clean it up and fix the mistakes, it wants Claude to check and correct its own work. “The default isn’t ‘I’m going to prompt Claude’—the default is now ‘I’m going to have Claude prompt itself,’” Boris Cherny, who heads Claude Code, said in the opening keynote. If all goes well, human developers shouldn’t even see the error messages when something doesn’t work. That will all be handled by Claude, which will test and tweak, test and tweak, until everything runs as it should. As Ravi Trivedi, an engineer at Anthropic, put it in another talk: “The key principle is getting out of Claude’s way. We like to say: ‘Let it cook.’” Trivedi presented a new feature in Claude Managed Agents, Anthropic&#8217;s cloud-based setup for building and running multi-agent systems, announced two weeks ago, which the company calls dreaming. Claude agents write notes to themselves, recording and saving useful information about specific tasks. When another coding agent, say, starts to work on the same code that others have worked on, it can use the notes they left behind to get up to speed faster and learn from any errors those previous agents may have made. Dreaming is a system that Claude agents can use to read through the notes and consolidate the information they contain, spotting patterns and common issues across different tasks. In theory, dreaming should help coding agents learn about a particular code base and get better and better at working on it. Success stories Code with Claude is an event aimed at developers. As well as product showcases and hands-on workshops from Anthropic, there were how-tos from a range of companies that have reshaped their software development teams around Claude Code, including Spotify and Delivery Hero as well as Lovable, Base44, and Monday.com—three startups vibe-coding apps that help people vibe-code apps. There were no signs of unease at Code with Claude. Everybody I met wanted in. And yet outside the conference there have been a number of reports that many coders are starting to question this bright new future . Some gripe in online forums like Reddit and Hacker News that AI coding tools are being pushed by managers chasing productivity gains, when in practice the technology makes software development harder because of all the extra code developers now have to review. “The only people I&#8217;ve heard saying that generated code is fine are those who don’t read it,” a user called pron posted on Hacker News last week.&nbsp; Others claim that their coding abilities have fallen off as they hand more tasks to AI. And researchers have warned that AI tools can produce unsafe code that will make software more vulnerable to attacks .&nbsp;&nbsp; I sat down with Claude engineering lead Katelyn Lesse and Claude product lead Angela Jiang and asked them what they made of the concerns that a sudden flood of code generated (and shipped) without proper human oversight was kicking serious security and maintenance problems down the road. “All of the old software development best practices still apply. They’ve applied this entire time,” said Lesse. “I think there are a lot of people and teams that may have lost sight of them in this moment.”&nbsp; And yet as Anthropic and others push for greater automation and tools like Claude Code improve, the temptation increases to offload more and more tasks, including oversight. Lesse told me that some of the technical managers at Anthropic are exhausted by keeping up with all the code their teams now produce. “Part of things happening so much more quickly is just managing your time,” she said. “I think that right now Claude is probably as good as a midlevel engineer at writing code,” she added. You still need expert engineers to design a system and troubleshoot harder problems, she said. “But over time we want Claude to get better and better at all different types of engineering.” Jiang agreed: “I think the absolute end state we’re trying to get to is Claude basically being able to build itself.” Correction: Dreaming is a feature of Claude Managed Agents not Claude Code. The article has been updated.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 88
-    },
-    {
       "title": "圆桌会议：人工智能能学会理解世界吗？",
       "originalTitle": "Roundtables: Can AI Learn to Understand the World?",
       "source": "MIT Technology Review",
@@ -559,7 +546,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "在人工智能时代扩展创造力",
@@ -575,21 +562,6 @@
         "AI 热点"
       ],
       "score": 64
-    },
-    {
-      "title": "圆桌会议：马斯克诉奥尔特曼案审判的内幕",
-      "originalTitle": "Roundtables: Inside the Musk v. Altman Trial",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
-      "date": "2026-05-19T20:15:18.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
-      "fullContent": "收听下面的会议或观看埃隆·马斯克（ Elon Musk ）输掉了对OpenAI的诉讼，他声称首席执行官萨姆·奥尔特曼（ Sam Altman ）和总裁格雷格·布罗克曼（ Greg Brockman ）在公司的非营利地位上欺骗了他观看报道《麻省理工科技评论》审判的人工智能记者兼律师米歇尔·金（ Michelle Kim ）与主编马特·霍南（ Mat Honan ）的对话，了解审判的幕后情况以及对人工智能竞赛的影响。 演讲者：主编Mat Honan和AI记者Michelle Kim于2026年5月19日录制相关故事： Elon Musk和Sam Altman将因OpenAI未来的Musk诉Altman第1周而上法庭： Elon Musk说他被欺骗了，警告AI可能会杀死我们所有人，并承认xAI提炼了OpenAI的模型Musk诉Altman第2周： OpenAI回击， Shivon Zilis透露Musk试图挖走Sam Altman Musk诉 奥特曼第3周：马斯克和奥特曼互相打击对方的信誉。现在陪审团将选择一方。这就是为什么伊隆·马斯克输掉了对OpenAI的诉讼",
-      "originalSummary": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in conversation with editor in&#8230;",
-      "rawFullText": "Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in conversation with editor in chief Mat Honan to go behind the scenes of the trial and the implications for the AI race. Speakers : Mat Honan , Editor in Chief, and Michelle Kim , AI Reporter Recorded on May 19, 2026 Related Stories: Elon Musk and Sam Altman are going to court over OpenAI’s future Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman Musk v. Altman week 3: Musk and Altman traded blows over each other’s credibility. Now the jury will pick a side. Here’s why Elon Musk lost his suit against OpenAI",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 75
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
@@ -619,7 +591,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "PaddleOCR 3.5 ：使用变压器后端运行OCR和文档解析任务",
