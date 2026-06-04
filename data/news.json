@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T16:05:20.101Z",
+  "updatedAt": "2026-06-04T10:50:50.256Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,122 @@
   ],
   "articles": [
     {
+      "title": "Endava如何围绕AI代理重新设计软件交付",
+      "originalTitle": "How Endava is redesigning software delivery around AI agents",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/endava-frontiers",
+      "date": "2026-06-04T12:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "了解Endava如何使用AI代理、ChatGPT Enterprise和Codex来加速软件交付、自动化工作流程，并在整个企业中构建AI原生文化。",
+      "originalSummary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "面向企业AI智能体部署前保证：基于本体的模拟和信任认证",
+      "originalTitle": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.04037",
+      "date": "2026-06-04T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 04037v1公告类型：新摘要：企业人工智能（ AI ）代理的部署前验证仍然是大型语言模型（ LLM ）功能基准测试和生产部署之间的关键差距。一旦代理在生产中运行，部署后监控、人工循环控制和提示级别的护栏可提供有限的保证。 我们提出了一个基于本体的验证框架，该框架由三个组件组成：一个Agent Operational Envelope （代理操作信封） ，它将跨权限、域约束、安全属性、治理规则和自治级别的认证空间正式化；一个本体到场景生成管道，它自动导出监管、操作和对抗性测试场景；以及一个Trust Certificate （信任证书） ，它带有机器可验证的证明， 一个横跨四个受监管行业（金融科技、银行、保险和医疗保健）的受控试点项目，在美国和越南以五个行业监管制度为基础，产生了1,800个情景，根据125个主要来源监管要求和25个注入故障进行了评估。本体接地生成（ G4 ）实现了48. 3%的监管覆盖率，而基于角色的基线为33. 1% （校正p =. 0006),域特异性最高(4. 77/5. 0; p = 2e-6)。Bonferroni矫正后，覆盖率优于基线和检索增强提示。三个法学硕士家族（ Claude Sonnet 4、Qwen 2. 5 72B、Gemma 4 26B ；共5,400个场景）的交叉验证复制了人格对本体论模式。 结果确立了基于本体的场景生成，作为对监管密集型领域的基于角色的测试套件的可靠补充。",
+      "originalSummary": "arXiv:2606.04037v1 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We propose an ontology-grounded verification framework combining three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a Trust Certificate carrying a machine-verifiable attestation with graduated deployment verdicts (Approved, Conditional, Rejected). A controlled pilot across four regulated industries (Fintech, Banking, Insurance, and Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam, generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation (G4) achieved 48.3% regulatory coverage versus 33.1% for the persona-based baseline (corrected p = .0006) and the highest domain specificity (4.77/5.0; p = 2e-6). The coverage advantage over baseline and retrieval-augmented prompting was not robust after Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The results establish ontology-grounded scenario generation as a credible complement to persona-based test suites for regulatory-intensive domains.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "思考迹象： PEEL作为认知负责的人工智能研究的符号支架",
+      "originalTitle": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.04152",
+      "date": "2026-06-04T04:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
+      "fullContent": "arXiv: 2606. 04152v1公告类型：新摘要：大型语言模型正在重塑研究实践，同时悄悄侵蚀研究人员的认识责任。本评论介绍了PEEL -人工智能认知参与扫盲协议，这是一种工作脚手架，将通过Voyant Tools进行的确定性远程阅读与通过Claude进行的LLM解释相结合，以Peircean符号学和归纳推理为基础。 应用于人工智能生成的三个源文本的浓缩， PEEL揭示了在没有非人工智能测量的情况下不可见的数量、术语频率和认知声音的系统扭曲，并产生了三个设计含义：确定性工具必须伴随着人工智能工具；流畅性不是保真度；必须设计认知权威，而不是假设。",
+      "originalSummary": "arXiv:2606.04152v1 Announce Type: new Abstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability. This commentary introduces PEEL - Protocols for Epistemically Engaged Literacy in AI, a working scaffolding that combines deterministic distant reading via Voyant Tools with LLM interpretation via Claude, grounded in Peircean semiotics and abductive reasoning. Applied to AI-generated condensations of three source texts, PEEL reveals systematic distortions in quantity, term frequency, and epistemic voice that are invisible without non-AI measurement -- and yields three design implications: deterministic instruments must accompany AI tools; fluency is not fidelity; epistemic authority must be designed in, not assumed.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SMAC-Talk ：大型语言模型的星际争霸多Agent挑战的自然语言扩展",
+      "originalTitle": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.04202",
+      "date": "2026-06-04T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 04202v1公告类型：新摘要：随着LLM的部署越来越广泛，他们越来越多地被期望与其他人工智能代理一起工作，而不是孤立运作。在这些环境中进行有效协调需要客服代表在不确定的情况下进行沟通、共享信息并做出决策。 我们介绍了SMAC-Talk ，这是星际争霸多代理挑战赛的自然语言扩展，用于评估协作多代理环境中基于LLM的代理。环境具有分散控制、部分可观测性和长远决策等几个关键特征。SMAC-Talk包括一个自然语言沟通渠道，用于探测代理的协调和信任。 我们使用此沟通渠道构建不同的评估场景，包括嵌入欺骗性沟通者的设置，该设置试图仅通过沟通来破坏和欺骗盟友。我们使用来自Qwen3. 5系列的4个模型提供三个代理进行基准测试，并研究推理结构、记忆和模型规模如何影响代理之间的协调。 我们发布了SMAC-Talk作为开放基准，以支持研究界在合作多代理环境中开发和评估LLM代理。",
+      "originalSummary": "arXiv:2606.04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "VAMPS ：视觉辅助数学问题解决基准",
+      "originalTitle": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.04244",
+      "date": "2026-06-04T04:00:00.000Z",
+      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
+      "fullContent": "arXiv: 2606. 04244v1公告类型：新摘要：多模态大型语言模型越来越能够进行复杂的推理，但当它们必须通过工具将问题外化，然后推理工具的输出时，特别是当它们依赖于视觉辅助时，它们的性能往往会降低。这一差距尤为重要，因为实际的工程和科学工作流程通常依赖于可视化工具进行分析、验证和决策。 为了研究这种差异，我们引入了图辅助数学的基准VAMPS （视觉辅助数学问题解决）。 VAMPS包含从伊朗大学入学考试代数和微积分问题中抽取的1,168个多模态、双语多选题答案对，并扩展了人工评审的LLM生成的合成变体，所有这些变体都经过选择，从而通过揭示交叉点、极值、渐近线等来提供自然解决方案策略。 VAMPS专为基准测试和诊断而设计，它超越了先前的多模态基准，这些基准主要通过测试模型是否可以从构建有用的图表中受益，并将其答案基于最终的可视化来评估固定视觉输入的推理。 总体而言，我们发现，在一组不同的模型中，直接分析求解出人意料地优于工具支持的视觉求解，即使在绘图是一种自然策略的问题上也是如此。",
+      "originalSummary": "arXiv:2606.04244v1 Announce Type: new Abstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then reason over the tool's output, specifically when they rely on visual aids. This gap is especially important because real engineering and scientific workflows often rely on visualization tools for analysis, validation, and decision-making. To study this discrepancy, we introduce VAMPS (Visual-Assisted Mathematical Problem Solving), a benchmark for graph-assisted mathematics. VAMPS contains 1,168 multimodal, bilingual multiple-choice question-answer pairs drawn from Iranian University Entrance Exam algebra and calculus problems and expanded with human-reviewed LLM-generated synthetic variants, all selected so that plotting provides a natural solution strategy by revealing intersections, extrema, asymptotes, etc. Designed for both benchmarking and diagnosis, VAMPS goes beyond prior multimodal benchmarks that primarily evaluate reasoning over fixed visual inputs by testing whether a model can benefit from constructing a useful graph and grounding its answer in the resulting visualization. Overall, we found that across a diverse set of models, direct analytical solving surprisingly outperforms tool-enabled visual solving, even on problems where plotting is a natural strategy.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "多模态",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "消息人士称， Lovable与Google Cloud签订多年协议，使用率提高5倍",
+      "originalTitle": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+      "date": "2026-06-03T22:56:51.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Lovable和谷歌周三宣布扩大多年合作。Lovable是一家快速发展的斯德哥尔摩氛围编码初创公司，长期以来一直是Google Cloud的用户。根据新协议，这将是一个更大的协议。虽然两家公司没有透露这笔交易的金额，但一位知情人士告诉TechCrunch ，这笔交易涉及Lovable在谷歌云上的足迹增加了五倍，包括人工智能的使用。 这位人士告诉我们，作为交易的一部分， Lovable将获得Anthropic的Claude （广泛用于编码任务的人工智能模型）和谷歌自己的Gemini模型的扩展访问权限。尤其是《人性》这部作品非常有趣。谷歌在4月份向Anthropic投资了100亿美元的现金和计算积分，承诺如果Anthropic达到某些绩效目标，将再投资300亿美元。 它以3500亿美元的估值进行了投资—就在一个月前， Anthropic筹集了惊人的650亿美元，使该公司的估值接近1万亿美元。这笔交易将帮助Anthropic实现这些目标，因为Lovable是欧洲有史以来增长最快的初创公司之一。根据Lovable的数据，它在2月份的年化收入超过了4亿美元，在一个月内增加了1亿美元，只有146名员工。 该公司声称，超过一半的财富500强公司以某种方式使用其产品。这笔交易还将Lovable插入谷歌生态系统的其他几个部分。Lovable的新代理将通过Google Cloud的企业代理市场Gemini Enterprise Agent Gallery提供，这是两家公司在4月份的Google主要美国云大会上首次通过电报发送的安排。 为了帮助保护人类和代理人编写的代码， Lovable将与谷歌有史以来最大的一笔320亿美元收购Wiz整合，该收购在宣布一年后的3月正式结束。集成将允许Wiz实时识别和修复安全问题。 通过在谷歌的市场上销售Lovable的代理商，这家云巨头表示，企业采购和计费将得到简化，使Lovable更容易获得更多的企业客户。Google的微积分非常简单。如果它能够通过吸引财力雄厚的企业来保持Lovable和Anthropic的增长，那么收入将有助于为谷歌计划今年花费的1800亿至1900亿美元的资本支出提供资金。 该公司已经开始出售创纪录的850亿美元股权，以支付其中的一部分，因此只需再出售1000亿美元左右。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。",
+      "originalSummary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "随着人工智能变得越来越好，它揭示了一个空洞的承诺",
+      "originalTitle": "As AI gets better, it reveals an empty promise",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
+      "date": "2026-06-03T17:45:35.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "本周，我的同事大卫·皮尔斯（ David Pierce ）和杰伊·彼得斯（ Jay Peters ）与谷歌新推出的双子座人工智能代理商Spark携手合作。他们的收获是相似的：它非常有效，令人恐惧。斯帕克知道大卫的狗叫弗里达，也知道杰伊妻子的名字，尽管他们都没有明确向谷歌提供这些信息。 但令我害怕的是，所有这些东西似乎都面向一个“生产力”的未来，而这个未来完全错过了我们这个世界需要修复的东西。“生产力”通常被认为是解决我们个人生活问题的灵丹妙药，甚至暗示了我们的道德价值……阅读The Verge的完整故事。",
+      "originalSummary": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly [&#8230;]",
+      "rawFullText": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters . Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly provided this information to Google. But what's scary to me is how all of this stuff seems geared toward a future of \"productivity\" that completely misses what needs to be fixed in our world. \"Productivity\" is often pitched as a panacea for what befalls us in our personal lives, even going so far as to implicate our moral worthiness … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
       "title": "微软和OpenAI分手了—现在他们已经准备好战斗了",
       "originalTitle": "Microsoft and OpenAI broke up — now they’re ready to fight",
       "source": "The Verge AI",
@@ -36,69 +152,33 @@
       "score": 99
     },
     {
-      "title": "ChatHealthAI ：使电子健康记录表示与大型语言模型保持一致，以进行有根据的临床推理",
-      "originalTitle": "ChatHealthAI: Aligning Electronic Health Record Representations with Large Language Models for Grounded Clinical Reasoning",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.02802",
-      "date": "2026-06-03T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "arXiv: 2606. 02802v1公告类型：新摘要：大型语言模型（ LLM ）在临床决策支持方面表现出强大的自然语言推理能力，但难以有效地对结构化纵向电子健康记录（ EHR ）进行建模。相比之下， EHR基础模型可以学习预测性患者表征，但缺乏可解释的基于语言的推理。 为了弥合这一差距，我们提出了ChatHealthAI ，这是一个多模态推理框架，通过任务感知重采样器将来自预训练EHR基础模型的结构化EHR表示与冻结LLM的语义空间对齐。通过将患者纵向表征与精确的临床事件描述相结合， ChatHealthAI能够实现基于临床的自然语言推理，同时保持准确的患者预测。 我们根据EHRSHOT基准对ChatHealthAI的三项临床预测任务进行了评估。结果表明， ChatHealthAI提高了推理质量和可解释性，同时保持了具有竞争力的预测性能。这些研究结果强调了将EHR基础模型与预先训练的LLM集成用于可解释的临床预测的潜力。",
-      "originalSummary": "arXiv:2606.02802v1 Announce Type: new Abstract: Large language models (LLMs) exhibit strong natural-language reasoning abilities for clinical decision support, but struggle to effectively model structured longitudinal electronic health records (EHRs). In contrast, EHR foundation models can learn predictive patient representations, yet lack interpretable language-based reasoning. To bridge this gap, we propose ChatHealthAI, a multimodal reasoning framework that aligns structured EHR representations from a pretrained EHR foundation model with the semantic space of a frozen LLM through a task-aware resampler. By integrating longitudinal patient representations with refined clinical event descriptions, ChatHealthAI enables clinically grounded natural-language reasoning while maintaining accurate patient prediction. We evaluated ChatHealthAI on three clinical predictive tasks from the EHRSHOT benchmark. Results show that ChatHealthAI improves reasoning quality and interpretability while preserving competitive predictive performance. These findings highlight the potential of integrating EHR foundation models with pretrained LLMs for interpretable clinical prediction.",
+      "title": "为GPT-Rosalind引入新功能",
+      "originalTitle": "Introducing new capabilities to GPT-Rosalind",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "date": "2026-06-03T13:15:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "GPT-Rosalind凭借增强的生物推理、药物化学专业知识、基因组学分析和实验工作流程能力，推进生命科学研究。",
+      "originalSummary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "多模态",
-        "评测"
+        "大模型",
+        "推理"
       ],
       "score": 99
     },
     {
-      "title": "Traj-Evolve ：一种用于肺癌早期检测患者轨迹建模的自我演化多Agent系统",
-      "originalTitle": "Traj-Evolve: A Self-Evolving Multi-Agent System for Patient Trajectory Modeling in Lung Cancer Early Detection",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.02812",
-      "date": "2026-06-03T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 02812v1公告类型：新摘要：根据纵向电子健康记录（ EHR ）对患者轨迹建模需要对稀疏、噪声和长上下文多模态序列进行推理。现有的基于LLM的多药剂系统解决了上下文长度，但孤立地处理患者，未能反映临床医生如何利用从类似先前病例中积累的经验。 我们提出了Traj-Evolve ，这是一个具有两个互补进化机制的自我进化多智能体系统。首先，体验池（ ExPool ）充当非参数记忆，对拒绝抽样的推理痕迹进行索引，以检索类似的患者作为少量上下文。其次，通过奖励排名微调的多智能体强化学习（ MARL ）参数优化了智能体之间和智能体与记忆体之间的协作。 剩余的一次性交叉检索策略将两者统一起来，在检索增强下对齐训练和推理时间行为。在使用长达五年的多模式EHR的肺癌预测任务中， Traj-Evolve在总体人群和具有挑战性的从不吸烟人群中表现优于9个强基线。 对演变动态的分析突出了三个关键发现： （ 1 ）将ExPool将最佳检索从多种样本转移到特定样本； （ 2 ）在MARL下，管理代理的预测损失迅速收敛，而工作代理的时间推理继续受益于更多经过验证的患者； （ 3 ）这两种机制在预测风险上是互补的，其中ExPool提高了特异性，而MARL提高了灵敏度。",
-      "originalSummary": "arXiv:2606.02812v1 Announce Type: new Abstract: Modeling patient trajectories from longitudinal electronic health records (EHRs) requires reasoning over sparse, noisy, and long-context multimodal sequences. Existing LLM-based multi-agent systems address context length but process patients in isolation, failing to mirror how clinicians leverage accumulated experience from similar prior cases. We present Traj-Evolve, a self-evolving multi-agent system with two complementary evolving mechanisms. First, an Experience Pool (ExPool) acts as a non-parametric memory, indexing rejection-sampled reasoning traces to retrieve similar patients as few-shot contexts. Second, multi-agent reinforcement learning (MARL) via reward-ranked fine-tuning parametrically optimizes inter-agent and agent-memory collaboration. A leave-one-out cross-retrieval strategy unifies the two, aligning training- and inference-time behavior under retrieval augmentation. On a lung cancer prediction task utilizing up to five years of multimodal EHRs, Traj-Evolve outperforms 9 strong baselines on the overall population and a challenging never-smoker population. Analysis of the evolving dynamics highlights three key findings: (1) expanding the ExPool shifts optimal retrieval from diverse to specific samples; (2) under MARL, the manager agent's prediction loss converges quickly while the worker agents' temporal reasoning continues to benefit from more verified patients; and (3) the two mechanisms are complementary on the predicted risk, where ExPool improves specificity while MARL improves sensitivity.",
+      "title": "OpenAI公共政策议程",
+      "originalTitle": "OpenAI public policy agenda",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/public-policy-agenda",
+      "date": "2026-06-03T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
+      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "超越答案的思考：在大型推理模型中评估有害的过度思考",
-      "originalTitle": "Thinking Past the Answer: Evaluating Harmful Overthinking in Large Reasoning Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.02835",
-      "date": "2026-06-03T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "arXiv: 2606. 02835v1公告类型：新摘要：大型推理模型（ LRM ）通过增加测试时间计算生成显式中间推理轨迹来提高性能，但较长推理始终有益的假设仍未得到充分考虑。 虽然最近的证据表明，额外的推理可能会导致模型过度思考，但我们会问： “一旦模型达到了正确的答案，进一步的推理是否会完善解决方案，还是偏离解决方案？“为了研究正确性后的动力学，我们引入了基于推理充分性的前缀级轨迹评估协议，定义了模型首先生成正确答案所需的最小推理预算。 这使我们能够将冗长的过度思考（额外的推理是多余的但无害的）与有害的过度思考（持续的推理会破坏已经正确的轨迹）区分开来。从多模态基准开始，我们发现许多被认为是推理密集型的实例几乎不需要推理。 此外，与标准推理相比，停在第一个正确的前缀可以提高高达21%的准确度，这表明当前模型不仅受到推理能力的限制，而且还受到无法在正确的时间停下来的限制。此外，虽然早期停止等常见效率策略大大减少了冗长的过度思考（高达50 ％ ） ，但它们未能减轻有害的过度思考。 失效分析表明，正确性偏差主要由逻辑漂移和视觉重新解释驱动。最后，我们的研究结果概括为纯语言推理基准，强调有害的过度思考是一种更广泛的可靠性风险。代码可在https://simonecaldarella. github. io/thinking-past-the-answer上找到。",
-      "originalSummary": "arXiv:2606.02835v1 Announce Type: new Abstract: Large Reasoning Models (LRMs) improve performance by generating explicit intermediate reasoning traces through increased test-time compute, yet the assumption that longer reasoning is consistently beneficial remains under-examined. While recent evidence shows that additional reasoning can lead models to overthink, we ask: \"Once a model has reached the correct answer, does further reasoning refine the solution, or deviate from it?\" To study the dynamics after correctness, we introduce a prefix-level trajectory evaluation protocol grounded in reasoning sufficiency, defining the minimum reasoning budget required for a model to first generate the correct answer. This allows us to disentangle verbose overthinking, where additional reasoning is redundant but harmless, from harmful overthinking, where continued reasoning destabilizes an already-correct trajectory. Starting from multimodal benchmarks, we find that many instances considered reasoning-intensive require surprisingly little reasoning. Moreover, stopping at the first correct prefix improves accuracy over standard reasoning up to 21%, revealing that current models are limited not only by their ability to reason, but also by their inability to stop at the right time. Furthermore, while common efficiency strategies like early stopping substantially reduce verbose overthinking (up to 50%), they fail to mitigate harmful overthinking. Failure analysis reveals that correctness deviations are mainly driven by logical drift and visual reinterpretation. Finally, we show that our findings generalize to language-only reasoning benchmarks, highlighting harmful overthinking as a broader reliability risk. Code available at https://simonecaldarella.github.io/thinking-past-the-answer.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "多模态",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "面向边缘嵌入式AI Agent系统的模块化架构",
-      "originalTitle": "Toward a Modular Architecture for Embedded AI Agent Systems at the Edge",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.02862",
-      "date": "2026-06-03T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 02862v1公告类型：新摘要：大型语言模型（ LLM ）的兴起使代理人工智能能够进行复杂的推理和工具使用；然而，由于嵌入式微控制器的严格内存和能量限制，在无处不在的计算环境中部署这种自主性仍然具有挑战性。现有框架通常采用服务器级资源或连续连接，为深度嵌入式系统留下了空白。 本文提出了一种嵌入式代理系统的模块化参考架构，弥合了确定性实时控制和代理智能之间的鸿沟。我们引入了一种分层设计，将On-Device Agent （执行高度压缩的神经网络和基于规则的逻辑，用于低延迟、隐私关键型任务）与云增强Agent （利用小语言模型（ SLM ）进行更高级别的推理和规划）分离。 一个关键的贡献是跨领域治理层的集成，确保跨分布式自主设备车队的可观察性、策略实施和安全性。我们分析的不是纯粹的经验性基准，而是在资源受限的环境中分析延迟、能量和可靠执行方面的架构设计原则和权衡。",
-      "originalSummary": "arXiv:2606.02862v1 Announce Type: new Abstract: The rise of Large Language Models (LLMs) has enabled agentic AI capable of complex reasoning and tool use; however, deploying such autonomy in pervasive computing environments remains challenging due to the strict memory and energy constraints of embedded microcontrollers. Existing frameworks typically assume server-class resources or continuous connectivity, leaving a gap for deeply embedded systems. This paper proposes a modular reference architecture for Embedded Agent Systems that bridges the divide between deterministic real-time control and agentic intelligence. We introduce a tiered design that decouples On-Device Agents - executing highly compressed neural networks and rule-based logic for low-latency, privacy-critical tasks - from Cloud-Augmented Agents that leverage Small Language Models (SLMs) for higher-level reasoning and planning. A key contribution is the integration of a cross-cutting Governance Layer, ensuring observability, policy enforcement, and safety across distributed fleets of autonomous devices. Rather than presenting purely empirical benchmarks, we analyze architectural design principles and trade-offs regarding latency, energy, and reliable execution in resource-constrained environments.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
+        "公司动态",
         "安全"
       ],
       "score": 99
@@ -137,36 +217,6 @@
       "score": 99
     },
     {
-      "title": "Microsoft为开发人员提供了更好的方式来控制AI代理行为",
-      "originalTitle": "Microsoft offers devs a better way to control AI agent behavior",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
-      "date": "2026-06-02T18:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "随着人工智能代理的能力不断增强，企业竞相将它们投入到跨应用程序、工作流程和产品的工作中，面临着新的挑战：确保代理在不同环境中部署时能够完成应有的工作。 微软正试图通过一种名为代理控制规范（ ACS ）的新开源标准来解决这个问题，该标准旨在为开发人员提供一种更一致、更精细的方式来控制允许AI代理执行的操作。该规范基本上允许开发人员、合规性和安全团队定义自己的策略，供代理遵循。 这些规则可以定义客服代表可以做什么、不可以做什么、何时应由人员批准某项操作，以及应记录哪些证据以供日后审核。当客服代表不执行任务时，这些策略文件会在几个“拦截点”进行检查，以确保其保持在护栏内。 该规范出台之际，开发人员正在即兴设计方法来控制他们的人工智能所看到和做的事情，特别是在由于工具滥用或导致级联故障的意外行为而导致专注于人工智能工作流程出错的对话中。如今，开发人员可能会在系统提示符中指定指令，在应用程序代码中添加自定义检查，或使用分类器来捕获有问题的输入和输出。 这些方法是有效的，但它们往往使公司的控制措施分散，难以审核，难以跨不同的框架、接口和系统重用。ACS旨在将这些控件集成到一个公共治理层中。 Microsoft表示，该规范可用于检查代理是否在其工作流程的多个点（在接收输入之前、调用工具之前、工具返回结果之后以及向用户发送最终响应之前）坚持使用护栏。政策可能允许操作、阻止操作、编辑敏感信息，甚至要求某人批准操作。 开发人员还可以插入输入和输出的分类器，以对信息进行分类、预测结果或确定代理应如何响应；添加带有提示的LLM ，以充当策略的“法官” ；以及检查工具调用、工具选择、输入准确性、输出使用和响应的逻辑。 由于这些策略可以编写为单个文件，因此它们可以与代理捆绑在一起，从而允许安全策略在不同的框架和环境中跟踪代理。ACS作为包含LangChain、OpenAI Agents SDK、Anthropic Agents SDK、AutoGen、CrewAI、Semantic Kernel、Microsoft插件的SDK发布。扩展。人工智能、MCP工具等。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。",
-      "originalSummary": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 95
-    },
-    {
-      "title": "微软的Project Solara是人工智能代理小工具的操作系统",
-      "originalTitle": "Microsoft&#8217;s Project Solara is an OS for AI agent gadgets",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
-      "date": "2026-06-02T17:31:02.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "微软刚刚在Build 2026上发布了“Project Solara” ，这是一款专为运行AI代理的小工具而设计的新操作系统。该公司称之为“一个从头开始构建的新平台，为代理驱动的体验提供动力。“它建立在Android上，而不是Windows上。Microsoft今天在Build上演示了两个概念Project Solara设备：桌面概念和徽章概念。 桌面概念是一款类似于Amazon Echo Show的设备，可通过面部识别解锁，并提供对人工智能代理的访问。徽章的概念是可穿戴的，这是您通常用于进入工作建筑的徽章类型。它有一个摄像头和一个指纹扫描仪，可以唤醒人工智能代理wi...阅读完整的故事在边缘。",
-      "originalSummary": "Microsoft just announced \"Project Solara,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge [&#8230;]",
-      "rawFullText": "Microsoft just announced \" Project Solara ,\" a new OS designed for gadgets that run AI agents, at Build 2026. The company is calling it \"a new platform built from the ground up to power agent-driven experiences.\" It's built on Android, not Windows. Microsoft demonstrated two concept Project Solara devices at Build today: Desk concept and badge concept. The desk concept is an Amazon Echo Show-like device that unlocks with facial recognition and provides access to AI agents. The badge concept is a wearable, the type of badge you'd typically use to access a work building. It has a camera and a fingerprint scanner, which can wake an AI agent wi … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 94
-    },
-    {
       "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
       "originalTitle": "Travelers deploys AI-powered claims countrywide with OpenAI",
       "source": "OpenAI",
@@ -182,6 +232,37 @@
       "score": 94
     },
     {
+      "title": "特朗普签署行政命令，在人工智能模型发布前对其进行审查",
+      "originalTitle": "Trump signs executive order to review AI models before they’re released",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
+      "date": "2026-06-02T18:33:42.000Z",
+      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布、模型相关动态",
+      "fullContent": "唐纳德·特朗普总统周二签署了一项行政命令，为人工智能公司创建了一个“自愿框架” ，以便在发布前与联邦政府分享其前沿模型， “以促进安全创新并加强关键基础设施的网络安全。 “该命令表示，美国人工智能行业取得了部分成功，”因为我们拒绝通过过于繁琐的监管来扼杀这一创新， ”但它也认识到新的人工智能功能存在安全风险。因此，它指示几个联邦机构提出一个框架，在发布之前“评估人工智能模型的先进网络能力”……阅读The Verge的完整故事。",
+      "originalSummary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [&#8230;]",
+      "rawFullText": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this innovation with overly burdensome regulation,\" but that it also recognizes new AI capabilities come with security risks. Accordingly, it directs several federal agencies to come up with a framework to \"assess the advanced cyber capabilities of AI models\" before they're releas … Read the full story at The Verge.",
+      "tags": [
+        "产品发布",
+        "模型"
+      ],
+      "score": 86
+    },
+    {
+      "title": "Holo3.1 ：快速和本地计算机使用代理",
+      "originalTitle": "Holo3.1: Fast & Local Computer Use Agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "date": "2026-06-02T14:13:23.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "移动自动化交叉线束性能更小尺寸，以实现对消费硬件本地代理的成本性能权衡去年3月，我们发布了Holo3 ，这是我们最先进的计算机使用模型。采用很快。开发人员、企业和合作伙伴开始在广泛的工作流程中部署Holo3 ，从浏览器自动化和业务软件到内部工具和桌面应用程序。 随着采用率的增长，我们意识到仅有绩效是不够的。用户希望在桌面和移动环境中运行相同的计算机使用功能，并与不同的代理框架无缝集成。他们需要部署的灵活性，从云推断到最终用户设备上的完全本地执行。这就是我们发布Holo3. 1系列的原因。Holo3。 1提高了生产中最重要的三个维度的稳健性：环境（ Web、桌面、移动）、代理框架和部署目标。我们首次发布了针对局部推理进行优化的量化检查点，包括FP8、Q4 GGUF和NVFP4。Holo3。 1是我们实现通用计算机代理愿景的重要一步：系统可以跨环境运行，集成到任何代理堆栈中，并在工作流程所在的任何地方运行。Holo3. 1基于Qwen系列，旨在提高实际部署计算机使用代理的环境的鲁棒性，同时保持最先进的性能。 随着团队将Holo3从评估转移到生产，我们反复观察到同样的挑战：在一个环境中的强劲表现不一定会转移到另一个环境中。移动设备、替代代理线束和不同的执行框架都引入了自己的分销转变来源。Holo3. 1将Holo3的功能扩展到浏览器和桌面控制之外，为移动环境带来了重大收益。 在AndroidWorld上，我们的35B-A3B模型从67%提高到79. 3% ，而较小的4B和9B变体从58%提高到72%。为了更好地支持在第三方代理堆栈中部署Holo的团队，除了Holo3中已有的结构化JSON输出之外， Holo3. 1还引入了对函数调用协议的本机支持。 在OSWorld和我们涵盖电子商务、业务软件和协作工作流程的内部基准套件中，功能调用和本地执行现在实现了接近同等的性能。当在我们的Holotab产品线束内进行评估时， Holo3. 1也比Holo3提高了25 ％以上。为了进一步实现本地和设备上的推理，我们还发布了新的模型尺寸，包括小型模型（ 0. 8B、4B和9B ） ，以实现具有成本效益的私有部署，此外还有较大的35B-A3B型号，以提供最先进的性能。Holo3. 1和Qwen 3. 5系列的性能与成本对比。总体性能首先对四个H Corporate基准进行平均（因此每个系列的权重相等） ，然后对OSWorld、AndroidWorld、H Corporate、ScreenSpot-Pro和OSWorld-G进行平均。这是我们首次发布量化权重。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 85
+    },
+    {
       "title": "OpenAI前沿模型和Codex现已在AWS上提供",
       "originalTitle": "OpenAI frontier models and Codex are now available on AWS",
       "source": "OpenAI",
@@ -195,7 +276,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "欢迎NVIDIA Cosmos 3 ：物理AI推理和行动的首个开放式全模型",
@@ -212,7 +293,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "我们对人工智能政策和政治倡导的看法",
@@ -228,7 +309,7 @@
         "监管",
         "安全"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "在密歇根州建设智能时代的基础设施",
@@ -261,69 +342,6 @@
       "score": 84
     },
     {
-      "title": "通过Rosalind Biodefense增强社会韧性",
-      "originalTitle": "Strengthening societal resilience with Rosalind Biodefense",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "date": "2026-05-29T03:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI推出Rosalind Biodefense ，为经过审核的开发商和美国政府合作伙伴扩大GPT-Rosalind的可信访问权限，通过前沿人工智能推进生物防御、公共卫生和大流行病防范。",
-      "originalSummary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "值得信赖的第三方评估的共享攻略",
-      "originalTitle": "A shared playbook for trustworthy third party evaluations",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "date": "2026-05-29T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI分享有关第三方人工智能评估的指导，涵盖如何评估前沿系统的模型功能、保障措施和有效性。",
-      "originalSummary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
-      "title": "Braintrust如何通过Codex将客户请求转化为代码",
-      "originalTitle": "How Braintrust turns customer requests into code with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/braintrust",
-      "date": "2026-05-29T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Braintrust工程师如何将Codex与GPT-5. 5结合使用，以更快地运行实验和编码。",
-      "originalSummary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 91
-    },
-    {
-      "title": "波士顿儿童医院使用人工智能解锁新诊断",
-      "originalTitle": "Boston Children’s uses AI to unlock new diagnoses",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/boston-childrens-hospital",
-      "date": "2026-05-29T12:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 90
-    },
-    {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
       "originalTitle": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
       "source": "Hugging Face",
@@ -336,22 +354,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
-      "title": "Endava如何使用Codex构建代理组织",
-      "originalTitle": "How Endava builds an agentic organization with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/endava",
-      "date": "2026-05-28T12:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "了解Endava如何使用Codex构建代理组织，加速软件交付并将需求分析从数周减少到数小时。",
-      "originalSummary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "rawFullText": "",
+      "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
+      "originalTitle": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "date": "2026-05-29T10:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
+      "rawFullText": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in human life since the Industrial Revolution. As the pope says, the choice before us—the choice AI presents—is one between the Tower of Babel and the rebuilding of our common humanity.&nbsp; In the biblical story of the Tower of Babel, humans sought to build a massive structure that reached all the way to Heaven, only to have their project thwarted when God made those involved unable to understand one another. It was a pursuit fixated on relentless growth, divorced from any concern about God’s commandments or the human cost. It resulted in failure and atomization. The Book of Nehemiah, however, offers a contrasting narrative, in which the rebuilding of Jerusalem after a period of violence and displacement becomes an opportunity for humanity to show its collaborative resilience. As the encyclical puts it, “The city is reborn, not through the initiative of one man, but through the shared responsibility of all: men, women, priests, artisans, heads of households and young people all play a part. It is an undertaking with God at the center, which rebuilds relationships before rebuilding with stones.”&nbsp; Is there any question which road we are currently barreling down? And can there be any doubt which we would do well to walk together?&nbsp; We are both Catholics, members of religious communities and longtime advocates within the movement for socially responsible investment. Of particular interest to us and that movement is Pope Leo’s point that AI is not some force of nature or hyperrational, ineffable entity. Instead, he reminds us, AI is ultimately another commercial product, one emerging at a point in history when excessive power over commerce and the wider society has amassed in a vanishingly small number of hands.&nbsp; It’s a powerful message. It’s also one that institutional investors have been acting on for years. This encyclical doesn’t break new ground so much as ratify a governance effort that’s already underway, led not by states or international bodies but by shareholders. When governments fail to meaningfully regulate, and corporations cannot be trusted to do what is beneficial beyond their own bottom line, people in society still have the power to set us on the right path, and indeed have the duty to do so.&nbsp; Around the world, AI systems are being deployed at scale with remarkably little institutional oversight. There is no AI safety board. The US Federal Trade Commission has jurisdiction over unfair practices but limited authority over algorithmic design. The National Institute of Standards and Technology publishes guidance that most companies ignore. The EU AI Act is partially in force but addresses only a sliver of the deployment surface. Institutional investors have stepped into this vacuum. Coalitions including the membership of the Interfaith Center on Corporate Responsibility, representing investors managing over $4 trillion in assets, have spent the past several proxy seasons filing resolutions demanding transparency, risk assessment, and accountability around AI deployment. Secular institutional investors have joined them, treating AI governance failures as material business risks. Shareholders have called tech giants including Alphabet, Amazon, Nvidia, Palantir, and Uber to account and demanded that AI not be used for acts of violence or other violations of human rights. The importance of this aspect of corporate governance was highlighted tragically in the opening hours of the war against Iran, when AI was used to help identify targets for thousands of missile strikes that killed hundreds of people.&nbsp;&nbsp; Investors have also challenged executives at CVS and UnitedHealth Group to ensure that AI not be used to undermine the well-being of patients and quality of health care across the United States.&nbsp; At companies including Meta and Microsoft, shareholders have decried the environmental impact of AI data centers, which consume vast amounts of energy and precious water resources , and in turn can emit large amounts of greenhouse gases.&nbsp; Within creative industries, investors have challenged the leadership at companies like Disney, Netflix, and Warner Bros. to demand transparency about the ways they are using AI and to defend the inimitable human element in storytelling.&nbsp; Soon, with OpenAI, Anthropic, and Grok all set to enter the public markets, we will be able to exert similar influence over what are now all privately held entities. These actions by concerned investors not only call out misdeeds but hold fast to an immutable truth: that it is wrong to use technology to kill, harm, or oppress people. Every human being has a right to safe and effective health care and the opportunity to earn a dignified living. The stories we tell each other matter and require the human creative spark.&nbsp; Investor advocates hail from a range of faith traditions. Some have no formal religious faith. Yet in their informed and tenacious advocacy, all these people echo the calls embedded within Pope Leo’s encyclical and act on its declaration that “it is essential that the use of AI, especially when it touches on public goods and fundamental rights, be guided by clear criteria and effective oversight.”&nbsp; Encyclicals mark time. A century from now, how will we be remembered for how we met this moment? Will we be seen as having been too timid or shortsighted to prevent a small group of unfathomably wealthy and self-interested people from seizing ever greater control over the human family’s shared destiny?&nbsp; Or will the years ahead be remembered as a turning point that helped us rebuild our common humanity? Let this be a time when people of good will and diverse talents come together through their own magnificent humanity to build a future that honors our Creator. Father Séamus Finn, OMI , is a global leader in faith-based and socially responsible investing and a priest of the Oblates of Mary Immaculate, a missionary religious congregation. Sister Susan Francois is the assistant congregation leader and congregation treasurer for the Sisters of St. Joseph of Peace. Correction: An earlier version of this story misstated the amount under management by the membership of the Interfaith Center on Corporate Responsibility.",
       "tags": [
-        "智能体"
+        "AI 热点"
       ],
-      "score": 86
+      "score": 69
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -366,7 +384,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "Reachy Mini完全本地化",
@@ -381,7 +399,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
@@ -396,7 +414,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -426,7 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -441,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "线束、脚手架和人工智能代理条款值得纠正",
@@ -456,7 +474,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -471,7 +489,7 @@
       "tags": [
         "研究"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "圆桌会议：人工智能能学会理解世界吗？",
@@ -486,7 +504,7 @@
       "tags": [
         "模型"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "在人工智能时代扩展创造力",
@@ -501,7 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
