@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T10:50:50.256Z",
+  "updatedAt": "2026-06-05T11:39:36.536Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,35 +19,19 @@
   ],
   "articles": [
     {
-      "title": "Endava如何围绕AI代理重新设计软件交付",
-      "originalTitle": "How Endava is redesigning software delivery around AI agents",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/endava-frontiers",
-      "date": "2026-06-04T12:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "了解Endava如何使用AI代理、ChatGPT Enterprise和Codex来加速软件交付、自动化工作流程，并在整个企业中构建AI原生文化。",
-      "originalSummary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
       "title": "面向企业AI智能体部署前保证：基于本体的模拟和信任认证",
       "originalTitle": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2606.04037",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-05T04:00:00.000Z",
       "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 04037v1公告类型：新摘要：企业人工智能（ AI ）代理的部署前验证仍然是大型语言模型（ LLM ）功能基准测试和生产部署之间的关键差距。一旦代理在生产中运行，部署后监控、人工循环控制和提示级别的护栏可提供有限的保证。 我们提出了一个基于本体的验证框架，该框架由三个组件组成：一个Agent Operational Envelope （代理操作信封） ，它将跨权限、域约束、安全属性、治理规则和自治级别的认证空间正式化；一个本体到场景生成管道，它自动导出监管、操作和对抗性测试场景；以及一个Trust Certificate （信任证书） ，它带有机器可验证的证明， 一个横跨四个受监管行业（金融科技、银行、保险和医疗保健）的受控试点项目，在美国和越南以五个行业监管制度为基础，产生了1,800个情景，根据125个主要来源监管要求和25个注入故障进行了评估。本体接地生成（ G4 ）实现了48. 3%的监管覆盖率，而基于角色的基线为33. 1% （校正p =. 0006),域特异性最高(4. 77/5. 0; p = 2e-6)。Bonferroni矫正后，覆盖率优于基线和检索增强提示。三个法学硕士家族（ Claude Sonnet 4、Qwen 2. 5 72B、Gemma 4 26B ；共5,400个场景）的交叉验证复制了人格对本体论模式。 结果确立了基于本体的场景生成，作为对监管密集型领域的基于角色的测试套件的可靠补充。",
-      "originalSummary": "arXiv:2606.04037v1 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We propose an ontology-grounded verification framework combining three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a Trust Certificate carrying a machine-verifiable attestation with graduated deployment verdicts (Approved, Conditional, Rejected). A controlled pilot across four regulated industries (Fintech, Banking, Insurance, and Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam, generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation (G4) achieved 48.3% regulatory coverage versus 33.1% for the persona-based baseline (corrected p = .0006) and the highest domain specificity (4.77/5.0; p = 2e-6). The coverage advantage over baseline and retrieval-augmented prompting was not robust after Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The results establish ontology-grounded scenario generation as a credible complement to persona-based test suites for regulatory-intensive domains.",
+      "fullContent": "arXiv: 2606. 04037v2公告类型：新摘要：企业人工智能（ AI ）代理的部署前验证仍然是大型语言模型（ LLM ）功能基准测试和生产部署之间的关键差距。一旦代理在生产中运行，部署后监控、人工循环控制和提示级别的护栏可提供有限的保证。 我们提出了一个以本体为基础的验证框架--据我们所知，这是第一个将三个组件组合在一起的框架：一个Agent Operational Envelope ，它在权限、域约束、安全属性、治理规则和自治级别上规范了认证空间；一个本体到场景生成管道，它可以自动推导出监管、运营和对抗性测试场景；以及一个可机器验证的信任证书，具有分级deplo 一个横跨四个受监管行业（金融科技、银行、保险、医疗保健）的受控试点项目，在美国和越南（越南的2025年人工智能法律规定金融服务必须进行此类验证）建立了五个行业监管单元，产生了1,800个场景，根据125个主要来源监管要求和25个注入故障进行了评估。 基于本体的生成在监管覆盖率上显著优于基于主导角色的基线（ 48. 3%对33. 1% ；校正p_c = .0006 ） ，并获得最高的领域特异性（ 4. 77/5 .0 ； p = 2e-6 ） ；透明地，其优于普通提示和检索增强提示的优势在Bonferroni校正中无法存活。跨三个法学硕士家族的交叉验证（ Claude Sonnet 4, Qwen 2. 5 72B ， Gemma 4 26B ；总共5,400个场景）复制了人格对本体论模式。该框架为企业AI代理的部署前保证提供了可重现的、基于法规的路线，通过可审计的部署门补充了运行时治理。",
+      "originalSummary": "arXiv:2606.04037v2 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We present an ontology-grounded verification framework -- to our knowledge the first to combine three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a machine-verifiable Trust Certificate with graduated deployment verdicts. A controlled pilot across four regulated industries (Fintech, Banking, Insurance, Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam (where Vietnam's 2025 AI Law makes such verification legally mandated for financial services), generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation significantly outperformed the dominant persona-based baseline on regulatory coverage (48.3% versus 33.1%; corrected p_c = .0006) and attained the highest domain specificity (4.77/5.0; p = 2e-6); transparently, its advantage over plain and retrieval-augmented prompting did not survive Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The framework offers a reproducible, regulation-grounded route to pre-deployment assurance for enterprise AI agents, complementing runtime governance with an auditable deployment gate.",
       "rawFullText": "",
       "tags": [
         "大模型",
         "智能体",
-        "安全"
+        "监管"
       ],
       "score": 99
     },
@@ -56,7 +40,7 @@
       "originalTitle": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2606.04152",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-05T04:00:00.000Z",
       "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
       "fullContent": "arXiv: 2606. 04152v1公告类型：新摘要：大型语言模型正在重塑研究实践，同时悄悄侵蚀研究人员的认识责任。本评论介绍了PEEL -人工智能认知参与扫盲协议，这是一种工作脚手架，将通过Voyant Tools进行的确定性远程阅读与通过Claude进行的LLM解释相结合，以Peircean符号学和归纳推理为基础。 应用于人工智能生成的三个源文本的浓缩， PEEL揭示了在没有非人工智能测量的情况下不可见的数量、术语频率和认知声音的系统扭曲，并产生了三个设计含义：确定性工具必须伴随着人工智能工具；流畅性不是保真度；必须设计认知权威，而不是假设。",
       "originalSummary": "arXiv:2606.04152v1 Announce Type: new Abstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability. This commentary introduces PEEL - Protocols for Epistemically Engaged Literacy in AI, a working scaffolding that combines deterministic distant reading via Voyant Tools with LLM interpretation via Claude, grounded in Peircean semiotics and abductive reasoning. Applied to AI-generated condensations of three source texts, PEEL reveals systematic distortions in quantity, term frequency, and epistemic voice that are invisible without non-AI measurement -- and yields three design implications: deterministic instruments must accompany AI tools; fluency is not fidelity; epistemic authority must be designed in, not assumed.",
@@ -73,7 +57,7 @@
       "originalTitle": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2606.04202",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-05T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2606. 04202v1公告类型：新摘要：随着LLM的部署越来越广泛，他们越来越多地被期望与其他人工智能代理一起工作，而不是孤立运作。在这些环境中进行有效协调需要客服代表在不确定的情况下进行沟通、共享信息并做出决策。 我们介绍了SMAC-Talk ，这是星际争霸多代理挑战赛的自然语言扩展，用于评估协作多代理环境中基于LLM的代理。环境具有分散控制、部分可观测性和长远决策等几个关键特征。SMAC-Talk包括一个自然语言沟通渠道，用于探测代理的协调和信任。 我们使用此沟通渠道构建不同的评估场景，包括嵌入欺骗性沟通者的设置，该设置试图仅通过沟通来破坏和欺骗盟友。我们使用来自Qwen3. 5系列的4个模型提供三个代理进行基准测试，并研究推理结构、记忆和模型规模如何影响代理之间的协调。 我们发布了SMAC-Talk作为开放基准，以支持研究界在合作多代理环境中开发和评估LLM代理。",
       "originalSummary": "arXiv:2606.04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
@@ -90,7 +74,7 @@
       "originalTitle": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2606.04244",
-      "date": "2026-06-04T04:00:00.000Z",
+      "date": "2026-06-05T04:00:00.000Z",
       "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
       "fullContent": "arXiv: 2606. 04244v1公告类型：新摘要：多模态大型语言模型越来越能够进行复杂的推理，但当它们必须通过工具将问题外化，然后推理工具的输出时，特别是当它们依赖于视觉辅助时，它们的性能往往会降低。这一差距尤为重要，因为实际的工程和科学工作流程通常依赖于可视化工具进行分析、验证和决策。 为了研究这种差异，我们引入了图辅助数学的基准VAMPS （视觉辅助数学问题解决）。 VAMPS包含从伊朗大学入学考试代数和微积分问题中抽取的1,168个多模态、双语多选题答案对，并扩展了人工评审的LLM生成的合成变体，所有这些变体都经过选择，从而通过揭示交叉点、极值、渐近线等来提供自然解决方案策略。 VAMPS专为基准测试和诊断而设计，它超越了先前的多模态基准，这些基准主要通过测试模型是否可以从构建有用的图表中受益，并将其答案基于最终的可视化来评估固定视觉输入的推理。 总体而言，我们发现，在一组不同的模型中，直接分析求解出人意料地优于工具支持的视觉求解，即使在绘图是一种自然策略的问题上也是如此。",
       "originalSummary": "arXiv:2606.04244v1 Announce Type: new Abstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then reason over the tool's output, specifically when they rely on visual aids. This gap is especially important because real engineering and scientific workflows often rely on visualization tools for analysis, validation, and decision-making. To study this discrepancy, we introduce VAMPS (Visual-Assisted Mathematical Problem Solving), a benchmark for graph-assisted mathematics. VAMPS contains 1,168 multimodal, bilingual multiple-choice question-answer pairs drawn from Iranian University Entrance Exam algebra and calculus problems and expanded with human-reviewed LLM-generated synthetic variants, all selected so that plotting provides a natural solution strategy by revealing intersections, extrema, asymptotes, etc. Designed for both benchmarking and diagnosis, VAMPS goes beyond prior multimodal benchmarks that primarily evaluate reasoning over fixed visual inputs by testing whether a model can benefit from constructing a useful graph and grounding its answer in the resulting visualization. Overall, we found that across a diverse set of models, direct analytical solving surprisingly outperforms tool-enabled visual solving, even on problems where plotting is a natural strategy.",
@@ -101,6 +85,101 @@
         "评测"
       ],
       "score": 99
+    },
+    {
+      "title": "干预时机的饱和陷阱和主观性：为什么基于情感的触发器和LLM法官无法对自主代理进行时间干预",
+      "originalTitle": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.04296",
+      "date": "2026-06-05T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 04296v1公告类型：新摘要：随着自主AI代理从会话系统转向长距离软件执行，决定何时中断代理的运行时安全层变得至关重要。 我们使用连续的18维情感动力学引擎（心脏）作为诊断探针来研究这个时序问题，评估四个干预触发器家族-绝对状态阈值，复合状态-行为模式，正则推理-特征提取和零点LLM-as-判断-针对SWE-bench验证调试跟踪上的人工注释干预点。我们报告了三个发现。 首先，状态饱和度陷阱：座席在持续困难的情况下没有显示恢复信号，因此建模的挫折感迅速越过阈值并保持在最大值，将阈值状态触发器从力矩探测器转换为近乎恒定的指标，这些指标在五条轨迹上对39-83%的动作触发。其次，法学硕士评委的能力和背景：一个小模型（ gpt-5. 4-mini ）从不开火，而FRONTIER和跨供应商型号仅在全轨道环境下才能逃脱零射击，即使这样也只能达到F1 0. 17-0. 40 ，成本高达90倍。第三，也是最重要的，受监督的目标在人类中是不可复制的：三名训练有素的注释者在56次行动的轨迹上使用一个标题，同意在哪里进行干预仅略高于机会（位置Krippendorff的α = +0。 047 ；最佳配对Cohen's kappa = +0.349 ） ，而对干预类型完全没有（暂停退化；澄清以下几率；仅反映α = +0.226 ）。我们的结论是，干预时机是一种低可靠性的构造，使得单注释器F1成为不合适的优化目标。 我们的贡献是将此问题联合映射到人类评分者之间的可靠性、四个检测器架构、跨模型LLM判断扫描和再现的饱和效应，而不是任何单个检测器的精度。",
+      "originalSummary": "arXiv:2606.04296v1 Announce Type: new Abstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing problem using a continuous 18-dimensional affective-dynamics engine (HEART) as a diagnostic probe, evaluating four intervention trigger families - absolute state thresholds, composite state-action patterns, regex reasoning-feature extraction, and zero-shot LLM-as-judge - against human-annotated intervention points on SWE-bench-Verified debugging traces. We report three findings. First, a State Saturation Trap: agents show no recovery signal under sustained difficulty, so modeled frustration quickly crosses the threshold and stays at its maximum, converting threshold-on-state triggers from moment detectors into near-constant indicators that fire on 39-83% of actions across five trajectories. Second, a capability-and-context floor for LLM judges: a small model (gpt-5.4-mini) never fires, while frontier and cross-vendor models escape the zero-firing floor only with full-trajectory context, and even then reach only F1 0.17-0.40 at up to 90x the cost. Third, and most importantly, the supervised target is not reproducible among humans: three trained annotators using one rubric on a 56-action trajectory agree on where to intervene only slightly above chance (location Krippendorff's alpha = +0.047; best pairwise Cohen's kappa = +0.349) and not at all on intervention type (pause degenerate; clarify below chance; reflect only alpha = +0.226). We conclude that intervention timing is a low-reliability construct, making single-annotator F1 an unsuitable optimization target. Our contribution is the joint mapping of this problem across human inter-rater reliability, four detector architectures, a cross-model LLM-judge sweep, and a reproduced saturation effect, rather than any single detector's accuracy.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Endava如何围绕AI代理重新设计软件交付",
+      "originalTitle": "How Endava is redesigning software delivery around AI agents",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/endava-frontiers",
+      "date": "2026-06-04T12:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "了解Endava如何使用AI代理、ChatGPT Enterprise和Codex来加速软件交付、自动化工作流程，并在整个企业中构建AI原生文化。",
+      "originalSummary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "苹果批准Poke成为其Messages for Business平台上的第一个人工智能代理",
+      "originalTitle": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "date": "2026-06-04T19:20:58.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "Poke是一家初创公司，它将使用人工智能代理变成了发送短信这样简单的事情，已经成为第一家获准在苹果的Messages for Business平台上运行的人工智能代理。此前，该平台专为企业（航空公司、零售商、连锁酒店等）设计，通过iMessage与自己的客户进行沟通，提供标准化界面，支持自动聊天和实时座席。 到目前为止，它还没有向独立的第三方人工智能代理开放。Poke于3月推出，是首批专为日常用户设计的人工智能代理之一，这些用户不具备使用命令行工具或更复杂的代理系统（如OpenClaw ）的技术技能或倾向。 如今， Poke可以帮助您进行日常活动，例如日常规划、管理日历、跟踪您的健康和健身情况、控制智能家居以及编辑照片，所有这些都可以通过短信完成。该公司告诉TechCrunch ，到目前为止，它已经传递了大约1亿条消息。人工智能服务通过短信、Telegram以及某些市场的WhatsApp运营。现在， Poke将能够将iMessage添加到其支持的平台。向新Poke问好！ 🌴 现在， Apple正式批准在Apple Messages上发送短信。作为第一个也是唯一的人工智能特工。立即聊天： https://t. co/VIWYU64dUI pic. twitter. com/AtZxupI2Ji Poke在Apple的Messages for Business上发布的消息比苹果预计将于周一举行的全球开发者大会提前了几天，该大会预计将推出人工智能优化版本的Siri以及面向应用程序开发人员的其他人工智能工具和服务。 还有传言称，苹果将向人工智能代理商开放其应用商店。Poke的情况并非如此。苹果的Messages for Business平台不是提供面向消费者的移动应用程序，而是让消费者直接通过iMessage的界面与企业互动的方式。 这样，消费者就可以联系企业，获取信息、支持、预约安排等，而无需通过电话联系他们。Poke的用户向AI代理提问或提出请求， AI代理会通过短信回复。对于创始人和投资者来说，更有趣的细节可能是它开启的商业模式。 总部位于帕洛阿尔托的Poke创业公司The Interaction Company of California的联合创始人马文·冯·哈根（ Marvin von Hagen ）表示，他的创业公司将按用户向苹果支付费用。虽然他不能透露确切的定价，但他指出，这比Meta AI要低得多，因为欧盟法规要求它允许第三方AI代理在WhatsApp上使用。 大规模应用的每用户收费结构代表了苹果潜在有意义的新收入来源，也是人工智能代理初创公司需要考虑的新分销成本。“我认为苹果只是注意到这是提供人工智能的最佳方式，实际上，这对他们有好处，因为他们向我们收费。他们向平台上的每个用户收取费用，并实际赚钱，特别是如果它变得非常大，” von Hagen...",
+      "originalSummary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
+      "title": "梦想：更好的记忆力，更有帮助的ChatGPT",
+      "originalTitle": "Dreaming: Better memory for a more helpful ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-memory-dreaming",
+      "date": "2026-06-04T09:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ChatGPT引入了一个新的记忆系统，以更好地记住偏好，保持对话中的上下文新鲜和相关性。",
+      "originalSummary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
+      "originalTitle": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "date": "2026-06-04T18:57:45.000Z",
+      "summary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
+      "fullContent": "Nemotron的新增功能3. 5内容安全1.统一多式联运评估2.全球语言覆盖3.自定义策略执行4.推理痕迹（思考模式） 5. 安全数据集模型架构推理培训数据基准测试延迟解决基准测试差距入门过去两年， NVIDIA的内容安全堆栈从一个专注的英语文本分类器发展成为一个专业模型系列--每个模型都将覆盖范围扩展到新的模式、语言和推理模式。 Nemotron 3 Content Safety于2026年3月发布，首次在单个4B参数模型中结合了多模式和多语言功能。今天，我们发布了Nemotron 3. 5内容安全，完善了这一概念：将多模式输入、多语言覆盖、自定义企业策略实施和可审计推理统一到一个推理通话中的单一模型。这篇文章介绍了3中的变化。 5、每个新功能背后的设计决策，以及如何将模型集成到安全生产管道中。Nemotron 3引入了图像理解； Nemotron 3. 5深化了多模态集成。该模型将用户提示、可选图像和可选助理响应作为单个上下文窗口，并对组合输入产生一致的安全判断。 综合评估所有三个因素，而不是分别进行评分，可以弥补多式联运安全场景中的一个众所周知的差距：现在，只有在文本与图像之间或请求与响应之间的交互中才会出现政策违规行为。Nemotron 3. 5保留了其前身的12种语言的显式培训覆盖范围-英语，法语，西班牙语，德语，中文，日语，韩语，阿拉伯语，印地语，俄语，葡萄牙语和意大利语-同时还从Gemma 3基本模型中继承了大约140种语言的强大零点概括。这意味着在培训数据稀疏的市场中进行部署（例如， 、东南亚语言、斯堪的纳维亚语言、资源较少的非洲语言）受益于基本模型多语言迁移，而无需单独微调。相对于Nemotron 3 ，这是3. 5中最重要的建筑添加。生产部署很少在单一的通用安全分类法下运行。 医疗保健平台的风险状况与金融服务聊天机器人、开发人员工具IDE或儿童教育应用程序不同。Nemotron 3. 5接受与输入一起的自定义策略规范。该模型在做出判决时会考虑该策略，而不是完全遵循内置的分类法。这将Nemotron内容安全推理4B中首次引入的工作扩展到完整的多模式、多语言设置。",
+      "originalSummary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
+      "rawFullText": "",
+      "tags": [
+        "多模态",
+        "安全"
+      ],
+      "score": 93
+    },
+    {
+      "title": "硅谷准备好把机器人放在人们的家里了吗？你好，机器人是。",
+      "originalTitle": "Is Silicon Valley ready to put robots in people&#8217;s homes? Hello Robot is.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+      "date": "2026-06-04T15:05:00.000Z",
+      "summary": "这条新闻与机器人、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、产品发布相关动态",
+      "fullContent": "加利福尼亚州的马丁内斯距离硅谷只有一步之遥，而且仍然在旧金山湾区。这座小城市坐落在海湾的东北边缘，是Hello Robot的所在地，这家初创公司本身距离其机器人竞争对手的最大承诺只有45英里。Hello Robot上个月发布了第四代家庭辅助机器人Stretch。你可以把它叫做人形机器人。 虽然Stretch拥有模糊的人体躯干和充满传感器的头部，但它的伸缩臂有一对钳子，它骑在一个沉重的全向轮式底座上。当Stretch的电池耗尽时，其“眼睛”周围的灯光发光— “它看起来很生气，”该公司的工程师Blaine Matulevich开玩笑说。 Hello Robot由谷歌前机器人技术总监Aaron Edsinger和佐治亚理工学院首席技术官Charlie Kemp于2017年创立，它并没有建立一个基础模型，也没有承诺接管人类可以做的每一项工作。Hello Robot开发了Stretch来完成许多其他机器人无法完成的事情：在真实的家中与真实的人在一起工作，而大多数人却在实验室的玻璃后面。这一点至关重要。 虽然人工智能的最新进展承诺为机器人提供更多功能，但缺少有用的训练数据。虽然模拟正在改进，但投资者越来越关注部署。Bullhound Capital在上周发布的一份关于该行业的报告中写道： “首先部署的公司积累了特定站点的恢复循环和工作流容差，没有竞争对手可以购买或合成。” “在机器人技术中，护城河不仅仅是知识产权，而是现实世界责任下的累积运营时间。乔治亚州的投资者基思·普拉特（ Keith Platt ）现在是Hello Robot的董事会成员，他在接受Stretch作为室友后投资了该公司。普拉特于2021年四肢瘫痪，只能控制部分肩膀、颈部和头部。 他开始探索自适应技术，并于2024年开始与Hello Robot合作，该团队中有一名职业治疗师，以支持其与Platt和其他患有类似疾病的人的合作。Platt使用语音操作的iPhone应用程序控制他的Stretch ；他可以将其任务自主移动到家中的某个地方，然后接管直接控制以操纵对象和执行任务。 一个看似简单的项目正在研究如何让Stretch为他提供早餐蛋白质奶昔，这通常需要另一个人的帮助。普拉特告诉TechCrunch ： “当我们第一次开始这项活动时，我花了将近两个小时的时间，没有人在那里。” “但我本来要坚持下去的。 在几分钟内，我可以喝下整个奶昔，然后把它放回柜台上。Platt说： “无论是在身体上还是在情感上，依赖人是一个真正的挑战。为了重新获得独立，他能做的任何事情--比如戴上或摘下老花镜，或者自己刷牙--“都是巨大的。“不仅仅是为了他，而是为了那些关心他的人。",
+      "originalSummary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "rawFullText": "",
+      "tags": [
+        "机器人",
+        "产品发布"
+      ],
+      "score": 90
     },
     {
       "title": "消息人士称， Lovable与Google Cloud签订多年协议，使用率提高5倍",
@@ -168,35 +247,18 @@
       "score": 99
     },
     {
-      "title": "OpenAI公共政策议程",
-      "originalTitle": "OpenAI public policy agenda",
+      "title": "前沿人工智能民主治理蓝图",
+      "originalTitle": "A blueprint for democratic governance of frontier AI",
       "source": "OpenAI",
-      "link": "https://openai.com/index/public-policy-agenda",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
       "date": "2026-06-03T10:00:00.000Z",
       "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
-      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "fullContent": "OpenAI概述了美国前沿人工智能治理的蓝图，提出了安全、复原力和国家安全的联邦框架。",
+      "originalSummary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "rawFullText": "",
       "tags": [
         "公司动态",
         "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "微软的第一个高级推理人工智能在这里",
-      "originalTitle": "Microsoft’s first advanced reasoning AI is here",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-      "date": "2026-06-02T18:12:44.000Z",
-      "summary": "这条新闻与公司动态、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、推理相关动态",
-      "fullContent": "微软在Build 2026上宣布了一系列新的内部人工智能模型，包括一款新的“旗舰”模型： MAI-Thinking-1。这是微软在模型开发方面迈出的雄心勃勃的一步，微软去年推出了最初的内部模型--在此之前，它依赖于OpenAI的模型。两家公司最近重新谈判了协议，以放松关系。 根据微软的说法， MAI-Thinking-1是一个在“关键”软件工程基准上“匹配领先模型”的“中型模型”。微软表示，该公司“从头开始训练它使用干净的数据，而不是从第三方模型中提炼出来。“至于今天宣布的其他车型，请在The Verge阅读完整故事。",
-      "originalSummary": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According [&#8230;]",
-      "rawFullText": "Microsoft announced a bunch of new in-house AI models at Build 2026, including a new \"flagship\" model: MAI-Thinking-1. It's an ambitious step into model development for Microsoft, which introduced its initial in-house models last year - before then, it had relied on OpenAI's models. The two companies recently renegotiated their deal to loosen ties. According to Microsoft , MAI-Thinking-1 is a \"medium-sized model\" that \"matches leading models\" on \"key\" software engineering benchmarks. Microsoft says the company \"trained it from the ground up on clean data, without distillation from third-party models.\" As for other models announced today, t … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "推理",
-        "模型"
       ],
       "score": 99
     },
@@ -229,23 +291,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
-    },
-    {
-      "title": "特朗普签署行政命令，在人工智能模型发布前对其进行审查",
-      "originalTitle": "Trump signs executive order to review AI models before they’re released",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/policy/941775/trump-ai-executive-order",
-      "date": "2026-06-02T18:33:42.000Z",
-      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布、模型相关动态",
-      "fullContent": "唐纳德·特朗普总统周二签署了一项行政命令，为人工智能公司创建了一个“自愿框架” ，以便在发布前与联邦政府分享其前沿模型， “以促进安全创新并加强关键基础设施的网络安全。 “该命令表示，美国人工智能行业取得了部分成功，”因为我们拒绝通过过于繁琐的监管来扼杀这一创新， ”但它也认识到新的人工智能功能存在安全风险。因此，它指示几个联邦机构提出一个框架，在发布之前“评估人工智能模型的先进网络能力”……阅读The Verge的完整故事。",
-      "originalSummary": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this [&#8230;]",
-      "rawFullText": "President Donald Trump signed an executive order Tuesday creating a \"voluntary framework\" for AI companies to share their frontier models with the federal government before they're released \"to promote secure innovation and strengthen the cybersecurity of critical infrastructure.\" The order says the US AI industry has succeeded in part \"because we refuse to stifle this innovation with overly burdensome regulation,\" but that it also recognizes new AI capabilities come with security risks. Accordingly, it directs several federal agencies to come up with a framework to \"assess the advanced cyber capabilities of AI models\" before they're releas … Read the full story at The Verge.",
-      "tags": [
-        "产品发布",
-        "模型"
-      ],
-      "score": 86
+      "score": 93
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -260,40 +306,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
-      "title": "OpenAI前沿模型和Codex现已在AWS上提供",
-      "originalTitle": "OpenAI frontier models and Codex are now available on AWS",
+      "title": "用代理人工智能重新人性化全球医疗保健",
+      "originalTitle": "Rehumanizing global health care with agentic AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
+      "date": "2026-06-02T11:23:34.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“用代理人工智能重新人性化全球医疗保健”。它主要涉及智能体方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse.&#8230;",
+      "rawFullText": "The global health care sector is under increasing strain.&nbsp; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse. The World Health Organization has warned that current shortfalls will increase to 11 million workers by 2030. In their urgent hunt for a solution, many health-care providers are now pinning their hopes on agentic AI, with more than two-thirds (68%) having already adopted AI agents into their workforce, according to KPMG. The technology is being deployed to automate complex back-office processes, collaborate with medical teams, and even triage patients, all in a bid to reduce the cognitive load on clinicians and improve quality of care for patients as the supply of human health-care workers dwindles. A different type of digitalization&nbsp; Until now, the benefits of digitalization within health care have been limited.&nbsp; Many staff have blamed slow or outdated technology for adding to the administrative burden rather than alleviating it. For example, U.S. patient data was migrated to electronic health records (EHRs) in the early 2000s, but this data remains fragmented and reliant on manual inputs.&nbsp; New telehealth services and digital care tools, like remote monitors, have had similar shortcomings, says Ashis Barad, MD, chief digital and technology officer at Hospital for Special Surgery (HSS), an academic medical center in New York that focuses on musculoskeletal health. Both technologies have helped improve access to health care by removing geographical barriers, he says, but they’ve failed to replicate the quality of in-person care or win trust from patients.&nbsp; Agentic AI is different from these existing technologies, he insists.&nbsp; Rather than relying on manual inputs or defaulting to human workers for any case that sits slightly outside a rigid framework, AI agents can handle nuanced, complex scenarios. They can make autonomous decisions, retrieve information from expert clinical sources, and iterate over time, freeing clinicians to focus on higher-level patient care. As Dr. Barad puts it: “Agentic AI takes your workflow and collapses it, augments it, supercharges it, and makes it more performant.”&nbsp; At HSS, AI agents have already been deployed in multiple areas. They handle complex backend processes, such as insurance claims that previously took several weeks to complete and involved both HSS staff and a third-party contractor to handle the volume. Now, says Dr. Barad, AI agents complete 1,100 claims per month. They’ve reduced the appeals stage from 45 minutes to five and improved the success rate of those appeals from 65% to 100% in the nine months since implementation. HSS now handles all claims in-house.&nbsp; Building on that success, HSS is now deploying AI agents in non-clinical patient-facing settings with an AI scheduling and triage service , as part of a collaboration with enterprise agentic AI developer Ema Unlimited . The service is accessible 24/7 via web, text, or phone. It uses conversational AI to ask patients clarifying questions about their condition and then books appointments with the most appropriate clinician, factoring in location, insurance coverage, and physician availability. “It completes the whole loop,” says Dr. Barad. The AI agent is trained on “all of our context, all of our rules, and all of our knowledge base,” he adds, providing patients with streamlined access to highly specialist knowledge from world-leading surgeons. Given the high-stakes decisions delegated to AI agents, the triage service has built-in safeguards—sensitive, complex, or uncertain scenarios are escalated to human specialists. Every decision made by the AI agent is auditable and human staff can step in at any point. Patient data is kept secure and the system is trained on all HSS protocols, policies, and care pathways. By keeping humans in the loop, Ema says its technology strikes the balance between efficient automation, patient-first safety, and human-informed decision making.&nbsp; As the technology becomes more prolific, it will be incumbent on providers to ensure they have these sorts of guardrails embedded into systems, says Dr. Barad. At HSS all decisions around the technology are filtered through an AI subcommittee that Dr. Barad co-chairs alongside a senior nursing executive. AI agents that may touch on patient care will be scrutinized with far more rigor than, say, backend processes, he explains. AI agents prompt systems-level change For example, Dr. Barad has plans to create a dedicated AI lab at the HSS main campus in New York City—a move that aims to democratize access to the technology across the organization. It will be open to all staff looking to understand or build AI agents, he explains, with informative classes and one-on-one training. “We’re getting agentic AI into everybody&#8217;s hands,” he says. This echoes research by Deloitte , which found that leading agentic AI adopters in health care were far more likely to have opted for multiagent solutions, redesigning end-to-end workflows rather than sticking to narrow solutions or individual use cases. The key, it appears, is to integrate AI agents across the entire enterprise, treating them as a general-purpose technology. As Dr. Barad puts it: “It’s wrong to think of agentic AI in use cases… It’s a general-purpose technology, analogous to electricity.” In practice, this means health-care providers need to set the right foundation to achieve value with agentic AI. This includes creating a unified data strategy, one that integrates fragmented data sources across an organization to create a single, comprehensive source of truth. In health care, data is often split across multiple departments and providers, each with their own legacy IT system. In systems that rely on fragmented data sources, metrics often lack standardized definitions too. For example, Dr. Barad says that each hospital he’s worked in has had a slightly different definition for “time to start surgery,” a metric commonly used to gauge operating room efficiency. This level of fragmentation impedes AI agents from retrieving information from different sources or applications and assimilating the tacit knowledge that differentiates them from other technologies. By creating greater interoperability of data at HSS, patient-facing AI agents can draw from a patient’s clinical care history and existing recommendations from their clinician, combine this information with current symptoms, and decide whether a situation requires escalation before notifying the correct specialist and informing the patient.&nbsp; Building better outcomes For Dr. Barad, the potential for AI agents to overhaul health care and alleviate the current pressures on resources, access, and patient care is huge.&nbsp; He envisions a future in which 90% of non-clinical health-care tasks could be administered by AI agents, freeing clinicians up for what he calls white-glove work, meaning the most complex, specialized, and sensitive cases. Most health-care providers seem equally optimistic. According to research by KPMG , 84% of providers are already comfortable handing decision making about specific processes over to AI agents. “We’re spending so much time on keyboards and computers right now that we&#8217;re actually not doing what we should be doing,” says Dr. Barad. “This is going to rehumanize health care.” This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 81
+    },
+    {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "Codex for every role, tool, and workflow",
       "source": "OpenAI",
-      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "date": "2026-06-01T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI前沿模型和Codex现已在AWS上普遍可用，为企业提供了一条新的途径，通过他们已经使用的AWS环境、控件和采购工作流使用OpenAI进行构建。客户可以在AWS上开始使用OpenAI ，并更快地从评估到生产。",
-      "originalSummary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "date": "2026-06-02T09:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
+        "AI 热点"
       ],
-      "score": 97
-    },
-    {
-      "title": "欢迎NVIDIA Cosmos 3 ：物理AI推理和行动的首个开放式全模型",
-      "originalTitle": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "date": "2026-06-01T04:44:55.000Z",
-      "summary": "这条新闻与推理、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：推理、算力芯片相关动态",
-      "fullContent": "第1部分： Cosmos 3有什么新功能？第2部分： Cosmos 3功能第3部分：将Cosmos 3与扩散器一起使用第4部分：物理AI的数据集第5部分： Cosmos框架第6部分：资源确认NVIDIA Cosmos 3在这里-今天可以在Hugging Face上使用。 Cosmos 3代表了物理AI世界基础模型（ WFM ）的重大飞跃：一个单一的、统一的全方位模型，将世界生成、物理推理和动作生成结合在一个模型中。无需在不同的模型和推理管道之间徘徊- Cosmos 3可以做到这一切。无论您是为机器人、自动驾驶汽车还是智能空间而构建， Cosmos 3都为您奠定了模拟和理解物理世界的基础。 与之前的Cosmos版本相比， Cosmos 3的最大变化是它是一个基于Mixture-of-Transformers （ MoT ）架构的全方位模型。以前，开发人员必须使用不同的模型来实现不同的功能，例如世界生成（ Cosmos Predict ）、受控生成（ Cosmos Transfer ）、场景理解（ Cosmos Reason ）和策略生成（ Cosmos Policy ）。 Cosmos 3在单个模型中实现了所有这一切，该模型可以在一个统一的前传中推理和生成不同的模式。Cosmos 3有助于构建能够理解现实世界的物理AI系统。不仅仅是像素和令牌，还有运动、因果关系、物理和动作。 如果您正在训练机器人折叠衣物、构建自动驾驶模拟或为仓库安全场景生成合成培训数据， Cosmos 3就是为这些用例设计的基础模型。Cosmos 3为机器人挑选和放置用例生成的视频。使用Cosmos 3进行仓库安全数据的图像到视频生成。自动驾驶应用中的Cosmos 3思维链推理。 Cosmos 3建立在MoT骨干网之上，可在单个统一架构内处理所有模式（文本、图像、视频、音频和动作）。每种模态首先由专用编码器（用于视觉理解的ViT、用于视觉/音频生成的VAE和用于动作的域感知向量）编码，然后投影到共享表示空间中。 输入序列分为两个子序列：通过next-token预测处理推理和理解的自回归（ AR ）子序列，以及通过迭代去噪处理生成的扩散（ DM ）子序列。 AR和DM代币在每个变压器层内使用单独的参数集，但通过共同注意进行交互-这就是让单个模型在充当VLM、视频生成器、正向/反向动态模型或机器人策略之间无缝切换而无需任何架构更改的原因。",
-      "originalSummary": "这条新闻与推理、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：推理、算力芯片相关动态",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "算力芯片",
-        "模型"
-      ],
-      "score": 97
+      "score": 80
     },
     {
       "title": "我们对人工智能政策和政治倡导的看法",
@@ -309,22 +352,7 @@
         "监管",
         "安全"
       ],
-      "score": 95
-    },
-    {
-      "title": "在密歇根州建设智能时代的基础设施",
-      "originalTitle": "Building the infrastructure for the Intelligence Age in Michigan",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/stargate-michigan-data-center",
-      "date": "2026-06-01T12:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "作为星际之门的一部分， OpenAI在密歇根州的一个1GW数据中心项目上破土动工，建设人工智能基础设施，以扩大访问、创造就业机会和支持社区。",
-      "originalSummary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 93
+      "score": 94
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -339,7 +367,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "date": "2026-06-01T15:45:17.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
     },
     {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
@@ -354,7 +397,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -369,7 +412,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -384,7 +427,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "Reachy Mini完全本地化",
@@ -399,7 +442,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
@@ -414,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -429,7 +472,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -444,7 +487,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -459,7 +502,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "线束、脚手架和人工智能代理条款值得纠正",
@@ -474,7 +517,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
@@ -489,67 +532,7 @@
       "tags": [
         "研究"
       ],
-      "score": 73
-    },
-    {
-      "title": "圆桌会议：人工智能能学会理解世界吗？",
-      "originalTitle": "Roundtables: Can AI Learn to Understand the World?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
-      "date": "2026-05-21T20:41:05.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：模型相关动态”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter&#8230;",
-      "rawFullText": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter Grace Huckins exploring how AI might enter the physical world. Speakers : Mat Honan , Editor in Chief, Will Douglas Heaven , AI Senior Editor, and Grace Huckins , AI Reporter Recorded on May 21, 2026 Related Stories: How Pokémon Go is giving delivery robots an inch-perfect view of the world 10 Things That Matter in AI Right Now:&nbsp;World&nbsp;Models Yann LeCun has a bold new vision for the future of AI",
-      "tags": [
-        "模型"
-      ],
-      "score": 68
-    },
-    {
-      "title": "在人工智能时代扩展创造力",
-      "originalTitle": "Scaling creativity in the age of AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
-      "date": "2026-05-21T19:16:43.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our&#8230;",
-      "rawFullText": "Storytelling is core to humanity&#8217;s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans&#8217; innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our feet. Social and streaming platforms have multiplied, audiences have fragmented, and our demand for fresh, unique media is insatiable. A recent McKinsey podcast cites that we are watching upwards of 12 hours of video content daily, often on multiple devices and multiple platforms. All this content is expensive to produce: With a baseline budget of $150M, a Hollywood feature runs $1M per minute of finished film; prestige streaming content is in the hundreds of thousands per minute. And since consumers want to engage with authentic, original material , every company is now effectively a media company. That means we all face the same pressure: more content, with the same time and budget constraints. There is no longer a question whether to use AI for content; the math doesn&#8217;t work any other way. What leaders need to focus on now is how to adapt responsibly, protect brand integrity, uplift team creativity, and build customer trust. A few things worth holding onto as this era accelerates: AI amplifies what&#8217;s already there, both good and bad. Weak strategy stays weak. Responsible adoption means knowing what&#8217;s in your tools and models. Provenance and transparency are the foundation, not the finish line. Scale without taste is just noise. Investing in your team&#8217;s judgment is what makes more content matter. Fundamentals of great storytelling have not changed. Regardless of format or channel, what makes audiences lean in are still characters, arc, ingenuity, and surprise. The permanent sprint Creative teams are trapped on the endless hamster wheel of production, and it’s not slowing down. According to Adobe research, content demand will grow 5x over the next two years . Social content shelf life is now measured in hours, not weeks. Keeping fresh work in the pipeline is a permanent sprint, requiring teams to rethink how creative production functions. The first move is freeing creative teams by having AI absorb the repetitive work so they have space for the strategic creative decisions that require human ingenuity. In a recent study from Adobe , 94% of creatives report that AI helps them produce content faster, saving an average of 17 hours per week. That recovered time is not a productivity metric; it is renewed creative capacity. As a use case, Nestlé offers a useful blueprint. Its teams operate across 180 countries with a portfolio of iconic brands including Nescafé, KitKat, and Purina. Using Adobe Firefly Custom Models embedded in existing content workflows allows teams to generate assets in a brand-informed style without disrupting creative flow. At Nestlé, workflow cycle times dropped 50% . &#8220;With Firefly Custom Models, we can react at the speed of culture. It&#8217;s the closest thing we&#8217;ve had to magic.&#8221; says Wael Jabi, global strategic comms lead for KitKat. As we move into the agentic era, the possibilities expand further. Adobe&#8217;s Creative Agent thinks in systems, not tasks, orchestrating across workflows, apps, and processes to close the gap between idea and execution, and get teams out of the production cycles that consume their productivity. Build for your brand, not every brand A company’s brand is how the world recognizes and connects with them. And it’s more than a collection of assets—it is dynamic, subjective, and expressed in thousands of micro-decisions made every day by the people who know it best. As production scales, keeping everything tuned to the brand gets more challenging. Off-the-shelf AI cannot replicate the level of nuance creative teams bring to content, and there’s a real cost to getting it wrong; diluting a brand in market with almost-right output is not an acceptable option. Customer trust is fragile. Starting with a bespoke AI model built with Adobe Firefly Foundry addresses this directly. Firefly Foundry starts with a commercially safe base model and trains further on a company’s IP, making it possible to produce content that genuinely reflects the team&#8217;s vision. And to ensure that Firefly Foundry models truly represent the creatives at the helm, Adobe has partnered with film studios like Wonder Studios, Promise.ai, and B5 Studios, and the “big three” talent agencies CAA, UTA, and WME to deeply understand what it means (and what it takes) to build an IP-immersive model that keeps creatives at the center as these film studios and talent agencies scale their visions. These brand ecosystems can accelerate nearly every phase of the production process, from ideation and storyboarding to production and promotion, all while preserving artistry and authorship. And to power the next generation of creativity and content, Adobe has recently announced a strategic partnership with NVIDIA , delivering best-in-class creative control along with enterprise-grade, commercially safe content at scale. Generic AI gives teams a starting point. But a model trained on a brand&#8217;s own IP gets them to the finish line, while still leaving room for the creative calls that matter most. When agents become the audience AI is not only reshaping how we create; it is reshaping how customers find and engage with brands entirely. According to Adobe Digital Insights, AI-powered shopping has surged 4,700% . Agentic web traffic is up 7,851% year over year . Yet, most businesses still have significant gaps in AI-led brand visibility. If content is invisible to AI agents, then a brand is invisible to customers. Major League Baseball is ahead of this curve . Using Adobe LLM Optimizer, the league monitors how its content surfaces across AI interfaces and makes real-time adjustments to maintain visibility. As fans search for tickets, stats, or game-day experiences, the league ensures its brand shows up wherever that search is happening. And with Adobe’s recent acquisition of Semrush, brand visibility goes even further. The agentic web created an entirely new content surface that did not exist two years ago, and this exponential proliferation of content illustrates precisely why scaled, on-brand content production has become a strategic imperative. A well-built agentic foundation offers full visibility into (and control over) every piece of content, from production to performance. How to prepare for AI integration Here are a few steps to get started: Audit before automation. Content supply chains usually include duplicated processes, unclear ownership, and assets living in many different places. Before AI can accelerate anything, develop a clear map of how content moves through the organization today: who creates it, who approves it, where it lives, and where it breaks down. AI applied to a broken process just breaks it faster. Walk through workflows. Resist the urge to overhaul everything at once. Start with production tasks that are high-volume, low-stakes, and well-defined: asset resizing, localization, and background generation. Use those wins to build internal confidence before expanding into more complex creative territory. Build responsible governance from the start. Governance added as an afterthought becomes a bottleneck. Building it in from the beginning creates a competitive advantage that lets teams move fast with confidence. And this means clear policies on model training, content provenance, human review thresholds, and communicating AI use to customers. The brands that earn lasting trust will treat transparency as a feature, not a footnote. Register today for the MIT Technology Review and Adobe LinkedIn Live event: Brand, Trust, and Creativity in the Age of AI . This content was produced by Adobe. It was not written by MIT Technology Review’s editorial staff.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
-    },
-    {
-      "title": "OlmoEarth v1.1 ：更高效的地球观测模型系列",
-      "originalTitle": "OlmoEarth v1.1: A more efficient family of Earth observation models",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-      "date": "2026-05-19T18:38:09.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "通过减少序列长度来提高效率为开发人员设计令牌为研究人员提供入门🧠模型： https://huggingface. co/collections/allenai/olmoearth |📄技术报告： https://allenai. org/papers/olmoearth_v1_1 |💻代码： https://github. com/allenai/olmoearth_pretrain我们于2025年11月发布了OlmoEarth (v1)。 从那时起，合作伙伴将其应用于广泛的任务，从跟踪红树林变化到对森林损失的驱动因素进行分类，再到在几天内绘制国家级作物类型地图，再到将部署范围扩展到国家、大陆和全球地区。每一个版本都使我们更接近我们的使命：将最先进的人工智能引入致力于保护人类和地球的组织和社区。 当OlmoEarth处理卫星图像以进行数万至数十万平方公里的预测时，效率决定了可能性。在运行OlmoEarth的整个生命周期（数据导出、预处理、推断和后处理）中，计算是迄今为止成本最高的。 更高效的模型意味着我们可以在OlmoEarth平台上支持更多合作伙伴，并且任何自己运行OlmoEarth的人都可以更快、更低成本地利用这项技术。这就是我们构建OlmoEarth v1. 1的原因：这是一个新的模型系列，可将计算成本降低多达3倍，同时保持OlmoEarth v1在我们与合作伙伴构建的研究基准和任务组合中的性能。 OlmoEarth模型是基于变压器的模型，是当今机器学习的主导架构之一。为了处理遥感数据，我们首先将其转换为模型可以摄取的令牌序列。在基于变压器的模型中，有两个重要的杠杆控制效率：模型大小（这就是我们发布一系列模型的原因，因此用户可以选择适合其计算预算的大小）和令牌序列长度。 计算成本随令牌序列长度平方扩展，因此即使是小幅缩减也可以有意义地降低运行模型的成本。MAC或乘积累加运算估计一个模型正向传递所需的计算；较低的MAC通常意味着更便宜、更快的推理。y轴反转，因为平均排名越低越好。标签显示型号系列和大小。所有绘制的点都使用粘贴的MAC/等级值。 这为基于变压器的遥感模型提出了一个重要问题：代币应该代表什么？以Sentinel-2图像为例，这是我们处理的一种常见方式。Sentinel-2输入将是一些具有高度和宽度（ H ， W代表纬度和纵向像素） ，时间维度T和12个Sentinel-2通道（ [H ， W ， T ， D = 12] ）的张量。目前，我们将数据拆分为基于分辨率的修补程序。 具体来说，这意味着我们将选择一些空间补丁大小p ，并将我们的整体Sentinel-2图像拆分为p x p大小的补丁：对于每个补丁，我们为每个分辨率的每个时间步长创建一个令牌。因此，具有2个时间步长的Sentinel-2输入每个补丁产生6个令牌（ 2个时间步长x 3...",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
-    },
-    {
-      "title": "介绍Ettin Reranker家族",
-      "originalTitle": "Introducing the Ettin Reranker Family",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ettin-reranker",
-      "date": "2026-05-19T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
+      "score": 72
     }
   ]
 }
