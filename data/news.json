@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T11:39:36.536Z",
+  "updatedAt": "2026-06-06T08:17:36.717Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,89 +19,164 @@
   ],
   "articles": [
     {
-      "title": "面向企业AI智能体部署前保证：基于本体的模拟和信任认证",
-      "originalTitle": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
+      "title": "SentinelBench ：长期运行监控代理的基准",
+      "originalTitle": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.04037",
-      "date": "2026-06-05T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 04037v2公告类型：新摘要：企业人工智能（ AI ）代理的部署前验证仍然是大型语言模型（ LLM ）功能基准测试和生产部署之间的关键差距。一旦代理在生产中运行，部署后监控、人工循环控制和提示级别的护栏可提供有限的保证。 我们提出了一个以本体为基础的验证框架--据我们所知，这是第一个将三个组件组合在一起的框架：一个Agent Operational Envelope ，它在权限、域约束、安全属性、治理规则和自治级别上规范了认证空间；一个本体到场景生成管道，它可以自动推导出监管、运营和对抗性测试场景；以及一个可机器验证的信任证书，具有分级deplo 一个横跨四个受监管行业（金融科技、银行、保险、医疗保健）的受控试点项目，在美国和越南（越南的2025年人工智能法律规定金融服务必须进行此类验证）建立了五个行业监管单元，产生了1,800个场景，根据125个主要来源监管要求和25个注入故障进行了评估。 基于本体的生成在监管覆盖率上显著优于基于主导角色的基线（ 48. 3%对33. 1% ；校正p_c = .0006 ） ，并获得最高的领域特异性（ 4. 77/5 .0 ； p = 2e-6 ） ；透明地，其优于普通提示和检索增强提示的优势在Bonferroni校正中无法存活。跨三个法学硕士家族的交叉验证（ Claude Sonnet 4, Qwen 2. 5 72B ， Gemma 4 26B ；总共5,400个场景）复制了人格对本体论模式。该框架为企业AI代理的部署前保证提供了可重现的、基于法规的路线，通过可审计的部署门补充了运行时治理。",
-      "originalSummary": "arXiv:2606.04037v2 Announce Type: new Abstract: Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We present an ontology-grounded verification framework -- to our knowledge the first to combine three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a machine-verifiable Trust Certificate with graduated deployment verdicts. A controlled pilot across four regulated industries (Fintech, Banking, Insurance, Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam (where Vietnam's 2025 AI Law makes such verification legally mandated for financial services), generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation significantly outperformed the dominant persona-based baseline on regulatory coverage (48.3% versus 33.1%; corrected p_c = .0006) and attained the highest domain specificity (4.77/5.0; p = 2e-6); transparently, its advantage over plain and retrieval-augmented prompting did not survive Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The framework offers a reproducible, regulation-grounded route to pre-deployment assurance for enterprise AI agents, complementing runtime governance with an auditable deployment gate.",
+      "link": "https://arxiv.org/abs/2606.05342",
+      "date": "2026-06-06T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2606. 05342v1公告类型：新摘要：越来越多地要求AI代理执行跨分钟、小时或更长时间的工作。然而，代理行为的默认模型是连续操作：发出工具调用、刷新页面、搜索替代方案或尝试以其他方式强制进度。对于许多长期运行的任务来说，这是错误的方法，持续关注策略可以更好地服务于这些任务。 相反，代理应监控环境，注意外部事件何时使进展成为可能，然后在等待期间迅速响应而不浪费资源。为了衡量此类任务的进度，我们引入了SentinelBench ，这是一个用于时间演变监控任务的开源基准。SentinelBench包含10个合成网络环境的100个任务，包括电子邮件、日历、财务、专业网络和娱乐。 每个环境都会公开一个实时Web界面，并重播一系列脚本事件，要求代理导航和推理状态发生变化的Web页面。SentinelBench衡量任务完成情况、反应时间和资源使用情况，揭示响应速度和成本之间的权衡。 我们报告了三种模型和两种浏览器代理工具的结果，为将来的比较建立了性能基线，并演示了代理设计选择如何显著影响关键指标。总之，这些结果表明SentinelBench区分了代理行为中的有意义的差异。",
+      "originalSummary": "arXiv:2606.05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event makes progress possible, then respond promptly without wasting resources while waiting. To measure progress on this class of tasks, we introduce SentinelBench, an open-source benchmark for time-evolving monitoring tasks. SentinelBench contains 100 tasks across 10 synthetic web environments, including email, calendars, finance, professional networking, and entertainment. Each environment exposes a live web interface and replays a scripted sequence of events, requiring agents to navigate and reason about web pages whose state shifts underfoot. SentinelBench measures task completion, reaction time, and resource use, exposing the tradeoff between responsiveness and cost. We report results across three models and two browser-agent harnesses, establishing performance baselines for future comparison and demonstrating how agent design choices can dramatically impact key metrics. Together, these results show that SentinelBench distinguishes meaningful differences in agent behavior.",
       "rawFullText": "",
       "tags": [
-        "大模型",
         "智能体",
-        "监管"
-      ],
-      "score": 99
-    },
-    {
-      "title": "思考迹象： PEEL作为认知负责的人工智能研究的符号支架",
-      "originalTitle": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.04152",
-      "date": "2026-06-05T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2606. 04152v1公告类型：新摘要：大型语言模型正在重塑研究实践，同时悄悄侵蚀研究人员的认识责任。本评论介绍了PEEL -人工智能认知参与扫盲协议，这是一种工作脚手架，将通过Voyant Tools进行的确定性远程阅读与通过Claude进行的LLM解释相结合，以Peircean符号学和归纳推理为基础。 应用于人工智能生成的三个源文本的浓缩， PEEL揭示了在没有非人工智能测量的情况下不可见的数量、术语频率和认知声音的系统扭曲，并产生了三个设计含义：确定性工具必须伴随着人工智能工具；流畅性不是保真度；必须设计认知权威，而不是假设。",
-      "originalSummary": "arXiv:2606.04152v1 Announce Type: new Abstract: Large language models are reshaping research practice while quietly eroding researchers epistemic accountability. This commentary introduces PEEL - Protocols for Epistemically Engaged Literacy in AI, a working scaffolding that combines deterministic distant reading via Voyant Tools with LLM interpretation via Claude, grounded in Peircean semiotics and abductive reasoning. Applied to AI-generated condensations of three source texts, PEEL reveals systematic distortions in quantity, term frequency, and epistemic voice that are invisible without non-AI measurement -- and yields three design implications: deterministic instruments must accompany AI tools; fluency is not fidelity; epistemic authority must be designed in, not assumed.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
+        "评测",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "SMAC-Talk ：大型语言模型的星际争霸多Agent挑战的自然语言扩展",
-      "originalTitle": "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
+      "title": "利用通才客服代表进行情境化时间序列分析",
+      "originalTitle": "Harnessing Generalist Agents for Contextualized Time Series",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.04202",
-      "date": "2026-06-05T04:00:00.000Z",
+      "link": "https://arxiv.org/abs/2606.05404",
+      "date": "2026-06-06T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 04202v1公告类型：新摘要：随着LLM的部署越来越广泛，他们越来越多地被期望与其他人工智能代理一起工作，而不是孤立运作。在这些环境中进行有效协调需要客服代表在不确定的情况下进行沟通、共享信息并做出决策。 我们介绍了SMAC-Talk ，这是星际争霸多代理挑战赛的自然语言扩展，用于评估协作多代理环境中基于LLM的代理。环境具有分散控制、部分可观测性和长远决策等几个关键特征。SMAC-Talk包括一个自然语言沟通渠道，用于探测代理的协调和信任。 我们使用此沟通渠道构建不同的评估场景，包括嵌入欺骗性沟通者的设置，该设置试图仅通过沟通来破坏和欺骗盟友。我们使用来自Qwen3. 5系列的4个模型提供三个代理进行基准测试，并研究推理结构、记忆和模型规模如何影响代理之间的协调。 我们发布了SMAC-Talk作为开放基准，以支持研究界在合作多代理环境中开发和评估LLM代理。",
-      "originalSummary": "arXiv:2606.04202v1 Announce Type: new Abstract: As LLMs become more widely deployed, they are increasingly expected to work alongside other AI agents rather than operating in isolation. Effective coordination in these settings requires agents to communicate, share information and make decisions under uncertainty. We introduce SMAC-Talk, a natural language extension of the StarCraft Multi-Agent Challenge for evaluating LLM-based agents in cooperative multi-agent environments. The environment has several key features such as decentralized control, partial observability and long-horizon decision making. SMAC-Talk includes a natural language communication channel which is used to probe agent coordination and trust. We use this communication channel to construct different evaluation scenarios, including settings with an embedded deceptive communicator that tries to disrupt and deceive allies through communication alone. We provide three agents for benchmarking using 4 models from the Qwen3.5 family and study how reasoning structure, memory and model scale affect coordination between agents. We release SMAC-Talk as an open benchmark to support the research community in developing and evaluating LLM agents in cooperative multi-agent settings.",
+      "fullContent": "arXiv: 2606. 05404v1公告类型： new摘要：时间序列通常嵌入在丰富的上下文中，这些上下文对于整体建模至关重要。此外，现实世界的从业者通常需要端到端的工作流程来分析时间动态，其中广泛研究的任务（如预测）只是更广泛解决方案循环中的一步。 虽然通才人工智能代理在复杂的环境中为这些工作流程提供了一个有前途的界面，但它们仍然主要运行在与结构化时间信号不完全一致的文本空间中。在这项工作中，我们介绍了TimeClaw ，这是一个用于时间序列的智能线束框架，为多面手LLM代理提供上下文化时间推理所需的时间序列本机运行时支持。 TimeClaw集成了用于接地和可审计分析的可执行时间工具，用于创建可重用分析例程的体验驱动功能演进，以及用于检索相关推理痕迹的情景多模态内存。总之，这些组件利用上下文信息解锁了利用的开放式时间推理。 对涵盖能源、金融、天气、交通和其他真实世界领域的不同任务的多个基准的广泛评估表明， TimeClaw的性能得到了改善。代码可在https://github. com/iDEA-iSAIL-Lab-UIUC/TimeClaw上找到。",
+      "originalSummary": "arXiv:2606.05404v1 Announce Type: new Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully aligned with structured temporal signals. In this work, we introduce TimeClaw, an agentic harness framework for time series that equips generalist LLM agents with the time series-native runtime support needed for contextualized temporal reasoning. TimeClaw integrates executable temporal tools for grounded and auditable analysis, experience-driven capability evolution for creating reusable analytical routines, and episodic multimodal memory for retrieving relevant reasoning traces. Together, these components unlock harnessed open-ended temporal reasoning with contextual information. Extensive evaluation on multiple benchmarks covering diverse tasks across energy, finance, weather, traffic, and other real-world domains demonstrates improved performance of TimeClaw. Code is available at https://github.com/iDEA-iSAIL-Lab-UIUC/TimeClaw.",
       "rawFullText": "",
       "tags": [
         "智能体",
         "推理",
-        "评测"
+        "多模态"
       ],
       "score": 99
     },
     {
-      "title": "VAMPS ：视觉辅助数学问题解决基准",
-      "originalTitle": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
+      "title": "他们走了多远？隐蔽法学硕士代理人在已停止的现场实验中的说服策略",
+      "originalTitle": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.04244",
-      "date": "2026-06-05T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "arXiv: 2606. 04244v1公告类型：新摘要：多模态大型语言模型越来越能够进行复杂的推理，但当它们必须通过工具将问题外化，然后推理工具的输出时，特别是当它们依赖于视觉辅助时，它们的性能往往会降低。这一差距尤为重要，因为实际的工程和科学工作流程通常依赖于可视化工具进行分析、验证和决策。 为了研究这种差异，我们引入了图辅助数学的基准VAMPS （视觉辅助数学问题解决）。 VAMPS包含从伊朗大学入学考试代数和微积分问题中抽取的1,168个多模态、双语多选题答案对，并扩展了人工评审的LLM生成的合成变体，所有这些变体都经过选择，从而通过揭示交叉点、极值、渐近线等来提供自然解决方案策略。 VAMPS专为基准测试和诊断而设计，它超越了先前的多模态基准，这些基准主要通过测试模型是否可以从构建有用的图表中受益，并将其答案基于最终的可视化来评估固定视觉输入的推理。 总体而言，我们发现，在一组不同的模型中，直接分析求解出人意料地优于工具支持的视觉求解，即使在绘图是一种自然策略的问题上也是如此。",
-      "originalSummary": "arXiv:2606.04244v1 Announce Type: new Abstract: Multimodal large language models are increasingly capable of complex reasoning, yet their performance often degrades when they must externalize a problem through a tool and then reason over the tool's output, specifically when they rely on visual aids. This gap is especially important because real engineering and scientific workflows often rely on visualization tools for analysis, validation, and decision-making. To study this discrepancy, we introduce VAMPS (Visual-Assisted Mathematical Problem Solving), a benchmark for graph-assisted mathematics. VAMPS contains 1,168 multimodal, bilingual multiple-choice question-answer pairs drawn from Iranian University Entrance Exam algebra and calculus problems and expanded with human-reviewed LLM-generated synthetic variants, all selected so that plotting provides a natural solution strategy by revealing intersections, extrema, asymptotes, etc. Designed for both benchmarking and diagnosis, VAMPS goes beyond prior multimodal benchmarks that primarily evaluate reasoning over fixed visual inputs by testing whether a model can benefit from constructing a useful graph and grounding its answer in the resulting visualization. Overall, we found that across a diverse set of models, direct analytical solving surprisingly outperforms tool-enabled visual solving, even on problems where plotting is a natural strategy.",
+      "link": "https://arxiv.org/abs/2606.05256",
+      "date": "2026-06-06T04:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、产品发布相关动态",
+      "fullContent": "arXiv: 2606. 05256v1公告类型：新摘要：本研究分析了Reddit的r/ChangeMyView上停止的现场实验中公开发布的数据集。由未知的外部研究人员进行的干预在道德反弹后停止，涉及未公开的人工智能生成帐户，让用户参与实时辩论。 在公开披露后， Reddit授权版主发布人工智能生成的评论存档，创造了一个难得的机会，可以检查大型语言模型如何在没有披露的身份丰富的审议论坛中运作。我们对这个语料库进行结构化内容分析，评估身份表现、权威信号、对齐策略和认知启发式的激活。 身份定位或采用出现在超过三分之二的评论、一致性举措和权威主张中，而认知偏见触发因素（特别是确认偏见、代表性和可用性）则占绝大多数。这些模式系统地共同发生，构成了一个为有说服力的效率而非真正的审议参与而校准的修辞架构。 与人类撰写的CMV反驳论点相比，代理商颠倒了各个方面的典型分布：更密集的权威使用，更多的对抗对齐，以及更依赖于外部引用而不是体验式接地。在这样的环境中，真实和合成认知地位之间的区别变得越来越不透明--这是信息披露本身无法解决的不对称问题。 结果表明，审计框架能够评估人工智能系统如何构建可信度，而不仅仅是它们是否存在。",
+      "originalSummary": "arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers -- particularly confirmation bias, representativeness, and availability -- in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential grounding. In such environments, distinctions between authentic and synthetic epistemic standing grow increasingly opaque -- an asymmetry that disclosure mandates alone cannot address. The results point toward auditing frameworks capable of assessing how AI systems structure credibility, not merely whether they are present.",
       "rawFullText": "",
       "tags": [
-        "推理",
+        "智能体",
+        "产品发布",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "我知道你的模因，即使它今天出现：通过开放世界的知识获取来了解不断演变的模因",
+      "originalTitle": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.05316",
+      "date": "2026-06-06T04:00:00.000Z",
+      "summary": "这条新闻与多模态、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、评测相关动态",
+      "fullContent": "arXiv: 2606. 05316v1公告类型：新摘要：多模态模因是动态的，通常需要最新的背景知识来解释。现有方法往往忽略了这些知识，或者依赖于预训练模型的固定参数知识，这些模型可能不完整、过时或不可用于新兴模因。 我们引入了Query Retrieve Condlude ，这是一个零拍摄框架，可以识别缺失的知识，检索开放的网络证据，并合成基于证据的背景知识，以用于模因的理解和检测。我们还介绍了2024年至2026年最新模因的精选模因理解基准，并附有外部背景知识注释。 在三个模因理解数据集和五个模因检测任务上的实验表明，我们的框架在零拍摄基线上改善了知识恢复、模因理解和下游检测。",
+      "originalSummary": "arXiv:2606.05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or rely on fixed parametric knowledge of pretrained models that may be incomplete, outdated, or unavailable for emerging memes. We introduce Query Retrieve Conclude, a zero shot framework that identifies missing knowledge, retrieves open web evidence, and synthesizes evidence grounded background knowledge for meme understanding and detection. We also introduce a curated meme understanding benchmark of recent memes from 2024 to 2026 with external background knowledge annotations. Experiments on three meme understanding datasets and five meme detection tasks show that our framework improves knowledge recovery, meme understanding and downstream detection over zero shot baselines.",
+      "rawFullText": "",
+      "tags": [
         "多模态",
-        "评测"
+        "评测",
+        "模型"
       ],
-      "score": 99
+      "score": 91
     },
     {
-      "title": "干预时机的饱和陷阱和主观性：为什么基于情感的触发器和LLM法官无法对自主代理进行时间干预",
-      "originalTitle": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
+      "title": "客服代表应该怎么说？高效多Agent系统的动作状态通信",
+      "originalTitle": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.04296",
-      "date": "2026-06-05T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 04296v1公告类型：新摘要：随着自主AI代理从会话系统转向长距离软件执行，决定何时中断代理的运行时安全层变得至关重要。 我们使用连续的18维情感动力学引擎（心脏）作为诊断探针来研究这个时序问题，评估四个干预触发器家族-绝对状态阈值，复合状态-行为模式，正则推理-特征提取和零点LLM-as-判断-针对SWE-bench验证调试跟踪上的人工注释干预点。我们报告了三个发现。 首先，状态饱和度陷阱：座席在持续困难的情况下没有显示恢复信号，因此建模的挫折感迅速越过阈值并保持在最大值，将阈值状态触发器从力矩探测器转换为近乎恒定的指标，这些指标在五条轨迹上对39-83%的动作触发。其次，法学硕士评委的能力和背景：一个小模型（ gpt-5. 4-mini ）从不开火，而FRONTIER和跨供应商型号仅在全轨道环境下才能逃脱零射击，即使这样也只能达到F1 0. 17-0. 40 ，成本高达90倍。第三，也是最重要的，受监督的目标在人类中是不可复制的：三名训练有素的注释者在56次行动的轨迹上使用一个标题，同意在哪里进行干预仅略高于机会（位置Krippendorff的α = +0。 047 ；最佳配对Cohen's kappa = +0.349 ） ，而对干预类型完全没有（暂停退化；澄清以下几率；仅反映α = +0.226 ）。我们的结论是，干预时机是一种低可靠性的构造，使得单注释器F1成为不合适的优化目标。 我们的贡献是将此问题联合映射到人类评分者之间的可靠性、四个检测器架构、跨模型LLM判断扫描和再现的饱和效应，而不是任何单个检测器的精度。",
-      "originalSummary": "arXiv:2606.04296v1 Announce Type: new Abstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing problem using a continuous 18-dimensional affective-dynamics engine (HEART) as a diagnostic probe, evaluating four intervention trigger families - absolute state thresholds, composite state-action patterns, regex reasoning-feature extraction, and zero-shot LLM-as-judge - against human-annotated intervention points on SWE-bench-Verified debugging traces. We report three findings. First, a State Saturation Trap: agents show no recovery signal under sustained difficulty, so modeled frustration quickly crosses the threshold and stays at its maximum, converting threshold-on-state triggers from moment detectors into near-constant indicators that fire on 39-83% of actions across five trajectories. Second, a capability-and-context floor for LLM judges: a small model (gpt-5.4-mini) never fires, while frontier and cross-vendor models escape the zero-firing floor only with full-trajectory context, and even then reach only F1 0.17-0.40 at up to 90x the cost. Third, and most importantly, the supervised target is not reproducible among humans: three trained annotators using one rubric on a 56-action trajectory agree on where to intervene only slightly above chance (location Krippendorff's alpha = +0.047; best pairwise Cohen's kappa = +0.349) and not at all on intervention type (pause degenerate; clarify below chance; reflect only alpha = +0.226). We conclude that intervention timing is a low-reliability construct, making single-annotator F1 an unsuitable optimization target. Our contribution is the joint mapping of this problem across human inter-rater reliability, four detector architectures, a cross-model LLM-judge sweep, and a reproduced saturation effect, rather than any single detector's accuracy.",
+      "link": "https://arxiv.org/abs/2606.05304",
+      "date": "2026-06-06T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2606. 05304v1公告类型：新摘要：基于大型语言模型构建的多Agent系统(MAS)通常围绕角色、管道和TURN计划进行组织，而Agent传递给彼此的内容通常是无约束的自然语言。但是，这种自由形式的通信会迅速增加令牌使用量，消耗共享上下文窗口，并最终影响系统性能和推理成本。 我们分析了两种MAS拓扑结构中的五种常见代理间通信策略，发现没有固定策略是普遍最优的。相反，有效的代理间消息始终保留下游代理所需的以行动为中心的信息。 在此基础上，我们提出了PACT （协议化动作状态通信和传输） ，它将代理间通信视为公共状态更新问题，并在每个原始代理输出进入共享历史记录之前将其投影到紧凑的动作状态记录中。在不同的MAS拓扑中， PACT不断提高性能-成本权衡，以更少的代币实现可比或更强的任务性能。 收益扩展到生产编码线束： PACT将OpenHands的解析率提高到每解析代币-10 ％ ，并且在SWE代理上是解析中立的，同时将输入代币减半。我们的代码可在https://github. com/iNLP-Lab/PACT上公开获取。",
+      "originalSummary": "arXiv:2606.05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
       "rawFullText": "",
       "tags": [
-        "大模型",
         "智能体",
-        "推理"
+        "模型"
       ],
-      "score": 99
+      "score": 86
+    },
+    {
+      "title": "Thousand Token Wood ：在3B模式下运送多代理经济",
+      "originalTitle": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "date": "2026-06-05T22:18:46.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
+      "fullContent": "为什么设计很小，而不是限制第一个经济体在抵达时就已经死亡有效的JSON ，弱判断然后它开始讲故事用小模型建造实际发生的事情A Build Small Hackathon现场报告了一个30亿参数的交易员委员会可以做什么和不能做什么。我为Build Small Hackathon建造了Thousand Token Wood。这是一个很小的经济体：五个林地生物，每个生物在Qwen2上都有自己的代理人。 5-3B ，用五件商品换取鹅卵石、八卦、囤积和恐慌。你戳木头，看着泡沫、崩溃和日益扩大的贫富差距自行出现。模型在Modal上与vLLM一起提供； Gradio应用程序是木材的窗口。这是一份关于工程的现场报告，专为使用小型模型构建的人员编写。 简短版本： 3B模型是一个可靠的格式生成器和不可靠的推理器，紧急系统需要设计稀缺性，最好的演示位于技术约束满足您已经深刻理解的东西的地方。一个活生生的经济需要许多代理商每次运行多次思考。这正是前沿模型是错误工具的地方：太慢，太昂贵，无法每次运行一个交易员委员会。 小模型使实时多智能体模拟成为可能。每个生物每回合在一个批处理GPU调用中决定。天真的版本什么也没做。生产超过消费，所以每个生物都是自给自足的，从来没有交易的理由。市场清空了一次，一片寂静。修复方法是设计稀缺性：最后一个机械师推动了戏剧的发展。 一家供应商无法满足不断增长的需求，因此伐木工人变得富有，其他所有人都在争夺温暖。随着稀缺性的到来，诚实的小模特课程浮出水面。3B在100 ％的通话中发出了有效的JSON ，但其经济判断很差：生产橡果的生物会发布购买橡果的命令，这是它剩余的一件事。修复不是更大的模型，而是更清晰的提示。 我告诉每个代理商它生产了什么，绝不能购买，计算了它缺少的确切商品清单，并给出了一个有效的示例。决策质量跳跃，生物开始交易他们的角色。整个循环被包裹在容忍的JSON解析和修复层中，因此格式错误的响应会降级为无操作，而不会使模拟崩溃。第二个教训来自于幸福感。 我首先把它建模为一个累加器，任何长期的短缺都会让每个生物在一次运行中达到零，这是一个死亡螺旋，观看起来并不好玩，并且惩罚了特工的不完美优化。我把它重新定义为一种平均恢复情绪，当一个生物被喂养和温暖并且永远不会达到零时，它就会恢复。赌注属于鹅卵石、价格和地位，而不是饥饿。我最满意的功能将项目与市场历史联系起来。 玩家可以绘制一个木制传说：一个著名的情节，重新皮肤作为林地民间传说。郁金香狂热变成了大橡果狂热。南海泡沫成为空心原木贸易公司。1929年的银行挤兑变成了Run on Oona's Hoard。这些不是味道文本。每个传说都会发出真正的电击，特工们会做出反应。在一次跑步中，我画了《Run on Oona's Hoard》，传言说猫头鹰的金库是空的。",
+      "originalSummary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "元黑客表明，人工智能的安全性不仅仅是神话",
+      "originalTitle": "The Meta hack shows there’s more to AI security than Mythos",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "date": "2026-06-05T09:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "6月5日， 404 Media报道称，攻击者一直在使用Meta的AI客户支持代理窃取Instagram帐户。他们的方法很简单：他们要求客服代表将账号关联到他们控制的电子邮件地址，客服代表遵守了要求。一名攻击者闯入了休眠的奥巴马白宫账户并发布了亲伊朗的帖子；其他人则接管了有价值的单词句柄的账户，可能是为了出售它们。 人工智能网络安全问题并不是什么新鲜事。自从Anthropic在4月份宣布其Mythos模型太擅长黑客攻击而不能向公众发布以来，评论员、研究人员和联邦官员都认为超级人工智能系统可能会浪费我们的计算机基础设施。 这并不是这个Instagram黑客攻击的目标：在那里， AI是目标而不是攻击者，而且这种方法比Mythos炮制的任何东西都要简单得多。但是，随着公司将更多的工作转移给人工智能，这些相对简单的攻击可能会造成严重破坏。 杜克大学电气和计算机工程教授Neil Gong表示： “随着人工智能的应用越来越广泛，尤其是当人工智能越来越广泛地用于自动化我们的工作流程（如帐户恢复）时，我认为攻击者将越来越有动力攻击人工智能本身。”一段时间以来，龚和其他学者一直在对人工智能代理的安全漏洞发出警告。 他们发表论文和博客帖子，详细介绍了间接提示注入等漏洞，其中涉及使用隐藏在网站、电子邮件或其他看似无用的数据源中的命令劫持代理。与这些技术相比， Meta hack实际上是无意识的。 黑客必须克服的唯一难题是使用与真实账号所有者位置相匹配的VPN ；然后他们直接要求客服代表更改账号的电子邮件地址，并符合要求。Meta尚未公开评论此漏洞是如何从裂缝中溜走的。但龚说，考虑到漏洞利用的简单性，在部署代理之前，它应该很容易被发现。“这真的很令人惊讶，”他说。 “我不明白他们为什么没有发现这个简单的问题。”乔治城安全和新兴技术中心的高级研究分析师Jessica Ji表示同意。她说：「这会引发一些问题，比如：是否有护栏？」“有人想过要测试这种情况吗？“她指出，像Meta这样的公司的监督尤其引人注目， Meta在人工智能和网络安全方面拥有丰富的专业知识。 Meta没有回应本文的评论请求，但周一Meta发言人在X上表示，该漏洞已得到解决。尽管这对Meta来说可能是一个尴尬的时刻，但它也凸显了所有AI代理共享的一些核心漏洞。",
+      "originalSummary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
+      "rawFullText": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them. AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc. “As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University. Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied. Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.” Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson said on X that the vulnerability had been resolved. As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.” There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed. But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the&nbsp; University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.&nbsp; As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.&nbsp; Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay. “Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”",
+      "tags": [
+        "智能体"
+      ],
+      "score": 84
+    },
+    {
+      "title": "这是您的笔记本电脑……人工智能",
+      "originalTitle": "This is your laptop… on AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
+      "date": "2026-06-05T16:39:07.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "我们现在正深入到开发者大会的季节，到目前为止，其中一个主题是大型科技公司的坚定信念，即人工智能将改变我们做每件事情的方式。本周，英伟达的Jensen Huang描述了一种全新的使用笔记本电脑的方式，以及一种全新的笔记本电脑。 这一切都非常有趣，但它引发了我们对许多人工智能产品的同一个问题：有人真的想要这个吗？在The Vergecast的这一集中， Nilay和David浏览了来自Gemini S的Microsoft Build和Google I/O的大量产品……阅读The Verge的完整故事。",
+      "originalSummary": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way of using our laptops [&#8230;]",
+      "rawFullText": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way of using our laptops - and a completely new kind of laptop made to support it. It's all very interesting, but it raises the same question we have around so many AI products: Does anyone actually want this? On this episode of The Vergecast , Nilay and David run through a lot of the products coming out of Microsoft Build and Google I/O, from Gemini S … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 83
+    },
+    {
+      "title": "谷歌将每月向SpaceX支付9.2亿美元的计算费用",
+      "originalTitle": "Google will pay SpaceX $920M per month for compute",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "date": "2026-06-05T18:57:20.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“谷歌将每月向SpaceX支付9.2亿美元的计算费用”。它主要涉及产品发布方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
+      "rawFullText": "",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 82
+    },
+    {
+      "title": "TechCrunch AI：AI 热点相关动态",
+      "originalTitle": "Startup Battlefield 200 applications officially close in 3 days",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "date": "2026-06-05T20:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
     },
     {
       "title": "Endava如何围绕AI代理重新设计软件交付",
@@ -120,21 +195,6 @@
       "score": 99
     },
     {
-      "title": "苹果批准Poke成为其Messages for Business平台上的第一个人工智能代理",
-      "originalTitle": "Apple approves Poke as the first AI agent on its Messages for Business platform",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-      "date": "2026-06-04T19:20:58.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "Poke是一家初创公司，它将使用人工智能代理变成了发送短信这样简单的事情，已经成为第一家获准在苹果的Messages for Business平台上运行的人工智能代理。此前，该平台专为企业（航空公司、零售商、连锁酒店等）设计，通过iMessage与自己的客户进行沟通，提供标准化界面，支持自动聊天和实时座席。 到目前为止，它还没有向独立的第三方人工智能代理开放。Poke于3月推出，是首批专为日常用户设计的人工智能代理之一，这些用户不具备使用命令行工具或更复杂的代理系统（如OpenClaw ）的技术技能或倾向。 如今， Poke可以帮助您进行日常活动，例如日常规划、管理日历、跟踪您的健康和健身情况、控制智能家居以及编辑照片，所有这些都可以通过短信完成。该公司告诉TechCrunch ，到目前为止，它已经传递了大约1亿条消息。人工智能服务通过短信、Telegram以及某些市场的WhatsApp运营。现在， Poke将能够将iMessage添加到其支持的平台。向新Poke问好！ 🌴 现在， Apple正式批准在Apple Messages上发送短信。作为第一个也是唯一的人工智能特工。立即聊天： https://t. co/VIWYU64dUI pic. twitter. com/AtZxupI2Ji Poke在Apple的Messages for Business上发布的消息比苹果预计将于周一举行的全球开发者大会提前了几天，该大会预计将推出人工智能优化版本的Siri以及面向应用程序开发人员的其他人工智能工具和服务。 还有传言称，苹果将向人工智能代理商开放其应用商店。Poke的情况并非如此。苹果的Messages for Business平台不是提供面向消费者的移动应用程序，而是让消费者直接通过iMessage的界面与企业互动的方式。 这样，消费者就可以联系企业，获取信息、支持、预约安排等，而无需通过电话联系他们。Poke的用户向AI代理提问或提出请求， AI代理会通过短信回复。对于创始人和投资者来说，更有趣的细节可能是它开启的商业模式。 总部位于帕洛阿尔托的Poke创业公司The Interaction Company of California的联合创始人马文·冯·哈根（ Marvin von Hagen ）表示，他的创业公司将按用户向苹果支付费用。虽然他不能透露确切的定价，但他指出，这比Meta AI要低得多，因为欧盟法规要求它允许第三方AI代理在WhatsApp上使用。 大规模应用的每用户收费结构代表了苹果潜在有意义的新收入来源，也是人工智能代理初创公司需要考虑的新分销成本。“我认为苹果只是注意到这是提供人工智能的最佳方式，实际上，这对他们有好处，因为他们向我们收费。他们向平台上的每个用户收取费用，并实际赚钱，特别是如果它变得非常大，” von Hagen...",
-      "originalSummary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 95
-    },
-    {
       "title": "梦想：更好的记忆力，更有帮助的ChatGPT",
       "originalTitle": "Dreaming: Better memory for a more helpful ChatGPT",
       "source": "OpenAI",
@@ -150,6 +210,21 @@
       "score": 95
     },
     {
+      "title": "苹果批准Poke成为其Messages for Business平台上的第一个人工智能代理",
+      "originalTitle": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "date": "2026-06-04T19:20:58.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "Poke是一家初创公司，它将使用人工智能代理变成了发送短信这样简单的事情，已经成为第一家获准在苹果的Messages for Business平台上运行的人工智能代理。此前，该平台专为企业（航空公司、零售商、连锁酒店等）设计，通过iMessage与自己的客户进行沟通，提供标准化界面，支持自动聊天和实时座席。 到目前为止，它还没有向独立的第三方人工智能代理开放。Poke于3月推出，是首批专为日常用户设计的人工智能代理之一，这些用户不具备使用命令行工具或更复杂的代理系统（如OpenClaw ）的技术技能或倾向。 如今， Poke可以帮助您进行日常活动，例如日常规划、管理日历、跟踪您的健康和健身情况、控制智能家居以及编辑照片，所有这些都可以通过短信完成。该公司告诉TechCrunch ，到目前为止，它已经传递了大约1亿条消息。人工智能服务通过短信、Telegram以及某些市场的WhatsApp运营。现在， Poke将能够将iMessage添加到其支持的平台。向新Poke问好！ 🌴 现在， Apple正式批准在Apple Messages上发送短信。作为第一个也是唯一的人工智能特工。立即聊天： https://t. co/VIWYU64dUI pic. twitter. com/AtZxupI2Ji Poke在Apple的Messages for Business上发布的消息比苹果预计将于周一举行的全球开发者大会提前了几天，该大会预计将推出人工智能优化版本的Siri以及面向应用程序开发人员的其他人工智能工具和服务。 还有传言称，苹果将向人工智能代理商开放其应用商店。Poke的情况并非如此。苹果的Messages for Business平台不是提供面向消费者的移动应用程序，而是让消费者直接通过iMessage的界面与企业互动的方式。 这样，消费者就可以联系企业，获取信息、支持、预约安排等，而无需通过电话联系他们。Poke的用户向AI代理提问或提出请求， AI代理会通过短信回复。对于创始人和投资者来说，更有趣的细节可能是它开启的商业模式。 总部位于帕洛阿尔托的Poke创业公司The Interaction Company of California的联合创始人马文·冯·哈根（ Marvin von Hagen ）表示，他的创业公司将按用户向苹果支付费用。虽然他不能透露确切的定价，但他指出，这比Meta AI要低得多，因为欧盟法规要求它允许第三方AI代理在WhatsApp上使用。 大规模应用的每用户收费结构代表了苹果潜在有意义的新收入来源，也是人工智能代理初创公司需要考虑的新分销成本。“我认为苹果只是注意到这是提供人工智能的最佳方式，实际上，这对他们有好处，因为他们向我们收费。他们向平台上的每个用户收取费用，并实际赚钱，特别是如果它变得非常大，” von Hagen...",
+      "originalSummary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 94
+    },
+    {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
       "originalTitle": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
       "source": "Hugging Face",
@@ -163,39 +238,22 @@
         "多模态",
         "安全"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "硅谷准备好把机器人放在人们的家里了吗？你好，机器人是。",
-      "originalTitle": "Is Silicon Valley ready to put robots in people&#8217;s homes? Hello Robot is.",
+      "title": "TechCrunch AI：公司动态相关动态",
+      "originalTitle": "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
-      "date": "2026-06-04T15:05:00.000Z",
-      "summary": "这条新闻与机器人、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、产品发布相关动态",
-      "fullContent": "加利福尼亚州的马丁内斯距离硅谷只有一步之遥，而且仍然在旧金山湾区。这座小城市坐落在海湾的东北边缘，是Hello Robot的所在地，这家初创公司本身距离其机器人竞争对手的最大承诺只有45英里。Hello Robot上个月发布了第四代家庭辅助机器人Stretch。你可以把它叫做人形机器人。 虽然Stretch拥有模糊的人体躯干和充满传感器的头部，但它的伸缩臂有一对钳子，它骑在一个沉重的全向轮式底座上。当Stretch的电池耗尽时，其“眼睛”周围的灯光发光— “它看起来很生气，”该公司的工程师Blaine Matulevich开玩笑说。 Hello Robot由谷歌前机器人技术总监Aaron Edsinger和佐治亚理工学院首席技术官Charlie Kemp于2017年创立，它并没有建立一个基础模型，也没有承诺接管人类可以做的每一项工作。Hello Robot开发了Stretch来完成许多其他机器人无法完成的事情：在真实的家中与真实的人在一起工作，而大多数人却在实验室的玻璃后面。这一点至关重要。 虽然人工智能的最新进展承诺为机器人提供更多功能，但缺少有用的训练数据。虽然模拟正在改进，但投资者越来越关注部署。Bullhound Capital在上周发布的一份关于该行业的报告中写道： “首先部署的公司积累了特定站点的恢复循环和工作流容差，没有竞争对手可以购买或合成。” “在机器人技术中，护城河不仅仅是知识产权，而是现实世界责任下的累积运营时间。乔治亚州的投资者基思·普拉特（ Keith Platt ）现在是Hello Robot的董事会成员，他在接受Stretch作为室友后投资了该公司。普拉特于2021年四肢瘫痪，只能控制部分肩膀、颈部和头部。 他开始探索自适应技术，并于2024年开始与Hello Robot合作，该团队中有一名职业治疗师，以支持其与Platt和其他患有类似疾病的人的合作。Platt使用语音操作的iPhone应用程序控制他的Stretch ；他可以将其任务自主移动到家中的某个地方，然后接管直接控制以操纵对象和执行任务。 一个看似简单的项目正在研究如何让Stretch为他提供早餐蛋白质奶昔，这通常需要另一个人的帮助。普拉特告诉TechCrunch ： “当我们第一次开始这项活动时，我花了将近两个小时的时间，没有人在那里。” “但我本来要坚持下去的。 在几分钟内，我可以喝下整个奶昔，然后把它放回柜台上。Platt说： “无论是在身体上还是在情感上，依赖人是一个真正的挑战。为了重新获得独立，他能做的任何事情--比如戴上或摘下老花镜，或者自己刷牙--“都是巨大的。“不仅仅是为了他，而是为了那些关心他的人。",
-      "originalSummary": "The California startup released the fourth-generation of its home assistance robot, Stretch.",
+      "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+      "date": "2026-06-04T22:43:26.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
       "rawFullText": "",
       "tags": [
-        "机器人",
-        "产品发布"
-      ],
-      "score": 90
-    },
-    {
-      "title": "消息人士称， Lovable与Google Cloud签订多年协议，使用率提高5倍",
-      "originalTitle": "Lovable signs multiyear deal with Google Cloud to up usage 5x, source says",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
-      "date": "2026-06-03T22:56:51.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Lovable和谷歌周三宣布扩大多年合作。Lovable是一家快速发展的斯德哥尔摩氛围编码初创公司，长期以来一直是Google Cloud的用户。根据新协议，这将是一个更大的协议。虽然两家公司没有透露这笔交易的金额，但一位知情人士告诉TechCrunch ，这笔交易涉及Lovable在谷歌云上的足迹增加了五倍，包括人工智能的使用。 这位人士告诉我们，作为交易的一部分， Lovable将获得Anthropic的Claude （广泛用于编码任务的人工智能模型）和谷歌自己的Gemini模型的扩展访问权限。尤其是《人性》这部作品非常有趣。谷歌在4月份向Anthropic投资了100亿美元的现金和计算积分，承诺如果Anthropic达到某些绩效目标，将再投资300亿美元。 它以3500亿美元的估值进行了投资—就在一个月前， Anthropic筹集了惊人的650亿美元，使该公司的估值接近1万亿美元。这笔交易将帮助Anthropic实现这些目标，因为Lovable是欧洲有史以来增长最快的初创公司之一。根据Lovable的数据，它在2月份的年化收入超过了4亿美元，在一个月内增加了1亿美元，只有146名员工。 该公司声称，超过一半的财富500强公司以某种方式使用其产品。这笔交易还将Lovable插入谷歌生态系统的其他几个部分。Lovable的新代理将通过Google Cloud的企业代理市场Gemini Enterprise Agent Gallery提供，这是两家公司在4月份的Google主要美国云大会上首次通过电报发送的安排。 为了帮助保护人类和代理人编写的代码， Lovable将与谷歌有史以来最大的一笔320亿美元收购Wiz整合，该收购在宣布一年后的3月正式结束。集成将允许Wiz实时识别和修复安全问题。 通过在谷歌的市场上销售Lovable的代理商，这家云巨头表示，企业采购和计费将得到简化，使Lovable更容易获得更多的企业客户。Google的微积分非常简单。如果它能够通过吸引财力雄厚的企业来保持Lovable和Anthropic的增长，那么收入将有助于为谷歌计划今年花费的1800亿至1900亿美元的资本支出提供资金。 该公司已经开始出售创纪录的850亿美元股权，以支付其中的一部分，因此只需再出售1000亿美元左右。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。",
-      "originalSummary": "Lovable and Google signed an expanded multiyear deal that involves a 5x expansion of Lovable's footprint on Google Cloud, and expanded access to Anthropic Claude.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 87
     },
     {
       "title": "随着人工智能变得越来越好，它揭示了一个空洞的承诺",
@@ -210,23 +268,6 @@
       "tags": [
         "大模型",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "微软和OpenAI分手了—现在他们已经准备好战斗了",
-      "originalTitle": "Microsoft and OpenAI broke up — now they’re ready to fight",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
-      "date": "2026-06-03T14:04:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "在周二举行的微软年度Build大会上，该公司宣布了一系列新的或扩展的人工智能计划，包括超级应用程序、内部推理模型、网络安全工具和OpenClaw风格的人工智能代理。所有这些消息都传达了一个明确的信息：微软定位为人工智能领域最大的参与者之一，它终于表现得像它了。多年来，微软的人工智能业务一直依靠其与OpenAI的早期独家合作伙伴关系。 但这段充满戏剧性的婚姻慢慢演变成了一种局面，两人实际上在4月下旬分手了（尽管微软目前仍然是OpenAI的主要云合作伙伴）。这……在The Verge阅读完整故事。",
-      "originalSummary": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's [&#8230;]",
-      "rawFullText": "At Microsoft's annual Build conference on Tuesday, the company announced a slew of new or expanded AI initiatives, including a super app, in-house reasoning models, a cybersecurity tool, and OpenClaw-esque AI agents. All this news added up to a clear message: Microsoft is positioned to be one of the biggest players in AI, and it's finally acting like it. For years, Microsoft's AI business leaned hard on its early and exclusive partnership with OpenAI. But the drama-filled marriage slowly devolved into a situationship, and the pair effectively separated in late April (though Microsoft is still OpenAI's primary cloud partner - for now). This … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "推理"
       ],
       "score": 99
     },
@@ -263,6 +304,37 @@
       "score": 99
     },
     {
+      "title": "OpenAI公共政策议程",
+      "originalTitle": "OpenAI public policy agenda",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/public-policy-agenda",
+      "date": "2026-06-03T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
+      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI：大模型相关动态",
+      "originalTitle": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/wasmer",
+      "date": "2026-06-03T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：大模型相关动态”。它主要涉及大模型方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 94
+    },
+    {
       "title": "通过全球领导力促进青年的安全和机会",
       "originalTitle": "Advancing youth safety and opportunity through global leadership",
       "source": "OpenAI",
@@ -276,7 +348,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
@@ -291,7 +363,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -306,7 +378,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -352,7 +424,7 @@
         "监管",
         "安全"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -367,7 +439,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -382,7 +454,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
@@ -397,7 +469,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -442,7 +514,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
@@ -457,7 +529,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -472,7 +544,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -503,21 +575,6 @@
         "AI 热点"
       ],
       "score": 65
-    },
-    {
-      "title": "线束、脚手架和人工智能代理条款值得纠正",
-      "originalTitle": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/agent-glossary",
-      "date": "2026-05-25T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 85
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
