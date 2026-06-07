@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T08:17:36.717Z",
+  "updatedAt": "2026-06-07T10:10:28.074Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,119 +19,80 @@
   ],
   "articles": [
     {
-      "title": "SentinelBench ：长期运行监控代理的基准",
-      "originalTitle": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.05342",
-      "date": "2026-06-06T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2606. 05342v1公告类型：新摘要：越来越多地要求AI代理执行跨分钟、小时或更长时间的工作。然而，代理行为的默认模型是连续操作：发出工具调用、刷新页面、搜索替代方案或尝试以其他方式强制进度。对于许多长期运行的任务来说，这是错误的方法，持续关注策略可以更好地服务于这些任务。 相反，代理应监控环境，注意外部事件何时使进展成为可能，然后在等待期间迅速响应而不浪费资源。为了衡量此类任务的进度，我们引入了SentinelBench ，这是一个用于时间演变监控任务的开源基准。SentinelBench包含10个合成网络环境的100个任务，包括电子邮件、日历、财务、专业网络和娱乐。 每个环境都会公开一个实时Web界面，并重播一系列脚本事件，要求代理导航和推理状态发生变化的Web页面。SentinelBench衡量任务完成情况、反应时间和资源使用情况，揭示响应速度和成本之间的权衡。 我们报告了三种模型和两种浏览器代理工具的结果，为将来的比较建立了性能基线，并演示了代理设计选择如何显著影响关键指标。总之，这些结果表明SentinelBench区分了代理行为中的有意义的差异。",
-      "originalSummary": "arXiv:2606.05342v1 Announce Type: new Abstract: AI agents are increasingly asked to carry out work that spans minutes, hours, or longer. Yet the default model of agent behavior is continuous action: issuing tool calls, refreshing pages, searching for alternatives, or otherwise trying to force progress. This is the wrong approach for many long-running tasks, which are better served by a strategy of sustained attention. Instead, agents should monitor an environment, notice when an external event makes progress possible, then respond promptly without wasting resources while waiting. To measure progress on this class of tasks, we introduce SentinelBench, an open-source benchmark for time-evolving monitoring tasks. SentinelBench contains 100 tasks across 10 synthetic web environments, including email, calendars, finance, professional networking, and entertainment. Each environment exposes a live web interface and replays a scripted sequence of events, requiring agents to navigate and reason about web pages whose state shifts underfoot. SentinelBench measures task completion, reaction time, and resource use, exposing the tradeoff between responsiveness and cost. We report results across three models and two browser-agent harnesses, establishing performance baselines for future comparison and demonstrating how agent design choices can dramatically impact key metrics. Together, these results show that SentinelBench distinguishes meaningful differences in agent behavior.",
+      "title": "OpenAI推出锁定模式，以保护敏感数据免受即时注入攻击",
+      "originalTitle": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "date": "2026-06-06T20:32:24.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI宣布了一项新功能，它表示将提供额外的保护，防止提示注入攻击，其中恶意聊天机器人指令隐藏在网页和其他内容源中。除其他外，锁定模式将禁用实时网页浏览（因此您只能访问缓存内容）、从网页检索和显示图像（您仍然可以生成图像）、深入研究和代理模式。 该公司表示，即使启用锁定模式， ChatGPT仍然可能容易受到提示注入—例如，这可能“出现在缓存的网络内容或上传的文件中，并且仍然可能影响响应的行为或准确性。“但我们的目标是降低敏感数据在此过程中被共享的可能性。OpenAI说： “锁定模式并不适合所有人。” “它专为处理敏感数据并希望更严格地保护免受与即时注入相关的数据泄露风险的个人和组织而设计。“该公司表示，它目前正在将锁定模式推广到自助ChatGPT企业帐户以及符合条件的个人帐户。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "模型"
+        "大模型",
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "利用通才客服代表进行情境化时间序列分析",
-      "originalTitle": "Harnessing Generalist Agents for Contextualized Time Series",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.05404",
-      "date": "2026-06-06T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 05404v1公告类型： new摘要：时间序列通常嵌入在丰富的上下文中，这些上下文对于整体建模至关重要。此外，现实世界的从业者通常需要端到端的工作流程来分析时间动态，其中广泛研究的任务（如预测）只是更广泛解决方案循环中的一步。 虽然通才人工智能代理在复杂的环境中为这些工作流程提供了一个有前途的界面，但它们仍然主要运行在与结构化时间信号不完全一致的文本空间中。在这项工作中，我们介绍了TimeClaw ，这是一个用于时间序列的智能线束框架，为多面手LLM代理提供上下文化时间推理所需的时间序列本机运行时支持。 TimeClaw集成了用于接地和可审计分析的可执行时间工具，用于创建可重用分析例程的体验驱动功能演进，以及用于检索相关推理痕迹的情景多模态内存。总之，这些组件利用上下文信息解锁了利用的开放式时间推理。 对涵盖能源、金融、天气、交通和其他真实世界领域的不同任务的多个基准的广泛评估表明， TimeClaw的性能得到了改善。代码可在https://github. com/iDEA-iSAIL-Lab-UIUC/TimeClaw上找到。",
-      "originalSummary": "arXiv:2606.05404v1 Announce Type: new Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully aligned with structured temporal signals. In this work, we introduce TimeClaw, an agentic harness framework for time series that equips generalist LLM agents with the time series-native runtime support needed for contextualized temporal reasoning. TimeClaw integrates executable temporal tools for grounded and auditable analysis, experience-driven capability evolution for creating reusable analytical routines, and episodic multimodal memory for retrieving relevant reasoning traces. Together, these components unlock harnessed open-ended temporal reasoning with contextual information. Extensive evaluation on multiple benchmarks covering diverse tasks across energy, finance, weather, traffic, and other real-world domains demonstrates improved performance of TimeClaw. Code is available at https://github.com/iDEA-iSAIL-Lab-UIUC/TimeClaw.",
+      "title": "特朗普政府可能会收购OpenAI的股权",
+      "originalTitle": "The Trump administration might take an equity stake in OpenAI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "date": "2026-06-06T16:17:21.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "唐纳德·特朗普总统周五表示，他已经与人工智能公司谈过达成协议， “美国人民可以从人工智能的成功中受益。“特朗普似乎没有在他的评论中提到具体的公司，但OpenAI是一个可能的候选人，特别是在CNBC报道特朗普政府确实一直在与这家AI公司讨论股权之后。 CNBC表示，其中一些股权可用于种植OpenAI最近提出的“公共财富基金”。正如该公司所概述的那样，该基金的收益“可以直接分配给公民，让更多的人直接参与人工智能驱动的增长，无论他们的初始财富或获得资本的机会如何。 据彭博社报道，当空军一号的记者向特朗普询问这个想法时，他回答说，他一直在与人工智能高管谈论“可以向美国公众提供零件的概念，美国公众基本上成为这些公司的合作伙伴。彭博社还报道说，自2025年初以来，首席执行官萨姆·奥尔特曼一直在讨论政府在主要人工智能公司中持股的想法。 这似乎与特朗普对政府拥有营利性公司的更广泛兴趣相一致--最值得注意的是，政府去年收购了陷入困境的芯片制造商英特尔10%的股份。这个想法在左翼也引起了一些关注，参议员伯尼·桑德斯（ Bernie Sanders ）本周提出了一次性50 ％的税收， OpenAI、Anthropic和xAI （ SpaceX的一部分）等公司将以股票的形式支付。 桑德斯认为，由于所有这些企业都有可能在今年上市，这项税收将“让公众在决定这项技术的未来方面发挥直接作用” ，并“保证A.I.可能产生的数万亿美元用于改善我们所有人的生活。 投资者和播客制作人大卫·萨克斯(David Sacks)最近辞去了特朗普的人工智能和加密货币沙皇的职务，他发帖说，他能理解桑德斯的想法为什么会引起共鸣， “包括许多右翼人士” ，但他警告说，这实际上会“加速我们已经走向的企业-政府融合。” （萨克斯现在是总统科学技术顾问委员会的联合主席。 在社交媒体上，前微软员工Dare Obasanjo表示： “政府已经为OpenAI的救助奠定了基础。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。",
+      "originalSummary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
+        "公司动态"
       ],
-      "score": 99
+      "score": 88
     },
     {
-      "title": "他们走了多远？隐蔽法学硕士代理人在已停止的现场实验中的说服策略",
-      "originalTitle": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.05256",
-      "date": "2026-06-06T04:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、产品发布相关动态",
-      "fullContent": "arXiv: 2606. 05256v1公告类型：新摘要：本研究分析了Reddit的r/ChangeMyView上停止的现场实验中公开发布的数据集。由未知的外部研究人员进行的干预在道德反弹后停止，涉及未公开的人工智能生成帐户，让用户参与实时辩论。 在公开披露后， Reddit授权版主发布人工智能生成的评论存档，创造了一个难得的机会，可以检查大型语言模型如何在没有披露的身份丰富的审议论坛中运作。我们对这个语料库进行结构化内容分析，评估身份表现、权威信号、对齐策略和认知启发式的激活。 身份定位或采用出现在超过三分之二的评论、一致性举措和权威主张中，而认知偏见触发因素（特别是确认偏见、代表性和可用性）则占绝大多数。这些模式系统地共同发生，构成了一个为有说服力的效率而非真正的审议参与而校准的修辞架构。 与人类撰写的CMV反驳论点相比，代理商颠倒了各个方面的典型分布：更密集的权威使用，更多的对抗对齐，以及更依赖于外部引用而不是体验式接地。在这样的环境中，真实和合成认知地位之间的区别变得越来越不透明--这是信息披露本身无法解决的不对称问题。 结果表明，审计框架能够评估人工智能系统如何构建可信度，而不仅仅是它们是否存在。",
-      "originalSummary": "arXiv:2606.05256v1 Announce Type: new Abstract: This study analyzes a publicly released dataset from a discontinued field experiment on Reddit's r/ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers -- particularly confirmation bias, representativeness, and availability -- in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential grounding. In such environments, distinctions between authentic and synthetic epistemic standing grow increasingly opaque -- an asymmetry that disclosure mandates alone cannot address. The results point toward auditing frameworks capable of assessing how AI systems structure credibility, not merely whether they are present.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布",
-        "模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "我知道你的模因，即使它今天出现：通过开放世界的知识获取来了解不断演变的模因",
-      "originalTitle": "I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.05316",
-      "date": "2026-06-06T04:00:00.000Z",
-      "summary": "这条新闻与多模态、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、评测相关动态",
-      "fullContent": "arXiv: 2606. 05316v1公告类型：新摘要：多模态模因是动态的，通常需要最新的背景知识来解释。现有方法往往忽略了这些知识，或者依赖于预训练模型的固定参数知识，这些模型可能不完整、过时或不可用于新兴模因。 我们引入了Query Retrieve Condlude ，这是一个零拍摄框架，可以识别缺失的知识，检索开放的网络证据，并合成基于证据的背景知识，以用于模因的理解和检测。我们还介绍了2024年至2026年最新模因的精选模因理解基准，并附有外部背景知识注释。 在三个模因理解数据集和五个模因检测任务上的实验表明，我们的框架在零拍摄基线上改善了知识恢复、模因理解和下游检测。",
-      "originalSummary": "arXiv:2606.05316v1 Announce Type: new Abstract: Multimodal memes are dynamic and often require up to date background knowledge for interpretation. Existing methods often overlook such knowledge or rely on fixed parametric knowledge of pretrained models that may be incomplete, outdated, or unavailable for emerging memes. We introduce Query Retrieve Conclude, a zero shot framework that identifies missing knowledge, retrieves open web evidence, and synthesizes evidence grounded background knowledge for meme understanding and detection. We also introduce a curated meme understanding benchmark of recent memes from 2024 to 2026 with external background knowledge annotations. Experiments on three meme understanding datasets and five meme detection tasks show that our framework improves knowledge recovery, meme understanding and downstream detection over zero shot baselines.",
-      "rawFullText": "",
-      "tags": [
-        "多模态",
-        "评测",
-        "模型"
-      ],
-      "score": 91
-    },
-    {
-      "title": "客服代表应该怎么说？高效多Agent系统的动作状态通信",
-      "originalTitle": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.05304",
-      "date": "2026-06-06T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2606. 05304v1公告类型：新摘要：基于大型语言模型构建的多Agent系统(MAS)通常围绕角色、管道和TURN计划进行组织，而Agent传递给彼此的内容通常是无约束的自然语言。但是，这种自由形式的通信会迅速增加令牌使用量，消耗共享上下文窗口，并最终影响系统性能和推理成本。 我们分析了两种MAS拓扑结构中的五种常见代理间通信策略，发现没有固定策略是普遍最优的。相反，有效的代理间消息始终保留下游代理所需的以行动为中心的信息。 在此基础上，我们提出了PACT （协议化动作状态通信和传输） ，它将代理间通信视为公共状态更新问题，并在每个原始代理输出进入共享历史记录之前将其投影到紧凑的动作状态记录中。在不同的MAS拓扑中， PACT不断提高性能-成本权衡，以更少的代币实现可比或更强的任务性能。 收益扩展到生产编码线束： PACT将OpenHands的解析率提高到每解析代币-10 ％ ，并且在SWE代理上是解析中立的，同时将输入代币减半。我们的代码可在https://github. com/iNLP-Lab/PACT上公开获取。",
-      "originalSummary": "arXiv:2606.05304v1 Announce Type: new Abstract: Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands' resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at https://github.com/iNLP-Lab/PACT.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "模型"
-      ],
-      "score": 86
-    },
-    {
-      "title": "Thousand Token Wood ：在3B模式下运送多代理经济",
-      "originalTitle": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "title": "五个实验室，五个心灵：在小模型上构建多模型金融剧",
+      "originalTitle": "Five labs, five minds: building a multi-model finance drama on small models",
       "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
-      "date": "2026-06-05T22:18:46.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
-      "fullContent": "为什么设计很小，而不是限制第一个经济体在抵达时就已经死亡有效的JSON ，弱判断然后它开始讲故事用小模型建造实际发生的事情A Build Small Hackathon现场报告了一个30亿参数的交易员委员会可以做什么和不能做什么。我为Build Small Hackathon建造了Thousand Token Wood。这是一个很小的经济体：五个林地生物，每个生物在Qwen2上都有自己的代理人。 5-3B ，用五件商品换取鹅卵石、八卦、囤积和恐慌。你戳木头，看着泡沫、崩溃和日益扩大的贫富差距自行出现。模型在Modal上与vLLM一起提供； Gradio应用程序是木材的窗口。这是一份关于工程的现场报告，专为使用小型模型构建的人员编写。 简短版本： 3B模型是一个可靠的格式生成器和不可靠的推理器，紧急系统需要设计稀缺性，最好的演示位于技术约束满足您已经深刻理解的东西的地方。一个活生生的经济需要许多代理商每次运行多次思考。这正是前沿模型是错误工具的地方：太慢，太昂贵，无法每次运行一个交易员委员会。 小模型使实时多智能体模拟成为可能。每个生物每回合在一个批处理GPU调用中决定。天真的版本什么也没做。生产超过消费，所以每个生物都是自给自足的，从来没有交易的理由。市场清空了一次，一片寂静。修复方法是设计稀缺性：最后一个机械师推动了戏剧的发展。 一家供应商无法满足不断增长的需求，因此伐木工人变得富有，其他所有人都在争夺温暖。随着稀缺性的到来，诚实的小模特课程浮出水面。3B在100 ％的通话中发出了有效的JSON ，但其经济判断很差：生产橡果的生物会发布购买橡果的命令，这是它剩余的一件事。修复不是更大的模型，而是更清晰的提示。 我告诉每个代理商它生产了什么，绝不能购买，计算了它缺少的确切商品清单，并给出了一个有效的示例。决策质量跳跃，生物开始交易他们的角色。整个循环被包裹在容忍的JSON解析和修复层中，因此格式错误的响应会降级为无操作，而不会使模拟崩溃。第二个教训来自于幸福感。 我首先把它建模为一个累加器，任何长期的短缺都会让每个生物在一次运行中达到零，这是一个死亡螺旋，观看起来并不好玩，并且惩罚了特工的不完美优化。我把它重新定义为一种平均恢复情绪，当一个生物被喂养和温暖并且永远不会达到零时，它就会恢复。赌注属于鹅卵石、价格和地位，而不是饥饿。我最满意的功能将项目与市场历史联系起来。 玩家可以绘制一个木制传说：一个著名的情节，重新皮肤作为林地民间传说。郁金香狂热变成了大橡果狂热。南海泡沫成为空心原木贸易公司。1929年的银行挤兑变成了Run on Oona's Hoard。这些不是味道文本。每个传说都会发出真正的电击，特工们会做出反应。在一次跑步中，我画了《Run on Oona's Hoard》，传言说猫头鹰的金库是空的。",
-      "originalSummary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
+      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "date": "2026-06-06T19:02:33.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "异质性是产品，而不是约束信息不对称需要防火墙如果你绑定它，内存是便宜的戏剧用小型模型构建的实际情况第二次构建小型黑客马拉松现场报告：当新兴经济体中的每个代理在不同的实验室小型模型上运行时会发生什么，而玩家成为拉绳子的金融家。 Thousand Token Wood的第一个版本是一个天气神沙盒：五个林地生物在一个微调的0.5B模型上交易商品，你用冲击戳世界，看着泡沫和崩溃出现。这是一个漂亮的玩具。这也是您观看而不是玩的东西。v2将其重新构建为您操作的游戏。 你是森林的守护神，一个影子金融家：你以利息借贷，低声说出可能是真实的或种植的提示，做空市场，贿赂和经纪人联盟，而治安法官会因为你不应该知道的交易而追捕你。这些生物会记得你如何对待它们，并重新制定计划。最大的变化是在引擎盖下：每个生物现在都用不同的实验室的小模型来思考。这是工程报告。 运行代理委员会的明显方式是一种模式，许多提示。v2运行四个： gpt-oss-20b （ OpenAI ）、MiniCPM3-4B （ OpenBMB ）、Nemotron-Mini-4B （ NVIDIA ）和我自己的微调Qwen 0. 5B。这一点本身并不新奇。当参与者真正不同时，市场就很有趣，四个实验室的模型根据不同的数据进行训练，不同的训练后数据与小模型大致相同。 猫头鹰的囤积方式与狐狸推测的不同。议会是一个活生生的争论，而不是一个剧本。在一个平台上站立四个不同的模型，真正的教训是：摩擦几乎完全在服务层，而不是在建模层。使四个异构模型易于处理的事情与在v1中使一个模型易于处理的原语相同：每个模型的输出流经的容忍JSON解析和修复层。 不同的令牌生成器和格式化习惯会产生不同的畸形；解析器会丢弃它无法挽救的东西，并且模拟永远不会崩溃。构建该层一次，添加模型是配置条目，而不是重构。v2引人注目的核心是内幕提示。您可以向生物低语真实的提示（对卡组将吸引的下一个市场狂热的真实预测，您的真实优势）或虚假（诱饵）。 根据真实的小费采取行动并从中获利会提高你的热度；超过一个门槛，地方法官就会展开调查，最终会被罚款、冻结资产或流放。要想成为真正的游戏，必须向生物隐瞒提示的真相。他们看到谣言文本；他们绝不能看到旗帜。这是一个安全属性，而不是用户界面，小模型代理使它变得清晰：模型可以重复的所有内容都是您在提示符中放入的任何内容。 因此，隐藏的旗帜完全不提示（在玩家的分类账上） ，它被从施工的公共事件记录中剥离出来，叙述者唯一总结的是公共事件。每次测试都会扫描每个生物的完整提示，以查找被禁止的代币。该测试是套件中最重要的测试。当您向代理提供秘密信息时，假设它会泄露，除非测试证明它不能。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "智能体",
         "模型"
       ],
-      "score": 92
+      "score": 83
     },
     {
-      "title": "元黑客表明，人工智能的安全性不仅仅是神话",
-      "originalTitle": "The Meta hack shows there’s more to AI security than Mythos",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "date": "2026-06-05T09:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "6月5日， 404 Media报道称，攻击者一直在使用Meta的AI客户支持代理窃取Instagram帐户。他们的方法很简单：他们要求客服代表将账号关联到他们控制的电子邮件地址，客服代表遵守了要求。一名攻击者闯入了休眠的奥巴马白宫账户并发布了亲伊朗的帖子；其他人则接管了有价值的单词句柄的账户，可能是为了出售它们。 人工智能网络安全问题并不是什么新鲜事。自从Anthropic在4月份宣布其Mythos模型太擅长黑客攻击而不能向公众发布以来，评论员、研究人员和联邦官员都认为超级人工智能系统可能会浪费我们的计算机基础设施。 这并不是这个Instagram黑客攻击的目标：在那里， AI是目标而不是攻击者，而且这种方法比Mythos炮制的任何东西都要简单得多。但是，随着公司将更多的工作转移给人工智能，这些相对简单的攻击可能会造成严重破坏。 杜克大学电气和计算机工程教授Neil Gong表示： “随着人工智能的应用越来越广泛，尤其是当人工智能越来越广泛地用于自动化我们的工作流程（如帐户恢复）时，我认为攻击者将越来越有动力攻击人工智能本身。”一段时间以来，龚和其他学者一直在对人工智能代理的安全漏洞发出警告。 他们发表论文和博客帖子，详细介绍了间接提示注入等漏洞，其中涉及使用隐藏在网站、电子邮件或其他看似无用的数据源中的命令劫持代理。与这些技术相比， Meta hack实际上是无意识的。 黑客必须克服的唯一难题是使用与真实账号所有者位置相匹配的VPN ；然后他们直接要求客服代表更改账号的电子邮件地址，并符合要求。Meta尚未公开评论此漏洞是如何从裂缝中溜走的。但龚说，考虑到漏洞利用的简单性，在部署代理之前，它应该很容易被发现。“这真的很令人惊讶，”他说。 “我不明白他们为什么没有发现这个简单的问题。”乔治城安全和新兴技术中心的高级研究分析师Jessica Ji表示同意。她说：「这会引发一些问题，比如：是否有护栏？」“有人想过要测试这种情况吗？“她指出，像Meta这样的公司的监督尤其引人注目， Meta在人工智能和网络安全方面拥有丰富的专业知识。 Meta没有回应本文的评论请求，但周一Meta发言人在X上表示，该漏洞已得到解决。尽管这对Meta来说可能是一个尴尬的时刻，但它也凸显了所有AI代理共享的一些核心漏洞。",
-      "originalSummary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
-      "rawFullText": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them. AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc. “As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University. Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied. Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.” Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson said on X that the vulnerability had been resolved. As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.” There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed. But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the&nbsp; University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.&nbsp; As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.&nbsp; Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay. “Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”",
+      "title": "对WWDC 2026的期待： Siri备受期待的改造和Apple Intelligence更新",
+      "originalTitle": "What to expect from WWDC 2026: Siri&#8217;s highly anticipated revamp and Apple Intelligence updates",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "date": "2026-06-06T18:13:36.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "随着苹果全球开发者大会（ WWDC 2026 ）的临近，围绕苹果今年为我们准备的东西，人们兴奋不已。从Siri的大修到新的Apple Intelligence更新，还有很多值得期待的事情。一年一度的全球开发者大会将于周一上午10点开幕。PT/1 P.M. ET. 对于那些渴望收看的人，该活动将通过Apple开发者应用程序、Apple网站和Apple开发者YouTube频道进行直播。最令人期待的公告是Siri的重大人工智能升级，将其转变为更具对话性的助手，能够理解上下文，处理多步骤任务，并更自然地跨应用程序和服务进行交互。 经过改造的Siri将利用谷歌的Gemini技术来增强其功能。此外，彭博社最近发布了一款独立的Siri应用程序，旨在与ChatGPT、Claude和Gemini等高级人工智能聊天机器人竞争。苹果还可能推出一项让人联想到消息应用程序的功能，允许用户设置计时器，以便在30天、一年后自动删除对话，或者无限期保留它们。 根据The Information ，苹果计划引入与应用商店的AI代理集成。虽然细节很少，但代理允许用户委派预订、管理日常任务、编辑文档或控制智能家居设备等任务。 预计将在“相机”应用程序中引入一个新的“视觉智能”部分，取代“相机控制”按钮中以前的“视觉智能”功能。此升级将引入专用的Siri模式，该模式位于照片、视频、纵向和全景等选项旁边。视觉智能功能利用Google图像搜索准确识别用户捕获的对象。 此外，照片应用程序将获得由Apple Intelligence提供支持的令人兴奋的增强功能。其中可能包括用于优化照片的智能场景推荐、用于清晰图像的自动对象删除，以及允许用户通过使用自然语言请求编辑的创新AI照片编辑功能，以及visionOS中的新生产力功能。 Apple将升级Image Playground应用程序，引入更高质量的图像生成、更多的艺术风格、更好的角色一致性和更丰富的编辑控件。用于创建新图像的界面将得到简化，提供更少的控件和“描述更改”编辑选项。此外，我们可能会看到推荐的Genmoji功能，该功能根据用户的媒体和文本交互提供自定义表情符号。 用户还可以生成反映各种主题和情绪的人工智能壁纸。有传言称，钱包应用将推出值得注意的更新，特别是一项新的账单拆分功能，该功能将简化亲朋好友之间的费用分摊。用户可以轻松地为收据拍照并生成付款请求。",
+      "originalSummary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "rawFullText": "",
       "tags": [
-        "智能体"
+        "AI 热点"
       ],
-      "score": 84
+      "score": 76
+    },
+    {
+      "title": "Sriram Krishnan将辞去白宫人工智能顾问一职",
+      "originalTitle": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "date": "2026-06-06T17:42:15.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "前科技高管兼风险投资人Sriram Krishnan将于6月底离开特朗普政府。Krishnan在X上的一篇帖子中说： “很难表达为美国人民服务有多大的荣幸，以及我有机会这样做是多么感激。” “首先，在[唐纳德·特朗普]总统的领导下任职是一种荣幸。没有他的领导，我们就不可能在人工智能竞赛中处于领先地位。 Krishnan曾在白宫担任人工智能高级政策顾问，他是在第二届特朗普政府中担任职务的众多科技行业人物之一。Krishnan曾在微软、Twitter、雅虎、Facebook和Snap领导产品团队，他最近是Andreessen Horowitz的合伙人，该公司的创始人在2024年大选期间支持特朗普。 Krishnan在帖子中强调了一些“关键的公共成就” ，首先是政府的人工智能行动计划，该计划将数据中心建设置于监管和安全之上。此后，特朗普签署了几项围绕人工智能的行政命令，其中一项旨在挑战州级人工智能法规，另一项则专注于监管，但在行业反弹后被推迟和缩小。 特朗普还支持政府可以收购主要人工智能公司股权的想法。Krishnan指出，他“在过去18个月中与[最]密切合作”的人是David Sacks ，他是投资者和播客制作人，今年早些时候辞去了人工智能和加密沙皇的职务，并成为总统科学技术顾问委员会的联合主席。 Krishnan说： “[Sacks ’]继续倡导美国在人工智能上获胜一直是并将继续是至关重要的。”接下来，克里希南表示，他将“建立机构” ，以应对“美国及其盟友”面临的重大挑战。“据《华盛顿邮报》报道，他计划创办一个外部机构，该机构仍将让他在影响特朗普的人工智能政策方面发挥作用。 Krishnan说： “无论是能源、数据中心，还是美国人体验人工智能益处的清晰途径，我们都需要共同解决许多棘手的问题。”当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。",
+      "originalSummary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
     },
     {
       "title": "这是您的笔记本电脑……人工智能",
@@ -146,7 +107,22 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 83
+      "score": 82
+    },
+    {
+      "title": "元黑客表明，人工智能的安全性不仅仅是神话",
+      "originalTitle": "The Meta hack shows there’s more to AI security than Mythos",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "date": "2026-06-05T09:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "6月5日， 404 Media报道称，攻击者一直在使用Meta的AI客户支持代理窃取Instagram帐户。他们的方法很简单：他们要求客服代表将账号关联到他们控制的电子邮件地址，客服代表遵守了要求。一名攻击者闯入了休眠的奥巴马白宫账户并发布了亲伊朗的帖子；其他人则接管了有价值的单词句柄的账户，可能是为了出售它们。 人工智能网络安全问题并不是什么新鲜事。自从Anthropic在4月份宣布其Mythos模型太擅长黑客攻击而不能向公众发布以来，评论员、研究人员和联邦官员都认为超级人工智能系统可能会浪费我们的计算机基础设施。 这并不是这个Instagram黑客攻击的目标：在那里， AI是目标而不是攻击者，而且这种方法比Mythos炮制的任何东西都要简单得多。但是，随着公司将更多的工作转移给人工智能，这些相对简单的攻击可能会造成严重破坏。 杜克大学电气和计算机工程教授Neil Gong表示： “随着人工智能的应用越来越广泛，尤其是当人工智能越来越广泛地用于自动化我们的工作流程（如帐户恢复）时，我认为攻击者将越来越有动力攻击人工智能本身。”一段时间以来，龚和其他学者一直在对人工智能代理的安全漏洞发出警告。 他们发表论文和博客帖子，详细介绍了间接提示注入等漏洞，其中涉及使用隐藏在网站、电子邮件或其他看似无用的数据源中的命令劫持代理。与这些技术相比， Meta hack实际上是无意识的。 黑客必须克服的唯一难题是使用与真实账号所有者位置相匹配的VPN ；然后他们直接要求客服代表更改账号的电子邮件地址，并符合要求。Meta尚未公开评论此漏洞是如何从裂缝中溜走的。但龚说，考虑到漏洞利用的简单性，在部署代理之前，它应该很容易被发现。“这真的很令人惊讶，”他说。 “我不明白他们为什么没有发现这个简单的问题。”乔治城安全和新兴技术中心的高级研究分析师Jessica Ji表示同意。她说：「这会引发一些问题，比如：是否有护栏？」“有人想过要测试这种情况吗？“她指出，像Meta这样的公司的监督尤其引人注目， Meta在人工智能和网络安全方面拥有丰富的专业知识。 Meta没有回应本文的评论请求，但周一Meta发言人在X上表示，该漏洞已得到解决。尽管这对Meta来说可能是一个尴尬的时刻，但它也凸显了所有AI代理共享的一些核心漏洞。",
+      "originalSummary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
+      "rawFullText": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them. AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc. “As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University. Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied. Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.” Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson said on X that the vulnerability had been resolved. As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.” There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed. But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the&nbsp; University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.&nbsp; As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.&nbsp; Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay. “Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”",
+      "tags": [
+        "智能体"
+      ],
+      "score": 82
     },
     {
       "title": "谷歌将每月向SpaceX支付9.2亿美元的计算费用",
@@ -161,10 +137,10 @@
       "tags": [
         "产品发布"
       ],
-      "score": 82
+      "score": 81
     },
     {
-      "title": "TechCrunch AI：AI 热点相关动态",
+      "title": "初创公司“战地200”应用程序将在3天内正式关闭",
       "originalTitle": "Startup Battlefield 200 applications officially close in 3 days",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
@@ -176,7 +152,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
+    },
+    {
+      "title": "现在最有趣的初创公司都想让你放下手机",
+      "originalTitle": "The most interesting startups right now want to get you off your phone",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "date": "2026-06-05T17:17:06.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "虽然人工智能筹款机器不断打破自己的记录，但一些创始人正在朝着另一个方向发展。Mirror创始人Brynn Putnam刚刚为Board筹集资金， Board是一家专注于通过现场游戏和社交体验将人们聚集在一起的初创公司。Cyberdeck的创作者正在疯狂制作异想天开的DIY电脑，从字面上鼓励用户触摸草地。 与无AI的浏览器人群不同，这不仅仅是反弹， […]",
+      "originalSummary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck creators are going viral&#160;crafting whimsical DIY computers that&#160;literally encourage&#160;users to touch grass. Unlike the&#160;AI-free browser crowd, this&#160;doesn&#8217;t&#160;just&#160;feel&#160;like&#160;backlash, [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "Endava如何围绕AI代理重新设计软件交付",
@@ -207,22 +198,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
-    },
-    {
-      "title": "苹果批准Poke成为其Messages for Business平台上的第一个人工智能代理",
-      "originalTitle": "Apple approves Poke as the first AI agent on its Messages for Business platform",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
-      "date": "2026-06-04T19:20:58.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "Poke是一家初创公司，它将使用人工智能代理变成了发送短信这样简单的事情，已经成为第一家获准在苹果的Messages for Business平台上运行的人工智能代理。此前，该平台专为企业（航空公司、零售商、连锁酒店等）设计，通过iMessage与自己的客户进行沟通，提供标准化界面，支持自动聊天和实时座席。 到目前为止，它还没有向独立的第三方人工智能代理开放。Poke于3月推出，是首批专为日常用户设计的人工智能代理之一，这些用户不具备使用命令行工具或更复杂的代理系统（如OpenClaw ）的技术技能或倾向。 如今， Poke可以帮助您进行日常活动，例如日常规划、管理日历、跟踪您的健康和健身情况、控制智能家居以及编辑照片，所有这些都可以通过短信完成。该公司告诉TechCrunch ，到目前为止，它已经传递了大约1亿条消息。人工智能服务通过短信、Telegram以及某些市场的WhatsApp运营。现在， Poke将能够将iMessage添加到其支持的平台。向新Poke问好！ 🌴 现在， Apple正式批准在Apple Messages上发送短信。作为第一个也是唯一的人工智能特工。立即聊天： https://t. co/VIWYU64dUI pic. twitter. com/AtZxupI2Ji Poke在Apple的Messages for Business上发布的消息比苹果预计将于周一举行的全球开发者大会提前了几天，该大会预计将推出人工智能优化版本的Siri以及面向应用程序开发人员的其他人工智能工具和服务。 还有传言称，苹果将向人工智能代理商开放其应用商店。Poke的情况并非如此。苹果的Messages for Business平台不是提供面向消费者的移动应用程序，而是让消费者直接通过iMessage的界面与企业互动的方式。 这样，消费者就可以联系企业，获取信息、支持、预约安排等，而无需通过电话联系他们。Poke的用户向AI代理提问或提出请求， AI代理会通过短信回复。对于创始人和投资者来说，更有趣的细节可能是它开启的商业模式。 总部位于帕洛阿尔托的Poke创业公司The Interaction Company of California的联合创始人马文·冯·哈根（ Marvin von Hagen ）表示，他的创业公司将按用户向苹果支付费用。虽然他不能透露确切的定价，但他指出，这比Meta AI要低得多，因为欧盟法规要求它允许第三方AI代理在WhatsApp上使用。 大规模应用的每用户收费结构代表了苹果潜在有意义的新收入来源，也是人工智能代理初创公司需要考虑的新分销成本。“我认为苹果只是注意到这是提供人工智能的最佳方式，实际上，这对他们有好处，因为他们向我们收费。他们向平台上的每个用户收取费用，并实际赚钱，特别是如果它变得非常大，” von Hagen...",
-      "originalSummary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -238,10 +214,10 @@
         "多模态",
         "安全"
       ],
-      "score": 92
+      "score": 91
     },
     {
-      "title": "TechCrunch AI：公司动态相关动态",
+      "title": "在首次公开募股之前， Anthropic的Daniela Amodei对人工智能的回报表示怀疑",
       "originalTitle": "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
@@ -253,23 +229,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
     },
     {
-      "title": "随着人工智能变得越来越好，它揭示了一个空洞的承诺",
-      "originalTitle": "As AI gets better, it reveals an empty promise",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942629/as-ai-gets-better-it-reveals-an-empty-promise",
-      "date": "2026-06-03T17:45:35.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "本周，我的同事大卫·皮尔斯（ David Pierce ）和杰伊·彼得斯（ Jay Peters ）与谷歌新推出的双子座人工智能代理商Spark携手合作。他们的收获是相似的：它非常有效，令人恐惧。斯帕克知道大卫的狗叫弗里达，也知道杰伊妻子的名字，尽管他们都没有明确向谷歌提供这些信息。 但令我害怕的是，所有这些东西似乎都面向一个“生产力”的未来，而这个未来完全错过了我们这个世界需要修复的东西。“生产力”通常被认为是解决我们个人生活问题的灵丹妙药，甚至暗示了我们的道德价值……阅读The Verge的完整故事。",
-      "originalSummary": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters. Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly [&#8230;]",
-      "rawFullText": "This week we've got tandem hands-ons with Google's new Gemini AI agent - Spark - from my colleagues David Pierce and Jay Peters . Their takeaways are similar: It's so effective that it's scary. Spark knew that David's dog is named Frida and knew the first name of Jay's wife, even though neither of them explicitly provided this information to Google. But what's scary to me is how all of this stuff seems geared toward a future of \"productivity\" that completely misses what needs to be fixed in our world. \"Productivity\" is often pitched as a panacea for what befalls us in our personal lives, even going so far as to implicate our moral worthiness … Read the full story at The Verge.",
+      "title": "将hf CLI设计为使用Hub的代理优化方式",
+      "originalTitle": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "date": "2026-06-04T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“将hf CLI设计为使用Hub的代理优化方式”。它主要涉及智能体方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
       "tags": [
-        "大模型",
         "智能体"
       ],
-      "score": 99
+      "score": 83
     },
     {
       "title": "为GPT-Rosalind引入新功能",
@@ -301,7 +276,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "OpenAI公共政策议程",
@@ -317,7 +292,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "OpenAI：大模型相关动态",
@@ -332,7 +307,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Direct Preference Optimization Beyond Chatbots",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "date": "2026-06-03T12:55:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "通过全球领导力促进青年的安全和机会",
@@ -348,7 +338,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
@@ -363,7 +353,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -378,7 +368,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -393,7 +383,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "OpenAI：AI 热点相关动态",
@@ -408,7 +398,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 78
     },
     {
       "title": "我们对人工智能政策和政治倡导的看法",
@@ -424,7 +414,7 @@
         "监管",
         "安全"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -439,7 +429,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -454,7 +444,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
@@ -469,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -484,7 +474,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 66
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -499,7 +489,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 65
     },
     {
       "title": "Reachy Mini完全本地化",
@@ -514,7 +504,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
@@ -529,7 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -544,7 +534,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -559,7 +549,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 63
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -574,7 +564,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 63
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
