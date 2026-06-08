@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T10:10:28.074Z",
+  "updatedAt": "2026-06-08T14:37:00.903Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,149 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "代理AI控制评估中的攻击选择会显著降低安全性",
+      "originalTitle": "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.06529",
+      "date": "2026-06-08T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2606. 06529v1公告类型：新摘要：战略性地选择何时攻击的攻击者比不分青红皂白地攻击的攻击者更难捕获。人工智能控制是一个安全框架，用于在较弱、可信的监控器和有限的人力审计预算的监督下部署功能强大但不受信任的人工智能代理。 控制评估通过将红队攻击策略与蓝队监视器对抗来对这些协议进行压力测试，但当前的评估通常假设攻击者没有战略性地选择何时进行攻击。我们通过将攻击决策分解为决定攻击者何时应该攻击的启动策略和决定攻击者何时应该中止正在进行的攻击的停止策略，在代理设置中研究这种能力，即攻击选择。 在BashArena和LinuxArena这两种代理设置中，这两种策略都大大降低了测量的经验安全性，而不会改变底层攻击能力。在1%的审计预算下，我们的启动策略将BashArena和LinuxArena的安全性降低了20个百分点，而我们的停止策略将BashArena的安全性降低了20个百分点， LinuxArena的安全性降低了28个百分点。这些减少应被解释为对攻击选择的影响的上限。 因此，现有的控制评估可能会对选择性攻击者得出过于乐观的安全估计。我们建议在未来的评估、系统卡和安全案例中引入攻击选择，以生成更现实的安全估计。",
+      "originalSummary": "arXiv:2606.06529v1 Announce Type: new Abstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. AI control is a safety framework for deploying capable but untrusted AI agents under the oversight of a weaker, trusted monitor and a limited human audit budget. Control evaluations stress-test these protocols by pitting a red-team attack policy against the blue-team monitor, but current evaluations typically assume attackers that do not strategically select when to attack. We study this capability, attack selection, in agentic settings by decomposing attack decisions into a start policy, which decides when an attacker should attack, and a stop policy, which decides when an attacker should abort an ongoing attack. Across two agentic settings, BashArena and LinuxArena, both policies substantially lower measured empirical safety without changing the underlying attack capability. At a 1% audit budget, our start policy reduces safety by 20pp on both BashArena and LinuxArena, and our stop policy reduces safety by 20pp on BashArena and 28pp on LinuxArena. These reductions should be interpreted as upper bounds on the effect of attack selection. Existing control evaluations may therefore yield overly optimistic safety estimates against selective attackers. We recommend that future evaluations, system cards, and safety cases elicit attack selection to produce more realistic safety estimates.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全"
+      ],
+      "score": 98
+    },
+    {
+      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
+      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "date": "2026-06-08T00:00:00.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
+      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "开源"
+      ],
+      "score": 93
+    },
+    {
+      "title": "DiBS ：扩散知情分支选择",
+      "originalTitle": "DiBS: Diffusion-Informed Branch Selection",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.06518",
+      "date": "2026-06-08T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2606. 06518v1 Announce Type: new Abstract:数独是一个具有代表性的约束满足问题，需要在严格的离散约束下进行全局结构推理。现有的解决数独的工作主要集中在两种主要方法上，即传统的启发式和深度学习求解器。 然而，它们存在两个互补的局限性：基于学习的求解器缺乏硬正确性保证，而完整的符号求解器仍然容易进行长尾搜索。为了解决这些缺点，我们提出了一种新的扩散模型引导方法，称为DiBS ，用于分支选择搜索过程。具体来说， DiBS使符号求解器保持完整，并使用扩散模型作为分支排序指南。 核心方法是在当前部分分配和轻量级一致性信号下对候选值进行排名。此外，我们还提供了深入的理论证据，以揭示其工作原理及其原因。在具有挑战性的Royle 17-clue Sudoku基准上的实验表明，与强大的启发式基线相比，我们的DiBS大大降低了搜索成本，特别是在节点、回溯和长尾百分位数方面。 此外，这些结果证实，在分支顺序错误最昂贵的困难情况下，学习的全局指导是有效的。所有代码均可在https://github. com/shanxierdan/DiBS上找到。",
+      "originalSummary": "arXiv:2606.06518v1 Announce Type: new Abstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep learning solver. However, they suffer from two complementary limitations: learning-based solvers lack hard correctness guarantees, while complete symbolic solvers are still prone to long-tail search. To address these shortcomings, we propose a novel diffusion model-guided approach, termed as DiBS, for the branch selection search process. Specifically, DiBS keeps the symbolic solver complete and uses the diffusion model as a branch-ordering guide. The core method is ranking candidate values under the current partial assignment and lightweight consistency signal. Furthermore, we provide an in-depth theoretical proof to reveal how it works and why it works. Experiments on the challenging Royle 17-clue Sudoku benchmark show that our DiBS substantially reduces search cost relative to strong heuristic baselines, especially in nodes, backtracks, and long-tail percentiles. Besides, these results confirm that learned global guidance is effective on hard instances where branch-order mistakes are most expensive. All codes are available at https://github.com/shanxierdan/DiBS.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "Lean4Agent ：客服代表工作流程和轨迹的正式建模和验证",
+      "originalTitle": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.06523",
+      "date": "2026-06-08T04:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、产品发布相关动态",
+      "fullContent": "arXiv: 2606. 06523v1公告类型：新摘要：装备大型语言模型(LLM)以执行可靠的多步工作流程已成为人工智能的核心挑战。尽管LLM的代理功能最近取得了进展，但大多数代理系统仍然缺乏指定、验证和调试其工作流和执行轨迹的正式方法。 这一挑战反映了数学中一个长期存在的问题，即自然语言（ NL ）的模糊性推动了形式语言（ FL ）的发展。受这种范式的启发，我们提出了* * Lean4Agent * * ，据我们所知，这是第一个使用Lean4的框架， Lean4是一种依赖型FL ，用于对代理行为进行建模和验证。 * * Lean4Agent * *推出* * FormalAgentLib * * ，这是一个可扩展的Lean4库，用于在明确的假设下正式建模和验证代理工作流的语义一致性，并实现轨迹显示的执行时间故障的本地化。在* * FormalAgentLib * *的基础上，我们进一步开发了* * LeanEvolve * * ，它应用* * FormalAgentLib * *的结果来修改工作流程，以提高其功能。 对SWE-Bench-Verified的硬问题子集和5个主要LLM的ELAIP-Bench子集进行的大量实验表明，验证通过工作流的性能平均比失败工作流高出* * 11. 94% * * ， * * LeanEvolve * *进一步将SWE性能平均提高* * 7. 47% * *。此外， * * Lean4Agent * *为使用表达依赖型FL来正式建模和验证代理行为的新领域奠定了基础。",
+      "originalSummary": "arXiv:2606.06523v1 Announce Type: new Abstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifying, verifying, and debugging their workflow and execution trajectories. This challenge mirrors a long-standing problem in mathematics, where the ambiguity of natural languages (NLs) motivates the development of formal languages (FLs). Inspired by this paradigm, we propose **Lean4Agent**, to the best of our knowledge, the first framework that uses Lean4, a dependent-type FL to model and verify agent behavior. **Lean4Agent** launches **FormalAgentLib**, an extensible Lean4 library for formally modeling and verifying agent workflows' semantic consistency under explicit assumptions, and enabling localization of execution-time failures revealed by trajectories. Building on **FormalAgentLib**, we further develop **LeanEvolve**, which applies results in **FormalAgentLib** to revise workflows to enhance its capability. Extensive experiments on a hard problem subset of SWE-Bench-Verified and a subset of ELAIP-Bench across 5 leading LLMs indicate that the verification-passing workflows outperform the failing ones by an average of **11.94%**, and **LeanEvolve** further improves SWE performance by **7.47%** on average. Furthermore, **Lean4Agent** establishes a foundation for a new field of using expressive dependent-type FL to formally model and verify agent behavior.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "产品发布",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "CrowdMath ：众包数学研究讨论的数据集",
+      "originalTitle": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.06526",
+      "date": "2026-06-08T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2606. 06526v1公告类型：新摘要：大型语言模型在数学推理方面取得了实质性进展，但现有基准通常通过最终答案、逐步解决方案或完整证明来评估明确规定的问题。 他们没有捕捉到协作的开放式问题解决：参与者提出部分论点，识别先前步骤中的差距或错误，修复有缺陷的推理，并逐渐将增量贡献合成证明。 我们介绍了CrowdMath ，这是来自麻省理工学院PRIMES--解决问题艺术（ AoPS ） CrowdMath计划（ 2016-2025 ）的164个专家注释进度链的数据集，这是一项合作研究计划，其讨论导致了同行评审的出版物。每个链条都跟踪多参与者论坛的讨论，从开放式问题陈述到完整的证明。 帖子在不断发展的解决方案流程中按其功能角色进行标记，包括部分进度、证明完成、错误推理和错误识别。我们定义了评估任务，并对六个前沿模型进行了基准测试。模型在下一个帖子预测中达到83-88%的准确率，这表明它们可以遵循数学讨论的局部流程。 然而，他们很难确定个人贡献的功能意义，最佳模型仅在角色后分类中达到0. 42个宏观F1。CrowdMath揭示了解决指定的数学问题和理解协作数学进展之间的差距。",
+      "originalSummary": "arXiv:2606.06526v1 Announce Type: new Abstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-problem solving: a setting in which participants propose partial arguments, identify gaps or errors in prior steps, repair flawed reasoning, and gradually synthesize incremental contributions into a proof. We introduce CrowdMath, a dataset of 164 expert-annotated progress chains from the MIT PRIMES--Art of Problem Solving (AoPS) CrowdMath program (2016-2025), a collaborative research initiative whose discussions have led to peer-reviewed publications. Each chain traces a multi-participant forum discussion from an open-problem statement to a completed proof. Posts are labeled by their functional roles in the evolving solution process, including partial progress, proof completion, erroneous reasoning, and error identification. We define evaluation tasks and benchmark six frontier models. Models achieve 83-88% accuracy on next-post prediction, suggesting that they can follow the local flow of mathematical discussion. However, they struggle to identify the functional significance of individual contributions with the best model achieving only 0.42 macro-F1 on post-role classification. CrowdMath exposes a gap between solving well-specified mathematical problems and understanding collaborative mathematical progress as it unfolds.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "Notion在服务中断后恢复对Anthropic的访问",
+      "originalTitle": "Notion restores access to Anthropic after service disruption",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "date": "2026-06-07T17:56:22.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "Notion与Anthropic的整合显然在本周末出现了问题。周日凌晨，该公司发布说： “Anthropic的Opus 4. 7和4. 8模型的性能正在下降，这导致在Notion AI中选择这些模型的用户失败率更高。因此， Notion表示，它正在其自动化生产力工具中禁用“所有人类模型”。 12小时后， Notion的产品主管Max Schoening写道，他对“有多少人转述这一点感到“惊讶”，因为他们希望以模型质量为主题的故事成为原因。（根据X的公开统计数据， Notion的帖子已被转发约1,200次。Schoening说：“性能下降只是暂时的服务中断。”“这种情况会发生。它发生在Notion、GitHub、AWS、您的OpenClaw以及介于两者之间的一切。 他补充说， Notion已经恢复了对Anthropic模型的访问。与此同时， Anthropic发言人在一份声明中表示： “短暂的基础设施问题导致多个Claude模型在短时间内出现错误。此后问题已得到解决。感谢用户在我们努力恢复服务期间的耐心等待。 “从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "OpenAI仍在开发“超级应用”",
+      "originalTitle": "OpenAI is still working on that ‘super app’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "date": "2026-06-07T16:23:22.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "据英国《金融时报》报道， OpenAI计划在未来几周内推出ChatGPT的改进版本，该版本将成为具有编码工具和人工智能代理的“超级应用”。据报道，该公司的目标是提高与Anthropic的竞争力，特别是在商业客户中，并在IPO之前更接近盈利能力。 这意味着将ChatGPT变成一个网关，引导免费用户购买他们可能实际支付的产品，例如编码产品Codex。事实上，英国《金融时报》援引一位OpenAI高级员工的话说： “聊天已经死了。领导OpenAI核心产品和平台的Thibault Sottiaux表示，该公司正在努力开发一种产品，“在这种产品中，您拥有自己的个人代理，能够帮助您......无论是个人还是在工作中，您生活中的所有事情。 “如果这听起来很熟悉，那是因为自去年以来就有报道称OpenAI的超级应用雄心壮志。今年3月，《华尔街日报》报道称，这些计划代表了公司在2025年推出各种独立产品后的重大战略转变； OpenAI高管现在表示，他们正在放弃视频生成器Sora等“支线任务”。 从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "这是Tokenpocalypse的黎明吗？",
+      "originalTitle": "Is this the dawn of the Tokenpocalypse?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "date": "2026-06-07T20:26:13.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“这是Tokenpocalypse的黎明吗？”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "We're likely to see more price increases as the big AI companies plan to go public.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "The Verge AI：AI 热点相关动态",
+      "originalTitle": "AI ‘content creators’ are getting harder to spot",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+      "date": "2026-06-07T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started At first, AI influencers were relatively easy to identify - and to [&#8230;]",
+      "rawFullText": "Aitana Lopez, AI avatar by creative agency The Clueless. | Image: The Clueless This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started At first, AI influencers were relatively easy to identify - and to ignore. Aside from the occasional bursts of hype, they didn't seem to change much about the way social media worked. The earliest virtual influencers - Lil Miquela with her blunt fringe and freckles, Imma with her bubblegum pink bob, and Shudu Gram with her flawless complexion - were obviously digital productions. Collaborations … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
     {
       "title": "OpenAI推出锁定模式，以保护敏感数据免受即时注入攻击",
       "originalTitle": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
@@ -47,22 +190,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
-    },
-    {
-      "title": "五个实验室，五个心灵：在小模型上构建多模型金融剧",
-      "originalTitle": "Five labs, five minds: building a multi-model finance drama on small models",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-      "date": "2026-06-06T19:02:33.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "异质性是产品，而不是约束信息不对称需要防火墙如果你绑定它，内存是便宜的戏剧用小型模型构建的实际情况第二次构建小型黑客马拉松现场报告：当新兴经济体中的每个代理在不同的实验室小型模型上运行时会发生什么，而玩家成为拉绳子的金融家。 Thousand Token Wood的第一个版本是一个天气神沙盒：五个林地生物在一个微调的0.5B模型上交易商品，你用冲击戳世界，看着泡沫和崩溃出现。这是一个漂亮的玩具。这也是您观看而不是玩的东西。v2将其重新构建为您操作的游戏。 你是森林的守护神，一个影子金融家：你以利息借贷，低声说出可能是真实的或种植的提示，做空市场，贿赂和经纪人联盟，而治安法官会因为你不应该知道的交易而追捕你。这些生物会记得你如何对待它们，并重新制定计划。最大的变化是在引擎盖下：每个生物现在都用不同的实验室的小模型来思考。这是工程报告。 运行代理委员会的明显方式是一种模式，许多提示。v2运行四个： gpt-oss-20b （ OpenAI ）、MiniCPM3-4B （ OpenBMB ）、Nemotron-Mini-4B （ NVIDIA ）和我自己的微调Qwen 0. 5B。这一点本身并不新奇。当参与者真正不同时，市场就很有趣，四个实验室的模型根据不同的数据进行训练，不同的训练后数据与小模型大致相同。 猫头鹰的囤积方式与狐狸推测的不同。议会是一个活生生的争论，而不是一个剧本。在一个平台上站立四个不同的模型，真正的教训是：摩擦几乎完全在服务层，而不是在建模层。使四个异构模型易于处理的事情与在v1中使一个模型易于处理的原语相同：每个模型的输出流经的容忍JSON解析和修复层。 不同的令牌生成器和格式化习惯会产生不同的畸形；解析器会丢弃它无法挽救的东西，并且模拟永远不会崩溃。构建该层一次，添加模型是配置条目，而不是重构。v2引人注目的核心是内幕提示。您可以向生物低语真实的提示（对卡组将吸引的下一个市场狂热的真实预测，您的真实优势）或虚假（诱饵）。 根据真实的小费采取行动并从中获利会提高你的热度；超过一个门槛，地方法官就会展开调查，最终会被罚款、冻结资产或流放。要想成为真正的游戏，必须向生物隐瞒提示的真相。他们看到谣言文本；他们绝不能看到旗帜。这是一个安全属性，而不是用户界面，小模型代理使它变得清晰：模型可以重复的所有内容都是您在提示符中放入的任何内容。 因此，隐藏的旗帜完全不提示（在玩家的分类账上） ，它被从施工的公共事件记录中剥离出来，叙述者唯一总结的是公共事件。每次测试都会扫描每个生物的完整提示，以查找被禁止的代币。该测试是套件中最重要的测试。当您向代理提供秘密信息时，假设它会泄露，除非测试证明它不能。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 83
+      "score": 87
     },
     {
       "title": "对WWDC 2026的期待： Siri备受期待的改造和Apple Intelligence更新",
@@ -77,7 +205,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "Sriram Krishnan将辞去白宫人工智能顾问一职",
@@ -92,7 +220,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
+    },
+    {
+      "title": "The Verge AI：AI 热点相关动态",
+      "originalTitle": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "date": "2026-06-06T15:05:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but [&#8230;]",
+      "rawFullText": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but I only see them in shitty houses,\" before adding, \"most of them are rentals.\" The woman speaking to him in the clip quickly pushes back, saying that they're \"working class,\" and someone chimes in to add something that a mayor shouldn't have to be told about their constituents: \"it doesn't matter whether they're rentals, they're still hu … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "这是您的笔记本电脑……人工智能",
@@ -107,7 +250,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -122,7 +265,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "谷歌将每月向SpaceX支付9.2亿美元的计算费用",
@@ -137,7 +280,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "初创公司“战地200”应用程序将在3天内正式关闭",
@@ -152,7 +295,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "现在最有趣的初创公司都想让你放下手机",
@@ -167,7 +310,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Endava如何围绕AI代理重新设计软件交付",
@@ -198,7 +341,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -214,22 +357,7 @@
         "多模态",
         "安全"
       ],
-      "score": 91
-    },
-    {
-      "title": "在首次公开募股之前， Anthropic的Daniela Amodei对人工智能的回报表示怀疑",
-      "originalTitle": "Ahead of its IPO, Anthropic&#8217;s Daniela Amodei shrugs off doubts about AI&#8217;s returns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
-      "date": "2026-06-04T22:43:26.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
+      "score": 90
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -244,7 +372,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
+    },
+    {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "Biodefense in the Intelligence Age",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "date": "2026-06-04T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "An action plan for AI-powered biological resilience",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
     },
     {
       "title": "为GPT-Rosalind引入新功能",
@@ -263,22 +406,6 @@
       "score": 99
     },
     {
-      "title": "前沿人工智能民主治理蓝图",
-      "originalTitle": "A blueprint for democratic governance of frontier AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
-      "date": "2026-06-03T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI概述了美国前沿人工智能治理的蓝图，提出了安全、复原力和国家安全的联邦框架。",
-      "originalSummary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 98
-    },
-    {
       "title": "OpenAI公共政策议程",
       "originalTitle": "OpenAI public policy agenda",
       "source": "OpenAI",
@@ -292,7 +419,23 @@
         "公司动态",
         "安全"
       ],
-      "score": 98
+      "score": 97
+    },
+    {
+      "title": "前沿人工智能民主治理蓝图",
+      "originalTitle": "A blueprint for democratic governance of frontier AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/frontier-safety-blueprint",
+      "date": "2026-06-03T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI概述了美国前沿人工智能治理的蓝图，提出了安全、复原力和国家安全的联邦框架。",
+      "originalSummary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 97
     },
     {
       "title": "OpenAI：大模型相关动态",
@@ -307,7 +450,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 91
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -322,7 +465,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 72
     },
     {
       "title": "通过全球领导力促进青年的安全和机会",
@@ -338,7 +481,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
@@ -353,7 +496,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 89
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -368,7 +511,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 80
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -383,7 +526,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 78
     },
     {
       "title": "OpenAI：AI 热点相关动态",
@@ -398,7 +541,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "我们对人工智能政策和政治倡导的看法",
@@ -414,7 +557,7 @@
         "监管",
         "安全"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -429,7 +572,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -444,7 +587,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
@@ -459,7 +602,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -474,7 +617,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -489,7 +632,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "Reachy Mini完全本地化",
@@ -504,22 +647,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
-    },
-    {
-      "title": "使用集线器桶运送万亿个参数： TRL中的Delta权重同步",
-      "originalTitle": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/delta-weight-sync",
-      "date": "2026-05-27T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“使用集线器桶运送万亿个参数： TRL中的Delta权重同步”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -534,7 +662,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -549,7 +677,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "是时候解决入门级工作中迫在眉睫的危机了",
@@ -564,7 +692,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
