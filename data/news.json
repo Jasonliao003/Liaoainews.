@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-08T14:37:00.903Z",
+  "updatedAt": "2026-06-09T10:48:28.663Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,135 +19,170 @@
   ],
   "articles": [
     {
-      "title": "代理AI控制评估中的攻击选择会显著降低安全性",
-      "originalTitle": "Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety",
+      "title": "病理分期：通过体验式代理工作流程在病理学中进行多来源证据裁定",
+      "originalTitle": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.06529",
-      "date": "2026-06-08T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2606. 06529v1公告类型：新摘要：战略性地选择何时攻击的攻击者比不分青红皂白地攻击的攻击者更难捕获。人工智能控制是一个安全框架，用于在较弱、可信的监控器和有限的人力审计预算的监督下部署功能强大但不受信任的人工智能代理。 控制评估通过将红队攻击策略与蓝队监视器对抗来对这些协议进行压力测试，但当前的评估通常假设攻击者没有战略性地选择何时进行攻击。我们通过将攻击决策分解为决定攻击者何时应该攻击的启动策略和决定攻击者何时应该中止正在进行的攻击的停止策略，在代理设置中研究这种能力，即攻击选择。 在BashArena和LinuxArena这两种代理设置中，这两种策略都大大降低了测量的经验安全性，而不会改变底层攻击能力。在1%的审计预算下，我们的启动策略将BashArena和LinuxArena的安全性降低了20个百分点，而我们的停止策略将BashArena的安全性降低了20个百分点， LinuxArena的安全性降低了28个百分点。这些减少应被解释为对攻击选择的影响的上限。 因此，现有的控制评估可能会对选择性攻击者得出过于乐观的安全估计。我们建议在未来的评估、系统卡和安全案例中引入攻击选择，以生成更现实的安全估计。",
-      "originalSummary": "arXiv:2606.06529v1 Announce Type: new Abstract: An attacker that strategically chooses when to attack is much harder to catch than one that attacks indiscriminately. AI control is a safety framework for deploying capable but untrusted AI agents under the oversight of a weaker, trusted monitor and a limited human audit budget. Control evaluations stress-test these protocols by pitting a red-team attack policy against the blue-team monitor, but current evaluations typically assume attackers that do not strategically select when to attack. We study this capability, attack selection, in agentic settings by decomposing attack decisions into a start policy, which decides when an attacker should attack, and a stop policy, which decides when an attacker should abort an ongoing attack. Across two agentic settings, BashArena and LinuxArena, both policies substantially lower measured empirical safety without changing the underlying attack capability. At a 1% audit budget, our start policy reduces safety by 20pp on both BashArena and LinuxArena, and our stop policy reduces safety by 20pp on BashArena and 28pp on LinuxArena. These reductions should be interpreted as upper bounds on the effect of attack selection. Existing control evaluations may therefore yield overly optimistic safety estimates against selective attackers. We recommend that future evaluations, system cards, and safety cases elicit attack selection to produce more realistic safety estimates.",
+      "link": "https://arxiv.org/abs/2606.07549",
+      "date": "2026-06-09T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 07549v1公告类型：新摘要：多模态大型语言模型（ MLLM ）和代理工作流程的最新进展显示出计算病理学的强大前景，但可靠的补丁级推理仍然具有挑战性。 端到端病理MLM通常会产生形态学特征的幻觉，而最近的代理系统通常会将工具输出和检索到的知识合并到一个共享的上下文中，使得决策容易受到相互冲突的证据和上下文污染的影响。我们提出了PathoSage ，这是一个三阶段框架，明确地将知识检索、证据收集和证据裁定分开，用于补丁级病理多模态推理。 其核心组成部分“结构化证据审议”独立评估工具中的异构证据，执行冲突分析，并在新环境中生成最终判断，以减少锚定偏见。我们进一步引入了一个具有连续信用分配的无训练Beta-Bernoulli体验系统，以建模长期工具可靠性并构建相似性加权先验值以供将来工具使用。 实验表明， PathoSage可有效缓解VQA幻觉和分类器分歧，优于强病理MLLM和代理基线。我们的研究结果强调了明确的证据裁定和可靠性感知工具建模是强健病理剂的关键因素。",
+      "originalSummary": "arXiv:2606.07549v1 Announce Type: new Abstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains challenging. End-to-end pathology MLLMs often hallucinate morphological features, while recent agentic systems usually merge tool outputs and retrieved knowledge into a shared context, making decisions vulnerable to conflicting evidence and context contamination. We propose PathoSage, a three-stage framework that explicitly separates knowledge retrieval, evidence collection, and evidence adjudication for patch-level pathology multimodal reasoning. Its core component, Structured Evidence Deliberation, independently evaluates heterogeneous evidence from tools, performs conflict analysis, and generates the final judgment in a fresh context to reduce anchoring bias. We further introduce a training-free Beta-Bernoulli experience system with continuous credit assignment to model long-term tool reliability and construct similarity-weighted priors for future tool use. Experiments show that PathoSage effectively mitigates VQA hallucinations and classifier disagreement, outperforming strong pathology MLLM and agentic baselines. Our results highlight explicit evidence adjudication and reliability-aware tool modeling as key ingredients for robust pathology agents.",
       "rawFullText": "",
       "tags": [
         "智能体",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Syll ：开源个人自动化与跨表面执行",
+      "originalTitle": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.07594",
+      "date": "2026-06-09T04:00:00.000Z",
+      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
+      "fullContent": "arXiv: 2606. 07594v1公告类型：新摘要：个人人工智能代理必须越来越多地跨API、shell、Web表面和桌面GUI运行，但许多系统仍然调整到单个界面，并为用户教学和可审核性提供有限的支持。 我们展示了Syll ，这是一个开源、自托管的多模式代理线束，它在模块化运行时中统一了MCP/API工具、CLI执行和可视化GUI控制，使代理能够跨异构接口协调计算机使用，同时简化用户和代理交换信息的方式。 Syll的核心是一个双向的用户代理交互层：用户通过直接演示来教授过程， Syll将其编译成可重用的技能；代理执行被转换回多模式证据--日志、关键帧和审批检查点--以进行检查和控制。 Syll进一步将记忆、技能、例程和治理外化为可编辑的本地工件，支持直接检查、扩展和下游开发。我们的实现已在生产桌面应用程序上得到验证，包括Adobe Photoshop、Adobe Audition、Stardew Valley、macOS Finder等。我们报告了面向机制的研究，这些研究验证了多模态路由、可教导的GUI重播和持久的本地工件。 我们希望Syll可以作为一个实用的个人自动化开源基础，用户可以教授、检查和不断扩展。",
+      "originalSummary": "arXiv:2606.07594v1 Announce Type: new Abstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for user teaching and auditability. We present Syll, an open-source, self-hosted multimodal agent harness that unifies MCP/API tools, CLI execution, and visual GUI control in a modular runtime, enabling agents to coordinate computer use across heterogeneous interfaces while streamlining how users and agents exchange information. At the core of Syll is a bidirectional user-agent interaction layer: users teach procedures through direct demonstration, which Syll compiles into reusable skills; agent execution is translated back into multimodal evidence -- logs, keyframes, and approval checkpoints -- for inspection and control. Syll further externalizes memory, skills, routines, and governance as editable local artifacts, supporting straightforward inspection, extension, and downstream development. Our implementation has been validated on production desktop applications including Adobe Photoshop, Adobe Audition, Stardew Valley, macOS Finder and others. We report mechanism-oriented studies that validate multimodal routing, teachable GUI replay, and persistent local artifacts. We hope Syll can serve as a practical open-source foundation for personal automation that users can teach, inspect, and continuously extend.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "多模态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "为什么将剩余流限制为图层而不是令牌？持续潜在推理的持久记忆",
+      "originalTitle": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.07720",
+      "date": "2026-06-09T04:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
+      "fullContent": "arXiv: 2606. 07720v1公告类型：新摘要：大型语言模型（ LLM ）在数学和多跳规划任务方面表现出非凡的推理能力。CoCoNuT （连续思维链）范式~\\ cite {hao2024coconut}扩展了这一点，使模型能够在潜在空间中进行推理，同时探索多条推理路径，而不是在早期致力于单个链。 然而，我们发现了一个局限性，我们称之为\\ textbf {概念瓶颈}。在每个推理过程中，中间隐藏状态被覆盖，导致模型在推理深度增加时丢失在早期步骤中计算的关键事实。我们根据经验来观察这一点。在HotpotQA上，香草CoCoNuT （ 10. 4\\ % EM ）未能超过CoT基线（ 11. 0\\ % EM ） ，并且性能随着GSM8K课程深度而下降。 为了解决这个问题，我们提出了\\ textbf {AGCLR} （自适应门控连续潜伏推理） ，它使用\\ textit {门控概念流}来增强CoCoNuT。在所有推理通道中保持的持久残留记忆，由三个学习门控制：将中间事实提交给记忆的\\ textit {write}门，检索相关先前状态的\\ textit {read}门，以及修剪不相关上下文的\\ textit {forget}门。 AGCLR使用GPT-2作为我们的基本模型，在GSM8K、HotpotQA和ProsQA上进行评估，在所有类型的数据集上实现了一致的改进。随着课程深度的增加，性能差距加剧，直接解决了概念瓶颈。代码见https://anonymous. 4open. science/r/JJJJ/README. md",
+      "originalSummary": "arXiv:2606.07720v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent space, exploring multiple reasoning paths simultaneously rather than committing to a single chain early on. However, we identify a limitation we term the \\textbf{concept bottleneck}. At each reasoning pass, intermediate hidden states are overwritten, causing the model to lose critical facts computed in earlier steps as reasoning depth increases. We observe this empirically. On HotpotQA, vanilla CoCoNuT (10.4\\% EM) fails to improve over the CoT baseline (11.0\\% EM), and performance degrades with curriculum depth on GSM8K. To address this, we propose \\textbf{AGCLR} (Adaptive Gated Continuous Latent Reasoning), which augments CoCoNuT with a \\textit{Gated Concept Stream}. A persistent residual memory maintained across all reasoning passes, controlled by three learned gates: a \\textit{write} gate that commits intermediate facts to memory, a \\textit{read} gate that retrieves relevant prior states, and a \\textit{forget} gate that prunes irrelevant context. Evaluated on GSM8K, HotpotQA, and ProsQA using GPT-2 as our base model, AGCLR achieves consistent improvements across all types of datasets. With the performance gap compounding as curriculum depth increases, directly resolving the concept bottleneck. Code available at https://anonymous.4open.science/r/JJJJ/README.md",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "超越Goodhart定律：评估多Agent系统中合规性的动态基准",
+      "originalTitle": "Beyond Goodhart's Law: A Dynamic Benchmark for Evaluating Compliance in Multi-Agent Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.07805",
+      "date": "2026-06-09T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2606. 07805v1公告类型：新摘要：大型语言模型（ LLM ）从被动助理到具有执行能力的自主代理的快速演变引入了关键的运营风险。目前大多数评估框架忽视了程序合规性，导致“马基雅维利”行为，即客服代表战略性地违反安全规则以获得最大回报--这是古德哈特定律的直接体现。 为了解决这一盲点，我们引入了MAC-Bench ，这是一个动态的对抗性基准，旨在评估现实压力下多智能体系统的程序对齐。我们提出了SERV （ Seed - Evolve - Refine - Verify ）管道，这是一种“Agent-as-a-Benchmark”范式，可将非结构化的法律文本转换为可执行的无污染场景。 通过合成全息沙箱环境并注入校准的社会工程压力矢量， MAC-Bench迫使代理在任务成功和监管遵守之间进行帕累托最佳权衡。我们引入了新的指标：合规加权成功率（ CSR ）和马基雅维利差距（ MG ） ，并对最先进的前沿模型进行了全面评估，以揭示成功与合规之间的普遍权衡。",
+      "originalSummary": "arXiv:2606.07805v1 Announce Type: new Abstract: The rapid evolution of Large Language Models (LLMs) from passive assistants to autonomous, execution-capable agents has introduced critical operational risks. Most current evaluation frameworks neglect procedural compliance, leading to ''Machiavellian'' behaviors where agents strategically violate safety rules to maximize rewards - a direct manifestation of Goodhart's Law. To address this blind spot, we introduce MAC-Bench, a dynamic, adversarial benchmark designed to evaluate the procedural alignment of multi-agent systems under realistic pressure. We propose the SERV(Seed - Evolve - Refine - Verify) pipeline, an ``Agent-as-a-Benchmark'' paradigm that transforms unstructured legal texts into executable, contamination-free scenarios. By synthesizing holographic sandbox environments and injecting calibrated social-engineering pressure vectors, MAC-Bench forces agents into Pareto-optimal trade-offs between task success and regulatory adherence. We introduced novel metrics: the Compliance-Weighted Success Rate (CSR) and the Machiavellian Gap (MG), and conducted a comprehensive evaluation of state-of-the-art frontier models to reveal the pervasive trade-offs between success and compliance.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "指令层次结构中断的地方：诊断和修复推理语言模型中的故障",
+      "originalTitle": "Where Instruction Hierarchy Breaks: Diagnosing and Repairing Failures in Reasoning Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.07808",
+      "date": "2026-06-09T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 07808v1 Announce Type: new Abstract:代理工作流中部署的推理语言模型必须遵循指令层次结构：当来自不同源的指令发生冲突时，模型应服从最高权限的适用指令。现有基准在很大程度上端到端地衡量这种行为，询问最终响应是否合规。 然而，不合规的响应可能源于几个不同的故障：模型可能无法在上下文中识别相关指令，无法解决已识别指令之间的冲突，或者在推理中正确解决冲突，同时仍然产生违规响应。 我们引入了一个白盒诊断框架，将指令层次结构故障局部化为指令识别、冲突解决和响应实现，使故障更容易解释。我们根据IHEval和IHChallenge的长上下文适应性评估了三种推理模型---Gemma-4-31B-IT、Qwen3. 6-35B-A3B和Claude Sonnet 4. 6 ，并发现主导故障模式因模型、任务和上下文长度而异。 基于模型通常可以在明确提示时检测冲突和输出违规的观察，我们提出了两种免训练的自我监控机制：用于生成前低延迟冲突检测的并行输入监控和用于响应级审查和修复的顺序输出监控。在Gemma-4-31B-IT、Claude Sonnet 4. 6和GPT-5. 3中，最强大的监视器使用GPT-5将不遵守规则的情况减少了81-99%。 在静态攻击下减少86% ，在自适应攻击下减少45%。",
+      "originalSummary": "arXiv:2606.07808v1 Announce Type: new Abstract: Reasoning language models deployed in agentic workflows must follow an instruction hierarchy: when instructions from different sources conflict, the model should obey the highest-privilege applicable instruction. Existing benchmarks largely measure this behavior end-to-end, asking whether the final response is compliant. However, a non-compliant response can arise from several distinct failures: the model may fail to identify the relevant instructions in context, fail to resolve conflicts among identified instructions, or correctly resolve the conflict in its reasoning while still producing a violating response. We introduce a white-box diagnostic framework that localizes instruction hierarchy failures into instruction identification, conflict resolution, and response realization, making failures more interpretable. We evaluate three reasoning models--Gemma-4-31B-IT, Qwen3.6-35B-A3B, and Claude Sonnet 4.6--on long-context adaptations of IHEval and IHChallenge, and find that the dominant failure mode varies across models, tasks, and context length. Building on the observation that models can often detect conflicts and output violations when explicitly prompted, we propose two training-free self-monitoring mechanisms: a parallel input monitor for low-latency conflict detection before generation, and a sequential output monitor for response-level review and repair. Across Gemma-4-31B-IT, Claude Sonnet 4.6, and GPT-5.3, the strongest monitor reduces rule-following non-compliance by 81-99%, with GPT-5.3 reductions of 86% under static attacks and 45% under adaptive attacks.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "在Anthropic之后，为IPO保密OpenAI文件",
+      "originalTitle": "OpenAI files confidentially for IPO, following Anthropic",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "date": "2026-06-08T21:29:57.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "该公司周一在一篇博客文章中宣布， ChatGPT制造商OpenAI已秘密申请首次公开募股。这份文件是在其主要竞争对手Anthropic也申请上市一周多一点之后提交的，这加剧了这两家人工智能公司之间的竞争。OpenAI的最后估值为8520亿美元，它向美国证券交易委员会提交了一份注册声明草案，用于拟议的首次公开募股。 OpenAI尚未分享任何具体信息。然而，该公司表示，之所以发布该博客，是因为预计会有泄密事件发生。该公司写道： “我们还没有决定时间；这可能需要一段时间，因为我们想做的事情作为一家私营公司可能更容易。” “但这是一组复杂的权衡，这让我们可以选择更早上市，如果这最终是最好的。 “大约在同一时间， OpenAI在另一篇博客文章中发表了一篇全面的哲学声明，阐述了其使命、对AGI的愿景以及对人工智能应该造福全人类的信念--这种前瞻性的沟通是进入平静时期的公司历来小心翼翼地避免的。 OpenAI似乎很愿意在如此接近机密文件的情况下发布它，这说明了一些事情—不一定是关于其自己的法律判决，而是关于其运营的监管环境。与前几届政府相比，特朗普政府领导下的美国证券交易委员会对科技和人工智能公司采取了明显更多的放手姿态， OpenAI可能只是在阅读这个房间。 无论监管问题是什么，这份文件都是2026年将成为公共市场重磅年份的最新信号。SpaceX预计也将以1. 75万亿美元的估值首次亮相，这意味着三家最受关注的科技公司可能会在几个月内全部上市--这是自互联网繁荣以来市场从未见过的高风险产品的集中。 据《华尔街日报》报道， OpenAI正在竞相进行IPO ，尽管它最近没有达到自己的新用户和收入目标。据报道，其首席财务官Sarah Friar表示担心OpenAI可能无法支持其庞大的数据中心支出。而且烧伤看起来确实很大。 3月下旬， OpenAI在硅谷历史上最大的一轮融资中获得了1220亿美元，其中30亿美元直接来自零售投资者通过银行渠道。但据《华尔街日报》报道，该公司预计，到2028年，仅在人工智能研究上就将花费大致相同的计算能力，即使销售额比前一年翻了一番，当年也将燃烧850亿美元。 换句话说， OpenAI要求公开市场投资者购买一项业务，根据自己的预测，该业务至少在未来四年内不会产生比其花费更多的现金。SpaceX提供了一个并行数据点。",
+      "originalSummary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "NotebookLM的Gemini 3.5升级增加了云计算机并帮助查找源",
+      "originalTitle": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "date": "2026-06-08T16:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
+      "fullContent": "谷歌正在为NotebookLM推出“全面”更新。根据周一的一篇博客文章，这款人工智能笔记应用程序现在使用谷歌升级的Gemini 3. 5模型，这将使其能够以“更准确和可靠的信息”做出回应。NotebookLM于2023年推出，允许您使用人工智能与笔记和来源进行交互，并询问有关材料的问题。 谷歌表示，通过此次更新，您可以通过询问有关主题的NotebookLM问题来启动研究项目，而不是导入笔记或YouTube视频。NotebookLM将在其“发现”功能的基础上，使用Google搜索来帮助您查找相关来源……阅读The Verge的完整故事。",
+      "originalSummary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to interact with your notes and sources using AI, [&#8230;]",
+      "rawFullText": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model , which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday . Launched in 2023 , NotebookLM allows you to interact with your notes and sources using AI, as well as ask questions about the materials. With this update, Google says you can start a research project by just asking NotebookLM questions about a topic, instead of importing notes or YouTube videos. NotebookLM will use Google Search to help you find relevant sources, building on its \"discover\" fe … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "专为造福所有人而打造：我们的计划",
+      "originalTitle": "Built to benefit everyone: our plan",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "date": "2026-06-08T01:30:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI致力于确保AGI让所有人受益，因此我们对人工智能未来的愿景是关注访问、安全和共享繁荣。",
+      "originalSummary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
         "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "介绍OpenAI经济研究交流",
+      "originalTitle": "Introducing the OpenAI Economic Research Exchange",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/economic-research-exchange",
+      "date": "2026-06-08T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI启动了经济研究交流，以研究人工智能对就业、生产力和经济的影响。所选研究项目的申请现已开放。",
+      "originalSummary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "在Anthropic之后的IPO OpenAI文件",
+      "originalTitle": "OpenAI files for IPO, following Anthropic",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "date": "2026-06-08T21:38:29.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "OpenAI周一完成了IPO竞赛的初步步骤，该公司和竞争对手Anthropic已经竞争了一年的大部分时间：该公司宣布，在人类公司于6月1日决定向美国证券交易委员会提交S-1表格后，该公司已秘密地向美国证券交易委员会提交了S-1表格。 保密文件意味着通常通过表格提供的某些详细信息（例如高管薪酬数据、公司业务的潜在风险以及更多财务信息）尚未公开。截至Anthropic最近的筹款活动，它被称为世界上最有价值的初创公司，具有后期资金价值......请阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. [&#8230;]",
+      "rawFullText": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. The confidential filing means that certain details normally available through the form - such as executive compensation figures, potential risks to a company's business, and more financials - aren't yet public. As of Anthropic's most recent fundraise, it's being called the world's most valuable startup, with a post-money valu … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
       ],
       "score": 98
     },
     {
-      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
-      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/openenv-agentic-rl",
-      "date": "2026-06-08T00:00:00.000Z",
-      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
-      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
-      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "开源"
-      ],
-      "score": 93
-    },
-    {
-      "title": "DiBS ：扩散知情分支选择",
-      "originalTitle": "DiBS: Diffusion-Informed Branch Selection",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.06518",
-      "date": "2026-06-08T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv: 2606. 06518v1 Announce Type: new Abstract:数独是一个具有代表性的约束满足问题，需要在严格的离散约束下进行全局结构推理。现有的解决数独的工作主要集中在两种主要方法上，即传统的启发式和深度学习求解器。 然而，它们存在两个互补的局限性：基于学习的求解器缺乏硬正确性保证，而完整的符号求解器仍然容易进行长尾搜索。为了解决这些缺点，我们提出了一种新的扩散模型引导方法，称为DiBS ，用于分支选择搜索过程。具体来说， DiBS使符号求解器保持完整，并使用扩散模型作为分支排序指南。 核心方法是在当前部分分配和轻量级一致性信号下对候选值进行排名。此外，我们还提供了深入的理论证据，以揭示其工作原理及其原因。在具有挑战性的Royle 17-clue Sudoku基准上的实验表明，与强大的启发式基线相比，我们的DiBS大大降低了搜索成本，特别是在节点、回溯和长尾百分位数方面。 此外，这些结果证实，在分支顺序错误最昂贵的困难情况下，学习的全局指导是有效的。所有代码均可在https://github. com/shanxierdan/DiBS上找到。",
-      "originalSummary": "arXiv:2606.06518v1 Announce Type: new Abstract: Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep learning solver. However, they suffer from two complementary limitations: learning-based solvers lack hard correctness guarantees, while complete symbolic solvers are still prone to long-tail search. To address these shortcomings, we propose a novel diffusion model-guided approach, termed as DiBS, for the branch selection search process. Specifically, DiBS keeps the symbolic solver complete and uses the diffusion model as a branch-ordering guide. The core method is ranking candidate values under the current partial assignment and lightweight consistency signal. Furthermore, we provide an in-depth theoretical proof to reveal how it works and why it works. Experiments on the challenging Royle 17-clue Sudoku benchmark show that our DiBS substantially reduces search cost relative to strong heuristic baselines, especially in nodes, backtracks, and long-tail percentiles. Besides, these results confirm that learned global guidance is effective on hard instances where branch-order mistakes are most expensive. All codes are available at https://github.com/shanxierdan/DiBS.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "评测",
-        "模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "Lean4Agent ：客服代表工作流程和轨迹的正式建模和验证",
-      "originalTitle": "Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.06523",
-      "date": "2026-06-08T04:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、产品发布相关动态",
-      "fullContent": "arXiv: 2606. 06523v1公告类型：新摘要：装备大型语言模型(LLM)以执行可靠的多步工作流程已成为人工智能的核心挑战。尽管LLM的代理功能最近取得了进展，但大多数代理系统仍然缺乏指定、验证和调试其工作流和执行轨迹的正式方法。 这一挑战反映了数学中一个长期存在的问题，即自然语言（ NL ）的模糊性推动了形式语言（ FL ）的发展。受这种范式的启发，我们提出了* * Lean4Agent * * ，据我们所知，这是第一个使用Lean4的框架， Lean4是一种依赖型FL ，用于对代理行为进行建模和验证。 * * Lean4Agent * *推出* * FormalAgentLib * * ，这是一个可扩展的Lean4库，用于在明确的假设下正式建模和验证代理工作流的语义一致性，并实现轨迹显示的执行时间故障的本地化。在* * FormalAgentLib * *的基础上，我们进一步开发了* * LeanEvolve * * ，它应用* * FormalAgentLib * *的结果来修改工作流程，以提高其功能。 对SWE-Bench-Verified的硬问题子集和5个主要LLM的ELAIP-Bench子集进行的大量实验表明，验证通过工作流的性能平均比失败工作流高出* * 11. 94% * * ， * * LeanEvolve * *进一步将SWE性能平均提高* * 7. 47% * *。此外， * * Lean4Agent * *为使用表达依赖型FL来正式建模和验证代理行为的新领域奠定了基础。",
-      "originalSummary": "arXiv:2606.06523v1 Announce Type: new Abstract: Equipping Large Language Models (LLMs) to execute reliable multi-step workflows has become a central challenge in artificial intelligence. Despite recent advances in LLMs' agentic capabilities, most agent systems still lack formal methods for specifying, verifying, and debugging their workflow and execution trajectories. This challenge mirrors a long-standing problem in mathematics, where the ambiguity of natural languages (NLs) motivates the development of formal languages (FLs). Inspired by this paradigm, we propose **Lean4Agent**, to the best of our knowledge, the first framework that uses Lean4, a dependent-type FL to model and verify agent behavior. **Lean4Agent** launches **FormalAgentLib**, an extensible Lean4 library for formally modeling and verifying agent workflows' semantic consistency under explicit assumptions, and enabling localization of execution-time failures revealed by trajectories. Building on **FormalAgentLib**, we further develop **LeanEvolve**, which applies results in **FormalAgentLib** to revise workflows to enhance its capability. Extensive experiments on a hard problem subset of SWE-Bench-Verified and a subset of ELAIP-Bench across 5 leading LLMs indicate that the verification-passing workflows outperform the failing ones by an average of **11.94%**, and **LeanEvolve** further improves SWE performance by **7.47%** on average. Furthermore, **Lean4Agent** establishes a foundation for a new field of using expressive dependent-type FL to formally model and verify agent behavior.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布",
-        "模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "CrowdMath ：众包数学研究讨论的数据集",
-      "originalTitle": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.06526",
-      "date": "2026-06-08T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv: 2606. 06526v1公告类型：新摘要：大型语言模型在数学推理方面取得了实质性进展，但现有基准通常通过最终答案、逐步解决方案或完整证明来评估明确规定的问题。 他们没有捕捉到协作的开放式问题解决：参与者提出部分论点，识别先前步骤中的差距或错误，修复有缺陷的推理，并逐渐将增量贡献合成证明。 我们介绍了CrowdMath ，这是来自麻省理工学院PRIMES--解决问题艺术（ AoPS ） CrowdMath计划（ 2016-2025 ）的164个专家注释进度链的数据集，这是一项合作研究计划，其讨论导致了同行评审的出版物。每个链条都跟踪多参与者论坛的讨论，从开放式问题陈述到完整的证明。 帖子在不断发展的解决方案流程中按其功能角色进行标记，包括部分进度、证明完成、错误推理和错误识别。我们定义了评估任务，并对六个前沿模型进行了基准测试。模型在下一个帖子预测中达到83-88%的准确率，这表明它们可以遵循数学讨论的局部流程。 然而，他们很难确定个人贡献的功能意义，最佳模型仅在角色后分类中达到0. 42个宏观F1。CrowdMath揭示了解决指定的数学问题和理解协作数学进展之间的差距。",
-      "originalSummary": "arXiv:2606.06526v1 Announce Type: new Abstract: Large language models have made substantial progress on mathematical reasoning, but existing benchmarks typically evaluate well-specified problems with final answers, step-by-step solutions, or complete proofs. They do not capture collaborative open-problem solving: a setting in which participants propose partial arguments, identify gaps or errors in prior steps, repair flawed reasoning, and gradually synthesize incremental contributions into a proof. We introduce CrowdMath, a dataset of 164 expert-annotated progress chains from the MIT PRIMES--Art of Problem Solving (AoPS) CrowdMath program (2016-2025), a collaborative research initiative whose discussions have led to peer-reviewed publications. Each chain traces a multi-participant forum discussion from an open-problem statement to a completed proof. Posts are labeled by their functional roles in the evolving solution process, including partial progress, proof completion, erroneous reasoning, and error identification. We define evaluation tasks and benchmark six frontier models. Models achieve 83-88% accuracy on next-post prediction, suggesting that they can follow the local flow of mathematical discussion. However, they struggle to identify the functional significance of individual contributions with the best model achieving only 0.42 macro-F1 on post-role classification. CrowdMath exposes a gap between solving well-specified mathematical problems and understanding collaborative mathematical progress as it unfolds.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "评测",
-        "模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "Notion在服务中断后恢复对Anthropic的访问",
-      "originalTitle": "Notion restores access to Anthropic after service disruption",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
-      "date": "2026-06-07T17:56:22.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "Notion与Anthropic的整合显然在本周末出现了问题。周日凌晨，该公司发布说： “Anthropic的Opus 4. 7和4. 8模型的性能正在下降，这导致在Notion AI中选择这些模型的用户失败率更高。因此， Notion表示，它正在其自动化生产力工具中禁用“所有人类模型”。 12小时后， Notion的产品主管Max Schoening写道，他对“有多少人转述这一点感到“惊讶”，因为他们希望以模型质量为主题的故事成为原因。（根据X的公开统计数据， Notion的帖子已被转发约1,200次。Schoening说：“性能下降只是暂时的服务中断。”“这种情况会发生。它发生在Notion、GitHub、AWS、您的OpenClaw以及介于两者之间的一切。 他补充说， Notion已经恢复了对Anthropic模型的访问。与此同时， Anthropic发言人在一份声明中表示： “短暂的基础设施问题导致多个Claude模型在短时间内出现错误。此后问题已得到解决。感谢用户在我们努力恢复服务期间的耐心等待。 “从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
-    },
-    {
-      "title": "OpenAI仍在开发“超级应用”",
-      "originalTitle": "OpenAI is still working on that ‘super app’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
-      "date": "2026-06-07T16:23:22.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "据英国《金融时报》报道， OpenAI计划在未来几周内推出ChatGPT的改进版本，该版本将成为具有编码工具和人工智能代理的“超级应用”。据报道，该公司的目标是提高与Anthropic的竞争力，特别是在商业客户中，并在IPO之前更接近盈利能力。 这意味着将ChatGPT变成一个网关，引导免费用户购买他们可能实际支付的产品，例如编码产品Codex。事实上，英国《金融时报》援引一位OpenAI高级员工的话说： “聊天已经死了。领导OpenAI核心产品和平台的Thibault Sottiaux表示，该公司正在努力开发一种产品，“在这种产品中，您拥有自己的个人代理，能够帮助您......无论是个人还是在工作中，您生活中的所有事情。 “如果这听起来很熟悉，那是因为自去年以来就有报道称OpenAI的超级应用雄心壮志。今年3月，《华尔街日报》报道称，这些计划代表了公司在2025年推出各种独立产品后的重大战略转变； OpenAI高管现在表示，他们正在放弃视频生成器Sora等“支线任务”。 从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
-    },
-    {
-      "title": "这是Tokenpocalypse的黎明吗？",
-      "originalTitle": "Is this the dawn of the Tokenpocalypse?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
-      "date": "2026-06-07T20:26:13.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“这是Tokenpocalypse的黎明吗？”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "We're likely to see more price increases as the big AI companies plan to go public.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
+      "title": "人工智能“内容创作者”越来越难被发现",
       "originalTitle": "AI ‘content creators’ are getting harder to spot",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
@@ -162,68 +197,7 @@
       "score": 74
     },
     {
-      "title": "OpenAI推出锁定模式，以保护敏感数据免受即时注入攻击",
-      "originalTitle": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
-      "date": "2026-06-06T20:32:24.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI宣布了一项新功能，它表示将提供额外的保护，防止提示注入攻击，其中恶意聊天机器人指令隐藏在网页和其他内容源中。除其他外，锁定模式将禁用实时网页浏览（因此您只能访问缓存内容）、从网页检索和显示图像（您仍然可以生成图像）、深入研究和代理模式。 该公司表示，即使启用锁定模式， ChatGPT仍然可能容易受到提示注入—例如，这可能“出现在缓存的网络内容或上传的文件中，并且仍然可能影响响应的行为或准确性。“但我们的目标是降低敏感数据在此过程中被共享的可能性。OpenAI说： “锁定模式并不适合所有人。” “它专为处理敏感数据并希望更严格地保护免受与即时注入相关的数据泄露风险的个人和组织而设计。“该公司表示，它目前正在将锁定模式推广到自助ChatGPT企业帐户以及符合条件的个人帐户。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "特朗普政府可能会收购OpenAI的股权",
-      "originalTitle": "The Trump administration might take an equity stake in OpenAI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-      "date": "2026-06-06T16:17:21.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "唐纳德·特朗普总统周五表示，他已经与人工智能公司谈过达成协议， “美国人民可以从人工智能的成功中受益。“特朗普似乎没有在他的评论中提到具体的公司，但OpenAI是一个可能的候选人，特别是在CNBC报道特朗普政府确实一直在与这家AI公司讨论股权之后。 CNBC表示，其中一些股权可用于种植OpenAI最近提出的“公共财富基金”。正如该公司所概述的那样，该基金的收益“可以直接分配给公民，让更多的人直接参与人工智能驱动的增长，无论他们的初始财富或获得资本的机会如何。 据彭博社报道，当空军一号的记者向特朗普询问这个想法时，他回答说，他一直在与人工智能高管谈论“可以向美国公众提供零件的概念，美国公众基本上成为这些公司的合作伙伴。彭博社还报道说，自2025年初以来，首席执行官萨姆·奥尔特曼一直在讨论政府在主要人工智能公司中持股的想法。 这似乎与特朗普对政府拥有营利性公司的更广泛兴趣相一致--最值得注意的是，政府去年收购了陷入困境的芯片制造商英特尔10%的股份。这个想法在左翼也引起了一些关注，参议员伯尼·桑德斯（ Bernie Sanders ）本周提出了一次性50 ％的税收， OpenAI、Anthropic和xAI （ SpaceX的一部分）等公司将以股票的形式支付。 桑德斯认为，由于所有这些企业都有可能在今年上市，这项税收将“让公众在决定这项技术的未来方面发挥直接作用” ，并“保证A.I.可能产生的数万亿美元用于改善我们所有人的生活。 投资者和播客制作人大卫·萨克斯(David Sacks)最近辞去了特朗普的人工智能和加密货币沙皇的职务，他发帖说，他能理解桑德斯的想法为什么会引起共鸣， “包括许多右翼人士” ，但他警告说，这实际上会“加速我们已经走向的企业-政府融合。” （萨克斯现在是总统科学技术顾问委员会的联合主席。 在社交媒体上，前微软员工Dare Obasanjo表示： “政府已经为OpenAI的救助奠定了基础。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。",
-      "originalSummary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
-      "title": "对WWDC 2026的期待： Siri备受期待的改造和Apple Intelligence更新",
-      "originalTitle": "What to expect from WWDC 2026: Siri&#8217;s highly anticipated revamp and Apple Intelligence updates",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
-      "date": "2026-06-06T18:13:36.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "随着苹果全球开发者大会（ WWDC 2026 ）的临近，围绕苹果今年为我们准备的东西，人们兴奋不已。从Siri的大修到新的Apple Intelligence更新，还有很多值得期待的事情。一年一度的全球开发者大会将于周一上午10点开幕。PT/1 P.M. ET. 对于那些渴望收看的人，该活动将通过Apple开发者应用程序、Apple网站和Apple开发者YouTube频道进行直播。最令人期待的公告是Siri的重大人工智能升级，将其转变为更具对话性的助手，能够理解上下文，处理多步骤任务，并更自然地跨应用程序和服务进行交互。 经过改造的Siri将利用谷歌的Gemini技术来增强其功能。此外，彭博社最近发布了一款独立的Siri应用程序，旨在与ChatGPT、Claude和Gemini等高级人工智能聊天机器人竞争。苹果还可能推出一项让人联想到消息应用程序的功能，允许用户设置计时器，以便在30天、一年后自动删除对话，或者无限期保留它们。 根据The Information ，苹果计划引入与应用商店的AI代理集成。虽然细节很少，但代理允许用户委派预订、管理日常任务、编辑文档或控制智能家居设备等任务。 预计将在“相机”应用程序中引入一个新的“视觉智能”部分，取代“相机控制”按钮中以前的“视觉智能”功能。此升级将引入专用的Siri模式，该模式位于照片、视频、纵向和全景等选项旁边。视觉智能功能利用Google图像搜索准确识别用户捕获的对象。 此外，照片应用程序将获得由Apple Intelligence提供支持的令人兴奋的增强功能。其中可能包括用于优化照片的智能场景推荐、用于清晰图像的自动对象删除，以及允许用户通过使用自然语言请求编辑的创新AI照片编辑功能，以及visionOS中的新生产力功能。 Apple将升级Image Playground应用程序，引入更高质量的图像生成、更多的艺术风格、更好的角色一致性和更丰富的编辑控件。用于创建新图像的界面将得到简化，提供更少的控件和“描述更改”编辑选项。此外，我们可能会看到推荐的Genmoji功能，该功能根据用户的媒体和文本交互提供自定义表情符号。 用户还可以生成反映各种主题和情绪的人工智能壁纸。有传言称，钱包应用将推出值得注意的更新，特别是一项新的账单拆分功能，该功能将简化亲朋好友之间的费用分摊。用户可以轻松地为收据拍照并生成付款请求。",
-      "originalSummary": "Apple's WWDC nears: Here's what you can look forward to.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Sriram Krishnan将辞去白宫人工智能顾问一职",
-      "originalTitle": "Sriram Krishnan is leaving his role as White House AI advisor",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
-      "date": "2026-06-06T17:42:15.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "前科技高管兼风险投资人Sriram Krishnan将于6月底离开特朗普政府。Krishnan在X上的一篇帖子中说： “很难表达为美国人民服务有多大的荣幸，以及我有机会这样做是多么感激。” “首先，在[唐纳德·特朗普]总统的领导下任职是一种荣幸。没有他的领导，我们就不可能在人工智能竞赛中处于领先地位。 Krishnan曾在白宫担任人工智能高级政策顾问，他是在第二届特朗普政府中担任职务的众多科技行业人物之一。Krishnan曾在微软、Twitter、雅虎、Facebook和Snap领导产品团队，他最近是Andreessen Horowitz的合伙人，该公司的创始人在2024年大选期间支持特朗普。 Krishnan在帖子中强调了一些“关键的公共成就” ，首先是政府的人工智能行动计划，该计划将数据中心建设置于监管和安全之上。此后，特朗普签署了几项围绕人工智能的行政命令，其中一项旨在挑战州级人工智能法规，另一项则专注于监管，但在行业反弹后被推迟和缩小。 特朗普还支持政府可以收购主要人工智能公司股权的想法。Krishnan指出，他“在过去18个月中与[最]密切合作”的人是David Sacks ，他是投资者和播客制作人，今年早些时候辞去了人工智能和加密沙皇的职务，并成为总统科学技术顾问委员会的联合主席。 Krishnan说： “[Sacks ’]继续倡导美国在人工智能上获胜一直是并将继续是至关重要的。”接下来，克里希南表示，他将“建立机构” ，以应对“美国及其盟友”面临的重大挑战。“据《华盛顿邮报》报道，他计划创办一个外部机构，该机构仍将让他在影响特朗普的人工智能政策方面发挥作用。 Krishnan说： “无论是能源、数据中心，还是美国人体验人工智能益处的清晰途径，我们都需要共同解决许多棘手的问题。”当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。",
-      "originalSummary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
+      "title": "印第安纳州谢尔比维尔市长说，只有住在“破房子”里的人才反对数据中心",
       "originalTitle": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
@@ -235,22 +209,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "这是您的笔记本电脑……人工智能",
-      "originalTitle": "This is your laptop… on AI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
-      "date": "2026-06-05T16:39:07.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "我们现在正深入到开发者大会的季节，到目前为止，其中一个主题是大型科技公司的坚定信念，即人工智能将改变我们做每件事情的方式。本周，英伟达的Jensen Huang描述了一种全新的使用笔记本电脑的方式，以及一种全新的笔记本电脑。 这一切都非常有趣，但它引发了我们对许多人工智能产品的同一个问题：有人真的想要这个吗？在The Vergecast的这一集中， Nilay和David浏览了来自Gemini S的Microsoft Build和Google I/O的大量产品……阅读The Verge的完整故事。",
-      "originalSummary": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way of using our laptops [&#8230;]",
-      "rawFullText": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described a completely new way of using our laptops - and a completely new kind of laptop made to support it. It's all very interesting, but it raises the same question we have around so many AI products: Does anyone actually want this? On this episode of The Vergecast , Nilay and David run through a lot of the products coming out of Microsoft Build and Google I/O, from Gemini S … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 81
+      "score": 73
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -265,52 +224,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
-    },
-    {
-      "title": "谷歌将每月向SpaceX支付9.2亿美元的计算费用",
-      "originalTitle": "Google will pay SpaceX $920M per month for compute",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-      "date": "2026-06-05T18:57:20.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“谷歌将每月向SpaceX支付9.2亿美元的计算费用”。它主要涉及产品发布方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
-      "rawFullText": "",
-      "tags": [
-        "产品发布"
-      ],
       "score": 80
-    },
-    {
-      "title": "初创公司“战地200”应用程序将在3天内正式关闭",
-      "originalTitle": "Startup Battlefield 200 applications officially close in 3 days",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
-      "date": "2026-06-05T20:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "现在最有趣的初创公司都想让你放下手机",
-      "originalTitle": "The most interesting startups right now want to get you off your phone",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
-      "date": "2026-06-05T17:17:06.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "虽然人工智能筹款机器不断打破自己的记录，但一些创始人正在朝着另一个方向发展。Mirror创始人Brynn Putnam刚刚为Board筹集资金， Board是一家专注于通过现场游戏和社交体验将人们聚集在一起的初创公司。Cyberdeck的创作者正在疯狂制作异想天开的DIY电脑，从字面上鼓励用户触摸草地。 与无AI的浏览器人群不同，这不仅仅是反弹， […]",
-      "originalSummary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck creators are going viral&#160;crafting whimsical DIY computers that&#160;literally encourage&#160;users to touch grass. Unlike the&#160;AI-free browser crowd, this&#160;doesn&#8217;t&#160;just&#160;feel&#160;like&#160;backlash, [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
     },
     {
       "title": "Endava如何围绕AI代理重新设计软件交付",
@@ -341,7 +255,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -357,7 +271,7 @@
         "多模态",
         "安全"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -372,10 +286,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
-      "title": "OpenAI：AI 热点相关动态",
+      "title": "智能时代的生物防御",
       "originalTitle": "Biodefense in the Intelligence Age",
       "source": "OpenAI",
       "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
@@ -387,7 +301,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "为GPT-Rosalind引入新功能",
@@ -406,22 +320,6 @@
       "score": 99
     },
     {
-      "title": "OpenAI公共政策议程",
-      "originalTitle": "OpenAI public policy agenda",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "date": "2026-06-03T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
-      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 97
-    },
-    {
       "title": "前沿人工智能民主治理蓝图",
       "originalTitle": "A blueprint for democratic governance of frontier AI",
       "source": "OpenAI",
@@ -435,10 +333,26 @@
         "公司动态",
         "安全"
       ],
-      "score": 97
+      "score": 96
     },
     {
-      "title": "OpenAI：大模型相关动态",
+      "title": "OpenAI公共政策议程",
+      "originalTitle": "OpenAI public policy agenda",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/public-policy-agenda",
+      "date": "2026-06-03T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
+      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 96
+    },
+    {
+      "title": "Wasmer如何使用Codex为边缘构建Node.js运行时",
       "originalTitle": "How Wasmer used Codex to build a Node.js runtime for the edge",
       "source": "OpenAI",
       "link": "https://openai.com/index/wasmer",
@@ -453,7 +367,7 @@
       "score": 91
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "超越聊天机器人的直接偏好优化",
       "originalTitle": "Direct Preference Optimization Beyond Chatbots",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
@@ -466,22 +380,6 @@
         "AI 热点"
       ],
       "score": 72
-    },
-    {
-      "title": "通过全球领导力促进青年的安全和机会",
-      "originalTitle": "Advancing youth safety and opportunity through global leadership",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "date": "2026-06-02T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI呼吁在青年人工智能安全方面采取全球行动，建议成立一个国际机构，以加强年轻人的保障措施、标准和机会。",
-      "originalSummary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 96
     },
     {
       "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
@@ -529,7 +427,7 @@
       "score": 78
     },
     {
-      "title": "OpenAI：AI 热点相关动态",
+      "title": "每个角色、工具和工作流程的代码",
       "originalTitle": "Codex for every role, tool, and workflow",
       "source": "OpenAI",
       "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
@@ -541,23 +439,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "我们对人工智能政策和政治倡导的看法",
-      "originalTitle": "Our views on AI policy and political advocacy",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "date": "2026-06-01T17:00:00.000Z",
-      "summary": "这条新闻与监管、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：监管、安全相关动态",
-      "fullContent": "我们对人工智能政策和政治倡导、透明度、支持深思熟虑的监管和人工智能安全的方法，以及没有外部政治团体代表公司发言。",
-      "originalSummary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "rawFullText": "",
+      "title": "小型企业如何利用人工智能",
+      "originalTitle": "How small businesses can leverage AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/02/1138227/how-small-businesses-can-leverage-ai/",
+      "date": "2026-06-02T09:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“小型企业如何利用人工智能”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large company can hire experts to&#8230;",
+      "rawFullText": "This article is from Making AI Work , MIT Technology Review ’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large company can hire experts to handle these tasks, but small businesses don’t always have this luxury. That’s where AI comes in. Today’s AI models do a decent job at these tasks. The trick for small businesses is to understand where AI is good enough and where it’s not. One place where a “good enough” AI can already be quite valuable to small business owners is in providing secretarial skills and handling basic administrative matters. Let’s take a look at how one private tutor is using it to improve his recordkeeping and free up his time. Case study Sam Finnegan-Dehn works in fundraising for a charity, but he moonlights as a math and philosophy tutor for university students from his home in London. Through this part-time business, he can leverage his degrees in philosophy and share his love of the subject with clients. But meeting with students is only a fraction of the work it takes to be a good tutor. He also plans lessons and finds fresh reading materials, creates assignments, sends invoices, and keeps up with new research—all on top of his regular job. Given these demands, Finnegan-Dehn doesn’t have as much time as he’d like to grow his tutoring roster. So he’s turned to AI for some help in managing the day-to-day aspects of his business. He says AI has taken on a secretarial role across all of his digital notebooks, where he jots down reminders about his clients’ progress and new readings to keep himself up-to-date. He describes using AI as kind of like having a second memory that helps him connect ideas he’s written down in various places. While he has experimented with different tools like Claude and ChatGPT, he’s now landed on Notion AI because it integrates better with his tutoring notes, which live across his notebook tabs in the Notion app. Finnegan-Dehn doesn’t use AI to create teaching materials, but he does let Notion AI record meetings with his clients (after getting their consent), and then uses its automated summaries to refine his teaching strategy. For example, if he notices from the AI’s summary that it seems like a certain technique was not helping a student, he may change how he approaches the subject next time. Beyond this, Notion AI also helps him with goal-setting, drafting lesson notes, invoicing, and generating and syncing social media posts. For goal-setting, for example, Finnegan-Dehn says he understands his long-term goals for his business but not always the concrete steps to build to them. He uses AI to help fill in these gaps. He starts by writing down a “North Star” goal—say, to have a certain number of clients by the end of the year. Next, he asks his AI to generate the steps that he needs to take to get there, given the profile he has built up in the app. Then, he can reflect on the results and choose which tasks to tackle first. The tool Notion has been a big player in note-taking software for many years. Its AI add-on, released in late 2023, now has tools that enable it to interact with many other online productivity platforms. There’s an email client , calendar integrations , and a newly released agent . And while this level of access has raised privacy concerns , it can also make for a pretty powerful virtual assistant. Many of the tasks targeted by Notion AI are less creative and more rote: syncing information across documents or searching through old scribbles, for example. This makes the tool especially appealing to small business owners, who have limited bandwidth, particularly for menial work. Other companies are developing tools targeted at specific industries. For example, Grandma’s Quilt Shop in Yuma, Arizona, uses Rain , which has a software suite tailored to craft companies, to generate inventory descriptions and pricing for its stock of fabric designs. The owners claim this AI tool cuts the time it takes to list items by 60 to 80%. There are drawbacks , though, as Finnegan-Dehn described some of Notion AI’s idiosyncrasies as “clunky” at times. And the AI add-on for Notion costs $20 per month. As with all new tools, small business owners should carefully assess how the potential gains and headaches measure up against the cost of just doing the job themselves. User tips Consider these points when thinking about whether AI might be able to help you run a business, or make any part of your work life just a little bit easier.&nbsp; Look before you leap. Since LLMs feed on the data you input to answer your queries or complete tasks, you want to give them information in a way that’s convenient for you and for the model. For many of these notebook AI services, this means, for example, using their platform for notetaking so you don’t have to input or upload notes later. Because of this, it’s a good idea to weigh your options carefully before committing to an AI-powered ecosystem. Work to your strengths. Think about what skills you lack in-house, and see if AI can either help with training or take these tasks on for you. Just be aware: AI hallucinates and makes mistakes, so think about where accuracy is needed and keep humans in charge there. AI isn’t always the best tool. It’s okay to use something off the shelf when that’s the better choice. It’s going to be safer, for example, to use existing payment processing platforms like Shopify or Square than to vibe-code one using AI. Consider using local models for any sensitive information. Our reporting has covered the risks that online AI models have in leaking sensitive data , and there have been many reports about how AI companies collect your data when you ask their chatbots questions. Even if your business doesn’t handle personal information, there can still be some things you’d prefer not to share publicly. In these cases, using an open-source model that makes inferences on your prompts locally can be a great option, instead of ChatGPT or Claude or other proprietary models. Thankfully, some LLMs can now be run off of laptops and small desktops. Here’s how to set one up and start using it. Sign up for Making AI Work, MIT Technology Review ’s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
       "tags": [
-        "监管",
-        "安全"
+        "AI 热点"
       ],
-      "score": 91
+      "score": 68
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -587,7 +484,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
@@ -602,7 +499,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -617,7 +514,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -632,7 +529,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Reachy Mini完全本地化",
@@ -647,7 +544,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -662,7 +559,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -677,37 +574,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
-    },
-    {
-      "title": "是时候解决入门级工作中迫在眉睫的危机了",
-      "originalTitle": "It’s time to address the looming crisis in entry-level work",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
-      "date": "2026-05-26T09:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "到目前为止，人工智能还没有产生大规模失业的清晰故事。发达国家的总就业人数大致保持稳定，最近的评估发现，人工智能改变了标题数字的证据有限。但一个令人不安的变化可能隐藏在表面之下：职业阶梯的第一个梯级的安静削弱。 最令人担忧的证据正是我们应该首先看到的：在职业生涯早期的招聘中。斯坦福数字经济实验室（ Stanford Digital Economy Lab ）于2025年11月发布的一份工作文件发现，在人工智能影响最大的职业中， 22至25岁的工人在生成式人工智能传播后，即使在控制了可能影响公司就业决策的其他因素后，就业率也相对下降了16%。 2026年3月的一份人类学报告为类似的结论提供了暗示性证据。在这些职业中，经验更丰富的工人并没有遭受同样的下降。在人工智能风险较低的入门级工作中，就业也没有下降。这种担忧是暴露于人工智能的早期职业工作所特有的。这不是一个小信号。 这表明，公司可能正在使用人工智能来代替人们传统上获得第一个立足点的初级任务--至少对于那些广泛使用生成式人工智能的工作，如软件开发人员、客户服务代表、计算机程序员和信息系统经理。现在是时候改变我们培训、准备和支持即将进入劳动力市场的年轻人的方式了。 教育机构需要为人工智能增强的劳动力时代重新定位。政府必须激励企业雇用和培训早期职业工人。反过来，企业需要认识到培养一支在人工智能方面有经验的长期劳动力的重要性--这一过程始于入门级员工。 学生自己不仅应该承担成为人工智能流利的责任，还应该学习如何将这些知识应用于各个领域。简而言之，我们必须改变传统上对入门级工作的看法。尤其如此，因为近期毕业生的更广泛劳动力市场也在走软。 纽约联邦储备银行报告称， 2025年第四季度，近期大学毕业生的失业率上升至5. 6% ，而就业不足率（通常不需要大学学位的工作的毕业生比例）达到42. 5% ，为新冠肺炎疫情以来的最高水平。没有单一的统计数据可以证明人工智能是导致这种恶化的唯一原因。 总体而言，新冠肺炎疫情后招聘人数减少，年轻人特别容易受到疫情放缓的影响。但是，忽视人工智能正在加速从学校到工作的艰难过渡的可能性是错误的。这些统计数据背后隐藏着巨大的个人痛苦。",
-      "originalSummary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career&#8230;",
-      "rawFullText": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career ladder. The most worrisome evidence is showing up exactly where we should expect it first: in early-career hiring. A working paper released in November 2025 by the Stanford Digital Economy Lab found that workers aged 22 to 25 in the most AI-exposed occupations experienced a 16% relative decline in employment after the spread of generative AI, even after controlling for other factors that might affect firms’ employment decisions. An Anthropic report from March 2026 provides suggestive evidence for a similar conclusion. More experienced workers in those same occupations did not suffer the same decline. Employment is also not declining in the entry-level jobs with low AI exposure. The concern is specific to early-career jobs that are exposed to AI. That is not a minor signal. It suggests that firms may be using AI to substitute for the junior tasks through which people traditionally gain their first foothold—at least for those in jobs where generative AI is used extensively, like software developers, customer service representatives, computer programmers, and information systems managers. The time is now to make changes in the way we train, prepare, and support young people who are about to enter the workforce. Educational institutions need to reorient for the era of an AI-augmented workforce. Governments must incentivize businesses to hire and train early-career workers. Businesses, in turn, need to recognize the importance of developing a long-term workforce experienced in AI—a process that begins with entry-level workers. And students themselves should take on the responsibility of not only becoming AI fluent but learning how to apply that knowledge in various fields. In short, we must change the way we have traditionally thought of entry-level work. This is especially true because the broader labor market for recent graduates is also softening. The Federal Reserve Bank of New York reported that in the fourth quarter of 2025, the unemployment rate for recent college graduates rose to 5.6%, while the underemployment rate (the share of graduates working in jobs that typically do not require a college degree) reached 42.5%, its highest level since the covid pandemic. No single statistic can prove that AI is the sole cause of that deterioration. Hiring in general is way down post-pandemic, and young people are particularly vulnerable to the slowdown. But it would be a mistake to ignore the possibility that AI is accelerating an already difficult transition from school to work. Behind these statistics is a great deal of personal distress. Recent graduates today often submit hundreds of applications before they receive a single offer , and surveys consistently find elevated rates of anxiety, financial precarity, and burnout among young workers in extended job searches. If AI quietly closes the door on typical early jobs, people will pay the price in delayed independence, postponed family formation, and the sense that their first serious professional efforts have been refused. It also matters because entry-level jobs are part of the economy&#8217;s training system. Junior analysts learn which numbers can be trusted. Young software developers learn how production systems fail. New marketers learn how customers behave outside the neat language of dashboards. Early-career legal and financial staff learn how rules, judgment, deadlines, and human relationships actually interact. If AI absorbs more of the drafting, triage, coding, summarizing, and administrative preparation that once helped train entry-level workers, firms may become more efficient in the short run while society becomes less capable in the longer run. The right way to improve the skills of young workers is not to tell them, “Learn to code.” That advice, which shaped more than a decade of federal initiatives and university expansion, rested on the premise that coding was a stable, scalable skill almost anyone could learn and parlay into a middle-class job. The premise no longer holds. The layer of work AI handles well—translating a specification into routine code, reproducing standard patterns, debugging predictable errors—is precisely the layer that “learn to code” programs were built around. Supervising AI systems in their work is now a much more relevant skill. So understanding the outputs AI systems produce will become very important. To help people develop such skills, we should require universities, community colleges, and professional programs to embed AI literacy, data literacy, prompt-based workflow skills, verification skills, and domain judgment into ordinary degrees. Every graduate should know how to use AI tools, check their output, understand their limits, and combine them with human expertise. This matters even for graduates entering occupations that look relatively safe from AI, such as those in health care. Almost every job contains tasks—drafting, summarizing, scheduling, research, basic data work, routine communication—for which AI is already a substantial productivity tool. The competition most young workers will experience is not human versus machine but colleague versus AI-augmented colleague. For most young workers, the realistic path to making themselves valuable is not to avoid AI but to become fluent in the technology and combine that with domain judgment, contextual reasoning, and human relationship skills. To this end, schools should emphasize paid co-ops, apprenticeships, and employer-linked projects so students build judgment in real workplaces before they graduate. Governments should also create targeted tax credits, wage subsidies , and training grants for employers that hire early-career workers into structured, AI-augmented roles. The architecture for this kind of conditional, behavior-linked subsidy already exists in US tax policy. What is missing is a version of these instruments built specifically around early-career AI-augmented work. Firms, for their part, should stop making hiring decisions based only on short-run cost savings from AI. Young workers are not valuable only for the tasks they perform this quarter. Their value lies in learning, skill formation, institutional memory, and future productivity. Entry-level hiring is not just an expense. It is an investment in the future stock of judgment inside the firm. The most effective AI-augmented senior workforce of the late 2030s will be drawn overwhelmingly from the junior cohort of today. Firms that automate away the learning stage may improve their immediate margins but find themselves, a decade from now, without anyone who understands how their own AI-driven workflows actually behave. Students graduating this spring and next face a tough labor market in transition. AI fluency is becoming a commodity. Domain expertise without AI fluency is being outpaced. The combination is what is genuinely scarce. The mechanical engineer with knowledge of manufacturing and AI proficiency; the software programmer with knowledge of financial services who is also a whiz at AI—these are the types of people who will be in demand. Georgios Petropoulos is an assistant professor at the USC Marshall School of Business. His research focuses on the implications of information technologies for innovation, competition policy, and labor mark ets.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
-    },
-    {
-      "title": "Google I/O展示了人工智能驱动科学的道路如何转变",
-      "originalTitle": "Google I/O showed how the path for AI-driven science is shifting",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
-      "date": "2026-05-22T10:00:00.000Z",
-      "summary": "这条新闻与研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：研究相关动态",
-      "fullContent": "在周二的Google I/O主题演讲中， Google DeepMind首席执行官Demis Hassabis宣称，我们目前“站在奇点的山脚下。“这是一个引人注目的说法--奇点是人工智能迅速超越人类智能并戏剧性地改变世界的理论未来时刻。但是，当我在观众中聆听时，让我印象深刻的是他说这些话的背景。 他在讲台上以一段关于科学人工智能的片段结束了会议，其中的核心是一段视频，详细介绍了该公司的天气预报软件如何对去年飓风梅丽莎在牙买加的灾难性登陆提供预警，并可能挽救生命。如果这个名为WeatherNext的软件可以帮助任何人逃离风暴，或者更好地加强他们的家园，那就是一个巨大而有意义的成就。 但这并不是即将出现奇点的证据。Hassabis的崇高言论与WeatherNext的现实结果相提并论，凸显了两种截然不同的人工智能科学方法之间的紧张关系。第一个侧重于人工智能工具，如WeatherNext ，旨在解决特定的科学问题。 第二种是基于LLM的代理系统，有朝一日可以在没有人工参与的情况下执行尖端研究项目。第二个愿景现在激发了大量的人工智能热情，包括最近对递归自我改进的兴奋，或者认为人工智能系统最终可能成为人工智能进步的主要驱动力--随着人工智能系统变得越来越智能，这个过程会越来越快。 代理系统现在正在做出真正的研究贡献，有时人类的指导有限。就在本周，谷歌云的首席科学家普希米特·科利（ Pushmeet Kohli ）在《代达罗斯》（ Daedalus ）杂志的人工智能和科学特刊上发表了一篇文章，写道： “我们正在向人工智能迈进，不仅要促进科学，还要开始做科学。 “随着自主人工智能科学家即将到来，很难证明开发超级专业工具的大规模努力是合理的，即使是像AlphaFold这样的工具， DeepMind科学家因此获得了诺贝尔奖，或者像WeatherNext这样的潜在救生系统。它还预示着科学的未来将更加陌生，人类和人工智能系统将像同行一样合作，或者人工智能甚至会自行取得科学进步。 需要明确的是，谷歌似乎并没有放弃为科学工具开发专门的人工智能的工作。分别针对遗传学和地球科学应用进行培训的AlphaGenome和AlphaEarth基金会于去年夏天发布，最新版本的WeatherNext于11月发布。更重要的是，这些工具在科学家中仍然非常受欢迎。 例如，去年，谷歌报告说，来自AlphaFold的蛋白质结构预测已被全球300多万研究人员使用。谷歌子公司Isomorphic Labs旨在使用AlphaFold和相关技术开发新药，刚刚筹集了20亿美元的B轮融资。但是在热情和资源方面都有具体的调整迹象。",
-      "originalSummary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the&#8230;",
-      "rawFullText": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the audience was the context in which he said those words.&nbsp; He was on stage to close out the session with a segment on scientific AI, the centerpiece of which was a video detailing how the company’s weather prediction software provided an advance alert about Hurricane Melissa’s catastrophic landfall in Jamaica last year—and potentially saved lives. If that software, called WeatherNext, helped anyone escape the storm or better fortify their home, that’s an enormous and meaningful achievement. But it’s hardly evidence of an impending singularity. The juxtaposition of Hassabis’ lofty rhetoric with the real-world results of WeatherNext highlighted the tension between two very different approaches to AI for science. The first focuses on AI tools, like WeatherNext, that are designed and trained to solve specific scientific problems. The second is agentic, LLM-based systems that could one day execute cutting-edge research projects without human involvement. This second vision powers a great deal of AI enthusiasm right now, including recent excitement around recursive self-improvement , or the idea that AI systems could eventually become the primary drivers of AI advancement—a process that would get faster and faster as the AI systems grow smarter. And agentic systems are now making real research contributions , sometimes with limited human guidance. Just this week, Pushmeet Kohli, Google Cloud’s chief scientist, published a piece in a special AI and science issue of the journal Daedalus , writing: “We are moving toward AI that doesn’t just facilitate science but begins to do science.” With autonomous AI scientists on the horizon, it’s harder to justify massive efforts to develop super-specialized tools—even one like AlphaFold, for which DeepMind scientists won a Nobel Prize, or a potentially life-saving system like WeatherNext. It also heralds a far stranger future for science, in which humans and AI systems collaborate as peers—or AI even makes scientific progress on its own. To be clear, Google does not appear to be abandoning its work on specialized AI for science tools. AlphaGenome and AlphaEarth Foundations, which are trained for genetics and Earth science applications respectively, were released last summer, and the newest version of WeatherNext came out in November. What’s more, such tools remain extremely popular among scientists. Last year, for instance, Google reported that protein structure predictions from AlphaFold have been used by over three million researchers worldwide. And Isomorphic Labs, a Google subsidiary that aims to use AlphaFold and related technologies to develop new drugs, just raised a $2 billion Series B funding round. But there are concrete signs of realignment, in both enthusiasm and resources. Last month, the Los Angeles Times reported that Google fellow John Jumper, who won the Nobel for AlphaFold, is now working on AI coding, not on science-specific AI tools. It’s not surprising that Google is assigning its best minds to the coding problem, as the company has recently taken a reputational hit because its coding tools don’t currently stand up to those offered by Anthropic and OpenAI. But it may also signal a prioritization of agentic science on Google’s part, as coding abilities are key to the success of some of those systems.&nbsp; Across the industry, agentic researcher systems are showing real potential. This week, OpenAI announced that one of their models had disproved an important mathematics conjecture—perhaps the most meaningful contribution that generative AI has made to mathematics so far, according to some mathematicians . Importantly, the model used by OpenAI is not specialized for solving mathematical problems, or even for research; according to the company, it’s a general-purpose reasoning model in the vein of GPT-5.5. If general agents can make independent contributions to mathematical research, they might soon be able to do the same in science (though the fact that ideas in science must be verified experimentally makes it a tougher domain for AI). Google is certainly devoting a lot of attention toward an agent-driven scientific future. The big scientific announcement at I/O was the new Gemini for Science package, which unites several of the company’s LLM-based scientific systems under one brand. This includes the hypothesis-generating AI Co-Scientist and algorithm-optimizing AlphaEvolve, which are still not publicly available—but as Google is now allowing any researcher to apply for access to Gemini for Science, they may soon see wider adoption in the scientific community. Scientists who were involved in early testing are enthusiastic about their potential: Gary Peltz, a Stanford geneticist, compared using the AI Co-Scientist to “consulting the oracle of Delphi” in a Nature Medicine article . Gemini for Science isn’t incompatible with specialized tools; to the contrary, agentic systems can be designed to call on such tools when they might be useful. And no agentic system can predict the structure that a protein will fold into without AlphaFold’s help (at least not yet). But the company seems to be shifting its public image—and at least some resources and personnel, such as Jumper—away from specifically developing those kinds of tools. Though it has only been five years since AlphaFold solved the protein-folding problem, both the technology and the discourse have quickly moved beyond that once-revolutionary achievement. Google has been careful to position this new set of scientific agents as an accelerant for human scientists, rather than a replacement for them—the choice of the name AI Co-Scientist as opposed to AI Scientist, for instance, appears quite deliberate. Hassabis uses that same human-centric framing when he talks about changes in the landscape of scientific AI. “For the next decade or so, we should think about AI as this amazing tool to help scientists,” Hassabis said in an interview published in the Daedalus issue. “Beyond that timeframe, it is hard to say with any certainty, but perhaps these systems will become more like collaborators.” But no one can be an effective scientific collaborator without also being a skilled scientist in their own right. And if Hassabis is anywhere near the mark when he talks about the “foothills of the singularity,” then AI scientists could eventually exceed the capabilities of their human counterparts. In a discussion with the journalist Mike Allen at I/O, Hassabis spoke of how he was initially inspired to pursue AI when he observed how progress in physics had stagnated since the 1970s; he wondered whether the human mind had reached its limits in that domain, and if AI could help to overcome that barrier. Superhuman agentic scientists would certainly fit that bill. We might not ever get anywhere near there, but Google seems to be aiming itself toward that summit.",
-      "tags": [
-        "研究"
-      ],
-      "score": 72
+      "score": 61
     }
   ]
 }
