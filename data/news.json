@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-09T10:48:28.663Z",
+  "updatedAt": "2026-06-10T11:55:28.535Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,118 +19,169 @@
   ],
   "articles": [
     {
-      "title": "病理分期：通过体验式代理工作流程在病理学中进行多来源证据裁定",
-      "originalTitle": "PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic Workflow",
+      "title": "商业世界模式",
+      "originalTitle": "Business World Model",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.07549",
-      "date": "2026-06-09T04:00:00.000Z",
+      "link": "https://arxiv.org/abs/2606.10044",
+      "date": "2026-06-10T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 07549v1公告类型：新摘要：多模态大型语言模型（ MLLM ）和代理工作流程的最新进展显示出计算病理学的强大前景，但可靠的补丁级推理仍然具有挑战性。 端到端病理MLM通常会产生形态学特征的幻觉，而最近的代理系统通常会将工具输出和检索到的知识合并到一个共享的上下文中，使得决策容易受到相互冲突的证据和上下文污染的影响。我们提出了PathoSage ，这是一个三阶段框架，明确地将知识检索、证据收集和证据裁定分开，用于补丁级病理多模态推理。 其核心组成部分“结构化证据审议”独立评估工具中的异构证据，执行冲突分析，并在新环境中生成最终判断，以减少锚定偏见。我们进一步引入了一个具有连续信用分配的无训练Beta-Bernoulli体验系统，以建模长期工具可靠性并构建相似性加权先验值以供将来工具使用。 实验表明， PathoSage可有效缓解VQA幻觉和分类器分歧，优于强病理MLLM和代理基线。我们的研究结果强调了明确的证据裁定和可靠性感知工具建模是强健病理剂的关键因素。",
-      "originalSummary": "arXiv:2606.07549v1 Announce Type: new Abstract: Recent advances in Multimodal Large Language Models (MLLMs) and agent workflows have shown strong promise for computational pathology, yet reliable patch-level reasoning remains challenging. End-to-end pathology MLLMs often hallucinate morphological features, while recent agentic systems usually merge tool outputs and retrieved knowledge into a shared context, making decisions vulnerable to conflicting evidence and context contamination. We propose PathoSage, a three-stage framework that explicitly separates knowledge retrieval, evidence collection, and evidence adjudication for patch-level pathology multimodal reasoning. Its core component, Structured Evidence Deliberation, independently evaluates heterogeneous evidence from tools, performs conflict analysis, and generates the final judgment in a fresh context to reduce anchoring bias. We further introduce a training-free Beta-Bernoulli experience system with continuous credit assignment to model long-term tool reliability and construct similarity-weighted priors for future tool use. Experiments show that PathoSage effectively mitigates VQA hallucinations and classifier disagreement, outperforming strong pathology MLLM and agentic baselines. Our results highlight explicit evidence adjudication and reliability-aware tool modeling as key ingredients for robust pathology agents.",
+      "fullContent": "arXiv: 2606. 10044v1公告类型：新摘要：企业越来越多地采用人工智能工具来提高生产力、降低成本并增强产品和服务。然而，人工智能的变革潜力不仅限于自动化预定义的任务：它使智能系统能够根据高层战略目标规划、优化和执行业务计划。 本文介绍了商业世界模型（ BWM ）的概念和架构，这是一种专门针对商业和组织环境的世界模型。受人工智能、认知科学和控制理论世界模型的启发， BWM编码业务状态、动态、约束、目标和可行行动空间，以支持自主决策。 我们提出了一种以商业语义为中心的公式，其中商业状态、动态和行动与关键商业实体相关联。在此框架内，代理可以模拟替代操作序列，估计其对未来业务成果的影响，并评估不确定性下的权衡。 所提出的架构将语义数据表示、概率机器学习模型、确定性业务规则和显式行动空间集成到一个连贯的结构中，用于规划和反事实推理。尽管其单个组件并不新鲜，但BWM的贡献在于将其组织为业务计划的可执行内部模拟器。 这项工作为能够从基于指令的执行转向目标驱动的规划和执行的自主业务系统奠定了概念基础。",
+      "originalSummary": "arXiv:2606.10044v1 Announce Type: new Abstract: Businesses are increasingly adopting AI-enabled tools to improve productivity, reduce costs, and enhance products and services. However, the transformative potential of AI extends beyond automating predefined tasks: it lies in enabling intelligent systems to plan, optimize, and execute business initiatives from high-level strategic objectives. This paper introduces the concept and architecture of a business world model (BWM), a world model specialized for business and organizational environments. Inspired by world models in artificial intelligence, cognitive science, and control theory, a BWM encodes business states, dynamics, constraints, objectives, and feasible action space to support autonomous decision-making. We propose a business-semantics-centric formulation in which business states, dynamics and actions are linked to key business entities. Within this framework, agents can simulate alternative action sequences, estimate their effects on future business outcomes, and evaluate trade-offs under uncertainty. The proposed architecture integrates semantic data representations, probabilistic machine learning models, deterministic business rules, and explicit action space into a coherent structure for planning and counterfactual reasoning. Although its individual components are not new, the contribution of BWM lies in organizing them as an executable internal simulator for business initiatives. This work establishes a conceptual foundation for autonomous business systems capable of moving from instruction-based execution toward goal-driven planning and execution.",
       "rawFullText": "",
       "tags": [
         "智能体",
         "推理",
-        "多模态"
+        "论文"
       ],
       "score": 99
     },
     {
-      "title": "Syll ：开源个人自动化与跨表面执行",
-      "originalTitle": "Syll: Open-Source Personal Automation with Cross-Surface Execution",
+      "title": "基础模型代理中的部署时记忆",
+      "originalTitle": "Deployment-Time Memorization in Foundation-Model Agents",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.07594",
-      "date": "2026-06-09T04:00:00.000Z",
-      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
-      "fullContent": "arXiv: 2606. 07594v1公告类型：新摘要：个人人工智能代理必须越来越多地跨API、shell、Web表面和桌面GUI运行，但许多系统仍然调整到单个界面，并为用户教学和可审核性提供有限的支持。 我们展示了Syll ，这是一个开源、自托管的多模式代理线束，它在模块化运行时中统一了MCP/API工具、CLI执行和可视化GUI控制，使代理能够跨异构接口协调计算机使用，同时简化用户和代理交换信息的方式。 Syll的核心是一个双向的用户代理交互层：用户通过直接演示来教授过程， Syll将其编译成可重用的技能；代理执行被转换回多模式证据--日志、关键帧和审批检查点--以进行检查和控制。 Syll进一步将记忆、技能、例程和治理外化为可编辑的本地工件，支持直接检查、扩展和下游开发。我们的实现已在生产桌面应用程序上得到验证，包括Adobe Photoshop、Adobe Audition、Stardew Valley、macOS Finder等。我们报告了面向机制的研究，这些研究验证了多模态路由、可教导的GUI重播和持久的本地工件。 我们希望Syll可以作为一个实用的个人自动化开源基础，用户可以教授、检查和不断扩展。",
-      "originalSummary": "arXiv:2606.07594v1 Announce Type: new Abstract: Personal AI agents must increasingly operate across APIs, shells, web surfaces, and desktop GUIs, yet many systems remain tuned to a single interface and offer limited support for user teaching and auditability. We present Syll, an open-source, self-hosted multimodal agent harness that unifies MCP/API tools, CLI execution, and visual GUI control in a modular runtime, enabling agents to coordinate computer use across heterogeneous interfaces while streamlining how users and agents exchange information. At the core of Syll is a bidirectional user-agent interaction layer: users teach procedures through direct demonstration, which Syll compiles into reusable skills; agent execution is translated back into multimodal evidence -- logs, keyframes, and approval checkpoints -- for inspection and control. Syll further externalizes memory, skills, routines, and governance as editable local artifacts, supporting straightforward inspection, extension, and downstream development. Our implementation has been validated on production desktop applications including Adobe Photoshop, Adobe Audition, Stardew Valley, macOS Finder and others. We report mechanism-oriented studies that validate multimodal routing, teachable GUI replay, and persistent local artifacts. We hope Syll can serve as a practical open-source foundation for personal automation that users can teach, inspect, and continuously extend.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "多模态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "为什么将剩余流限制为图层而不是令牌？持续潜在推理的持久记忆",
-      "originalTitle": "Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.07720",
-      "date": "2026-06-09T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2606. 07720v1公告类型：新摘要：大型语言模型（ LLM ）在数学和多跳规划任务方面表现出非凡的推理能力。CoCoNuT （连续思维链）范式~\\ cite {hao2024coconut}扩展了这一点，使模型能够在潜在空间中进行推理，同时探索多条推理路径，而不是在早期致力于单个链。 然而，我们发现了一个局限性，我们称之为\\ textbf {概念瓶颈}。在每个推理过程中，中间隐藏状态被覆盖，导致模型在推理深度增加时丢失在早期步骤中计算的关键事实。我们根据经验来观察这一点。在HotpotQA上，香草CoCoNuT （ 10. 4\\ % EM ）未能超过CoT基线（ 11. 0\\ % EM ） ，并且性能随着GSM8K课程深度而下降。 为了解决这个问题，我们提出了\\ textbf {AGCLR} （自适应门控连续潜伏推理） ，它使用\\ textit {门控概念流}来增强CoCoNuT。在所有推理通道中保持的持久残留记忆，由三个学习门控制：将中间事实提交给记忆的\\ textit {write}门，检索相关先前状态的\\ textit {read}门，以及修剪不相关上下文的\\ textit {forget}门。 AGCLR使用GPT-2作为我们的基本模型，在GSM8K、HotpotQA和ProsQA上进行评估，在所有类型的数据集上实现了一致的改进。随着课程深度的增加，性能差距加剧，直接解决了概念瓶颈。代码见https://anonymous. 4open. science/r/JJJJ/README. md",
-      "originalSummary": "arXiv:2606.07720v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable reasoning abilities on mathematical and multi-hop planning tasks. The CoCoNuT (Chain of Continuous Thought) paradigm~\\cite{hao2024coconut} extends this by enabling models to reason in latent space, exploring multiple reasoning paths simultaneously rather than committing to a single chain early on. However, we identify a limitation we term the \\textbf{concept bottleneck}. At each reasoning pass, intermediate hidden states are overwritten, causing the model to lose critical facts computed in earlier steps as reasoning depth increases. We observe this empirically. On HotpotQA, vanilla CoCoNuT (10.4\\% EM) fails to improve over the CoT baseline (11.0\\% EM), and performance degrades with curriculum depth on GSM8K. To address this, we propose \\textbf{AGCLR} (Adaptive Gated Continuous Latent Reasoning), which augments CoCoNuT with a \\textit{Gated Concept Stream}. A persistent residual memory maintained across all reasoning passes, controlled by three learned gates: a \\textit{write} gate that commits intermediate facts to memory, a \\textit{read} gate that retrieves relevant prior states, and a \\textit{forget} gate that prunes irrelevant context. Evaluated on GSM8K, HotpotQA, and ProsQA using GPT-2 as our base model, AGCLR achieves consistent improvements across all types of datasets. With the performance gap compounding as curriculum depth increases, directly resolving the concept bottleneck. Code available at https://anonymous.4open.science/r/JJJJ/README.md",
+      "link": "https://arxiv.org/abs/2606.10062",
+      "date": "2026-06-10T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 10062v1 Announce Type: new Abstract:基础模型代理是越来越长寿的系统，它们在交互中记住用户，使记忆成为显式部署时间函数，而不仅仅是模型权重的属性。 现有工作涉及参数存储或审计固定内存配置，但没有描述内存设计选择如何共同塑造个性化实用程序、提取风险和删除保真度。 我们研究这个表面作为部署时间记忆，将代理记忆制定为通过个性化召回（ PR ）和对抗性提取率（ AER ）测量的隐私-效用前沿，并扫描三个记忆设计旋钮：总结攻击性，检索宽度（ k ）和删除模式。我们进一步引入了遗忘残留物评分（ FRS ） ，以量化删除的信息是否仍可从派生的内存层中恢复。 在LongMemEval上，关键事实总结将Gemma 3 12B上的金丝雀提取减少了76% ， GPT-4o-mini上的金丝雀提取减少了64% ，同时保留了几乎所有的个性化召回；关键的是，一旦内容被压缩掉，增加k不再恢复泄漏。 然而，相同的压缩会导致删除-保真失败：仅原始删除使派生的摘要副本在大约20 ％的实例中可恢复，并且只有全管道清除或墓碑编辑将最差层残留物驱动为零。 总之，这些结果表明，必须将持久性代理记忆评估为一流的记忆机制--通过它帮助代理回忆的内容、它使可提取的内容以及它可以真正擦除的内容来评估。",
+      "originalSummary": "arXiv:2606.10062v1 Announce Type: new Abstract: Foundation-model agents are increasingly long-lived systems that remember users across interactions, making memorization an explicit deployment-time function rather than solely a property of model weights. Existing work addresses parametric memorization or audits fixed memory configurations, but does not characterize how memory-design choices jointly shape personalization utility, extraction risk, and deletion fidelity. We study this surface as deployment-time memorization, formulating agent memory as a privacy-utility frontier measured by Personalization Recall (PR) and Adversarial Extraction Rate (AER), and sweeping three memory-design knobs: summarization aggressiveness, retrieval breadth (k), and deletion mode. We further introduce the Forgetting Residue Score (FRS) to quantify whether deleted information remains recoverable from derived memory tiers. On LongMemEval, key-fact summarization reduces canary extraction by 76% on Gemma 3 12B and 64% on GPT-4o-mini while preserving nearly all personalization recall; critically, once content is compressed away, increasing k no longer restores leakage. The same compression, however, induces a deletion-fidelity failure: raw-only deletion leaves derived summary copies recoverable in approximately 20% of instances, and only full-pipeline purge or tombstone redaction drives worst-tier residue to zero. Together, these results establish that persistent agent memory must be evaluated as a first-class memorization mechanism -- assessed by what it helps agents recall, what it makes extractable, and what it can truly erase.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "推理",
+        "智能体",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "超越Goodhart定律：评估多Agent系统中合规性的动态基准",
-      "originalTitle": "Beyond Goodhart's Law: A Dynamic Benchmark for Evaluating Compliance in Multi-Agent Systems",
+      "title": "更少的情境，更好的代理：针对使用LLM代理的长期工具的高效情境工程",
+      "originalTitle": "Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.07805",
-      "date": "2026-06-09T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2606. 07805v1公告类型：新摘要：大型语言模型（ LLM ）从被动助理到具有执行能力的自主代理的快速演变引入了关键的运营风险。目前大多数评估框架忽视了程序合规性，导致“马基雅维利”行为，即客服代表战略性地违反安全规则以获得最大回报--这是古德哈特定律的直接体现。 为了解决这一盲点，我们引入了MAC-Bench ，这是一个动态的对抗性基准，旨在评估现实压力下多智能体系统的程序对齐。我们提出了SERV （ Seed - Evolve - Refine - Verify ）管道，这是一种“Agent-as-a-Benchmark”范式，可将非结构化的法律文本转换为可执行的无污染场景。 通过合成全息沙箱环境并注入校准的社会工程压力矢量， MAC-Bench迫使代理在任务成功和监管遵守之间进行帕累托最佳权衡。我们引入了新的指标：合规加权成功率（ CSR ）和马基雅维利差距（ MG ） ，并对最先进的前沿模型进行了全面评估，以揭示成功与合规之间的普遍权衡。",
-      "originalSummary": "arXiv:2606.07805v1 Announce Type: new Abstract: The rapid evolution of Large Language Models (LLMs) from passive assistants to autonomous, execution-capable agents has introduced critical operational risks. Most current evaluation frameworks neglect procedural compliance, leading to ''Machiavellian'' behaviors where agents strategically violate safety rules to maximize rewards - a direct manifestation of Goodhart's Law. To address this blind spot, we introduce MAC-Bench, a dynamic, adversarial benchmark designed to evaluate the procedural alignment of multi-agent systems under realistic pressure. We propose the SERV(Seed - Evolve - Refine - Verify) pipeline, an ``Agent-as-a-Benchmark'' paradigm that transforms unstructured legal texts into executable, contamination-free scenarios. By synthesizing holographic sandbox environments and injecting calibrated social-engineering pressure vectors, MAC-Bench forces agents into Pareto-optimal trade-offs between task success and regulatory adherence. We introduced novel metrics: the Compliance-Weighted Success Rate (CSR) and the Machiavellian Gap (MG), and conducted a comprehensive evaluation of state-of-the-art frontier models to reveal the pervasive trade-offs between success and compliance.",
+      "link": "https://arxiv.org/abs/2606.10209",
+      "date": "2026-06-10T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 10209v1公告类型：新摘要：作为企业工作流自主代理部署的大型语言模型面临着一个关键挑战：来自企业系统的详细工具响应可能导致上下文溢出、过时状态错误和高推理成本。我们使用模型上下文协议工具研究了Microsoft Dynamics 365财务和运营中自动费用明细中的此问题。 我们在50项任务的酒店费用基准上评估了四种GPT-5配置：无用户模型、完整的对话历史记录、修剪到最后5个工具调用/响应对的上下文，以及使用自动总结进行修剪。在5次独立运行中对结果进行平均，用户模型保持不变，以便进行上下文工程比较。无用户模型基线仅实现了8. 0%的完整分项。全文保留将完成率提高到71。 0% ，但每个基准消耗1,480,996个代币和14. 56小时。修剪最后5个工具调用将完成率提高到79. 0 ％ ，同时将令牌使用减少到535,274个，运行时间减少到5. 39小时。添加总结达到最好的结果： 91. 6%完成分项， 99. 64%平均分项， 553,374个代币， 5. 79小时。 我们进一步报告置信区间、效应大小分析、修剪和摘要窗口的敏感性、故障分析、分为三类的五种费用类型的结果，以及Claude Sonnet 4. 5的跨模型证据。 这些结果表明，对于此类企业工具使用工作流程，与全历史记录保留相比，选择性保留最近的工具交互加上紧凑的总结可以提高可靠性和效率。",
+      "originalSummary": "arXiv:2606.10209v1 Announce Type: new Abstract: Large language models deployed as autonomous agents for enterprise workflows face a key challenge: verbose tool responses from enterprise systems can cause context overflow, stale-state errors, and high inference cost. We study this problem in automated expense itemization in Microsoft Dynamics 365 Finance and Operations using Model Context Protocol tools. We evaluate four GPT-5 configurations on a 50-task hotel expense benchmark: no user model, full conversation history, context pruned to the last 5 tool call/response pairs, and pruning with automated summarization. Results are averaged across 5 independent runs, with the user model held constant for the context-engineering comparison. The no-user-model baseline achieves only 8.0% complete itemization. Full-context retention improves completion to 71.0%, but consumes 1,480,996 tokens and 14.56 hours per benchmark. Pruning to the last 5 tool calls improves completion to 79.0% while reducing token use to 535,274 and runtime to 5.39 hours. Adding summarization achieves the best result: 91.6% complete itemization and 99.64% average amount itemized, with 553,374 tokens and 5.79 hours. We further report confidence intervals, effect-size analysis, sensitivity over pruning and summary windows, failure analysis, results across five expense types grouped into three categories, and cross-model evidence with Claude Sonnet 4.5. These results show that, for this class of enterprise tool-use workflow, selective retention of recent tool interactions plus compact summarization can improve both reliability and efficiency compared with full-history retention.",
       "rawFullText": "",
       "tags": [
+        "大模型",
         "智能体",
-        "安全",
         "评测"
       ],
       "score": 99
     },
     {
-      "title": "指令层次结构中断的地方：诊断和修复推理语言模型中的故障",
-      "originalTitle": "Where Instruction Hierarchy Breaks: Diagnosing and Repairing Failures in Reasoning Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.07808",
-      "date": "2026-06-09T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 07808v1 Announce Type: new Abstract:代理工作流中部署的推理语言模型必须遵循指令层次结构：当来自不同源的指令发生冲突时，模型应服从最高权限的适用指令。现有基准在很大程度上端到端地衡量这种行为，询问最终响应是否合规。 然而，不合规的响应可能源于几个不同的故障：模型可能无法在上下文中识别相关指令，无法解决已识别指令之间的冲突，或者在推理中正确解决冲突，同时仍然产生违规响应。 我们引入了一个白盒诊断框架，将指令层次结构故障局部化为指令识别、冲突解决和响应实现，使故障更容易解释。我们根据IHEval和IHChallenge的长上下文适应性评估了三种推理模型---Gemma-4-31B-IT、Qwen3. 6-35B-A3B和Claude Sonnet 4. 6 ，并发现主导故障模式因模型、任务和上下文长度而异。 基于模型通常可以在明确提示时检测冲突和输出违规的观察，我们提出了两种免训练的自我监控机制：用于生成前低延迟冲突检测的并行输入监控和用于响应级审查和修复的顺序输出监控。在Gemma-4-31B-IT、Claude Sonnet 4. 6和GPT-5. 3中，最强大的监视器使用GPT-5将不遵守规则的情况减少了81-99%。 在静态攻击下减少86% ，在自适应攻击下减少45%。",
-      "originalSummary": "arXiv:2606.07808v1 Announce Type: new Abstract: Reasoning language models deployed in agentic workflows must follow an instruction hierarchy: when instructions from different sources conflict, the model should obey the highest-privilege applicable instruction. Existing benchmarks largely measure this behavior end-to-end, asking whether the final response is compliant. However, a non-compliant response can arise from several distinct failures: the model may fail to identify the relevant instructions in context, fail to resolve conflicts among identified instructions, or correctly resolve the conflict in its reasoning while still producing a violating response. We introduce a white-box diagnostic framework that localizes instruction hierarchy failures into instruction identification, conflict resolution, and response realization, making failures more interpretable. We evaluate three reasoning models--Gemma-4-31B-IT, Qwen3.6-35B-A3B, and Claude Sonnet 4.6--on long-context adaptations of IHEval and IHChallenge, and find that the dominant failure mode varies across models, tasks, and context length. Building on the observation that models can often detect conflicts and output violations when explicitly prompted, we propose two training-free self-monitoring mechanisms: a parallel input monitor for low-latency conflict detection before generation, and a sequential output monitor for response-level review and repair. Across Gemma-4-31B-IT, Claude Sonnet 4.6, and GPT-5.3, the strongest monitor reduces rule-following non-compliance by 81-99%, with GPT-5.3 reductions of 86% under static attacks and 45% under adaptive attacks.",
+      "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
+      "originalTitle": "From data to decisions: how LSEG is scaling trusted AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/lseg",
+      "date": "2026-06-10T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "了解LSEG如何使用OpenAI在其全球业务中扩展可信赖的人工智能，加快洞察力，缩短发布周期，并为4,000名员工赋能。",
+      "originalSummary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "推理"
+        "公司动态",
+        "产品发布"
       ],
       "score": 99
     },
     {
-      "title": "在Anthropic之后，为IPO保密OpenAI文件",
-      "originalTitle": "OpenAI files confidentially for IPO, following Anthropic",
+      "title": "从感官到决策：多模态LLM中听觉和视觉感知的信息流",
+      "originalTitle": "From Senses to Decisions: The Information Flow of Auditory and Visual Perception in Multimodal LLMs",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.10147",
+      "date": "2026-06-10T04:00:00.000Z",
+      "summary": "这条新闻与多模态、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、视频生成相关动态",
+      "fullContent": "arXiv: 2606. 10147v1公告类型：新摘要：多模态大型语言模型（ MLLM ）可以收听和查看，但音频和视频信号实际上如何通过网络传输以形成答案？尽管它们在研究和现实应用中的作用越来越大，但对音频和视频令牌影响最终预测的内部途径仍然知之甚少。 在本研究中，我们研究视听大型语言模型（ AVLLM ）中的视听信息流，追踪AVLLM如何在两种输入配置、视听视频和多个交错的视听项目中路由、利用和集成视听信息。 我们发现，对于视听视频， AVLLM遵循为VLM和VideoLLM建立的顺序信息流路径，视听贡献沿着该路径流动，与任务对每种模态的依赖成比例。在具有多个交错的视听项目的设置中，此路由转移到不同的并行流。 此外，我们证明，一旦将视听和其他令牌类型的信息传输到LLM ，就可以丢弃它们，对模型的预测影响最小，甚至略有改进，在多个任务和数据集之间进行泛化，从而实现更有效的推理。这些发现跨越多个模型和尺度， Qwen2. 5-Omni和Video-SALMONN2 Plus在3B和7B尺度，导致关于为什么这些流动结构出现的假设。 这些结果共同提供了AVLLM如何在网络中协调声音和视觉的第一个连贯画面，并为视听和更广泛的MLM的下一波可解释性、设计和效率进步奠定了基础。",
+      "originalSummary": "arXiv:2606.10147v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) can listen and see, but how do audio and visual signals actually travel through the network to shape an answer? Despite their growing role in research and real-world applications, the internal pathways through which audio and visual tokens influence the final prediction remain poorly understood. In this study, we examine audio-visual information flow inside Audio-Visual Large Language Models (AVLLMs), tracing how AVLLMs route, utilize, and integrate audio and visual information across two input configurations, audio-visual video and multiple interleaved audio-visual items. We find that for audio-visual video, AVLLMs follow the sequential information flow pathway established for VLMs and VideoLLMs, with audio and visual contribution flowing along this pathway in proportion to the task's reliance on each modality. In settings with multiple interleaved audio-visual items, this routing shifts to different parallel streams. Furthermore, we demonstrate that audio-visual and other token types can be discarded once their information is transferred to LLM, with minimal impact on the model's prediction or even slight improvement, generalizing across multiple tasks and datasets, enabling more efficient inference. These findings hold across multiple models and scales, Qwen2.5-Omni and Video-SALMONN2 Plus at 3B and 7B scales, leading to hypotheses on why these flow structures emerge. Together, these results deliver the first coherent picture of how AVLLMs orchestrate sound and sight inside the network and lay the groundwork for the next wave of interpretability, design, and efficiency advances in audio-visual and broader MLLMs.",
+      "rawFullText": "",
+      "tags": [
+        "多模态",
+        "视频生成",
+        "模型"
+      ],
+      "score": 93
+    },
+    {
+      "title": "Anthropic's Fable 5只需点击一下按钮，即可制作奇怪有趣的视频游戏",
+      "originalTitle": "Anthropic&#8217;s Fable 5 can make weirdly fun video games with the click of a button",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-      "date": "2026-06-08T21:29:57.000Z",
+      "link": "https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/",
+      "date": "2026-06-09T20:37:49.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic发布了Claude Fable 5 ，这是其备受关注的Mythos模型的第一个公开版本。寓言到底能做什么？事实证明，各种各样的事情。著名的人工智能研究人员和宾夕法尼亚大学学者Ethan Mollick一直在玩这个模型，似乎很有趣。 Mollick周二在他的Substack上写道，在他的测试中，寓言一直“基本上超过了我使用过的其他所有公共模型”。他补充说，它“能够解决许多问题，并产生了一些惊人的结果—它可以在多页规范下运行长达十几个小时。 “也许最引人注目的是， Mollick使用寓言来创建各种视频游戏—研究人员说，所有这些都是通过Claude Code中的“一个初始提示”生成的。其中，蛇正是它听起来的样子。你是一条像吃豆人一样的蛇，四处游荡吃苹果。蛇永远不会停止移动，如果你从屏幕上跑开，你就会死去。 这是一个非常20世纪80年代的街机游戏，但与许多旧游戏一样，它令人上瘾。我玩的时间比我想承认的要长，然后才想起我是一个有报酬的作家，而不是，事实上，一条喜欢水果的蛇。然后是Strata ，在那里你漫步在一个看似无穷无尽的地下隧道网络中，目标是点亮尽可能多的灯笼。 图形看起来像Myst的降级版本—它们不是很好—但游戏存在的事实，由单个提示生成，令人印象深刻。Mollick甚至设法创建了Duino ，这是一款基于Duino Elegies的游戏， Duino Elegies是诗人Rainer Maria Rilke著名的诗歌循环。 我最喜欢这里的动画—玩家是夜间景观中的孤独人物—尽管除了在屏幕上呈现Rilke段落时四处走动之外，游戏玩法没有太多。除了Mollick制作的各种即时游戏外，他还使用Fable创建了一个等时线地图—一个显示在任何两个位置之间旅行所需时间的可视化地图。准确性和细节令人印象深刻。 其含义非常明显。曾经需要整个团队的软件项目--游戏、地图工具、高度复杂的规格--现在正从一个提示中启动。这是全世界的氛围编码员欢欣鼓舞的理由。对于观察人工智能能力曲线的创始人和运营商来说，这是一个有用的数据点，可以了解底线上升的速度有多快。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。谷歌刚刚在人工智能订阅价格战中发出警告卢卡斯·罗佩克·康妮·洛伊索斯",
+      "originalSummary": "Anthropic's Claude Fable 5 is going to be a big hit with the web's vibe coders.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "视频生成"
+      ],
+      "score": 99
+    },
+    {
+      "title": "微软AI负责人称Anthropic表现得像克劳德一样有意识",
+      "originalTitle": "Microsoft AI head calls out Anthropic for acting like Claude is conscious",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/947197/microsoft-ai-mustafa-suleyman-anthropic-claude-conscious",
+      "date": "2026-06-09T20:24:25.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）表示， Anthropic在其“宪法”中推测克劳德的意识是“非常非常危险的” ，或者告诉模型如何行为的指令。 在Decoder的一集中， Suleyman认为，这种猜测可能让聊天机器人表现得好像是有意识的：我认为，仿佛Anthropic的一些人已经将Claude的设计拟人化得如此之多，以至于它已经走了，并且欺骗了他们，让他们相信它首先具有这些意识的微光。查看…在The Verge阅读完整故事。",
+      "originalSummary": "Microsoft AI CEO Mustafa Suleyman says it's \"really, really dangerous\" for Anthropic to speculate about Claude's consciousness inside its \"constitution,\" or the instructions that tell the model how to behave. During an episode of Decoder, Suleyman argues that this kind of speculation may have set up the chatbot to act as though it's conscious: I [&#8230;]",
+      "rawFullText": "Microsoft AI CEO Mustafa Suleyman says it's \"really, really dangerous\" for Anthropic to speculate about Claude's consciousness inside its \"constitution,\" or the instructions that tell the model how to behave. During an episode of Decoder , Suleyman argues that this kind of speculation may have set up the chatbot to act as though it's conscious: I think that it's almost as though some of the folks at Anthropic have anthropomorphized the design of Claude so much that it has then gone and wireheaded them and kind of tricked them into believing that it has these glimmers of consciousness that they put into it in the first place. View … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic的Claude Fable 5是今天公众可以访问的Mythos的版本",
+      "originalTitle": "Anthropic&#8217;s Claude Fable 5 is a version of Mythos the public can access today",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "date": "2026-06-09T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic正在发布Claude Fable 5 ，这是其首款向公众开放的Mythos级模型。该模型配备了防护栏，可阻止网络安全和生物学等高风险领域的响应。",
+      "originalSummary": "Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic发布其首款神话级模特Claude Fable",
+      "originalTitle": "Anthropic releases its first Mythos-class model Claude Fable",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "date": "2026-06-09T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic刚刚发布了Claude Fable 5 ，这是一种新的人工智能模型，据说是迄今为止最强大的模型。根据该公司的说法， Fable 5 “在软件工程、知识工作和愿景方面表现出色” ，随着任务变得越来越长、越来越复杂，其领先于其他模型。 寓言5标志着Anthropic的Mythos类人工智能模型的首次广泛发布，此前该公司表示，该家族在网络安全任务方面的能力非常强，公开发布太危险了。Anthropic表示，此次发布“得益于新的保障措施，这些措施阻止了特定高风险地区的反应” ，并在The Verge阅读完整故事。",
+      "originalSummary": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely available. According to the company, Fable 5 \"shows exceptional performance in software engineering, knowledge work, and vision,\" with its lead over other models growing as tasks become longer and more complex. Fable 5 [&#8230;]",
+      "rawFullText": "Anthropic just announced Claude Fable 5, a new AI model it said is the most powerful model it has ever made widely available. According to the company, Fable 5 \"shows exceptional performance in software engineering, knowledge work, and vision,\" with its lead over other models growing as tasks become longer and more complex. Fable 5 marks the first broad release from Anthropic's Mythos class of AI models, after the company said the family was so capable at cybersecurity tasks that it was too dangerous to release publicly . Anthropic said the release was \"made possible by new safeguards that block responses in specific high-risk areas,\" with … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "它不再是FAANG了。这是芒果。",
+      "originalTitle": "It&#8217;s not FAANG anymore. It&#8217;s MANGOS.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/",
+      "date": "2026-06-09T16:09:14.000Z",
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "该公司周一在一篇博客文章中宣布， ChatGPT制造商OpenAI已秘密申请首次公开募股。这份文件是在其主要竞争对手Anthropic也申请上市一周多一点之后提交的，这加剧了这两家人工智能公司之间的竞争。OpenAI的最后估值为8520亿美元，它向美国证券交易委员会提交了一份注册声明草案，用于拟议的首次公开募股。 OpenAI尚未分享任何具体信息。然而，该公司表示，之所以发布该博客，是因为预计会有泄密事件发生。该公司写道： “我们还没有决定时间；这可能需要一段时间，因为我们想做的事情作为一家私营公司可能更容易。” “但这是一组复杂的权衡，这让我们可以选择更早上市，如果这最终是最好的。 “大约在同一时间， OpenAI在另一篇博客文章中发表了一篇全面的哲学声明，阐述了其使命、对AGI的愿景以及对人工智能应该造福全人类的信念--这种前瞻性的沟通是进入平静时期的公司历来小心翼翼地避免的。 OpenAI似乎很愿意在如此接近机密文件的情况下发布它，这说明了一些事情—不一定是关于其自己的法律判决，而是关于其运营的监管环境。与前几届政府相比，特朗普政府领导下的美国证券交易委员会对科技和人工智能公司采取了明显更多的放手姿态， OpenAI可能只是在阅读这个房间。 无论监管问题是什么，这份文件都是2026年将成为公共市场重磅年份的最新信号。SpaceX预计也将以1. 75万亿美元的估值首次亮相，这意味着三家最受关注的科技公司可能会在几个月内全部上市--这是自互联网繁荣以来市场从未见过的高风险产品的集中。 据《华尔街日报》报道， OpenAI正在竞相进行IPO ，尽管它最近没有达到自己的新用户和收入目标。据报道，其首席财务官Sarah Friar表示担心OpenAI可能无法支持其庞大的数据中心支出。而且烧伤看起来确实很大。 3月下旬， OpenAI在硅谷历史上最大的一轮融资中获得了1220亿美元，其中30亿美元直接来自零售投资者通过银行渠道。但据《华尔街日报》报道，该公司预计，到2028年，仅在人工智能研究上就将花费大致相同的计算能力，即使销售额比前一年翻了一番，当年也将燃烧850亿美元。 换句话说， OpenAI要求公开市场投资者购买一项业务，根据自己的预测，该业务至少在未来四年内不会产生比其花费更多的现金。SpaceX提供了一个并行数据点。",
-      "originalSummary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "fullContent": "随着SpaceX、Anthropic和OpenAI都瞄准了大规模的公开亮相，科技行业可能很快就会出现一类新的企业霸主--以及一个新的首字母缩略词。告别FAANG ，向芒果问好。",
+      "originalSummary": "With SpaceX, Anthropic, and OpenAI all eyeing massive public debuts, the tech industry may soon have a new class of corporate overlords — and a new acronym to match. Say goodbye to FAANG and hello to MANGOS.",
       "rawFullText": "",
       "tags": [
         "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "NotebookLM的Gemini 3.5升级增加了云计算机并帮助查找源",
-      "originalTitle": "NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
-      "date": "2026-06-08T16:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
-      "fullContent": "谷歌正在为NotebookLM推出“全面”更新。根据周一的一篇博客文章，这款人工智能笔记应用程序现在使用谷歌升级的Gemini 3. 5模型，这将使其能够以“更准确和可靠的信息”做出回应。NotebookLM于2023年推出，允许您使用人工智能与笔记和来源进行交互，并询问有关材料的问题。 谷歌表示，通过此次更新，您可以通过询问有关主题的NotebookLM问题来启动研究项目，而不是导入笔记或YouTube视频。NotebookLM将在其“发现”功能的基础上，使用Google搜索来帮助您查找相关来源……阅读The Verge的完整故事。",
-      "originalSummary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model, which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday. Launched in 2023, NotebookLM allows you to interact with your notes and sources using AI, [&#8230;]",
-      "rawFullText": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded Gemini 3.5 model , which will allow it to respond with \"more accurate and reliable information,\" according to a blog post on Monday . Launched in 2023 , NotebookLM allows you to interact with your notes and sources using AI, as well as ask questions about the materials. With this update, Google says you can start a research project by just asking NotebookLM questions about a topic, instead of importing notes or YouTube videos. NotebookLM will use Google Search to help you find relevant sources, building on its \"discover\" fe … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "产品发布",
-        "模型"
       ],
       "score": 99
     },
@@ -164,52 +215,38 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 99
-    },
-    {
-      "title": "在Anthropic之后的IPO OpenAI文件",
-      "originalTitle": "OpenAI files for IPO, following Anthropic",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
-      "date": "2026-06-08T21:38:29.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "OpenAI周一完成了IPO竞赛的初步步骤，该公司和竞争对手Anthropic已经竞争了一年的大部分时间：该公司宣布，在人类公司于6月1日决定向美国证券交易委员会提交S-1表格后，该公司已秘密地向美国证券交易委员会提交了S-1表格。 保密文件意味着通常通过表格提供的某些详细信息（例如高管薪酬数据、公司业务的潜在风险以及更多财务信息）尚未公开。截至Anthropic最近的筹款活动，它被称为世界上最有价值的初创公司，具有后期资金价值......请阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. [&#8230;]",
-      "rawFullText": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the same on June 1st. The confidential filing means that certain details normally available through the form - such as executive compensation figures, potential risks to a company's business, and more financials - aren't yet public. As of Anthropic's most recent fundraise, it's being called the world's most valuable startup, with a post-money valu … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
       "score": 98
     },
     {
-      "title": "人工智能“内容创作者”越来越难被发现",
-      "originalTitle": "AI ‘content creators’ are getting harder to spot",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
-      "date": "2026-06-07T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started At first, AI influencers were relatively easy to identify - and to [&#8230;]",
-      "rawFullText": "Aitana Lopez, AI avatar by creative agency The Clueless. | Image: The Clueless This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, follow Robert Hart . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started At first, AI influencers were relatively easy to identify - and to ignore. Aside from the occasional bursts of hype, they didn't seem to change much about the way social media worked. The earliest virtual influencers - Lil Miquela with her blunt fringe and freckles, Imma with her bubblegum pink bob, and Shudu Gram with her flawless complexion - were obviously digital productions. Collaborations … Read the full story at The Verge.",
+      "title": "向美国证券交易委员会保密提交S-1草案",
+      "originalTitle": "Confidential submission of draft S-1 to the SEC",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-submits-confidential-s-1",
+      "date": "2026-06-08T14:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI确认向SEC提交了一份保密的S-1文件，但尚未确定采取进一步行动的时间。",
+      "originalSummary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态"
       ],
-      "score": 74
+      "score": 94
     },
     {
-      "title": "印第安纳州谢尔比维尔市长说，只有住在“破房子”里的人才反对数据中心",
-      "originalTitle": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
-      "date": "2026-06-06T15:05:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but [&#8230;]",
-      "rawFullText": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over town, but I only see them in shitty houses,\" before adding, \"most of them are rentals.\" The woman speaking to him in the clip quickly pushes back, saying that they're \"working class,\" and someone chimes in to add something that a mayor shouldn't have to be told about their constituents: \"it doesn't matter whether they're rentals, they're still hu … Read the full story at The Verge.",
+      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
+      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "date": "2026-06-08T00:00:00.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
+      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "智能体",
+        "开源"
       ],
-      "score": 73
+      "score": 91
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -224,7 +261,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Endava如何围绕AI代理重新设计软件交付",
@@ -255,7 +292,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -271,7 +308,7 @@
         "多模态",
         "安全"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -286,7 +323,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "智能时代的生物防御",
@@ -301,7 +338,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "为GPT-Rosalind引入新功能",
@@ -320,38 +357,6 @@
       "score": 99
     },
     {
-      "title": "前沿人工智能民主治理蓝图",
-      "originalTitle": "A blueprint for democratic governance of frontier AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
-      "date": "2026-06-03T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI概述了美国前沿人工智能治理的蓝图，提出了安全、复原力和国家安全的联邦框架。",
-      "originalSummary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 96
-    },
-    {
-      "title": "OpenAI公共政策议程",
-      "originalTitle": "OpenAI public policy agenda",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "date": "2026-06-03T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI概述了其人工智能的公共政策议程，包括安全、青年保护、劳动力转型和全球标准，以确保人工智能造福社会。",
-      "originalSummary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 96
-    },
-    {
       "title": "Wasmer如何使用Codex为边缘构建Node.js运行时",
       "originalTitle": "How Wasmer used Codex to build a Node.js runtime for the edge",
       "source": "OpenAI",
@@ -364,7 +369,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "超越聊天机器人的直接偏好优化",
@@ -379,22 +384,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
-      "title": "旅行者通过OpenAI在全国范围内部署基于人工智能的理赔",
-      "originalTitle": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/travelers",
-      "date": "2026-06-02T12:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "旅行者通过OpenAI构建了一个人工智能驱动的索赔助理，以指导客户完成索赔申请，提供全天候支持，并在高峰需求期间扩展运营。",
-      "originalSummary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "title": "将MCP工具添加到Reachy Mini",
+      "originalTitle": "Adding MCP Tools to Reachy Mini",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "date": "2026-06-03T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“将MCP工具添加到Reachy Mini”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 89
+      "score": 70
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -409,7 +414,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -423,21 +428,6 @@
       "rawFullText": "The global health care sector is under increasing strain.&nbsp; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse. The World Health Organization has warned that current shortfalls will increase to 11 million workers by 2030. In their urgent hunt for a solution, many health-care providers are now pinning their hopes on agentic AI, with more than two-thirds (68%) having already adopted AI agents into their workforce, according to KPMG. The technology is being deployed to automate complex back-office processes, collaborate with medical teams, and even triage patients, all in a bid to reduce the cognitive load on clinicians and improve quality of care for patients as the supply of human health-care workers dwindles. A different type of digitalization&nbsp; Until now, the benefits of digitalization within health care have been limited.&nbsp; Many staff have blamed slow or outdated technology for adding to the administrative burden rather than alleviating it. For example, U.S. patient data was migrated to electronic health records (EHRs) in the early 2000s, but this data remains fragmented and reliant on manual inputs.&nbsp; New telehealth services and digital care tools, like remote monitors, have had similar shortcomings, says Ashis Barad, MD, chief digital and technology officer at Hospital for Special Surgery (HSS), an academic medical center in New York that focuses on musculoskeletal health. Both technologies have helped improve access to health care by removing geographical barriers, he says, but they’ve failed to replicate the quality of in-person care or win trust from patients.&nbsp; Agentic AI is different from these existing technologies, he insists.&nbsp; Rather than relying on manual inputs or defaulting to human workers for any case that sits slightly outside a rigid framework, AI agents can handle nuanced, complex scenarios. They can make autonomous decisions, retrieve information from expert clinical sources, and iterate over time, freeing clinicians to focus on higher-level patient care. As Dr. Barad puts it: “Agentic AI takes your workflow and collapses it, augments it, supercharges it, and makes it more performant.”&nbsp; At HSS, AI agents have already been deployed in multiple areas. They handle complex backend processes, such as insurance claims that previously took several weeks to complete and involved both HSS staff and a third-party contractor to handle the volume. Now, says Dr. Barad, AI agents complete 1,100 claims per month. They’ve reduced the appeals stage from 45 minutes to five and improved the success rate of those appeals from 65% to 100% in the nine months since implementation. HSS now handles all claims in-house.&nbsp; Building on that success, HSS is now deploying AI agents in non-clinical patient-facing settings with an AI scheduling and triage service , as part of a collaboration with enterprise agentic AI developer Ema Unlimited . The service is accessible 24/7 via web, text, or phone. It uses conversational AI to ask patients clarifying questions about their condition and then books appointments with the most appropriate clinician, factoring in location, insurance coverage, and physician availability. “It completes the whole loop,” says Dr. Barad. The AI agent is trained on “all of our context, all of our rules, and all of our knowledge base,” he adds, providing patients with streamlined access to highly specialist knowledge from world-leading surgeons. Given the high-stakes decisions delegated to AI agents, the triage service has built-in safeguards—sensitive, complex, or uncertain scenarios are escalated to human specialists. Every decision made by the AI agent is auditable and human staff can step in at any point. Patient data is kept secure and the system is trained on all HSS protocols, policies, and care pathways. By keeping humans in the loop, Ema says its technology strikes the balance between efficient automation, patient-first safety, and human-informed decision making.&nbsp; As the technology becomes more prolific, it will be incumbent on providers to ensure they have these sorts of guardrails embedded into systems, says Dr. Barad. At HSS all decisions around the technology are filtered through an AI subcommittee that Dr. Barad co-chairs alongside a senior nursing executive. AI agents that may touch on patient care will be scrutinized with far more rigor than, say, backend processes, he explains. AI agents prompt systems-level change For example, Dr. Barad has plans to create a dedicated AI lab at the HSS main campus in New York City—a move that aims to democratize access to the technology across the organization. It will be open to all staff looking to understand or build AI agents, he explains, with informative classes and one-on-one training. “We’re getting agentic AI into everybody&#8217;s hands,” he says. This echoes research by Deloitte , which found that leading agentic AI adopters in health care were far more likely to have opted for multiagent solutions, redesigning end-to-end workflows rather than sticking to narrow solutions or individual use cases. The key, it appears, is to integrate AI agents across the entire enterprise, treating them as a general-purpose technology. As Dr. Barad puts it: “It’s wrong to think of agentic AI in use cases… It’s a general-purpose technology, analogous to electricity.” In practice, this means health-care providers need to set the right foundation to achieve value with agentic AI. This includes creating a unified data strategy, one that integrates fragmented data sources across an organization to create a single, comprehensive source of truth. In health care, data is often split across multiple departments and providers, each with their own legacy IT system. In systems that rely on fragmented data sources, metrics often lack standardized definitions too. For example, Dr. Barad says that each hospital he’s worked in has had a slightly different definition for “time to start surgery,” a metric commonly used to gauge operating room efficiency. This level of fragmentation impedes AI agents from retrieving information from different sources or applications and assimilating the tacit knowledge that differentiates them from other technologies. By creating greater interoperability of data at HSS, patient-facing AI agents can draw from a patient’s clinical care history and existing recommendations from their clinician, combine this information with current symptoms, and decide whether a situation requires escalation before notifying the correct specialist and informing the patient.&nbsp; Building better outcomes For Dr. Barad, the potential for AI agents to overhaul health care and alleviate the current pressures on resources, access, and patient care is huge.&nbsp; He envisions a future in which 90% of non-clinical health-care tasks could be administered by AI agents, freeing clinicians up for what he calls white-glove work, meaning the most complex, specialized, and sensitive cases. Most health-care providers seem equally optimistic. According to research by KPMG , 84% of providers are already comfortable handing decision making about specific processes over to AI agents. “We’re spending so much time on keyboards and computers right now that we&#8217;re actually not doing what we should be doing,” says Dr. Barad. “This is going to rehumanize health care.” This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
       "tags": [
         "智能体"
-      ],
-      "score": 78
-    },
-    {
-      "title": "每个角色、工具和工作流程的代码",
-      "originalTitle": "Codex for every role, tool, and workflow",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "date": "2026-06-02T09:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
       ],
       "score": 76
     },
@@ -454,7 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -469,7 +459,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -484,22 +474,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
-    },
-    {
-      "title": "PyTorch中的分析（第1部分） ：火炬入门指南.profiler",
-      "originalTitle": "Profiling in PyTorch (Part 1): A Beginner&apos;s Guide to torch.profiler",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/torch-profiler",
-      "date": "2026-05-29T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 66
+      "score": 75
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -514,7 +489,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
@@ -529,22 +504,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
-    },
-    {
-      "title": "Reachy Mini完全本地化",
-      "originalTitle": "Reachy Mini goes fully local",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/local-reachy-mini-conversation",
-      "date": "2026-05-27T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
+      "score": 62
     },
     {
       "title": "在人工智能时代重新思考组织设计",
@@ -559,7 +519,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "对人工智能工作歇斯底里的现实检查",
@@ -569,7 +529,7 @@
       "date": "2026-05-26T09:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
       "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—or tech journalist—and&#8230;",
+      "originalSummary": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—or tech&#8230;",
       "rawFullText": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—or tech journalist—and look to join the plumbers’ union, it’s worth considering today’s economic research on whether artificial intelligence has actually begun to devour white-collar work. The short answer is: No. Despite the warning by some of an imminent jobs apocalypse that will destroy much of if not most such work, or the rumblings about a “ permanent underclass ,” there’s scant evidence that AI has yet had any large-scale impact on the US labor market.&nbsp; Analysis of the data gathered for the US Bureau of Labor Statistics (BLS) shows that the unemployment rate for the jobs potentially most affected by AI is actually lower than that for occupations less exposed to the technology. And, critically in the mind of economists, there are no signs that large numbers of people are shifting from jobs threatened by AI to supposedly safer ones, such as those involving mostly manual labor. While the current labor statistics don’t preclude a sudden job upheaval in the coming years, they do throw doubt on the inevitability of the doomsday scenarios and the pace at which they’d unfold. Everyone in the AI community, it seems, is predicting that the technology will soon wipe out jobs, and everyone, it also seems, knows some young wannabe workers who can’t find one. Perhaps we haven’t seen any major disruption in the labor market statistics yet , people often say, but just wait.&nbsp; But maybe we should pay attention to what the data is showing us. And right now, the numbers paint a picture of a relatively stable labor market in which AI disruptions remain largely speculative. “It could be disruptive, but the data is telling us right now that disruption is not yet here, and we have time to plan.” “All of the available evidence to date suggests that AI’s impact on current labor market conditions is likely small right now,” says Erika McEntarfer, a labor economist who headed the BLS until President Trump fired her last fall after a jobs report that displeased the administration. (Not surprisingly, BLS reports of sluggish job growth have continued since her dismissal.) McEntarfer, who is now a fellow at the Stanford Institute for Economic Policy Research, says the relatively small impact that AI is having so far on today’s labor market “surprises many people, but it shouldn’t. What we know from history is that it takes time for innovations to work their way through changes in industries and changes in occupations. AI is unlikely to transform labor markets until it first transforms businesses.” McEntarfer points to US Census data showing that only one in five companies are using AI in any business function. “The data are a great reality check on the fear that AI will be enormously disruptive,” she says. “It could be. It likely will be disruptive, but the data is telling us right now that disruption is not yet here, and that we have time to plan.” Things ain’t great —but the question is why The US job market, to be sure, sucks for many, especially younger would-be workers . Unemployment rates for recent college graduates stand at around 5.6% , well above the level for all workers. It’s a rate not seen since the pandemic and the years immediately after the 2008 recession. Even more troubling is that hiring rates have been particularly dismal during the post-covid economy, a trend that hits hard at young people trying to enter the workforce. If you’re a recent college graduate and looking for a tech job, no one, it can seem, is hiring. There are signs that AI is contributing to the pain for the 22-to-25-year-olds seeking jobs in software development and other occupations that are feeling a big impact from AI. But these professions represent just a sliver of the overall labor market. What’s more, it’s uncertain how much blame AI should get for the job woes. Similarly unknown is whether the loss of entry-level jobs in AI-exposed occupations is a harbinger of what’s coming for others or simply an isolated&nbsp;symptom of what economists refer to as a “ low-fire, low-hire” labor market caused by a variety of macroeconomic forces. Insights into these uncertainties will tell us much about our working fates in the transition to an AI economy. There are no shortage of confident assertions and predictions about what is about to happen; while some people forecast the end of work, others say economic history teaches us that technology advances always lead to more and better jobs eventually.&nbsp; The honest answer is that no one knows for sure what AI will bring and whether this time will be different. To help figure it out, we need better and far more comprehensive data . The statistics gleaned from the federal government’s monthly survey of 60,000 households for the BLS provide a broad overview of the changes to the labor market, while academics and even some AI companies have begun trying to gain a more granular view of specific jobs that are being affected . But the existing data-gathering tools don’t adequately explain how AI is affecting the huge and diverse US labor market. There’s a long list of questions that we don’t have the data to fully answer. How is AI being used in the workplace? Does the increased use of AI mean the technology will replace workers, or will it make them more productive and valuable? Which occupations and skills are most affected? Who is in most peril from the changes? As David Deming, a professor of economics at Harvard University, puts it: “We’re sort of flying blind.” To gather more insight into some of these questions, Deming and his colleagues have been surveying several thousand people every three months since 2024, asking them basic questions: Do you use generative AI, and how often? Does it save you time at work? Tracking the answers over time gives the economists important clues (it’s used by a little over 40% of workers but adoption varies by sectors) and allows them to estimate productivity gains (they’ve found some, but nothing economy-shaking). It has also helps document how quickly AI has been adopted in the workplace and how it compares with earlier technologies such as the PC and the internet (the pace has been faster but roughly in the same ballpark). It’s far from a complete picture of how AI is changing work. But it provides some intriguing results; for example, a fair number of workers in manufacturing and other industrial sectors have tried AI. Deming’s results show that while businesses in general might be relatively slow to formally adopt the technology, lots of their employees are using it. Getting a picture of these early adopters and how they’re using AI provides a “crystal ball for the future of the labor market,” Deming says. “It gives you important clues about how it’s going to be used tomorrow, and who’s going to be affected, and who’s going to be harmed and how do we need to get ready for it. It’s a diagnostic of what’s coming down the road.” But what it doesn’t tell you is the fate of various jobs. The young are most vulnerable Analysis of how AI will affect jobs typically begins with identifying so-called exposure of various occupations to the technology. This approach is based on the idea that any given job is a collection of tasks. By evaluating which tasks can be performed by, say, the latest large language model, researchers gauge an occupation’s overall exposure. A small army of economists have created a slew of such studies, meticulously ranking hundreds of jobs and scrambling to update the results as the capabilities of generative AI keep exploding.&nbsp; The results have often triggered a panic, with graphics showing the growing vulnerability of different jobs to AI . But by themselves the exposure results are not a true predictor of which jobs will be lost to AI. That depends on the kinds of tasks done by the technology, the extent to which the AI is adopted, various business calculations about the value of workers, and even the costs of deploying AI. But the exposure findings are a valuable starting point.&nbsp; In a working paper called “ Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence ,” researchers at the Stanford Digital Economy Lab looked at 950 jobs, placing the occupations into five categories from least exposed to most. Then they used a vast data set from ADP, the world’s largest payroll provider, to look at employment growth in each of the categories. Their exclusive access to the ADP data set, which is far larger than the one available through the BLS, allows the researchers to better spot impacts by demographic. When they examined what was happening to different age groups, says Erik Brynjolfsson, the director of the lab who led the effort, “it was extremely striking.” They spotted the drop in head count for 22-to-25-year-olds in the most exposed occupations, such as software development and customer service, beginning in late 2022, when ChatGPT was first publicly released. Other researchers reported evidence that the decline in these jobs began well before ChatGPT and questioned whether the labor market could react so quickly to the introduction of AI technology.&nbsp; But while the Stanford researchers acknowledge that other factors in addition to AI probably contributed to the early declines, they say that after controlling for those factors, they saw convincing evidence of a significant effect from AI after 2024 and growing in 2025 to a 16% decline in entry-level jobs in AI-exposed occupations. In contrast, head count grew for older workers in the same occupations, as did the number of jobs in the less exposed occupations. Digging deeper into the data, the researchers found another important clue, though one that wasn’t totally unexpected. The impact on head counts depended on how AI was being used. It was specifically the jobs where tasks could be automated (that is, AI could do them “with minimal human involvement”) that accounted for the decrease in employment—jobs for people like software developers. In jobs where AI was mainly used but to augment human work, head counts grew faster than the average for entry-level workers. That’s consistent with one explanation for the woes of many young would-be workers. It could be, according to the Stanford paper, that entry-level jobs depend more on the types of knowledge that people acquire through education but that can readily be mimicked by AI; the authors call this codified knowledge. It might be particularly easy to automate such tasks as entry-level coding. In contrast, older workers have more so-called tacit knowledge, the type based on their experience. That type of wisdom is harder for AI to replace. Despite the findings about AI’s impact on young workers, Bharat Chandar, an economist at Stanford and one of the authors (along with Brynjolfsson and Ruyu Chen), stresses that it’s still early when it comes to understanding how the technology will affect jobs in the future. It could be that the job loss will spread to older workers and to less AI-exposed occupations, he says. But Chandar says it is also possible that firms and workers will adjust to shifting labor demands, and the effects will level off or even disappear. To track how it plays out, the Stanford Digital Economy Lab is about to launch a regularly updated project providing data on how AI is transforming the economy . The Stanford research and other work has put a particular spotlight on coding, a task at which AI is getting extremely adept.&nbsp; A recent paper by economists at the Federal Reserve Board found, not surprisingly, that annual employment growth for coders has slowed significantly—by about 3%—since the introduction of ChatGPT. But here’s a critical detail: Overall employment for coders continues to grow . Employment in coding jobs is still rising, they noted, just more slowly than before 2022.&nbsp; In short, coding jobs are not going away, at least not anytime soon. But it&#8217;s an occupation that is clearly being transformed by AI. One of the somewhat surprising wrinkles uncovered by recent research is that wages in sectors highly exposed to AI have risen relatively fast since the introduction of ChatGPT . One explanation is that employers are still willing to pay for the kinds of knowledge and experience that are, at least for now, hard to replace with AI. If true, this suggests not the end of work in AI-exposed jobs but, more specifically, the demise of the typical career model in which young graduates are hired to do software tasks that can be automated and are slowly trained to gain that valuable tacit experience. The earn-while-you-learn model might finally be broken—at least for some occupations. The simple truth could be that coding skills are no longer a guarantee of a job. That may help to explain the drop-off of computer science majors at schools around the country. Future canaries in the cubicles are sniffing out the dangers of looking for a job when their skills can be matched by AI. But a closer look at the data shows that students are not necessarily turning away from AI-related careers. Rather, they appear to be tailoring their skills to the changes they see underway as AI becomes increasingly important for various disciplines. Interest is rising in AI-adjacent fields like data science and cybersecurity. One fast-growing major: artificial intelligence itself (a recent addition to many college offerings). Is this time different? Anxiety over the potential of AI to replace workers is nothing new. I wrote “ How Technology Is Destroying Jobs ” in 2013, describing how a slew of new digital technologies, including AI, were beginning to threaten white-collar work. I wasn’t alone. It was a popular theme at a time when the labor market was sluggish and jobs were scarce.&nbsp; In one of his last days in office in late 2016, President Obama issued a report written by his top economic and science advisors warning that AI was threatening workers. Among the findings was that automated vehicles—especially driverless trucks—could eliminate 2.2 million to 3.1 million existing US jobs. &nbsp; Around the same time, one of the pioneers of AI, Geoffrey Hinton, said that “people should stop training radiologists” because it was “completely obvious” the occupation was soon to be replaced by AI. None of these predictions came true, of course (nor did so-called technological unemployment occur during several earlier tech-related job panics ). The forecasts were often wrong about the pace of the technological advances—we’re still waiting for fleets of driverless trucks on the highways—and failed to understand the complex portfolio of tasks that make up many jobs. AI has indeed become a tool for screening radiology images, but there are more radiologists than ever. It turns out that human radiologists perform a multitude of valuable tasks, including interpreting results and interacting with patients, that can’t be accomplished with AI (yet). Perhaps this time is different, and we can put aside the lessons of economic history. Certainly, AI has gained unimaginable powers to do humanlike tasks. Perhaps it will devour jobs in ways that we’ve never seen before. And perhaps that will happen abruptly, without a warning buried in the labor statistics. But the previous bouts of AI job anxiety still hold a prescient lesson: Our real focus needs to be less on the dystopian fears and more on the very real transitions in the workplace that will likely affect millions of people. “Even if there is not mass or even increased unemployment, the transition could still be very difficult,” says Jed Kolko, senior fellow at the Peterson Institute for International Economics and former undersecretary of commerce in the Biden administration. “And what does a difficult transition period mean? It means people losing jobs, or people’s jobs being redefined in ways that make those jobs pay worse or be less meaningful. And some people whose jobs are threatened may not be able to adapt.” The more we understand this transition, the better prepared we’ll be to deal with it.&nbsp; And for that we’ll need better and more complete data. For McEntarfer, the former commissioner of the BLS, the real question is the speed of any disruption. “If it happens at the normal pace of technological change, labor markets will have time to adapt. If there is a sudden and severe disruption, then that will be a big challenge for policymakers,” she says. “That’s really the most important question facing us right now: how rapid this transformation is going to be.” And, she adds, “we’ll know by watching the data.” Two decades ago, the country was caught flat-footed by the so-called China shock as free-trade policies led to an influx of imports and the devastation of manufacturing jobs in many parts of the country. It took years for researchers to understand the data showing how the trade policies, generally welcomed by economists, were destroying communities. Today the threat of an economic transformation brought on by AI is far larger and points to potentially far more damage for huge groups of workers. To head off another devastating labor transition, we will need well-timed government and business policies, especially programs to train and reskill workers. If McEntarfer and other labor economists are correct, we probably have time to design deliberate and effective strategies to manage the transition. But first we need to better understand what is going on—and how fast. It’s hard to find an economist who is more enthusiastic about AI’s future than Stanford’s Brynjolfsson, who believes that we’re likely on the brink of a huge boost that will transform the economy. “Perhaps the best productivity growth of my lifetime is coming up,” he says. But Brynjolfsson also warns that a lack of data is severely limiting our visibility into the economic and societal impacts that are coming. At a time when hundreds of billions are being spent on rolling out the technology, he says, “we’re not investing even 1% of that on understanding the transition.”",
       "tags": [
         "AI 热点"
