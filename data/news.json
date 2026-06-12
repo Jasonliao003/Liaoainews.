@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T12:58:10.428Z",
+  "updatedAt": "2026-06-12T12:01:52.747Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,89 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "TrajGenAgent ：用于人员流动轨迹生成的分层LLM代理",
+      "originalTitle": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.12657",
+      "date": "2026-06-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 12657v1公告类型：新摘要：人口流动数据对交通、城市规划、疫情防控都很重要，但大规模轨迹采集往往成本高昂且隐私受限，激发逼真的合成轨迹生成。 现有的基于LLM的发电机通常依赖于提示工程，它保留了零点推理，但缺乏细粒度的时空接地，或者轨迹级微调，这提高了统计精度，但会产生大量的计算成本，并可能削弱一般推理。我们提出了TrajGenAgent ，这是一种语义感知的分层LLM代理框架，用于无需模型微调的人类移动轨迹生成。 TrajGenAgent使用两阶段编排工作者设计： LLM首先通过上下文学习从历史证据合成个体和工作日条件的活动链，然后使用个性化POI检索、距离感知位置选择、运动感知行程时间传播和基于LLM的持续时间估计将每个活动基于确定性工作流程进行完整访问。 为了评估聚合时空统计之外的现实性，我们引入了一个基于异常检测的评估框架，使用两个互补的检测器来评估行为和语义合理性。 在基准和大规模仿真数据集上的实验表明， TrajGenAgent在避免参数更新的同时，提高了时空保真度、语义一致性和个体特定的行为真实感。",
+      "originalSummary": "arXiv:2606.12657v1 Announce Type: new Abstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realistic synthetic trajectory generation. Existing LLM-based generators typically rely on either prompt engineering, which preserves zero-shot reasoning but lacks fine-grained spatiotemporal grounding, or trajectory-level fine-tuning, which improves statistical precision but incurs substantial computational cost and may weaken general reasoning. We propose TrajGenAgent, a semantic-aware hierarchical LLM-agent framework for human mobility trajectory generation without model fine-tuning. TrajGenAgent uses a two-stage orchestrator-worker design: an LLM first synthesizes an individual- and weekday-conditioned activity chain from historical evidence via in-context learning, and a deterministic workflow then grounds each activity into a complete visit using personalized POI retrieval, distance-aware location selection, kinematics-aware travel-time propagation, and LLM-based duration estimation. To evaluate realism beyond aggregate spatiotemporal statistics, we introduce an anomaly-detection-based evaluation framework using two complementary detectors to assess behavioral and semantic plausibility. Experiments on benchmark and large-scale simulation datasets show that TrajGenAgent improves spatiotemporal fidelity, semantic coherence, and individual-specific behavioral realism over representative neural and LLM-based baselines, while avoiding parameter updates.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Preply如何结合人工智能和人类导师来个性化学习",
+      "originalTitle": "How Preply combines AI and human tutors to personalize learning",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/preply",
+      "date": "2026-06-12T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "Preply使用OpenAI启动人工智能生成的课程摘要，提供个性化的反馈和语言学习练习。",
+      "originalSummary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "毕达哥拉斯论证者：通过增强精益形式化推进高效形式化证明",
+      "originalTitle": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.12594",
+      "date": "2026-06-12T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2606. 12594v1通告类型：新摘要：现代精益定理证明者只有通过大量的训练和推理计算才能获得强大的性能，部分原因是缺乏经过验证的证明数据和形式证明搜索的长期推理痕迹，这使得监督微调（ SFT ）和抽样都非常昂贵。我们介绍了Pythagoras-Prover ，这是一个为实用计算预算而构建的精益定理证明器的计算效率开源家族。 该家族跨越了两代范式： 4B和32B参数的自回归模型，以及在推理时迭代完善精益证明的第一个基于概念验证的扩散证明器（ 4B ）。为了提高培训效率，我们为课程SFT构建了一个经过精益验证的语料库，该语料库分为简单、中等和难题，因此模型逐渐获得证明技能，从更短、更简单的证明到更长、更难的证明。 在SFT期间，动态校验推理过滤方案保留了信息丰富的校验跟踪，同时将每个实例保持在8k令牌的上下文预算之内。我们还引入了增强精益形式化（ ALF ） ，它将稀缺的已验证语料库扩展为正式语句的变体，通过自蒸馏填充额外的训练信号，而无需正式验证每个突变实例。 通过在保留其形式特征的同时扰动已知问题， ALF减少了对任何陈述的表面形式的依赖。根据经验， Pythagoras-Prover-4B在MiniF2F-Test上的PASS @ 32超过了DeepSeek-Prover-V2-671B （ 86. 1% vs 82. 4% ） ，参数减少了约167倍，而Pythagoras-Prover-32B在MiniF2F-Test上的开源水平为93. 0% ，解决了672个PutnamBench问题中的93个。 我们发布了MiniF2F-ALF ，这是一个ALF突变的污染敏感基准，每个评估模型都会失去准确性；在这里，我们的32B仍然是最强的，我们的4B与先前的技术水平Goedel-Prover-V2-32B相匹配。",
+      "originalSummary": "arXiv:2606.12594v1 Announce Type: new Abstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of formal proof search, making both supervised fine-tuning (SFT) and sampling expensive. We introduce Pythagoras-Prover, a compute-efficient open-source family of Lean theorem provers built for practical compute budgets. The family spans two generation paradigms: autoregressive models at 4B and 32B parameters, and a first proof-of-concept diffusion-based prover (4B) that iteratively refines Lean proofs at inference time. For training efficiency, we build a Lean-verified corpus stratified into easy, medium, and hard problems for curriculum SFT, so models acquire proof skills progressively from shorter, simpler proofs to longer, harder ones. During SFT, a dynamic proof-reasoning filtering scheme preserves informative proof traces while keeping each instance within an 8k-token context budget. We also introduce Augmented Lean Formalisation (ALF), which expands scarce verified corpora into variants of formal statements, populated via self-distillation for extra training signal without formally verifying every mutated instance. By perturbing known problems while preserving their formal character, ALF reduces reliance on any statement's surface form. Empirically, Pythagoras-Prover-4B surpasses DeepSeek-Prover-V2-671B at pass@32 on MiniF2F-Test (86.1% vs 82.4%) with ~167x fewer parameters, while Pythagoras-Prover-32B sets the open-source state of the art at 93.0% on MiniF2F-Test and solves 93 of 672 PutnamBench problems. We release MiniF2F-ALF, an ALF-mutated contamination-sensitive benchmark on which every evaluated model loses accuracy; here our 32B remains strongest and our 4B matches the prior state of the art, Goedel-Prover-V2-32B.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "产品发布"
+      ],
+      "score": 98
+    },
+    {
+      "title": "人工智能代理的战略决策支持",
+      "originalTitle": "Strategic Decision Support for AI Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.12587",
+      "date": "2026-06-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2606. 12587v1公告类型：新摘要：传统上，决策支持研究人类如何使用机器学习模型来做出更好的决策。在现代代理系统中，这种角色划分越来越颠倒：人工智能代理代表用户行事，而人和工具则成为他们周围的支持机制。 这种角色转换将可靠性问题放在首位，因为客服代表的错误可能是重大的，客服代表的行为必须与人类目标和约束保持一致。从决策支持的经典观点出发，我们重新审视了其两个基本原则，即在人工智能代理是核心参与者的情况下，寻求支持的成本价值权衡和不确定性量化的作用。 我们提出了一个通过优化问题为人工智能智能体提供战略决策支持的框架，该框架通过控制反事实的错失支持错误来最大限度地减少支持使用：智能体在支持将大大改善其输出的情况下单独行动的概率。在人口水平上，我们表明最优政策是支持值的阈值规则。 在此结构的基础上，我们开发了一种在线算法，该算法自适应阈值化此类分数，并使用随机探索来控制错失支持错误，而无需分布假设。我们进一步引入了即时校准方法，以减少不必要的在线客服呼叫。 我们在不同的场景中实例化此框架，包括信息收集、人工-人工智能协作和工具使用，展示了如何通过相同的战略决策支持镜头对每个框架进行建模。这些设置的实验表明，我们的方法可靠地控制了目标错误，同时在实践中大大减少了支持使用。",
+      "originalSummary": "arXiv:2606.12587v1 Announce Type: new Abstract: Traditionally, decision support studies how humans use machine learning models to make better decisions. In modern agentic systems, this division of roles is increasingly reversed: AI agents act on behalf of users, while humans and tools becomes support mechanisms around them. This role reversal brings reliability concerns to the forefront, since agentic errors can be consequential and agent behavior must remain aligned with human goals and constraints. Departing from the classical view of decision support, we revisit its two basic principles, the cost--value tradeoff of seeking support and the role of uncertainty quantification, in a setting where AI agents are the central actors. We propose a framework for strategic decision support for AI agents through an optimization problem that minimizes support usage subject to controlling a counterfactual missed-support error: the probability that the agent acts alone on instances where support would have materially improved its output. At the population level, we show that the optimal policy is a threshold rule on the value of support. Building on this structure, we develop an online algorithm that adaptively thresholds such a score and uses randomized exploration to control missed-support error without distributional assumptions. We further introduce a calibration-on-the-fly method that reduces unnecessary support calls online. We instantiate this framework across diverse scenarios, including information gathering, human--AI collaboration, and tool use, showing how each can be modeled through the same strategic decision-support lens. Experiments across these settings show that our method reliably controls the target error while substantially reducing support usage in practice.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "ToolSense ： LLM中审核参数工具知识的诊断框架",
+      "originalTitle": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.12451",
+      "date": "2026-06-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2606. 12451v1公告类型：新摘要：在大型工具目录上部署为代理的大型语言模型面临着关键的工具检索瓶颈。 由于基于嵌入的检索方法依赖于可能无法捕获专用工具语义的紧凑型编码器，因此参数化工具检索通过将每个工具编码为附加到LLM词汇表的虚拟令牌来解决这个问题，该令牌分两个阶段进行微调（记忆然后检索SFT ）以使用LLM作为检索器，从而在标准ToolBench检索基准上实现强大的性能。 然而，这些基准使用了详细的、完全指定的查询，它们的评估应用了约束解码，将输出限制为有效的令牌路径，两者都不能揭示模型是否真正理解其工具。 我们引入了\\ textbf {ToolSense} ，这是一个开源的LLM支持的诊断框架，它以任何工具目录为输入，并自动生成三个基准：具有三个模糊层查询的逼真检索基准(RRB)、MCQ探测基准和QA探测基准。 将ToolSense应用于ToolBench （约47k个工具）并评估五个参数模型训练配置，揭示了一种知识检索分离：在RRB查询中，与完全指定的ToolBench基准相比，几个配置崩溃约50-64个百分点，低于嵌入模型基准。此外，尽管检索性能很强，但一些模型在实际探测中得分接近随机，这表明知识检索分离。 我们在https://github. com/SAP/toolsense上开源了ToolSense框架和ToolBench诊断基准。",
+      "originalSummary": "arXiv:2606.12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual token appended to the LLM vocabulary, fine-tuned in two stages (memorization then retrieval SFT) to use the LLM as a retriever, achieving strong performance on standard ToolBench retrieval benchmarks. Yet these benchmarks use verbose, fully-specified queries, and their evaluation applies constrained decoding that restricts outputs to valid token paths, neither reveals whether the model actually understands its tools. We introduce \\textbf{ToolSense}, an open-source LLM-powered diagnostic framework that takes any tool catalog as input and automatically generates three benchmarks: a Realistic Retrieval Benchmark (RRB) with queries at three ambiguity tiers, an MCQ probing benchmark, and a QA probing benchmark. Applying ToolSense to ToolBench (~47k tools) and evaluating five parametric model training configurations reveals a knowledge-retrieval dissociation: on RRB queries, several configurations collapse by ~50-64 percentage points compared to fully-specified ToolBench benchmarks, falling below the embedding-model baseline. Additionally, despite strong retrieval performance, some models score near-random on factual probes, suggesting a knowledge-retrieval dissociation. We open-source the ToolSense framework and the ToolBench diagnostic benchmarks at https://github.com/SAP/toolsense.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
     {
       "title": "Anthropic为隐形的Claude Fable护栏道歉",
       "originalTitle": "Anthropic apologizes for invisible Claude Fable guardrails",
@@ -53,55 +136,51 @@
       "score": 99
     },
     {
-      "title": "人工智能代理可以综合科学结论吗？",
-      "originalTitle": "Can AI Agents Synthesize Scientific Conclusions?",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.11337",
-      "date": "2026-06-11T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2606. 11337v1公告类型：新摘要：科学人工智能代理越来越多地检索证据，跨源推理，并综合用于相应决策的结论。然而，他们在健康等高风险领域这样做的能力尚不清楚。我们引入SciConBench ，这是一个由9. 11K问题和系统综述专家撰写的结论组成的大规模实时基准，用于评估开放域科学结论的合成。 该基准借鉴了专家验证的自动评估管道，该管道将结论分解为原子事实，并通过事实准确性和召回来衡量正确性和全面性。为了缓解数据泄露，我们进一步推出了SciConHarness ，这是一种洁净室评估线束，为代理配备了受控的网络交互，以确保有效的测量。 通过评估8个前沿模型和深入研究代理，我们发现事实质量仍然很低：在洁净室环境中，最好的代理只能实现0. 337的事实F1。我们的洁净室设置始终会降低相对于无限制评估的性能，这表明泄漏会夸大对模型真实合成能力的估计。最后，我们审核面向消费者的代理（例如 ， Google AI Overview ， OpenEvidence ） ，并发现它们经常产生不完整且有时相互矛盾的结论，即使有实证答案。总体而言，我们的研究结果表明，科学结论的可靠合成仍然是一个开放的挑战，洁净室评估对于评估开放领域的人工智能制剂至关重要。",
-      "originalSummary": "arXiv:2606.11337v1 Announce Type: new Abstract: Scientific AI agents increasingly retrieve evidence, reason across sources, and synthesize conclusions used in consequential decisions. Yet, their ability to do so in high-stakes domains such as health remains unclear. We introduce SciConBench, a large-scale live benchmark of 9.11K questions and expert-written conclusions from systematic reviews to evaluate open-domain scientific conclusion synthesis. The benchmark draws on an expert-validated automated evaluation pipeline that decomposes conclusions into atomic facts and measures correctness and comprehensiveness via factual precision and recall. To mitigate data leakage, we further introduce SciConHarness, a clean-room evaluation harness that equips agents with controlled web interaction to ensure valid measurement. Evaluating 8 frontier models and deep research agents, we find that factual quality remains low: under clean-room settings, the best agent achieves only a factual F1 of 0.337. Our clean-room setting consistently reduces performance relative to unconstrained evaluation, suggesting that leakage inflates estimates of models' true synthesis capabilities. Finally, we audit consumer-facing agents (e.g., Google AI Overview, OpenEvidence) and find they frequently generate incomplete and sometimes contradictory conclusions, even when the ground-truth answer is available. Overall, our results show that reliable synthesis of scientific conclusions remains an open challenge, and that clean-room evaluation is essential for assessing open-domain AI agents.",
+      "title": "OpenAI收购ONA",
+      "originalTitle": "OpenAI to acquire Ona",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI计划收购ONA ，以通过安全、持久的云环境扩展Codex ，从而在企业工作流程中实现长期运行的AI代理。",
+      "originalSummary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "模型"
+        "公司动态",
+        "智能体"
       ],
       "score": 99
     },
     {
-      "title": "将预测未来行为作为一项学习任务",
-      "originalTitle": "Forecasting Future Behavior as a Learning Task",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.11445",
-      "date": "2026-06-11T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2606. 11445v1公告类型：新摘要：人工智能系统的信任通常以其工作原理的解释为基础，然后使用该解释来预测其在新输入上的行为。对于大型推理模型（ LRM ） ，这种传统路线特别难以遵循：单代令牌的解释方法不会自然地推广到长轨迹，并且当作为自然语言阅读时，轨迹本身通常不忠实。 我们提出了一种绕过解释步骤的替代方案：将行为预测视为一项可学习的任务，并培训在单一推理轨迹上运行的行为预测者，以做出通常从解释中寻求的相同预测。预测者的训练数据是通过在没有人工注释的情况下查询LRM来获得的，其推理是在单次前向传递中完成的。 我们在两项任务上实例化这种方法： LRM在重新运行时重复其答案的可能性，以及删除部分输入如何改变其答案。我们在三个不同推理数据集的两个任务上评估了这种方法，发现训练有素的行为预测者比GPT-5. 4和Claude Opus-4. 6更准确，读取与天真的读者相同的轨迹，其推理成本很小。 我们发现，端到端微调骨干网并从目标LRM初始化骨干网对于强大的性能都是必要的。这些结果表明，推理轨迹携带的有关LRM未来行为的信息超出了天真阅读所传达的信息。",
-      "originalSummary": "arXiv:2606.11445v1 Announce Type: new Abstract: Trust in an AI system is often anchored by explanations of how it works, which one then uses to forecast its behavior on new inputs. For large reasoning models (LRMs), this conventional route is particularly difficult to follow: explanation methods for single token generations do not naturally generalize to long trajectories, and the trajectories themselves are often not faithful when read as natural language. We propose an alternative that bypasses the explanation step: treat behavior forecasting as a learnable task and train Behavior Forecasters that operates on a single reasoning trajectory to make the same forecasts one would typically seek from an explanation. The forecaster's training data is obtained by querying the LRM with no human annotation, and its inference is done in a single forward pass. We instantiate this approach on two tasks: how likely the LRM is to repeat its answer on re-runs, and how removing parts of the input changes its answer. We evaluate this approach on both tasks across three diverse reasoning datasets and find that trained Behavior Forecasters are more accurate than GPT-5.4 and Claude Opus-4.6 reading the same trajectories as naive readers, at a small fraction of their inference cost. We find that fine-tuning the backbone end-to-end and initializing it from the target LRM are each necessary for strong performance. These results show that the reasoning trajectory carries information about the LRM's future behavior that goes beyond what naive reading conveys.",
+      "title": "BBVA将人工智能置于OpenAI银行业务的核心",
+      "originalTitle": "BBVA puts AI at the core of banking with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解BBVA如何将ChatGPT Enterprise扩展到100,000名员工，并与OpenAI合作加速全球人工智能银行转型。",
+      "originalSummary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "推理",
-        "模型"
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "MoCA代理：用于财务和数字推理的索赔市场代码代理",
-      "originalTitle": "MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.11537",
-      "date": "2026-06-11T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 11537v1公告类型：新摘要：财务和表格问答需要的不仅仅是流畅的推理：答案必须基于支持它们的确切事实、公式、单位、标志和尺度。单个误读单元格或不正确的操作可能会无声地产生合理但错误的结果。我们推出了\\ textsc {MOCA-Agent} ，这是一种索赔市场代码代理，用索赔级别的验证取代了自由形式的多代理辩论。 该系统将每个问题分解为类型化的原子声明，要求专业交易员代理买入或卖出这些声明，将他们的订单清除为置信加权接受/拒绝决策，并根据市场支持的证据合成可执行的Python程序。然后，代码感知验证器检查程序的执行、结构一致性和常见的财务推理错误，最多进行一轮市场感知修复。 在跨越财务数字推理、一般表格推理、ESG问答和多模态图表推理的十个公共基准中，\\ textsc {MOCA-Agent}使用固定的Qwen3. 6-27B骨干网实现了强劲的表现，包括FinQA上的$ 78. 3\\ % $、FinanceMath上的$ 76. 0\\ % $、MultiHiertt上的$ 71. 2\\ % $、ESGenius上的$ 86. 9\\ % $和FinChart-Bench上的$ 85. 6\\ % $平均值。 这些结果表明，在原子声明层面而不是整个答案汇总证据，可以提高高风险数值推理的鲁棒性。\\ footnote {代码和数据可用： https://github. com/UBC-NLP/MoCA-Agent。",
-      "originalSummary": "arXiv:2606.11537v1 Announce Type: new Abstract: Financial and tabular question answering requires more than fluent reasoning: answers must be grounded in the exact facts, formulas, units, signs, and scales that support them. A single misread cell or incorrect operation can silently produce a plausible but wrong result. We introduce \\textsc{MOCA-Agent}, a market-of-claims code agent that replaces free-form multi-agent debate with claim-level verification. The system decomposes each question into typed atomic claims, asks specialist trader agents to buy or sell those claims, clears their orders into confidence-weighted accept/reject decisions, and synthesizes an executable Python program from market-supported evidence. A code-aware verifier then checks the program for execution, structural consistency, and common financial reasoning errors, with at most one market-aware repair round. Across ten public benchmarks spanning financial numerical reasoning, general tabular reasoning, ESG question answering, and multimodal chart reasoning, \\textsc{MOCA-Agent} achieves strong performance using a fixed Qwen3.6-27B backbone, including $78.3\\%$ on FinQA, $76.0\\%$ on FinanceMath, $71.2\\%$ on MultiHiertt, $86.9\\%$ on ESGenius, and $85.6\\%$ average on FinChart-Bench. These results show that aggregating evidence at the level of atomic claims, rather than whole answers, improves robustness in high-stakes numerical reasoning.\\footnote{The code and data are available: https://github.com/UBC-NLP/MoCA-Agent.",
+      "title": "支持欧洲确保可信赖的人工智能生态系统的工作",
+      "originalTitle": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI支持欧盟关于人工智能内容透明度的行为准则，推进出处标准和工具，以帮助人们理解人工智能生成的内容。",
+      "originalSummary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
+        "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
       "title": "通过您的Oracle云承诺访问OpenAI模型和Codex",
@@ -154,22 +233,6 @@
       "score": 99
     },
     {
-      "title": "Jedify筹集了2400万美元，帮助公司为人工智能代理提供业务背景",
-      "originalTitle": "Jedify raises $24M to help companies arm AI agents with context on their business",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
-      "date": "2026-06-10T13:33:09.000Z",
-      "summary": "这条新闻与智能体、投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、投融资相关动态",
-      "fullContent": "人工智能供应商推广他们的企业产品，就好像它们是交钥匙解决方案一样，但人工智能代理商立即上市的可能性很低。除非你努力训练有关业务细节的模型，否则不太可能理解你的公司是如何定义收入的，也不太可能知道谁可以查看哪个文件。 这就是为什么我们看到人工智能公司部署工程师来帮助将其人工智能产品集成到客户系统中的部分原因。总部位于纽约的初创公司Jedify正在弥补这一差距。该公司表示，其平台通过API连接到企业的知识来源，以构建有关其业务的“上下文图” ， AI代理可以使用该图来更好地工作。 这些来源可以是数据库、数据仓库和湖泊、SaaS应用程序或BI工具，以及非结构化来源，如报告、文档、代码库，甚至Slack频道和会议录制。为了实现这一目标， Jedify在由Norwest牵头的A轮融资中筹集了2400万美元， TechCrunch独家了解到这一点。本轮融资的参与者包括回资支持者S Capital VC和Cerca Partners ，以及新投资者Oceans Ventures。 数据巨头Snowflake也作为战略投资者参与其中，并正在将该创业公司的技术与其AI产品整合，例如其Cortex AI服务、Semantic Views和CoWork。Jedify的推荐是，为了在企业中发挥作用，人工智能代理需要访问实体、数据、权限、领域知识、工作流程、运营假设和公司特定术语之间的关系。 该公司表示，这种上下文允许人工智能代理将其注意力集中在与特定任务相关的信息上，而不是搜索公司的所有内容。联合创始人兼首席执行官Assaf Henkin （上图最右侧）指出，合规公司Kiteworks是客户如何使用Jedify的一个例子。 Kiteworks将Snowflake、Tableau、Notion和内部剧本（包括文档和屏幕截图）连接到Jedify ，然后为不同的客户工作流程构建代理工具。“他们希望用先进的应用程序武装他们的卖家和客户团队—你可以把它想象成一个仪表板应用程序和实时对话应用程序。 当他们进入客户对话时， Jedify会即时为他们构建他们需要知道的一切。在对话过程中，他们可以实时主动获得非常具体的细节， ”Henkin说。 Henkin认为， Jedify的上下文图与公司已经使用的语义层、元数据目录和知识图不同，因为它是多维的，可以捕获实体、数据、人员、权限和客户之间的关系。它还与模型无关，并在信息流入和流出连接的系统时实时更新。",
-      "originalSummary": "The funding round was led by Norwest, with participation from S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "投融资"
-      ],
-      "score": 99
-    },
-    {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
       "originalTitle": "PRC-linked influence operations are targeting AI debates in the US",
       "source": "OpenAI",
@@ -186,6 +249,22 @@
       "score": 99
     },
     {
+      "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
+      "originalTitle": "From data to decisions: how LSEG is scaling trusted AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/lseg",
+      "date": "2026-06-10T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "了解LSEG如何使用OpenAI在其全球业务中扩展可信赖的人工智能，加快洞察力，缩短发布周期，并为4,000名员工赋能。",
+      "originalSummary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 98
+    },
+    {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
       "originalTitle": "How engineers at Nextdoor use Codex to build without limits",
       "source": "OpenAI",
@@ -198,7 +277,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -213,26 +292,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 92
-    },
-    {
-      "title": "Hugging Face：智能体、评测相关动态",
-      "originalTitle": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-      "date": "2026-06-09T19:38:28.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体、评测相关动态”。它主要涉及智能体、评测方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测"
-      ],
       "score": 91
     },
     {
-      "title": "Hugging Face：智能体相关动态",
+      "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
       "originalTitle": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
@@ -244,10 +307,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
-      "title": "Hugging Face：模型相关动态",
+      "title": "推出North Mini Code ： Cohere首款面向开发人员的模型",
       "originalTitle": "Introducing North Mini Code: Cohere’s First Model For Developers",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
@@ -259,39 +322,22 @@
       "tags": [
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
-      "title": "专为造福所有人而打造：我们的计划",
-      "originalTitle": "Built to benefit everyone: our plan",
+      "title": "Codex为Notion解锁了什么",
+      "originalTitle": "What Codex unlocks for Notion",
       "source": "OpenAI",
-      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "date": "2026-06-08T01:30:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI致力于确保AGI让所有人受益，因此我们对人工智能未来的愿景是关注访问、安全和共享繁荣。",
-      "originalSummary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "link": "https://openai.com/index/notion",
+      "date": "2026-06-09T10:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "Notion如何使用Codex进行一次性规范，为网络构建AI语音输入，并在小型团队中倍增工程能力。",
+      "originalSummary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "安全"
+        "AI 热点"
       ],
-      "score": 99
-    },
-    {
-      "title": "介绍OpenAI经济研究交流",
-      "originalTitle": "Introducing the OpenAI Economic Research Exchange",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/economic-research-exchange",
-      "date": "2026-06-08T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI启动了经济研究交流，以研究人工智能对就业、生产力和经济的影响。所选研究项目的申请现已开放。",
-      "originalSummary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 97
+      "score": 80
     },
     {
       "title": "向美国证券交易委员会保密提交S-1草案",
@@ -306,7 +352,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -322,7 +368,7 @@
         "智能体",
         "开源"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -337,23 +383,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
-    },
-    {
-      "title": "Endava如何围绕AI代理重新设计软件交付",
-      "originalTitle": "How Endava is redesigning software delivery around AI agents",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/endava-frontiers",
-      "date": "2026-06-04T12:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "了解Endava如何使用AI代理、ChatGPT Enterprise和Codex来加速软件交付、自动化工作流程，并在整个企业中构建AI原生文化。",
-      "originalSummary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
+      "score": 77
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -369,7 +399,7 @@
         "多模态",
         "安全"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -384,10 +414,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "法院如何应对大量由人工智能引发的诉讼",
       "originalTitle": "How courts are coping with a flood of AI-generated lawsuits",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
@@ -399,7 +429,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "超越聊天机器人的直接偏好优化",
@@ -429,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -444,7 +474,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -459,7 +489,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "小型企业如何利用人工智能",
@@ -474,10 +504,25 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
-      "title": "Hugging Face：模型相关动态",
+      "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
+      "originalTitle": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "date": "2026-06-01T13:51:18.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 76
+    },
+    {
+      "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
       "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
@@ -489,7 +534,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -504,7 +549,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "AI炒作指数： AI在毕业季受到嘘声",
