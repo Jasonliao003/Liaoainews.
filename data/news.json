@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T12:01:52.747Z",
+  "updatedAt": "2026-06-13T10:08:47.058Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,82 @@
   ],
   "articles": [
     {
-      "title": "TrajGenAgent ：用于人员流动轨迹生成的分层LLM代理",
-      "originalTitle": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.12657",
-      "date": "2026-06-12T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 12657v1公告类型：新摘要：人口流动数据对交通、城市规划、疫情防控都很重要，但大规模轨迹采集往往成本高昂且隐私受限，激发逼真的合成轨迹生成。 现有的基于LLM的发电机通常依赖于提示工程，它保留了零点推理，但缺乏细粒度的时空接地，或者轨迹级微调，这提高了统计精度，但会产生大量的计算成本，并可能削弱一般推理。我们提出了TrajGenAgent ，这是一种语义感知的分层LLM代理框架，用于无需模型微调的人类移动轨迹生成。 TrajGenAgent使用两阶段编排工作者设计： LLM首先通过上下文学习从历史证据合成个体和工作日条件的活动链，然后使用个性化POI检索、距离感知位置选择、运动感知行程时间传播和基于LLM的持续时间估计将每个活动基于确定性工作流程进行完整访问。 为了评估聚合时空统计之外的现实性，我们引入了一个基于异常检测的评估框架，使用两个互补的检测器来评估行为和语义合理性。 在基准和大规模仿真数据集上的实验表明， TrajGenAgent在避免参数更新的同时，提高了时空保真度、语义一致性和个体特定的行为真实感。",
-      "originalSummary": "arXiv:2606.12657v1 Announce Type: new Abstract: Human mobility data is important for transportation, urban planning, and epidemic control, but large-scale trajectory collection is often costly and privacy-constrained, motivating realistic synthetic trajectory generation. Existing LLM-based generators typically rely on either prompt engineering, which preserves zero-shot reasoning but lacks fine-grained spatiotemporal grounding, or trajectory-level fine-tuning, which improves statistical precision but incurs substantial computational cost and may weaken general reasoning. We propose TrajGenAgent, a semantic-aware hierarchical LLM-agent framework for human mobility trajectory generation without model fine-tuning. TrajGenAgent uses a two-stage orchestrator-worker design: an LLM first synthesizes an individual- and weekday-conditioned activity chain from historical evidence via in-context learning, and a deterministic workflow then grounds each activity into a complete visit using personalized POI retrieval, distance-aware location selection, kinematics-aware travel-time propagation, and LLM-based duration estimation. To evaluate realism beyond aggregate spatiotemporal statistics, we introduce an anomaly-detection-based evaluation framework using two complementary detectors to assess behavioral and semantic plausibility. Experiments on benchmark and large-scale simulation datasets show that TrajGenAgent improves spatiotemporal fidelity, semantic coherence, and individual-specific behavioral realism over representative neural and LLM-based baselines, while avoiding parameter updates.",
+      "title": "Anthropic的安全警告可能刚刚适得其反—政府已经取消了其最强大的人工智能",
+      "originalTitle": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "date": "2026-06-13T02:26:30.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "Anthropic并没有掩饰它的挫败感。该公司在一篇博客文章中写道： “我们不同意，发现狭隘的潜在越狱应该是召回部署给数亿人的商业模式的原因。”",
+      "originalSummary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "公司动态",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Andrew Yang认为下一个重大创业机会是降低生活成本",
+      "originalTitle": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "date": "2026-06-13T04:14:19.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "企业家、前总统候选人安德鲁·杨（ Andrew Yang ）有一个关于下一波创业机会在哪里的理论，它始于一个大多数创始人没有问的问题：如果商业模式是回馈而不是提取资金呢？ Yang的灵感来自Mark Cuban。不是他的财富，也不是他的名人，而是Cost Plus Drugs--古巴一家以成本价销售药品的初创公司。杨列出了一份清单。 “住房，教育，食品，燃料，交通，媒体和无线，”杨在最近一期Equity上告诉TechCrunch。“我们都花钱买的东西。“他选择了无线，并于去年9月推出了Nobile Mobile ，这是一家新的移动虚拟网络运营商，提供传统运营商收费的一小部分蜂窝服务，并在客户使用较少数据时退款。 随着人工智能威胁压低工资和取代工人，杨看到了降低生活成本的商机。Cost Plus Drugs、Noble Mobile、Light Phone等哑巴手机制造商，甚至在线杂货店Misfits Markets ，都是新兴业务类别的早期例子，初创公司的价值主张是它给客户的回报。 “人工智能将吸收大量的价值和工作，然后美国人会抬头说， ‘我如何满足基本需求？杨说，他认为“以更低的成本”满足人们的需求是“一个非常丰富的机会。“这种本能不是从哪里冒出来的。 Yang在2020年总统竞选期间首次进入公众视野，在此期间，他倡导将全民基本收入作为打击与人工智能相关的劳动力流离失所和财富集中的一种手段。该活动没有成功，但论文的相关性越来越高。Yang仍然是UBI的倡导者，他认为人工智能公司产生的价值需要重新分配给普通美国人。 但是，政府是否会成为再分配的工具，或者政府是否只会利用所收集的财富来“堵塞漏洞并做一些不太有效的事情” ， Yang不太确定。他说： “资金和人民之间有直接联系的空间。”这就是市场发挥作用的地方。杨认为，在政策失败的地方，市场激励可以介入。Noble Mobile是他证明这一点的尝试。 自去年9月推出以来，该公司已发展到“成千上万”的客户，并带来了“数百万的收入”。“演讲很简单。Yang指出， 40年来平均每月节省50 $ ，投资和复合，可能达到24,000 $ —足以支付退休首付款。在这个经济体中，谁不考虑一些小的方法来升级他们的个人理财？ 投资者是否会分享这种热情完全是另一个问题。即使机会是真实的，资本现在也大量集中在人工智能上，而利润微薄且具有社会使命的面向消费者的企业则很难卖出。",
+      "originalSummary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "SpaceX、Anthropic和OpenAI的热门IPO夏季",
+      "originalTitle": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "date": "2026-06-12T16:23:25.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "IPO市场又回来了，不是同一家公司在主导。FAANG的表现不错，但一个新的首字母缩略词正在接管： MANGOS — Meta （或微软，具体取决于您的要求）、Anthropic、Nvidia、Google、OpenAI和SpaceX。其中一半将在同一窗口内进入公开市场，这是对投资者、估值和[…]的压力测试。",
+      "originalSummary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "现在是炎热的IPO夏天，芒果成熟了",
+      "originalTitle": "It’s hot IPO summer, and the MANGOS are ripe",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "date": "2026-06-12T15:50:52.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "IPO市场又回来了，不是同一家公司在主导。FAANG的表现不错，但一个新的首字母缩略词正在接管： MANGOS — Meta （或微软，具体取决于您的要求）、Anthropic、Nvidia、Google、OpenAI和SpaceX。其中一半将在同一窗口内进入公开市场，这是对投资者、估值和[…]的压力测试。",
+      "originalSummary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "面向下一个工作时代的全新OpenAI学院课程",
+      "originalTitle": "New OpenAI Academy courses for the next era of work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "date": "2026-06-12T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI推出了三门学院课程，帮助人们培养实用的人工智能技能，创建可重复的工作流程，并在日常工作中应用代理。",
+      "originalSummary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
       ],
       "score": 99
     },
@@ -52,54 +115,20 @@
       "score": 99
     },
     {
-      "title": "毕达哥拉斯论证者：通过增强精益形式化推进高效形式化证明",
-      "originalTitle": "Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.12594",
-      "date": "2026-06-12T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv: 2606. 12594v1通告类型：新摘要：现代精益定理证明者只有通过大量的训练和推理计算才能获得强大的性能，部分原因是缺乏经过验证的证明数据和形式证明搜索的长期推理痕迹，这使得监督微调（ SFT ）和抽样都非常昂贵。我们介绍了Pythagoras-Prover ，这是一个为实用计算预算而构建的精益定理证明器的计算效率开源家族。 该家族跨越了两代范式： 4B和32B参数的自回归模型，以及在推理时迭代完善精益证明的第一个基于概念验证的扩散证明器（ 4B ）。为了提高培训效率，我们为课程SFT构建了一个经过精益验证的语料库，该语料库分为简单、中等和难题，因此模型逐渐获得证明技能，从更短、更简单的证明到更长、更难的证明。 在SFT期间，动态校验推理过滤方案保留了信息丰富的校验跟踪，同时将每个实例保持在8k令牌的上下文预算之内。我们还引入了增强精益形式化（ ALF ） ，它将稀缺的已验证语料库扩展为正式语句的变体，通过自蒸馏填充额外的训练信号，而无需正式验证每个突变实例。 通过在保留其形式特征的同时扰动已知问题， ALF减少了对任何陈述的表面形式的依赖。根据经验， Pythagoras-Prover-4B在MiniF2F-Test上的PASS @ 32超过了DeepSeek-Prover-V2-671B （ 86. 1% vs 82. 4% ） ，参数减少了约167倍，而Pythagoras-Prover-32B在MiniF2F-Test上的开源水平为93. 0% ，解决了672个PutnamBench问题中的93个。 我们发布了MiniF2F-ALF ，这是一个ALF突变的污染敏感基准，每个评估模型都会失去准确性；在这里，我们的32B仍然是最强的，我们的4B与先前的技术水平Goedel-Prover-V2-32B相匹配。",
-      "originalSummary": "arXiv:2606.12594v1 Announce Type: new Abstract: Modern Lean theorem provers achieve strong performance only with substantial training and inference compute, driven in part by scarce verified proof data and the long reasoning traces of formal proof search, making both supervised fine-tuning (SFT) and sampling expensive. We introduce Pythagoras-Prover, a compute-efficient open-source family of Lean theorem provers built for practical compute budgets. The family spans two generation paradigms: autoregressive models at 4B and 32B parameters, and a first proof-of-concept diffusion-based prover (4B) that iteratively refines Lean proofs at inference time. For training efficiency, we build a Lean-verified corpus stratified into easy, medium, and hard problems for curriculum SFT, so models acquire proof skills progressively from shorter, simpler proofs to longer, harder ones. During SFT, a dynamic proof-reasoning filtering scheme preserves informative proof traces while keeping each instance within an 8k-token context budget. We also introduce Augmented Lean Formalisation (ALF), which expands scarce verified corpora into variants of formal statements, populated via self-distillation for extra training signal without formally verifying every mutated instance. By perturbing known problems while preserving their formal character, ALF reduces reliance on any statement's surface form. Empirically, Pythagoras-Prover-4B surpasses DeepSeek-Prover-V2-671B at pass@32 on MiniF2F-Test (86.1% vs 82.4%) with ~167x fewer parameters, while Pythagoras-Prover-32B sets the open-source state of the art at 93.0% on MiniF2F-Test and solves 93 of 672 PutnamBench problems. We release MiniF2F-ALF, an ALF-mutated contamination-sensitive benchmark on which every evaluated model loses accuracy; here our 32B remains strongest and our 4B matches the prior state of the art, Goedel-Prover-V2-32B.",
+      "title": "Avataar的视频人工智能更便宜、更快、更具文化意识，专为印度的规模而打造",
+      "originalTitle": "Cheaper, faster, and culturally aware, Avataar&#8217;s video AI is built for India&#8217;s scale",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "date": "2026-06-12T04:30:00.000Z",
+      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：视频生成、模型相关动态",
+      "fullContent": "与美国、欧洲和中国相比，印度的人工智能模型输出速度缓慢。只有少数初创公司正在发布模型，其中大多数是大型语言模型或语音模型。为了鼓励更多的发展，政府推出了印度人工智能使命，这是一项约12亿美元的计划，除其他外，该计划为选定的初创公司提供获得补贴的GPU计算，以换取公开发布他们的模型。 入选该计划的12家初创公司之一Avataar AI推出了名为Varya的新视频模型，该模型旨在了解当地背景，例如识别不同的节日、食物和服装。Peak XV支持的初创公司专注于为电子商务创建视频工具，并没有从头开始构建Varya。从万二开始。 2 ，由阿里巴巴发布的公开视频生成模型，并使用了一种称为蒸馏的技术—基本上将模型的功能压缩成针对Avataar的特定用例优化的更精简，更快的版本。结果是一个分四步运行的模型，而不是Wan 2. 2的50 ，视频制作速度提高了10倍，成本也降低了几分之一。 具体而言：使用Nvidia H200显卡， Varya可以在45秒内生成5秒的720p剪辑，而Wan 2则为1,230秒。2. Varya最引人注目的方面可能是它的价格。该公司计划在其托管服务上每秒收取0.48卢比（ 0.005美元）的视频费用，这比Veo、Kling、Luma和Runway等型号便宜得多，后者通常每秒收费0.10美元或更多。差价约为20倍。 “印度是一个视频优先的市场。我们在印度的每一款大型消费互联网产品中都看到了这一点：视频胜过文本。目前的人工智能视频模型对于印度的人口规模使用来说太昂贵了。如果视频人工智能要惠及学生、教师、中小微企业、创作者、企业和公共服务，成本必须大幅下降。 成本是印度人工智能采用的最大释放， ”Peak XV的董事总经理Rajan Anandan告诉TechCrunch。图像和视频生成模型往往会错过文化细微差别，并产生刻板印象或通用输出--这是TechCrunch之前报道过的一个问题。Avataar AI表示，它已使用精选数据来训练Varya识别文化细微差别，包括食物、服装、建筑和节日。 Varya将作为开放权重模型在印度的AIKosh门户网站上发布， AIKosh门户网站是印度政府公开可用的人工智能模型和数据集的集中存储库，其培训数据意味着开发人员可以根据自己的需求自行托管或修改它。Avataar还计划向其企业客户提供该模型，并表示它对与视频工具（包括Higgsfield和Adobe Firefly ）的合作持开放态度。 任何人现在都可以在其网站上使用文本提示或参考图像进行尝试。Varya的推出反映了印度人工智能雄心壮志的基本权衡。业内资深人士指出，印度可以通过创建应用程序和强大的开发者生态系统，而不是在基础模型上竞争，在人工智能领域留下自己的印记。",
+      "originalSummary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "评测",
-        "产品发布"
-      ],
-      "score": 98
-    },
-    {
-      "title": "人工智能代理的战略决策支持",
-      "originalTitle": "Strategic Decision Support for AI Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.12587",
-      "date": "2026-06-12T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2606. 12587v1公告类型：新摘要：传统上，决策支持研究人类如何使用机器学习模型来做出更好的决策。在现代代理系统中，这种角色划分越来越颠倒：人工智能代理代表用户行事，而人和工具则成为他们周围的支持机制。 这种角色转换将可靠性问题放在首位，因为客服代表的错误可能是重大的，客服代表的行为必须与人类目标和约束保持一致。从决策支持的经典观点出发，我们重新审视了其两个基本原则，即在人工智能代理是核心参与者的情况下，寻求支持的成本价值权衡和不确定性量化的作用。 我们提出了一个通过优化问题为人工智能智能体提供战略决策支持的框架，该框架通过控制反事实的错失支持错误来最大限度地减少支持使用：智能体在支持将大大改善其输出的情况下单独行动的概率。在人口水平上，我们表明最优政策是支持值的阈值规则。 在此结构的基础上，我们开发了一种在线算法，该算法自适应阈值化此类分数，并使用随机探索来控制错失支持错误，而无需分布假设。我们进一步引入了即时校准方法，以减少不必要的在线客服呼叫。 我们在不同的场景中实例化此框架，包括信息收集、人工-人工智能协作和工具使用，展示了如何通过相同的战略决策支持镜头对每个框架进行建模。这些设置的实验表明，我们的方法可靠地控制了目标错误，同时在实践中大大减少了支持使用。",
-      "originalSummary": "arXiv:2606.12587v1 Announce Type: new Abstract: Traditionally, decision support studies how humans use machine learning models to make better decisions. In modern agentic systems, this division of roles is increasingly reversed: AI agents act on behalf of users, while humans and tools becomes support mechanisms around them. This role reversal brings reliability concerns to the forefront, since agentic errors can be consequential and agent behavior must remain aligned with human goals and constraints. Departing from the classical view of decision support, we revisit its two basic principles, the cost--value tradeoff of seeking support and the role of uncertainty quantification, in a setting where AI agents are the central actors. We propose a framework for strategic decision support for AI agents through an optimization problem that minimizes support usage subject to controlling a counterfactual missed-support error: the probability that the agent acts alone on instances where support would have materially improved its output. At the population level, we show that the optimal policy is a threshold rule on the value of support. Building on this structure, we develop an online algorithm that adaptively thresholds such a score and uses randomized exploration to control missed-support error without distributional assumptions. We further introduce a calibration-on-the-fly method that reduces unnecessary support calls online. We instantiate this framework across diverse scenarios, including information gathering, human--AI collaboration, and tool use, showing how each can be modeled through the same strategic decision-support lens. Experiments across these settings show that our method reliably controls the target error while substantially reducing support usage in practice.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
+        "视频生成",
         "模型"
       ],
-      "score": 96
-    },
-    {
-      "title": "ToolSense ： LLM中审核参数工具知识的诊断框架",
-      "originalTitle": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.12451",
-      "date": "2026-06-12T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2606. 12451v1公告类型：新摘要：在大型工具目录上部署为代理的大型语言模型面临着关键的工具检索瓶颈。 由于基于嵌入的检索方法依赖于可能无法捕获专用工具语义的紧凑型编码器，因此参数化工具检索通过将每个工具编码为附加到LLM词汇表的虚拟令牌来解决这个问题，该令牌分两个阶段进行微调（记忆然后检索SFT ）以使用LLM作为检索器，从而在标准ToolBench检索基准上实现强大的性能。 然而，这些基准使用了详细的、完全指定的查询，它们的评估应用了约束解码，将输出限制为有效的令牌路径，两者都不能揭示模型是否真正理解其工具。 我们引入了\\ textbf {ToolSense} ，这是一个开源的LLM支持的诊断框架，它以任何工具目录为输入，并自动生成三个基准：具有三个模糊层查询的逼真检索基准(RRB)、MCQ探测基准和QA探测基准。 将ToolSense应用于ToolBench （约47k个工具）并评估五个参数模型训练配置，揭示了一种知识检索分离：在RRB查询中，与完全指定的ToolBench基准相比，几个配置崩溃约50-64个百分点，低于嵌入模型基准。此外，尽管检索性能很强，但一些模型在实际探测中得分接近随机，这表明知识检索分离。 我们在https://github. com/SAP/toolsense上开源了ToolSense框架和ToolBench诊断基准。",
-      "originalSummary": "arXiv:2606.12451v1 Announce Type: new Abstract: Large language models deployed as agents over large tool catalogs face a critical tool-retrieval bottleneck. As embedding-based retrieval approaches rely on compact encoders that may under-capture specialized tool semantics, parametric tool retrieval addresses this by encoding each tool as a virtual token appended to the LLM vocabulary, fine-tuned in two stages (memorization then retrieval SFT) to use the LLM as a retriever, achieving strong performance on standard ToolBench retrieval benchmarks. Yet these benchmarks use verbose, fully-specified queries, and their evaluation applies constrained decoding that restricts outputs to valid token paths, neither reveals whether the model actually understands its tools. We introduce \\textbf{ToolSense}, an open-source LLM-powered diagnostic framework that takes any tool catalog as input and automatically generates three benchmarks: a Realistic Retrieval Benchmark (RRB) with queries at three ambiguity tiers, an MCQ probing benchmark, and a QA probing benchmark. Applying ToolSense to ToolBench (~47k tools) and evaluating five parametric model training configurations reveals a knowledge-retrieval dissociation: on RRB queries, several configurations collapse by ~50-64 percentage points compared to fully-specified ToolBench benchmarks, falling below the embedding-model baseline. Additionally, despite strong retrieval performance, some models score near-random on factual probes, suggesting a knowledge-retrieval dissociation. We open-source the ToolSense framework and the ToolBench diagnostic benchmarks at https://github.com/SAP/toolsense.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测",
-        "模型"
-      ],
-      "score": 92
+      "score": 89
     },
     {
       "title": "Anthropic为隐形的Claude Fable护栏道歉",
@@ -136,22 +165,6 @@
       "score": 99
     },
     {
-      "title": "OpenAI收购ONA",
-      "originalTitle": "OpenAI to acquire Ona",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI计划收购ONA ，以通过安全、持久的云环境扩展Codex ，从而在企业工作流程中实现长期运行的AI代理。",
-      "originalSummary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
       "title": "BBVA将人工智能置于OpenAI银行业务的核心",
       "originalTitle": "BBVA puts AI at the core of banking with OpenAI",
       "source": "OpenAI",
@@ -168,6 +181,22 @@
       "score": 99
     },
     {
+      "title": "OpenAI收购ONA",
+      "originalTitle": "OpenAI to acquire Ona",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-to-acquire-ona",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI计划收购ONA ，以通过安全、持久的云环境扩展Codex ，从而在企业工作流程中实现长期运行的AI代理。",
+      "originalSummary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
       "title": "支持欧洲确保可信赖的人工智能生态系统的工作",
       "originalTitle": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "source": "OpenAI",
@@ -180,23 +209,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
-    },
-    {
-      "title": "通过您的Oracle云承诺访问OpenAI模型和Codex",
-      "originalTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "date": "2026-06-10T20:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "通过Oracle Cloud访问OpenAI模型和Codex ，利用现有承诺构建和部署具有企业安全和治理的AI。",
-      "originalSummary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
+      "score": 93
     },
     {
       "title": "Claude Fable不会回答基本的生物学问题",
@@ -208,23 +221,6 @@
       "fullContent": "Anthropic刚刚发布了Claude Fable 5 ，称其为迄今为止最强大的人工智能模型，并赞扬了其在生物学等方面的技能。但该模型无法回答基本的生物学问题-您希望高中生处理的那种问题。相反，它将查询传递给前旗舰模型Claude Opus 4. 8。这并不是因为寓言不知道答案。这是因为Anthropic故意不让它发生。 寓言是一个面向公众的神话类模型，一个非常擅长网络安全任务的家庭， Anthropic说公开发布太危险了。但是，虽然Anthropic已经花费了大部分扩展的Mythos rol……在The Verge阅读完整的故事。",
       "originalSummary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to the former flagship [&#8230;]",
       "rawFullText": "Anthropic just released Claude Fable 5 , calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to the former flagship model , Claude Opus 4.8. It isn't because Fable doesn't know the answers. It's because Anthropic won't let it, by design. Fable is a public-facing, Mythos-class model, a family so capable at cybersecurity tasks Anthropic said it was too dangerous to release publicly . But while Anthropic has spent much of the extended Mythos rol … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "微软出于数据保留问题限制Claude Fable为员工提供服务",
-      "originalTitle": "Microsoft restricts Claude Fable for employees over data retention concerns",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
-      "date": "2026-06-10T16:50:23.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic昨天发布了第一个Mythos级人工智能模型Claude Fable ，它已经引起了微软内部的担忧。消息人士告诉我，由于Anthropic的新数据保留要求，微软正在限制员工使用Claude Fable 5。 虽然微软很快向其GitHub Copilot和Foundry客户推出了Claude Fable 5 ，但我被告知，该模型在微软员工用于GitHub Copilot内部版本的模型选择器中不可用。所有其他Claude型号仍可在Microsoft内部使用，因为它们在零数据保留(ZDR)规则下运行。我明白微软在……阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic released Claude Fable, its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm [&#8230;]",
-      "rawFullText": "Anthropic released Claude Fable , its first Mythos-class AI model, yesterday and it's already causing concerns inside Microsoft. Sources tell me that Microsoft is limiting the use of Claude Fable 5 for employees because of Anthropic's new data retention requirements. While Microsoft quickly rolled out Claude Fable 5 to its GitHub Copilot and Foundry customers, I'm told the model isn't available in the model picker that Microsoft employees use for internal versions of GitHub Copilot. All other Claude models are still available internally at Microsoft, because they operate under Zero Data Retention (ZDR) rules. I understand that Microsoft ha … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态",
@@ -249,6 +245,22 @@
       "score": 99
     },
     {
+      "title": "通过您的Oracle云承诺访问OpenAI模型和Codex",
+      "originalTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-on-oracle-cloud",
+      "date": "2026-06-10T20:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "通过Oracle Cloud访问OpenAI模型和Codex ，利用现有承诺构建和部署具有企业安全和治理的AI。",
+      "originalSummary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
       "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
       "originalTitle": "From data to decisions: how LSEG is scaling trusted AI",
       "source": "OpenAI",
@@ -262,7 +274,22 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
+      "score": 97
+    },
+    {
+      "title": "微软完全明白为什么学生们在嘘人工智能毕业演讲者",
+      "originalTitle": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "date": "2026-06-10T17:45:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "全国各地的新大学毕业生一直在嘘声和质疑那些炒作人工智能的毕业典礼演讲者。微软希望每个人都能说出来。 在一篇超过3100字的博客文章中，微软副主席兼总裁布拉德·史密斯（ Brad Smith ）谈到了最近毕业典礼上出现的大量病毒片段，比如前谷歌首席执行官埃里克·施密特（ Eric Schmidt ）在亚利桑那大学（ University of Arizona ）听了一声，或者佛罗里达州的演讲者，当学生们嘘声将人工智能称为“下一次工业革命”时，他似乎感到惊讶。 “这些视频反映了围绕人工智能的更广泛的社会情绪--即使是技术公司，这项技术也非常不受欢迎……阅读The Verge的完整故事。",
+      "originalSummary": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from graduation ceremonies, like former Google CEO [&#8230;]",
+      "rawFullText": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI . Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from graduation ceremonies, like former Google CEO Eric Schmidt getting an earful at the University of Arizona , or the speaker in Florida who seemed surprised when students booed at the mention of AI as \"the next industrial revolution.\" The videos speak to a broader societal sentiment around AI - the technology is deeply unpopular even as technology compani … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
@@ -322,7 +349,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "Codex为Notion解锁了什么",
@@ -337,22 +364,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
-    },
-    {
-      "title": "向美国证券交易委员会保密提交S-1草案",
-      "originalTitle": "Confidential submission of draft S-1 to the SEC",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-submits-confidential-s-1",
-      "date": "2026-06-08T14:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI确认向SEC提交了一份保密的S-1文件，但尚未确定采取进一步行动的时间。",
-      "originalSummary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 92
+      "score": 79
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -368,7 +380,7 @@
         "智能体",
         "开源"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -383,7 +395,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -399,7 +411,7 @@
         "多模态",
         "安全"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -414,7 +426,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -444,7 +456,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "将MCP工具添加到Reachy Mini",
@@ -459,7 +471,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -474,7 +486,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -504,22 +516,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
-    },
-    {
-      "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
-      "originalTitle": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "date": "2026-06-01T13:51:18.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 76
+      "score": 64
     },
     {
       "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
@@ -534,7 +531,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
