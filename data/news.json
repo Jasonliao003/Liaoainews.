@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:08:47.058Z",
+  "updatedAt": "2026-06-14T10:39:39.624Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -11,13 +11,48 @@
     {
       "source": "Google DeepMind",
       "reason": "HTTP 404"
+    },
+    {
+      "source": "Hugging Face",
+      "reason": "HTTP 429"
     }
   ],
   "warnings": [
-    "2 个 RSS 来源抓取失败。",
+    "3 个 RSS 来源抓取失败。",
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "随着Anthropic暂停使用新车型，印度就其人工智能的未来展开辩论",
+      "originalTitle": "As Anthropic suspends access to new models, India debates its AI future",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "date": "2026-06-14T03:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
+      "fullContent": "在美国政府发布指令后， Anthropic突然停止使用其最新的人工智能模型，这在全球科技行业提出了新的问题。在印度，这一决定重新引发了一场长期争论，即世界上最大的人工智能市场之一是否能够负担得起依赖其他地方构建和控制的技术。这一消息是在周五晚些时候发布的，当时Anthropic表示已收到美国 政府指令要求其暂停所有外国国民（包括其本国的外籍雇员）使用其最近推出的寓言5和神话5型号。此前不久，该公司宣布与印度IT服务巨头塔塔咨询服务公司（ Tata Consultancy Services ）建立合作伙伴关系，以扩大印度企业人工智能的采用，这突显了该国的人工智能雄心与美国开发和管理的技术的紧密联系。 虽然更广泛的影响尚不清楚，但一些报道称，亚马逊首席执行官安迪·贾西（ Andy Jassy ）首先向政府报告了最初的安全问题。The Information表示，白宫不太可能将类似的限制扩展到其他人工智能公司，并私下指责Anthropic处理所谓的越狱漏洞。 Anthropic对政府的描述提出异议，并认为不应该采取这种行动。无论如何，这一发展引发了印度创始人、投资者和政策专家之间的争论，即该国是否应该加快努力建立国内人工智能能力，深化对开源替代品的投资，或者继续依赖少数美国前沿模型提供商。 对一些人来说，这一事件是对技术依赖的警钟。对于其他人来说，这提醒我们，对越来越重要的人工智能系统的访问可能会受到印度无法控制的地缘政治决策的影响。印度已成为前沿人工智能公司最重要的市场之一。Anthropic和OpenAI都将这个南亚国家描述为仅次于美国的第二大市场，这反映了其在全球人工智能竞赛中的重要性日益增加。 最近几个月，这些公司已经在印度设立了办事处，扩大了本地招聘、合作伙伴关系和企业计划，押注于印度庞大的开发商、初创企业和企业基础，以加速采用其最新技术。对于印度科技行业的许多人来说， Anthropic周五的公告不仅仅涉及一家人工智能公司。 它重新提出了有关该国长期人工智能战略以及印度是否能够继续依赖少数外国前沿人工智能提供商的问题。“这完全改变了事情，”印度人工智能风险投资平台Activate的创始人Aakrit Vaish说，他指的是Anthropic的决定。“我认为这大大改变了我们所有人在印度思考主权人工智能的方式。 Vaish告诉TechCrunch ，他周六早上醒来时对这一消息感到“震惊和困惑” ，并表示这加强了开发国内人工智能能力的理由。他预计初创公司将越来越多地转向开源模式，并计划鼓励其投资组合中的公司减少对少数前沿人工智能提供商的依赖。",
+      "originalSummary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 93
+    },
+    {
+      "title": "据报道，在北京方面提出要求后， Meta将解除$ 2B的Manus交易",
+      "originalTitle": "Meta reportedly moves to unwind $2B Manus deal after Beijing&#8217;s demand",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "date": "2026-06-14T00:03:49.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "Meta已开始拆除对Manus的20亿美元收购，完成了与这家中国创立的人工智能初创公司的运营分离，并停止了两家公司之间的数据共享。这是朝着遵守北京大约两个月前以国家安全为由发布的剥离令迈出的最具体的一步。 据彭博社报道， Meta已将Manus从其内部系统切断，阻止员工将Manus工具用于内部项目，因为两家公司正在走向完全分离。 与此同时，根据5月份的报道， Manus的联合创始人已就从外部投资者那里筹集约10亿美元以从Meta收回创业公司进行了初步讨论，此举可能为中国合资企业结构和最终在香港上市铺平道路，今年MiniMax和Zhipu等中国人工智能创业公司的人工智能上市数量激增。 原本应该是中国人工智能的一个里程碑式的退出正在迅速解开。此举凸显了北京方面保持对战略敏感技术的控制的决心，无论公司是否在海外注册。除了强制撤资外，中国当局还扩大了对私营公司研究人员和高管的旅行限制，要求在出国前获得政府批准。 中国也在收紧对外国资本的控制，有报道称，包括Moonshot AI、StepFun和ByteDance在内的顶级人工智能公司在接受美国投资之前将需要政府批准，这为北京控制其人工智能领域的全面努力又增加了一层。即使Meta开始切断与Manus的关系，这家代理人工智能初创公司仍在继续推出新功能，推出与Similarweb和Shopify的集成。 Manus在2025年中期将其员工转移到新加坡，然后在12月宣布Meta以20 $ 10亿收购之前引起了广泛关注。中国监管机构今年早些时候开始审查这笔交易，理由是可能违反技术出口管制和外国投资规则。 据《华尔街日报》报道，包括加利福尼亚风险投资公司Benchmark在内的Manus投资者已经从此次收购中获得了收益，而包括腾讯、HSG和ZhenFund在内的亚洲支持者则表示，他们将与平仓过程合作。 马努斯与母公司蝴蝶效应(Butterfly Effect)的中国血统引起了太平洋两岸的审查，参议员约翰·科宁(John Cornyn)质疑美国资本是否应流向一家与中国有联系的公司。Meta和Manus没有在正常营业时间之外立即回复置评请求。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
     {
       "title": "Anthropic的安全警告可能刚刚适得其反—政府已经取消了其最强大的人工智能",
       "originalTitle": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
@@ -36,19 +71,68 @@
       "score": 99
     },
     {
-      "title": "Andrew Yang认为下一个重大创业机会是降低生活成本",
-      "originalTitle": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "title": "据报道，亚马逊首席执行官在政府打击之前提出了人类模型的担忧",
+      "originalTitle": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
-      "date": "2026-06-13T04:14:19.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "企业家、前总统候选人安德鲁·杨（ Andrew Yang ）有一个关于下一波创业机会在哪里的理论，它始于一个大多数创始人没有问的问题：如果商业模式是回馈而不是提取资金呢？ Yang的灵感来自Mark Cuban。不是他的财富，也不是他的名人，而是Cost Plus Drugs--古巴一家以成本价销售药品的初创公司。杨列出了一份清单。 “住房，教育，食品，燃料，交通，媒体和无线，”杨在最近一期Equity上告诉TechCrunch。“我们都花钱买的东西。“他选择了无线，并于去年9月推出了Nobile Mobile ，这是一家新的移动虚拟网络运营商，提供传统运营商收费的一小部分蜂窝服务，并在客户使用较少数据时退款。 随着人工智能威胁压低工资和取代工人，杨看到了降低生活成本的商机。Cost Plus Drugs、Noble Mobile、Light Phone等哑巴手机制造商，甚至在线杂货店Misfits Markets ，都是新兴业务类别的早期例子，初创公司的价值主张是它给客户的回报。 “人工智能将吸收大量的价值和工作，然后美国人会抬头说， ‘我如何满足基本需求？杨说，他认为“以更低的成本”满足人们的需求是“一个非常丰富的机会。“这种本能不是从哪里冒出来的。 Yang在2020年总统竞选期间首次进入公众视野，在此期间，他倡导将全民基本收入作为打击与人工智能相关的劳动力流离失所和财富集中的一种手段。该活动没有成功，但论文的相关性越来越高。Yang仍然是UBI的倡导者，他认为人工智能公司产生的价值需要重新分配给普通美国人。 但是，政府是否会成为再分配的工具，或者政府是否只会利用所收集的财富来“堵塞漏洞并做一些不太有效的事情” ， Yang不太确定。他说： “资金和人民之间有直接联系的空间。”这就是市场发挥作用的地方。杨认为，在政策失败的地方，市场激励可以介入。Noble Mobile是他证明这一点的尝试。 自去年9月推出以来，该公司已发展到“成千上万”的客户，并带来了“数百万的收入”。“演讲很简单。Yang指出， 40年来平均每月节省50 $ ，投资和复合，可能达到24,000 $ —足以支付退休首付款。在这个经济体中，谁不考虑一些小的方法来升级他们的个人理财？ 投资者是否会分享这种热情完全是另一个问题。即使机会是真实的，资本现在也大量集中在人工智能上，而利润微薄且具有社会使命的面向消费者的企业则很难卖出。",
-      "originalSummary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "date": "2026-06-13T19:11:41.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
+      "fullContent": "亚马逊首席执行官安迪·贾西（ Andy Jassy ）可能是安全问题的根源，导致Anthropic周五在全球范围内切断了两款车型的访问权限。据《华尔街日报》报道， Jassy告诉财政部长Scott Bessent和其他政府官员，亚马逊的研究人员使用了Anthropic的Claude Fable 5来获取可能用于网络攻击的信息。随后，政府对Fable 5和Mythos 5型号实施了出口管制禁令。 亚马逊发言人在一份声明中表示，虽然“政府就潜在的安全风险寻求我们的咨询意见并不罕见” ，但该公司不会“分享这些讨论的细节。“发言人还指出， AWS已受到模型切断的影响。The Information和路透社同样报道称，亚马逊（主要的人类投资者）表达了对Anthropic模型安全性的担忧。 特朗普的前人工智能沙皇大卫·萨克斯（ David Sacks ）现任总统科学技术顾问委员会（ President's Council of Advisors on Science and Technology ）联合主席，他提供了自己对讨论的描述，声称“人类和美国政府的高度可信赖的合作伙伴[…]提出了越狱。Sacks补充道：“管理员要求[Anthropic首席执行官Dario Amodei]修复越狱或解除部署模型。Dario拒绝了。 Anthropic在一篇博客文章中表示，显然引起政府关注的能力已经在其他可公开访问的模型中可用。此帖子已更新，并附有亚马逊发言人的声明。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。",
+      "originalSummary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态",
+        "模型"
       ],
-      "score": 76
+      "score": 93
+    },
+    {
+      "title": "据报道，亚马逊的安全研究导致了白宫的人类寓言禁令",
+      "originalTitle": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "date": "2026-06-13T21:39:26.000Z",
+      "summary": "这条新闻与公司动态、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、论文相关动态",
+      "fullContent": "据《华尔街日报》报道，导致Anthropic切断Fable 5和Mythos 5访问权限的出口管制指令部分是由亚马逊的网络安全研究以及首席执行官Andy Jassy与白宫之间的对话引发的。根据该报告，亚马逊的论文声称，通过一系列提示，它能够让Fable 5提供可用于网络攻击的信息。 亚马逊尚未回复置评请求。在Jassy与政府分享该公司的调查结果后不久，它就呼吁阻止外国人使用它。使这个问题复杂化的是，许多……阅读The Verge的完整故事。",
+      "originalSummary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series [&#8230;]",
+      "rawFullText": "According to the Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that many of … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "论文"
+      ],
+      "score": 92
+    },
+    {
+      "title": "根据政府命令， Anthropic切断了Fable 5和Mythos 5的访问权限",
+      "originalTitle": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "date": "2026-06-13T12:55:49.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
+      "fullContent": "周五晚上，出于国家安全考虑，政府下令Anthropic阻止美国境内外所有外国人访问寓言5和神话5。该命令包括Anthropic的员工。为了满足这些需求，该公司完全切断了所有客户对车型的访问。 Anthropic在一份声明中表示，虽然它遵守了这一命令，但政府“没有提供有关其国家安全问题的具体细节。“相反，它声称任何潜在越狱的证据都是口头提供的，发现的漏洞很小，可以通过其他模型获得……阅读The Verge的完整故事。",
+      "originalSummary": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In [&#8230;]",
+      "rawFullText": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In a statement , Anthropic said that while it was complying with the order, the government \"did not provide specific details of its national security concern.\" Instead, it claims that any evidence of potential jailbreak was provided verbally, and that the vulnerabilities discovered were minor and available via other model … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "好莱坞的未来并不是为香草一代的人工智能模型提供提示",
+      "originalTitle": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "date": "2026-06-13T11:00:00.000Z",
+      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、模型相关动态",
+      "fullContent": "来自Dear Upstairs Neighbors的概念艺术，曾经训练谷歌Veo和Imagen模型的定制构建。|图片：谷歌DeepMind关于生成式人工智能如何准备彻底改变电影制作行业的所有噪音，实际上还没有任何项目使用人们愿意付费观看的技术来创建。 大多数人工智能公司的视频模型仍然只能产生短暂的视觉不一致的镜头。好莱坞一些最大的人工智能合作伙伴关系突然消失，似乎电影公司可能无法依靠硅谷的新技术。在大多数情况下，短视频SLOP似乎是主要制作公司唯一能做到的事情……阅读The Verge的完整故事。",
+      "originalSummary": "For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of [&#8230;]",
+      "rawFullText": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of visually inconsistent footage . And some of Hollywood's biggest AI partnerships have suddenly evaporated in ways that make it seem like studios might not be able to rely on the new technology coming out of Silicon Valley. For the most part, short-form video slop appears to be the only thing that major production houses ar … Read the full story at The Verge.",
+      "tags": [
+        "视频生成",
+        "模型"
+      ],
+      "score": 89
     },
     {
       "title": "SpaceX、Anthropic和OpenAI的热门IPO夏季",
@@ -56,22 +140,6 @@
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
       "date": "2026-06-12T16:23:25.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
-      "fullContent": "IPO市场又回来了，不是同一家公司在主导。FAANG的表现不错，但一个新的首字母缩略词正在接管： MANGOS — Meta （或微软，具体取决于您的要求）、Anthropic、Nvidia、Google、OpenAI和SpaceX。其中一半将在同一窗口内进入公开市场，这是对投资者、估值和[…]的压力测试。",
-      "originalSummary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "算力芯片"
-      ],
-      "score": 99
-    },
-    {
-      "title": "现在是炎热的IPO夏天，芒果成熟了",
-      "originalTitle": "It’s hot IPO summer, and the MANGOS are ripe",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
-      "date": "2026-06-12T15:50:52.000Z",
       "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
       "fullContent": "IPO市场又回来了，不是同一家公司在主导。FAANG的表现不错，但一个新的首字母缩略词正在接管： MANGOS — Meta （或微软，具体取决于您的要求）、Anthropic、Nvidia、Google、OpenAI和SpaceX。其中一半将在同一窗口内进入公开市场，这是对投资者、估值和[…]的压力测试。",
       "originalSummary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
@@ -112,40 +180,37 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "Avataar的视频人工智能更便宜、更快、更具文化意识，专为印度的规模而打造",
-      "originalTitle": "Cheaper, faster, and culturally aware, Avataar&#8217;s video AI is built for India&#8217;s scale",
+      "title": "Siri不会成为你的人工智能女友",
+      "originalTitle": "Siri won’t be your AI girlfriend",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
+      "date": "2026-06-12T07:00:31.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "“听着，这不是我来这里的目的。'|图片：苹果我们的早期测试已经表明， Siri AI知道什么时候该闭嘴，这在很大程度上是出于设计。在接受MacRumors采访时，克雷格·费德里吉（ Craig Federighi ）表示，苹果的新Siri不会像OpenAI、谷歌和其他公司制造的聊天机器人那样表现得那么讽刺。 “你可能知道，如果你使用许多现有的聊天机器人，它们在很大程度上真的专注于参与，”苹果负责软件的Federighi说。“还有开玩笑，对吧？他们有点想把你拉进来。他们可能会鼓励你透露自己的情况，然后以此为基础建立联系。“苹果故意……阅读The Verge的完整故事。",
+      "originalSummary": "Our early testing has already shown that Siri AI knows when to shut up, and that's very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you use many [&#8230;]",
+      "rawFullText": "‘Listen, that's not what I'm here for.' | Image: Apple Our early testing has already shown that Siri AI knows when to shut up , and that's very much by design. In an interview with Mostly Human spotted by MacRumors , Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you use many of the existing chatbots, they're really focused on engagement to a large degree,\" said Federighi, who is responsible for software at Apple. \"And sycophancy, right? They kind of want to pull you in. They might encourage you to reveal things about yourself, and then use that as a basis to establish a connection.\" Apple purposely took a di … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 85
+    },
+    {
+      "title": "传闻Mistral将以200亿欧元的估值筹集30亿欧元",
+      "originalTitle": "Mistral is rumored to be raising €3B at €20B valuation",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-      "date": "2026-06-12T04:30:00.000Z",
-      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：视频生成、模型相关动态",
-      "fullContent": "与美国、欧洲和中国相比，印度的人工智能模型输出速度缓慢。只有少数初创公司正在发布模型，其中大多数是大型语言模型或语音模型。为了鼓励更多的发展，政府推出了印度人工智能使命，这是一项约12亿美元的计划，除其他外，该计划为选定的初创公司提供获得补贴的GPU计算，以换取公开发布他们的模型。 入选该计划的12家初创公司之一Avataar AI推出了名为Varya的新视频模型，该模型旨在了解当地背景，例如识别不同的节日、食物和服装。Peak XV支持的初创公司专注于为电子商务创建视频工具，并没有从头开始构建Varya。从万二开始。 2 ，由阿里巴巴发布的公开视频生成模型，并使用了一种称为蒸馏的技术—基本上将模型的功能压缩成针对Avataar的特定用例优化的更精简，更快的版本。结果是一个分四步运行的模型，而不是Wan 2. 2的50 ，视频制作速度提高了10倍，成本也降低了几分之一。 具体而言：使用Nvidia H200显卡， Varya可以在45秒内生成5秒的720p剪辑，而Wan 2则为1,230秒。2. Varya最引人注目的方面可能是它的价格。该公司计划在其托管服务上每秒收取0.48卢比（ 0.005美元）的视频费用，这比Veo、Kling、Luma和Runway等型号便宜得多，后者通常每秒收费0.10美元或更多。差价约为20倍。 “印度是一个视频优先的市场。我们在印度的每一款大型消费互联网产品中都看到了这一点：视频胜过文本。目前的人工智能视频模型对于印度的人口规模使用来说太昂贵了。如果视频人工智能要惠及学生、教师、中小微企业、创作者、企业和公共服务，成本必须大幅下降。 成本是印度人工智能采用的最大释放， ”Peak XV的董事总经理Rajan Anandan告诉TechCrunch。图像和视频生成模型往往会错过文化细微差别，并产生刻板印象或通用输出--这是TechCrunch之前报道过的一个问题。Avataar AI表示，它已使用精选数据来训练Varya识别文化细微差别，包括食物、服装、建筑和节日。 Varya将作为开放权重模型在印度的AIKosh门户网站上发布， AIKosh门户网站是印度政府公开可用的人工智能模型和数据集的集中存储库，其培训数据意味着开发人员可以根据自己的需求自行托管或修改它。Avataar还计划向其企业客户提供该模型，并表示它对与视频工具（包括Higgsfield和Adobe Firefly ）的合作持开放态度。 任何人现在都可以在其网站上使用文本提示或参考图像进行尝试。Varya的推出反映了印度人工智能雄心壮志的基本权衡。业内资深人士指出，印度可以通过创建应用程序和强大的开发者生态系统，而不是在基础模型上竞争，在人工智能领域留下自己的印记。",
-      "originalSummary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
+      "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "date": "2026-06-12T17:38:11.000Z",
+      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：投融资相关动态",
+      "fullContent": "彭博社周五援引匿名消息人士的话报道，法国人工智能实验室Mistral AI正在早期讨论筹集约30亿欧元（ 35亿美元）。这轮融资将使该公司的估值达到约200亿欧元（约合231.5亿美元） ，几乎是去年9月C轮融资中获得的117亿欧元估值的两倍。 作为欧洲领先的人工智能初创公司之一， Mistral于2023年推出，其雄心壮志是“将前沿人工智能置于每个人的手中。“与美国竞争对手相比，该公司在人工智能开发方面采取了更开放的方法，提供了一些具有开放权重的基础大型语言模型，允许任何人在他们认为合适的时候定制它们。 该公司还提供量身定制的封闭模型，适用于编程、语音克隆和生成以及光学字符识别等用例。最近，随着欧洲国家远离美国科技， Mistral将自己定位为一个更友好、“主权”和本土的替代品。 该公司正在巴黎附近建立一个数据中心，并与法国军队、卢森堡政府和几家主要的欧洲公司合作。尽管如此，根据PitchBook ， Mistral迄今仅筹集了约40亿美元，仅为美国竞争对手OpenAI （ 1860亿美元）和Anthropic （ 1612.5亿美元）的一小部分。 这些实验室的价值也高得多，反映了美国实验室在收入、模型采用和企业需求方面的进一步发展。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
       "rawFullText": "",
       "tags": [
-        "视频生成",
-        "模型"
+        "投融资"
       ],
-      "score": 89
-    },
-    {
-      "title": "Anthropic为隐形的Claude Fable护栏道歉",
-      "originalTitle": "Anthropic apologizes for invisible Claude Fable guardrails",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
-      "date": "2026-06-11T11:40:43.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic为其新的人工智能模型Claude Fable 5的悄悄节流而道歉，其隐藏的护栏破坏了研究人员和竞争对手使用它来开发竞争系统。该公司表示，它正在扭转局面，并将更加透明地说明限制何时生效，即使这意味着寓言拒绝更多查询。 Fable是Anthropic的Mythos类人工智能系统的第一个广泛使用的模型，该公司花了数月时间警告该模型对于公开发布来说太危险了。Anthropic表示，它已经通过推出带有保障措施的寓言来应对其中的一些风险，这些保障措施可以防止它对某些“高...阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5, with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversing course and will be more transparent about when the restrictions kick in, even if that means Fable refuses more queries. Fable [&#8230;]",
-      "rawFullText": "Anthropic has apologized for stealthily throttling its new AI model, Claude Fable 5 , with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversing course and will be more transparent about when the restrictions kick in, even if that means Fable refuses more queries. Fable is the first widely available model in Anthropic's Mythos class of AI systems, a group the company has spent months warning are too dangerous for public release . Anthropic says it has addressed some of those risks by launching Fable with safeguards that prevent it from responding to certain \"high-r … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
+      "score": 81
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -209,24 +274,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "Claude Fable不会回答基本的生物学问题",
-      "originalTitle": "Claude Fable won’t answer basic biology questions",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
-      "date": "2026-06-10T18:43:34.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic刚刚发布了Claude Fable 5 ，称其为迄今为止最强大的人工智能模型，并赞扬了其在生物学等方面的技能。但该模型无法回答基本的生物学问题-您希望高中生处理的那种问题。相反，它将查询传递给前旗舰模型Claude Opus 4. 8。这并不是因为寓言不知道答案。这是因为Anthropic故意不让它发生。 寓言是一个面向公众的神话类模型，一个非常擅长网络安全任务的家庭， Anthropic说公开发布太危险了。但是，虽然Anthropic已经花费了大部分扩展的Mythos rol……在The Verge阅读完整的故事。",
-      "originalSummary": "Anthropic just released Claude Fable 5, calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to the former flagship [&#8230;]",
-      "rawFullText": "Anthropic just released Claude Fable 5 , calling it the most powerful AI model it has ever made widely available and praising its skills in biology, among others. But the model won't answer basic biology questions - the kind you'd expect a high schooler to handle. Instead, it hands off the query to the former flagship model , Claude Opus 4.8. It isn't because Fable doesn't know the answers. It's because Anthropic won't let it, by design. Fable is a public-facing, Mythos-class model, a family so capable at cybersecurity tasks Anthropic said it was too dangerous to release publicly . But while Anthropic has spent much of the extended Mythos rol … Read the full story at The Verge.",
+      "title": "天体物理学家如何使用法典来帮助模拟黑洞",
+      "originalTitle": "How an astrophysicist uses Codex to help simulate black holes",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "了解天体物理学家Chi-kwan Chan如何使用Codex构建黑洞模拟，帮助科学家研究极端物理并测试爱因斯坦的广义相对论。",
+      "originalSummary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 80
     },
     {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
@@ -258,7 +321,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
@@ -274,22 +337,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
-    },
-    {
-      "title": "微软完全明白为什么学生们在嘘人工智能毕业演讲者",
-      "originalTitle": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
-      "date": "2026-06-10T17:45:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "全国各地的新大学毕业生一直在嘘声和质疑那些炒作人工智能的毕业典礼演讲者。微软希望每个人都能说出来。 在一篇超过3100字的博客文章中，微软副主席兼总裁布拉德·史密斯（ Brad Smith ）谈到了最近毕业典礼上出现的大量病毒片段，比如前谷歌首席执行官埃里克·施密特（ Eric Schmidt ）在亚利桑那大学（ University of Arizona ）听了一声，或者佛罗里达州的演讲者，当学生们嘘声将人工智能称为“下一次工业革命”时，他似乎感到惊讶。 “这些视频反映了围绕人工智能的更广泛的社会情绪--即使是技术公司，这项技术也非常不受欢迎……阅读The Verge的完整故事。",
-      "originalSummary": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI. Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from graduation ceremonies, like former Google CEO [&#8230;]",
-      "rawFullText": "New college graduates around the country have been booing and heckling commencement speakers who hype up AI . Microsoft would like everyone to talk it out. In a blog post running more than 3,100 words, Microsoft vice chair and president Brad Smith addressed the recent spate of viral clips from graduation ceremonies, like former Google CEO Eric Schmidt getting an earful at the University of Arizona , or the speaker in Florida who seemed surprised when students booed at the mention of AI as \"the next industrial revolution.\" The videos speak to a broader societal sentiment around AI - the technology is deeply unpopular even as technology compani … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
+      "score": 96
     },
     {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
@@ -304,7 +352,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -319,37 +367,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 91
-    },
-    {
-      "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
-      "originalTitle": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "date": "2026-06-09T10:46:19.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 83
-    },
-    {
-      "title": "推出North Mini Code ： Cohere首款面向开发人员的模型",
-      "originalTitle": "Introducing North Mini Code: Cohere’s First Model For Developers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "date": "2026-06-09T15:56:23.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 80
+      "score": 89
     },
     {
       "title": "Codex为Notion解锁了什么",
@@ -364,23 +382,37 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
-      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
-      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/openenv-agentic-rl",
-      "date": "2026-06-08T00:00:00.000Z",
-      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
-      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
-      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "title": "智能时代的产业政策",
+      "originalTitle": "Industrial policy for the Intelligence Age",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "date": "2026-06-09T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "探索我们在人工智能时代雄心勃勃、以人为本的产业政策理念--随着先进智能的发展，专注于扩大机会、分享繁荣和建立有弹性的机构。",
+      "originalSummary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "开源"
+        "AI 热点"
       ],
-      "score": 88
+      "score": 78
+    },
+    {
+      "title": "关于人工智能，您需要了解的五件事",
+      "originalTitle": "Five things you need to know about AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "date": "2026-06-09T09:16:45.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“关于人工智能，您需要了解的五件事”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
+      "rawFullText": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world , but I also veered off on a number of tangents. In my half-hour slot, I tried to cover the key talking points that I think help to make sense of what’s going on in tech—and thus the economy—today. (I gave a talk with the same title at SXSW London last year with five different things you needed to know. A lot has happened since then!) So: This is how I’m thinking about AI midway through 2026. Let me know if you would pick different points! 1. Strictly speaking, I didn’t need to show up to give this talk. Tongue in cheek? Maybe. But generative AI tools have already become mundane, used by millions to automate everyday office tasks (including producing and delivering talks ). It’s no surprise that one of the biggest questions out there right now is what this all means for jobs . People are confused and scared. The frustrating answer is that despite the hype coming from the top about the potential for AI to join the workforce soon—and viral social media posts yelling that something big is happening—there is almost no data to say either way what kind of effect this technology will have on employment and the economy overall. That’s not to say it won’t have an impact, even a huge one, but it’s just too soon to tell. In theory, teams of agents working together toward common goals could become assembly lines for white-collar work, doing to offices this century what Henry Ford’s innovations did to factories in the 20th century. In theory. Because in order to know what will happen to jobs, we need to know what will happen inside the companies that create those jobs. But most companies are still figuring that out . 2. AI is getting scary (for real this time). There have been scary stories about AI for years—claims that it will kill us all or bring about the end of civilization. There’s still a loud crowd of doomers , but those scenarios remain dystopian science fiction. What’s happened instead is that many of the worst near-term, real-world fears have come true. Take deepfakes , AI-generated images or videos of people doing things they didn’t actually do. Deepfakes have been used to incite violence, swing votes, and sow distrust. Trump’s White House is among those creating and publishing fake images. Many deepfakes are also used to abuse women and girls. One study found that 98% of deepfakes are pornographic and 99% involve women. Another concern is the rise of dangerous and delusional relationships with chatbots. Many people turn to chatbots to seek private advice and to feel heard. But there are now multiple lawsuits against AI companies alleging that the technology encouraged or aided suicides and other forms of self-harm. AI is also being used in warfare in new and worrying ways . LLMs are now giving advice, not just being used for analysis. One US defense official told my colleague James O’Donnell that you could now give a military chatbot a list of targets and ask which one to hit first. Anyone who uses AI knows that its output needs to be reviewed carefully. In fact-paced, high-stress active conflict, the risk that corners get cut is high. 3. A lot of people really hate AI. I checked out an anti-AI protest in London earlier this year and found a very broad mix of complaints. Banners proclaiming the end times bounced along to chants of “Stop the slop! Stop the slop!” Protests are getting more organized and drawing larger crowds. There’s pushback from fans of films and video games, who object to the use of generative AI in their favorite titles. In one notable case, the acclaimed 2025 game Clair Obscur was stripped of an award when the developers admitted to using AI in just one small, specific part of its production. And there’s the data center backlash. The US has more than 5,400 data centers and counting. With the energy demands of AI growing, people are unhappy about the environmental impact and their rising electricity bills. Activists are managing to stall development in a number of places. Regulation is becoming politically popular . Grassroots movements like QuitGPT have gained momentum. A small number have turned to violence; a few weeks ago somebody threw a Molotov cocktail at Sam Altman’s house. It’s not clear where all this leads. But the apocalyptic hype from tech leaders is not helping people stay calm. 4. AI for science is a very big deal. It’s early days yet, but the potential for AI to help make a genuine and important scientific discovery is greater than ever. Google DeepMind has developed Co-Scientist , a multipurpose tool that can help researchers dig up and compare previous results, generate hypotheses, and devise experiments to test them. OpenAI told me this year that its North Star is the goal of building a fully automated researcher by 2028. Mathematicians are excited too. Fundamental math underpins many everyday technologies, from internet security to video streaming. The last few months have seen a string of claims that AI has cracked unsolved math problems. And software that can solve really hard math problems will be able—so the argument goes—to solve more general-purpose real-world problems too. What are the downsides? Some scientists are warning that an overreliance on AI tools could narrow the scope of research because scientists may choose problems that are most suited to AI assistance. There are also concerns that AI-assisted research will lead to a flood of inaccurate or fake results: science slop. 5. AI is everywhere all at once. So where does that leave us? There are a lot of exciting things, a lot of worrying things, and a lot of hot air. It can be exhausting to keep up, and yet it all feels inescapable . Some people will tell you we’re in a race to the top; some will tell you we’re in a race to the bottom. But it’s really not clear where we’re headed. AI companies want us to march to their tune and buy into the propaganda about artificial general intelligence , whatever that means . They are selling a vision that feels inevitable, but it isn’t. We’ve built a technology that can do humanlike things , and I think that makes it hard to get our heads around the fact that it is still just a technology. Something is happening. Maybe even something comparable to the invention of electricity or the internet. But technologies like that take time to settle and bring lasting change. Get ready for a marathon, not a sprint. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here .",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 70
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -395,38 +427,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
-    },
-    {
-      "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
-      "originalTitle": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "date": "2026-06-04T18:57:45.000Z",
-      "summary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
-      "fullContent": "Nemotron的新增功能3. 5内容安全1.统一多式联运评估2.全球语言覆盖3.自定义策略执行4.推理痕迹（思考模式） 5. 安全数据集模型架构推理培训数据基准测试延迟解决基准测试差距入门过去两年， NVIDIA的内容安全堆栈从一个专注的英语文本分类器发展成为一个专业模型系列--每个模型都将覆盖范围扩展到新的模式、语言和推理模式。 Nemotron 3 Content Safety于2026年3月发布，首次在单个4B参数模型中结合了多模式和多语言功能。今天，我们发布了Nemotron 3. 5内容安全，完善了这一概念：将多模式输入、多语言覆盖、自定义企业策略实施和可审计推理统一到一个推理通话中的单一模型。这篇文章介绍了3中的变化。 5、每个新功能背后的设计决策，以及如何将模型集成到安全生产管道中。Nemotron 3引入了图像理解； Nemotron 3. 5深化了多模态集成。该模型将用户提示、可选图像和可选助理响应作为单个上下文窗口，并对组合输入产生一致的安全判断。 综合评估所有三个因素，而不是分别进行评分，可以弥补多式联运安全场景中的一个众所周知的差距：现在，只有在文本与图像之间或请求与响应之间的交互中才会出现政策违规行为。Nemotron 3. 5保留了其前身的12种语言的显式培训覆盖范围-英语，法语，西班牙语，德语，中文，日语，韩语，阿拉伯语，印地语，俄语，葡萄牙语和意大利语-同时还从Gemma 3基本模型中继承了大约140种语言的强大零点概括。这意味着在培训数据稀疏的市场中进行部署（例如， 、东南亚语言、斯堪的纳维亚语言、资源较少的非洲语言）受益于基本模型多语言迁移，而无需单独微调。相对于Nemotron 3 ，这是3. 5中最重要的建筑添加。生产部署很少在单一的通用安全分类法下运行。 医疗保健平台的风险状况与金融服务聊天机器人、开发人员工具IDE或儿童教育应用程序不同。Nemotron 3. 5接受与输入一起的自定义策略规范。该模型在做出判决时会考虑该策略，而不是完全遵循内置的分类法。这将Nemotron内容安全推理4B中首次引入的工作扩展到完整的多模式、多语言设置。",
-      "originalSummary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
-      "rawFullText": "",
-      "tags": [
-        "多模态",
-        "安全"
-      ],
-      "score": 85
-    },
-    {
-      "title": "将hf CLI设计为使用Hub的代理优化方式",
-      "originalTitle": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/hf-cli-for-agents",
-      "date": "2026-06-04T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“将hf CLI设计为使用Hub的代理优化方式”。它主要涉及智能体方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 77
+      "score": 75
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -441,52 +442,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "超越聊天机器人的直接偏好优化",
-      "originalTitle": "Direct Preference Optimization Beyond Chatbots",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "date": "2026-06-03T12:55:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 68
-    },
-    {
-      "title": "将MCP工具添加到Reachy Mini",
-      "originalTitle": "Adding MCP Tools to Reachy Mini",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "date": "2026-06-03T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“将MCP工具添加到Reachy Mini”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 67
-    },
-    {
-      "title": "Holo3.1 ：快速和本地计算机使用代理",
-      "originalTitle": "Holo3.1: Fast & Local Computer Use Agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Hcompany/holo31",
-      "date": "2026-06-02T14:13:23.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "移动自动化交叉线束性能更小尺寸，以实现对消费硬件本地代理的成本性能权衡去年3月，我们发布了Holo3 ，这是我们最先进的计算机使用模型。采用很快。开发人员、企业和合作伙伴开始在广泛的工作流程中部署Holo3 ，从浏览器自动化和业务软件到内部工具和桌面应用程序。 随着采用率的增长，我们意识到仅有绩效是不够的。用户希望在桌面和移动环境中运行相同的计算机使用功能，并与不同的代理框架无缝集成。他们需要部署的灵活性，从云推断到最终用户设备上的完全本地执行。这就是我们发布Holo3. 1系列的原因。Holo3。 1提高了生产中最重要的三个维度的稳健性：环境（ Web、桌面、移动）、代理框架和部署目标。我们首次发布了针对局部推理进行优化的量化检查点，包括FP8、Q4 GGUF和NVFP4。Holo3。 1是我们实现通用计算机代理愿景的重要一步：系统可以跨环境运行，集成到任何代理堆栈中，并在工作流程所在的任何地方运行。Holo3. 1基于Qwen系列，旨在提高实际部署计算机使用代理的环境的鲁棒性，同时保持最先进的性能。 随着团队将Holo3从评估转移到生产，我们反复观察到同样的挑战：在一个环境中的强劲表现不一定会转移到另一个环境中。移动设备、替代代理线束和不同的执行框架都引入了自己的分销转变来源。Holo3. 1将Holo3的功能扩展到浏览器和桌面控制之外，为移动环境带来了重大收益。 在AndroidWorld上，我们的35B-A3B模型从67%提高到79. 3% ，而较小的4B和9B变体从58%提高到72%。为了更好地支持在第三方代理堆栈中部署Holo的团队，除了Holo3中已有的结构化JSON输出之外， Holo3. 1还引入了对函数调用协议的本机支持。 在OSWorld和我们涵盖电子商务、业务软件和协作工作流程的内部基准套件中，功能调用和本地执行现在实现了接近同等的性能。当在我们的Holotab产品线束内进行评估时， Holo3. 1也比Holo3提高了25 ％以上。为了进一步实现本地和设备上的推理，我们还发布了新的模型尺寸，包括小型模型（ 0. 8B、4B和9B ） ，以实现具有成本效益的私有部署，此外还有较大的35B-A3B型号，以提供最先进的性能。Holo3. 1和Qwen 3. 5系列的性能与成本对比。总体性能首先对四个H Corporate基准进行平均（因此每个系列的权重相等） ，然后对OSWorld、AndroidWorld、H Corporate、ScreenSpot-Pro和OSWorld-G进行平均。这是我们首次发布量化权重。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 76
+      "score": 66
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -501,7 +457,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "小型企业如何利用人工智能",
@@ -516,22 +472,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
-    },
-    {
-      "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
-      "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "date": "2026-06-01T15:45:17.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 72
+      "score": 63
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
