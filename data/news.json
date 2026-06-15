@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T10:39:39.624Z",
+  "updatedAt": "2026-06-15T00:18:23.204Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -11,17 +11,29 @@
     {
       "source": "Google DeepMind",
       "reason": "HTTP 404"
-    },
-    {
-      "source": "Hugging Face",
-      "reason": "HTTP 429"
     }
   ],
   "warnings": [
-    "3 个 RSS 来源抓取失败。",
+    "2 个 RSS 来源抓取失败。",
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "OpenAI合作伙伴网络简介",
+      "originalTitle": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-openai-partner-network",
+      "date": "2026-06-14T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI推出合作伙伴网络，投资1.5亿美元，帮助全球合作伙伴加快企业人工智能的采用、部署和转型。",
+      "originalSummary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
     {
       "title": "随着Anthropic暂停使用新车型，印度就其人工智能的未来展开辩论",
       "originalTitle": "As Anthropic suspends access to new models, India debates its AI future",
@@ -39,6 +51,36 @@
       "score": 93
     },
     {
+      "title": "中国可能访问了Mythos",
+      "originalTitle": "China may have accessed Mythos",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "date": "2026-06-14T18:27:55.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "根据Semafor的一份新报告，白宫决定对人类的神话实施出口限制，部分原因是担心它被一个与中国有联系的团体访问。如果中国政府实际上可以访问神话5或寓言5 ，这将构成严重的国家安全风险。 政府还可以尝试通过蒸馏对模型进行逆向工程，这种方法是用更先进的模型对“学生”人工智能进行培训，以复制其行为。白宫尚未证实这一报道，特朗普顾问大卫·萨克斯（ David Sacks ）关于X的帖子也没有提到中国。相反， Sacks专注于……阅读The Verge的完整故事。",
+      "originalSummary": "According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security [&#8230;]",
+      "rawFullText": "According to a new report from Semafor , the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security risk. The government could also attempt to reverse engineer the model through distillation , a method in which a \"student\" AI is trained on a more advanced model to replicate its behavior. The White House has not confirmed this report, and a post on X by Trump advisor David Sacks did not mention China. Instead, Sacks focused on a r … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
+    },
+    {
+      "title": "随着人工智能公司竞相上市，还有谁会参与其中？",
+      "originalTitle": "As AI companies race to go public, who else is along for the ride?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "date": "2026-06-14T16:38:09.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "SpaceX本周在有史以来最大规模的IPO中上市，使首席执行官埃隆·马斯克(Elon Musk)成为世界上第一位万亿富翁。尽管有它的名字， SpaceX一直在强调其昂贵的人工智能业务的潜力，竞争对手OpenAI和Anthropic可能很快就会跟随他们自己的公开市场首次亮相。因此，在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我讨论了一个炎热的IPO夏天。 Sean说： “我们让SpaceX不仅吸收了公共市场上可用的大部分资金，而且还测试了上市公司的极限，以及它可以由一个人控制的程度。” “我真的很关注其他将上市的科技公司，以及他们将尝试效仿多少。 Kirsten还指出，还有其他初创公司试图“驾驭SpaceX的IPO浪潮” ，例如在SpaceX帮助推广这一概念后，为轨道数据中心筹集资金。“因此，整个市场正在发生连锁反应，我认为这可能比标题更有趣， ‘SpaceX让伊隆成为万亿富翁’ ，”她说。请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 Anthony Ha ：我想从SpaceX的IPO中缩小一点，因为除了埃隆·马斯克之外，这可能是不同人工智能公司的一系列不同IPO的开始。我们已经讨论过Anthropic秘密申请上市，现在OpenAI也做了同样的事情。你们俩对此有多兴奋？ Kirsten Korosec ：首先，我想说我喜欢Julie Bort的故事，我认为这个故事总结得非常好。这是一个很棒的标题，所以我会在这里阅读： “这不再是FAANG ，而是芒果。“ FAANG是Facebook ，现在是Meta ；亚马逊；苹果； Netflix ；谷歌，现在是Alphabet。现在它已经发生了变化，我们有Meta ， Anthropic ， NVIDIA ， Google ， OpenAI ， SpaceX。 [我们仍然有]大型科技公司，当然，但这里有一个转变，对吧？首先，我们有一堆人工智能实验室，这是非常不同的。Netflix从那里启动，这是一个巨大的流媒体服务。 因此，对我来说，就公共市场而言，这是一个有趣的转变，公共市场上可用的大量资金和资本正在从消费者[和]社交网络转向，特别是人工智能实验室和其他更具创新性的Deeptech ，如SpaceX。 所以我认为这是最有趣的事情—除了这个夏天会让我们所有人作为记者非常忙碌的事实，可能比任何其他夏天都要多。肖恩·奥凯恩：你知道，很久以前我想成为一名律师，我没有成为律师的原因之一是因为我讨厌涉及的文书工作。",
+      "originalSummary": "Startups are trying to \"ride that SpaceX IPO wave.\"",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
       "title": "据报道，在北京方面提出要求后， Meta将解除$ 2B的Manus交易",
       "originalTitle": "Meta reportedly moves to unwind $2B Manus deal after Beijing&#8217;s demand",
       "source": "TechCrunch AI",
@@ -51,7 +93,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "Anthropic的安全警告可能刚刚适得其反—政府已经取消了其最强大的人工智能",
@@ -84,7 +126,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "据报道，亚马逊的安全研究导致了白宫的人类寓言禁令",
@@ -100,7 +142,7 @@
         "公司动态",
         "论文"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "根据政府命令， Anthropic切断了Fable 5和Mythos 5的访问权限",
@@ -116,7 +158,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "好莱坞的未来并不是为香草一代的人工智能模型提供提示",
@@ -132,23 +174,7 @@
         "视频生成",
         "模型"
       ],
-      "score": 89
-    },
-    {
-      "title": "SpaceX、Anthropic和OpenAI的热门IPO夏季",
-      "originalTitle": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
-      "date": "2026-06-12T16:23:25.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
-      "fullContent": "IPO市场又回来了，不是同一家公司在主导。FAANG的表现不错，但一个新的首字母缩略词正在接管： MANGOS — Meta （或微软，具体取决于您的要求）、Anthropic、Nvidia、Google、OpenAI和SpaceX。其中一半将在同一窗口内进入公开市场，这是对投资者、估值和[…]的压力测试。",
-      "originalSummary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "算力芯片"
-      ],
-      "score": 99
+      "score": 88
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -180,22 +206,22 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "Siri不会成为你的人工智能女友",
-      "originalTitle": "Siri won’t be your AI girlfriend",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
-      "date": "2026-06-12T07:00:31.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "“听着，这不是我来这里的目的。'|图片：苹果我们的早期测试已经表明， Siri AI知道什么时候该闭嘴，这在很大程度上是出于设计。在接受MacRumors采访时，克雷格·费德里吉（ Craig Federighi ）表示，苹果的新Siri不会像OpenAI、谷歌和其他公司制造的聊天机器人那样表现得那么讽刺。 “你可能知道，如果你使用许多现有的聊天机器人，它们在很大程度上真的专注于参与，”苹果负责软件的Federighi说。“还有开玩笑，对吧？他们有点想把你拉进来。他们可能会鼓励你透露自己的情况，然后以此为基础建立联系。“苹果故意……阅读The Verge的完整故事。",
-      "originalSummary": "Our early testing has already shown that Siri AI knows when to shut up, and that's very much by design. In an interview with Mostly Human spotted by MacRumors, Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you use many [&#8230;]",
-      "rawFullText": "‘Listen, that's not what I'm here for.' | Image: Apple Our early testing has already shown that Siri AI knows when to shut up , and that's very much by design. In an interview with Mostly Human spotted by MacRumors , Craig Federighi said Apple's new Siri won't act all sycophantic like chatbots made by OpenAI, Google, and others. \"As you may know, if you use many of the existing chatbots, they're really focused on engagement to a large degree,\" said Federighi, who is responsible for software at Apple. \"And sycophancy, right? They kind of want to pull you in. They might encourage you to reveal things about yourself, and then use that as a basis to establish a connection.\" Apple purposely took a di … Read the full story at The Verge.",
+      "title": "olmo-eval ：模型开发循环的评估工作台",
+      "originalTitle": "olmo-eval: An evaluation workbench for the model development loop",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/olmo-eval",
+      "date": "2026-06-12T15:56:10.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "Olmo-eval与现有工具的区别集成的评估堆栈可重现的评估打开了💻Code: https://github. com/allenai/olmo-eval在构建LLM时，您会跨越许多干预措施对其进行反复评估。 对数据、架构或超参数的每一次调整--以及规模的每一步--都会通过相同的循环将您送回：添加或重新配置基准，在每个新模型检查点上重新运行基准，记录结果，并检查在小型实验中有帮助的东西是否仍然能够支持完整的训练运行。 大多数评估工具不是为此而设计的，它们要么是为了在已完成的模型中运行已建立的基准，要么是在沙箱中通过多步骤的工具使用问题运行模型。它们不能跟上不断变化的模型，也不能反映模型在特定现实条件下的行为。我们解决这一评估挑战的最后一个项目是开放语言模型评估标准OLMES。 它于2024年推出，旨在使LLM基准分数更容易在各个版本之间进行比较。相同的模型以不同的方式在相同的基准上进行评分—提示格式和任务制定等方面通常因纸张而异—因此关于哪些模型表现最佳的说法通常不可重复。 OLMES将基准选择固定在一个开放的、有文档记录的标准中，并成为评估我们从Olmo到Tulu的开放模型的基础。但模型的最终分数只是评估过程的一部分，这就是我们发布olmo-eval的原因，这是一个基于OLMES构建的新工作台，并将其扩展到LLM开发的其余部分。 与OLMES相比， olmo-eval减少了实施新评估的工作量，在定义其运行位置和方式方面提供了更大的灵活性，并使将单个组件组合到更大的工作流中变得更加容易。作为一流的用例，支持代理和多回合评估，更强大的分析工具可帮助您判断干预措施实际上是在基线上改善还是差异等于噪音。 olmo-eval在某些方面与Harbor重叠， Harbor是一个开放框架，用于在容器化、沙盒化环境中评估AI代理。但这两种工具在范围上有所不同。Harbor主要用于运行和发布代理基准； olmo-eval是为开发模型添加和配置基准、跨检查点运行基准以及按提示而不是单个总分分析结果的日常工作而构建的。 Harbor以相同的方式运行所有内容-内部密封、可重复的容器。由于容器可能是资源密集型的，因此olmo-eval允许您选择每个基准的运行方式。只需要模型来回答问题的基准可以直接运行，这更快、更便宜；需要锁定环境的基准（例如，运行模型编写的代码的环境）可以获得孤立的容器设置。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
       "tags": [
-        "公司动态"
+        "模型"
       ],
-      "score": 85
+      "score": 81
     },
     {
       "title": "传闻Mistral将以200亿欧元的估值筹集30亿欧元",
@@ -210,7 +236,22 @@
       "tags": [
         "投融资"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "SpaceX的大规模IPO ：所有最新消息",
+      "originalTitle": "SpaceX’s massive IPO: all the latest news",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+      "date": "2026-06-12T14:35:48.000Z",
+      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：论文相关动态",
+      "fullContent": "SpaceX周五的IPO允许公众首次购买这家火箭、人工智能和社交媒体公司的股票，并筹集了足够的资金，使埃隆·马斯克(Elon Musk)成为首位万亿富翁。至少在理论上，他比爱尔兰、瑞典或他的祖国南非等国家的经济拥有更多的财富（美国有线电视新闻网援引国际货币基金组织的话说，只有20个国家的经济规模大于1 $。 1万亿美元） ，现在与基于将人工智能数据中心发射到太空的企业的承诺联系在一起。请关注此处，了解最新动态。据报道， SpaceX在遇到延迟问题后出租了Colossus 1 AI数据中心。世界上第一位亿万富翁是福布斯实时亿万富翁榜上的杀手，增加了一位亿万富翁。埃隆·马斯克（ Elon Musk ）是世界上第一位万亿富翁， SPCX以每股150 $的价格开盘，一万亿美元是一笔愚蠢的钱。 SpaceX现在公开伊隆·马斯克（ Elon Musk ）在SpaceX首次公开募股前夕鼓励种族骚乱。这是第一个SpaceX人工智能数据中心。 SpaceX的IPO对埃隆·马斯克（ Elon Musk ）来说很棒，对你来说很糟糕SpaceX获得了40亿美元的合同来建造导弹跟踪“金色圆顶”卫星在SpaceX的IPO中，埃隆·马斯克（ Elon Musk ）是SpaceX刚刚申请的风险因素，这可能是有史以来最大的IPO SpaceX的IPO是对SpaceX未来的万亿美元赌博，据报道SpaceX正在申请IPO ，但它对数字保密（目前）为什么SpaceX要上市？",
+      "originalSummary": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and raised enough money to make Elon Musk the first trillionaire. He has more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home country of [&#8230;]",
+      "rawFullText": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and raised enough money to make Elon Musk the first trillionaire. He has more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home country of South Africa ( CNN cites the International Monetary Fund saying only 20 countries have economies larger than $1.1 trillion), now linked to the promise of a business based on launching AI datacenters into space. Follow along here for the latest updates. SpaceX reportedly rented out Colossus 1 AI data center after it ran into latency issues. The world’s first trillionaire is a killer Forbes Real-Time Billionaires list adds a trillionaire. A trillion dollars is a stupid amount of money Elon Musk is the world&#8217;s first trillionaire SPCX opens at $150 per share. SpaceX is now public Elon Musk is encouraging race riots on the eve of SpaceX’s IPO Here’s the first SpaceX AI data center. The SpaceX IPO is great for Elon Musk and terrible for you SpaceX gets $4 billion contract to build missile-tracking ‘Golden Dome’ satellites In SpaceX’s IPO, Elon Musk is the risk factor SpaceX just filed for what could be the biggest IPO ever The SpaceX IPO is a trillion-dollar gamble on the future of space SpaceX reportedly files for IPO but it’s keeping the numbers secret (for now) Why is SpaceX going public?",
+      "tags": [
+        "论文"
+      ],
+      "score": 78
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -274,7 +315,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -289,7 +330,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
@@ -321,7 +362,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
@@ -337,7 +378,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
@@ -352,7 +393,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -370,6 +411,36 @@
       "score": 89
     },
     {
+      "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
+      "originalTitle": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "date": "2026-06-09T10:46:19.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 81
+    },
+    {
+      "title": "推出North Mini Code ： Cohere首款面向开发人员的模型",
+      "originalTitle": "Introducing North Mini Code: Cohere’s First Model For Developers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "date": "2026-06-09T15:56:23.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 78
+    },
+    {
       "title": "Codex为Notion解锁了什么",
       "originalTitle": "What Codex unlocks for Notion",
       "source": "OpenAI",
@@ -385,34 +456,20 @@
       "score": 78
     },
     {
-      "title": "智能时代的产业政策",
-      "originalTitle": "Industrial policy for the Intelligence Age",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "date": "2026-06-09T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "探索我们在人工智能时代雄心勃勃、以人为本的产业政策理念--随着先进智能的发展，专注于扩大机会、分享繁荣和建立有弹性的机构。",
-      "originalSummary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
+      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/openenv-agentic-rl",
+      "date": "2026-06-08T00:00:00.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
+      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
+      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "智能体",
+        "开源"
       ],
-      "score": 78
-    },
-    {
-      "title": "关于人工智能，您需要了解的五件事",
-      "originalTitle": "Five things you need to know about AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
-      "date": "2026-06-09T09:16:45.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“关于人工智能，您需要了解的五件事”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
-      "rawFullText": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world , but I also veered off on a number of tangents. In my half-hour slot, I tried to cover the key talking points that I think help to make sense of what’s going on in tech—and thus the economy—today. (I gave a talk with the same title at SXSW London last year with five different things you needed to know. A lot has happened since then!) So: This is how I’m thinking about AI midway through 2026. Let me know if you would pick different points! 1. Strictly speaking, I didn’t need to show up to give this talk. Tongue in cheek? Maybe. But generative AI tools have already become mundane, used by millions to automate everyday office tasks (including producing and delivering talks ). It’s no surprise that one of the biggest questions out there right now is what this all means for jobs . People are confused and scared. The frustrating answer is that despite the hype coming from the top about the potential for AI to join the workforce soon—and viral social media posts yelling that something big is happening—there is almost no data to say either way what kind of effect this technology will have on employment and the economy overall. That’s not to say it won’t have an impact, even a huge one, but it’s just too soon to tell. In theory, teams of agents working together toward common goals could become assembly lines for white-collar work, doing to offices this century what Henry Ford’s innovations did to factories in the 20th century. In theory. Because in order to know what will happen to jobs, we need to know what will happen inside the companies that create those jobs. But most companies are still figuring that out . 2. AI is getting scary (for real this time). There have been scary stories about AI for years—claims that it will kill us all or bring about the end of civilization. There’s still a loud crowd of doomers , but those scenarios remain dystopian science fiction. What’s happened instead is that many of the worst near-term, real-world fears have come true. Take deepfakes , AI-generated images or videos of people doing things they didn’t actually do. Deepfakes have been used to incite violence, swing votes, and sow distrust. Trump’s White House is among those creating and publishing fake images. Many deepfakes are also used to abuse women and girls. One study found that 98% of deepfakes are pornographic and 99% involve women. Another concern is the rise of dangerous and delusional relationships with chatbots. Many people turn to chatbots to seek private advice and to feel heard. But there are now multiple lawsuits against AI companies alleging that the technology encouraged or aided suicides and other forms of self-harm. AI is also being used in warfare in new and worrying ways . LLMs are now giving advice, not just being used for analysis. One US defense official told my colleague James O’Donnell that you could now give a military chatbot a list of targets and ask which one to hit first. Anyone who uses AI knows that its output needs to be reviewed carefully. In fact-paced, high-stress active conflict, the risk that corners get cut is high. 3. A lot of people really hate AI. I checked out an anti-AI protest in London earlier this year and found a very broad mix of complaints. Banners proclaiming the end times bounced along to chants of “Stop the slop! Stop the slop!” Protests are getting more organized and drawing larger crowds. There’s pushback from fans of films and video games, who object to the use of generative AI in their favorite titles. In one notable case, the acclaimed 2025 game Clair Obscur was stripped of an award when the developers admitted to using AI in just one small, specific part of its production. And there’s the data center backlash. The US has more than 5,400 data centers and counting. With the energy demands of AI growing, people are unhappy about the environmental impact and their rising electricity bills. Activists are managing to stall development in a number of places. Regulation is becoming politically popular . Grassroots movements like QuitGPT have gained momentum. A small number have turned to violence; a few weeks ago somebody threw a Molotov cocktail at Sam Altman’s house. It’s not clear where all this leads. But the apocalyptic hype from tech leaders is not helping people stay calm. 4. AI for science is a very big deal. It’s early days yet, but the potential for AI to help make a genuine and important scientific discovery is greater than ever. Google DeepMind has developed Co-Scientist , a multipurpose tool that can help researchers dig up and compare previous results, generate hypotheses, and devise experiments to test them. OpenAI told me this year that its North Star is the goal of building a fully automated researcher by 2028. Mathematicians are excited too. Fundamental math underpins many everyday technologies, from internet security to video streaming. The last few months have seen a string of claims that AI has cracked unsolved math problems. And software that can solve really hard math problems will be able—so the argument goes—to solve more general-purpose real-world problems too. What are the downsides? Some scientists are warning that an overreliance on AI tools could narrow the scope of research because scientists may choose problems that are most suited to AI assistance. There are also concerns that AI-assisted research will lead to a flood of inaccurate or fake results: science slop. 5. AI is everywhere all at once. So where does that leave us? There are a lot of exciting things, a lot of worrying things, and a lot of hot air. It can be exhausting to keep up, and yet it all feels inescapable . Some people will tell you we’re in a race to the top; some will tell you we’re in a race to the bottom. But it’s really not clear where we’re headed. AI companies want us to march to their tune and buy into the propaganda about artificial general intelligence , whatever that means . They are selling a vision that feels inevitable, but it isn’t. We’ve built a technology that can do humanlike things , and I think that makes it hard to get our heads around the fact that it is still just a technology. Something is happening. Maybe even something comparable to the invention of electricity or the internet. But technologies like that take time to settle and bring lasting change. Get ready for a marathon, not a sprint. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here .",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 70
+      "score": 86
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -424,6 +481,37 @@
       "fullContent": "6月5日， 404 Media报道称，攻击者一直在使用Meta的AI客户支持代理窃取Instagram帐户。他们的方法很简单：他们要求客服代表将账号关联到他们控制的电子邮件地址，客服代表遵守了要求。一名攻击者闯入了休眠的奥巴马白宫账户并发布了亲伊朗的帖子；其他人则接管了有价值的单词句柄的账户，可能是为了出售它们。 人工智能网络安全问题并不是什么新鲜事。自从Anthropic在4月份宣布其Mythos模型太擅长黑客攻击而不能向公众发布以来，评论员、研究人员和联邦官员都认为超级人工智能系统可能会浪费我们的计算机基础设施。 这并不是这个Instagram黑客攻击的目标：在那里， AI是目标而不是攻击者，而且这种方法比Mythos炮制的任何东西都要简单得多。但是，随着公司将更多的工作转移给人工智能，这些相对简单的攻击可能会造成严重破坏。 杜克大学电气和计算机工程教授Neil Gong表示： “随着人工智能的应用越来越广泛，尤其是当人工智能越来越广泛地用于自动化我们的工作流程（如帐户恢复）时，我认为攻击者将越来越有动力攻击人工智能本身。”一段时间以来，龚和其他学者一直在对人工智能代理的安全漏洞发出警告。 他们发表论文和博客帖子，详细介绍了间接提示注入等漏洞，其中涉及使用隐藏在网站、电子邮件或其他看似无用的数据源中的命令劫持代理。与这些技术相比， Meta hack实际上是无意识的。 黑客必须克服的唯一难题是使用与真实账号所有者位置相匹配的VPN ；然后他们直接要求客服代表更改账号的电子邮件地址，并符合要求。Meta尚未公开评论此漏洞是如何从裂缝中溜走的。但龚说，考虑到漏洞利用的简单性，在部署代理之前，它应该很容易被发现。“这真的很令人惊讶，”他说。 “我不明白他们为什么没有发现这个简单的问题。”乔治城安全和新兴技术中心的高级研究分析师Jessica Ji表示同意。她说：「这会引发一些问题，比如：是否有护栏？」“有人想过要测试这种情况吗？“她指出，像Meta这样的公司的监督尤其引人注目， Meta在人工智能和网络安全方面拥有丰富的专业知识。 Meta没有回应本文的评论请求，但周一Meta发言人在X上表示，该漏洞已得到解决。尽管这对Meta来说可能是一个尴尬的时刻，但它也凸显了所有AI代理共享的一些核心漏洞。",
       "originalSummary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
       "rawFullText": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them. AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc. “As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University. Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied. Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.” Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson said on X that the vulnerability had been resolved. As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.” There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed. But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the&nbsp; University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.&nbsp; As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.&nbsp; Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay. “Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”",
+      "tags": [
+        "智能体"
+      ],
+      "score": 75
+    },
+    {
+      "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
+      "originalTitle": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "date": "2026-06-04T18:57:45.000Z",
+      "summary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
+      "fullContent": "Nemotron的新增功能3. 5内容安全1.统一多式联运评估2.全球语言覆盖3.自定义策略执行4.推理痕迹（思考模式） 5. 安全数据集模型架构推理培训数据基准测试延迟解决基准测试差距入门过去两年， NVIDIA的内容安全堆栈从一个专注的英语文本分类器发展成为一个专业模型系列--每个模型都将覆盖范围扩展到新的模式、语言和推理模式。 Nemotron 3 Content Safety于2026年3月发布，首次在单个4B参数模型中结合了多模式和多语言功能。今天，我们发布了Nemotron 3. 5内容安全，完善了这一概念：将多模式输入、多语言覆盖、自定义企业策略实施和可审计推理统一到一个推理通话中的单一模型。这篇文章介绍了3中的变化。 5、每个新功能背后的设计决策，以及如何将模型集成到安全生产管道中。Nemotron 3引入了图像理解； Nemotron 3. 5深化了多模态集成。该模型将用户提示、可选图像和可选助理响应作为单个上下文窗口，并对组合输入产生一致的安全判断。 综合评估所有三个因素，而不是分别进行评分，可以弥补多式联运安全场景中的一个众所周知的差距：现在，只有在文本与图像之间或请求与响应之间的交互中才会出现政策违规行为。Nemotron 3. 5保留了其前身的12种语言的显式培训覆盖范围-英语，法语，西班牙语，德语，中文，日语，韩语，阿拉伯语，印地语，俄语，葡萄牙语和意大利语-同时还从Gemma 3基本模型中继承了大约140种语言的强大零点概括。这意味着在培训数据稀疏的市场中进行部署（例如， 、东南亚语言、斯堪的纳维亚语言、资源较少的非洲语言）受益于基本模型多语言迁移，而无需单独微调。相对于Nemotron 3 ，这是3. 5中最重要的建筑添加。生产部署很少在单一的通用安全分类法下运行。 医疗保健平台的风险状况与金融服务聊天机器人、开发人员工具IDE或儿童教育应用程序不同。Nemotron 3. 5接受与输入一起的自定义策略规范。该模型在做出判决时会考虑该策略，而不是完全遵循内置的分类法。这将Nemotron内容安全推理4B中首次引入的工作扩展到完整的多模式、多语言设置。",
+      "originalSummary": "这条新闻与多模态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、安全相关动态",
+      "rawFullText": "",
+      "tags": [
+        "多模态",
+        "安全"
+      ],
+      "score": 83
+    },
+    {
+      "title": "将hf CLI设计为使用Hub的代理优化方式",
+      "originalTitle": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hf-cli-for-agents",
+      "date": "2026-06-04T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“将hf CLI设计为使用Hub的代理优化方式”。它主要涉及智能体方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
       "tags": [
         "智能体"
       ],
@@ -442,7 +530,52 @@
       "tags": [
         "AI 热点"
       ],
+      "score": 65
+    },
+    {
+      "title": "超越聊天机器人的直接偏好优化",
+      "originalTitle": "Direct Preference Optimization Beyond Chatbots",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "date": "2026-06-03T12:55:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
       "score": 66
+    },
+    {
+      "title": "将MCP工具添加到Reachy Mini",
+      "originalTitle": "Adding MCP Tools to Reachy Mini",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "date": "2026-06-03T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“将MCP工具添加到Reachy Mini”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 65
+    },
+    {
+      "title": "Holo3.1 ：快速和本地计算机使用代理",
+      "originalTitle": "Holo3.1: Fast & Local Computer Use Agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Hcompany/holo31",
+      "date": "2026-06-02T14:13:23.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "移动自动化交叉线束性能更小尺寸，以实现对消费硬件本地代理的成本性能权衡去年3月，我们发布了Holo3 ，这是我们最先进的计算机使用模型。采用很快。开发人员、企业和合作伙伴开始在广泛的工作流程中部署Holo3 ，从浏览器自动化和业务软件到内部工具和桌面应用程序。 随着采用率的增长，我们意识到仅有绩效是不够的。用户希望在桌面和移动环境中运行相同的计算机使用功能，并与不同的代理框架无缝集成。他们需要部署的灵活性，从云推断到最终用户设备上的完全本地执行。这就是我们发布Holo3. 1系列的原因。Holo3。 1提高了生产中最重要的三个维度的稳健性：环境（ Web、桌面、移动）、代理框架和部署目标。我们首次发布了针对局部推理进行优化的量化检查点，包括FP8、Q4 GGUF和NVFP4。Holo3。 1是我们实现通用计算机代理愿景的重要一步：系统可以跨环境运行，集成到任何代理堆栈中，并在工作流程所在的任何地方运行。Holo3. 1基于Qwen系列，旨在提高实际部署计算机使用代理的环境的鲁棒性，同时保持最先进的性能。 随着团队将Holo3从评估转移到生产，我们反复观察到同样的挑战：在一个环境中的强劲表现不一定会转移到另一个环境中。移动设备、替代代理线束和不同的执行框架都引入了自己的分销转变来源。Holo3. 1将Holo3的功能扩展到浏览器和桌面控制之外，为移动环境带来了重大收益。 在AndroidWorld上，我们的35B-A3B模型从67%提高到79. 3% ，而较小的4B和9B变体从58%提高到72%。为了更好地支持在第三方代理堆栈中部署Holo的团队，除了Holo3中已有的结构化JSON输出之外， Holo3. 1还引入了对函数调用协议的本机支持。 在OSWorld和我们涵盖电子商务、业务软件和协作工作流程的内部基准套件中，功能调用和本地执行现在实现了接近同等的性能。当在我们的Holotab产品线束内进行评估时， Holo3. 1也比Holo3提高了25 ％以上。为了进一步实现本地和设备上的推理，我们还发布了新的模型尺寸，包括小型模型（ 0. 8B、4B和9B ） ，以实现具有成本效益的私有部署，此外还有较大的35B-A3B型号，以提供最先进的性能。Holo3. 1和Qwen 3. 5系列的性能与成本对比。总体性能首先对四个H Corporate基准进行平均（因此每个系列的权重相等） ，然后对OSWorld、AndroidWorld、H Corporate、ScreenSpot-Pro和OSWorld-G进行平均。这是我们首次发布量化权重。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 74
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -457,7 +590,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "小型企业如何利用人工智能",
@@ -473,6 +606,21 @@
         "AI 热点"
       ],
       "score": 63
+    },
+    {
+      "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
+      "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "date": "2026-06-01T15:45:17.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 70
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
