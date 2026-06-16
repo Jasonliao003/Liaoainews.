@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T00:18:23.204Z",
+  "updatedAt": "2026-06-16T01:43:05.679Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,91 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "关于Anthropic与白宫的新人工智能斗争的所有新闻",
+      "originalTitle": "All the news about Anthropic&#8217;s new AI fight with the White House",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "date": "2026-06-15T19:04:53.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "Anthropic在与五角大楼的对峙中已经解决了与政府的一场纠纷，然后在6月12日下令阻止外国人访问其最近发布的人工智能模型Fable 5和Mythos 5。 当他们于6月9日推出时， Anthropic表示“寓言5的能力超过了我们曾经普遍推出的任何型号的能力” ，并且Claude Mythos 5具有相同的基础型号， “但在某些地区解除了保护措施。据报道，该命令是在亚马逊和白宫就研究人员表示他们找到了让寓言5号提供可能用于网络攻击的信息的方法进行对话之后发布的。 Anthropic的回应是关闭所有客户对这两种模式的访问权限，他说： “我们正在遵守政府的法律指令，并取消所有用户对Fable 5和Mythos 5的访问权限。然而，我们不同意，发现狭隘的潜在越狱应该是召回部署到数亿人的商业模式的原因。 “阅读下面的所有最新更新，特朗普的人类关闭刚刚证明了非美国人工智能中国可能访问了Mythos据报道，亚马逊的安全研究导致白宫的人类寓言禁令Anthropic在政府命令后切断了Fable 5和Mythos 5的访问权限Anthropic发布其第一个Mythos级模型Claude Fable",
+      "originalSummary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any [&#8230;]",
+      "rawFullText": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon , and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any model we’ve ever made generally available,&#8221; and that Claude Mythos 5 had the same underlying model, &#8220;but with the safeguards lifted in some areas.&#8221; According to reports , the order came after conversations between Amazon and the White House about researchers saying they found ways to get Fable 5 to serve information that could be used in cyberattacks. Anthropic responded by shutting access to both models for all customers, saying , &#8220;We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.&#8221; Read along below for all of the latest updates Trump’s Anthropic shutdown just made the case for non-American AI China may have accessed Mythos Amazon security research reportedly led to the White House’s Anthropic Fable ban Anthropic cuts off Fable 5 and Mythos 5 access following government order Anthropic releases its first Mythos-class model Claude Fable",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Orchestra-o1 ：全方位代理编排",
+      "originalTitle": "Orchestra-o1: Omnimodal Agent Orchestration",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.13707",
+      "date": "2026-06-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、视频生成相关动态",
+      "fullContent": "arXiv: 2606. 13707v1公告类型：新摘要： Agent Swarms最近的成功将基于大型语言模型(LLM)的代理范式从单Agent工作流转向多Agent系统，突出了Agent编排对任务分解和协作的重要性。 然而，现有的协调框架仅限于一组狭窄的模式，难以推广到异构模式共存和相互作用的更复杂环境中。这种局限性在多模式场景中尤其明显，在这些场景中，任务需要对文本、图像、音频和视频等不同输入的统一理解和协调。 在这项工作中，我们提出了Orchestra-o1 ，这是一个全模式代理编排框架，旨在支持跨多种模式的高效代理协作。Orchestra-o1引入了一种统一的编排机制，可实现感知模式的任务分解、在线子代理专业化和并行子任务执行。 这种可扩展的设计使代理系统能够有效处理涉及异构信息源的复杂现实任务，在OmniGAIA基准测试中超过第二佳方法的准确率为10. 3%。 此外，我们还引入了决策对齐组相对策略优化（ DA-GRPO ） ，这是一种用于训练Orchestra-o1-8B的高效代理强化学习方法，它还针对所有现有的开源全模式代理实现了最先进的性能。",
+      "originalSummary": "arXiv:2606.13707v1 Announce Type: new Abstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. However, existing orchestration frameworks are limited to a narrow set of modalities and struggle to generalize to more complex settings where heterogeneous modalities coexist and interact. This limitation becomes particularly pronounced in omnimodal scenarios, where tasks require the unified understanding and coordination of diverse inputs such as text, image, audio, and video. In this work, we propose Orchestra-o1, an omnimodal agent orchestration framework designed to support efficient agent collaboration across multiple modalities. Orchestra-o1 introduces a unified orchestration mechanism that enables modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution. This scalable design allows agent systems to effectively tackle complex real-world tasks involving heterogeneous information sources, surpassing the second-best approach by 10.3% accuracy on the OmniGAIA benchmark. Furthermore, we introduce decision-aligned group relative policy optimization (DA-GRPO), an efficient agentic reinforcement learning approach for training Orchestra-o1-8B, which also achieves state-of-the-art performance against all existing open-source omnimodal agents.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "视频生成",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "混合开放式三进化让深度研究变得更好",
+      "originalTitle": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.13710",
+      "date": "2026-06-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2606. 13710v1公告类型：新摘要：深入研究和智能体进化是人工智能智能体在通用人工智能现实应用中的实际任务。前者允许在开放式环境中自主检索和集成信息，以解决开放式研究任务，但它受到代理系统静态参数深度研究能力的限制。 后者允许代理与环境自主交互，以获得发展模型功能的体验。然而，其有效性仅在具有标准答案的可验证任务上得到广泛验证，与开放式研究任务之间存在差距。 为了弥合这两个关键任务，我们提出了混合开放式三进化（ HOTE ）框架，该框架利用混合模式强化学习来促进基于网络规模知识的提案者、求解者和判断者的协作进化，从而在开放式任务和环境中向自主进化代理迈进。 在三个长形深度研究基准上的广泛实验表明，通过HOTE训练的8B模型超越了最强的静态开放8-32B模型以及采用最先进的深度研究训练方法以更少的时间开销进行训练的模型，并进一步验证了HOTE中所有三个模块的演进是不可或缺的。",
+      "originalSummary": "arXiv:2606.13710v1 Announce Type: new Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence. The former enables autonomous retrieval and integration of information in open-ended environments to tackle open-ended research tasks, yet it is constrained by the static parametric deep research capabilities of agent systems. The latter allows agents to autonomously interact with the environment to gain experiences that evolve model capabilities. However, its effectiveness has been widely validated only on verifiable tasks with standard answers, leaving a gap with open-ended research tasks. To bridge these two critical tasks, we propose the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which leverages hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver and judge based on web-scale knowledge, moving toward autonomous evolving agents in open-ended tasks and environments. Extensive experiments on three long-form deep research benchmarks demonstrate that the 8B model trained via HOTE surpasses the strongest static open 8-32B models as well as those trained by state-of-the-art deep research training methods with less time overhead, and further verify that the evolution of all three modules in HOTE is indispensable.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "重新审视WorkBench ：两年后的工作场所代理",
+      "originalTitle": "WorkBench Revisited: Workplace Agents Two Years On",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.13715",
+      "date": "2026-06-15T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 13715v1公告类型：新摘要： 2024年3月WorkBench上最好的代理， GPT-4 ，完成了43%的任务，并在其中26%的任务上采取了意外的有害行为，例如发送电子邮件给错误的人。我们在2026年6月重新审视了基准，发现迄今为止最好的代理商Claude Opus 4. 8完成了89% ，并采取了2. 5%的意外有害行为。除了前沿代理绩效的显著进步外，还有三件事情脱颖而出。 首先，功能和安全在WorkBench上结合在一起，而不是权衡，因此完成最多任务的模型也会产生最小的意外损坏。其次，虽然已经完全消除了几类错误，但前沿模型仍然会犯一些基本错误，偶尔会导致不可逆转的伤害，例如向错误的人发送电子邮件。 第三，开放式权重模型的崛起大大降低了以前只有专有模型才能获得的性能水平的成本，而前沿成本则保持相对稳定。我们发布了基准的更新版本，其中包括数据和代码质量改进、新模型分数以及自2024年以来WorkBench上的代理进度分析。",
+      "originalSummary": "arXiv:2606.13715v1 Announce Type: new Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them. We re-visit the benchmark in June 2026 and find that the best agent to date, Claude Opus 4.8, completes 89% and takes an unintended harmful action on 2.5%. Aside from this considerable progress in frontier agent performance, three things stand out. First, capability and safety go together on WorkBench rather than trade off, so the models that finish the most tasks also do the least unintended damage. Second, while several classes of error have been totally eliminated, frontier models still make some basic mistakes that occasionally result in irreversible harm, such as sending an email to the wrong person. Third, the rise of open-weight models has drastically lowered costs for a performance level that was previously only accessible to proprietary models, while frontier costs have stayed relatively stable. We release an updated version of the benchmark with data and code quality improvements, new model scores, and analysis of agent progress on WorkBench since 2024.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MA-ProofBench ：数学分析中定理证明的LLM的双层评估",
+      "originalTitle": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.13782",
+      "date": "2026-06-15T04:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
+      "fullContent": "arXiv: 2606. 13782v1公告类型：新摘要：大型语言模型（ LLM ）在自动化定理证明方面取得了显著进展，但现有的正式基准在数学覆盖面和难度方面仍然有限。大多数集中在更容易形式化的领域，如代数和基本数论，并且对需要更深入推理的子领域的覆盖范围有限，包括数学分析。 为了解决这一差距，据我们所知，我们引入了MA-ProofBench ，这是第一个致力于数学分析的正式定理证明基准。该基准包含200个形式化定理，涵盖6个核心主题和27个子类别，包括测量和积分理论、复杂分析和函数分析。问题分为两个难度级别，本科级别（ I级， 100个问题）和博士学位。 合格级别（二级， 100个问题） ，以评估LLM在不同数学深度下的正式推理能力。每个问题都是通过人为主导、LLM协助的形式化流程构建的，然后进行独立专家审查，确保正式陈述忠实于原始数学。我们评估了MA-ProofBench上最近的一系列通用推理模型和形式定理证明。 然而，大多数模型表现不佳：即使是表现最好的模型， GPT-5. 5 ，在I级和II级上也只达到了16% @ 8和5% ，而大多数模型在II级上保持接近0%。进一步的分析将Mathlib的幻觉和不完整的证明确定为两种主要的失败模式，而对基准的自然语言版本的评估揭示了非正式和正式推理之间的明显差距。 MA-ProofBench旨在作为跟踪高级领域正式数学推理进展的可靠参考。",
+      "originalSummary": "arXiv:2606.13782v1 Announce Type: new Abstract: Large Language Models (LLMs) have made notable progress in automated theorem proving, yet existing formal benchmarks remain limited in both mathematical coverage and difficulty. Most are concentrated in areas that are easier to formalize, such as algebra and elementary number theory, and provide limited coverage of subfields that require deeper reasoning, including mathematical analysis. To address this gap, we introduce MA-ProofBench, to the best of our knowledge, the first formal theorem-proving benchmark dedicated to Mathematical Analysis. The benchmark contains 200 formalized theorems covering 6 core topics and 27 subcategories, including measure and integration theory, complex analysis, and functional analysis. The problems are divided into two difficulty levels, an undergraduate level (Level I, 100 problems) and a Ph.D. qualifying level (Level II, 100 problems), to evaluate how well LLMs perform formal reasoning at different mathematical depths. Each problem is constructed through a human-led, LLM-assisted formalization pipeline followed by independent expert review, ensuring that the formal statements remain faithful to the original mathematics. We evaluate a range of recent general-purpose reasoning models and formal theorem provers on MA-ProofBench. However, most models perform poorly: even the best-performing model, GPT-5.5, achieves only 16% Pass@8 on Level I and 5% on Level II, while most models stay close to 0% on Level II. Further analysis identifies Mathlib hallucinations and incomplete proofs as the two dominant failure modes, while an evaluation on the natural-language version of the benchmark exposes a clear gap between informal and formal reasoning. MA-ProofBench is intended to serve as a reliable reference for tracking progress in formal mathematical reasoning in advanced domains.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
     {
       "title": "OpenAI合作伙伴网络简介",
       "originalTitle": "Introducing the OpenAI Partner Network",
@@ -48,7 +133,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "中国可能访问了Mythos",
@@ -59,11 +144,11 @@
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
       "fullContent": "根据Semafor的一份新报告，白宫决定对人类的神话实施出口限制，部分原因是担心它被一个与中国有联系的团体访问。如果中国政府实际上可以访问神话5或寓言5 ，这将构成严重的国家安全风险。 政府还可以尝试通过蒸馏对模型进行逆向工程，这种方法是用更先进的模型对“学生”人工智能进行培训，以复制其行为。白宫尚未证实这一报道，特朗普顾问大卫·萨克斯（ David Sacks ）关于X的帖子也没有提到中国。相反， Sacks专注于……阅读The Verge的完整故事。",
       "originalSummary": "According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security [&#8230;]",
-      "rawFullText": "According to a new report from Semafor , the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security risk. The government could also attempt to reverse engineer the model through distillation , a method in which a \"student\" AI is trained on a more advanced model to replicate its behavior. The White House has not confirmed this report, and a post on X by Trump advisor David Sacks did not mention China. Instead, Sacks focused on a r … Read the full story at The Verge.",
+      "rawFullText": "According to a new report from Semafor , the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security risk. The government could also attempt to reverse engineer the model through distillation , a method in which a \"student\" AI is trained on a more advanced model to replicate its behavior. The White House has not confirmed this report, and a post on X by Trump adviser David Sacks did not mention China. Instead, Sacks focused on a r … Read the full story at The Verge.",
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "随着人工智能公司竞相上市，还有谁会参与其中？",
@@ -78,55 +163,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
-    },
-    {
-      "title": "据报道，在北京方面提出要求后， Meta将解除$ 2B的Manus交易",
-      "originalTitle": "Meta reportedly moves to unwind $2B Manus deal after Beijing&#8217;s demand",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
-      "date": "2026-06-14T00:03:49.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "Meta已开始拆除对Manus的20亿美元收购，完成了与这家中国创立的人工智能初创公司的运营分离，并停止了两家公司之间的数据共享。这是朝着遵守北京大约两个月前以国家安全为由发布的剥离令迈出的最具体的一步。 据彭博社报道， Meta已将Manus从其内部系统切断，阻止员工将Manus工具用于内部项目，因为两家公司正在走向完全分离。 与此同时，根据5月份的报道， Manus的联合创始人已就从外部投资者那里筹集约10亿美元以从Meta收回创业公司进行了初步讨论，此举可能为中国合资企业结构和最终在香港上市铺平道路，今年MiniMax和Zhipu等中国人工智能创业公司的人工智能上市数量激增。 原本应该是中国人工智能的一个里程碑式的退出正在迅速解开。此举凸显了北京方面保持对战略敏感技术的控制的决心，无论公司是否在海外注册。除了强制撤资外，中国当局还扩大了对私营公司研究人员和高管的旅行限制，要求在出国前获得政府批准。 中国也在收紧对外国资本的控制，有报道称，包括Moonshot AI、StepFun和ByteDance在内的顶级人工智能公司在接受美国投资之前将需要政府批准，这为北京控制其人工智能领域的全面努力又增加了一层。即使Meta开始切断与Manus的关系，这家代理人工智能初创公司仍在继续推出新功能，推出与Similarweb和Shopify的集成。 Manus在2025年中期将其员工转移到新加坡，然后在12月宣布Meta以20 $ 10亿收购之前引起了广泛关注。中国监管机构今年早些时候开始审查这笔交易，理由是可能违反技术出口管制和外国投资规则。 据《华尔街日报》报道，包括加利福尼亚风险投资公司Benchmark在内的Manus投资者已经从此次收购中获得了收益，而包括腾讯、HSG和ZhenFund在内的亚洲支持者则表示，他们将与平仓过程合作。 马努斯与母公司蝴蝶效应(Butterfly Effect)的中国血统引起了太平洋两岸的审查，参议员约翰·科宁(John Cornyn)质疑美国资本是否应流向一家与中国有联系的公司。Meta和Manus没有在正常营业时间之外立即回复置评请求。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
       "score": 75
-    },
-    {
-      "title": "Anthropic的安全警告可能刚刚适得其反—政府已经取消了其最强大的人工智能",
-      "originalTitle": "Anthropic&#8217;s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-      "date": "2026-06-13T02:26:30.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "Anthropic并没有掩饰它的挫败感。该公司在一篇博客文章中写道： “我们不同意，发现狭隘的潜在越狱应该是召回部署给数亿人的商业模式的原因。”",
-      "originalSummary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "据报道，亚马逊首席执行官在政府打击之前提出了人类模型的担忧",
-      "originalTitle": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
-      "date": "2026-06-13T19:11:41.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "亚马逊首席执行官安迪·贾西（ Andy Jassy ）可能是安全问题的根源，导致Anthropic周五在全球范围内切断了两款车型的访问权限。据《华尔街日报》报道， Jassy告诉财政部长Scott Bessent和其他政府官员，亚马逊的研究人员使用了Anthropic的Claude Fable 5来获取可能用于网络攻击的信息。随后，政府对Fable 5和Mythos 5型号实施了出口管制禁令。 亚马逊发言人在一份声明中表示，虽然“政府就潜在的安全风险寻求我们的咨询意见并不罕见” ，但该公司不会“分享这些讨论的细节。“发言人还指出， AWS已受到模型切断的影响。The Information和路透社同样报道称，亚马逊（主要的人类投资者）表达了对Anthropic模型安全性的担忧。 特朗普的前人工智能沙皇大卫·萨克斯（ David Sacks ）现任总统科学技术顾问委员会（ President's Council of Advisors on Science and Technology ）联合主席，他提供了自己对讨论的描述，声称“人类和美国政府的高度可信赖的合作伙伴[…]提出了越狱。Sacks补充道：“管理员要求[Anthropic首席执行官Dario Amodei]修复越狱或解除部署模型。Dario拒绝了。 Anthropic在一篇博客文章中表示，显然引起政府关注的能力已经在其他可公开访问的模型中可用。此帖子已更新，并附有亚马逊发言人的声明。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。 通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。",
-      "originalSummary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 92
     },
     {
       "title": "据报道，亚马逊的安全研究导致了白宫的人类寓言禁令",
@@ -135,14 +172,14 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
       "date": "2026-06-13T21:39:26.000Z",
       "summary": "这条新闻与公司动态、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、论文相关动态",
-      "fullContent": "据《华尔街日报》报道，导致Anthropic切断Fable 5和Mythos 5访问权限的出口管制指令部分是由亚马逊的网络安全研究以及首席执行官Andy Jassy与白宫之间的对话引发的。根据该报告，亚马逊的论文声称，通过一系列提示，它能够让Fable 5提供可用于网络攻击的信息。 亚马逊尚未回复置评请求。在Jassy与政府分享该公司的调查结果后不久，它就呼吁阻止外国人使用它。使这个问题复杂化的是，许多……阅读The Verge的完整故事。",
-      "originalSummary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series [&#8230;]",
-      "rawFullText": "According to the Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that many of … Read the full story at The Verge.",
+      "fullContent": "据《华尔街日报》报道，导致Anthropic切断Fable 5和Mythos 5访问权限的出口管制指令部分是由亚马逊的网络安全研究以及首席执行官Andy Jassy与白宫之间的对话引发的。根据该报告，亚马逊的论文声称，通过一系列提示，它能够让Fable 5提供可用于网络攻击的信息。 亚马逊尚未回复置评请求。在Jassy与政府分享该公司的调查结果后不久，它就呼吁阻止外国人使用它。使这个问题复杂化的是那个人……在The Verge阅读完整的故事。",
+      "originalSummary": "According to the The Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a [&#8230;]",
+      "rawFullText": "According to the The Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that man … Read the full story at The Verge.",
       "tags": [
         "公司动态",
         "论文"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "根据政府命令， Anthropic切断了Fable 5和Mythos 5的访问权限",
@@ -158,23 +195,37 @@
         "公司动态",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
-      "title": "好莱坞的未来并不是为香草一代的人工智能模型提供提示",
-      "originalTitle": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "title": "我的院子快死了，所以我做了一个应用程序",
+      "originalTitle": "My yard is dying, so I made an app for that",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
-      "date": "2026-06-13T11:00:00.000Z",
-      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、模型相关动态",
-      "fullContent": "来自Dear Upstairs Neighbors的概念艺术，曾经训练谷歌Veo和Imagen模型的定制构建。|图片：谷歌DeepMind关于生成式人工智能如何准备彻底改变电影制作行业的所有噪音，实际上还没有任何项目使用人们愿意付费观看的技术来创建。 大多数人工智能公司的视频模型仍然只能产生短暂的视觉不一致的镜头。好莱坞一些最大的人工智能合作伙伴关系突然消失，似乎电影公司可能无法依靠硅谷的新技术。在大多数情况下，短视频SLOP似乎是主要制作公司唯一能做到的事情……阅读The Verge的完整故事。",
-      "originalSummary": "For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of [&#8230;]",
-      "rawFullText": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind For all the noise that's been made about how generative AI is poised to revolutionize the filmmaking industry, there haven't really been any projects created with the technology that felt like the sort of entertainment people would pay to see. Most AI firms' video models are still only capable of churning out short bursts of visually inconsistent footage . And some of Hollywood's biggest AI partnerships have suddenly evaporated in ways that make it seem like studios might not be able to rely on the new technology coming out of Silicon Valley. For the most part, short-form video slop appears to be the only thing that major production houses ar … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "date": "2026-06-13T13:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "当我在给Gemini一个冗长的提示五分钟后回到电脑时，我有两件事：预览窗口中的功能应用程序，以及关于错误的消息。\"~频道已不可恢复地损坏，将被处置！“听起来很糟糕！但在它的正下方是一个修复错误的按钮。很奇怪，我刚刚指示一台电脑用一个提示为我构建一个完整的应用程序，但它需要我点击一个按钮来修复一个错误。 无论如何，我做到了，双子座在233秒内报告说它已经成功了，使用了“阻塞”和“比赛条件”等词语。“我一点也不明白。太刺激了。这是我第二次或第三次尝试……在The Verge阅读完整的故事。",
+      "originalSummary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird [&#8230;]",
+      "rawFullText": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird that I just instructed a computer to build a whole app for me with a single prompt, but it needed me to click a button to fix a bug. I did anyway, and in 233 seconds Gemini reported back that it had succeeded, using words like \"blockages\" and \"race conditions.\" I didn't understand a bit of it. It was thrilling. This was my second or third attempt a … Read the full story at The Verge.",
       "tags": [
-        "视频生成",
-        "模型"
+        "大模型"
       ],
-      "score": 88
+      "score": 85
+    },
+    {
+      "title": "苹果新推出的人工智能照片编辑工具大部分都能正常工作，无论好坏",
+      "originalTitle": "Apple’s new AI photo editing tools mostly work, for better and worse",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "date": "2026-06-13T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "iPhone用户首次获得了真实的原生AI照片编辑功能。世界上最受欢迎的相机刚刚获得了第一套严肃的AI照片编辑功能，我认为我们中的任何一个人都没有准备好。就人工智能照片编辑而言，与谷歌的Pixel手机相比， iOS 27中的新功能相当温和。但对于iPhone来说，它们代表了原生照片应用程序允许您对照片进行操作的转折点。 我的意思是回忆。我的意思是，我不知道了。这些新功能目前是iOS 27开发者测试版的一部分，因此请记住， Apple可能会在向公众发布之前继续对其进行调整。有三个，或者两个和一个……在The Verge阅读完整的故事。",
+      "originalSummary": "The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But [&#8230;]",
+      "rawFullText": "iPhone owners are getting real, native AI photo editing for the first time. The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But for the iPhone, they represent a tipping point in what the native photos app allows you to do to your photos. I mean memories . I mean, I don't know anymore. These new features are part of the iOS 27 developer beta right now, so bear in mind that Apple may continue making tweaks to them before they're released to the general public. There are three, or maybe two and a … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -206,7 +257,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "olmo-eval ：模型开发循环的评估工作台",
@@ -221,37 +272,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
-    },
-    {
-      "title": "传闻Mistral将以200亿欧元的估值筹集30亿欧元",
-      "originalTitle": "Mistral is rumored to be raising €3B at €20B valuation",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
-      "date": "2026-06-12T17:38:11.000Z",
-      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：投融资相关动态",
-      "fullContent": "彭博社周五援引匿名消息人士的话报道，法国人工智能实验室Mistral AI正在早期讨论筹集约30亿欧元（ 35亿美元）。这轮融资将使该公司的估值达到约200亿欧元（约合231.5亿美元） ，几乎是去年9月C轮融资中获得的117亿欧元估值的两倍。 作为欧洲领先的人工智能初创公司之一， Mistral于2023年推出，其雄心壮志是“将前沿人工智能置于每个人的手中。“与美国竞争对手相比，该公司在人工智能开发方面采取了更开放的方法，提供了一些具有开放权重的基础大型语言模型，允许任何人在他们认为合适的时候定制它们。 该公司还提供量身定制的封闭模型，适用于编程、语音克隆和生成以及光学字符识别等用例。最近，随着欧洲国家远离美国科技， Mistral将自己定位为一个更友好、“主权”和本土的替代品。 该公司正在巴黎附近建立一个数据中心，并与法国军队、卢森堡政府和几家主要的欧洲公司合作。尽管如此，根据PitchBook ， Mistral迄今仅筹集了约40亿美元，仅为美国竞争对手OpenAI （ 1860亿美元）和Anthropic （ 1612.5亿美元）的一小部分。 这些实验室的价值也高得多，反映了美国实验室在收入、模型采用和企业需求方面的进一步发展。从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
-      "rawFullText": "",
-      "tags": [
-        "投融资"
-      ],
       "score": 80
-    },
-    {
-      "title": "SpaceX的大规模IPO ：所有最新消息",
-      "originalTitle": "SpaceX’s massive IPO: all the latest news",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
-      "date": "2026-06-12T14:35:48.000Z",
-      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：论文相关动态",
-      "fullContent": "SpaceX周五的IPO允许公众首次购买这家火箭、人工智能和社交媒体公司的股票，并筹集了足够的资金，使埃隆·马斯克(Elon Musk)成为首位万亿富翁。至少在理论上，他比爱尔兰、瑞典或他的祖国南非等国家的经济拥有更多的财富（美国有线电视新闻网援引国际货币基金组织的话说，只有20个国家的经济规模大于1 $。 1万亿美元） ，现在与基于将人工智能数据中心发射到太空的企业的承诺联系在一起。请关注此处，了解最新动态。据报道， SpaceX在遇到延迟问题后出租了Colossus 1 AI数据中心。世界上第一位亿万富翁是福布斯实时亿万富翁榜上的杀手，增加了一位亿万富翁。埃隆·马斯克（ Elon Musk ）是世界上第一位万亿富翁， SPCX以每股150 $的价格开盘，一万亿美元是一笔愚蠢的钱。 SpaceX现在公开伊隆·马斯克（ Elon Musk ）在SpaceX首次公开募股前夕鼓励种族骚乱。这是第一个SpaceX人工智能数据中心。 SpaceX的IPO对埃隆·马斯克（ Elon Musk ）来说很棒，对你来说很糟糕SpaceX获得了40亿美元的合同来建造导弹跟踪“金色圆顶”卫星在SpaceX的IPO中，埃隆·马斯克（ Elon Musk ）是SpaceX刚刚申请的风险因素，这可能是有史以来最大的IPO SpaceX的IPO是对SpaceX未来的万亿美元赌博，据报道SpaceX正在申请IPO ，但它对数字保密（目前）为什么SpaceX要上市？",
-      "originalSummary": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and raised enough money to make Elon Musk the first trillionaire. He has more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home country of [&#8230;]",
-      "rawFullText": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and raised enough money to make Elon Musk the first trillionaire. He has more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home country of South Africa ( CNN cites the International Monetary Fund saying only 20 countries have economies larger than $1.1 trillion), now linked to the promise of a business based on launching AI datacenters into space. Follow along here for the latest updates. SpaceX reportedly rented out Colossus 1 AI data center after it ran into latency issues. The world’s first trillionaire is a killer Forbes Real-Time Billionaires list adds a trillionaire. A trillion dollars is a stupid amount of money Elon Musk is the world&#8217;s first trillionaire SPCX opens at $150 per share. SpaceX is now public Elon Musk is encouraging race riots on the eve of SpaceX’s IPO Here’s the first SpaceX AI data center. The SpaceX IPO is great for Elon Musk and terrible for you SpaceX gets $4 billion contract to build missile-tracking ‘Golden Dome’ satellites In SpaceX’s IPO, Elon Musk is the risk factor SpaceX just filed for what could be the biggest IPO ever The SpaceX IPO is a trillion-dollar gamble on the future of space SpaceX reportedly files for IPO but it’s keeping the numbers secret (for now) Why is SpaceX going public?",
-      "tags": [
-        "论文"
-      ],
-      "score": 78
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -315,7 +336,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -330,7 +351,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
@@ -362,7 +383,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
@@ -378,7 +399,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
@@ -393,7 +414,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -408,7 +429,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -423,22 +444,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
-    },
-    {
-      "title": "推出North Mini Code ： Cohere首款面向开发人员的模型",
-      "originalTitle": "Introducing North Mini Code: Cohere’s First Model For Developers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-      "date": "2026-06-09T15:56:23.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 78
+      "score": 80
     },
     {
       "title": "Codex为Notion解锁了什么",
@@ -453,7 +459,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
+      "score": 77
+    },
+    {
+      "title": "将GitHub CI迁移到Hugging Face Jobs",
+      "originalTitle": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "date": "2026-06-09T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "什么是Hugging Face Jobs ？体系结构第1步：复制调度程序空间第2步：创建和安装GitHub应用Web设置代理辅助设置第3步：最终调度程序设置运行在\">第4步：更改运行在第5步：测试结果如果您有GitHub存储库并且启用了GitHub Actions ，则可能使用GitHub托管的Runner进行CI。 这是许多项目的默认设置，因为它很简单：添加工作流，编写运行在： ubuntu-latest ， GitHub为您提供一台机器。这种默认设置很方便，但也有局限性。GitHub Actions可能会因维护而变慢或变慢，托管机器是通用的， GPU访问不是大多数开源项目都可以启用的。对于Trackio来说，这些限制开始变得重要起来。 我们既希望可靠的CPU CI用于基本单元测试和前端检查，也希望GPU CI用于需要在实际CUDA硬件上运行的测试。所以建立了一个替代方案：让GitHub Actions负责CI ，但在Hugging Face Jobs上运行作业。结果： Trackio的CI现在在Hugging Face Jobs上运行，并返回实时日志，将CPU作业的CI时间减少了约30 ％ ，并实现了在GPU机器上运行的全新测试套件！ 在本文中，我们将逐步解释如何为GitHub存储库重新创建相同的设置。如果您使用的是客服代表，可以参考本文，因为我们为用户提供CLI说明和基于浏览器的说明。通过Hugging Face Jobs ，您可以在Hugging Face的无服务器基础设施上运行几乎任何硬件类型的命令或脚本。工作本质上是：这使得工作自然适合CI。 CI作业已经是命令驱动的，已经在干净的环境中运行，并且通常从选择正确的硬件中受益。对于ML库， GPU的情况尤其引人注目：您可以在真正的GPU硬件上运行测试套件，而无需维护自己的始终在线的运行器。关键步骤是将GitHub Actions连接到HF Jobs ，我们将在下面进行描述。 对于此设置，我们创建了huggingface/jobs-actions ，这是一个将GitHub Actions作业转换为在HF作业中运行的短暂自托管运行器的小桥梁。从GitHub的角度来看，这只是一个自托管的运行器。从Hugging Face的角度来看，它只是一个启动容器的作业，用于从存储库的GitHub Actions运行工作流步骤。您首先需要的是调度员。 这是一个小的Docker空间，用于接收GitHub WORKFLOW_JOB Webhook事件并启动HF Jobs作为响应。首先创建此内容，因为GitHub应用需要Webhook URL ，而该URL来自空间。此空间应位于您自己的命名空间下，或位于您拥有写入权限的Hugging Face组织之下。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 70
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -469,7 +490,7 @@
         "智能体",
         "开源"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -484,7 +505,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -500,7 +521,7 @@
         "多模态",
         "安全"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -515,7 +536,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -530,7 +551,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "超越聊天机器人的直接偏好优化",
@@ -545,7 +566,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "将MCP工具添加到Reachy Mini",
@@ -560,7 +581,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -575,7 +596,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -590,7 +611,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "小型企业如何利用人工智能",
@@ -605,7 +626,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
+    },
+    {
+      "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
+      "originalTitle": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "date": "2026-06-01T13:51:18.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 72
     },
     {
       "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
@@ -620,7 +656,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
@@ -651,21 +687,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "在人工智能时代重新思考组织设计",
-      "originalTitle": "Rethinking organizational design in the age of agentic AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
-      "date": "2026-05-26T14:54:10.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "随着企业级人工智能代理的迅速采用，雄心和执行之间出现了脱节。尽管85%的组织表示他们希望在未来三年内成为代理商，但76%的组织表示他们目前的运营和基础设施无法支持这一变化。他们列举了人员、流程和工作流程方面缺乏准备的情况。 普华永道英国咨询公司劳动力咨询全球首席技术官兼首席人工智能官Prasun Shah解释说，挑战在于，许多组织经常将人工智能代理分层到现有运营中，而不是重新构想运营模式以及如何重新布线工作。 “他们将人工智能员工嵌入到人工运营模型中，”将人工智能代理分层到现有的工作场所结构中， “这就像将粘性磁带添加到运营模型中正在中断的部分。“这样做可能会阻止组织解锁人工智能提供的全部价值，从而创造出幻灭可以迅速蔓延的环境。充分的价值在于客服代表在有限的人力投入下执行整个工作流程的能力。 他们可以协调复杂的任务，做出独立的决定，适应不断变化的条件，并迭代绩效。在跨越客户服务、人力资源和销售的早期证明中，据估计，在大规模部署时，人工智能代理可以将业务流程加速30%至50% ，将低价值工作时间加速25%至40%。但是，这种能力带来了更大的复杂性，需要在整个企业范围内进行变革。 不断增长的人工智能词汇企业代理人工智能平台Ema将这一变化描述为代理业务转型（ ABT ） ，这是它去年与HFS Research合作创造的一个术语，旨在填补现有人工智能代理词汇中的空白，并为企业提供一个新的框架来思考自己对该技术的采用。 Ema首席执行官兼创始人Surojit Chatterjee解释说： “现有的词汇都没有全面反映变革的范围。” “数字化转型是从纸面转向软件。人工智能转型是将人工智能添加到现有流程中。副驾驶是关于人工智能协助各种人类任务。但ABT是完全不同的东西：它是将人工智能代理集成到组织的结构中。 对于Shah来说，专用术语（ ABT ） “有助于推动重新设计整个组织的需求：其运营模式、工作流程、决策权和绩效管理系统。他强调，“确保这些代理人实际上是价值创造的积极参与者所需的一切，而不仅仅是点工具或生产力辅助工具。 “根据Ema的说法， ABT包括三个核心支柱：组织的技术堆栈、员工队伍以及用于成功的指标。作为结缔组织的人工智能药物ABT的第一个支柱是技术堆栈。Chatterjee表示：「您现有的技术堆栈专为人工操作、以应用程序为中心的工作流程而设计。“当参与者是同时在多个系统上以机器速度运行的人工智能代理时，需要重新考虑。",
-      "originalSummary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&#160; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows.&#160; The sticky&#8230;",
-      "rawFullText": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution.&nbsp; Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows.&nbsp; The sticky tape problem The challenge is that many organisations are often layering AI agents onto existing operations, rather than reimagine the operating model and how work will need to be rewired, explains Prasun Shah, global CTO for workforce consulting and chief AI officer at PwC UK Consulting. “They’re embedding AI employees into what is a human operating model,” layering on AI agents to existing workplace structures when “this is like adding sticky tapes to parts of an operating model that is breaking.” Doing so may be preventing organizations from unlocking the full value agentic AI offers, creating circumstances where disillusionment can quickly creep in. That full value lies in agents’ capacity to execute entire workflows with limited human input. They can coordinate complex tasks, make independent decisions, adjust to changing conditions, and iterate performance.&nbsp; In early proving grounds that span customer service, HR, and sales, it’s already estimated that AI agents could accelerate business processes by as much as 30% to 50% and low-value work time by 25% to 40% when deployed at scale. But with this capability comes greater complexity and the need for an enterprise-wide change. Growing the AI vocabulary&nbsp; Enterprise agentic AI platform Ema describes this change as agentic business transformation (ABT), a term it coined last year in partnership with HFS Research, in an attempt to plug what it sees as a gap in the existing lexicon about AI agents, and to provide enterprises with a new framework with which to think about their own adoption of the technology.&nbsp; “None of the existing vocabulary captures the full scope of the change,” explains Ema CEO and founder Surojit Chatterjee. “Digital transformation was about moving from paper to software. AI transformation was about adding artificial intelligence to existing processes. Co-pilot is about AI assisting in various human tasks. But ABT is something categorically different: It&#8217;s the integration of AI agents into the fabric of the organization.”&nbsp; For Shah, the dedicated term (ABT) “helps drive the need to redesign an organization in its entirety: its operating model, its workflows, decision rights, and performance management systems.” He emphasizes that “everything that’s needed to ensure those agents are actually active participants in value creation, rather than just point tools or productivity aids.” According to Ema, ABT encompasses three core pillars: an organization’s technology stack, its workforce, and the metrics used for success.&nbsp; AI agents as connective tissue The first pillar of ABT is the technology stack. “Your existing tech stack was designed for human-operated, application-centric workflows,” says Chatterjee. “It needs to be reconsidered when the actor is an AI agent operating at machine speed across multiple systems simultaneously.” &nbsp;As AI agents are integrated into an organization, enterprises will need to pivot from a set of linear processes and steps, to rewiring work in a very different way, explains Shah. That’s because the value in AI agents isn’t as another layer in an existing technology stack but as a connective tissue, he explains, moving between or across layers to coordinate a high-level task or retrieve and interpret data from multiple discrete applications. AI agents can create “a true competitive differentiation for an enterprise” by making decisions based on this capacity to contextualize, he says. “That is where the next battleground will be.” To build this connective tissue, leaders need to adapt their technology stack to surface higher quality decisions from AI agents, prioritizing access to multiple datasets and applications simultaneously to develop tacit knowledge. “Organizations that make this architectural shift become genuinely more adaptive,” says Chatterjee. “When a new business requirement emerges, you don&#8217;t wait six months for a software vendor to build a feature. You configure an AI employee using natural language and connect it to the systems it needs. The time from business to production workflow drops from months to days.” The workforce, redesigned As AI agents are deployed for more use cases, enterprise leaders must consider what this means for dynamics across their workforce, the second pillar of ABT. Workforce structures today deviate little from the hierarchical model of the early days of industrialization. To maximize efficiency and scale, processes are standardized, tasks are clearly delineated between strategic business units (SBUs), and employees progress up through an organization based on their capacity to optimize output from teams below them. But with AI agents that can execute, coordinate, and optimize tasks—often without managerial coordination—the lines of that established hierarchy become blurred. In a workforce that blends AI agents and human employees, managers will be freed up from many execution-based tasks but take on new responsibilities associated with managing hybrid teams. Managers “will need to be able to manage issues around trust, explainability, psychological safety, and even status dynamics” to navigate new tensions that could arise in a hybrid workforce, says Shah. The impact of agentic AI on existing workforce structures goes far beyond the management layer, too. McKinsey predicts that by 2030, three-quarters of current jobs will require redesign, upskilling, or redeployment, and organizations will need to act swiftly to amend recruitment, retention, and remuneration.&nbsp; From output to outcome Success metrics are the third and final pillar of ABT.&nbsp; As AI agents assume greater ownership of core enterprise processes, taking on collaborative roles alongside human employees, traditional workforce metrics that focus on activity or output—such as calls handled or reports filed—no longer make sense.&nbsp; “When you add AI employees into the workforce, activity metrics become meaningless or actively misleading,” says Chatterjee. “An AI employee can handle a thousand customer interactions in the time it takes a human to handle ten. If you measure success by interactions handled, you&#8217;ll conclude the AI is working brilliantly while missing whether any of those interactions actually drove customer satisfaction, retention, or revenue.” To correct this, enterprises must develop a new set of metrics that focus on outcome rather than output. That is, metrics on the broader benefits or changes achieved, rather than individual deliverables.&nbsp; For example, when one of Ema’s large enterprise customers overhauled its own metrics, switching from tool metrics like cost per query and AI accuracy, to outcomes like the percentage of contracts reviewed without human escalation, the measured ROI from agentic AI tripled within two quarters. The changes meant “this customer stopped building point solutions in high-volume, low-complexity workflows and started deploying AI employees where the outcome value was highest,” says Chatterjee. Integrating new metrics may also require a complete reconfiguration of reward and talent management processes, as well as accountability and ownership within organizations, points out Shah. In human-AI teams, for example, although ethical and fiduciary responsibilities will likely remain with human employees, operational accountability will become significantly more diffused to reflect the systemic role of AI agents. This change will raise new questions that senior leadership teams will need to wrestle with, Shah adds. They’ll need to consider: Who is accountable when an AI employee makes a mistake? What happens when AI and humans disagree? What guardrails should be erected to safeguard customers?&nbsp; Laying the groundwork for systems-level change Systems-level change is gradual. These are complex lines of inquiry that experts continue to grapple with. But in kickstarting internal dialogue about the core pillars of ABT—the workforce, the technology stack, and the metrics by which success can be gauged—leaders can lay the groundwork for an enterprise better poised to embrace AI agents at a systems level and start to close the gap between their ambition and execution.&nbsp; This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 80
     }
   ]
 }
