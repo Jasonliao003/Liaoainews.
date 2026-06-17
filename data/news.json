@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T01:43:05.679Z",
+  "updatedAt": "2026-06-17T00:22:32.818Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,65 +19,46 @@
   ],
   "articles": [
     {
-      "title": "关于Anthropic与白宫的新人工智能斗争的所有新闻",
-      "originalTitle": "All the news about Anthropic&#8217;s new AI fight with the White House",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
-      "date": "2026-06-15T19:04:53.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "Anthropic在与五角大楼的对峙中已经解决了与政府的一场纠纷，然后在6月12日下令阻止外国人访问其最近发布的人工智能模型Fable 5和Mythos 5。 当他们于6月9日推出时， Anthropic表示“寓言5的能力超过了我们曾经普遍推出的任何型号的能力” ，并且Claude Mythos 5具有相同的基础型号， “但在某些地区解除了保护措施。据报道，该命令是在亚马逊和白宫就研究人员表示他们找到了让寓言5号提供可能用于网络攻击的信息的方法进行对话之后发布的。 Anthropic的回应是关闭所有客户对这两种模式的访问权限，他说： “我们正在遵守政府的法律指令，并取消所有用户对Fable 5和Mythos 5的访问权限。然而，我们不同意，发现狭隘的潜在越狱应该是召回部署到数亿人的商业模式的原因。 “阅读下面的所有最新更新，特朗普的人类关闭刚刚证明了非美国人工智能中国可能访问了Mythos据报道，亚马逊的安全研究导致白宫的人类寓言禁令Anthropic在政府命令后切断了Fable 5和Mythos 5的访问权限Anthropic发布其第一个Mythos级模型Claude Fable",
-      "originalSummary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any [&#8230;]",
-      "rawFullText": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon , and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any model we’ve ever made generally available,&#8221; and that Claude Mythos 5 had the same underlying model, &#8220;but with the safeguards lifted in some areas.&#8221; According to reports , the order came after conversations between Amazon and the White House about researchers saying they found ways to get Fable 5 to serve information that could be used in cyberattacks. Anthropic responded by shutting access to both models for all customers, saying , &#8220;We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.&#8221; Read along below for all of the latest updates Trump’s Anthropic shutdown just made the case for non-American AI China may have accessed Mythos Amazon security research reportedly led to the White House’s Anthropic Fable ban Anthropic cuts off Fable 5 and Mythos 5 access following government order Anthropic releases its first Mythos-class model Claude Fable",
+      "title": "随着Google扩展Gemini功能， Android 17推出了新的多任务处理工具",
+      "originalTitle": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "date": "2026-06-16T18:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
+      "fullContent": "谷歌发布了Android 17和Wear OS 7 ，引入了新的多任务处理功能、家长控制、安全工具和智能手表升级。此次发布还配备了Pixel Drop ，将谷歌最新的人工智能模型带入其设备。",
+      "originalSummary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
+        "大模型",
         "产品发布",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "Orchestra-o1 ：全方位代理编排",
-      "originalTitle": "Orchestra-o1: Omnimodal Agent Orchestration",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.13707",
-      "date": "2026-06-15T04:00:00.000Z",
-      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、视频生成相关动态",
-      "fullContent": "arXiv: 2606. 13707v1公告类型：新摘要： Agent Swarms最近的成功将基于大型语言模型(LLM)的代理范式从单Agent工作流转向多Agent系统，突出了Agent编排对任务分解和协作的重要性。 然而，现有的协调框架仅限于一组狭窄的模式，难以推广到异构模式共存和相互作用的更复杂环境中。这种局限性在多模式场景中尤其明显，在这些场景中，任务需要对文本、图像、音频和视频等不同输入的统一理解和协调。 在这项工作中，我们提出了Orchestra-o1 ，这是一个全模式代理编排框架，旨在支持跨多种模式的高效代理协作。Orchestra-o1引入了一种统一的编排机制，可实现感知模式的任务分解、在线子代理专业化和并行子任务执行。 这种可扩展的设计使代理系统能够有效处理涉及异构信息源的复杂现实任务，在OmniGAIA基准测试中超过第二佳方法的准确率为10. 3%。 此外，我们还引入了决策对齐组相对策略优化（ DA-GRPO ） ，这是一种用于训练Orchestra-o1-8B的高效代理强化学习方法，它还针对所有现有的开源全模式代理实现了最先进的性能。",
-      "originalSummary": "arXiv:2606.13707v1 Announce Type: new Abstract: The recent success of agent swarms has shifted the paradigm of large language model (LLM)-based agents from single-agent workflows to multi-agent systems, highlighting the importance of agent orchestration for task decomposition and collaboration. However, existing orchestration frameworks are limited to a narrow set of modalities and struggle to generalize to more complex settings where heterogeneous modalities coexist and interact. This limitation becomes particularly pronounced in omnimodal scenarios, where tasks require the unified understanding and coordination of diverse inputs such as text, image, audio, and video. In this work, we propose Orchestra-o1, an omnimodal agent orchestration framework designed to support efficient agent collaboration across multiple modalities. Orchestra-o1 introduces a unified orchestration mechanism that enables modality-aware task decomposition, online sub-agent specialization, and parallel sub-task execution. This scalable design allows agent systems to effectively tackle complex real-world tasks involving heterogeneous information sources, surpassing the second-best approach by 10.3% accuracy on the OmniGAIA benchmark. Furthermore, we introduce decision-aligned group relative policy optimization (DA-GRPO), an efficient agentic reinforcement learning approach for training Orchestra-o1-8B, which also achieves state-of-the-art performance against all existing open-source omnimodal agents.",
+      "title": "ChatGPT的市场份额首次下滑至50%以下",
+      "originalTitle": "ChatGPT&#8217;s market share slips below 50% for first time",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "date": "2026-06-16T10:30:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
+      "fullContent": "在ChatGPT首次发布三年半之后，人工智能助手现在已被全球数百万人使用，竞争格局正在迅速变化。 虽然OpenAI的聊天机器人仍然是全球最受欢迎的助手，但根据分析公司Sensor Tower的《2026年人工智能状况报告》，随着用户在谷歌的Gemini、Anthropic的Claude和xAI的Grok等不同助手之间迁移，其市场份额首次跌破50%。ChatGPT的增长令人印象深刻。 据Sensor Tower本月报道，它成为有史以来月度用户达到10亿的最快应用程序。值得注意的是， OpenAI统计了每周活跃用户，上次报告是2月份的9亿活跃用户。聊天机器人仍然是全球最受欢迎的人工智能助手，每月用户超过11亿，其次是Gemini （ 6.62亿）和Claude （ 2.45亿）。 截至1月份， ChatGPT的市场份额超过50% ，但到5月底，由于Gemini （ 27. 7% ）和Claude （ 10. 3% ）的崛起， ChatGPT的市场份额已降至46. 4%。其他助手，包括Grok、Perplexity、DeepSeek和Meta AI ，市场份额不到5%。Sensor Tower的人工智能状况报告还发现，用户越来越愿意在助手之间切换。具体事件似乎加速了这种行为： OpenAI与美国的交易。 例如，美国国防部（ DoD ）在2月份引发了可衡量的卸载激增--这表明品牌信任和价值观一致对用户很重要，而不仅仅是功能。虽然Gemini的势头主要归功于其与谷歌更广泛的工具生态系统的整合，但Anthropic的Claude在生产力用例方面赢得了良好的声誉，并且正在接近ChatGPT的用户保留率。 根据Sensor Tower的估计，在2026年上半年，人们正在加速下载近23亿个AI应用程序，并在其上花费超过42亿美元。相比之下， 2025年上半年的支出为13.83亿美元，这表明该行业正在将其重点从纯粹的增长转向货币化。也就是说，下载和支出增长率都已经放缓，这表明即使绝对数字攀升，市场也可能正在成熟。 从地区来看，受中国和印度下跌的推动，亚洲在2026年第一季度的下载量首次下降了3. 3%。尽管在总下载量方面处于全球领先地位，但在应用内支出方面，亚洲仍落后于北美和欧洲，这对于决定在高级功能和货币化方面投资的公司来说非常重要。在美国，用户越来越倾向于使用人工智能助手来完成生产力任务，并在高级功能上花费更多。 在各个平台上，每个用户的平均收入在全行业范围内都有所增长，但Claude脱颖而出。13%的Anthropic用户正在为订阅计划付费，这一转化率在该领域处于领先地位，对于评估哪些人工智能企业正在建立持久收入的投资者来说，这将是一个值得关注的指标。Sensor Tower估计，花在人工智能应用程序上的时间将从17个小时增加。",
+      "originalSummary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "视频生成",
-        "评测"
+        "大模型"
       ],
       "score": 99
     },
     {
-      "title": "混合开放式三进化让深度研究变得更好",
-      "originalTitle": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
+      "title": "人工智能代理之间的信任：测量形成、破坏和恢复，以及对管理多代理系统的影响",
+      "originalTitle": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.13710",
-      "date": "2026-06-15T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2606. 13710v1公告类型：新摘要：深入研究和智能体进化是人工智能智能体在通用人工智能现实应用中的实际任务。前者允许在开放式环境中自主检索和集成信息，以解决开放式研究任务，但它受到代理系统静态参数深度研究能力的限制。 后者允许代理与环境自主交互，以获得发展模型功能的体验。然而，其有效性仅在具有标准答案的可验证任务上得到广泛验证，与开放式研究任务之间存在差距。 为了弥合这两个关键任务，我们提出了混合开放式三进化（ HOTE ）框架，该框架利用混合模式强化学习来促进基于网络规模知识的提案者、求解者和判断者的协作进化，从而在开放式任务和环境中向自主进化代理迈进。 在三个长形深度研究基准上的广泛实验表明，通过HOTE训练的8B模型超越了最强的静态开放8-32B模型以及采用最先进的深度研究训练方法以更少的时间开销进行训练的模型，并进一步验证了HOTE中所有三个模块的演进是不可或缺的。",
-      "originalSummary": "arXiv:2606.13710v1 Announce Type: new Abstract: Deep research and agent evolution serve as de-facto tasks for AI agents in real-world applications toward artificial general intelligence. The former enables autonomous retrieval and integration of information in open-ended environments to tackle open-ended research tasks, yet it is constrained by the static parametric deep research capabilities of agent systems. The latter allows agents to autonomously interact with the environment to gain experiences that evolve model capabilities. However, its effectiveness has been widely validated only on verifiable tasks with standard answers, leaving a gap with open-ended research tasks. To bridge these two critical tasks, we propose the Hybrid Open-Ended Tri-Evolution (HOTE) framework, which leverages hybrid-mode reinforcement learning to facilitate the collaborative evolution of a proposer, solver and judge based on web-scale knowledge, moving toward autonomous evolving agents in open-ended tasks and environments. Extensive experiments on three long-form deep research benchmarks demonstrate that the 8B model trained via HOTE surpasses the strongest static open 8-32B models as well as those trained by state-of-the-art deep research training methods with less time overhead, and further verify that the evolution of all three modules in HOTE is indispensable.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "重新审视WorkBench ：两年后的工作场所代理",
-      "originalTitle": "WorkBench Revisited: Workplace Agents Two Years On",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.13715",
-      "date": "2026-06-15T04:00:00.000Z",
+      "link": "https://arxiv.org/abs/2606.14923",
+      "date": "2026-06-16T04:00:00.000Z",
       "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 13715v1公告类型：新摘要： 2024年3月WorkBench上最好的代理， GPT-4 ，完成了43%的任务，并在其中26%的任务上采取了意外的有害行为，例如发送电子邮件给错误的人。我们在2026年6月重新审视了基准，发现迄今为止最好的代理商Claude Opus 4. 8完成了89% ，并采取了2. 5%的意外有害行为。除了前沿代理绩效的显著进步外，还有三件事情脱颖而出。 首先，功能和安全在WorkBench上结合在一起，而不是权衡，因此完成最多任务的模型也会产生最小的意外损坏。其次，虽然已经完全消除了几类错误，但前沿模型仍然会犯一些基本错误，偶尔会导致不可逆转的伤害，例如向错误的人发送电子邮件。 第三，开放式权重模型的崛起大大降低了以前只有专有模型才能获得的性能水平的成本，而前沿成本则保持相对稳定。我们发布了基准的更新版本，其中包括数据和代码质量改进、新模型分数以及自2024年以来WorkBench上的代理进度分析。",
-      "originalSummary": "arXiv:2606.13715v1 Announce Type: new Abstract: The best agent on WorkBench in March 2024, GPT-4, completed 43% of tasks and took an unintended harmful action, such as emailing the wrong person, on 26% of them. We re-visit the benchmark in June 2026 and find that the best agent to date, Claude Opus 4.8, completes 89% and takes an unintended harmful action on 2.5%. Aside from this considerable progress in frontier agent performance, three things stand out. First, capability and safety go together on WorkBench rather than trade off, so the models that finish the most tasks also do the least unintended damage. Second, while several classes of error have been totally eliminated, frontier models still make some basic mistakes that occasionally result in irreversible harm, such as sending an email to the wrong person. Third, the rise of open-weight models has drastically lowered costs for a performance level that was previously only accessible to proprietary models, while frontier costs have stayed relatively stable. We release an updated version of the benchmark with data and code quality improvements, new model scores, and analysis of agent progress on WorkBench since 2024.",
+      "fullContent": "arXiv: 2606. 14923v1公告类型: new摘要:随着语言模型代理越来越多地在团队中工作，每个代理必须决定对其队友的信任程度。然而，我们缺乏衡量人工智能代理之间信任的标准方法。我们提出了一种基于代价高昂的验证的行为测量方法。在合作生存游戏中，检查队友的工作会消耗资源，而相信错误的答案可能是致命的。 相对于同一模型的无记忆版本，减少的验证提供了可观察到的信任度量。使用此框架，我们研究了六个前沿模型快照中的信任形成、破坏和恢复。当与始终如一的可靠队友配对时，四个快照（ Claude Opus 4. 6 ， Claude Sonnet 4. 6 ， GPT-5. 1和Gemini 3. 1 Pro ）减少了大约60-85 ％的验证，而两个较小的快照显示很少或根本没有这种调整。 失败会逆转此折扣，但模型在响应方式上有所不同。一些人重新审视了罪魁祸首，而另一些人则对整个团队更加谨慎。恢复速度比形成速度慢，集群故障的持续时间远远超过相同数量的故障分散的时间。这些差异会产生实际后果。形成信任的模型验证较少，决策更快，并在我们的环境中获得更高的回报。 相比之下，持续的过度验证与优柔寡断而不是安全性有关。我们的结果表明，可以在部署之前测量信任处置，并建议校准，而不是最大程度的怀疑，应该是多智能体人工智能系统治理的核心问题。",
+      "originalSummary": "arXiv:2606.14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision rather than safety. Our results show that trust dispositions can be measured before deployment and suggest that calibration, rather than maximal suspicion, should be the central concern in the governance of multi-agent AI systems.",
       "rawFullText": "",
       "tags": [
         "大模型",
@@ -87,21 +68,116 @@
       "score": 99
     },
     {
-      "title": "MA-ProofBench ：数学分析中定理证明的LLM的双层评估",
-      "originalTitle": "MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis",
+      "title": "PrologMCP ： LLM代理的标准化Prolog工具界面",
+      "originalTitle": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.13782",
-      "date": "2026-06-15T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2606. 13782v1公告类型：新摘要：大型语言模型（ LLM ）在自动化定理证明方面取得了显著进展，但现有的正式基准在数学覆盖面和难度方面仍然有限。大多数集中在更容易形式化的领域，如代数和基本数论，并且对需要更深入推理的子领域的覆盖范围有限，包括数学分析。 为了解决这一差距，据我们所知，我们引入了MA-ProofBench ，这是第一个致力于数学分析的正式定理证明基准。该基准包含200个形式化定理，涵盖6个核心主题和27个子类别，包括测量和积分理论、复杂分析和函数分析。问题分为两个难度级别，本科级别（ I级， 100个问题）和博士学位。 合格级别（二级， 100个问题） ，以评估LLM在不同数学深度下的正式推理能力。每个问题都是通过人为主导、LLM协助的形式化流程构建的，然后进行独立专家审查，确保正式陈述忠实于原始数学。我们评估了MA-ProofBench上最近的一系列通用推理模型和形式定理证明。 然而，大多数模型表现不佳：即使是表现最好的模型， GPT-5. 5 ，在I级和II级上也只达到了16% @ 8和5% ，而大多数模型在II级上保持接近0%。进一步的分析将Mathlib的幻觉和不完整的证明确定为两种主要的失败模式，而对基准的自然语言版本的评估揭示了非正式和正式推理之间的明显差距。 MA-ProofBench旨在作为跟踪高级领域正式数学推理进展的可靠参考。",
-      "originalSummary": "arXiv:2606.13782v1 Announce Type: new Abstract: Large Language Models (LLMs) have made notable progress in automated theorem proving, yet existing formal benchmarks remain limited in both mathematical coverage and difficulty. Most are concentrated in areas that are easier to formalize, such as algebra and elementary number theory, and provide limited coverage of subfields that require deeper reasoning, including mathematical analysis. To address this gap, we introduce MA-ProofBench, to the best of our knowledge, the first formal theorem-proving benchmark dedicated to Mathematical Analysis. The benchmark contains 200 formalized theorems covering 6 core topics and 27 subcategories, including measure and integration theory, complex analysis, and functional analysis. The problems are divided into two difficulty levels, an undergraduate level (Level I, 100 problems) and a Ph.D. qualifying level (Level II, 100 problems), to evaluate how well LLMs perform formal reasoning at different mathematical depths. Each problem is constructed through a human-led, LLM-assisted formalization pipeline followed by independent expert review, ensuring that the formal statements remain faithful to the original mathematics. We evaluate a range of recent general-purpose reasoning models and formal theorem provers on MA-ProofBench. However, most models perform poorly: even the best-performing model, GPT-5.5, achieves only 16% Pass@8 on Level I and 5% on Level II, while most models stay close to 0% on Level II. Further analysis identifies Mathlib hallucinations and incomplete proofs as the two dominant failure modes, while an evaluation on the natural-language version of the benchmark exposes a clear gap between informal and formal reasoning. MA-ProofBench is intended to serve as a reliable reference for tracking progress in formal mathematical reasoning in advanced domains.",
+      "link": "https://arxiv.org/abs/2606.14935",
+      "date": "2026-06-16T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly.符号委派提供了一个互补的途径：语言模型翻译问题，而求解器执行推理。 然而，当前用于逻辑编程的自形式化管道通常是与特定任务或代理相关的定制集成。我们介绍了PrologMCP ，这是一种与任务无关的开源服务器，通过模型上下文协议（ MCP ）将Prolog公开为有状态工具。其紧凑的工具界面、结构化错误报告和每会话隔离使翻译运行检查修复循环成为支持MCP的代理的可重用原语。 我们根据标准和推理LLM （ Claude Sonnet 4. 6 ， GPT-4. 1和o4-mini ）在PARARULE-Plus的两个子集上评估了使用PrologMCP增强的形式化代理：一个通用样本和一个更具挑战性的针对自然语言推理的特定失败模式的样本。在一般样本上，形式化器匹配或超过推理LLM （准确度1. 00 vs.\\ 1. 00/0. 998 ） ，与标准模型相比增益最大（ GPT-4. 1为0. 762 ）。 在具有挑战性的子集上，形式化器保持近乎完美（ 1. 00/0. 99 ） ，而推理LLM下降到0. 95/0. 94。这些结果表明，通过MCP将推理委托给Prolog是扩展自然语言推理的一个强大且可检验的替代方案。",
+      "originalSummary": "arXiv:2606.14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that delegating inference to Prolog via MCP is a robust and inspectable alternative to extended natural-language reasoning.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "推理",
-        "评测"
+        "智能体",
+        "推理"
       ],
       "score": 99
+    },
+    {
+      "title": "OSGuard ：计算机使用代理安全基准",
+      "originalTitle": "OSGuard: A Benchmark for Safety in Computer-Use Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.15034",
+      "date": "2026-06-16T04:00:00.000Z",
+      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
+      "fullContent": "arXiv: 2606. 15034v1公告类型：新摘要：计算机使用代理的评估越来越多地取决于它们是否完成了逼真的桌面和Web任务。但是，如果客服代表通过不安全的快捷方式达到名义目标，仅任务成功就可能会错过失败。我们推出了OSGuard ，这是一个双粒度基准套件，用于根据良性、不变的用户说明评估计算机使用代理的安全性。 OSGuard包含用于本地护栏决策的动作级基准和用于端到端评估的风险增强执行套件。操作级别基准包括标记为允许、无关或不安全的情境化建议操作，每个操作都相对于原始指令和当前接口状态进行判断。 执行套件包含手动构建的OSWorld派生的任务变体，其中原始任务仍然可以实现，但环境被修改以引入潜在的危险，例如破坏性覆盖等。 每个变体都与增强评估器配对，后者保留了原始任务成功标准，同时添加了明确的基于状态的安全不变量，使我们能够区分安全完成与满足名义任务目标的不安全完成。 我们在OSGuard上的实验结果表明，当前的多式联运护栏可以在孤立的行动判断中表现良好，而风险增强的执行则暴露了本地监督和可靠的端到端安全之间仍然存在的差距。这种双粒度设计可以更精确地诊断模型是否既能识别不安全的建议操作，又能在部署为护栏时提高全任务安全性。",
+      "originalSummary": "arXiv:2606.15034v1 Announce Type: new Abstract: Computer-use agents are increasingly evaluated by whether they complete realistic desktop and web tasks. However, task success alone can miss failures in which an agent reaches the nominal goal through an unsafe shortcut. We introduce OSGuard, a dual-granularity benchmark suite for evaluating safety in computer-use agents under benign, unchanged user instructions. OSGuard contains an action-level benchmark for local guardrail decisions and a risk-augmented execution suite for end-to-end evaluation. The action-level benchmark consists of contextualized proposed actions labeled as allowed, unrelated, or unsafe, each judged relative to the original instruction and current interface state. The execution suite contains manually constructed OSWorld-derived task variants in which the original task remains achievable, but the environment is modified to introduce latent hazards such as destructive overwrites, etc. Each variant is paired with augmented evaluators that retain the original task-success criterion while adding explicit state-based safety invariants, allowing us to distinguish safe completions from unsafe completions that satisfy the nominal task objective. Our experimental results on OSGuard show that current multimodal guardrails can perform well on isolated action judgments, while risk-augmented execution exposes remaining gaps between local oversight and reliable end-to-end safety. This dual-granularity design enables more precise diagnosis of whether models can both recognize unsafe proposed actions and improve full-task safety when deployed as guardrails.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "多模态",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "关于Anthropic与白宫的新人工智能斗争的所有新闻",
+      "originalTitle": "All the news about Anthropic&#8217;s new AI fight with the White House",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "date": "2026-06-15T19:04:53.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "Anthropic在与五角大楼的对峙中已经解决了与政府的一场纠纷，然后在6月12日下令阻止外国人访问其最近发布的人工智能模型Fable 5和Mythos 5。 当他们于6月9日推出时， Anthropic表示“寓言5的能力超过了我们曾经普遍推出的任何型号的能力” ，并且Claude Mythos 5具有相同的基础型号， “但在某些地区解除了保护措施。据报道，该命令是在亚马逊和白宫就研究人员表示他们找到了让寓言5号提供可能用于网络攻击的信息的方法进行对话之后发布的。 Anthropic的回应是关闭所有客户对这两种模式的访问权限，他说： “我们正在遵守政府的法律指令，并取消所有用户对Fable 5和Mythos 5的访问权限。然而，我们不同意，发现狭隘的潜在越狱应该是召回部署到数亿人的商业模式的原因。 “阅读下面的所有最新更新，特朗普的人类关闭刚刚证明了非美国人工智能中国可能访问了Mythos据报道，亚马逊的安全研究导致白宫的人类寓言禁令Anthropic在政府命令后切断了Fable 5和Mythos 5的访问权限Anthropic发布其第一个Mythos级模型Claude Fable",
+      "originalSummary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any [&#8230;]",
+      "rawFullText": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon , and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any model we’ve ever made generally available,&#8221; and that Claude Mythos 5 had the same underlying model, &#8220;but with the safeguards lifted in some areas.&#8221; According to reports , the order came after conversations between Amazon and the White House about researchers saying they found ways to get Fable 5 to serve information that could be used in cyberattacks. Anthropic responded by shutting access to both models for all customers, saying , &#8220;We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.&#8221; Read along below for all of the latest updates Today’s Vergecast: The Mythos mess and your AI questions, answered. Inside the fight over Claude Mythos 5 Trump’s Anthropic shutdown just made the case for non-American AI China may have accessed Mythos Amazon security research reportedly led to the White House’s Anthropic Fable ban Anthropic cuts off Fable 5 and Mythos 5 access following government order Anthropic releases its first Mythos-class model Claude Fable",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "特朗普的人类关闭刚刚为非美国人工智能提供了理由",
+      "originalTitle": "Trump’s Anthropic shutdown just made the case for non-American AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+      "date": "2026-06-15T18:10:27.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
+      "fullContent": "在华盛顿的要求下， Anthropic突然在周末将其最新、最强大的人工智能模型下线。这家美国公司表示，在白宫要求阻止包括其员工在内的所有外国公民进入之后，它别无选择。在国外，这一事件令人清醒地意识到，美国不仅主导着前沿人工智能，其政府还对谁可以使用它行使权力。 特朗普政府的行动迅速、全面，几乎没有警告或解释。前所未有的Fable 5和Mythos 5型号的关闭-这些型号已经受到限制其使用的保护措施的限制”…阅读The Verge的完整故事。",
+      "originalSummary": "At Washington's request, Anthropic suddenly took its newest and most powerful AI models offline over the weekend. The American company said it had little choice after the White House demanded it block access for all foreign nationals, including its own employees. Abroad, the incident offered a sobering reminder that the US not only dominates frontier [&#8230;]",
+      "rawFullText": "At Washington's request, Anthropic suddenly took its newest and most powerful AI models offline over the weekend. The American company said it had little choice after the White House demanded it block access for all foreign nationals, including its own employees. Abroad, the incident offered a sobering reminder that the US not only dominates frontier AI - its government also wields power over who gets to use it. The Trump administration's action was swift, sweeping, and imposed with little warning or explanation. The unprecedented shutdown of the Fable 5 and Mythos 5 models - which were already subject to safeguards limiting their use in \" … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 91
+    },
+    {
+      "title": "大型科技公司对人工智能监管的最后一次绝望推动",
+      "originalTitle": "Big Tech’s desperate last push at AI regulation",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "date": "2026-06-15T17:44:10.000Z",
+      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：监管相关动态",
+      "fullContent": "美国参议员玛莎·布莱克本（ R-TN ）和多数党领袖查克·舒默（ D-NY ）于2024年7月30日在华盛顿特区国会大厦与两党参议员就《在线隐私保护法》的通过举行新闻发布会。| Kent Nishimura/Getty Images。几个月来，大型科技公司的华盛顿游说者一直在追逐亲人工智能立法的圣杯：先发制人。 这将是一项全面的联邦法律，由国会通过并由总统签署，在全国范围内应用一套人工智能规则，并推翻法律上混乱的逐州监管方法。几个月来，游说者遇到了路障，在全国范围内引发了政治反弹，他们现在面临的可能性是，在中期选举之后，国会将转向不愿与他们合作的敌对民主党人。 但他们最后，最绝望的先发制人的尝试是带来新的行李，与入场有关……阅读The Verge的完整故事。",
+      "originalSummary": "For months, Big Tech's Washington lobbyists have chased after the holy grail of pro-AI legislation: preemption. This would be a comprehensive federal law, passed in Congress and signed by the president, applying one set of AI rules across the entire country and overriding the legally messy state-by-state approach to regulation. For months, lobbyists have run [&#8230;]",
+      "rawFullText": "U.S. Sen. Marsha Blackburn (R-TN) and Majority Leader Chuck Schumer (D-NY) arrive for a news conference with bipartisan senators on passage of the Online Privacy Protection Act at the Capitol on July 30, 2024 in Washington, DC. | Kent Nishimura/Getty Images. For months, Big Tech's Washington lobbyists have chased after the holy grail of pro-AI legislation: preemption. This would be a comprehensive federal law, passed in Congress and signed by the president, applying one set of AI rules across the entire country and overriding the legally messy state-by-state approach to regulation. For months, lobbyists have run into roadblocks and incurred nationwide political blowback, and they now face the possibility that after the midterms, Congress will flip to hostile Democrats unwilling to work with them. But their final, most desperate attempt at preemption is coming with new baggage, related to an ent … Read the full story at The Verge.",
+      "tags": [
+        "监管"
+      ],
+      "score": 81
+    },
+    {
+      "title": "Facebook的新AI模式搜索从公开帖子中获取信息",
+      "originalTitle": "Facebook’s new AI Mode search gets its info from public posts",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
+      "date": "2026-06-15T21:15:08.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "您的公开Facebook帖子可以帮助在Meta的新AI模式中为AI生成的结果提供信息。当您在Facebook上搜索时， “AI模式”选项将与“人员”和“市场”等常见搜索模式一起显示。“这是Meta从今天开始推出的几项新AI功能之一，包括将运动衫换成球迷的照片预设以及拼贴模板的建议。 它不是“只是链接” ，而是为用户提供人工智能生成的结果，这些结果来自Meta平台上公开发布的内容，例如其新的类似Reddit的论坛应用程序中的人工智能搜索功能。用户还可以根据搜索结果向Meta的AI跟进问题提问……阅读The Verge的完整故事。",
+      "originalSummary": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto [&#8230;]",
+      "rawFullText": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode . When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto fans and suggestions for collage templates. Instead of \"just links,\" it gives users AI-generated results that pull from publicly-posted content across Meta's platforms, like the AI search feature in its new Reddit-like Forum app . Users can also ask Meta's AI follow-up questions in response to the search … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "为什么韩国人如此热爱人工智能？",
+      "originalTitle": "Why do South Koreans love AI so much?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
+      "date": "2026-06-15T18:46:08.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。从旧金山起飞，经过12个小时的艰苦飞行，当我降落在首尔时，我走过一个无人驾驶的移民检查站，在那里，一台机器扫描了我的脸和护照。 在地铁回家的路上，人们被粘在手机上（即使在地下也由完美的5G供电） ，当我们穿过排列着庆祝K-pop偶像生日的LED广告屏幕的平台时。当我在江南站下车时，一个带着卡通眼睛的机器人在人行横道上耐心地等待着为别人送晚餐。网吧点缀在人行道上，挤满了玩电脑游戏的青少年，也许希望成为下一个传奇的职业游戏玩家。 我站在一个带有交互式触摸屏的公交车站，显示实时公交车时刻表更新。江南区6月宣布，它将很快成为“人工智能巴士站” ，并设有多种语言解答乘客问题的售货亭。这个消息并没有让我感到惊讶。我在这座城市长大，亲眼目睹了首尔从一个喧嚣的繁华小镇转变为如今闪闪发光的科技之都。韩国热爱人工智能。 虽然美国各地都在酝酿公众对人工智能的强烈反对，但韩国人对此持乐观态度。只有16%的受访者表示，他们对人工智能的担忧多于兴奋，这是皮尤研究中心调查的25个国家中最低的，而50%的美国人更担心而不是兴奋。 根据韩国文化体育旅游部和韩国工商会的调查，大多数韩国人每天都在使用人工智能，无论是作为个人助理还是在工作中完成任务。韩国是世界上最有线的国家之一，喜欢在街区上街头测试每一项新技术--人工智能网络漫画、虚拟韩国流行偶像和人形僧侣。对实验的渴望并不止于普通市民。 政府机构也是早期采用者，在学校部署人工智能教科书，在福利中心部署人工智能老年护理机器人。韩国人都深信，拥抱技术是国家现代化和巩固其在全球秩序中的地位不可或缺的一部分。他们对人工智能的迷恋只是这种精神的最新体现，这让他们急于保持领先地位。 设计热情所有这些技术乐观主义在很大程度上是由韩国的国家议程设计的，目的是使人工智能成为经济增长的动力。韩国科学技术高等研究院（ Korea Advanced Institute of Science and Technology ）科学技术政策教授Chihyung Jeon表示： “韩国政府已将人工智能驱动的第四次工业革命指定为该国的前进道路，并积极推动和投资该革命。” “韩国政府一直不懈地告诉韩国人，人工智能有潜力创造更美好的未来。“随着韩国从朝鲜战争的废墟中崛起，技术使国家摆脱了贫困，成为经济强国。20世纪70年代，韩国制造钢铁和船舶， 20世纪80年代制造半导体， 20世纪90年代制造宽带， 21世纪初制造智能手机。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my face and passport. On the subway home,&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walked through an unmanned immigration checkpoint, where a machine scanned my face and passport. On the subway home, people were glued to their phones (powered by flawless 5G even underground), as we raced past platforms lined with LED screens of ads celebrating K-pop idols ’ birthdays. When I got off the station in Gangnam, a cartoon-eyed robot on wheels was waiting patiently at a crosswalk to deliver someone’s dinner. Internet cafés dotted the sidewalks, crammed with teenagers playing computer games, maybe hoping to become the next legendary pro gamer . I stood at a bus stop with interactive touch screens showing real-time bus schedule updates. It will soon become an “ AI bus stop ,” the Gangnam district announced in June, with a kiosk that answers riders’ questions in multiple languages. The news didn’t surprise me. Having grown up in the city, I’ve watched Seoul transform from a scrappy boomtown into the gleaming tech capital it is today. South Korea loves AI. While a public backlash against AI is brewing across the US, South Koreans are optimistic. Only 16% say they are more concerned than excited about AI—the lowest of any of the 25 countries surveyed by the Pew Research Center—while 50% of Americans were more worried than excited. A majority of Koreans use AI every day, either as a sort of personal assistant or to do tasks at work, according to surveys by the Ministry of Culture, Sports, and Tourism and Korea Chamber of Commerce and Industry . One of the most wired countries in the world, South Korea loves to street-test every new technology on the block— AI webcomics , virtual K-pop idols , and humanoid monks . And the appetite for experimentation doesn’t stop with ordinary citizens. Government agencies are early adopters too, deploying AI textbooks in schools and AI eldercare robots in welfare centers. South Koreans share a deep conviction that embracing technology is integral to modernizing the country and cementing its place in the global order. Their fascination with AI is just the latest incarnation of that ethos—and it’s making them anxious to stay ahead. Engineered enthusiasm All this techno-optimism has largely been engineered by South Korea’s national agenda to make AI a motor of economic growth. “The South Korean government has designated an AI-powered Fourth Industrial Revolution as the country’s path forward and aggressively promoted and invested in it,” says Chihyung Jeon, a professor of science and technology policy at the Korea Advanced Institute of Science and Technology. “South Koreans have consistently and relentlessly been told by the government about AI’s potential to create a better future.” As South Korea rose from the ashes of the Korean War, technology lifted the nation from poverty into an economic powerhouse. In the 1970s, South Korea manufactured steel and ships, then semiconductors in the 1980s, broadband in the 1990s, and smartphones in the 2000s. Today, Samsung and SK Hynix supply most of the world’s high-bandwidth memory chips, which power the cutting-edge Nvidia hardware used to train AI models. South Korea’s economy now orbits these two semiconductor giants: The country’s main equity index, Kospi, surged to record highs in 2026, powered by the soaring share prices of both companies, each valued above $1 trillion . Lee Jae-myung, president of South Korea, has pledged to vault the country into the ranks of the “top three AI powers” alongside the US and China. After taking office in 2025, he launched the Presidential Council on National AI Strategy to help buy massive amounts of computing power and a sovereign AI foundation model project that funds Korean companies to develop homegrown AI models. The government has also supported semiconductor titans, including Samsung and SK Hynix, through generous tax credits and low-interest financing.&nbsp; South Korea’s policy posture also prioritizes accelerating AI development over safety considerations. In 2024, South Korea’s legislature passed the AI Basic Act , one of the world’s first comprehensive AI laws, to promote AI development and establish light-touch regulatory guardrails. Seventy percent of South Koreans say advancing science and medicine through AI innovation is a bigger priority than protecting industries through regulation, according to the 2026 Stanford AI Index. All of that effort might be paying off. The same index ranked South Korea as having the third largest number of notable AI models in the world, based on criteria such as state-of-the-art advancements or high citation rates. For many small countries like South Korea, AI is a chance to punch above their weight. The blind spots But that single-mindedness can crowd out critical reflection on AI’s broader societal impacts. “Because the national agenda on AI prioritizes economic development,” says Jeon, the professor of science and technology policy, “there isn’t much reflection on the social, political, ethical dimensions of the technology.” In 2025, the South Korean government faced a fierce backlash for rolling out AI textbooks riddled with factual inaccuracies and data privacy risks without testing them first in a pilot program to evaluate how they affect student learning. And despite their optimism, South Koreans are still worried that AI could displace them from their jobs. After Hyundai announced in January that it will deploy Atlas humanoid robots across its car factories, the Hyundai Motor Group union protested vehemently. “Without labor-management agreement, not a single robot using new technology will be allowed to enter the workplace,” the union said. Sixty-four percent of South Koreans fear AI could displace human labor and exacerbate inequality, although 52% believe it could also increase productivity.&nbsp; On a recent Friday night in the Seoul Central Market, I went out with my cousins to a pocha , a late-night restaurant that serves fish cakes stacked in neat pyramids. As we clinked our cups of soju cut with beer—the scrappy staple cocktail of every Korean night out—one cousin asked me if I’d asked ChatGPT about my saju , a traditional Korean fortune-telling practice. A 29-year-old insurance agent in Seoul praying for a new job and a boyfriend, she said asking ChatGPT about work and dating was her favorite pastime. She pulled up her phone and punched my birth date into the chatbot. Addicted to their screens, trapped between unemployment and dead-end jobs, and priced out of marriage and homeownership, 46% of South Koreans in their 20s have used a chatbot to read their fortunes, according to a survey by Korea Gallup.&nbsp; My cousin said she also asks ChatGPT for tips on trading stocks, dreaming big about making bank on her investment accounts into which she’s been pouring her salary. ChatGPT, she believes, is her portal out of reality into a better future. Despite how fond she is of the chatbot as her shaman and financial advisor, she fears losing her job to AI. She still uses ChatGPT feverishly at work, as all her coworkers do, afraid of falling behind.&nbsp; “I sometimes fear AI, but for now, it’s just so useful,” she said.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "OpenAI合作伙伴网络简介",
@@ -117,23 +193,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 99
-    },
-    {
-      "title": "随着Anthropic暂停使用新车型，印度就其人工智能的未来展开辩论",
-      "originalTitle": "As Anthropic suspends access to new models, India debates its AI future",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
-      "date": "2026-06-14T03:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "在美国政府发布指令后， Anthropic突然停止使用其最新的人工智能模型，这在全球科技行业提出了新的问题。在印度，这一决定重新引发了一场长期争论，即世界上最大的人工智能市场之一是否能够负担得起依赖其他地方构建和控制的技术。这一消息是在周五晚些时候发布的，当时Anthropic表示已收到美国 政府指令要求其暂停所有外国国民（包括其本国的外籍雇员）使用其最近推出的寓言5和神话5型号。此前不久，该公司宣布与印度IT服务巨头塔塔咨询服务公司（ Tata Consultancy Services ）建立合作伙伴关系，以扩大印度企业人工智能的采用，这突显了该国的人工智能雄心与美国开发和管理的技术的紧密联系。 虽然更广泛的影响尚不清楚，但一些报道称，亚马逊首席执行官安迪·贾西（ Andy Jassy ）首先向政府报告了最初的安全问题。The Information表示，白宫不太可能将类似的限制扩展到其他人工智能公司，并私下指责Anthropic处理所谓的越狱漏洞。 Anthropic对政府的描述提出异议，并认为不应该采取这种行动。无论如何，这一发展引发了印度创始人、投资者和政策专家之间的争论，即该国是否应该加快努力建立国内人工智能能力，深化对开源替代品的投资，或者继续依赖少数美国前沿模型提供商。 对一些人来说，这一事件是对技术依赖的警钟。对于其他人来说，这提醒我们，对越来越重要的人工智能系统的访问可能会受到印度无法控制的地缘政治决策的影响。印度已成为前沿人工智能公司最重要的市场之一。Anthropic和OpenAI都将这个南亚国家描述为仅次于美国的第二大市场，这反映了其在全球人工智能竞赛中的重要性日益增加。 最近几个月，这些公司已经在印度设立了办事处，扩大了本地招聘、合作伙伴关系和企业计划，押注于印度庞大的开发商、初创企业和企业基础，以加速采用其最新技术。对于印度科技行业的许多人来说， Anthropic周五的公告不仅仅涉及一家人工智能公司。 它重新提出了有关该国长期人工智能战略以及印度是否能够继续依赖少数外国前沿人工智能提供商的问题。“这完全改变了事情，”印度人工智能风险投资平台Activate的创始人Aakrit Vaish说，他指的是Anthropic的决定。“我认为这大大改变了我们所有人在印度思考主权人工智能的方式。 Vaish告诉TechCrunch ，他周六早上醒来时对这一消息感到“震惊和困惑” ，并表示这加强了开发国内人工智能能力的理由。他预计初创公司将越来越多地转向开源模式，并计划鼓励其投资组合中的公司减少对少数前沿人工智能提供商的依赖。",
-      "originalSummary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 92
+      "score": 98
     },
     {
       "title": "中国可能访问了Mythos",
@@ -148,84 +208,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
-    },
-    {
-      "title": "随着人工智能公司竞相上市，还有谁会参与其中？",
-      "originalTitle": "As AI companies race to go public, who else is along for the ride?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
-      "date": "2026-06-14T16:38:09.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "SpaceX本周在有史以来最大规模的IPO中上市，使首席执行官埃隆·马斯克(Elon Musk)成为世界上第一位万亿富翁。尽管有它的名字， SpaceX一直在强调其昂贵的人工智能业务的潜力，竞争对手OpenAI和Anthropic可能很快就会跟随他们自己的公开市场首次亮相。因此，在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我讨论了一个炎热的IPO夏天。 Sean说： “我们让SpaceX不仅吸收了公共市场上可用的大部分资金，而且还测试了上市公司的极限，以及它可以由一个人控制的程度。” “我真的很关注其他将上市的科技公司，以及他们将尝试效仿多少。 Kirsten还指出，还有其他初创公司试图“驾驭SpaceX的IPO浪潮” ，例如在SpaceX帮助推广这一概念后，为轨道数据中心筹集资金。“因此，整个市场正在发生连锁反应，我认为这可能比标题更有趣， ‘SpaceX让伊隆成为万亿富翁’ ，”她说。请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 Anthony Ha ：我想从SpaceX的IPO中缩小一点，因为除了埃隆·马斯克之外，这可能是不同人工智能公司的一系列不同IPO的开始。我们已经讨论过Anthropic秘密申请上市，现在OpenAI也做了同样的事情。你们俩对此有多兴奋？ Kirsten Korosec ：首先，我想说我喜欢Julie Bort的故事，我认为这个故事总结得非常好。这是一个很棒的标题，所以我会在这里阅读： “这不再是FAANG ，而是芒果。“ FAANG是Facebook ，现在是Meta ；亚马逊；苹果； Netflix ；谷歌，现在是Alphabet。现在它已经发生了变化，我们有Meta ， Anthropic ， NVIDIA ， Google ， OpenAI ， SpaceX。 [我们仍然有]大型科技公司，当然，但这里有一个转变，对吧？首先，我们有一堆人工智能实验室，这是非常不同的。Netflix从那里启动，这是一个巨大的流媒体服务。 因此，对我来说，就公共市场而言，这是一个有趣的转变，公共市场上可用的大量资金和资本正在从消费者[和]社交网络转向，特别是人工智能实验室和其他更具创新性的Deeptech ，如SpaceX。 所以我认为这是最有趣的事情—除了这个夏天会让我们所有人作为记者非常忙碌的事实，可能比任何其他夏天都要多。肖恩·奥凯恩：你知道，很久以前我想成为一名律师，我没有成为律师的原因之一是因为我讨厌涉及的文书工作。",
-      "originalSummary": "Startups are trying to \"ride that SpaceX IPO wave.\"",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "据报道，亚马逊的安全研究导致了白宫的人类寓言禁令",
-      "originalTitle": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
-      "date": "2026-06-13T21:39:26.000Z",
-      "summary": "这条新闻与公司动态、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、论文相关动态",
-      "fullContent": "据《华尔街日报》报道，导致Anthropic切断Fable 5和Mythos 5访问权限的出口管制指令部分是由亚马逊的网络安全研究以及首席执行官Andy Jassy与白宫之间的对话引发的。根据该报告，亚马逊的论文声称，通过一系列提示，它能够让Fable 5提供可用于网络攻击的信息。 亚马逊尚未回复置评请求。在Jassy与政府分享该公司的调查结果后不久，它就呼吁阻止外国人使用它。使这个问题复杂化的是那个人……在The Verge阅读完整的故事。",
-      "originalSummary": "According to the The Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a [&#8230;]",
-      "rawFullText": "According to the The Wall Street Journal , the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series of prompts, it was able to get Fable 5 to serve up information that could be used in cyberattacks. Amazon has yet to respond to a request for comment. Shortly after Jassy shared the company's findings with the government, it made the call to block its use by foreign nationals. Complicating this issue is that man … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "论文"
-      ],
-      "score": 90
-    },
-    {
-      "title": "根据政府命令， Anthropic切断了Fable 5和Mythos 5的访问权限",
-      "originalTitle": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
-      "date": "2026-06-13T12:55:49.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "周五晚上，出于国家安全考虑，政府下令Anthropic阻止美国境内外所有外国人访问寓言5和神话5。该命令包括Anthropic的员工。为了满足这些需求，该公司完全切断了所有客户对车型的访问。 Anthropic在一份声明中表示，虽然它遵守了这一命令，但政府“没有提供有关其国家安全问题的具体细节。“相反，它声称任何潜在越狱的证据都是口头提供的，发现的漏洞很小，可以通过其他模型获得……阅读The Verge的完整故事。",
-      "originalSummary": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In [&#8230;]",
-      "rawFullText": "On Friday evening, the government ordered Anthropic to block access to Fable 5 and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those demands, the company has completely cut off access to the models for all customers. In a statement , Anthropic said that while it was complying with the order, the government \"did not provide specific details of its national security concern.\" Instead, it claims that any evidence of potential jailbreak was provided verbally, and that the vulnerabilities discovered were minor and available via other model … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "我的院子快死了，所以我做了一个应用程序",
-      "originalTitle": "My yard is dying, so I made an app for that",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
-      "date": "2026-06-13T13:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "当我在给Gemini一个冗长的提示五分钟后回到电脑时，我有两件事：预览窗口中的功能应用程序，以及关于错误的消息。\"~频道已不可恢复地损坏，将被处置！“听起来很糟糕！但在它的正下方是一个修复错误的按钮。很奇怪，我刚刚指示一台电脑用一个提示为我构建一个完整的应用程序，但它需要我点击一个按钮来修复一个错误。 无论如何，我做到了，双子座在233秒内报告说它已经成功了，使用了“阻塞”和“比赛条件”等词语。“我一点也不明白。太刺激了。这是我第二次或第三次尝试……在The Verge阅读完整的故事。",
-      "originalSummary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird [&#8230;]",
-      "rawFullText": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug. \"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird that I just instructed a computer to build a whole app for me with a single prompt, but it needed me to click a button to fix a bug. I did anyway, and in 233 seconds Gemini reported back that it had succeeded, using words like \"blockages\" and \"race conditions.\" I didn't understand a bit of it. It was thrilling. This was my second or third attempt a … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
       "score": 85
-    },
-    {
-      "title": "苹果新推出的人工智能照片编辑工具大部分都能正常工作，无论好坏",
-      "originalTitle": "Apple’s new AI photo editing tools mostly work, for better and worse",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
-      "date": "2026-06-13T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "iPhone用户首次获得了真实的原生AI照片编辑功能。世界上最受欢迎的相机刚刚获得了第一套严肃的AI照片编辑功能，我认为我们中的任何一个人都没有准备好。就人工智能照片编辑而言，与谷歌的Pixel手机相比， iOS 27中的新功能相当温和。但对于iPhone来说，它们代表了原生照片应用程序允许您对照片进行操作的转折点。 我的意思是回忆。我的意思是，我不知道了。这些新功能目前是iOS 27开发者测试版的一部分，因此请记住， Apple可能会在向公众发布之前继续对其进行调整。有三个，或者两个和一个……在The Verge阅读完整的故事。",
-      "originalSummary": "The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But [&#8230;]",
-      "rawFullText": "iPhone owners are getting real, native AI photo editing for the first time. The most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready. As far as AI photo editing goes, the new features in iOS 27 are pretty tame compared to what you can do on, say, Google's Pixel phones. But for the iPhone, they represent a tipping point in what the native photos app allows you to do to your photos. I mean memories . I mean, I don't know anymore. These new features are part of the iOS 27 developer beta right now, so bear in mind that Apple may continue making tweaks to them before they're released to the general public. There are three, or maybe two and a … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -257,7 +240,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "olmo-eval ：模型开发循环的评估工作台",
@@ -272,7 +255,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -288,22 +271,6 @@
         "研究",
         "智能体",
         "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "BBVA将人工智能置于OpenAI银行业务的核心",
-      "originalTitle": "BBVA puts AI at the core of banking with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/bbva",
-      "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "了解BBVA如何将ChatGPT Enterprise扩展到100,000名员工，并与OpenAI合作加速全球人工智能银行转型。",
-      "originalSummary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
       ],
       "score": 99
     },
@@ -324,6 +291,22 @@
       "score": 99
     },
     {
+      "title": "BBVA将人工智能置于OpenAI银行业务的核心",
+      "originalTitle": "BBVA puts AI at the core of banking with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/bbva",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解BBVA如何将ChatGPT Enterprise扩展到100,000名员工，并与OpenAI合作加速全球人工智能银行转型。",
+      "originalSummary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
       "title": "支持欧洲确保可信赖的人工智能生态系统的工作",
       "originalTitle": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
       "source": "OpenAI",
@@ -336,7 +319,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -351,7 +334,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
@@ -383,7 +366,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
@@ -399,7 +382,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Nextdoor的工程师如何使用Codex无限制地构建",
@@ -414,7 +397,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -429,7 +412,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -444,22 +427,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
-    },
-    {
-      "title": "Codex为Notion解锁了什么",
-      "originalTitle": "What Codex unlocks for Notion",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/notion",
-      "date": "2026-06-09T10:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "Notion如何使用Codex进行一次性规范，为网络构建AI语音输入，并在小型团队中倍增工程能力。",
-      "originalSummary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 77
+      "score": 79
     },
     {
       "title": "将GitHub CI迁移到Hugging Face Jobs",
@@ -474,7 +442,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
+    },
+    {
+      "title": "关于人工智能，您需要了解的五件事",
+      "originalTitle": "Five things you need to know about AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "date": "2026-06-09T09:16:45.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“关于人工智能，您需要了解的五件事”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
+      "rawFullText": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world , but I also veered off on a number of tangents. In my half-hour slot, I tried to cover the key talking points that I think help to make sense of what’s going on in tech—and thus the economy—today. (I gave a talk with the same title at SXSW London last year with five different things you needed to know. A lot has happened since then!) So: This is how I’m thinking about AI midway through 2026. Let me know if you would pick different points! 1. Strictly speaking, I didn’t need to show up to give this talk. Tongue in cheek? Maybe. But generative AI tools have already become mundane, used by millions to automate everyday office tasks (including producing and delivering talks ). It’s no surprise that one of the biggest questions out there right now is what this all means for jobs . People are confused and scared. The frustrating answer is that despite the hype coming from the top about the potential for AI to join the workforce soon—and viral social media posts yelling that something big is happening—there is almost no data to say either way what kind of effect this technology will have on employment and the economy overall. That’s not to say it won’t have an impact, even a huge one, but it’s just too soon to tell. In theory, teams of agents working together toward common goals could become assembly lines for white-collar work, doing to offices this century what Henry Ford’s innovations did to factories in the 20th century. In theory. Because in order to know what will happen to jobs, we need to know what will happen inside the companies that create those jobs. But most companies are still figuring that out . 2. AI is getting scary (for real this time). There have been scary stories about AI for years—claims that it will kill us all or bring about the end of civilization. There’s still a loud crowd of doomers , but those scenarios remain dystopian science fiction. What’s happened instead is that many of the worst near-term, real-world fears have come true. Take deepfakes , AI-generated images or videos of people doing things they didn’t actually do. Deepfakes have been used to incite violence, swing votes, and sow distrust. Trump’s White House is among those creating and publishing fake images. Many deepfakes are also used to abuse women and girls. One study found that 98% of deepfakes are pornographic and 99% involve women. Another concern is the rise of dangerous and delusional relationships with chatbots. Many people turn to chatbots to seek private advice and to feel heard. But there are now multiple lawsuits against AI companies alleging that the technology encouraged or aided suicides and other forms of self-harm. AI is also being used in warfare in new and worrying ways . LLMs are now giving advice, not just being used for analysis. One US defense official told my colleague James O’Donnell that you could now give a military chatbot a list of targets and ask which one to hit first. Anyone who uses AI knows that its output needs to be reviewed carefully. In fact-paced, high-stress active conflict, the risk that corners get cut is high. 3. A lot of people really hate AI. I checked out an anti-AI protest in London earlier this year and found a very broad mix of complaints. Banners proclaiming the end times bounced along to chants of “Stop the slop! Stop the slop!” Protests are getting more organized and drawing larger crowds. There’s pushback from fans of films and video games, who object to the use of generative AI in their favorite titles. In one notable case, the acclaimed 2025 game Clair Obscur was stripped of an award when the developers admitted to using AI in just one small, specific part of its production. And there’s the data center backlash. The US has more than 5,400 data centers and counting. With the energy demands of AI growing, people are unhappy about the environmental impact and their rising electricity bills. Activists are managing to stall development in a number of places. Regulation is becoming politically popular . Grassroots movements like QuitGPT have gained momentum. A small number have turned to violence; a few weeks ago somebody threw a Molotov cocktail at Sam Altman’s house. It’s not clear where all this leads. But the apocalyptic hype from tech leaders is not helping people stay calm. 4. AI for science is a very big deal. It’s early days yet, but the potential for AI to help make a genuine and important scientific discovery is greater than ever. Google DeepMind has developed Co-Scientist , a multipurpose tool that can help researchers dig up and compare previous results, generate hypotheses, and devise experiments to test them. OpenAI told me this year that its North Star is the goal of building a fully automated researcher by 2028. Mathematicians are excited too. Fundamental math underpins many everyday technologies, from internet security to video streaming. The last few months have seen a string of claims that AI has cracked unsolved math problems. And software that can solve really hard math problems will be able—so the argument goes—to solve more general-purpose real-world problems too. What are the downsides? Some scientists are warning that an overreliance on AI tools could narrow the scope of research because scientists may choose problems that are most suited to AI assistance. There are also concerns that AI-assisted research will lead to a flood of inaccurate or fake results: science slop. 5. AI is everywhere all at once. So where does that leave us? There are a lot of exciting things, a lot of worrying things, and a lot of hot air. It can be exhausting to keep up, and yet it all feels inescapable . Some people will tell you we’re in a race to the top; some will tell you we’re in a race to the bottom. But it’s really not clear where we’re headed. AI companies want us to march to their tune and buy into the propaganda about artificial general intelligence , whatever that means . They are selling a vision that feels inevitable, but it isn’t. We’ve built a technology that can do humanlike things , and I think that makes it hard to get our heads around the fact that it is still just a technology. Something is happening. Maybe even something comparable to the invention of electricity or the internet. But technologies like that take time to settle and bring lasting change. Get ready for a marathon, not a sprint. This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here .",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -490,7 +473,7 @@
         "智能体",
         "开源"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -505,7 +488,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -521,7 +504,7 @@
         "多模态",
         "安全"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -536,7 +519,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -551,7 +534,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "超越聊天机器人的直接偏好优化",
@@ -566,7 +549,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "将MCP工具添加到Reachy Mini",
@@ -581,7 +564,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Holo3.1 ：快速和本地计算机使用代理",
@@ -596,7 +579,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -611,7 +594,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "小型企业如何利用人工智能",
@@ -626,7 +609,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
@@ -668,21 +651,6 @@
       "fullContent": "这条消息来自 MIT Technology Review，主题是“教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
       "rawFullText": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in human life since the Industrial Revolution. As the pope says, the choice before us—the choice AI presents—is one between the Tower of Babel and the rebuilding of our common humanity.&nbsp; In the biblical story of the Tower of Babel, humans sought to build a massive structure that reached all the way to Heaven, only to have their project thwarted when God made those involved unable to understand one another. It was a pursuit fixated on relentless growth, divorced from any concern about God’s commandments or the human cost. It resulted in failure and atomization. The Book of Nehemiah, however, offers a contrasting narrative, in which the rebuilding of Jerusalem after a period of violence and displacement becomes an opportunity for humanity to show its collaborative resilience. As the encyclical puts it, “The city is reborn, not through the initiative of one man, but through the shared responsibility of all: men, women, priests, artisans, heads of households and young people all play a part. It is an undertaking with God at the center, which rebuilds relationships before rebuilding with stones.”&nbsp; Is there any question which road we are currently barreling down? And can there be any doubt which we would do well to walk together?&nbsp; We are both Catholics, members of religious communities and longtime advocates within the movement for socially responsible investment. Of particular interest to us and that movement is Pope Leo’s point that AI is not some force of nature or hyperrational, ineffable entity. Instead, he reminds us, AI is ultimately another commercial product, one emerging at a point in history when excessive power over commerce and the wider society has amassed in a vanishingly small number of hands.&nbsp; It’s a powerful message. It’s also one that institutional investors have been acting on for years. This encyclical doesn’t break new ground so much as ratify a governance effort that’s already underway, led not by states or international bodies but by shareholders. When governments fail to meaningfully regulate, and corporations cannot be trusted to do what is beneficial beyond their own bottom line, people in society still have the power to set us on the right path, and indeed have the duty to do so.&nbsp; Around the world, AI systems are being deployed at scale with remarkably little institutional oversight. There is no AI safety board. The US Federal Trade Commission has jurisdiction over unfair practices but limited authority over algorithmic design. The National Institute of Standards and Technology publishes guidance that most companies ignore. The EU AI Act is partially in force but addresses only a sliver of the deployment surface. Institutional investors have stepped into this vacuum. Coalitions including the membership of the Interfaith Center on Corporate Responsibility, representing investors managing over $4 trillion in assets, have spent the past several proxy seasons filing resolutions demanding transparency, risk assessment, and accountability around AI deployment. Secular institutional investors have joined them, treating AI governance failures as material business risks. Shareholders have called tech giants including Alphabet, Amazon, Nvidia, Palantir, and Uber to account and demanded that AI not be used for acts of violence or other violations of human rights. The importance of this aspect of corporate governance was highlighted tragically in the opening hours of the war against Iran, when AI was used to help identify targets for thousands of missile strikes that killed hundreds of people.&nbsp;&nbsp; Investors have also challenged executives at CVS and UnitedHealth Group to ensure that AI not be used to undermine the well-being of patients and quality of health care across the United States.&nbsp; At companies including Meta and Microsoft, shareholders have decried the environmental impact of AI data centers, which consume vast amounts of energy and precious water resources , and in turn can emit large amounts of greenhouse gases.&nbsp; Within creative industries, investors have challenged the leadership at companies like Disney, Netflix, and Warner Bros. to demand transparency about the ways they are using AI and to defend the inimitable human element in storytelling.&nbsp; Soon, with OpenAI, Anthropic, and Grok all set to enter the public markets, we will be able to exert similar influence over what are now all privately held entities. These actions by concerned investors not only call out misdeeds but hold fast to an immutable truth: that it is wrong to use technology to kill, harm, or oppress people. Every human being has a right to safe and effective health care and the opportunity to earn a dignified living. The stories we tell each other matter and require the human creative spark.&nbsp; Investor advocates hail from a range of faith traditions. Some have no formal religious faith. Yet in their informed and tenacious advocacy, all these people echo the calls embedded within Pope Leo’s encyclical and act on its declaration that “it is essential that the use of AI, especially when it touches on public goods and fundamental rights, be guided by clear criteria and effective oversight.”&nbsp; Encyclicals mark time. A century from now, how will we be remembered for how we met this moment? Will we be seen as having been too timid or shortsighted to prevent a small group of unfathomably wealthy and self-interested people from seizing ever greater control over the human family’s shared destiny?&nbsp; Or will the years ahead be remembered as a turning point that helped us rebuild our common humanity? Let this be a time when people of good will and diverse talents come together through their own magnificent humanity to build a future that honors our Creator. Father Séamus Finn, OMI , is a global leader in faith-based and socially responsible investing and a priest of the Oblates of Mary Immaculate, a missionary religious congregation. Sister Susan Francois is the assistant congregation leader and congregation treasurer for the Sisters of St. Joseph of Peace. Correction: An earlier version of this story misstated the amount under management by the membership of the Interfaith Center on Corporate Responsibility.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
-    },
-    {
-      "title": "AI炒作指数： AI在毕业季受到嘘声",
-      "originalTitle": "The AI Hype Index: AI gets booed in graduation season",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
-      "date": "2026-05-28T09:51:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can&#8230;",
-      "rawFullText": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can hear you,” he said, before conceding that fears about disappearing jobs and a broken future were “rational.” This is not exactly the message one hopes to hear while sweating under a polyester gown and tallying student loan payments. Graduates have been jeering at AI pep talks at other commencements too, including ceremonies at the University of Central Florida and Middle Tennessee State University. Still, increasingly loud skepticism hasn’t stopped OpenAI from winning court cases, raising enormous sums of money, and launching new partnerships. And AI is even earning some unlikely cheerleaders: Reese Witherspoon has warned women to embrace it or be replaced by it.",
       "tags": [
         "AI 热点"
       ],
