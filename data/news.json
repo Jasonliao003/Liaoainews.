@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T00:22:32.818Z",
+  "updatedAt": "2026-06-18T00:19:49.418Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,146 +19,157 @@
   ],
   "articles": [
     {
-      "title": "随着Google扩展Gemini功能， Android 17推出了新的多任务处理工具",
-      "originalTitle": "Android 17 launches with new multitasking tools as Google expands Gemini features",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
-      "date": "2026-06-16T18:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
-      "fullContent": "谷歌发布了Android 17和Wear OS 7 ，引入了新的多任务处理功能、家长控制、安全工具和智能手表升级。此次发布还配备了Pixel Drop ，将谷歌最新的人工智能模型带入其设备。",
-      "originalSummary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
+      "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
+      "originalTitle": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ai-chemist-improves-reaction",
+      "date": "2026-06-17T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI和Molecule。一个展示了使用GPT-5. 4的近乎自主的AI化学家如何改善关键的制药反应，推进药物化学研究。",
+      "originalSummary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "产品发布",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "现有优势： LLM推荐系统中的品牌偏见和认知操纵动态",
+      "originalTitle": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.17443",
+      "date": "2026-06-17T04:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、模型相关动态",
+      "fullContent": "arXiv: 2606. 17443v1公告类型：新摘要：大型语言模型（ LLM ）正在成为消费者寻找产品的主要方式，但我们尚不清楚品牌如何在这个新渠道中竞争。 我们使用三个商业LLM （ GPT-4o-mini、Claude Sonnet、Gemini 3 Flash ）研究LLM推荐的品牌动态，并对搜索商品进行稳健性检查。在这个类别中，消费者在购买之前无法轻松判断质量，必须依靠品牌声誉。在三个实验中，我们发现： （ 1 ）有条件垄断，其中知名品牌100%得到推荐（ IAI = 10。 0 ）当所有产品具有相同的规格，但这种优势消失时，竞争对手的1星评级优势不到+0 ； （ 2 ）权威式的营销语言，包括捏造的临床证据声明，以等于+0的偏差剩余价值打破了这种垄断。 17个评分点，每个模型的反应都不同；以及（ 3 ）多品牌GEO竞争中的社会困境：当所有品牌都采用相同的优化策略时，我们的回报代理中的个人回报从+0. 802降至+0. 007 ，非参与品牌在我们的测试中获得零推荐。 我们的研究结果表明，生成引擎优化（ GEO ）不仅应该作为一种安全风险来研究，而且还应该作为一种塑造市场竞争的新兴营销实践来研究。",
+      "originalSummary": "arXiv:2606.17443v1 Announce Type: new Abstract: Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM recommendations using skincare products -- a category where consumers cannot easily judge quality before buying and must rely on brand reputation -- across three commercial LLMs (GPT-4o-mini, Claude Sonnet, Gemini 3 Flash), with a robustness check on search goods. In three experiments, we find: (1) a Conditional Monopoly where well-known brands get recommended 100% of the time (IAI = 10.0) when all products have the same specifications, but this dominance disappears with less than a +0.1-star rating advantage for a competitor; (2) authority-style marketing language, including fabricated clinical-evidence claims, breaks this monopoly at a Bias Surplus Value equal to +0.17 rating points, with each model responding differently; and (3) a social dilemma in multi-brand GEO competition: when all brands adopt the same optimization strategy, individual payoff falls from +0.802 to +0.007 in our payoff proxy, and non-participating brands receive zero recommendations in our tests. Our results suggest that generative engine optimization (GEO) should be studied not only as a security risk, but also as an emerging marketing practice that shapes market competition.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "ChatGPT的市场份额首次下滑至50%以下",
-      "originalTitle": "ChatGPT&#8217;s market share slips below 50% for first time",
+      "title": "NEA在人工智能IPO、个人代理和投资回报清算方面的Tiffany Luck",
+      "originalTitle": "NEA&#8217;s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
-      "date": "2026-06-16T10:30:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "在ChatGPT首次发布三年半之后，人工智能助手现在已被全球数百万人使用，竞争格局正在迅速变化。 虽然OpenAI的聊天机器人仍然是全球最受欢迎的助手，但根据分析公司Sensor Tower的《2026年人工智能状况报告》，随着用户在谷歌的Gemini、Anthropic的Claude和xAI的Grok等不同助手之间迁移，其市场份额首次跌破50%。ChatGPT的增长令人印象深刻。 据Sensor Tower本月报道，它成为有史以来月度用户达到10亿的最快应用程序。值得注意的是， OpenAI统计了每周活跃用户，上次报告是2月份的9亿活跃用户。聊天机器人仍然是全球最受欢迎的人工智能助手，每月用户超过11亿，其次是Gemini （ 6.62亿）和Claude （ 2.45亿）。 截至1月份， ChatGPT的市场份额超过50% ，但到5月底，由于Gemini （ 27. 7% ）和Claude （ 10. 3% ）的崛起， ChatGPT的市场份额已降至46. 4%。其他助手，包括Grok、Perplexity、DeepSeek和Meta AI ，市场份额不到5%。Sensor Tower的人工智能状况报告还发现，用户越来越愿意在助手之间切换。具体事件似乎加速了这种行为： OpenAI与美国的交易。 例如，美国国防部（ DoD ）在2月份引发了可衡量的卸载激增--这表明品牌信任和价值观一致对用户很重要，而不仅仅是功能。虽然Gemini的势头主要归功于其与谷歌更广泛的工具生态系统的整合，但Anthropic的Claude在生产力用例方面赢得了良好的声誉，并且正在接近ChatGPT的用户保留率。 根据Sensor Tower的估计，在2026年上半年，人们正在加速下载近23亿个AI应用程序，并在其上花费超过42亿美元。相比之下， 2025年上半年的支出为13.83亿美元，这表明该行业正在将其重点从纯粹的增长转向货币化。也就是说，下载和支出增长率都已经放缓，这表明即使绝对数字攀升，市场也可能正在成熟。 从地区来看，受中国和印度下跌的推动，亚洲在2026年第一季度的下载量首次下降了3. 3%。尽管在总下载量方面处于全球领先地位，但在应用内支出方面，亚洲仍落后于北美和欧洲，这对于决定在高级功能和货币化方面投资的公司来说非常重要。在美国，用户越来越倾向于使用人工智能助手来完成生产力任务，并在高级功能上花费更多。 在各个平台上，每个用户的平均收入在全行业范围内都有所增长，但Claude脱颖而出。13%的Anthropic用户正在为订阅计划付费，这一转化率在该领域处于领先地位，对于评估哪些人工智能企业正在建立持久收入的投资者来说，这将是一个值得关注的指标。Sensor Tower估计，花在人工智能应用程序上的时间将从17个小时增加。",
-      "originalSummary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能代理之间的信任：测量形成、破坏和恢复，以及对管理多代理系统的影响",
-      "originalTitle": "Trust Between AI Agents: Measuring Formation, Breakage, and Recovery, with Implications for Governing Multi-Agent Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.14923",
-      "date": "2026-06-16T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 14923v1公告类型: new摘要:随着语言模型代理越来越多地在团队中工作，每个代理必须决定对其队友的信任程度。然而，我们缺乏衡量人工智能代理之间信任的标准方法。我们提出了一种基于代价高昂的验证的行为测量方法。在合作生存游戏中，检查队友的工作会消耗资源，而相信错误的答案可能是致命的。 相对于同一模型的无记忆版本，减少的验证提供了可观察到的信任度量。使用此框架，我们研究了六个前沿模型快照中的信任形成、破坏和恢复。当与始终如一的可靠队友配对时，四个快照（ Claude Opus 4. 6 ， Claude Sonnet 4. 6 ， GPT-5. 1和Gemini 3. 1 Pro ）减少了大约60-85 ％的验证，而两个较小的快照显示很少或根本没有这种调整。 失败会逆转此折扣，但模型在响应方式上有所不同。一些人重新审视了罪魁祸首，而另一些人则对整个团队更加谨慎。恢复速度比形成速度慢，集群故障的持续时间远远超过相同数量的故障分散的时间。这些差异会产生实际后果。形成信任的模型验证较少，决策更快，并在我们的环境中获得更高的回报。 相比之下，持续的过度验证与优柔寡断而不是安全性有关。我们的结果表明，可以在部署之前测量信任处置，并建议校准，而不是最大程度的怀疑，应该是多智能体人工智能系统治理的核心问题。",
-      "originalSummary": "arXiv:2606.14923v1 Announce Type: new Abstract: As language-model agents increasingly work in teams, each agent must decide how much to trust its teammates. Yet we lack a standard way to measure trust between AI agents. We propose a behavioral measure based on costly verification. In a cooperative survival game, checking a teammate's work consumes resources, while trusting a wrong answer can be fatal. Relative to a memoryless version of the same model, reduced verification provides an observable measure of trust. Using this framework, we study trust formation, breakage, and recovery across six frontier model snapshots. When paired with a consistently reliable teammate, four snapshots (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5.1, and Gemini 3.1 Pro) reduce verification by roughly 60-85%, whereas two smaller snapshots show little or no such adjustment. Failures reverse this discount, but models differ in how they respond. Some concentrate renewed scrutiny on the culprit, while others become more cautious toward the entire team. Recovery is slower than formation, and clustered failures sustain suspicion far longer than the same number of failures spread apart. These differences have practical consequences. Models that form trust verify less, decide more quickly, and achieve higher payoffs in our environment. By contrast, persistent over-verification is associated with indecision rather than safety. Our results show that trust dispositions can be measured before deployment and suggest that calibration, rather than maximal suspicion, should be the central concern in the governance of multi-agent AI systems.",
+      "link": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+      "date": "2026-06-17T18:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
+      "fullContent": "Tokenmaxxing是今年早些时候硅谷最热门的趋势，首席执行官鼓励员工尽可能地推动人工智能的使用。然后账单到期了。据报道，优步在几个月内突破了其年度人工智能预算，一些公司削减了其组织部分的Claude许可证，而Meta则取消了其内部排行榜。[…]之间的紧张关系",
+      "originalSummary": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Meta killed its internal leaderboard.&#160; This tension between [&#8230;]",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "安全"
+        "智能体"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "PrologMCP ： LLM代理的标准化Prolog工具界面",
-      "originalTitle": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.14935",
-      "date": "2026-06-16T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly.符号委派提供了一个互补的途径：语言模型翻译问题，而求解器执行推理。 然而，当前用于逻辑编程的自形式化管道通常是与特定任务或代理相关的定制集成。我们介绍了PrologMCP ，这是一种与任务无关的开源服务器，通过模型上下文协议（ MCP ）将Prolog公开为有状态工具。其紧凑的工具界面、结构化错误报告和每会话隔离使翻译运行检查修复循环成为支持MCP的代理的可重用原语。 我们根据标准和推理LLM （ Claude Sonnet 4. 6 ， GPT-4. 1和o4-mini ）在PARARULE-Plus的两个子集上评估了使用PrologMCP增强的形式化代理：一个通用样本和一个更具挑战性的针对自然语言推理的特定失败模式的样本。在一般样本上，形式化器匹配或超过推理LLM （准确度1. 00 vs.\\ 1. 00/0. 998 ） ，与标准模型相比增益最大（ GPT-4. 1为0. 762 ）。 在具有挑战性的子集上，形式化器保持近乎完美（ 1. 00/0. 99 ） ，而推理LLM下降到0. 95/0. 94。这些结果表明，通过MCP将推理委托给Prolog是扩展自然语言推理的一个强大且可检验的替代方案。",
-      "originalSummary": "arXiv:2606.14935v1 Announce Type: new Abstract: Frontier reasoning-tuned language models still fail on deductive tasks at depth, and the cost of improved performance through extended internal reasoning scales poorly. Symbolic delegation offers a complementary route: a language model translates the problem, while a solver performs the inference. However, current autoformalization pipelines for logic programming are typically bespoke integrations tied to particular tasks or agents. We introduce PrologMCP, a task-agnostic, open-source server that exposes Prolog as a stateful tool through the Model Context Protocol (MCP). Its compact tool interface, structured error reporting, and per-session isolation make the translate-run-inspect-repair loop a reusable primitive for MCP-capable agents. We evaluate a formalizer agent enhanced with PrologMCP against standard and reasoning LLMs (Claude Sonnet 4.6, GPT-4.1, and o4-mini) on two subsets of PARARULE-Plus: a general-purpose sample and a more challenging one targeting a specific failure mode of natural-language reasoning. On the general sample, the formalizer matches or exceeds reasoning LLMs (accuracy 1.00 vs.\\ 1.00 / 0.998), with the largest gains over standard models (0.762 for GPT-4.1). On the challenging subset, the formalizer remains near-perfect (1.00 / 0.99) while reasoning LLMs drop to 0.95 / 0.94. These results suggest that delegating inference to Prolog via MCP is a robust and inspectable alternative to extended natural-language reasoning.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OSGuard ：计算机使用代理安全基准",
-      "originalTitle": "OSGuard: A Benchmark for Safety in Computer-Use Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.15034",
-      "date": "2026-06-16T04:00:00.000Z",
-      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
-      "fullContent": "arXiv: 2606. 15034v1公告类型：新摘要：计算机使用代理的评估越来越多地取决于它们是否完成了逼真的桌面和Web任务。但是，如果客服代表通过不安全的快捷方式达到名义目标，仅任务成功就可能会错过失败。我们推出了OSGuard ，这是一个双粒度基准套件，用于根据良性、不变的用户说明评估计算机使用代理的安全性。 OSGuard包含用于本地护栏决策的动作级基准和用于端到端评估的风险增强执行套件。操作级别基准包括标记为允许、无关或不安全的情境化建议操作，每个操作都相对于原始指令和当前接口状态进行判断。 执行套件包含手动构建的OSWorld派生的任务变体，其中原始任务仍然可以实现，但环境被修改以引入潜在的危险，例如破坏性覆盖等。 每个变体都与增强评估器配对，后者保留了原始任务成功标准，同时添加了明确的基于状态的安全不变量，使我们能够区分安全完成与满足名义任务目标的不安全完成。 我们在OSGuard上的实验结果表明，当前的多式联运护栏可以在孤立的行动判断中表现良好，而风险增强的执行则暴露了本地监督和可靠的端到端安全之间仍然存在的差距。这种双粒度设计可以更精确地诊断模型是否既能识别不安全的建议操作，又能在部署为护栏时提高全任务安全性。",
-      "originalSummary": "arXiv:2606.15034v1 Announce Type: new Abstract: Computer-use agents are increasingly evaluated by whether they complete realistic desktop and web tasks. However, task success alone can miss failures in which an agent reaches the nominal goal through an unsafe shortcut. We introduce OSGuard, a dual-granularity benchmark suite for evaluating safety in computer-use agents under benign, unchanged user instructions. OSGuard contains an action-level benchmark for local guardrail decisions and a risk-augmented execution suite for end-to-end evaluation. The action-level benchmark consists of contextualized proposed actions labeled as allowed, unrelated, or unsafe, each judged relative to the original instruction and current interface state. The execution suite contains manually constructed OSWorld-derived task variants in which the original task remains achievable, but the environment is modified to introduce latent hazards such as destructive overwrites, etc. Each variant is paired with augmented evaluators that retain the original task-success criterion while adding explicit state-based safety invariants, allowing us to distinguish safe completions from unsafe completions that satisfy the nominal task objective. Our experimental results on OSGuard show that current multimodal guardrails can perform well on isolated action judgments, while risk-augmented execution exposes remaining gaps between local oversight and reliable end-to-end safety. This dual-granularity design enables more precise diagnosis of whether models can both recognize unsafe proposed actions and improve full-task safety when deployed as guardrails.",
+      "title": "从Hugging Face Hub到Strands Agents和LeRobot的机器人硬件",
+      "originalTitle": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "date": "2026-06-17T10:18:05.000Z",
+      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
+      "fullContent": "您将要构建的内容先决条件第1步-设置示例第2步-记录演示并推送到集线器第3步-在模拟中运行策略第4步-将策略部署到物理硬件第5步-使用网格协调多个机器人使用示例应用程序进行尝试安全注意事项清理如何组合在一起从这里开始资源作者Strands Robots中LeRobot集成的演练-一个代理循环，来自集线器数据 你有一个机器人，一个Hugging Face Hub上的演示数据文件夹，以及一个你想让它学习的新任务。今天，这需要五个独立的工具：一个用于记录新的演示，另一个用于训练，第三个用于模拟测试，在硬件上部署自定义代码，还有一个用于协调，当您有多个机器人时。这些部件可以自行发挥作用。他们不互相交谈。Strands Robots是AWS （ Apache 2. 0 ） ，将机器人抽象、模拟和LeRobot堆栈作为AgentTools公开，并将其组合到单个Strands代理中。集成是有意的： LeRobot自己的脚本处理硬件记录和校准，而Strands AgentTools用于代理实际协调的部分。模拟工具以LeRobot在硬件上写入的相同格式记录LeRobotDatasets。 GR00T和LerobotLocal在通用接口后面提供策略推断， MolmoAct2检查点通过LerobotLocal路径运行。对等网格将代理扇出到远程机器人。数据集格式与LeRobot编写的格式完全相同；代理循环是胶水。 本文将引导您在单个代理中完成五个步骤：在LeRobot AgentTools上构建代理，在模拟中将演示记录为LeRobotDataset ，在同一机器人上运行策略，使用一个关键字参数更改将相同的代理代码部署到物理SO-101 ，并通过Zenoh网格在整个车队中广播命令。最后，您可以从GitHub克隆工作示例应用程序，并在模拟中在笔记本电脑上运行它。 默认路径不需要硬件、GPU和Hugging Face凭据。此帖子的可运行伴侣位于examples/lerobot/hub_to_hardware. py和hub_to_hardware. ipynb。笔记本默认为仅模拟和模拟策略。Strands Robots SDK将LeRobot堆栈公开为AgentTools ，您将其组合到一个Strands agent中。 本文中的示例代理执行四项操作：在模拟中记录新的演示，将结果作为LeRobotDataset推送到Hub ，针对相同格式在模拟中运行策略，并通过一个关键字参数更改将相同的代理代码部署到物理机器人。当您有多个机器人时，代理可以通过内置的对等网格协调整个车队。 对于硬件记录和校准， LeRobot自己的CLI （ lerobot-record ， lerobot-calibrate ）处理启动；代理从那里接机。图1.机器人(\"so100\")默认为MuJoCo支持的模拟； m...",
+      "originalSummary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
       "rawFullText": "",
       "tags": [
         "智能体",
-        "多模态",
-        "安全"
+        "机器人"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "关于Anthropic与白宫的新人工智能斗争的所有新闻",
-      "originalTitle": "All the news about Anthropic&#8217;s new AI fight with the White House",
+      "title": "Anthropic受到没有人理解的出口规则的打击",
+      "originalTitle": "Anthropic got hit by export rules nobody understands",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
-      "date": "2026-06-15T19:04:53.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "Anthropic在与五角大楼的对峙中已经解决了与政府的一场纠纷，然后在6月12日下令阻止外国人访问其最近发布的人工智能模型Fable 5和Mythos 5。 当他们于6月9日推出时， Anthropic表示“寓言5的能力超过了我们曾经普遍推出的任何型号的能力” ，并且Claude Mythos 5具有相同的基础型号， “但在某些地区解除了保护措施。据报道，该命令是在亚马逊和白宫就研究人员表示他们找到了让寓言5号提供可能用于网络攻击的信息的方法进行对话之后发布的。 Anthropic的回应是关闭所有客户对这两种模式的访问权限，他说： “我们正在遵守政府的法律指令，并取消所有用户对Fable 5和Mythos 5的访问权限。然而，我们不同意，发现狭隘的潜在越狱应该是召回部署到数亿人的商业模式的原因。 “阅读下面的所有最新更新，特朗普的人类关闭刚刚证明了非美国人工智能中国可能访问了Mythos据报道，亚马逊的安全研究导致白宫的人类寓言禁令Anthropic在政府命令后切断了Fable 5和Mythos 5的访问权限Anthropic发布其第一个Mythos级模型Claude Fable",
-      "originalSummary": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon, and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any [&#8230;]",
-      "rawFullText": "Anthropic was already navigating one dispute with the government in its standoff with the Pentagon , and then came an order on June 12th to block off foreign access to its most recently released AI models, Fable 5 and Mythos 5. When they launched on June 9th, Anthropic said &#8220;Fable 5’s capabilities exceed those of any model we’ve ever made generally available,&#8221; and that Claude Mythos 5 had the same underlying model, &#8220;but with the safeguards lifted in some areas.&#8221; According to reports , the order came after conversations between Amazon and the White House about researchers saying they found ways to get Fable 5 to serve information that could be used in cyberattacks. Anthropic responded by shutting access to both models for all customers, saying , &#8220;We are complying with the government’s legal directive and are removing access to Fable 5 and Mythos 5 for all users. However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.&#8221; Read along below for all of the latest updates Today’s Vergecast: The Mythos mess and your AI questions, answered. Inside the fight over Claude Mythos 5 Trump’s Anthropic shutdown just made the case for non-American AI China may have accessed Mythos Amazon security research reportedly led to the White House’s Anthropic Fable ban Anthropic cuts off Fable 5 and Mythos 5 access following government order Anthropic releases its first Mythos-class model Claude Fable",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "特朗普的人类关闭刚刚为非美国人工智能提供了理由",
-      "originalTitle": "Trump’s Anthropic shutdown just made the case for non-American AI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
-      "date": "2026-06-15T18:10:27.000Z",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+      "date": "2026-06-17T18:28:50.000Z",
       "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "在华盛顿的要求下， Anthropic突然在周末将其最新、最强大的人工智能模型下线。这家美国公司表示，在白宫要求阻止包括其员工在内的所有外国公民进入之后，它别无选择。在国外，这一事件令人清醒地意识到，美国不仅主导着前沿人工智能，其政府还对谁可以使用它行使权力。 特朗普政府的行动迅速、全面，几乎没有警告或解释。前所未有的Fable 5和Mythos 5型号的关闭-这些型号已经受到限制其使用的保护措施的限制”…阅读The Verge的完整故事。",
-      "originalSummary": "At Washington's request, Anthropic suddenly took its newest and most powerful AI models offline over the weekend. The American company said it had little choice after the White House demanded it block access for all foreign nationals, including its own employees. Abroad, the incident offered a sobering reminder that the US not only dominates frontier [&#8230;]",
-      "rawFullText": "At Washington's request, Anthropic suddenly took its newest and most powerful AI models offline over the weekend. The American company said it had little choice after the White House demanded it block access for all foreign nationals, including its own employees. Abroad, the incident offered a sobering reminder that the US not only dominates frontier AI - its government also wields power over who gets to use it. The Trump administration's action was swift, sweeping, and imposed with little warning or explanation. The unprecedented shutdown of the Fable 5 and Mythos 5 models - which were already subject to safeguards limiting their use in \" … Read the full story at The Verge.",
+      "fullContent": "在特朗普政府突然命令该公司切断所有外国公民（包括美国境内的用户及其员工）的访问权限，迫使Anthropic阻止每个人访问寓言5和神话5之后， Anthropic本周的大部分时间都在努力使其最新的人工智能模型重新上线。“据我所知，这是美国首次以这种方式使用出口管制来控制对人工智能模型的访问。 “特朗普政府尚未公开解释该命令的法律依据，但在其网站上的一份声明中， Anthropic表示，政府引用了”国家安全当局“来证明”出口骗局“的合理性......请阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 for everyone. \"To my [&#8230;]",
+      "rawFullText": "Anthropic has spent much of this week fighting to get its newest AI models back online after the Trump administration abruptly ordered the company to cut access for all foreign nationals, including users inside the US and its own employees, forcing Anthropic to block access to Fable 5 and Mythos 5 for everyone. \"To my knowledge, this is the first time US export controls have been used to control access to an AI model in this way.\" The Trump administration has not publicly explained the legal basis for the order, but in a statement on its website, Anthropic said the government cited \"national security authorities\" to justify \"an export con … Read the full story at The Verge.",
       "tags": [
         "公司动态",
         "模型"
       ],
-      "score": 91
+      "score": 92
     },
     {
-      "title": "大型科技公司对人工智能监管的最后一次绝望推动",
-      "originalTitle": "Big Tech’s desperate last push at AI regulation",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
-      "date": "2026-06-15T17:44:10.000Z",
-      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：监管相关动态",
-      "fullContent": "美国参议员玛莎·布莱克本（ R-TN ）和多数党领袖查克·舒默（ D-NY ）于2024年7月30日在华盛顿特区国会大厦与两党参议员就《在线隐私保护法》的通过举行新闻发布会。| Kent Nishimura/Getty Images。几个月来，大型科技公司的华盛顿游说者一直在追逐亲人工智能立法的圣杯：先发制人。 这将是一项全面的联邦法律，由国会通过并由总统签署，在全国范围内应用一套人工智能规则，并推翻法律上混乱的逐州监管方法。几个月来，游说者遇到了路障，在全国范围内引发了政治反弹，他们现在面临的可能性是，在中期选举之后，国会将转向不愿与他们合作的敌对民主党人。 但他们最后，最绝望的先发制人的尝试是带来新的行李，与入场有关……阅读The Verge的完整故事。",
-      "originalSummary": "For months, Big Tech's Washington lobbyists have chased after the holy grail of pro-AI legislation: preemption. This would be a comprehensive federal law, passed in Congress and signed by the president, applying one set of AI rules across the entire country and overriding the legally messy state-by-state approach to regulation. For months, lobbyists have run [&#8230;]",
-      "rawFullText": "U.S. Sen. Marsha Blackburn (R-TN) and Majority Leader Chuck Schumer (D-NY) arrive for a news conference with bipartisan senators on passage of the Online Privacy Protection Act at the Capitol on July 30, 2024 in Washington, DC. | Kent Nishimura/Getty Images. For months, Big Tech's Washington lobbyists have chased after the holy grail of pro-AI legislation: preemption. This would be a comprehensive federal law, passed in Congress and signed by the president, applying one set of AI rules across the entire country and overriding the legally messy state-by-state approach to regulation. For months, lobbyists have run into roadblocks and incurred nationwide political blowback, and they now face the possibility that after the midterms, Congress will flip to hostile Democrats unwilling to work with them. But their final, most desperate attempt at preemption is coming with new baggage, related to an ent … Read the full story at The Verge.",
+      "title": "通过模拟部署预测发布前的模型行为",
+      "originalTitle": "Predicting model behavior before release by simulating deployment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/deployment-simulation",
+      "date": "2026-06-16T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI引入了Deployment Simulation ，这是一种使用真实会话数据在部署前预测AI模型行为的方法，以提高安全性和评估准确性。",
+      "originalSummary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "rawFullText": "",
       "tags": [
-        "监管"
+        "公司动态",
+        "安全",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SpaceX正式以600亿美元收购Cursor $",
+      "originalTitle": "SpaceX is officially buying Cursor for $60 billion",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
+      "date": "2026-06-16T11:41:31.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "SpaceX表示，在大规模IPO几天后，它将斥资600亿美元收购Cursor--这一押注旨在帮助埃隆·马斯克(Elon Musk)庞大的火箭/人工智能/社交媒体巨头赢得利润丰厚的企业客户，并缩小与Anthropic和OpenAI等人工智能竞争对手的差距。收购并非完全出乎意料： SpaceX在4月份宣布了一项特殊的安排，同意以600亿美元收购该编程平台，或支付100亿美元的分手费。 该公司在上市时一直推迟完成交易。SpaceX在向美国证券交易委员会提交的文件中表示，预计该交易将在2026年第三季度完成。马斯克已经……阅读The Verge的完整故事。",
+      "originalSummary": "Days after its massive IPO, SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI. The takeover was not entirely unexpected: SpaceX announced [&#8230;]",
+      "rawFullText": "Days after its massive IPO , SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI. The takeover was not entirely unexpected: SpaceX announced a peculiar arrangement in April in which it agreed to either acquire the programming platform for $60 billion or pay a $10 billion breakup fee. The company had been holding off completing the deal while going public. In an SEC filing , SpaceX said it expects the deal to close during the third quarter of 2026. Musk has pr … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 97
+    },
+    {
+      "title": "高通公司的最新芯片暗示，更强大的智能眼镜可能即将推出",
+      "originalTitle": "Qualcomm’s latest chip hints that more powerful smart glasses could be on the way",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
+      "date": "2026-06-16T17:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "智能眼镜仍然是一个新兴的类别，但芯片制造商高通正在努力升级芯片，为下一波XR设备提供动力： Snapdragon Reality Elite。尽管高通公司今天在增强世界博览会上宣布了这款芯片，但从技术上讲，我们已经在上个月的Google I/O大会上亲自体验了一款由新芯片驱动的设备：即将推出的Android XR Aura眼镜。 当时， Xreal和谷歌对处理器升级到期待已久的眼镜感到羞怯。原来是现实精英。从规格上讲，新芯片专注于全面的性能升级。GPU获得60 ％的颠簸， ……阅读The Verge的完整故事。",
+      "originalSummary": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a device powered by the new chip at [&#8230;]",
+      "rawFullText": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a device powered by the new chip at last month's Google I/O: the forthcoming Aura glasses for Android XR. At the time, Xreal and Google were coy about the processor upgrades to the long-awaited spectacles. Turns out, it was the Reality Elite. Spec-wise, the new chip focuses on across-the-board performance upgrades. The GPU gets a 60 percent bump, the … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
       ],
       "score": 81
     },
     {
-      "title": "Facebook的新AI模式搜索从公开帖子中获取信息",
-      "originalTitle": "Facebook’s new AI Mode search gets its info from public posts",
+      "title": "苹果2027传闻：配备人工智能摄像头的AirPods和第二款折叠iPhone",
+      "originalTitle": "Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
-      "date": "2026-06-15T21:15:08.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "您的公开Facebook帖子可以帮助在Meta的新AI模式中为AI生成的结果提供信息。当您在Facebook上搜索时， “AI模式”选项将与“人员”和“市场”等常见搜索模式一起显示。“这是Meta从今天开始推出的几项新AI功能之一，包括将运动衫换成球迷的照片预设以及拼贴模板的建议。 它不是“只是链接” ，而是为用户提供人工智能生成的结果，这些结果来自Meta平台上公开发布的内容，例如其新的类似Reddit的论坛应用程序中的人工智能搜索功能。用户还可以根据搜索结果向Meta的AI跟进问题提问……阅读The Verge的完整故事。",
-      "originalSummary": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto [&#8230;]",
-      "rawFullText": "Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode . When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI features Meta is rolling out starting today, including photo presets that swap sports jerseys onto fans and suggestions for collage templates. Instead of \"just links,\" it gives users AI-generated results that pull from publicly-posted content across Meta's platforms, like the AI search feature in its new Reddit-like Forum app . Users can also ask Meta's AI follow-up questions in response to the search … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
+      "date": "2026-06-16T17:04:05.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
+      "fullContent": "带有iPhone和实时翻译功能的AirPods Pro 3。|照片由Amelia Holowaty Krales/The Verge提供现在我们已经清除了WWDC和苹果平台上即将推出的所有新的人工智能功能，彭博社记者Mark Gurman有更多关于传闻中的新硬件的细节，比如他之前写过的配备摄像头的AirPods。 他说，他们目前正按计划在2027年底推出，虽然我们正在查看今年秋季iOS 27更新的测试版，但新耳机正在明年的iOS 28更新中进行内部测试。摄像头安装在树干和灯光中，以指示数据何时上传到云端，它们可以提供有关周围环境的升级版Siri “视觉背景” ，是......在The Verge阅读完整故事。",
+      "originalSummary": "Now that we're clear of WWDC and all of the new AI-powered features coming to Apple's platforms, Bloomberg reporter Mark Gurman has more details about rumored new hardware, like the camera-equipped AirPods he'd previously written about. He says they are currently on schedule for a late 2027 launch, and that while we're checking out beta [&#8230;]",
+      "rawFullText": "AirPods Pro 3 shown with an iPhone and live translation features. | Photo by Amelia Holowaty Krales / The Verge Now that we're clear of WWDC and all of the new AI-powered features coming to Apple's platforms, Bloomberg reporter Mark Gurman has more details about rumored new hardware, like the camera-equipped AirPods he'd previously written about . He says they are currently on schedule for a late 2027 launch, and that while we're checking out beta releases for this fall's iOS 27 update, the new earbuds are internally being tested with next year's update, iOS 28. With cameras mounted in their stems and lights to indicate when data is being uploaded to the cloud, they could give the upgraded version of Siri \"visual context\" about your surroundings, be … Read the full story at The Verge.",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 80
+    },
+    {
+      "title": "想要让数据中心快速上线？给它一些灵活性。",
+      "originalTitle": "Want to get a data center online quickly? Give it some flex.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
+      "date": "2026-06-16T09:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "在英国男子队与对手德国队之间的一场紧张而无进球的足球比赛的前半场结束时，数百万英国人集体叹了口气，并做了他们在压力时刻经常做的事情：他们泡茶。然而，那一波电热水壶的咔嗒声引起了另一种压力：电力需求的巨大而突然的增加。但是，运营本地传输网络的国家电网已经准备就绪。 就在这些水壶开始升温时，一个人工智能程序向伦敦的一个数据中心发送了指令，以减缓该设施的一些耗电芯片。这种减少有助于确保有足够的供应来满足需求，避免潜在的停电或电气硬件损坏。对于通常在不考虑任何人或任何其他需求的情况下消耗电力的数据中心来说，这是一个彻底的背离。这也是一种模拟。 2025年12月，工程师们试图测试一种新型数据中心，该数据中心旨在灵活应对电力需求，因此他们在2020年欧洲锦标赛的一场比赛中重新创造了英国电网面临的能源需求。他们想看看他们的软件（称为Conductor ）在当时在线的情况下会如何反应。 Conductor是总部位于华盛顿特区的Emerald AI公司的标志性产品，这是一波公司试图弄清楚数据中心是否可以在现有电网范围内工作的浪潮的一部分。今年， Emerald将在弗吉尼亚州数据中心小巷的一个新设施中部署Conductor ，这次将连接到实时电网。 当整体需求激增时， Conductor将关闭数据中心使用的电源，同时确保其服务器仍然执行最及时和最重要的工作。Emerald在该项目上的合作伙伴（包括Nvidia和巨型数据中心运营商Digital Realty ）将其称为世界上第一批“电源灵活的人工智能工厂”之一。 “证明数据中心可以参与这种让步，可以缓解许多技术领导者认为的在线设施瓶颈：获得批准、建造和连接新发电厂所需的时间远远超过建立数据中心所需的时间。例如，根据能源研究和倡导组织RMI的数据，弗吉尼亚州和美国最大的电网运营商PJM需要八年时间才能将新一代电力上线。 英伟达可持续发展主管乔希·帕克（ Josh Parker ）表示： “我们需要解决能量方程式。“人工智能工厂的灵活性是人工智能令人难以置信的需求与我们能源网的直接限制之间的桥梁。”不过，速度只是其中一个问题。一旦设施接通电源，邻居们经常批评它们消耗太多电力并导致价格上涨。 他们说，数据中心比长期工作产生更多的噪音，造成污染，并有可能使人们失业。根据数据中心观察，组织者在2025年停滞了价值超过1500亿美元的项目，政策制定者对公众情绪的警惕开始对发展施加限制。",
+      "originalSummary": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different&#8230;",
+      "rawFullText": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different kind of stress: a huge and sudden increase in demand for electricity. But National Grid, which operates the local transmission network, was ready. Just as those kettles started heating up, an AI program sent instructions to a data center in London to slow down some of the facility’s power-hungry chips. This reduction helped make sure there was enough supply to match demand, staving off potential blackouts or damage to electrical hardware. For data centers, which normally guzzle power without consideration for anyone or anything else’s needs, it was a radical departure. It was also a simulation. In December 2025, engineers sought to test a new breed of data center built to be flexible about its electricity needs, so they re-created the energy demand facing the UK’s grid during a match from the 2020 Euro tournament. They wanted to see how their software, called Conductor, would have responded had it been online at the time. Conductor is the signature product of Emerald AI, a firm based in Washington, DC, that’s part of a wave of companies trying to figure out whether data centers can work within the confines of the existing electric grid. This year, Emerald is set to deploy Conductor in a new facility in the part of Virginia known as Data Center Alley, this time connected to the live grid. When overall demand spikes, Conductor will turn down the power used by the data center, while making sure its servers still carry out their timeliest and most important jobs. Emerald’s partners on the project—which include Nvidia and the giant data-center operator Digital Realty—bill it as one of the world’s first “power-flexible AI factories.” Demonstrating that data centers can participate in this kind of give-and-take could ease what many tech leaders identify as the bottleneck in getting facilities online: It takes far longer to get approval for, construct, and connect new power plants than to build data centers. PJM, the grid operator in Virginia and the largest one in the US, for instance, needs eight years to bring new generation online , according to RMI, an energy research and advocacy group. “We need to solve the energy equation,” says Josh Parker, head of sustainability at Nvidia. “AI factory flexibility is the bridge between the incredible demand for AI and the immediate limitations of our energy grid.” Speed, though, is only one of the issues. Once facilities do plug in, neighbors often criticize them for drawing too much electricity and contributing to rising prices. They say the data centers generate more noise than they do long-term jobs, contribute to pollution, and threaten to put people out of work. Organizers stalled over $150 billion worth of projects in 2025, according to Data Center Watch , and policymakers alert to the public mood are starting to impose limitations on development. More than a dozen states are considering bans, and local moratoriums are in effect in places like Minneapolis and DeKalb County in Georgia. At the federal level, the GRID Act, a bipartisan bill in the US Senate, proposes to sever new data centers from public grids entirely. Some operators are already moving that way by trying to develop their own power generation. Rather than rushing to build new power plants, companies could find part of the solution to the crunch right under our noses—or, more precisely, in the transmission lines under our feet and above our heads. The existing system operates near its full capacity during only a small number of high-demand hours throughout the year. This means, some grid experts argue, that if data centers can limit the power they draw during those stretches, they won’t need to wait for big infrastructure upgrades or build their own off-grid generation.&nbsp; Indeed, a growing number of studies have shown there could be plenty of power available for data centers that can flex. A widely discussed 2025 report from researchers at Duke University found that the US grid could offer an additional 76 gigawatts—about 5% of its entire capacity, and about enough to accommodate projected data-center growth in the US through 2030—to facilities that are willing to reduce their usage just 0.25% of the time. That’s about 22 hours a year. And when researchers from Princeton University and two grid-modernization companies looked at locations for new data centers in the PJM region, their report , which was funded by Google, found that a 500-megawatt facility capable of flexing for less than 1% of the year could reach full operation three to five years faster than one that’s inflexible.&nbsp; Flexible power connections could also help data centers address some of their PR problems. By decreasing their draw at times of grid stress, for instance, they could avoid diverting power from where it’s most needed, thus boosting stability. By using existing capacity, they might be able to reduce the need for new fossil-fuel power plants and spread fixed costs over more electricity users, pushing prices down.&nbsp; The AI power pinch is attracting resources and research into strategies for grid flexibility overall, which could help negotiate a tricky period: Taken together with electric vehicles, air-conditioning, and other sectors, data centers are helping drive what analysts predict will be a 25% increase in US electricity demand by 2030 compared with 2023 levels. Ideally, flexibility gives grid operators more control over the flow of electrons, making them leaders of a harmonious ensemble rather than hostages to inflexible electricity requirements. That will help them manage demand spikes across the entire system and deal more effectively with the intermittent nature of renewables like wind and solar. “Demand flexibility is incredibly useful for power grids,” says Johanna Mathieu, a grid expert at the University of Michigan. “It helps reduce electricity costs and improve grid reliability.” But while advocates see plenty of benefits, the concept brings complexity. For data centers, compromising on energy needs can be a hard sell. Flexibility requires utilities and grid operators, which tend to be operationally conservative, to change long-held practices. And some skeptics also say that flexibility distracts from the very real need to build more grid infrastructure faster, and could even pose risks to our electricity supply.&nbsp; Still, some technologists, grid operators, and utilities are hoping to show that flexibility works—not only in white papers or simulations but in real life.&nbsp; The poster children for data-center growth default toward in flexibility. Hyperscalers like Microsoft and Oracle have proposed enormous new centers, many of which would rely on off-grid, natural-­gas-burning power plants. When xAI wanted to speed up the buildout of the Colossus site outside Memphis, Tennessee, it rolled up with gas turbines on flatbed trucks. The facility, now in operation, is facing blowback from regulators and residents about the spike it’s causing in emissions and other pollution. In any case, there aren’t enough gas turbines worldwide to meet the demand from data-center operators.&nbsp; One big obstacle for anyone demanding a lot of power is that our grids are mostly rigid. They’re designed to supply enough power to meet total demand when it’s highest, even if that’s for only a relatively small number of hours a year. That conservative approach is a simple route to reliability, but it means that the grid has quite a bit of headroom. “The grid is already overbuilt by a lot. If you were an airline running at 30% utilization, you would not buy more planes,” says Amit Narayan, the cofounder and CEO of GridCare, a company developing flexibility technologies, referring to a 2025 Stanford study of transmission lines in western North America. “If you are running a grid at 30% utilization, there’s no scientific reason you can’t go to 60.”&nbsp; “If you were an airline running at 30% utilization, you would not buy more planes. If you are running a grid at 30% utilization, there’s no scientific reason you can’t go to 60.” To be fair, the idea of flexibility isn’t entirely foreign to grid operators. For decades, they’ve practiced a technique called demand response: When it looks as if demand will get too close to supply, as it might during a heat wave when many people turn on the AC at the same time, they call large commercial or industrial facilities and ask them to shut down parts of their operations. This method can help avoid the need to fire up so-called peaker plants, which run on fossil fuels, but it’s slow, imprecise, and hard to scale. In the 2000s, as the adoption of technologies like electric cars and solar panels presented new challenges, more internet-­connected grids also provided new means of flexibility. Virtual power plants, or VPPs, offered a smarter, faster, more granular alternative. Electricity customers ranging from factories to homeowners with smart thermostats, solar panels, or big batteries would allow the utility to adjust their draw to help meet demand—often getting paid for their (frequently unnoticed) trouble.&nbsp; After the generative AI boom began with the release of ChatGPT in 2022, some companies began to see flexibility as a way to get data centers set up more easily, efficiently, and affordably. If they bring AI money into existing grids and reduce or defer the need for expensive upgrades, data centers could actually help spread out fixed costs so as to lower rates for other users. A study from Duke University published this past February, for instance, found that flexibility could reduce rates by 0.5% to 2.8% .&nbsp; PETRA PÉTERFFY The trick is figuring out how data centers, notorious power hogs, can keep operating when their flexible connections are throttled. Flexibility specialists envision three possible ways. The simplest is for the new data center to install on-site backup power storage or generation to tap when the grid is maxed out—at their own expense, of course. A facility could also fill the gap by drawing on a VPP. The utility would turn down the electricity going to users who signed up for the VPP, and the data center would pay them for their flexibility. This method wouldn’t require any major infrastructure, but it would require the utility to have a big VPP program and to coordinate the exchange at a time when the grid was under stress. While VPPs exist to some extent in nearly 40 states, the rules governing them vary widely, and they are empowered to do more in some areas than in others.&nbsp; Finally, a data center could simply use less power at peak times. The conventional wisdom is that they won’t go for such limits, particularly when every number-­crunching server can feel like a goose potentially laying little golden eggs. But some experts are betting that the value of getting up and running quickly is enough to change their minds. “There is a clear and growing trend,” says Ayse Coskun, chief scientist at Emerald AI. “Operators are increasingly willing to trade some level of flexibility for faster grid interconnection.”&nbsp; GridCare, a startup based in Silicon Valley, was one of the first companies to use flexibility to get data centers online quickly. Instead of looking at grids only in worst-case scenarios when electricity demand is highest, the company analyzes the system under all conditions, explains CEO Narayan, who studied smart grids at Stanford. It feeds every part of the grid—including power plants, lines, substations, and homes—into a generative AI model that creates a “digital twin” for different grid configurations. It then picks out results that could unlock capacity while maintaining reliability, and it feeds those into another model trained on the physics of electrical components like resistors and capacitors to make sure they’re realistic. GridCare found its first customer in the Silicon Forest, an area in the Pacific Northwest named for the trees that dominate the landscape and the IT industry that has more recently sprouted up there. The local grid needed more capacity to support more data centers. “Data centers wanted ‘speed to power,’” says Isaac Barrow, a manager of data-center relations at Portland General Electric, or PGE, the local power generator and distributor, “but transmission buildout is a long process that’s very costly.” In 2024, Aligned Data Centers came to PGE wanting to expand its operation in Hillsboro, Oregon, and PGE followed a recommendation from GridCare. Aligned will install a 31-megawatt battery, set to be in service in May 2027, and decrease its draw by up to that amount when the grid becomes congested. Bundled with other flexibility measures, that battery has allowed PGE to increase the capacity it can offer Aligned and other nearby operators by 80 megawatts without any new power plants. Though the buildout of data centers in Hillsboro has faced plenty of pushback from locals, Barrow points out that it could have the knock-on effect of lowering costs for ratepayers, because it spreads out the tab. Other companies are promoting different flavors of flexibility. Google has been moving processing loads from facilities in areas experiencing demand spikes to those in less stressed spots since 2023. It’s signed agreements with five utilities , including the Tennessee Valley Authority and Indiana Michigan Power, that add as much as a gigawatt of flexibility.&nbsp; Voltus, a major VPP provider across the US and Canada, markets a “bring your own capacity” program in which a data-­center company can fund a VPP nearby. The grid operator can use the VPP to decrease demand at busy times, and participants get a financial thank-you. “We can spin up new VPPs on the order of months,” says Emily Orvis, Voltus’s vice president of energy markets. In June, the company signed their first such data-center deal : a three-year plan in which Google will bankroll a VPP in the PJM interconnection. Of all the approaches to flexibility, Emerald AI’s may be the most ambitious: asking data centers to dial into the grid’s needs. The company’s Conductor software, which can run on premises or in the cloud, builds on the research of chief scientist Coskun. Her group at Boston University showed in a pair of 2013 papers that a data center could watch the grid and help balance big power fluctuations, such as the intermittent effects of solar and wind power. By 2022, she and her colleagues had tested their methods on a cluster of 36 research servers and shown that the system could respect power limits without breaking the processes it was running.&nbsp; One of the most important questions for Conductor is deciding which AI processes can be slowed down to save energy without kneecapping performance. A lot of companies label their jobs by priority—a real-time chatbot query, for instance, might outrank something like a web search that’s part of a deep research project. When they don’t, Emerald AI tries to infer priority from the nature of the job. Conductor then analyzes the AI workload to determine how tweaking the power to a given processor will affect the performance and help meet the usage limits set by the grid operator. “The performance curve changes for different kinds of workloads,” says Coskun. “Each AI job is going to have a different location on that curve. Our intelligence is figuring out where you are on that curve.” PETRA PÉTERFFY Last year, Emerald AI began assessing the technology’s readiness for real-world use in a series of tests, raising the difficulty each time. The trials were carried out in partnership with the Data Center Flexible Load Initiative—a collaboration among tech companies like Google and Nvidia, utilities like Duke Energy, and grid operators like PJM that aims to help establish a repeatable framework for power-­flexible data centers. The first challenge was in Phoenix, a fast-growing computing hub. For the test, Conductor took control of a group of server racks laden with 256 Nvidia A100 GPUs—hardware that can use about as much power as around 170 US homes. When presented with a simulation of a busy grid, Conductor reduced the power to the chips by 25% for three hours, while maintaining acceptable computing performance. Emerald AI and its partners reported the results in a paper in Nature Energy in December 2025. The next trial forced the system to juggle surprise grid fluctuations without advance warning and redirect AI jobs from a data center in Virginia to a less busy one in Chicago. Then, in London, Conductor took the reins of equipment beyond the main GPU processors and faced a more complicated mix of fluctuations, including very short and long bouts of congestion—plus the notorious teakettle effect. The progress so far shows that flexibility can work, at least in some situations, but only a small fraction of operators have pursued it as yet. “We’re just in the beginning innings of the game,” says Jesse Jenkins, one of the authors of the 2025 Princeton study and cofounder of Firma, a startup that works on data-center flexibility. “People are recognizing that this is a potential solution. The motivation is there; there are some bespoke examples. But there’s no uniform solution set that’s the default option, which is where we need to get.” While data centers are going up across the US, no place on Earth comes close to the accumulated computing muscle in Northern Virginia’s Data Center Alley. The region is home to around 500 compute-crunching facilities, which represent 13% of the entire world’s capacity; the next two hot spots, Beijing and Oregon, contain 6% each. There are proposals to build hundreds more facilities in Virginia, but a government study found that the state’s electricity demand will increase 183% (around 26 gigawatts) by 2040 if they all go forward, and supporting even half would be difficult. The power-flexible data center that Emerald AI, Nvidia, Digital Realty, and their partners are building in the suburb of Manassas could demonstrate how data centers can squeeze the power they need out of existing capacity. The facility, slated to come online later this year, is intended to give Conductor the chance to manage power at the largest scale yet and to respond to conditions on a live grid for the first time. In the UK demonstration, Conductor managed a 130-kilowatt AI cluster; in Manassas, it will pull the strings of a 96-megawatt hyperscale AI factory.&nbsp; Some degree of flex will play a key role as we transition away from fossil fuels and toward a future that has to juggle technologies like solar and wind power, batteries, and electric cars. For PJM, the Manassas facility points to a potential path through the current power crunch. “We think data-center flexibility, in different forms, will be essential for the reliable integration of data-center load over the short to mid term,” says Scott Baker, who manages demand-side markets at PJM.&nbsp; But not all grid experts are so sanguine. PJM’s market monitor, which oversees the grid operator, says there are no workarounds when it comes to adding capacity. “The notion that large amounts of data-center load can be added without adding new generation is magical thinking,” says Joseph Bowring, an economist and the head of PJM’s market monitor since 1999. One problem, he says, is that there’s no way to guarantee that a data center will actually take less power when demand is high. That is, absent any legal or regulatory push for flexibility or compliance, the utility won’t be able to step in to help prevent, say, a blackout. Utilities can rely on resources like power plants, but they can’t control or rely on data centers. “They do not want to be fully interruptible,” Bowring says of the facilities. Stephen Empedocles, an advisor for technology companies, views flexibility as more of a tool than a silver bullet. “These approaches are excellent for improving grid reliability and getting more out of the infrastructure we already have,” he says, “but they are optimization tools.” They’re not substitutes for the “generation, transmission, and distribution expansion that will still be required,” he continues. Flexibility advocates agree that over the long term, whether or not AI continues to boom, electrification will drive a need for more generation and transmission. Some degree of flex will play a key role in using grid infrastructure better as we transition away from fossil fuels and toward a future that has to juggle technologies like solar and wind power, batteries, and electric cars. A report published by the International Renewable Energy Agency in January 2026 found that grids around the world will need three times as much flexibility in 2030 as they had in 2019—and 10 times as much by 2050—to balance increasing demand with fluctuating supplies of renewable energy.&nbsp; The challenge of powering AI could provide just the spark we need to do the work of designing and building smarter, more flexible grids, says Coskun. “I think with a crisis like this, there’s no quick solution,” she says. “Sometimes a crisis like this creates an opportunity to do something differently.”&nbsp; Amos Zeeberg is a freelance science and technology journalist based in Bucharest. He’s developing a book about technology networks, including electric grids.",
       "tags": [
         "AI 热点"
       ],
@@ -177,7 +188,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "OpenAI合作伙伴网络简介",
@@ -193,22 +204,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
-    },
-    {
-      "title": "中国可能访问了Mythos",
-      "originalTitle": "China may have accessed Mythos",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
-      "date": "2026-06-14T18:27:55.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "根据Semafor的一份新报告，白宫决定对人类的神话实施出口限制，部分原因是担心它被一个与中国有联系的团体访问。如果中国政府实际上可以访问神话5或寓言5 ，这将构成严重的国家安全风险。 政府还可以尝试通过蒸馏对模型进行逆向工程，这种方法是用更先进的模型对“学生”人工智能进行培训，以复制其行为。白宫尚未证实这一报道，特朗普顾问大卫·萨克斯（ David Sacks ）关于X的帖子也没有提到中国。相反， Sacks专注于……阅读The Verge的完整故事。",
-      "originalSummary": "According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security [&#8230;]",
-      "rawFullText": "According to a new report from Semafor , the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to China. If the Chinese government actually had access to Mythos 5 or Fable 5, it would present a serious national security risk. The government could also attempt to reverse engineer the model through distillation , a method in which a \"student\" AI is trained on a more advanced model to replicate its behavior. The White House has not confirmed this report, and a post on X by Trump adviser David Sacks did not mention China. Instead, Sacks focused on a r … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
+      "score": 97
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -240,22 +236,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 95
-    },
-    {
-      "title": "olmo-eval ：模型开发循环的评估工作台",
-      "originalTitle": "olmo-eval: An evaluation workbench for the model development loop",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/olmo-eval",
-      "date": "2026-06-12T15:56:10.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "Olmo-eval与现有工具的区别集成的评估堆栈可重现的评估打开了💻Code: https://github. com/allenai/olmo-eval在构建LLM时，您会跨越许多干预措施对其进行反复评估。 对数据、架构或超参数的每一次调整--以及规模的每一步--都会通过相同的循环将您送回：添加或重新配置基准，在每个新模型检查点上重新运行基准，记录结果，并检查在小型实验中有帮助的东西是否仍然能够支持完整的训练运行。 大多数评估工具不是为此而设计的，它们要么是为了在已完成的模型中运行已建立的基准，要么是在沙箱中通过多步骤的工具使用问题运行模型。它们不能跟上不断变化的模型，也不能反映模型在特定现实条件下的行为。我们解决这一评估挑战的最后一个项目是开放语言模型评估标准OLMES。 它于2024年推出，旨在使LLM基准分数更容易在各个版本之间进行比较。相同的模型以不同的方式在相同的基准上进行评分—提示格式和任务制定等方面通常因纸张而异—因此关于哪些模型表现最佳的说法通常不可重复。 OLMES将基准选择固定在一个开放的、有文档记录的标准中，并成为评估我们从Olmo到Tulu的开放模型的基础。但模型的最终分数只是评估过程的一部分，这就是我们发布olmo-eval的原因，这是一个基于OLMES构建的新工作台，并将其扩展到LLM开发的其余部分。 与OLMES相比， olmo-eval减少了实施新评估的工作量，在定义其运行位置和方式方面提供了更大的灵活性，并使将单个组件组合到更大的工作流中变得更加容易。作为一流的用例，支持代理和多回合评估，更强大的分析工具可帮助您判断干预措施实际上是在基线上改善还是差异等于噪音。 olmo-eval在某些方面与Harbor重叠， Harbor是一个开放框架，用于在容器化、沙盒化环境中评估AI代理。但这两种工具在范围上有所不同。Harbor主要用于运行和发布代理基准； olmo-eval是为开发模型添加和配置基准、跨检查点运行基准以及按提示而不是单个总分分析结果的日常工作而构建的。 Harbor以相同的方式运行所有内容-内部密封、可重复的容器。由于容器可能是资源密集型的，因此olmo-eval允许您选择每个基准的运行方式。只需要模型来回答问题的基准可以直接运行，这更快、更便宜；需要锁定环境的基准（例如，运行模型编写的代码的环境）可以获得孤立的容器设置。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 79
+      "score": 94
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -319,7 +300,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -334,7 +315,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
@@ -366,38 +347,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 94
-    },
-    {
-      "title": "从数据到决策： LSEG如何扩展可信赖的人工智能",
-      "originalTitle": "From data to decisions: how LSEG is scaling trusted AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/lseg",
-      "date": "2026-06-10T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "了解LSEG如何使用OpenAI在其全球业务中扩展可信赖的人工智能，加快洞察力，缩短发布周期，并为4,000名员工赋能。",
-      "originalSummary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
       "score": 93
-    },
-    {
-      "title": "Nextdoor的工程师如何使用Codex无限制地构建",
-      "originalTitle": "How engineers at Nextdoor use Codex to build without limits",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/nextdoor",
-      "date": "2026-06-09T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Nextdoor的工程师如何将Codex与GPT-5. 5结合使用，以调查难以重现的问题，跨平台构建并专注于产品成果。",
-      "originalSummary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 89
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -412,7 +362,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -427,7 +377,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "将GitHub CI迁移到Hugging Face Jobs",
@@ -442,7 +392,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "关于人工智能，您需要了解的五件事",
@@ -457,7 +407,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -473,7 +423,7 @@
         "智能体",
         "开源"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -488,7 +438,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -504,7 +454,7 @@
         "多模态",
         "安全"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "将hf CLI设计为使用Hub的代理优化方式",
@@ -519,7 +469,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -534,7 +484,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "超越聊天机器人的直接偏好优化",
@@ -549,7 +499,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "将MCP工具添加到Reachy Mini",
@@ -565,21 +515,6 @@
         "AI 热点"
       ],
       "score": 63
-    },
-    {
-      "title": "Holo3.1 ：快速和本地计算机使用代理",
-      "originalTitle": "Holo3.1: Fast & Local Computer Use Agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Hcompany/holo31",
-      "date": "2026-06-02T14:13:23.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "移动自动化交叉线束性能更小尺寸，以实现对消费硬件本地代理的成本性能权衡去年3月，我们发布了Holo3 ，这是我们最先进的计算机使用模型。采用很快。开发人员、企业和合作伙伴开始在广泛的工作流程中部署Holo3 ，从浏览器自动化和业务软件到内部工具和桌面应用程序。 随着采用率的增长，我们意识到仅有绩效是不够的。用户希望在桌面和移动环境中运行相同的计算机使用功能，并与不同的代理框架无缝集成。他们需要部署的灵活性，从云推断到最终用户设备上的完全本地执行。这就是我们发布Holo3. 1系列的原因。Holo3。 1提高了生产中最重要的三个维度的稳健性：环境（ Web、桌面、移动）、代理框架和部署目标。我们首次发布了针对局部推理进行优化的量化检查点，包括FP8、Q4 GGUF和NVFP4。Holo3。 1是我们实现通用计算机代理愿景的重要一步：系统可以跨环境运行，集成到任何代理堆栈中，并在工作流程所在的任何地方运行。Holo3. 1基于Qwen系列，旨在提高实际部署计算机使用代理的环境的鲁棒性，同时保持最先进的性能。 随着团队将Holo3从评估转移到生产，我们反复观察到同样的挑战：在一个环境中的强劲表现不一定会转移到另一个环境中。移动设备、替代代理线束和不同的执行框架都引入了自己的分销转变来源。Holo3. 1将Holo3的功能扩展到浏览器和桌面控制之外，为移动环境带来了重大收益。 在AndroidWorld上，我们的35B-A3B模型从67%提高到79. 3% ，而较小的4B和9B变体从58%提高到72%。为了更好地支持在第三方代理堆栈中部署Holo的团队，除了Holo3中已有的结构化JSON输出之外， Holo3. 1还引入了对函数调用协议的本机支持。 在OSWorld和我们涵盖电子商务、业务软件和协作工作流程的内部基准套件中，功能调用和本地执行现在实现了接近同等的性能。当在我们的Holotab产品线束内进行评估时， Holo3. 1也比Holo3提高了25 ％以上。为了进一步实现本地和设备上的推理，我们还发布了新的模型尺寸，包括小型模型（ 0. 8B、4B和9B ） ，以实现具有成本效益的私有部署，此外还有较大的35B-A3B型号，以提供最先进的性能。Holo3. 1和Qwen 3. 5系列的性能与成本对比。总体性能首先对四个H Corporate基准进行平均（因此每个系列的权重相等） ，然后对OSWorld、AndroidWorld、H Corporate、ScreenSpot-Pro和OSWorld-G进行平均。这是我们首次发布量化权重。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
@@ -610,36 +545,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑",
-      "originalTitle": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "date": "2026-06-01T13:51:18.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“超越LLM ：为什么可扩展的企业AI采用取决于代理逻辑”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
-    },
-    {
-      "title": "介绍Mellum2 ： JetBrains的12B混合专家模型",
-      "originalTitle": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "date": "2026-06-01T15:45:17.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
     },
     {
       "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
