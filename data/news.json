@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T00:19:49.418Z",
+  "updatedAt": "2026-06-19T01:46:33.054Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,103 @@
   ],
   "articles": [
     {
+      "title": "资料来源： Elastic同意以高达8500万美元的价格收购CRV支持的DeductiveAI",
+      "originalTitle": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "date": "2026-06-19T00:51:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "据知情人士透露， DeductiveAI是一家使用人工智能来捕捉和解决软件漏洞的初创公司，已同意以高达8500万美元的价格出售给企业软件公司Elastic。Deductive成立于2023年，去年11月宣布了由CRV牵头的750万美元种子轮融资， Databricks Ventures、Thomvest Ventures和PrimeSet参与其中。 根据PitchBook的数据，这笔投资对这家初创公司的估值为3300万美元($)。Elastic和Deductive没有回复多次置评请求。如果任何一家公司回复， TechCrunch将更新本文。此次出售标志着Deductive的快速退出，该公司正在一个名为AI站点可靠性工程（ AI SRE ）的快速增长行业运营。在人工智能编写的代码大量涌入的推动下，构建人工智能驱动的SRE工具已成为一个重要领域。 用人工智能取代手动调试，使人类SRE能够将注意力从不断修复中断和其他问题转向花更多时间帮助产品开发。消息人士告诉TechCrunch ，此次收购反映了一个更广泛的趋势，即成熟的技术现有企业正在寻求收购AI原生创业公司，以将代理技术集成到其现有的产品套件中。 Elastic于2018年上市，以Elasticsearch而闻名， Elasticsearch是一个搜索和分析引擎，可帮助组织近乎实时地存储、搜索、分析和监控大量数据。该公司的可观测性软件--本质上是让工程师监控软件系统和检测安全威胁的工具--可以从Deductive的技术中受益。 消息人士称，将Deductive的AI技术集成到Elastic中，将为客户提供自动监控性能和实时解决系统故障的工具，从而增强其可观测性平台。Deductive由Rakesh Kothari和Sameer Agarwal共同创立， Rakesh Kothari之前是Lightspeed支持的商业分析初创公司ThoughtSpot的工程副总裁， Sameer Agarwal之前在Apache软件基金会和Meta工作。 Agrawal是Databricks的创始工程师之一。根据消息来源，虽然Deductive的年度经常性收入（ ARR ）达到了大约100万美元，但这家初创公司的增长落后于Resolve AI ，后者是该行业公认的早期赢家之一。成立两年的Resolve由前Splunk高管Spiros Xanthos和Mayank Agarwal共同创立。Greylock和Lightspeed支持的初创公司最近的估值为1美元。 当它在4月份筹集了4000万美元的A系列扩展时，获得了50亿美元的资金。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Marina Temkin是TechCrunch的风险投资和创业记者。在加入TechCrunch之前，她曾为Pi...",
+      "originalSummary": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "为企业提供新的使用情况分析和更新的支出控制",
+      "originalTitle": "New usage analytics and updated spend controls for enterprises",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "date": "2026-06-18T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI为ChatGPT Enterprise引入了新的支出控制和使用分析，帮助组织自信地管理成本和扩展AI。",
+      "originalSummary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "改善ChatGPT中的健康智能",
+      "originalTitle": "Improving health intelligence in ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "date": "2026-06-18T11:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "了解GPT-5。5 Instant如何通过更强的推理、更好的背景、更清晰的沟通和医生知情的评估来改善ChatGPT的健康和健康反应。",
+      "originalSummary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "使用人工智能帮助医生诊断影响儿童的罕见遗传疾病",
+      "originalTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "date": "2026-06-18T08:00:00.000Z",
+      "summary": "这条新闻与公司动态、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、推理相关动态",
+      "fullContent": "研究人员使用OpenAI推理模型来帮助诊断罕见疾病，在以前未解决的病例中确定了18个新的诊断。",
+      "originalSummary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "推理",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "CEO-Bench ：代理商可以玩长线游戏吗？",
+      "originalTitle": "CEO-Bench: Can Agents Play the Long Game?",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.18543",
+      "date": "2026-06-18T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 18543v1公告类型：新摘要：语言模型代理正在成为软件工程和客户服务等孤立、短期任务的熟练执行者。 然而，现实世界的挑战需要复杂的技能组合，而这些技能在智能体中基本上还未经过测试： （ 1 ）在不确定性中长时间地导航； （ 2 ）在嘈杂的环境中获取信息； （ 3 ）适应不断变化的世界； （ 4 ）为实现一致的目标而协调多个活动部分。我们介绍CEO-Bench ，它通过模拟一个具有代表性的现实世界任务来评估这些功能：运营一家初创公司500天。 代理通过可编程的Python界面管理虚构公司的定价、营销、预算和许多其他方面，在与人类首席执行官相同的环境中运营并面临相同的挑战。成功需要分析嘈杂、相互关联的业务数据库，将信号转化为合理的战略，并与编程协调许多决策。 最强大的代理编写复杂的代码，模拟客户群预测未来的现金和矿山谈判历史，以发现隐藏的客户偏好。即便如此，大多数最先进的模型都在这种环境中挣扎。只有Claude Opus 4. 8和GPT-5. 5的期初余额高于$ 100万，而且都没有持续盈利。 首席执行官-Bench迈出了衡量随着时间的推移推动持续、适应性进步所需智力的第一步。",
+      "originalSummary": "arXiv:2606.18543v1 Announce Type: new Abstract: Language model agents are becoming proficient executors at isolated, short-horizon tasks such as software engineering and customer service. Yet real-world challenges require a combination of sophisticated skills that remain largely untested in agents: (1) navigating long horizons amid uncertainty; (2) acquiring information in noisy environments; (3) adapting to a changing world; (4) orchestrating multiple moving parts toward a coherent goal. We introduce CEO-Bench, which evaluates these capabilities together by simulating a representative real-world task: operating a startup for 500 days. An agent manages pricing, marketing, budgeting, and many other aspects of a fictional company through a programmable Python interface, operating in the same environment and facing the same challenges as a human CEO. Success demands analyzing noisy, interconnected business databases, translating signals into sound strategy, and coordinating many decisions with programming. The strongest agents write sophisticated code that simulates customer cohorts to forecast future cash and mines negotiation history to uncover hidden customer preferences. Even so, most state-of-the-art models struggle in this environment. Only Claude Opus 4.8 and GPT-5.5 finish above the $1M starting balance, and neither consistently turns a profit. CEO-Bench takes a first step toward measuring the intelligence required to drive sustained, adaptive progress over time.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI在首次公开募股之前带来了一些大手笔",
+      "originalTitle": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "date": "2026-06-18T19:59:22.000Z",
+      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、研究相关动态",
+      "fullContent": "在公开亮相之前， OpenAI正在为团队带来一些知名人士：谷歌DeepMind人工智能传奇人物诺姆·沙齐尔（ Noam Shazeer ）和前特朗普白宫人工智能政策官员迪恩·鲍尔（ Dean Ball ）。Shazeer是Gemini的联合负责人，也是人工智能角色扮演创业公司Character AI的创始人，他于周三宣布离开谷歌。自2000年以来，他一直在公司工作，只离开了三年，后来他离开了公司，成为了Character AI的联合创始人。 两年前，谷歌以27亿美元的价格重新雇佣了Shazeer ，使这家科技巨头能够获得这家初创公司的技术。此举是包括谷歌、OpenAI、Anthropic和Meta在内的顶级人工智能实验室之间的一系列改组中的最新一次。Shazeer被认为是现代生成式人工智能背后的基础思想之一。他与人合著了2017年开创性的论文“Attention Is All You Need” ，该论文介绍了变压器架构。 据报道，在离开谷歌之前， Shazeer在政治问题上也一直在搅拌。据The Information报道， Shazeer在内部消息板上就跨性别身份和以色列在加沙的战争发表了意见，导致管理层删除了他的帖子。这些争议是否会跟随他的新雇主还有待观察。 与此同时， OpenAI还通过将Ball带入团队来加强其政策凭据。鲍尔去年在白宫短暂任职，在那里他帮助发布了《美国人工智能行动计划》，然后辞职，重新加入了技术自由主义智库美国创新基金会(Foundation for American Innovation)担任高级研究员。 Ball周四在X上写道： “我很高兴和荣幸地宣布，我将于7月6日加入OpenAI ，担任一个名为Strategic Futures的新团队的领导者。” “我们的任务将是帮助公司领导层制定前沿人工智能政策。Ball将直接向首席战略官Jason Kwon汇报。 Ball在一篇博客文章中写道， “小型的高级机构团队”将专注于“与灾难性风险、递归自我改善、劳动力市场影响以及前沿实验室、政府（特别是美国联邦政府）和社会之间的关系有关的事项”。他补充说，战略期货团队将涵盖面向公众的政策和内部治理。 最后一点很重要--Ball指出， “几乎是出于必要” ，人工智能实验室将不得不领导人工智能治理决策。“换句话说，内部治理对人工智能的未来将比大多数人意识到的更重要，”鲍尔写道。鲍尔决定加入OpenAI--可以说是政府人工智能的最爱--正值人类再次与美国政府展开斗争之际。 上周晚些时候，唐纳德·特朗普总统下令对Anthropic的最新车型Fable 5和Mythos 5实施出口管制禁令，导致这家人工智能公司被迫完全取消这些车型，以避免违规行为。对于任何在S-1风险因素宾果卡上有“政府干预”的人来说，当一家公司在竞争对手受到挤压时锁定其内部人员身份...",
+      "originalSummary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "研究"
+      ],
+      "score": 98
+    },
+    {
       "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
       "originalTitle": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
       "source": "OpenAI",
@@ -35,38 +132,6 @@
       "score": 99
     },
     {
-      "title": "现有优势： LLM推荐系统中的品牌偏见和认知操纵动态",
-      "originalTitle": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.17443",
-      "date": "2026-06-17T04:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、模型相关动态",
-      "fullContent": "arXiv: 2606. 17443v1公告类型：新摘要：大型语言模型（ LLM ）正在成为消费者寻找产品的主要方式，但我们尚不清楚品牌如何在这个新渠道中竞争。 我们使用三个商业LLM （ GPT-4o-mini、Claude Sonnet、Gemini 3 Flash ）研究LLM推荐的品牌动态，并对搜索商品进行稳健性检查。在这个类别中，消费者在购买之前无法轻松判断质量，必须依靠品牌声誉。在三个实验中，我们发现： （ 1 ）有条件垄断，其中知名品牌100%得到推荐（ IAI = 10。 0 ）当所有产品具有相同的规格，但这种优势消失时，竞争对手的1星评级优势不到+0 ； （ 2 ）权威式的营销语言，包括捏造的临床证据声明，以等于+0的偏差剩余价值打破了这种垄断。 17个评分点，每个模型的反应都不同；以及（ 3 ）多品牌GEO竞争中的社会困境：当所有品牌都采用相同的优化策略时，我们的回报代理中的个人回报从+0. 802降至+0. 007 ，非参与品牌在我们的测试中获得零推荐。 我们的研究结果表明，生成引擎优化（ GEO ）不仅应该作为一种安全风险来研究，而且还应该作为一种塑造市场竞争的新兴营销实践来研究。",
-      "originalSummary": "arXiv:2606.17443v1 Announce Type: new Abstract: Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM recommendations using skincare products -- a category where consumers cannot easily judge quality before buying and must rely on brand reputation -- across three commercial LLMs (GPT-4o-mini, Claude Sonnet, Gemini 3 Flash), with a robustness check on search goods. In three experiments, we find: (1) a Conditional Monopoly where well-known brands get recommended 100% of the time (IAI = 10.0) when all products have the same specifications, but this dominance disappears with less than a +0.1-star rating advantage for a competitor; (2) authority-style marketing language, including fabricated clinical-evidence claims, breaks this monopoly at a Bias Surplus Value equal to +0.17 rating points, with each model responding differently; and (3) a social dilemma in multi-brand GEO competition: when all brands adopt the same optimization strategy, individual payoff falls from +0.802 to +0.007 in our payoff proxy, and non-participating brands receive zero recommendations in our tests. Our results suggest that generative engine optimization (GEO) should be studied not only as a security risk, but also as an emerging marketing practice that shapes market competition.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "NEA在人工智能IPO、个人代理和投资回报清算方面的Tiffany Luck",
-      "originalTitle": "NEA&#8217;s Tiffany Luck on AI IPOs, personal agents, and the ROI reckoning",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
-      "date": "2026-06-17T18:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "Tokenmaxxing是今年早些时候硅谷最热门的趋势，首席执行官鼓励员工尽可能地推动人工智能的使用。然后账单到期了。据报道，优步在几个月内突破了其年度人工智能预算，一些公司削减了其组织部分的Claude许可证，而Meta则取消了其内部排行榜。[…]之间的紧张关系",
-      "originalSummary": "Tokenmaxxing&#160;was&#160;the hottest trend in Silicon Valley earlier this year, with CEOs encouraging employees to push AI usage as far&#160;as it would go.&#160;Then the bill came due. Uber&#160;reportedly blew&#160;through its annual AI budget in a few months, some companies cut Claude licenses for parts of their org, and Meta killed its internal leaderboard.&#160; This tension between [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 98
-    },
-    {
       "title": "从Hugging Face Hub到Strands Agents和LeRobot的机器人硬件",
       "originalTitle": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "source": "Hugging Face",
@@ -80,7 +145,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Anthropic受到没有人理解的出口规则的打击",
@@ -96,7 +161,37 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
+    },
+    {
+      "title": "三分之二的美国人认为人工智能的发展太快",
+      "originalTitle": "Two-thirds of Americans think AI is advancing too quickly",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+      "date": "2026-06-17T17:20:24.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "根据皮尤研究中心的最新民意调查， 49%的美国人报告说至少偶尔使用聊天机器人，但63%的人认为这项技术的发展太快了。总体而言，自2024年以来，人工智能聊天机器人的使用量急剧增加，当时只有33%的人报告使用它们。具体来说，自2023年以来， ChatGPT的使用量翻了一番， 44%的受访者表示他们使用过它。 但人们的观点仍然是负面的，只有16%的人认为人工智能将对社会产生积极影响。有趣的是，年轻一代都报告更多地使用人工智能，并且倾向于持有更悲观的看法。66%的美国人表示……阅读The Verge的完整故事。",
+      "originalSummary": "According to the latest Pew Research poll, 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's usage has doubled since 2023, with 44 percent of [&#8230;]",
+      "rawFullText": "According to the latest Pew Research poll , 49 percent of Americans report using chatbots at least occasionally, but 63 percent think the tech is advancing too quickly. Overall, use of AI chatbots has increased dramatically since 2024, when only 33 percent reported using them. Specifically, ChatGPT's usage has doubled since 2023, with 44 percent of respondents saying they've used it. But opinions remain negative , with only 16 percent saying that AI will have a positive impact on society. Interestingly, it's the younger generations who both report using AI more and who are inclined to have a more pessimistic view . 66 percent of Americans betw … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 87
+    },
+    {
+      "title": "LifeSciBench简介",
+      "originalTitle": "Introducing LifeSciBench",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-life-sci-bench",
+      "date": "2026-06-17T00:00:00.000Z",
+      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：评测相关动态",
+      "fullContent": "LifeSciBench是一个由专家撰写、经过专家评审的基准，用于评估人工智能系统如何处理现实世界的生命科学研究任务和决策。",
+      "originalSummary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "rawFullText": "",
+      "tags": [
+        "评测"
+      ],
+      "score": 87
     },
     {
       "title": "通过模拟部署预测发布前的模型行为",
@@ -116,51 +211,6 @@
       "score": 99
     },
     {
-      "title": "SpaceX正式以600亿美元收购Cursor $",
-      "originalTitle": "SpaceX is officially buying Cursor for $60 billion",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion",
-      "date": "2026-06-16T11:41:31.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "SpaceX表示，在大规模IPO几天后，它将斥资600亿美元收购Cursor--这一押注旨在帮助埃隆·马斯克(Elon Musk)庞大的火箭/人工智能/社交媒体巨头赢得利润丰厚的企业客户，并缩小与Anthropic和OpenAI等人工智能竞争对手的差距。收购并非完全出乎意料： SpaceX在4月份宣布了一项特殊的安排，同意以600亿美元收购该编程平台，或支付100亿美元的分手费。 该公司在上市时一直推迟完成交易。SpaceX在向美国证券交易委员会提交的文件中表示，预计该交易将在2026年第三季度完成。马斯克已经……阅读The Verge的完整故事。",
-      "originalSummary": "Days after its massive IPO, SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI. The takeover was not entirely unexpected: SpaceX announced [&#8230;]",
-      "rawFullText": "Days after its massive IPO , SpaceX says it is spending $60 billion to buy Cursor - a bet designed to help Elon Musk's sprawling rocket / AI / social media behemoth win over lucrative enterprise customers and close the gap with AI rivals like Anthropic and OpenAI. The takeover was not entirely unexpected: SpaceX announced a peculiar arrangement in April in which it agreed to either acquire the programming platform for $60 billion or pay a $10 billion breakup fee. The company had been holding off completing the deal while going public. In an SEC filing , SpaceX said it expects the deal to close during the third quarter of 2026. Musk has pr … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 97
-    },
-    {
-      "title": "高通公司的最新芯片暗示，更强大的智能眼镜可能即将推出",
-      "originalTitle": "Qualcomm’s latest chip hints that more powerful smart glasses could be on the way",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables",
-      "date": "2026-06-16T17:00:00.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "智能眼镜仍然是一个新兴的类别，但芯片制造商高通正在努力升级芯片，为下一波XR设备提供动力： Snapdragon Reality Elite。尽管高通公司今天在增强世界博览会上宣布了这款芯片，但从技术上讲，我们已经在上个月的Google I/O大会上亲自体验了一款由新芯片驱动的设备：即将推出的Android XR Aura眼镜。 当时， Xreal和谷歌对处理器升级到期待已久的眼镜感到羞怯。原来是现实精英。从规格上讲，新芯片专注于全面的性能升级。GPU获得60 ％的颠簸， ……阅读The Verge的完整故事。",
-      "originalSummary": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a device powered by the new chip at [&#8230;]",
-      "rawFullText": "Smart glasses are still a nascent category, but chipmaker Qualcomm is hard at work upgrading the silicon to power the next wave of XR devices: the Snapdragon Reality Elite. Although Qualcomm is announcing the chip today at Augmented World Expo, we've technically already gotten a hands-on with a device powered by the new chip at last month's Google I/O: the forthcoming Aura glasses for Android XR. At the time, Xreal and Google were coy about the processor upgrades to the long-awaited spectacles. Turns out, it was the Reality Elite. Spec-wise, the new chip focuses on across-the-board performance upgrades. The GPU gets a 60 percent bump, the … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 81
-    },
-    {
-      "title": "苹果2027传闻：配备人工智能摄像头的AirPods和第二款折叠iPhone",
-      "originalTitle": "Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor",
-      "date": "2026-06-16T17:04:05.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "带有iPhone和实时翻译功能的AirPods Pro 3。|照片由Amelia Holowaty Krales/The Verge提供现在我们已经清除了WWDC和苹果平台上即将推出的所有新的人工智能功能，彭博社记者Mark Gurman有更多关于传闻中的新硬件的细节，比如他之前写过的配备摄像头的AirPods。 他说，他们目前正按计划在2027年底推出，虽然我们正在查看今年秋季iOS 27更新的测试版，但新耳机正在明年的iOS 28更新中进行内部测试。摄像头安装在树干和灯光中，以指示数据何时上传到云端，它们可以提供有关周围环境的升级版Siri “视觉背景” ，是......在The Verge阅读完整故事。",
-      "originalSummary": "Now that we're clear of WWDC and all of the new AI-powered features coming to Apple's platforms, Bloomberg reporter Mark Gurman has more details about rumored new hardware, like the camera-equipped AirPods he'd previously written about. He says they are currently on schedule for a late 2027 launch, and that while we're checking out beta [&#8230;]",
-      "rawFullText": "AirPods Pro 3 shown with an iPhone and live translation features. | Photo by Amelia Holowaty Krales / The Verge Now that we're clear of WWDC and all of the new AI-powered features coming to Apple's platforms, Bloomberg reporter Mark Gurman has more details about rumored new hardware, like the camera-equipped AirPods he'd previously written about . He says they are currently on schedule for a late 2027 launch, and that while we're checking out beta releases for this fall's iOS 27 update, the new earbuds are internally being tested with next year's update, iOS 28. With cameras mounted in their stems and lights to indicate when data is being uploaded to the cloud, they could give the upgraded version of Siri \"visual context\" about your surroundings, be … Read the full story at The Verge.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 80
-    },
-    {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
       "originalTitle": "Want to get a data center online quickly? Give it some flex.",
       "source": "MIT Technology Review",
@@ -173,7 +223,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -188,7 +238,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "OpenAI合作伙伴网络简介",
@@ -204,7 +254,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -220,7 +270,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Preply如何结合人工智能和人类导师来个性化学习",
@@ -236,7 +286,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -252,22 +302,6 @@
         "研究",
         "智能体",
         "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI收购ONA",
-      "originalTitle": "OpenAI to acquire Ona",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI计划收购ONA ，以通过安全、持久的云环境扩展Codex ，从而在企业工作流程中实现长期运行的AI代理。",
-      "originalSummary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
       ],
       "score": 99
     },
@@ -300,7 +334,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -315,39 +349,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
-      "title": "与中国相关的影响力行动正在瞄准美国的人工智能辩论",
-      "originalTitle": "PRC-linked influence operations are targeting AI debates in the US",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "date": "2026-06-10T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI的一份新报告详细介绍了使用人工智能瞄准美国科技辩论、数据中心叙述、关税和关于ChatGPT的虚假声明的中国相关影响力操作。",
-      "originalSummary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "title": "PyTorch中的分析（第2部分） ：从nn.Linear到Fused MLP",
+      "originalTitle": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "date": "2026-06-11T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "从matmul-add到Linear转置做什么？ mul和add kernels ？ \">为什么没有单独的mul和添加内核？ --compile可以帮助单个线性吗？转置去了哪里？内核布局和操作前堆叠三种线性： MLP为什么有两种类型的GEMM内核？火炬。编译做？\" > torch. compile的作用是什么？ 融合的Triton内核让我们使用手动调优的内核为什么使用内核库为什么调优的内核更好结论在本系列“PyTorch中的分析”的第一部分中，我们使用torch. add (torch. matmul (x, w), b)来学习如何读取PyTorch分析器跟踪。我们还讨论了其他几个主题- CPU调度链、启动开销、开销绑定和计算绑定制度之间的区别，以及火炬的一些内部元素。 编译。在第二次迭代（这篇博客文章）中，我们向上爬了一个梯级。我们将手写的matmul-add对替换为nn。线性（带偏置=真）。这是每个深度学习模型使用的构建块。然后，我们堆叠其中三个（特定于我们的示例） ，并在其间激活，以形成多层感知器（ MLP ）块。此博客文章的脚本位于此处： 02_linear. py、03_simple_mlp. py和03_kernels_mlp. py。 和以前一样，在单独的选项卡中打开它们，并在阅读时浏览代码会有所帮助。我们使用NVIDIA A100-SXM4-80GB显卡运行脚本。在Hugging Face基础架构上设置GPU并使用带空间的开发模式对脚本进行实验真的很简单。也可以使用Hugging Face Jobs管道运行脚本。在我们开始之前，简要回顾一下我们将反复依靠的两个想法： nn。 Linear是一个围绕相同矩阵乘法和加法的模块包装器，我们已经在第1部分中进行了分析。唯一的区别是，它拥有自己的权重和偏差作为参数，并公开了PyTorch用户已经熟悉的正向方法。其中x是输入， w是权重， b是偏差。让我们运行02_linear. py并检查配置文件。 trace-util是一个实用程序，它会将您的跟踪同步到Hugging Face存储桶，然后在您的终端上提供Preffeto URL。图1显示了线性层前向调用的轮廓器跟踪。我们跟踪线性层的前向调用，其计划设置与前面的跟踪类似， wait = 1 ， warmup = 1和active = 3。这就是为什么我们在CPU和GPU通道中看到三个配置文件步骤。 如果我们放大分析器跟踪，就像我们在图2中所做的那样，我们注意到在aten:: addmm （乘法和加法）操作之前有一个aten:: t （转置）操作。我们已经可以计算出这个nn。线性转置权重参数，然后将其与输入相乘。这就是我们看到aten:: t op的原因。 值得注意的是， aten:: t并没有真正复制或重组数据：它只重写CPU上的张量元数据（形状和步...",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 99
-    },
-    {
-      "title": "通过您的Oracle云承诺访问OpenAI模型和Codex",
-      "originalTitle": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "date": "2026-06-10T20:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "通过Oracle Cloud访问OpenAI模型和Codex ，利用现有承诺构建和部署具有企业安全和治理的AI。",
-      "originalSummary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 93
+      "score": 69
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -362,7 +379,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -377,7 +394,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "将GitHub CI迁移到Hugging Face Jobs",
@@ -392,7 +409,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "关于人工智能，您需要了解的五件事",
@@ -407,7 +424,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -423,7 +440,7 @@
         "智能体",
         "开源"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -438,7 +455,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -454,22 +471,7 @@
         "多模态",
         "安全"
       ],
-      "score": 80
-    },
-    {
-      "title": "将hf CLI设计为使用Hub的代理优化方式",
-      "originalTitle": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/hf-cli-for-agents",
-      "date": "2026-06-04T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“将hf CLI设计为使用Hub的代理优化方式”。它主要涉及智能体方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
+      "score": 79
     },
     {
       "title": "法院如何应对大量由人工智能引发的诉讼",
@@ -484,37 +486,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
-    },
-    {
-      "title": "超越聊天机器人的直接偏好优化",
-      "originalTitle": "Direct Preference Optimization Beyond Chatbots",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "date": "2026-06-03T12:55:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "将MCP工具添加到Reachy Mini",
-      "originalTitle": "Adding MCP Tools to Reachy Mini",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
-      "date": "2026-06-03T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“将MCP工具添加到Reachy Mini”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
+      "score": 61
     },
     {
       "title": "用代理人工智能重新人性化全球医疗保健",
