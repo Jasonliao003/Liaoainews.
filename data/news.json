@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T01:46:33.054Z",
+  "updatedAt": "2026-06-20T00:15:10.396Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,88 @@
   ],
   "articles": [
     {
-      "title": "资料来源： Elastic同意以高达8500万美元的价格收购CRV支持的DeductiveAI",
-      "originalTitle": "Source: Elastic agrees to buy CRV-backed DeductiveAI for up to $85M",
+      "title": "美国禁止发行《人类寓言5》，但数字似乎并不重要",
+      "originalTitle": "The US banned Anthropic&#8217;s Fable 5 release, but the numbers don&#8217;t seem to care",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
-      "date": "2026-06-19T00:51:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "据知情人士透露， DeductiveAI是一家使用人工智能来捕捉和解决软件漏洞的初创公司，已同意以高达8500万美元的价格出售给企业软件公司Elastic。Deductive成立于2023年，去年11月宣布了由CRV牵头的750万美元种子轮融资， Databricks Ventures、Thomvest Ventures和PrimeSet参与其中。 根据PitchBook的数据，这笔投资对这家初创公司的估值为3300万美元($)。Elastic和Deductive没有回复多次置评请求。如果任何一家公司回复， TechCrunch将更新本文。此次出售标志着Deductive的快速退出，该公司正在一个名为AI站点可靠性工程（ AI SRE ）的快速增长行业运营。在人工智能编写的代码大量涌入的推动下，构建人工智能驱动的SRE工具已成为一个重要领域。 用人工智能取代手动调试，使人类SRE能够将注意力从不断修复中断和其他问题转向花更多时间帮助产品开发。消息人士告诉TechCrunch ，此次收购反映了一个更广泛的趋势，即成熟的技术现有企业正在寻求收购AI原生创业公司，以将代理技术集成到其现有的产品套件中。 Elastic于2018年上市，以Elasticsearch而闻名， Elasticsearch是一个搜索和分析引擎，可帮助组织近乎实时地存储、搜索、分析和监控大量数据。该公司的可观测性软件--本质上是让工程师监控软件系统和检测安全威胁的工具--可以从Deductive的技术中受益。 消息人士称，将Deductive的AI技术集成到Elastic中，将为客户提供自动监控性能和实时解决系统故障的工具，从而增强其可观测性平台。Deductive由Rakesh Kothari和Sameer Agarwal共同创立， Rakesh Kothari之前是Lightspeed支持的商业分析初创公司ThoughtSpot的工程副总裁， Sameer Agarwal之前在Apache软件基金会和Meta工作。 Agrawal是Databricks的创始工程师之一。根据消息来源，虽然Deductive的年度经常性收入（ ARR ）达到了大约100万美元，但这家初创公司的增长落后于Resolve AI ，后者是该行业公认的早期赢家之一。成立两年的Resolve由前Splunk高管Spiros Xanthos和Mayank Agarwal共同创立。Greylock和Lightspeed支持的初创公司最近的估值为1美元。 当它在4月份筹集了4000万美元的A系列扩展时，获得了50亿美元的资金。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Marina Temkin是TechCrunch的风险投资和创业记者。在加入TechCrunch之前，她曾为Pi...",
-      "originalSummary": "DeductiveAI, a startup that uses AI to catch and resolve bugs in software, was founded just three years ago.",
+      "link": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+      "date": "2026-06-19T16:01:03.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "就在上周即将结束之际，美国政府迫使Anthropic推出了两款最新机型， Fable 5和Mythos 5 ，理由是亚马逊研究人员据称找到了一种方法来绕过Fable 5的护栏，从而引发了国家安全担忧。此后，网络安全研究人员签署了一封公开信，称此举是危险的，而Anthropic本身也指出，其他模型中也存在同样的越狱事件。[…]也是如此",
+      "originalSummary": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态",
+        "产品发布",
+        "模型"
       ],
-      "score": 76
+      "score": 99
+    },
+    {
+      "title": "LLM代理商寻求澄清的不确定性分解",
+      "originalTitle": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.19559",
+      "date": "2026-06-19T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 19559v1 Announce Type: new Abstract:最近的立场文件认为，对于交互式大型语言模型（ LLM ）代理，经典的aleatoric/epistemic不确定性框架是不够的，并且需要低规格感知、分解和可传递的不确定性表示，这些不确定性表示可以解锁新的代理功能，例如主动澄清寻求和共享心理模型构建。 实际的部署约束--黑盒API、交互式延迟预算和缺乏标记轨迹--排除了基于logprob、多采样和基于训练的方法，使基于提示的估计成为在部署时呈现此类信号的最可行的系列。 我们通过一个简单的基于提示的分解来回答这个调用，该分解将动作置信度与请求不确定性（ u ）分开，使代理能够在任务规范不明确时要求澄清。 为了评估它，我们引入了两个澄清增强基准（ WebShop-Clarification和ALFWorld-Clarification ） ，其中50 ％的任务被故意未指定，并系统地比较了五个LLM骨干（ GPT-5. 1 ， DeepSeek-v3. 2-exp ， GLM-4. 7 ， Qwen3 ）的ReAct + UE和不确定性感知内存（ UAM ）的拟议分解。 5-35B ， GPT-OSS-120B ） ，以及用于故障检测的标准WebShop、ALFWorld和REAL基准。对五个骨干进行平均，建议的分解使ALFWorld-Clarification的澄清F1比ReAct + UE提高了73% ，比UAM提高了36% ，并在WebShop-Clarification的每个骨干和ALFWorld-Clarification的五个骨干中的四个上引导澄清F1 ，这表明收益超出了单个LLM。",
+      "originalSummary": "arXiv:2606.19559v1 Announce Type: new Abstract: Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Agentic AI系统运行时治理的Deontic策略",
+      "originalTitle": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.19464",
+      "date": "2026-06-19T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 19464v1公告类型：新摘要：由大型语言模型（ LLM ）驱动的自主代理AI系统引入了一类新的安全、隐私和合规性挑战：可以跨组织边界调用工具、操纵数据、安装软件并与对等代理协调的代理不仅必须受到身份验证和访问控制的约束，还必须受到企业治理的完整结构的约束。 这包括具体说明代理被允许和禁止做什么，他们在某些行动后有义务做什么（例如，通知首席信息安全官） ，在什么条件下可以免除长期义务，以及当政策发生冲突时哪些规则优先。这个治理问题超出了当前策略引擎提供的范围。XACML、Rego和Cedar等系统仅处理此治理结构的许可/禁止子集。 它们不提供义务生命周期管理、元策略冲突解决、在特定情况下免除义务的豁免，以及在医疗保健、网络安全或数据隐私等应用中常见的领域类层次结构的本体论推理。 我们提出AgenticRei ，它实现了关键的治理要求，如义务、分配、政策冲突解决和政策推理，以及基本的许可/禁止限制。我们使用基于REI框架的语义策略语言，以OWL （ Web本体语言）表示，并在运行时由完全在LLM之外的高性能逻辑引擎进行评估。 代理和代理到代理消息调用工具的管道相同。我们通过示例表明，道义策略捕获了围绕安全和隐私的治理约束，而这些约束在当前的生产引擎中通常无法表达。我们的方法与A2AS等行业标准框架自然结合。",
+      "originalSummary": "arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Multi-Agent LLM评议中的隐藏锚点",
+      "originalTitle": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.19494",
+      "date": "2026-06-19T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 19494v1公告类型：新摘要：多代理LLM评议，代理商在几轮中交换和修改答案，越来越多地用于提高推理和准确性，但很少对其工作方式和原因进行建模。这种深思熟虑反映了人类如何做出决定。 作为社会动物，我们既被DeGroot和Friedkin--Johnsen等经典意见动力学模型所捕捉的群体效应所吸引，也被我们自己的内在信念所吸引，但事实并非如此。我们将多智能体评议建模为一个闭环动态系统，其中每个智能体都携带一个隐藏的内部信念，即其锚点，无论其邻居如何，它都会不断地提出自己的意见。 我们展示了这个锚点可以仅从审议中恢复，并且它解释了一种经典的共识规则禁止的行为：客服代表对正确答案的信心可以爬过任何客服代表开始的地方，逃离最初信念形成的空间（凸壳）。检查恢复的锚点是否也预测了延迟运行（概括） ，为模型何时真正由锚驱动提供了一个简单的测试。 在三个开放重量模型系列中，这是一个频谱，而不是全有或全无。所有锚的影响力大致相同，但它们在锚所处的位置上有所不同，只有当锚远离最初的意见时，考虑才会脱离船体，需要完整的闭环模型。",
+      "originalSummary": "arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "加密、间谍软件和现在的神话：历史说明了为什么网络出口管制不起作用",
+      "originalTitle": "Encryption, spyware, and now Mythos: History shows why cyber export control doesn&#8217;t work",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "date": "2026-06-19T22:40:14.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
+      "fullContent": "在过去的30年里，阻止网络安全相关软件的流动已被证明是无效的。目前尚不清楚为什么它现在可以与Anthropic的网络安全模型Mythos一起使用。",
+      "originalSummary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 93
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -83,23 +152,6 @@
       "score": 99
     },
     {
-      "title": "CEO-Bench ：代理商可以玩长线游戏吗？",
-      "originalTitle": "CEO-Bench: Can Agents Play the Long Game?",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.18543",
-      "date": "2026-06-18T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 18543v1公告类型：新摘要：语言模型代理正在成为软件工程和客户服务等孤立、短期任务的熟练执行者。 然而，现实世界的挑战需要复杂的技能组合，而这些技能在智能体中基本上还未经过测试： （ 1 ）在不确定性中长时间地导航； （ 2 ）在嘈杂的环境中获取信息； （ 3 ）适应不断变化的世界； （ 4 ）为实现一致的目标而协调多个活动部分。我们介绍CEO-Bench ，它通过模拟一个具有代表性的现实世界任务来评估这些功能：运营一家初创公司500天。 代理通过可编程的Python界面管理虚构公司的定价、营销、预算和许多其他方面，在与人类首席执行官相同的环境中运营并面临相同的挑战。成功需要分析嘈杂、相互关联的业务数据库，将信号转化为合理的战略，并与编程协调许多决策。 最强大的代理编写复杂的代码，模拟客户群预测未来的现金和矿山谈判历史，以发现隐藏的客户偏好。即便如此，大多数最先进的模型都在这种环境中挣扎。只有Claude Opus 4. 8和GPT-5. 5的期初余额高于$ 100万，而且都没有持续盈利。 首席执行官-Bench迈出了衡量随着时间的推移推动持续、适应性进步所需智力的第一步。",
-      "originalSummary": "arXiv:2606.18543v1 Announce Type: new Abstract: Language model agents are becoming proficient executors at isolated, short-horizon tasks such as software engineering and customer service. Yet real-world challenges require a combination of sophisticated skills that remain largely untested in agents: (1) navigating long horizons amid uncertainty; (2) acquiring information in noisy environments; (3) adapting to a changing world; (4) orchestrating multiple moving parts toward a coherent goal. We introduce CEO-Bench, which evaluates these capabilities together by simulating a representative real-world task: operating a startup for 500 days. An agent manages pricing, marketing, budgeting, and many other aspects of a fictional company through a programmable Python interface, operating in the same environment and facing the same challenges as a human CEO. Success demands analyzing noisy, interconnected business databases, translating signals into sound strategy, and coordinating many decisions with programming. The strongest agents write sophisticated code that simulates customer cohorts to forecast future cash and mines negotiation history to uncover hidden customer preferences. Even so, most state-of-the-art models struggle in this environment. Only Claude Opus 4.8 and GPT-5.5 finish above the $1M starting balance, and neither consistently turns a profit. CEO-Bench takes a first step toward measuring the intelligence required to drive sustained, adaptive progress over time.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "OpenAI在首次公开募股之前带来了一些大手笔",
       "originalTitle": "OpenAI is bringing on some big guns in the lead-up to its IPO",
       "source": "TechCrunch AI",
@@ -113,7 +165,24 @@
         "公司动态",
         "研究"
       ],
-      "score": 98
+      "score": 97
+    },
+    {
+      "title": "是否足够有特工效力？在您自己的工具上对开放模型进行基准测试",
+      "originalTitle": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "date": "2026-06-18T00:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "fullContent": "代理使用的测试软件并非所有的成功都是相同的我们如何进行评估？要对哪些模型进行基准测试？大型打开模型：按住模型，更改修订版小型模型：按住修订版，更改模型调整工具：标记和结果什么是标记？ CLI +技能承诺是否有帮助？ 自己尝试关闭确认编码代理越来越多地使用我们的软件而不是我们：描述任务，代理选择库，编写调用，运行它们并调试自己的错误。当库遇到障碍时，它会很乐意绕过它并从头开始重写逻辑。 这在库开发中引入了一个新概念：代码不仅应该是正确和快速的，而且应该被设计成代理能够有效地驱动它。笨重的API或陈旧的文档惹恼了我们的开发人员，但现在它也让代理走上了一条更长、更昂贵的道路。大多数基准只看最终的答案。 相反，我们希望整个过程：不仅仅是代理是否做对了，而是到达那里需要多少工作，以及如何在模型、库修订和任务之间转移。我们使用变压器作为我们的案例研究，准确地测量了这一点。 在这里，我们将介绍一个工具特定的基准，重点是如何找到答案的，并提供了一个这样的线束的简单实现，完全在由pi编码代理驱动的开放模型上运行，模型×修订×任务的全面扫描遍布Hugging Face Jobs ，因此每次运行都会看到相同的硬件。 我们坚信以下两个软件原则：这在代理优化工具领域内保持不变，并且两者有一次直接相关。您希望您的工具存在于客服代表中：它需要是可发现的。API需要清晰，文档需要广泛。它们的结构需要使代理能够快速访问有用的文件和示例。 如果您希望自己的工具适用于客服代表，则应测试其是否适用于客服代表。我们将在整个博客文章中使用变换器作为示例：代理使用它来解决ML任务（分类文本、字幕图像、转录音频） ，而不是向其贡献代码；尽管线束的设计旨在与可以从命令行操作的任何工具配合使用。 我们对变压器的直觉是，只需进行一些更改即可大大简化使用： CLI、技能和自包含的特定任务示例。这是最近应用于hf CLI的相同配方，经过重新设计以进行代理优化，其中代理使用的代币减少了1. 3–1. 8倍（最多6倍）。我们想知道这种胜利是否可以推广，以及它是否对变压器也有用。",
+      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 96
     },
     {
       "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
@@ -145,7 +214,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Anthropic受到没有人理解的出口规则的打击",
@@ -161,7 +230,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "三分之二的美国人认为人工智能的发展太快",
@@ -176,7 +245,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "LifeSciBench简介",
@@ -191,7 +260,7 @@
       "tags": [
         "评测"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "通过模拟部署预测发布前的模型行为",
@@ -223,7 +292,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -238,7 +307,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "OpenAI合作伙伴网络简介",
@@ -254,7 +323,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -270,7 +339,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Preply如何结合人工智能和人类导师来个性化学习",
@@ -286,7 +355,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -319,7 +388,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "支持欧洲确保可信赖的人工智能生态系统的工作",
@@ -334,7 +403,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "天体物理学家如何使用法典来帮助模拟黑洞",
@@ -349,7 +418,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "PyTorch中的分析（第2部分） ：从nn.Linear到Fused MLP",
@@ -364,7 +433,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -379,7 +448,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -394,7 +463,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "将GitHub CI迁移到Hugging Face Jobs",
@@ -409,7 +478,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "关于人工智能，您需要了解的五件事",
@@ -424,7 +493,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -440,7 +509,7 @@
         "智能体",
         "开源"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -455,7 +524,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "Nemotron 3.5内容安全：面向全球企业AI的可定制多式联运安全",
@@ -513,21 +582,6 @@
       "fullContent": "这条消息来自 MIT Technology Review，主题是“小型企业如何利用人工智能”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,sign up here. From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large company can hire experts to&#8230;",
       "rawFullText": "This article is from Making AI Work , MIT Technology Review ’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . From accounting to design to market research and product development, there’s a staggering breadth of skills needed to run a business. A large company can hire experts to handle these tasks, but small businesses don’t always have this luxury. That’s where AI comes in. Today’s AI models do a decent job at these tasks. The trick for small businesses is to understand where AI is good enough and where it’s not. One place where a “good enough” AI can already be quite valuable to small business owners is in providing secretarial skills and handling basic administrative matters. Let’s take a look at how one private tutor is using it to improve his recordkeeping and free up his time. Case study Sam Finnegan-Dehn works in fundraising for a charity, but he moonlights as a math and philosophy tutor for university students from his home in London. Through this part-time business, he can leverage his degrees in philosophy and share his love of the subject with clients. But meeting with students is only a fraction of the work it takes to be a good tutor. He also plans lessons and finds fresh reading materials, creates assignments, sends invoices, and keeps up with new research—all on top of his regular job. Given these demands, Finnegan-Dehn doesn’t have as much time as he’d like to grow his tutoring roster. So he’s turned to AI for some help in managing the day-to-day aspects of his business. He says AI has taken on a secretarial role across all of his digital notebooks, where he jots down reminders about his clients’ progress and new readings to keep himself up-to-date. He describes using AI as kind of like having a second memory that helps him connect ideas he’s written down in various places. While he has experimented with different tools like Claude and ChatGPT, he’s now landed on Notion AI because it integrates better with his tutoring notes, which live across his notebook tabs in the Notion app. Finnegan-Dehn doesn’t use AI to create teaching materials, but he does let Notion AI record meetings with his clients (after getting their consent), and then uses its automated summaries to refine his teaching strategy. For example, if he notices from the AI’s summary that it seems like a certain technique was not helping a student, he may change how he approaches the subject next time. Beyond this, Notion AI also helps him with goal-setting, drafting lesson notes, invoicing, and generating and syncing social media posts. For goal-setting, for example, Finnegan-Dehn says he understands his long-term goals for his business but not always the concrete steps to build to them. He uses AI to help fill in these gaps. He starts by writing down a “North Star” goal—say, to have a certain number of clients by the end of the year. Next, he asks his AI to generate the steps that he needs to take to get there, given the profile he has built up in the app. Then, he can reflect on the results and choose which tasks to tackle first. The tool Notion has been a big player in note-taking software for many years. Its AI add-on, released in late 2023, now has tools that enable it to interact with many other online productivity platforms. There’s an email client , calendar integrations , and a newly released agent . And while this level of access has raised privacy concerns , it can also make for a pretty powerful virtual assistant. Many of the tasks targeted by Notion AI are less creative and more rote: syncing information across documents or searching through old scribbles, for example. This makes the tool especially appealing to small business owners, who have limited bandwidth, particularly for menial work. Other companies are developing tools targeted at specific industries. For example, Grandma’s Quilt Shop in Yuma, Arizona, uses Rain , which has a software suite tailored to craft companies, to generate inventory descriptions and pricing for its stock of fabric designs. The owners claim this AI tool cuts the time it takes to list items by 60 to 80%. There are drawbacks , though, as Finnegan-Dehn described some of Notion AI’s idiosyncrasies as “clunky” at times. And the AI add-on for Notion costs $20 per month. As with all new tools, small business owners should carefully assess how the potential gains and headaches measure up against the cost of just doing the job themselves. User tips Consider these points when thinking about whether AI might be able to help you run a business, or make any part of your work life just a little bit easier.&nbsp; Look before you leap. Since LLMs feed on the data you input to answer your queries or complete tasks, you want to give them information in a way that’s convenient for you and for the model. For many of these notebook AI services, this means, for example, using their platform for notetaking so you don’t have to input or upload notes later. Because of this, it’s a good idea to weigh your options carefully before committing to an AI-powered ecosystem. Work to your strengths. Think about what skills you lack in-house, and see if AI can either help with training or take these tasks on for you. Just be aware: AI hallucinates and makes mistakes, so think about where accuracy is needed and keep humans in charge there. AI isn’t always the best tool. It’s okay to use something off the shelf when that’s the better choice. It’s going to be safer, for example, to use existing payment processing platforms like Shopify or Square than to vibe-code one using AI. Consider using local models for any sensitive information. Our reporting has covered the risks that online AI models have in leaking sensitive data , and there have been many reports about how AI companies collect your data when you ask their chatbots questions. Even if your business doesn’t handle personal information, there can still be some things you’d prefer not to share publicly. In these cases, using an open-source model that makes inferences on your prompts locally can be a great option, instead of ChatGPT or Claude or other proprietary models. Thankfully, some LLMs can now be run off of laptops and small desktops. Here’s how to set one up and start using it. Sign up for Making AI Work, MIT Technology Review ’s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
-    },
-    {
-      "title": "教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板",
-      "originalTitle": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
-      "date": "2026-05-29T10:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“教皇的Magnifica Humanitas如何为个人提供迎接人工智能时刻的模板”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
-      "rawFullText": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in human life since the Industrial Revolution. As the pope says, the choice before us—the choice AI presents—is one between the Tower of Babel and the rebuilding of our common humanity.&nbsp; In the biblical story of the Tower of Babel, humans sought to build a massive structure that reached all the way to Heaven, only to have their project thwarted when God made those involved unable to understand one another. It was a pursuit fixated on relentless growth, divorced from any concern about God’s commandments or the human cost. It resulted in failure and atomization. The Book of Nehemiah, however, offers a contrasting narrative, in which the rebuilding of Jerusalem after a period of violence and displacement becomes an opportunity for humanity to show its collaborative resilience. As the encyclical puts it, “The city is reborn, not through the initiative of one man, but through the shared responsibility of all: men, women, priests, artisans, heads of households and young people all play a part. It is an undertaking with God at the center, which rebuilds relationships before rebuilding with stones.”&nbsp; Is there any question which road we are currently barreling down? And can there be any doubt which we would do well to walk together?&nbsp; We are both Catholics, members of religious communities and longtime advocates within the movement for socially responsible investment. Of particular interest to us and that movement is Pope Leo’s point that AI is not some force of nature or hyperrational, ineffable entity. Instead, he reminds us, AI is ultimately another commercial product, one emerging at a point in history when excessive power over commerce and the wider society has amassed in a vanishingly small number of hands.&nbsp; It’s a powerful message. It’s also one that institutional investors have been acting on for years. This encyclical doesn’t break new ground so much as ratify a governance effort that’s already underway, led not by states or international bodies but by shareholders. When governments fail to meaningfully regulate, and corporations cannot be trusted to do what is beneficial beyond their own bottom line, people in society still have the power to set us on the right path, and indeed have the duty to do so.&nbsp; Around the world, AI systems are being deployed at scale with remarkably little institutional oversight. There is no AI safety board. The US Federal Trade Commission has jurisdiction over unfair practices but limited authority over algorithmic design. The National Institute of Standards and Technology publishes guidance that most companies ignore. The EU AI Act is partially in force but addresses only a sliver of the deployment surface. Institutional investors have stepped into this vacuum. Coalitions including the membership of the Interfaith Center on Corporate Responsibility, representing investors managing over $4 trillion in assets, have spent the past several proxy seasons filing resolutions demanding transparency, risk assessment, and accountability around AI deployment. Secular institutional investors have joined them, treating AI governance failures as material business risks. Shareholders have called tech giants including Alphabet, Amazon, Nvidia, Palantir, and Uber to account and demanded that AI not be used for acts of violence or other violations of human rights. The importance of this aspect of corporate governance was highlighted tragically in the opening hours of the war against Iran, when AI was used to help identify targets for thousands of missile strikes that killed hundreds of people.&nbsp;&nbsp; Investors have also challenged executives at CVS and UnitedHealth Group to ensure that AI not be used to undermine the well-being of patients and quality of health care across the United States.&nbsp; At companies including Meta and Microsoft, shareholders have decried the environmental impact of AI data centers, which consume vast amounts of energy and precious water resources , and in turn can emit large amounts of greenhouse gases.&nbsp; Within creative industries, investors have challenged the leadership at companies like Disney, Netflix, and Warner Bros. to demand transparency about the ways they are using AI and to defend the inimitable human element in storytelling.&nbsp; Soon, with OpenAI, Anthropic, and Grok all set to enter the public markets, we will be able to exert similar influence over what are now all privately held entities. These actions by concerned investors not only call out misdeeds but hold fast to an immutable truth: that it is wrong to use technology to kill, harm, or oppress people. Every human being has a right to safe and effective health care and the opportunity to earn a dignified living. The stories we tell each other matter and require the human creative spark.&nbsp; Investor advocates hail from a range of faith traditions. Some have no formal religious faith. Yet in their informed and tenacious advocacy, all these people echo the calls embedded within Pope Leo’s encyclical and act on its declaration that “it is essential that the use of AI, especially when it touches on public goods and fundamental rights, be guided by clear criteria and effective oversight.”&nbsp; Encyclicals mark time. A century from now, how will we be remembered for how we met this moment? Will we be seen as having been too timid or shortsighted to prevent a small group of unfathomably wealthy and self-interested people from seizing ever greater control over the human family’s shared destiny?&nbsp; Or will the years ahead be remembered as a turning point that helped us rebuild our common humanity? Let this be a time when people of good will and diverse talents come together through their own magnificent humanity to build a future that honors our Creator. Father Séamus Finn, OMI , is a global leader in faith-based and socially responsible investing and a priest of the Oblates of Mary Immaculate, a missionary religious congregation. Sister Susan Francois is the assistant congregation leader and congregation treasurer for the Sisters of St. Joseph of Peace. Correction: An earlier version of this story misstated the amount under management by the membership of the Interfaith Center on Corporate Responsibility.",
       "tags": [
         "AI 热点"
       ],
