@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T00:14:36.479Z",
+  "updatedAt": "2026-06-22T00:17:53.212Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,21 +19,50 @@
   ],
   "articles": [
     {
-      "title": "LLM代理商寻求澄清的不确定性分解",
-      "originalTitle": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.19559",
-      "date": "2026-06-20T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 19559v1 Announce Type: new Abstract:最近的立场文件认为，对于交互式大型语言模型（ LLM ）代理，经典的aleatoric/epistemic不确定性框架是不够的，并且需要低规格感知、分解和可传递的不确定性表示，这些不确定性表示可以解锁新的代理功能，例如主动澄清寻求和共享心理模型构建。 实际的部署约束--黑盒API、交互式延迟预算和缺乏标记轨迹--排除了基于logprob、多采样和基于训练的方法，使基于提示的估计成为在部署时呈现此类信号的最可行的系列。 我们通过一个简单的基于提示的分解来回答这个调用，该分解将动作置信度与请求不确定性（ u ）分开，使代理能够在任务规范不明确时要求澄清。 为了评估它，我们引入了两个澄清增强基准（ WebShop-Clarification和ALFWorld-Clarification ） ，其中50 ％的任务被故意未指定，并系统地比较了五个LLM骨干（ GPT-5. 1 ， DeepSeek-v3. 2-exp ， GLM-4. 7 ， Qwen3 ）的ReAct + UE和不确定性感知内存（ UAM ）的拟议分解。 5-35B ， GPT-OSS-120B ） ，以及用于故障检测的标准WebShop、ALFWorld和REAL基准。对五个骨干进行平均，建议的分解使ALFWorld-Clarification的澄清F1比ReAct + UE提高了73% ，比UAM提高了36% ，并在WebShop-Clarification的每个骨干和ALFWorld-Clarification的五个骨干中的四个上引导澄清F1 ，这表明收益超出了单个LLM。",
-      "originalSummary": "arXiv:2606.19559v1 Announce Type: new Abstract: Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM.",
+      "title": "三星电子为员工带来ChatGPT和Codex",
+      "originalTitle": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "date": "2026-06-21T23:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "三星电子向全球员工部署ChatGPT Enterprise和Codex ，标志着OpenAI最大规模的企业人工智能部署之一。",
+      "originalSummary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "评测"
+        "公司动态"
       ],
       "score": 99
+    },
+    {
+      "title": "当特朗普政府打击Anthropic时，谁会受益？",
+      "originalTitle": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "date": "2026-06-21T15:28:17.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "由于特朗普政府的出口管制令， Anthropic最近将其两种最新的人工智能模型下线，引发了关于人工智能政策和数字主权的广泛辩论。在TechCrunch的Equity播客的最新一集中， Sean O’Kane、Rebecca Bellan和我讨论了是什么促使政府采取行动反对Anthropic ，以及这可能对更广泛的人工智能生态系统意味着什么。 正如肖恩所说， “Anthropic与其他领先的人工智能实验室相比，与特朗普政府的关系并不是最好的” ，所以也许其他Anthropic的竞争对手不需要担心类似的镇压。 但丽贝卡还指出，领先的网络安全专家“签署了一封公开信，要求特朗普撤销该命令，他们说，不得不从美国的网络防御者那里撤出这些先进的网络安全能力实际上是危险的。”我们想知道这是否最终会成为Anthropic的好宣传，特别是因为—用丽贝卡的话来说— “每个人都喜欢坏男孩。 “请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。Rebecca Bellan ：我相信我们的许多听众都知道，美国政府基本上只是迫使Anthropic将其两个最新型号离线— Fable 5 ，然后还有Mythos 5 ，这是当前Mythos用户可以使用的版本， [而] Fable 5更适合公众使用。他们上周五写了一封信，引用了“国家安全问题”。 “没有人知道这些担忧是什么。该报告尚未公开，他们没有提供任何细节，并告诉[Anthropic] ，他们必须确保这些模型不能被任何外国公民使用。所以Anthropic就像是，“好吧，我想我们必须完全拉动模型，因为我们不知道某人是否是外国人。我们的很多员工都是外国人。 “但实际上， [报道称]白宫之所以得到这个消息，是因为一些亚马逊研究人员据称找到了一种方法来绕过寓言5的护栏。亚马逊首席执行官安迪·贾西（ Andy Jassy ）向白宫提出了这些担忧，并从那里螺旋式上升。Sean O’Kane ：这一切进展都非常快，尤其是在周五下午到周末。 与此同时，政府表面上试图就它在伊朗发动的战争谈判某种条约。Rebecca ：周五晚上，我们在纽约。他们喜欢分散注意力。肖恩：让我们退后一步。 Anthropic与特朗普政府没有最好的关系，其方式与其他领先的人工智能实验室不同--我认为至少在这里有一个因素。",
+      "originalSummary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "Beyond Siri ：以下是iOS 27中iPhone将具备的实用人工智能功能",
+      "originalTitle": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "date": "2026-06-21T14:40:28.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "Siri的人工智能改革可能是本月早些时候苹果全球开发者大会的头条新闻，但苹果更广泛的人工智能战略正在通过其软件中嵌入的一系列较小功能形成。 该公司没有要求消费者采用新的人工智能版本的Siri来获得人工智能带来的所有好处，而是将人工智能编织到人们已经使用的应用程序和服务中，专注于解决现实世界的问题。其结果是，您的iPhone将能够与朋友分摊餐厅账单，在数据泄露后保护您的密码，自动化任务，并以更少的人工精力组织信息等。 就个人而言，这些功能可能不如Siri那么引人注目， Siri最终会理解您的个人背景，并可以代表您采取行动。但结合起来，它们展示了人工智能的愿景，与其说是与机器人聊天，不如说是让苹果的软件本身感觉更聪明、更有能力。除了Siri AI之外，以下是我们最期待使用的iOS 27中较小的人工智能功能。 这些功能现已在开发人员测试版中上线，并将很快在iOS 27今年秋季晚些时候公开发布之前在公开测试版中推出。当iOS 27在今年秋季晚些时候推出时，顾客将能够使用Apple Cash平分餐厅账单。由Apple Intelligence提供支持，您只需拍摄收据的照片（或上传照片） ，然后您将看到一个新选项，您可以选择与其他人分摊账单。 Apple Intelligence致力于从账单中提取关键详细信息，例如订购的商品、数量、小费和总金额。您可以从收据中选择您订购的餐点，然后通过群聊发送消息，要求其他人也这样做。其他人可以选择他们的物品和数量—如果他们与另一个人分开，甚至可以选择一半（ 1/2 ）。要付款，您可以双击，就像任何其他Apple Cash交易一样。 账单拆分选项并不复杂，因为它仅在需要时显示，并且适用于人们已知的现有应用和服务，如消息和Apple Cash。它也足够聪明，可以要求每个人分摊税款，并随商品价格一起支付小费。 多亏了Apple的密码应用程序等密码管理器或1Password、Dashlane或Bitwarden等第三方的密码管理器，您现在可能已经创建了不易被轻易猜到的复杂密码。很遗憾，这已不足以保证密码的安全。正如多年来众多数据泄露事件向我们展示的那样，您的密码往往最终仍落入不良行为者手中，而这并非您自己的过错。 苹果新的密码更新功能现在将利用人工智能，通过识别弱密码和泄露密码（如数据泄露中发现的密码） ，代表用户代理采取行动。该功能不会强制您手动更新密码，而是安全地导航网站、登录并将密码升级到更安全的新版本。",
+      "originalSummary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
     },
     {
       "title": "诺贝尔奖获得者John Jumper将离开DeepMind ，转投竞争对手Anthropic",
@@ -49,58 +78,52 @@
         "公司动态",
         "研究"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "Agentic AI系统运行时治理的Deontic策略",
-      "originalTitle": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.19464",
-      "date": "2026-06-20T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 19464v1公告类型：新摘要：由大型语言模型（ LLM ）驱动的自主代理AI系统引入了一类新的安全、隐私和合规性挑战：可以跨组织边界调用工具、操纵数据、安装软件并与对等代理协调的代理不仅必须受到身份验证和访问控制的约束，还必须受到企业治理的完整结构的约束。 这包括具体说明代理被允许和禁止做什么，他们在某些行动后有义务做什么（例如，通知首席信息安全官） ，在什么条件下可以免除长期义务，以及当政策发生冲突时哪些规则优先。这个治理问题超出了当前策略引擎提供的范围。XACML、Rego和Cedar等系统仅处理此治理结构的许可/禁止子集。 它们不提供义务生命周期管理、元策略冲突解决、在特定情况下免除义务的豁免，以及在医疗保健、网络安全或数据隐私等应用中常见的领域类层次结构的本体论推理。 我们提出AgenticRei ，它实现了关键的治理要求，如义务、分配、政策冲突解决和政策推理，以及基本的许可/禁止限制。我们使用基于REI框架的语义策略语言，以OWL （ Web本体语言）表示，并在运行时由完全在LLM之外的高性能逻辑引擎进行评估。 代理和代理到代理消息调用工具的管道相同。我们通过示例表明，道义策略捕获了围绕安全和隐私的治理约束，而这些约束在当前的生产引擎中通常无法表达。我们的方法与A2AS等行业标准框架自然结合。",
-      "originalSummary": "arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
-      "rawFullText": "",
+      "title": "《大西洋月刊》创建了一个可搜索的音乐数据库，用于训练人工智能",
+      "originalTitle": "The Atlantic created a searchable database of the music used to train AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "date": "2026-06-20T18:46:48.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
+      "fullContent": "大西洋记者亚历克斯·雷斯纳（ Alex Reisner ）最近发现了用于训练人工智能模型的四个音乐数据集，并使其完全可供公众搜索。其中两套绝对是巨大的，分别有1200万和900万首曲目。另外两首要小得多，但仍然代表着大量的训练数据，每首歌曲超过10万首。 根据Reisner的说法，这些套装已经下载了数千次，虽然不可能确切知道谁使用过它们，但谷歌和Stability都在研究论文中证实了它们。一些来源，如免费音乐存档数据集，可以免费流式传输供个人使用，但请重新……在The Verge阅读完整故事。",
+      "originalSummary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over [&#8230;]",
+      "rawFullText": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over 100,000 songs each. According to Reisner, the sets have been downloaded thousands of times and, while it's impossible to know exactly who has used them, Google and Stability have both confirmed they have in research papers. Some of the sources, like the Free Music Archive dataset, are free to stream for personal use but re … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "推理",
         "模型"
       ],
-      "score": 95
+      "score": 80
     },
     {
-      "title": "Multi-Agent LLM评议中的隐藏锚点",
-      "originalTitle": "Hidden Anchors in Multi-Agent LLM Deliberation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.19494",
-      "date": "2026-06-20T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 19494v1公告类型：新摘要：多代理LLM评议，代理商在几轮中交换和修改答案，越来越多地用于提高推理和准确性，但很少对其工作方式和原因进行建模。这种深思熟虑反映了人类如何做出决定。 作为社会动物，我们既被DeGroot和Friedkin--Johnsen等经典意见动力学模型所捕捉的群体效应所吸引，也被我们自己的内在信念所吸引，但事实并非如此。我们将多智能体评议建模为一个闭环动态系统，其中每个智能体都携带一个隐藏的内部信念，即其锚点，无论其邻居如何，它都会不断地提出自己的意见。 我们展示了这个锚点可以仅从审议中恢复，并且它解释了一种经典的共识规则禁止的行为：客服代表对正确答案的信心可以爬过任何客服代表开始的地方，逃离最初信念形成的空间（凸壳）。检查恢复的锚点是否也预测了延迟运行（概括） ，为模型何时真正由锚驱动提供了一个简单的测试。 在三个开放重量模型系列中，这是一个频谱，而不是全有或全无。所有锚的影响力大致相同，但它们在锚所处的位置上有所不同，只有当锚远离最初的意见时，考虑才会脱离船体，需要完整的闭环模型。",
-      "originalSummary": "arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
+      "title": "Signal的Meredith Whittaker希望你记住，人工智能聊天机器人“不是你的朋友”",
+      "originalTitle": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "date": "2026-06-20T20:32:29.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "当被问及ChatGPT和Claude等聊天机器人的隐私影响时， Signal总裁Meredith Whittaker回答说： “这些不是你的朋友。他们不是有意识的人。他们不是有感情的对话者。惠特克在接受彭博社关于政策、隐私和信号的更广泛采访时发表了这些评论。她承认她使用人工智能工具“到处格式化文档”，但坚持认为，“我不会问他们问题。 我非常认真地思考和写作，我不希望通过一个想法[…]的过程被一个平均已经存在的系统的响应所取消或黯然失色。 至于微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）预测用户今年可以让微软Copilot处理他们所有的圣诞购物，惠特克认为，这种情况— Copilot窃听家庭群聊以确定谁想要—意味着让它“访问我的信用卡，我的浏览器，我的信号，代表我给我的兄弟姐妹发消息的能力，我的家庭地址[和]我的日历。 Whittaker说： “您刚才描述的是一个可以跨多个应用程序和服务进行非常普遍的访问的系统。” “在Signal的背景下，它将构成一种后门。“从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "模型"
+        "AI 热点"
       ],
-      "score": 95
+      "score": 75
     },
     {
-      "title": "分析LLM-Solver循环中的旁白间隙",
-      "originalTitle": "Analyzing the Narration Gap in LLM-Solver Loops",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.19588",
-      "date": "2026-06-20T04:00:00.000Z",
-      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
-      "fullContent": "arXiv: 2606. 19588v1公告类型：新摘要：当可以在逻辑中制定安全或安全关键问题时， SAT和SMT求解器等正式工具越来越多地嵌入到语言模型推理管道中。与思维链不同，思维链的步骤是在没有正式保证的情况下从模型分布中抽样的，求解器会产生一个健全且可独立验证的答案。 然而，在求解器和模型之间的相互作用中，健全性保证可能会丢失。混合管道有三个组成部分：形式化问题、决定问题和叙述结果。之前的工作研究了形式化和决策，但没有研究叙述，叙述是将正式工具的输出转化为用户答案的步骤。为了填补叙述空白，我们首先将LLM解决循环建模为经过验证的决策过程。 我们进一步评估了提示注入下的五个开源模型，我们发现证书门控使求解器判决听起来合理，而对手可以跨短语和渠道反转经过验证的结论。我们通过强化提示来研究缓解措施，该提示可以显着减少注射，但不能消除注射，并且仍然受到自适应攻击。 结合形式分析和实证研究，我们在LLM-求解器循环中表明，鲁棒性无法达到用户最终读取的答案。",
-      "originalSummary": "arXiv:2606.19588v1 Announce Type: new Abstract: Formal tools such as SAT and SMT solvers are increasingly embedded in language model reasoning pipelines when a safety or security critical question can be formulated in logic. Unlike chain of thought whose steps are sampled from the model distribution without formal guarantee, a solver produces a sound and independently verifiable answer. However, the soundness guarantee can be lost in the interaction between the solver and the model. The hybrid pipeline has three components: formalizing the question, deciding it, and narrating the result. Prior work has studied the formalization and decision, but not narration, which is the step that turns a formal tool's output into the user answer. To fill the narration gap, we first model the LLM-solver loop as a verified decision procedure. We further evaluate five open-sourced models under prompt injection, and we find certificate gating makes the solver verdict sound, while an adversary can invert a verified conclusion across phrasings and channels. We study the mitigation through hardened prompt that reduces injection significantly but cannot eliminate it and still suffers under adaptive attack. Combining the formal analysis and empirical studies, we show in the LLM-solver loop, robustness does not reach to the answer that the user finally reads.",
+      "title": "在权重中是您新的以人工智能为中心的虚荣心搜索",
+      "originalTitle": "In the Weights is your new AI-centric vanity search",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "date": "2026-06-20T19:41:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "最近谷歌搜索过自己的人都知道，它并没有像以前那样受到影响。当然，谷歌搜索本身发生了一切，但也有一种不可避免的感觉，即网络搜索不是过去的规范信息来源，就像很多人从聊天机器人中了解你和我一样。托马斯·迪姆森（ Thomas Dimson ）和乔伊·弗林（ Joey Flynn ）也有类似的感受，导致他们创作了《In the Weights》。 有问题的“权重”是塑造人工智能模型的训练和输出的数值参数，因此该网站旨在衡量“模型在不使用网络搜索等工具的情况下召回某人的能力。“处于权重之中意味着你的存在在创造超人类人工智能的过程中被认为是重要的， ”该网站说。 为了实现这一目标， In the Weights应该查询不同的模型（包括Grok、Gemini、多个版本的GPT、Claude和Llama ，以及鲜为人知的模型） ，类似于“谁是？提供最多10个结果，每个结果都有简短的描述和信心。然后，它将类似的描述聚集在一起，并分配一个强度分数。“例如，这位卑微的科技博主获得了641分的强度分数，使我名列前6 ％。 我感觉很好，直到我看到多个TechCrunch同事的得分更高。在我写这篇文章的时候，排行榜一直在变化， “Home Alone”明星Macaulay Culkin目前排名第一，实力得分为988 ，与歌剧歌手Luciano Pavarotti并驾齐驱。结果还显示了哪些模型返回了给定名称的答案，并且它们突出了潜在的幻觉—显然是GPT-5。 4 Mini说， Anthony Ha是一个“模棱两可的名称形式，可以用缩写A.H.A.指代多个人”。当被问及他为什么要建造In the Weights时， Dimson通过电子邮件告诉TechCrunch ，他和Flynn希望在离开OpenAI后“让创意果汁再次流动” （他们都通过收购他们的设计初创公司Global Illumination加入了OpenAI ）。 Dimson表示，他正在思考“随着更多的流量转移到LLM ，谷歌虚荣搜索在2026年如何成为错误的目标” ，以及“如此多的生命以某种方式被编码在人工智能大脑内的一堆浮点数中。他还说，该网站的方向被一篇开玩笑的博客文章“密封”了，这篇博客文章对人工智能的权重和特里·比森的经典短篇小说“它们是肉做的。 “到目前为止，接收一直是疯狂的，我们认为这将是一个温和的好奇心，但似乎它已经触动了想要看看你是否永远生活在超级智能中的神经（比较因素也没有伤害！ ）” Dimson补充道。 虽然我不太相信被聊天机器人“记住”是通往不朽的保证，但我不能否认，我发现这些结果既有趣又令人嫉妒，特别是因为它们被编入了一个易于比较的分数中。（人工智能评论家安东尼·莫泽（ Anthony Moser ）嘲笑说，这“实际上等同于让13个聊天机器人告诉你关于你自己的事情。” ）还有帮助：该网站采用可爱的任...",
+      "originalSummary": "So ... what's your In the Weights score?",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "安全",
-        "模型"
+        "AI 热点"
       ],
-      "score": 93
+      "score": 75
     },
     {
       "title": "美国禁止发行《人类寓言5》，但数字似乎并不重要",
@@ -117,7 +140,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "从PGP到Mythos ：没有阻止任何人的出口管制简史",
@@ -133,7 +156,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "美国政府的Anthropic禁令是否无意中帮助了该品牌？",
@@ -149,7 +172,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "关于山姆·奥特曼的电影已经被亚马逊米高梅放弃了",
@@ -164,7 +187,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "Barret Zoph在短短五个月后再次离开OpenAI",
@@ -179,7 +202,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -245,7 +268,7 @@
         "评测",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "谁来决定人工智能何时过于危险？",
@@ -261,7 +284,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
@@ -293,7 +316,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Anthropic受到没有人理解的出口规则的打击",
@@ -309,7 +332,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "三分之二的美国人认为人工智能的发展太快",
@@ -324,7 +347,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "LifeSciBench简介",
@@ -339,7 +362,7 @@
       "tags": [
         "评测"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "通过模拟部署预测发布前的模型行为",
@@ -371,7 +394,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -386,7 +409,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "OpenAI合作伙伴网络简介",
@@ -402,7 +425,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "面向下一个工作时代的全新OpenAI学院课程",
@@ -418,7 +441,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Preply如何结合人工智能和人类导师来个性化学习",
@@ -434,7 +457,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -454,22 +477,6 @@
       "score": 99
     },
     {
-      "title": "OpenAI收购ONA",
-      "originalTitle": "OpenAI to acquire Ona",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI计划收购ONA ，以通过安全、持久的云环境扩展Codex ，从而在企业工作流程中实现长期运行的AI代理。",
-      "originalSummary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
       "title": "BBVA将人工智能置于OpenAI银行业务的核心",
       "originalTitle": "BBVA puts AI at the core of banking with OpenAI",
       "source": "OpenAI",
@@ -483,22 +490,22 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
-      "title": "支持欧洲确保可信赖的人工智能生态系统的工作",
-      "originalTitle": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "title": "天体物理学家如何使用法典来帮助模拟黑洞",
+      "originalTitle": "How an astrophysicist uses Codex to help simulate black holes",
       "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI支持欧盟关于人工智能内容透明度的行为准则，推进出处标准和工具，以帮助人们理解人工智能生成的内容。",
-      "originalSummary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "了解天体物理学家Chi-kwan Chan如何使用Codex构建黑洞模拟，帮助科学家研究极端物理并测试爱因斯坦的广义相对论。",
+      "originalSummary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 85
+      "score": 72
     },
     {
       "title": "PyTorch中的分析（第2部分） ：从nn.Linear到Fused MLP",
@@ -513,7 +520,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "学习在混合人工智能企业中发挥领导作用",
@@ -528,7 +535,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
@@ -543,7 +550,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "将GitHub CI迁移到Hugging Face Jobs",
@@ -558,7 +565,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "关于人工智能，您需要了解的五件事",
@@ -573,7 +580,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
@@ -589,7 +596,7 @@
         "智能体",
         "开源"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
