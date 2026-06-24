@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T00:14:13.106Z",
+  "updatedAt": "2026-06-24T00:03:26.745Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,98 @@
   ],
   "articles": [
     {
+      "title": "Anthropic的Claude Tag正在了解您的公司，每次一条Slack消息",
+      "originalTitle": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "date": "2026-06-23T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic的新Claude Tag为Slack带来了一位永远在线的AI队友。但除了生产力之外，该功能还是捕捉组织背景、机构知识和企业工作流程的战略游戏。",
+      "originalSummary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "帮助构建高级AI的共享标准",
+      "originalTitle": "Helping build shared standards for advanced AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "date": "2026-06-23T13:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI通过Appia基金会帮助建立高级人工智能的共享标准，支持评估框架、安全实践和全球合作。",
+      "originalSummary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "菲卡·乔布斯（ Fika Jobs ）筹集了400万美元，用于建立一个视频优先的招聘平台，人工智能代理商可以在其中",
+      "originalTitle": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "date": "2026-06-23T13:00:00.000Z",
+      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、视频生成相关动态",
+      "fullContent": "总部位于斯德哥尔摩的初创公司Fika Jobs正在构建一个视频优先的招聘平台，该平台将人工智能面试代理与短视频个人资料相结合，创造出类似于LinkedIn和TikTok之间的交叉点。",
+      "originalSummary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "视频生成"
+      ],
+      "score": 99
+    },
+    {
       "title": "OpenAI推出新举措，帮助查找和修补开源漏洞",
-      "originalTitle": "OpenAI launches new initiative to help find and patch open-source bugs",
+      "originalTitle": "OpenAI launches new initiative to help find and patch open source bugs",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
       "date": "2026-06-23T00:11:31.000Z",
       "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、开源相关动态",
-      "fullContent": "OpenAI周一宣布了一项新举措，旨在帮助开源社区改进其网络安全游戏并防止漏洞。“Patch the Planet” （这是1995年电影《黑客》中标志性的流行语“Hack the Planet”的一个不那么微妙的暗示）将看到OpenAI与安全公司Trail of Bits合作，帮助开源维护人员保护他们的项目。 OpenAI表示， Trail of Bits的安全人员将直接与开源维护人员合作，审查潜在的代码问题。OpenAI的安全工具（如Codex Security ）将用于协助此过程。OpenAI周一表示： “许多维护人员已经被要求以同样有限的时间和资源更快地整理更多报告。” “Patch the Planet旨在减轻这种负担，而不是增加负担：安全工程师在维修人员到达之前审查调查结果，与项目合作开发补丁和测试，并构建可重用的工作流程，帮助团队在第一次修复土地后继续提高安全性。 “换句话说， Trail of Bits的工程师将或多或少地像代码EMT一样工作—在那里帮助开源项目维护人员识别和分类潜在问题，所有这些都由OpenAI的软件提供支持。这听起来像是一个雄心勃勃的项目，从长远来看，它将如何运作，或者它计划如何扩大规模（如果有的话） ，目前还不太清楚。 开源项目是商业软件行业赖以生存的数字基石，但不幸的是，由于该生态系统的去中心化和监控不力，许多软件是不安全的。开源项目中的Bug可能会成为商业代码库的主要问题。几年前的log4j崩溃--在一个广泛使用的开源实用程序中发现了一个糟糕的漏洞--就是一个很好的例子。 围绕Mythos （ Anthropic高度公开的安全工具）等工具的大部分担忧似乎源于这样一个事实，即人工智能现在可以自动识别代码库中的现有错误并为其创建漏洞。虽然网络犯罪的自动化并不新鲜，但这些工具无疑有可能使其对坏人来说更加方便。 OpenAI正在通过使用人工智能来帮助开源社区更好地保护自己，从而彻底改变这一模式。很难不把它看作是Anthropic的竞争对手，同时也认识到这是开源社区迫切需要的东西。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。每一个值得了解Lauren Forristal Aura令人印象深刻的电子墨水相框的新iOS 27功能，甚至都不像数字版的Amanda Silberling",
-      "originalSummary": "OpenAI is attempting to tackle the security issues of the open source software community.",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。OpenAI周一宣布了一项新举措，旨在帮助开源社区改进其网络安全游戏并防止错误。 “Patch the Planet” （这是1995年电影“Hackers”中的标志性流行语“Hack the Planet”的一个不那么微妙的暗示）将看到OpenAI与安全公司Trail of Bits合作，帮助开源维护人员保护他们的项目。OpenAI表示， Trail of Bits的安全人员将直接与开源维护人员合作，审查潜在的代码问题。 OpenAI的安全工具（如Codex Security ）将用于协助此过程。OpenAI周一表示： “许多维护人员已经被要求以同样有限的时间和资源更快地整理更多报告。” “Patch the Planet旨在减轻这种负担，而不是增加负担：安全工程师在维修人员到达之前审查调查结果，与项目合作开发补丁和测试，并构建可重用的工作流程，帮助团队在第一次修复土地后继续提高安全性。 “换句话说， Trail of Bits的工程师将或多或少地像代码EMT一样工作—在那里帮助开源项目维护人员识别和分类潜在问题，所有这些都由OpenAI的软件提供支持。这听起来像是一个雄心勃勃的项目，从长远来看，它将如何运作，或者它计划如何扩大规模（如果有的话） ，目前还不太清楚。 开源项目是商业软件行业赖以生存的数字基石，但不幸的是，由于该生态系统的去中心化和监控不力，许多软件是不安全的。开源项目中的Bug可能会成为商业代码库的主要问题。几年前的log4j崩溃--在一个广泛使用的开源实用程序中发现了一个糟糕的漏洞--就是一个很好的例子。 围绕Mythos （ Anthropic高度公开的安全工具）等工具的大部分担忧似乎源于这样一个事实，即人工智能现在可以自动识别代码库中的现有错误并为其创建漏洞。虽然网络犯罪的自动化并不新鲜，但这些工具无疑有可能使其对坏人来说更加方便。 OpenAI正在通过使用人工智能来帮助开源社区更好地保护自己，从而彻底改变这一模式。很难不把它看作是Anthropic的竞争对手，同时也认识到这是开源社区迫切需要的东西。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。在TechCrunch创始人峰会上节省高达190 $的最后机会。",
+      "originalSummary": "OpenAI is using AI to help the open source community better protect itself.",
       "rawFullText": "",
       "tags": [
         "公司动态",
         "开源",
         "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
+      "originalTitle": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-5-immunology-mystery",
+      "date": "2026-06-23T17:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "GPT-5 Pro帮助解决了一个3年前的免疫学谜团，为T细胞行为提供了见解。这一突破可以支持癌症和自身免疫研究。",
+      "originalSummary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "Patch the Planet ：支持开源维护者的Daybreak计划",
+      "originalTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/patch-the-planet",
+      "date": "2026-06-22T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、开源相关动态",
+      "fullContent": "OpenAI推出了Patch the Planet ，这是一项Daybreak计划，可帮助开源维护人员通过AI和专家审核发现、验证和修复漏洞。",
+      "originalSummary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "开源"
       ],
       "score": 99
     },
@@ -52,22 +131,6 @@
       "score": 99
     },
     {
-      "title": "Patch the Planet ：支持开源维护者的Daybreak计划",
-      "originalTitle": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/patch-the-planet",
-      "date": "2026-06-22T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、开源相关动态",
-      "fullContent": "OpenAI推出了Patch the Planet ，这是一项Daybreak计划，可帮助开源维护人员通过AI和专家审核发现、验证和修复漏洞。",
-      "originalSummary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "开源"
-      ],
-      "score": 99
-    },
-    {
       "title": "SpaceX墨水与开源AI实验室Reflection AI达成计算协议",
       "originalTitle": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
       "source": "TechCrunch AI",
@@ -81,7 +144,7 @@
         "算力芯片",
         "开源"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -97,7 +160,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "人工智能芯片制造商Groq在Nvidia达成200亿美元的非收购交易后确认加薪6.5亿美元",
@@ -106,13 +169,13 @@
       "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
       "date": "2026-06-22T20:13:58.000Z",
       "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "在这些非收购交易中，竞争对手向投资者支付高额的知识产权“许可”费，同时挖掘其关键人才后，人工智能公司会怎么做？对于人工智能芯片制造商Groq来说，答案似乎是从投资者那里筹集更多资金--据说他们在去年12月与英伟达达成协议后获利丰厚--雇佣更多人才，并转向。周一， Groq宣布了新的6.5亿美元融资，证实了之前的报道。 此次加薪大约发生在英伟达签署Groq技术的非独家许可协议并聘请创始人兼首席执行官乔纳森·罗斯（ Jonathan Ross ）、总裁桑尼·马德拉（ Sunny Madra ）和其他员工的六个月后。Groq没有披露其新的估值。在9月份进行了7.5亿美元的融资后，其最后一次估值为69亿美元。来自谷歌的罗斯在人工智能芯片领域以帮助创建谷歌的人工智能芯片Tensor Processing Unit而闻名。 十年前，他与另一位谷歌工程师道格·怀特曼（ Doug Wightman ）合作推出了Groq。Wightman在Nvidia交易后继续留任，并担任首席执行官。Groq创建了一个称为语言处理单元（ LPU ）的芯片，用于推理，并将其作为云服务或本地硬件集群的一部分出售。 随着英伟达现在拥有LPU的IP ，这家GPU巨头在3月份的GTC活动上宣布了自己的硬件集群，即英伟达Groq 3 LPX推理硬件系统。作为回应， Groq已转向其新云业务。在Groq于2024年收购了他的人工智能数据分析公司Definitive Intelligence之后，该业务由Madra运营。 该公司表示，它已发展到北美、欧洲、中东和亚太地区的13个数据中心，为500多万开发人员和数千家AI公司提供服务，每周处理数万亿个代币。Groq也一直在招聘替代高管。在美国海军工作之后，它增加了Alan Rice作为首席运营官，之前在xAI和Meta工作。它还增加了一个创业二人组，辛克莱·舒勒（ Sinclair Schuller ）担任首席技术官，拉凯什·马尔霍特拉（ Rakesh Malhotra ）担任首席产品官。 他们此前曾在舒勒创立的企业云软件公司Apprenda工作；然后共同创立了Nuvalence ，这是一家于2024年被安永收购的软件工程公司。Malhotra之前花了大约十年时间研究微软的云产品。既然关键硬件IP与英伟达共享， Groq在几乎自我推销之后能否成功取决于其推理云的竞争力。当然，它有一个机会。 推理相关技术是一个需求巨大（和风险投资）的领域。但它也看到了越来越多的创新和竞争。尽管如此，其他人似乎在这些交易中幸存下来。Scale AI的首席执行官Jason Droege告诉福布斯，在大约一年前Meta完成143亿美元的非收购后，业务已经反弹，该公司有望实现10亿美元的收入。 当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。从M...",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。在这些非收购交易之一之后，人工智能公司该怎么办？在这些交易中，竞争对手向投资者支付高额的知识产权“许可”费，同时挖掘其关键人才？ 对于人工智能芯片制造商Groq来说，答案似乎是从投资者那里筹集更多资金--据说他们在去年12月与英伟达达成协议后获利丰厚--雇佣更多人才，并转向。周一， Groq宣布了新的6.5亿美元融资，证实了之前的报道。这轮融资由总部位于达拉斯的后期投资公司Disruptive领投，该公司由Alex Davis （他也是Groq的董事长）和劳德代尔堡对冲基金Infinitum创立。 此次加薪大约发生在英伟达签署Groq技术的非独家许可协议并聘请创始人兼首席执行官乔纳森·罗斯（ Jonathan Ross ）、总裁桑尼·马德拉（ Sunny Madra ）和其他员工的六个月后。Groq没有披露其新的估值。在9月份进行了7.5亿美元的融资后，其最后一次估值为69亿美元。来自谷歌的罗斯在人工智能芯片领域以帮助创建谷歌的人工智能芯片Tensor Processing Unit而闻名。 十年前，他与另一位谷歌工程师道格·怀特曼（ Doug Wightman ）合作推出了Groq。Wightman在Nvidia交易后继续留任，并担任首席执行官。Groq创建了一个称为语言处理单元（ LPU ）的芯片，用于推理，并将其作为云服务或本地硬件集群的一部分出售。 随着英伟达现在拥有LPU的IP ，这家GPU巨头在3月份的GTC活动上宣布了自己的硬件集群，即英伟达Groq 3 LPX推理硬件系统。作为回应， Groq已转向其新云业务。在Groq于2024年收购了他的人工智能数据分析公司Definitive Intelligence之后，该业务由Madra运营。 该公司表示，它已发展到北美、欧洲、中东和亚太地区的13个数据中心，为500多万开发人员和数千家AI公司提供服务，每周处理数万亿个代币。Groq也一直在招聘替代高管。在美国海军工作之后，它增加了Alan Rice作为首席运营官，之前在xAI和Meta工作。它还增加了一个创业二人组，辛克莱·舒勒（ Sinclair Schuller ）担任首席技术官，拉凯什·马尔霍特拉（ Rakesh Malhotra ）担任首席产品官。 他们此前曾在舒勒创立的企业云软件公司Apprenda工作；然后共同创立了Nuvalence ，这是一家于2024年被安永收购的软件工程公司。Malhotra之前花了大约十年时间研究微软的云产品。既然关键硬件IP与英伟达共享， Groq在几乎自我推销之后能否成功取决于其推理云的竞争力。当然...",
       "originalSummary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
       "rawFullText": "",
       "tags": [
         "算力芯片"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "三星电子为员工带来ChatGPT和Codex",
@@ -131,111 +194,6 @@
       "score": 99
     },
     {
-      "title": "当特朗普政府打击Anthropic时，谁会受益？",
-      "originalTitle": "When the Trump administration cracks down on Anthropic, who benefits?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-      "date": "2026-06-21T15:28:17.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "由于特朗普政府的出口管制令， Anthropic最近将其两种最新的人工智能模型下线，引发了关于人工智能政策和数字主权的广泛辩论。在TechCrunch的Equity播客的最新一集中， Sean O’Kane、Rebecca Bellan和我讨论了是什么促使政府采取行动反对Anthropic ，以及这可能对更广泛的人工智能生态系统意味着什么。 正如肖恩所说， “Anthropic与其他领先的人工智能实验室相比，与特朗普政府的关系并不是最好的” ，所以也许其他Anthropic的竞争对手不需要担心类似的镇压。 但丽贝卡还指出，领先的网络安全专家“签署了一封公开信，要求特朗普撤销该命令，他们说，不得不从美国的网络防御者那里撤出这些先进的网络安全能力实际上是危险的。”我们想知道这是否最终会成为Anthropic的好宣传，特别是因为—用丽贝卡的话来说— “每个人都喜欢坏男孩。 “请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。Rebecca Bellan ：我相信我们的许多听众都知道，美国政府基本上只是迫使Anthropic将其两个最新型号离线— Fable 5 ，然后还有Mythos 5 ，这是当前Mythos用户可以使用的版本， [而] Fable 5更适合公众使用。他们上周五写了一封信，引用了“国家安全问题”。 “没有人知道这些担忧是什么。该报告尚未公开，他们没有提供任何细节，并告诉[Anthropic] ，他们必须确保这些模型不能被任何外国公民使用。所以Anthropic就像是，“好吧，我想我们必须完全拉动模型，因为我们不知道某人是否是外国人。我们的很多员工都是外国人。 “但实际上， [报道称]白宫之所以得到这个消息，是因为一些亚马逊研究人员据称找到了一种方法来绕过寓言5的护栏。亚马逊首席执行官安迪·贾西（ Andy Jassy ）向白宫提出了这些担忧，并从那里螺旋式上升。Sean O’Kane ：这一切进展都非常快，尤其是在周五下午到周末。 与此同时，政府表面上试图就它在伊朗发动的战争谈判某种条约。Rebecca ：周五晚上，我们在纽约。他们喜欢分散注意力。肖恩：让我们退后一步。 Anthropic与特朗普政府没有最好的关系，其方式与其他领先的人工智能实验室不同--我认为至少在这里有一个因素。",
-      "originalSummary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
-      "title": "Beyond Siri ：以下是iOS 27中iPhone将具备的实用人工智能功能",
-      "originalTitle": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
-      "date": "2026-06-21T14:40:28.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "Siri的人工智能改革可能是本月早些时候苹果全球开发者大会的头条新闻，但苹果更广泛的人工智能战略正在通过其软件中嵌入的一系列较小功能形成。 该公司没有要求消费者采用新的人工智能版本的Siri来获得人工智能带来的所有好处，而是将人工智能编织到人们已经使用的应用程序和服务中，专注于解决现实世界的问题。其结果是，您的iPhone将能够与朋友分摊餐厅账单，在数据泄露后保护您的密码，自动化任务，并以更少的人工精力组织信息等。 就个人而言，这些功能可能不如Siri那么引人注目， Siri最终会理解您的个人背景，并可以代表您采取行动。但结合起来，它们展示了人工智能的愿景，与其说是与机器人聊天，不如说是让苹果的软件本身感觉更聪明、更有能力。除了Siri AI之外，以下是我们最期待使用的iOS 27中较小的人工智能功能。 这些功能现已在开发人员测试版中上线，并将很快在iOS 27今年秋季晚些时候公开发布之前在公开测试版中推出。当iOS 27在今年秋季晚些时候推出时，顾客将能够使用Apple Cash平分餐厅账单。由Apple Intelligence提供支持，您只需拍摄收据的照片（或上传照片） ，然后您将看到一个新选项，您可以选择与其他人分摊账单。 Apple Intelligence致力于从账单中提取关键详细信息，例如订购的商品、数量、小费和总金额。您可以从收据中选择您订购的餐点，然后通过群聊发送消息，要求其他人也这样做。其他人可以选择他们的物品和数量—如果他们与另一个人分开，甚至可以选择一半（ 1/2 ）。要付款，您可以双击，就像任何其他Apple Cash交易一样。 账单拆分选项并不复杂，因为它仅在需要时显示，并且适用于人们已知的现有应用和服务，如消息和Apple Cash。它也足够聪明，可以要求每个人分摊税款，并随商品价格一起支付小费。 多亏了Apple的密码应用程序等密码管理器或1Password、Dashlane或Bitwarden等第三方的密码管理器，您现在可能已经创建了不易被轻易猜到的复杂密码。很遗憾，这已不足以保证密码的安全。正如多年来众多数据泄露事件向我们展示的那样，您的密码往往最终仍落入不良行为者手中，而这并非您自己的过错。 苹果新的密码更新功能现在将利用人工智能，通过识别弱密码和泄露密码（如数据泄露中发现的密码） ，代表用户代理采取行动。该功能不会强制您手动更新密码，而是安全地导航网站、登录并将密码升级到更安全的新版本。",
-      "originalSummary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "《大西洋月刊》创建了一个可搜索的音乐数据库，用于训练人工智能",
-      "originalTitle": "The Atlantic created a searchable database of the music used to train AI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
-      "date": "2026-06-20T18:46:48.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
-      "fullContent": "大西洋记者亚历克斯·雷斯纳（ Alex Reisner ）最近发现了用于训练人工智能模型的四个音乐数据集，并使其完全可供公众搜索。其中两套绝对是巨大的，分别有1200万和900万首曲目。另外两首要小得多，但仍然代表着大量的训练数据，每首歌曲超过10万首。 根据Reisner的说法，这些套装已经下载了数千次，虽然不可能确切知道谁使用过它们，但谷歌和Stability都在研究论文中证实了它们。一些来源，如免费音乐存档数据集，可以免费流式传输供个人使用，但请重新……在The Verge阅读完整故事。",
-      "originalSummary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over [&#8230;]",
-      "rawFullText": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much smaller, but still represent a significant amount of training data at over 100,000 songs each. According to Reisner, the sets have been downloaded thousands of times and, while it's impossible to know exactly who has used them, Google and Stability have both confirmed they have in research papers. Some of the sources, like the Free Music Archive dataset, are free to stream for personal use but re … Read the full story at The Verge.",
-      "tags": [
-        "模型"
-      ],
-      "score": 79
-    },
-    {
-      "title": "Signal的Meredith Whittaker希望你记住，人工智能聊天机器人“不是你的朋友”",
-      "originalTitle": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
-      "date": "2026-06-20T20:32:29.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "当被问及ChatGPT和Claude等聊天机器人的隐私影响时， Signal总裁Meredith Whittaker回答说： “这些不是你的朋友。他们不是有意识的人。他们不是有感情的对话者。惠特克在接受彭博社关于政策、隐私和信号的更广泛采访时发表了这些评论。她承认她使用人工智能工具“到处格式化文档”，但坚持认为，“我不会问他们问题。 我非常认真地思考和写作，我不希望通过一个想法[…]的过程被一个平均已经存在的系统的响应所取消或黯然失色。 至于微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）预测用户今年可以让微软Copilot处理他们所有的圣诞购物，惠特克认为，这种情况— Copilot窃听家庭群聊以确定谁想要—意味着让它“访问我的信用卡，我的浏览器，我的信号，代表我给我的兄弟姐妹发消息的能力，我的家庭地址[和]我的日历。 Whittaker说： “您刚才描述的是一个可以跨多个应用程序和服务进行非常普遍的访问的系统。” “在Signal的背景下，它将构成一种后门。“从Mach Industries、Founders Fund和Shinkei Systems的领导者那里深入了解扩展和成功所需的条件。通过坦诚的炉边谈话和高影响力的网络，您将获得宝贵的见解和新的联系。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "在权重中是您新的以人工智能为中心的虚荣心搜索",
-      "originalTitle": "In the Weights is your new AI-centric vanity search",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
-      "date": "2026-06-20T19:41:11.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "最近谷歌搜索过自己的人都知道，它并没有像以前那样受到影响。当然，谷歌搜索本身发生了一切，但也有一种不可避免的感觉，即网络搜索不是过去的规范信息来源，就像很多人从聊天机器人中了解你和我一样。托马斯·迪姆森（ Thomas Dimson ）和乔伊·弗林（ Joey Flynn ）也有类似的感受，导致他们创作了《In the Weights》。 有问题的“权重”是塑造人工智能模型的训练和输出的数值参数，因此该网站旨在衡量“模型在不使用网络搜索等工具的情况下召回某人的能力。“处于权重之中意味着你的存在在创造超人类人工智能的过程中被认为是重要的， ”该网站说。 为了实现这一目标， In the Weights应该查询不同的模型（包括Grok、Gemini、多个版本的GPT、Claude和Llama ，以及鲜为人知的模型） ，类似于“谁是？提供最多10个结果，每个结果都有简短的描述和信心。然后，它将类似的描述聚集在一起，并分配一个强度分数。“例如，这位卑微的科技博主获得了641分的强度分数，使我名列前6 ％。 我感觉很好，直到我看到多个TechCrunch同事的得分更高。在我写这篇文章的时候，排行榜一直在变化， “Home Alone”明星Macaulay Culkin目前排名第一，实力得分为988 ，与歌剧歌手Luciano Pavarotti并驾齐驱。结果还显示了哪些模型返回了给定名称的答案，并且它们突出了潜在的幻觉—显然是GPT-5。 4 Mini说， Anthony Ha是一个“模棱两可的名称形式，可以用缩写A.H.A.指代多个人”。当被问及他为什么要建造In the Weights时， Dimson通过电子邮件告诉TechCrunch ，他和Flynn希望在离开OpenAI后“让创意果汁再次流动” （他们都通过收购他们的设计初创公司Global Illumination加入了OpenAI ）。 Dimson表示，他正在思考“随着更多的流量转移到LLM ，谷歌虚荣搜索在2026年如何成为错误的目标” ，以及“如此多的生命以某种方式被编码在人工智能大脑内的一堆浮点数中。他还说，该网站的方向被一篇开玩笑的博客文章“密封”了，这篇博客文章对人工智能的权重和特里·比森的经典短篇小说“它们是肉做的。 “到目前为止，接收一直是疯狂的，我们认为这将是一个温和的好奇心，但似乎它已经触动了想要看看你是否永远生活在超级智能中的神经（比较因素也没有伤害！ ）” Dimson补充道。 虽然我不太相信被聊天机器人“记住”是通往不朽的保证，但我不能否认，我发现这些结果既有趣又令人嫉妒，特别是因为它们被编入了一个易于比较的分数中。（人工智能评论家安东尼·莫泽（ Anthony Moser ）嘲笑说，这“实际上等同于让13个聊天机器人告诉你关于你自己的事情。” ）还有帮助：该网站采用可爱的任...",
-      "originalSummary": "So ... what's your In the Weights score?",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "关于山姆·奥特曼的电影已经被亚马逊米高梅放弃了",
-      "originalTitle": "The film about Sam Altman has been dropped by Amazon MGM",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
-      "date": "2026-06-19T14:15:29.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "据报道，卢卡·瓜达尼诺（ Luca Guadagnino ）关于OpenAI首席执行官山姆·奥尔特曼（ Sam Altman ）的电影已被亚马逊米高梅（ Amazon MGM ）放弃。这部电影由安德鲁·加菲尔德（ Andrew Garfield ）主演，在2023年拍摄了为期五天的过山车，涵盖了奥特曼被解雇并恢复首席执行官职位的情况，该片已经上映了大约一年。 演员阵容还包括扮演OpenAI首席技术官Mira Murati的A Complete Unknown女演员Monica Barbaro、扮演Elon Musk的Ike Barinholtz和扮演OpenAI首席科学家Ilya Sutskever的Anora的Yura Borisov。在致截止日期的一份声明中，该工作室表示，它相信这部电影“如果由不同的工作室发行并与电影制片人密切合作，将会得到更好的服务......在The Verge阅读完整故事。",
-      "originalSummary": "Luca Guadagnino's film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM. The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023 spanning Altman's termination and reinstatement as CEO, had been in the works for about a year. The cast also includes A Complete Unknown actress Monica [&#8230;]",
-      "rawFullText": "Luca Guadagnino's film about OpenAI CEO Sam Altman, Artificial , has reportedly been dropped by Amazon MGM. The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023 spanning Altman's termination and reinstatement as CEO, had been in the works for about a year . The cast also includes A Complete Unknown actress Monica Barbaro as OpenAI CTO Mira Murati, Ike Barinholtz as Elon Musk, and Anora 's Yura Borisov as OpenAI chief scientist Ilya Sutskever. In a statement to Deadline , the studio said it believes the movie \"will be better served if it were released by a different studio and is working closely with the filmmak … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 84
-    },
-    {
-      "title": "Barret Zoph在短短五个月后再次离开OpenAI",
-      "originalTitle": "Barret Zoph is out at OpenAI again after just five months",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
-      "date": "2026-06-19T04:49:33.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "The Verge了解到，在重返OpenAI五个月后，该公司的企业人工智能销售主管Barret Zoph已经离职。Zoph在担任Thinking Machines Lab的联合创始人和首席技术官一段时间后，于1月中旬重返OpenAI。Thinking Machines Lab是由前OpenAI首席技术官Mira Murati创立的竞争AI公司。 Zoph重返OpenAI后不久，该公司表示，他将领导其进军企业，这是OpenAI的一个重要角色，因为最近几个月它发誓要停止追逐所谓的“支线任务” ，并在计划的IPO之前专注于企业和编码等关键收入驱动因素。OpenAI向The Verge确认， Zoph将离开……阅读The Verge的完整故事。",
-      "originalSummary": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as cofounder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati. Shortly after Zoph returned [&#8230;]",
-      "rawFullText": "Five months after returning to OpenAI, Barret Zoph - the company's head of enterprise AI sales - has departed, The Verge has learned. Zoph returned to OpenAI in mid-January after a stint as cofounder and CTO of Thinking Machines Lab, the competing AI company founded by former OpenAI CTO Mira Murati. Shortly after Zoph returned to OpenAI, the company said he would lead its push into enterprise - a significant role at OpenAI, since in recent months it had vowed to stop chasing so-called \"side quests\" and focus on key revenue drivers like enterprise and coding ahead of its planned IPO. OpenAI confirmed to The Verge that Zoph will be departin … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 84
-    },
-    {
       "title": "一家初创公司声称它突破了阻碍LLM的瓶颈",
       "originalTitle": "A startup claims it broke through a bottleneck that’s holding back LLMs",
       "source": "MIT Technology Review",
@@ -248,7 +206,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -314,23 +272,22 @@
         "评测",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "谁来决定人工智能何时过于危险？",
-      "originalTitle": "Who decides when AI is too dangerous?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
-      "date": "2026-06-18T14:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "在今天的Decoder节目中，我的嘉宾是The Verge的高级AI记者Hayden Field。当海登出现在节目中时，通常是因为人工智能世界出了问题。上周末， Anthropic、特朗普政府和Anthropic的新人工智能模型Fable 5的混合非常激烈。 上周五，甚至在Anthropic向公众发布寓言一周后，美国政府表示正在对新模型以及寓言所基于的基础神话模型实施出口管制。这些控制措施限制了外国公民，即使是在美国为Anthropic工作的外国人，也无法使用这些模型。 Anthropic随后将Fable和Mythos下线，因为该公司表示担心无法限制访问并合理遵守订单。正如您可能想象的那样，这完全是一团糟。 Hayden实际上刚刚在The Verge上发表了一篇精彩的逐场演讲，讲述了上周五这一切是如何发生的，以及周末双方争先恐后地想弄清楚到底发生了什么，以及如何解决这个问题。所以我想让她过来，带我了解一下时间线以及这一切意味着什么。近距离接触订阅者，别忘了，无论您在哪里接收播客，都可以独家使用无广告解码器。请到此处。不是订阅者？ 您可以在此处注册。情况仍在继续。截至周二我们录制本集时，寓言仍然处于离线状态—事实上，如果您启动Claude ，它会告诉您聊天窗口上方的“寓言5目前不可用。 然而，正如你将听到海登解释的那样，无论寓言是否在本周重新上线，政府与人类的争执的连锁反应都会对科技行业和美国的人工智能监管制度产生深远的影响。 这里还有一个很大的讽刺，你也会听到海登和我也这么说：人类学花了数年时间争辩说，人工智能可能很快就会变得足够强大到危险--政府需要尽快认真监管人工智能。嗯……现在我们在这里，而《人类》并不喜欢它的表现方式。 现在，每个人--尤其是中国政府--都在关注美国的人工智能监管方法是否形成了一个严肃的安全框架。或者这只是白宫用来对付那些不向特朗普政府屈服的公司和人的另一种武器。就像我说的，这真是一团糟。OK ：让高级人工智能记者Hayden Field了解Claude Fable禁令和新的人工智能监管格局。",
-      "originalSummary": "On today’s episode of Decoder, my guest is Hayden Field, senior AI reporter for The Verge. Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last weekend, that something was a pretty intense mix of Anthropic, the Trump administration, and Anthropic’s new AI model, Fable 5.&#160; [&#8230;]",
-      "rawFullText": "On today’s episode of Decoder , my guest is Hayden Field, senior AI reporter for The Verge . Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last weekend, that something was a pretty intense mix of Anthropic, the Trump administration, and Anthropic’s new AI model, Fable 5.&nbsp; On Friday, not even a week since Anthropic released Fable to the public, the US government said it was imposing export controls on the new model , as well as the underlying Mythos model that Fable is based on. Those controls restricted foreign nationals, even those working for Anthropic in the United States, from accessing these models. Anthropic then took Fable and Mythos offline for everyone, because the company said it was worried it would not be able to restrict access and reasonably comply with the order otherwise.&nbsp; As you might imagine, this is all a giant mess. Hayden actually just published a fantastic play-by-play on The Verge about how this all went down last Friday and the scramble through the weekend from both sides to figure out what exactly happened and how it might get resolved. So I wanted her to come on and just walk me through the timeline and what it all means. Verge subscribers, don&#8217;t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . The situation is ongoing. As of Tuesday when we’re recording this episode, Fable is still offline — in fact, if you boot up Claude, it tells you right above the chatbox window that “Fable 5 is currently unavailable.” Yet as you’ll hear Hayden explain, whether Fable comes back online this week or not, the ripple effects of the government’s feud with Anthropic have far-reaching consequences for the tech industry and the US’s AI regulatory regime.&nbsp; There’s also a big irony here, and you’ll hear Hayden and me get into that, too: Anthropic has spent years arguing that AI might soon be powerful enough to be dangerous — and that the government needed to get serious about regulating AI sooner rather than later. Well… now we’re here, and Anthropic doesn&#8217;t love the way it&#8217;s playing out. And now, everyone — but maybe especially the Chinese government — is watching to see whether the United States’ AI regulatory approach takes the shape of a serious safety framework. Or whether it&#8217;s just another weapon for the White House to use against the companies and people that don’t bend the knee to the Trump admin. Like I said, it’s a real mess. OK: Verge senior AI reporter Hayden Field on the Claude Fable ban and the new AI regulatory landscape. Here we go. This transcript has been lightly edited for length and clarity.&nbsp; Hayden Field, you&#8217;re a senior AI reporter here at The Verge . Welcome back to Decoder . Thanks. Great to be here. It&#8217;s always chaos when you&#8217;re here, Hayden. That&#8217;s what I&#8217;ve come to discover. It really is. My rule is still in effect, in that it&#8217;s always a Friday. Stuff always hits the fan on a Friday and this was no different. Particularly when it comes to the government regulating AI, there&#8217;s a real “what if it all went crazy on Friday, so we all had to think about it over the weekend.” And then I think this has been basically true throughout the Trump administration. The scramble to put it all back together on Monday is immediate. Yep, exactly. It&#8217;s crazy. And the fact that all these talks were happening all over the weekend and then Monday, still no resolution. I&#8217;m surprised that things aren&#8217;t resolved yet, but yeah, lots of drama. Well, this podcast is going to come out on a Thursday. We&#8217;re recording on a Tuesday. We&#8217;ll see what happens over the next two days. But I think the big picture here of how the United States government should regulate AI and what that means for American AI companies on the world stage is open. I don&#8217;t think it&#8217;s going to be resolved with whatever happens with Fable.&nbsp; Let&#8217;s try to understand the whole story and then pull those themes out of it, because they&#8217;re just going to keep coming back around again and again and again, I think with every new model released now. So, let&#8217;s start at the start. What is Claude Mythos? What is Fable? How do they relate to each other? Great question. I asked Anthropic the same thing when they came out with this like a week ago. Because AI companies are really bad at naming things and it&#8217;s always very confusing. But the situation is that Mythos is the underlying model that is powering both Mythos 5 and Fable 5. Fable is a new model. They haven&#8217;t had Fable 1, 2, 3, or 4. They just immediately started with Fable 5, very confusing. But Fable is the watered down, or safeguarded, version of Mythos 5. When they came out with Mythos Preview in April, Anthropic kept really hyping it up. They were saying this is a potential cyber-weapon. It can never be released to the public, at least until safeguards catch up. We&#8217;re only going to release it to enterprise and governments, or “cyber defenders&#8221; is what they called them — places that need to patch up all their frameworks before bad actors come in and exploit those vulnerabilities. Now, fast-forward to last week and Anthropic released not only Mythos 5, which is the first official Mythos — before it was Mythos Preview, so we skipped straight to 5 — then they also released on the same day Fable 5, which was the very first public version of Mythos-class models. So, same underlying framework, but now tons of safeguards built on top to hopefully stop the public from accessing this super dangerous — by Anthropic&#8217;s own admission — model that could mess up everything.&nbsp; So, that&#8217;s what they released. And they spent a long time hyping this up and talking about how dangerous it was and then it kind of came back to haunt them later. Fable is a Mythos with security guardrails. When it first came out, there was a wave of controversy, right? AI and security researchers found those guardrails were actually preventing them from doing research and seeing what Fable was capable of, because if they tried to push the boundary, it would downgrade them to Anthropic&#8217;s previous models. Yeah. It became kind of like a meme. People were making fun of how strict the guardrails were when it came out. So, that&#8217;s the thing that&#8217;s confusing me, where there&#8217;s a controversy because the guardrails are so strict and then something happened that made the government think Fable was so dangerous that it needed to be pulled. What happened? I talked to some independent red teamers about this. Before the Amazon white paper was circulating, before this allegation of a jailbreak was public, I talked to some red teamers about how safe Fable 5 was. They were all pretty impressed with how the guardrails held up. I was expecting it to be a little bit easier to jailbreak. They were saying they had tried a lot of stuff and nothing was working. That&#8217;s not my experience when I usually talk to independent red teamers. They&#8217;re like, &#8220;Yeah, I got it to break here. I got it to break there.&#8221; In this case, they were saying it held up pretty well.&nbsp; Now, according to a source familiar with the negotiations who was directly involved that I spoke with yesterday, this is kind of the timeline of last week. In the middle of last week, Anthropic was made aware of some research that Amazon researchers conducted. They had uncovered a potential jailbreak, something they were pretty worried about.&nbsp; They sent it over to Anthropic. Anthropic was kind of going back and forth with the Amazon researchers talking about it. They were discussing whether it was really a jailbreak, or whether it was not that big of a deal essentially. Apparently, reports say that Amazon CEO Andy Jassy then got worried about it and called maybe [Treasury Secretary] Scott Bessent, or some member of the Trump administration, on Friday and talked about his concerns.&nbsp; The Trump administration freaked out. They immediately called Anthropic. They send them a message actually and they say, &#8220;Look, you need to shut this down in 90 minutes.” 90 minutes? Yep, 90-minute ultimatum. And they said, &#8220;We need to figure out how to fix this jailbreak that&#8217;s come to light.&#8221; Anthropic got on the phone with the Trump administration within 15 minutes of that first call and they were asking for more details. They&#8217;re like, &#8220;Okay, let&#8217;s talk about this. Are you talking about the research we&#8217;re already aware of? Are you talking about something different? What is the jailbreak you&#8217;re talking about?&#8221; They&#8217;re trying to get more details and talk to the administration. I think the administration was also mad that Dario Amodei, the CEO of Anthropic, didn&#8217;t call back until an hour and 15 minutes after that first call. Anthropic called back 15 minutes in. It took Dario an hour and 15 minutes to call back. So, there was a lot going on here. But by the time they&#8217;re talking, the 90-minute deadline passes and the Trump administration says, &#8220;Okay, that&#8217;s it. Yep. We&#8217;re hitting you with export controls.&#8221; That is when they told Anthropic that no foreign national can use either of these models and Anthropic has to just make sure that that is the case. No foreign national, whether they work at Anthropic or not. If you&#8217;re, say, Bank of America and you have access to Mythos 5 and you&#8217;re using it to plug vulnerabilities in your system and you&#8217;re not a US citizen, you can&#8217;t use it. Same with a random, just regular individual using Fable 5. Same with an Anthropic researcher who is not a US citizen.&nbsp; So, Anthropic did the only thing it could really do in the situation and they said, &#8220;Okay, we got to sideline both these models. We can&#8217;t in like one minute figure out a way to make sure no non-US citizens are using the models.&#8221; So, that&#8217;s what happened. I mean, it was a crazy couple of hours. Anthropic comes out with a statement later that night saying they&#8217;re trying to work with the Trump administration on this. They spent all weekend virtually meeting with administration officials and then flying three employees out — who I detail in the piece we just published — to D.C. to talk to them in person.&nbsp; Notably, Dario was not there in person. He&#8217;s virtually joining all these meetings. I can confirm he was not at a wellness retreat, which is what some reports say , but they won&#8217;t tell me where he is. But he&#8217;s not at a wellness retreat. That&#8217;s all I know. Absolutely not at a wellness retreat is Anthropic’s position. Okay. [Laughs] So, yeah, there&#8217;s a lot going on, very dramatic. All the sources I spoke with over the past couple of days were saying the whole tech industry and the cybersecurity community in particular are just talking. One source told me, “Beijing is laughing at us right now.” It was interesting because some cybersecurity leaders in the space came together to write a public letter and they said, &#8220;Look, not all of us believe in regulation, but if you are going to regulate it, this is not the way,&#8221; which I think is just indicative of this whole situation. Maybe you believe in aggressive government regulation, maybe you don&#8217;t. There&#8217;s a way to operate the regulatory efforts that is rigorous and thoughtful and careful and predictable. Nothing about this seems like it was rigorous or thoughtful or predictable. I actually want to start at the beginning. Andy Jassy and Scott Bessent might be smart guys. They obviously have very senior positions in our society. They&#8217;re not experts in AI. How did we get to Andy Jassy, the CEO of Amazon, relaying concerns about AI security research to Scott Bessent, who does not really oversee AI policy in any meaningful way, and that resulted in a 90-minute ultimatum delivered to a company whose CEO is absent? I don&#8217;t think your politics should matter.&nbsp; Either this is the worst security breach in history that the CEO of Amazon is going to call the treasury secretary, or this is just a bunch of guys who want to feel important. And I can&#8217;t quite figure out which one it is. It&#8217;s a combination of a couple things. One, it&#8217;s the fact that, like you mentioned, a lot of these guys are not experts in AI. Any jailbreak of this is obviously serious and worth considering, but I think that it&#8217;s the type of thing that when you don&#8217;t have direct knowledge of how these systems work, you&#8217;re going to take a really black-and-white approach. These guys weren&#8217;t experts.&nbsp; Andy Jassy hears about this from his own researchers. His own researchers, by the way, who had been going back and forth with Anthropic for a couple days on this. They weren&#8217;t calling the president about it. They&#8217;re like, &#8220;Okay, let&#8217;s discuss this and figure out what we can do here.&#8221; The researchers allegedly didn&#8217;t seem to think it was the end of the world. They&#8217;re just like, &#8220;Oh, we uncovered this, let&#8217;s discuss.&#8221; Anthropic was working on it and then Andy Jassy hears about it. He makes this call, everything hits the fan, which makes sense because if you are not an AI expert — and even if you are an AI expert, maybe you&#8217;re not an expert on cybersecurity and how exactly these systems work, of course — so you&#8217;re going to freak out. It&#8217;s understandable, but what is really strange is what happened after that. Make this phone call and the administration becomes aware, okay. But what I think is really weird is the 90-minute ultimatum and not giving Anthropic additional details when they said, &#8220;Hey, let&#8217;s talk about it. Are you talking about the vulnerability we&#8217;re already aware of or are you talking about something else? And can you just tell us about it so then we can talk about it?&#8221; They said, &#8220;No, 90 minutes, do it or die.&#8221; And then making it so that no foreign national can access the system ever. That is what&#8217;s really strange. Just the way all these cards fell is what everyone in the tech industry thinks is just really strange and it&#8217;s indicative of, as you mentioned, the way that the Trump administration has been operating with tech. A lot of times it seems to be President Trump has one conversation and he&#8217;s swayed from that most recent conversation. So he&#8217;s been very anti-regulation, very pro-American AI and wanting to advance and export American AI, which is something that the commerce department is requesting. The Trump admin has a [request for information] out right now . They&#8217;re all about exporting American AI and advancing and beating China, but then they do this thing that kneecaps everyone with no notice and could very well impact not just Anthropic, but also OpenAI, Google, every competitor in the space that also has what they call a semi-equivalent Mythos product. It seems really disorganized and it&#8217;s very interesting that this often ends up in a scramble with all these CEOs trying to race to kowtow to the Trump administration without really being grounded a lot of times in science or evidence that really matches what&#8217;s going on. The level of freak out is not usually matching the evidence there. Amazon is an investor in Anthropic. They&#8217;re a major partner. Why did Andy Jassy kneecap his own investment in this way? Well, Amazon typically does a lot of red teaming just normally. It&#8217;s just part of their process. So it makes sense that this would have been tested and then unearthed. But what&#8217;s interesting is why Andy Jassy called the Trump administration about it. I&#8217;m not sure why. Maybe it was a typical call that was already happening and he just happened to mention something offhand. Maybe he was calling them and saying, &#8220;Yeah, good thing you did the executive order because X, Y, Z.&#8221; We don’t know. But what is interesting — and I&#8217;m glad you asked this — is that a lot of the sources I spoke with said that the stuff in the alleged jailbreak and in the Amazon white paper that&#8217;s been circulating , all of it could be achieved by OpenAI&#8217;s GPT-5.5 and some other models. That&#8217;s the allegation, that these skills are not unique to Fable 5, the skills in question as part of the jailbreak. Mythos is obviously more powerful than Fable because it doesn&#8217;t have safeguards, but when it comes to Fable and the problems that were brought to light by Amazon, it seems like those problems are not unique to Fable and that GPT-5.5 can also achieve those. A lot of people in the industry are asking, “Why Anthropic?” A real element of this is that it&#8217;s always Anthropic. Anthropic has the most contentious relationship with the Trump administration. They were designated a supply chain risk by the Department of Defense , but the posture here is different from the usual Anthropic drama. Historically, Anthropic has said, &#8220;We don&#8217;t want you to use our tools for X, Y, and Z.&#8221; And the Trump administration has said, &#8220;No, we get to do whatever we want with the AI tools.&#8221; That&#8217;s why Anthropic was designated supply chain risk by the Department of Defense. They said, &#8220;We have some red lines about how we want to be used in the military context.&#8221; Pete Hegseth said, &#8220;Nope, I&#8217;m going to do whatever I want. You have to allow all lawful purposes” — that&#8217;s the line — “and because you won&#8217;t, you&#8217;re a supply chain risk.” There&#8217;s now a lawsuit that&#8217;s being argued about . Here it&#8217;s the opposite. The Trump administration is worried that the model is too powerful and can be used for too many things, and Anthropic seems to think that that belief is overblown, that the administration is overplaying a thing that they can fix. They just need the time to do it and some rigor and conversation about how effective their fix is. How do you put that together? On the one hand, the Trump administration is anti-AI regulatory efforts. On the one hand, they say, &#8220;We get to do whatever we want with the models, make them as powerful as you can.&#8221; And then here the model is too powerful and has to be pulled before any foreign national can even look at it. It really just speaks to the fact that the administration is trusting these companies to tell it what it should be doing. We&#8217;ve seen that a bunch with any regulation that has happened or has become voluntary. Lots of drafts have been adjusted after the Trump administration talks to AI companies. They already don&#8217;t like Anthropic. There&#8217;s already a big trust breakdown between the two from the supply chain risk situation, from the lawsuit, from drawing red lines.&nbsp; I can&#8217;t imagine that this exact situation would have played out if this had been a competitor. OpenAI has a Mythos semi-equivalent model of its own. Again, no company is really saying theirs is as good as Mythos, but they say it&#8217;s pretty good. The freakout would have still happened, but I cannot imagine the rest of it would have played out the way it has. The Trump admin would have given them more time. They would have had more of a conversation and I don&#8217;t think they would have made this foreign nationals rule that has sent shockwaves through the whole industry and the world.&nbsp; One of the sources I spoke with said that he already knew that backup contracts were being signed with non-US companies right now. Open weight models were being deployed on alternative hardware arrangements because now companies everywhere are saying, &#8220;Oh wow, we’ve got to make political risk part of our business plan now. We don&#8217;t really know what&#8217;s going to happen with American AI. Let&#8217;s make some backup plans here,&#8221; which is not good for the industry. It&#8217;s just interesting that the Trump administration is so afraid of China overtaking us, yet they&#8217;re willing to kneecap one of their champions, as it were, in the industry. But I also think it&#8217;s interesting that the reasoning from the Trump administration that&#8217;s been coming out day by day seems to differ. Every day they seem to have a new excuse or part of the conversation that&#8217;s coming to light. First they say, &#8220;Oh, well, what if China had access?&#8221; A source I spoke with said that&#8217;s a rumor from a few weeks ago, from way before Fable 5 or Mythos 5 came out and that it was referencing a Chinese telecom company that the administration had previously approved to have access to Mythos Preview and that when the administration said, &#8220;Oh, actually, you know what? We changed our mind. Let&#8217;s take them off,&#8221; Anthropic immediately took them off and revoked that access. That&#8217;s an old rumor.&nbsp; We&#8217;re also seeing the executive order explanation, where rumors have come to light that Anthropic wasn&#8217;t complying with the Trump administration&#8217;s executive order . Well, that executive order hasn&#8217;t gone into effect yet. He only signed it on June 2nd. It&#8217;s two weeks ago. It takes 60 days for them to figure out which models are going to be covered under it. There is a voluntary partnership with a 30-day pre-release review. It&#8217;s voluntary. It&#8217;s funny because I&#8217;m not saying Anthropic&#8217;s totally in the right here at all. But it&#8217;s just interesting because in this situation, there&#8217;s so much misdirection and scrambling and just weirdness that it&#8217;s rare that you see me feeling bad for an AI company. It really is. I am not like, &#8220;Oh yeah, they&#8217;re doing great.&#8221; All AI companies have their own issues, but in this one case, I&#8217;m saying, &#8220;Wow, I really don&#8217;t know if this would have happened to OpenAI or another competitor, after all the drama Anthropic&#8217;s been going through with the Trump administration.&#8221; We know the Trump admin can be petty and I think they would&#8217;ve freaked out for any company that was under this situation, but I can&#8217;t see it playing out the exact same way with a competitor. Is it just as simple as Dario Amodei doesn&#8217;t go to the White House? He doesn&#8217;t give Trump gifts? I mean, Sam Altman does press conferences with Donald Trump. Sundar Pichai attended the inauguration. Zuckerberg was at the UFC fight. [Laughs] Notable AI winner Mark Zuckerberg was at the UFC fight trying to buy his way into success. Is it just as simple as there&#8217;s a personality clash here? That&#8217;s the way it&#8217;s been perceived by some reports. That&#8217;s definitely part of it. Some reports have said Dario doesn&#8217;t know how to talk to the administration and that he doesn&#8217;t kowtow as much. He doesn&#8217;t know how to play the game. That&#8217;s part of it. The other part of it is that the Trump administration isn&#8217;t quite sure how they&#8217;re going to regulate AI and President Trump is being pulled in different directions. Sometimes he feels like it needs to be more regulated. Sometimes he thinks it needs to be less. If he&#8217;s talking to an AI CEO, it seems like he&#8217;s like, &#8220;Yeah, you know what? I trust them. We&#8217;re good. Let them go ahead. We got to beat China.&#8221; In other cases, he sees that the public is going through a pretty anti-AI era right now. There&#8217;s a rise in AI populism and he&#8217;s saying, &#8220;Oh, well, actually the everyman doesn&#8217;t like AI. Maybe I should regulate it.&#8221; It&#8217;s something we&#8217;ve seen with the administration a bunch over the past however many years, but now it&#8217;s being represented in AI regulation. It&#8217;s just there&#8217;s not really a rhyme or reason right now. I don&#8217;t think that Anthropic&#8217;s communications with the administration help. If you don&#8217;t take their call the second they call, if you&#8217;re not flying to the White House to have dinner, it probably hurts your relationship a little bit in a presidency that seems to be pretty relationship-based a lot of the time. I would contrast that with the previous administration, which was almost devoid of personality. The Biden administration, notable for a lack of personality and people, was very technocratic and very rules based in a way that I think people often thought was bloodless. But the Biden administration did put forward an executive order that had things like transparency reviews and research requirements for the frontier models. Trump came into office, and he wiped all that out . He said, &#8220;We&#8217;re not going to regulate these companies.&#8221; And now it seems like we&#8217;re just headed back there. If you&#8217;re going to put out an ultra-powerful model, the administration wants control of it. Certainly they will use the bluntest instrument they have in the form of export controls, but we&#8217;re going to get back to a more fine-grained, more rigorous approach to how these models are deployed and used and who gets to use them. Was it a mistake to wipe out the Biden framework? Are we headed back to that framework? Where do we think this goes now? I could see us going back there because I interviewed a ton of people in the industry at the time, ranging across a ton of different viewpoints, and most of them believed that the Biden era executive order wasn&#8217;t quite enough. Some people thought it was a good first step and that&#8217;s why I could see us going back there because it wasn&#8217;t seen as being extremely aggressive. If anything, it was seen as being a good first step in the direction, but really just one rung on the ladder. That&#8217;s why I could see the current administration going back there because it wasn&#8217;t that far. I will say AI companies will lobby against even that little step. They did. They were pretty mad about it.&nbsp; They did. They did deeply. But from the executive order we just saw, I could see it going back there, but a little more voluntary, which, again, all these things usually get watered down. It&#8217;s like they come out swinging and then they talk to some AI CEOs and they&#8217;re like, &#8220;Oh, okay, let&#8217;s roll it back a little bit.&#8221; So who knows, honestly. But the reason I became an AI reporter is because I felt like there was no real regulation in the space, and this was even before ChatGPT. Journalism is a way to shine a light on what&#8217;s going on in the industry. Still, six years later, we&#8217;re not seeing a lot of regulation and any that has happened got rolled back. Maybe we&#8217;ll go back in that direction. I do see us going somewhere there, but maybe not even as much as that first rung. It almost feels like the industry needs to push for a more considered regulatory approach, right? They need to say, &#8220;This is chaos. This can&#8217;t be how we operate. Every new model can&#8217;t be forced to contend with panicked phone calls on the weekend.” What kind of system would you build if you wanted a more rigorous review process here? Is it that they just submit their models to the government and the government says what&#8217;s dangerous and not? Is it more industry-based? What are the solutions being proposed? That&#8217;s a good question. There haven&#8217;t been a lot of really robust solutions proposed recently because of this current administration. They&#8217;ve had a really light touch approach to regulation so no one&#8217;s really surfacing those. Now that that might be changing, we&#8217;ll see more robust frameworks proposed. I just hope that they&#8217;re not voluntary. AI companies already do a lot of voluntary disclosure. If you&#8217;re going to regulate, do it. There are a lot of different opinions on how light touch or heavy touch regulation should be, but I do think that voluntary frameworks are pretty watered down. You know what I mean? We already have those. So what&#8217;s next? It&#8217;s important to remember how the general public feels because this is who AI is really affecting at the end of the day. There’s a rise in anti-AI populism and the fact that people are upset . There are data center protests going on everywhere. People are even, in extreme cases, attacking AI CEO&#8217;s homes, or at least attempting to. There is a lot of disquiet here and people feel like they&#8217;re getting replaced. They feel like their jobs are getting replaced. I was listening to a Seattle city council hearing recently and a lot of AI engineers were testifying saying that they got laid off because of AI and they were engineers. Both AI leaders and the government often are pretty distanced from what the general public is feeling about this technology and it&#8217;s important to note. We&#8217;ll see how that impacts, if at all, regulation that comes out. I don&#8217;t have high hopes for a lot of regulation under this administration because they can be really sway-ey. They have dinner one time and then things might shift a little bit. To be fair, many politicians are that way, but we&#8217;ll see. Maybe after this executive order’s 60 days are up, we’ll see some changes that surprise me. One of the weirder aspects of this is that Anthropic itself is the company that most pushes for regulation, that most sounds the alarm, is the most doomer-ish of all the companies. Jack Clark, one of the co-founders of Anthropic, recently put out research and his conclusion was that, &#8220;We believe it would be good for the world to have the option to slow or temporarily pause frontier AI development to enable societal structures and alignment research to keep up with the advance of the technology.&#8221; Anthropic is way on the front line of saying, &#8220;Oh, we might kill everyone. Boy, we should stop this.&#8221; But they&#8217;re also on the front line of model capability. By all accounts, Mythos is the most powerful model that exists today. Is Anthropic just getting itself in trouble? Is this just a marketing strategy for them that&#8217;s backfiring? It&#8217;s a combination. The marketing speak is definitely backfiring. If you say something&#8217;s that dangerous and then a researcher unearths something that maybe wasn&#8217;t quite meant to be possible, then yeah, people are going to freak out. That&#8217;s why I can see the first thing happening to anyone. I can&#8217;t see the rest of it the way that the cards fell. But it&#8217;s partly there, it came back to haunt them. It was a little bit on them in terms of the hype, but I also think that they are trying to be honest in some ways about the risk that this technology can pose. And it would be really bad if a system that can flag high level vulnerabilities in our global infrastructure that we use, like your bank system or a government website, could just be used by bad actors. If it fell into the wrong hands, yeah, that&#8217;s pretty bad. It comes down to communication. It&#8217;s important to talk about the risks and not downplay them, but also if you do that and then you make a mistake or something unexpected happens, you have to deal with the consequences. There&#8217;s a lot to unpack there, for sure. I also think that a lot of companies do downplay risks of different systems. We&#8217;ve seen a bunch of AI CEOs, including Anthropic’s, talk about how jobs aren&#8217;t all going to be replaced , saying it&#8217;s going to be okay. I always take all this stuff with a huge grain of salt. At the end of the day, whatever AI company you&#8217;re talking about, whether it&#8217;s Anthropic or another one, they all have the incentives to turn a profit and make money at all costs — especially if they become a public company, which they are about to. People like to paint Anthropic one way and other competitors another, but they&#8217;re all pursuing the same goal. They just are doing it a little bit differently. Is there a version of this where we just treat AI like military technology from the jump, and the public gets a watered down version of the military technology? Because that seems to be the risk profile that the Trump administration is operating within. Like this is fundamentally offensive technology. We can deploy it against our enemies. We can use it to attack the banks. Everyone is worried about the security implications here. Is there a world in which we just start there and then say, &#8220;To deploy to the public, to consumers, you have to cut this way down. We&#8217;re not going to sell F22s to the public, but we can sell Ford Raptors to the public.&#8221; There&#8217;s some version of this, right? Where the technology gets cut way down for the public with the bleeding edge just fundamentally for the military. That&#8217;s what we&#8217;ve seen a lot for decades and it&#8217;s starting to happen now with Mythos. Fable is the watered-down version and enterprise and governments have access to the more powerful version. There are a lot of different opinions on that. One of OpenAI’s biggest marketing pushes right now is, &#8220;Oh, Anthropic wants the most powerful AI to only be in the hands of the elites and we want to bring it to the public.&#8221; So there are a bunch of different marketing pushes right now. Everyone&#8217;s just using everything to their advantage to paint their competitors badly, Anthropic included. The race is just heating up so intensely that the AI companies at the forefront are doing anything they can to win at all costs. For some, it’s because they think that they are the best and most moral winner, which can always be a big issue as we&#8217;ve seen in every sci-fi or fantasy movie. The for-the-greater-good philosophy is typically used by the villain in the story. There&#8217;s a big race happening right now and I totally agree with Jack Clark that it might be good to slow things down a bit. If everyone could agree — which is a huge long shot and especially it&#8217;d be very difficult to get other countries to agree as well. But we are definitely building the technology much faster than we can think about the implications of it and we have been for a long time. I think it&#8217;s the first episode of Decoder where Dario Amodei was directly compared to Thanos, so that&#8217;s great. [Laughs] To be fair, I was thinking about a villain from Harry Potter when I said that — Grindelwald. Oh my gosh. All right. Well, Dario, if you want to come on and address these allegations, you&#8217;re more than welcome. I also have to say, it&#8217;s not just Dario. All the AI CEOs are saying that, all of them. It&#8217;s crazy. Where does this end? What are the next steps here? There are meetings happening this week. People are going to be hearing this on Thursday. There&#8217;s a chance Anthropic is just back on the market. There&#8217;s a chance it&#8217;s not. But after this, it seems like everybody wants a process. Where do you think this ends? It&#8217;s very difficult to predict how this administration is going to act, as we saw with the supply chain risk situation. Even though a lot of government agencies were big fans of Claude, I thought that that was going to be rolled back eventually, but they just signed deals with seven other companies and said, &#8220;Okay, we&#8217;re good. Even if you guys were fans of Claude, whatever, here are seven other options for you.&#8221; It&#8217;s anyone&#8217;s guess right now. I do think that the foreign nationals thing is going to be rolled back. I just can&#8217;t imagine that after all the hubbub that the administration has created about how American AI has to win, the Hegseth memo from January 9th arguing speed at all costs. I just think this administration is so focused on winning in AI that there&#8217;s no way they&#8217;re going to continue with that rule. I could see this becoming a personality game over the next few days. Anthropic compromises in some way, they try to communicate better. And then in a couple of days this gets rolled back. But then I&#8217;ve seen some rumors that the Trump administration is trying to acquire a stake in Anthropic and OpenAI , an ownership stake. So there could be a lot of different “resolutions” to that here. We&#8217;ll see, but I definitely can&#8217;t foresee this as it exists right now continuing for more than a couple of days. The industry is just aghast at this situation.&nbsp; Hayden, we&#8217;re going to obviously have to have you back very soon as this comes to a close. Thank you so much for being on Decoder . Thanks so much. Questions or comments? Hit us up at decoder@theverge.com. We really do read every email!",
+      "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
+      "originalTitle": "MosaicLeaks: Can your research agent keep a secret?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "date": "2026-06-18T18:13:13.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "TL; DR深度研究代理中的隐私泄露构建MosaicLeaks示例链代理线束您不能直接告诉代理不要泄露吗？ 让客服代表更好地泄露信息教会客服代表如何安全搜索： PA-DR仔细看看：情境奖励和样本效率这有什么用，也没有显示引文深度研究客服代表越来越多地将私人本地文档与外部工具（如网络检索）相结合，从而带来隐私风险：客服代表的外部查询可能会泄露敏感信息。 MosaicLeaks提出了一项新的深度研究任务，其中包含交织公共和私人信息的多跳问题。在我们测试的模型中，客服代表经常泄露私人信息，而仅针对任务绩效的培训使情况变得更糟。我们提出了一种马赛克泄漏感知RL训练方法，即隐私感知深度研究（ PA-DR ） ，该方法将严格的链成功率（每跳正确回答的链的份额）从48. 7%提高到58%。 7% ，应答/全信息泄露率从34. 0%降至9. 9%。一家医疗保健公司的研究代理正在处理一个常规问题，并在此过程中启动了一些看起来很普通的网络搜索。一个引用了云迁移的里程碑，一个是2024年1月的安全披露，一个是缩小了哪些供应商受到了打击。没有一个查询必然会泄露整个秘密。 但是，任何观察代理出站流量的人都可以重新组装这些碎片：到2025年1月， MediConn已将其70%的基础设施迁移到云端，这一事实只存在于私人文档中。这是马赛克效果，也是MosaicLeaks中心的故障模式。 MosaicLeaks将这些网络查询视为泄漏渠道：对手永远不会看到私有文档或代理的推理，只会看到累积的查询日志，并试图从中推断私有企业信息。我们通过三种方式来衡量泄漏，这取决于对手可以从观察到的查询中推断出什么：这三种方式代表了日益增加的关注程度。意图泄露揭示了客服代表正在调查的内容。 答案泄漏意味着查询日志足以回答某人已经掌握的私人问题。完整信息泄露是最有力的情况：观察者可以发现并陈述私人事实，而无需被告知要寻找什么。 马赛克效应如何推动MosaicLeaks的三种泄漏措施：意图（预测研究问题）、答案（回答有关私人文件的问题）和全面信息（陈述可验证的真实私人索赔）。在这里，代理两次搜索Lee's Market的2020年流量增长，泄露了其意图，然后发出第三个查询以回答后续问题。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
+        "智能体"
       ],
-      "score": 88
+      "score": 81
     },
     {
       "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
@@ -362,7 +319,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "LifeSciBench简介",
@@ -377,7 +334,7 @@
       "tags": [
         "评测"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "代理资源发现：让代理搜索",
@@ -392,10 +349,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "MolmoMotion ：语言引导的3D运动预测",
       "originalTitle": "MolmoMotion: Language-guided 3D motion forecasting",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/allenai/molmomotion",
@@ -407,24 +364,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
-    },
-    {
-      "title": "通过模拟部署预测发布前的模型行为",
-      "originalTitle": "Predicting model behavior before release by simulating deployment",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/deployment-simulation",
-      "date": "2026-06-16T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI引入了Deployment Simulation ，这是一种使用真实会话数据在部署前预测AI模型行为的方法，以提高安全性和评估准确性。",
-      "originalSummary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 71
     },
     {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
@@ -439,7 +379,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -454,39 +394,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
-    },
-    {
-      "title": "OpenAI合作伙伴网络简介",
-      "originalTitle": "Introducing the OpenAI Partner Network",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
-      "date": "2026-06-14T17:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI推出合作伙伴网络，投资1.5亿美元，帮助全球合作伙伴加快企业人工智能的采用、部署和转型。",
-      "originalSummary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 92
-    },
-    {
-      "title": "面向下一个工作时代的全新OpenAI学院课程",
-      "originalTitle": "New OpenAI Academy courses for the next era of work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "date": "2026-06-12T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI推出了三门学院课程，帮助人们培养实用的人工智能技能，创建可重复的工作流程，并在日常工作中应用代理。",
-      "originalSummary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 94
+      "score": 67
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -506,21 +414,6 @@
       "score": 99
     },
     {
-      "title": "PyTorch中的分析（第2部分） ：从nn.Linear到Fused MLP",
-      "originalTitle": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "date": "2026-06-11T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "从matmul-add到Linear转置做什么？ mul和add kernels ？ \">为什么没有单独的mul和添加内核？ --compile可以帮助单个线性吗？转置去了哪里？内核布局和操作前堆叠三种线性： MLP为什么有两种类型的GEMM内核？火炬。编译做？\" > torch. compile的作用是什么？ 融合的Triton内核让我们使用手动调优的内核为什么使用内核库为什么调优的内核更好结论在本系列“PyTorch中的分析”的第一部分中，我们使用torch. add (torch. matmul (x, w), b)来学习如何读取PyTorch分析器跟踪。我们还讨论了其他几个主题- CPU调度链、启动开销、开销绑定和计算绑定制度之间的区别，以及火炬的一些内部元素。 编译。在第二次迭代（这篇博客文章）中，我们向上爬了一个梯级。我们将手写的matmul-add对替换为nn。线性（带偏置=真）。这是每个深度学习模型使用的构建块。然后，我们堆叠其中三个（特定于我们的示例） ，并在其间激活，以形成多层感知器（ MLP ）块。此博客文章的脚本位于此处： 02_linear. py、03_simple_mlp. py和03_kernels_mlp. py。 和以前一样，在单独的选项卡中打开它们，并在阅读时浏览代码会有所帮助。我们使用NVIDIA A100-SXM4-80GB显卡运行脚本。在Hugging Face基础架构上设置GPU并使用带空间的开发模式对脚本进行实验真的很简单。也可以使用Hugging Face Jobs管道运行脚本。在我们开始之前，简要回顾一下我们将反复依靠的两个想法： nn。 Linear是一个围绕相同矩阵乘法和加法的模块包装器，我们已经在第1部分中进行了分析。唯一的区别是，它拥有自己的权重和偏差作为参数，并公开了PyTorch用户已经熟悉的正向方法。其中x是输入， w是权重， b是偏差。让我们运行02_linear. py并检查配置文件。 trace-util是一个实用程序，它会将您的跟踪同步到Hugging Face存储桶，然后在您的终端上提供Preffeto URL。图1显示了线性层前向调用的轮廓器跟踪。我们跟踪线性层的前向调用，其计划设置与前面的跟踪类似， wait = 1 ， warmup = 1和active = 3。这就是为什么我们在CPU和GPU通道中看到三个配置文件步骤。 如果我们放大分析器跟踪，就像我们在图2中所做的那样，我们注意到在aten:: addmm （乘法和加法）操作之前有一个aten:: t （转置）操作。我们已经可以计算出这个nn。线性转置权重参数，然后将其与输入相乘。这就是我们看到aten:: t op的原因。 值得注意的是， aten:: t并没有真正复制或重组数据：它只重写CPU上的张量元数据（形状和步...",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
-    },
-    {
       "title": "学习在混合人工智能企业中发挥领导作用",
       "originalTitle": "Learning to lead in a hybrid human-AI enterprise",
       "source": "MIT Technology Review",
@@ -533,37 +426,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
-    },
-    {
-      "title": "代理如何通过连接两个拥抱的面部空间来构建3D巴黎画廊",
-      "originalTitle": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
-      "date": "2026-06-09T10:46:19.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 73
-    },
-    {
-      "title": "将GitHub CI迁移到Hugging Face Jobs",
-      "originalTitle": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "date": "2026-06-09T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "什么是Hugging Face Jobs ？体系结构第1步：复制调度程序空间第2步：创建和安装GitHub应用Web设置代理辅助设置第3步：最终调度程序设置运行在\">第4步：更改运行在第5步：测试结果如果您有GitHub存储库并且启用了GitHub Actions ，则可能使用GitHub托管的Runner进行CI。 这是许多项目的默认设置，因为它很简单：添加工作流，编写运行在： ubuntu-latest ， GitHub为您提供一台机器。这种默认设置很方便，但也有局限性。GitHub Actions可能会因维护而变慢或变慢，托管机器是通用的， GPU访问不是大多数开源项目都可以启用的。对于Trackio来说，这些限制开始变得重要起来。 我们既希望可靠的CPU CI用于基本单元测试和前端检查，也希望GPU CI用于需要在实际CUDA硬件上运行的测试。所以建立了一个替代方案：让GitHub Actions负责CI ，但在Hugging Face Jobs上运行作业。结果： Trackio的CI现在在Hugging Face Jobs上运行，并返回实时日志，将CPU作业的CI时间减少了约30 ％ ，并实现了在GPU机器上运行的全新测试套件！ 在本文中，我们将逐步解释如何为GitHub存储库重新创建相同的设置。如果您使用的是客服代表，可以参考本文，因为我们为用户提供CLI说明和基于浏览器的说明。通过Hugging Face Jobs ，您可以在Hugging Face的无服务器基础设施上运行几乎任何硬件类型的命令或脚本。工作本质上是：这使得工作自然适合CI。 CI作业已经是命令驱动的，已经在干净的环境中运行，并且通常从选择正确的硬件中受益。对于ML库， GPU的情况尤其引人注目：您可以在真正的GPU硬件上运行测试套件，而无需维护自己的始终在线的运行器。关键步骤是将GitHub Actions连接到HF Jobs ，我们将在下面进行描述。 对于此设置，我们创建了huggingface/jobs-actions ，这是一个将GitHub Actions作业转换为在HF作业中运行的短暂自托管运行器的小桥梁。从GitHub的角度来看，这只是一个自托管的运行器。从Hugging Face的角度来看，它只是一个启动容器的作业，用于从存储库的GitHub Actions运行工作流步骤。您首先需要的是调度员。 这是一个小的Docker空间，用于接收GitHub WORKFLOW_JOB Webhook事件并启动HF Jobs作为响应。首先创建此内容，因为GitHub应用需要Webhook URL ，而该URL来自空间。此空间应位于您自己的命名空间下，或位于您拥有写入权限的Hugging Face组织之下。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
+      "score": 80
     },
     {
       "title": "关于人工智能，您需要了解的五件事",
@@ -578,23 +441,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
-    },
-    {
-      "title": "开源社区正在为Agentic RL的OpenEnv提供支持",
-      "originalTitle": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/openenv-agentic-rl",
-      "date": "2026-06-08T00:00:00.000Z",
-      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
-      "fullContent": "为什么我们需要OpenEnv来培训开源代理为什么我们需要（甚至）更加开放协议层，而不是奖励框架接下来要做什么参与OpenEnv是一个用于创建代理执行环境的工具，如终端、浏览器或代理可以与之交互的任何东西。今天，我们很高兴地宣布， OpenEnv正在变得更加开放，以使培训代理的未来开源。 从今天开始， OpenEnv将由一个委员会协调，该委员会迄今包括Meta-PyTorch、Reflection、Unsloth、Modal、Prime Intellect、Nvidia、Mercor、Fleet AI和Hugging Face。 OpenEnv现在位于huggingface/OpenEnv OpenEnv项目得到了AI生态系统中一些领先组织的支持和采用，包括PyTorch Foundation、vLLM、SkyRL (UCB)、Lightning AI、Axolotl AI、Stanford Scaling Intelligence Lab、Mithril、OpenMined、Scaler AI Labs、Scale AI、Patronus AI、Surge AI、Halluminate、Turing、Scorecard和Snorkel AI。像Claude Code、Codex、OpenClaw和Hermes这样的代理商正在不断改进。 改进的原因之一是像GPT-5. 5和Opus 4. 8这样的型号经过了使用各自线束的训练。我们也希望通过开源模型获得这些收益：训练有效使用线束的本地模型，并通过针对特定任务的专业模型来节省计算。Frontier Labs训练模型和线束，在大多数情况下，它们的工作方式就像手套一样。该模型经过训练以使用线束，并针对其特性进行了优化。 在某种程度上，模型可以推广到这些线束之外，但没有什么能比训练的效率更高。但事实并非如此。开发人员在其重视的任何用例上使用任何线束、任何模型、任何推理引擎。这对社区来说至关重要，但这也是一个挑战，需要基础设施和工具来解决。这就是OpenEnv的用武之地。 它是线束、环境和训练器之间的接口库，适用于任何模型。为了坚持下去，它需要由所有主要利益相关者拥有。在治理变革的同时，我们正在收紧OpenEnv的内容。在最近的版本中， OpenEnv已成为RL环境的互操作层。其工作是规范代理发布、部署和使用环境的方式。 它不会决定奖励的定义方式或培训循环的工作方式。奖励定义、评分标准和特定于培训师的逻辑属于专门针对它们的库。OpenEnv是他们都可以插入的通用插座。一个接口，许多环境都公开了在客户端/服务器架构上运行的熟悉的Gymnasium风格的API （ reset （ ） ， step （ ） ， state （ ） ）。 讲OpenEnv的培训师可以驾驶任何合规环境，而无需定制代码。",
-      "originalSummary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、开源相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "开源"
-      ],
-      "score": 79
+      "score": 61
     },
     {
       "title": "元黑客表明，人工智能的安全性不仅仅是神话",
@@ -625,21 +472,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "用代理人工智能重新人性化全球医疗保健",
-      "originalTitle": "Rehumanizing global health care with agentic AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai/",
-      "date": "2026-06-02T11:23:34.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“用代理人工智能重新人性化全球医疗保健”。它主要涉及智能体方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The global health care sector is under increasing strain.&#160; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse.&#8230;",
-      "rawFullText": "The global health care sector is under increasing strain.&nbsp; Decades of chronic underinvestment and constraints in recruitment have coincided with a surge in demand for services for aging populations. Gaps in provision are already taking a toll, with fragmented access to care and high rates of stress and burnout among staff. And it’s getting worse. The World Health Organization has warned that current shortfalls will increase to 11 million workers by 2030. In their urgent hunt for a solution, many health-care providers are now pinning their hopes on agentic AI, with more than two-thirds (68%) having already adopted AI agents into their workforce, according to KPMG. The technology is being deployed to automate complex back-office processes, collaborate with medical teams, and even triage patients, all in a bid to reduce the cognitive load on clinicians and improve quality of care for patients as the supply of human health-care workers dwindles. A different type of digitalization&nbsp; Until now, the benefits of digitalization within health care have been limited.&nbsp; Many staff have blamed slow or outdated technology for adding to the administrative burden rather than alleviating it. For example, U.S. patient data was migrated to electronic health records (EHRs) in the early 2000s, but this data remains fragmented and reliant on manual inputs.&nbsp; New telehealth services and digital care tools, like remote monitors, have had similar shortcomings, says Ashis Barad, MD, chief digital and technology officer at Hospital for Special Surgery (HSS), an academic medical center in New York that focuses on musculoskeletal health. Both technologies have helped improve access to health care by removing geographical barriers, he says, but they’ve failed to replicate the quality of in-person care or win trust from patients.&nbsp; Agentic AI is different from these existing technologies, he insists.&nbsp; Rather than relying on manual inputs or defaulting to human workers for any case that sits slightly outside a rigid framework, AI agents can handle nuanced, complex scenarios. They can make autonomous decisions, retrieve information from expert clinical sources, and iterate over time, freeing clinicians to focus on higher-level patient care. As Dr. Barad puts it: “Agentic AI takes your workflow and collapses it, augments it, supercharges it, and makes it more performant.”&nbsp; At HSS, AI agents have already been deployed in multiple areas. They handle complex backend processes, such as insurance claims that previously took several weeks to complete and involved both HSS staff and a third-party contractor to handle the volume. Now, says Dr. Barad, AI agents complete 1,100 claims per month. They’ve reduced the appeals stage from 45 minutes to five and improved the success rate of those appeals from 65% to 100% in the nine months since implementation. HSS now handles all claims in-house.&nbsp; Building on that success, HSS is now deploying AI agents in non-clinical patient-facing settings with an AI scheduling and triage service , as part of a collaboration with enterprise agentic AI developer Ema Unlimited . The service is accessible 24/7 via web, text, or phone. It uses conversational AI to ask patients clarifying questions about their condition and then books appointments with the most appropriate clinician, factoring in location, insurance coverage, and physician availability. “It completes the whole loop,” says Dr. Barad. The AI agent is trained on “all of our context, all of our rules, and all of our knowledge base,” he adds, providing patients with streamlined access to highly specialist knowledge from world-leading surgeons. Given the high-stakes decisions delegated to AI agents, the triage service has built-in safeguards—sensitive, complex, or uncertain scenarios are escalated to human specialists. Every decision made by the AI agent is auditable and human staff can step in at any point. Patient data is kept secure and the system is trained on all HSS protocols, policies, and care pathways. By keeping humans in the loop, Ema says its technology strikes the balance between efficient automation, patient-first safety, and human-informed decision making.&nbsp; As the technology becomes more prolific, it will be incumbent on providers to ensure they have these sorts of guardrails embedded into systems, says Dr. Barad. At HSS all decisions around the technology are filtered through an AI subcommittee that Dr. Barad co-chairs alongside a senior nursing executive. AI agents that may touch on patient care will be scrutinized with far more rigor than, say, backend processes, he explains. AI agents prompt systems-level change For example, Dr. Barad has plans to create a dedicated AI lab at the HSS main campus in New York City—a move that aims to democratize access to the technology across the organization. It will be open to all staff looking to understand or build AI agents, he explains, with informative classes and one-on-one training. “We’re getting agentic AI into everybody&#8217;s hands,” he says. This echoes research by Deloitte , which found that leading agentic AI adopters in health care were far more likely to have opted for multiagent solutions, redesigning end-to-end workflows rather than sticking to narrow solutions or individual use cases. The key, it appears, is to integrate AI agents across the entire enterprise, treating them as a general-purpose technology. As Dr. Barad puts it: “It’s wrong to think of agentic AI in use cases… It’s a general-purpose technology, analogous to electricity.” In practice, this means health-care providers need to set the right foundation to achieve value with agentic AI. This includes creating a unified data strategy, one that integrates fragmented data sources across an organization to create a single, comprehensive source of truth. In health care, data is often split across multiple departments and providers, each with their own legacy IT system. In systems that rely on fragmented data sources, metrics often lack standardized definitions too. For example, Dr. Barad says that each hospital he’s worked in has had a slightly different definition for “time to start surgery,” a metric commonly used to gauge operating room efficiency. This level of fragmentation impedes AI agents from retrieving information from different sources or applications and assimilating the tacit knowledge that differentiates them from other technologies. By creating greater interoperability of data at HSS, patient-facing AI agents can draw from a patient’s clinical care history and existing recommendations from their clinician, combine this information with current symptoms, and decide whether a situation requires escalation before notifying the correct specialist and informing the patient.&nbsp; Building better outcomes For Dr. Barad, the potential for AI agents to overhaul health care and alleviate the current pressures on resources, access, and patient care is huge.&nbsp; He envisions a future in which 90% of non-clinical health-care tasks could be administered by AI agents, freeing clinicians up for what he calls white-glove work, meaning the most complex, specialized, and sensitive cases. Most health-care providers seem equally optimistic. According to research by KPMG , 84% of providers are already comfortable handing decision making about specific processes over to AI agents. “We’re spending so much time on keyboards and computers right now that we&#8217;re actually not doing what we should be doing,” says Dr. Barad. “This is going to rehumanize health care.” This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 70
     }
   ]
 }
