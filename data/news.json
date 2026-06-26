@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T00:18:05.559Z",
+  "updatedAt": "2026-06-26T00:15:52.244Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,34 +19,100 @@
   ],
   "articles": [
     {
-      "title": "欧洲正在抵制华盛顿的芯片战争",
-      "originalTitle": "Europe is pushing back on Washington&#8217;s chip war",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/24/europe-is-pushing-back-on-washingtons-chip-war/",
-      "date": "2026-06-25T00:08:36.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "正如ASML首席执行官Christophe Fouquet在5月份告诉TechCrunch的那样，中国目前可以购买的是老一代的深紫外线工具—大约十年前首次出货的装备—与MATCH ACT现在推出限制相同的机器。",
-      "originalSummary": "As ASML CEO Christophe Fouquet told TechCrunch in May, what China can currently buy are older-generation deep ultraviolet tools — gear first shipped about a decade ago — the same machines the MATCH Act would now put off limits.",
+      "title": "在一个命令中在高频作业上运行vLLM服务器",
+      "originalTitle": "Run a vLLM Server on HF Jobs in One Command",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/vllm-jobs",
+      "date": "2026-06-26T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "先决条件从任何地方启动服务器查询清理更进一步：更大的模型更进一步：在UI中与其聊天更进一步： SSH进入正在运行的服务器更进一步：将其用作Pi HF作业或推理端点的编码代理后端？进一步阅读您可以使用单个命令在Hugging Face基础设施上启动一个私有的、兼容OpenAI的LLM端点—无需配置服务器，无需Kubernetes ，按秒付费。 完成后，您可以从笔记本电脑、笔记本电脑或其他任何地方进行查询。这是为测试、回收或批量生成建立模型的最快方法。（如果您追求的是托管的、生产就绪的服务，这就是推断端点的用途--更多的是何时选择最终的。） hf作业运行是针对HF基础设施的docker运行。 我们使用官方的vllm/vllm-openai映像，要求使用--flavor的GPU ，并使用--expose: --expose 8000公开vLLM的端口，通过HF的公共作业代理路由容器的端口（完整参考请参阅服务模型指南）。该命令打印您的服务器可访问的URL ： 6a381ca1953ed90bfb947332是您的作业ID。跟踪它，我们需要它。我们将在帖子的其余部分将其用作占位符。 给它几分钟时间下载重量和启动。当日志显示应用程序启动完成时，您即处于实时状态。vLLM使用OpenAI API ，每个请求只需要您的HF令牌作为不记名令牌。点击它的最快方法是curl ：它返回通常的OpenAI样式的JSON ，带有选项[0]。message. content持有“Hello ！我今天能为您提供什么帮助？😊”。 或者，从Python中，将OpenAI客户端指向暴露的URL ，并将令牌作为API密钥传递：启动前快速运行状况检查: curl https://--8000. hf. jobs/v1/models -H \"Authorization: Bearer $ (hf auth token)\"应列出模型。终结🔐点是门控的，而不是公共的。每个请求都必须携带具有对作业命名空间的读取访问权限的HF令牌。普通浏览器访问将被拒绝。 实际上，作业代理是您的API门户：访问权限仅限于您（和您的组织）。这对于私人使用来说是可以的，但请相应地对待URL ：不要期望它打开，也不要将您的令牌粘贴到不受信任的地方。如果您需要更细粒度或公共访问，请在前面放置适当的网关。或查看下面的HF作业或推断端点？。作业按秒计费，因此完成后请停止服务器：",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "算力芯片"
+        "AI 热点"
       ],
-      "score": 83
+      "score": 77
     },
     {
-      "title": "OpenAI推出首款AI处理器： Jalapeño",
-      "originalTitle": "OpenAI reveals its first AI processor: Jalapeño",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "date": "2026-06-24T14:36:47.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
-      "fullContent": "OpenAI刚刚发布了一款新的“智能处理器”芯片，用于与Broadcom合作制造的人工智能服务器。根据周三的公告，这款名为Jalapeño的芯片旨在为当前和未来的大型语言模型提供支持。Jalapeño是一种ASIC （专用集成电路） ，这意味着它专为特定目的而设计：人工智能推理。 通过人工智能推断，模型处理用户运行像Codex这样的代理或提供来自ChatGPT的响应的请求，而人工智能培训涉及消耗大量数据的模型，以便为其响应提供信息。就在9个月前， OpenAI透露它将与Br合作……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI [&#8230;]",
-      "rawFullText": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&ntilde;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&ntilde;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI inference, models process a user's request to run an agent like Codex or offer a response from ChatGPT, while AI training involves a model consuming vast amounts of data to inform its responses. It comes just nine months after OpenAI revealed that it would team up with Br … Read the full story at The Verge.",
+      "title": "白宫要求OpenAI出于安全考虑，放慢推出新车型的步伐",
+      "originalTitle": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "date": "2026-06-25T23:34:39.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。据报道， OpenAI发布的最新型号GPT 5. 6将与之前的版本不同。 据The Information报道，该公司计划仅与特朗普政府指示的一群精选的亲密合作伙伴共享，而不是将其分发给公众。据报道，在本周的一次会议上，首席执行官Sam Altman告诉员工，政府将在预览期间“按客户批准访问客户”。 据报道，奥尔特曼补充说，如果有限的发布进展顺利， OpenAI希望在“几周后”推出一个更广泛的通用版本。换句话说，特朗普政府似乎在向OpenAI施压，要求其做Anthropic已经自愿做的事情：对其最强大的人工智能模型进行保密。 根据The Information ， OpenAI的新模式不仅正在由政府审查，而且其工作人员还在即将发布的版本上与政府“密切合作”。据报道，要求有限释放的机构是国家网络总监办公室和科技政策办公室。 特朗普政府最初将自己定位为对人工智能采取“放手”的方式，最近几个月一直在推动联邦政府对新模式的监督。本月早些时候，特朗普签署了一项行政命令，指示某些人工智能公司在公开发布新模型之前，自愿向政府提交新模型进行测试和评估。 今年早些时候，当Anthropic宣布其新的前沿网络模型Claude Mythos仅通过名为Project Glasswing的项目向一小部分合作伙伴发布时，引发了不小的争议。Anthropic认为，它的模型太过强大，可能在错误的人手中造成更多的伤害而不是好处。 此后，观察家们一直在争论Anthropic的言论是否仅仅是一种营销噱头，还是一种防止强大模型被滥用的合法企图。答案可能介于两者之间。网络犯罪分子长期以来一直使用自动化工具，但在人工智能时代，他们现在拥有的数字弹药比以往任何时候都多。LLM已被证明擅长编写恶意软件，有些甚至可以自主执行整个勒索软件攻击。 对Mythos等前沿网络工具的具体担忧是，它们表面上能够以任何人类分析师无法比拟的速度识别和利用软件漏洞。由于许多软件系统包含隐藏的漏洞，这些漏洞充当进入企业网络的入口点，这显然给任何运行复杂软件基础设施的组织带来了明显而重大的问题。",
+      "originalSummary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "rawFullText": "",
       "tags": [
+        "大模型",
         "公司动态",
-        "算力芯片",
-        "模型"
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI将在特朗普政府要求后推迟GPT-5.6",
+      "originalTitle": "OpenAI will delay GPT-5.6 after Trump administration request",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+      "date": "2026-06-25T21:57:06.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "据报道，特朗普政府担心潜在的安全问题，已要求OpenAI错开其下一个大型机型GPT-5的发布。6.据报道， OpenAI首席执行官Sam Altman周三在一家公司的问答中告诉员工，根据联邦政府的要求，它将以有限的预览形式发布GPT-5. 6 -仅向一小部分企业客户授予访问权限。 据报道，在此预览期间，特朗普政府本身将根据具体情况批准客户的访问权限。这比特朗普政府给OpenAI的竞争对手Anthropic更有利……阅读The Verge的完整故事。",
+      "originalSummary": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&#38;A that it would release GPT-5.6 in limited preview form - granting access only to a small group of [&#8230;]",
+      "rawFullText": "The Trump administration, apprehensive of potential security issues, has reportedly asked OpenAI to stagger the release of its next big-ticket model, GPT-5.6. The Information reported that OpenAI CEO Sam Altman told employees Wednesday in a company Q&A that it would release GPT-5.6 in limited preview form - granting access only to a small group of enterprise customers - in compliance with a request from the federal government. During that preview period, the Trump administration itself would reportedly approve access for customers on a case-by-case basis. It's a more favorable deal than the Trump administration gave OpenAI rival Anthropic … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic的Claude正在赢得由ChatGPT拥有的付费消费者的青睐",
+      "originalTitle": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "date": "2026-06-25T17:38:27.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。现在注册。支付人工智能的消费者越来越多地选择Anthropic的Claude ，来自信用卡交易分析公司Indagari的趋势数据显示。 这是一个迹象，表明人工智能实验室拥有的客户群比它通常被认为占据的利基市场更广泛、更健康--使用Claude Code的企业和初创公司开发人员。Indagari分析了来自约2800万美国消费者的数十亿匿名信用卡交易。因此，虽然这些数据不能给我们提供有关Anthropic的收入或总客户的绝对数字，但这是一个足够大的抽样来发现趋势。 在人类的情况下，趋势是向上和向右。我们分析的数据涵盖了2025年至2026年5月10日的每周交易，包括订阅和API代币等项目的付款。它显示， Claude的付费消费者和收入逐月增长，自2026年1月以来，该细分市场目前增长了约75%。 值得注意的是，即使在3月份该公司看到消费者的增长飙升之后，这种增长仍在继续，当时该公司拒绝让特朗普政府将其模型用于对美国人和自主武器的大规模监视。Claude越来越受消费者欢迎的另一个指标来自DataCamp ，这是一个向消费者和企业员工教授人工智能技能的在线教育平台，拥有约2000万用户。 自今年年初以来， DataCamp的消费者对Claude的兴趣激增。DataCamp告诉TechCrunch ， “Claude”现在是其网站上搜索量最大的术语，甚至超过了“AI”一词。虽然ChatGPT课程在进行企业培训的企业中仍然更受欢迎，但该公司表示，在自我指导的消费者中，对Claude课程的需求比ChatGPT快三倍。 它说，仅在过去的30天里，对Claude课程的需求就增长了18倍。尽管如此，尽管克劳德的增长令人印象深刻，但从各方面来看， ChatGPT仍然是最受消费者欢迎的人工智能。",
+      "originalSummary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "General Intuition的$ 23亿押注，视频游戏可以为现实世界训练人工智能代理",
+      "originalTitle": "General Intuition&#8217;s $2.3B bet that video games can train AI agents for the real world",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "date": "2026-06-25T16:55:00.000Z",
+      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、视频生成相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。当我进入General Intuition在纽约办事处的研发楼层时，该公司31岁的联合创始人兼首席执行官Pim de Witte将我的注意力引向了站在桌子上的显示器。 似乎有人在玩《堡垒之夜》之类的游戏。那不是一个人。“我们的经纪人已经连续玩了100个小时，”该公司的首席产品官肯特·罗林斯（ Kent Rollins ）笑着说。在我沉浸在人工智能导航游戏虚拟环境的奇观中之前，我听到了一个大型四足机器人的电子脚步声。 “为玩游戏的代理人提供动力的同一个大脑正在为机器人提供动力，” de Witte告诉我。数据分析师乔什·杜普兰蒂斯（ Josh Duplantis ）携带一台笔记本电脑，从机器人的单个摄像头流式传输实时信息，他解释说，机器人的默认模式是“探索”。“依靠那个摄像头，它那奇异的眼睛，巨型虫状机器人向我走来，在我周围盘旋，继续走进办公室。 它偶尔会夹住椅子的腿，或者撞到一个乱七八糟的垃圾箱里，就像一个还不知道自己的身体与周围世界的关系的小孩。Duplantis说，为四足动物微调人工智能模型只需要8分钟的现实世界机器人数据。更重要的是，这些数据是在街道上收集的，而不是在机器人目前正在自行导航的办公室内收集的。 可以从游戏玩法到模拟再到具体化推广的代理模型是General Intuition的存在理由。该模型在世界上占有一席之地的能力已经获得了一些重量级击球手的支持。周四， General Intuition表示，它以23亿美元的估值筹集了3.2亿美元，证实了TechCrunch之前的报道。 该轮融资使General Intuition披露的资金总额达到4.54亿美元，此前该公司在去年10月推出时筹集了1.34亿美元。这家初创公司是从de Witte的另一家公司Medal分拆出来的，该公司允许游戏玩家上传和分享视频游戏剪辑。 数亿小时的上传游戏提供了初始数据集，用于在时空推理中训练General Intuition的模型—或了解如何在空间和时间中移动。但关键因素不是游戏画面；而是嵌入在这些片段中的动作标签：玩家准确按下哪些按钮以及何时按下的记录。 De Witte说，大多数竞争对手都试图仅从视频中推断行动，他认为这是不够的。",
+      "originalSummary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "视频生成"
+      ],
+      "score": 99
+    },
+    {
+      "title": "项目自动世界：实现神经关系推理器的自动化基准测试",
+      "originalTitle": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.24965",
+      "date": "2026-06-25T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 24965v1 Announce Type: new Abstract:关系结构的推理对神经模型来说仍然是一个重大挑战，特别是当它们必须系统地将学到的知识应用于比训练中更难的问题实例时。评估这种概括的难度阻碍了进展，因为先验地，很少清楚是什么使实例变得困难。 我们研究如何通过使用大型语言模型（ LLM ）来自动生成基准来解决这个问题，学习以端到端的方式生成越来越具有挑战性的实例。具体来说，给定一个由Datalog规则参数化的世界，并使用边缘变换器作为推理评估器，我们使用LLM驱动的进化搜索（基于FunSearch ）和自主代理搜索来发现产生难题实例的采样函数。 我们还表明，边缘变换器可以使用这些数据进行改进，使其能够很好地推广到进一步的数据扰动。最后，我们证明了同样的机制可以应用于LLM提出的新世界，为神经关系推理的自主研究打开了大门。",
+      "originalSummary": "arXiv:2606.24965v1 Announce Type: new Abstract: Reasoning about relational structures remains a significant challenge for neural models, particularly when they must systematically apply learned knowledge to problem instances that are harder than those seen in training. Progress is hampered by the difficulty of evaluating such generalization, since a priori, it is rarely clear what makes an instance hard. We study how this issue can be addressed by using large language models (LLMs) to automate benchmark generation, learning to produce increasingly challenging instances in an end-to-end manner. Concretely, given a world parametrized by Datalog rules, and an Edge Transformer as the reasoning evaluator, we use LLM-driven evolutionary search (based on FunSearch) and autonomous agentic search to discover sampling functions that yield hard problem instances. We also show that the Edge Transformer can be improved using this data such that it generalizes well to further data perturbations. Finally, we show that the same machinery can be applied to novel worlds proposed by LLMs, opening the door to autonomous research on neural relational reasoning.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
       ],
       "score": 99
     },
@@ -67,55 +133,67 @@
       "score": 99
     },
     {
-      "title": "神经符号驱动：基于规则的VLA驱动忠实推理",
-      "originalTitle": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.23938",
-      "date": "2026-06-24T04:00:00.000Z",
-      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
-      "fullContent": "arXiv: 2606. 23938v1 Announce Type: new Abstract: Driving VLA models incorporated Chain-of-Thought (CoT) reasoning很有吸引力，因为它们利用了预先训练的VLM表示，并以自然语言暴露了中间决策，但目前的理论常常缺乏与计划的运动保持因果关系所需的逐步决策语义。 我们引入了神经符号驱动（ Neuro-Symbolic Drive ） ，这是一个神经符号驱动框架，它使用直接从经典的基于规则的规划器中提取的基于规则的推理轨迹来监督驾驶VLA。我们的主要观察是，基于规则的规划者是已经作为可执行推理引擎的象征性人工智能系统：他们对主动安全约束进行推理，搜索候选机动，并选择最终轨迹。 我们将这些规划人员用于模拟，以在每个规则评估步骤中捕获已执行的轨迹和内部决策跟踪。每个轨迹都被序列化为结构化的规则基础推理，并与轨迹配对，以微调Qwen3. 5-4B作为驱动VLA。 由于这些轨迹直接来自确定动作的规划器状态，因此它们确保推理在结构上通过构造而不是事后对齐来耦合到运动生成。在我们的模拟器生成的基准上，详细的规则基础推理将三相机感知下的ADE @ 3s从0. 47降至0. 26 ，未命中率从8. 30%降至6. 40% ，八相机感知下的ADE @ 3s从0. 54降至0. 26 ， ADE @ 3s从10. 13降至5. 99%。 因此，神经符号驱动将神经符号规划逻辑转换为结构化监督。代码库： https://github. com/XiangboGaoBarry/Neural-Symbolic-Drive。",
-      "originalSummary": "arXiv:2606.23938v1 Announce Type: new Abstract: Driving VLA models incorporating Chain-of-Thought (CoT) reasoning are attractive because they leverage pretrained VLM representations and expose intermediate decisions in natural language, yet current rationales often lack the step-by-step decision semantics needed to keep the rationale causally connected to the planned motion. We introduce Neuro-Symbolic Drive, a neuro-symbolic driving framework that supervises a driving VLA with rule-grounded reasoning traces extracted directly from classical rule-based planners. Our key observation is that rule-based planners are symbolic AI systems that already function as executable reasoning engines: they reason about active safety constraints, search over candidate maneuvers, and select a final trajectory. We instrument these planners in simulation to capture both the executed trajectory and the internal decision trace at each rule-evaluation step. Each trace is serialized into structured rule-grounded reasoning and paired with the trajectory to fine-tune Qwen3.5-4B as a driving VLA. Because these traces are derived directly from the planner states that determine the action, they ensure reasoning is structurally coupled to motion generation by construction, rather than by post-hoc alignment. On our simulator-generated benchmark, detailed rule-grounded reasoning reduces ADE@3s from 0.47 to 0.26 and miss rate from 8.30% to 6.40% under three-camera perception, and from 0.54 to 0.26 and 10.13% to 5.99% under eight-camera perception. Neuro-Symbolic Drive thus converts neuro-symbolic planning logic into structured supervision. Code base: https://github.com/XiangboGaoBarry/Neural-Symbolic-Drive.",
-      "rawFullText": "",
+      "title": "OpenAI推出首款AI处理器： Jalapeño",
+      "originalTitle": "OpenAI reveals its first AI processor: Jalapeño",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+      "date": "2026-06-24T14:36:47.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
+      "fullContent": "OpenAI刚刚发布了一款新的“智能处理器”芯片，用于与Broadcom合作制造的人工智能服务器。根据周三的公告，这款名为Jalapeño的芯片旨在为当前和未来的大型语言模型提供支持。Jalapeño是一种ASIC （专用集成电路） ，这意味着它专为特定目的而设计：人工智能推理。 通过人工智能推断，模型处理用户运行像Codex这样的代理或提供来自ChatGPT的响应的请求，而人工智能培训涉及消耗大量数据的模型，以便为其响应提供信息。就在9个月前， OpenAI透露它将与Br合作……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI [&#8230;]",
+      "rawFullText": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&ntilde;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&ntilde;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI inference, models process a user's request to run an agent like Codex or offer a response from ChatGPT, while AI training involves a model consuming vast amounts of data to inform its responses. It comes just nine months after OpenAI revealed that it would team up with Br … Read the full story at The Verge.",
       "tags": [
-        "推理",
-        "安全",
-        "评测"
+        "公司动态",
+        "算力芯片",
+        "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "代理模型批判",
-      "originalTitle": "Critique of Agent Model",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.23991",
-      "date": "2026-06-24T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 23991v1公告类型： new摘要：什么是代理？什么是机构？ 随着作为“编码代理”、“人工智能共同科学家”和其他“代理”工具销售的大型语言模型（ LLM ）系统的兴起，这些工具有望提高生产力，同时， “存在”的担忧，例如人工智能在投机性的“机器代理”下以破坏性的力量逃避人类的控制，澄清自动化的终点和代理的起点变得至关重要，无论是为了构建功能强大的系统，还是为了了解 借鉴笛卡尔在独立思考中的代理基础，以及科幻小说中对自主生物的描绘，我们调查了人工智能智能体的当前格局，并从目标、身份、决策、自我调节和学习五个维度分析了智能体的架构。具体而言，我们认为，真正的代理要求这些结构\\ emph {系统内部化} ，而不是通过外部脚手架组装。 \\ emph {agentic}系统和\\ emph {agentive}系统之间的区别在于，\\ emph {agentic}系统的能力（包括社交互动）是内生的，它们定义了为规定任务设计的系统与能够在开放世界中真正自主运行的系统之间的界限。 在此分析的基础上，我们提出了通用代理模型的目标-身份-配置（ GIC ）架构，结合了分层目标分解、身份进化、基于单独训练的世界模型的模拟推理、学习的自我调节以及从真实和模拟经验中进行的自我导向学习。 此外，我们分享了对具有更大自主权和“代理”但仍处于人为监督之下的代理系统的可审计性、可控性和安全性的见解。",
-      "originalSummary": "arXiv:2606.23991v1 Announce Type: new Abstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genuine agency requires these structures to be \\emph{internalized within the system itself} rather than assembled through external scaffolding. This distinction between \\emph{agentic} systems, whose competence resides in engineered workflows, and \\emph{agentive} systems, whose capabilities (including social interaction) arise endogenously, defines the boundary between systems designed for prescribed tasks, and those capable of operating in the open world with true autonomy. Building on this analysis, we propose the Goal-Identity-Configurator (GIC) architecture for a general-purpose agent model, combining hierarchical goal decomposition, identity evolution, simulative reasoning grounded in a separately trained world model, learned self-regulation, and self-directed learning from both real and simulated experience. Furthermore, we share insight on the auditability, controllability, and safety of agentive systems that possess greater autonomy and ``agency\", but remain under human oversight.",
-      "rawFullText": "",
+      "title": "对Alex Bores的$ 2700万Al代理权之战以平局告终",
+      "originalTitle": "The $27 million Al proxy war over Alex Bores ends in a draw",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+      "date": "2026-06-24T17:25:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "2026年6月23日， Micah Lasher将在纽约州第12届国会选区接替众议员Jerry Nadler （ D-NY ） ，此后， Alex Bores （ D-NY ）在The Freehand Hotel参加了他的监视派对。|照片由Laura Brett/Getty Images提供。 昨晚，当纽约州议员亚历克斯·博尔斯（ Alex Bores ）成为亲AI超级PAC的目标后，其知名度飙升时， Anthropic和OpenAI之间昂贵的2700万美元的政治代理人战争取得了平局。民主党初选代表纽约第12届国会选区。 在比赛之前，前科技行业员工Bores共同撰写并成功通过了备受瞩目的RAISE法案，该法案对前沿人工智能公司实施了护栏和安全要求；他的法案的一个版本于去年签署成为州法律。但这项立法引发了对Leading the Future的愤怒，一笔$ 1亿的苏……阅读The Verge的完整故事。",
+      "originalSummary": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional district. Prior to the race, Bores, a former [&#8230;]",
+      "rawFullText": "Alex Bores (D-NY) enters his watch party at The Freehand Hotel after conceding the congressional race to Micah Lasher who will replace Rep Jerry Nadler (D-NY) in NY's 12th Congressional District on June 23, 2026 in New York City. | Photo by Laura Brett/Getty Images. The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional district. Prior to the race, Bores, a former tech industry employee, had coauthored and successfully passed the high-profile RAISE Act, which had implemented guardrails and safety requirements on frontier AI companies ; a version of his bill was signed into state law last year . But the legislation drew the ire of Leading the Future, a $100 million su … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "推理",
-        "监管"
+        "公司动态"
       ],
-      "score": 99
+      "score": 97
     },
     {
-      "title": "ReMMD ：用于多模式错误信息检测的逼真多语言多图像代理验证",
-      "originalTitle": "ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.24112",
-      "date": "2026-06-24T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2606. 24112v1公告类型：新摘要：多模式错误信息检测越来越重要，因为病毒帖子现在结合了长篇多语言叙述、几幅图像、混合出处和微妙的文本--图像框架错误。 现有的基准和方法仍然与此设置不匹配：它们通常会隔离短标题、单个图像、二进制标签或一个操纵源，而在现实证据搜索下，代理验证的成本仍然很高。我们提出了ReMMD ，这是一种用于多模式错误信息检测的逼真的多语言多图像代理验证框架。 ReMMD包括ReMMDBench ，这是一个真实世界的多模式错误信息检测基准，包含500个样本、2,756张图像、五种单语语言、两种跨语言设置、三个文本长度层、多图像帖子、五向真实性标签、八个失真标签、证据来源和基本原理。 它还包括ReMMD-Agent ，这是一种持久内存验证器，可将帖子分解为原子点，构建可重用的证据集，并预测结构化L1/L2/L3输出。在开放式LVLM、MMD-Agent和T2-Agent等专有系统中， ReMMD-Agent获得了最佳的五向准确性性能，使用GPT-5. 2时准确率为41. 80% ，宏观F1为39. 12% ，同时相对于MMD-Agent降低了17. 5%的成本，相对于T2-Agent降低了79. 9%的成本。 该项目可在https://dang-ai. github. io/ReMMD上找到。",
-      "originalSummary": "arXiv:2606.24112v1 Announce Type: new Abstract: Multimodal misinformation detection is increasingly important because viral posts now combine long multilingual narratives, several images, mixed provenance, and subtle text--image framing errors. Existing benchmarks and methods remain poorly matched to this setting: they usually isolate short captions, single images, binary labels, or one manipulation source, while agentic verification remains costly under realistic evidence search. We present ReMMD, a realistic multilingual multi-image agentic verification framework for multimodal misinformation detection. ReMMD includes ReMMDBench, a real-world multimodal misinformation detection benchmark with 500 samples, 2,756 images, five monolingual languages, two cross-lingual settings, three text-length tiers, multi-image posts, five-way veracity labels, eight distortion labels, evidence provenance, and rationales. It also includes ReMMD-Agent, a persistent-memory verifier that decomposes posts into atomic points, builds a reusable evidence set, and predicts structured L1/L2/L3 outputs. Across proprietary systems, open LVLMs, MMD-Agent, and T2-Agent, ReMMD-Agent obtains the best five-way veracity performance, with 41.80% accuracy and 39.12% macro-F1 using GPT-5.2, while reducing cost by 17.5% relative to MMD-Agent and 79.9% relative to T2-Agent. The project is available at https://dang-ai.github.io/ReMMD.",
+      "title": "Figma现在拥有AI动态图形和着色器工具",
+      "originalTitle": "Figma now has AI motion graphics and shader tools",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
+      "date": "2026-06-24T16:15:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "Figma在其年度Config大会上透露了一些新的设计和编码产品更新，旨在帮助创意人员“进一步推动他们的想法” ，并通过人工智能自动化繁琐的任务。Figma表示，其中一部分是一个重新构想的画布，现在已经针对全栈开发进行了优化，将团队、人工智能代理、工具和材料“整合在一起”。 “值得注意的标注包括编码层，可让您在不离开Figma Design画布的情况下调整项目的代码，以及AI生成的动态图形效果，可让您通过简单地将它们描述到Figma的聊天机器人界面来制作动画和过渡效果。您c…阅读The Verge的完整故事。",
+      "originalSummary": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing teams, AI agents, tools, and materials \"together in [&#8230;]",
+      "rawFullText": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing teams, AI agents , tools, and materials \"together in one place.\" Notable callouts include coding layers that let you tweak the code of your projects without leaving the Figma Design canvas, and AI-generated motion graphics effects , which allow you to make animations and transition effects by simply describing them to Figma's chatbot interface. You c … Read the full story at The Verge.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
+    },
+    {
+      "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
+      "originalTitle": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "date": "2026-06-24T16:00:13.000Z",
+      "summary": "这条新闻与算力芯片、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片、模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“使用NVIDIA NeMo AutoModel加速变压器微调”。它主要涉及算力芯片、模型方向，热度评分为 90。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与算力芯片、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片、模型相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "多模态"
+        "算力芯片",
+        "模型"
       ],
-      "score": 99
+      "score": 90
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -146,7 +224,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -161,7 +239,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "好莱坞正在向OpenAI屈膝",
@@ -176,7 +254,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "使用CUGA构建真正的代理应用程序：轻量级线束的24个工作示例",
@@ -191,7 +269,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "黎明：确保全球每个组织安全的工具",
@@ -223,7 +301,7 @@
         "公司动态",
         "开源"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -239,7 +317,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "用于长期工作的Codex-maxxing",
@@ -254,7 +332,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -269,7 +347,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "三星电子为员工带来ChatGPT和Codex",
@@ -300,7 +378,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -315,22 +393,6 @@
       "tags": [
         "大模型",
         "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "改善ChatGPT中的健康智能",
-      "originalTitle": "Improving health intelligence in ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "date": "2026-06-18T11:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
-      "fullContent": "了解GPT-5。5 Instant如何通过更强的推理、更好的背景、更清晰的沟通和医生知情的评估来改善ChatGPT的健康和健康反应。",
-      "originalSummary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理"
       ],
       "score": 99
     },
@@ -352,6 +414,22 @@
       "score": 99
     },
     {
+      "title": "改善ChatGPT中的健康智能",
+      "originalTitle": "Improving health intelligence in ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "date": "2026-06-18T11:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "了解GPT-5。5 Instant如何通过更强的推理、更好的背景、更清晰的沟通和医生知情的评估来改善ChatGPT的健康和健康反应。",
+      "originalSummary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理"
+      ],
+      "score": 98
+    },
+    {
       "title": "是否足够有特工效力？在您自己的工具上对开放模型进行基准测试",
       "originalTitle": "Is it agentic enough? Benchmarking open models on your own tooling",
       "source": "Hugging Face",
@@ -366,7 +444,7 @@
         "评测",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
@@ -381,54 +459,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
-    },
-    {
-      "title": "一位近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
-      "originalTitle": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "date": "2026-06-17T10:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI和Molecule。一个展示了使用GPT-5. 4的近乎自主的AI化学家如何改善关键的制药反应，推进药物化学研究。",
-      "originalSummary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "从Hugging Face Hub到Strands Agents和LeRobot的机器人硬件",
-      "originalTitle": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "date": "2026-06-17T10:18:05.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
-      "fullContent": "您将要构建的内容先决条件第1步-设置示例第2步-记录演示并推送到集线器第3步-在模拟中运行策略第4步-将策略部署到物理硬件第5步-使用网格协调多个机器人使用示例应用程序进行尝试安全注意事项清理如何组合在一起从这里开始资源作者Strands Robots中LeRobot集成的演练-一个代理循环，来自集线器数据 你有一个机器人，一个Hugging Face Hub上的演示数据文件夹，以及一个你想让它学习的新任务。今天，这需要五个独立的工具：一个用于记录新的演示，另一个用于训练，第三个用于模拟测试，在硬件上部署自定义代码，还有一个用于协调，当您有多个机器人时。这些部件可以自行发挥作用。他们不互相交谈。Strands Robots是AWS （ Apache 2. 0 ） ，将机器人抽象、模拟和LeRobot堆栈作为AgentTools公开，并将其组合到单个Strands代理中。集成是有意的： LeRobot自己的脚本处理硬件记录和校准，而Strands AgentTools用于代理实际协调的部分。模拟工具以LeRobot在硬件上写入的相同格式记录LeRobotDatasets。 GR00T和LerobotLocal在通用接口后面提供策略推断， MolmoAct2检查点通过LerobotLocal路径运行。对等网格将代理扇出到远程机器人。数据集格式与LeRobot编写的格式完全相同；代理循环是胶水。 本文将引导您在单个代理中完成五个步骤：在LeRobot AgentTools上构建代理，在模拟中将演示记录为LeRobotDataset ，在同一机器人上运行策略，使用一个关键字参数更改将相同的代理代码部署到物理SO-101 ，并通过Zenoh网格在整个车队中广播命令。最后，您可以从GitHub克隆工作示例应用程序，并在模拟中在笔记本电脑上运行它。 默认路径不需要硬件、GPU和Hugging Face凭据。此帖子的可运行伴侣位于examples/lerobot/hub_to_hardware. py和hub_to_hardware. ipynb。笔记本默认为仅模拟和模拟策略。Strands Robots SDK将LeRobot堆栈公开为AgentTools ，您将其组合到一个Strands agent中。 本文中的示例代理执行四项操作：在模拟中记录新的演示，将结果作为LeRobotDataset推送到Hub ，针对相同格式在模拟中运行策略，并通过一个关键字参数更改将相同的代理代码部署到物理机器人。当您有多个机器人时，代理可以通过内置的对等网格协调整个车队。 对于硬件记录和校准， LeRobot自己的CLI （ lerobot-record ， lerobot-calibrate ）处理启动；代理从那里接机。图1.机器人(\"so100\")默认为MuJoCo支持的模拟； m...",
-      "originalSummary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "机器人"
-      ],
-      "score": 87
-    },
-    {
-      "title": "MolmoMotion ：语言引导的3D运动预测",
-      "originalTitle": "MolmoMotion: Language-guided 3D motion forecasting",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/molmomotion",
-      "date": "2026-06-17T15:26:44.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 70
+      "score": 79
     },
     {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
@@ -443,7 +474,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -458,7 +489,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
@@ -506,21 +537,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "元黑客表明，人工智能的安全性不仅仅是神话",
-      "originalTitle": "The Meta hack shows there’s more to AI security than Mythos",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "date": "2026-06-05T09:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "6月5日， 404 Media报道称，攻击者一直在使用Meta的AI客户支持代理窃取Instagram帐户。他们的方法很简单：他们要求客服代表将账号关联到他们控制的电子邮件地址，客服代表遵守了要求。一名攻击者闯入了休眠的奥巴马白宫账户并发布了亲伊朗的帖子；其他人则接管了有价值的单词句柄的账户，可能是为了出售它们。 人工智能网络安全问题并不是什么新鲜事。自从Anthropic在4月份宣布其Mythos模型太擅长黑客攻击而不能向公众发布以来，评论员、研究人员和联邦官员都认为超级人工智能系统可能会浪费我们的计算机基础设施。 这并不是这个Instagram黑客攻击的目标：在那里， AI是目标而不是攻击者，而且这种方法比Mythos炮制的任何东西都要简单得多。但是，随着公司将更多的工作转移给人工智能，这些相对简单的攻击可能会造成严重破坏。 杜克大学电气和计算机工程教授Neil Gong表示： “随着人工智能的应用越来越广泛，尤其是当人工智能越来越广泛地用于自动化我们的工作流程（如帐户恢复）时，我认为攻击者将越来越有动力攻击人工智能本身。”一段时间以来，龚和其他学者一直在对人工智能代理的安全漏洞发出警告。 他们发表论文和博客帖子，详细介绍了间接提示注入等漏洞，其中涉及使用隐藏在网站、电子邮件或其他看似无用的数据源中的命令劫持代理。与这些技术相比， Meta hack实际上是无意识的。 黑客必须克服的唯一难题是使用与真实账号所有者位置相匹配的VPN ；然后他们直接要求客服代表更改账号的电子邮件地址，并符合要求。Meta尚未公开评论此漏洞是如何从裂缝中溜走的。但龚说，考虑到漏洞利用的简单性，在部署代理之前，它应该很容易被发现。“这真的很令人惊讶，”他说。 “我不明白他们为什么没有发现这个简单的问题。”乔治城安全和新兴技术中心的高级研究分析师Jessica Ji表示同意。她说：「这会引发一些问题，比如：是否有护栏？」“有人想过要测试这种情况吗？“她指出，像Meta这样的公司的监督尤其引人注目， Meta在人工智能和网络安全方面拥有丰富的专业知识。 Meta没有回应本文的评论请求，但周一Meta发言人在X上表示，该漏洞已得到解决。尽管这对Meta来说可能是一个尴尬的时刻，但它也凸显了所有AI代理共享的一些核心漏洞。",
-      "originalSummary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran&#8230;",
-      "rawFullText": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them. AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc. “As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University. Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied. Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.” Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson said on X that the vulnerability had been resolved. As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.” There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed. But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the&nbsp; University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.&nbsp; As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.&nbsp; Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay. “Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”",
-      "tags": [
-        "智能体"
-      ],
-      "score": 70
     }
   ]
 }
