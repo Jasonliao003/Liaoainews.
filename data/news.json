@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T00:15:52.244Z",
+  "updatedAt": "2026-06-27T00:14:30.336Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,85 @@
   ],
   "articles": [
     {
-      "title": "在一个命令中在高频作业上运行vLLM服务器",
-      "originalTitle": "Run a vLLM Server on HF Jobs in One Command",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "date": "2026-06-26T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "先决条件从任何地方启动服务器查询清理更进一步：更大的模型更进一步：在UI中与其聊天更进一步： SSH进入正在运行的服务器更进一步：将其用作Pi HF作业或推理端点的编码代理后端？进一步阅读您可以使用单个命令在Hugging Face基础设施上启动一个私有的、兼容OpenAI的LLM端点—无需配置服务器，无需Kubernetes ，按秒付费。 完成后，您可以从笔记本电脑、笔记本电脑或其他任何地方进行查询。这是为测试、回收或批量生成建立模型的最快方法。（如果您追求的是托管的、生产就绪的服务，这就是推断端点的用途--更多的是何时选择最终的。） hf作业运行是针对HF基础设施的docker运行。 我们使用官方的vllm/vllm-openai映像，要求使用--flavor的GPU ，并使用--expose: --expose 8000公开vLLM的端口，通过HF的公共作业代理路由容器的端口（完整参考请参阅服务模型指南）。该命令打印您的服务器可访问的URL ： 6a381ca1953ed90bfb947332是您的作业ID。跟踪它，我们需要它。我们将在帖子的其余部分将其用作占位符。 给它几分钟时间下载重量和启动。当日志显示应用程序启动完成时，您即处于实时状态。vLLM使用OpenAI API ，每个请求只需要您的HF令牌作为不记名令牌。点击它的最快方法是curl ：它返回通常的OpenAI样式的JSON ，带有选项[0]。message. content持有“Hello ！我今天能为您提供什么帮助？😊”。 或者，从Python中，将OpenAI客户端指向暴露的URL ，并将令牌作为API密钥传递：启动前快速运行状况检查: curl https://--8000. hf. jobs/v1/models -H \"Authorization: Bearer $ (hf auth token)\"应列出模型。终结🔐点是门控的，而不是公共的。每个请求都必须携带具有对作业命名空间的读取访问权限的HF令牌。普通浏览器访问将被拒绝。 实际上，作业代理是您的API门户：访问权限仅限于您（和您的组织）。这对于私人使用来说是可以的，但请相应地对待URL ：不要期望它打开，也不要将您的令牌粘贴到不受信任的地方。如果您需要更细粒度或公共访问，请在前面放置适当的网关。或查看下面的HF作业或推断端点？。作业按秒计费，因此完成后请停止服务器：",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "title": "OpenAI在政府要求后限制GPT-5.6的推出，并表示限制不应成为常态",
+      "originalTitle": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "date": "2026-06-26T18:32:14.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI表示： “我们不认为这种政府访问程序应该成为长期默认设置。” “它为有需要的用户、开发人员、企业、网络维护者和全球合作伙伴保留了最好的工具。”",
+      "originalSummary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "大模型",
+        "公司动态"
       ],
-      "score": 77
+      "score": 99
+    },
+    {
+      "title": "为什么从OpenAI到SpaceX的每个人都在构建自己的芯片（并在Nvidia上加热）",
+      "originalTitle": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "date": "2026-06-26T17:43:22.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "英伟达多年来一直主导着人工智能芯片市场，但完全依赖的时代可能即将结束。OpenAI刚刚分享了与Jalapeño合作的计划， Jalapeño是与Broadcom一起构建的定制推理芯片，与谷歌、苹果和SpaceX一起加入越来越多的公司，以摆脱单一供应商的风险。目标不是[…]",
+      "originalSummary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI在美国人工智能监管剧中推出GPT-5.6",
+      "originalTitle": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "date": "2026-06-26T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "在特朗普政府要求OpenAI错开下一个模型发布的消息传出不到24小时后，该模型GPT-5. 6就在这里。上周五，该公司推出了其新款GPT 5. 6车型套件的限量预览：旗舰车型Sol ； “大批量工作”的中端车型Terra ；以及“快速且经济实惠”的日常车型Luna。 OpenAI表示，它特别擅长编码、网络安全和生物学，以及在长期代理AI任务中保持专注。每百万个代币， GPT-5。6 Sol的价格为$ 5输入/$ 30输出（几乎是Anthropic的Claude Fable 5成本的一半，即$ 10输入/$ 5...阅读完整故事在边缘。",
+      "originalSummary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-volume work\"; and Luna, a [&#8230;]",
+      "rawFullText": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here. On Friday, the company unveiled the limited preview of its new GPT 5.6 model suite: Sol, the flagship; Terra, a medium-tier model for \"high-volume work\"; and Luna, a \"fast and affordable\" everyday model. OpenAI says it's especially skilled at coding, cybersecurity, and biology, as well as staying focused during long-horizon agentic AI tasks. Per million tokens, GPT-5.6 Sol is priced at $5 input / $30 output (nearly half the cost of Anthropic's Claude Fable 5, which is $10 input / $5 … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "这不再是人类与OpenAI的关系",
+      "originalTitle": "It&#8217;s not about Anthropic vs. OpenAI anymore",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "date": "2026-06-26T16:24:47.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。现在注册。美国政府将对发布的人工智能模型进行大量控制。在美国政府推出Anthropic的寓言和神话模型两周后， OpenAI的新模型似乎走向了同样的困境。 该信息周四公布了GPT 5. 6将仅发布为有限预览的消息，政府批准了“按客户”发布，直到可以批准一般发布。如果预览只持续“几周” ，正如奥尔特曼所预测的那样，这可能不是一个特别大的问题。但Mythos已经预览了几个月，没有迹象表明它很快就会正式发布。 即使花费几周的时间进行审查，也可能大大限制成本高昂的新系统的经济效益，而此时人工智能实验室正拼命试图改善其底线。如果模型开发的步伐因此放缓，可能会给正在进行的数据中心建设带来类似的寒意。至关重要的是， OpenAI和Anthropic现在处于相同的位置，它们面临的问题相同，如果失败，则等待相同的灾难。 科技行业内部的对话往往侧重于一方或另一方在引发这一问题方面的作用，要么指责Anthropic实施监管捕获计划，要么指责OpenAI怂恿特朗普淘汰竞争对手。这是可以理解的；业内许多最杰出的人物在这家公司或另一家公司拥有数十亿美元的资金。但现在发生的事情远不止于此。 为每个前沿模型实施偶然的政府审批流程的成本是显而易见的，没有任何解决方案可以帮助一个实验室而不帮助其他实验室。最直接的问题是简单地建立一个有意义的发布过程。 政府可以在发布前测试模型（这是它对许多消费品的工作方式） —但正如GMU研究员（即将成为OpenAI员工） Dean Ball今天早上在一篇雄辩的帖子中所详述的那样，目前尚不清楚可以采取什么样的安全保证来满足监管机构的要求。美国政府没有专业知识或能力来进行这里所需的测试。 由于没有努力阐明政府实际担心的风险，因此甚至不清楚监管机构将试图保护哪些风险。将政府流程视为整个问题本身是很有诱惑力的，但其背后存在真正的担忧。即使您不相信Mythos的炒作，也有明显的证据表明人工智能工具正在彻底改变网络安全。 在生物风险和校准方面也有类似的过程。限制模型发布本身并不是全部答案—这只会限制公众可用的内容—但有真正的问题需要解决。正如Ball所阐述的那样，解决这些问题的最佳想法将意味着共同努力。这意味着信任独立小组来指导流程，即使他们并不完全符合您的目标。",
+      "originalSummary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的Jalapeño芯片是Big Tech离开Nvidia的最辣的举动",
+      "originalTitle": "OpenAI&#8217;s Jalapeño chip is Big Tech&#8217;s spiciest move away from Nvidia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+      "date": "2026-06-26T14:00:00.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "英伟达多年来一直主导着人工智能芯片市场，但完全依赖的时代可能即将结束。OpenAI刚刚分享了与Jalapeño合作的计划， Jalapeño是与Broadcom一起构建的定制推理芯片，与谷歌、苹果和SpaceX一起加入越来越多的公司，以摆脱单一供应商的风险。目标不是[…]",
+      "originalSummary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片"
+      ],
+      "score": 99
     },
     {
       "title": "白宫要求OpenAI出于安全考虑，放慢推出新车型的步伐",
@@ -41,7 +107,7 @@
       "date": "2026-06-25T23:34:39.000Z",
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
       "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。据报道， OpenAI发布的最新型号GPT 5. 6将与之前的版本不同。 据The Information报道，该公司计划仅与特朗普政府指示的一群精选的亲密合作伙伴共享，而不是将其分发给公众。据报道，在本周的一次会议上，首席执行官Sam Altman告诉员工，政府将在预览期间“按客户批准访问客户”。 据报道，奥尔特曼补充说，如果有限的发布进展顺利， OpenAI希望在“几周后”推出一个更广泛的通用版本。换句话说，特朗普政府似乎在向OpenAI施压，要求其做Anthropic已经自愿做的事情：对其最强大的人工智能模型进行保密。 根据The Information ， OpenAI的新模式不仅正在由政府审查，而且其工作人员还在即将发布的版本上与政府“密切合作”。据报道，要求有限释放的机构是国家网络总监办公室和科技政策办公室。 特朗普政府最初将自己定位为对人工智能采取“放手”的方式，最近几个月一直在推动联邦政府对新模式的监督。本月早些时候，特朗普签署了一项行政命令，指示某些人工智能公司在公开发布新模型之前，自愿向政府提交新模型进行测试和评估。 今年早些时候，当Anthropic宣布其新的前沿网络模型Claude Mythos仅通过名为Project Glasswing的项目向一小部分合作伙伴发布时，引发了不小的争议。Anthropic认为，它的模型太过强大，可能在错误的人手中造成更多的伤害而不是好处。 此后，观察家们一直在争论Anthropic的言论是否仅仅是一种营销噱头，还是一种防止强大模型被滥用的合法企图。答案可能介于两者之间。网络犯罪分子长期以来一直使用自动化工具，但在人工智能时代，他们现在拥有的数字弹药比以往任何时候都多。LLM已被证明擅长编写恶意软件，有些甚至可以自主执行整个勒索软件攻击。 对Mythos等前沿网络工具的具体担忧是，它们表面上能够以任何人类分析师无法比拟的速度识别和利用软件漏洞。由于许多软件系统包含隐藏的漏洞，这些漏洞充当进入企业网络的入口点，这显然给任何运行复杂软件基础设施的组织带来了明显而重大的问题。",
-      "originalSummary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "originalSummary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
       "rawFullText": "",
       "tags": [
         "大模型",
@@ -100,19 +166,19 @@
       "score": 99
     },
     {
-      "title": "项目自动世界：实现神经关系推理器的自动化基准测试",
-      "originalTitle": "Project Auto-World: Towards Automated Benchmarking of Neural Relational Reasoners",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.24965",
-      "date": "2026-06-25T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 24965v1 Announce Type: new Abstract:关系结构的推理对神经模型来说仍然是一个重大挑战，特别是当它们必须系统地将学到的知识应用于比训练中更难的问题实例时。评估这种概括的难度阻碍了进展，因为先验地，很少清楚是什么使实例变得困难。 我们研究如何通过使用大型语言模型（ LLM ）来自动生成基准来解决这个问题，学习以端到端的方式生成越来越具有挑战性的实例。具体来说，给定一个由Datalog规则参数化的世界，并使用边缘变换器作为推理评估器，我们使用LLM驱动的进化搜索（基于FunSearch ）和自主代理搜索来发现产生难题实例的采样函数。 我们还表明，边缘变换器可以使用这些数据进行改进，使其能够很好地推广到进一步的数据扰动。最后，我们证明了同样的机制可以应用于LLM提出的新世界，为神经关系推理的自主研究打开了大门。",
-      "originalSummary": "arXiv:2606.24965v1 Announce Type: new Abstract: Reasoning about relational structures remains a significant challenge for neural models, particularly when they must systematically apply learned knowledge to problem instances that are harder than those seen in training. Progress is hampered by the difficulty of evaluating such generalization, since a priori, it is rarely clear what makes an instance hard. We study how this issue can be addressed by using large language models (LLMs) to automate benchmark generation, learning to produce increasingly challenging instances in an end-to-end manner. Concretely, given a world parametrized by Datalog rules, and an Edge Transformer as the reasoning evaluator, we use LLM-driven evolutionary search (based on FunSearch) and autonomous agentic search to discover sampling functions that yield hard problem instances. We also show that the Edge Transformer can be improved using this data such that it generalizes well to further data perturbations. Finally, we show that the same machinery can be applied to novel worlds proposed by LLMs, opening the door to autonomous research on neural relational reasoning.",
+      "title": "客服代表如何转变工作方式",
+      "originalTitle": "How agents are transforming work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-agents-are-transforming-work",
+      "date": "2026-06-25T02:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "一份新的OpenAI研究论文展示了人工智能代理如何改变工作，实现更长、更复杂的任务，并提高跨角色的生产力。",
+      "originalSummary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
       "rawFullText": "",
       "tags": [
+        "公司动态",
         "智能体",
-        "推理",
-        "评测"
+        "论文"
       ],
       "score": 99
     },
@@ -147,7 +213,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "对Alex Bores的$ 2700万Al代理权之战以平局告终",
@@ -162,7 +228,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Figma现在拥有AI动态图形和着色器工具",
@@ -177,7 +243,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -193,7 +259,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -224,7 +290,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -239,22 +305,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
-    },
-    {
-      "title": "好莱坞正在向OpenAI屈膝",
-      "originalTitle": "Hollywood is bending the knee to OpenAI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/954899/luca-guadagnino-artificial-sam-altman-amazon-a24-neon-mubi-chatgpt",
-      "date": "2026-06-23T22:03:18.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "据报道， Netflix ， A24 ， Focus Features和Warner Bros.的Clockwork都决定继续接受Artificial （导演Luca Guadagnino关于OpenAI联合创始人/首席执行官Sam Altman的新传记剧）的分销交易。虽然据说Neon和Mubi仍然对这部电影感兴趣，但这种情况使好莱坞似乎不再有勇气讲述关于大科技的批评故事。 当亚马逊米高梅上周出人意料地宣布不再计划发行这部电影时，《人造》的后期制作接近尾声。鉴于电影的进展情况以及亚马逊的报道，这一消息令人惊讶……阅读The Verge的完整故事。",
-      "originalSummary": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem [&#8230;]",
-      "rawFullText": "Netflix, A24, Focus Features, and Warner Bros.' Clockwork have all reportedly decided to pass on picking up Artificial - director Luca Guadagnino's new biographical drama about OpenAI cofounder / CEO Sam Altman - for distribution deals. And while Neon and Mubi are still said to be interested in the film, this situation makes it seem like Hollywood no longer has the courage to tell critical stories about Big Tech. Postproduction on Artificial was nearly finished when Amazon MGM unexpectedly announced last week that it no longer plans to distribute the film. The news came as a surprise given how far along the movie was and reports that Amazon … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
+      "score": 91
     },
     {
       "title": "使用CUGA构建真正的代理应用程序：轻量级线束的24个工作示例",
@@ -269,7 +320,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
+    },
+    {
+      "title": "价值4亿美元的机器为芯片制造的未来提供动力",
+      "originalTitle": "The $400 million machine powering the future of chipmaking",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "date": "2026-06-23T09:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
+      "fullContent": "乔斯·本肖普（ Jos Benschop ）正在爬梯子到达他最新机器的顶部。这有点笨手笨脚的。这个装置的大小相当于一辆双层巴士--超过150吨闪闪发光的精密铣削铝，上面覆盖着成千上万的蛇管、彩色电缆和加压罐。从地面上看，它看起来像一个未来主义的V8发动机。 当我和Benschop一起到达山顶时，我们从大约15英尺高的空中向下看，兔子套装的技术人员在下面奔跑。他说，这是200多立方米的技术- “机电一体化设备，可以将几面镜子保持在原子精度的位置，”他指着庞大的仪器。 Benschop是一位身材高大、头发灰白的66岁老人，他花了十多年的时间与他的工程师一起设计这个东西，但即便如此，他有时会看着它说：哦，我的上帝。Benschop是ASML的技术执行副总裁， ASML是一家荷兰公司，是微芯片行业的关键。 如果您想制造功能强大的芯片来为手机或人工智能供电，那么像我们这样的光刻机就是您创建越来越小的电路所需要的。平版印刷是在硅晶片上照射光线的艺术和科学，以图案化将从中切割的晶体管、布线和微芯片的其他组件。 芯片制造领域基本上只由两家大公司控制：创造光刻机的ASML和芯片制造巨头台积电。九年前， ASML开始销售使用大胆的新方式构图芯片功能的机器。这些机器使用极端紫外光或EUV辐射，远远超出了它们通过以每秒数万次的微小熔融锡滴发射激光而产生的可见光谱。 这些首批机器-持续16年的研发登月的结果，耗资约100亿美元-可以制作分辨率为13纳米的工艺晶体管功能。这款新机器可以做得更好：它的分辨率仅为8纳米，宽度约为40个硅原子。这些设备现在正以令人眼花缭乱的价格运往芯片制造工厂或晶圆厂：每个4亿美元。 但芯片制造商将分叉现金，因为他们每年都在拼命地生产新的和改进的芯片。这意味着将他们的手套放在可以制造更小的组件并将它们更密集地组合在一起的机器上，这是创造更快、更节能的芯片的长期配方的一部分。多年来， ASML的工具对于保持摩尔定律的生存至关重要。 如果没有该公司先进的芯片制造技术，芯片密度以及执行更多计算的能力很可能会趋于稳定。随着OpenAI和Anthropic等公司争先恐后地建立服务器农场，训练和部署新的、功能更强大的模型，这需要新的、功能更强大的硬件，人工智能行业对更密集的芯片产生了新的、贪婪的需求。",
+      "originalSummary": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground, it looks like a&#8230;",
+      "rawFullText": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&nbsp; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground, it looks like a futuristic V8 engine. When I reach the top with Benschop we’re looking down from about 15 feet in the air, with bunny-suited technicians scurrying around below. It’s more than 200 cubic meters of tech—“mechatronic devices that hold a few mirrors in a position with atomic precision,” he says, gesturing at the gargantuan apparatus. Benschop, a tall and grizzled 66-year-old, has spent over a decade working with his engineers to design this thing, but even so, he’ll sometimes look at it and go: Oh my God. Benschop is the executive vice president of technology for ASML, a Dutch company that is the linchpin of the microchip industry. If you want to make powerful chips to power phones or AI, a lithography machine like the one we’re standing on is what you need to create increasingly tiny circuitry. Lithography is the art and science of shining light on a silicon wafer to pattern out the transistors, wiring, and other components of the microchips that will be cut from it. The chipmaking field is essentially controlled by only two big players: ASML, which creates the lithography machines, and TSMC, the chipmaking giant. Nine years ago, ASML began selling machines that use a daring new way of patterning chip features. These machines employ extreme-ultraviolet light, or EUV—radiation well outside the visible spectrum that they produce by shooting lasers at tiny molten drops of tin, tens of thousands of times a second. Those first machines—the result of an R&D moonshot that lasted 16 years and cost about $10 billion—can craft transistor features with a resolution of 13 nanometers. This new machine can do even better: It has a resolution of just eight nanometers, the width of about 40 silicon atoms. The devices are now shipping to chipmaking factories, or fabs, at an eye-watering price: $400 million each. But chipmakers will fork that cash over, because they are in a desperate race to produce new and improved chips every year. That means getting their mitts on machines that can make ever smaller components and cram them together ever more densely—part of a long-standing recipe for creating faster and more energy-­efficient chips.&nbsp; For years now, ASML’s tools have been critical to keeping Moore’s Law alive. Without the company’s advanced chipmaking technology it is very possible that chip density—and the ability to perform ever more calculations—would have plateaued.&nbsp; The AI industry has produced new and ravenous demand for denser chips, as firms like OpenAI and Anthropic scramble to erect server farms that train and deploy new, ever-more-powerful models, which require new, ever-more-powerful hardware. ASML’s latest machine promises to help keep the AI party raging for at least another decade.&nbsp; “We can allow customers to go to smaller and smaller features, and that opens up the space for whatever we see now today in AI, which is absolutely mind-blowing,” Marco Pieters, ASML’s CTO, told me. “I think we’ve only seen the tip of the iceberg.”&nbsp; Its relentless push for “shrink”—as they call it in the chipmaking industry—has made ASML a dominant force: The company produces about 90% of all chip-­lithography tools worldwide. If you make chips, ASML is unavoidable. But that monopoly position makes some people, and governments, uneasy. The chipmaking field is essentially controlled by only two big players: ASML, which creates the lithography machines, and TSMC, the chipmaking giant in Taiwan, which uses ASML’s machines to craft the vast majority of all microchips. This duopoly is so powerful that it has geopolitical implications. In an effort to prevent China from developing advanced AI, the US government pressured the Dutch government to impose an embargo in 2019: ASML isn’t allowed to sell high-end machines to any Chinese firm. Geopolitically, “chips are the new oil,” says Marc Hijink, the author of Focus: The ASML Way . Being deprived of them can be as disastrous as being deprived of oil. And in that metaphor, you might say, ASML is the Strait of Hormuz. James Proud, the cofounder and CEO of the lithography startup Substrate, says the situation is not ideal. The US is “dangerously reliant” on a supply chain that’s overseas and increasingly pricey, Substrate says on its website. “There’s a huge concentration in a small number of players,” Proud says. “And the supply chain is just very expensive.”&nbsp; Which is why, after two decades of ASML’s dominance, would-be competitors are now gunning for its territory. China is hungrily pouring billions into trying to replicate ASML’s tech. And startups like Substrate are trying to get in the game as well, setting their sights on creating lithography machines that are cheaper, smaller, and even more capable than ASML’s behemoths. Will any of them succeed? The near future clearly belongs to ASML, but as its engineers well know, you can unseat a giant with the right trick of the light. Making chips is, oddly, a bit like silk-screening a T-shirt. To print a pattern on a silicon wafer, you start with a pattern on a reticle—a mask that carries the design. Shining a light on the reticle transfers that pattern to the wafer. The light interacts with a layer of chemicals on the wafer, fixing the pattern in place.&nbsp; The size of a chip’s features is partly set by the wavelength of light the machine uses: The smaller the wavelength, the teensier the circuitry you can create. You can stretch the capabilities of a wavelength somewhat; increasing what’s known as the numerical aperture, which usually means swapping in a bigger lens, can further focus the light and thus lay down patterns for smaller and smaller components. Eventually, though, this trick hits its limit, and you need to find a new form of light with a smaller wavelength.&nbsp; So the history of chipmaking has been a two-step dance. The industry finds a good source of light, eventually increases the numerical aperture, and then finally accepts the need for a smaller wavelength, starting the two-step all over again. Up to the early 1990s, chipmakers used visible light, with a wavelength of about 400 nanometers. By the mid-’90s they’d upgraded to deep ultraviolet, ultimately getting it down to a 193-nanometer wavelength. By the late ’90s they saw the end of the line approaching for deep ultraviolet. But what would come next? All the options were troublesome. They could shift to x-rays, with a teensy one-­nanometer wavelength, but they were devilishly hard to focus. Beams of electrons and ions were equally precise; but they worked like dot-matrix printers, transferring a pattern point by point, which was far too slow. (The chip industry wants a machine to crank out hundreds of wafers per hour.)&nbsp; “It’s a very engineering-heavy company: Let’s send thousands of engineers and just have them mow down these problems. That’s what they did, and it worked.” Jeff Koch, analyst, SemiAnalysis Around 2001, ASML, then a smaller player in the lithography world, placed its bet on another option: EUV, with a wavelength just shy of the x-ray range. Nikon and Canon were working on it as well, but they dropped out—while ASML kept going. The idea was full of unknowns. Nobody knew how to reliably generate that type of light, nor how to focus it; EUV is absorbed by regular glass lenses. It’s even absorbed by air. ASML figured it would take six full years to wade through this R&D nightmare.&nbsp; In reality it took those 16 years and about $10 billion in research, but it worked. The machine, which works in a vacuum, creates EUV light by vaporizing molten tin and using mirrors to direct it. Zeiss, a historic German optics company, had to invent new techniques for polishing and inspecting the mirrors, using an ion beam to knock off minute imperfections.&nbsp; “They sort of ignored the buzz of, like, Hey, this is never gonna work , and they just beat their heads against these huge engineering problems,” says Jeff Koch, who used to work for ASML and is now an analyst for the chip-industry research firm SemiAnalysis. “It’s a very engineering-­heavy company: Let’s send thousands of engineers and just have them mow down these problems . That’s what they did, and it worked.”&nbsp; When the first EUV machines went on the market in 2017, they cost well over $100 million apiece. Some observers wondered whether the demand would really be there from the major chipmaking firms—TSMC, Samsung, and Intel. In the years chipmakers were waiting for EUV to happen, the lithography industry had developed clever ways to improve on old-fashioned deep ultraviolet light. (If you put a layer of water on top of the wafer, for example, the light could focus more narrowly.) Maybe EUV wouldn’t be much needed for a while? But ASML lucked out. Only a few years after EUV debuted, OpenAI released GPT-3 and then ChatGPT. Artificial intelligence burst into the mainstream. Instantly, firms like OpenAI, Google, Meta, and Anthropic were hungry for increasingly high-end chips as they built massive server farms to train and deploy large language models. EUV made it easier and faster to crank out AI-tailored chip designs. Nvidia began producing elite GPUs—processors perfectly suited for AI training—that cost $40,000 a pop; the big companies couldn’t get enough. The AI wars were on, and EUV was in demand. In 2025, ASML says, it sold nearly 50 EUV machines to companies and pulled in nearly $40 billion in revenue. As of press time, the company’s market cap was over half a trillion dollars.&nbsp; ASML’s new machines have no shortage of potential customers. But there is one in particular, with deep pockets, that can’t buy them for any amount of money: China.&nbsp; The US wants to hobble China’s ability to create cutting-edge AI chips—or any advanced chips, for that matter. So when ASML began selling its original EUV machines, in 2017, the Trump administration successfully pressured the Dutch government to forbid the company from selling them to any Chinese firms. The US had also imposed export controls on China’s telecom giant Huawei, banning US firms from using its 4G and 5G equipment. This one-two punch incensed the Chinese government and stirred it to action. China is now pouring billions into catching up and trying to develop its own EUV chip-patterning technology. A Reuters report last winter found that a government skunkworks employing former ASML staffers had cobbled together a machine so huge it filled the entire floor of a lab. It’s unclear how well it works. The experiment may well be making some chips, says Hijink, but he doubts it can do so at an industrial scale. A mirror is installed in an optical system for the high-NA machine. COURTESY OF ZEISS Officially, the government denied it was pushing to develop EUV tech. An editorial in the Global Times —a newspaper closely allied with the Chinese government—pooh-poohed the report, claiming that China was still happy to work with the West to get access to chips. “Our goal has never been to build a self-­sufficient ‘technology island’ in isolation,” it stated, “but rather, on the basis of achieving autonomy and control over key technologies, to integrate more deeply and equally into the global innovation network.” Experts say the reality is in the middle. China definitely craves a domestic ability to make high-end chips. And unlike ASML, it doesn’t need its EUV machinery to be efficient and profitable, cranking out about 200 wafers an hour. Any output would help wean it off reliance on the West.&nbsp; “They would be very happy to have a tool that does one wafer per hour and it costs them a fortune to run,” Koch says. “They would build a fab with a thousand of those and be super happy with it.”&nbsp; Still, producing and managing EUV light well is a feat that might take years, some told me. In the meantime, the Chinese will lean hard on deep-ultraviolet lithography, developed in the ’90s, making the most of an alternative but slower approach known as multi-­patterning, says David Lin, senior advisor for tech leadership at the Special Competitive Studies Project, a think tank that focuses on security and technology. “They’re going to push DUV to the absolute limits,” Lin says. The AI race is also pushing China to devise ever cleverer ways of developing LLMs that don’t rely on the fastest AI chips. In the US, OpenAI, Anthropic, and Google are fighting over who can buy the biggest piles of hot Nvidia chips. Since China can’t compete that way, it is innovating not in hardware but in software—building lighter-­weight LLMs like DeepSeek.&nbsp; As China rumbles into action, ASML has remained laser focused on shrink. To go even smaller, Benschop and his engineers decided, they wouldn’t shift to a new form of light. They’d do the second part of the two-step: They’d raise the numerical aperture of the machine by more than half (for those keeping track of the specific numbers, it would be a switch from an NA of 0.33 to an NA of 0.55). That would let them cut the size of the transistors by close to half and nearly triple their density on a chip.&nbsp; This would also be an easier climb. Without the need to develop an entirely new source of light, the new machine—based on high-numerical-aperture EUV, or “high NA”—would be evolutionary, not revolutionary. Still, building the new system did present a few gnarly challenges. In an EUV machine, the way you transfer an image onto a wafer is by shining light at the microchip pattern on the reticle and then using an optical system to take the reflected light and demagnify that pattern, shrinking it down to the size you want on the wafer. The light hits only part of the reticle at any given time, so you quickly move the reticle back and forth to expose every part of the pattern to the light. Going to a higher numerical aperture meant they could have smaller features on the reticle. But this also meant that some of the light would be arriving at the reticle—and reflecting off it—at a steeper angle.&nbsp; That’s what caused problems. The pattern on the reticle is three-dimensional, so light arriving at such a steep angle caused shadows—much the way slanted sunlight creates shadows in the Grand Canyon. That stood to diminish the machine’s ability to make clear patterns. The new reticle moves with acceleration up to 22 g, much faster than in the company’s original EUV machine. “Don’t try to sit on it, because you’ll pass out.” The solution was to change the pattern on the reticle—along with the way the mirrors took the light and shrank it down to impart the pattern to the wafer. The designs on the reticle would now be twice as long as they were wide—stretched, as it were, in one dimension. But this design came with its own problems. The changes to the mirrors meant the area on the wafer exposed during a single scan was half the size it was with the original EUV machines, reducing the system’s speed. And ASML couldn’t tolerate any slowdown: Chipmakers were paying it for machines with massive throughput, about 200 wafers an hour. If one part of the system slowed down, another part would have to speed up. The engineers decided the machine should move the reticle faster, which meant making the entire mechanism lighter and dramatically redesigning it. The new reticle moves with acceleration up to 22 g, much faster than in the company’s original EUV machine. “Don’t try to sit on it, because you’ll pass out,” Pieters told me. The wafer stage moves around faster as well, in tandem with the reticle. Meanwhile, over in Germany, Zeiss’s engineers were busy designing mirrors to accommodate the higher numerical aperture and asymmetric shaping of the light. The new mirrors would be about twice as large as those in the regular EUV machines, and the projection system, which carries light from the reticle to the wafer, weighed fully 12 tons, seven times more than before. Zeiss built a new robot-assisted production line to handle these ponderous new beasts. The company says they’re the smoothest surfaces they’ve ever made.&nbsp; At the same time, ASML was working on making its EUV light source even more powerful, to help make the wafer-exposing process go faster. The engineers calculated that they could improve the output of EUV if they hit each tin droplet three times with the laser instead of twice, as they do in the first machine. That meant the already-hectic system of firing tin would need to speed up by 50%. “The lasers just keep getting bigger,” says Alex Schafgans, the head of engineering at ASML in San Diego, where the EUV light source is built.&nbsp; Indeed, the lasers for a single machine now fill an entire room. After Benschop showed me the massive high-NA device, we walked across the hall and entered a chamber filled with hulking six-foot-tall boxes that were part of the laser system. Peering through tiny windows in the sides of the units, we could see the glowing purple plasma used in creating the laser light. When high-NA machines began to roll off the assembly line, one company was waiting hungrily: Intel. The company purchased the very first high-NA machine put up for sale, and in the spring of 2024, 300 ASML engineers showed up in Oregon at one of Intel’s fabs to begin assembling and testing it.&nbsp; “ASML actually put a giant ribbon around one of the boxes,” says Mark Phillips, an Intel fellow who is director of its hardware and lithography solutions, laughing. His team has been testing the machine to see how well it performs; Phillips wouldn’t give details other than to say he’s “very pleased at the rapid pace of tool health.” He also wouldn’t give a date for when Intel would start using it to make chips, though observers say that will likely happen next year. The company plans to ease it in, using it for just a few precision components on a chip and then gradually for more and more. What’s at stake is a chance to recapture its mojo. Intel was once a silicon powerhouse, designing the most cutting-edge CPUs for computers and servers, and building them in its own fabs. But in the 2010s, the big new markets were mobile-phone chips and GPUs for AI and gaming, and Intel rapidly lost ground. Apple designed its own mobile chips (and had TSMC make them), while Nvidia did the same thing with GPUs. Google began banging out its own TSMC-made AI chips called TPUs in 2015, and soon it was stuffing data centers full of them. Intel fellow Mark Phillips briefs members of the media on the high-NA tool at the company’s Fab D1X in Hillsboro, Oregon. Intel was ASML’s first customer for the new EUV machine. COURTESY OF INTEL CORPORATION So in 2021 Intel announced a moonshot. It would aggressively begin building out a foundry business, one that would go toe to toe with TSMC. Instead of creating Intel chips, the Intel foundry would manufacture designs for customers like makers of mobile phones and AI chips.&nbsp; Intel hopes that being the first to wield high-NA technology will give it an edge in the silicon rat race, making it possible to print tiny patterns faster than anyone else.&nbsp; It could also make things simpler for customers. Over the years, while waiting for EUV machines to emerge, chip designers used multi-patterning to squeeze more life out of the older forms of light. Every chip is made out of layers, which are laid down to make components like the switches and wiring. If you’re working on one of those layers and need to make features tinier than your machine can normally produce, you can break the pattern for that layer up into several patterns and then expose the wafer to them one at a time. This strategy helped chipmakers keep using older (and cheaper) machines while still creating tinier and tinier components. But multi-patterning is a hassle: It’s more challenging to design the complex overlay of patterns, and much slower to print each chip. Designing a chip is far easier if you know you can do “single patterning,” blasting each layer in one go.&nbsp; Observers say it won’t be easy to build a foundry business that bests TSMC and Samsung on their own terrain. “Leapfrogging is difficult,” Hijink says. But it’s also true that the high-tech world has such a ravening hunger for better chips that Intel could succeed, simply because even TSMC and Samsung can’t fulfill all that need.&nbsp; “There’s spillover demand, so Intel can survive off that,” Koch says. “It’s not even scraps now. It’s a meal. It may not be the best foundry, but they can make chips, and there’s only three companies that can do that, right?” TSMC, for its part, seems to be biding its time when it comes to high NA. “TSMC will deploy high-NA EUV when it is mature and ready to deliver maximum benefit to our customers,” the company wrote to MIT Technology Review . Some suspect it won’t use the machines in serious volume until the 2030s. Part of the reason is cost: TSMC is ruthlessly focused on producing chips as cost-effectively as possible, and the high-NA tools are a blistering $400 million each, far more than the previous EUV rigs. And unlike those, the new machines are not a revolutionary leap upward.&nbsp; “This is like 30% to 50% better in terms of capability,” says Koch, the analyst and former ASML employee. “This is probably the first tool that hasn’t obviously made business sense right away for ASML.” It’s not that the industry won’t eventually embrace high NA en masse, Koch says. Most companies will need to, if they want to keep going smaller. But TSMC is more likely to push ahead as far as it can go with its existing EUV tools, using onerous multi-patterning to wring as much as it can out of that generation until it absolutely needs to switch.&nbsp; “The industry has only shifted paradigms when it just absolutely cannot extend—even one more little bit—out of what it’s been doing,” Koch says.&nbsp; China isn’t the only party looking to upset the current balance of power. The dominance of ASML, and the swelling cost of its tools, is prompting other upstarts too. But instead of trying to replicate ASML’s breakthroughs in EUV, they’re doing an end run—working on lithography tools that use entirely different forms of light. These will be far cheaper, they promise, and just as powerful. One is Substrate, a San Francisco–based startup. Founded four years ago, it’s working on a tool that uses x-ray light produced by a particle accelerator. X-rays have a remarkably tiny wavelength, making them a potentially powerful way to create minute features.&nbsp; Particle accelerators have historically been enormous, making them difficult to fit into a chipmaking process. Substrate says it has harnessed decades of scientific improvements in particle acceleration to produce a light source that’s smaller and suitable for mass production.&nbsp; Last year the company released images showing that it had created fine patterns, which Proud, the CEO, says are only possible now with a high-NA EUV machine. He says Substrate’s goal is to produce chips at scale by 2030.&nbsp; But Proud doesn’t intend to sell the tools to TSMC or Intel. Indeed, he doesn’t plan to sell them to anyone. Instead, Substrate wants to create its own fab, building chips using its own tools. &nbsp; “The amount of chips we’re going to need is going to be many orders of magnitude larger than even the wildest projections you have now.” James Proud, cofounder and CEO, Substrate The semiconductor industry, Proud argues, needs new approaches, because it’s become too pricey and too centralized. A single fab today can cost $25 billion to build, up from about $5 billion in the 2010s, the company notes. It’s driving the cost of a single wafer full of advanced chips up toward $100,000, Proud says.&nbsp; “That is, I think, a prohibitive cost,” he says. There also isn’t enough capacity in the supply chain: “It’s relatively slow and hard to flex to the current increase in demands.” He admires ASML’s EUV tooling—it’s “the apex implementation of that technology”—but new approaches are needed. That’s partly for national security reasons. Proud and his team think it’s too dangerous for the US to rely on foreign supplies. But he also predicts the current AI boom will go into overdrive, creating a massive demand for chips that the existing ASML/TSMC duopoly won’t be able to deliver: “The amount of chips we’re going to need is going to be many orders of magnitude larger than even the wildest projections you have now.” ASML’s machines use lasers and molten tin to generate the EUV light. CHRISTOPHER PAYNE Substrate predicts it will be able to produce finished wafers at $10,000 a pop—a tenth of where Proud predicts the rest of the industry is heading. Proud says that’s partly because the company’s system will be vertically integrated, so it will control all parts of the chipmaking process, but also because its lithography tooling will be less complex: “We’re able to put together in a sort of simpler package.” Still, Substrate is playing its cards close to its chest. Unlike ASML, the company isn’t offering nuanced detail on how it generates light, or on how that then translates into making patterns on a wafer.&nbsp; Substrate’s ambitions give some industry observers pause. Hijink, who thinks it is probably “unachievable and impossible” to simultaneously master both a new form of lithography and high-throughput fab techniques, regards the company’s secrecy as a red flag. “This industry is about open innovation,” he says. Koch is more impressed by its ambitions and funding. The type of technology it’s pursuing “is really cool,” he says. “It’s interesting.” But “there’s a long road between lab-scale demonstration and high volume,” he adds. “Is this like an imminent disruption to ASML? Probably not.”&nbsp;&nbsp; Another startup that is aiming to hit the market around the same time as Substrate is Lace Lithography. Based in Norway, it is devising an entirely different approach—one that doesn’t use light at all. Instead, an energized beam of helium atoms is pointed at the pattern on the reticle. When the helium atoms then hit the wafer, the atoms transfer their energy to it, imparting the design to the chip.&nbsp; The idea dates back a while. Bodil Holst, the CEO, took it up in 2008, when she was a physicist studying the use of atom beams. MIT professor Henry “Hank” Smith, a pioneer in using x-rays for lithography, told her she should explore using atoms as a mechanism for making microchips, because back then he wasn’t sure ASML’s EUV moonshot would work.&nbsp;“Even if it does, we’ll need atoms eventually,” he told her. Holst did some experiments to investigate the idea further and partnered with a former PhD student—Adrià Salvador Palau, a physicist and expert in machine learning—to found Lace.&nbsp;Like Substrate’s, its tool is completely different from ASML’s massive machinery. The source of the excited atoms “looks a bit like a rocket motor,” says Palau. “It’s very cool.” While EUV’s wavelength is 13.5 nanometers, the helium atoms offer a precision of 0.1 nanometers. The process also requires far less power, and the machine is intended to be far smaller. Holst tells me the company aims to have machines ready to sell to fabs by 2029 or 2030. “I think everybody’s really looking forward to something that extends a road map beyond light, beyond EUV,” Palau says.&nbsp; ASML is watching these upstarts with curiosity. Benschop says he can’t assess whether Substrate’s technology will work reliably and affordably, because the company hasn’t explained anything about its processes. But he went to a conference where Holst and Palau did a presentation outlining Lace Lithography’s technology. “I’m incredibly impressed with how they do it,” he says. The problem, he says, is he doesn’t think the process produces patterns on the wafer that are deep enough to be useful. “I cannot see how they would scale it to a viable volume product,” he told me.&nbsp; He suspects ASML’s mastery of EUV will keep it on top for the near future. “So far, I have not seen a viable alternative,” he says. He thinks there’s “no serious runner-up” when it comes to volume manufacturing of the most advanced chip generations. It’s true that major shifts in chipmaking are slow, says Chris Miller, a professor of international history at Tufts University and the author of Chip War , a book about the worldwide struggle for dominance in the industry.&nbsp;“No doubt we’ll eventually have alternatives [to EUV],” he told me via e-mail. “But it’s worth noting that lithography transitions have historically taken years, if not decades.”&nbsp; ASML’s executives, too, are pondering their future. Benschop expects high-NA technology to dominate chipmaking into the 2030s. Beyond that? The industry has, indeed, tended to shift to a new form of light every decade. “You may argue it’s time for the next decade,” he told me after we’d stripped off our bunny suits and he was relaxing with a coffee.&nbsp; But ASML’s executives suspect they can continue to squeeze more capabilities out of EUV by increasing the numerical aperture even further on their existing machine. They’re already toying with a design that would take an NA of 0.55 to an NA of 0.75: “hyper NA.” It could let them pattern wafers with a resolution of six nanometers. They’re also working on standardizing their various optics into a platform of a single size, so customers could order one machine outfitted for either regular EUV, high NA, or hyper NA. If it’s all in the same-sized unit, it would simplify the costs and logistics of integrating each into a fab. If the company goes through with it, Benschop figures, the hyper-NA tool might hit the market seven or eight years from now and be sold in volume during the second half of the 2030s. For now, the ball is in ASML’s court. “We’re pushing the limits of physics,” Pieters told me. The question now is whether anyone else can push harder.&nbsp; Clive Thompson is a science and technology journalist based in New York City. He wrote about the development of ASML’s original EUV machine in MIT Technology Review ’s 2021 issue on computing .",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 79
     },
     {
       "title": "黎明：确保全球每个组织安全的工具",
@@ -301,7 +367,7 @@
         "公司动态",
         "开源"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -317,7 +383,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "用于长期工作的Codex-maxxing",
@@ -332,7 +398,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -347,7 +413,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "三星电子为员工带来ChatGPT和Codex",
@@ -378,7 +444,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -397,23 +463,6 @@
       "score": 99
     },
     {
-      "title": "使用人工智能帮助医生诊断影响儿童的罕见遗传疾病",
-      "originalTitle": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "date": "2026-06-18T08:00:00.000Z",
-      "summary": "这条新闻与公司动态、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、推理相关动态",
-      "fullContent": "研究人员使用OpenAI推理模型来帮助诊断罕见疾病，在以前未解决的病例中确定了18个新的诊断。",
-      "originalSummary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "推理",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "改善ChatGPT中的健康智能",
       "originalTitle": "Improving health intelligence in ChatGPT",
       "source": "OpenAI",
@@ -427,7 +476,7 @@
         "大模型",
         "推理"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "是否足够有特工效力？在您自己的工具上对开放模型进行基准测试",
@@ -444,7 +493,7 @@
         "评测",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
@@ -459,7 +508,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
+    },
+    {
+      "title": "Beyond LoRA ：你能击败最流行的微调技术吗？",
+      "originalTitle": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/peft-beyond-lora",
+      "date": "2026-06-18T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "如果您想根据自己的数据微调开放模型，您可能对所谓的参数高效微调（简称PEFT ）感兴趣。该术语描述了显着减少微调模型的内存需求的技术。虽然这些技术有几十种，但几乎每个人都选择了一种叫做“LoRA”的技术。 在这篇博客文章中，我们将探讨LoRA是否真的是最佳选择，有哪些工具可以做出明智的决定，以及如何从LoRA之外的视野中受益。有无数的开放模型可用，但它们通常不足以满足您的用例。提示可能有所帮助，但通常还不够。与其从头开始训练新模型，不如考虑对现有模型进行微调。 然而，微调会耗费大量内存：您通常需要足够的内存来多次适应整个模型。量化减少了模型的内存占用，但量化模型无法直接微调。因此，出现了一套技术来削减微调所需的内存，称为“参数高效微调”或PEFT。使用PEFT ，您可以仅使用一小部分内存微调模型，甚至微调量化模型。 它还具有其他优点，例如检查点尺寸小，更能抵抗灾难性遗忘，以及能够从同一基本模型提供多种微调。在Hugging Face ，我们开发了PEFT库，它实现了统一API背后的许多PEFT技术，并与生态系统（例如变压器和扩散器）很好地集成。 它还支持多种量化方法，在参数高效微调中实现了进一步的可访问性。无论您是想对自己的数据进行微调，还是正在研究新的PEFT方法， PEFT都提供了一个很好的起点。一种早期出现并被证明非常有效的参数高效微调技术被称为“低等级适应” ，或简称为“LoRA”。 它的工作原理是在基本模型上添加少量参数，冻结基本模型权重，并仅训练这些参数。在所有PEFT技术中， LoRA是迄今为止最受欢迎的技术。以下是一些估计：尽管这些估计并不完美，但结论是LoRA几乎肯定是迄今为止最常见的PEFT技术。 这可能只是意味着LoRA最适合每个人，这一事实反映在其使用统计数据中。然而，还有另一种可能性： LoRA是早期流行的PEFT技术之一。因此，也许它的使用变得自我强化： LoRA具有最高的可见性，教程/示例数量最多，并且在下游包中具有最好的支持。因此， LoRA的受欢迎程度依赖于自身。 这一切都引出了一个问题：我们是否都通过回避更好的技术而将绩效放在桌面上？毕竟，有无数研究人员的论文声称他们的技术胜过LoRA。这难道不足以证明我们应该超越LoRA ，转而采用新的技术吗？除了LoRA之外，还有数十篇研究微调技术的论文。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
@@ -474,7 +538,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -489,7 +553,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
