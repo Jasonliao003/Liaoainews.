@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T00:14:30.336Z",
+  "updatedAt": "2026-06-28T00:08:25.262Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,91 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "随着Anthropic的出口禁令的延续，亚洲人工智能初创公司推出了类似Mythos的模型",
+      "originalTitle": "Asian AI startups launch Mythos-like models as Anthropic&#8217;s export ban drags on",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "date": "2026-06-27T12:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。据报道，周三，中国网络安全公司360推出了Tulongfeng ，据说这是一种可以与人类神话正面交锋的人工智能工具。 据报道，这是以网络安全为重点的人工智能模型，它非常强大，特朗普政府目前已经禁止它及其更受限制的版本，寓言5 ，从非美国人手中。同周早些时候，总部位于东京的人工智能初创公司Sakana AI推出了Fugu ，这是一种以日语中的河豚命名的模型。 该公司表示，这种前沿的人工智能模型“与Anthropic的Fable 5和Mythos Preview等领先模型并驾齐驱。“它也是为代理设计的，能够通过其API协调对其他模型的访问。随着美国政府的禁令的延续，这两款新的亚洲车型产品也随之而来。正是这种秩序阻止了Anthropic两周前在全球范围内访问Mythos和Fable。 Sakana AI的一位发言人告诉TechCrunch ，其新型号的发布“完全是巧合” ，但这并没有阻止它利用这一时刻。它的网站宣传“在没有出口管制风险的情况下提供前沿能力。 “Sakana Fugu是我们自去年以来一直在建立的东西—其背后的研究于今年春天在ICLR上发表，它反映了一种对我们如何在Sakana AI提供前沿价值至关重要的方法。我们对该产品本身的优点充满信心；这个时机恰逢它比我们预期的更受关注的时刻，”这位发言人谈到在神话/寓言出口禁令期间推出。 Sakana由前谷歌研究人员Ren Ito、Llion Jones和David Ha于2023年共同创立，致力于开发经济实惠的生成式人工智能模型，这些模型适用于小型数据集，并针对日语和文化进行了优化。虽然该公司的目标是日本企业和政府机构，希望减少其受到更严格的出口管制的风险，但它还没有宣布在亚洲永久性地摆脱美国人工智能。“美国 模型对亚洲仍然很重要， ”这位发言人表示，这一观点与联合创始人Ren Ito上周在依云举行的G7峰会上发表的言论一致，其中人工智能访问和出口控制是核心话题之一。“我们会用这些术语来描述当前时刻，而不是对任何一组玩家的永久调整。Sakana联合创始人Ren Ito上周在Project Syndicate发表的一篇专栏文章中阐述了这一观点。 他敦促美国联邦政府，认为其“首要任务应该是为美国最亲密的盟友保留访问权限” ，并认为“人工智能不应该成为一种囤积的技术;它应该是一个共同开发的技术。“ Sakana的联合创始人兼首席执行官David Ha将Fugu描述为不仅仅是美国竞争对手在脆弱时刻的土地掠夺。",
+      "originalSummary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "用于心理健康药物信息搜索的知识增强智能体人工智能",
+      "originalTitle": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.26205",
+      "date": "2026-06-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2606. 26205v1公告类型：新摘要：患者越来越多地在网上寻求药物信息，但精神药物的安全性知识分为监管不良事件记录（权威但抽象）和患者叙述（近乎经验但未经验证）。 在不将证据和轶事混为一谈的情况下整合它们在精神病学中尤其重要，在这种情况下，不良的背景信息会放大恐惧、nocebo反应和不依从性。在这里，我们开发了一个出处感知、基于知识图谱的多药剂框架，统一了466,525个Reddit帖子、60,782个WebMD评论和20年的美国FDA九种抗抑郁药不良事件报告系统记录。 以医生注释为基准的大语言模型实体识别流水线在药物治疗中达到了0. 969的最高F1分数，在疾病治疗中达到了0. 973的最高F1分数。与监管报告相比，两个社区平台彼此更加一致（ Jaccard相似度高达0. 905 ） ，这表明患者生成的数据构成了一个部分独立的安全信号。 对于舍曲林，许多不良事件在相应的FDA日期前数百天出现在社区来源中。以ATC-N、ICD-10和MedDRA词汇表为基础的Neo4j知识图表保留了出处，使每项索赔可追溯且监管事实与患者体验不同。 这些结果建立了源感知集成，作为获得更可审核的精神药物信息的途径，具有前瞻性测试的有用性和患者受益。",
+      "originalSummary": "arXiv:2606.26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalidated. Integrating them without conflating evidence and anecdote is especially consequential in psychiatry, where poorly contextualised information can amplify fear, nocebo responses, and non-adherence. Here we develop a provenance-aware, knowledge-graph-based multi-agent framework unifying 466,525 Reddit posts, 60,782 WebMD reviews, and twenty years of U.S. FDA Adverse Event Reporting System records for nine antidepressants. A large-language-model entity-recognition pipeline benchmarked against physician annotations reached highest F1 scores of 0.969 for medications and 0.973 for conditions. The two community platforms were far more concordant with each other (overlap up to a Jaccard similarity of 0.905) than with regulatory reports, indicating that patient-generated data form a partly independent safety signal. For sertraline, many adverse events appeared in community sources hundreds of days before the corresponding FDA date. A Neo4j knowledge graph grounded in ATC-N, ICD-10, and MedDRA vocabularies preserves provenance, keeping every claim traceable and regulatory facts distinct from patient experience. These results establish source-aware integration as a route to more auditable psychiatric medication information, with usefulness and patient benefit to be tested prospectively.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "治理行动，而不是代理：作为自治人工智能系统治理模型的机构认证",
+      "originalTitle": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.26298",
+      "date": "2026-06-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 26298v1公告类型：新摘要：自主人工智能代理可能开始执行相应的、不可逆的操作，如临床处方和生产软件部署。本文观察到，人类机构不是通过监控其推理来治理强大的自主行为者，而是通过在相应行动点要求独立证明的证据来治理强大的自主行为者。 我们将这种制度模式形式化为AI代理系统的计算治理模型。在提议的模型下，代理人保留对计划和推理的完全自主权，但对指定的高风险行动不拥有执行权。执行的条件是先决条件，每个先决条件都由独立的权威来源独立证明，以加密方式绑定到声明的意图，并通过确定性策略进行评估。 决策记录在可以进行独立重新验证的防篡改日志中。我们提出了一个概念验证实施，并用软件部署和临床处方的示例说明了模型。",
+      "originalSummary": "arXiv:2606.26298v1 Announce Type: new Abstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their reasoning but by requiring independently attested evidence at the point of consequential action. We formalise this institutional pattern as a computational governance model for AI agent systems. Under the proposed model, an agent retains full autonomy over planning and reasoning but holds no execution authority over designated high-risk actions. Execution is conditional on preconditions that are each independently attested by a separate authoritative source, cryptographically bound to a declared intent, and evaluated by a deterministic policy. Decisions are recorded in a tamper-evident log amenable to independent re-verification. We present a proof-of-concept implementation and illustrate the model with examples from software deployment and clinical prescribing.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "论文"
+      ],
+      "score": 99
+    },
+    {
+      "title": "验证视野：编码代理奖励无银弹",
+      "originalTitle": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.26300",
+      "date": "2026-06-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 26300v1公告类型：新摘要：一种经典的直觉认为，验证解决方案比生成解决方案更容易。对于今天的编码代理来说，这种直觉正在被颠倒过来：随着基础模型发展出更强的推理能力，工程线束变得越来越复杂，生成复杂的候选解决方案不再困难--可靠地验证它们已成为更难的问题。 我们可以构建的每个验证器都只是人类意图的代理，而不是意图本身。这使得验证面临双重困难：首先，本质上意图不明确，因此本质上很难忠实地检查其是否已经实现；其次，在模型训练期间，优化扩大了代理和意图之间的差距--表现为奖励黑客攻击或信号饱和。 为了解决这个问题，我们从三个维度（可扩展性、忠实性和鲁棒性）来描述验证信号的质量，并认为同时实现这三个维度是核心挑战。我们进一步研究了四种奖励结构：用于一般编码任务的测试验证器，用于前端任务的标准验证器，用户作为真实世界代理任务的验证器，以及用于长时间任务的自动代理验证器。 在不同的任务类型和政策能力水平上，我们对奖励设计的核心挑战以及如何更有效地利用奖励信号进行深入分析和实验。实验表明，有针对性的验证设计可以有效抑制奖励黑客行为，提高任务完成质量，并在多个内部和公共基准上实现显着收益。 这些经验共同指向了一个核心观察：随着政策能力的持续增长，没有固定的奖励功能可以保持有效；验证必须与生成器共同进化。",
+      "originalSummary": "arXiv:2606.26300v1 Announce Type: new Abstract: A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning capabilities and engineering harnesses grow more sophisticated, generating complex candidate solutions is no longer difficult -- reliably verifying them has become the harder problem. Every verifier we can build is only a proxy for human intent, never the intent itself. This makes verification subject to a twofold difficulty: first, intent is underspecified by nature, making it inherently hard to faithfully check whether it has been fulfilled; second, during model training, optimization widens the gap between proxy and intent -- manifesting as reward hacking or signal saturation. To address this, we characterize the quality of verification signals along three dimensions -- scalability, faithfulness, and robustness -- and argue that achieving all three simultaneously is the central challenge. We further study four reward constructions: a test verifier for general coding tasks, a rubric verifier for frontend tasks, the user as verifier for real-world agent tasks, and an automated agent verifier for long-horizon tasks. Across different task types and policy capability levels, we conduct in-depth analysis and experiments on the core challenges of reward design and how to more effectively leverage reward signals. Experiments show that targeted verification design can effectively suppress reward hacking, improve task completion quality, and achieve significant gains across multiple internal and public benchmarks. These experiences collectively point to a core observation: no fixed reward function can remain effective as policy capability continues to grow; and verification must co-evolve with the generator.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "工具增强LLM代理如何执行真实世界的能源分析任务？",
+      "originalTitle": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.26346",
+      "date": "2026-06-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 26346v1公告类型：新摘要：代理基准已在通用和特定领域设置中出现，包括金融、编码、法律和药物发现，但能源领域评估在很大程度上仍仅限于静态知识召回。对于一个需要实时数据检索、专业监管和市场知识以及现实世界约束下的多步定量推理的行业来说，这是一个关键的差距。 我们提出了一个工具增强法学硕士代理对现实世界能源市场分析任务的实证研究。我们的评估环境包括分为三类的243个专家策划的问题： （ 1 ）市场数据检索和分析， （ 2 ）知识检索和解释，以及（ 3 ）高级定量建模和决策分析。 任务包括价格和需求分析、关税影响建模、资产收入和回报估算、套期保值策略分析和优化建模，问题跨越多个难度级别。代理商配备了一套可配置的域工具套件，包括适用于美国主要电力市场的实时电力市场API。 ISO、监管档案搜索、公用事业费率数据库、资产优化模型和能源市场文档的检索增强型发电。我们使用多维度评估方案评估客服代表的回复，该方案包括分数接近正确性、答案准确性、属性一致性和来源有效性，并使用类别感知路由将评分标准与问题类型相匹配。 我们对闭源和开源LLM进行评估，对模型功能和领域工具在高风险专业领域中的相互作用进行比较分析。关键工件公开发布，以支持可重复性和未来的研究。",
+      "originalSummary": "arXiv:2606.26346v1 Announce Type: new Abstract: Agentic benchmarks have emerged across general-purpose and domain-specific settings, including finance, coding, law, and drug discovery, yet energy-domain evaluations remain largely limited to static knowledge recall. This is a critical gap for a sector that requires live data retrieval, specialized regulatory and market knowledge, and multi-step quantitative reasoning under real-world constraints. We present an empirical study of tool-augmented LLM agents on real-world energy market analytics tasks. Our evaluation environment includes 243 expert-curated problems across three categories: (1) Market Data Retrieval and Analysis, (2) Knowledge Retrieval and Interpretation, and (3) Advanced Quantitative Modeling and Decision Analytics. Tasks include price and demand analysis, tariff impact modeling, asset revenue and returns estimation, hedging strategy analysis, and optimization modeling, with problems spanning multiple difficulty levels. Agents are equipped with a configurable suite of domain tools, including live electricity market APIs for major U.S. ISOs, regulatory docket search, utility tariff databases, asset optimization models, and retrieval-augmented generation over energy market documents. We assess agent responses using a multi-dimensional evaluation protocol that scores approach correctness, answer accuracy, attribute alignment, and source validity, with category-aware routing to match scoring criteria to question type. We evaluate both closed-source and open-source LLMs, providing a comparative analysis of how model capability and domain tooling interact in a high-stakes professional domain. Key artifacts are publicly released to support reproducibility and future research.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
     {
       "title": "OpenAI在政府要求后限制GPT-5.6的推出，并表示限制不应成为常态",
       "originalTitle": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
@@ -134,38 +219,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic的Claude正在赢得由ChatGPT拥有的付费消费者的青睐",
-      "originalTitle": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-      "date": "2026-06-25T17:38:27.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。现在注册。支付人工智能的消费者越来越多地选择Anthropic的Claude ，来自信用卡交易分析公司Indagari的趋势数据显示。 这是一个迹象，表明人工智能实验室拥有的客户群比它通常被认为占据的利基市场更广泛、更健康--使用Claude Code的企业和初创公司开发人员。Indagari分析了来自约2800万美国消费者的数十亿匿名信用卡交易。因此，虽然这些数据不能给我们提供有关Anthropic的收入或总客户的绝对数字，但这是一个足够大的抽样来发现趋势。 在人类的情况下，趋势是向上和向右。我们分析的数据涵盖了2025年至2026年5月10日的每周交易，包括订阅和API代币等项目的付款。它显示， Claude的付费消费者和收入逐月增长，自2026年1月以来，该细分市场目前增长了约75%。 值得注意的是，即使在3月份该公司看到消费者的增长飙升之后，这种增长仍在继续，当时该公司拒绝让特朗普政府将其模型用于对美国人和自主武器的大规模监视。Claude越来越受消费者欢迎的另一个指标来自DataCamp ，这是一个向消费者和企业员工教授人工智能技能的在线教育平台，拥有约2000万用户。 自今年年初以来， DataCamp的消费者对Claude的兴趣激增。DataCamp告诉TechCrunch ， “Claude”现在是其网站上搜索量最大的术语，甚至超过了“AI”一词。虽然ChatGPT课程在进行企业培训的企业中仍然更受欢迎，但该公司表示，在自我指导的消费者中，对Claude课程的需求比ChatGPT快三倍。 它说，仅在过去的30天里，对Claude课程的需求就增长了18倍。尽管如此，尽管克劳德的增长令人印象深刻，但从各方面来看， ChatGPT仍然是最受消费者欢迎的人工智能。",
-      "originalSummary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "General Intuition的$ 23亿押注，视频游戏可以为现实世界训练人工智能代理",
-      "originalTitle": "General Intuition&#8217;s $2.3B bet that video games can train AI agents for the real world",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-      "date": "2026-06-25T16:55:00.000Z",
-      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、视频生成相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。当我进入General Intuition在纽约办事处的研发楼层时，该公司31岁的联合创始人兼首席执行官Pim de Witte将我的注意力引向了站在桌子上的显示器。 似乎有人在玩《堡垒之夜》之类的游戏。那不是一个人。“我们的经纪人已经连续玩了100个小时，”该公司的首席产品官肯特·罗林斯（ Kent Rollins ）笑着说。在我沉浸在人工智能导航游戏虚拟环境的奇观中之前，我听到了一个大型四足机器人的电子脚步声。 “为玩游戏的代理人提供动力的同一个大脑正在为机器人提供动力，” de Witte告诉我。数据分析师乔什·杜普兰蒂斯（ Josh Duplantis ）携带一台笔记本电脑，从机器人的单个摄像头流式传输实时信息，他解释说，机器人的默认模式是“探索”。“依靠那个摄像头，它那奇异的眼睛，巨型虫状机器人向我走来，在我周围盘旋，继续走进办公室。 它偶尔会夹住椅子的腿，或者撞到一个乱七八糟的垃圾箱里，就像一个还不知道自己的身体与周围世界的关系的小孩。Duplantis说，为四足动物微调人工智能模型只需要8分钟的现实世界机器人数据。更重要的是，这些数据是在街道上收集的，而不是在机器人目前正在自行导航的办公室内收集的。 可以从游戏玩法到模拟再到具体化推广的代理模型是General Intuition的存在理由。该模型在世界上占有一席之地的能力已经获得了一些重量级击球手的支持。周四， General Intuition表示，它以23亿美元的估值筹集了3.2亿美元，证实了TechCrunch之前的报道。 该轮融资使General Intuition披露的资金总额达到4.54亿美元，此前该公司在去年10月推出时筹集了1.34亿美元。这家初创公司是从de Witte的另一家公司Medal分拆出来的，该公司允许游戏玩家上传和分享视频游戏剪辑。 数亿小时的上传游戏提供了初始数据集，用于在时空推理中训练General Intuition的模型—或了解如何在空间和时间中移动。但关键因素不是游戏画面；而是嵌入在这些片段中的动作标签：玩家准确按下哪些按钮以及何时按下的记录。 De Witte说，大多数竞争对手都试图仅从视频中推断行动，他认为这是不够的。",
-      "originalSummary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "视频生成"
-      ],
-      "score": 99
-    },
-    {
       "title": "客服代表如何转变工作方式",
       "originalTitle": "How agents are transforming work",
       "source": "OpenAI",
@@ -181,6 +234,36 @@
         "论文"
       ],
       "score": 99
+    },
+    {
+      "title": "混合模型可以更好地预测哪些代币？",
+      "originalTitle": "Which tokens does a hybrid model predict better?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "date": "2026-06-25T16:11:42.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "注意力与复发，并衡量差异真实文本显示了什么，这给我们留下了什么📄技术报告： https://arxiv. org/abs/2606. 20936模型可以很好地预测哪些类型的代币，哪些不是？对于混合动力车来说，这个问题特别有趣，这是一种语言模型架构，已经开始挑战标准变压器，我们一直在与Olmo Hybrid一起研究。 混合动力车可以在标准基准上匹配或击败变压器，但标题数字并没有透露混合动力车型相对于变压器的具体优势。为了阐明这些令牌级行为，我们最近进行了实验，比较了我们自己最强大的7B变压器Olmo 3和混合模型Olmo Hybrid。 具体而言，我们以细粒度的方式比较不同类型的代币或作为LLM输入的信息单元之间的模型预测差异。由于Olmo 3和Olmo Hybrid在架构之外构建得尽可能相似--在数据、标记器和培训配方上紧密匹配--他们预测的任何差异主要反映架构本身。 在令牌级别查看这些差异使我们能够收集有关混合模型相对于变压器的具体优势的见解。我们的结果表明，混合代币的优势在许多代币中是真实的，但不是全部。Olmo Hybrid在带有意义的代币（如名词、动词和形容词）以及只能通过跟随正在发生的事情来预测的代币（如代词指的是哪个人）方面最强大。 但是，混合优势几乎消失在标记上，这些标记只是简单地重复输入中已经存在的东西--一个逐字复制的单词或短语--答案就在那里等待查找。这就是变压器的力量所在。语言模型由一堆重复的层构建而成，每个层都使用其周围的令牌来细化其对每个令牌的表示。变压器在每一层都会使用注意力。 该模型可以一次直接绘制每个较早的代币，权衡每个代币与当前预测的相关性。这使得注意力能够准确地召回特定的早期令牌，即使该令牌出现在输入中很久以前。问题是，每个代币都会与所有早期的代币进行比较，因此随着输入的增加，注意力的成本会急剧上升。 此外，虽然注意力集中在回忆和汇总信息上，但它也很难代表随着时间的推移而逐渐演变的信息。混合模型保留了一些注意力层，但将其余部分替换为循环层。 与注意层不同，循环层从左到右读取令牌并携带固定大小的内存，将每个新令牌折叠到内存中，因此无论输入多长时间，处理每个令牌的成本都保持不变。该内存是压缩和有损的，因此循环层无法像注意力那样回溯到确切的早期标记。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
+    },
+    {
+      "title": "为人工智能时代重新定位零售",
+      "originalTitle": "Repositioning retail for the AI era",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+      "date": "2026-06-25T14:22:59.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“为人工智能时代重新定位零售”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
+      "rawFullText": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and how retailers respond to customer behavior in real time. As legacy retailers navigate a fragmented and hyper-competitive landscape, AI is becoming an operating philosophy. At Macy’s, that philosophy is more often defined by what senior director of engineering Murali Murugan describes as an “AI-first” approach. “AI first isn’t about adding intelligence on top,” Murugan says. “It’s about redesigning how decisions happen so the business moves faster and every experience feels more relevant by default.” Rather than layering AI onto existing workflows, Macy’s is embedding intelligence directly into systems that include personalization, search, operational planning, and software development itself. The company’s strategy is reflective of a larger shift taking place across retail: moving from isolated AI pilots toward integrated systems designed to compress, as Murugan puts it, “the gap between the signal and the action.” Early efforts focused on narrow, high-impact use cases like search recommendations and customer engagement, where measurable gains in conversion and reduced friction quickly built internal momentum. “Once we established the quick wins, scaling was a business decision, not a technology debate anymore,” he says. That momentum is now extending into conversational commerce through tools like Ask Macy’s, an AI-powered shopping assistant designed to act more like a personal stylist than a traditional search bar. Whether for a prom, a vacation, or a last-minute event, customers can describe what they need conversationally and receive curated recommendations informed by past purchases, preferences, and context. Still, the company sees AI as more of an invisible layer augmenting human judgment than a replacement for it. The long-term vision is retail that feels increasingly seamless, adaptive, and personalized, powered by systems customers may never even notice are there. &#8220;The real transformation in this all comes from continuous improvement,&#8221; Murugan says. &#8220;It&#8217;s about learning from the mistakes, quickly adapting to the newer technology standards that are coming into play, timing, and execution which compound into a meaningfully better customer experience.&#8221;&nbsp; This webcast is produced in partnership with Infosys. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -199,23 +282,6 @@
       "score": 99
     },
     {
-      "title": "OpenAI推出首款AI处理器： Jalapeño",
-      "originalTitle": "OpenAI reveals its first AI processor: Jalapeño",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
-      "date": "2026-06-24T14:36:47.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
-      "fullContent": "OpenAI刚刚发布了一款新的“智能处理器”芯片，用于与Broadcom合作制造的人工智能服务器。根据周三的公告，这款名为Jalapeño的芯片旨在为当前和未来的大型语言模型提供支持。Jalapeño是一种ASIC （专用集成电路） ，这意味着它专为特定目的而设计：人工智能推理。 通过人工智能推断，模型处理用户运行像Codex这样的代理或提供来自ChatGPT的响应的请求，而人工智能培训涉及消耗大量数据的模型，以便为其响应提供信息。就在9个月前， OpenAI透露它将与Br合作……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&#241;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&#241;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI [&#8230;]",
-      "rawFullText": "OpenAI has just revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom. The chip, called Jalape&ntilde;o, is designed to power current and future large language models, according to an announcement on Wednesday. Jalape&ntilde;o is an ASIC (Application-Specific Integrated Circuit), meaning it's designed for a specific purpose: AI inference. With AI inference, models process a user's request to run an agent like Codex or offer a response from ChatGPT, while AI training involves a model consuming vast amounts of data to inform its responses. It comes just nine months after OpenAI revealed that it would team up with Br … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "算力芯片",
-        "模型"
-      ],
-      "score": 97
-    },
-    {
       "title": "对Alex Bores的$ 2700万Al代理权之战以平局告终",
       "originalTitle": "The $27 million Al proxy war over Alex Bores ends in a draw",
       "source": "The Verge AI",
@@ -228,22 +294,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 96
-    },
-    {
-      "title": "Figma现在拥有AI动态图形和着色器工具",
-      "originalTitle": "Figma now has AI motion graphics and shader tools",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements",
-      "date": "2026-06-24T16:15:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "Figma在其年度Config大会上透露了一些新的设计和编码产品更新，旨在帮助创意人员“进一步推动他们的想法” ，并通过人工智能自动化繁琐的任务。Figma表示，其中一部分是一个重新构想的画布，现在已经针对全栈开发进行了优化，将团队、人工智能代理、工具和材料“整合在一起”。 “值得注意的标注包括编码层，可让您在不离开Figma Design画布的情况下调整项目的代码，以及AI生成的动态图形效果，可让您通过简单地将它们描述到Figma的聊天机器人界面来制作动画和过渡效果。您c…阅读The Verge的完整故事。",
-      "originalSummary": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing teams, AI agents, tools, and materials \"together in [&#8230;]",
-      "rawFullText": "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI. Part of this is a reimagined canvas that's now optimized for full-stack development, according to Figma, bringing teams, AI agents , tools, and materials \"together in one place.\" Notable callouts include coding layers that let you tweak the code of your projects without leaving the Figma Design canvas, and AI-generated motion graphics effects , which allow you to make animations and transition effects by simply describing them to Figma's chatbot interface. You c … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 92
+      "score": 95
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -259,7 +310,37 @@
         "算力芯片",
         "模型"
       ],
-      "score": 89
+      "score": 88
+    },
+    {
+      "title": "Hugging Face：评测相关动态",
+      "originalTitle": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ffasr-leaderboard",
+      "date": "2026-06-24T00:00:00.000Z",
+      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：评测相关动态”。它主要涉及评测方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "rawFullText": "",
+      "tags": [
+        "评测"
+      ],
+      "score": 79
+    },
+    {
+      "title": "The Verge AI：投融资相关动态",
+      "originalTitle": "Congresswoman denies staff used AI to write defense funding amendment",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+      "date": "2026-06-24T19:36:46.000Z",
+      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：投融资相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：投融资相关动态”。它主要涉及投融资方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amendment summary [&#8230;]",
+      "rawFullText": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amendment summary for the 2027 National Defense Authorization Act. It reads: \"Identical to H.R. 100 (118th Congress).11:25 AM????Claude responded: Requires the Secretary of Defense to designate Department of Defense activities, support, and operations at the southwest land border as a named operation with…\" At first, Luna's response seemingly indic … Read the full story at The Verge.",
+      "tags": [
+        "投融资"
+      ],
+      "score": 78
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -275,7 +356,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -290,7 +371,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -305,7 +386,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "使用CUGA构建真正的代理应用程序：轻量级线束的24个工作示例",
@@ -320,7 +401,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "价值4亿美元的机器为芯片制造的未来提供动力",
@@ -335,7 +416,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "黎明：确保全球每个组织安全的工具",
@@ -367,7 +448,7 @@
         "公司动态",
         "开源"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -383,7 +464,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "用于长期工作的Codex-maxxing",
@@ -398,7 +479,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -413,7 +494,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "三星电子为员工带来ChatGPT和Codex",
@@ -444,7 +525,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -460,7 +541,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "改善ChatGPT中的健康智能",
@@ -476,7 +557,7 @@
         "大模型",
         "推理"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "是否足够有特工效力？在您自己的工具上对开放模型进行基准测试",
@@ -493,7 +574,7 @@
         "评测",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
@@ -508,7 +589,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "Beyond LoRA ：你能击败最流行的微调技术吗？",
@@ -523,7 +604,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
@@ -538,7 +619,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -553,7 +634,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
