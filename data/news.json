@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T00:08:25.262Z",
+  "updatedAt": "2026-06-29T00:13:46.194Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,84 @@
   ],
   "articles": [
     {
+      "title": "中国的Z.ai声称它可以在网络安全方面与神话相匹配",
+      "originalTitle": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "date": "2026-06-28T21:42:51.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "中国的Zhipu AI （ Z. ai ）发布了其开放式权重GLM-5. 2 ，一些研究人员声称它在某些错误发现和网络安全场景中与Mythos相匹配。虽然GLM在其他更一般的任务上落后于Anthropic和OpenAI的模型，但中国似乎大大缩小了其模型与美国模型之间的能力差距。 这一进步水平对美国政府来说尤其令人担忧，美国政府一直在努力限制中国获得《人类神话》和《寓言》等强大模型，以及训练和运行这些模型所需的硬件。特朗普政府认为Mythos和其他Advan......在The Verge阅读完整故事。",
+      "originalSummary": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the gap in the capabilities between its models and those of [&#8230;]",
+      "rawFullText": "China's Zhipu AI ( Z.ai ) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the gap in the capabilities between its models and those of the US. This level of advancement is particularly concerning to the US government, which has worked to restrict China's access to powerful models like Anthropic's Mythos and Fable, as well as the hardware necessary to train and run them. The Trump administration views Mythos and other advan … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
+      "originalTitle": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "date": "2026-06-28T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "惠普公司扩展其OpenAI Frontier合作伙伴关系，在客户体验、软件开发和企业运营中部署人工智能。",
+      "originalSummary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "检察官在Palisades火灾审判中使用ChatGPT日志作为证据",
+      "originalTitle": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "date": "2026-06-28T14:12:06.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "Jonathan Rinderknecht因在2025年元旦放火而面临纵火指控，这是洛杉矶历史上最致命的野火之一。为了证明这一点，检察官转向了他的iPhone上的位置数据、安全摄像头录像和证人证词。但他们也转向了他的ChatGPT日志。检察官说， Rinderknecht让ChatGPT生成火灾图像，问聊天机器人： “为什么我一直这么生气？ “，并咆哮着富人是如何摧毁世界的。他们还指出了一段屏幕录像，其中Rinderknecht询问ChatGPT ，如果火灾是由他们的……点燃的，是否可以归咎于某人。阅读The Verge的完整故事。",
+      "originalSummary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history. To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witness testimony. But they also turned to his ChatGPT logs. Prosecutors said that [&#8230;]",
+      "rawFullText": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the deadliest wildfires in LA history . To make their case, prosecutors turned to location data from his iPhone, security camera footage, and witness testimony. But they also turned to his ChatGPT logs. Prosecutors said that Rinderknecht had ChatGPT generate images of fire, asked the chatbot, \"Why am I so angry all the time?\", and ranted to it about how the wealthy were destroying the world. They also pointed to a screen recording in which Rinderknecht asked ChatGPT whether someone could be blamed for a fire if it was lit by their … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "为什么华尔街认为美国内存制造商美光是下一个英伟达",
+      "originalTitle": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "date": "2026-06-28T15:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票可节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。现在注册。美光，这家总部位于爱达荷州博伊西的内存芯片制造商，已经抓住了华尔街的心。爱情能否持续，在很大程度上取决于人工智能驱动的内存芯片供应短缺能持续多久。 美光承诺，它已长期巩固其地位，这将使其能够承受需求突然下降或供应过剩。华尔街已经成为信徒，帮助美光在周四首次短暂超过了Meta和特斯拉的市场估值，尽管它在周五回落，几乎与它们相匹配。具体来说，美光在周五的交易中收盘，市值接近1 $。 27万亿，而Meta为$ 1. 39万亿，特斯拉为$ 1. 42万亿。仅在过去一个月，美光的股价就飙升了236%以上，周五收于每股1,132 $。相比之下，它在2025年中期之前花了数年时间，每股低于100 $。对于一家公司来说，这是一个令人眼花缭乱的崛起，因为大多数消费者都与微型存储卡相关联，而这些存储卡在当时通常用于提升个人电脑、智能手机或其他设备存储空间。 华尔街并没有为这个产品线而烦恼。美光受益于人工智能数据中心建设热潮，该热潮导致美光制造的DRAM和NAND系统内存芯片短缺，特别是高带宽内存(HBM)。单个AI服务器比笔记本电脑需要更多的内存。 像英伟达这样的人工智能系统制造商，以及构建自己系统的超大规模企业，正在购买大量内存，例如微软、亚马逊AWS、谷歌、Meta和甲骨文。这迫使所有其他需要内存的公司也囤积内存，从戴尔和惠普等PC制造商到其他类型的设备制造商。这种被称为RAMageddon的供应不足预计将持续到2027年。 而且它已经推高了苹果产品和Xbox游戏机等消费电子产品的价格。随着整个科技行业要求更多内存，美光上周公布了第三季度轰动一时的收益。收入同比增长四倍，达到414.5亿美元，同期利润从18.8亿美元飙升至282亿美元。 美光还提供了一个积极的前景，预测第四季度收入在490亿美元至510亿美元之间。华尔街一直渴望找到更多的上市人工智能相关公司，这些公司可能和英伟达一样，变得更加迷恋。美光(Micron)和三星(Samsung)等内存芯片制造商面临的历史性问题是，建立生产设施以提高产能是一项耗时且昂贵的工作。 而需求往往会下降，因为公司可以增加产能，造成供应过剩和随后的价格下跌。",
+      "originalSummary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 84
+    },
+    {
+      "title": "Suno推出Spark孵化器计划，为独立艺术家提供人工智能机器",
+      "originalTitle": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "date": "2026-06-28T20:27:36.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
+      "fullContent": "Suno的野心不仅仅是成为一个玩具来制造人工智能，它还希望成为一个流媒体目的地，并打破新的艺术家。Spark是他们面向独立艺术家的新孵化器计划，提供资助、指导和营销支持。要申请，艺术家必须是未签名的歌手、词曲作者或以自己的名字发行音乐的制作人。 他们还需要同意一些条款和条件，这些条款和条件在Suno subreddit上引起了一些关注。首先，您需要同意在Suno上提供您的歌曲进行混音。这不一定是超级令人担忧的，但它授予Suno对您的作品的广泛许可……阅读The Verge的完整故事。",
+      "originalSummary": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or [&#8230;]",
+      "rawFullText": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or producer releasing music under their own name. They also need to agree to some terms and conditions that have raised some eyebrows over on the Suno subreddit . For one, you need to agree to make your songs available on Suno for remixing. That's not necessarily super concerning, but the broad license it grants Suno to your works … Read the full story at The Verge.",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 81
+    },
+    {
       "title": "随着Anthropic的出口禁令的延续，亚洲人工智能初创公司推出了类似Mythos的模型",
       "originalTitle": "Asian AI startups launch Mythos-like models as Anthropic&#8217;s export ban drags on",
       "source": "TechCrunch AI",
@@ -33,91 +111,68 @@
         "产品发布",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "用于心理健康药物信息搜索的知识增强智能体人工智能",
-      "originalTitle": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.26205",
-      "date": "2026-06-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2606. 26205v1公告类型：新摘要：患者越来越多地在网上寻求药物信息，但精神药物的安全性知识分为监管不良事件记录（权威但抽象）和患者叙述（近乎经验但未经验证）。 在不将证据和轶事混为一谈的情况下整合它们在精神病学中尤其重要，在这种情况下，不良的背景信息会放大恐惧、nocebo反应和不依从性。在这里，我们开发了一个出处感知、基于知识图谱的多药剂框架，统一了466,525个Reddit帖子、60,782个WebMD评论和20年的美国FDA九种抗抑郁药不良事件报告系统记录。 以医生注释为基准的大语言模型实体识别流水线在药物治疗中达到了0. 969的最高F1分数，在疾病治疗中达到了0. 973的最高F1分数。与监管报告相比，两个社区平台彼此更加一致（ Jaccard相似度高达0. 905 ） ，这表明患者生成的数据构成了一个部分独立的安全信号。 对于舍曲林，许多不良事件在相应的FDA日期前数百天出现在社区来源中。以ATC-N、ICD-10和MedDRA词汇表为基础的Neo4j知识图表保留了出处，使每项索赔可追溯且监管事实与患者体验不同。 这些结果建立了源感知集成，作为获得更可审核的精神药物信息的途径，具有前瞻性测试的有用性和患者受益。",
-      "originalSummary": "arXiv:2606.26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalidated. Integrating them without conflating evidence and anecdote is especially consequential in psychiatry, where poorly contextualised information can amplify fear, nocebo responses, and non-adherence. Here we develop a provenance-aware, knowledge-graph-based multi-agent framework unifying 466,525 Reddit posts, 60,782 WebMD reviews, and twenty years of U.S. FDA Adverse Event Reporting System records for nine antidepressants. A large-language-model entity-recognition pipeline benchmarked against physician annotations reached highest F1 scores of 0.969 for medications and 0.973 for conditions. The two community platforms were far more concordant with each other (overlap up to a Jaccard similarity of 0.905) than with regulatory reports, indicating that patient-generated data form a partly independent safety signal. For sertraline, many adverse events appeared in community sources hundreds of days before the corresponding FDA date. A Neo4j knowledge graph grounded in ATC-N, ICD-10, and MedDRA vocabularies preserves provenance, keeping every claim traceable and regulatory facts distinct from patient experience. These results establish source-aware integration as a route to more auditable psychiatric medication information, with usefulness and patient benefit to be tested prospectively.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "安全",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "治理行动，而不是代理：作为自治人工智能系统治理模型的机构认证",
-      "originalTitle": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.26298",
-      "date": "2026-06-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 26298v1公告类型：新摘要：自主人工智能代理可能开始执行相应的、不可逆的操作，如临床处方和生产软件部署。本文观察到，人类机构不是通过监控其推理来治理强大的自主行为者，而是通过在相应行动点要求独立证明的证据来治理强大的自主行为者。 我们将这种制度模式形式化为AI代理系统的计算治理模型。在提议的模型下，代理人保留对计划和推理的完全自主权，但对指定的高风险行动不拥有执行权。执行的条件是先决条件，每个先决条件都由独立的权威来源独立证明，以加密方式绑定到声明的意图，并通过确定性策略进行评估。 决策记录在可以进行独立重新验证的防篡改日志中。我们提出了一个概念验证实施，并用软件部署和临床处方的示例说明了模型。",
-      "originalSummary": "arXiv:2606.26298v1 Announce Type: new Abstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their reasoning but by requiring independently attested evidence at the point of consequential action. We formalise this institutional pattern as a computational governance model for AI agent systems. Under the proposed model, an agent retains full autonomy over planning and reasoning but holds no execution authority over designated high-risk actions. Execution is conditional on preconditions that are each independently attested by a separate authoritative source, cryptographically bound to a declared intent, and evaluated by a deterministic policy. Decisions are recorded in a tamper-evident log amenable to independent re-verification. We present a proof-of-concept implementation and illustrate the model with examples from software deployment and clinical prescribing.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "论文"
-      ],
-      "score": 99
-    },
-    {
-      "title": "验证视野：编码代理奖励无银弹",
-      "originalTitle": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.26300",
-      "date": "2026-06-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 26300v1公告类型：新摘要：一种经典的直觉认为，验证解决方案比生成解决方案更容易。对于今天的编码代理来说，这种直觉正在被颠倒过来：随着基础模型发展出更强的推理能力，工程线束变得越来越复杂，生成复杂的候选解决方案不再困难--可靠地验证它们已成为更难的问题。 我们可以构建的每个验证器都只是人类意图的代理，而不是意图本身。这使得验证面临双重困难：首先，本质上意图不明确，因此本质上很难忠实地检查其是否已经实现；其次，在模型训练期间，优化扩大了代理和意图之间的差距--表现为奖励黑客攻击或信号饱和。 为了解决这个问题，我们从三个维度（可扩展性、忠实性和鲁棒性）来描述验证信号的质量，并认为同时实现这三个维度是核心挑战。我们进一步研究了四种奖励结构：用于一般编码任务的测试验证器，用于前端任务的标准验证器，用户作为真实世界代理任务的验证器，以及用于长时间任务的自动代理验证器。 在不同的任务类型和政策能力水平上，我们对奖励设计的核心挑战以及如何更有效地利用奖励信号进行深入分析和实验。实验表明，有针对性的验证设计可以有效抑制奖励黑客行为，提高任务完成质量，并在多个内部和公共基准上实现显着收益。 这些经验共同指向了一个核心观察：随着政策能力的持续增长，没有固定的奖励功能可以保持有效；验证必须与生成器共同进化。",
-      "originalSummary": "arXiv:2606.26300v1 Announce Type: new Abstract: A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning capabilities and engineering harnesses grow more sophisticated, generating complex candidate solutions is no longer difficult -- reliably verifying them has become the harder problem. Every verifier we can build is only a proxy for human intent, never the intent itself. This makes verification subject to a twofold difficulty: first, intent is underspecified by nature, making it inherently hard to faithfully check whether it has been fulfilled; second, during model training, optimization widens the gap between proxy and intent -- manifesting as reward hacking or signal saturation. To address this, we characterize the quality of verification signals along three dimensions -- scalability, faithfulness, and robustness -- and argue that achieving all three simultaneously is the central challenge. We further study four reward constructions: a test verifier for general coding tasks, a rubric verifier for frontend tasks, the user as verifier for real-world agent tasks, and an automated agent verifier for long-horizon tasks. Across different task types and policy capability levels, we conduct in-depth analysis and experiments on the core challenges of reward design and how to more effectively leverage reward signals. Experiments show that targeted verification design can effectively suppress reward hacking, improve task completion quality, and achieve significant gains across multiple internal and public benchmarks. These experiences collectively point to a core observation: no fixed reward function can remain effective as policy capability continues to grow; and verification must co-evolve with the generator.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "工具增强LLM代理如何执行真实世界的能源分析任务？",
-      "originalTitle": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2606.26346",
-      "date": "2026-06-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2606. 26346v1公告类型：新摘要：代理基准已在通用和特定领域设置中出现，包括金融、编码、法律和药物发现，但能源领域评估在很大程度上仍仅限于静态知识召回。对于一个需要实时数据检索、专业监管和市场知识以及现实世界约束下的多步定量推理的行业来说，这是一个关键的差距。 我们提出了一个工具增强法学硕士代理对现实世界能源市场分析任务的实证研究。我们的评估环境包括分为三类的243个专家策划的问题： （ 1 ）市场数据检索和分析， （ 2 ）知识检索和解释，以及（ 3 ）高级定量建模和决策分析。 任务包括价格和需求分析、关税影响建模、资产收入和回报估算、套期保值策略分析和优化建模，问题跨越多个难度级别。代理商配备了一套可配置的域工具套件，包括适用于美国主要电力市场的实时电力市场API。 ISO、监管档案搜索、公用事业费率数据库、资产优化模型和能源市场文档的检索增强型发电。我们使用多维度评估方案评估客服代表的回复，该方案包括分数接近正确性、答案准确性、属性一致性和来源有效性，并使用类别感知路由将评分标准与问题类型相匹配。 我们对闭源和开源LLM进行评估，对模型功能和领域工具在高风险专业领域中的相互作用进行比较分析。关键工件公开发布，以支持可重复性和未来的研究。",
-      "originalSummary": "arXiv:2606.26346v1 Announce Type: new Abstract: Agentic benchmarks have emerged across general-purpose and domain-specific settings, including finance, coding, law, and drug discovery, yet energy-domain evaluations remain largely limited to static knowledge recall. This is a critical gap for a sector that requires live data retrieval, specialized regulatory and market knowledge, and multi-step quantitative reasoning under real-world constraints. We present an empirical study of tool-augmented LLM agents on real-world energy market analytics tasks. Our evaluation environment includes 243 expert-curated problems across three categories: (1) Market Data Retrieval and Analysis, (2) Knowledge Retrieval and Interpretation, and (3) Advanced Quantitative Modeling and Decision Analytics. Tasks include price and demand analysis, tariff impact modeling, asset revenue and returns estimation, hedging strategy analysis, and optimization modeling, with problems spanning multiple difficulty levels. Agents are equipped with a configurable suite of domain tools, including live electricity market APIs for major U.S. ISOs, regulatory docket search, utility tariff databases, asset optimization models, and retrieval-augmented generation over energy market documents. We assess agent responses using a multi-dimensional evaluation protocol that scores approach correctness, answer accuracy, attribute alignment, and source validity, with category-aware routing to match scoring criteria to question type. We evaluate both closed-source and open-source LLMs, providing a comparative analysis of how model capability and domain tooling interact in a high-stakes professional domain. Key artifacts are publicly released to support reproducibility and future research.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI在政府要求后限制GPT-5.6的推出，并表示限制不应成为常态",
-      "originalTitle": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "title": "特朗普政府发布《人类神话》，供100多家美国公司和机构使用",
+      "originalTitle": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-      "date": "2026-06-26T18:32:14.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI表示： “我们不认为这种政府访问程序应该成为长期默认设置。” “它为有需要的用户、开发人员、企业、网络维护者和全球合作伙伴保留了最好的工具。”",
-      "originalSummary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
+      "link": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "date": "2026-06-27T01:01:37.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。禁令实施两周后，导致Anthropic将其强大的网络安全导向模型Mythos 5和Fable 5从市场上撤下，特朗普政府正在软化其立场。 据Semafor和路透社报道，它现在允许Anthropic向100多个特定的美国政府机构和公司提供Mythos 5 ，包括允许这些组织的非美国员工访问该模型。这份名单还包括Anthropic自己的非美国员工，他们被包括在最初禁止非美国人访问模型的禁令中。 根据Semafor看到的信件，商务部长Howard Lutnick周五写信给Anthropic的首席计算官Tom Brown ， “我已经确定已采取适当的保护措施，允许某些值得信赖的合作伙伴访问Claude Mythos 5模型。”显然，政府没有在此指令中解决寓言5的发布问题。 这是Mythos 5的一个版本，在禁令前几天被广泛发布，因为据说它有更多的保护。据称安全研究人员很容易绕过这些护栏后，这两个模型都被拉下了。Anthropic没有立即回复我们的评论请求。 Anthropic周五在一篇关于X的帖子中公开承认了这一进展，并写道： “自6月12日以来，我们一直与美国政府密切合作，以恢复对Claude Mythos 5和Fable 5的访问权限。今天，政府通知我们，我们最强大的网络安全模型Mythos 5可以重新部署到一组运营和保护关键基础设施的美国组织中。 我们正在迅速恢复这些组织的访问权限，并继续与政府合作，以扩大对Mythos 5的访问权限，并使Fable 5再次可用于一般用途。”在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠将于太平洋时间6月26日晚上11:59结束。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
       "rawFullText": "",
       "tags": [
-        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 92
+    },
+    {
+      "title": "房间里最健康的创始人得了癌症。以下是他如何使用人工智能进行反击。",
+      "originalTitle": "The fittest founder in the room got cancer. Here&#8217;s how he used AI to fight back.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "date": "2026-06-27T14:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票可节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。Conno Christou不会让事情随机应变。他使用Whoop乐队跟踪他的睡眠，将其与Oura戒指交叉引用，每年检查近100个生物标志物。 按照彼得·阿提亚（ Peter Attia ）和朗达·帕特里克（ Rhonda Patrick ）等长寿研究人员的方案，他已经连续四年进行年度血液检查。他正在优化他的补充剂，他的昼夜节律，他的蛋白质摄入量。35岁时，他建立了第二家公司，与他认识的任何人一样了解最新的健康研究成果。他在2025年的最后一次体检是全面的绿色检查。“这是我多年来吃过的最好的，”他说。 起初他没怎么想。一周后，他去看医生，医生在他的静脉中发现了两块血块，并安排了手术。但是术前检查改变了一切。一位医生走回房间，告诉他手术没有进行。“我们看到你的胸骨后面有一个11 × 11 × 8厘米的肿块，”医生说。活检证实了克里斯托以前从未想过的事情。 他有一种侵袭性，快速增长的非霍奇金淋巴瘤形式—一种罕见的诊断影响大约42万人中的一个，由与生活方式，饮食或压力无关的随机基因突变引起。肿瘤只存在了大约三个月。再过三周，它就会进入第四阶段。克里斯托本周在雅典的家中告诉这位编辑， “我很幸运，因为我不幸，”他在那里兼职生活。 “它之所以被发现，只是因为我完全投入了其他事情。“随之而来的是对医疗系统极限的教育，以及一个坚定的病人可以用现在可用的工具做些什么。他的第一位肿瘤学家是一位著名的专家，他建议在两种可用的化疗方案中采用更轻的化疗方案。Christou在三天后预订了他的第一次输液。然后，前一天晚上，他征求了第二意见。 第二位医生毫不犹豫。他推荐了更难的方案—持续的院内输液，在六个月内每三周循环一次—引用了Christou的具体病理学。较轻的治疗在他的演示文稿中成功率约为60%。咄咄逼人的一个使这个数字达到了85%左右。两位世界一流的医生。完全相反的建议。",
+      "originalSummary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "据报道， Apple Vision Pro高管将转投OpenAI",
+      "originalTitle": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "date": "2026-06-27T16:45:09.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。根据彭博社的马克·古尔曼（ Mark Gurman ）的说法，苹果负责Vision Pro耳机的副总裁保罗·米德（ Paul Meade ）将离开公司加入OpenAI的硬件团队。 据报道，米德还领导了苹果计划明年推出的人工智能智能眼镜的开发。昂贵的Vision Pro并不受欢迎，但苹果希望更实惠的智能眼镜能够帮助它与Meta的可穿戴设备竞争。 Gurman将此次离职归咎于John Ternus即将晋升为苹果首席执行官，以及Ternus决定改组硬件工程团队，这让公司的一些副总裁觉得他们已经被降职。 与此同时， OpenAI已经在与苹果前首席设计官乔尼·艾夫(Jony Ive)合作开发一款人工智能设备，该设备的首席执行官萨姆·奥尔特曼(Sam Altman)声称，该设备将比iPhone更平和、更平静，尽管去年秋天的报道显示，该公司正在努力弄清细节。在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。 优惠截止时间为6月26日晚上11:59。PT。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
+      "rawFullText": "",
+      "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 87
+    },
+    {
+      "title": "《人类神话5》回归",
+      "originalTitle": "Anthropic&#8217;s Mythos 5 is back",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "date": "2026-06-27T00:33:44.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "在与特朗普政府进行了为期两周的过山车谈判后，根据政府给Anthropic的一封信， Anthropic的Mythos 5终于重新开始运作-至少在某种程度上，对于一组选定的组织来说。The Verge看到了这封信。然而，寓言5--面向公众的神话类模型--似乎仍然处于悬而未决的状态，没有明显的推出协议时间表。 这封日期为6月26日的信由商务部长霍华德·拉特尼克（ Howard Lutnick ）发送给最近领导谈判的Anthropic联合创始人汤姆·布朗（ Tom Brown ） ，信中指出，已经“修改了许可证要求......请阅读The Verge的完整故事。",
+      "originalSummary": "After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge. Fable 5, however - the public-facing Mythos-class [&#8230;]",
+      "rawFullText": "After a rollercoaster negotiation process with the Trump administration that dragged on for two weeks, Anthropic's Mythos 5 is finally back in action - at least, somewhat, for a select group of organizations, according to a letter from the government to Anthropic that was viewed by The Verge . Fable 5, however - the public-facing Mythos-class model - appears to still be in limbo, with no apparent timeline for a rollout agreement. The letter, dated June 26th and sent by Commerce Secretary Howard Lutnick to Anthropic co-founder Tom Brown, who had been recently leading negotiations, states that there's been a \"revision to the license requiremen … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 86
     },
     {
       "title": "为什么从OpenAI到SpaceX的每个人都在构建自己的芯片（并在Nvidia上加热）",
@@ -185,14 +240,14 @@
       "score": 99
     },
     {
-      "title": "白宫要求OpenAI出于安全考虑，放慢推出新车型的步伐",
-      "originalTitle": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "date": "2026-06-25T23:34:39.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。据报道， OpenAI发布的最新型号GPT 5. 6将与之前的版本不同。 据The Information报道，该公司计划仅与特朗普政府指示的一群精选的亲密合作伙伴共享，而不是将其分发给公众。据报道，在本周的一次会议上，首席执行官Sam Altman告诉员工，政府将在预览期间“按客户批准访问客户”。 据报道，奥尔特曼补充说，如果有限的发布进展顺利， OpenAI希望在“几周后”推出一个更广泛的通用版本。换句话说，特朗普政府似乎在向OpenAI施压，要求其做Anthropic已经自愿做的事情：对其最强大的人工智能模型进行保密。 根据The Information ， OpenAI的新模式不仅正在由政府审查，而且其工作人员还在即将发布的版本上与政府“密切合作”。据报道，要求有限释放的机构是国家网络总监办公室和科技政策办公室。 特朗普政府最初将自己定位为对人工智能采取“放手”的方式，最近几个月一直在推动联邦政府对新模式的监督。本月早些时候，特朗普签署了一项行政命令，指示某些人工智能公司在公开发布新模型之前，自愿向政府提交新模型进行测试和评估。 今年早些时候，当Anthropic宣布其新的前沿网络模型Claude Mythos仅通过名为Project Glasswing的项目向一小部分合作伙伴发布时，引发了不小的争议。Anthropic认为，它的模型太过强大，可能在错误的人手中造成更多的伤害而不是好处。 此后，观察家们一直在争论Anthropic的言论是否仅仅是一种营销噱头，还是一种防止强大模型被滥用的合法企图。答案可能介于两者之间。网络犯罪分子长期以来一直使用自动化工具，但在人工智能时代，他们现在拥有的数字弹药比以往任何时候都多。LLM已被证明擅长编写恶意软件，有些甚至可以自主执行整个勒索软件攻击。 对Mythos等前沿网络工具的具体担忧是，它们表面上能够以任何人类分析师无法比拟的速度识别和利用软件漏洞。由于许多软件系统包含隐藏的漏洞，这些漏洞充当进入企业网络的入口点，这显然给任何运行复杂软件基础设施的组织带来了明显而重大的问题。",
-      "originalSummary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "title": "预览GPT-5.6 SOL ：下一代型号",
+      "originalTitle": "Previewing GPT-5.6 Sol: a next-generation model",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "date": "2026-06-26T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI预览了GPT-5. 6 SOL ，这是一种下一代型号，具有更强的编码、科学和网络安全功能，并配有最先进的安全堆栈。",
+      "originalSummary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "rawFullText": "",
       "tags": [
         "大模型",
@@ -248,7 +303,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "为人工智能时代重新定位零售",
@@ -263,7 +318,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
+    },
+    {
+      "title": "福特不得不聘请前工程师来修复其自动化系统所犯的错误",
+      "originalTitle": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+      "date": "2026-06-25T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "为了庆祝其在京东动力在主流汽车制造商中最初的质量排名中名列第一，福特正在开放近年来面临的挑战，特别是在生产和设计中对自动化系统的依赖方面。 事实证明，这些自动化系统并不像以前想象的那样强大，需要福特聘请经验丰富的技术人员（有时会带回前员工）来纠正公司机器人所犯的错误。在福特看来，人工智能既强大又容易陷入困境。其有效性完全取决于用于训练AI模型的数据质量。此外，汽车……在The Verge阅读完整故事。",
+      "originalSummary": "To celebrate its new status as No. 1 in JD Power's initial quality ranking among mainstream automakers, Ford is opening up about the challenges it has faced in recent years, especially around its reliance on automated systems in production and design. It turns out that those automated systems were not as robust as previously assumed, [&#8230;]",
+      "rawFullText": "To celebrate its new status as No. 1 in JD Power's initial quality ranking among mainstream automakers, Ford is opening up about the challenges it has faced in recent years, especially around its reliance on automated systems in production and design. It turns out that those automated systems were not as robust as previously assumed, requiring Ford to hire experienced technicians - sometimes bringing back former employees - to correct errors made by the company's robots. In Ford's view, AI is both powerful and prone to pitfalls. Its effectiveness depends entirely on the quality of the data used to train the AI models. In addition, the auto … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -279,22 +349,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 99
-    },
-    {
-      "title": "对Alex Bores的$ 2700万Al代理权之战以平局告终",
-      "originalTitle": "The $27 million Al proxy war over Alex Bores ends in a draw",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
-      "date": "2026-06-24T17:25:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "2026年6月23日， Micah Lasher将在纽约州第12届国会选区接替众议员Jerry Nadler （ D-NY ） ，此后， Alex Bores （ D-NY ）在The Freehand Hotel参加了他的监视派对。|照片由Laura Brett/Getty Images提供。 昨晚，当纽约州议员亚历克斯·博尔斯（ Alex Bores ）成为亲AI超级PAC的目标后，其知名度飙升时， Anthropic和OpenAI之间昂贵的2700万美元的政治代理人战争取得了平局。民主党初选代表纽约第12届国会选区。 在比赛之前，前科技行业员工Bores共同撰写并成功通过了备受瞩目的RAISE法案，该法案对前沿人工智能公司实施了护栏和安全要求；他的法案的一个版本于去年签署成为州法律。但这项立法引发了对Leading the Future的愤怒，一笔$ 1亿的苏……阅读The Verge的完整故事。",
-      "originalSummary": "The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional district. Prior to the race, Bores, a former [&#8230;]",
-      "rawFullText": "Alex Bores (D-NY) enters his watch party at The Freehand Hotel after conceding the congressional race to Micah Lasher who will replace Rep Jerry Nadler (D-NY) in NY's 12th Congressional District on June 23, 2026 in New York City. | Photo by Laura Brett/Getty Images. The expensive, $27 million political proxy war between Anthropic and OpenAI came to a draw last night when Alex Bores, a New York state Assemblyman whose popularity surged after being targeted by a pro-AI super PAC, narrowly lost the Democratic primary to represent New York's 12th Congressional district. Prior to the race, Bores, a former tech industry employee, had coauthored and successfully passed the high-profile RAISE Act, which had implemented guardrails and safety requirements on frontier AI companies ; a version of his bill was signed into state law last year . But the legislation drew the ire of Leading the Future, a $100 million su … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 95
+      "score": 98
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -310,10 +365,10 @@
         "算力芯片",
         "模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
-      "title": "Hugging Face：评测相关动态",
+      "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
       "originalTitle": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/ffasr-leaderboard",
@@ -325,22 +380,22 @@
       "tags": [
         "评测"
       ],
-      "score": 79
+      "score": 78
     },
     {
-      "title": "The Verge AI：投融资相关动态",
-      "originalTitle": "Congresswoman denies staff used AI to write defense funding amendment",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
-      "date": "2026-06-24T19:36:46.000Z",
-      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：投融资相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：投融资相关动态”。它主要涉及投融资方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amendment summary [&#8230;]",
-      "rawFullText": "Rep. Anna Paulina Luna (R-FL) says her staff used AI for \"spellcheck\" in an amendment summary for a major defense bill, but denies it was used for the bill text itself and says \"NO Legislation is ever drafted with AI.\" Luna issued the response after accounts on X began sharing screenshots of an amendment summary for the 2027 National Defense Authorization Act. It reads: \"Identical to H.R. 100 (118th Congress).11:25 AM????Claude responded: Requires the Secretary of Defense to designate Department of Defense activities, support, and operations at the southwest land border as a named operation with…\" At first, Luna's response seemingly indic … Read the full story at The Verge.",
+      "title": "人工智能网络数据基础设施层的出现",
+      "originalTitle": "The emergence of the web data infrastructure layer for AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
+      "date": "2026-06-24T11:59:54.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能网络数据基础设施层的出现”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundation of the web itself. The web was not designed&#8230;",
+      "rawFullText": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&nbsp; To understand this challenge, consider the foundation of the web itself. The web was not designed for the automated discovery and retrieval that new AI applications demand. Overcoming this inherent design constraint requires infrastructure. The next frontier in AI may depend on a new web data infrastructure layer that can enable models to discover and map this ever-expanding digital realm. This layer must be able to navigate hundreds of millions of existing web domains and billions of new URLs created each week, delivering real-time information and overcoming technical barriers. “The data suggests there&#8217;s far more data out there,” says Or Lenchner, CEO of Bright Data, a web data collection platform. “Think of the universe: It&#8217;s out there, but you don&#8217;t know what you don&#8217;t know.” Enabling access to fresh, relevant, and trustworthy data While early AI breakthroughs were driven by scaling training data and model size, organizations are now encountering a fundamental bottleneck: They need to keep pace with the dynamic, unstructured, and constantly evolving nature of web data in order to ground outputs in current and verifiable information. AI performance increasingly depends not just on model architecture but on a system’s compute, networking, retrieval, and data engineering capabilities—that is, the system’s ability to quickly and reliably retrieve data that is fresh, relevant, and trustworthy. Traditional model training relies on snapshots of information collected at a particular point in time. Training AI on such static data is no longer sufficient. To track fluctuations such as competitor pricing, consumer sentiment, and market trends, companies need a constant feed of new information, pulling data in real time along with relevant context. Their infrastructure must therefore be able to handle millions of simultaneous interactions across websites that vary by geography, language, format, and access rules. “If it can&#8217;t retrieve real-time information, it lacks context,” Lenchner says. “In a business setting, that&#8217;s not acceptable anymore. Stale answers lead to bad decisions and disappointed consumers.” Speed is not merely a matter of convenience; it’s a matter of necessity. Today’s organizations operate in environments where prices, inventory, markets, security threats, and customer behavior change continuously. Delayed data retrieval can reduce the usefulness of an otherwise sophisticated model. Using live, high-quality web data can also reduce AI hallucinations because the model has a more relevant knowledge base. This builds user trust. In fact, one survey found that 56% of AI practitioners said businesses need access to real-time web data to improve trust in AI outputs. To ensure the model runs efficiently and effectively, the information must also be pared down to the appropriate essentials.&nbsp; Despite the introduction of retrieval-augmented generation (RAG), where models pull in external data at the moment of a query, many AI systems still struggle to deliver outputs that are current, contextually relevant, and trustworthy in operational settings. According to Gartner, 60% of AI projects that are not supported by AI-ready data—accurate, structured, organized, and contextualized—will be abandoned by the end of the year.&nbsp; This is because large-scale retrieval alone does not solve the problem. As Lenchner puts it, “You need to retrieve data at scale, but also in real time. Latency becomes an issue because of the end user who is waiting for the output.”&nbsp; Accessing fresh, AI-ready data at scale introduces technical and structural challenges. In practice, many enterprise systems combine public web retrieval with APIs, licensed datasets, and proprietary internal data in their AI applications. Integrating these fragmented sources into a timely and usable knowledge layer requires specialized capabilities. Some research has found that 97% of AI organizations depend on real-time web data infrastructure, but 90% feel boxed in by various restrictions. Companies are increasingly developing technical approaches to navigate these constraints. Lenchner draws this metaphor: “Think of the trained model as intelligence and relevant data as knowledge. A powerful intelligence layer sitting on top of a hollow knowledge layer is like a genius who knows nothing—useless in practice. Intelligence and knowledge have to come together.” The promise of new infrastructure A new layer of web data infrastructure can address this developing need for stronger AI inputs by enabling discovery of data, real-time access, and tailoring to a specific context. As Lechner describes it, “It&#8217;s all about collecting data at scale, super-low latency, without being blocked.” Rather than relying on increased computing power, this type of platform emulates human browsing behavior to access available content and transform raw code into structured data feeds. It can work with websites that might not interact with traditional scraping tools, such as those heavy in JavaScript, or with aggressive antibot software.&nbsp; As Lenchner explains, “It&#8217;s basically having infrastructure that can mimic a web user with identifying information—IP address, location, and 1,000 more parameters. And at scale. Think of doing that 80 billion times a day for millions of websites. And every single time, you are looking exactly as the website expects you to look.” Of course, continuous retrieval introduces new data governance challenges. To address them, platforms can enforce strict compliance protocols aligned with global privacy frameworks, such as the EU’s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). They can also be limited to openly accessible, public information, avoiding paywalls or private logins. Any networks used can be vetted and consent-based, and incentives can be provided to owners of IP addresses. In this way, systems can be designed to comply with tightening regulation. Such complex capabilities do not come easy. “When this is critical infrastructure for a company,” Lenchner says, “doing it in-house becomes a full-time engineering problem that competes with the actual AI work.” Addressing this complexity requires organizations to commit significant resources, leading many to seek specialized platforms designed specifically for data retrieval, orchestration, and observability. Infrastructure for the real world Real-time data retrieval is changing what AI systems can do inside organizations. For example, a retail company can use public information to enable a dynamic pricing engine, and global brands can track trademark infringements.&nbsp; As the ecosystem matures, organizations that invest in this emerging data infrastructure layer will be better positioned to build AI systems that are more responsive, reliable, and aligned with real-world conditions—AI systems that can continuously adapt using current web data. Over time, the distinction between AI models and the infrastructure that feeds them may even begin to disappear. As Lenchner says, “The world is changing. And everything that is happening in the world is being uploaded to the public web. The amount of new data that is being generated is growing and accelerating.” To learn more from Bright Data, read the Data for AI 2026 report . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
       "tags": [
-        "投融资"
+        "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -356,7 +411,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -371,7 +426,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -386,7 +441,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "使用CUGA构建真正的代理应用程序：轻量级线束的24个工作示例",
@@ -401,7 +456,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "价值4亿美元的机器为芯片制造的未来提供动力",
@@ -416,7 +471,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "黎明：确保全球每个组织安全的工具",
@@ -448,7 +503,7 @@
         "公司动态",
         "开源"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -464,7 +519,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "用于长期工作的Codex-maxxing",
@@ -479,7 +534,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -494,7 +549,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "三星电子为员工带来ChatGPT和Codex",
@@ -525,7 +580,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "为企业提供新的使用情况分析和更新的支出控制",
@@ -541,23 +596,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 98
-    },
-    {
-      "title": "改善ChatGPT中的健康智能",
-      "originalTitle": "Improving health intelligence in ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "date": "2026-06-18T11:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
-      "fullContent": "了解GPT-5。5 Instant如何通过更强的推理、更好的背景、更清晰的沟通和医生知情的评估来改善ChatGPT的健康和健康反应。",
-      "originalSummary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理"
-      ],
-      "score": 96
+      "score": 97
     },
     {
       "title": "是否足够有特工效力？在您自己的工具上对开放模型进行基准测试",
@@ -574,7 +613,7 @@
         "评测",
         "模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
@@ -589,7 +628,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Beyond LoRA ：你能击败最流行的微调技术吗？",
@@ -604,7 +643,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "想要让数据中心快速上线？给它一些灵活性。",
@@ -619,7 +658,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "为什么韩国人如此热爱人工智能？",
@@ -634,7 +673,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "Google DeepMind担心当数百万代理开始互动时会发生什么",
