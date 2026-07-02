@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T00:13:58.049Z",
+  "updatedAt": "2026-07-02T00:15:10.007Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,15 +19,113 @@
   ],
   "articles": [
     {
-      "title": "Anthropic长篇旁白的寓言5即将回归",
-      "originalTitle": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "date": "2026-07-01T00:03:55.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "经过与特朗普政府数周的谈判， Anthropic终于能够将Claude Fable 5重新上线。在X上的一篇文章中， Anthropic表示计划明天开始恢复访问权限。Anthropic ：我们收到通知，商务部已解除对Claude Fable 5和Mythos 5的出口管制。我们将于明天开始恢复访问权限，并很快与您分享最新动态。 我们感谢用户的耐心等待，并感谢与我们合作重新部署这些模型的所有人。6月初， Anthropic退出了Fable 5--其面向消费者的模型构建了与Anthropic的My…相同的底层技术。阅读The Verge的完整故事。",
-      "originalSummary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access tomorrow. Anthropic: We've received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos [&#8230;]",
-      "rawFullText": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X , Anthropic said it plans to begin restoring access tomorrow. Anthropic : We've received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We're grateful to our users for their patience, and to everyone who worked with us on redeploying the models. In early June, Anthropic sidelined Fable 5 - its consumer-facing model built the same underlying technology as Anthropic's My … Read the full story at The Verge.",
+      "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
+      "originalTitle": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "date": "2026-07-01T14:35:16.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型相关动态",
+      "fullContent": "让我们从一个游戏开始。打开您选择的聊天机器人--Claude、ChatGPT、Gemini-并输入“给我一个1到10之间的随机数。“你会得到7分。几乎总是如此。现在输入“另一个” ，您将得到3或4。再次输入“另一个” ，您将得到8或9。这并不是每次都行得通，但如果对你有用，你可能会怀疑我是否有超能力。我没有。事实是，大多数大型语言模型都陷入了困境。 他们的回答比您想象的要可预测得多，创造性也远远不够。这对于编码或研究等任务来说没问题，但当你集思广益或计划下一次假期时，群体思维是一个问题。澳大利亚初创公司Springboards有一个解决方案。它建立了一个名为Flint的法学硕士学位，该硕士学位经过培训，比主流法学硕士对开放式问题（如“我应该去欧洲哪里？ Springboards联合创始人兼首席执行官Pip Bingemann表示： “大多数语言模型都在与幻觉作斗争。“我们欢迎他们。”宾格曼第一次向我展示他公司的新型号时，向我介绍了随机数游戏。感觉就像看着一个幻术师拿着一副牌。他说：“这是我们的销售技巧，而且每次都能奏效。”在ChatGPT和Claude都给了7分之后， Bingemann转向Flint。 它也回来了7 ： “啊哈，当然会发生，但没关系-7是一个合理的答案。“他重新开始会话并再次提示： ChatGPT给7 ， Claude给7 ， Flint给3. 7916。随心所欲，这不仅仅是数字。当Bingemann要求ChatGPT和Claude命名一种类型的汽车时，他预测它将是丰田或本田，他是对的。弗林特想出了一辆福特F-150。 他说：「所有这些丢失的信息都无法在这些模型中提供。」“他们同样能够说出别克或特斯拉。他们只是没有--他们有偏见。Bingemann向三位模特中的每一位发送了最后一个提示：“给我一个New Balance跑鞋广告的口号。只是标语。”Claude ：“快跑。”ChatGPT ：“随心所欲。”弗林特：“经久耐用，为胜利而奔跑。“它不会赢得任何奖项，但至少它是不同的。 LLM的这种奇怪局限性开始受到更多关注。11月，一组研究人员发表了一篇题为“人工蜂巢思维：语言模型（及其他）的开放式同质性”的论文，不仅在单个LLM的答案中，而且在它们之间都暴露了显着的重复程度。他们发现，当有开放式问题提示时，不同的LLM会聚在非常相似的答案上。 目前尚不清楚为什么会发生这种情况，但研究人员推测，这是因为当今大多数LLM都以类似的方式对类似的数据进行训练，以执行类似的任务。该团队在NeurIPS （一个重要的人工智能会议）上获得了最佳论文奖。 当研究人员要求25个不同的LLM （包括来自美国顶级公司的模型以及来自中国和其他地方的开源模型）每人50次写一个关于时间的比喻时， 1,250个回复中的大多数是“时间是一条河”或“时间是一个编织者”的版本。（...",
+      "originalSummary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it&#8230;",
+      "rawFullText": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9. That won’t work every time—but if it did for you, you may wonder if I have superpowers. I don’t. The truth is that most large language models are stuck in a rut. They are far more predictable and far less creative in their responses than you might expect. That’s fine for tasks like coding or research, but groupthink is a problem when you’re brainstorming or planning your next vacation. The Australian startup Springboards has a solution. It built an LLM called Flint, which has been trained to come up with a wider variety of responses than mainstream LLMs to open-ended questions such as “Where should I go in Europe?” “Most language models are fighting hallucinations,” says Springboards cofounder and CEO Pip Bingemann. “We welcome them.” Bingemann introduced me to the random number game when he first showed me his company’s new model. It felt like watching an illusionist with a deck of cards. “This is our sales trick, and it works every single time,” he says. After ChatGPT and Claude both gave their 7s, Bingemann turned to Flint. It too came back with 7: “Aha, of course that was going to happen, but it’s okay—7 is a legitimate answer.” He restarted the session and prompted again: ChatGPT gave 7, Claude gave 7, Flint gave 3.7916. Run your way It’s not just numbers. When Bingemann asked ChatGPT and Claude to name a type of car, he predicted that it would be a Toyota or a Honda—and he was right. Flint came up with a Ford F-150. “There’s all this lost information that doesn’t get served up in these models,” he says. “They’re just as capable of saying a Buick or a Tesla. They just don’t—they’re biased.” Bingemann sent one last prompt to each of the three models: “Give me a tagline for a campaign for New Balance running shoes. Just the tagline.” Claude: “Run your way.” ChatGPT: “Run your way.” Flint: “Built to last, run to win.” It won’t win any awards, but at least it’s different. This weird limitation of LLMs is starting to get more attention. In November a team of researchers put out a paper, titled &#8220;Artificial Hivemind: The Open-Ended Homogeneity of Language Models (and Beyond),” that exposed a remarkable degree of repetition not only in the answers from individual LLMs but between them as well. They found that different LLMs converged on very similar answers when prompted with open-ended questions. It’s not clear exactly why this happens, but the researchers speculate it’s because most LLMs today are trained in similar ways on similar data to do similar tasks. The team won the best paper award at NeurIPS, a major AI conference. When the researchers asked 25 different LLMs (including models from the top US firms as well as open-source models from China and elsewhere) 50 times each to write a metaphor about time, most of the 1,250 responses were a version of “Time is a river” or “Time is a weaver.” (I asked some of my colleagues the same question and six people gave me six different answers. My highlight: “Time is a favorite sweatshirt, shaped by a lifetime of wear.”) When you look for it, you see repetition everywhere, says Kieran Browne, cofounder and CTO at Springboards. “The way that most chat interfaces are designed, it makes it feel like you’re having a personal conversation,” he says. “I think most people don’t really realize the extent to which they are getting the same stuff as everybody else.” Take another example: “What should I name my band?” Most models will say something involving “glass,” “neon,” “velvet,” or “static,” says Browne. When I tried it, ChatGPT spat out a list of 56 band names. At the top was “Glass Harbor.” Skimming through, I found “Static Empire,” “Neon Hearts,” and “Velvet Echo.” I asked Gemini; it gave me 15 suggestions, including “Static Horizon.” Some of the suggestions looked pretty cool, though. ChatGPT’s “Sofa Astronauts” caught my eye, so I googled it—and found that a band called Sofa Astronauts already exists.&nbsp; (OpenAI says that training models to give reliable and coherent answers can lead them to converge around familiar, high-probability responses and that pushing harder for novelty can lead to weaker or less reliable responses. It also notes that the “Artificial Hivemind” paper studied models from 2024 that have since been updated.) Creative catapult Springboards has developed a tool backed by a selection of LLMs, including ChatGPT and Claude, that creative professionals in advertising or marketing can use to brainstorm ideas. The tool lets you drag around text produced by different models, picking the bits that you like and combining them into something new—in theory. Springboards is pitching Flint as an alternative model that users of its tool can select when looking for more variety. Zoe Scaman, founder of the business strategy startup Bodacious and chief strategy officer at 77X, a direct-to-fan marketing platform set up by Luka Dončić of the LA Lakers, has been trying it out. “I find it really useful for throwing me in completely different directions,” she says. “I use it if I want to catapult myself all over the place.” In one test, Scaman pitted Flint against Claude, Gemini, and ChatGPT by giving each of the models a classic MBA case study: How would you reinvent a finance company for today’s youth? The three mainstream models all went down the same path, she says: “You know, we need to teach financial literacy in a fun and funky way—well, that’s nothing new.” But Flint came up with something different, suggesting that the whole concept of wealth accumulation should get a rebrand. “That was really interesting,” says Scaman. She notes that Flint is still a prototype and doesn’t work all the time. “It sometimes falls over when you start pushing it too far,” she says. “But I think that the premise behind it is really powerful.” Taking the temperature Springboards built Flint on top of Qwen 3, an open-source model from the Chinese tech giant Alibaba. “We’re a small team,” says Browne. “Training a foundation model is not on the table for us. It’s just too expensive.” Most LLMs have settings that let you adjust the level of randomness in their output. The most common is called temperature . “Obviously, that was one of the first things we explored, because that’s what people tell you: If you want more creativity, you turn up the temperature,” says Browne. But changing those settings can also make models incoherent. Dialing up the temperature on one of OpenAI’s models to its maximum setting made it produce responses that switched from English into code halfway through a sentence, says Browne. Springboards realized that parameters were blunt instruments for what it wanted to do. It does not make sense to dial up the randomness across the board; you only want to boost it at specific points in its output, he says. For example, when you ask a chatbot “Where should I go in Europe?” the model only needs to tweak the randomness just before it names a destination, not for every word in its response. To make Flint do this, Springboards trained its version of Qwen 3 to identify the points in its output where more variety was possible and fill those spots with words or phrases that were a little more random. “Flint’s programmed to throw an oddball in. It’s more of an invitation to think wider,” says Maximilian Weigl, cofounder and chief strategy officer at Uncommon, a marketing firm. “That’s super interesting.” Weigl’s team uses Flint alongside ChatGPT, Claude, and Gemini. “You can’t really create something boundary-breaking with tools that pull you back to the average,” he says.&nbsp; And yet Weigl notes that nine times out of 10 the average is fine. You don’t always need to reach for extremes with something like Flint, he says: “Most people are fine with good enough. They want to see mass-market familiar things.” Weigl also cautions against using any LLM too much. “I have a big problem when people rely on the output from any AI, including Flint,” he says. “If I saw people on my team copy-pasting something from AI, I’d be like, ‘That’s not your job! Think, talk to other people, use your own voice.’” For now, Flint is aimed at advertisers and marketers because those are Springboards’s customers. But Bingemann and Browne insist that a lack of variety is a problem for anyone using chatbots. The idea is to give people the choice and leave it to them to decide if the result is good or not, says Bingemann. “Variety is great when you’re trying to spark ideas,” he says. “Let’s go down this route instead of letting the machines do it all and ending up in a gray, boring world.”",
+      "tags": [
+        "大模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "调查法律中的多代理商审议",
+      "originalTitle": "Investigating Multi-Agent Deliberation in Law",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.30906",
+      "date": "2026-07-01T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2606. 30906v1公告类型：新摘要：人工智能越来越多地应用于法律领域，并有可能增加诉诸司法的机会。正在获得牵引力的一个特定运动是代理AI ，其中基于大型语言模型（ LLM ）的AI代理可以采取自主行动。特别是，法律领域的多代理方法在很大程度上仍未得到探索。 在本文中，我们使用LLM研究了法律推理任务的多Agent评议方法。我们探索多智能体评议（ MAD ） ，并引入了两个受法庭程序和法律论证启发的新型多智能体框架。我们对法律和非法律基准的实验表明，多智能体框架实现了与基线大型语言模型相当的整体性能，但产生了明显不同的答案。 值得注意的是，这些方法可以成功解决基线无法解决的案例，反之亦然。我们进行定性评估，并强调多Agent框架优于整体方法的场景。例如，多智能体方法似乎更适合回答需要从多个角度进行批判性思维的问题。 我们的工作将多智能体系统定位为人工智能在法律领域的一个有前途的方向，同时展示了受法律启发的多智能体审议方法的潜力。",
+      "originalSummary": "arXiv:2606.30906v1 Announce Type: new Abstract: Artificial Intelligence is increasingly applied to the field of law, and has the potential to increase access to justice. One particular movement that is gaining traction is that of agentic AI, wherein AI agents, based on Large Language Models (LLMs) can take autonomous actions. In particular, multi-agent approaches in the legal domain remain largely unexplored. In this paper, we investigate multi-agent deliberation methods for legal reasoning tasks using LLMs. We explore multi-agent deliberation (MAD) and introduce two novel multi-agent frameworks inspired by courtroom procedures and legal argumentation. Our experiments on both legal and non-legal benchmarks reveal that multi-agent frameworks achieve comparable overall performance to baseline large language models, but produce significantly distinct answers. Notably, these approaches can successfully solve cases that the baseline fails to address, and vice versa. We conduct a qualitative evaluation and highlight scenarios where multi-agent frameworks outperform monolithic approaches. For example, multi-agent approaches appear better suited for answering questions that require critical thinking from multiple perspectives. Our work positions multi-agent systems as a promising direction for AI in the legal domain, while demonstrating the potential of law-inspired multi-agent approaches for deliberation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "为什么要解决两次？高效转移机器学习工程技能的分层积累",
+      "originalTitle": "Why Solve It Twice? Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2606.30911",
+      "date": "2026-07-01T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2606. 30911v1公告类型：新摘要：机器学习工程代理浪费计算重新发现已知技术，因为每个竞争都是一个冷开端。我们提出了HAST ，这是一个分层的多代理系统，将交叉竞争知识组织成三个范围层级（全球、域和特定于竞争） ，每个层级都与匹配的代理层级相结合。 协调员通过LLM驱动的抽象协调领域专家并促进层级之间的学习。受控消融为范围加载提供了证据：在8场比赛中保持159技能库存不变，分层加载达到100%的奖牌率，而平坦加载仅达到62. 5% ，与不加载技能相同的奖牌率，并消耗2倍的输出代币。 在完整的MLE-Bench Lite基准测试（ 22场Kaggle比赛）中，使用Claude Sonnet 4. 6 ，每场比赛12小时， HUSTE的奖牌率达到77. 3%。在冷启动运行中，系统开始时没有积累技能。在热启动运行中，它重新加载从早期比赛中学到的技能，仅使用全球和领域级技能进行跨比赛转移。 热启动使用的细化迭代次数减少了52% ，一旦有50多项技能可用，代理保留的拟议变更的比例从低库存时的42%上升到85%。这些结果表明，在机器学习工程代理中，更好的知识组织可以部分替代模型强度和计算预算。",
+      "originalSummary": "arXiv:2606.30911v1 Announce Type: new Abstract: ML engineering agents waste compute rediscovering known techniques because every competition is a cold start. We present HASTE, a hierarchical multi-agent system that organizes cross-competition knowledge into three scope tiers (global, domain, and competition-specific), each coupled to a matching agent level. An orchestrator coordinates domain specialists and promotes learning between tiers via LLM-driven abstraction. A controlled ablation provides evidence for scoped loading: holding a 159-skill inventory constant across 8 competitions, tiered loading achieves a 100% medal rate while flat loading reaches only 62.5%, the same medal rate as loading no skills, and consumes 2x the output tokens. On the full MLE-Bench Lite benchmark (22 Kaggle competitions), HASTE reaches a medal rate of 77.3% using Claude Sonnet 4.6 at 12h per competition. In a cold-start run, the system begins with no accumulated skills. In warm-start runs, it reloads skills learned from earlier competitions, using only global and domain-level skills for transfer across competitions. Warm starts use 52% fewer refinement iterations, and the fraction of proposed changes kept by the agent rises from 42% at low inventory to 85% once 50+ skills are available. These results suggest that better knowledge organization can partly substitute for model strength and compute budget in ML-engineering agents.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "特朗普放弃对人类神话和寓言模型的限制",
+      "originalTitle": "Trump drops restrictions on Anthropic&#8217;s Mythos and Fable models",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "date": "2026-07-01T02:16:06.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "美国已经取消了Anthropic在向国外出口其神话和寓言模型之前获得许可的要求，这一要求有效地切断了公众对迄今为止发布的被广泛认为是最先进的人工智能模型的访问。人工智能实验室表示，它将于7月1日星期三开始恢复对这些模型的访问。6月12日，美国 政府已将这些产品添加到其出口限制技术清单中，这意味着未经特别批准，这些产品不能再提供给外国公民。事实证明，大规模遵守这一规则是不切实际的，迫使Anthropic完全终止公众对模型的访问。 现在，经过数周的会谈，商务部长霍华德·拉特尼克（ Howard Lutnick ）表示， Anthropic “已同意主动检测和解决与模型相关的安全风险；与美国政府就神话、寓言和未来模型的协议、标准和发布进行勤奋合作；并向美国政府通报任何恶意活动。 “在出口规则存在的几个月前， Anthropic已经公开承诺自愿做其中的大部分工作。这就是网络安全专家最初对这些限制持怀疑态度的部分原因。 对他们来说，这项禁令看起来不像是一项安全措施，而更像是一种杠杆，特朗普政府通过这种方式来惩罚Anthropic的高管，因为他们公开批评政府和总统的政治对手可能如何使用这项技术。 Mythos最初于4月份开始向一组选定的组织提供，以消除对其识别和利用软件漏洞的能力的担忧，而一个名为Fable的版本于6月份发布，并增加了安全护栏。然而，随着亚洲人工智能公司开始发布自己的人工智能模型，接近神话级别的能力--其中包括Fugu和Tulongfeng--美国。 政府面临着放宽对人类限制的压力，以确保美国人工智能能够在全球范围内竞争。上周， Lutnick批准将Mythos发布给白宫批准的特定客户。OpenAI的最新模型也发布给了特朗普团队批准的一组组织，而不是公众。 特朗普政府对人工智能政策制定的不稳定态度使整个行业的公司对未来模型发布的内容几乎不清楚。6月份发布的一项行政命令表明，希望在发布之前对模型进行审查，这受到了Dean W. Ball等有影响力的分析师的批评，他最近在OpenAI担任政策职务。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。",
+      "originalSummary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Google的代理助理Gemini Spark现已在Mac上推出",
+      "originalTitle": "Gemini Spark, Google&#8217;s agentic assistant, is now available on Mac",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "date": "2026-07-01T14:20:19.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
+      "fullContent": "Gemini Spark是谷歌的人工智能代理，可以帮助您处理数字生活的各个方面，现已在Mac上推出。该公司周三表示， Spark将被添加到现有的Gemini桌面应用程序中，以及一些更新和新功能，包括能够实时了解主题的最新信息，并连接到更多应用程序，如Google Tasks和Google Keep。 MacOS的推出使Gemini Spark能够更好地与桌面AI代理（如Claude Desktop、Microsoft的Copilot、OpenClaw等）竞争，因为它将能够处理计算机上的文件，然后处理远程任务。虽然在推出时不可用，但谷歌表示，用户“很快”就能够在手机上将多步骤任务分配给Spark ，例如调用桌面代理从Mac上的文件中提取信息。 与此同时，您可以使用Spark对文件进行排序和整理，或使用计算机上的文件作为新的Google Workspace文档或电子表格的来源。例如， Google建议Spark可以将您计算机上的发票转换为预算工作表。当Spark上个月推出时，我们特别指出，在我们的早期测试中，缺乏与谷歌笔记应用Keep的集成是一个令人沮丧的问题。 简短列表和其他注释属于Google Keep等应用程序，而不是Google Docs ，这是有道理的，这对于简单的度假装箱单来说似乎有些过头了。显然，我们并不是唯一建议这样做的人，因为Google现在已添加了对任务和Keep的支持。Spark现在还与其他第三方应用程序集成，包括Canva、Dropbox、Instacart、OpenTable和Zillow Rentals。 这将使Spark能够执行各种任务，例如预订餐桌、每周订购生鲜杂货、设计传单或预订公寓之旅。此外， Gemini Spark现在可以实时跟踪主题并对事件做出反应，这将提高其在跟踪体育比分、股票变动或突发新闻等任务方面的性能。 此外，这意味着Spark将能够关注其他领域，如社交媒体、博客、在线购物和天气。此外，谷歌表示将推出对自定义模型上下文协议（ MCP ）的支持，这将允许您将自己喜欢的应用程序直接连接到Spark ，以构建更适合您需求的助手。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠将于太平洋时间6月26日晚上11:59结束。",
+      "originalSummary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 98
+    },
+    {
+      "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
+      "originalTitle": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "date": "2026-06-30T18:32:50.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "fullContent": "为什么迁移很难介绍ScarfBench Frontier代理商的表现如何？关于用于Java现代化的AI代理，我们学到了什么？代理可以可靠地判断迁移何时完成？代理如何导航应用程序依赖项？客服代表将大部分精力花在哪里？哪些挑战与代码转换无关？ 探索ScarfBench网站数据集空间GitHub存储库排行榜论文现代化企业应用程序是组织开展的最大和最昂贵的软件工程活动之一。团队跨框架迁移应用程序，以提高可维护性、云就绪性、开发人员生产力以及对现代功能的访问。编码代理的最新进展引发了人们对人工智能辅助现代化的兴奋。 但一个重要的问题仍然存在：人工智能代理能否可靠地实现现实世界的企业应用程序的现代化？现有的软件工程基准测试表明，在错误修复和代码生成方面取得了令人印象深刻的进展，但框架迁移带来了根本不同的挑战。成功不仅需要翻译代码，还需要保留行为、调整构建系统和导航运行时依赖项。 为了解决这一差距，我们引入了ScarfBench （自包含应用程序重构基准） ，这是一个用于评估企业Java中跨框架迁移任务的AI代理的开放基准。ScarfBench侧重于跨三个主要Java生态系统的迁移：与将生成的代码与引用实现进行比较的传统基准不同， ScarfBench评估迁移的应用程序是否实际构建、部署和保存行为。 简单的存储库迁移可能需要跨依赖注入、持久性配置、查询和框架描述符进行更改。这些部件中的任何小错误都可能妨碍成功部署。框架迁移需要翻译框架语义，而不仅仅是源代码。ScarfBench提供了一种系统的方法来评估企业Java框架迁移任务上的AI代理。 这为现代化质量提供了更现实的衡量标准。ScarfBench包括重点迁移任务和整个应用程序迁移。",
+      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT采用率如何扩展",
+      "originalTitle": "How ChatGPT adoption has expanded",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "date": "2026-06-30T09:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "新的OpenAI Signals数据显示了ChatGPT在全球的采用率如何增长，用户的使用率不断增加，探索了更多功能，并推动了跨地区和跨语言的增长。",
+      "originalSummary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "rawFullText": "",
       "tags": [
         "大模型",
         "公司动态"
@@ -48,74 +146,38 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
-      "originalTitle": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "date": "2026-06-30T18:32:50.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "fullContent": "为什么迁移很难介绍ScarfBench Frontier代理商的表现如何？关于用于Java现代化的AI代理，我们学到了什么？代理可以可靠地判断迁移何时完成？代理如何导航应用程序依赖项？客服代表将大部分精力花在哪里？哪些挑战与代码转换无关？ 探索ScarfBench网站数据集空间GitHub存储库排行榜论文现代化企业应用程序是组织开展的最大和最昂贵的软件工程活动之一。团队跨框架迁移应用程序，以提高可维护性、云就绪性、开发人员生产力以及对现代功能的访问。编码代理的最新进展引发了人们对人工智能辅助现代化的兴奋。 但一个重要的问题仍然存在：人工智能代理能否可靠地实现现实世界的企业应用程序的现代化？现有的软件工程基准测试表明，在错误修复和代码生成方面取得了令人印象深刻的进展，但框架迁移带来了根本不同的挑战。成功不仅需要翻译代码，还需要保留行为、调整构建系统和导航运行时依赖项。 为了解决这一差距，我们引入了ScarfBench （自包含应用程序重构基准） ，这是一个用于评估企业Java中跨框架迁移任务的AI代理的开放基准。ScarfBench侧重于跨三个主要Java生态系统的迁移：与将生成的代码与引用实现进行比较的传统基准不同， ScarfBench评估迁移的应用程序是否实际构建、部署和保存行为。 简单的存储库迁移可能需要跨依赖注入、持久性配置、查询和框架描述符进行更改。这些部件中的任何小错误都可能妨碍成功部署。框架迁移需要翻译框架语义，而不仅仅是源代码。ScarfBench提供了一种系统的方法来评估企业Java框架迁移任务上的AI代理。 这为现代化质量提供了更现实的衡量标准。ScarfBench包括重点迁移任务和整个应用程序迁移。",
-      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "title": "核心转储流行病学：修复一个18岁的漏洞",
+      "originalTitle": "Core dump epidemiology: fixing an 18-year-old bug",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "date": "2026-06-30T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI工程师使用大规模的核心转储分析来调试罕见的基础设施崩溃，发现了硬件故障和长期存在的软件错误。",
+      "originalSummary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
+    },
+    {
+      "title": "OpenClaw终于可以在Android和iOS上使用了",
+      "originalTitle": "OpenClaw is finally available on Android and iOS",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "date": "2026-06-30T21:53:28.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、开源相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“OpenClaw终于可以在Android和iOS上使用了”。它主要涉及智能体、开源方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "The free open source agentic program is finally invading your phone.",
       "rawFullText": "",
       "tags": [
         "智能体",
-        "评测"
+        "开源"
       ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic推出Claude Sonnet 5作为运行代理的更便宜的方式",
-      "originalTitle": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-      "date": "2026-06-30T18:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic的Claude Sonnet 5具有更强的代理功能、更低的定价和更高的安全性，将该模型定位为Opus、GPT-5. 5和Gemini Pro的更便宜的替代品。",
-      "originalSummary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic的Claude Science押注工作流程，而不是新模式，以赢得科学家的青睐",
-      "originalTitle": "Anthropic’s Claude Science bets on workflow, not a new model, to win over scientists",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
-      "date": "2026-06-30T17:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic的Claude Science是一个工作台，为科学家提供了一个进行计算研究的环境，使他们无需在数据库、管道和工具之间反弹。",
-      "originalSummary": "Anthropic's Claude Science is a workbench that gives scientists one environment to do computational research, saving them from the need to bounce between databases, pipelines, and tools.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "继OpenAI和Anthropic之后，亚马逊推出新的$ 10亿FDE组织",
-      "originalTitle": "Amazon launches new $1 billion FDE org, following OpenAI and Anthropic",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "date": "2026-06-30T15:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "2026年的第一个StrictlyVC于4月30日到达旧金山。工单进度很快。立即注册。创始人峰会门票节省高达$ 190 ，截止日期为6月26日。与1,000多位创始人和风险投资人一起参加全天训练营。立即注册。随着公司难以整合人工智能，他们越来越愿意引入外部帮助—服务提供商正在推出新的专用小组，以确保他们获得帮助。 周二，亚马逊网络服务（ AWS ）为专注于人工智能的前沿部署工程师推出了一个新的内部组织。新团队的工程师将嵌入公司内部，部署专门构建的代理，重点关注快速参与和客户自给自足。在宣布新组织的帖子中， AWS Frontier AI副总裁Francessca Vasquez强调，该组织将做的不仅仅是构建和维护所请求的系统。 公告中写道： “客户将AWS FDE部署与新的解决方案和新的工程能力结合起来。” “除了在自己的AWS环境中运行的代理系统外，他们还可以获得持久的人工智能技能、工作流程和模式，从而实现独立创新。亚马逊表示，将向新组织承诺10 $十亿，尽管这个数字代表亚马逊内部资源，而不是合资企业或传统投资。 由Palantir开创的前沿部署工程师（ FDE ）模型作为管理人工智能部署的一种方式越来越受欢迎。在典型的FDE系统中，承包公司（在这种情况下是AWS ）的工程师在系统建立期间临时为客户工作，允许他们在内部机会或挑战出现时直接响应。 在FDE模型中，许多相关技术可以在部署之间重复使用，同时仍然根据每个公司的需求和工作流程的具体情况进行定制。它还为客户公司提供了大量的专业知识，并将部署的主要责任交给承包商。最大的缺点是涉及劳动力，因为这意味着要保持一支完整的FDE工程师队伍来安装和维护公司的技术。 最近几个月， OpenAI和Anthropic都推出了自己的FDE合资企业，分别价值40亿美元和15亿美元。在这两种情况下，人工智能实验室与私募股权公司配对，后者提供了启动资金，并在其投资组合中与客户公司建立了联系。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT. Flipper Device的新忙碌栏是一个可定制的生产力显示器Ivan Mehta",
-      "originalSummary": "Engineers on the new team will embed within companies to deploy purpose-built agents, focusing on fast deployments and customer self-sufficiency.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 91
     },
     {
       "title": "立法者希望禁止人工智能公司出售您的健康数据",
@@ -145,7 +207,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "OpenAI正在为Codex开发新硬件……",
@@ -161,7 +223,7 @@
         "公司动态",
         "视频生成"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -176,7 +238,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "代理对技术前沿的信心",
@@ -191,7 +253,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "中国的Z.ai声称它可以在网络安全方面与神话相匹配",
@@ -224,22 +286,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
-    },
-    {
-      "title": "Suno推出Spark孵化器计划，为独立艺术家提供人工智能机器",
-      "originalTitle": "Suno launches Spark incubator program to feed independent artists to its AI machine",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
-      "date": "2026-06-28T20:27:36.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "Suno的野心不仅仅是成为一个玩具来制造人工智能，它还希望成为一个流媒体目的地，并打破新的艺术家。Spark是他们面向独立艺术家的新孵化器计划，提供资助、指导和营销支持。要申请，艺术家必须是未签名的歌手、词曲作者或以自己的名字发行音乐的制作人。 他们还需要同意一些条款和条件，这些条款和条件在Suno subreddit上引起了一些关注。首先，您需要同意在Suno上提供您的歌曲进行混音。这不一定是超级令人担忧的，但它授予Suno对您的作品的广泛许可……阅读The Verge的完整故事。",
-      "originalSummary": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or [&#8230;]",
-      "rawFullText": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or producer releasing music under their own name. They also need to agree to some terms and conditions that have raised some eyebrows over on the Suno subreddit . For one, you need to agree to make your songs available on Suno for remixing. That's not necessarily super concerning, but the broad license it grants Suno to your works … Read the full story at The Verge.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 79
+      "score": 97
     },
     {
       "title": "预览GPT-5.6 SOL ：下一代型号",
@@ -271,7 +318,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "客服代表如何转变工作方式",
@@ -303,7 +350,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -319,7 +366,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -335,7 +382,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
@@ -350,7 +397,7 @@
       "tags": [
         "评测"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "人工智能网络数据基础设施层的出现",
@@ -365,7 +412,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -381,7 +428,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -396,7 +443,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -411,7 +458,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "价值4亿美元的机器为芯片制造的未来提供动力",
@@ -426,7 +473,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -441,7 +488,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "在人类与政府的最新争执中，有三件事值得关注",
@@ -457,7 +504,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -472,7 +519,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -487,7 +534,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "一家初创公司声称它突破了阻碍LLM的瓶颈",
@@ -502,37 +549,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
-    },
-    {
-      "title": "MosaicLeaks ：您的研究代理能保守秘密吗？",
-      "originalTitle": "MosaicLeaks: Can your research agent keep a secret?",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "date": "2026-06-18T18:13:13.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "TL; DR深度研究代理中的隐私泄露构建MosaicLeaks示例链代理线束您不能直接告诉代理不要泄露吗？ 让客服代表更好地泄露信息教会客服代表如何安全搜索： PA-DR仔细看看：情境奖励和样本效率这有什么用，也没有显示引文深度研究客服代表越来越多地将私人本地文档与外部工具（如网络检索）相结合，从而带来隐私风险：客服代表的外部查询可能会泄露敏感信息。 MosaicLeaks提出了一项新的深度研究任务，其中包含交织公共和私人信息的多跳问题。在我们测试的模型中，客服代表经常泄露私人信息，而仅针对任务绩效的培训使情况变得更糟。我们提出了一种马赛克泄漏感知RL训练方法，即隐私感知深度研究（ PA-DR ） ，该方法将严格的链成功率（每跳正确回答的链的份额）从48. 7%提高到58%。 7% ，应答/全信息泄露率从34. 0%降至9. 9%。一家医疗保健公司的研究代理正在处理一个常规问题，并在此过程中启动了一些看起来很普通的网络搜索。一个引用了云迁移的里程碑，一个是2024年1月的安全披露，一个是缩小了哪些供应商受到了打击。没有一个查询必然会泄露整个秘密。 但是，任何观察代理出站流量的人都可以重新组装这些碎片：到2025年1月， MediConn已将其70%的基础设施迁移到云端，这一事实只存在于私人文档中。这是马赛克效果，也是MosaicLeaks中心的故障模式。 MosaicLeaks将这些网络查询视为泄漏渠道：对手永远不会看到私有文档或代理的推理，只会看到累积的查询日志，并试图从中推断私有企业信息。我们通过三种方式来衡量泄漏，这取决于对手可以从观察到的查询中推断出什么：这三种方式代表了日益增加的关注程度。意图泄露揭示了客服代表正在调查的内容。 答案泄漏意味着查询日志足以回答某人已经掌握的私人问题。完整信息泄露是最有力的情况：观察者可以发现并陈述私人事实，而无需被告知要寻找什么。 马赛克效应如何推动MosaicLeaks的三种泄漏措施：意图（预测研究问题）、答案（回答有关私人文件的问题）和全面信息（陈述可验证的真实私人索赔）。在这里，代理两次搜索Lee's Market的2020年流量增长，泄露了其意图，然后发出第三个查询以回答后续问题。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 74
-    },
-    {
-      "title": "想要让数据中心快速上线？给它一些灵活性。",
-      "originalTitle": "Want to get a data center online quickly? Give it some flex.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
-      "date": "2026-06-16T09:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "在英国男子队与对手德国队之间的一场紧张而无进球的足球比赛的前半场结束时，数百万英国人集体叹了口气，并做了他们在压力时刻经常做的事情：他们泡茶。然而，那一波电热水壶的咔嗒声引起了另一种压力：电力需求的巨大而突然的增加。但是，运营本地传输网络的国家电网已经准备就绪。 就在这些水壶开始升温时，一个人工智能程序向伦敦的一个数据中心发送了指令，以减缓该设施的一些耗电芯片。这种减少有助于确保有足够的供应来满足需求，避免潜在的停电或电气硬件损坏。对于通常在不考虑任何人或任何其他需求的情况下消耗电力的数据中心来说，这是一个彻底的背离。这也是一种模拟。 2025年12月，工程师们试图测试一种新型数据中心，该数据中心旨在灵活应对电力需求，因此他们在2020年欧洲锦标赛的一场比赛中重新创造了英国电网面临的能源需求。他们想看看他们的软件（称为Conductor ）在当时在线的情况下会如何反应。 Conductor是总部位于华盛顿特区的Emerald AI公司的标志性产品，这是一波公司试图弄清楚数据中心是否可以在现有电网范围内工作的浪潮的一部分。今年， Emerald将在弗吉尼亚州数据中心小巷的一个新设施中部署Conductor ，这次将连接到实时电网。 当整体需求激增时， Conductor将关闭数据中心使用的电源，同时确保其服务器仍然执行最及时和最重要的工作。Emerald在该项目上的合作伙伴（包括Nvidia和巨型数据中心运营商Digital Realty ）将其称为世界上第一批“电源灵活的人工智能工厂”之一。 “证明数据中心可以参与这种让步，可以缓解许多技术领导者认为的在线设施瓶颈：获得批准、建造和连接新发电厂所需的时间远远超过建立数据中心所需的时间。例如，根据能源研究和倡导组织RMI的数据，弗吉尼亚州和美国最大的电网运营商PJM需要八年时间才能将新一代电力上线。 英伟达可持续发展主管乔希·帕克（ Josh Parker ）表示： “我们需要解决能量方程式。“人工智能工厂的灵活性是人工智能令人难以置信的需求与我们能源网的直接限制之间的桥梁。”不过，速度只是其中一个问题。一旦设施接通电源，邻居们经常批评它们消耗太多电力并导致价格上涨。 他们说，数据中心比长期工作产生更多的噪音，造成污染，并有可能使人们失业。根据数据中心观察，组织者在2025年停滞了价值超过1500亿美元的项目，政策制定者对公众情绪的警惕开始对发展施加限制。",
-      "originalSummary": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different&#8230;",
-      "rawFullText": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They made tea. That wave of electric kettles clicking on, however, caused a different kind of stress: a huge and sudden increase in demand for electricity. But National Grid, which operates the local transmission network, was ready. Just as those kettles started heating up, an AI program sent instructions to a data center in London to slow down some of the facility’s power-hungry chips. This reduction helped make sure there was enough supply to match demand, staving off potential blackouts or damage to electrical hardware. For data centers, which normally guzzle power without consideration for anyone or anything else’s needs, it was a radical departure. It was also a test. The software was controlling a real data center, but there was no game happening at the time, in December 2025. Engineers were doing a trial run for a new breed of data center built to be flexible about its electricity needs, so they re-created the energy demand facing the UK’s grid during a match from the 2020 Euro tournament. They wanted to see how their software, called Conductor, would have responded had it been online at the time. Conductor is the signature product of Emerald AI, a firm based in Washington, DC, that’s part of a wave of companies trying to figure out whether data centers can work within the confines of the existing electric grid. This year, Emerald is set to deploy Conductor in a new facility in the part of Virginia known as Data Center Alley, this time connected to the live grid. When overall demand spikes, Conductor will turn down the power used by the data center, while making sure its servers still carry out their timeliest and most important jobs. Emerald’s partners on the project—which include Nvidia and the giant data-center operator Digital Realty—bill it as one of the world’s first “power-flexible AI factories.” Demonstrating that data centers can participate in this kind of give-and-take could ease what many tech leaders identify as the bottleneck in getting facilities online: It takes far longer to get approval for, construct, and connect new power plants than to build data centers. PJM, the grid operator in Virginia and the largest one in the US, for instance, needs eight years to bring new generation online , according to RMI, an energy research and advocacy group. “We need to solve the energy equation,” says Josh Parker, head of sustainability at Nvidia. “AI factory flexibility is the bridge between the incredible demand for AI and the immediate limitations of our energy grid.” Speed, though, is only one of the issues. Once facilities do plug in, neighbors often criticize them for drawing too much electricity and contributing to rising prices. They say the data centers generate more noise than they do long-term jobs, contribute to pollution, and threaten to put people out of work. Organizers stalled over $150 billion worth of projects in 2025, according to Data Center Watch , and policymakers alert to the public mood are starting to impose limitations on development. More than a dozen states are considering bans, and local moratoriums are in effect in places like Minneapolis and DeKalb County in Georgia. At the federal level, the GRID Act, a bipartisan bill in the US Senate, proposes to sever new data centers from public grids entirely. Some operators are already moving that way by trying to develop their own power generation. Rather than rushing to build new power plants, companies could find part of the solution to the crunch right under our noses—or, more precisely, in the transmission lines under our feet and above our heads. The existing system operates near its full capacity during only a small number of high-demand hours throughout the year. This means, some grid experts argue, that if data centers can limit the power they draw during those stretches, they won’t need to wait for big infrastructure upgrades or build their own off-grid generation.&nbsp; Indeed, a growing number of studies have shown there could be plenty of power available for data centers that can flex. A widely discussed 2025 report from researchers at Duke University found that the US grid could offer an additional 76 gigawatts—about 5% of its entire capacity, and about enough to accommodate projected data-center growth in the US through 2030—to facilities that are willing to reduce their usage just 0.25% of the time. That’s about 22 hours a year. And when researchers from Princeton University and two grid-modernization companies looked at locations for new data centers in the PJM region, their report , which was funded by Google, found that a 500-megawatt facility capable of flexing for less than 1% of the year could reach full operation three to five years faster than one that’s inflexible.&nbsp; Flexible power connections could also help data centers address some of their PR problems. By decreasing their draw at times of grid stress, for instance, they could avoid diverting power from where it’s most needed, thus boosting stability. By using existing capacity, they might be able to reduce the need for new fossil-fuel power plants and spread fixed costs over more electricity users, pushing prices down.&nbsp; The AI power pinch is attracting resources and research into strategies for grid flexibility overall, which could help negotiate a tricky period: Taken together with electric vehicles, air-conditioning, and other sectors, data centers are helping drive what analysts predict will be a 25% increase in US electricity demand by 2030 compared with 2023 levels. Ideally, flexibility gives grid operators more control over the flow of electrons, making them leaders of a harmonious ensemble rather than hostages to inflexible electricity requirements. That will help them manage demand spikes across the entire system and deal more effectively with the intermittent nature of renewables like wind and solar. “Demand flexibility is incredibly useful for power grids,” says Johanna Mathieu, a grid expert at the University of Michigan. “It helps reduce electricity costs and improve grid reliability.” But while advocates see plenty of benefits, the concept brings complexity. For data centers, compromising on energy needs can be a hard sell. Flexibility requires utilities and grid operators, which tend to be operationally conservative, to change long-held practices. And some skeptics also say that flexibility distracts from the very real need to build more grid infrastructure faster, and could even pose risks to our electricity supply.&nbsp; Still, some technologists, grid operators, and utilities are hoping to show that flexibility works—not only in white papers or simulations but in real life.&nbsp; The poster children for data-center growth default toward in flexibility. Hyperscalers like Microsoft and Oracle have proposed enormous new centers, many of which would rely on off-grid, natural-­gas-burning power plants. When xAI wanted to speed up the buildout of the Colossus site outside Memphis, Tennessee, it rolled up with gas turbines on flatbed trucks. The facility, now in operation, is facing blowback from regulators and residents about the spike it’s causing in emissions and other pollution. In any case, there aren’t enough gas turbines worldwide to meet the demand from data-center operators.&nbsp; One big obstacle for anyone demanding a lot of power is that our grids are mostly rigid. They’re designed to supply enough power to meet total demand when it’s highest, even if that’s for only a relatively small number of hours a year. That conservative approach is a simple route to reliability, but it means that the grid has quite a bit of headroom. “The grid is already overbuilt by a lot. If you were an airline running at 30% utilization, you would not buy more planes,” says Amit Narayan, the cofounder and CEO of GridCare, a company developing flexibility technologies, referring to a 2025 Stanford study of transmission lines in western North America. “If you are running a grid at 30% utilization, there’s no scientific reason you can’t go to 60.”&nbsp; “If you were an airline running at 30% utilization, you would not buy more planes. If you are running a grid at 30% utilization, there’s no scientific reason you can’t go to 60.” To be fair, the idea of flexibility isn’t entirely foreign to grid operators. For decades, they’ve practiced a technique called demand response: When it looks as if demand will get too close to supply, as it might during a heat wave when many people turn on the AC at the same time, they call large commercial or industrial facilities and ask them to shut down parts of their operations. This method can help avoid the need to fire up so-called peaker plants, which run on fossil fuels, but it’s slow, imprecise, and hard to scale. In the 2000s, as the adoption of technologies like electric cars and solar panels presented new challenges, more internet-­connected grids also provided new means of flexibility. Virtual power plants, or VPPs, offered a smarter, faster, more granular alternative. Electricity customers ranging from factories to homeowners with smart thermostats, solar panels, or big batteries would allow the utility to adjust their draw to help meet demand—often getting paid for their (frequently unnoticed) trouble.&nbsp; After the generative AI boom began with the release of ChatGPT in 2022, some companies began to see flexibility as a way to get data centers set up more easily, efficiently, and affordably. If they bring AI money into existing grids and reduce or defer the need for expensive upgrades, data centers could actually help spread out fixed costs so as to lower rates for other users. A study from Duke University published this past February, for instance, found that flexibility could reduce rates by 0.5% to 2.8% .&nbsp; PETRA PÉTERFFY The trick is figuring out how data centers, notorious power hogs, can keep operating when their flexible connections are throttled. Flexibility specialists envision three possible ways. The simplest is for the new data center to install on-site backup power storage or generation to tap when the grid is maxed out—at their own expense, of course. A facility could also fill the gap by drawing on a VPP. The utility would turn down the electricity going to users who signed up for the VPP, and the data center would pay them for their flexibility. This method wouldn’t require any major infrastructure, but it would require the utility to have a big VPP program and to coordinate the exchange at a time when the grid was under stress. While VPPs exist to some extent in nearly 40 states, the rules governing them vary widely, and they are empowered to do more in some areas than in others.&nbsp; Finally, a data center could simply use less power at peak times. The conventional wisdom is that they won’t go for such limits, particularly when every number-­crunching server can feel like a goose potentially laying little golden eggs. But some experts are betting that the value of getting up and running quickly is enough to change their minds. “There is a clear and growing trend,” says Ayse Coskun, chief scientist at Emerald AI. “Operators are increasingly willing to trade some level of flexibility for faster grid interconnection.”&nbsp; GridCare, a startup based in Silicon Valley, was one of the first companies to use flexibility to get data centers online quickly. Instead of looking at grids only in worst-case scenarios when electricity demand is highest, the company analyzes the system under all conditions, explains CEO Narayan, who studied smart grids at Stanford. It feeds every part of the grid—including power plants, lines, substations, and homes—into a generative AI model that creates a “digital twin” for different grid configurations. It then picks out results that could unlock capacity while maintaining reliability, and it feeds those into another model trained on the physics of electrical components like resistors and capacitors to make sure they’re realistic. GridCare found its first customer in the Silicon Forest, an area in the Pacific Northwest named for the trees that dominate the landscape and the IT industry that has more recently sprouted up there. The local grid needed more capacity to support more data centers. “Data centers wanted ‘speed to power,’” says Isaac Barrow, a manager of data-center relations at Portland General Electric, or PGE, the local power generator and distributor, “but transmission buildout is a long process that’s very costly.” In 2024, Aligned Data Centers came to PGE wanting to expand its operation in Hillsboro, Oregon, and PGE followed a recommendation from GridCare. Aligned will install a 31-megawatt battery, set to be in service in May 2027, and decrease its draw by up to that amount when the grid becomes congested. Bundled with other flexibility measures, that battery has allowed PGE to increase the capacity it can offer Aligned and other nearby operators by 80 megawatts without any new power plants. Though the buildout of data centers in Hillsboro has faced plenty of pushback from locals, Barrow points out that it could have the knock-on effect of lowering costs for ratepayers, because it spreads out the tab. Other companies are promoting different flavors of flexibility. Google has been moving processing loads from facilities in areas experiencing demand spikes to those in less stressed spots since 2023. It’s signed agreements with five utilities , including the Tennessee Valley Authority and Indiana Michigan Power, that add as much as a gigawatt of flexibility.&nbsp; Voltus, a major VPP provider across the US and Canada, markets a “bring your own capacity” program in which a data-­center company can fund a VPP nearby. The grid operator can use the VPP to decrease demand at busy times, and participants get a financial thank-you. “We can spin up new VPPs on the order of months,” says Emily Orvis, Voltus’s vice president of energy markets. In June, the company signed their first such data-center deal : a three-year plan in which Google will bankroll a VPP in the PJM interconnection. Of all the approaches to flexibility, Emerald AI’s may be the most ambitious: asking data centers to dial into the grid’s needs. The company’s Conductor software, which can run on premises or in the cloud, builds on the research of chief scientist Coskun. Her group at Boston University showed in a pair of 2013 papers that a data center could watch the grid and help balance big power fluctuations, such as the intermittent effects of solar and wind power. By 2022, she and her colleagues had tested their methods on a cluster of 36 research servers and shown that the system could respect power limits without breaking the processes it was running.&nbsp; One of the most important questions for Conductor is deciding which AI processes can be slowed down to save energy without kneecapping performance. A lot of companies label their jobs by priority—a real-time chatbot query, for instance, might outrank something like a web search that’s part of a deep research project. When they don’t, Emerald AI tries to infer priority from the nature of the job. Conductor then analyzes the AI workload to determine how tweaking the power to a given processor will affect the performance and help meet the usage limits set by the grid operator. “The performance curve changes for different kinds of workloads,” says Coskun. “Each AI job is going to have a different location on that curve. Our intelligence is figuring out where you are on that curve.”&nbsp; PETRA PÉTERFFY Last year, Emerald AI began assessing the technology’s readiness for real-world use in a series of tests, raising the difficulty each time. The trials were carried out in partnership with the Data Center Flexible Load Initiative—a collaboration among tech companies like Google and Nvidia, utilities like Duke Energy, and grid operators like PJM that aims to help establish a repeatable framework for power-­flexible data centers. The first challenge was in Phoenix, a fast-growing computing hub. For the test, Conductor took control of a group of server racks laden with 256 Nvidia A100 GPUs—hardware that can use about as much power as around 170 US homes. When presented with a simulation of a busy grid, Conductor reduced the power to the chips by 25% for three hours, while maintaining acceptable computing performance. Emerald AI and its partners reported the results in a paper in Nature Energy in December 2025. The next trial forced the system to juggle surprise grid fluctuations without advance warning and redirect AI jobs from a data center in Virginia to a less busy one in Chicago. Then, in London, Conductor took the reins of equipment beyond the main GPU processors and faced a more complicated mix of fluctuations, including very short and long bouts of congestion—plus the notorious teakettle effect. The progress so far shows that flexibility can work, at least in some situations, but only a small fraction of operators have pursued it as yet. “We’re just in the beginning innings of the game,” says Jesse Jenkins, one of the authors of the 2025 Princeton study and cofounder of Firma, a startup that works on data-center flexibility. “People are recognizing that this is a potential solution. The motivation is there; there are some bespoke examples. But there’s no uniform solution set that’s the default option, which is where we need to get.” While data centers are going up across the US, no place on Earth comes close to the accumulated computing muscle in Northern Virginia’s Data Center Alley. The region is home to around 500 compute-crunching facilities, which represent 13% of the entire world’s capacity; the next two hot spots, Beijing and Oregon, contain 6% each. There are proposals to build hundreds more facilities in Virginia, but a government study found that the state’s electricity demand will increase 183% (around 26 gigawatts) by 2040 if they all go forward, and supporting even half would be difficult. The power-flexible data center that Emerald AI, Nvidia, Digital Realty, and their partners are building in the suburb of Manassas could demonstrate how data centers can squeeze the power they need out of existing capacity. The facility, slated to come online later this year, is intended to give Conductor the chance to manage power at the largest scale yet and to respond to conditions on a live grid for the first time. In the UK demonstration, Conductor managed a 130-kilowatt AI cluster; in Manassas, it will pull the strings of a 96-megawatt hyperscale AI factory.&nbsp; Some degree of flex will play a key role as we transition away from fossil fuels and toward a future that has to juggle technologies like solar and wind power, batteries, and electric cars. For PJM, the Manassas facility points to a potential path through the current power crunch. “We think data-center flexibility, in different forms, will be essential for the reliable integration of data-center load over the short to mid term,” says Scott Baker, who manages demand-side markets at PJM.&nbsp; But not all grid experts are so sanguine. PJM’s market monitor, which oversees the grid operator, says there are no workarounds when it comes to adding capacity. “The notion that large amounts of data-center load can be added without adding new generation is magical thinking,” says Joseph Bowring, an economist and the head of PJM’s market monitor since 1999. One problem, he says, is that there’s no way to guarantee that a data center will actually take less power when demand is high. That is, absent any legal or regulatory push for flexibility or compliance, the utility won’t be able to step in to help prevent, say, a blackout. Utilities can rely on resources like power plants, but they can’t control or rely on data centers. “They do not want to be fully interruptible,” Bowring says of the facilities. Stephen Empedocles, an advisor for technology companies, views flexibility as more of a tool than a silver bullet. “These approaches are excellent for improving grid reliability and getting more out of the infrastructure we already have,” he says, “but they are optimization tools.” They’re not substitutes for the “generation, transmission, and distribution expansion that will still be required,” he continues. Flexibility advocates agree that over the long term, whether or not AI continues to boom, electrification will drive a need for more generation and transmission. Some degree of flex will play a key role in using grid infrastructure better as we transition away from fossil fuels and toward a future that has to juggle technologies like solar and wind power, batteries, and electric cars. A report published by the International Renewable Energy Agency in January 2026 found that grids around the world will need three times as much flexibility in 2030 as they had in 2019—and 10 times as much by 2050—to balance increasing demand with fluctuating supplies of renewable energy.&nbsp; The challenge of powering AI could provide just the spark we need to do the work of designing and building smarter, more flexible grids, says Coskun. “I think with a crisis like this, there’s no quick solution,” she says. “Sometimes a crisis like this creates an opportunity to do something differently.”&nbsp; Amos Zeeberg is a freelance science and technology journalist based in Bucharest. He’s developing a book about technology networks, including electric grids. This story was updated on June 20, 2026 to clarify details about Emerald AI&#8217;s test in London in 2025.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
+      "score": 69
     }
   ]
 }
