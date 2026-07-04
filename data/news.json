@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T00:12:01.725Z",
+  "updatedAt": "2026-07-04T00:11:06.015Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,90 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Anthropic希望开发自己的药物",
+      "originalTitle": "Anthropic wants to develop its own drugs",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "date": "2026-07-03T13:56:52.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "在本周早些时候举办的“The Briefing ： AI for Science”活动上， Anthropic宣布推出Claude Science ，这是一款新的“AI科学工作台” ，可将碎片化的工具和数据集整合到一个环境中，并生成图形和视觉效果。 Anthropic已经凭借其流行的编码工具和强大的人工智能模型主导了该行业，围绕人工智能“大大加快科学发现和医疗保健干预措施发展的步伐”的潜力进行了发布，并吹捧了一长串已经使用Claude的生物技术和制药客户。Anthropic也更进一步，表示将开发其药物……阅读The Verge的完整故事。",
+      "originalSummary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it [&#8230;]",
+      "rawFullText": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science , a new \" AI workbench for scientists \" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it says is AI's potential to \"dramatically accelerate the pace of scientific discovery and the development of healthcare interventions,\" and touted a long list of biotech and pharma customers already using Claude. Anthropic also went a step further, saying it would develop drugs of its … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Agent4cs ：大型分层代码库中代码汇总的多代理系统",
+      "originalTitle": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.01425",
+      "date": "2026-07-03T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2607. 01425v1 Announce Type: new Abstract:理解大型、复杂的代码库，特别是那些结构混淆且文档不完整的代码库，仍然是一个重大挑战。现有的代码汇总解决方案通常依赖于单一语言模型或编码助手（如Claude Code ） ，并将源代码视为平面文本，未充分利用存储库中的丰富相互依存关系和分层信息。 为了解决这些缺陷，我们提出了Agent4cs ，这是一种多Agent框架，以自下而上的方式总结大型代码库，其中总结Agent专注于生成强大的摘要；关键字提取Agent主动识别子文件夹中的关键信息；质量保证Agent迭代改进输出，以提高可读性、一致性和完整性。 Agent4cs在7个前沿模型上进行评估，与具有代码段的两个结构化提示基线相比，所有文件夹级别的语义一致性平均提高了8%。此外，对真实世界数据集的广泛评估显示，在同一基线上，标准化关键词覆盖率提高了38%。",
+      "originalSummary": "arXiv:2607.01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion, where a summarization agent focuses on producing robust summaries; a keyword-extraction agent proactively identifies critical information from subfolders; and a quality-assurance agent iteratively refines the outputs for readability, coherence, and completeness. Evaluated on 7 frontier models, Agent4cs improves semantic consistency across all folder levels by average 8% compared to two structured prompting baselines with code segments. Furthermore, extensive evaluation on real-world datasets demonstrates up to 38% gains in normalized keyword coverage rate over the same baselines.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Janus ：用户参与代理权限管理的游乐场",
+      "originalTitle": "Janus: a Playground for User-Involved Agentic Permission Management",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.01510",
+      "date": "2026-07-03T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2607. 01510v1公告类型：新摘要：代表用户自主执行工具调用的AI代理提出了有关权限管理的紧迫问题：用户可以扮演什么角色，他们应该扮演什么角色？尽管提出了许多方法，但用户在代理权限管理中的角色仍在探索中。我们介绍了Janus ，这是一个用于实施和评估用户参与的代理权限管理设计的游乐场系统。 Janus由两个组件组成： Janus-Core ，一个支持各种权限管理设计的模块化代理系统，以及Janus-Harness ，一个自动化评估框架。基于确定用户参与的关键设计轴的概念模型，我们在设计空间中实施了六个权限助理，并在三个场景和三个合成响应者中对其进行评估。 我们证明，用户输入至关重要，可以显着增强隐私和安全性，人工智能增强用户决策有助于减少认知负荷，并且在系统设计中必须考虑到包括权限疲劳在内的现实用户行为。没有单一的设计可以在所有上下文中实现最佳性能，从而激发了在代理系统中部署权限助理的更有原则和上下文敏感的方法。 Janus公开支持未来对代理系统设计的这一维度的调查。",
+      "originalSummary": "arXiv:2607.01510v1 Announce Type: new Abstract: AI agents that autonomously execute tool calls on a user's behalf raise pressing questions about permission management: what role could users play, and what role should they play? Despite many proposed approaches, the user's role in agentic permission management remains under explored. We introduce Janus, a playground system for implementing and evaluating user-involved agentic permission management designs. Janus consists of two components: Janus-Core, a modular agentic system supporting a diverse spectrum of permission management designs, and Janus-Harness, an automated evaluation framework. Grounded in a conceptual model that identifies key design axes for user involvement, we implement six permission assistants spanning the design space and evaluate them across three scenarios and three synthetic responders. We demonstrate that user input is critical and can significantly strengthen privacy and security, that AI augmentation of user decisions can help reduce cognitive load, and that realistic user behavior including permission fatigue must be accounted for in system design. No single design performs optimally across all contexts, motivating a more principled and context-sensitive approach to deploying permission assistants in agentic systems. Janus is publicly available to support future investigation into this dimension of agentic system design.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "Wiola高效小语言模型架构",
+      "originalTitle": "The Wiola Architecture for Efficient Small Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.01394",
+      "date": "2026-07-03T04:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、产品发布相关动态",
+      "fullContent": "arXiv: 2607. 01394v1公告类型：新摘要：我们介绍Wiola ，这是一种完全原创的小语言模型（ SLM ）架构，基于第一原理构建，与任何现有模型系列（包括GPT、LLaMA、Mistral或Falcon ）不共享任何结构谱系。 Wiola引入了五个独立的新组件： （ i ）螺旋旋转位置编码（ SRPE ） ，它在三维螺旋流形上嵌入令牌位置，结合绝对，相对和分层的位置信号； （ ii ）门控交叉层注意（ GCLA ） ，为每个解码器层提供对前两个层的压缩摘要的软交叉注意访问，以实现层间相干性； （ iii ）自适应令牌合并（ ATM ） ，其动态 我们提供完整的数学推导、架构框图、复杂性分析以及与GPT-2、LLaMA-2和Mistral的系统比较。Wiola有四种尺寸（ 120米、360米、700米和1. 5B参数） ，与HuggingFace Transformers生态系统完全兼容，所有22个建筑单元测试均通过。",
+      "originalSummary": "arXiv:2607.01394v1 Announce Type: new Abstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, LLaMA, Mistral, or Falcon. Wiola introduces five independently novel components: (i) Spiral Rotary Positional Encoding (SRPE), which embeds token positions on a three-dimensional helical manifold combining absolute, relative, and hierarchical positional signals; (ii) Gated Cross-Layer Attention (GCLA), providing each decoder layer with soft cross-attention access to compressed summaries of two preceding layers for inter-layer coherence; (iii) Adaptive Token Merging (ATM), which dynamically merges se mantically redundant adjacent tokens in middle network layers to reduce attention complexity without information loss; (iv) Dual Stream Feed-Forward (DSFF), replacing the conventional MLP with two parallel streams fused by a learned per-dimension gate; and (v) WiolaRMSNorm, a modified normalisation introducing a per-dimension learned offset vector that prevents representation collapse. We provide complete mathematical derivations, architectural block diagrams, complexity analyses, and systematic comparisons against GPT-2, LLaMA-2, and Mistral. Wiola is released in four sizes (120M, 360M, 700M, and 1.5B parameters) and is fully compatible with the HuggingFace Transformers ecosystem, with all 22 architectural unit tests passing.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "产品发布",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "PACE ：合理和可行的反事实解释的神经符号框架",
+      "originalTitle": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.01306",
+      "date": "2026-07-03T04:00:00.000Z",
+      "summary": "这条新闻与推理、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、论文相关动态",
+      "fullContent": "arXiv: 2607. 01306v1 Announce Type: new Abstract:反事实解释通过识别会改变模型决策的最小输入更改来解释机器学习预测。尽管许多现有方法成功地产生了改变预测的替代方案，但由于缺乏纳入领域知识和干预约束的明确机制，它们通常会产生不切实际或不可行的建议。 神经符号人工智能通过将数据驱动的预测模型与能够表示人类可理解的规则和可行行动的符号推理相结合，提供了一个有希望的方向。本文介绍了PACE ，这是一种用于生成可行性感知反事实解释的模块化神经符号框架。 该框架将预测和推理分为两个部分：用于分类的神经预测模型和在反事实生成期间强制执行特定领域约束的符号推理层。通过明确建模可行的干预措施，该框架产生与领域知识一致的解释，同时保持可解释和可操作性。 该方法与模型无关，适用于需要现实决策支持的领域。对成人收入数据集进行了案例研究，将多层感知器分类器与答案集编程（ ASP ）规则相结合，编码对教育、职业和工作时间的可行修改，同时保留不可变属性。 结果强调了反事实有效性和合理性之间的权衡，并表明符号约束产生了更好地满足特定领域可行性要求的解释，说明了神经符号方法在可解释的人工智能中用于透明、可行性感知的反事实解释的潜力。",
+      "originalSummary": "arXiv:2607.01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unrealistic or infeasible recommendations due to a lack of explicit mechanisms for incorporating domain knowledge and intervention constraints. Neuro-symbolic AI offers a promising direction by combining data-driven predictive models with symbolic reasoning capable of representing human-understandable rules and feasible actions. This paper presents PACE, a modular neuro-symbolic framework for generating feasibility-aware counterfactual explanations. The framework separates prediction and reasoning into two components: a neural predictive model for classification and a symbolic reasoning layer that enforces domain-specific constraints during counterfactual generation. By explicitly modeling feasible interventions, the framework produces explanations consistent with domain knowledge while remaining interpretable and actionable. The approach is model-agnostic and adaptable to domains requiring realistic decision support. A case study is conducted on the Adult Income dataset, combining a multilayer perceptron classifier with Answer Set Programming (ASP) rules encoding feasible modifications to education, occupation, and working hours while preserving immutable attributes. Results highlight the trade-off between counterfactual validity and plausibility and show that symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements, illustrating the potential of neuro-symbolic methods for transparent, feasibility-aware counterfactual explanation in explainable AI.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "论文",
+        "模型"
+      ],
+      "score": 91
+    },
     {
       "title": "Anthropic正在与三星讨论新的定制芯片",
       "originalTitle": "Anthropic is discussing a new custom chip with Samsung",
@@ -51,39 +135,6 @@
       "score": 99
     },
     {
-      "title": "Mnemosyne ：用于验证和修复AI生成工作流程的代理事务处理",
-      "originalTitle": "Mnemosyne: Agentic Transaction Processing for Validating and Repairing AI-generated Workflows",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.00269",
-      "date": "2026-07-02T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2607. 00269v1 Announce Type: new Abstract: LLM、求解器和代理团队越来越多地生成工作流操作、修复和计划，但生成的操作可能在语法上有效但过时、不可行、冲突或破坏触发修复的证据。 我们引入了代理事务处理（ ATP ） ，这是一种事务模型，将生成的操作视为不受信任的建议，直到它们在声明的可执行约束集C下通过确定性准入。 原则是双向的：提案不是真实的，没有提案预见到每一次中断：任何事情都可能提出，但只有运行时承认和提交，当不可预见的中断发生时，它会在范围内被动修复，而不是信任新的提案。相对于C ，承诺状态的正确性变得独立于提议层的能力、诚实或学习。 我们在Mnemosyne中实现了ATP ，这是一个具有仅追加过渡日志、有效状态投影、依赖性安全补偿和主动承诺记录的运行时，并证明了相对于C （权限分离、串行等效生成准入、证据保留修复和义务包含）的四个安全属性，以及其局部修复协议（ LCRP ）的有限反应修复保证。 可重现的工件在九个伪造测试中拒绝有针对性的违规行为，同时仍然承认有效的工作，投影和验证开销低于6 ％ ，并且有限的局部修复编辑的操作比全局重新计算少一个数量级。Mnemosyne是开源的： https://github. com/eyuchang/Mnemosyne/tree/arxiv-atp-rq1-rq9b-r8-v2。",
-      "originalSummary": "arXiv:2607.00269v1 Announce Type: new Abstract: LLMs, solvers, and agent teams increasingly generate workflow actions, repairs, and plans, but a generated action may be syntactically valid yet stale, infeasible, conflicting, or destructive of the evidence that triggered a repair. We introduce Agentic Transaction Processing (ATP), a transaction model that treats generated actions as untrusted proposals until they pass deterministic admission under a declared, executable constraint set C. The principle is two-sided: a proposal is not truth, and no proposal foresees every disruption: anything may propose, but only the runtime admits and commits, and when an unforeseen disruption strikes it repairs reactively within bounds rather than trusting a fresh proposal. Relative to C, committed-state correctness becomes independent of the competence, honesty, or learning of the proposing layer. We realize ATP in Mnemosyne, a runtime with an append-only transition log, effective-state projection, dependency-safe compensation, and active commitment records, and prove four safety properties relative to C (authority separation, serial-equivalent generative admission, evidence-preserving repair, and obligation containment) together with a bounded-reactive-repair guarantee for its localized repair protocol (LCRP). A reproducible artifact rejects the targeted violations across nine falsification tests while still admitting valid work, at under 6% projection-and-validation overhead, and bounded local repair edits an order of magnitude fewer operations than global recompute. Mnemosyne is open source: https://github.com/eyuchang/Mnemosyne/tree/arxiv-atp-rq1-rq9b-r8-v2.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "安全",
-        "开源"
-      ],
-      "score": 99
-    },
-    {
-      "title": "双向信息不对称的情境-班迪监督博弈",
-      "originalTitle": "A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.00155",
-      "date": "2026-07-02T04:00:00.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、机器人相关动态",
-      "fullContent": "arXiv: 2607. 00155v1公告类型： NEW摘要：我们研究当私人信息双向运行时AI智能体的运行时人类监督：人类私下知道她的奖励功能，而AI私下知道它提出的行动的质量。这是当自主机器人或软件代理检查其人类主管无法直接评估的情况时自然产生的不对称。 在合作反向强化学习（ CIRL ）和监督博弈的基础上，我们引入了具有双向非对称信息和播放/询问/信任/监督界面的情境分支团队游戏。强盗结构消除了物理状态转换，从而产生了精确的一次性特征，这些特征在完整的POMDP环境中仍然是推测性的，尽管普遍的信念仍然是跨回合的动态控制状态。 我们给出了两个一次性的特征，一个团队最优和行为上自然的近视规则，其差距是可以避免的伤害：人工智能私下知道提议的行动是有害的，关闭将有所帮助的区域，但近视的人，信任她之前，拒绝监督。 我们展示了这种差距是不可信的监督沟通的代价，并部分分析了它如何通过被动学习和主动信令以及一段时间滞后的监督响应来动态解决重复轮次的问题。",
-      "originalSummary": "arXiv:2607.00155v1 Announce Type: new Abstract: We study runtime human oversight of an AI agent when private information runs in both directions: the human privately knows her reward function, while the AI privately knows the quality of the action it proposes. This is the kind of asymmetry that arises naturally when an autonomous robot or software agent has inspected a situation its human supervisor cannot directly assess. Building on Cooperative Inverse Reinforcement Learning (CIRL) and the Oversight Game, we introduce a contextual-bandit team game with two-sided asymmetric information and a play/ask/trust/oversee interface. The bandit structure removes physical state transitions and thereby yields exact one-shot characterizations that would remain conjectural in the full POMDP setting, though the common belief remains a dynamically controlled state across rounds. We give two one-shot characterizations, a team optimum and a behaviorally natural myopic rule, whose gap is a slab of avoidable harm: a region in which the AI privately knows the proposed action is harmful and shutdown would help, yet a myopic human, trusting her prior, declines to oversee. We show this gap is the price of non-credible oversight communication, and give a partial analysis of how it resolves dynamically over repeated rounds through passive learning and active signaling with a one-period-lagged oversight response.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "机器人"
-      ],
-      "score": 98
-    },
-    {
       "title": "马克·扎克伯格（ Mark Zuckerberg ）告诉员工，人工智能代理的进展没有他所希望的那么快",
       "originalTitle": "Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped",
       "source": "TechCrunch AI",
@@ -96,7 +147,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "是的，我们现在正在使用OpenClaw",
+      "originalTitle": "Yep, we&#8217;re using OpenClaw to date now",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "date": "2026-07-02T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
+      "fullContent": "Ben Guez在DM中拥有“一堆潜在的国际妻子” ，这要归功于他使用OpenClaw、Claude代码和Instagram试用卷轴设置的自动脚本。“我认为这是疯狂的，就像现在的潜力是疯狂的，”内容创作者兼初创公司创始人Guez告诉TechCrunch。“我不确定是否每个人都会认为这是好的，但我的意思是，它起作用了。 “Guez怎么会向这么多女人求爱？首先，他使用开源AI代理OpenClaw来跟踪世界杯比赛结果。每场比赛结束后， OpenClaw都会触发Claude使用相同的模板创建和发布几乎相同的Instagram“试用卷轴”。 在视频中， Guez盯着火车车厢的窗户，看起来很沮丧，标题是： “我不敢相信{COUNTRY}迷路了……如果任何{COUNTRY}的女孩需要情感支持……我的DM是开放的。“ Guez也发了同样的帖子，除了国家名称之外，还有十几次。但是，当您查看他的个人资料时，您无法分辨，因为试用转轴不会显示在创作者的公开页面上。 自推出此自动化系统以来， Guez在几天内获得了超过100万的浏览量和200个DM。考虑到Guez在他的个人资料中说他只会回复通过他的人工智能语言学习应用程序Canary发送的DM ，这意味着这些女性必须下载他的应用程序，这一数字甚至更令人印象深刻。你必须把它交给他： Guez确实将“更聪明地工作，而不是更努力地工作”提升到了另一个层次。 但是，一旦这些女性意识到他实际上并不关心突尼斯足球，他们会不会觉得自己在玩游戏？ Guez说： “他们不会生气，他们会留下更深刻的印象，比如， ‘哦，你在跳出框框思考，你是个天才。’” “我认为，只要你对你正在做的事情持开放态度，我认为这没关系。 “TechCrunch无法独立验证这些女性的实际反应，所以我们只需要听从Guez的话。但我们可以告诉你， Guez并不是唯一一个利用病毒式人工智能助手发挥创造力的人。虽然Guez的方法有点过分，但其他人认为OpenClaw可以简化设置日期的过程。 一家科技公关公司的创始人Jeff Weisbein使用OpenClaw来帮助他弄清楚在南佛罗里达州的不同街区在哪里约会。Weisbein告诉TechCrunch ： “我遇到了佛罗里达州南部各地的女性，所以我不知道所有的餐厅或活动。” “我的机器人只是做了所有的研究，并制作了一份文件，其中包含了为什么它可以选择任何类型的日期的链接。 “当我告诉他Guez的OpenClaw计划时，他突然大笑起来。“我想我没有充分利用OpenClaw ， ”他说。“但肯定是在使用OpenClaw来完成一项我必须手动完成的任务。",
+      "originalSummary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "OpenAI提议将其5%的股权捐赠给美国主权财富基金",
+      "originalTitle": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "date": "2026-07-02T15:20:51.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "据报道， OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）提议将该公司5%的股权捐赠给一家美国主权财富基金，重新启动了关于让公众分享人工智能繁荣带来的财务收益的讨论。",
+      "originalSummary": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -127,7 +208,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "谷歌打造了一款出色的智能音箱，但Gemini还没有做好准备",
@@ -142,22 +223,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
-    },
-    {
-      "title": "Cloudflare的新政策推动人工智能公司为发布商的内容付费",
-      "originalTitle": "Cloudflare&#8217;s new policy pushes AI companies to pay for publishers&#8217; content",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
-      "date": "2026-07-01T17:48:37.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "Cloudflare将在9月15日之前让人工智能公司将用于搜索的网络爬虫与用于人工智能培训和代理的网络爬虫分开，否则可能会在许多发布商网站上被默认阻止。",
-      "originalSummary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 84
+      "score": 85
     },
     {
       "title": "阿什顿·库彻（ Ashton Kutcher ）离开Sound Ventures ，与摩根·贝勒（ Morgan Beller ）共同创",
@@ -172,7 +238,22 @@
       "tags": [
         "产品发布"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "SpaceX有一个AI设备原型，听起来像是",
+      "originalTitle": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "date": "2026-07-01T18:54:18.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "据《华尔街日报》报道，埃隆·马斯克(Elon Musk)的SpaceX向投资者展示了一款“类似手机”的人工智能设备的原型。据报道，这款原型机比iPhone更时尚、更纤薄，这让我们怀疑它是否介于小型触摸屏手机和Rabbit R1之间。据报道， SpaceX在设备上市前向投资者和利益相关者展示了该设备，并告诉他们，该设计仍处于早期阶段，仍有可能发生变化。 马斯克否认了这一报道，称其“完全错误”。SpaceX和姊妹公司特斯拉确实拥有制造专业知识，可以大规模生产一大堆人工智能设备--更不用说获得为任何设备计算提供动力所需的芯片了。SpaceX还表示，它热衷于扩展到无线领域， Starlink Mobile是Verizon和AT&T的潜在竞争对手。 一位分析师甚至猜测， T-Mobile或AT&T将成为火箭制造商的精确收购目标，尽管这样的收购无疑是昂贵的。目前还不清楚SpaceX是否只是在向墙上扔意大利面条，或者是否会尝试大规模生产和销售这种设备。但有一件事似乎更清楚，如果OpenAI这样做，马斯克可能希望尝试做得更好。 众所周知， OpenAI正在与苹果前首席设计官乔尼·艾维（ Jony Ive ）合作开发一款人工智能设备，首席执行官萨姆·奥尔特曼（ Sam Altman ）声称该设备将比iPhone更去年秋天的报告显示，该公司一直在努力弄清楚细节， OpenAI最近聘请了另一位苹果高管，以帮助推动事情的发展。 上周有消息称，苹果负责Vision Pro耳机的副总裁保罗·米德(Paul Meade)已加入OpenAI的硬件团队。据报道，与OpenAI一样， SpaceX的原型设计运行在专有操作系统上，并整合了马斯克今年早些时候收购的人工智能公司xAI的技术。这将防止这些新设备被困在另一家公司的平台（如谷歌的Android ）中。 但其目的似乎也是通过原生人工智能界面创造新的东西。也就是说，墓地里挤满了Humane和Rabbit等公司推出的人工智能设备。想要销售人工智能设备的公司并不等同于消费者想要购买这样的东西。然而。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Rebecca Bellan是TechCrunch的高级记者，负责报道影响人工智能的业务、政策和新兴趋势。她的作品也出现在福布斯、彭博、大西洋、每日野兽和其他出版物上。您可以通过发送电子邮件至rebecca. bellan @ techcrunch.com或发送加密消息至rebeccabellan联系或验证Rebecca。491 on Signal.在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.在$ 180...",
+      "originalSummary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
@@ -220,7 +301,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "核心转储流行病学：修复一个18岁的漏洞",
@@ -235,7 +316,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "GeneBench-Pro简介",
@@ -250,22 +331,7 @@
       "tags": [
         "评测"
       ],
-      "score": 86
-    },
-    {
-      "title": "立法者希望禁止人工智能公司出售您的健康数据",
-      "originalTitle": "Lawmakers want to ban AI companies from selling your health data",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
-      "date": "2026-06-29T16:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "一项新提案将禁止向数据经纪人出售美国人的健康和位置信息，包括人们向ChatGPT或Claude等人工智能聊天机器人披露的信息。在未来几周内，参议员伊丽莎白·沃伦（ D-MA ）和众议员玛丽·盖伊·斯坎伦（ Mary Gay Scanlon ， D-PA ）计划推出更适合人工智能时代的新版《健康与位置数据保护法》。 该法案的前一个版本于2022年6月首次推出，禁止数据经纪人收集和销售健康和位置数据。四年后，它扩大到禁止其他公司向经纪人出售此类数据，并特别涵盖......在The Verge阅读完整故事。",
-      "originalSummary": "A new proposal would ban the sale of Americans' health and location information to data brokers - including information people reveal to an AI chatbot like ChatGPT or Claude. In the coming weeks, Senator Elizabeth Warren (D-MA) and Representative Mary Gay Scanlon (D-PA) are planning to debut a new version of the Health and Location [&#8230;]",
-      "rawFullText": "A new proposal would ban the sale of Americans' health and location information to data brokers - including information people reveal to an AI chatbot like ChatGPT or Claude. In the coming weeks, Senator Elizabeth Warren (D-MA) and Representative Mary Gay Scanlon (D-PA) are planning to debut a new version of the Health and Location Data Protection Act that's better suited to the AI era. The former version of the bill, first introduced in June 2022 , prohibited data brokers from collecting and selling health and location data. Four years later, it's expanded to ban other companies from selling such data to brokers, and to specifically cover … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 98
+      "score": 85
     },
     {
       "title": "映射欧洲的人工智能劳动力机会",
@@ -279,22 +345,6 @@
       "rawFullText": "",
       "tags": [
         "公司动态"
-      ],
-      "score": 92
-    },
-    {
-      "title": "OpenAI正在为Codex开发新硬件……",
-      "originalTitle": "OpenAI is teasing new hardware… for Codex",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
-      "date": "2026-06-29T18:52:03.000Z",
-      "summary": "这条新闻与公司动态、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、视频生成相关动态",
-      "fullContent": "OpenAI将于7月15日发布某种与人工智能编码工具Codex相关的设备。在周一发布到X的视频中， OpenAI展示了一个带有几个按钮的方形设备，旁边的标题是： “您最喜欢的Codex快捷方式正在升级。“然而，这不是OpenAI与前苹果设计师Jony Ive合作开发的神秘AI驱动设备。 如预告片所示， OpenAI正在与Work Louder合作推出该设备， Work Louder是一家销售一系列带有可映射键、拨盘和开关的机械键盘和微距键盘的公司。OpenAI显示的设备轮廓看起来有点像Work…阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, \"Your favorite Codex shortcuts are getting an upgrade.\" This isn't the mysterious AI-powered device OpenAI is working on with [&#8230;]",
-      "rawFullText": "OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, \"Your favorite Codex shortcuts are getting an upgrade.\" This isn't the mysterious AI-powered device OpenAI is working on with former Apple designer Jony Ive, however. As shown in the teaser, OpenAI is launching the device in partnership with Work Louder, a company that sells an array of mechanical keyboards and macro pads with mappable keys, dials, and switches. The silhouette of the device shown by OpenAI looks a bit like Work … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "视频生成"
       ],
       "score": 91
     },
@@ -311,7 +361,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "代理对技术前沿的信心",
@@ -326,7 +376,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 91
+      "score": 90
+    },
+    {
+      "title": "DiScoFormer ：一个变压器，用于密度和分数，跨分布",
+      "originalTitle": "DiScoFormer: One transformer for density and score, across distributions",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/discoformer",
+      "date": "2026-06-29T18:02:48.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“DiScoFormer ：一个变压器，用于密度和分数，跨分布”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
+    },
+    {
+      "title": "The Verge AI：AI 热点相关动态",
+      "originalTitle": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+      "date": "2026-06-29T19:47:35.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's [&#8230;]",
+      "rawFullText": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's priority is ensuring royalties go to original works directly produced, written, and performed by people. We will therefore not knowingly attribute royalties to music we identify as wholly AI-generated,\" the company's announcement reads. The platform didn't specify what tools it's using to iden … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 71
     },
     {
       "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
@@ -342,7 +422,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "预览GPT-5.6 SOL ：下一代型号",
@@ -374,7 +454,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "客服代表如何转变工作方式",
@@ -406,7 +486,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -422,7 +502,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -438,7 +518,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
@@ -453,7 +533,7 @@
       "tags": [
         "评测"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "人工智能网络数据基础设施层的出现",
@@ -468,7 +548,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -484,7 +564,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -499,7 +579,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -514,7 +594,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "价值4亿美元的机器为芯片制造的未来提供动力",
@@ -529,7 +609,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "每周使用人工智能、开放式工具和人工智能出货HUGGINGFACE_HUB",
@@ -544,7 +624,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -559,7 +639,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "拥抱脸上的PP-OCRv6 ： 50语言OCR从1.5M到34.5M参数",
@@ -574,7 +654,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     }
   ]
 }
