@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T00:11:06.015Z",
+  "updatedAt": "2026-07-05T00:05:59.257Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,83 @@
   ],
   "articles": [
     {
+      "title": "什么是Mistral AI ？有关OpenAI竞争对手的所有信息",
+      "originalTitle": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "date": "2026-07-04T15:51:32.000Z",
+      "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、开源相关动态",
+      "fullContent": "特朗普的指示导致Anthropic将其最新的人工智能模型下线，并且越来越多地呼吁使用主权技术来减少对美国的依赖，此后， Mistral AI受到了极大的关注。但法国人工智能宠儿经常被误解，它开发大型语言模型（ LLM ）的事实使情况变得混乱。任何根据Mistral离成为“来自欧洲的OpenAI”有多近来判断Mistral的人都会感到失望。 它的聊天和代理商Vibe ，前身为Le Chat ，只有一盎司的ChatGPT品牌知名度，即使在巴黎创业园区Station F的创始人中， Claude也比Mistral的模型更受欢迎。另一方面，随意的观察者往往会忽略法国的decacorn正在遵循Palantir剧本，前沿部署的工程师帮助政府和大公司采用人工智能并根据他们的用例进行定制。 这种方法也更适合Mistral的手段。虽然有传言称该公司将以231.5亿美元的估值筹集约35亿美元，几乎是其目前估值的两倍，但这仍然远低于美国前沿实验室。 但其收入也有所增加； 2月份，它披露其年度经常性收入现在超过4亿美元，高于一年前的2000万美元，并声称今年ARR有望超过10亿美元。这有助于Mistral在达沃斯等地获得一席之地，甚至在法国议会等技术首席执行官难以传达其信息的房间里。 Mistral首席执行官Arthur Mensch已经成为人工智能某种愿景的公共大使，但在解释自己的公司时，他仍然有一些传福音的工作要做。 在一篇冗长的LinkedIn帖子中， Mensch详细介绍了这家总部位于巴黎的公司一直在做什么“谋生” —在其企业客户的基础设施上部署其模型和代理平台，并帮助他们使用Forge构建自定义模型， Forge是一个允许他们使用自己的数据进行培训的平台。然而，围绕Mistral的误解和更大的希望并不是凭空产生的。公司以风命名，追求宏伟愿景。 Mensch写道： “我们的存在是为了确保每个人都能访问最好的人工智能系统，不受国家或公司的集中控制，这些国家或公司认为有必要控制人工智能的精细部署。”这一愿景意味着Mistral正在超越企业。它还旨在继续对研究进行大量投资，以跟上基本的人工智能竞争对手— Mensch的帖子也涵盖了他认为公司在这方面的立场。 “今天，我们还没有拥有最好的语言模型，但我们不断缩小这一差距。今年夏天我们有一个非常令人兴奋的模型--它将是开放式的，我们将在7月提前开放。在计算限制较少的领域，例如语音、视觉和文档处理，我们拥有最先进的解决方案，” Mensch声称。",
+      "originalSummary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "开源",
+        "投融资"
+      ],
+      "score": 99
+    },
+    {
+      "title": "粉丝小说界正在与人工智能及其自身作战",
+      "originalTitle": "The fanfiction community is at war with AI — and itself",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "date": "2026-07-04T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "粉丝小说界正试图追捕那些没有亲手创作的作家。|图片： Álvaro Bernis/The Verge在过去的一周里，一场新的粉丝运动开始了，目的是使用生成式人工智能来根除作者。但正在实施的检测方法值得怀疑，任何狂热的作家都可能陷入困境。 对使用Claude、ChatGPT和其他人工智能工具的广泛厌恶长期以来一直是创意社区的一件事，包括粉丝小说界。读者和作家们已经传授了发现所谓人工智能生成作品的技巧，引用了从em破折号到紫色散文的广泛概念。但在6月29日，一个名为@ heatedrivalryai的匿名X帐户承诺了一个看似更可靠的解决方案……在The Verge阅读完整故事。",
+      "originalSummary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a [&#8230;]",
+      "rawFullText": "Fanfiction communities are trying to hunt down writers who haven’t written works with their own hands. | Image: Álvaro Bernis / The Verge Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a thing in creative communities , including the world of fanfiction. Readers and writers have passed around tips for spotting supposedly AI-generated works, citing anything from em dashes to the broad concept of purple prose. But on June 29th, an anonymous X account called @heatedrivalryai promised a seemingly more reliable solution … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "据报道，阿里巴巴禁止员工使用Claude Code",
+      "originalTitle": "Alibaba reportedly bans employees from using Claude Code",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "date": "2026-07-04T16:32:08.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
+      "fullContent": "根据多份报告，中国的阿里巴巴将从7月10日起禁止员工使用Anthropic的编程工具Claude Code。Anthropic已经禁止中国公司以及这些公司拥有的外国实体使用其模型。据报道，该公司一直在努力堵塞允许中国用户访问Claude的漏洞。 根据Reddit最近的一篇文章，其中一些漏洞涉及一个可以秘密识别中国用户的Claude Code版本。Anthropic的Thariq Shihipar在X上的一篇文章中表示，这是“我们在3月份启动的一项实验，旨在防止未经授权的经销商滥用帐户并防止蒸馏。” （蒸馏是一种根据其他模型的输出训练人工智能模型的做法。 Shihipar说： “从那时起，团队已经获得了更强有力的缓解措施，我们实际上已经打算将其删除一段时间了。”尽管如此，据报道，阿里巴巴已将Claude Code归类为高风险软件，并指示员工使用公司自己的Qoder工具。在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。 优惠截止时间为6月26日晚上11:59。PT。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 89
+    },
+    {
+      "title": "新的谷歌广告设想在人工智能的帮助下撰写独立宣言",
+      "originalTitle": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "date": "2026-07-04T20:55:25.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "《独立宣言》签署二百五十年后，谷歌的一则新广告问道：如果创始人可以访问Google Workspace呢？这则广告的标语是“Group project, but make it 1776” ，描绘了一个基本上看不见的托马斯·杰斐逊（ Thomas Jefferson ）的中期草稿，当时他收到了本·富兰克林（ Ben Franklin ）的唠叨文本，导致了一个非常以谷歌为中心的协作过程。 在Google文档中建议进行编辑，在Google日历中安排会议并通过Google Meet远程进行（每个与会者显然都关闭了相机？ ） ，然后通过电子签名完成整个过程；提示烟花。当然，由于这是2026年一家科技公司的广告，人工智能可以发挥作用。 虚构的创始人使用谷歌的“帮助我视觉化”人工智能工具在国徽上尝试不同的动物，双子座在会议上做笔记，创始人在拒绝乔治三世国王的文档访问请求之前也向聊天机器人征求意见。整件事情非常开玩笑（有一次，山姆·亚当斯（ Sam Adams ）问道： “我们可以在啤酒上解决这个问题吗？” ） ，与许多其他最近的广告相比，人工智能布道相对谨慎。 与那个臭名昭著的谷歌广告不同，其中一位父亲使用双子座为他的女儿写了一封粉丝信，这个广告回避了任何关于《独立宣言》的实际文本将通过人工智能得到改善的建议。也许广告中最具人工智能前瞻性的元素是镜头本身，在我看来，它具有人工智能生成视频的不可思议的光芒。 虽然观众在YouTube和Instagram上的评论似乎大多是积极的，但您可能不会惊讶地发现， Bluesky上的回复更具批评性。海报宣称商业广告“令人毛骨悚然”和“令人惊讶的音调失聪” ，而人工智能的角度是最大的目标--尽管包括历史学家安格斯·约翰斯顿（ Angus Johnston ）在内的许多用户都指出， “令人惊讶的是，这实际上很少是人工智能。 “即使是在一个老套的幻想笑话中，也不可能证明人工智能是政治组织、写作或人类合作的有用工具，”约翰斯顿说。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.雪佛兰制造了一辆全美式电动卡车—为什么没有人买它？ Tim De Cha...",
+      "originalSummary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "Midjourney希望好莱坞电影公司透露其人工智能使用的细节",
+      "originalTitle": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "date": "2026-07-04T18:00:05.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "作为与三家好莱坞电影公司之间持续法律纠纷的一部分，人工智能初创公司Midjourney正试图迫使这些电影公司披露他们自己如何使用人工智能。迪士尼和环球影业去年起诉Midjourney涉嫌侵犯版权，并指出这家初创公司的图像生成模型可以创建由工作室拥有的Bart Simpson和Darth Vader等角色的图像。几个月后，华纳兄弟也起诉了Midjourney。 这家初创公司认为，在合理使用的情况下，允许在受版权保护的角色的图像上训练其AI模型。目前的争议围绕着工作室在发现过程中需要制作的文件。一位法官此前裁定，工作室确实必须提供有关其生成式人工智能使用的信息，但前提是这些信息会导致“面向消费者”的视频和图像。 在其最新提交的文件中， Midjourney试图推翻这一限制，认为它“不公平地”允许工作室“只挑选他们认为支持其市场损害索赔的文件，同时剥夺了Midjourney支持其辩护的文件。 Midjourney继续声称， “[工作室]扣留的文件正是那些可以揭示他们是否在闭门造车，他们是否正在做他们起诉Midjourney所做的事情的文件。 例如，这家初创公司表示，如果工作室正在开发图像生成人工智能模型， “用于内部故事板或为电影或电视创意内容，那么这些证据同样会证明，即使在工作室本身中，下载和训练人工智能在未经许可的版权内容上也是一种行业习俗。 在文件中，这家初创公司还认为，工作室应该披露他们在Midjourney中使用的所有提示以及由此产生的输出，而不仅仅是产生涉嫌侵权图像的提示。工作室的首席律师大卫·辛格（ David Singer ）此前声称， Midjourney正在寻求这份文件，作为“钓鱼探险”的一部分。 他还表示，这些工作室“并不寻求阻止人工智能技术，甚至关闭Midjourney的业务” ，而是“只是希望Midjourney停止复制他们的电影和电视节目，停止分发、公开展示、公开表演和创作衍生作品，其中包括未经授权的著名角色的副本。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。",
+      "originalSummary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
       "title": "Anthropic希望开发自己的药物",
       "originalTitle": "Anthropic wants to develop its own drugs",
       "source": "The Verge AI",
@@ -36,71 +113,50 @@
       "score": 99
     },
     {
-      "title": "Agent4cs ：大型分层代码库中代码汇总的多代理系统",
-      "originalTitle": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.01425",
-      "date": "2026-07-03T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 01425v1 Announce Type: new Abstract:理解大型、复杂的代码库，特别是那些结构混淆且文档不完整的代码库，仍然是一个重大挑战。现有的代码汇总解决方案通常依赖于单一语言模型或编码助手（如Claude Code ） ，并将源代码视为平面文本，未充分利用存储库中的丰富相互依存关系和分层信息。 为了解决这些缺陷，我们提出了Agent4cs ，这是一种多Agent框架，以自下而上的方式总结大型代码库，其中总结Agent专注于生成强大的摘要；关键字提取Agent主动识别子文件夹中的关键信息；质量保证Agent迭代改进输出，以提高可读性、一致性和完整性。 Agent4cs在7个前沿模型上进行评估，与具有代码段的两个结构化提示基线相比，所有文件夹级别的语义一致性平均提高了8%。此外，对真实世界数据集的广泛评估显示，在同一基线上，标准化关键词覆盖率提高了38%。",
-      "originalSummary": "arXiv:2607.01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion, where a summarization agent focuses on producing robust summaries; a keyword-extraction agent proactively identifies critical information from subfolders; and a quality-assurance agent iteratively refines the outputs for readability, coherence, and completeness. Evaluated on 7 frontier models, Agent4cs improves semantic consistency across all folder levels by average 8% compared to two structured prompting baselines with code segments. Furthermore, extensive evaluation on real-world datasets demonstrates up to 38% gains in normalized keyword coverage rate over the same baselines.",
-      "rawFullText": "",
+      "title": "Midjourney医疗扫描仪的幕后花絮留下了许多悬而未决的问题",
+      "originalTitle": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "date": "2026-07-03T11:49:10.000Z",
+      "summary": "这条新闻与视频生成、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、产品发布相关动态",
+      "fullContent": "成像体模的扫描，分段以验证在受控条件下结构如何干净分离。|图片： Midjourney Medical Midjourney展示了更多未来医学扫描仪。它仍然没有显示出它有效的证据。 这家以生成图像而闻名的人工智能初创公司发布了一段其扣篮式超声波扫描仪的幕后视频，该视频计划部署在水疗中心，并希望通过廉价、详细、无辐射的成像技术改变医学。近20分钟的游览来自科技YouTuber Marcin Plaza ，他恰好也是该公司的工程师。 Plaza坦率地将扫描仪描述为数十个超声波探头“被劈开并拍打在一个装有电梯的美化热水浴缸上” ，连接到现成的计算机和覆盆子……阅读The Verge的完整故事。",
+      "originalSummary": "Midjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with cheap, detailed, radiation-free imaging. The nearly 20-minute tour [&#8230;]",
+      "rawFullText": "A scan of an imaging phantom, segmented to validate how cleanly structures separate under controlled conditions. | Image: Midjourney Medical Midjourney has shown more of its futuristic medical scanner . It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk-tank ultrasound scanner, which it plans to deploy in spas and hopes will transform medicine with cheap, detailed, radiation-free imaging. The nearly 20-minute tour comes from tech YouTuber Marcin Plaza, who also happens to be an engineer at the company. Plaza frankly describes the scanner as scores of ultrasound probes \"hacked apart and slapped on a glorified hot tub with an elevator in it,\" connected to off-the-shelf computers and Raspberry … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "智能体",
-        "模型"
+        "视频生成",
+        "产品发布"
       ],
-      "score": 99
+      "score": 88
     },
     {
-      "title": "Janus ：用户参与代理权限管理的游乐场",
-      "originalTitle": "Janus: a Playground for User-Involved Agentic Permission Management",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.01510",
-      "date": "2026-07-03T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2607. 01510v1公告类型：新摘要：代表用户自主执行工具调用的AI代理提出了有关权限管理的紧迫问题：用户可以扮演什么角色，他们应该扮演什么角色？尽管提出了许多方法，但用户在代理权限管理中的角色仍在探索中。我们介绍了Janus ，这是一个用于实施和评估用户参与的代理权限管理设计的游乐场系统。 Janus由两个组件组成： Janus-Core ，一个支持各种权限管理设计的模块化代理系统，以及Janus-Harness ，一个自动化评估框架。基于确定用户参与的关键设计轴的概念模型，我们在设计空间中实施了六个权限助理，并在三个场景和三个合成响应者中对其进行评估。 我们证明，用户输入至关重要，可以显着增强隐私和安全性，人工智能增强用户决策有助于减少认知负荷，并且在系统设计中必须考虑到包括权限疲劳在内的现实用户行为。没有单一的设计可以在所有上下文中实现最佳性能，从而激发了在代理系统中部署权限助理的更有原则和上下文敏感的方法。 Janus公开支持未来对代理系统设计的这一维度的调查。",
-      "originalSummary": "arXiv:2607.01510v1 Announce Type: new Abstract: AI agents that autonomously execute tool calls on a user's behalf raise pressing questions about permission management: what role could users play, and what role should they play? Despite many proposed approaches, the user's role in agentic permission management remains under explored. We introduce Janus, a playground system for implementing and evaluating user-involved agentic permission management designs. Janus consists of two components: Janus-Core, a modular agentic system supporting a diverse spectrum of permission management designs, and Janus-Harness, an automated evaluation framework. Grounded in a conceptual model that identifies key design axes for user involvement, we implement six permission assistants spanning the design space and evaluate them across three scenarios and three synthetic responders. We demonstrate that user input is critical and can significantly strengthen privacy and security, that AI augmentation of user decisions can help reduce cognitive load, and that realistic user behavior including permission fatigue must be accounted for in system design. No single design performs optimally across all contexts, motivating a more principled and context-sensitive approach to deploying permission assistants in agentic systems. Janus is publicly available to support future investigation into this dimension of agentic system design.",
+      "title": "您今年唯一需要的人工智能术语表",
+      "originalTitle": "The only AI glossary you&#8217;ll need this year",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "date": "2026-07-03T21:20:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“您今年唯一需要的人工智能术语表”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "模型"
+        "AI 热点"
       ],
-      "score": 96
+      "score": 75
     },
     {
-      "title": "Wiola高效小语言模型架构",
-      "originalTitle": "The Wiola Architecture for Efficient Small Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.01394",
-      "date": "2026-07-03T04:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、产品发布相关动态",
-      "fullContent": "arXiv: 2607. 01394v1公告类型：新摘要：我们介绍Wiola ，这是一种完全原创的小语言模型（ SLM ）架构，基于第一原理构建，与任何现有模型系列（包括GPT、LLaMA、Mistral或Falcon ）不共享任何结构谱系。 Wiola引入了五个独立的新组件： （ i ）螺旋旋转位置编码（ SRPE ） ，它在三维螺旋流形上嵌入令牌位置，结合绝对，相对和分层的位置信号； （ ii ）门控交叉层注意（ GCLA ） ，为每个解码器层提供对前两个层的压缩摘要的软交叉注意访问，以实现层间相干性； （ iii ）自适应令牌合并（ ATM ） ，其动态 我们提供完整的数学推导、架构框图、复杂性分析以及与GPT-2、LLaMA-2和Mistral的系统比较。Wiola有四种尺寸（ 120米、360米、700米和1. 5B参数） ，与HuggingFace Transformers生态系统完全兼容，所有22个建筑单元测试均通过。",
-      "originalSummary": "arXiv:2607.01394v1 Announce Type: new Abstract: We present Wiola, a fully original Small Language Model (SLM) architecture built from first principles, sharing no structural lineage with any existing model family including GPT, LLaMA, Mistral, or Falcon. Wiola introduces five independently novel components: (i) Spiral Rotary Positional Encoding (SRPE), which embeds token positions on a three-dimensional helical manifold combining absolute, relative, and hierarchical positional signals; (ii) Gated Cross-Layer Attention (GCLA), providing each decoder layer with soft cross-attention access to compressed summaries of two preceding layers for inter-layer coherence; (iii) Adaptive Token Merging (ATM), which dynamically merges se mantically redundant adjacent tokens in middle network layers to reduce attention complexity without information loss; (iv) Dual Stream Feed-Forward (DSFF), replacing the conventional MLP with two parallel streams fused by a learned per-dimension gate; and (v) WiolaRMSNorm, a modified normalisation introducing a per-dimension learned offset vector that prevents representation collapse. We provide complete mathematical derivations, architectural block diagrams, complexity analyses, and systematic comparisons against GPT-2, LLaMA-2, and Mistral. Wiola is released in four sizes (120M, 360M, 700M, and 1.5B parameters) and is fully compatible with the HuggingFace Transformers ecosystem, with all 22 architectural unit tests passing.",
+      "title": "TechCrunch AI：AI 热点相关动态",
+      "originalTitle": "The browser wars aren&#8217;t about search anymore — here are the best alternatives to Chrome and Safari",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "date": "2026-07-03T18:43:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "产品发布",
-        "模型"
+        "AI 热点"
       ],
-      "score": 95
-    },
-    {
-      "title": "PACE ：合理和可行的反事实解释的神经符号框架",
-      "originalTitle": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.01306",
-      "date": "2026-07-03T04:00:00.000Z",
-      "summary": "这条新闻与推理、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、论文相关动态",
-      "fullContent": "arXiv: 2607. 01306v1 Announce Type: new Abstract:反事实解释通过识别会改变模型决策的最小输入更改来解释机器学习预测。尽管许多现有方法成功地产生了改变预测的替代方案，但由于缺乏纳入领域知识和干预约束的明确机制，它们通常会产生不切实际或不可行的建议。 神经符号人工智能通过将数据驱动的预测模型与能够表示人类可理解的规则和可行行动的符号推理相结合，提供了一个有希望的方向。本文介绍了PACE ，这是一种用于生成可行性感知反事实解释的模块化神经符号框架。 该框架将预测和推理分为两个部分：用于分类的神经预测模型和在反事实生成期间强制执行特定领域约束的符号推理层。通过明确建模可行的干预措施，该框架产生与领域知识一致的解释，同时保持可解释和可操作性。 该方法与模型无关，适用于需要现实决策支持的领域。对成人收入数据集进行了案例研究，将多层感知器分类器与答案集编程（ ASP ）规则相结合，编码对教育、职业和工作时间的可行修改，同时保留不可变属性。 结果强调了反事实有效性和合理性之间的权衡，并表明符号约束产生了更好地满足特定领域可行性要求的解释，说明了神经符号方法在可解释的人工智能中用于透明、可行性感知的反事实解释的潜力。",
-      "originalSummary": "arXiv:2607.01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unrealistic or infeasible recommendations due to a lack of explicit mechanisms for incorporating domain knowledge and intervention constraints. Neuro-symbolic AI offers a promising direction by combining data-driven predictive models with symbolic reasoning capable of representing human-understandable rules and feasible actions. This paper presents PACE, a modular neuro-symbolic framework for generating feasibility-aware counterfactual explanations. The framework separates prediction and reasoning into two components: a neural predictive model for classification and a symbolic reasoning layer that enforces domain-specific constraints during counterfactual generation. By explicitly modeling feasible interventions, the framework produces explanations consistent with domain knowledge while remaining interpretable and actionable. The approach is model-agnostic and adaptable to domains requiring realistic decision support. A case study is conducted on the Adult Income dataset, combining a multilayer perceptron classifier with Answer Set Programming (ASP) rules encoding feasible modifications to education, occupation, and working hours while preserving immutable attributes. Results highlight the trade-off between counterfactual validity and plausibility and show that symbolic constraints yield explanations that better satisfy domain-specific feasibility requirements, illustrating the potential of neuro-symbolic methods for transparent, feasibility-aware counterfactual explanation in explainable AI.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "论文",
-        "模型"
-      ],
-      "score": 91
+      "score": 75
     },
     {
       "title": "Anthropic正在与三星讨论新的定制芯片",
@@ -147,22 +203,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
-    },
-    {
-      "title": "是的，我们现在正在使用OpenClaw",
-      "originalTitle": "Yep, we&#8217;re using OpenClaw to date now",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
-      "date": "2026-07-02T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "Ben Guez在DM中拥有“一堆潜在的国际妻子” ，这要归功于他使用OpenClaw、Claude代码和Instagram试用卷轴设置的自动脚本。“我认为这是疯狂的，就像现在的潜力是疯狂的，”内容创作者兼初创公司创始人Guez告诉TechCrunch。“我不确定是否每个人都会认为这是好的，但我的意思是，它起作用了。 “Guez怎么会向这么多女人求爱？首先，他使用开源AI代理OpenClaw来跟踪世界杯比赛结果。每场比赛结束后， OpenClaw都会触发Claude使用相同的模板创建和发布几乎相同的Instagram“试用卷轴”。 在视频中， Guez盯着火车车厢的窗户，看起来很沮丧，标题是： “我不敢相信{COUNTRY}迷路了……如果任何{COUNTRY}的女孩需要情感支持……我的DM是开放的。“ Guez也发了同样的帖子，除了国家名称之外，还有十几次。但是，当您查看他的个人资料时，您无法分辨，因为试用转轴不会显示在创作者的公开页面上。 自推出此自动化系统以来， Guez在几天内获得了超过100万的浏览量和200个DM。考虑到Guez在他的个人资料中说他只会回复通过他的人工智能语言学习应用程序Canary发送的DM ，这意味着这些女性必须下载他的应用程序，这一数字甚至更令人印象深刻。你必须把它交给他： Guez确实将“更聪明地工作，而不是更努力地工作”提升到了另一个层次。 但是，一旦这些女性意识到他实际上并不关心突尼斯足球，他们会不会觉得自己在玩游戏？ Guez说： “他们不会生气，他们会留下更深刻的印象，比如， ‘哦，你在跳出框框思考，你是个天才。’” “我认为，只要你对你正在做的事情持开放态度，我认为这没关系。 “TechCrunch无法独立验证这些女性的实际反应，所以我们只需要听从Guez的话。但我们可以告诉你， Guez并不是唯一一个利用病毒式人工智能助手发挥创造力的人。虽然Guez的方法有点过分，但其他人认为OpenClaw可以简化设置日期的过程。 一家科技公关公司的创始人Jeff Weisbein使用OpenClaw来帮助他弄清楚在南佛罗里达州的不同街区在哪里约会。Weisbein告诉TechCrunch ： “我遇到了佛罗里达州南部各地的女性，所以我不知道所有的餐厅或活动。” “我的机器人只是做了所有的研究，并制作了一份文件，其中包含了为什么它可以选择任何类型的日期的链接。 “当我告诉他Guez的OpenClaw计划时，他突然大笑起来。“我想我没有充分利用OpenClaw ， ”他说。“但肯定是在使用OpenClaw来完成一项我必须手动完成的任务。",
-      "originalSummary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 88
+      "score": 93
     },
     {
       "title": "OpenAI提议将其5%的股权捐赠给美国主权财富基金",
@@ -177,7 +218,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
+    },
+    {
+      "title": "The Verge AI：公司动态相关动态",
+      "originalTitle": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "date": "2026-07-02T10:23:27.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share [&#8230;]",
+      "rawFullText": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times . CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share the upside of AI, the FT reported, citing two unnamed people familiar with the talks. He's said to have first pitched the idea to Trump early last year. Altman reportedly suggested the 5 percent figure. Based on OpenAI's latest funding round , which ended with the company valued at $852 billion, that stake would be worth … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 85
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -208,7 +264,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "谷歌打造了一款出色的智能音箱，但Gemini还没有做好准备",
@@ -223,53 +279,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
-      "title": "阿什顿·库彻（ Ashton Kutcher ）离开Sound Ventures ，与摩根·贝勒（ Morgan Beller ）共同创",
-      "originalTitle": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
-      "date": "2026-07-01T18:47:22.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
-      "fullContent": "Sound在类别领先的人工智能实验室集中、高置信度的投注中建立了声誉，而Kutcher的新基金似乎正在追逐这些公司的下层--为他们提供动力的基础设施和能源。",
-      "originalSummary": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
-      "rawFullText": "",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 80
-    },
-    {
-      "title": "SpaceX有一个AI设备原型，听起来像是",
-      "originalTitle": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
-      "date": "2026-07-01T18:54:18.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "据《华尔街日报》报道，埃隆·马斯克(Elon Musk)的SpaceX向投资者展示了一款“类似手机”的人工智能设备的原型。据报道，这款原型机比iPhone更时尚、更纤薄，这让我们怀疑它是否介于小型触摸屏手机和Rabbit R1之间。据报道， SpaceX在设备上市前向投资者和利益相关者展示了该设备，并告诉他们，该设计仍处于早期阶段，仍有可能发生变化。 马斯克否认了这一报道，称其“完全错误”。SpaceX和姊妹公司特斯拉确实拥有制造专业知识，可以大规模生产一大堆人工智能设备--更不用说获得为任何设备计算提供动力所需的芯片了。SpaceX还表示，它热衷于扩展到无线领域， Starlink Mobile是Verizon和AT&T的潜在竞争对手。 一位分析师甚至猜测， T-Mobile或AT&T将成为火箭制造商的精确收购目标，尽管这样的收购无疑是昂贵的。目前还不清楚SpaceX是否只是在向墙上扔意大利面条，或者是否会尝试大规模生产和销售这种设备。但有一件事似乎更清楚，如果OpenAI这样做，马斯克可能希望尝试做得更好。 众所周知， OpenAI正在与苹果前首席设计官乔尼·艾维（ Jony Ive ）合作开发一款人工智能设备，首席执行官萨姆·奥尔特曼（ Sam Altman ）声称该设备将比iPhone更去年秋天的报告显示，该公司一直在努力弄清楚细节， OpenAI最近聘请了另一位苹果高管，以帮助推动事情的发展。 上周有消息称，苹果负责Vision Pro耳机的副总裁保罗·米德(Paul Meade)已加入OpenAI的硬件团队。据报道，与OpenAI一样， SpaceX的原型设计运行在专有操作系统上，并整合了马斯克今年早些时候收购的人工智能公司xAI的技术。这将防止这些新设备被困在另一家公司的平台（如谷歌的Android ）中。 但其目的似乎也是通过原生人工智能界面创造新的东西。也就是说，墓地里挤满了Humane和Rabbit等公司推出的人工智能设备。想要销售人工智能设备的公司并不等同于消费者想要购买这样的东西。然而。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Rebecca Bellan是TechCrunch的高级记者，负责报道影响人工智能的业务、政策和新兴趋势。她的作品也出现在福布斯、彭博、大西洋、每日野兽和其他出版物上。您可以通过发送电子邮件至rebecca. bellan @ techcrunch.com或发送加密消息至rebeccabellan联系或验证Rebecca。491 on Signal.在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.在$ 180...",
-      "originalSummary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "date": "2026-07-01T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
-      "originalTitle": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "date": "2026-06-30T18:32:50.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "fullContent": "为什么迁移很难介绍ScarfBench Frontier代理商的表现如何？关于用于Java现代化的AI代理，我们学到了什么？代理可以可靠地判断迁移何时完成？代理如何导航应用程序依赖项？客服代表将大部分精力花在哪里？哪些挑战与代码转换无关？ 探索ScarfBench网站数据集空间GitHub存储库排行榜论文现代化企业应用程序是组织开展的最大和最昂贵的软件工程活动之一。团队跨框架迁移应用程序，以提高可维护性、云就绪性、开发人员生产力以及对现代功能的访问。编码代理的最新进展引发了人们对人工智能辅助现代化的兴奋。 但一个重要的问题仍然存在：人工智能代理能否可靠地实现现实世界的企业应用程序的现代化？现有的软件工程基准测试表明，在错误修复和代码生成方面取得了令人印象深刻的进展，但框架迁移带来了根本不同的挑战。成功不仅需要翻译代码，还需要保留行为、调整构建系统和导航运行时依赖项。 为了解决这一差距，我们引入了ScarfBench （自包含应用程序重构基准） ，这是一个用于评估企业Java中跨框架迁移任务的AI代理的开放基准。ScarfBench侧重于跨三个主要Java生态系统的迁移：与将生成的代码与引用实现进行比较的传统基准不同， ScarfBench评估迁移的应用程序是否实际构建、部署和保存行为。 简单的存储库迁移可能需要跨依赖注入、持久性配置、查询和框架描述符进行更改。这些部件中的任何小错误都可能妨碍成功部署。框架迁移需要翻译框架语义，而不仅仅是源代码。ScarfBench提供了一种系统的方法来评估企业Java框架迁移任务上的AI代理。 这为现代化质量提供了更现实的衡量标准。ScarfBench包括重点迁移任务和整个应用程序迁移。",
-      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "评测"
-      ],
-      "score": 99
+      "score": 73
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -288,6 +313,22 @@
       "score": 99
     },
     {
+      "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
+      "originalTitle": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "date": "2026-06-30T18:32:50.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "fullContent": "为什么迁移很难介绍ScarfBench Frontier代理商的表现如何？关于用于Java现代化的AI代理，我们学到了什么？代理可以可靠地判断迁移何时完成？代理如何导航应用程序依赖项？客服代表将大部分精力花在哪里？哪些挑战与代码转换无关？ 探索ScarfBench网站数据集空间GitHub存储库排行榜论文现代化企业应用程序是组织开展的最大和最昂贵的软件工程活动之一。团队跨框架迁移应用程序，以提高可维护性、云就绪性、开发人员生产力以及对现代功能的访问。编码代理的最新进展引发了人们对人工智能辅助现代化的兴奋。 但一个重要的问题仍然存在：人工智能代理能否可靠地实现现实世界的企业应用程序的现代化？现有的软件工程基准测试表明，在错误修复和代码生成方面取得了令人印象深刻的进展，但框架迁移带来了根本不同的挑战。成功不仅需要翻译代码，还需要保留行为、调整构建系统和导航运行时依赖项。 为了解决这一差距，我们引入了ScarfBench （自包含应用程序重构基准） ，这是一个用于评估企业Java中跨框架迁移任务的AI代理的开放基准。ScarfBench侧重于跨三个主要Java生态系统的迁移：与将生成的代码与引用实现进行比较的传统基准不同， ScarfBench评估迁移的应用程序是否实际构建、部署和保存行为。 简单的存储库迁移可能需要跨依赖注入、持久性配置、查询和框架描述符进行更改。这些部件中的任何小错误都可能妨碍成功部署。框架迁移需要翻译框架语义，而不仅仅是源代码。ScarfBench提供了一种系统的方法来评估企业Java框架迁移任务上的AI代理。 这为现代化质量提供了更现实的衡量标准。ScarfBench包括重点迁移任务和整个应用程序迁移。",
+      "originalSummary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、评测相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测"
+      ],
+      "score": 98
+    },
+    {
       "title": "Claude Science是Anthropic的最新旗舰产品",
       "originalTitle": "Claude Science is Anthropic’s newest flagship product",
       "source": "MIT Technology Review",
@@ -301,7 +342,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "核心转储流行病学：修复一个18岁的漏洞",
@@ -316,7 +357,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "GeneBench-Pro简介",
@@ -331,7 +372,7 @@
       "tags": [
         "评测"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "映射欧洲的人工智能劳动力机会",
@@ -346,7 +387,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -361,7 +402,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "代理对技术前沿的信心",
@@ -376,7 +417,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "DiScoFormer ：一个变压器，用于密度和分数，跨分布",
@@ -391,22 +432,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
-      "date": "2026-06-29T19:47:35.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's [&#8230;]",
-      "rawFullText": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as being 100 percent AI-generated with an icon. But starting today those tracks will no longer be monetizable. \"Tidal's priority is ensuring royalties go to original works directly produced, written, and performed by people. We will therefore not knowingly attribute royalties to music we identify as wholly AI-generated,\" the company's announcement reads. The platform didn't specify what tools it's using to iden … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
+      "score": 72
     },
     {
       "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
@@ -422,7 +448,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "预览GPT-5.6 SOL ：下一代型号",
@@ -454,7 +480,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "客服代表如何转变工作方式",
@@ -486,7 +512,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -502,7 +528,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -518,7 +544,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
@@ -533,7 +559,7 @@
       "tags": [
         "评测"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能网络数据基础设施层的出现",
@@ -548,7 +574,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -564,7 +590,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -579,7 +605,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -594,7 +620,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "价值4亿美元的机器为芯片制造的未来提供动力",
@@ -609,7 +635,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "每周使用人工智能、开放式工具和人工智能出货HUGGINGFACE_HUB",
@@ -624,7 +650,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "我们有本地模特免费分流OpenClaw仓库！ *",
@@ -639,7 +665,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "拥抱脸上的PP-OCRv6 ： 50语言OCR从1.5M到34.5M参数",
@@ -654,7 +680,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     }
   ]
 }
