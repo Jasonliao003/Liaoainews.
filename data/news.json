@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T00:13:01.394Z",
+  "updatedAt": "2026-07-07T00:14:32.672Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,98 @@
   ],
   "articles": [
     {
+      "title": "LeRobot v0.6.0 ：想象、评估、改进",
+      "originalTitle": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/lerobot-release-v060",
+      "date": "2026-07-07T00:00:00.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "fullContent": "TL; DR目录世界模型：想象VLA-JEPA LingBot-VA FastWAM VLA的政策：模型动物园不断增长GR00T N1。 7 MolmoAct2 EO-1多任务DiT EVO1奖励模型：了解您的机器人何时成功Robometer TOP奖励数据集：更快的加载，更丰富的数据您的编解码器，您的规则深度支持，端到端规模的语言注释最多2倍更快的数据加载基准：一个CLI来评估它们所有培训和推理lerobot-rollout ：部署有自己的CLI \"> lerobot-rollout ：部署有自己的CLI FSDP ：使用HF J训练比您的GPU更大的模型 它还提供深度传感、VLM驱动的数据集注释、自定义视频编码、HF Jobs上的云培训，以及更精简的安装。LeRobot v0. 6. 0引入了学习想象未来的世界模型策略（ VLA-JEPA ， FastWAM ， LingBot-VA ） ，一波新的VLA （ GR00T N1. 7 ， MolmoAct2 ， EO-1 ， EVO1 ，多任务DiT ）和新的奖励模型API （ Robometer ， TOPReward ）。 它在lerobot-eval下统一了六个新的模拟基准， lerobot-rollout CLI具有DAgger风格的人工在环校正， FSDP培训和HF Jobs的云培训。除了更精简的安装之外，数据集还可以获得深度支持、自动语言注释管道、自定义视频编码以及高达2倍的数据加载速度。机器人世界正在提出一个大问题：世界模型实际上有助于机器人政策吗？ v0. 6。 0为LeRobot带来了三项政策来帮助回答这个问题。每个人都学会想象未来作为其培训的一部分，每个人都采取不同的路径来保持这种想象力。VLA-JEPA教授一种紧凑的VLA （基于Qwen3-VL-2B ） ，在学习行动的同时预测潜在空间的未来：在训练期间， JEPA世界模型必须从模型自己的行动中预测即将到来的帧。 诀窍在于，世界模型然后在推理中消失，因此您以零额外推理成本获得世界模型监督。集线器上有三个现成的检查点，包括一个经过DROID预训练的微调底座：查看VLA-JEPA文档和论文以了解更多信息。 LingBot-VA更进一步：一个自动回归的视频动作模型，可以一起预测未来的视频和动作，逐块预测，并反馈真实的观察结果，以保持其想象力。您甚至可以保存机器人想象的内容（ --policy. save_predicted_video = true ）并将其与实际发生的内容进行比较。推理在单个24–32 GB GPU上运行。查看文档和论文，了解技术细节。 FastWAM在其论文标题中提出了一个问题：世界动作模型是否需要测试时未来的想象力？它在单个网络中将约5B视频生成专家与紧凑型操作专家配对，因此该模型实际上学会了梦想自己的推出。在推断...",
+      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "rawFullText": "",
+      "tags": [
+        "机器人"
+      ],
+      "score": 85
+    },
+    {
+      "title": "“第一次” AI运行的勒索软件攻击仍然需要人类",
+      "originalTitle": "The &#8216;first&#8217; AI-run ransomware attack still needed a human",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "date": "2026-07-06T23:56:14.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "一名人工智能代理首次对真实世界的勒索软件攻击进行了技术执行，但新的细节显示，人类仍然选择了受害者，设置了基础设施，并提供了被盗的凭据--这意味着这不是上周头条新闻所暗示的完全自主的网络犯罪首次亮相。",
+      "originalSummary": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Vercel首席执行官吉列尔莫·劳赫（ Guillermo Rauch ）与代理商分拆模特的斗",
+      "originalTitle": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "date": "2026-07-06T19:49:10.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
+      "fullContent": "Vercel以其云基础设施而闻名，该基础设施允许开发人员在不管理服务器的情况下部署代理， Vercel已悄然成为人工智能软件中最核心的公司之一。该公司目前每天看到600万次部署，其中一半是由编码代理触发的，每天有超过1万亿个代币通过该公司的AI网关流通。 在上周公司的ShipNYC会议之后，我们与Vercel首席执行官Guillermo Rauch讨论了他在人工智能领域的这一时刻，以及像Vercel这样的平台公司最终如何与主要实验室竞争。这是一个经过轻微编辑的成绩单。今年，社区中充满了不同的活力，试点项目减少了，人们更加关注如何让事情在实践中顺利进行。 我相信您已经与客户见过很多，但我很好奇Vercel内部的这段旅程是什么样的。去年是关于原型设计的。天空是极限，释放特工，每个人都可以建造，等等。我们做到了，我们学到了很多东西，因为我们在公司内部有机地开发和部署了数百个代理，然后你开始了解代理在生产中的现实，以及一些挑战。 对我来说，最大的教训是本地运行用例，这是代理的两个杀手级应用程序。当然，一个是编码代理。这推动了世界上很多代币的利用率，但当你生产这么多软件时，你需要把它放在某个地方。代理的第二个杀手级应用是帮助您运营公司的内部代理。面临的挑战是，如何安全地访问数据？您如何审核客服代表的工作？ 如何跟踪代理为完成工作而必须进行的所有工具调用和访问控制？为了解决这个问题，我们提出了一个名为EVE的框架，您可以在其中用自然语言列出客服代表的指示和技能。另一个工具是Vercel Sandbox ，您可以将代理放在一个小笼子里。 它仍然可以自由地表达其智能，但您可以应用有关它可以访问哪些数据以及哪些数据可以离开沙箱的策略。对于沙盒来说，最大的优势是数据控制。我经常想到的人工智能的真正风险是，当你获得像Devin或Cursor这样的编码IDE时，如果你的设置不正确，它们可能会在你的整个代码库上进行训练。我记得我和空中客车公司总裁谈过这件事。 您拥有数十年丰富的航空航天工程非常具体的C + +代码。有人进来安装了错误的开发人员工具，所有的代码都传到云端进行培训。我很想知道更多关于第二个杀手级用例的信息。我们都知道编码代理，但实际上内部公司代理是什么样子的？因此， [在Vercel的办公室]有一名销售代表坐在外面。她在安装基地工作。 她的工作是扩大现有客户。像她这样的人的瓶颈不在于她的创造力、智慧、建立关系的能力，而在于数据。“我不知道哪些账户的增长速度更快。请告诉我在过去两周内增加了最多席位的五个账号，以便我可以优先考虑我的工作。“她以前不能问这个问题。",
+      "originalSummary": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 91
+    },
+    {
+      "title": "如果你使用谷歌，你就是在训练它的人工智能。退订方法如下。",
+      "originalTitle": "If you use Google, you&#8217;re training its AI. Here&#8217;s how to opt out.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "date": "2026-07-06T17:04:58.000Z",
+      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：视频生成、模型相关动态",
+      "fullContent": "将此视为迟来的PSA ：谷歌最近对隐私设置的更改允许该公司存储更多数据，包括“图像、文件以及音频和视频录制”等媒体，以改进其人工智能模型。",
+      "originalSummary": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+      "rawFullText": "",
+      "tags": [
+        "视频生成",
+        "模型"
+      ],
+      "score": 90
+    },
+    {
+      "title": "您的家人在OpenAI中的300 $股份",
+      "originalTitle": "Your family&#8217;s $300 stake in OpenAI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "date": "2026-07-06T18:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
+      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）经常讨论的承诺，即美国人将分享人工智能创造的财富，这在上周再次成为新闻。周四，英国《金融时报》报道称，奥特曼正在与特朗普总统就让美国政府持有OpenAI 5%的股份进行谈判。在某些方面， Altman的计划是老生常谈。 他在2021年写了一个更激进的版本，建议所有估值高于某一估值的公司（不仅仅是人工智能公司）每年将其市值的2. 5%支付给一个向美国人发送年度付款的基金。今年4月， OpenAI描述了一个范围较窄的提案，据报道，该提案与奥特曼现在与特朗普讨论的内容非常相似。 这个概念具有广泛的政治吸引力：参议员伯尼·桑德斯(Bernie Sanders)提议让美国人持有顶级人工智能公司50%的股份。这里的逻辑是什么？对于潜在的收件人来说，这是双重的。首先，人工智能直接从人类生成的工作书籍、电影、艺术作品中学习，但人工智能公司通常从不向该作品的作者付费。免费股权可以作为一种迟来的补偿形式。 其次，支出可以通过提供安全网来缓解人们对人工智能将导致劳动力市场崩溃的广泛担忧（即使经济学家不同意）。安全网的规模有多大值得商榷。OpenAI最新提案的细节很少，但假设政府将直接向美国人分配这笔股权。在3月份的一轮融资后，该公司估值为8520亿美元，持有OpenAI 5%的股份，价值约42美元。 今天有60亿美元（据报道，该公司推迟了IPO ，直到达到1万亿美元的评估，这是一个艰巨的任务，因为它在数据中心上花费了大量资金，但仍然没有盈利）。在大约1.33亿美国家庭中平均分配426亿美元，每个家庭将获得约320美元的股权。 但如果它像其他财富基金一样运作，政府不会直接向美国人发放股权，而是让基金增长，然后与每个人分享一部分回报，如果人工智能公司能够以可持续的方式开始盈利的话，可能会带来更大的回报。如果这种红利确实实现了，那么对科技公司有什么好处？ Altman可能希望支付承诺可以帮助公众舆论更多地回到人工智能公司。（大多数美国人不信任公司负责任地使用人工智能，并反对在其所在地区建设数据中心，一半人更关心人工智能越来越多地进入他们的日常生活。 但对OpenAI来说，更大的好处可能是特朗普政府喜欢进行科技交易，比如它在英特尔的股权以及它在英伟达对中国销售中所占的份额等。对人工智能公司来说，站在政府的一边是非常重要的（问问Anthropic就知道了）。这可能意味着您的模型不会被视为供应链风险，或者在阻止来自中国的竞争对手方面得到白宫的更多帮助。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in talks with President Trump about giving the US government a 5% stake in OpenAI. In some ways, Altman’s plan is old news. He wrote about a more radical version of this back in 2021 , proposing that all companies above a certain valuation (not just AI companies) pay 2.5% of their market value each year into a fund that sends Americans annual disbursements. In April this year, OpenAI described a narrower proposal that closely resembles what Altman is reportedly discussing with Trump now. And the notion has broad political appeal: Senator Bernie Sanders has proposed giving Americans a 50% stake in top AI companies. What’s the logic here? For would-be recipients, it’s twofold. First, AI learns directly from human-generated work—books, movies, art—but AI companies generally never pay the authors of that work. A free equity stake could serve as a form of belated compensation. Second, the payout could mitigate the widespread anxiety that AI will cause a collapse of the labor market (even if economists disagree ) by providing a safety net. How large a safety net is up for debate. Details of OpenAI’s latest proposal are sparse, but let’s say the government were to distribute this equity stake directly to Americans. After its funding round in March the company was valued at $852 billion, making a 5% stake in OpenAI worth about $42.6 billion today (the company is reportedly delaying its IPO until it can reach a $1 trillion evaluation, a tall order given that it’s spending heavily on data centers and still has not turned a profit). Distributing that $42.6 billion equally among the roughly 133 million American households would give each about $320 in equity. But if it were to operate like other wealth funds, the government would not give equity directly to Americans but rather let the fund grow and then share a portion of the returns with everyone, perhaps delivering a bigger payout, if and when AI companies can ever start sustainably turning a profit. If this dividend does materialize, what’s in it for tech companies? Altman might hope the promise of payouts could help swing public opinion a bit more back toward AI companies. (A majority of Americans don’t trust companies to use AI responsibly and oppose construction of data centers in their area, and half are more concerned than excited about the increased creep of AI into their daily lives.) But the bigger prize for OpenAI might be that the Trump administration loves making tech deals—like its equity stake in Intel and its share of Nvidia’s sales to China, among others .&nbsp; Staying on the administration’s good side is pretty essential for AI companies right now (just ask Anthropic). It could mean not having your models deemed a supply chain risk , or getting more help from the White House in stopping your rivals from China.&nbsp; My main takeaway is that these plans currently function more as a story than a policy. Altman has been talking about some version of this idea for five years and reportedly pitched it to President Trump soon after he took office, yet there is still little indication that a concrete plan is taking shape. The more ambitious proposal from Sanders is even less likely to gain traction. But what these plans do reveal is just how up for debate the future of AI still is. Altman drew inspiration for his plan from the Alaska Permanent Fund, which was set up in the 1970s to give Alaskans a share in oil profits. The idea was based on two premises: that oil is a shared resource, and that eventually it will run out. Altman seems happy to concede the first claim about AI. But he’d balk at the second, having promised that AI will generate extraordinary wealth for decades to come. Whether Americans ever receive a check is beside the point; the proposal’s real purpose may be to convince them that the AI boom will be large enough to share.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
+    },
+    {
+      "title": "Station F成为欧洲最热门人工智能初创公司的发射台",
+      "originalTitle": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "date": "2026-07-06T13:00:00.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
+      "fullContent": "由法国亿万富翁泽维尔·尼尔（ Xavier Niel ）创立的巴黎创业中心Station F正在为其新版F/ai加速器计划做准备，以加强其作为有前途的人工智能创业公司垫脚石的地位。",
+      "originalSummary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "rawFullText": "",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 82
+    },
+    {
       "title": "激怒谷歌的商业广告想象创始人拥抱人工智能",
       "originalTitle": "Infuriating Google commercial imagines the founding fathers embracing AI",
       "source": "The Verge AI",
@@ -31,7 +123,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "亚马逊将停止接受Mechanical Turk的新客户",
@@ -46,7 +138,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "这个国家的一些富人正在让人工智能教他们的孩子",
@@ -57,28 +149,11 @@
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
       "fullContent": "大多数美国人不信任人工智能。事实证明，它不知道比萨饼的安全配料是什么。人们甚至不想听人工智能音乐。但对于一些美国富人来说，这一切都不重要，他们正在转向人工智能来教育他们的孩子，而不是传统的学校。像Forge Prep和Alpha School这样的公司正在向家庭收取数万美元的费用，让他们的孩子成为人工智能导师和“基于项目的互动研讨会”的测试人员。 “毫不奇怪，硅谷一直是这种新模式的主要采用者。总部位于旧金山的风险投资家肖恩·约翰逊（ Shaun Johnson ）告诉《华尔街日报》，他计划将他的……阅读The Verge的完整故事。",
       "originalSummary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha [&#8230;]",
-      "rawFullText": "Most Americans don't trust AI . It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music . But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha School are charging families tens of thousands of dollars to turn their kids into beta testers for AI tutors and \"interactive project-based workshops.\" Unsurprisingly, Silicon Valley have been major adopters of this new model. Shaun Johnson, a San Francisco-based venture capitalist, told the Wall Street Journal that he plans to send his … Read the full story at The Verge.",
+      "rawFullText": "Most Americans don't trust AI . It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music . But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha School are charging families tens of thousands of dollars to turn their kids into beta testers for AI tutors and \"interactive project-based workshops.\" Unsurprisingly, Silicon Valley have been major adopters of this new model. Shaun Johnson, a San Francisco-based venture capitalist, told The Wall Street Journal that he plans to send his … Read the full story at The Verge.",
       "tags": [
         "AI 热点"
       ],
-      "score": 75
-    },
-    {
-      "title": "什么是Mistral AI ？有关OpenAI竞争对手的所有信息",
-      "originalTitle": "What is Mistral AI? Everything to know about the OpenAI competitor",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
-      "date": "2026-07-04T15:51:32.000Z",
-      "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、开源相关动态",
-      "fullContent": "特朗普的指示导致Anthropic将其最新的人工智能模型下线，并且越来越多地呼吁使用主权技术来减少对美国的依赖，此后， Mistral AI受到了极大的关注。但法国人工智能宠儿经常被误解，它开发大型语言模型（ LLM ）的事实使情况变得混乱。任何根据Mistral离成为“来自欧洲的OpenAI”有多近来判断Mistral的人都会感到失望。 它的聊天和代理商Vibe ，前身为Le Chat ，只有一盎司的ChatGPT品牌知名度，即使在巴黎创业园区Station F的创始人中， Claude也比Mistral的模型更受欢迎。另一方面，随意的观察者往往会忽略法国的decacorn正在遵循Palantir剧本，前沿部署的工程师帮助政府和大公司采用人工智能并根据他们的用例进行定制。 这种方法也更适合Mistral的手段。虽然有传言称该公司将以231.5亿美元的估值筹集约35亿美元，几乎是其目前估值的两倍，但这仍然远低于美国前沿实验室。 但其收入也有所增加； 2月份，它披露其年度经常性收入现在超过4亿美元，高于一年前的2000万美元，并声称今年ARR有望超过10亿美元。这有助于Mistral在达沃斯等地获得一席之地，甚至在法国议会等技术首席执行官难以传达其信息的房间里。 Mistral首席执行官Arthur Mensch已经成为人工智能某种愿景的公共大使，但在解释自己的公司时，他仍然有一些传福音的工作要做。 在一篇冗长的LinkedIn帖子中， Mensch详细介绍了这家总部位于巴黎的公司一直在做什么“谋生” —在其企业客户的基础设施上部署其模型和代理平台，并帮助他们使用Forge构建自定义模型， Forge是一个允许他们使用自己的数据进行培训的平台。然而，围绕Mistral的误解和更大的希望并不是凭空产生的。公司以风命名，追求宏伟愿景。 Mensch写道： “我们的存在是为了确保每个人都能访问最好的人工智能系统，不受国家或公司的集中控制，这些国家或公司认为有必要控制人工智能的精细部署。”这一愿景意味着Mistral正在超越企业。它还旨在继续对研究进行大量投资，以跟上基本的人工智能竞争对手— Mensch的帖子也涵盖了他认为公司在这方面的立场。 “今天，我们还没有拥有最好的语言模型，但我们不断缩小这一差距。今年夏天我们有一个非常令人兴奋的模型--它将是开放式的，我们将在7月提前开放。在计算限制较少的领域，例如语音、视觉和文档处理，我们拥有最先进的解决方案，” Mensch声称。",
-      "originalSummary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "开源",
-        "投融资"
-      ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "粉丝小说界正在与人工智能及其自身作战",
@@ -96,21 +171,6 @@
       "score": 99
     },
     {
-      "title": "据报道，阿里巴巴禁止员工使用Claude Code",
-      "originalTitle": "Alibaba reportedly bans employees from using Claude Code",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "date": "2026-07-04T16:32:08.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "根据多份报告，中国的阿里巴巴将从7月10日起禁止员工使用Anthropic的编程工具Claude Code。Anthropic已经禁止中国公司以及这些公司拥有的外国实体使用其模型。据报道，该公司一直在努力堵塞允许中国用户访问Claude的漏洞。 根据Reddit最近的一篇文章，其中一些漏洞涉及一个可以秘密识别中国用户的Claude Code版本。Anthropic的Thariq Shihipar在X上的一篇文章中表示，这是“我们在3月份启动的一项实验，旨在防止未经授权的经销商滥用帐户并防止蒸馏。” （蒸馏是一种根据其他模型的输出训练人工智能模型的做法。 Shihipar说： “从那时起，团队已经获得了更强有力的缓解措施，我们实际上已经打算将其删除一段时间了。”尽管如此，据报道，阿里巴巴已将Claude Code归类为高风险软件，并指示员工使用公司自己的Qoder工具。在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。 优惠截止时间为6月26日晚上11:59。PT。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Alibaba has reportedly classified Claude Code as high-risk software.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 88
-    },
-    {
       "title": "新的谷歌广告设想在人工智能的帮助下撰写独立宣言",
       "originalTitle": "New Google commercial imagines a Declaration of Independence written with help from AI",
       "source": "TechCrunch AI",
@@ -123,7 +183,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Midjourney希望好莱坞电影公司透露其人工智能使用的细节",
@@ -138,7 +198,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Anthropic希望开发自己的药物",
@@ -171,83 +231,7 @@
         "视频生成",
         "产品发布"
       ],
-      "score": 87
-    },
-    {
-      "title": "您今年唯一需要的人工智能术语表",
-      "originalTitle": "The only AI glossary you&#8217;ll need this year",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "date": "2026-07-03T21:20:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“您今年唯一需要的人工智能术语表”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "浏览器大战不再是搜索，以下是Chrome和Safari的最佳替代方案",
-      "originalTitle": "The browser wars aren&#8217;t about search anymore — here are the best alternatives to Chrome and Safari",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
-      "date": "2026-07-03T18:43:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "Anthropic正在与三星讨论新的定制芯片",
-      "originalTitle": "Anthropic is discussing a new custom chip with Samsung",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "date": "2026-07-02T18:31:09.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
-      "fullContent": "早在4月份，路透社就报道称， Anthropic正在考虑生产自己的人工智能芯片，作为应对芯片短缺的一种手段。现在看来，该公司正在认真对待这个想法。周四， The Information报道称， Anthropic正在与三星联系，以探索围绕待定芯片的合作。 然而，根据该报告， Anthropic尚未决定芯片的用途，它将如何安装到服务器中，或者它的功能有多强大。当发表评论时， Anthropic告诉TechCrunch ，包括谷歌、亚马逊和英伟达芯片在内的多元化硬件堆栈将继续成为其计算战略的关键。关于三星潜在的合作关系，该公司表示没有什么可补充的。 许多人工智能公司都在寻求开发定制芯片--既是为特定计算任务创建独特硬件的一种方式，也是从英伟达获得一定程度的独立性，英伟达仍然是芯片行业无可争议的领导者。 Anthropic的宣布也可能是对其主要竞争对手OpenAI上周所做的回应， OpenAI已与Broadcom合作宣布其自己的定制推理处理器，被称为“Jalapeño。“ OpenAI表示，与其他竞争对手的芯片相比，该芯片效率更高，性能功耗比更高。亚马逊和谷歌都提供定制的TPU作为其云服务的一部分。 三星已经嵌入人工智能行业，并作为英伟达的主要合作伙伴，生产公司需要训练或运行其人工智能模型的芯片。反过来，三星使用英伟达的软件来制造其芯片。两人正在韩国的一家人工智能芯片工厂工作。三星还讨论了与谷歌在芯片制造方面的合作。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠将于太平洋时间6月26日晚上11:59结束。 “互联网之父”终于退休了Tim Fernholz Flipper Device的新款Busy Bar是一款可定制的生产力显示屏， Ivan Mehta Ford在人工智能落空后重新聘请了“灰胡子”工程师Anthony Ha Govee的智能金块制冰机，让每杯冰镇饮料都像奢侈品一样Aisha Malik",
-      "originalSummary": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "算力芯片"
-      ],
-      "score": 99
-    },
-    {
-      "title": "马克·扎克伯格（ Mark Zuckerberg ）告诉员工，人工智能代理的进展没有他所希望的那么快",
-      "originalTitle": "Mark Zuckerberg tells staff that AI agents haven&#8217;t progressed as quickly as he&#8217;d hoped",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "date": "2026-07-02T23:38:10.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "如果以Meta为例，用AI取代人似乎并不那么容易。据路透社报道，周四在内部市政厅，首席执行官马克·扎克伯格(Mark Zuckerberg)告诉员工，人工智能代理开发的步伐并没有像高管此前预期的那样“加快”。 据彭博社报道，今年早些时候， Meta解雇了大约8,000名员工（约占其企业员工总数的10% ） ，并将另外7,000名员工重新分配给了各个人工智能团队，其中包括一个名为Agent Transformation的团队。在本周的会议上，扎克伯格显然对这些裁员发表了评论，并指出这些裁员并不像他们应该的那样“干净”。 据报道，扎克伯格补充说，裁员是因为该公司的高级官员“担心我们的行动速度不够快” ，无法适应科技行业不断变化的格局。 这位企业领导人显然还表示，新的以人工智能为中心的公司结构的预期好处尚未“实现” ，尽管他表示，他相信公司将在未来三到六个月内开始看到人工智能投资的改善。根据分配给Meta的一些工程师的说法，其他几份调查报告将Meta几个月前的人工智能部门描述为一个摧毁灵魂的古拉格。 据路透社报道， Meta在人工智能方面投入了大量资金，预计今年将在人工智能基础设施上投入高达1450亿美元$。在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 92
-    },
-    {
-      "title": "OpenAI提议将其5%的股权捐赠给美国主权财富基金",
-      "originalTitle": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
-      "date": "2026-07-02T15:20:51.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "据报道， OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）提议将该公司5%的股权捐赠给一家美国主权财富基金，重新启动了关于让公众分享人工智能繁荣带来的财务收益的讨论。",
-      "originalSummary": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
+      "score": 86
     },
     {
       "title": "OpenAI浮动让特朗普政府减少5%的人工智能热潮",
@@ -262,22 +246,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 84
+      "score": 83
     },
     {
-      "title": "Meta悄然推出Vibe编码游戏应用Pocket",
-      "originalTitle": "Meta quietly launches vibe-coded gaming app Pocket",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-      "date": "2026-07-02T18:44:02.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
-      "fullContent": "随着名为Pocket的新应用程序的推出， Meta正在进入游戏领域，该应用程序允许人们使用AI提示生成小型交互式应用程序和游戏。该软件是Meta今年早些时候收购Vibe编码游戏平台Gizmo团队的结果，它将自己描述为“制作和分享小工具的创意平台” ，这就是所谓的互动体验。 它还提供可滚动的Feed ，您可以在其中玩其他人制作的小玩意。根据应用程序在Google Play中的屏幕截图，与Gizmo的原始应用程序有许多相似之处，该应用程序仍在列出。与Pocket一样， Gizmo还提供了一种使用书面AI提示来构建小型交互式体验的方法，它还包括发现提要。 亚历山德罗·帕卢齐（ Alessandro Paluzzi ）是一名逆向工程师，也是新应用程序和功能的常规观察员，他今天早上首次注意到该应用程序的推出，并在X上发布了该应用程序的Play Store屏幕截图。然而，根据应用程序智能提供商Appfigures的数据， Pocket于2026年6月29日在App Store和Google Play上首次推出。（由于其新颖性，该公司无法判断是否尚未看到任何下载。 ） # Meta正在开发一款名为Pocket👀的新应用程序。️一个制作和分享gizmos. pic. twitter.com/zFjMU5jj1U的新创意平台其他媒体，包括Business Insider和Investing.com ，也报道了Paluzzi的发现。Meta尚未回复评论请求。 Pocket是Meta推动人工智能创作工具更加主流的另一个例子，它扩展了其早期的努力，包括通过其Meta AI应用程序创建的人工智能生成图像，以及使用其名为Vibes的应用程序创建的人工智能视频。它还在其社交平台和面向创作者的视频编辑应用程序Edits中添加了人工智能功能。 鉴于Meta尚未正式宣布Pocket的首次亮相， Pocket可能仍处于初步实验阶段。然而，根据Appfigures的数据，它的对手Gizmo在iOS和Google Play上共产生了635,000次终身安装，其中98%的情绪是积极的。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.雪佛兰制造了一辆全美式电动卡车—为什么没有人买它？蒂姆·德·昌特（ Tim De Chant ）马克·扎克伯格（ Mark Zuckerberg ）告诉员工，人工智能代理的进展没有他希望卢卡斯·罗佩克",
-      "originalSummary": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
-      "rawFullText": "",
+      "title": "教授人工智能与涡轮机一起运行",
+      "originalTitle": "Teaching AI to run with the turbines",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "date": "2026-07-02T12:51:44.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：安全相关动态",
+      "fullContent": "人工智能可能通过聊天机器人和图像生成器吸引了公众的想象力，但其一些最重要的用例远非面向消费者的工具。在物理基础设施、运营连续性和安全性至关重要的行业中，人工智能正在成为核心运营层。 凭借其庞大的工业系统和不断的运营数据流，能源部门提供了对未来可能是什么样子的一瞥。在Woodside Energy ，人工智能的采用并非始于生成模型或企业副驾驶。该公司花了数年时间在勘探、钻探、维护和工厂运营中构建预测分析、优化系统和机器学习工具。 该公司数字副总裁Andrew Melouney表示： “我们始终拥有来自设备、工厂和我们运营的资产的大量运营数据。” “这些为我们创造了非常清晰、高价值的用例。“对基础设施和治理的长期投资现在使我们能够更广泛地转向能够支持复杂工业工作流程的智能AI系统。 Woodside不是取代人类操作员，而是设计人工智能系统，以增强高风险环境中的专业知识。一个典型的例子是其“Startup Advisor” ，这是一种人工智能副驾驶，可帮助运营商管理启动液化天然气（ LNG ）工厂的复杂流程。Melouney解释说： “我们真的在考虑，它如何支持组织中的人员，使他们能够做出更好的决策，做出更快的决策。” 该公司的方法反映了整个工业人工智能领域正在发生的更广泛的演变：从孤立的实验过渡到基于标准化平台、受管数据和可重复部署模式的企业级系统。Melouney认为，这种转变要求组织重新思考他们的技术堆栈和工作本身是如何完成的。“我们不仅仅是将人工智能引入现有流程，”他说。 「我们正在深入思考如何重新构想这项工作。Melouney的座右铭已经变成了： “大思维，小原型，快速扩展。“随着人工智能系统变得更加自主和相互联系，有望成功的公司可能是那些花费数年时间在炒作下建立运营基础的公司。 Melouney表示： “我们的目标是打造一家自主企业，我们拥有能够与我们的核心工作流程深入互动的代理商。”本期《商业实验室》是与Infosys合作制作的。 成绩单全文： Megan Tatum ：来自《麻省理工科技评论》，我是Megan Tatum ，这是商业实验室，该节目帮助商业领袖理解新技术从实验室走向市场。本集是与Infosys合作制作的。",
+      "originalSummary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational&#8230;",
+      "rawFullText": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational data, the energy sector offers a glimpse into what that future could look like. At Woodside Energy, AI adoption did not begin with generative models or enterprise copilots. The company has spent years building predictive analytics, optimization systems, and machine learning tools across exploration, drilling, maintenance, and plant operations. “We’ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate,” says the company&#8217;s vice president for digital Andrew Melouney. “Those have created really clear, quite high-value use cases for us.” That long-term investment in infrastructure and governance is now enabling a broader shift toward agentic AI systems that can support complex industrial workflows. Rather than replace human operators, Woodside designs AI systems to augment expertise in high-stakes environments. A prime example is its “Startup Advisor,” an AI copilot that helps operators manage the complex process of starting liquefied natural gas (LNG) plants. “We’re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions,” Melouney explains. The company’s approach reflects a wider evolution taking place across industrial AI: graduating from isolated experiments to enterprise-wide systems built on standardized platforms, governed data, and repeatable deployment patterns. That transition, Melouney argues, requires organizations to rethink both their technology stacks and how work itself gets done. “We’re not just bolting AI onto an existing process,” he says. “We’re deeply thinking about how that work needs to be reimagined.” Melouney&#8217;s motto has become: “Think big, prototype small, and scale fast.&#8221; As AI systems become more autonomous and interconnected, the companies poised to succeed may be those that spent years building the operational foundations beneath the hype. &#8220;Our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows,&#8221; says Melouney. This episode of Business Lab is produced in partnership with Infosys. Full Transcript: Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. This episode is produced in partnership with Infosys. Now, when people think about artificial intelligence, they often picture chatbots or productivity tools, but some of the most sophisticated and high impact uses of AI are actually happening far from consumer apps, inside complex industrial environments where safety, reliability, and physical systems matter. The global energy sector is a prime example. Companies like Woodside Energy, a global energy producer headquartered in Western Australia, have been applying AI for more than a decade now, from advanced analytics and operations, to remote decision support, to smarter maintenance, and energy efficiency across large scale assets. Today, Woodside is scaling that experience, embedding AI more deeply across its operations and the enterprise with a strong focus on governance, data quality, and human accountability. Two words for you: technological fuel. My guest today is Andrew Melouney, vice president for digital at Woodside Energy. Welcome, Andrew. Andrew Melouney: Thanks, Megan. It&#8217;s great to be here. Megan: Lovely to have you. Now, Andrew, as I said there, the energy sector has approached AI quite differently from technology or consumer businesses. Early value has emerged in operational and industrial environments, rather than consumer-facing generative AI tools. Why is that? And what differentiates the energy sector&#8217;s AI journey? Andrew: Megan, I think it really comes down to the nature of the work we do. Energy operations and what Woodside does is very asset intensive, it&#8217;s very safety critical, and it&#8217;s highly physical. And when you think about how Woodside operates, we operate across the full value chain. We do exploration through to drilling and subsurface work, to project development, all the way through to operating assets, which are often operated in harsh and remote locations, and then global energy portfolio marketing and trading as well. We&#8217;ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate, and those have created really clear, quite high-value use cases for us. When you think about reliability, when you think about safety and efficiency, those are really critical things for a company like Woodside. We&#8217;ve been doing traditional AI for many years now. If you think about analytics, if you think about optimization, if you think about things like predictive models, those techniques we&#8217;ve been applying to our data sets and to our business since around 2015. And more recently with the advent of generative AI, we&#8217;ve really found that we&#8217;ve got a pretty strong and awesome foundation to build on top of and to really solve problems in the service of improving the business. And again, whether that is keeping people safe, keeping the environments we operate in safe, or improving returns for the organization. Megan: Fantastic. I mean you touched on it there, but how has this reality shaped your own AI strategy at Woodside? Where did you start, and where did the technology prove most impactful in those early days? Andrew: Well, like I said, we&#8217;ve had a very long journey, in terms of understanding our operational data, recognizing the value of it, and collecting it at scale so that we can use it. And we&#8217;ve been very deliberate in that approach, Megan. We&#8217;ve really thought about where the value is and where the risks were manageable. And we&#8217;ve started looking at, in today&#8217;s world from an agentic AI perspective, we&#8217;ve started looking at the problems that were solved with traditional AI and machine learning and data science in the past. And we&#8217;ve started to think about, where can we then layer agentic AI over the top to provide an even better outcome? For our asset intensive industry and organization, we&#8217;re looking at areas such as maintenance optimization. We&#8217;re looking at areas such as, how do we ensure our LNG plants start up reliably, consistently, and safely? And we&#8217;re considering really our frontline workforce and making sure that we&#8217;re giving people on the frontline the tools required to do their jobs. When we think about AI, we&#8217;re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions? I think over time, this has just evolved from what has been traditional analytics to now artificial intelligence and generative AI. And we&#8217;ve learned along the way that the technology is important, but it&#8217;s about aligning people, processes, and the technology together. We&#8217;ve spent a long time not only in collecting the data and having a well-curated data set that we can build on top of, but we&#8217;ve also spent a lot of time teaching people how to work in agile ways, how to do design thinking, how to problem solve, and how to really make sure that the technology that, say, my team can bring to bear to the organization is adopted effectively and purposefully. And I think once we had that solid foundation in place from a technology perspective, from a data perspective, once we got strong trust built between our digital teams and the organization, we really saw quite a material uptick and the scaling of technology occur more broadly across the enterprise. Megan: Fantastic. That people piece so important, isn&#8217;t it? It&#8217;s just a tool, technology, that needs to be in the right hands. And you touched on data there; industrial AI obviously depends on vast amounts of data. Can you walk us through how you&#8217;ve approached data at Woodside in a little more detail? How it&#8217;s structured and governed, and how tools like maintenance intelligence as well fit into that. Andrew: Well, data is really foundational and fundamental to everything we do, particularly from a technology perspective. It gives us the ability to innovate at pace when we are building over the top of a strong foundation. As I said before, we&#8217;ve had the benefit of a long-term investment in our underlying operational data. I think the way we think about data is that it&#8217;s an asset for us. And when you think about operating a facility where you&#8217;ve got sensors everywhere, you&#8217;ve got data streaming in real time, you&#8217;ve got operators needing to make decisions in real time, we have consciously made a decision over many, many years to invest in that enterprise scale data platform to make sure that it&#8217;s secure. We&#8217;ve got well-structured data assets, and we&#8217;ve got strong governance over the top of that data so that when it is used, when it&#8217;s built in a data science application or an AI agent, that we&#8217;ve got a level of trust in it that it&#8217;s going to be used responsibly. And that when it&#8217;s used, it can be trusted to give the outcome that we expect. We have developed platforms that continuously ingest really high frequency data from the assets and from our enterprise systems. Once we&#8217;ve been able to develop solutions on top of that, parts of the business that might own the systems that collect that data, they see the value in it. When you look at something like maintenance intelligence is a really good example of how we&#8217;ve been able to take something that we&#8217;ve been working on for a long time. Woodside does a lot of maintenance, it&#8217;s a very important part of our business, and it occurs across all of our operating assets. But we have been looking at how we do predictive analytics and predictive maintenance for a long time across that data set that we own. And something like maintenance intelligence is a solution that gives us the ability to optimize how we do that maintenance. And what it does is it analyzes historical maintenance records, alongside the performance of the equipment. And again, by having that data set well-governed and in one place, we get the ability to correlate different data sets, such as maintenance records out of SAP, alongside say equipment and performance coming from our time series data lake. And when we build over the top of that, something like maintenance intelligence gives us the opportunity to recommend to the assets what the optimal timing for maintenance activities might be, and really give what is quite a simple aim, which is do the right work at the right time. And with something like maintenance intelligence, we have seen the opportunity, and we have the opportunity to reduce maintenance hours by up to 15% over five years on one of the assets that we&#8217;ve piloted this on. And as we&#8217;ve built out that underlying analytical model, we&#8217;re now able to put agentic AI over the top of that and provide better insights and optimize that solution more. It really comes down to providing our asset teams and our operational teams with the right decision support capability that ensures they&#8217;re still accountable to make the decision and to ensure the right work is being done, but we are giving them the best possible opportunity to use their judgment and experience with the data that we provide to make the right decision. Megan: Sounds like a really impactful change. Last year also marked a milestone in moving from early AI learnings to scale, using AI more deliberately as a force multiplier. What transition were you trying to make and how did you approach it? Andrew: Well, Megan, we&#8217;ve had a philosophy for a long time in Woodside from an innovation perspective, where we really want to think big, we want to prototype small, and we want to scale fast. We want to find big opportunities that we can go after, but we want to ensure that we look at how we deploy those on a small scale first, and then provide the right learning and insight that then can scale it everywhere. Something like maintenance intelligence is a good example of that, or our Startup Advisor, where we know that we&#8217;ve got multiple plants that we need to start up. We know that we&#8217;ve got multiple assets that need to do maintenance, so we have a big, bold ambition about how we can improve and optimize that. We start with a small prototype; it might be one subsystem, it might be just a part of an asset, and then we scale it out, we learn, and we scale faster. I think from an AI learning perspective, one of the key things we&#8217;ve learned is really the transition from moving from isolated AI solutions to a more coordinated enterprise-wide capability. If you look back maybe 18 months, two years, in our generative AI journey, we rarely started by deploying AI as broadly as we could in the organization from a personal productivity perspective. And probably being quite open in terms of the problems that we will solve, the business problems that we&#8217;ll solve with AI. That had a lot of benefits for us in terms of allowing our organization to get to know AI, get to know the capabilities, to build the trust in it. What we&#8217;ve learned though is that we&#8217;ve needed to pivot from that to being a little bit tighter in terms of where we are going to invest our time and resources and more higher value solutions. How do we then enable and empower the rest of the organization so that they can actually effectively problem solve with technology in their domain or in their personal productivity without having to come to a central team? When we think about that, think big, prototype small, scale fast, has been something really important for us. The transition from a more broader approach to use case development and solution development to now a narrower focus on the high value priorities. We&#8217;ve seen that paying dividends to us and allowing us to go after solutions and opportunities, things like Startup Advisor. And so our Startup Advisor is a agentic AI solution that really aims to optimize and empower and better support our operators that sit in front of a panel and have to start up LNG plants, which are incredibly technical facilities and require really specialist skills to start up. And so our Startup Advisor is almost like a copilot that sits alongside those operators, and it gives them the ability to be able to play back previous startups. It gives them the ability to look at how the current startup is progressing, and it provides them better insights to optimize how they start up that facility. And again, starting up an LNG facility is incredibly complex. Megan: I can imagine. Andrew: When we think about opportunities like Startup Advisor, again, it goes back to that think big, prototype small, and scale fast. We started with a very bold vision of, how do we start up all of our LNG plants in a much more structured and optimized fashion? How do we better support our panel operators? How do we make, say, a more junior panel operator have a copilot that can help them almost like an experienced panel operator sitting next to them? And when we think about that vision and the ability then to prototype on a small scale and then scale fast, I think it&#8217;s been really successful for us. As we scale, we&#8217;ve just naturally expanded into more agent-based solutions. Today, we&#8217;ve got around 50 AI agents in production, supporting both our operating assets and our enterprise workflows. These tools have been proven in live environments, and we have really seen the benefit of being able to shift from point solutions that maybe solve small scale problems in specific areas, to AI and agentic solutions with agency that can really work across our workflows. We&#8217;re able to do this because we&#8217;ve standardized on the platform that we build on and we&#8217;ve got repeatable patterns. That&#8217;s been another really important learning for us, is that we don&#8217;t want to build 50 solutions in 50 different ways. We really want to be empowering our organization and our technical teams and the users of our solutions to roll them out quickly, to roll them out safely, and to do it in a patternized and platform manner. But the last point I&#8217;ll make, Megan, from a learning perspective is that we&#8217;ve really understood that a strong governance around how AI is deployed and developed is critical for us, and it&#8217;s critical for us to go fast as well. The traditional ways of governing how we roll out different solutions or digital systems isn&#8217;t going to scale to the breadth that we need when we are thinking about AI. Being able to have a clear philosophy around how we innovate, transitioning from isolated solutions to that enterprise-wide capability, and making sure that we&#8217;ve got strong platforms with strong patterns and clear governance are the three really critical things that we&#8217;ve learned. Megan: Such important pillars, all of them. And you&#8217;ve been working with Infosys on this journey. How has that partnership helped accelerate scaling and embedding AI across the business? Andrew: Well, Infosys is our managed service provider, and so they play a really critical role in the operations of our core business. One of the things that I like to say is that our license to innovate is based on our license to operate. And so, for my team to be able to turn up to an operating asset or a corporate function and have the trust that&#8217;s needed to be able to innovate and reimagine and redesign how work gets done, to be able to do that, we need to make sure that our core platforms, our core systems, our applications are running really reliably, safely, and consistently every day. Having an experienced partner like Infosys looking after those core operations in partnership with our internal teams is really, really important to us. As we move from pilots to enterprise-wide deployment, the ability to partner with someone like Infosys also gives us the ability to scale. And so being from Perth and Western Australia, while we&#8217;ve got a really strong local team in Western Australia, and we&#8217;ve also got a very strong team in some of our other operating locations, like everyone, we&#8217;re struggling to find people that can fill AI roles. Being able to partner with Infosys and have a number of different operating models at our disposal becomes really important for us. Having co-mingled teams where they are staff, they are Infosys staff, Woodside staff, and some of our other partners, really just brings diversity of thought and experience to how we solve problems. Fundamentally, the partnership has allowed us to operate and innovate with more confidence. While Woodside always retains ownership of the strategy and where we&#8217;re going and the governance and my teams remain accountable for the outcomes, we can&#8217;t do what we do without strong partnerships like the one we have with Infosys. Megan: Fantastic. And as AI adoption scales, you mentioned yourself, governance becomes increasingly important. How challenging has that been, and what guardrails have you put in place at Woodside? Andrew: So, Megan, governance is really important to us, and we operate in a well-regulated environment. That means we&#8217;ve got to make really deliberate and well-reasoned decisions when we&#8217;re thinking about how we deploy technology into our organization, whether it&#8217;s artificial intelligence or anything else, for that matter. And so, governance is really central to how we approach the execution of our AI strategy at Woodside. We&#8217;ve got maybe two or three really key things that we&#8217;ve put in place. The first one is just making sure that every AI use case goes through a structured assessment, and that&#8217;s making sure it meets our privacy controls, our cyber controls. We&#8217;re also asking the question, not just, could we do this, but should we do this? We&#8217;ve really got to bring together safety, ethics, transparency, accountability, and make sure that we make an informed decision. When an AI solution is going through that structured assessment, if there are concerns about how we might use that solution, it then goes to an AI council that&#8217;s made up of senior leaders across the organization. That council and that group really oversee some of the prioritization and risk management. That&#8217;s where we can have really strong, robust debates around, again, could we do something, should we do it, and how do we mitigate any of the risks that we might introduce here? I think the last one, Megan, is really around lifecycle management. When you start thinking about, we&#8217;ve got 50 at the moment, but if we had 500 agents working in our organization, really amplifying the experience and the decision-making and the value creation of our staff, we really want to have an ability to manage the lifecycle of how those agents operate. We want to know, how many people are using them? What&#8217;s the efficacy and the outcome? Is there model drift? Do we need to retune or retrain? I think that&#8217;s an area where many organizations, including Woodside, are still leaning into and still figuring out the best way to do this. We can do it quite easily with 50 agents, but 500, 5,000, 50,000 becomes an opportunity for us. Again, thinking about how we partner with others, solving problems like that really present an opportunity to co-create and to co-solve with some of our partners, like with Infosys. Megan: Fantastic. Just to close, what&#8217;s your long-term vision for AI at Woodside? How do you see this evolving over the years ahead, and what could it unlock for the sector in your view? Andrew: So Megan, I think our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows. The outcome that we want to get from that is to protect our people, to protect the environments we operate in, and to be able to provide energy at a lower cost to the world. When we think about that ambition, we can really see that being applied to almost all of the areas that Woodside work in. Whether that&#8217;s from exploration through to project developments, through to operations or marketing, the scale of the opportunity in front of us and the ability for us to really change the way that work flows through the organization is really exciting. For us, there&#8217;s three things that we have to get right in terms of being able to execute on that ambition. The first one is really thinking about how the work gets done in the organization so that we&#8217;re not just bolting AI onto an existing process, but we&#8217;re deeply thinking about how that work needs to be reimagined. We&#8217;ve also got to think about how we enable our workforce to work differently. Providing them with the skills and the tools and the ability to really harness the power of the technology that we provide. Secondly, we&#8217;ve got to continue to move from and restrain ourselves from deploying point solutions that solve very narrow problems, to having more connected, agentic systems of systems that can interact with each other. To do that, and if we do that successfully, that&#8217;s where we really get the high value unlock from agents being able to interact with workflows and really change how the work gets done. And lastly, Megan, it&#8217;s about how we must continue our philosophy of thinking big, prototyping small, and scaling fast. Megan: Which is a fantastic lens to which to make all these decisions. Thank you so much, Andrew. That was Andrew Melouney, vice president for digital at Woodside Energy, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor and host for Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed this episode, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thanks ever so much for listening. Goodbye. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
       "tags": [
-        "产品发布"
+        "安全"
       ],
-      "score": 79
+      "score": 78
+    },
+    {
+      "title": "实现卓越运营",
+      "originalTitle": "Achieving operational excellence with AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "date": "2026-07-02T15:37:08.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“实现卓越运营”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to&#8230;",
+      "rawFullText": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to embed habits of measurement, analysis, and accountability into day-to-day company culture. DOWNLOAD THE REPORT But today, those time-tested playbooks are evolving as companies seek to embed AI into established process excellence methodologies. By some estimates, the market for AI-powered process optimization is projected to exceed $113 billion within the next decade. In one study, a full 88% of business leaders anticipated increasing investments into AI-infused process intelligence in the next 12 to 18 months. Yet without the right foundations, many of those investments may not fully deliver on their potential. Companies that already operate with discipline have an edge. They can channel new tools into proven systems rather than bolting them onto shaky foundations. Organizations with mature process disciplines are also better positioned to translate AI ambition into real outcomes, as they are already accustomed to data-driven decision-making and process discipline—precisely the cultural foundation AI systems need to deliver value. Simply put: AI can accelerate process excellence, but existing process excellence is what makes AI truly impactful. Technology and process are no longer separate levers, and only organizations that pull them together stand to realize the full value of both. Download the full report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 71
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -308,7 +307,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "谷歌打造了一款出色的智能音箱，但Gemini还没有做好准备",
@@ -323,7 +322,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "拥抱脸部和大脑将Gemma 4带入实时语音AI",
@@ -338,7 +337,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -370,7 +369,7 @@
         "智能体",
         "评测"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Claude Science是Anthropic的最新旗舰产品",
@@ -386,7 +385,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "核心转储流行病学：修复一个18岁的漏洞",
@@ -401,7 +400,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "GeneBench-Pro简介",
@@ -416,7 +415,7 @@
       "tags": [
         "评测"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "映射欧洲的人工智能劳动力机会",
@@ -431,7 +430,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -446,7 +445,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "代理对技术前沿的信心",
@@ -461,7 +460,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "DiScoFormer ：一个变压器，用于密度和分数，跨分布",
@@ -476,7 +475,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
@@ -492,7 +491,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "预览GPT-5.6 SOL ：下一代型号",
@@ -524,7 +523,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "客服代表如何转变工作方式",
@@ -556,7 +555,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -572,7 +571,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
@@ -588,7 +587,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
@@ -603,7 +602,7 @@
       "tags": [
         "评测"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "人工智能网络数据基础设施层的出现",
@@ -618,7 +617,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -634,7 +633,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
@@ -649,7 +648,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "Omio如何打造对话式旅行的未来",
@@ -664,22 +663,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 82
-    },
-    {
-      "title": "价值4亿美元的机器为芯片制造的未来提供动力",
-      "originalTitle": "The $400 million machine powering the future of chipmaking",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
-      "date": "2026-06-23T09:00:00.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
-      "fullContent": "乔斯·本肖普（ Jos Benschop ）正在爬梯子到达他最新机器的顶部。这有点笨手笨脚的。这个装置的大小相当于一辆双层巴士--超过150吨闪闪发光的精密铣削铝，上面覆盖着成千上万的蛇管、彩色电缆和加压罐。从地面上看，它看起来像一个未来主义的V8发动机。 当我和Benschop一起到达山顶时，我们从大约15英尺高的空中向下看，兔子套装的技术人员在下面奔跑。他说，这是200多立方米的技术- “机电一体化设备，可以将几面镜子保持在原子精度的位置，”他指着庞大的仪器。 Benschop是一位身材高大、头发灰白的66岁老人，他花了十多年的时间与他的工程师一起设计这个东西，但即便如此，他有时会看着它说：哦，我的上帝。Benschop是ASML的技术执行副总裁， ASML是一家荷兰公司，是微芯片行业的关键。 如果您想制造功能强大的芯片来为手机或人工智能供电，那么像我们这样的光刻机就是您创建越来越小的电路所需要的。平版印刷是在硅晶片上照射光线的艺术和科学，以图案化将从中切割的晶体管、布线和微芯片的其他组件。 芯片制造领域基本上只由两家大公司控制：创造光刻机的ASML和芯片制造巨头台积电。九年前， ASML开始销售使用大胆的新方式构图芯片功能的机器。这些机器使用极端紫外光或EUV辐射，远远超出了它们通过以每秒数万次的微小熔融锡滴发射激光而产生的可见光谱。 这些首批机器-持续16年的研发登月的结果，耗资约100亿美元-可以制作分辨率为13纳米的工艺晶体管功能。这款新机器可以做得更好：它的分辨率仅为8纳米，宽度约为40个硅原子。这些设备现在正以令人眼花缭乱的价格运往芯片制造工厂或晶圆厂：每个4亿美元。 但芯片制造商将分叉现金，因为他们每年都在拼命地生产新的和改进的芯片。这意味着将他们的手套放在可以制造更小的组件并将它们更密集地组合在一起的机器上，这是创造更快、更节能的芯片的长期配方的一部分。多年来， ASML的工具对于保持摩尔定律的生存至关重要。 如果没有该公司先进的芯片制造技术，芯片密度以及执行更多计算的能力很可能会趋于稳定。随着OpenAI和Anthropic等公司争先恐后地建立服务器农场，训练和部署新的、功能更强大的模型，这需要新的、功能更强大的硬件，人工智能行业对更密集的芯片产生了新的、贪婪的需求。",
-      "originalSummary": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&#160; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground, it looks like a&#8230;",
-      "rawFullText": "Jos Benschop is climbing a ladder to get to the top of his newest machine.&nbsp; It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground, it looks like a futuristic V8 engine. When I reach the top with Benschop we’re looking down from about 15 feet in the air, with bunny-suited technicians scurrying around below. It’s more than 200 cubic meters of tech—“mechatronic devices that hold a few mirrors in a position with atomic precision,” he says, gesturing at the gargantuan apparatus. Benschop, a tall and grizzled 66-year-old, has spent over a decade working with his engineers to design this thing, but even so, he’ll sometimes look at it and go: Oh my God. Benschop is the executive vice president of technology for ASML, a Dutch company that is the linchpin of the microchip industry. If you want to make powerful chips to power phones or AI, a lithography machine like the one we’re standing on is what you need to create increasingly tiny circuitry. Lithography is the art and science of shining light on a silicon wafer to pattern out the transistors, wiring, and other components of the microchips that will be cut from it. The chipmaking field is essentially controlled by only two big players: ASML, which creates the lithography machines, and TSMC, the chipmaking giant. Nine years ago, ASML began selling machines that use a daring new way of patterning chip features. These machines employ extreme-ultraviolet light, or EUV—radiation well outside the visible spectrum that they produce by shooting lasers at tiny molten drops of tin, tens of thousands of times a second. Those first machines—the result of an R&D moonshot that lasted 16 years and cost about $10 billion—can craft transistor features with a resolution of 13 nanometers. This new machine can do even better: It has a resolution of just eight nanometers, the width of about 40 silicon atoms. The devices are now shipping to chipmaking factories, or fabs, at an eye-watering price: $400 million each. But chipmakers will fork that cash over, because they are in a desperate race to produce new and improved chips every year. That means getting their mitts on machines that can make ever smaller components and cram them together ever more densely—part of a long-standing recipe for creating faster and more energy-­efficient chips.&nbsp; For years now, ASML’s tools have been critical to keeping Moore’s Law alive. Without the company’s advanced chipmaking technology it is very possible that chip density—and the ability to perform ever more calculations—would have plateaued.&nbsp; The AI industry has produced new and ravenous demand for denser chips, as firms like OpenAI and Anthropic scramble to erect server farms that train and deploy new, ever-more-powerful models, which require new, ever-more-powerful hardware. ASML’s latest machine promises to help keep the AI party raging for at least another decade.&nbsp; “We can allow customers to go to smaller and smaller features, and that opens up the space for whatever we see now today in AI, which is absolutely mind-blowing,” Marco Pieters, ASML’s CTO, told me. “I think we’ve only seen the tip of the iceberg.”&nbsp; Its relentless push for “shrink”—as they call it in the chipmaking industry—has made ASML a dominant force: The company produces about 90% of all chip-­lithography tools worldwide. If you make chips, ASML is unavoidable. But that monopoly position makes some people, and governments, uneasy. The chipmaking field is essentially controlled by only two big players: ASML, which creates the lithography machines, and TSMC, the chipmaking giant in Taiwan, which uses ASML’s machines to craft the vast majority of all microchips. This duopoly is so powerful that it has geopolitical implications. In an effort to prevent China from developing advanced AI, the US government pressured the Dutch government to impose an embargo in 2019: ASML isn’t allowed to sell high-end machines to any Chinese firm. Geopolitically, “chips are the new oil,” says Marc Hijink, the author of Focus: The ASML Way . Being deprived of them can be as disastrous as being deprived of oil. And in that metaphor, you might say, ASML is the Strait of Hormuz. James Proud, the cofounder and CEO of the lithography startup Substrate, says the situation is not ideal. The US is “dangerously reliant” on a supply chain that’s overseas and increasingly pricey, Substrate says on its website. “There’s a huge concentration in a small number of players,” Proud says. “And the supply chain is just very expensive.”&nbsp; Which is why, after two decades of ASML’s dominance, would-be competitors are now gunning for its territory. China is hungrily pouring billions into trying to replicate ASML’s tech. And startups like Substrate are trying to get in the game as well, setting their sights on creating lithography machines that are cheaper, smaller, and even more capable than ASML’s behemoths. Will any of them succeed? The near future clearly belongs to ASML, but as its engineers well know, you can unseat a giant with the right trick of the light. Making chips is, oddly, a bit like silk-screening a T-shirt. To print a pattern on a silicon wafer, you start with a pattern on a reticle—a mask that carries the design. Shining a light on the reticle transfers that pattern to the wafer. The light interacts with a layer of chemicals on the wafer, fixing the pattern in place.&nbsp; The size of a chip’s features is partly set by the wavelength of light the machine uses: The smaller the wavelength, the teensier the circuitry you can create. You can stretch the capabilities of a wavelength somewhat; increasing what’s known as the numerical aperture, which usually means swapping in a bigger lens, can further focus the light and thus lay down patterns for smaller and smaller components. Eventually, though, this trick hits its limit, and you need to find a new form of light with a smaller wavelength.&nbsp; So the history of chipmaking has been a two-step dance. The industry finds a good source of light, eventually increases the numerical aperture, and then finally accepts the need for a smaller wavelength, starting the two-step all over again. Up to the early 1990s, chipmakers used visible light, with a wavelength of about 400 nanometers. By the mid-’90s they’d upgraded to deep ultraviolet, ultimately getting it down to a 193-nanometer wavelength. By the late ’90s they saw the end of the line approaching for deep ultraviolet. But what would come next? All the options were troublesome. They could shift to x-rays, with a teensy one-­nanometer wavelength, but they were devilishly hard to focus. Beams of electrons and ions were equally precise; but they worked like dot-matrix printers, transferring a pattern point by point, which was far too slow. (The chip industry wants a machine to crank out hundreds of wafers per hour.)&nbsp; “It’s a very engineering-heavy company: Let’s send thousands of engineers and just have them mow down these problems. That’s what they did, and it worked.” Jeff Koch, analyst, SemiAnalysis Around 2001, ASML, then a smaller player in the lithography world, placed its bet on another option: EUV, with a wavelength just shy of the x-ray range. Nikon and Canon were working on it as well, but they dropped out—while ASML kept going. The idea was full of unknowns. Nobody knew how to reliably generate that type of light, nor how to focus it; EUV is absorbed by regular glass lenses. It’s even absorbed by air. ASML figured it would take six full years to wade through this R&D nightmare.&nbsp; In reality it took those 16 years and about $10 billion in research, but it worked. The machine, which works in a vacuum, creates EUV light by vaporizing molten tin and using mirrors to direct it. Zeiss, a historic German optics company, had to invent new techniques for polishing and inspecting the mirrors, using an ion beam to knock off minute imperfections.&nbsp; “They sort of ignored the buzz of, like, Hey, this is never gonna work , and they just beat their heads against these huge engineering problems,” says Jeff Koch, who used to work for ASML and is now an analyst for the chip-industry research firm SemiAnalysis. “It’s a very engineering-­heavy company: Let’s send thousands of engineers and just have them mow down these problems . That’s what they did, and it worked.”&nbsp; When the first EUV machines went on the market in 2017, they cost well over $100 million apiece. Some observers wondered whether the demand would really be there from the major chipmaking firms—TSMC, Samsung, and Intel. In the years chipmakers were waiting for EUV to happen, the lithography industry had developed clever ways to improve on old-fashioned deep ultraviolet light. (If you put a layer of water on top of the wafer, for example, the light could focus more narrowly.) Maybe EUV wouldn’t be much needed for a while? But ASML lucked out. Only a few years after EUV debuted, OpenAI released GPT-3 and then ChatGPT. Artificial intelligence burst into the mainstream. Instantly, firms like OpenAI, Google, Meta, and Anthropic were hungry for increasingly high-end chips as they built massive server farms to train and deploy large language models. EUV made it easier and faster to crank out AI-tailored chip designs. Nvidia began producing elite GPUs—processors perfectly suited for AI training—that cost $40,000 a pop; the big companies couldn’t get enough. The AI wars were on, and EUV was in demand. In 2025, ASML says, it sold nearly 50 EUV machines to companies and pulled in nearly $40 billion in revenue. As of press time, the company’s market cap was over half a trillion dollars.&nbsp; ASML’s new machines have no shortage of potential customers. But there is one in particular, with deep pockets, that can’t buy them for any amount of money: China.&nbsp; The US wants to hobble China’s ability to create cutting-edge AI chips—or any advanced chips, for that matter. So when ASML began selling its original EUV machines, in 2017, the Trump administration successfully pressured the Dutch government to forbid the company from selling them to any Chinese firms. The US had also imposed export controls on China’s telecom giant Huawei, banning US firms from using its 4G and 5G equipment. This one-two punch incensed the Chinese government and stirred it to action. China is now pouring billions into catching up and trying to develop its own EUV chip-patterning technology. A Reuters report last winter found that a government skunkworks employing former ASML staffers had cobbled together a machine so huge it filled the entire floor of a lab. It’s unclear how well it works. The experiment may well be making some chips, says Hijink, but he doubts it can do so at an industrial scale. A mirror is installed in an optical system for the high-NA machine. COURTESY OF ZEISS Officially, the government denied it was pushing to develop EUV tech. An editorial in the Global Times —a newspaper closely allied with the Chinese government—pooh-poohed the report, claiming that China was still happy to work with the West to get access to chips. “Our goal has never been to build a self-­sufficient ‘technology island’ in isolation,” it stated, “but rather, on the basis of achieving autonomy and control over key technologies, to integrate more deeply and equally into the global innovation network.” Experts say the reality is in the middle. China definitely craves a domestic ability to make high-end chips. And unlike ASML, it doesn’t need its EUV machinery to be efficient and profitable, cranking out about 200 wafers an hour. Any output would help wean it off reliance on the West.&nbsp; “They would be very happy to have a tool that does one wafer per hour and it costs them a fortune to run,” Koch says. “They would build a fab with a thousand of those and be super happy with it.”&nbsp; Still, producing and managing EUV light well is a feat that might take years, some told me. In the meantime, the Chinese will lean hard on deep-ultraviolet lithography, developed in the ’90s, making the most of an alternative but slower approach known as multi-­patterning, says David Lin, senior advisor for tech leadership at the Special Competitive Studies Project, a think tank that focuses on security and technology. “They’re going to push DUV to the absolute limits,” Lin says. The AI race is also pushing China to devise ever cleverer ways of developing LLMs that don’t rely on the fastest AI chips. In the US, OpenAI, Anthropic, and Google are fighting over who can buy the biggest piles of hot Nvidia chips. Since China can’t compete that way, it is innovating not in hardware but in software—building lighter-­weight LLMs like DeepSeek.&nbsp; As China rumbles into action, ASML has remained laser focused on shrink. To go even smaller, Benschop and his engineers decided, they wouldn’t shift to a new form of light. They’d do the second part of the two-step: They’d raise the numerical aperture of the machine by more than half (for those keeping track of the specific numbers, it would be a switch from an NA of 0.33 to an NA of 0.55). That would let them cut the size of the transistors by close to half and nearly triple their density on a chip.&nbsp; This would also be an easier climb. Without the need to develop an entirely new source of light, the new machine—based on high-numerical-aperture EUV, or “high NA”—would be evolutionary, not revolutionary. Still, building the new system did present a few gnarly challenges. In an EUV machine, the way you transfer an image onto a wafer is by shining light at the microchip pattern on the reticle and then using an optical system to take the reflected light and demagnify that pattern, shrinking it down to the size you want on the wafer. The light hits only part of the reticle at any given time, so you quickly move the reticle back and forth to expose every part of the pattern to the light. Going to a higher numerical aperture meant they could have smaller features on the reticle. But this also meant that some of the light would be arriving at the reticle—and reflecting off it—at a steeper angle.&nbsp; That’s what caused problems. The pattern on the reticle is three-dimensional, so light arriving at such a steep angle caused shadows—much the way slanted sunlight creates shadows in the Grand Canyon. That stood to diminish the machine’s ability to make clear patterns. The new reticle moves with acceleration up to 22 g, much faster than in the company’s original EUV machine. “Don’t try to sit on it, because you’ll pass out.” The solution was to change the pattern on the reticle—along with the way the mirrors took the light and shrank it down to impart the pattern to the wafer. The designs on the reticle would now be twice as long as they were wide—stretched, as it were, in one dimension. But this design came with its own problems. The changes to the mirrors meant the area on the wafer exposed during a single scan was half the size it was with the original EUV machines, reducing the system’s speed. And ASML couldn’t tolerate any slowdown: Chipmakers were paying it for machines with massive throughput, about 200 wafers an hour. If one part of the system slowed down, another part would have to speed up. The engineers decided the machine should move the reticle faster, which meant making the entire mechanism lighter and dramatically redesigning it. The new reticle moves with acceleration up to 22 g, much faster than in the company’s original EUV machine. “Don’t try to sit on it, because you’ll pass out,” Pieters told me. The wafer stage moves around faster as well, in tandem with the reticle. Meanwhile, over in Germany, Zeiss’s engineers were busy designing mirrors to accommodate the higher numerical aperture and asymmetric shaping of the light. The new mirrors would be about twice as large as those in the regular EUV machines, and the projection system, which carries light from the reticle to the wafer, weighed fully 12 tons, seven times more than before. Zeiss built a new robot-assisted production line to handle these ponderous new beasts. The company says they’re the smoothest surfaces they’ve ever made.&nbsp; At the same time, ASML was working on making its EUV light source even more powerful, to help make the wafer-exposing process go faster. The engineers calculated that they could improve the output of EUV if they hit each tin droplet three times with the laser instead of twice, as they do in the first machine. That meant the already-hectic system of firing tin would need to speed up by 50%. “The lasers just keep getting bigger,” says Alex Schafgans, the head of engineering at ASML in San Diego, where the EUV light source is built.&nbsp; Indeed, the lasers for a single machine now fill an entire room. After Benschop showed me the massive high-NA device, we walked across the hall and entered a chamber filled with hulking six-foot-tall boxes that were part of the laser system. Peering through tiny windows in the sides of the units, we could see the glowing purple plasma used in creating the laser light. When high-NA machines began to roll off the assembly line, one company was waiting hungrily: Intel. The company purchased the very first high-NA machine put up for sale, and in the spring of 2024, 300 ASML engineers showed up in Oregon at one of Intel’s fabs to begin assembling and testing it.&nbsp; “ASML actually put a giant ribbon around one of the boxes,” says Mark Phillips, an Intel fellow who is director of its hardware and lithography solutions, laughing. His team has been testing the machine to see how well it performs; Phillips wouldn’t give details other than to say he’s “very pleased at the rapid pace of tool health.” He also wouldn’t give a date for when Intel would start using it to make chips, though observers say that will likely happen next year. The company plans to ease it in, using it for just a few precision components on a chip and then gradually for more and more. What’s at stake is a chance to recapture its mojo. Intel was once a silicon powerhouse, designing the most cutting-edge CPUs for computers and servers, and building them in its own fabs. But in the 2010s, the big new markets were mobile-phone chips and GPUs for AI and gaming, and Intel rapidly lost ground. Apple designed its own mobile chips (and had TSMC make them), while Nvidia did the same thing with GPUs. Google began banging out its own TSMC-made AI chips called TPUs in 2015, and soon it was stuffing data centers full of them. Intel fellow Mark Phillips briefs members of the media on the high-NA tool at the company’s Fab D1X in Hillsboro, Oregon. Intel was ASML’s first customer for the new EUV machine. COURTESY OF INTEL CORPORATION So in 2021 Intel announced a moonshot. It would aggressively begin building out a foundry business, one that would go toe to toe with TSMC. Instead of creating Intel chips, the Intel foundry would manufacture designs for customers like makers of mobile phones and AI chips.&nbsp; Intel hopes that being the first to wield high-NA technology will give it an edge in the silicon rat race, making it possible to print tiny patterns faster than anyone else.&nbsp; It could also make things simpler for customers. Over the years, while waiting for EUV machines to emerge, chip designers used multi-patterning to squeeze more life out of the older forms of light. Every chip is made out of layers, which are laid down to make components like the switches and wiring. If you’re working on one of those layers and need to make features tinier than your machine can normally produce, you can break the pattern for that layer up into several patterns and then expose the wafer to them one at a time. This strategy helped chipmakers keep using older (and cheaper) machines while still creating tinier and tinier components. But multi-patterning is a hassle: It’s more challenging to design the complex overlay of patterns, and much slower to print each chip. Designing a chip is far easier if you know you can do “single patterning,” blasting each layer in one go.&nbsp; Observers say it won’t be easy to build a foundry business that bests TSMC and Samsung on their own terrain. “Leapfrogging is difficult,” Hijink says. But it’s also true that the high-tech world has such a ravening hunger for better chips that Intel could succeed, simply because even TSMC and Samsung can’t fulfill all that need.&nbsp; “There’s spillover demand, so Intel can survive off that,” Koch says. “It’s not even scraps now. It’s a meal. It may not be the best foundry, but they can make chips, and there’s only three companies that can do that, right?” TSMC, for its part, seems to be biding its time when it comes to high NA. “TSMC will deploy high-NA EUV when it is mature and ready to deliver maximum benefit to our customers,” the company wrote to MIT Technology Review . Some suspect it won’t use the machines in serious volume until the 2030s. Part of the reason is cost: TSMC is ruthlessly focused on producing chips as cost-effectively as possible, and the high-NA tools are a blistering $400 million each, far more than the previous EUV rigs. And unlike those, the new machines are not a revolutionary leap upward.&nbsp; “This is like 30% to 50% better in terms of capability,” says Koch, the analyst and former ASML employee. “This is probably the first tool that hasn’t obviously made business sense right away for ASML.” It’s not that the industry won’t eventually embrace high NA en masse, Koch says. Most companies will need to, if they want to keep going smaller. But TSMC is more likely to push ahead as far as it can go with its existing EUV tools, using onerous multi-patterning to wring as much as it can out of that generation until it absolutely needs to switch.&nbsp; “The industry has only shifted paradigms when it just absolutely cannot extend—even one more little bit—out of what it’s been doing,” Koch says.&nbsp; China isn’t the only party looking to upset the current balance of power. The dominance of ASML, and the swelling cost of its tools, is prompting other upstarts too. But instead of trying to replicate ASML’s breakthroughs in EUV, they’re doing an end run—working on lithography tools that use entirely different forms of light. These will be far cheaper, they promise, and just as powerful. One is Substrate, a San Francisco–based startup. Founded four years ago, it’s working on a tool that uses x-ray light produced by a particle accelerator. X-rays have a remarkably tiny wavelength, making them a potentially powerful way to create minute features.&nbsp; Particle accelerators have historically been enormous, making them difficult to fit into a chipmaking process. Substrate says it has harnessed decades of scientific improvements in particle acceleration to produce a light source that’s smaller and suitable for mass production.&nbsp; Last year the company released images showing that it had created fine patterns, which Proud, the CEO, says are only possible now with a high-NA EUV machine. He says Substrate’s goal is to produce chips at scale by 2030.&nbsp; But Proud doesn’t intend to sell the tools to TSMC or Intel. Indeed, he doesn’t plan to sell them to anyone. Instead, Substrate wants to create its own fab, building chips using its own tools. &nbsp; “The amount of chips we’re going to need is going to be many orders of magnitude larger than even the wildest projections you have now.” James Proud, cofounder and CEO, Substrate The semiconductor industry, Proud argues, needs new approaches, because it’s become too pricey and too centralized. A single fab today can cost $25 billion to build, up from about $5 billion in the 2010s, the company notes. It’s driving the cost of a single wafer full of advanced chips up toward $100,000, Proud says.&nbsp; “That is, I think, a prohibitive cost,” he says. There also isn’t enough capacity in the supply chain: “It’s relatively slow and hard to flex to the current increase in demands.” He admires ASML’s EUV tooling—it’s “the apex implementation of that technology”—but new approaches are needed. That’s partly for national security reasons. Proud and his team think it’s too dangerous for the US to rely on foreign supplies. But he also predicts the current AI boom will go into overdrive, creating a massive demand for chips that the existing ASML/TSMC duopoly won’t be able to deliver: “The amount of chips we’re going to need is going to be many orders of magnitude larger than even the wildest projections you have now.” ASML’s machines use lasers and molten tin to generate the EUV light. CHRISTOPHER PAYNE Substrate predicts it will be able to produce finished wafers at $10,000 a pop—a tenth of where Proud predicts the rest of the industry is heading. Proud says that’s partly because the company’s system will be vertically integrated, so it will control all parts of the chipmaking process, but also because its lithography tooling will be less complex: “We’re able to put together in a sort of simpler package.” Still, Substrate is playing its cards close to its chest. Unlike ASML, the company isn’t offering nuanced detail on how it generates light, or on how that then translates into making patterns on a wafer.&nbsp; Substrate’s ambitions give some industry observers pause. Hijink, who thinks it is probably “unachievable and impossible” to simultaneously master both a new form of lithography and high-throughput fab techniques, regards the company’s secrecy as a red flag. “This industry is about open innovation,” he says. Koch is more impressed by its ambitions and funding. The type of technology it’s pursuing “is really cool,” he says. “It’s interesting.” But “there’s a long road between lab-scale demonstration and high volume,” he adds. “Is this like an imminent disruption to ASML? Probably not.”&nbsp;&nbsp; Another startup that is aiming to hit the market around the same time as Substrate is Lace Lithography. Based in Norway, it is devising an entirely different approach—one that doesn’t use light at all. Instead, an energized beam of helium atoms is pointed at the pattern on the reticle. When the helium atoms then hit the wafer, the atoms transfer their energy to it, imparting the design to the chip.&nbsp; The idea dates back a while. Bodil Holst, the CEO, took it up in 2008, when she was a physicist studying the use of atom beams. MIT professor Henry “Hank” Smith, a pioneer in using x-rays for lithography, told her she should explore using atoms as a mechanism for making microchips, because back then he wasn’t sure ASML’s EUV moonshot would work.&nbsp;“Even if it does, we’ll need atoms eventually,” he told her. Holst did some experiments to investigate the idea further and partnered with a former PhD student—Adrià Salvador Palau, a physicist and expert in machine learning—to found Lace.&nbsp;Like Substrate’s, its tool is completely different from ASML’s massive machinery. The source of the excited atoms “looks a bit like a rocket motor,” says Palau. “It’s very cool.” While EUV’s wavelength is 13.5 nanometers, the helium atoms offer a precision of 0.1 nanometers. The process also requires far less power, and the machine is intended to be far smaller. Holst tells me the company aims to have machines ready to sell to fabs by 2029 or 2030. “I think everybody’s really looking forward to something that extends a road map beyond light, beyond EUV,” Palau says.&nbsp; ASML is watching these upstarts with curiosity. Benschop says he can’t assess whether Substrate’s technology will work reliably and affordably, because the company hasn’t explained anything about its processes. But he went to a conference where Holst and Palau did a presentation outlining Lace Lithography’s technology. “I’m incredibly impressed with how they do it,” he says. The problem, he says, is he doesn’t think the process produces patterns on the wafer that are deep enough to be useful. “I cannot see how they would scale it to a viable volume product,” he told me.&nbsp; He suspects ASML’s mastery of EUV will keep it on top for the near future. “So far, I have not seen a viable alternative,” he says. He thinks there’s “no serious runner-up” when it comes to volume manufacturing of the most advanced chip generations. It’s true that major shifts in chipmaking are slow, says Chris Miller, a professor of international history at Tufts University and the author of Chip War , a book about the worldwide struggle for dominance in the industry.&nbsp;“No doubt we’ll eventually have alternatives [to EUV],” he told me via e-mail. “But it’s worth noting that lithography transitions have historically taken years, if not decades.”&nbsp; ASML’s executives, too, are pondering their future. Benschop expects high-NA technology to dominate chipmaking into the 2030s. Beyond that? The industry has, indeed, tended to shift to a new form of light every decade. “You may argue it’s time for the next decade,” he told me after we’d stripped off our bunny suits and he was relaxing with a coffee.&nbsp; But ASML’s executives suspect they can continue to squeeze more capabilities out of EUV by increasing the numerical aperture even further on their existing machine. They’re already toying with a design that would take an NA of 0.55 to an NA of 0.75: “hyper NA.” It could let them pattern wafers with a resolution of six nanometers. They’re also working on standardizing their various optics into a platform of a single size, so customers could order one machine outfitted for either regular EUV, high NA, or hyper NA. If it’s all in the same-sized unit, it would simplify the costs and logistics of integrating each into a fab. If the company goes through with it, Benschop figures, the hyper-NA tool might hit the market seven or eight years from now and be sold in volume during the second half of the 2030s. For now, the ball is in ASML’s court. “We’re pushing the limits of physics,” Pieters told me. The question now is whether anyone else can push harder.&nbsp; Clive Thompson is a science and technology journalist based in New York City. He wrote about the development of ASML’s original EUV machine in MIT Technology Review ’s 2021 issue on computing .",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 70
+      "score": 81
     },
     {
       "title": "每周使用人工智能、开放式工具和人工智能出货HUGGINGFACE_HUB",
@@ -694,37 +678,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
-    },
-    {
-      "title": "我们有本地模特免费分流OpenClaw仓库！ *",
-      "originalTitle": "We got local models to triage the OpenClaw repo for FREE!*",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/local-models-pr-triage",
-      "date": "2026-06-22T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "对问题和PR进行分类处理收到的PR和问题本地模型可以对PR进行分类吗？使用OpenClaw跟踪和验证实时性能结论脚注*免费啤酒，不包括电费，并假设您已经在2026年6月拥有硬件，因为人们意识到封闭的模型可以被带走。 随着Anthropic最新的旗舰机型Claude Fable 5被移除，人们可以看到为什么拥有人工智能堆栈并能够在本地运行模型比以往任何时候都更加重要，特别是如果您正在人工智能之上构建业务。有鉴于此，我们想分享如何在代理线束中使用Gemma和Qwen等本地模型来运行分类任务[1]。这种方法不同于使用像BERT这样的模型进行分类。 像Pi这样的代理线束中的本地模型可以与结构化输出一起使用，以分配标签。我们之所以选择这种方法，是因为我们已经有了本地模型和线束，并且相信随着本地模型功能的提高，类似的设置将越来越受欢迎。[2]我们的出发点是OpenClaw存储库中的开源贡献。 OpenClaw每天都会收到数百个问题和PR ，需要对其进行分类、优先级排序并发送给维护人员。我， Onur ，正在努力使本地模型与OpenClaw很好地配合使用。作为这个特定垂直行业的维护者，我需要对任何P0问题做出快速反应。借助SOTA封闭模型，如GPT-5、Opus或Sonnet ，这是一项非常简单的任务。但我碰巧坐在128 GB的统一内存上，即NVIDIA GB10。 因此，我接受了这项任务：我是否可以构建一个实时通知系统，仅过滤和通知我负责的问题。使用本地开放权重模型？如果我设置我的OpenClaw主代理运行在$ 200/月ChatGPT Pro计划中，以在每个新问题或PR上触发作业，这将耗尽我的配额。我可以将其设置为每2小时或每6小时运行一次。 这将在更长的时间内批量处理问题，因此我们将交易实时通知以获得延迟处理。如果我在已经启动和运行的硬件上运行本地模型，我不仅可以获得近乎即时的通知，还可以免费（或者更确切地说，电费）。 我们提出了一组有限的标签，表示我们需要分类的问题类别，然后使用本地模型将每个问题分类到这些类别之一，如local_models、self_hosted_inference、acp、agent_runtime、codex、ui_tui等。[3]但是，我们如何对拉取请求进行分类？使用工具JSON架构向聊天完成终结点发出简单的单个请求，主题为枚举类型。 但这是2026年，而不是2023年，我们有代理商。我们可以做得更好！对于本地模型选择，我们测试了gemma-4-26b-a4b和qwen3.6-35b-a3b。通过性能优化，两者都可以在本地每秒生成数百个令牌。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
-    },
-    {
-      "title": "拥抱脸上的PP-OCRv6 ： 50语言OCR从1.5M到34.5M参数",
-      "originalTitle": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "date": "2026-06-22T13:18:56.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
+      "score": 63
     }
   ]
 }
