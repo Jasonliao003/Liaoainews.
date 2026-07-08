@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T00:14:32.672Z",
+  "updatedAt": "2026-07-08T00:03:42.406Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,89 @@
   ],
   "articles": [
     {
-      "title": "LeRobot v0.6.0 ：想象、评估、改进",
-      "originalTitle": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/lerobot-release-v060",
-      "date": "2026-07-07T00:00:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "fullContent": "TL; DR目录世界模型：想象VLA-JEPA LingBot-VA FastWAM VLA的政策：模型动物园不断增长GR00T N1。 7 MolmoAct2 EO-1多任务DiT EVO1奖励模型：了解您的机器人何时成功Robometer TOP奖励数据集：更快的加载，更丰富的数据您的编解码器，您的规则深度支持，端到端规模的语言注释最多2倍更快的数据加载基准：一个CLI来评估它们所有培训和推理lerobot-rollout ：部署有自己的CLI \"> lerobot-rollout ：部署有自己的CLI FSDP ：使用HF J训练比您的GPU更大的模型 它还提供深度传感、VLM驱动的数据集注释、自定义视频编码、HF Jobs上的云培训，以及更精简的安装。LeRobot v0. 6. 0引入了学习想象未来的世界模型策略（ VLA-JEPA ， FastWAM ， LingBot-VA ） ，一波新的VLA （ GR00T N1. 7 ， MolmoAct2 ， EO-1 ， EVO1 ，多任务DiT ）和新的奖励模型API （ Robometer ， TOPReward ）。 它在lerobot-eval下统一了六个新的模拟基准， lerobot-rollout CLI具有DAgger风格的人工在环校正， FSDP培训和HF Jobs的云培训。除了更精简的安装之外，数据集还可以获得深度支持、自动语言注释管道、自定义视频编码以及高达2倍的数据加载速度。机器人世界正在提出一个大问题：世界模型实际上有助于机器人政策吗？ v0. 6。 0为LeRobot带来了三项政策来帮助回答这个问题。每个人都学会想象未来作为其培训的一部分，每个人都采取不同的路径来保持这种想象力。VLA-JEPA教授一种紧凑的VLA （基于Qwen3-VL-2B ） ，在学习行动的同时预测潜在空间的未来：在训练期间， JEPA世界模型必须从模型自己的行动中预测即将到来的帧。 诀窍在于，世界模型然后在推理中消失，因此您以零额外推理成本获得世界模型监督。集线器上有三个现成的检查点，包括一个经过DROID预训练的微调底座：查看VLA-JEPA文档和论文以了解更多信息。 LingBot-VA更进一步：一个自动回归的视频动作模型，可以一起预测未来的视频和动作，逐块预测，并反馈真实的观察结果，以保持其想象力。您甚至可以保存机器人想象的内容（ --policy. save_predicted_video = true ）并将其与实际发生的内容进行比较。推理在单个24–32 GB GPU上运行。查看文档和论文，了解技术细节。 FastWAM在其论文标题中提出了一个问题：世界动作模型是否需要测试时未来的想象力？它在单个网络中将约5B视频生成专家与紧凑型操作专家配对，因此该模型实际上学会了梦想自己的推出。在推断...",
-      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "title": "为什么开源人工智能的崛起并没有伤害人类……但",
+      "originalTitle": "Why the rise of open source AI isn&#8217;t hurting Anthropic &#8230; yet",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "date": "2026-07-07T20:04:32.000Z",
+      "summary": "这条新闻与公司动态、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、开源相关动态",
+      "fullContent": "周一， Decagon首席执行官Jesse Zhang发表了一篇具有挑衅性的新理论，标题为“企业中的开源人工智能每个人都错了。“这篇文章试图解决当今人工智能经济中最有趣的矛盾之一：他说，更成熟的人工智能部署正在转向更轻的模型，即使在他自己的公司也是如此。但是，在昂贵的最先进车型上的总体支出几乎没有变化。 这是一种思考前沿和开源模型之间关系的新方式。在张的讲述中，他们不是竞争对手，开源模型的成功不会以牺牲前沿实验室为代价。相反，它们是同一生命周期的两个阶段，使用昂贵的前沿模型来证明用例，这些用例可以在成熟时传递给更便宜的开源替代品。 随着更成熟的用例转向更轻的模型，新的用例不断出现，前沿模型的总体支出几乎没有下降。张没有给出太多的数据来支持这一点，但数据并不难找到。Vercel的AI网关仪表板显示，在过去的一周里， DeepSeek在令牌量方面已经飙升至领先地位，现在处理通过公司基础设施的令牌刚刚超过三分之一。Z. ai--广受欢迎的GLM-5. 2型号背后的实验室--在同一时期跃升至受人尊敬的第四名。但是，如果您向下滚动到总体代币支出，您将看到Anthropic仍然占平台上总人工智能支出的一半以上。鉴于最近的大部分变化来自Anthropic自己的价格上涨，该份额在过去一个月略有下降，但幅度不大。 OpenRouter讲述了一个类似的故事，占据了更大（但略低于企业级）的细分市场。DeepSeek V4 Flash是整体使用的主要赢家，每周处理5.3万亿个代币。最受欢迎的前沿模型， Opus 4. 8 ，处理量刚刚超过2万亿。OpenRouter不按总支出对模型进行排名，但它记录了Opus 4. 8的平均代币成本，比V4 Flash （ $ 1. 每百万个代币中有37个，而只有6美分） ，这意味着Opus仍可能占据最大的支出份额。这些数字甚至没有捕捉到最新的Nvidia的Nemotron ，由于Nvidia强大的连接和模型本身的极端适应性， Nemotron有望跃居前列。 这些数字并不能完全证明Zhang关于人工智能生命周期的观点，但它们确实表明，像Anthropic这样的前沿实验室并没有因为开源的兴起而遭受太多痛苦--至少现在还没有。一种解释是，人工智能可寻址任务的市场增长如此之快，以至于顶级模型能够通过主导早期部署来保持其地位。正如张所说， “前沿实验室将继续拥有发现。 开源将越来越多地自主生产。“另一种解释可能是，即使客户转向开源，许多用例也是如此困难，以至于它们不能完全被更便宜的替代品所取代。无论哪种方式，这种模型的双层经济可能成为人工智能经济的一个相对稳定的特征。",
+      "originalSummary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
       "rawFullText": "",
       "tags": [
-        "机器人"
+        "公司动态",
+        "开源",
+        "模型"
       ],
-      "score": 85
+      "score": 99
+    },
+    {
+      "title": "Anthropic正在手机和网络上推出Claude Cowork",
+      "originalTitle": "Anthropic is launching Claude Cowork on mobile and web",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+      "date": "2026-07-07T17:46:59.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "从周二开始， Anthropic的Claude Cowork人工智能平台将首次在移动和网络上提供。扩展的访问权限将首先向Max订阅者推出，并在未来几周内以其他方案向Claude用户推出”。“ Claude Cowork以前只能通过macOS和Windows的Claude桌面应用程序访问，但现在iOS和Android上的用户也可以使用它。 然而， Anthropic表示， Cowork的“完整体验”仍将在桌面应用程序上，包括本地文件访问等功能。默认情况下， Cowork会话现在也将在云中运行，因此您可以在不同设备上继续进行，也可以运行Cowork会话……阅读The Verge的完整故事。",
+      "originalSummary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, [&#8230;]",
+      "rawFullText": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, but now users on iOS and Android can also use it. However, Anthropic says the \"full experience\" for Cowork will still be on the desktop app, including features like local file access. Cowork sessions will also now run in the cloud by default, so you can continue them across different devices or run Cowork ta … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "iFLYTEK-Embodied-Omni技术报告",
+      "originalTitle": "iFLYTEK-Embodied-Omni Technical Report",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.02542",
+      "date": "2026-07-07T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 02542v1公告类型：新摘要：通用具体化代理必须了解多式联运指令，预测其环境将如何演变，并在扩展视野内产生精确的控制行动。 现有方法通常专注于视觉语言推理、基于视频的世界建模或动作生成，而首先合成未来观测值然后推断动作的级联管道可能会引入接口瓶颈和复合预测误差。我们推出了iFLYTEK-Embodied-Omni ，这是一种统一的多模式基础模型，可在单个Omni框架内共同建模视觉（视频和图像）、语言和行动。 其特定于模态的视觉语言、视频生成和动作生成组件通过共享的多模态自我注意进行通信。 该设计建立了脑-小脑协作：视觉-语言模型和视频生成模型形成了用于指令理解、任务规划、进度跟踪和未来视觉状态预测的高级大脑，而动作生成模型则充当了将计划的子目标和共享的多模态上下文直接转换为可执行动作块的低级小脑。 为了开发这些功能，我们将来自人类演示和机器人交互的动作注释和无动作具体化视频与具体化推理、具体化感知和通用图像文本数据相结合，以构建全面的数据集。我们进一步采用四阶段策略，在联合微调完整模型之前逐步训练VLM、VGM和AGM。",
+      "originalSummary": "arXiv:2607.02542v1 Announce Type: new Abstract: General-purpose embodied agents must understand multimodal instructions, anticipate how their environment will evolve, and produce precise control actions over extended horizons. Existing approaches typically specialize in visual-language reasoning, video-based world modeling, or action generation, while cascaded pipelines that first synthesize future observations and then infer actions can introduce interface bottlenecks and compound prediction errors. We present iFLYTEK-Embodied-Omni, a unified multimodal foundation model that jointly models vision(videos and images), language, and action within a single Omni framework. Its modality-specific visual-language, video-generation, and action-generation components communicate through shared multimodal self-attention. This design establishes brain-cerebellum collaboration: the vision-language modeland video generation model form a high-level brain for instruction understanding, task planning, progress tracking, and future visual-state prediction, whereas the action generation modelserves as a low-level cerebellum that directly converts planned subgoals and shared multimodal context into executable action chunks. To develop these capabilities, we combine action-annotated and action-free embodied videos from human demonstrations and robot interactions with embodied reasoning, embodied perception, and general-purpose image-text data to construct a comprehensive dataset. We further adopt a four-stage strategy that progressively trains the VLM, VGM, and AGM before jointly fine-tuning the complete model.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Oyster-II ：大型语言模型中建设性安全一致性的强化学习",
+      "originalTitle": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.02914",
+      "date": "2026-07-07T04:00:00.000Z",
+      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
+      "fullContent": "arXiv: 2607. 02914v1公告类型：新摘要：大型语言模型（ LLM ）在各种应用中表现出非凡的能力，但确保其同时具有安全性、实用性和可信度仍然是一个持续的挑战。 传统的以拒绝为导向的对齐策略可以缓解有害内容的产生，但系统地无法满足合法的用户需求，通常会隐瞒可以安全、建设性地解决敏感查询潜在意图的信息。 在Oyster-I开创的建设性安全范式的基础上，我们确定了其基于监督微调（ SFT ）的方案的两个关键局限性：对于不分布场景的安全概括不足，以及我们称之为安全思维链（ CoT ）过度概括的现象，其中以安全为导向的推理模式被过度应用于良性q 为了解决这些局限性，我们提出了Oyster-II ，这是一种基于强化学习（ RL ）的建设性安全对齐框架，采用零RL范式与多阶段强化学习策略相结合。经过广泛的基准评估， Oyster-II在安全尺寸方面全面超过了Qwen3-14B及其前身Oyster-I ，实现了与Qwen3-Max和Qwen3.5-397B相当的跨规模性能。",
+      "originalSummary": "arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, often withholding information that could safely and constructively address the underlying intent of sensitive queries. Building upon the constructive safety paradigm pioneered by Oyster-I, which moves beyond blanket refusal toward thoughtful, response-oriented safety alignment, we identify two critical limitations of its Supervised Fine-Tuning (SFT)-based scheme: insufficient safety generalization to out-of-distribution scenarios and a phenomenon we term safety chain-of-thought (CoT) over-generalization, wherein safety-oriented reasoning patterns are excessively applied to benign queries, degrading helpfulness and user experience. To address these limitations, we propose Oyster-II, a reinforcement learning (RL)-based constructive safety alignment framework that adopts a Zero-RL paradigm combined with a multi-stage reinforcement learning strategy.Evaluated across extensive benchmarks, Oyster-II comprehensively surpasses both Qwen3-14B and its predecessor Oyster-I on safety dimensions, achieving cross-scale performance comparable to Qwen3-Max and Qwen3.5-397B.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "VERITAS ：面向科学研究的通用复制工具",
+      "originalTitle": "VERITAS: Towards a General-Purpose Replication Tool for Scientific Research",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.02931",
+      "date": "2026-07-07T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2607. 02931v1公告类型：新摘要：人工智能工具正在加速科学出版，而对其进行审查的系统难以跟上，对已发表的研究进行独立验证变得更加困难和重要。由于手动复制速度缓慢且成本高昂，越来越多的工作使用编码代理来自动化流程的某些部分。 现有的工作主要打包为基准，伴随代理仅在基准自己的管道内运行，并且不存在通用复制工具。我们介绍VERITAS ，这是一个围绕CLI编码代理构建的与域无关的复制框架。 给定论文、代码存储库或两者， VERITAS会提取论文的主张，在解决问题时运行方法，并根据实验运行的证据来判断每个主张。管道返回重要性加权的复制分数、应用的每个修复的严重性等级日志以及修补的代码库。 我们在CORE-Bench和ReplicationBench上评估VERITAS ，这65篇论文涵盖计算机科学、社会科学、医学和天体物理学。针对同一模型和主机环境的两个强大的Claude Code基准， VERITAS实现了最先进的性能，并在两个基准的每个指标上都处于领先地位。",
+      "originalSummary": "arXiv:2607.02931v1 Announce Type: new Abstract: AI tools are accelerating scientific publication while the systems that review it struggle to keep up, and independent verification of published research has become both harder and more important. As manual replication is slow and expensive, a growing line of work uses coding agents to automate parts of the process. Existing efforts are largely packaged as benchmarks with companion agents that only run inside the benchmark's own pipeline, and no general-purpose replication tool exists. We present VERITAS, a domain-agnostic replication framework built around CLI coding agents. Given a paper, a code repository, or both, VERITAS extracts the paper's claims, runs the methodology while resolving issues as they arise, and judges each claim against the evidence from experiment runs. The pipeline returns an importance-weighted Replication Score, a severity-rated log of every fix applied, and the patched codebase. We evaluate VERITAS on CORE-Bench and ReplicationBench, 65 papers spanning computer science, social science, medicine, and astrophysics. Against two strong Claude Code baselines on the same model and host environment, VERITAS achieves state-of-the-art performance and leads on every metric on both benchmarks.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
     },
     {
       "title": "“第一次” AI运行的勒索软件攻击仍然需要人类",
@@ -46,7 +116,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "Vercel首席执行官吉列尔莫·劳赫（ Guillermo Rauch ）与代理商分拆模特的斗",
@@ -60,22 +130,6 @@
       "rawFullText": "",
       "tags": [
         "智能体",
-        "模型"
-      ],
-      "score": 91
-    },
-    {
-      "title": "如果你使用谷歌，你就是在训练它的人工智能。退订方法如下。",
-      "originalTitle": "If you use Google, you&#8217;re training its AI. Here&#8217;s how to opt out.",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
-      "date": "2026-07-06T17:04:58.000Z",
-      "summary": "这条新闻与视频生成、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：视频生成、模型相关动态",
-      "fullContent": "将此视为迟来的PSA ：谷歌最近对隐私设置的更改允许该公司存储更多数据，包括“图像、文件以及音频和视频录制”等媒体，以改进其人工智能模型。",
-      "originalSummary": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
-      "rawFullText": "",
-      "tags": [
-        "视频生成",
         "模型"
       ],
       "score": 90
@@ -93,22 +147,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 87
+      "score": 86
     },
     {
-      "title": "Station F成为欧洲最热门人工智能初创公司的发射台",
-      "originalTitle": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
-      "date": "2026-07-06T13:00:00.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
-      "fullContent": "由法国亿万富翁泽维尔·尼尔（ Xavier Niel ）创立的巴黎创业中心Station F正在为其新版F/ai加速器计划做准备，以加强其作为有前途的人工智能创业公司垫脚石的地位。",
-      "originalSummary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "title": "PRX第4部分：我们的数据策略",
+      "originalTitle": "PRX Part 4: Our Data Strategy",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "date": "2026-07-06T15:30:55.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "1.指导原则用于预训练的多样化数据集数据源的组合我们的字幕理念数据格式关于文本潜能关于图像编码2.在Lance中构建数据集用于探索分析和探索数据的现有标题和嵌入3.使用VLM重新字幕所有内容选择字幕4.编写马赛克数据分片MDS是什么，以及为什么我们将其用于Lance分辨率+宽高比分组5.数据过滤6. 重复数据删除下一步是什么？推荐语欢迎回来！这是PRX系列的第4部分。第1至3部分涵盖了模型架构、培训设计和24小时快速运行。这一次，我们将拉开悄悄支撑这一切的部分的窗帘：数据。在塑造PRX质量的所有因素中，数据管道是构建最不迷人的部分之一，但仍然是正确的重要组成部分。 以下是我们所做的事情，我们会做些不同的事情，以及我们只是慢慢学到的一些事情。一句话：我们从公共和内部数据集的混合中收集训练数据，使用VLM重新对图像进行字幕，并将结果转换为我们训练PRX的可流式语料库。目标是组装一个庞大、多样化的数据集用于预训练。 在这个阶段，模型正在学习世界的样子：视觉概念、物体和场景、事物是如何构成和照亮的，以及图像可以包含的范围。这是一个覆盖面和多样性的问题，而不是每张图片的完美程度。 一个宽泛、有代表性的语料库比一个更小、更漂亮的语料库更能教会模型关于视觉世界的结构，即使许多单独的图像是普通的快照或略微压缩。在这个阶段对美学的过度过滤实际上会造成伤害，缩小分布范围，并使模型概念和构图多样性付出代价，而这些概念和构图多样性是后来无法恢复的。 让几代人看起来抛光是一个单独的，后来的问题，我们留给微调和偏好对齐的小，无情地策划。预训练是为了广度；微调是为了品味。我们从公共和内部数据集的混合中收集预训练数据。在这个阶段，优先考虑的是广度、多样性和站在已经存在的策展上，而不是我们自己重做。 如果来源已经针对NSFW内容和个人信息进行了质量过滤、重复数据删除和过滤，我们将以此为基础，而不是大规模重复。源以不同的形式到达：一些带有图像数据本身，另一些作为元数据加上我们带入常见形式的基线标题。 我们采取了一种务实的方法：我们不是完全从头开始构建语料库，而是依靠现有的数据集和我们自己的工具来快速组装一个。事后看来，它不一定是人们可以构建的绝对最佳数据集，但对于预训练7B模型来说，它是一个坚实而轻便的起点。我们已经使用马赛克流和马赛克数据分片（ MDS ）作为分布式培训的数据集格式有一段时间了。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 82
+      "score": 76
+    },
+    {
+      "title": "美国投资者将很快获得SK海力士，另一家驾驭人工智能热潮的内存制造商",
+      "originalTitle": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "date": "2026-07-06T23:21:03.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "该公司周一表示，与三星和美国美光(Micron)竞争的韩国存储芯片制造商SK海力士(SK Hynix)计划在美国首次公开募股(IPO)中出售近1780万股股票。据彭博社报道，如果其股票卖得好（有迹象表明他们会） ，该公司可能会根据SK海力士上周五在首尔的收盘价筹集约280亿美元（ $ ）。 SK海力士将提供美国存托凭证（ ADR ） ，这是一种允许美国投资者无需在海外交易所直接交易即可购买外国股票的证书。每个ADR将代表十分之一的普通股。预计这些证券将于周四定价，并于周五开始交易。与美光一样， SK海力士也在销售和股价方面实现了以人工智能为动力的繁荣。 该公司表示，其第一季度收入比去年同期增长了近200% ，今年到目前为止，其股价上涨了约260%。这是因为运行人工智能的系统非常耗费内存。 随着亚马逊、微软、谷歌和甲骨文等超大规模企业竞相建立所谓的人工智能工厂，随着新的人工智能数据中心在全国范围内成倍增加，需求已经超过了供应，导致内存芯片短缺--包括高带宽内存（ HBM ）、DRAM和NAND （在人工智能系统内存储和移动数据的不同类型的芯片）。这种情况被称为“RAMageddon。 苹果高管表示，短缺迫使它提高Mac电脑和iPad的价格。以SK海力士(SK Hynix)和三星(Samsung)为首的韩国科技公司发誓要花费超过5500亿美元($)来建立新的制造能力以跟上。这实际上是一个冒险的冒险。当这些设施建成时，人工智能的内存需求可能会发生变化，使它们的供应量超过市场需求，并可能导致价格崩溃。 但就目前而言，华尔街正在寻找另一家英伟达，内存芯片制造商是他们最接近的选择之一。最接近美国的美光在过去一年中飙升了近700% ，估值超过1万亿美元，这得益于创纪录的人工智能驱动的内存需求和收入。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.亚马逊将停止接受Mechanical Turk Anthony Ha Chevy制造的全美电动卡车的新客户—为什么没有人购买它？ Tim De Chant Mark Zuckerberg告诉员工，人工智能经纪人的进展并不像他希望的那样快， Lucas Ropek Jersey Mike的IPO说明了人工智能炒作变得多么糟糕Julie Bort在$ 180亿的IPO之后， Bending Spoons创始人说成功来自于最大限度地减少运气Anna Heim",
+      "originalSummary": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "激怒谷歌的商业广告想象创始人拥抱人工智能",
@@ -123,22 +192,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
-    },
-    {
-      "title": "亚马逊将停止接受Mechanical Turk的新客户",
-      "originalTitle": "Amazon will stop accepting new customers for Mechanical Turk",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
-      "date": "2026-07-05T17:43:36.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "Mechanical Turk网站上的公告称， 2026年7月30日，众包服务将关闭新客户。Amazon Web Services表示，该决定是在“仔细考虑”后做出的，并补充说： “现有客户可以继续正常使用该服务。AWS继续投资于Mechanical Turk的安全性和可用性改进，但我们不打算推出新功能。 “换句话说，亚马逊并没有完全拔掉插头，但这项服务非常依赖生命支持。Mechanical Turk于2005年首次推出，是一个市场，人们可以获得微薄的报酬来执行抗拒完全自动化的简单任务，例如完成验证码挑战或识别句子中的基本情绪。 在其鼎盛时期，该服务是围绕众包劳动伦理争论的中心，它甚至在Facebook-Cambridge Analytica丑闻的早期阶段发挥了很小的作用。从2018年开始，亚马逊开始将其计费，作为公司注释数据以训练神经网络的一种方式，作为其SageMaker AI服务的一部分。 Mechanical Turk也被描述为公司对人工智能采取一种假装的方法的隐藏推动者，在这种方法中，作为人工智能销售的产品实际上是由Mechanical Turk的劳动力驱动的--由于最初的Mechanical Turk本身就是一个骗局，一个隐藏的人类国际象棋选手假装是一个下棋的机器，因此更加合适。随着时间的推移， Mechanical Turk和AI模型之间的关系变得更加复杂。 2023年的一项分析发现，平台上33%至46%的员工使用大型语言模型来完成任务，这引发了人们对平台上注释数据的可靠性以及人类是否需要参与其中的质疑。 本周，在亚马逊的决定公开后，一名Reddit用户表示，该平台“几年前”就已经死亡，工人和研究人员因机器人和欺诈而放弃了该平台。用户预测， “亚马逊的某个人会认为保持Mturk服务器运行是浪费时间和资源，并完全拔掉插头。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠将于太平洋时间6月26日晚上11:59结束。",
-      "originalSummary": "These may be the last days of Amazon’s Mechanical Turk.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
+      "score": 85
     },
     {
       "title": "这个国家的一些富人正在让人工智能教他们的孩子",
@@ -153,7 +207,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "粉丝小说界正在与人工智能及其自身作战",
@@ -168,37 +222,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 99
-    },
-    {
-      "title": "新的谷歌广告设想在人工智能的帮助下撰写独立宣言",
-      "originalTitle": "New Google commercial imagines a Declaration of Independence written with help from AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
-      "date": "2026-07-04T20:55:25.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "《独立宣言》签署二百五十年后，谷歌的一则新广告问道：如果创始人可以访问Google Workspace呢？这则广告的标语是“Group project, but make it 1776” ，描绘了一个基本上看不见的托马斯·杰斐逊（ Thomas Jefferson ）的中期草稿，当时他收到了本·富兰克林（ Ben Franklin ）的唠叨文本，导致了一个非常以谷歌为中心的协作过程。 在Google文档中建议进行编辑，在Google日历中安排会议并通过Google Meet远程进行（每个与会者显然都关闭了相机？ ） ，然后通过电子签名完成整个过程；提示烟花。当然，由于这是2026年一家科技公司的广告，人工智能可以发挥作用。 虚构的创始人使用谷歌的“帮助我视觉化”人工智能工具在国徽上尝试不同的动物，双子座在会议上做笔记，创始人在拒绝乔治三世国王的文档访问请求之前也向聊天机器人征求意见。整件事情非常开玩笑（有一次，山姆·亚当斯（ Sam Adams ）问道： “我们可以在啤酒上解决这个问题吗？” ） ，与许多其他最近的广告相比，人工智能布道相对谨慎。 与那个臭名昭著的谷歌广告不同，其中一位父亲使用双子座为他的女儿写了一封粉丝信，这个广告回避了任何关于《独立宣言》的实际文本将通过人工智能得到改善的建议。也许广告中最具人工智能前瞻性的元素是镜头本身，在我看来，它具有人工智能生成视频的不可思议的光芒。 虽然观众在YouTube和Instagram上的评论似乎大多是积极的，但您可能不会惊讶地发现， Bluesky上的回复更具批评性。海报宣称商业广告“令人毛骨悚然”和“令人惊讶的音调失聪” ，而人工智能的角度是最大的目标--尽管包括历史学家安格斯·约翰斯顿（ Angus Johnston ）在内的许多用户都指出， “令人惊讶的是，这实际上很少是人工智能。 “即使是在一个老套的幻想笑话中，也不可能证明人工智能是政治组织、写作或人类合作的有用工具，”约翰斯顿说。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。 此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT.雪佛兰制造了一辆全美式电动卡车—为什么没有人买它？ Tim De Cha...",
-      "originalSummary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "Midjourney希望好莱坞电影公司透露其人工智能使用的细节",
-      "originalTitle": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
-      "date": "2026-07-04T18:00:05.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "作为与三家好莱坞电影公司之间持续法律纠纷的一部分，人工智能初创公司Midjourney正试图迫使这些电影公司披露他们自己如何使用人工智能。迪士尼和环球影业去年起诉Midjourney涉嫌侵犯版权，并指出这家初创公司的图像生成模型可以创建由工作室拥有的Bart Simpson和Darth Vader等角色的图像。几个月后，华纳兄弟也起诉了Midjourney。 这家初创公司认为，在合理使用的情况下，允许在受版权保护的角色的图像上训练其AI模型。目前的争议围绕着工作室在发现过程中需要制作的文件。一位法官此前裁定，工作室确实必须提供有关其生成式人工智能使用的信息，但前提是这些信息会导致“面向消费者”的视频和图像。 在其最新提交的文件中， Midjourney试图推翻这一限制，认为它“不公平地”允许工作室“只挑选他们认为支持其市场损害索赔的文件，同时剥夺了Midjourney支持其辩护的文件。 Midjourney继续声称， “[工作室]扣留的文件正是那些可以揭示他们是否在闭门造车，他们是否正在做他们起诉Midjourney所做的事情的文件。 例如，这家初创公司表示，如果工作室正在开发图像生成人工智能模型， “用于内部故事板或为电影或电视创意内容，那么这些证据同样会证明，即使在工作室本身中，下载和训练人工智能在未经许可的版权内容上也是一种行业习俗。 在文件中，这家初创公司还认为，工作室应该披露他们在Midjourney中使用的所有提示以及由此产生的输出，而不仅仅是产生涉嫌侵权图像的提示。工作室的首席律师大卫·辛格（ David Singer ）此前声称， Midjourney正在寻求这份文件，作为“钓鱼探险”的一部分。 他还表示，这些工作室“并不寻求阻止人工智能技术，甚至关闭Midjourney的业务” ，而是“只是希望Midjourney停止复制他们的电影和电视节目，停止分发、公开展示、公开表演和创作衍生作品，其中包括未经授权的著名角色的副本。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。",
-      "originalSummary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
+      "score": 98
     },
     {
       "title": "Anthropic希望开发自己的药物",
@@ -231,37 +255,22 @@
         "视频生成",
         "产品发布"
       ],
-      "score": 86
+      "score": 85
     },
     {
-      "title": "OpenAI浮动让特朗普政府减少5%的人工智能热潮",
-      "originalTitle": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
-      "date": "2026-07-02T10:23:27.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share [&#8230;]",
-      "rawFullText": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times . CEO Sam Altman argued that giving the public a financial interest in the company would be the best way to share the upside of AI, the FT reported, citing two unnamed people familiar with the talks. He's said to have first pitched the idea to Trump early last year. Altman reportedly suggested the 5 percent figure. Based on OpenAI's latest funding round , which ended with the company valued at $852 billion, that stake would be worth … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 83
-    },
-    {
-      "title": "教授人工智能与涡轮机一起运行",
-      "originalTitle": "Teaching AI to run with the turbines",
+      "title": "为自主企业奠定基础",
+      "originalTitle": "Building the foundation for an autonomous enterprise",
       "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
       "date": "2026-07-02T12:51:44.000Z",
       "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：安全相关动态",
-      "fullContent": "人工智能可能通过聊天机器人和图像生成器吸引了公众的想象力，但其一些最重要的用例远非面向消费者的工具。在物理基础设施、运营连续性和安全性至关重要的行业中，人工智能正在成为核心运营层。 凭借其庞大的工业系统和不断的运营数据流，能源部门提供了对未来可能是什么样子的一瞥。在Woodside Energy ，人工智能的采用并非始于生成模型或企业副驾驶。该公司花了数年时间在勘探、钻探、维护和工厂运营中构建预测分析、优化系统和机器学习工具。 该公司数字副总裁Andrew Melouney表示： “我们始终拥有来自设备、工厂和我们运营的资产的大量运营数据。” “这些为我们创造了非常清晰、高价值的用例。“对基础设施和治理的长期投资现在使我们能够更广泛地转向能够支持复杂工业工作流程的智能AI系统。 Woodside不是取代人类操作员，而是设计人工智能系统，以增强高风险环境中的专业知识。一个典型的例子是其“Startup Advisor” ，这是一种人工智能副驾驶，可帮助运营商管理启动液化天然气（ LNG ）工厂的复杂流程。Melouney解释说： “我们真的在考虑，它如何支持组织中的人员，使他们能够做出更好的决策，做出更快的决策。” 该公司的方法反映了整个工业人工智能领域正在发生的更广泛的演变：从孤立的实验过渡到基于标准化平台、受管数据和可重复部署模式的企业级系统。Melouney认为，这种转变要求组织重新思考他们的技术堆栈和工作本身是如何完成的。“我们不仅仅是将人工智能引入现有流程，”他说。 「我们正在深入思考如何重新构想这项工作。Melouney的座右铭已经变成了： “大思维，小原型，快速扩展。“随着人工智能系统变得更加自主和相互联系，有望成功的公司可能是那些花费数年时间在炒作下建立运营基础的公司。 Melouney表示： “我们的目标是打造一家自主企业，我们拥有能够与我们的核心工作流程深入互动的代理商。”本期《商业实验室》是与Infosys合作制作的。 成绩单全文： Megan Tatum ：来自《麻省理工科技评论》，我是Megan Tatum ，这是商业实验室，该节目帮助商业领袖理解新技术从实验室走向市场。本集是与Infosys合作制作的。",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“为自主企业奠定基础”。它主要涉及安全方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational&#8230;",
       "rawFullText": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational data, the energy sector offers a glimpse into what that future could look like. At Woodside Energy, AI adoption did not begin with generative models or enterprise copilots. The company has spent years building predictive analytics, optimization systems, and machine learning tools across exploration, drilling, maintenance, and plant operations. “We’ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate,” says the company&#8217;s vice president for digital Andrew Melouney. “Those have created really clear, quite high-value use cases for us.” That long-term investment in infrastructure and governance is now enabling a broader shift toward agentic AI systems that can support complex industrial workflows. Rather than replace human operators, Woodside designs AI systems to augment expertise in high-stakes environments. A prime example is its “Startup Advisor,” an AI copilot that helps operators manage the complex process of starting liquefied natural gas (LNG) plants. “We’re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions,” Melouney explains. The company’s approach reflects a wider evolution taking place across industrial AI: graduating from isolated experiments to enterprise-wide systems built on standardized platforms, governed data, and repeatable deployment patterns. That transition, Melouney argues, requires organizations to rethink both their technology stacks and how work itself gets done. “We’re not just bolting AI onto an existing process,” he says. “We’re deeply thinking about how that work needs to be reimagined.” Melouney&#8217;s motto has become: “Think big, prototype small, and scale fast.&#8221; As AI systems become more autonomous and interconnected, the companies poised to succeed may be those that spent years building the operational foundations beneath the hype. &#8220;Our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows,&#8221; says Melouney. This episode of Business Lab is produced in partnership with Infosys. Full Transcript: Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. This episode is produced in partnership with Infosys. Now, when people think about artificial intelligence, they often picture chatbots or productivity tools, but some of the most sophisticated and high impact uses of AI are actually happening far from consumer apps, inside complex industrial environments where safety, reliability, and physical systems matter. The global energy sector is a prime example. Companies like Woodside Energy, a global energy producer headquartered in Western Australia, have been applying AI for more than a decade now, from advanced analytics and operations, to remote decision support, to smarter maintenance, and energy efficiency across large scale assets. Today, Woodside is scaling that experience, embedding AI more deeply across its operations and the enterprise with a strong focus on governance, data quality, and human accountability. Two words for you: technological fuel. My guest today is Andrew Melouney, vice president for digital at Woodside Energy. Welcome, Andrew. Andrew Melouney: Thanks, Megan. It&#8217;s great to be here. Megan: Lovely to have you. Now, Andrew, as I said there, the energy sector has approached AI quite differently from technology or consumer businesses. Early value has emerged in operational and industrial environments, rather than consumer-facing generative AI tools. Why is that? And what differentiates the energy sector&#8217;s AI journey? Andrew: Megan, I think it really comes down to the nature of the work we do. Energy operations and what Woodside does is very asset intensive, it&#8217;s very safety critical, and it&#8217;s highly physical. And when you think about how Woodside operates, we operate across the full value chain. We do exploration through to drilling and subsurface work, to project development, all the way through to operating assets, which are often operated in harsh and remote locations, and then global energy portfolio marketing and trading as well. We&#8217;ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate, and those have created really clear, quite high-value use cases for us. When you think about reliability, when you think about safety and efficiency, those are really critical things for a company like Woodside. We&#8217;ve been doing traditional AI for many years now. If you think about analytics, if you think about optimization, if you think about things like predictive models, those techniques we&#8217;ve been applying to our data sets and to our business since around 2015. And more recently with the advent of generative AI, we&#8217;ve really found that we&#8217;ve got a pretty strong and awesome foundation to build on top of and to really solve problems in the service of improving the business. And again, whether that is keeping people safe, keeping the environments we operate in safe, or improving returns for the organization. Megan: Fantastic. I mean you touched on it there, but how has this reality shaped your own AI strategy at Woodside? Where did you start, and where did the technology prove most impactful in those early days? Andrew: Well, like I said, we&#8217;ve had a very long journey, in terms of understanding our operational data, recognizing the value of it, and collecting it at scale so that we can use it. And we&#8217;ve been very deliberate in that approach, Megan. We&#8217;ve really thought about where the value is and where the risks were manageable. And we&#8217;ve started looking at, in today&#8217;s world from an agentic AI perspective, we&#8217;ve started looking at the problems that were solved with traditional AI and machine learning and data science in the past. And we&#8217;ve started to think about, where can we then layer agentic AI over the top to provide an even better outcome? For our asset intensive industry and organization, we&#8217;re looking at areas such as maintenance optimization. We&#8217;re looking at areas such as, how do we ensure our LNG plants start up reliably, consistently, and safely? And we&#8217;re considering really our frontline workforce and making sure that we&#8217;re giving people on the frontline the tools required to do their jobs. When we think about AI, we&#8217;re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions? I think over time, this has just evolved from what has been traditional analytics to now artificial intelligence and generative AI. And we&#8217;ve learned along the way that the technology is important, but it&#8217;s about aligning people, processes, and the technology together. We&#8217;ve spent a long time not only in collecting the data and having a well-curated data set that we can build on top of, but we&#8217;ve also spent a lot of time teaching people how to work in agile ways, how to do design thinking, how to problem solve, and how to really make sure that the technology that, say, my team can bring to bear to the organization is adopted effectively and purposefully. And I think once we had that solid foundation in place from a technology perspective, from a data perspective, once we got strong trust built between our digital teams and the organization, we really saw quite a material uptick and the scaling of technology occur more broadly across the enterprise. Megan: Fantastic. That people piece so important, isn&#8217;t it? It&#8217;s just a tool, technology, that needs to be in the right hands. And you touched on data there; industrial AI obviously depends on vast amounts of data. Can you walk us through how you&#8217;ve approached data at Woodside in a little more detail? How it&#8217;s structured and governed, and how tools like maintenance intelligence as well fit into that. Andrew: Well, data is really foundational and fundamental to everything we do, particularly from a technology perspective. It gives us the ability to innovate at pace when we are building over the top of a strong foundation. As I said before, we&#8217;ve had the benefit of a long-term investment in our underlying operational data. I think the way we think about data is that it&#8217;s an asset for us. And when you think about operating a facility where you&#8217;ve got sensors everywhere, you&#8217;ve got data streaming in real time, you&#8217;ve got operators needing to make decisions in real time, we have consciously made a decision over many, many years to invest in that enterprise scale data platform to make sure that it&#8217;s secure. We&#8217;ve got well-structured data assets, and we&#8217;ve got strong governance over the top of that data so that when it is used, when it&#8217;s built in a data science application or an AI agent, that we&#8217;ve got a level of trust in it that it&#8217;s going to be used responsibly. And that when it&#8217;s used, it can be trusted to give the outcome that we expect. We have developed platforms that continuously ingest really high frequency data from the assets and from our enterprise systems. Once we&#8217;ve been able to develop solutions on top of that, parts of the business that might own the systems that collect that data, they see the value in it. When you look at something like maintenance intelligence is a really good example of how we&#8217;ve been able to take something that we&#8217;ve been working on for a long time. Woodside does a lot of maintenance, it&#8217;s a very important part of our business, and it occurs across all of our operating assets. But we have been looking at how we do predictive analytics and predictive maintenance for a long time across that data set that we own. And something like maintenance intelligence is a solution that gives us the ability to optimize how we do that maintenance. And what it does is it analyzes historical maintenance records, alongside the performance of the equipment. And again, by having that data set well-governed and in one place, we get the ability to correlate different data sets, such as maintenance records out of SAP, alongside say equipment and performance coming from our time series data lake. And when we build over the top of that, something like maintenance intelligence gives us the opportunity to recommend to the assets what the optimal timing for maintenance activities might be, and really give what is quite a simple aim, which is do the right work at the right time. And with something like maintenance intelligence, we have seen the opportunity, and we have the opportunity to reduce maintenance hours by up to 15% over five years on one of the assets that we&#8217;ve piloted this on. And as we&#8217;ve built out that underlying analytical model, we&#8217;re now able to put agentic AI over the top of that and provide better insights and optimize that solution more. It really comes down to providing our asset teams and our operational teams with the right decision support capability that ensures they&#8217;re still accountable to make the decision and to ensure the right work is being done, but we are giving them the best possible opportunity to use their judgment and experience with the data that we provide to make the right decision. Megan: Sounds like a really impactful change. Last year also marked a milestone in moving from early AI learnings to scale, using AI more deliberately as a force multiplier. What transition were you trying to make and how did you approach it? Andrew: Well, Megan, we&#8217;ve had a philosophy for a long time in Woodside from an innovation perspective, where we really want to think big, we want to prototype small, and we want to scale fast. We want to find big opportunities that we can go after, but we want to ensure that we look at how we deploy those on a small scale first, and then provide the right learning and insight that then can scale it everywhere. Something like maintenance intelligence is a good example of that, or our Startup Advisor, where we know that we&#8217;ve got multiple plants that we need to start up. We know that we&#8217;ve got multiple assets that need to do maintenance, so we have a big, bold ambition about how we can improve and optimize that. We start with a small prototype; it might be one subsystem, it might be just a part of an asset, and then we scale it out, we learn, and we scale faster. I think from an AI learning perspective, one of the key things we&#8217;ve learned is really the transition from moving from isolated AI solutions to a more coordinated enterprise-wide capability. If you look back maybe 18 months, two years, in our generative AI journey, we rarely started by deploying AI as broadly as we could in the organization from a personal productivity perspective. And probably being quite open in terms of the problems that we will solve, the business problems that we&#8217;ll solve with AI. That had a lot of benefits for us in terms of allowing our organization to get to know AI, get to know the capabilities, to build the trust in it. What we&#8217;ve learned though is that we&#8217;ve needed to pivot from that to being a little bit tighter in terms of where we are going to invest our time and resources and more higher value solutions. How do we then enable and empower the rest of the organization so that they can actually effectively problem solve with technology in their domain or in their personal productivity without having to come to a central team? When we think about that, think big, prototype small, scale fast, has been something really important for us. The transition from a more broader approach to use case development and solution development to now a narrower focus on the high value priorities. We&#8217;ve seen that paying dividends to us and allowing us to go after solutions and opportunities, things like Startup Advisor. And so our Startup Advisor is a agentic AI solution that really aims to optimize and empower and better support our operators that sit in front of a panel and have to start up LNG plants, which are incredibly technical facilities and require really specialist skills to start up. And so our Startup Advisor is almost like a copilot that sits alongside those operators, and it gives them the ability to be able to play back previous startups. It gives them the ability to look at how the current startup is progressing, and it provides them better insights to optimize how they start up that facility. And again, starting up an LNG facility is incredibly complex. Megan: I can imagine. Andrew: When we think about opportunities like Startup Advisor, again, it goes back to that think big, prototype small, and scale fast. We started with a very bold vision of, how do we start up all of our LNG plants in a much more structured and optimized fashion? How do we better support our panel operators? How do we make, say, a more junior panel operator have a copilot that can help them almost like an experienced panel operator sitting next to them? And when we think about that vision and the ability then to prototype on a small scale and then scale fast, I think it&#8217;s been really successful for us. As we scale, we&#8217;ve just naturally expanded into more agent-based solutions. Today, we&#8217;ve got around 50 AI agents in production, supporting both our operating assets and our enterprise workflows. These tools have been proven in live environments, and we have really seen the benefit of being able to shift from point solutions that maybe solve small scale problems in specific areas, to AI and agentic solutions with agency that can really work across our workflows. We&#8217;re able to do this because we&#8217;ve standardized on the platform that we build on and we&#8217;ve got repeatable patterns. That&#8217;s been another really important learning for us, is that we don&#8217;t want to build 50 solutions in 50 different ways. We really want to be empowering our organization and our technical teams and the users of our solutions to roll them out quickly, to roll them out safely, and to do it in a patternized and platform manner. But the last point I&#8217;ll make, Megan, from a learning perspective is that we&#8217;ve really understood that a strong governance around how AI is deployed and developed is critical for us, and it&#8217;s critical for us to go fast as well. The traditional ways of governing how we roll out different solutions or digital systems isn&#8217;t going to scale to the breadth that we need when we are thinking about AI. Being able to have a clear philosophy around how we innovate, transitioning from isolated solutions to that enterprise-wide capability, and making sure that we&#8217;ve got strong platforms with strong patterns and clear governance are the three really critical things that we&#8217;ve learned. Megan: Such important pillars, all of them. And you&#8217;ve been working with Infosys on this journey. How has that partnership helped accelerate scaling and embedding AI across the business? Andrew: Well, Infosys is our managed service provider, and so they play a really critical role in the operations of our core business. One of the things that I like to say is that our license to innovate is based on our license to operate. And so, for my team to be able to turn up to an operating asset or a corporate function and have the trust that&#8217;s needed to be able to innovate and reimagine and redesign how work gets done, to be able to do that, we need to make sure that our core platforms, our core systems, our applications are running really reliably, safely, and consistently every day. Having an experienced partner like Infosys looking after those core operations in partnership with our internal teams is really, really important to us. As we move from pilots to enterprise-wide deployment, the ability to partner with someone like Infosys also gives us the ability to scale. And so being from Perth and Western Australia, while we&#8217;ve got a really strong local team in Western Australia, and we&#8217;ve also got a very strong team in some of our other operating locations, like everyone, we&#8217;re struggling to find people that can fill AI roles. Being able to partner with Infosys and have a number of different operating models at our disposal becomes really important for us. Having co-mingled teams where they are staff, they are Infosys staff, Woodside staff, and some of our other partners, really just brings diversity of thought and experience to how we solve problems. Fundamentally, the partnership has allowed us to operate and innovate with more confidence. While Woodside always retains ownership of the strategy and where we&#8217;re going and the governance and my teams remain accountable for the outcomes, we can&#8217;t do what we do without strong partnerships like the one we have with Infosys. Megan: Fantastic. And as AI adoption scales, you mentioned yourself, governance becomes increasingly important. How challenging has that been, and what guardrails have you put in place at Woodside? Andrew: So, Megan, governance is really important to us, and we operate in a well-regulated environment. That means we&#8217;ve got to make really deliberate and well-reasoned decisions when we&#8217;re thinking about how we deploy technology into our organization, whether it&#8217;s artificial intelligence or anything else, for that matter. And so, governance is really central to how we approach the execution of our AI strategy at Woodside. We&#8217;ve got maybe two or three really key things that we&#8217;ve put in place. The first one is just making sure that every AI use case goes through a structured assessment, and that&#8217;s making sure it meets our privacy controls, our cyber controls. We&#8217;re also asking the question, not just, could we do this, but should we do this? We&#8217;ve really got to bring together safety, ethics, transparency, accountability, and make sure that we make an informed decision. When an AI solution is going through that structured assessment, if there are concerns about how we might use that solution, it then goes to an AI council that&#8217;s made up of senior leaders across the organization. That council and that group really oversee some of the prioritization and risk management. That&#8217;s where we can have really strong, robust debates around, again, could we do something, should we do it, and how do we mitigate any of the risks that we might introduce here? I think the last one, Megan, is really around lifecycle management. When you start thinking about, we&#8217;ve got 50 at the moment, but if we had 500 agents working in our organization, really amplifying the experience and the decision-making and the value creation of our staff, we really want to have an ability to manage the lifecycle of how those agents operate. We want to know, how many people are using them? What&#8217;s the efficacy and the outcome? Is there model drift? Do we need to retune or retrain? I think that&#8217;s an area where many organizations, including Woodside, are still leaning into and still figuring out the best way to do this. We can do it quite easily with 50 agents, but 500, 5,000, 50,000 becomes an opportunity for us. Again, thinking about how we partner with others, solving problems like that really present an opportunity to co-create and to co-solve with some of our partners, like with Infosys. Megan: Fantastic. Just to close, what&#8217;s your long-term vision for AI at Woodside? How do you see this evolving over the years ahead, and what could it unlock for the sector in your view? Andrew: So Megan, I think our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows. The outcome that we want to get from that is to protect our people, to protect the environments we operate in, and to be able to provide energy at a lower cost to the world. When we think about that ambition, we can really see that being applied to almost all of the areas that Woodside work in. Whether that&#8217;s from exploration through to project developments, through to operations or marketing, the scale of the opportunity in front of us and the ability for us to really change the way that work flows through the organization is really exciting. For us, there&#8217;s three things that we have to get right in terms of being able to execute on that ambition. The first one is really thinking about how the work gets done in the organization so that we&#8217;re not just bolting AI onto an existing process, but we&#8217;re deeply thinking about how that work needs to be reimagined. We&#8217;ve also got to think about how we enable our workforce to work differently. Providing them with the skills and the tools and the ability to really harness the power of the technology that we provide. Secondly, we&#8217;ve got to continue to move from and restrain ourselves from deploying point solutions that solve very narrow problems, to having more connected, agentic systems of systems that can interact with each other. To do that, and if we do that successfully, that&#8217;s where we really get the high value unlock from agents being able to interact with workflows and really change how the work gets done. And lastly, Megan, it&#8217;s about how we must continue our philosophy of thinking big, prototyping small, and scaling fast. Megan: Which is a fantastic lens to which to make all these decisions. Thank you so much, Andrew. That was Andrew Melouney, vice president for digital at Woodside Energy, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor and host for Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed this episode, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thanks ever so much for listening. Goodbye. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
       "tags": [
         "安全"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "实现卓越运营",
@@ -276,7 +285,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -294,37 +303,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic长篇旁白的寓言5即将回归",
-      "originalTitle": "Anthropic&#8217;s long-sidelined Fable 5 is greenlit to return",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
-      "date": "2026-07-01T00:03:55.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "经过与特朗普政府数周的谈判， Anthropic终于能够将Claude Fable 5重新上线。Anthropic在X上的一篇文章中表示，它计划于周三开始恢复Claude平台上全球用户的访问权限，该公司将很快重新启用AWS、Google Cloud和Microsoft Foundry上的访问权限，但没有设定的时间表。 Anthropic写道：我们收到通知，商务部已解除对Claude Fable 5和Mythos 5的出口管制。我们将于明天开始恢复访问权限，并很快与您分享最新动态。我们感谢用户的耐心等待，也感谢所有工作的人……阅读The Verge的完整故事。",
-      "originalSummary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft [&#8230;]",
-      "rawFullText": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X , Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platforms, and that the company would re-enable access on AWS, Google Cloud, and Microsoft Foundry soon, but with no set timeline. Anthropic wrote: We've received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We're grateful to our users for their patience, and to everyone who work … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 93
-    },
-    {
-      "title": "谷歌打造了一款出色的智能音箱，但Gemini还没有做好准备",
-      "originalTitle": "Google built a great smart speaker, but Gemini isn’t ready for it",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
-      "date": "2026-07-01T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "Google Home扬声器是Google多年来的第一款智能扬声器。而且很漂亮！ |照片： Jennifer Patison Tuohy/The Verge智能扬声器在过去几年中一直在寻找引人注目的第二幕。除了音乐、计时器和控制灯光之外，他们还在努力证明在厨房柜台上占用空间是合理的。人工智能承诺改变这种状况。 去年秋天，亚马逊推出了由经过改造的Alexa驱动的新硬件，现在终于轮到谷歌了。Google Home扬声器是该公司六年来的第一款新智能扬声器，也是第一款为Gemini打造的智能扬声器。“经过多年的忽视，谷歌似乎终于再次认真对待智能家居。新的扬声器是迄今为止最清晰的标志。然而， Gemini for Home仍然感觉未完成。Google…阅读The Verge的完整故事。",
-      "originalSummary": "Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that. Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's finally Google's turn. [&#8230;]",
-      "rawFullText": "The Google Home Speaker is Google’s first smart speaker in years. And it’s pretty! | Photo: Jennifer Patison Tuohy / The Verge Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up space on the kitchen counter. AI promised to change that . Amazon debuted its new hardware powered by a revamped Alexa last fall, and now it's finally Google's turn. The Google Home Speaker is the company's first new smart speaker in six years and its first \"built for Gemini.\" After years of neglect, Google appears to be finally getting serious about the smart home - again. The new speaker is the clearest sign yet. Gemini for Home , however, still feels unfinished. Google … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 82
-    },
-    {
       "title": "拥抱脸部和大脑将Gemma 4带入实时语音AI",
       "originalTitle": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
       "source": "Hugging Face",
@@ -337,7 +315,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -369,7 +347,7 @@
         "智能体",
         "评测"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Claude Science是Anthropic的最新旗舰产品",
@@ -385,7 +363,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "核心转储流行病学：修复一个18岁的漏洞",
@@ -400,7 +378,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "GeneBench-Pro简介",
@@ -415,7 +393,7 @@
       "tags": [
         "评测"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "映射欧洲的人工智能劳动力机会",
@@ -430,7 +408,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -445,7 +423,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "代理对技术前沿的信心",
@@ -460,7 +438,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "DiScoFormer ：一个变压器，用于密度和分数，跨分布",
@@ -475,7 +453,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
@@ -491,7 +469,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "预览GPT-5.6 SOL ：下一代型号",
@@ -523,7 +501,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "客服代表如何转变工作方式",
@@ -543,6 +521,21 @@
       "score": 99
     },
     {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "Designing Organisations That Can Keep Up With AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/deployco/news/designing-organisations-that-can-keep-up-with-ai",
+      "date": "2026-06-25T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Why organisational latency is becoming the biggest barrier to fully realising AI’s benefits",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 71
+    },
+    {
       "title": "为人工智能时代重新定位零售",
       "originalTitle": "Repositioning retail for the AI era",
       "source": "MIT Technology Review",
@@ -555,7 +548,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "OpenAI和Broadcom推出LLM优化推理芯片",
@@ -571,53 +564,7 @@
         "公司动态",
         "算力芯片"
       ],
-      "score": 90
-    },
-    {
-      "title": "使用NVIDIA NeMo AutoModel加速变压器微调",
-      "originalTitle": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "date": "2026-06-24T16:00:13.000Z",
-      "summary": "这条新闻与算力芯片、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片、模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“使用NVIDIA NeMo AutoModel加速变压器微调”。它主要涉及算力芯片、模型方向，热度评分为 90。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与算力芯片、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片、模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片",
-        "模型"
-      ],
-      "score": 79
-    },
-    {
-      "title": "推出FFASR排行榜：在现实世界中对ASR进行基准测试",
-      "originalTitle": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ffasr-leaderboard",
-      "date": "2026-06-24T00:00:00.000Z",
-      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：评测相关动态”。它主要涉及评测方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "评测"
-      ],
-      "score": 70
-    },
-    {
-      "title": "人工智能网络数据基础设施层的出现",
-      "originalTitle": "The emergence of the web data infrastructure layer for AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-      "date": "2026-06-24T11:59:54.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能网络数据基础设施层的出现”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&#160; To understand this challenge, consider the foundation of the web itself. The web was not designed&#8230;",
-      "rawFullText": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limits its use by AI models.&nbsp; To understand this challenge, consider the foundation of the web itself. The web was not designed for the automated discovery and retrieval that new AI applications demand. Overcoming this inherent design constraint requires infrastructure. The next frontier in AI may depend on a new web data infrastructure layer that can enable models to discover and map this ever-expanding digital realm. This layer must be able to navigate hundreds of millions of existing web domains and billions of new URLs created each week, delivering real-time information and overcoming technical barriers. “The data suggests there&#8217;s far more data out there,” says Or Lenchner, CEO of Bright Data, a web data collection platform. “Think of the universe: It&#8217;s out there, but you don&#8217;t know what you don&#8217;t know.” Enabling access to fresh, relevant, and trustworthy data While early AI breakthroughs were driven by scaling training data and model size, organizations are now encountering a fundamental bottleneck: They need to keep pace with the dynamic, unstructured, and constantly evolving nature of web data in order to ground outputs in current and verifiable information. AI performance increasingly depends not just on model architecture but on a system’s compute, networking, retrieval, and data engineering capabilities—that is, the system’s ability to quickly and reliably retrieve data that is fresh, relevant, and trustworthy. Traditional model training relies on snapshots of information collected at a particular point in time. Training AI on such static data is no longer sufficient. To track fluctuations such as competitor pricing, consumer sentiment, and market trends, companies need a constant feed of new information, pulling data in real time along with relevant context. Their infrastructure must therefore be able to handle millions of simultaneous interactions across websites that vary by geography, language, format, and access rules. “If it can&#8217;t retrieve real-time information, it lacks context,” Lenchner says. “In a business setting, that&#8217;s not acceptable anymore. Stale answers lead to bad decisions and disappointed consumers.” Speed is not merely a matter of convenience; it’s a matter of necessity. Today’s organizations operate in environments where prices, inventory, markets, security threats, and customer behavior change continuously. Delayed data retrieval can reduce the usefulness of an otherwise sophisticated model. Using live, high-quality web data can also reduce AI hallucinations because the model has a more relevant knowledge base. This builds user trust. In fact, one survey found that 56% of AI practitioners said businesses need access to real-time web data to improve trust in AI outputs. To ensure the model runs efficiently and effectively, the information must also be pared down to the appropriate essentials.&nbsp; Despite the introduction of retrieval-augmented generation (RAG), where models pull in external data at the moment of a query, many AI systems still struggle to deliver outputs that are current, contextually relevant, and trustworthy in operational settings. According to Gartner, 60% of AI projects that are not supported by AI-ready data—accurate, structured, organized, and contextualized—will be abandoned by the end of the year.&nbsp; This is because large-scale retrieval alone does not solve the problem. As Lenchner puts it, “You need to retrieve data at scale, but also in real time. Latency becomes an issue because of the end user who is waiting for the output.”&nbsp; Accessing fresh, AI-ready data at scale introduces technical and structural challenges. In practice, many enterprise systems combine public web retrieval with APIs, licensed datasets, and proprietary internal data in their AI applications. Integrating these fragmented sources into a timely and usable knowledge layer requires specialized capabilities. Some research has found that 97% of AI organizations depend on real-time web data infrastructure, but 90% feel boxed in by various restrictions. Companies are increasingly developing technical approaches to navigate these constraints. Lenchner draws this metaphor: “Think of the trained model as intelligence and relevant data as knowledge. A powerful intelligence layer sitting on top of a hollow knowledge layer is like a genius who knows nothing—useless in practice. Intelligence and knowledge have to come together.” The promise of new infrastructure A new layer of web data infrastructure can address this developing need for stronger AI inputs by enabling discovery of data, real-time access, and tailoring to a specific context. As Lechner describes it, “It&#8217;s all about collecting data at scale, super-low latency, without being blocked.” Rather than relying on increased computing power, this type of platform emulates human browsing behavior to access available content and transform raw code into structured data feeds. It can work with websites that might not interact with traditional scraping tools, such as those heavy in JavaScript, or with aggressive antibot software.&nbsp; As Lenchner explains, “It&#8217;s basically having infrastructure that can mimic a web user with identifying information—IP address, location, and 1,000 more parameters. And at scale. Think of doing that 80 billion times a day for millions of websites. And every single time, you are looking exactly as the website expects you to look.” Of course, continuous retrieval introduces new data governance challenges. To address them, platforms can enforce strict compliance protocols aligned with global privacy frameworks, such as the EU’s General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). They can also be limited to openly accessible, public information, avoiding paywalls or private logins. Any networks used can be vetted and consent-based, and incentives can be provided to owners of IP addresses. In this way, systems can be designed to comply with tightening regulation. Such complex capabilities do not come easy. “When this is critical infrastructure for a company,” Lenchner says, “doing it in-house becomes a full-time engineering problem that competes with the actual AI work.” Addressing this complexity requires organizations to commit significant resources, leading many to seek specialized platforms designed specifically for data retrieval, orchestration, and observability. Infrastructure for the real world Real-time data retrieval is changing what AI systems can do inside organizations. For example, a retail company can use public information to enable a dynamic pricing engine, and global brands can track trademark infringements.&nbsp; As the ecosystem matures, organizations that invest in this emerging data infrastructure layer will be better positioned to build AI systems that are more responsive, reliable, and aligned with real-world conditions—AI systems that can continuously adapt using current web data. Over time, the distinction between AI models and the infrastructure that feeds them may even begin to disappear. As Lenchner says, “The world is changing. And everything that is happening in the world is being uploaded to the public web. The amount of new data that is being generated is growing and accelerating.” To learn more from Bright Data, read the Data for AI 2026 report . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
+      "score": 89
     },
     {
       "title": "帮助构建高级AI的共享标准",
@@ -633,52 +580,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 89
-    },
-    {
-      "title": "GPT-5如何帮助免疫学家Derya Unutmaz解开一个3年前的谜团",
-      "originalTitle": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "date": "2026-06-23T17:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "GPT-5 Pro帮助解决了一个3年前的免疫学谜团，为T细胞行为提供了见解。这一突破可以支持癌症和自身免疫研究。",
-      "originalSummary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 83
-    },
-    {
-      "title": "Omio如何打造对话式旅行的未来",
-      "originalTitle": "How Omio is building the future of conversational travel",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/omio",
-      "date": "2026-06-23T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "了解Omio如何利用OpenAI为对话式旅行体验提供支持，加速产品开发，并转型为AI原生公司。",
-      "originalSummary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 81
-    },
-    {
-      "title": "每周使用人工智能、开放式工具和人工智能出货HUGGINGFACE_HUB",
-      "originalTitle": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "date": "2026-06-23T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
+      "score": 88
     }
   ]
 }
