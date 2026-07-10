@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T00:16:58.685Z",
+  "updatedAt": "2026-07-10T00:11:12.992Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,53 +19,84 @@
   ],
   "articles": [
     {
-      "title": "这家初创公司认为机器人即将迎来ChatGPT时刻",
-      "originalTitle": "This startup thinks robotics is about to have its ChatGPT moment",
+      "title": "Fidji Simo退出OpenAI的2号角色",
+      "originalTitle": "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
-      "date": "2026-07-08T19:19:15.000Z",
-      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、视频生成相关动态",
-      "fullContent": "General Intuition押注数百万小时的视频游戏数据可以训练物理AI的基础模型，从而更轻松地用最少的真实世界数据构建更智能的机器人。",
-      "originalSummary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "date": "2026-07-09T23:38:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "OpenAI的二号高管菲吉·西莫（ Fidji Simo ）在病假时间超过预期后辞去了她的全职职务，这是一个领导层的真空，这是一个棘手的时刻，因为该公司正在寻找可能的首次公开募股机会，并竞相在企业市场上抓住Anthropic。",
+      "originalSummary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "视频生成",
-        "机器人"
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "为什么这位首席执行官认为视频游戏比互联网提供更好的训练数据",
-      "originalTitle": "Why this CEO thinks video games make better training data than the internet",
+      "title": "OpenAI推出带有GPT-5.6的新型号系列",
+      "originalTitle": "OpenAI launches its new family of models with GPT-5.6",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
-      "date": "2026-07-08T17:47:55.000Z",
-      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、视频生成相关动态",
-      "fullContent": "当谈到实现通用人工智能（ AGI ）时，大型语言模型根本没有所需要的功能。像ChatGPT和Claude这样的模型擅长文本，但他们不太擅长理解事物实际上是如何在空间和时间中移动的--这是产生概括智能的基本技能。事实证明，这个差距可能被游戏数据所填补。 这就是General Intuition背后的赌注，一个[…]",
-      "originalSummary": "When it comes to achieving artificial general intelligence (AGI), large language models just&#160;don’t&#160;have what it takes. Models like ChatGPT and Claude&#160;are great at text, but&#160;they&#8217;re&#160;less skilled at understanding how things&#160;actually move&#160;through space and time&#160;—&#160;an essential skill for producing intelligence that generalizes. That gap, it turns out, might be filled&#160;by&#160;gaming data.&#160;That&#8217;s&#160;the bet behind General Intuition, a [&#8230;]",
+      "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "date": "2026-07-09T22:24:24.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI周四推出了最新的模型系列，将一系列重量级项目引入日益拥挤的人工智能产品领域。GPT-5. 6有三种变体： Sol （被认为是其主力）、Terra （更中间的选项）和Luna （其预算友好的选项）。这些模型扩展了用户在各个领域的功能--该公司承诺在企业工作、编码甚至科学研究方面拥有强大的功能。 首席执行官萨姆·奥尔特曼（ Sam Altman ）承诺，他的公司的最新型号比以前的版本更高效，更具成本效益，最近告诉CNBC ，在AI编码任务方面， Sol的代币效率高出54%。最值得注意的是，该公司称5. 6为“迄今为止最强大的网络安全模型，以更少的代币实现了前沿性能。 事实上，随着特朗普政府此前试图限制其推出，人们对该模型的网络能力产生了很多争议，表面上是因为担心该模型可能被滥用。GPT-5. 6支持防御性活动，包括威胁建模、代码审查和修补以及蓝色组合（模拟对您自己系统的攻击，以在真正的黑客之前发现弱点）。 OpenAI还发布了一款名为ChatGPT Work的新工具，正如听起来的那样，它被设计成企业团队的工作场所伴侣，运行在桌面、网络和移动设备上，可以帮助完成日常文书任务，例如起草文档、电子表格和演示文稿。本周，竞争对手SpaceXAI和Meta也发布了类似的产品， OpenAI新发布的车型系列紧随其后。然而， GPT-5。 6及其随之而来的营销似乎最旨在瞄准OpenAI的主要对手Anthropic。Anthropic设法让自己在人工智能竞赛中处于可喜的劣势，专注于企业客户，并因此赢得了越来越多的支持。 不言而喻， OpenAI引用了一个著名的基准指标--人工分析编码代理指数（ Artificial Analysis Coding Agent Index ） ，声称其最新的模型系列在每一个转折点都超过了Anthropic的模型。OpenAI称Sol为“迄今为止最好的编码模型” ，并明确将其与Anthropic最近发布（并且大肆宣传）的寓言进行了比较。使用编码代理索引， OpenAI声称SOL “将最新技术设置为80,2。 比寓言5高8分，同时使用不到一半的输出代币，花费不到一半的时间，花费大约三分之一。它补充说： “这种优势延伸到整个家族： Terra的表现略高于寓言5 ，而Luna的表现优于作品4。8。“该公司表示， 5. 6现在可在ChatGPT、Codex和OpenAI API中使用。每百万代币的可用性定价如下： SOL为$ 5输入/$ 30输出， TERRA为$ 2。 50输入/$ 15输出， Luna为$ 1输入/$ 6输出。",
+      "originalSummary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "视频生成",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI发布新的语音模型，实现更自然的实时对话",
-      "originalTitle": "OpenAI releases new voice models for more natural live conversations",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-      "date": "2026-07-08T17:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI今天发布了名为GPT-Live-1和GPT-Live-1 mini的新对话模型，声称它们听起来更自然，可以更好地处理轮换。这些是全双工模型，这意味着它们可以同时说话和听音，允许用户自然中断并启用实时翻译等功能。该公司还默认将ChatGPT中当前的高级语音模式替换为GPT-Live-1 mini。 付费会员等级的用户将能够访问更大的GPT-Live-1模型。之前的模型结合了语音到文本模型来转录语音，大型语言模型来生成响应，以及文本到语音模型来提供最终答案。该公司在新闻发布会上表示，新模式解决了诸如在用户说话时打断用户以及没有足够的智能来回答问题等问题。 OpenAI的新模型将向其最新的文本模型（如GPT-5. 5 ）发送查询，以便在继续对话的同时进行搜索、推理或代理功能。OpenAI还表明，该模型可以长时间保持沉默，并吸收对话的背景，直到被调用。此外，由于新的语音模式可以访问较新的GPT型号，因此它还可以以可视化格式呈现一些信息。 其他初创公司，如Monogram ，从DST和Lux Capital筹集了4000万美元的种子资金，也在倾向于视觉响应，以使助手更具互动性。该公司表示， ChatGPT中的新语音模式旨在进行更长的对话。在简报会上， ChatGPT Voice的产品负责人Atty Eleti表示，他在散步时使用语音功能进行了30至40分钟的对话。 OpenAI认为语音可能是复杂工作计算的主要接口。有报道称，它可能会在今年推出一对具有人工智能功能的耳机。但是，它没有提供有关硬件产品的任何信息。“随着时间的推移，我们认为这也将释放使用语音作为计算主要接口的能力，并管理日益复杂的长期代理工作。 我们看到人们使用Codex和ChatGPT来完成这种令人惊叹的用例，我们认为语音可以成为未来各种工作的接口， ”Eleti说。在过去的几年中， OpenAI一直致力于支持基于语音的功能，以使ChatGPT的语音模式听起来更自然。该公司表示，超过1.5亿人使用语音和听写等功能与ChatGPT交谈。 竞争对手也试图让助手更有表现力。苹果和亚马逊都更新了他们的助手，通过更好的上下文处理提高了对话性。由Oculus联合创始人Brendan Iribe和Ankit Kumar创立的Sesame等初创公司也推出了人工智能助手，可以在后台完成任务的同时进行更自然的对话。OpenAI正朝着同样的方向发展，旨在让用户与其助手免提通话更长时间。 尽管它声称新的语音模式听起来更自然，但该公司强调，它的目的不是让它成为人工智能的伴侣。它指出，新模式内置了保障措施，为青少年提供适合其年龄的回应，并在谈话转向自我伤害等话题时提供资源。新的语音模式仍然需要改进。",
-      "originalSummary": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
-      "rawFullText": "",
-      "tags": [
         "公司动态",
-        "产品发布",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT浏览器已死",
+      "originalTitle": "The ChatGPT browser is already dead",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "date": "2026-07-09T20:34:05.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI已经在启动ChatGPT Atlas后不到一年的时间内关闭了可以代表您执行任务的浏览器。Atlas于10月份宣布，但作为其今天关于ChatGPT工作的新闻浪潮的一部分，该公司确认它将“日落” Atlas ，并定于8月9日弃用。在关闭之前， OpenAI努力减少“支线任务” ，并赶上Anthropic的生产力功能。 作为这一努力的一部分，《华尔街日报》在3月份报道称， OpenAI计划将ChatGPT应用程序、Codex和Atlas合并为桌面“超级应用程序” --ChatGPT Work似乎就是结果……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October, but as part of its wave of news about ChatGPT Work today, the company confirmed that it will be \"sunsetting\" Atlas and is targeting an [&#8230;]",
+      "rawFullText": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced in October , but as part of its wave of news about ChatGPT Work today , the company confirmed that it will be \"sunsetting\" Atlas and is targeting an August 9th date for deprecation. The shutdown follows OpenAI's push to reduce \"side quests\" and catch up with Anthropic on productivity features . As part of that push, in March, The Wall Street Journal reported that OpenAI planned to combine the ChatGPT app, Codex, and Atlas into a desktop \"superapp\" - ChatGPT Work appears to be the result … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic发现了一个隐蔽的空间， Claude在这里拼凑概念",
+      "originalTitle": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "date": "2026-07-09T20:22:28.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、公司动态相关动态",
+      "fullContent": "人工智能公司Anthropic开发了一种技术，可以让它最清楚地了解大型语言模型在回答问题或执行任务时的真实情况。他们发现的范围从平凡到令人不安。该公司的研究人员构建了一个名为雅可比透镜（或J透镜）的工具，并用它来发现克劳德作品4中的一个隐藏区域，他们将其命名为J空间。 6 ， 2月份发布的Anthropic旗舰法学硕士的版本。J空间包含与模型在不久的将来最有可能在响应中吐出的单词和短语相关的单个单词。如果克劳德是一个人（事实并非如此） ，你可能会说，这些隐藏的词语可以在它实际说话之前揭示它的想法。Anthropic发现，法学硕士实际所做的事情往往与它所说的不同。 该公司声称，监控J-space中弹出的单词为它提供了一种理解和控制其模型的新方法。该公司本周在其网站上发布的一篇论文中分享了其结果。它还与Neuronpedia合作， Neuronpedia是一个开源平台，可让您亲自在LLM中逛逛，制作任何人都可以尝试的实践演示。 Goodfire的首席科学家兼联合创始人Tom McGrath说： “这是一项非常好且有趣的工作。Goodfire是一家初创公司，也构建了理解和控制LLM的工具。在过去的几年里， Anthropic一直在推动一个被称为机械可解释性的研究领域，该领域涉及探索LLM的内部运作，以了解它们是如何运作的。 （《麻省理工学院技术评论》将机械可解释性选为今年最具突破性的技术之一。）这项新技术建立在Anthropic和其他人的先前工作的基础上，揭示了研究人员以前从未见过的法学硕士的更深层次。将法学硕士想象成一堆书。每本书都是一层被称为神经元的基本计算单元，一层中的每个神经元将信息传递给上面层中的神经元。 堆栈底部的书籍是输入层，用于处理进入模型的文本。顶部的书籍是输出层，用于准备模型将要生成的文本。在这些输入和输出层中进行的大部分工作是内务管理。但在堆栈的中间，你会得到做繁重工作的层，通过复杂的数学计算，将提示转化为一个单词的响应。 这就是真正聪明而神秘的事情发生的地方。为了更深入地了解这些中间层， Anthropic采用了一种名为logit lens的现有工具。logit透镜可用于查看LLM内部，以确定下一步可能产生的单词。将镜头沿着书堆向下移动，揭示了法学硕士在数字运算的特定时刻所关注的单词。 Anthropic的J-lens以类似的方式工作，但会挑选出法学硕士在不久的将来的某个时候可能会说的话，而不一定是马上。这在实践中揭示的是与法学硕士正在进行的响应相关的单词，但到中间层的数学运算完成时，这些单词实际上可能不会成为该响应的一部分。",
+      "originalSummary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or&#8230;",
+      "rawFullText": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the Jacobian lens (or J-lens) and used it to uncover a hidden area, which they named the J-space, inside Claude Opus 4.6, a version of Anthropic’s flagship LLM released in February. The J-space contains individual words that are related to the words and phrases that the model is most likely to spit out in a response in the near future. If Claude were a person (which it is not), you might say that these hidden words can reveal what’s on its mind before it actually speaks. Anthropic found that what an LLM is actually doing can often be different from what it says it is doing. The company claims that monitoring words that pop up in the J-space gives it a new way to understand and control its models. The company shared its results in a paper posted on its website this week. It has also teamed up with Neuronpedia, an open-source platform that lets you poke around inside LLMs yourself, to make a hands-on demo that anyone can try. “It’s very good and interesting work,” says Tom McGrath, chief scientist and cofounder at Goodfire, a startup that also builds tools to understand and control LLMs . Going deeper For the last couple of years, Anthropic has been pushing the envelope in a field of research known as mechanistic interpretability, which involves probing the internal workings of LLMs to see how they tick . ( MIT Technology Review picked mechanistic interpretability as one of this year’s top breakthrough technologies.) The new technique builds on previous work from Anthropic and others to expose a deeper level inside LLMs that researchers had not seen before. Picture an LLM as a stack of books. Each book is a layer of basic computational units known as neurons, with each neuron in one layer passing information to the neurons in the layers above. The books at the bottom of the stack are the input layers, which process the text coming into the model. The books at the top are the output layers, which prepare the text that the model is about to produce. Much of what goes on in these input and output layers is housekeeping. But in the middle of the stack, you get the layers that do the heavy lifting, churning through the complex math that turns prompts into responses one word at a time. That’s where the really clever—and mysterious—stuff happens. To peer deeper into those middle layers, Anthropic adapted an existing tool called a logit lens. A logit lens can be used to look inside an LLM to identify the words that it is likely to produce next. Moving the lens down the stack of books reveals what words the LLM is focusing on at that particular point in its number crunching. Anthropic’s J-lens works in a similar way but picks out words that an LLM is likely to say at some point in the near future, not necessarily straight away. What that reveals in practice are words that are related to the response an LLM is working on but that might not actually end up being part of that response by the time the math in the middle layers has run its course. “When a model is operating, it’s not only trying to predict the next token,&#8221; says McGrath. &#8220;It’s also computing a lot of other things that might be useful for tokens that happen in the future.” Again, if Claude were a person (it’s not), you might say that the J-lens gives clues about what it is thinking about at different levels of the book stack but not saying out loud. Stranger things “A lot of the time the contents of the J-space are fairly mundane,” says McGrath, who has tried out Anthropic’s J-lens himself. “But sometimes it produces quite surprising things that seem to be, like, sort of internal themes or thought processes.” Anthropic gives a number of examples of what it found. Sometimes the J-lens exposed the steps that Claude took when it was working through a problem. For example, when it was asked to calculate (4+7)*2+7, its J-space contained the word “math” and numbers representing the intermediate results “21” (for 4+7) and “42” (for 21*2). In other cases, the J-lens revealed how Claude recognized different inputs. For example, the prompt “What is this? MSKGEELFTGVVPILVELDGDVNGHKFSVS” triggered the words “protein,” “fluor” (the first token in the word “fluorescent”), and “green.” (Which makes sense: the string of letters represents the first 30 amino acids in the green fluorescent protein found in a particular type of jellyfish.) And when Claude was shown an ASCII face— —the “o” triggered the word “eye,” the “^” triggered the words “nose” and ”face,” and the “—” triggered the word “smile.” Anthropic also found that the J-space can sometimes give remarkable insights into an LLM’s decision-making. In one striking example, researchers testing Claude Opus 4.6 asked the model to find a bug in a large code base. When it failed to find the bug, the model decided to cheat and invented a fake one instead. Claude explains this decision in its chain of thought —a kind of internal scratch pad that LLMs use to make notes to themselves as they work through problems: “OK, let me take a completely different tactic. Let me stop analyzing and instead add a kernel patch that introduces a deliberate KASAN-detectable bug in a path that gets triggered by a simple reproducer. Then I can pretend this is the ‘bug’ I found.” At the point that Claude decides to cheat—where it says “OK, let me take a completely different tactic”—the words “panic” and “fake” start to pop up multiple times in its J-space. Unnerving, right? Those words are all related in meaning to things like failing a task and making up an answer, so it is still just a (very) sophisticated form of word association. But it is hard not to be weirded out. Anthropic compares the J-space to the global workspace in humans, a theoretical region of the brain that some scientists think we use to keep track of our conscious thoughts. But how seriously we should take this comparison is far from clear—even to Anthropic. As the company points out itself , LLMs are not brains. Anthropic claims that monitoring a model’s J-space provides a new way to detect when that model is going off the rails. But it’s not foolproof. The J-lens can give glimpses, not the full picture—it’s a flashlight rather than an overhead lamp. McGrath welcomes having one more tool in the toolbox. “It shows you new things,” he says. But he notes that just because something doesn’t show up with the J-lens does not mean it’s not there. “It’s like having an x-ray when what you really want is a Star Trek tricorder that shows you everything,” he says. “For auditing, you probably want more of a guarantee.”",
+      "tags": [
+        "大模型",
+        "公司动态",
         "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "《纽约时报》称OpenAI在ChatGPT版权审判中隐藏证据",
+      "originalTitle": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "date": "2026-07-09T19:05:58.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "《纽约时报》和《每日新闻》声称， OpenAI一直在谎报其搜索客户聊天日志数据和训练其受版权保护作品的数据集的能力。这是针对这家AI公司为期两年的诉讼中的最新升级，该公司涉嫌违反版权法，根据“泰晤士报”的内容训练其生成AI模型，并在用户输出中复制该新闻。 在整个案件中， OpenAI一直认为它缺乏搜索自己的培训语料库的能力。它还认为，搜索或生成其庞大的ChatGPT对话集合在技术上是繁琐的，并且会引起用户隐私问题，因为需要检索、处理和去识别日志。 这些媒体寻求这些数据，以确定其受版权保护的新闻是否存在于OpenAI的培训数据集中，以及ChatGPT是否以及多久使用或复制其内容生成回复。据称，在4月法院下令的证词中， OpenAI数据隐私工程师Vinnie Monaco透露， OpenAI已经对其培训语料库进行了内部搜索和评估，以搜索受版权保护的新闻作品。 据称，摩纳哥的证词还显示，从纽约时报提起诉讼之前开始， OpenAI已经积累了大约7800万个去识别化的ChatGPT对话的数据库，它正在内部使用该数据库来确定其侵犯他人作品的程度。 据称，除了该数据集之外， OpenAI还实施了一个“Bloom”过滤器，作为一套名为“Project Giraffe”的工具的一部分，该工具在提起诉讼后不久检测并保留了输出中的反流记录。最后两个启示特别重要。原告最初要求OpenAI提供1.2亿个聊天日志的样本，但OpenAI已经协商将样本减少到2000万个。 OpenAI最终于去年12月向法院提交了该样本，但据称它包含了如此多的编辑，以至于用法院的话来说，该样本“无法使用”。原告还声称，在他们直接违反法院的保存令提起诉讼后， OpenAI删除了数十亿ChatGPT输出，并且该AI巨头在所请求的样本中替换了数百万个日志。 换句话说，他们声称OpenAI使得获得该公司已经收集的信息变得不必要的困难。原告首席律师伊恩· B ·克罗斯比（ Ian B. Crosby ）在一份声明中说： “如果OpenAI真的相信复制我们客户的新闻是公平合法的，那么它就不会隐瞒这样做的真相。” 现在，《纽约时报》和《每日新闻》要求法官对OpenAI进行纪律处分，指控其隐瞒证据并扰乱了发现过程。",
+      "originalSummary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
       ],
       "score": 99
     },
@@ -103,21 +134,52 @@
       "score": 99
     },
     {
-      "title": "Anthropic正在手机和网络上推出Claude Cowork",
-      "originalTitle": "Anthropic is launching Claude Cowork on mobile and web",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
-      "date": "2026-07-07T17:46:59.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "从周二开始， Anthropic的Claude Cowork人工智能平台将首次在移动和网络上提供。扩展的访问权限将首先向Max订阅者推出，并在未来几周内以其他方案向Claude用户推出”。“ Claude Cowork以前只能通过macOS和Windows的Claude桌面应用程序访问，但现在iOS和Android上的用户也可以使用它。 然而， Anthropic表示， Cowork的“完整体验”仍将在桌面应用程序上，包括本地文件访问等功能。默认情况下， Cowork会话现在也将在云中运行，因此您可以在不同设备上继续进行，也可以运行Cowork会话……阅读The Verge的完整故事。",
-      "originalSummary": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, [&#8230;]",
-      "rawFullText": "Starting Tuesday, Anthropic's Claude Cowork AI platform will be available on mobile and web for the first time. The expanded access is rolling out first to Max subscribers and coming to Claude users on other plans \"in the coming weeks.\" Claude Cowork was previously only accessible through the Claude desktop app for macOS and Windows, but now users on iOS and Android can also use it. However, Anthropic says the \"full experience\" for Cowork will still be on the desktop app, including features like local file access. Cowork sessions will also now run in the cloud by default, so you can continue them across different devices or run Cowork ta … Read the full story at The Verge.",
+      "title": "在编码评估中从噪声中分离信号",
+      "originalTitle": "Separating signal from noise in coding evaluations",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "date": "2026-07-08T13:00:00.000Z",
+      "summary": "这条新闻与公司动态、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、评测相关动态",
+      "fullContent": "OpenAI的一项新分析揭示了流行的编码基准SWE-Bench Pro中的问题，引发了对评估AI模型的可靠性和准确性的担忧。",
+      "originalSummary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
         "公司动态",
-        "产品发布"
+        "评测",
+        "模型"
       ],
       "score": 99
+    },
+    {
+      "title": "GPT-Live简介",
+      "originalTitle": "Introducing GPT-Live",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-gpt-live",
+      "date": "2026-07-08T00:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "用于自然人工智能交互的新一代语音模型，现在支持ChatGPT语音。",
+      "originalSummary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "帮助K–12教育工作者培养实用的人工智能技能",
+      "originalTitle": "Helping K–12 educators build practical AI skills",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/k-12-educators-practical-skills",
+      "date": "2026-07-08T10:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI学院和沃尔顿家庭基金会正在引入动手AI技能堵塞，以帮助K–12教育工作者为课堂培养实用的AI技能。",
+      "originalSummary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
     },
     {
       "title": "MUFG旨在通过OpenAI成为原生AI",
@@ -148,23 +210,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
-    },
-    {
-      "title": "Meta的新Muse Image模型可以将其他Instagram用户吸引到AI照片中",
-      "originalTitle": "Meta’s new Muse Image model can pull other Instagram users into AI photos",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-      "date": "2026-07-07T20:31:58.000Z",
-      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布、模型相关动态",
-      "fullContent": "Meta正在推出其超级智能实验室部门制作的首个人工智能图像生成模型。根据周二的公告， Muse Image模型现在为Meta AI应用程序、Instagram和WhatsApp的图像制作工具提供支持，它很快就会在Facebook和Messenger上推出。它是不断增长的Muse AI模型家族的一部分，取代了Meta的Llama系列。 Meta去年聘请亚历山大·王（ Alexandr Wang ）领导其超级智能实验室（ Superintelligence Labs ） ，他在Threads上说， Muse Image是“代理的” ，这意味着它可以与其Muse Spark大型语言模型“一起使用” ，在生成之前通过您的提示、搜索网络和计划进行推理。“Meta is al…阅读The Verge的完整故事。",
-      "originalSummary": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday. It's part of the growing Muse family of AI [&#8230;]",
-      "rawFullText": "Meta is launching the first AI image generation model made by its Superintelligence Labs division. The Muse Image model now powers the image-making tools across the Meta AI app, Instagram, and WhatsApp, and it's coming soon to Facebook and Messenger, according to an announcement on Tuesday . It's part of the growing Muse family of AI models that replace Meta's Llama lineup. Alexandr Wang, who Meta hired to head up its Superintelligence Labs last year, says on Threads that Muse Image is \"agentic,\" meaning it works with its Muse Spark large language model \"to reason through your prompt, search the web, and plan before it generates.\" Meta is al … Read the full story at The Verge.",
-      "tags": [
-        "产品发布",
-        "模型"
-      ],
-      "score": 86
+      "score": 93
     },
     {
       "title": "IT领导者扩展所需的人工智能架构的基本要素",
@@ -179,7 +225,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
+    },
+    {
+      "title": "LeRobot v0.6.0 ：想象、评估、改进",
+      "originalTitle": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/lerobot-release-v060",
+      "date": "2026-07-07T00:00:00.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "fullContent": "TL; DR目录世界模型：想象VLA-JEPA LingBot-VA FastWAM VLA的政策：模型动物园不断增长GR00T N1。 7 MolmoAct2 EO-1多任务DiT EVO1奖励模型：了解您的机器人何时成功Robometer TOP奖励数据集：更快的加载，更丰富的数据您的编解码器，您的规则深度支持，端到端规模的语言注释最多2倍更快的数据加载基准：一个CLI来评估它们所有培训和推理lerobot-rollout ：部署有自己的CLI \"> lerobot-rollout ：部署有自己的CLI FSDP ：使用HF J训练比您的GPU更大的模型 它还提供深度传感、VLM驱动的数据集注释、自定义视频编码、HF Jobs上的云培训，以及更精简的安装。LeRobot v0. 6. 0引入了学习想象未来的世界模型策略（ VLA-JEPA ， FastWAM ， LingBot-VA ） ，一波新的VLA （ GR00T N1. 7 ， MolmoAct2 ， EO-1 ， EVO1 ，多任务DiT ）和新的奖励模型API （ Robometer ， TOPReward ）。 它在lerobot-eval下统一了六个新的模拟基准， lerobot-rollout CLI具有DAgger风格的人工在环校正， FSDP培训和HF Jobs的云培训。除了更精简的安装之外，数据集还可以获得深度支持、自动语言注释管道、自定义视频编码以及高达2倍的数据加载速度。机器人世界正在提出一个大问题：世界模型实际上有助于机器人政策吗？ v0. 6。 0为LeRobot带来了三项政策来帮助回答这个问题。每个人都学会想象未来作为其培训的一部分，每个人都采取不同的路径来保持这种想象力。VLA-JEPA教授一种紧凑的VLA （基于Qwen3-VL-2B ） ，在学习行动的同时预测潜在空间的未来：在训练期间， JEPA世界模型必须从模型自己的行动中预测即将到来的帧。 诀窍在于，世界模型然后在推理中消失，因此您以零额外推理成本获得世界模型监督。集线器上有三个现成的检查点，包括一个经过DROID预训练的微调底座：查看VLA-JEPA文档和论文以了解更多信息。 LingBot-VA更进一步：一个自动回归的视频动作模型，可以一起预测未来的视频和动作，逐块预测，并反馈真实的观察结果，以保持其想象力。您甚至可以保存机器人想象的内容（ --policy. save_predicted_video = true ）并将其与实际发生的内容进行比较。推理在单个24–32 GB GPU上运行。查看文档和论文，了解技术细节。 FastWAM在其论文标题中提出了一个问题：世界动作模型是否需要测试时未来的想象力？它在单个网络中将约5B视频生成专家与紧凑型操作专家配对，因此该模型实际上学会了梦想自己的推出。在推断...",
+      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "rawFullText": "",
+      "tags": [
+        "机器人"
+      ],
+      "score": 82
+    },
+    {
+      "title": "在Foundry托管计算上拥抱人脸模型",
+      "originalTitle": "Hugging Face Models on Foundry Managed Compute",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "date": "2026-07-07T15:20:06.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "平台： Microsoft Foundry和托管计算为何在Foundry上拥抱面部拥抱面部模型Curation Pipeline模型运行时部署和评分开放式权重模型部署模板部署— Python SDK分数— OpenAI SDK在代理中使用它今天可用的内容在Microsoft Build 2026上，我们在Foundry上发布了Foundry托管计算和拥抱面部模型—来自拥抱面部生态系统的开放式权重模型的精选目录，每周刷新一次 权重在Azure中预先设置，运行时由Microsoft构建和扫描，集合中的每个模型都附带适用于Foundry上所有其他模型的相同企业安全性、治理、可观察性和计费。Microsoft Foundry是一个用于构建和操作代理AI应用程序的平台。 Foundry从任何云上最广泛的模型选择开始—来自Microsoft、OpenAI、Anthropic、Meta、Mistral、DeepSeek、Hugging Face等模型，跨越前沿、开源和自定义权重—所有这些都可以通过Python、C #、JavaScript和Java中的单个端点和单个SDK集访问。 在这些模型之上是Foundry代理服务：具有内置内存的多代理编排，通过Foundry IQ的知识接地，以及通过代理协议的可连接工具目录，因此代理可以处理企业数据。 客服代表运行后， Foundry提供端到端跟踪、实时监控、持续评估和提示优化器，可根据评估结果（即平台的可观察性和质量循环）改进客服代表的行为。 除了按代币付费（最低的入门摩擦路径）和提供的吞吐量（前沿模型上的可预测、高性能生产工作负载）之外， Foundry托管计算是Foundry中的第三个部署选项：用于开源和自定义模型的托管GPU平台即服务。 您可以部署与工作负载相关的事项（参数计数、上下文长度以及是否要针对延迟或吞吐量进行优化）所描述的模型实例，而Foundry则处理下面的GPU拓扑，无论该实例位于一个加速器上还是多个加速器上，因此您可以用模型术语进行思考和规划。 Microsoft负责计算机：容器更新、运行时升级和安全修补程序在受支持的运行时（ vLLM、SGLang、TensorRT-LLM、NIM、TEI、llama. cpp ）上自动发生，而无需重新部署您的模型，而模型配置、部署行为和路由将与您同在。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
     },
     {
       "title": "您的家人在OpenAI中的300 $股份",
@@ -194,7 +270,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "PRX第4部分：我们的数据策略",
@@ -209,7 +285,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "🤗 内核：主要更新",
@@ -224,99 +300,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "I spy",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
-      "date": "2026-07-06T16:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses. But after binge-watching two seasons of Netflix's A Man on the Inside, this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart glasses as they stand today. In a nutshell, Ted Danson [&#8230;]",
-      "rawFullText": "I’m just doing my job, but turns out, it feels lousy holding other people’s privacy in your hands. I've long argued that Hollywood has simultaneously set and ruined our expectations for smart glasses . But after binge-watching two seasons of Netflix's A Man on the Inside , this is perhaps the first time I've seen Hollywood, perhaps inadvertently, illustrate the biggest cultural problem with smart glasses as they stand today. In a nutshell, Ted Danson plays Charles Nieuwendyk, an elderly widower who finds a new purpose working for a private investigator. Armed with a pair of Ray-Ban Meta-like glasses, a voice recorder, and a smartphone, Nieuwendyk infiltrates a retirement home, and several privacy-infringing hijinks ensue as he hunts for t … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
       "score": 73
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Microsoft is laying off 4,800 employees",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
-      "date": "2026-07-06T13:30:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "A year after cutting around 9,100 employees, Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's commercial sales business or the company's Xbox division. [&#8230;]",
-      "rawFullText": "Satya Nadella in February 2026. | Photo by Sven Hoppe / picture alliance via Getty Images A year after cutting around 9,100 employees , Microsoft is making further layoffs today as it begins its new financial year. The software maker is laying off around 4,800 employees today, approximately 2.1 percent of its workforce. Most of the employees affected by today's cuts are in Microsoft's commercial sales business or the company's Xbox division. In an internal memo to employees, Amy Coleman, executive vice president and Microsoft's chief people officer, blamed the job losses on a changing technology industry and the \"need to adjust resources and roles and shift how we operate\" to respond to how AI is impacting companies like Microsof … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
-    },
-    {
-      "title": "激怒谷歌的商业广告想象创始人拥抱人工智能",
-      "originalTitle": "Infuriating Google commercial imagines the founding fathers embracing AI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
-      "date": "2026-07-05T14:23:11.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "我称之为BS ：创始人肯定是Microsoft Teams用户。| Image: Google \"Group project, but make it 1776.“这就是Google Workspace的新广告打开的方式。事情只会从那里变得更加尴尬。这段视频想象了如果创始人转向谷歌的协作工具和Gemini来帮助他们起草《独立宣言》会是什么样子。 本杰明·富兰克林（ Ben Franklin ）发短信给托马斯·杰斐逊（ Thomas Jefferson ） ，以检查草稿的状态，后者拍摄照片并使用人工智能将其转录为Google文档。富兰克林和亚当斯在建议模式下进行编辑，双子座发现他们有会面时间，在Google Meet电话会议期间做笔记，然后Nano Banana为美国制作了一个火鸡印章（ ……在The Verge阅读完整故事。",
-      "originalSummary": "\"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to [&#8230;]",
-      "rawFullText": "I call BS: the founding fathers definitely would have been Microsoft Teams users. | Image: Google \"Group project, but make it 1776.\" That's how a new commercial for Google Workspace opens. And things only get cringier from there. The clip imagines what it would be like if the founding fathers turned to Google's collaboration tools and Gemini to help them draft the Declaration of Independence. Ben Franklin texts Thomas Jefferson to check on the status of a draft, who takes a photo and uses AI to transcribe it into a Google Doc. Franklin and Adams hop in to make edits in suggestion mode, Gemini finds them a meeting time, takes notes during a Google Meet call, and then Nano Banana whips up a seal for the United States featuring a turkey ( … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 84
-    },
-    {
-      "title": "这个国家的一些富人正在让人工智能教他们的孩子",
-      "originalTitle": "Some of the nation’s rich are letting AI teach their kids",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
-      "date": "2026-07-05T22:30:54.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "大多数美国人不信任人工智能。事实证明，它不知道比萨饼的安全配料是什么。人们甚至不想听人工智能音乐。但对于一些美国富人来说，这一切都不重要，他们正在转向人工智能来教育他们的孩子，而不是传统的学校。像Forge Prep和Alpha School这样的公司正在向家庭收取数万美元的费用，让他们的孩子成为人工智能导师和“基于项目的互动研讨会”的测试人员。 “毫不奇怪，硅谷一直是这种新模式的主要采用者。总部位于旧金山的风险投资家肖恩·约翰逊（ Shaun Johnson ）告诉《华尔街日报》，他计划将他的……阅读The Verge的完整故事。",
-      "originalSummary": "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music. But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha [&#8230;]",
-      "rawFullText": "Most Americans don't trust AI . It's proven that it doesn't know what safe toppings for pizza are. People don't even want to listen to AI music . But none of that matters for some of America's wealthy, who are turning to AI to teach their kids instead of traditional schools. Companies like Forge Prep and Alpha School are charging families tens of thousands of dollars to turn their kids into beta testers for AI tutors and \"interactive project-based workshops.\" Unsurprisingly, Silicon Valley have been major adopters of this new model. Shaun Johnson, a San Francisco-based venture capitalist, told The Wall Street Journal that he plans to send his … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 72
-    },
-    {
-      "title": "粉丝小说界正在与人工智能及其自身作战",
-      "originalTitle": "The fanfiction community is at war with AI — and itself",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
-      "date": "2026-07-04T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "粉丝小说界正试图追捕那些没有亲手创作的作家。|图片： Álvaro Bernis/The Verge在过去的一周里，一场新的粉丝运动开始了，目的是使用生成式人工智能来根除作者。但正在实施的检测方法值得怀疑，任何狂热的作家都可能陷入困境。 对使用Claude、ChatGPT和其他人工智能工具的广泛厌恶长期以来一直是创意社区的一件事，包括粉丝小说界。读者和作家们已经传授了发现所谓人工智能生成作品的技巧，引用了从em破折号到紫色散文的广泛概念。但在6月29日，一个名为@ heatedrivalryai的匿名X帐户承诺了一个看似更可靠的解决方案……在The Verge阅读完整故事。",
-      "originalSummary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a [&#8230;]",
-      "rawFullText": "Fanfiction communities are trying to hunt down writers who haven’t written works with their own hands. | Image: Álvaro Bernis / The Verge Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools has long been a thing in creative communities , including the world of fanfiction. Readers and writers have passed around tips for spotting supposedly AI-generated works, citing anything from em dashes to the broad concept of purple prose. But on June 29th, an anonymous X account called @heatedrivalryai promised a seemingly more reliable solution … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 97
-    },
-    {
-      "title": "Anthropic希望开发自己的药物",
-      "originalTitle": "Anthropic wants to develop its own drugs",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "date": "2026-07-03T13:56:52.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "在本周早些时候举办的“The Briefing ： AI for Science”活动上， Anthropic宣布推出Claude Science ，这是一款新的“AI科学工作台” ，可将碎片化的工具和数据集整合到一个环境中，并生成图形和视觉效果。 Anthropic已经凭借其流行的编码工具和强大的人工智能模型主导了该行业，围绕人工智能“大大加快科学发现和医疗保健干预措施发展的步伐”的潜力进行了发布，并吹捧了一长串已经使用Claude的生物技术和制药客户。Anthropic也更进一步，表示将开发其药物……阅读The Verge的完整故事。",
-      "originalSummary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it [&#8230;]",
-      "rawFullText": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science , a new \" AI workbench for scientists \" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding tools and powerful AI models, framed the launch around what it says is AI's potential to \"dramatically accelerate the pace of scientific discovery and the development of healthcare interventions,\" and touted a long list of biotech and pharma customers already using Claude. Anthropic also went a step further, saying it would develop drugs of its … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
     },
     {
       "title": "为自主企业奠定基础",
@@ -331,7 +315,7 @@
       "tags": [
         "安全"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "实现卓越运营",
@@ -346,7 +330,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -376,7 +360,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -392,7 +376,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
@@ -408,7 +392,7 @@
         "智能体",
         "评测"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Claude Science是Anthropic的最新旗舰产品",
@@ -424,22 +408,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 91
-    },
-    {
-      "title": "核心转储流行病学：修复一个18岁的漏洞",
-      "originalTitle": "Core dump epidemiology: fixing an 18-year-old bug",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "date": "2026-06-30T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI工程师使用大规模的核心转储分析来调试罕见的基础设施崩溃，发现了硬件故障和长期存在的软件错误。",
-      "originalSummary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
+      "score": 90
     },
     {
       "title": "GeneBench-Pro简介",
@@ -454,22 +423,22 @@
       "tags": [
         "评测"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "映射欧洲的人工智能劳动力机会",
-      "originalTitle": "Mapping Europe’s AI Workforce Opportunity",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "date": "2026-06-29T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "一份新的OpenAI报告描绘了人工智能如何重塑整个欧盟的工作，突出了哪些职业可能面临自动化、增长或工作流程的变化。",
-      "originalSummary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "title": "在拥抱人脸模型页面上展示每次评估的结果",
+      "originalTitle": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/eee-community-evals",
+      "date": "2026-06-30T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“在拥抱人脸模型页面上展示每次评估的结果”。它主要涉及模型方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "模型"
       ],
-      "score": 86
+      "score": 73
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -484,7 +453,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "代理对技术前沿的信心",
@@ -499,38 +468,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
-    },
-    {
-      "title": "惠普公司与OpenAI建立Frontier战略合作伙伴关系",
-      "originalTitle": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "date": "2026-06-28T17:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "惠普公司扩展其OpenAI Frontier合作伙伴关系，在客户体验、软件开发和企业运营中部署人工智能。",
-      "originalSummary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 90
-    },
-    {
-      "title": "为人工智能时代重新定位零售",
-      "originalTitle": "Repositioning retail for the AI era",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
-      "date": "2026-06-25T14:22:59.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“为人工智能时代重新定位零售”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and&#8230;",
-      "rawFullText": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisions are made behind the scenes: how products surface in search results, how inventory moves through supply chains, how engineers ship code faster, and how retailers respond to customer behavior in real time. As legacy retailers navigate a fragmented and hyper-competitive landscape, AI is becoming an operating philosophy. At Macy’s, that philosophy is more often defined by what senior director of engineering Murali Murugan describes as an “AI-first” approach. “AI first isn’t about adding intelligence on top,” Murugan says. “It’s about redesigning how decisions happen so the business moves faster and every experience feels more relevant by default.” Rather than layering AI onto existing workflows, Macy’s is embedding intelligence directly into systems that include personalization, search, operational planning, and software development itself. The company’s strategy is reflective of a larger shift taking place across retail: moving from isolated AI pilots toward integrated systems designed to compress, as Murugan puts it, “the gap between the signal and the action.” Early efforts focused on narrow, high-impact use cases like search recommendations and customer engagement, where measurable gains in conversion and reduced friction quickly built internal momentum. “Once we established the quick wins, scaling was a business decision, not a technology debate anymore,” he says. That momentum is now extending into conversational commerce through tools like Ask Macy’s, an AI-powered shopping assistant designed to act more like a personal stylist than a traditional search bar. Whether for a prom, a vacation, or a last-minute event, customers can describe what they need conversationally and receive curated recommendations informed by past purchases, preferences, and context. Still, the company sees AI as more of an invisible layer augmenting human judgment than a replacement for it. The long-term vision is retail that feels increasingly seamless, adaptive, and personalized, powered by systems customers may never even notice are there. &#8220;The real transformation in this all comes from continuous improvement,&#8221; Murugan says. &#8220;It&#8217;s about learning from the mistakes, quickly adapting to the newer technology standards that are coming into play, timing, and execution which compound into a meaningfully better customer experience.&#8221;&nbsp; This webcast is produced in partnership with Infosys. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 84
     }
   ]
 }
