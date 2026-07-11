@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T00:11:12.992Z",
+  "updatedAt": "2026-07-11T00:03:31.504Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,87 @@
   ],
   "articles": [
     {
-      "title": "Fidji Simo退出OpenAI的2号角色",
-      "originalTitle": "Fidji Simo steps down from OpenAI&#8217;s no. 2 role",
+      "title": "主动式企业代理的上下文图表",
+      "originalTitle": "Context Graphs for Proactive Enterprise Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.07721",
+      "date": "2026-07-10T04:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、公司动态相关动态",
+      "fullContent": "arXiv: 2607. 07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG)和agentic framework具有相当先进的企业AI ，但agent基本上保持被动：它们在行动之前等待人工查询。本文认为，真正提高企业生产力需要主动代理：在员工提出要求之前向其提供相关、可操作的信息的系统。 我们提出了上下文图，这是一种实时关系数据结构，可对企业实体、其关系和状态随时间变化的转换进行建模。在此图表上，我们定义了持续监控状态变化的Delta检测引擎、根据紧迫性、相关性和角色拟合对候选人洞察进行排名的主动性评分器，以及由LLM提供支持的Surfacing Layer ，该LLM提供具有基础解释的排名通知。 我们对每个组件进行形式化，导出统一的Proactivity Score函数，并使用NetworkX和Anthropic Claude API提供完整的端到端Python实现。对三个通用企业案例研究（合同生命周期管理、工程事故响应和销售管道卫生）的评估表明，上下文图驱动的主动性实现了精度@ 5的0. 83 ，误报率为0。 11 ，并将平均表面时间从47分钟（反应性基线）减少到30秒以下。",
+      "originalSummary": "arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they ask. We propose the Context Graph, a live relational data structure that models enterprise entities, their relationships, and state transitions over time. Built on this graph, we define a Delta Detection Engine that continuously monitors state changes, a Proactivity Scorer that ranks candidate insights by urgency, relevance, and persona-fit, and a Surfacing Layer powered by an LLM that delivers ranked notifications with grounded explanations. We formalize each component, derive a unified Proactivity Score function, and provide a complete end-to-end Python implementation using NetworkX and the Anthropic Claude API. Evaluation across three generic enterprise case studies (contract lifecycle management, engineering incident response, and sales pipeline hygiene) demonstrates that context-graph-driven proactivity achieves Precision@5 of 0.83, a false positive rate of 0.11, and reduces mean time to surface from 47 minutes (reactive baseline) to under 30 second.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Infinity-Parser2技术报告",
+      "originalTitle": "Infinity-Parser2 Technical Report",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.07836",
+      "date": "2026-07-10T04:00:00.000Z",
+      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
+      "fullContent": "arXiv: 2607. 07836v1通告类型：新摘要：我们提出Infinity-Parser2 ，这是一个大型多模态模型，将可控数据合成管道与多任务强化学习相结合，用于端到端文档解析，解决了忠实注释解析语料库的持续稀缺性。我们的贡献是三倍的。 首先，我们构建一个可扩展的合成引擎，将可控的渲染框架与迭代细化循环配对，并使用它来构建和开源Infinity-Doc2-5M ：一个跨越不同文档类型的500万样本双语（中文/英文）语料库，带有元素边界框、规范内容形式（ Markdown、HTML、LaTeX、SMILES、结构化图表）和整页阅读顺序。 其次，我们引入了可验证的多任务奖励系统，使联合强化学习能够跨越八个共同训练的目标（文档解析、布局分析、表解析、数学公式解析、图表解析、化学公式解析、文档VQA和一般多模态理解） ，在单个优化信号中统一感知、结构和推理。 第三，我们在共享架构下发布了两个变体： Infinity-Parser2-Flash ，针对低延迟推理进行了优化，比Infinity-Parser-7B增加了$ 3. 68\\ $的吞吐量，以及Infinity-Parser2-Pro ，专为精确关键设置而设计。Infinity-Parser2-Pro在olmOCR-Bench上达到了87. 6% ，在ParseBench上达到了74. 3% ，超过了DeepSeek-OCR-2、PaddleOCR-VL-1. 5和MinerU2。 5、对图表、化学式和VQA文件有较强的泛化。",
+      "originalSummary": "arXiv:2607.07836v1 Announce Type: new Abstract: We present Infinity-Parser2, a large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for end-to-end document parsing, addressing the persistent scarcity of faithfully annotated parsing corpora. Our contributions are threefold. First, we build a scalable synthesis engine, pairing a controllable rendering framework with an iterative refinement loop, and use it to construct and open-source Infinity-Doc2-5M: a 5-million-sample bilingual (Chinese/English) corpus spanning diverse document types, annotated with element bounding boxes, canonical content forms (Markdown, HTML, LaTeX, SMILES, structured charts), and full-page reading order. Second, we introduce a verifiable, multi-task reward system that enables Joint Reinforcement Learning across eight co-trained objectives (document parsing, layout analysis, table parsing, math formula parsing, chart parsing, chemical formula parsing, document VQA, and general multimodal understanding), unifying perception, structure, and reasoning in a single optimization signal. Third, we release two variants under a shared architecture: Infinity-Parser2-Flash, optimized for low-latency inference with a $3.68\\times$ throughput gain over Infinity-Parser-7B, and Infinity-Parser2-Pro, engineered for precision-critical settings. Infinity-Parser2-Pro reaches state-of-the-art 87.6% on olmOCR-Bench and 74.3% on ParseBench, surpassing DeepSeek-OCR-2, PaddleOCR-VL-1.5, and MinerU2.5, with strong generalization to charts, chemical formulas, and document VQA.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "多模态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "直通承销中的代理AI和检索增强模型",
+      "originalTitle": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.07858",
+      "date": "2026-07-10T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 07858v1公告类型：新摘要：人工智能(AI)正开始重塑精算实践，特别是在需要对非结构化文档、异构数据源和受监管的决策工作流进行推理的领域。 精算师现在面临着一个设计空间，从传统的基于规则的自动化到大型语言模型(LLM)、检索增强生成(RAG) ，以及规划、检索、调用工具和反思的多代理“代理”系统。本文研究了这些新兴架构如何支持精算优先级，如透明度、可审计性和人性化治理，重点关注直通式决策过程。 为了使这些想法具体化，我们开发和分析了一个用于直接承销小型商业企业主政策（ BOP ）的代理人工智能框架。 我们构建了一个合成但逼真的实验环境，并比较了三个承保管道： （ i ）单LLM基线， （ ii ）朴素的RAG系统，以及（ iii ）结合有针对性的检索、第三方数据检查和显式多步骤规则评估的多Agent “Agentic RAG”管道。 代理系统总体上表现最佳，在多步和缺失信息场景中增益最大，其中结构化检索和反射有助于模型避免不受支持的直通决策。",
+      "originalSummary": "arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that ranges from traditional rule-based automation to large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent ``agentic'' systems that plan, retrieve, call tools, and reflect. This paper examines how these emerging architectures can support actuarial priorities such as transparency, auditability, and human-in-the-loop governance, with a focus on straight-through decision processes. To make these ideas concrete, we develop and analyze an agentic AI framework for straight-through underwriting of small commercial Business Owner Policies (BOPs). We construct a synthetic but realistic experimental environment and compare three underwriting pipelines: (i) a single-LLM baseline, (ii) a naive RAG system, and (iii) a multi-agent ``Agentic RAG'' pipeline that combines targeted retrieval, third-party data checks, and explicit multi-step rule evaluation. The agentic system performs best overall, with the largest gains in multi-step and missing-information scenarios, where structured retrieval and reflection help the model avoid unsupported straight-through decisions.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "论文"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI表示，在分手喋喋不休的情况下， GPT 5.6是Microsoft Copilot 365的“首选型号”",
+      "originalTitle": "OpenAI says GPT 5.6 is the &#8216;preferred model&#8217; for Microsoft Copilot 365 amid breakup chatter",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-      "date": "2026-07-09T23:38:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "OpenAI的二号高管菲吉·西莫（ Fidji Simo ）在病假时间超过预期后辞去了她的全职职务，这是一个领导层的真空，这是一个棘手的时刻，因为该公司正在寻找可能的首次公开募股机会，并竞相在企业市场上抓住Anthropic。",
-      "originalSummary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
+      "link": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "date": "2026-07-10T00:16:54.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "本周早些时候，彭博社报道称，微软正在用自己的内部模型取代OpenAI的部分软件，以削减成本。这些内部模型被称为MAI ，被用于为Word和Excel等应用程序提供动力。这个故事提出了一个关于两家公司的日益普遍的问题，这两家公司曾经似乎是不可分割的，最近发出了关于他们处境的好坏参半的信号：两家公司是否分道扬镳？ 现在， OpenAI正试图消除这种休息的任何暗示。在OpenAI周四推出GPT 5. 6期间，该公司宣布它将成为微软365 Copilot的“首选模式”。OpenAI在一篇相关的博客文章中指出， GPT 5. 6将支持微软公司生产力应用程序套件中的微软用户，包括Word、Excel、PowerPoint和Cowork。 OpenAI写道： “我们与微软的合作始终是为了将高级人工智能的好处带给更多的个人和组织，我们很高兴能够继续巩固这一共同的承诺。” “首选模式”实际上意味着什么并不完全清楚，除了OpenAI的软件将继续为微软的应用程序提供支持。 也就是说，从未有报道称ChatGPT的软件将停止为微软的应用程序提供支持—只是微软越来越依赖自己的软件来降低成本。新的“首选模式”披露似乎并没有否定之前的报告。在TechCrunch创始人峰会上节省高达190 $的最后机会。 与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "OpenAI's new family of models will continue to power Microsoft's suite of workplace and productivity apps.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "德国电信如何使用人工智能重新布线电信",
+      "originalTitle": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/deutsche-telekom",
+      "date": "2026-07-10T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "德国电信如何成为一家拥有OpenAI的AI原生电信公司--改变客户服务、员工工作流程、网络运营和语音的未来。",
+      "originalSummary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "rawFullText": "",
       "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 95
     },
     {
       "title": "OpenAI推出带有GPT-5.6的新型号系列",
@@ -85,34 +153,34 @@
       "score": 99
     },
     {
-      "title": "《纽约时报》称OpenAI在ChatGPT版权审判中隐藏证据",
-      "originalTitle": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
-      "date": "2026-07-09T19:05:58.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "《纽约时报》和《每日新闻》声称， OpenAI一直在谎报其搜索客户聊天日志数据和训练其受版权保护作品的数据集的能力。这是针对这家AI公司为期两年的诉讼中的最新升级，该公司涉嫌违反版权法，根据“泰晤士报”的内容训练其生成AI模型，并在用户输出中复制该新闻。 在整个案件中， OpenAI一直认为它缺乏搜索自己的培训语料库的能力。它还认为，搜索或生成其庞大的ChatGPT对话集合在技术上是繁琐的，并且会引起用户隐私问题，因为需要检索、处理和去识别日志。 这些媒体寻求这些数据，以确定其受版权保护的新闻是否存在于OpenAI的培训数据集中，以及ChatGPT是否以及多久使用或复制其内容生成回复。据称，在4月法院下令的证词中， OpenAI数据隐私工程师Vinnie Monaco透露， OpenAI已经对其培训语料库进行了内部搜索和评估，以搜索受版权保护的新闻作品。 据称，摩纳哥的证词还显示，从纽约时报提起诉讼之前开始， OpenAI已经积累了大约7800万个去识别化的ChatGPT对话的数据库，它正在内部使用该数据库来确定其侵犯他人作品的程度。 据称，除了该数据集之外， OpenAI还实施了一个“Bloom”过滤器，作为一套名为“Project Giraffe”的工具的一部分，该工具在提起诉讼后不久检测并保留了输出中的反流记录。最后两个启示特别重要。原告最初要求OpenAI提供1.2亿个聊天日志的样本，但OpenAI已经协商将样本减少到2000万个。 OpenAI最终于去年12月向法院提交了该样本，但据称它包含了如此多的编辑，以至于用法院的话来说，该样本“无法使用”。原告还声称，在他们直接违反法院的保存令提起诉讼后， OpenAI删除了数十亿ChatGPT输出，并且该AI巨头在所请求的样本中替换了数百万个日志。 换句话说，他们声称OpenAI使得获得该公司已经收集的信息变得不必要的困难。原告首席律师伊恩· B ·克罗斯比（ Ian B. Crosby ）在一份声明中说： “如果OpenAI真的相信复制我们客户的新闻是公平合法的，那么它就不会隐瞒这样做的真相。” 现在，《纽约时报》和《每日新闻》要求法官对OpenAI进行纪律处分，指控其隐瞒证据并扰乱了发现过程。",
-      "originalSummary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
-      "rawFullText": "",
+      "title": "OpenAI在政府批准后推出GPT-5.6 —并宣布“ChatGPT Work”",
+      "originalTitle": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "date": "2026-07-09T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "在OpenAI的GPT-5. 6陷入监管戏剧性事件（仅在“有限预览”期间向政府批准的组织推出）大约两周后，该公司已获得特朗普政府公开推出该模型的绿灯。OpenAI首席执行官Sam Altman称之为“我们有史以来最好的模型。“为了庆祝， OpenAI还在同一天推出了一个新的人工智能代理： ChatGPT Work。 它被称为ChatGPT和Codex的组合，允许日常非技术用户利用Codex的功能执行非编码任务，并由GPT-5. 6模型套件（ Sol、Terra和Luna ）提供支持。“它可以……在The Verge阅读完整的故事。",
+      "originalSummary": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, [&#8230;]",
+      "rawFullText": "About two weeks after OpenAI's GPT-5.6 was caught up in regulatory drama - rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the Trump administration's greenlight for a public rollout of the model. OpenAI CEO Sam Altman called it \"the best model we have ever produced.\" To celebrate, OpenAI also unveiled a new AI agent on the same day: ChatGPT Work. It's billed as a combination of ChatGPT and Codex, allowing the everyday non-technical user to take advantage of Codex's capabilities for non-coding tasks, and it's powered by the GPT-5.6 model suite (Sol, Terra, and Luna). \"It can g … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "公司动态"
+        "公司动态",
+        "模型"
       ],
       "score": 99
     },
     {
-      "title": "ChatGPT升级的语音模式更适合关机",
-      "originalTitle": "ChatGPT’s upgraded voice mode is better at shutting up",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
-      "date": "2026-07-08T17:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI正在通过一种新模式彻底改变ChatGPT的语音模式，它说这更像是“与另一个人交谈”。“新的GPT-Live-1旨在减少打断您，如果您在谈话中暂停，也会等待您继续说话。在新闻发布会上， OpenAI研究负责人Kundan Kumar称GPT-Live-1是该公司迄今为止“最聪明的语音模型”。它会自动将您的查询传递给最好的文本模型，如GPT-5。 5 ，当它需要推理或搜索网络时，允许它更快地从研究您询问的主题转变为谈论其发现。升级后的型号还将补充……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan Kumar called GPT-Live-1 the company's [&#8230;]",
-      "rawFullText": "OpenAI is overhauling ChatGPT's voice mode with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation. During a press briefing, OpenAI research lead Kundan Kumar called GPT-Live-1 the company's \"smartest voice model\" yet. It will automatically pass your queries to its best text models, like GPT-5.5, when it needs to reason or search the web, allowing it to more quickly transition from researching the topic you've asked about to talking about its findings. The upgraded model will also supplement conv … Read the full story at The Verge.",
+      "title": "GPT-5.6现在是Microsoft 365 Copilot的首选型号",
+      "originalTitle": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "date": "2026-07-09T13:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“GPT-5.6现在是Microsoft 365 Copilot的首选型号”。它主要涉及大模型、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态",
         "模型"
       ],
       "score": 99
@@ -179,7 +247,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
+    },
+    {
+      "title": "客服代表的数据",
+      "originalTitle": "Data for Agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "date": "2026-07-08T17:16:05.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "不仅仅是模型权重让它像秘密探索Agent Data Viva La Persona Ground Truths为什么agentic AI需要开放数据，以及为什么合成数据是我们扩展它的方式。构建人工智能代理是困难的，因为现实世界的行为不像基准。无法从中断的API调用或从未见过的工作流程中恢复的客服代表不是真正的客服代表。这是一款带有工具的自动搅拌器。 从一个到另一个是一个数据问题：软件工程痕迹、工具使用故障、多步骤推理、检索、安全、用户模拟、工作流程执行，以及最终的物理世界交互。这就是NVIDIA Nemotron的开放数据产品所在的地方。 英伟达最近强调了开放模型如何推动人工智能研究，并在广受欢迎的机器学习国际会议（ ICML ）上亮相，近145篇论文引用了Nemotron模型和数据集。合成数据在整个生态系统中发挥着重要作用： NVIDIA发布开放数据集的部分原因是与社区一起学习扩展这些各种应用程序。开放式权重很重要。但对于代理商来说，权重只是故事的一部分。 可重复性还取决于模型背后的数据集、策展选择、培训方案和评估方法。客服代表的行为必须是可检验的。如果模型调用工具、执行工作流程、检索信息并跨系统行动，开发人员需要了解塑造这些行为的数据。开放数据使客服代表的行为可以检查和解释。合成数据是实现这一目标的关键所在。 英伟达应用深度学习研究副总裁布莱恩·卡坦扎罗（ Bryan Catanzaro ）最近指出： “每家公司都是围绕一个秘密构建的” --竞争对手没有的工作流程、语料库或客户模式。这些秘密使人工智能变得有用，但公司不应该随意暴露它们。合成数据为团队提供了一种在不暴露潜在来源的情况下保存有用信号的方法。 Bryan还谈到了培养一个多元化和参与式的人工智能生态系统，在这个生态系统中，许多类型的公司、研究人员、政府和社区都可以做出贡献。这不仅仅是一个价值主张。这是一个数据声明。如果每个模型都从相同的狭窄数据池中学习，那么当模型开始感觉相同时，我们不应该感到惊讶。困难之处在于，最有用的数据往往位于无法或不愿直接发布数据的组织内部。 每个人都能从更丰富的共享数据层中受益。没有人想成为第一个放弃让他们与众不同的东西的人。公开发布的合成数据是改变这种数学的一种方式。作为Nemotron开放数据的一部分，我们已经发布了超过10万亿个预训练令牌和数百万个跨越多个领域和数据形状的训练后样本。这很难理解，而原始数据集表没有多大帮助。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 84
     },
     {
       "title": "MUFG旨在通过OpenAI成为原生AI",
@@ -210,7 +293,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "IT领导者扩展所需的人工智能架构的基本要素",
@@ -225,7 +308,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "LeRobot v0.6.0 ：想象、评估、改进",
@@ -240,7 +323,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "在Foundry托管计算上拥抱人脸模型",
@@ -255,7 +338,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "您的家人在OpenAI中的300 $股份",
@@ -270,7 +353,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "PRX第4部分：我们的数据策略",
@@ -285,7 +368,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "🤗 内核：主要更新",
@@ -300,7 +383,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "为自主企业奠定基础",
@@ -315,7 +398,7 @@
       "tags": [
         "安全"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "实现卓越运营",
@@ -330,7 +413,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -360,7 +443,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -376,7 +459,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
@@ -392,7 +475,7 @@
         "智能体",
         "评测"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Claude Science是Anthropic的最新旗舰产品",
@@ -408,37 +491,37 @@
         "大模型",
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "GeneBench-Pro简介",
-      "originalTitle": "Introducing GeneBench-Pro",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "date": "2026-06-30T00:00:00.000Z",
-      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：评测相关动态",
-      "fullContent": "介绍GeneBench-Pro ，这是使用复杂的真实世界数据集在基因组学、生物学和科学研究中测试人工智能性能的新基准。",
-      "originalSummary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "rawFullText": "",
-      "tags": [
-        "评测"
-      ],
-      "score": 79
-    },
-    {
-      "title": "在拥抱人脸模型页面上展示每次评估的结果",
-      "originalTitle": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/eee-community-evals",
-      "date": "2026-06-30T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“在拥抱人脸模型页面上展示每次评估的结果”。它主要涉及模型方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
+      "title": "农业已为人工智能做好准备，但其数据尚未",
+      "originalTitle": "Agriculture is ready for AI, but its data isn&#8217;t",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "date": "2026-06-30T12:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "人工智能正在改变农业的可能性，但行业领导者应该警惕在没有首先奠定基础的情况下投资人工智能。这些用例很有希望，特别是对于一个面临挥发性肥料成本、不可预测的天气和利润率几乎没有出错空间的行业。研究表明，人工智能预测模型可以将作物产量提高26% ，减少41%的用水量，并减少33%的化学品使用量。 然而，人工智能供应商通常不会告诉你的是，只有当你有一个干净、坚实的数据基础时，这些解决方案才会有效。然而，在Reltio ，我们在这一领域拥有丰富的经验，包括主要农业分销商的领先技术战略，以及构建全球企业使用的数据平台-我们已经亲眼目睹了这一点。人工智能供应商不会告诉你什么供应商在农业方面的对话往往遵循一种熟悉的模式。 首先是利用人工智能实时监测作物健康状况，优化灌溉，并从每英亩土地上挤出更多的产量。承诺是令人信服的，但很少出现的是这些承诺背后的数据基础是否准确和完整的问题。 如果没有，人工智能将产生具有权威性的误导性输出，但会激发充其量只会适得其反的行动，这是一个真实而重大的风险。例如，提供不一致历史数据的收益率预测模型将生成不精确的预测。同样，利用分散的传感器数据的精确灌溉系统将做出浪费资源而不是节约资源的灌溉决策。 在每种情况下， AI都会失败，因为它所训练的数据不足以产生可信赖的输出。在农业中，每一个人工智能幻觉都是一种负担，出错的可能性很高。为什么农业是一个具有独特挑战性的测试案例现代农业运营或为成千上万种植者服务的大型分销商的数据格局非常复杂。 现代农业环境广泛使用物联网设备和机械。灌溉系统实现自动化，拖拉机自动导航田野，无人机大规模捕捉田野图像。然而，机器数据在本质上是不同的。添加外部来源，包括天气提要，美国 农业部的数据和第三方市场信息，以及如何将所有这些数据整合到一起，成为一项重要的任务。农业人工智能还需要了解的不仅仅是客户属性；它需要了解土地： GPS坐标、农场边界、田块和单个物业的土壤变化。 您在哪里施肥，施肥率如何，在农场的哪个特定区域施肥？并非一个领域的所有部分都是相同的，如果人工智能系统像对待它们一样对待它们，那么它们所产生的建议充其量是不精确的，充其量是破坏性的。由于所涉及的化学品和责任，也存在合规性维度。",
+      "originalSummary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop&#8230;",
+      "rawFullText": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&nbsp; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop yield by 26%, reduce water use by 41%, and cut chemical usage by 33%.&nbsp; However, what AI vendors usually won’t tell you is that these solutions are only effective if you have a clean, solid data foundation. However, at Reltio, we have experience in this area, including leading technology strategy at a major agricultural distributor and building a data platform used by enterprises worldwide–we’ve seen it first hand. What AI vendors won’t tell you&nbsp; Vendor conversations in agriculture tend to follow a familiar pattern. The pitch leads with grand promises around using AI to monitor crop health in real time, optimize irrigation, and squeeze more yield from every acre.&nbsp; The promise is compelling, but what rarely comes up is the question of whether the data foundation underneath those promises is accurate and complete. If not, there is a real and significant risk that AI will generate misleading outputs that seem authoritative but inspire action that is, at best, counterproductive.&nbsp; For instance, a yield prediction model fed inconsistent historical data will generate imprecise forecasts. Similarly, a precision irrigation system drawing on fragmented sensor data will make watering decisions that waste resources instead of saving them.&nbsp; In each case, the AI is failing because the data it was trained on was not sufficient to produce trustworthy outputs. In agriculture, every AI hallucination is a liability, and the likelihood of error is high. Why agriculture is a uniquely challenging test case The data landscape across a modern agricultural operation or a large distributor serving thousands of growers is extraordinarily complex. Modern farming environments make extensive use of IoT devices and machinery. Irrigation systems are automated, tractors navigate fields autonomously, and drones capture field imagery at scale.&nbsp; However, machine data is disparate by nature. Add in external sources, including weather feeds, U.S. Department of Agriculture data, and third-party market information, and the question of how you bring all of it together into something coherent becomes a significant undertaking.&nbsp; Agricultural AI also needs to understand more than just customer attributes; it needs to understand the land: GPS coordinates, farm boundaries, field blocks, and soil variation across a single property. Where do you apply fertilizer, and at what rate, and in which specific area of the farm? Not all parts of a field are the same, and an AI system that treats them as if they are will produce recommendations that are at best imprecise and at worst damaging. There is also a compliance dimension due to the chemicals and the responsibility involved. Operational AI in agriculture needs significantly more checks and governance than it might in a lower-stakes environment. When a flawed recommendation gets acted upon in the field, the consequences can be severe.&nbsp; What data readiness means in practice&nbsp; Data readiness is the difference between AI delivering on its promise vs. a “garbage in, garbage out” scenario. Fundamentally, being ready for AI means having a data model that accurately reflects how the business operates.&nbsp; For a company like Wilbur-Ellis, a 104-year-old, family-owned agricultural distributor, that means understanding who your customers are, which fields they farm, which inputs they need, which suppliers those inputs come from, what they paid last season, and how all of that connects to margin. That information needs to be current, consistent, and accessible across the organization, rather than locked in separate systems that were never designed to talk to each other. Similarly, for farming operations themselves, data readiness means having a reliable, connected picture of what is happening across every field: soil health records, input application histories, yield data from previous seasons, equipment performance, and real-time sensor readings from irrigation systems. Governance matters just as much as structure. Prices change, relationships evolve, and suppliers come and go. An AI system drawing on data that was accurate six months ago but has not been maintained will make recommendations based on a version of the business that no longer exists.&nbsp; Building the foundation that makes AI trustworthy The good news is that the path to data readiness is feasible. It starts with a strong data model: a single, governed source of truth that connects customers, suppliers, products, pricing, orders, and margins in a way that reflects how the organization operates.&nbsp; From there, it requires data pipelines fast enough to deliver insights when decisions need to be made, governance frameworks that keep that data trustworthy over time, and security controls that ensure sensitive commercial information is accessible to the right people under the right conditions. This is precisely the challenge that Reltio, an SAP company, was built to solve. Reltio enables companies to unify their fragmented data so AI agents and systems can operate from a complete picture of the business. Reltio builds a trusted system of context, known as the context intelligence layer, that brings all entities, relationships, rules together under one roof and makes business data easy to access and interpret. For Wilbur-Ellis, building that trustworthy data foundation has meant being able to ask more complex questions and trust the answers, which is the precondition for any AI system to be genuinely useful. How agriculture can drive real value from AI The question worth asking before the next AI conversation is not whether the use case is promising. It almost certainly is. The question is whether the underlying data foundation is strong enough to make the output trustworthy.&nbsp; Agriculture has always required its leaders to make high-stakes decisions under uncertainty, and AI offers the genuine prospect of making those decisions faster and better informed. That prospect is only achievable for organizations that have done the foundational work first, and the businesses that will get the most from AI are the ones investing in that foundation now. This content was produced by Reltio. It was not written by MIT Technology Review’s editorial staff.",
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 71
+    },
+    {
+      "title": "专业化为何不可避免",
+      "originalTitle": "Why Specialization Is Inevitable",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "date": "2026-06-30T14:39:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“专业化为何不可避免”。它主要涉及AI 热点方向，热度评分为 67。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 67
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -453,7 +536,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "代理对技术前沿的信心",
@@ -468,7 +551,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     }
   ]
 }
