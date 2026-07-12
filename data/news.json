@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T00:03:31.504Z",
+  "updatedAt": "2026-07-12T00:02:01.469Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,53 +19,18 @@
   ],
   "articles": [
     {
-      "title": "主动式企业代理的上下文图表",
-      "originalTitle": "Context Graphs for Proactive Enterprise Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.07721",
-      "date": "2026-07-10T04:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、公司动态相关动态",
-      "fullContent": "arXiv: 2607. 07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG)和agentic framework具有相当先进的企业AI ，但agent基本上保持被动：它们在行动之前等待人工查询。本文认为，真正提高企业生产力需要主动代理：在员工提出要求之前向其提供相关、可操作的信息的系统。 我们提出了上下文图，这是一种实时关系数据结构，可对企业实体、其关系和状态随时间变化的转换进行建模。在此图表上，我们定义了持续监控状态变化的Delta检测引擎、根据紧迫性、相关性和角色拟合对候选人洞察进行排名的主动性评分器，以及由LLM提供支持的Surfacing Layer ，该LLM提供具有基础解释的排名通知。 我们对每个组件进行形式化，导出统一的Proactivity Score函数，并使用NetworkX和Anthropic Claude API提供完整的端到端Python实现。对三个通用企业案例研究（合同生命周期管理、工程事故响应和销售管道卫生）的评估表明，上下文图驱动的主动性实现了精度@ 5的0. 83 ，误报率为0。 11 ，并将平均表面时间从47分钟（反应性基线）减少到30秒以下。",
-      "originalSummary": "arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they ask. We propose the Context Graph, a live relational data structure that models enterprise entities, their relationships, and state transitions over time. Built on this graph, we define a Delta Detection Engine that continuously monitors state changes, a Proactivity Scorer that ranks candidate insights by urgency, relevance, and persona-fit, and a Surfacing Layer powered by an LLM that delivers ranked notifications with grounded explanations. We formalize each component, derive a unified Proactivity Score function, and provide a complete end-to-end Python implementation using NetworkX and the Anthropic Claude API. Evaluation across three generic enterprise case studies (contract lifecycle management, engineering incident response, and sales pipeline hygiene) demonstrates that context-graph-driven proactivity achieves Precision@5 of 0.83, a false positive rate of 0.11, and reduces mean time to surface from 47 minutes (reactive baseline) to under 30 second.",
+      "title": "随着ChatGPT深入家庭， OpenAI押注家庭",
+      "originalTitle": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "date": "2026-07-11T14:13:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "在ChatGPT推出将生成式人工智能引入主流的三年多之后， OpenAI正在将其关注点从个人用户扩展到家庭。OpenAI正在旧金山聘请一名专门的产品经理，为其产品为家庭、护理人员和老年人打造体验。根据招聘信息，该职位要求有为父母和家庭打造产品的经验，以及其他对信任敏感的消费者体验。 此次招聘正值ChatGPT的受众不断扩大到年轻用户之外。根据Sensor Tower与TechCrunch独家分享的估计，第二季度全球35岁及以上的ChatGPT用户比例从一年前的26%上升至31% ，而18至24岁的用户比例从34%下降至29%。该公司估计，在美国，近四分之一的家长智能手机用户在本季度使用了ChatGPT ，高于一年前的16%。 OpenAI没有回复有关职位发布的评论请求。技术咨询公司Creative Strategies的首席执行官本·巴加林（ Ben Bajarin ）表示，专注于家庭的产品角色表明， OpenAI开始将其产品视为提高个人生产力的工具，而更多的是为家庭设计的技术。 他告诉TechCrunch ： “这与谷歌、苹果和Meta最终遵循的路径相似，因为他们的平台已经嵌入到日常生活中，但人工智能提高了风险，因为助手不仅仅是调解内容或设备。”这种转变也带来了新的信任和安全挑战。 家庭在线安全研究所（ Family Online Safety Institute ）首席执行官斯蒂芬·巴尔卡姆（ Stephen Balkam ）表示，此次招聘既反映了OpenAI的成熟，也反映了人们越来越认识到儿童和青少年使用的人工智能产品需要不同于成人设计的保护措施。“通过重新设计，我认为这是安全的，” Balkam告诉TechCrunch。 “你使用的是最初发布的产品或服务……并不是针对孩子的……所以这是一个非常需要的反应和回应。家庭在线安全研究所本周发布的新研究发现，父母低估了他们的孩子使用生成式人工智能的频率。而27%的美国人 父母表示，他们的孩子在过去一周使用过生成式人工智能，根据对美国和澳大利亚4000多个家庭的调查， 38%的儿童报告自己使用过生成式人工智能。Balkam告诉TechCrunch ，人工智能公司应该为年轻用户构建不同的产品，具有更强的内容控制、适合年龄的体验、家长监督以及提醒用户他们正在与人工智能而不是人类进行交互的提醒。 招聘之际，人们对人工智能公司如何保护年轻用户的审查也越来越严格。OpenAI面临父母的多起诉讼，指控ChatGPT导致其子女受到伤害，包括在涉及自杀的案件中。",
+      "originalSummary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Infinity-Parser2技术报告",
-      "originalTitle": "Infinity-Parser2 Technical Report",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.07836",
-      "date": "2026-07-10T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "arXiv: 2607. 07836v1通告类型：新摘要：我们提出Infinity-Parser2 ，这是一个大型多模态模型，将可控数据合成管道与多任务强化学习相结合，用于端到端文档解析，解决了忠实注释解析语料库的持续稀缺性。我们的贡献是三倍的。 首先，我们构建一个可扩展的合成引擎，将可控的渲染框架与迭代细化循环配对，并使用它来构建和开源Infinity-Doc2-5M ：一个跨越不同文档类型的500万样本双语（中文/英文）语料库，带有元素边界框、规范内容形式（ Markdown、HTML、LaTeX、SMILES、结构化图表）和整页阅读顺序。 其次，我们引入了可验证的多任务奖励系统，使联合强化学习能够跨越八个共同训练的目标（文档解析、布局分析、表解析、数学公式解析、图表解析、化学公式解析、文档VQA和一般多模态理解） ，在单个优化信号中统一感知、结构和推理。 第三，我们在共享架构下发布了两个变体： Infinity-Parser2-Flash ，针对低延迟推理进行了优化，比Infinity-Parser-7B增加了$ 3. 68\\ $的吞吐量，以及Infinity-Parser2-Pro ，专为精确关键设置而设计。Infinity-Parser2-Pro在olmOCR-Bench上达到了87. 6% ，在ParseBench上达到了74. 3% ，超过了DeepSeek-OCR-2、PaddleOCR-VL-1. 5和MinerU2。 5、对图表、化学式和VQA文件有较强的泛化。",
-      "originalSummary": "arXiv:2607.07836v1 Announce Type: new Abstract: We present Infinity-Parser2, a large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for end-to-end document parsing, addressing the persistent scarcity of faithfully annotated parsing corpora. Our contributions are threefold. First, we build a scalable synthesis engine, pairing a controllable rendering framework with an iterative refinement loop, and use it to construct and open-source Infinity-Doc2-5M: a 5-million-sample bilingual (Chinese/English) corpus spanning diverse document types, annotated with element bounding boxes, canonical content forms (Markdown, HTML, LaTeX, SMILES, structured charts), and full-page reading order. Second, we introduce a verifiable, multi-task reward system that enables Joint Reinforcement Learning across eight co-trained objectives (document parsing, layout analysis, table parsing, math formula parsing, chart parsing, chemical formula parsing, document VQA, and general multimodal understanding), unifying perception, structure, and reasoning in a single optimization signal. Third, we release two variants under a shared architecture: Infinity-Parser2-Flash, optimized for low-latency inference with a $3.68\\times$ throughput gain over Infinity-Parser-7B, and Infinity-Parser2-Pro, engineered for precision-critical settings. Infinity-Parser2-Pro reaches state-of-the-art 87.6% on olmOCR-Bench and 74.3% on ParseBench, surpassing DeepSeek-OCR-2, PaddleOCR-VL-1.5, and MinerU2.5, with strong generalization to charts, chemical formulas, and document VQA.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "多模态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "直通承销中的代理AI和检索增强模型",
-      "originalTitle": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.07858",
-      "date": "2026-07-10T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2607. 07858v1公告类型：新摘要：人工智能(AI)正开始重塑精算实践，特别是在需要对非结构化文档、异构数据源和受监管的决策工作流进行推理的领域。 精算师现在面临着一个设计空间，从传统的基于规则的自动化到大型语言模型(LLM)、检索增强生成(RAG) ，以及规划、检索、调用工具和反思的多代理“代理”系统。本文研究了这些新兴架构如何支持精算优先级，如透明度、可审计性和人性化治理，重点关注直通式决策过程。 为了使这些想法具体化，我们开发和分析了一个用于直接承销小型商业企业主政策（ BOP ）的代理人工智能框架。 我们构建了一个合成但逼真的实验环境，并比较了三个承保管道： （ i ）单LLM基线， （ ii ）朴素的RAG系统，以及（ iii ）结合有针对性的检索、第三方数据检查和显式多步骤规则评估的多Agent “Agentic RAG”管道。 代理系统总体上表现最佳，在多步和缺失信息场景中增益最大，其中结构化检索和反射有助于模型避免不受支持的直通决策。",
-      "originalSummary": "arXiv:2607.07858v1 Announce Type: new Abstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision workflows. Actuaries now face a design space that ranges from traditional rule-based automation to large language models (LLMs), retrieval-augmented generation (RAG), and multi-agent ``agentic'' systems that plan, retrieve, call tools, and reflect. This paper examines how these emerging architectures can support actuarial priorities such as transparency, auditability, and human-in-the-loop governance, with a focus on straight-through decision processes. To make these ideas concrete, we develop and analyze an agentic AI framework for straight-through underwriting of small commercial Business Owner Policies (BOPs). We construct a synthetic but realistic experimental environment and compare three underwriting pipelines: (i) a single-LLM baseline, (ii) a naive RAG system, and (iii) a multi-agent ``Agentic RAG'' pipeline that combines targeted retrieval, third-party data checks, and explicit multi-step rule evaluation. The agentic system performs best overall, with the largest gains in multi-step and missing-information scenarios, where structured retrieval and reflection help the model avoid unsupported straight-through decisions.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "论文"
+        "公司动态"
       ],
       "score": 99
     },
@@ -99,7 +64,54 @@
       "tags": [
         "公司动态"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "苹果起诉OpenAI涉嫌窃取商业秘密",
+      "originalTitle": "Apple sues OpenAI over alleged trade secret theft",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "date": "2026-07-10T21:00:29.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "苹果公司周五对OpenAI提起诉讼，指控其窃取商业秘密和违反合同。这家iPhone制造商声称，这种不当行为揭示了以前在苹果工作的OpenAI员工的盗窃模式，是由OpenAI的高级领导层指导的，包括首席硬件官Tang Tan。这起诉讼是在美国提起的 加利福尼亚州北区地方法院指控Tan在OpenAI招聘过程中使用苹果的机密项目代码名称，要求求职者在面试中引入苹果硬件组件，指导离职的苹果员工如何规避公司的安全程序，并要求提供有关公司未公布产品的详细信息。 在加入OpenAI之前， Tan在苹果工作了24年，最近担任iPhone和Apple Watch产品设计副总裁。这些指控发生在传闻OpenAI正在开发其第一款硬件产品的时候，该产品可能会与iPhone竞争。今年4月，行业分析师Ming-Chi Kuo表示，这款设备可能是一款依靠人工智能代理而不是应用程序的智能手机。 如果这是真的，这将是迄今为止苹果核心硬件业务面临的最大威胁之一。苹果前首席设计师Jony Ive的设备初创公司io去年以65亿美元的价格被OpenAI收购，以帮助这家AI公司实现其硬件雄心。虽然Io在文件中被命名，但Ive没有。Tan并不是新投诉中提到的唯一OpenAI员工。 苹果还声称，曾在苹果担任高级系统电气工程师八年的Chang Liu在2026年离开公司前往OpenAI后未能归还苹果发行的笔记本电脑，并使用该电脑下载了苹果的机密技术文件。 苹果公司在投诉中表示，被盗文件包括有关未经宣布的技术、功能和产品的信息，包括技术规格、工程演示和专有项目数据。刘还被指控在诉讼中与其他申请OpenAI工作的苹果员工分享苹果的机密信息，并在面试前至少建议其中一人学习什么。 苹果在投诉中表示，该公司在2月份致函OpenAI ，提出其担忧，但没有收到任何回复。它声称，这些前员工的行为是OpenAI提取苹果机密信息战略的一部分，其中包括要求苹果员工将设计和原型带到他们的面试中，并回答有关组件和供应商选择流程等问题。 苹果表示，正在进行的调查显示， OpenAI及其合作伙伴甚至在苹果开发自己的硬件产品时使用了苹果的机密信息。例如，该文件引用了OpenAI在据称误导合作伙伴相信其已获得Apple许可后使用的专有金属精加工技术。",
+      "originalSummary": "Apple alleges the misconduct was directed by OpenAI's senior leadership, including a longtime former employee.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
+    },
+    {
+      "title": "根据Hugging Face的Clem Delangue的说法，开源人工智能比以往任何时候都更加重要",
+      "originalTitle": "Open source AI matters more than ever, according to Hugging Face&#8217;s Clem Delangue",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "date": "2026-07-10T19:00:00.000Z",
+      "summary": "这条新闻与开源、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：开源、模型相关动态",
+      "fullContent": "Hugging Face首席执行官Clem Delangue表示，开源人工智能正在蓬勃发展。近年来，该公司已经发展成为类似于人工智能的GitHub ，人工智能开发人员可以共享和下载开放模型和数据集，现在大约有一半的财富500强企业都在使用这些模型和数据集。Delangue已经看到同样的故事一次又一次地发生：公司开始[…]",
+      "originalSummary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "开源",
+        "模型"
+      ],
+      "score": 87
+    },
+    {
+      "title": "拥抱Face的首席执行官，了解为什么公司不再租用他们的人工智能",
+      "originalTitle": "Hugging Face&#8217;s CEO on why companies are done renting their AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "date": "2026-07-10T14:00:00.000Z",
+      "summary": "这条新闻与开源、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：开源、模型相关动态",
+      "fullContent": "Hugging Face首席执行官Clem Delangue表示，开源人工智能正在蓬勃发展。近年来，该公司已经发展成为类似于人工智能的GitHub ，人工智能开发人员可以共享和下载开放模型和数据集，现在大约有一半的财富500强企业都在使用这些模型和数据集。Delangue已经看到同样的故事一次又一次地发生：公司开始[…]",
+      "originalSummary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "开源",
+        "模型"
+      ],
+      "score": 87
     },
     {
       "title": "OpenAI推出带有GPT-5.6的新型号系列",
@@ -232,7 +244,7 @@
         "大模型",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "帮助K–12教育工作者培养实用的人工智能技能",
@@ -247,7 +259,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "客服代表的数据",
@@ -262,7 +274,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "MUFG旨在通过OpenAI成为原生AI",
@@ -293,7 +305,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "IT领导者扩展所需的人工智能架构的基本要素",
@@ -308,7 +320,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "LeRobot v0.6.0 ：想象、评估、改进",
@@ -323,7 +335,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "在Foundry托管计算上拥抱人脸模型",
@@ -338,7 +350,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "您的家人在OpenAI中的300 $股份",
@@ -353,7 +365,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "PRX第4部分：我们的数据策略",
@@ -368,7 +380,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "🤗 内核：主要更新",
@@ -383,7 +395,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "为自主企业奠定基础",
@@ -398,7 +410,7 @@
       "tags": [
         "安全"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "实现卓越运营",
@@ -413,7 +425,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "LLM陷入了群体思维的凹槽。这家初创公司正试图把他们赶出去。",
@@ -443,7 +455,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "ChatGPT采用率如何扩展",
@@ -459,7 +471,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "ScarfBench ：企业Java框架迁移的AI代理基准测试",
@@ -475,7 +487,7 @@
         "智能体",
         "评测"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Claude Science是Anthropic的最新旗舰产品",
@@ -491,7 +503,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "农业已为人工智能做好准备，但其数据尚未",
@@ -506,7 +518,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "专业化为何不可避免",
@@ -521,7 +533,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "人工智能代理不是您的“同事”",
@@ -536,7 +548,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "代理对技术前沿的信心",
@@ -551,7 +563,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     }
   ]
 }
