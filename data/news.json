@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T00:02:58.502Z",
+  "updatedAt": "2026-07-17T23:56:50.735Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,91 @@
   ],
   "articles": [
     {
+      "title": "使用NVIDIA NeMo Automodel和Diffusers大规模微调视频和图像🤗模型",
+      "originalTitle": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "date": "2026-07-17T15:57:54.000Z",
+      "summary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
+      "fullContent": "目录什么是NeMo Automodel ？支持的扩散模型此协作解锁的内容查看微调工作流程1.对数据集进行预编码2.使用现有FLUX YAML启动培训3.从微调的检查点生成4.性能其他微调/LoRA示例立即试用下一步： Pythonic配方API资源NVIDIA和Hugging Face的联合帖子。 特别感谢来自Hugging Face的Sayak Paul对整合工作的贡献以及对本博客的共同创作。扩散模型为过去两年中最令人兴奋的开源版本提供了动力，例如用于文本到图像的FLUX. 1-dev和用于文本到视频的Wan 2. 1和HunyuanVideo。 Diffusers🤗 库已经成为这些模型事实上的家园，为研究人员和构建者提供了一个单一的、一致的推理、适应和管道组合界面。此外，培训和微调扩散模型也在增加，需要提供内存高效分片、潜在缓存、多分辨率存储桶的实用程序，以及从一个GPU到数百个GPU的优雅扩展配置。 为了满足这些技术需求，我们提供NVIDIA NeMo Automodel开源库。今天，我们将重点介绍NVIDIA与Hugging Face之间的合作，该合作为Hugging Face Hub上的任何Diffusers格式模型带来了生产级分布式扩散培训，无需进行检查点转换，也不会对任何新模型进行模型重写。集成记录在Diffusers培训指南中，并且在Apache 2. 0下完全开源。 NeMo Automodel是一个开源的PyTorch DTensor原生培训库，是NVIDIA NeMo框架的一部分，围绕对扩散器生态系统至关重要的两个设计原则构建： AutoModel目前仅支持流量匹配模型。在引擎盖下，它使用流量匹配作为训练目标，通过潜空间训练（通过预编码的VAE输出）和多分辨率桶式数据加载来加速吞吐量。 NeMo Automodel集成附带了以下开放式扩散模型的现成微调配方。该列表反映了当前示例/扩散/微调中的配方。对于扩散器用户来说，实际收益分解为几个具体的功能。没有检查点转换。来自Hub的预训练权重开箱即用。没有单独的“训练格式”可供转换，然后再转换回去。 您的微调检查点直接加载到DiffusionPipeline中进行推理，或返回到Hub进行共享。下游工具（量化、编译、LoRA适配器、自定义采样器）都可以继续工作。新型号支持的快速路径。当新的扩散模型降落在扩散器中时，在NeMo Automodel中启用它需要一个小的、包含的代码添加—一个数据预处理处理程序和一个模型适配器—而不是一个完整的自定义训练脚本。 配方堆栈的其余部分（ FSDP2、桶装数据加载、检查点、生成）保持不变，并应用相同的YAML驱动工作流。全面且参数高效的微调。支持完全微调和LoRA风格的PEFT ，因此您可以在最高质量（大型集群上的完全FT ）或最高效率（单个节点上的LoR...",
+      "originalSummary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
+      "rawFullText": "",
+      "tags": [
+        "视频生成",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "自主无人机群搜索救援智能三层学习架构",
+      "originalTitle": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.14093",
+      "date": "2026-07-17T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 14093v1公告类型：新摘要：本文提出了一种新的三级分层学习架构，用于自主无人机群执行搜索和救援操作。 与在所有层次结构级别上应用单一学习范式的传统方法不同，所提出的架构集成了三种定性不同的学习机制，这些学习机制对应于反射、技能和推理的生物层次结构，例如用于个体主体适应的Hebbian神经可塑性，用于战术协调的图形神经网络和行为树的多主体强化学习，以及模型不可知的元学习 该架构通过BDI、行为树、GNN、MARL、神经可塑性、元学习等六个组成部分组织的22个架构合同正式化，这些合同共同提供安全性、预算正确性、最优性、活力、饥饿自由和层级间一致性等六类正式保证。 我们引入Swarm Meta Cognition作为由所有三个层次的结构化相互作用产生的组合属性，使Swarm能够监控自己的认知状态并在认知策略之间切换。SAR任务类型的五个建设性进度函数弥合了抽象优化理论与具体操作场景之间的差距。 主要积分定理确定，当所有合约都得到满足时，混合神经符号系统保留所有六个保证类。对于具有主动学习的动态案例，五个新合约扩展了框架，增加了三个额外的保证，如认知弹性、优雅退化和单调元改进。 理论分析表明，该架构解决了现有分层RL方法的五个基本局限性。",
+      "originalSummary": "arXiv:2607.14093v1 Announce Type: new Abstract: This paper presents a novel three level hierarchical learning architecture for autonomous UAV swarms performing search and rescue operations. Unlike conventional approaches that apply a single learning paradigm across all hierarchy levels, the proposed architecture integrates three qualitatively different learning mechanisms corresponding to the biological hierarchy of reflexes, skills, and reasoning such as Hebbian neuroplasticity for individual agent adaptation, multi agent reinforcement learning with graph neural networks and behavior trees for tactical coordination, and model agnostic meta learning with BDI reasoning and a digital twin for strategic decision making. The architecture is formalized through twenty two architectural contracts organized across six components such as BDI, Behavior Trees, GNN, MARL, Neuroplasticity, Meta Learning that collectively provide six classes of formal guarantees such as safety, budget correctness, optimality, liveness, starvation freedom, and inter level consistency. We introduce Swarm Meta Cognition as a compositional property arising from the structured interaction of all three levels, enabling the swarm to monitor its own cognitive state and switch between cognitive strategies. Five constructive progress functions for SAR task types bridge the gap between abstract optimization theory and concrete operational scenarios. The main integration theorem establishes that when all contracts are satisfied, the hybrid neuro-symbolic system preserves all six guarantee classes. For the dynamic case with active learning, five new contracts extend the framework with three additional guarantees such as cognitive resilience, graceful degradation, and monotonic meta improvement. Theoretical analysis demonstrates that the architecture addresses five fundamental limitations of existing hierarchical RL approaches.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "通过知识图表接地增强小语言模型推理",
+      "originalTitle": "Enhancing Small Language Models Reasoning through Knowledge Graph Grounding",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.14149",
+      "date": "2026-07-17T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 14149v1公告类型：新摘要：尽管大型语言模型（ LLM ）为零点推理设定了基准，但其部署仍然具有成本限制和环境负担。对于需要复杂、多跳逻辑基础的任务，小语言模型（ SLM ）提供了一种可持续的替代方案，但容易出错。 我们使用CLUTRR亲属关系基准来研究神经符号代理框架，以增强SLM的推理能力，特别是Gemma 3 （ 1B ， 4B ）和Llama 3. 2 （ 3B ）。我们的方法利用两个专门的工具调用将SLM转换为极简代理：用于符号三元组提取的extract_facts和用于通过关系图卷积网络（ RGCN ）进行专家推理的get_hint。 我们在两种配置中评估这些模型，一种是在具有地面真相三元组的Oracle场景中，另一种是在依赖于自我提取知识的现实场景中。我们的研究结果表明，虽然RGCN衍生的提示比仅限故事的基线提供了1. 5 - 2倍的性能提升，但系统受到提取瓶颈和连续演绎脆弱性的限制，其中早期提取错误在多跳链上复合。 此外，我们在特定架构中发现了一种“分心效应” ，即尽管有专家提示，但嘈杂的自生事实会降低性能。这项工作描述了低资源代理系统中符号接地的挑战，并为神经符号代理管道中的迭代验证提供了路线图。",
+      "originalSummary": "arXiv:2607.14149v1 Announce Type: new Abstract: Although large language models (LLMs) have set benchmarks for zero-shot reasoning, their deployment remains cost-prohibitive and environmentally taxing. Small Language Models (SLMs) offer a sustainable alternative, but prone to errors, on tasks requiring complex, multi-hop logical grounding. We investigate a neuro-symbolic agentic framework to enhance the reasoning capabilities of SLMs, specifically Gemma 3 (1B, 4B) and Llama 3.2 (3B), using the CLUTRR kinship benchmark. Our approach transforms the SLM into a minimalist agent utilizing two specialized tool calls: extract_facts for symbolic triplet extraction and get_hint for expert reasoning via a Relational Graph Convolutional Network (RGCN). We evaluate these models across two configurations, both in an Oracle scenario with ground-truth triplets and a Realistic scenario relying on self-extracted knowledge. Our results reveal that while RGCN-derived hints provide a 1.5 - 2x performance gain over story-only baselines, the system is constrained by the extraction bottleneck and sequential deductive fragility, where early extraction errors compound over multi-hop chains. Furthermore, we identify a \"distraction effect\" in specific architectures where noisy, self-generated facts degrade performance despite the presence of expert hints. This work characterizes the challenges of symbolic grounding in low-resource agentic systems and provides a roadmap for iterative verification in neuro-symbolic agentic pipelines.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "使用多Agent AI和MCP服务器协调电网研究",
+      "originalTitle": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.14158",
+      "date": "2026-07-17T04:00:00.000Z",
+      "summary": "这条新闻与智能体、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、论文相关动态",
+      "fullContent": "arXiv: 2607. 14158v1公告类型：新摘要：本立场文件探讨Agentic AI和模型上下文协议(MCP)如何支持传输系统运营商(TSO)上下文中的电网研究。我们专注于将大型语言模型与数值模拟工具、结构化工作流程和人工监督相集成。 我们确定了代理辅助网格研究的关键行业要求，并引入了pypowsybl-mcp ，这是一个基于MCP的界面，向AI代理展示了我们的模拟工具pypowsybl的选定功能。第一步提供了一个测试平台，用于研究代理如何通过标准化工具调用来设置模拟、执行分析、检索结果以及与电力系统模拟器进行交互。 我们还讨论了人性化、多代理工作流程的原则，并概述了结合技术指标和从业者反馈的评估策略。该论文将基于MCP的工具集成定位为朝着更具交互性、可审计性和可扩展性的网格研究环境迈出的一步。",
+      "originalSummary": "arXiv:2607.14158v1 Announce Type: new Abstract: This position paper explores how Agentic AI and Model Context Protocol (MCP) can support power-grid studies in a Transmission System Operator (TSO) context. We focus on integrating Large Language Models with numerical simulation tools, structured workflows, and human supervision. We identify key industrial requirements for agent assisted grid studies and introduce pypowsybl-mcp, an MCP-based interface exposing selected capabilities of our simulation tool, pypowsybl to AI agents. This first step provides a testbed to study how agents can setup simulations, execute analyses, retrieve results, and interact with power-system simulators through standardized tool calls. We also discuss principles for human-in-the-loop, multi-agent workflows and outline an evaluation strategy combining technical metrics and practitioner feedback. The paper positions MCP-based tool integration as a step toward more interactive, auditable, and scalable grid-study environments.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "论文",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MemoHarness ：从经验中学习的客服代表线索",
+      "originalTitle": "MemoHarness: Agent Harnesses That Learn from Experience",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.14159",
+      "date": "2026-07-17T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 14159v1 Announce Type: new Abstract:代理线束是外部控制层，通过管理上下文、工具、编排、内存、解码和输出处理，将基本LLM转换为可执行代理。虽然线束设计强烈影响代理行为，但大多数自动改进方法优化较窄的工件，如提示、管道或工作流，并且部署的代理通常在所有情况下重用单个全局线束。 我们引入了MemoHarness ，这是一个自适应线束优化框架，可以从自己的执行中学习。MemoHarness将线束分解为六个可编辑的控制维度，将每个案例的诊断和蒸馏的全局模式存储在双层体验库中，并使用检索到的体验（无需测试时间标签、反馈或额外搜索）使学习的线束适应每个测试案例。 在我们对shell-agent、代码生成和分析推理基准的评估中， MemoHarness优于我们比较的固定线束，并显示选择性地转移到看不见的套件和基本模型。当大部分检索到的体验可缓存时，其附加上下文也可以保持成本竞争力。 这些结果提供了证据，证明执行体验是构建代理线束的实用基础，比单个静态配置更具适应性，同时对统计鲁棒性和未来工作的组件归因提出了更广泛的主张。",
+      "originalSummary": "arXiv:2607.14159v1 Announce Type: new Abstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decoding, and output handling. While harness design strongly affects agent behavior, most automatic improvement methods optimize narrower artifacts such as prompts, pipelines, or workflows, and deployed agents usually reuse a single global harness for all cases. We introduce MemoHarness, an adaptive harness optimization framework that learns from its own executions. MemoHarness decomposes the harness into six editable control dimensions, stores per-case diagnoses and distilled global patterns in a dual-layer experience bank, and adapts the learned harness to each test case using retrieved experience without test-time labels, feedback, or additional search. In our evaluation across shell-agent, code-generation, and analytical-reasoning benchmarks, MemoHarness improves over the fixed harnesses we compare against and shows selective transfer to unseen suites and base models. Its additional context can also remain cost-competitive when much of the retrieved experience is cacheable. These results provide evidence that execution experience is a practical substrate for building agent harnesses that are more adaptive than a single static configuration, while leaving broader claims about statistical robustness and component attribution to future work.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
       "title": "为什么青少年应该获得安全的人工智能",
       "originalTitle": "Why teens deserve access to safe AI",
       "source": "OpenAI",
@@ -31,40 +116,6 @@
       "tags": [
         "大模型",
         "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI为什么要出售ChatGPT篮球？",
-      "originalTitle": "Why is OpenAI selling a ChatGPT basketball?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
-      "date": "2026-07-16T15:31:09.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "您可能听说过OpenAI本周发布了第一款硬件： $ 230迷你键盘。你可能没有听说过，除了这个“代理工作的指挥中心”之外， OpenAI还发布了一个ChatGPT篮球。“这个篮球来自暂停。Play. Prompt.广告系列，它实际提醒我们，创意不仅仅存在于我们的屏幕上，”产品列表解释道。 我找不到关于「暂停」的任何其他提示。OpenAI网站上的Play. Prompt. ”活动，但我认为这是OpenAI告诉人们不要整天花在Codex上的方式。谁说科技公司不考虑我们的心理健康？篮球将花费您70 $ ，或约5600万GPT-5输入令牌。 这是一个100 ％橡胶球，由于其耐候性，比专业篮球场上更昂贵的皮球更适合户外比赛。我很高兴地得知， OpenAI正在设想一个可以在户外进行体育运动的世界，即使生成式人工智能热潮加速了科技公司的碳排放。很难想象ChatGPT篮球的目标客户。 这是为谁准备的？在人工智能充满代币的硅谷的安全之外徘徊，人们可能会担心因为将ChatGPT篮球带到球场而受到欺凌。你不能用这个ChatGPT篮球付我70 $走进费城的社区球场。（如果它是来自会议的免费礼物，它可能会具有讽刺意味—我珍惜我的“# FACEBOOK”手提包，它像2000年代的bar mitzvah派对一样被涂刷。 ）为了捍卫ChatGPT篮球，人工智能行业并不以其产品-市场匹配本能而闻名。愿仁慈的Ai Pin安息。除了这件$ 70的艺术品外， OpenAI还在销售一系列带有鼓舞人心的提醒的商品，比如“好的研究需要时间” ，我认为这是初创公司创始人与要求更快增长的投资者会面的完美服装。 对于$ 175的四分之一拉链，还有一个特定的je ne sais quoi ，用草书写着“研究”。产品描述说， “它有一个清晰的项圈，让人想起我们在学术界的日子” ，这可能会疏远“我从未上过大学，因为我是一名编码学者”的人群。（此外，一件物品能让你回忆起你在学术界的日子吗？ 我应该期待使用ChatGPT撰写电子邮件的人的语法语音句子吗？ ）不过，公司的小礼物也没有什么问题。如果OpenAI希望委托任何陶瓷艺术家通过功能性餐具来纪念公司历史，我想把帽子扔进戒指。AI能否制作这个杯子@ TechEmails pic. twitter. com/V13lecPoSC当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。Amanda Silberling是TechCrunch的高级作家，负责技术和文化的交叉。她还为Polygon、MTV、Kenyon Review、NPR和Business Insider等出版物撰稿。她与科幻小说作家Isabel J. Kim共同主持了关于互联网文化的播客Wow If True。",
-      "originalSummary": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "一位前DeepMind研究员如何在推出产品之前以3亿美元的种子前估值筹集资金",
-      "originalTitle": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-      "date": "2026-07-16T15:02:00.000Z",
-      "summary": "这条新闻与大模型、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、研究相关动态",
-      "fullContent": "Andrew Dai利用十多年的时间帮助构建了一些世界上最具影响力的人工智能系统，包括后来为ChatGPT的发展提供信息的研究，解释了为什么他认为视觉人工智能是人工智能的下一个主要前沿领域之一。",
-      "originalSummary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "研究",
-        "产品发布"
       ],
       "score": 99
     },
@@ -86,54 +137,51 @@
       "score": 99
     },
     {
-      "title": "SPINE ：使用Agentic AI弥合网络物理差距",
-      "originalTitle": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.13049",
-      "date": "2026-07-16T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 13049v1公告类型：新摘要：基础模型为机器人提供了用于复杂决策的复杂大脑，但将这种智能部署到物理平台仍然需要乏味、专家驱动的校准。这种部署差距，即机器人的脊髓，仍然是可扩展Embodied AI的主要瓶颈。 因此，我们提出了SPINE （具有ageNtic专业知识的可扩展物理集成） ：一种用于系统调试和部署具有最少机器人专业知识的双手动机器人的代理框架。SPINE的线束包括两个编排的多代理工作流程：一个创建机器人特定上下文的配置文件生成器，以及一个在远程操作工作之前循环诊断、修复和验证的调试器。 在七个DOBOT X-Trainer调试场景中，使用脊柱的机器人新手在相同的参考材料下使用Claude Code优于人工操作员，但没有脊柱的结构化工作流程，将操作成功率从75 ％提高到100 ％ ，并将平均远程操作时间从16分钟45秒减少到13分钟47秒。 在AgileX PiPER上，一个独特的ROS/CAN双手臂，脊柱在几乎相同的时间内解决了所有10个植入缺陷，而专家基线为9/10。总之，这些结果表明，脊柱可以跨双手平台传输，减少对专家校准的依赖，并使具体的人工智能更接近可扩展的现实世界部署。",
-      "originalSummary": "arXiv:2607.13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a primary bottleneck to scalable Embodied AI. Hence, we propose SPINE (Scalable Physical Integration with ageNtic Expertise): an agentic framework for systematically debugging and deploying bimanual robots with minimal robotics expertise. SPINE's harness comprises two orchestrated multi-agent workflows: a profile builder that creates robot-specific context, and a debugger that cycles through diagnosis, repair, and validation until teleoperation works. Across seven DOBOT X-Trainer debugging scenarios, a robotics novice using SPINE outperformed human operators using Claude Code with the same reference materials, but without SPINE's structured workflow, improving operationalization success from 75% to 100% and reducing mean time-to-teleoperation from 16 min 45 s to 13 min 47 s. On AgileX PiPER, a distinct ROS/CAN bimanual arm, SPINE resolved all 10 implanted bugs, versus 9 out of 10 for the expert baseline, in nearly the same amount of time. Together, these results show that SPINE can transfer across bimanual platforms, reduce dependence on expert calibration, and move embodied AI closer to scalable real-world deployment.",
+      "title": "Cars24如何通过OpenAI扩展对话并更快地构建",
+      "originalTitle": "How Cars24 scales conversations and builds faster with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/cars24",
+      "date": "2026-07-16T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "Cars24使用OpenAI支持的语音和聊天代理来处理每月超过100万分钟的对话时间，恢复12%的丢失线索，并为整个公司的团队带来代理工作流程。",
+      "originalSummary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Google Vids现在可以让您在自己的人工智能视频中",
+      "originalTitle": "Google Vids now lets you star in your own AI videos",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "date": "2026-07-16T18:32:54.000Z",
+      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、视频生成相关动态",
+      "fullContent": "谷歌正在为Vids添加个性化的人工智能头像，允许用户创建由自己数字版本主演的视频，以及双子座全功能工具，用于从提示和参考图像生成和编辑视频。",
+      "originalSummary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "机器人"
+        "视频生成"
       ],
-      "score": 99
+      "score": 95
     },
     {
-      "title": "据报道，微软正在培训销售人员谈论OpenAI和Anthropic",
-      "originalTitle": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-      "date": "2026-07-15T23:59:44.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "微软似乎正在准备其销售团队与AI行业的其他主要参与者进行更具竞争力的竞争。根据彭博社的一份新报告，在周二的一次内部会议上，该公司的高管们概述了一项计划，让销售人员将OpenAI、谷歌和Anthropic等公司的人工智能产品与自己的产品进行负面比较。 据报道，这次会议被称为新财年的战略会议，在很大程度上倾向于将微软内部模型的效率和成本效益与其竞争对手进行对比。“其他人都在销售零件，我们销售的是完整的端到端系统。这是我们都需要在27财年走出去讲述的故事，”据报道，执行副总裁杰伊·帕里克（ Jay Parikh ）告诉会议室。 据报道，执行副总裁Jacob Andreou更进一步，将Copilot与Anthropic的聊天机器人Claude进行了直接比较。据彭博社报道， Andreou指出，当谈到微软办公应用程序的性能时， Anthropic的模型“速度较慢，准确性较低，缺乏适当的安全集成” ，彭博社写道。 TechCrunch已联系微软和Anthropic征求意见，如果我们从这两家公司获得消息，我们将更新这个故事。一家公司指导其销售团队如何对竞争对手进行垃圾谈话并不特别令人惊讶。更值得注意的是，微软现在的目标是谁--它长期以来一直依赖于为自己的产品提供动力的人工智能模型的公司。这只是朝着那个方向迈出的最新一步。 本月早些时候的一份报告发现，微软一直在将OpenAI和Anthropic的模型从Word和Excel等旗舰应用程序中取而代之，这是一项削减成本的举措。曾经有一段时间，微软和OpenAI是紧紧相连的。 几年前，两家公司签署了一项非常独特的协议，微软向OpenAI提供资金和计算，同时允许微软独家访问OpenAI的API和模型。两家公司在4月份修改了合作伙伴关系，放弃了排他性条款，并允许OpenAI向微软的竞争对手出售产品。这种修改后的关系可能有助于解释销售团队的新宣传。 过去一年，微软一直在与不太理想的股票前景作斗争，因为投资者质疑该公司在人工智能业务建设方面的巨额支出。谈论这些产品的实际竞争力可能是为了平息这些水域，并建立对微软长期人工智能计划的信心。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在TechCrunch创始人峰会上节省高达190 $的最后机会。与1000多名创始人和风险投资人一起参与各个阶段，了解真实世界的扩展见解和连接，从而推动发展。优惠截止时间为6月26日晚上11:59。PT. Satya Nadella向使用人工智能Julie Bort的公司发出了令人震惊的警告",
-      "originalSummary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
-      "rawFullText": "",
+      "title": "谷歌将NotebookLM更名为Gemini Notebook",
+      "originalTitle": "Google is renaming NotebookLM to Gemini Notebook",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "date": "2026-07-16T16:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "谷歌正在为其AI笔记应用程序命名。该公司周四宣布， NotebookLM将成为Gemini Notebook ，但即使它在Gemini和Google Search之间进行了更深入的集成，它仍将是一个独立的应用程序。谷歌于2023年5月首次披露了Gemini Notebook （当时称为Project Tailwind ） ，并在几个月后广泛发布了该应用程序。 在过去几年中，谷歌一直在向该应用程序添加新功能，以帮助整理和理解您的笔记，例如将它们总结为人工智能播客、旁白幻灯片和TikTok风格剪辑的功能。它最近开始允许用户将他们的笔记本电脑连接到...阅读The Verge的完整故事。",
+      "originalSummary": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing [&#8230;]",
+      "rawFullText": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gemini and Google Search. Google first revealed Gemini Notebook - then called Project Tailwind - in May 2023 before widely releasing the app just months later . Over the past few years, Google has been adding new features to the app to help organize and make sense of your notes, such as the ability to summarize them as AI podcasts , narrated slideshows , and TikTok-style clips . It recently started letting users connect their notebooks to the … Read the full story at The Verge.",
       "tags": [
-        "公司动态",
-        "模型"
+        "大模型"
       ],
-      "score": 99
-    },
-    {
-      "title": "在硬件法律斗争中， OpenAI为Codex发布了230 $的键盘",
-      "originalTitle": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "date": "2026-07-15T19:41:38.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI正在与苹果就硬件贸易盗窃指控进行法律纠纷，刚刚发布了一款发光键盘，旨在与其代理编码应用程序配对。",
-      "originalSummary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 86
     },
     {
       "title": "认识GPT-Red ： LLM超级黑客OpenAI ，旨在使其模型更安全",
@@ -186,20 +234,34 @@
       "score": 99
     },
     {
-      "title": "OpenAI今年可能会发布ChatGPT智能音箱",
-      "originalTitle": "OpenAI may announce a ChatGPT smart speaker this year",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
-      "date": "2026-07-14T21:26:32.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "根据彭博社的一份报告， OpenAI的第一台设备将成为一款智能扬声器，可让您与ChatGPT交谈。该设备显然没有屏幕，但将使用摄像头和其他传感器来“了解”您的环境。就在几天前，苹果对OpenAI提起诉讼，指控这家AI公司窃取硬件机密。 OpenAI在周二的一份新声明中表示，它“不知道有任何证据表明这一投诉是有道理的。“消息人士告诉彭博社， OpenAI的设备还将配备可充电电池，允许用户随身携带。它将提供智能家居控制…阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused [&#8230;]",
-      "rawFullText": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg . The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit against OpenAI that accused the AI company of stealing hardware secrets . OpenAI, in a new statement on Tuesday , said that it is \"not aware of any evidence that this complaint has merit.\" Sources tell Bloomberg that OpenAI's device will also feature a rechargeable battery that will allow users to carry it with them. It will offer smart home contro … Read the full story at The Verge.",
+      "title": "关于建筑代理， Shippy教会了我们哪些建筑",
+      "originalTitle": "What building Shippy taught us about building agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "date": "2026-07-15T17:29:41.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "客服代表解剖：非确定性客服代表的技能、灵魂和配置确定性工具沙盒托管和隔离评估客服代表，而不是模型我们的目标Shippy是为高风险决策构建的海事人工智能客服代表，错误的答案会产生实际影响。以下是其背后的架构，以及我们正在为Ai2的其他环境平台带来的经验教训。Shippy回答了关于加纳专属经济区的实时询问。 响应显示其工作：边界源、数据截止点、查询时间戳以及返回天窗地图的深层链接，以便分析师可以验证每个数字。为保护海洋等高风险运营领域构建人工智能代理首先是一个可靠性问题。 对于海事分析师来说，一个错误的答案可能会使巡逻船朝着错误的方向行驶数英里，从而耗费大量本已捉襟见肘的资源，并可能使人员受到伤害。因此，当Skylight团队着手构建Shippy （我们用于实时海域感知的人工智能）时，真正的工作不是模型。它正在建立一个我们可以信赖的系统，以保持其正确性，保持在其限制范围内，并在广泛的任务中坚持下去。 我们必须根据Skylight的实时数据验证所有数据，这些数据随着新的卫星和船只信号的到来而不断更新，而不是静态快照。我们将Shippy这样的代理视为三件事：灵魂、技能和配置。灵魂是构成Shippy角色并设定行为界限的系统提示。技能告诉Shippy如何处理特定类型的请求。 灵魂和技能一起被烘焙到Docker镜像中，这是一个版本化的、可部署的工件，定义了Shippy是什么。配置涵盖了其他所有内容：要运行的代理线束（在Shippy的案例中， OpenClaw是一个开源代理框架）、要使用的LLM （目前， Shippy依赖于Claude Opus 4. 6 ）以及运行时设置。API密钥等密钥在运行时注入；交换模型或线束是配置更改，而不是重建。 Shippy的技能遵循编码工具（如Claude Code和Codex ）使用的相同代理技能规格，即具有结构化前置内容的简单扣分文件。这使得每项技能都易于理解、版本化和易于修改。Shippy目前包括以下技能：例如， Skylight API查询技能编码用于回答有关特定区域的问题的完整工作流程。 当分析师或用户询问“显示上个月在巴拿马专属经济区的钓鱼活动”时，该技能的指示指示Shippy首先通过Skylight的区域API将“巴拿马专属经济区”解析为边界多边形，而不是猜测或硬编码坐标，然后查询该几何体内的钓鱼活动，使用深层链接将结果格式化回Skylight地图，并将从Skylight合作伙伴（如全球钓鱼观察或TMT ）提取的任何船只元数据归因于。 向Shippy提出的一个问题可以同时连接到多个技能。“在Cordillera de Coiba MPA附近是否有船舶运营？”借鉴了Skylight的数据查询技能，我们的合作伙伴ProtectedSeas的MPA边界上下文数据库以及解释船舶行为的船舶跟踪技能。所有这一切都发生在一个对话回合中。灵...",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "智能体"
       ],
-      "score": 97
+      "score": 84
+    },
+    {
+      "title": "AI SLOP电影是新的直接到视频的现金抢夺",
+      "originalTitle": "AI slop movies are the new direct-to-video cash grabs",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "date": "2026-07-15T20:00:00.000Z",
+      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
+      "fullContent": "本周末，世界各地的电影人将前往当地剧院，欣赏克里斯托弗·诺兰（ Christopher Nolan ）改编的《奥德赛》（ The Odyssey ）。它有望在短短几天内获得8000万至1亿美元的收入。很明显，人们很高兴看到Nolan如何利用尖端的电影制作技术让荷马经典感觉清新。 但另一位导演正试图利用诺兰项目的嗡嗡声来激发人们对奥德修斯电影的兴趣。周二，电影制片厂Fountain 0宣布，它正在对人工智能生成的《奥德赛》进行重新构想，名为《奥德赛：陨落》（ Odysseus: The Fall ） ，它将可用于......在The Verge阅读完整故事。",
+      "originalSummary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric [&#8230;]",
+      "rawFullText": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey . It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric classic feel fresh. But another director is trying to capitalize on the buzz around Nolan's project to drum up interest in an Odysseus-focused movie of his own. On Tuesday, film studio Fountain 0 announced that it is working on an AI-generated reimagining of The Odyssey titled Odysseus: The Fall , which will be availabl … Read the full story at The Verge.",
+      "tags": [
+        "视频生成"
+      ],
+      "score": 81
     },
     {
       "title": "销售团队如何使用ChatGPT",
@@ -244,7 +306,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "Anthropic最新的人工智能发现",
@@ -259,6 +321,21 @@
       "tags": [
         "公司动态",
         "模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "开始使用ChatGPT",
+      "originalTitle": "Getting started with ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/academy/getting-started",
+      "date": "2026-07-10T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "了解如何使用ChatGPT ，开始您的第一次对话，并发现使用人工智能进行写作、头脑风暴和解决问题的简单方法。",
+      "originalSummary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
       ],
       "score": 89
     },
@@ -275,22 +352,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
-    },
-    {
-      "title": "开始使用ChatGPT",
-      "originalTitle": "Getting started with ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/academy/getting-started",
-      "date": "2026-07-10T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "了解如何使用ChatGPT ，开始您的第一次对话，并发现使用人工智能进行写作、头脑风暴和解决问题的简单方法。",
-      "originalSummary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
@@ -338,23 +400,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
-    },
-    {
-      "title": "ChatGPT现在是您最雄心勃勃工作的合作伙伴",
-      "originalTitle": "ChatGPT is now a partner for your most ambitious work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "date": "2026-07-09T10:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "ChatGPT Work是一个代理，可以跨应用程序和文件采取行动，如果需要，可以在项目中停留数小时，并将目标转化为已完成的工作。",
-      "originalSummary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "GPT-5.6现在是Microsoft 365 Copilot的首选型号",
@@ -370,7 +416,7 @@
         "大模型",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "原生速度vLLM变压器建模后端",
@@ -400,7 +446,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "在Foundry托管计算上拥抱人脸模型",
@@ -415,7 +461,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "一键从Hugging Face到Amazon SageMaker Studio",
@@ -430,7 +476,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "在任何云上运行AI工作负载，在Hugging Face上存储：使用SkyPilot实现零缺口存储",
@@ -460,7 +506,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "为自主企业奠定基础",
@@ -522,21 +568,6 @@
         "公司动态"
       ],
       "score": 85
-    },
-    {
-      "title": "农业已为人工智能做好准备，但其数据尚未",
-      "originalTitle": "Agriculture is ready for AI, but its data isn&#8217;t",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "date": "2026-06-30T12:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "人工智能正在改变农业的可能性，但行业领导者应该警惕在没有首先奠定基础的情况下投资人工智能。这些用例很有希望，特别是对于一个面临挥发性肥料成本、不可预测的天气和利润率几乎没有出错空间的行业。研究表明，人工智能预测模型可以将作物产量提高26% ，减少41%的用水量，并减少33%的化学品使用量。 然而，人工智能供应商通常不会告诉你的是，只有当你有一个干净、坚实的数据基础时，这些解决方案才会有效。然而，在Reltio ，我们在这一领域拥有丰富的经验，包括主要农业分销商的领先技术战略，以及构建全球企业使用的数据平台-我们已经亲眼目睹了这一点。人工智能供应商不会告诉你什么供应商在农业方面的对话往往遵循一种熟悉的模式。 首先是利用人工智能实时监测作物健康状况，优化灌溉，并从每英亩土地上挤出更多的产量。承诺是令人信服的，但很少出现的是这些承诺背后的数据基础是否准确和完整的问题。 如果没有，人工智能将产生具有权威性的误导性输出，但会激发充其量只会适得其反的行动，这是一个真实而重大的风险。例如，提供不一致历史数据的收益率预测模型将生成不精确的预测。同样，利用分散的传感器数据的精确灌溉系统将做出浪费资源而不是节约资源的灌溉决策。 在每种情况下， AI都会失败，因为它所训练的数据不足以产生可信赖的输出。在农业中，每一个人工智能幻觉都是一种负担，出错的可能性很高。为什么农业是一个具有独特挑战性的测试案例现代农业运营或为成千上万种植者服务的大型分销商的数据格局非常复杂。 现代农业环境广泛使用物联网设备和机械。灌溉系统实现自动化，拖拉机自动导航田野，无人机大规模捕捉田野图像。然而，机器数据在本质上是不同的。添加外部来源，包括天气提要，美国 农业部的数据和第三方市场信息，以及如何将所有这些数据整合到一起，成为一项重要的任务。农业人工智能还需要了解的不仅仅是客户属性；它需要了解土地： GPS坐标、农场边界、田块和单个物业的土壤变化。 您在哪里施肥，施肥率如何，在农场的哪个特定区域施肥？并非一个领域的所有部分都是相同的，如果人工智能系统像对待它们一样对待它们，那么它们所产生的建议充其量是不精确的，充其量是破坏性的。由于所涉及的化学品和责任，也存在合规性维度。",
-      "originalSummary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&#160; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop&#8230;",
-      "rawFullText": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork.&nbsp; The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop yield by 26%, reduce water use by 41%, and cut chemical usage by 33%.&nbsp; However, what AI vendors usually won’t tell you is that these solutions are only effective if you have a clean, solid data foundation. However, at Reltio, we have experience in this area, including leading technology strategy at a major agricultural distributor and building a data platform used by enterprises worldwide–we’ve seen it first hand. What AI vendors won’t tell you&nbsp; Vendor conversations in agriculture tend to follow a familiar pattern. The pitch leads with grand promises around using AI to monitor crop health in real time, optimize irrigation, and squeeze more yield from every acre.&nbsp; The promise is compelling, but what rarely comes up is the question of whether the data foundation underneath those promises is accurate and complete. If not, there is a real and significant risk that AI will generate misleading outputs that seem authoritative but inspire action that is, at best, counterproductive.&nbsp; For instance, a yield prediction model fed inconsistent historical data will generate imprecise forecasts. Similarly, a precision irrigation system drawing on fragmented sensor data will make watering decisions that waste resources instead of saving them.&nbsp; In each case, the AI is failing because the data it was trained on was not sufficient to produce trustworthy outputs. In agriculture, every AI hallucination is a liability, and the likelihood of error is high. Why agriculture is a uniquely challenging test case The data landscape across a modern agricultural operation or a large distributor serving thousands of growers is extraordinarily complex. Modern farming environments make extensive use of IoT devices and machinery. Irrigation systems are automated, tractors navigate fields autonomously, and drones capture field imagery at scale.&nbsp; However, machine data is disparate by nature. Add in external sources, including weather feeds, U.S. Department of Agriculture data, and third-party market information, and the question of how you bring all of it together into something coherent becomes a significant undertaking.&nbsp; Agricultural AI also needs to understand more than just customer attributes; it needs to understand the land: GPS coordinates, farm boundaries, field blocks, and soil variation across a single property. Where do you apply fertilizer, and at what rate, and in which specific area of the farm? Not all parts of a field are the same, and an AI system that treats them as if they are will produce recommendations that are at best imprecise and at worst damaging. There is also a compliance dimension due to the chemicals and the responsibility involved. Operational AI in agriculture needs significantly more checks and governance than it might in a lower-stakes environment. When a flawed recommendation gets acted upon in the field, the consequences can be severe.&nbsp; What data readiness means in practice&nbsp; Data readiness is the difference between AI delivering on its promise vs. a “garbage in, garbage out” scenario. Fundamentally, being ready for AI means having a data model that accurately reflects how the business operates.&nbsp; For a company like Wilbur-Ellis, a 104-year-old, family-owned agricultural distributor, that means understanding who your customers are, which fields they farm, which inputs they need, which suppliers those inputs come from, what they paid last season, and how all of that connects to margin. That information needs to be current, consistent, and accessible across the organization, rather than locked in separate systems that were never designed to talk to each other. Similarly, for farming operations themselves, data readiness means having a reliable, connected picture of what is happening across every field: soil health records, input application histories, yield data from previous seasons, equipment performance, and real-time sensor readings from irrigation systems. Governance matters just as much as structure. Prices change, relationships evolve, and suppliers come and go. An AI system drawing on data that was accurate six months ago but has not been maintained will make recommendations based on a version of the business that no longer exists.&nbsp; Building the foundation that makes AI trustworthy The good news is that the path to data readiness is feasible. It starts with a strong data model: a single, governed source of truth that connects customers, suppliers, products, pricing, orders, and margins in a way that reflects how the organization operates.&nbsp; From there, it requires data pipelines fast enough to deliver insights when decisions need to be made, governance frameworks that keep that data trustworthy over time, and security controls that ensure sensitive commercial information is accessible to the right people under the right conditions. This is precisely the challenge that Reltio, an SAP company, was built to solve. Reltio enables companies to unify their fragmented data so AI agents and systems can operate from a complete picture of the business. Reltio builds a trusted system of context, known as the context intelligence layer, that brings all entities, relationships, rules together under one roof and makes business data easy to access and interpret. For Wilbur-Ellis, building that trustworthy data foundation has meant being able to ask more complex questions and trust the answers, which is the precondition for any AI system to be genuinely useful. How agriculture can drive real value from AI The question worth asking before the next AI conversation is not whether the use case is promising. It almost certainly is. The question is whether the underlying data foundation is strong enough to make the output trustworthy.&nbsp; Agriculture has always required its leaders to make high-stakes decisions under uncertainty, and AI offers the genuine prospect of making those decisions faster and better informed. That prospect is only achievable for organizations that have done the foundational work first, and the businesses that will get the most from AI are the ones investing in that foundation now. This content was produced by Reltio. It was not written by MIT Technology Review’s editorial staff.",
-      "tags": [
-        "模型"
-      ],
-      "score": 67
     }
   ]
 }
