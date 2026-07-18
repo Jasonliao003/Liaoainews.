@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T23:56:50.735Z",
+  "updatedAt": "2026-07-18T23:58:33.307Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,18 @@
   ],
   "articles": [
     {
-      "title": "使用NVIDIA NeMo Automodel和Diffusers大规模微调视频和图像🤗模型",
-      "originalTitle": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "date": "2026-07-17T15:57:54.000Z",
-      "summary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
-      "fullContent": "目录什么是NeMo Automodel ？支持的扩散模型此协作解锁的内容查看微调工作流程1.对数据集进行预编码2.使用现有FLUX YAML启动培训3.从微调的检查点生成4.性能其他微调/LoRA示例立即试用下一步： Pythonic配方API资源NVIDIA和Hugging Face的联合帖子。 特别感谢来自Hugging Face的Sayak Paul对整合工作的贡献以及对本博客的共同创作。扩散模型为过去两年中最令人兴奋的开源版本提供了动力，例如用于文本到图像的FLUX. 1-dev和用于文本到视频的Wan 2. 1和HunyuanVideo。 Diffusers🤗 库已经成为这些模型事实上的家园，为研究人员和构建者提供了一个单一的、一致的推理、适应和管道组合界面。此外，培训和微调扩散模型也在增加，需要提供内存高效分片、潜在缓存、多分辨率存储桶的实用程序，以及从一个GPU到数百个GPU的优雅扩展配置。 为了满足这些技术需求，我们提供NVIDIA NeMo Automodel开源库。今天，我们将重点介绍NVIDIA与Hugging Face之间的合作，该合作为Hugging Face Hub上的任何Diffusers格式模型带来了生产级分布式扩散培训，无需进行检查点转换，也不会对任何新模型进行模型重写。集成记录在Diffusers培训指南中，并且在Apache 2. 0下完全开源。 NeMo Automodel是一个开源的PyTorch DTensor原生培训库，是NVIDIA NeMo框架的一部分，围绕对扩散器生态系统至关重要的两个设计原则构建： AutoModel目前仅支持流量匹配模型。在引擎盖下，它使用流量匹配作为训练目标，通过潜空间训练（通过预编码的VAE输出）和多分辨率桶式数据加载来加速吞吐量。 NeMo Automodel集成附带了以下开放式扩散模型的现成微调配方。该列表反映了当前示例/扩散/微调中的配方。对于扩散器用户来说，实际收益分解为几个具体的功能。没有检查点转换。来自Hub的预训练权重开箱即用。没有单独的“训练格式”可供转换，然后再转换回去。 您的微调检查点直接加载到DiffusionPipeline中进行推理，或返回到Hub进行共享。下游工具（量化、编译、LoRA适配器、自定义采样器）都可以继续工作。新型号支持的快速路径。当新的扩散模型降落在扩散器中时，在NeMo Automodel中启用它需要一个小的、包含的代码添加—一个数据预处理处理程序和一个模型适配器—而不是一个完整的自定义训练脚本。 配方堆栈的其余部分（ FSDP2、桶装数据加载、检查点、生成）保持不变，并应用相同的YAML驱动工作流。全面且参数高效的微调。支持完全微调和LoRA风格的PEFT ，因此您可以在最高质量（大型集群上的完全FT ）或最高效率（单个节点上的LoR...",
-      "originalSummary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
-      "rawFullText": "",
+      "title": "Dave Eggers告诉OpenAI工作人员， ChatGPT正在“沉默整整一代人”",
+      "originalTitle": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "date": "2026-07-18T20:54:42.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "戴夫·埃格斯（ Dave Eggers ）参加了“转折点：被摧毁”的首映式。|图片： John Lamparski/Getty Images参加翠贝卡艺术节去年， Sam Altman邀请作家Dave Eggers与约200名OpenAI员工进行演讲。这名男子撰写了无数的小说、剧本和新闻作品，创办了McSweeney's ，并创办了多所学校和非营利组织，为作家和艺术提供更广泛的支持。 因此，人们可能会期望他走进公司的办公室，提供有关如何无情地多产或如何在多个领域脱颖而出的技巧。相反，他显然加入了公司。据英国《金融时报》报道，埃格斯告诉工作人员： “ChatGPT对教育工作者生活的影响是灾难性的。无论您是否打算这样做，您都已经完成了每一次教学......在The Verge阅读完整的故事。",
+      "originalSummary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer [&#8230;]",
+      "rawFullText": "Dave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels , screenplays, pieces of journalism, started McSweeney's , and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer tips on being relentlessly prolific, or how to excel in multiple fields. Instead, he apparently laced into the company. According to the Financial Times , Eggers told the staff: \"The effect of ChatGPT on educators' lives is catastrophic. Whether you intended to do it or not, you've made every teache … Read the full story at The Verge.",
       "tags": [
-        "视频生成",
-        "算力芯片",
-        "模型"
+        "大模型",
+        "公司动态"
       ],
       "score": 99
     },
@@ -40,7 +39,7 @@
       "originalTitle": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2607.14093",
-      "date": "2026-07-17T04:00:00.000Z",
+      "date": "2026-07-18T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2607. 14093v1公告类型：新摘要：本文提出了一种新的三级分层学习架构，用于自主无人机群执行搜索和救援操作。 与在所有层次结构级别上应用单一学习范式的传统方法不同，所提出的架构集成了三种定性不同的学习机制，这些学习机制对应于反射、技能和推理的生物层次结构，例如用于个体主体适应的Hebbian神经可塑性，用于战术协调的图形神经网络和行为树的多主体强化学习，以及模型不可知的元学习 该架构通过BDI、行为树、GNN、MARL、神经可塑性、元学习等六个组成部分组织的22个架构合同正式化，这些合同共同提供安全性、预算正确性、最优性、活力、饥饿自由和层级间一致性等六类正式保证。 我们引入Swarm Meta Cognition作为由所有三个层次的结构化相互作用产生的组合属性，使Swarm能够监控自己的认知状态并在认知策略之间切换。SAR任务类型的五个建设性进度函数弥合了抽象优化理论与具体操作场景之间的差距。 主要积分定理确定，当所有合约都得到满足时，混合神经符号系统保留所有六个保证类。对于具有主动学习的动态案例，五个新合约扩展了框架，增加了三个额外的保证，如认知弹性、优雅退化和单调元改进。 理论分析表明，该架构解决了现有分层RL方法的五个基本局限性。",
       "originalSummary": "arXiv:2607.14093v1 Announce Type: new Abstract: This paper presents a novel three level hierarchical learning architecture for autonomous UAV swarms performing search and rescue operations. Unlike conventional approaches that apply a single learning paradigm across all hierarchy levels, the proposed architecture integrates three qualitatively different learning mechanisms corresponding to the biological hierarchy of reflexes, skills, and reasoning such as Hebbian neuroplasticity for individual agent adaptation, multi agent reinforcement learning with graph neural networks and behavior trees for tactical coordination, and model agnostic meta learning with BDI reasoning and a digital twin for strategic decision making. The architecture is formalized through twenty two architectural contracts organized across six components such as BDI, Behavior Trees, GNN, MARL, Neuroplasticity, Meta Learning that collectively provide six classes of formal guarantees such as safety, budget correctness, optimality, liveness, starvation freedom, and inter level consistency. We introduce Swarm Meta Cognition as a compositional property arising from the structured interaction of all three levels, enabling the swarm to monitor its own cognitive state and switch between cognitive strategies. Five constructive progress functions for SAR task types bridge the gap between abstract optimization theory and concrete operational scenarios. The main integration theorem establishes that when all contracts are satisfied, the hybrid neuro-symbolic system preserves all six guarantee classes. For the dynamic case with active learning, five new contracts extend the framework with three additional guarantees such as cognitive resilience, graceful degradation, and monotonic meta improvement. Theoretical analysis demonstrates that the architecture addresses five fundamental limitations of existing hierarchical RL approaches.",
@@ -57,7 +56,7 @@
       "originalTitle": "Enhancing Small Language Models Reasoning through Knowledge Graph Grounding",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2607.14149",
-      "date": "2026-07-17T04:00:00.000Z",
+      "date": "2026-07-18T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2607. 14149v1公告类型：新摘要：尽管大型语言模型（ LLM ）为零点推理设定了基准，但其部署仍然具有成本限制和环境负担。对于需要复杂、多跳逻辑基础的任务，小语言模型（ SLM ）提供了一种可持续的替代方案，但容易出错。 我们使用CLUTRR亲属关系基准来研究神经符号代理框架，以增强SLM的推理能力，特别是Gemma 3 （ 1B ， 4B ）和Llama 3. 2 （ 3B ）。我们的方法利用两个专门的工具调用将SLM转换为极简代理：用于符号三元组提取的extract_facts和用于通过关系图卷积网络（ RGCN ）进行专家推理的get_hint。 我们在两种配置中评估这些模型，一种是在具有地面真相三元组的Oracle场景中，另一种是在依赖于自我提取知识的现实场景中。我们的研究结果表明，虽然RGCN衍生的提示比仅限故事的基线提供了1. 5 - 2倍的性能提升，但系统受到提取瓶颈和连续演绎脆弱性的限制，其中早期提取错误在多跳链上复合。 此外，我们在特定架构中发现了一种“分心效应” ，即尽管有专家提示，但嘈杂的自生事实会降低性能。这项工作描述了低资源代理系统中符号接地的挑战，并为神经符号代理管道中的迭代验证提供了路线图。",
       "originalSummary": "arXiv:2607.14149v1 Announce Type: new Abstract: Although large language models (LLMs) have set benchmarks for zero-shot reasoning, their deployment remains cost-prohibitive and environmentally taxing. Small Language Models (SLMs) offer a sustainable alternative, but prone to errors, on tasks requiring complex, multi-hop logical grounding. We investigate a neuro-symbolic agentic framework to enhance the reasoning capabilities of SLMs, specifically Gemma 3 (1B, 4B) and Llama 3.2 (3B), using the CLUTRR kinship benchmark. Our approach transforms the SLM into a minimalist agent utilizing two specialized tool calls: extract_facts for symbolic triplet extraction and get_hint for expert reasoning via a Relational Graph Convolutional Network (RGCN). We evaluate these models across two configurations, both in an Oracle scenario with ground-truth triplets and a Realistic scenario relying on self-extracted knowledge. Our results reveal that while RGCN-derived hints provide a 1.5 - 2x performance gain over story-only baselines, the system is constrained by the extraction bottleneck and sequential deductive fragility, where early extraction errors compound over multi-hop chains. Furthermore, we identify a \"distraction effect\" in specific architectures where noisy, self-generated facts degrade performance despite the presence of expert hints. This work characterizes the challenges of symbolic grounding in low-resource agentic systems and provides a roadmap for iterative verification in neuro-symbolic agentic pipelines.",
@@ -74,7 +73,7 @@
       "originalTitle": "Orchestrating Power Grid Studies with Multi-Agent AI and MCP Servers",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2607.14158",
-      "date": "2026-07-17T04:00:00.000Z",
+      "date": "2026-07-18T04:00:00.000Z",
       "summary": "这条新闻与智能体、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、论文相关动态",
       "fullContent": "arXiv: 2607. 14158v1公告类型：新摘要：本立场文件探讨Agentic AI和模型上下文协议(MCP)如何支持传输系统运营商(TSO)上下文中的电网研究。我们专注于将大型语言模型与数值模拟工具、结构化工作流程和人工监督相集成。 我们确定了代理辅助网格研究的关键行业要求，并引入了pypowsybl-mcp ，这是一个基于MCP的界面，向AI代理展示了我们的模拟工具pypowsybl的选定功能。第一步提供了一个测试平台，用于研究代理如何通过标准化工具调用来设置模拟、执行分析、检索结果以及与电力系统模拟器进行交互。 我们还讨论了人性化、多代理工作流程的原则，并概述了结合技术指标和从业者反馈的评估策略。该论文将基于MCP的工具集成定位为朝着更具交互性、可审计性和可扩展性的网格研究环境迈出的一步。",
       "originalSummary": "arXiv:2607.14158v1 Announce Type: new Abstract: This position paper explores how Agentic AI and Model Context Protocol (MCP) can support power-grid studies in a Transmission System Operator (TSO) context. We focus on integrating Large Language Models with numerical simulation tools, structured workflows, and human supervision. We identify key industrial requirements for agent assisted grid studies and introduce pypowsybl-mcp, an MCP-based interface exposing selected capabilities of our simulation tool, pypowsybl to AI agents. This first step provides a testbed to study how agents can setup simulations, execute analyses, retrieve results, and interact with power-system simulators through standardized tool calls. We also discuss principles for human-in-the-loop, multi-agent workflows and outline an evaluation strategy combining technical metrics and practitioner feedback. The paper positions MCP-based tool integration as a step toward more interactive, auditable, and scalable grid-study environments.",
@@ -91,7 +90,7 @@
       "originalTitle": "MemoHarness: Agent Harnesses That Learn from Experience",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2607.14159",
-      "date": "2026-07-17T04:00:00.000Z",
+      "date": "2026-07-18T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2607. 14159v1 Announce Type: new Abstract:代理线束是外部控制层，通过管理上下文、工具、编排、内存、解码和输出处理，将基本LLM转换为可执行代理。虽然线束设计强烈影响代理行为，但大多数自动改进方法优化较窄的工件，如提示、管道或工作流，并且部署的代理通常在所有情况下重用单个全局线束。 我们引入了MemoHarness ，这是一个自适应线束优化框架，可以从自己的执行中学习。MemoHarness将线束分解为六个可编辑的控制维度，将每个案例的诊断和蒸馏的全局模式存储在双层体验库中，并使用检索到的体验（无需测试时间标签、反馈或额外搜索）使学习的线束适应每个测试案例。 在我们对shell-agent、代码生成和分析推理基准的评估中， MemoHarness优于我们比较的固定线束，并显示选择性地转移到看不见的套件和基本模型。当大部分检索到的体验可缓存时，其附加上下文也可以保持成本竞争力。 这些结果提供了证据，证明执行体验是构建代理线束的实用基础，比单个静态配置更具适应性，同时对统计鲁棒性和未来工作的组件归因提出了更广泛的主张。",
       "originalSummary": "arXiv:2607.14159v1 Announce Type: new Abstract: An agent harness is the external control layer that turns a base LLM into an executable agent by managing context, tools, orchestration, memory, decoding, and output handling. While harness design strongly affects agent behavior, most automatic improvement methods optimize narrower artifacts such as prompts, pipelines, or workflows, and deployed agents usually reuse a single global harness for all cases. We introduce MemoHarness, an adaptive harness optimization framework that learns from its own executions. MemoHarness decomposes the harness into six editable control dimensions, stores per-case diagnoses and distilled global patterns in a dual-layer experience bank, and adapts the learned harness to each test case using retrieved experience without test-time labels, feedback, or additional search. In our evaluation across shell-agent, code-generation, and analytical-reasoning benchmarks, MemoHarness improves over the fixed harnesses we compare against and shows selective transfer to unseen suites and base models. Its additional context can also remain cost-competitive when much of the retrieved experience is cacheable. These results provide evidence that execution experience is a practical substrate for building agent harnesses that are more adaptive than a single static configuration, while leaving broader claims about statistical robustness and component attribution to future work.",
@@ -102,6 +101,84 @@
         "评测"
       ],
       "score": 99
+    },
+    {
+      "title": "使用NVIDIA NeMo Automodel和Diffusers大规模微调视频和图像🤗模型",
+      "originalTitle": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "date": "2026-07-17T15:57:54.000Z",
+      "summary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
+      "fullContent": "目录什么是NeMo Automodel ？支持的扩散模型此协作解锁的内容查看微调工作流程1.对数据集进行预编码2.使用现有FLUX YAML启动培训3.从微调的检查点生成4.性能其他微调/LoRA示例立即试用下一步： Pythonic配方API资源NVIDIA和Hugging Face的联合帖子。 特别感谢来自Hugging Face的Sayak Paul对整合工作的贡献以及对本博客的共同创作。扩散模型为过去两年中最令人兴奋的开源版本提供了动力，例如用于文本到图像的FLUX. 1-dev和用于文本到视频的Wan 2. 1和HunyuanVideo。 Diffusers🤗 库已经成为这些模型事实上的家园，为研究人员和构建者提供了一个单一的、一致的推理、适应和管道组合界面。此外，培训和微调扩散模型也在增加，需要提供内存高效分片、潜在缓存、多分辨率存储桶的实用程序，以及从一个GPU到数百个GPU的优雅扩展配置。 为了满足这些技术需求，我们提供NVIDIA NeMo Automodel开源库。今天，我们将重点介绍NVIDIA与Hugging Face之间的合作，该合作为Hugging Face Hub上的任何Diffusers格式模型带来了生产级分布式扩散培训，无需进行检查点转换，也不会对任何新模型进行模型重写。集成记录在Diffusers培训指南中，并且在Apache 2. 0下完全开源。 NeMo Automodel是一个开源的PyTorch DTensor原生培训库，是NVIDIA NeMo框架的一部分，围绕对扩散器生态系统至关重要的两个设计原则构建： AutoModel目前仅支持流量匹配模型。在引擎盖下，它使用流量匹配作为训练目标，通过潜空间训练（通过预编码的VAE输出）和多分辨率桶式数据加载来加速吞吐量。 NeMo Automodel集成附带了以下开放式扩散模型的现成微调配方。该列表反映了当前示例/扩散/微调中的配方。对于扩散器用户来说，实际收益分解为几个具体的功能。没有检查点转换。来自Hub的预训练权重开箱即用。没有单独的“训练格式”可供转换，然后再转换回去。 您的微调检查点直接加载到DiffusionPipeline中进行推理，或返回到Hub进行共享。下游工具（量化、编译、LoRA适配器、自定义采样器）都可以继续工作。新型号支持的快速路径。当新的扩散模型降落在扩散器中时，在NeMo Automodel中启用它需要一个小的、包含的代码添加—一个数据预处理处理程序和一个模型适配器—而不是一个完整的自定义训练脚本。 配方堆栈的其余部分（ FSDP2、桶装数据加载、检查点、生成）保持不变，并应用相同的YAML驱动工作流。全面且参数高效的微调。支持完全微调和LoRA风格的PEFT ，因此您可以在最高质量（大型集群上的完全FT ）或最高效率（单个节点上的LoR...",
+      "originalSummary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：视频生成、算力芯片相关动态",
+      "rawFullText": "",
+      "tags": [
+        "视频生成",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
+      "title": "Vertu希望高管为AI代理支付$ 6,880 —以下是它的实际表现",
+      "originalTitle": "Vertu wants executives to pay $6,880 for an AI agent — here&#8217;s how it actually performs",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "date": "2026-07-17T22:55:09.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "人工智能已成为智能手机行业的最新战场，制造商竞相添加人工智能功能以吸引主流消费者。Vertu正在走一条不同的道路。这家英国创立的豪华手机制造商以手工制作的设备而闻名，通常花费数万美元，销售的是状态而不是规格。 它的Alphafold是一款可折叠手机，面向富裕的买家，尤其是首席执行官，将奢侈品材料与AI代理配对，旨在实现高管工作日部分时间的自动化。所以我对这个推销进行了测试。 我没有把重点放在基准分数、相机比较和媒体消费（大多数智能手机评论的主要内容）上，而是花了几天时间使用可折叠的方式，就像Vertu所说的那样：管理文档、分析电子表格和合同、规划商务旅行、自动化日常任务，以及在整个工作日依靠其人工智能代理作为数字伴侣。 问题不在于它是否是一款出色的智能手机，而是它是否是一款出色的高管智能手机。Alphafold的核心是Hermes Agent ，它是在开源Hermes项目之上构建的预装人工智能代理，该公司表示，它可以分析文件、跨应用程序自动化任务、记住对话，并在需要时将请求转交给人类礼宾人员。 与大多数仅响应提示的智能手机AI助手不同， Hermes旨在代表用户执行多步骤工作流程，使其成为Vertu推销的核心，而不是可折叠硬件本身。从物理上讲，起价为$ 6,880的Alphafold外观和感觉都像一款奢侈品。 我收到的评价单元采用钛金属装饰的真皮小牛皮包裹，使其与主要依靠玻璃或合成饰面的主流可折叠物品区别开来。它显然是为那些将手机视为工具和身份象征的买家而打造的。与我在本篇评论中用作参考设备的三星Galaxy Z Fold 7相比， 264克的Alphafold感觉比三星的215克可折叠重得多。 在长期使用过程中，额外的重量是显而易见的，尽管它永远不会感到笨拙。Alphafold的弧形框架也比Galaxy Z Fold 7的平坦边缘更容易展开。然而，三星的设计感觉更时尚，折叠时更舒适，使其更易于单手使用。Alphafold的包装感觉更像是珠宝展示盒，而不是智能手机盒。 超大包装盒打开后，您可以看到布置整齐的抽屉，里面装有捆绑的配件，包括皮套和充电线，这增强了Vertu销售奢华体验而不仅仅是手机的感觉。然而，在优质材料之下， Alphafold讲述了一个不同的故事。",
+      "originalSummary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 94
+    },
+    {
+      "title": "人工智能时代的记分卡",
+      "originalTitle": "A scorecard for the AI age",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "date": "2026-07-17T10:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI首席财务官Sarah Friar介绍了一种实用的AI记分卡，可通过有用的工作、每项成功任务的成本、可靠性和计算回报率来衡量ROI。",
+      "originalSummary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
+    },
+    {
+      "title": "Patreon停止要求AI智能小助手不要抓取，并开始屏蔽它们",
+      "originalTitle": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "date": "2026-07-17T15:21:17.000Z",
+      "summary": "这条新闻与机器人、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、模型相关动态",
+      "fullContent": "Patreon正在加强对人工智能抓取的防御，与Cloudflare合作，阻止未经许可在创作者内容上训练人工智能模型的机器人。此举标志着人们不再依赖仅使用机器人.txt的网站来主动阻止未经授权的人工智能培训。",
+      "originalSummary": "Patreon is strengthening its defenses against AI scraping by working with Cloudflare to block bots that train AI models on creators’ content without permission. The move marks a shift away from relying on websites using robots.txt alone to actively block unauthorized AI training.",
+      "rawFullText": "",
+      "tags": [
+        "机器人",
+        "模型"
+      ],
+      "score": 89
+    },
+    {
+      "title": "苹果的大型诉讼如何破坏OpenAI的IPO计划",
+      "originalTitle": "How Apple&#8217;s big lawsuit could disrupt OpenAI&#8217;s IPO plans",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "date": "2026-07-17T17:45:46.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "苹果公司上周五对OpenAI提起了商业机密诉讼，它并没有乱来。该投诉称，一贯的不当行为一直延伸到OpenAI的首席硬件官，并声称目前有400多名前苹果员工在该公司工作。 到目前为止， OpenAI的回应已被仔细对冲，据报道，该公司正在考虑进行IPO […] ，时机再糟糕不过了。",
+      "originalSummary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the company.&#160;OpenAI&#8217;s response so far&#160;has been carefully hedged, and the timing&#160;couldn&#8217;t&#160;be worse with the company&#160;reportedly eyeing&#160;an IPO [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
     },
     {
       "title": "为什么青少年应该获得安全的人工智能",
@@ -166,7 +243,7 @@
         "大模型",
         "视频生成"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "谷歌将NotebookLM更名为Gemini Notebook",
@@ -181,7 +258,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "认识GPT-Red ： LLM超级黑客OpenAI ，旨在使其模型更安全",
@@ -246,22 +323,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
-      "title": "AI SLOP电影是新的直接到视频的现金抢夺",
-      "originalTitle": "AI slop movies are the new direct-to-video cash grabs",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
-      "date": "2026-07-15T20:00:00.000Z",
-      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
-      "fullContent": "本周末，世界各地的电影人将前往当地剧院，欣赏克里斯托弗·诺兰（ Christopher Nolan ）改编的《奥德赛》（ The Odyssey ）。它有望在短短几天内获得8000万至1亿美元的收入。很明显，人们很高兴看到Nolan如何利用尖端的电影制作技术让荷马经典感觉清新。 但另一位导演正试图利用诺兰项目的嗡嗡声来激发人们对奥德修斯电影的兴趣。周二，电影制片厂Fountain 0宣布，它正在对人工智能生成的《奥德赛》进行重新构想，名为《奥德赛：陨落》（ Odysseus: The Fall ） ，它将可用于......在The Verge阅读完整故事。",
-      "originalSummary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey. It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric [&#8230;]",
-      "rawFullText": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of The Odyssey . It's on track to rake in anywhere between $80-$100 million in just a few days. People are clearly excited to see how Nolan uses cutting-edge filmmaking tech to make the Homeric classic feel fresh. But another director is trying to capitalize on the buzz around Nolan's project to drum up interest in an Odysseus-focused movie of his own. On Tuesday, film studio Fountain 0 announced that it is working on an AI-generated reimagining of The Odyssey titled Odysseus: The Fall , which will be availabl … Read the full story at The Verge.",
+      "title": "模型路由很简单。直到它不是。",
+      "originalTitle": "Model Routing Is Simple. Until It Isn’t.",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "date": "2026-07-15T17:27:01.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "1.成本不仅仅是模型定价2.复杂性不仅仅是任务难度3.延迟不仅仅是模型速度，那么我们是如何处理的呢？更大的图片确认将路由器构建到您的代理中听起来像是一个轻松的胜利。向更便宜的型号发送简单的请求，为更困难的任务保留昂贵的请求，或按专业路线— Claude用于代码， Gemini用于多式联运等。 分类器或启发式调用，成本下降，性能保持上升。完成了。但它不是。大多数路由系统假设模型选择是一个分类问题。根据我们将路由构建到代理系统中的经验，看起来像模型选择问题的东西很快就会变成系统优化问题。三维空间让我们感到非常困难。我们预计GPT-4. 1比Claude Sonnet 4. 6便宜。事实并非如此。 在使用相同CodeAct代理的AppWorld测试挑战赛上的417项任务中， Sonnet总共花费$ 79 （每项任务$ 0. 19 ） ，而GPT-4. 1花费$ 155 （每项任务$ 0. 37 ） —几乎翻了一番。在纸面上，这毫无意义。GPT-4. 1的令牌定价在输入和输出上都较低， Sonnet需要大约三倍的推理步骤来完成相同的任务。仅通过贴纸价格， GPT-4. 1应该很容易获胜。解释？ 缓存--大多数路由讨论完全忽略了这一点。代理工作负载倾向于跨步骤重用大量上下文。当缓存命中率高时，有效投入成本会大幅下降。Sonnet较低的缓存读取定价意味着它不成比例地从这种模式中受益，足以克服其较高的基本定价和较长的轨迹。 总结：实际成本取决于模型、工作负载和服务基础设施之间的交互。只查看定价表的路由器正在针对错误的数字进行优化。一种常见的路由策略是估计任务的难度，并将更难的任务发送给更强大的模型。直观，但它分为两种方式。首先，难度通常在路由时间不可见。 像“总结此合同”这样的请求看起来很简单，但在完成之前可能会触发检索、合规性检查、工具使用和多轮细化。同时，较小的专业模型可以有效地处理高度技术性的提示。在执行之前，您通常不知道任务的实际难度。其次，即使你可以完美地估计难度，这也只是众多信号中的一个。 在生产中，路由器需要同时平衡成本、延迟、模型专业化和可靠性。企业部署更多：合规性要求、数据驻留规则、隐私限制、批准的模型列表。由于治理的原因，理想情况下需要转到一个模型的任务可能需要转到其他地方—路由器必须优雅地处理这一点。路由器不能解决一个问题。 他们不断地同时兼顾成本、质量、延迟、合规性和可靠性。人们很容易纯粹从模型大小的角度来考虑延迟--较大的模型速度较慢，较小的模型速度较快。但用户的实际体验远不止于此。路由本身会增加开销。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
       "tags": [
-        "视频生成"
+        "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "销售团队如何使用ChatGPT",
@@ -276,7 +353,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "数据科学团队如何使用ChatGPT",
@@ -291,7 +368,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "如何在代理时代管理人工智能投资",
@@ -306,7 +383,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "Anthropic最新的人工智能发现",
@@ -322,7 +399,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "开始使用ChatGPT",
@@ -337,7 +414,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "德国电信如何使用人工智能重新布线电信",
@@ -352,7 +429,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
@@ -367,7 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "GPT-5.5生物虫子赏金",
@@ -383,7 +460,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Anthropic发现了一个隐蔽的空间， Claude在这里拼凑概念",
@@ -400,7 +477,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "GPT-5.6现在是Microsoft 365 Copilot的首选型号",
@@ -416,7 +493,7 @@
         "大模型",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "原生速度vLLM变压器建模后端",
@@ -431,7 +508,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "IT领导者扩展所需的人工智能架构的基本要素",
@@ -446,7 +523,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "在Foundry托管计算上拥抱人脸模型",
@@ -461,7 +538,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "一键从Hugging Face到Amazon SageMaker Studio",
@@ -476,7 +553,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "在任何云上运行AI工作负载，在Hugging Face上存储：使用SkyPilot实现零缺口存储",
@@ -491,7 +568,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "您的家人在OpenAI中的300 $股份",
@@ -506,7 +583,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "为自主企业奠定基础",
