@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T00:01:40.893Z",
+  "updatedAt": "2026-07-21T23:58:41.692Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,91 @@
   ],
   "articles": [
     {
+      "title": "OpenAI表示，它不小心用新的人工智能系统入侵了Hugging Face",
+      "originalTitle": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "date": "2026-07-21T21:48:54.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI首席执行官Sam Altman。|彭博社通过Getty Images OpenAI表示，其人工智能模型在内部测试期间错误地违反了开源人工智能平台Hugging Face。在周二的一篇博客文章中， OpenAI写道， GPT-5. 6 SOL和“更强大的预发布模型”在其沙盒测试环境中发现了漏洞，使他们能够访问互联网并锁定拥抱脸。 7月16日， Hugging Face披露了一起安全事件，称该事件是由“自主人工智能代理系统”驱动的。“Hugging Face的人工智能代理检测并阻止了这一漏洞， OpenAI现在承认，这是在对其模型的网络安全能力进行评估时发生的。OpenAI说：“所有这些……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, [&#8230;]",
+      "rawFullText": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday , OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, Hugging Face disclosed a security incident that it says was driven by \"an autonomous AI agent system.\" Hugging Face's AI agents detected and stopped the breach, which OpenAI has now admitted occurred during an evaluation of its models' cybersecurity capabilities. OpenAI says \"all e … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI表示， Hugging Face被其自己的预发布型号破坏",
+      "originalTitle": "OpenAI says Hugging Face was breached by its own pre-release models",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-own-pre-release-models/",
+      "date": "2026-07-21T20:56:55.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI周二承认，它的一个人工智能模型在一次内部网络安全测试中违反了无关联的人工智能托管平台Hugging Face的系统。据报道，这些模型逃脱了孤立的测试环境，并从那里到达了Hugging Face的系统。Hugging Face最初将违规行为归咎于“外部AI代理”。 “在周二下午发布的一篇博客文章中， OpenAI详细介绍了导致模型损害服务的步骤。“经过调查，我们现在知道这一特定事件是由OpenAI模型（包括GPT-5 .6 SOL和更强大的预发布模型）的组合驱动的，所有这些模型都减少了用于评估目的的网络拒绝，同时在网络能力的基准上进行了内部测试， ”该帖子写道。 特别是，漏洞似乎集中在ExploitGym上，这是一个公开托管的基准测试，用于衡量模型基于现有漏洞执行攻击的能力。像ExploitGym这样的基准通常用于模型培训，以完善特定技能，但这是该测试导致实际网络攻击的第一个已知事件。 在这种情况下，除了特定的工具之外，该模型甚至不应该具有互联网访问权限，该工具使模型能够安装完成任务可能需要的软件包。相反，该模型能够在软件包安装程序中发现一个未公开的漏洞，该程序用于随意访问更广泛的互联网。 OpenAI的帖子写道： “这些模型过于专注于为ExploitGym寻找解决方案，竭尽全力实现相当狭窄的测试目标。” “在获得互联网接入后，模型推断Hugging Face可能托管了ExploitGym的模型、数据集和解决方案。知道了这一点，该模型搜索并成功找到了获取秘密信息的方法，可用于欺骗评估。 最终，这些模型在Hugging Face的基础设施中发现了漏洞，使他们能够“直接从Hugging Face的生产数据库中获取测试解决方案” ，从而有效地为基准提供了答案。 对于Hugging Face来说，明显的结果是一场复杂而咄咄逼人的网络攻击，正如该公司在最初披露的那样， “在一群短暂的沙箱中进行了成千上万次的个人行动，在公共服务上进行了自我迁移的命令和控制”。OpenAI已识别并报告软件包安装程序中的漏洞，并正在与Hugging Face合作进一步调查此事件。 该公司还表示，将对模型测试和相关基础设施实施新的控制措施，以防止未来发生类似事件。目前尚不清楚OpenAI是否会因违规行为而面临任何法律后果，尽管这些模特的行为很可能违反了《计算机欺诈和滥用法》。",
+      "originalSummary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "谷歌发布了三款新的双子座车型—但没有3.5专业版",
+      "originalTitle": "Google releases three new Gemini models — but no 3.5 Pro",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "date": "2026-07-21T17:11:50.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
+      "fullContent": "周二，谷歌DeepMind发布了Gemini 3. 6 Flash、3. 5 Flash-Lite和3. 5 Flash Cyber。Gemini 3. 6 Flash是谷歌的“主力模型” ，承诺提高编码、知识工作和多模式性能，同时将令牌使用量减少多达17% ，使其比其前身3. 5 Flash更便宜。Gemini 3. 5 Flash-Lite是同类产品中最具成本效益的型号， 3. 5 Flash Cyber是一种专门的模型，经过微调，可以以合理的价格发现和修复网络安全漏洞。谷歌表示，作为有限访问试点计划的一部分，该模式将仅供政府和值得信赖的合作伙伴使用。谷歌表示，这些版本的重点是为正在大规模构建AI代理的客户提供效率、延迟和可靠性。 此次发布不仅仅是因为谷歌出货的产品--针对编码、效率和网络安全进行了优化的更便宜、更快的模型--而且还因为它没有出货的产品。此次更新不包括期待已久的谷歌旗舰机型Gemini Pro的更新，该机型最近一次更新是在2月份。自发布以来， OpenAI已经发布了GPT-5. 5并开始推出GPT-5. 6 ，而Anthropic则推出了Claude Opus 4。 8和Claude Sonnet 5 ，并扩大了对其前沿Fable 5模型的访问，突出了竞争对手实验室的激烈发布速度。谷歌在5月份的3. 5 Flash版本中嘲笑Pro的发布，称Pro版本“已经在内部使用，我们期待下个月推出。“上周，彭博社报道称，谷歌在发布3方面面临内部延迟。 5专业版，因为它很难达到内部绩效目标。Gemini Pro型号通常是谷歌针对复杂推理和编码任务的最高性能产品，而Flash型号则优先考虑生产应用程序的低成本和更快的响应时间。谷歌DeepMind产品主管洛根·基尔帕特里克（ Logan Kilpatrick ）周二表示，该公司目前正在与合作伙伴一起测试Gemini 3. 5 Pro ，并希望“尽快落地”。 “他还指出，该团队已经开始了双子座4最雄心勃勃的预训练。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Rebecca Bellan是TechCrunch的高级记者，负责报道影响人工智能的业务、政策和新兴趋势。 她的作品也出现在福布斯、彭博、大西洋、每日野兽和其他出版物上。您可以通过发送电子邮件至rebecca. bellan @ techcrunch.com或发送加密消息至rebeccabellan联系或验证Rebecca。491 on Signal.更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 330 TODA Y ！",
+      "originalSummary": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "推出面向小型企业的ChatGPT计划",
+      "originalTitle": "Introducing the ChatGPT for small business program",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "date": "2026-07-21T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI推出面向小型企业的ChatGPT计划，帮助企业家通过ChatGPT Work培养人工智能技能、实现工作自动化和成长。",
+      "originalSummary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "谷歌推出比Mythos等大型人工智能安全模型更便宜的替代方案",
+      "originalTitle": "Google launches a cheaper alternative to large AI security models like Mythos",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+      "date": "2026-07-21T15:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "谷歌推出了Gemini 3. 6 Flash以及一种新的安全模型，专门用于快速发现和修补安全漏洞。在周二的一篇博客文章中，谷歌将Gemini 3. 5 Flash Cyber描述为“具有成本效益且功能强大的替代品” ，以取代更大、更昂贵的人工智能系统，例如Anthropic's Mythos提供的系统。网络安全模型建立在Gemini 3之上。 5 Flash ，将首先通过Google以安全为重点的编码代理CodeMender提供给政府和值得信赖的合作伙伴。正如谷歌所指出的那样， CodeMender可以“以高速和低成本多次调用3. 5 Flash Cyber” ，使AI代理能够......在The Verge阅读完整故事。",
+      "originalSummary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model [&#8230;]",
+      "rawFullText": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday , Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available first to governments and trusted partners via CodeMender, Google's security-focused coding agent . As noted by Google, CodeMender can call upon 3.5 Flash Cyber \"multiple times at high speed and low cost,\" allowing the AI agents to … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
       "title": "谷歌正在开发一种新的人工智能芯片，旨在提高双子座的效率",
       "originalTitle": "Google is working on a new AI chip designed to make Gemini more efficient",
       "source": "TechCrunch AI",
@@ -31,23 +116,6 @@
       "tags": [
         "大模型",
         "算力芯片",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "中国对美国的人工智能主导地位一举两得",
-      "originalTitle": "China delivers a one-two punch to America’s AI dominance",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
-      "date": "2026-07-20T10:16:33.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "中国领先的人工智能公司正在加大对硅谷的压力，因为Moonshot和阿里巴巴推出了他们声称可以以一小部分成本与OpenAI和Anthropic的最佳产品并驾齐驱的模型。快速发布的数据表明，美国在人工智能领域的领先地位越来越紧密，正如该技术正成为国家安全、经济实力和地缘政治影响力的核心一样。 开场白来自中国领先的人工智能模型开发商之一、总部位于北京的Moonshot AI ，该公司周五推出了Kimi K3。Moonshot声称自己的测试一直高于几乎所有美国系统，仅次于OpenAI……阅读The Verge的完整故事。",
-      "originalSummary": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming [&#8230;]",
-      "rawFullText": "China's leading AI companies are ramping up the pressure on Silicon Valley, as Moonshot and Alibaba unveiled models they claim can go toe-to-toe with the best from OpenAI and Anthropic at a fraction of the cost. The rapid-fire releases suggest America's lead at the AI frontier is increasingly tight, just as the technology is becoming central to national security, economic power, and geopolitical influence. The opening salvo came from Beijing-based Moonshot AI, one of China's leading AI model developers, which unveiled Kimi K3 on Friday. Moonshot claims its own testing ranks it consistently above nearly every US system, trailing only OpenAI … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "产品发布",
         "模型"
       ],
       "score": 99
@@ -70,140 +138,15 @@
       "score": 99
     },
     {
-      "title": "Cura 1T ：代理医疗保健的专业模式",
-      "originalTitle": "Cura 1T: Specialized Model for Agentic Healthcare",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.15314",
-      "date": "2026-07-20T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2607. 15314v1公告类型：新摘要：医疗保健涵盖高风险沟通、专家推理和工作流程执行，但涵盖这些用例的专业LLM仍然有限。医疗保健模型必须处理患者咨询、文本和图像的临床推理、交互式诊断和电子健康记录（ EHR ）工具的使用。这些功能以不同的方式失败，一项任务的狭隘更新可能会降低另一项任务的质量。 我们介绍Cura 1T ，这是一个通过人门自我进化循环进行培训的医疗保健专业法学硕士。在每轮进化中，培训代理计划目标能力，训练模型，评估基准轨迹，并从观察到的故障中优化数据混合。这种以数据为中心的循环通过有针对性的合成和策划的示例而不是单一的通用医疗数据更新来改进模型。 在整个医疗保健评估套件中， Cura 1T在前沿基线中排名靠前或接近顶部，同时在域外推理和代理基准方面保持竞争力。",
-      "originalSummary": "arXiv:2607.15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM trained through a human-gated self-evolution loop. In each evolution round, a training agent plans a target capability, trains the model, evaluates benchmark trajectories, and refines the data mixture from observed failures. This data-centered loop improves the model through targeted synthetic and curated examples rather than a single generic medical-data update. Across the healthcare evaluation suite, Cura 1T ranks at or near the top among frontier baselines, while remaining competitive on out-of-domain reasoning and agentic benchmarks.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "AnovaX ：具有LLM规划、类型执行和自适应恢复功能的本地多代理语音助手",
-      "originalTitle": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.15367",
-      "date": "2026-07-20T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 15367v1公告类型：新摘要：桌面语音助手仍然以云管道为主，这些管道将原始音频从机器上传送出去，并展示了一套固定的技能。我们描述AnovaX ，这是一个小型的本地优先助理，完全在用户的计算机上运行，并将桌面本身视为其操作表面。 单个Python进程将唤醒字门、语音管道、发出工具调用JSON计划的LLM规划器（ Gemini ）、白名单和拒绝列表安全层、将每个计划转换为有界线程池上类型化的子代理的多代理编排器以及每当核心步骤失败时接管的自适应恢复循环连接在一起。 每个工具对应一个专门的代理类（ AppAgent、TypingAgent、BrowserAgent和其他六个） ，具有自己的超时、重试策略和共享资源锁。递归MetaAgent允许规划者将子目标委派回自己，限制在两个嵌套级别。恢复循环使用紧凑的ReAct风格提示，并隐藏了Gemini在只读工具推测执行背后的延迟。 配套的Flask服务器通过本地WiFi公开电话友好型遥控器，将每个代理生命周期事件实时镜像到手机，并通过MJPEG流式传输笔记本电脑的屏幕，以便用户可以在运行时观看远程命令。 这个项目的重点与其说是与Siri或Alexa竞争，不如说是表明一个清晰易读的几千行助手足以打开应用程序，输入它们，运行搜索，协调并发操作，从单步故障中恢复，并完全从另一个房间的手机中驱动-而LLM永远不会触及键盘。",
-      "originalSummary": "arXiv:2607.15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON plan of tool calls, a whitelist-and-denylist safety layer, a multi-agent orchestrator that translates each plan into typed child agents on a bounded thread pool, and an adaptive recovery loop that takes over whenever a core step fails. Every tool corresponds to a specialized agent class (AppAgent, TypingAgent, BrowserAgent and six others) with its own timeout, retry policy, and shared-resource locks. A recursive MetaAgent lets the planner delegate a sub-goal back to itself, capped at two levels of nesting. The recovery loop uses a compact ReAct-style prompt and hides Gemini's latency behind speculative execution of read-only tools. A companion Flask server exposes a phone-friendly remote over the local WiFi, mirrors every agent lifecycle event to the phone in real time, and streams the laptop's screen back over MJPEG so the user can watch remote commands land as they run. The point of the project is less to compete with Siri or Alexa than to show that a legible, few-thousand-line assistant is enough to open apps, type into them, run searches, coordinate concurrent actions, recover from single-step failures, and be driven entirely from a phone in another room -- without the LLM ever touching the keyboard.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "苹果的诉讼会破坏OpenAI的硬件计划吗？",
-      "originalTitle": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-      "date": "2026-07-19T19:24:45.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "苹果最近对OpenAI提起了商业秘密诉讼，指控这家AI公司存在一贯的不当行为，旨在让苹果的现任和前任员工分享机密信息。（作为回应， OpenAI表示，它“不知道有任何证据表明此投诉是有道理的。 在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我争论了这起诉讼是否会给OpenAI进入硬件业务（从移动智能扬声器开始）并上市的备受讨论的计划蒙上阴影。 “即使搁置法院是否对OpenAI正在做的事情给予任何类型的禁令救济或任何类型的限制令，它也很自然地会导致这种情况，它会导致OpenAI正在进行的工作出现一些延误，”肖恩建议。“我敢肯定，这可能是苹果这样做的原因之一。他们不会胡闹地做这些事情。 “在所有这些计划岌岌可危的情况下， OpenAI是否会尽快解决这个问题，还是从最近的法庭上对埃隆·马斯克的胜利中得知，它可以承受审判的成本和尴尬？至少Kirsten预测到了后者。请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。Kirsten Korosec ： Sean ，你觉得Sam Altman用口袋里的小装置听你说话怎么样？ Sean O’Kane ：我很好。也许这是可以预测的，但我很好。不用了，谢谢。我敢肯定，我们会深入了解的，但这据称是OpenAI在硬件部门与Jony Ive及其公司合作开发的第一个产品。 自从去年他们发布了一段奇怪的视频，他们坐在旧金山的咖啡店或酒吧里，模糊地谈论硬件和传统设备，即笔记本电脑和手机，他们一直很害羞。因此，如果这是他们前进的方向，那么所有的力量都给了那些想要让这样的人总是倾听他们的人。这不适合我。 Anthony Ha ：关于这类设备，我们必须记住的一点是，根据它的移动性，它不仅仅是倾听你的声音，而是倾听你周围的人。我可能不介意—我不介意，但假设我是—但如果我们在Disrupt亲自见面，那么突然间它可能会倾听我们所有人的声音。 如果这些事情变得普遍，就必须重新谈判各种社会规范。我认为我们应该取笑和批评那些未经同意记录他人的人。",
-      "originalSummary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
-      "title": "Jensen Huang访问日本后的注意事项",
-      "originalTitle": "What to watch for after Jensen Huang&#8217;s Japan visit",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-      "date": "2026-07-19T21:16:07.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "英伟达(Nvidia)首席执行官黄延森(Jensen Huang)在台湾发表主题演讲几周后，以及访问韩国几个月后，分别于7月15日和16日在东京度过了两天，吸引了日本的工业和芯片供应精英。他留下的交易涵盖了日本的整个技术生态系统：一家国家人工智能工厂，与该国领先的机器人公司建立合作伙伴关系，以及与为英伟达下一代人工智能芯片提供支持的芯片材料供应商达成协议。 他的信息很明确。英伟达的目标是日本的工厂车间，该国许多最大的制造商也加入进来。黄说，人工智能的下一个篇章属于工厂车间、机器人和机器，他希望日本能够建造它。 三十年前， 500万美元的世嘉投资帮助Nvidia维持了近乎破产的生存；今天， Nvidia和日本的工业巨头再次需要彼此—这次是建立物理AI时代，从这三个项目开始： Noetra —日本的主权AI游戏。中国不想用美国或中国的人工智能来管理其工厂和机器人。 因此，政府召集了大约44家国内公司，以软银、索尼、NEC和本田为核心，为机器人、车辆和工厂车间构建自己的人工智能。东京承诺在五年内投入高达1万亿日元（ 62亿美元）的资金，押注于本土的“物理人工智能” ，即为运行机器而打造的基础模型。日本希望拥有软件大脑。不过，构建它的硬件仍然来自英伟达。美国。 S芯片巨头正在建设“Vera Rubin AI工厂” ，这是一个装有下一代芯片的大型数据中心，预计将于2028年推出，配备13,750个Vera CPU和27,500个Rubin GPU ，提供140兆瓦的功率。Noetra将监督这项工作，并计划建设数据中心。 Noetra的计划分为三个阶段：从2026财年开始，一个对日语技能有很大影响的推理模型；到2028年，一个处理文本、图像、视频和音频的全模式版本；以及为在2030年之前运行机器人而建造的“真实世界原生AI” ，分阶段发布给Noetra以外的开发人员。机器人联盟—日本的工业巨头排在Cosmos的后面。 英伟达的目标是日本的工厂车间，该国许多顶级机器人和制造业参与者正在签约。发那科(Fanuc)、安川(Yaskawa)、川崎重工(Kawasaki Heavy)、富士通(Fujitsu)、日立(Hitachi)、NEC、索尼(Sony)、软银(SoftBank)、久保田(Kubota)和机器人集团AIRoA表示，他们计划以英伟达(Nvidia)的宇宙(Cosmos)模型为基础，这是英伟达(Nvidia)在5月份与少数 在东京，英伟达给了他们一个承诺的理由，推出了Cosmos 3 Edge ，这是一个在机器内部的Jetson Thor芯片上运行的模型版本。有些公司已经在测试共享控制系统；其他公司，如本田研发和欧姆龙，现在正在建立这些工具。“人工智能的下一个前沿领域是物理世界，这对日本来说是一个千载难逢的机会，”黄在公司的声明中说。“日本发明了现代制造业。",
-      "originalSummary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "《奥德赛》导演克里斯托弗·诺兰称人工智能为明显的“特洛伊木马”",
-      "originalTitle": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
-      "date": "2026-07-19T14:52:08.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "奥斯卡获奖导演克里斯托弗·诺兰（ Christopher Nolan ）的新版本《奥德赛》（ The Odyssey ）目前正在赢得票房，他表示，看到人们对人工智能的深刻怀疑是“相当令人鼓舞的” ，尤其是年轻人。Nolan正在回答采访者Hugo Travers的问题，他以HugoDécrypte的名义在YouTube上发表文章。 特拉弗斯提出了传说中的特洛伊木马，它在诺兰的电影中扮演着关键角色--就像这匹马是隐藏凶残的希腊入侵者的礼物一样，他想知道人工智能是否可能是“你在日常生活中欢迎的东西” ，只是看到它变成了“别的东西，更黑暗的东西”。诺兰笑着回答说： “我认为人工智能是一种特洛伊木马，每个人都知道希腊人在里面。 他后来将这项技术描述为“一匹透明的马，它是由玻璃制成的。他说：“我从未见过一项技术如此迅速地发展，以至于被公众完全拒绝。”“每个人对此的怀疑都非常极端，尤其是年轻人。对在线AI视频和我孩子这个年龄的人的反应立即称之为“AI SLOP” ，并创造了这个术语，只是把它放在一个盒子里。 ”在诺兰看来，这是“一种非常健康的怀疑论，因为正如你所说，技术总是会给我们带来巨大的礼物，但必须以怀疑的眼光来看待它。”同样，他说，“人们把它给我们的动机也必须持怀疑态度。那时，我们将充分利用新技术，而不仅仅是盲目相信一切都会好起来。 （与此同时， SpaceX首席执行官埃隆·马斯克（ Elon Musk ）一直在愤怒地发布关于这部电影的非白人和变性演员的帖子。Nolan没有更具体地说明他认为什么是人工智能的威胁，但这项技术一直是好莱坞日益关注的问题，也是2023年编剧和演员罢工期间的主要焦点。诺兰担任总裁的美国董事协会在最近的合同中也赢得了一些生成式人工智能保护。 这位导演一直以抵制其他技术而闻名，包括智能手机；他对电影的拥抱使他同时看起来像勒德分子和先驱者，《奥德赛》成为第一部完全由IMAX胶片和相机拍摄的故事片。 当《纽约时报》最近问诺兰是否认为自己是一个技术恐惧症患者时，他回答说： “我认为自己是一个技术怀疑论者” ，并说他对电影的热爱来自于这样一个事实，即它“在代表眼睛看待世界的方式方面比我见过的任何数字成像系统都要好。“我一直在接受新技术，但它往往是以牺牲可能仍然有效和可行的系统为代价卖给人们的， ”诺兰说。 “这就是我在我的行业中看到的--把婴儿和洗澡水一起扔出去。我们差点丢了胶卷！“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。",
-      "originalSummary": "\"Everybody knows the Greeks are inside.\"",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "非营利组织Current AI正在竞相构建面向所有人的免费人工智能万维网",
-      "originalTitle": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-      "date": "2026-07-19T14:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "印度农村的一名农民拍摄了一棵濒死植物的照片。她想在互联网上研究它，但她不会说英语。她不应该这么做。这是一家名为Current AI的非营利组织试图通过构建开放的公共人工智能基础设施来解决的问题。今年2月，在印度人工智能峰会上，它与印度政府的人工智能语言部门Bhashini合作。 其结果是Suno Sutra ，印地语为“听力编年史” ，这是一款口袋大小的离线设备，以22种印度语言运行人工智能，无需互联网。“在印度，有数百种不同的语言和方言，现在AI并不代表它们，”现任AI首席执行官Ayah Bdeir在接受TechCrunch采访时表示。该设备是开源的，可供开发者社区使用。 该非营利组织由Martin Tisne于2025年2月创立，发展迅速。上个月，它向四个组织的项目拨款320万$ ；最近（上周） ，它在日内瓦举行的AI for Good峰会上推出了一个开源的AI聊天机器人。Bdeir在领导Mozilla的人工智能战略后于1月加入。 她之前创立了littleBits ，这是一家STEM教育公司，在2019年出售给Sphero之前，该公司帮助了数百万儿童。她告诉TechCrunch ，目前的人工智能是一种“公私合作伙伴关系” ，将政府、公司和慈善机构聚集在一起，为公共利益技术提供资金。 法国政府在福特基金会、麦克阿瑟基金会、DeepMind和Salesforce的帮助下，为Current AI注入了1亿美元，使承诺资金总额达到4亿美元。“他们不是投资者，他们是资助者，” Bdeir说。它旨在解决的问题很简单：今天的每个主要人工智能系统，从OpenAI到Google再到Anthropic ，都属于一家私营公司。 “如果人工智能真的是一项变革性技术，如果它要改变每个人生活的方方面面，就必须有一个公共替代方案，” Bdeir说。“就像万维网一样，任何人都可以免费使用。“世界上一半的口语面临灭绝。 Bdeir说： “随着英语驱动最大的语言模型和人工智能系统，世界上大部分语言以及文化和社区都被抛在了后面。”当被问及大型科技公司的多语言推动时， Bdeir做出了鲜明的区分。“大型科技公司建立多语言模型以扩大其市场，”她说， “无论同意或背景如何。“后果是具体的。 她说： “对于土著语言，在社区制定任何规则之前，传教士圣经翻译将成为培训数据。”人工智能说一门语言的能力只是它需要学习的一部分。“语言是知识、传统、记忆和身份代代相传的方式。因此，当一项技术不能说你的语言时，它也不能容纳你的文化，”她说。",
-      "originalSummary": "Current AI, a nonprofit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat, and more.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "我讨厌我不讨厌这首Suno的歌",
-      "originalTitle": "I hate that I don’t hate this song made with Suno",
+      "title": "Adobe的“自然外观”相机应用包含生成式人工智能",
+      "originalTitle": "Adobe’s ‘natural look’ camera app embraces generative AI",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-      "date": "2026-07-19T17:35:54.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "1010Benja不会为使用人工智能而道歉。|图片： 1010Benja/Instagram我永远不会说音乐中没有人工智能的位置（毕竟我是Holly Herndon的粉丝）。但我通常觉得用生成式人工智能制作的音乐非常无聊，尤其是Suno的输出。因此，我在处理1010Benja的“Semiramis 'Dream”时遇到了一些困难。 “Benja对他在最新的EP《Time Has Nothing to Do What You Choose》中使用生成式人工智能毫无歉意……其他三首曲目与你在2024年的《Ten Total》中发现的不太一样。但开场白“ Semiramis 'Dream ”具有传染性。它以丛林般的节拍从扬声器中爆炸，成为……在The Verge阅读完整的故事。",
-      "originalSummary": "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring, especially the outputs of Suno. So I'm having a bit of a tough time processing the fact that [&#8230;]",
-      "rawFullText": "1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring , especially the outputs of Suno . So I'm having a bit of a tough time processing the fact that I actually quite enjoy 1010Benja's \" Semiramis' Dream .\" Benja has been unapologetic about his use of generative AI on his latest EP, Time Has Nothing To Do With What You Choose… The other three tracks can't quite hold a candle to what you find on 2024's Ten Total . But the opener \"Semiramis' Dream\" is infectious. It explodes out of the speakers with a jungle beat and Be … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "Dave Eggers告诉OpenAI工作人员， ChatGPT正在“沉默整整一代人”",
-      "originalTitle": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
-      "date": "2026-07-18T20:54:42.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "戴夫·埃格斯（ Dave Eggers ）参加了“转折点：被摧毁”的首映式。|图片： John Lamparski/Getty Images参加翠贝卡艺术节去年， Sam Altman邀请作家Dave Eggers与约200名OpenAI员工进行演讲。这名男子撰写了无数的小说、剧本和新闻作品，创办了McSweeney's ，并创办了多所学校和非营利组织，为作家和艺术提供更广泛的支持。 因此，人们可能会期望他走进公司的办公室，提供有关如何无情地多产或如何在多个领域脱颖而出的技巧。相反，他显然加入了公司。据英国《金融时报》报道，埃格斯告诉工作人员： “ChatGPT对教育工作者生活的影响是灾难性的。无论您是否打算这样做，您都已经完成了每一次教学......在The Verge阅读完整的故事。",
-      "originalSummary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer [&#8230;]",
-      "rawFullText": "Dave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels , screenplays, pieces of journalism, started McSweeney's , and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer tips on being relentlessly prolific, or how to excel in multiple fields. Instead, he apparently laced into the company. According to the Financial Times , Eggers told the staff: \"The effect of ChatGPT on educators' lives is catastrophic. Whether you intended to do it or not, you've made every teache … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 97
-    },
-    {
-      "title": "Kimi ：威胁还是威胁？",
-      "originalTitle": "Kimi: Threat or menace?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
-      "date": "2026-07-18T18:51:07.000Z",
-      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布、模型相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“Kimi ：威胁还是威胁？”。它主要涉及产品发布、模型方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
-      "rawFullText": "",
+      "link": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
+      "date": "2026-07-20T16:00:00.000Z",
+      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布、模型相关动态",
+      "fullContent": "欢迎来到“什么是照片”的辩论， Adobe。|图片： Adobe Adobe的实验性相机应用程序发生了意想不到的变化。在去年推出Project Indigo以提供iPhone摄影的“更自然（单反）外观”之后， Indigo相机应用程序现在正在使用一套生成式人工智能工具进行更新。这种变化并不依赖于Adobe自己的Firefly AI模型。 Adobe将新的“AI Playground”工具套件描述为一个实验，并表示有一个按钮允许用户选择退出并继续使用该应用程序。在接下来的几周内，一小部分Indigo用户正在测试无需登录即可免费使用套件。“我们的目标是了解人们如何……在The Verge阅读完整的故事。",
+      "originalSummary": "Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the [&#8230;]",
+      "rawFullText": "Welcome to the “what is a photo” debate, Adobe. | Image: Adobe Adobe's experimental camera app has taken an unexpected turn. After Project Indigo was launched last year to provide a \"more natural (SLR-like) look\" for iPhone photography, the Indigo camera app is now being updated with a suite of generative AI tools. And the change doesn't rely upon Adobe's own Firefly AI models. Adobe describes the new \"AI Playground\" tooling suite as an experiment and says there's a button that allows users to opt out and continue using the app as before. Free access to the suite with no sign-on requirement is being tested with a small percentage of Indigo users over the next few weeks. \"Our goal is to learn how people … Read the full story at The Verge.",
       "tags": [
         "产品发布",
         "模型"
@@ -211,19 +154,34 @@
       "score": 86
     },
     {
-      "title": "每位读者都需要的应用、小工具和工具",
-      "originalTitle": "The apps, gadgets, and tools every reader needs",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
-      "date": "2026-07-18T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage.) This week, I've been recording the next season of Version History [&#8230;]",
-      "rawFullText": "Hi, friends! Welcome to Installer No. 136, your guide to the best and Verge -iest stuff in the world. (If you're new here, welcome, hope your neighborhood isn't as smoky as mine, and also you can read all the old editions at the Installer homepage .) This week, I've been recording the next season of Version History (this season's finale is out on Sunday!), reading about data center heists and Backyard Baseball and the creator of Calvin and Hobbes , canceling my October plans to see Digger 30 or 40 times, taking on the new Knockout Tour routes in Mario Kart World , learning more than I ever intended about Staten Island thanks to Revisionist His … Read the full story at The Verge.",
+      "title": "中国的人工智能模型让特朗普的人工智能世界处于战争状态",
+      "originalTitle": "China’s AI models have Trump’s AI world at war with itself",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "date": "2026-07-20T18:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。上周末，唐纳德·特朗普总统的几位现任和前任人工智能顾问公开对该国领先的人工智能公司进行侮辱。大卫·萨克斯（ David Sacks ）是总统的人工智能和加密货币“沙皇” ，直到3月份，他将Anthropic的模型标记为“lobotomized”和“woke”。 五角大楼高级官员埃米尔·迈克尔（ Emil Michael ）称OpenAI新任战略期货负责人是“村庄的最高白痴。它之所以开始，是因为没有人能够就如何处理Kimi达成一致， Kimi是中国人工智能公司Moonshot上周推出的免费开源模型。它似乎与OpenAI和Anthropic的模型的智能相媲美，后者非常不免费。Kimi和其他类似的中国模特给特朗普带来了真正的问题。 他们正在将他所在轨道上的顶尖人工智能战略家划分为派系。每当像Kimi这样来自中国的新型智能免费车型发布时，美国公司就没有理由花钱购买Anthropic或OpenAI的车型。鉴于对这些和其他人工智能公司的热情正在推动经济增长的巨大份额，中国的人工智能模型给总统带来了经济和政治问题。 卡内基基金会(Carnegie Endowment)研究员安东·莱希特(Anton Leicht)在《X》杂志上写道，他们“对一个真正不想要更多经济坏消息的政府来说是一种威胁”。特朗普该怎么办？首先，考虑到这一切都发生在纽约州首次对新数据中心实施禁令一周之后。 人们对人工智能公司越来越不信任，我想相当一部分美国人对OpenAI或Anthropic几乎没有同情心，因为他们可以抵御更便宜的竞争对手，并且会说保护他们的利益不是政府的工作。在这一点上，他们会看到与大卫·萨克斯（ David Sacks ）的一小部分协议（实际上只是一小部分） ，大卫·萨克斯在7月19日批评顶级人工智能公司“希望政府消除他们的开源竞争。 他还认为，中国的人工智能模型之所以流行，是因为它们对人们如何使用它们的限制较少（撇开内置的国家审查制度不谈）。然而，萨克斯失业了。他不再担任为特朗普提供建议的正式角色，他认为更开放的人工智能更好的立场在很大程度上已被政府干预的更大角色所取代。 这种观点背后的想法是，由于人工智能模型已经变得足够强大，足以对国家安全构成威胁，政府必须控制它们的使用方式。这一立场推动了新的白宫审查流程，该流程旨在在人工智能模型发布之前对其安全性进行审查。前特朗普人工智能顾问迪恩·鲍尔（ Dean Ball ）现在为OpenAI工作，他在周末批评它是“前沿人工智能的事实上的许可制度”。 Ball预测，特朗普可能会用一点软实力来解决他的中国开源问题，也许是通过让美国公司害怕使用像Kimi这样的模型。这引起了迈克尔的回应，他和国防部长皮特·赫格塞斯（ Pete Hegseth ）一直是该...",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until March, branded Anthropic’s models as “lobotomized” and “woke.” Emil Michael, a top Pentagon official, called OpenAI’s new head of strategic futures a “supreme village idiot.” It began because no one can agree on what to do about Kimi, a free, open source model that Chinese AI company Moonshot launched last week. It appears to rival the intelligence of models from OpenAI and Anthropic, which are very much not free.&nbsp; Kimi and other Chinese models like it pose a real problem for Trump. And they’re dividing the top AI strategists in his orbit into factions. Every time a new smart, free model from China like Kimi gets released, US companies see less reason to fork out money to access models from Anthropic or OpenAI. Given that enthusiasm for these and other AI companies is driving an outsized share of economic growth, China’s AI models create both economic and political problems for the president. They are “a threat for an administration that really doesn’t want more economic bad news,” Anton Leicht, a fellow at the Carnegie Endowment, wrote on X. They’ve already rattled US stocks .&nbsp; What is Trump to do? First, consider that this is all happening just a week after New York imposed the country’s first state ban on new data centers. There is growing distrust of AI companies, and I imagine a not-insignificant share of Americans would have little sympathy for OpenAI or Anthropic as they fend off cheaper competitors, and would say it’s not the government’s job to protect their interests. On this point, they’d see a sliver of agreement (and really just a sliver) with David Sacks, who on July 19 criticized top AI companies that “want the government to eliminate their open source competition.” He has also argued that Chinese AI models have become popular because they come with fewer restrictions on how people can use them (putting aside the built-in state censorship ).&nbsp; Sacks, however, is out of a job. He no longer has a formal role advising Trump, and his position that more open AI is better has been largely replaced in the administration by one that sees a larger role for government intervention. The thinking behind this view is that because AI models have gotten strong enough to pose threats to national security, the government must control how they’re used.&nbsp; This position has fueled the new White House review process that aims to vet AI models’ security before they’re released. Dean Ball, a former Trump AI advisor who now works for OpenAI, criticized it over the weekend as a “de facto licensing regime for frontier AI.” Ball predicted Trump may solve his Chinese open source problem with a bit of soft power, perhaps by making US companies afraid to use models like Kimi. That drew a response from Michael, who, with Secretary of Defense Pete Hegseth, has been the agency’s main liaison with AI companies. Michael called Ball the AI industry’s “supreme village idiot,” bristling at the suggestion that the government would quietly strong-arm companies rather than, as Michael put it, go through “the democratic process not some Deep State scheme.” Left out of the conversation has been how a model like Kimi got so good in the first place. For much of the Biden administration and even the beginning of Trump’s second administration, keeping China from getting top chips was a priority. Those export controls have loosened—Trump made the controversial decision to allow Nvidia to sell more chips to China, in exchange for the US government taking a cut—and the government has alleged that some chip smuggling has taken place. But China nonetheless has limited computing power, and it’s not clear what chips the company behind Kimi used to train the model.&nbsp; It’s possible that the process involved some distillation, a practice in which AI models are trained on the outputs of existing AI models. OpenAI and Anthropic have long complained that Chinese AI companies do this, and they have requested government help to put a stop to it. In April, they got it, when the Trump administration announced a series of efforts to curb the practice.&nbsp;&nbsp; But Kimi is out there and free, and it is nearly as good as the Anthropic model the US government deemed so powerful that it was briefly shut down because it threatened national security. The weekend’s sparring suggests many in Trump’s orbit see that as a wake-up call. But nobody can agree on what for.",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
+    },
+    {
+      "title": "特朗普最新的人工智能沙皇已经辞职",
+      "originalTitle": "Trump&#8217;s latest AI czar has already resigned",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "date": "2026-07-20T22:21:04.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "该机构向多家新闻媒体证实，人工智能标准与创新中心（ CAISI ）主任克里斯·福尔（ Chris Fall ）已辞职。据《华盛顿邮报》当时报道，在最后一位被任命的科林·伯恩斯（ Collin Burns ）不到一周就离职后，他就在三个月前被任命。 消息人士告诉《华盛顿邮报》，据报道，伯恩斯在4月份被“赶出”这份工作，因为他之前曾在Anthropic工作，特朗普政府一直在与该公司作斗争。没有给出Fall离开的原因。 在领导CAISI之前， Fall在第一届特朗普政府期间担任能源部科学办公室主任，并曾担任能源部高级研究项目机构能源代理主任。在此之前，他在美国能源部海军研究办公室（ ONR ）工作。在Burns and Fall之前，该机构由风险投资家大卫·萨克斯（ David Sacks ）领导，他当时的头衔是白宫人工智能和加密沙皇。 萨克斯在3月份辞职。CAISI隶属于美国国家标准与技术研究所（ NIST ） ，是开发人工智能模型的技术标准和测试方法以及评估网络安全风险的主要组织。然而，它并不是最近的模特风险brouhaha的中心机构。这发生在6月，当时美国 商务部援引了一项模糊的出口管制指令，实际上迫使Anthropic将其神话和寓言模型从市场上撤下。当商务部长霍华德·拉特尼克（ Howard Lutnick ）表示他对Anthropic的安全计划感到满意时，禁令于本月底取消。 本月早些时候，白宫还签署了一项名为“金鹰”的新人工智能安全监督计划的行政命令，该计划为网络安全漏洞协调创建了一个交换所。许多联邦组织都被命名为该计划的一部分，包括商务部和国土安全部。但是，正如CNBC指出的那样， CAISI并不是上述联邦组织之一。 与此同时，在Anthropic的模型从禁令中解放出来后， Google DeepMind首席执行官Demis Hassabis开始呼吁建立一个独立的行业标准机构，以FINRA为模型来规范前沿人工智能— CAISI就是为了解决这个问题而成立的。 秋季的辞职也伴随着本周末对中国人工智能实验室Moonshot新版开放模型Kimi的折磨，该版本与旗舰前沿模型相比表现出色。据Axios报道，政府正在权衡以某种方式禁止中国开放模式的努力。",
+      "originalSummary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+      "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 75
     },
     {
       "title": "人工智能时代的记分卡",
@@ -238,37 +196,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
-    },
-    {
-      "title": "苹果粉碎OpenAI的阴谋",
-      "originalTitle": "Apple’s plot to crush OpenAI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "date": "2026-07-17T17:41:32.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#8230;]",
-      "rawFullText": "Apple is suing OpenAI . The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done . So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The Vergecast , Nilay and David go through the lawsuit, and look at Apple's history of splashy litigation to determine whether Apple is worried about a possible competitor or simply looking to capitalize on a weak moment for OpenAI . All this is happening as Apple ships the public betas of its new software, headlined by the new Siri AI , and we have though … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 84
-    },
-    {
-      "title": "TikTok正在测试人工智能肖像检测工具",
-      "originalTitle": "TikTok is testing an AI likeness detection tool",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "date": "2026-07-17T19:34:30.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "正如社交媒体顾问马特·纳瓦拉（ Matt Navarra ）所发现的那样， TikTok正在开始测试一种选择加入的工具，该工具可以扫描人工智能肖像，并让创作者向公司报告。TikTok美国发言人Zachary Kizer告诉The Verge ，该工具最初正在与“一些”美国创作者进行测试。YouTube一直在开发类似的工具，最近已向所有成人用户开放。 参与TikTok测试并希望使用该工具的创作者首先必须与一家名为Jumio的公司进行身份验证。您必须进行实时自拍扫描和身份验证，但Kizer说： “TikTok不保留身份证件和面部信息……在The Verge阅读完整故事。",
-      "originalSummary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool [&#8230;]",
-      "rawFullText": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra . The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge . YouTube has been working on a similar tool and recently made it available to all adult users . Creators who are part of TikTok's test and want to use the tool will first have to verify their identity with a company called Jumio . You'll have to do a real-time selfie scan and an ID check, but Kizer says that \"TikTok does not retain ID documents, and facial informati … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 72
+      "score": 91
     },
     {
       "title": "天气数据被破坏的风险正在上升",
@@ -283,7 +211,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "为什么青少年应该获得安全的人工智能",
@@ -329,21 +257,6 @@
       "rawFullText": "",
       "tags": [
         "模型"
-      ],
-      "score": 79
-    },
-    {
-      "title": "纽约州州长表示，她正在使用人工智能来分析该州的“每一条规则”",
-      "originalTitle": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
-      "date": "2026-07-16T17:58:37.000Z",
-      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：监管相关动态",
-      "fullContent": "纽约州州长凯西·霍丘尔（ Kathy Hochul ）可能刚刚签署了暂停该州新建人工智能数据中心的禁令，但她本人并不反对使用这项技术。在接受彭博社Odd Lots播客采访时， Hochul表示，她的团队正在使用“人工智能来分析每一项规则、法规[和]政策” ，以检查过时的立法。 Hochul在采访中提到的一些过时的法律包括狩猎狗需要支付25 $的费用，或者规定孕妇需要获得许可证才能在午夜后工作。Hochul补充说，审查统计数据中的所有法律“可能需要五年的时间” ……阅读The Verge的完整故事。",
-      "originalSummary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated [&#8230;]",
-      "rawFullText": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg 's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated legislation. Some of the antiquated laws mentioned by Hochul in the interview include a $25 fee required to take a dog hunting, or a stipulation that pregnant people need a permit to work after midnight. Hochul added that it \"probably would have taken five years at the staff level\" to review all of the laws in the stat … Read the full story at The Verge.",
-      "tags": [
-        "监管"
       ],
       "score": 78
     },
@@ -410,7 +323,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "关于建筑代理， Shippy教会了我们哪些建筑",
@@ -425,7 +338,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "模型路由很简单。直到它不是。",
@@ -440,7 +353,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "销售团队如何使用ChatGPT",
@@ -449,7 +362,7 @@
       "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "date": "2026-07-14T00:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“销售团队如何使用ChatGPT”。它主要涉及大模型方向，热度评分为 89。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "了解销售团队如何使用ChatGPT Work从实际工作输入中创建管道简报、会议准备包、预测评论、客户计划和停滞交易诊断。",
       "originalSummary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "rawFullText": "",
       "tags": [
@@ -464,7 +377,7 @@
       "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
       "date": "2026-07-14T00:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“数据科学团队如何使用ChatGPT”。它主要涉及大模型方向，热度评分为 89。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "了解数据科学团队如何使用ChatGPT Work从实际工作输入中构建根本原因简报、影响读数、KPI备忘录、范围分析和仪表板规格。",
       "originalSummary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "rawFullText": "",
       "tags": [
@@ -479,13 +392,13 @@
       "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
       "date": "2026-07-14T10:00:00.000Z",
       "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“如何在代理时代管理人工智能投资”。它主要涉及智能体方向，热度评分为 86。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "fullContent": "了解企业如何在代理时代通过衡量每美元的有用工作、提高效率和扩展高价值工作流程来管理人工智能投资。",
       "originalSummary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
       "rawFullText": "",
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "Anthropic最新的人工智能发现",
@@ -501,37 +414,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 85
-    },
-    {
-      "title": "德国电信如何使用人工智能重新布线电信",
-      "originalTitle": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/deutsche-telekom",
-      "date": "2026-07-10T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“德国电信如何使用人工智能重新布线电信”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
-    },
-    {
-      "title": "开始使用ChatGPT",
-      "originalTitle": "Getting started with ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/academy/getting-started",
-      "date": "2026-07-10T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“开始使用ChatGPT”。它主要涉及大模型方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
@@ -563,23 +446,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 94
-    },
-    {
-      "title": "GPT-5.6现在是Microsoft 365 Copilot的首选型号",
-      "originalTitle": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "date": "2026-07-09T13:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“GPT-5.6现在是Microsoft 365 Copilot的首选型号”。它主要涉及大模型、模型方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 91
+      "score": 93
     },
     {
       "title": "原生速度vLLM变压器建模后端",
@@ -609,7 +476,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "在Foundry托管计算上拥抱人脸模型",
@@ -624,7 +491,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "一键从Hugging Face到Amazon SageMaker Studio",
@@ -632,21 +499,6 @@
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
       "date": "2026-07-07T21:15:33.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "在任何云上运行AI工作负载，在Hugging Face上存储：使用SkyPilot实现零缺口存储",
-      "originalTitle": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/skypilot-hf-storage",
-      "date": "2026-07-07T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
@@ -670,21 +522,6 @@
         "公司动态"
       ],
       "score": 73
-    },
-    {
-      "title": "为自主企业奠定基础",
-      "originalTitle": "Building the foundation for an autonomous enterprise",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
-      "date": "2026-07-02T12:51:44.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：安全相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“为自主企业奠定基础”。它主要涉及安全方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational&#8230;",
-      "rawFullText": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational data, the energy sector offers a glimpse into what that future could look like. At Woodside Energy, AI adoption did not begin with generative models or enterprise copilots. The company has spent years building predictive analytics, optimization systems, and machine learning tools across exploration, drilling, maintenance, and plant operations. “We’ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate,” says the company&#8217;s vice president for digital Andrew Melouney. “Those have created really clear, quite high-value use cases for us.” That long-term investment in infrastructure and governance is now enabling a broader shift toward agentic AI systems that can support complex industrial workflows. Rather than replace human operators, Woodside designs AI systems to augment expertise in high-stakes environments. A prime example is its “Startup Advisor,” an AI copilot that helps operators manage the complex process of starting liquefied natural gas (LNG) plants. “We’re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions,” Melouney explains. The company’s approach reflects a wider evolution taking place across industrial AI: graduating from isolated experiments to enterprise-wide systems built on standardized platforms, governed data, and repeatable deployment patterns. That transition, Melouney argues, requires organizations to rethink both their technology stacks and how work itself gets done. “We’re not just bolting AI onto an existing process,” he says. “We’re deeply thinking about how that work needs to be reimagined.” Melouney&#8217;s motto has become: “Think big, prototype small, and scale fast.&#8221; As AI systems become more autonomous and interconnected, the companies poised to succeed may be those that spent years building the operational foundations beneath the hype. &#8220;Our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows,&#8221; says Melouney. This episode of Business Lab is produced in partnership with Infosys. Full Transcript: Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. This episode is produced in partnership with Infosys. Now, when people think about artificial intelligence, they often picture chatbots or productivity tools, but some of the most sophisticated and high impact uses of AI are actually happening far from consumer apps, inside complex industrial environments where safety, reliability, and physical systems matter. The global energy sector is a prime example. Companies like Woodside Energy, a global energy producer headquartered in Western Australia, have been applying AI for more than a decade now, from advanced analytics and operations, to remote decision support, to smarter maintenance, and energy efficiency across large scale assets. Today, Woodside is scaling that experience, embedding AI more deeply across its operations and the enterprise with a strong focus on governance, data quality, and human accountability. Two words for you: technological fuel. My guest today is Andrew Melouney, vice president for digital at Woodside Energy. Welcome, Andrew. Andrew Melouney: Thanks, Megan. It&#8217;s great to be here. Megan: Lovely to have you. Now, Andrew, as I said there, the energy sector has approached AI quite differently from technology or consumer businesses. Early value has emerged in operational and industrial environments, rather than consumer-facing generative AI tools. Why is that? And what differentiates the energy sector&#8217;s AI journey? Andrew: Megan, I think it really comes down to the nature of the work we do. Energy operations and what Woodside does is very asset intensive, it&#8217;s very safety critical, and it&#8217;s highly physical. And when you think about how Woodside operates, we operate across the full value chain. We do exploration through to drilling and subsurface work, to project development, all the way through to operating assets, which are often operated in harsh and remote locations, and then global energy portfolio marketing and trading as well. We&#8217;ve always had very large volumes of operational data coming from the equipment and the plants and the assets that we operate, and those have created really clear, quite high-value use cases for us. When you think about reliability, when you think about safety and efficiency, those are really critical things for a company like Woodside. We&#8217;ve been doing traditional AI for many years now. If you think about analytics, if you think about optimization, if you think about things like predictive models, those techniques we&#8217;ve been applying to our data sets and to our business since around 2015. And more recently with the advent of generative AI, we&#8217;ve really found that we&#8217;ve got a pretty strong and awesome foundation to build on top of and to really solve problems in the service of improving the business. And again, whether that is keeping people safe, keeping the environments we operate in safe, or improving returns for the organization. Megan: Fantastic. I mean you touched on it there, but how has this reality shaped your own AI strategy at Woodside? Where did you start, and where did the technology prove most impactful in those early days? Andrew: Well, like I said, we&#8217;ve had a very long journey, in terms of understanding our operational data, recognizing the value of it, and collecting it at scale so that we can use it. And we&#8217;ve been very deliberate in that approach, Megan. We&#8217;ve really thought about where the value is and where the risks were manageable. And we&#8217;ve started looking at, in today&#8217;s world from an agentic AI perspective, we&#8217;ve started looking at the problems that were solved with traditional AI and machine learning and data science in the past. And we&#8217;ve started to think about, where can we then layer agentic AI over the top to provide an even better outcome? For our asset intensive industry and organization, we&#8217;re looking at areas such as maintenance optimization. We&#8217;re looking at areas such as, how do we ensure our LNG plants start up reliably, consistently, and safely? And we&#8217;re considering really our frontline workforce and making sure that we&#8217;re giving people on the frontline the tools required to do their jobs. When we think about AI, we&#8217;re really thinking about, how does it support the people in the organization in terms of empowering them to make better decisions, to make faster decisions? I think over time, this has just evolved from what has been traditional analytics to now artificial intelligence and generative AI. And we&#8217;ve learned along the way that the technology is important, but it&#8217;s about aligning people, processes, and the technology together. We&#8217;ve spent a long time not only in collecting the data and having a well-curated data set that we can build on top of, but we&#8217;ve also spent a lot of time teaching people how to work in agile ways, how to do design thinking, how to problem solve, and how to really make sure that the technology that, say, my team can bring to bear to the organization is adopted effectively and purposefully. And I think once we had that solid foundation in place from a technology perspective, from a data perspective, once we got strong trust built between our digital teams and the organization, we really saw quite a material uptick and the scaling of technology occur more broadly across the enterprise. Megan: Fantastic. That people piece so important, isn&#8217;t it? It&#8217;s just a tool, technology, that needs to be in the right hands. And you touched on data there; industrial AI obviously depends on vast amounts of data. Can you walk us through how you&#8217;ve approached data at Woodside in a little more detail? How it&#8217;s structured and governed, and how tools like maintenance intelligence as well fit into that. Andrew: Well, data is really foundational and fundamental to everything we do, particularly from a technology perspective. It gives us the ability to innovate at pace when we are building over the top of a strong foundation. As I said before, we&#8217;ve had the benefit of a long-term investment in our underlying operational data. I think the way we think about data is that it&#8217;s an asset for us. And when you think about operating a facility where you&#8217;ve got sensors everywhere, you&#8217;ve got data streaming in real time, you&#8217;ve got operators needing to make decisions in real time, we have consciously made a decision over many, many years to invest in that enterprise scale data platform to make sure that it&#8217;s secure. We&#8217;ve got well-structured data assets, and we&#8217;ve got strong governance over the top of that data so that when it is used, when it&#8217;s built in a data science application or an AI agent, that we&#8217;ve got a level of trust in it that it&#8217;s going to be used responsibly. And that when it&#8217;s used, it can be trusted to give the outcome that we expect. We have developed platforms that continuously ingest really high frequency data from the assets and from our enterprise systems. Once we&#8217;ve been able to develop solutions on top of that, parts of the business that might own the systems that collect that data, they see the value in it. When you look at something like maintenance intelligence is a really good example of how we&#8217;ve been able to take something that we&#8217;ve been working on for a long time. Woodside does a lot of maintenance, it&#8217;s a very important part of our business, and it occurs across all of our operating assets. But we have been looking at how we do predictive analytics and predictive maintenance for a long time across that data set that we own. And something like maintenance intelligence is a solution that gives us the ability to optimize how we do that maintenance. And what it does is it analyzes historical maintenance records, alongside the performance of the equipment. And again, by having that data set well-governed and in one place, we get the ability to correlate different data sets, such as maintenance records out of SAP, alongside say equipment and performance coming from our time series data lake. And when we build over the top of that, something like maintenance intelligence gives us the opportunity to recommend to the assets what the optimal timing for maintenance activities might be, and really give what is quite a simple aim, which is do the right work at the right time. And with something like maintenance intelligence, we have seen the opportunity, and we have the opportunity to reduce maintenance hours by up to 15% over five years on one of the assets that we&#8217;ve piloted this on. And as we&#8217;ve built out that underlying analytical model, we&#8217;re now able to put agentic AI over the top of that and provide better insights and optimize that solution more. It really comes down to providing our asset teams and our operational teams with the right decision support capability that ensures they&#8217;re still accountable to make the decision and to ensure the right work is being done, but we are giving them the best possible opportunity to use their judgment and experience with the data that we provide to make the right decision. Megan: Sounds like a really impactful change. Last year also marked a milestone in moving from early AI learnings to scale, using AI more deliberately as a force multiplier. What transition were you trying to make and how did you approach it? Andrew: Well, Megan, we&#8217;ve had a philosophy for a long time in Woodside from an innovation perspective, where we really want to think big, we want to prototype small, and we want to scale fast. We want to find big opportunities that we can go after, but we want to ensure that we look at how we deploy those on a small scale first, and then provide the right learning and insight that then can scale it everywhere. Something like maintenance intelligence is a good example of that, or our Startup Advisor, where we know that we&#8217;ve got multiple plants that we need to start up. We know that we&#8217;ve got multiple assets that need to do maintenance, so we have a big, bold ambition about how we can improve and optimize that. We start with a small prototype; it might be one subsystem, it might be just a part of an asset, and then we scale it out, we learn, and we scale faster. I think from an AI learning perspective, one of the key things we&#8217;ve learned is really the transition from moving from isolated AI solutions to a more coordinated enterprise-wide capability. If you look back maybe 18 months, two years, in our generative AI journey, we rarely started by deploying AI as broadly as we could in the organization from a personal productivity perspective. And probably being quite open in terms of the problems that we will solve, the business problems that we&#8217;ll solve with AI. That had a lot of benefits for us in terms of allowing our organization to get to know AI, get to know the capabilities, to build the trust in it. What we&#8217;ve learned though is that we&#8217;ve needed to pivot from that to being a little bit tighter in terms of where we are going to invest our time and resources and more higher value solutions. How do we then enable and empower the rest of the organization so that they can actually effectively problem solve with technology in their domain or in their personal productivity without having to come to a central team? When we think about that, think big, prototype small, scale fast, has been something really important for us. The transition from a more broader approach to use case development and solution development to now a narrower focus on the high value priorities. We&#8217;ve seen that paying dividends to us and allowing us to go after solutions and opportunities, things like Startup Advisor. And so our Startup Advisor is a agentic AI solution that really aims to optimize and empower and better support our operators that sit in front of a panel and have to start up LNG plants, which are incredibly technical facilities and require really specialist skills to start up. And so our Startup Advisor is almost like a copilot that sits alongside those operators, and it gives them the ability to be able to play back previous startups. It gives them the ability to look at how the current startup is progressing, and it provides them better insights to optimize how they start up that facility. And again, starting up an LNG facility is incredibly complex. Megan: I can imagine. Andrew: When we think about opportunities like Startup Advisor, again, it goes back to that think big, prototype small, and scale fast. We started with a very bold vision of, how do we start up all of our LNG plants in a much more structured and optimized fashion? How do we better support our panel operators? How do we make, say, a more junior panel operator have a copilot that can help them almost like an experienced panel operator sitting next to them? And when we think about that vision and the ability then to prototype on a small scale and then scale fast, I think it&#8217;s been really successful for us. As we scale, we&#8217;ve just naturally expanded into more agent-based solutions. Today, we&#8217;ve got around 50 AI agents in production, supporting both our operating assets and our enterprise workflows. These tools have been proven in live environments, and we have really seen the benefit of being able to shift from point solutions that maybe solve small scale problems in specific areas, to AI and agentic solutions with agency that can really work across our workflows. We&#8217;re able to do this because we&#8217;ve standardized on the platform that we build on and we&#8217;ve got repeatable patterns. That&#8217;s been another really important learning for us, is that we don&#8217;t want to build 50 solutions in 50 different ways. We really want to be empowering our organization and our technical teams and the users of our solutions to roll them out quickly, to roll them out safely, and to do it in a patternized and platform manner. But the last point I&#8217;ll make, Megan, from a learning perspective is that we&#8217;ve really understood that a strong governance around how AI is deployed and developed is critical for us, and it&#8217;s critical for us to go fast as well. The traditional ways of governing how we roll out different solutions or digital systems isn&#8217;t going to scale to the breadth that we need when we are thinking about AI. Being able to have a clear philosophy around how we innovate, transitioning from isolated solutions to that enterprise-wide capability, and making sure that we&#8217;ve got strong platforms with strong patterns and clear governance are the three really critical things that we&#8217;ve learned. Megan: Such important pillars, all of them. And you&#8217;ve been working with Infosys on this journey. How has that partnership helped accelerate scaling and embedding AI across the business? Andrew: Well, Infosys is our managed service provider, and so they play a really critical role in the operations of our core business. One of the things that I like to say is that our license to innovate is based on our license to operate. And so, for my team to be able to turn up to an operating asset or a corporate function and have the trust that&#8217;s needed to be able to innovate and reimagine and redesign how work gets done, to be able to do that, we need to make sure that our core platforms, our core systems, our applications are running really reliably, safely, and consistently every day. Having an experienced partner like Infosys looking after those core operations in partnership with our internal teams is really, really important to us. As we move from pilots to enterprise-wide deployment, the ability to partner with someone like Infosys also gives us the ability to scale. And so being from Perth and Western Australia, while we&#8217;ve got a really strong local team in Western Australia, and we&#8217;ve also got a very strong team in some of our other operating locations, like everyone, we&#8217;re struggling to find people that can fill AI roles. Being able to partner with Infosys and have a number of different operating models at our disposal becomes really important for us. Having co-mingled teams where they are staff, they are Infosys staff, Woodside staff, and some of our other partners, really just brings diversity of thought and experience to how we solve problems. Fundamentally, the partnership has allowed us to operate and innovate with more confidence. While Woodside always retains ownership of the strategy and where we&#8217;re going and the governance and my teams remain accountable for the outcomes, we can&#8217;t do what we do without strong partnerships like the one we have with Infosys. Megan: Fantastic. And as AI adoption scales, you mentioned yourself, governance becomes increasingly important. How challenging has that been, and what guardrails have you put in place at Woodside? Andrew: So, Megan, governance is really important to us, and we operate in a well-regulated environment. That means we&#8217;ve got to make really deliberate and well-reasoned decisions when we&#8217;re thinking about how we deploy technology into our organization, whether it&#8217;s artificial intelligence or anything else, for that matter. And so, governance is really central to how we approach the execution of our AI strategy at Woodside. We&#8217;ve got maybe two or three really key things that we&#8217;ve put in place. The first one is just making sure that every AI use case goes through a structured assessment, and that&#8217;s making sure it meets our privacy controls, our cyber controls. We&#8217;re also asking the question, not just, could we do this, but should we do this? We&#8217;ve really got to bring together safety, ethics, transparency, accountability, and make sure that we make an informed decision. When an AI solution is going through that structured assessment, if there are concerns about how we might use that solution, it then goes to an AI council that&#8217;s made up of senior leaders across the organization. That council and that group really oversee some of the prioritization and risk management. That&#8217;s where we can have really strong, robust debates around, again, could we do something, should we do it, and how do we mitigate any of the risks that we might introduce here? I think the last one, Megan, is really around lifecycle management. When you start thinking about, we&#8217;ve got 50 at the moment, but if we had 500 agents working in our organization, really amplifying the experience and the decision-making and the value creation of our staff, we really want to have an ability to manage the lifecycle of how those agents operate. We want to know, how many people are using them? What&#8217;s the efficacy and the outcome? Is there model drift? Do we need to retune or retrain? I think that&#8217;s an area where many organizations, including Woodside, are still leaning into and still figuring out the best way to do this. We can do it quite easily with 50 agents, but 500, 5,000, 50,000 becomes an opportunity for us. Again, thinking about how we partner with others, solving problems like that really present an opportunity to co-create and to co-solve with some of our partners, like with Infosys. Megan: Fantastic. Just to close, what&#8217;s your long-term vision for AI at Woodside? How do you see this evolving over the years ahead, and what could it unlock for the sector in your view? Andrew: So Megan, I think our ambition is really for an autonomous enterprise, where we have agents with agency that are able to really deeply interact with our core workflows. The outcome that we want to get from that is to protect our people, to protect the environments we operate in, and to be able to provide energy at a lower cost to the world. When we think about that ambition, we can really see that being applied to almost all of the areas that Woodside work in. Whether that&#8217;s from exploration through to project developments, through to operations or marketing, the scale of the opportunity in front of us and the ability for us to really change the way that work flows through the organization is really exciting. For us, there&#8217;s three things that we have to get right in terms of being able to execute on that ambition. The first one is really thinking about how the work gets done in the organization so that we&#8217;re not just bolting AI onto an existing process, but we&#8217;re deeply thinking about how that work needs to be reimagined. We&#8217;ve also got to think about how we enable our workforce to work differently. Providing them with the skills and the tools and the ability to really harness the power of the technology that we provide. Secondly, we&#8217;ve got to continue to move from and restrain ourselves from deploying point solutions that solve very narrow problems, to having more connected, agentic systems of systems that can interact with each other. To do that, and if we do that successfully, that&#8217;s where we really get the high value unlock from agents being able to interact with workflows and really change how the work gets done. And lastly, Megan, it&#8217;s about how we must continue our philosophy of thinking big, prototyping small, and scaling fast. Megan: Which is a fantastic lens to which to make all these decisions. Thank you so much, Andrew. That was Andrew Melouney, vice president for digital at Woodside Energy, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor and host for Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed this episode, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thanks ever so much for listening. Goodbye. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "安全"
-      ],
-      "score": 68
     },
     {
       "title": "实现卓越运营",
