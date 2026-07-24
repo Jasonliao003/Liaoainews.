@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T00:05:42.070Z",
+  "updatedAt": "2026-07-24T00:04:58.965Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,90 @@
   ],
   "articles": [
     {
+      "title": "Anthropic以更强大的型号更新Claude语音模式",
+      "originalTitle": "Anthropic updates Claude voice mode with more capable models",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "date": "2026-07-23T19:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "在OpenAI推出一系列新的对话模型并更新了ChatGPT的语音模式几周后，竞争对手Anthropic正在采取行动，通过新的更新使Claude更加语音友好。该公司周四表示，用户可以在Opus、Sonnet和Haiku型号之间进行选择。Claude的语音模式于去年发布，由Haiku模式提供支持，反应迅速，但不太适合复杂的工作。 该公司表示，通过新的更新，语音模式会选择文本聊天中使用的最后一个模型，并默认使用其最快版本。Anthropic表示，新的语音模式可以帮助用户进行更长的对话，包括提供有关其沟通风格的反馈，向客户进行宣传，以及头脑风暴产品市场研究。 此外， Claude的语音模式可以利用其他应用程序，如Gmail、Google日历、Slack、Canva和Notion。这意味着用户可以要求其更新会议时段、起草电子邮件或在Notion中创建文档。值得注意的是，这与OpenAI的语音模式有很大不同，后者更新了对话风格，但仍然无法使用不同的工具来完成工作。 今年早些时候， Anthropic在测试版中为Claude的语音模式添加了多语言支持。它说，现在用户可以用各种语言交谈，但他们必须手动指定语言。目前， Anthropic支持英语、法语、德语、印地语、印度尼西亚语、意大利语、日语、韩语、葡萄牙语（巴西语）和西班牙语（拉丁美洲/西班牙语）。新的语音模式适用于所有平台上的测试版用户。 但是，免费用户将仅限于使用仅有一个连接应用程序的Haiku模型。Anthropic在此版本中没有对语音模型进行任何更改，也没有详细说明它使用的是哪种语音堆栈。这意味着，与OpenAI的发布不同，用户可能找不到任何对话改进，例如更好的中断处理。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。Ivan在TechCrunch上介绍全球消费者技术发展。他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。您可以通过电子邮件im @ ivanmehta. com或通过加密消息ivan. 42 on Signal联系或验证与Ivan的联系。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。 最多可节省$ 330 TODA Y ！",
+      "originalSummary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI向所有美国用户提供ChatGPT Health",
+      "originalTitle": "OpenAI makes ChatGPT Health available to all US users",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "date": "2026-07-23T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI今天表示，它正在为所有计划中的所有18岁以上的美国用户提供ChatGPT Health ，这是一项帮助用户进行健康相关查询的功能。在宣布这一消息的前一天，佛罗里达州的一位牧师起诉该公司提出了不去看医生的近乎致命的建议。 该公司于1月初开始通过一个专用中心测试该功能，允许用户整合来自其他服务的数据以及来自Apple Health、Function和MyFitnessPal等服务的个人信息。当时， OpenAI表示，用户每周会询问2.3亿次与健康相关的查询。这个数字现在已经上升到3亿。 用户还可以整合来自医院系统（如Epic和Oracle Health ）以及健康平台（如One Medical和Function Health ）的医疗记录。OpenAI早些时候表示，用户需要使用健康中心进行与健康相关的查询。现在，他们可以选择在所有查询中从健康部分的连接信息中获取见解。 该公司在测试期间表示，它观察到70 ％与健康相关的查询发生在专用中心之外。通过这项新功能，用户可以使用他们的健康信息在一般聊天中获取有关食物或过敏的信息。该公司指出，其模型在回答健康相关问题方面取得了进展。该公司指出，其最新版本GPT 5. 6-Luna中最小的型号优于GPT 5。 5 on HealthBench评估，这是该公司开发的开源基准，用于评估有关健康查询的大型语言模型（ LLM ）。OpenAI表示，它不使用任何用户数据来训练其模型，并与医生合作改进其健康查询模型。尽管有这些绩效提升，但该公司在其条款中坚持认为，其服务“不打算用于任何健康状况的诊断或治疗。 该公司引用了这些条款来回应上述诉讼，并告诉《纽约时报》，它正在努力使与健康或医学相关的答案更安全。随着最新的推出， OpenAI表示希望人们能够根据专业建议验证信息并做出医疗决策。几项研究强调，人工智能机器人无法提供可靠的医疗建议。 然而，这并没有阻止Anthropic和谷歌等公司推出与健康相关的人工智能功能。本周， ChatGPT中的Health将向登录的美国用户推出，在网络和iOS上提供免费、Go、Plus和Pro套餐。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Ivan在TechCrunch上介绍全球消费者技术发展。 他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。您可以通过电子邮件im @ ivanmehta. com或通过加密消息ivan. 42 on Signal联系或验证与Ivan的联系。",
+      "originalSummary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI在向所有人推出ChatGPT Health时提出了重大主张",
+      "originalTitle": "OpenAI is making big claims as it rolls out ChatGPT Health to everyone",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims",
+      "date": "2026-07-23T17:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI将于周四向美国所有人推出ChatGPT Health ，允许更多人将他们的医疗记录和健康跟踪信息连接到聊天机器人。在一次简报会上， OpenAI健康产品副总裁阿什利·亚历山大（ Ashley Alexander ）表示，该公司的模型“现在能够以优于临床医生的水平进行推理。 “当被问及有关OpenAI模型的性能如何与人类临床医生相媲美的更多信息时， OpenAI健康主管Karan Singhal表示，他将“缓和”他们在更好的水平上进行推理的说法，但“已经有单独的研究……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of reasoning at levels that are better than clinician level.\" [&#8230;]",
+      "rawFullText": "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot. During a briefing, Ashley Alexander, OpenAI's vice president of health product, says the company's models \"are now capable of reasoning at levels that are better than clinician level.\" When asked for more information about how the performance of OpenAI's models stacks up against human clinicians, OpenAI health lead Karan Singhal says that he would \"temper\" the claim that they are reasoning at better levels, but that \"there have been individual studies that have been poi … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "NEXUS ：使用工具的LLM代理的结构化运行时安全",
+      "originalTitle": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.19356",
+      "date": "2026-07-23T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2607. 19356v1公告类型：新摘要：使用工具的LLM代理越来越多地执行高影响力的操作，因此运行时安全监控至关重要。我们推出了NEXUS （神经执行实用程序和安全） ，这是一种结构化计划安全监控器，可应用正式的干预策略，从四种操作中进行选择：允许、阻止、请求确认或请求修改。 NEXUS将确定性安全规则、参数级检查和校准的逻辑回归风险评分相结合，用于分级升级。在128个实例综合基准上， NEXUS的F1得分为0. 949 ， 4级干预准确率为0. 6406 ，优于纯规则干预选择27. 3个百分点。它在R-Judge上也优于纯规则（ F1 = 0. 861 vs. 0. 849 ） ，由于威胁模型限制，在AgentHarm上仅匹配规则，并在IPI上实现99 ％控制允许的0 ％ ASR。在规则盲NEXUS-Stress基准测试中， NEXUS的F1得分为0. 881 ，突显了细粒度干预路由的难度。NEXUS的中位延迟为0. 205 ms ，在典型的代理环路中增加了不到0. 1%的开销。代码、基准和校准的风险评分器将公开发布。",
+      "originalSummary": "arXiv:2607.19356v1 Announce Type: new Abstract: Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor that applies a formal intervention policy to select among four actions: allow, block, request confirmation, or request revision. NEXUS combines deterministic safety rules, argument-level inspection, and a calibrated logistic-regression risk score for graded escalation. On a 128-instance synthetic benchmark, NEXUS achieves an F1 score of 0.949 and a 4-class intervention accuracy of 0.6406, outperforming rule-only intervention selection by 27.3 percentage points. It also improves over rule-only on R-Judge (F1 = 0.861 vs. 0.849), matches rule-only on AgentHarm due to threat-model limits, and achieves 0% ASR at 99% control allow on IPI. On the rule-blind NEXUS-Stress benchmark, NEXUS reaches an F1 score of 0.881, highlighting the difficulty of fine-grained intervention routing. With 0.205 ms median latency, NEXUS adds under 0.1% overhead to typical agent loops. Code, benchmarks, and the calibrated risk scorer are publicly released.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "LLM代理的个人资料-图形内存：通过叙述性个人资料进行隐式跨实体遍历",
+      "originalTitle": "Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.19359",
+      "date": "2026-07-23T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 19359v1公告类型：新摘要：长期记忆对于跨会话交互的LLM代理至关重要，但当前的内存基准主要评估单跳召回，使多跳关联在很大程度上无法衡量。我们有三个贡献。首先，我们介绍了MemHop ，这是一个多跳记忆基准，在10个社交网络场景中，在跳深1-5处有1000个问题，并带有每跳证据注释。 其次，我们提出了Profile-Graph Memory （ ProGraph ） ，这是一种双层内存架构，结合了（ i ）配置文件扩展--子字符串匹配的实体名称遍历，这些实体名称自然出现在LLM编写的配置文件叙述中，这是显式知识图构造的最小替代方案--以及（ ii ）压缩残差--与每次配置文件更新共同提取的确切日期、数量和命名项目，无需额外的API成本。 第三，全网格消融显示了交叉基准机制的专业化：轮廓扩展驱动多跳推理（拆除时MemHop上为-22. 6pp ） ，而压缩残差驱动精度召回（未共提取时LoCoMo上为-8. 6pp ） ，单个架构内的交叉效应低于3pp。ProGraph在MemHop上平均为80. 1% （匹配FullContext参考） ，在LoCoMo上平均为78. 4% （超过FullContext 11. 3pp ） ，在两者上都优于Mem0、A-Mem、HippoRAG和RAG。我们发布MemHop、ProGraph和基线实现。",
+      "originalSummary": "arXiv:2607.19359v1 Announce Type: new Abstract: Long-term memory is essential for LLM agents that interact across sessions, yet current memory benchmarks primarily evaluate single-hop recall, leaving multi-hop association largely unmeasured. We make three contributions. First, we introduce MemHop, a multi-hop memory benchmark of 1,000 questions at hop depths 1-5 across 10 social-network scenarios, with per-hop evidence annotations. Second, we present Profile-Graph Memory (ProGraph), a two-layer memory architecture combining (i) profile expansion -- substring-matched traversal of entity names that naturally appear in LLM-written profile narratives, a minimal alternative to explicit knowledge-graph construction -- and (ii) compression residuals -- exact dates, quantities, and named items co-extracted with each profile update at zero extra API cost. Third, a full-grid ablation shows cross-benchmark mechanism specialization: profile expansion drives multi-hop reasoning (-22.6pp on MemHop when removed) while compression residuals drive precision recall (-8.6pp on LoCoMo when not co-extracted), with cross-effects under 3pp within a single architecture. ProGraph averages 80.1% on MemHop (matching the FullContext reference) and 78.4% on LoCoMo (exceeding FullContext by 11.3pp), outperforming Mem0, A-Mem, HippoRAG, and RAG on both. We release MemHop, ProGraph, and baseline implementations.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
       "title": "OpenAI Presence简介",
       "originalTitle": "Introducing OpenAI Presence",
       "source": "OpenAI",
@@ -35,89 +119,64 @@
       "score": 99
     },
     {
-      "title": "BatchDAG ：针对企业数据的可扩展临时分析的LLM计划执行图",
-      "originalTitle": "BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.18241",
-      "date": "2026-07-22T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 18241v1公告类型：新摘要：大型语言模型(LLM)擅长分析单个文档，但由于上下文溢出、每个实体归因的丢失和连续工具调用的线性延迟，对企业级数据集的详尽、跨实体分析问题进行了细分。 我们提出了BatchDAG ，这是一个LLM生成操作的类型化定向非循环图（ DAG ）的系统--SQL查询、语义搜索、内存转换、并行扇出和单次分析--确定性引擎使用拓扑波并行性和结构化JSON数据流进行评估。关键优化，实体感知批处理，在扇出之前按逻辑实体对行进行分组，将LLM调用减少多达47倍。 BatchDAG主要不是对手工优化管道的准确性改进；相反，它是一个通用编排层，用单个系统替换多个手工设计的工作流，该系统从自然语言生成适当的执行策略。在对12个转录重量查询的对照实验中， BatchDAG (3. 74/5)实现了与专家设计的管道(3. 25/5 ） ，并且明显优于ReAct药物（ 3. 09/5 ， p < 0. 01 ） ，具有优越的来源（ 77 ％的转录本证据率与基线的46-60 ％ ）。对照消融显示，与散文摘要相比，结构化JSON中间体可减少27%的幻觉（配对t检验， p = 0. 107 ， n = 12 ）。规划师在300次规划呼叫中实现了98. 8%的有效DAG率。在Brevian生产。 ai ， BatchDAG在不到60秒的时间内处理超过50,000个会议的查询，按照已发布的GPT-5. 1定价，每次查询的测量成本为0. 02美元- 0. 24美元。",
-      "originalSummary": "arXiv:2607.18241v1 Announce Type: new Abstract: Large language models (LLMs) excel at analyzing individual documents but break down on exhaustive, cross-entity analytical questions over enterprise-scale datasets due to context overflow, loss of per-entity attribution, and linear latency from sequential tool calls. We present BatchDAG, a system in which an LLM generates a typed directed acyclic graph (DAG) of operations -- SQL queries, semantic searches, in-memory transforms, parallel fan-outs, and single-shot analyses -- which a deterministic engine evaluates with topological-wave parallelism and structured JSON data flow. A key optimization, entity-aware batching, groups rows by logical entity before fan-out, reducing LLM calls by up to 47x. BatchDAG is not primarily an accuracy improvement over hand-optimized pipelines; rather, it is a general-purpose orchestration layer that replaces multiple hand-engineered workflows with a single system that generates the appropriate execution strategy from natural language. In controlled experiments on 12 transcript-heavy queries, BatchDAG (3.74/5) achieves quality comparable to an expert-designed pipeline (3.25/5) and significantly outperforms a ReAct agent (3.09/5, p<0.01), with superior provenance (77% transcript evidence rate vs. 46-60% for baselines). A controlled ablation shows structured JSON intermediates reduce hallucinations by 27% versus prose summaries (paired t-test, p=0.107, n=12). The planner achieves 98.8% valid-DAG rate across 300 planning calls. In production at Brevian.ai, BatchDAG processes queries over 50,000+ meetings in under 60 seconds, with measured per-query costs of $0.02-$0.24 at published GPT-5.1 pricing.",
+      "title": "与埃芬汉县社区一起建设人工智能基础设施",
+      "originalTitle": "Building AI infrastructure with the Effingham County community",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "date": "2026-07-22T13:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI在佐治亚州埃芬汉县宣布了Camellia项目，致力于负责任的能源、社区投资、就业和获得食品法典。",
+      "originalSummary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "模型"
+        "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "大规模的人工智能工具发现：您所需要的只是DNS",
-      "originalTitle": "AI Tool Discovery at Scale: All You Need is DNS",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.18242",
-      "date": "2026-07-22T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2607. 18242v1公告类型：新摘要：即将到来的自主人工智能代理时代需要一种能够浏览数百万个工具的发现机制，但现有解决方案在O (N)复杂性和集中治理下屈服。我们提出了ToolDNS ，而不是构建另一个脆弱的叠加层，这是一个激进的框架，将语义工具发现改造到互联网最具弹性的基质上：域名系统（ DNS ）。 通过将功能意图和组织信任嵌入到分层命名空间中， ToolDNS将昂贵的语义搜索转换为一系列轻量级的O (log N)名称解析。我们引入了三种符合协议的增强功能，以实现去中心化治理和语义修剪：部分展开的名称、EDNS0意图有效负载和逻辑子域。 为了在分散的工具环境中严格评估这种方法，我们构建并发布了一个大规模的异构基准，包括33,688个跨越MCP、A2A、RESTful和Skill协议的现实世界工具。在此数据集上， ToolDNS将每查询搜索空间削减了95. 26% ，同时匹配最先进的检索准确性。此外，与基于HTTP的注册表相比，其UDP原生设计将发现延迟降低了几个数量级。 我们的工作表明，可扩展的人工智能互操作性并不需要更多的中间件，而是需要更智能地利用我们脚下已经存在的基础设施。",
-      "originalSummary": "arXiv:2607.18242v1 Announce Type: new Abstract: The coming era of autonomous AI agents demands a discovery mechanism capable of navigating millions of tools, yet existing solutions buckle under O(N) complexity and centralized governance. Instead of building another fragile overlay, we propose ToolDNS, a radical framework that retrofits semantic tool discovery onto the Internet's most resilient substrate: the Domain Name System (DNS). By embedding functional intent and organizational trust into a hierarchical namespace, ToolDNS transforms an expensive semantic search into a series of lightweight, O(log N) name resolutions. We introduce three protocol-compliant enhancements to enable decentralized governance and semantic pruning: partially unfolded names, EDNS0 intent payloads, and logical subdomains. To rigorously evaluate this approach across the fragmented tooling landscape, we construct and release a large-scale heterogeneous benchmark comprising 33,688 real-world tools spanning MCP, A2A, RESTful, and Skill protocols. On this dataset, ToolDNS slashes the per-query search space by 95.26% while matching state-of-the-art retrieval accuracy. Furthermore, its UDP-native design reduces discovery latency by orders of magnitude compared to HTTP-based registries. Our work demonstrates that scalable AI interoperability requires not more middleware, but a smarter utilization of the infrastructure already beneath our feet.",
+      "title": "新闻机构如何利用人工智能推进其重要使命",
+      "originalTitle": "How news organizations are using AI to advance their vital missions",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "date": "2026-07-22T13:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "新闻机构正在使用人工智能来加强报道、增加受众和改善业务运营， OpenAI工具支持世界各地的记者和出版商。",
+      "originalSummary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "产品发布"
+        "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "从座席故障路径到量化的残余风险：弹性座席AI的组成框架",
-      "originalTitle": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.18243",
-      "date": "2026-07-22T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2607. 18243v1公告类型：新摘要： Agentic AI跨越信任边界的速度快于当前风险模型所能代表的速度。现有方法提供两种局部视图之一。他们要么在不产生可转移的残余风险评估的情况下描述故障机制，要么在将内部故障路径视为黑匣子的同时产生风险评估。 我们通过提出CPSAINT将这两种观点结合起来， CPSAINT是对物理状态、传感器、数据、计算、执行器、环境和时间的七层完整性分解，与FRIESA-K配对， FRIESA-K是一种将每个故障路径映射到量化风险实例的残余风险函数。FRIESA-K基于受控吸收马尔可夫模型中的阻力项K ，因此控制有效性来自状态动力学，而不是作为非正式分数分配。 其结果是一个简洁的机制到幅度管道，用于弹性代理和具体化的AI。我们通过单独的加性惩罚来报告治理可观察性，而不是在阻力函数中插入治理作为新的变量。 我们形式化了将有效故障路径链接到明确定义的风险实例的结构可组合性，并在两个对比方案上展示了框架：硬实时仓库机器人和治理仪器金融服务代理。在这两种情况下，相同的层语法、可变语义和动态阻力结构保持不变。 因此，我们获得了一个支持跨域推理、显式假设和可组合信任的定量基础形式的紧凑内核。",
-      "originalSummary": "arXiv:2607.18243v1 Announce Type: new Abstract: Agentic AI is crossing trust boundaries faster than current risk models can represent. Existing approaches provide one of two partial views. They either describe failure mechanisms without producing a transferable residual-risk estimate, or they produce a risk estimate while treating the internal failure path as a black box. We couple those two views by proposing CPSAINT, a seven-layer integrity decomposition over Physical state, Sensors, Data, Compute, Actuators, Environment, and Time, paired with FRIESA-K, a residual-risk functional that maps each failure path to a quantified risk instance. FRIESA-K grounds the resistance term K in a controlled absorbing Markov model so that control effectiveness is derived from state dynamics rather than assigned as an informal score. The result is a concise mechanism-to magnitude pipeline for resilient agentic and embodied AI. We report governance observability through a separate additive penalty instead of inserting governance as a new variable in the resistance functional. We formalize structural composability linking valid failure paths to well-defined risk instances and show the framework on two contrasting scenarios a hard real-time warehouse robot and a governance-instrumented financial-services agent. Across both cases, the same layer grammar, variable semantics, and dynamic-resistance construction remain intact. Thus, we obtain a compact kernel that supports cross-domain reasoning, explicit assumptions, and quantitatively grounded formalism of composable trust.",
+      "title": "推进国家科学新时代",
+      "originalTitle": "Advancing the next era of national science",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "date": "2026-07-22T12:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI概述了其与美国能源部和国家实验室合作推进美国科学的承诺，以使用前沿人工智能来加速发现。",
+      "originalSummary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "机器人"
+        "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "Phionyx ：具有结构化状态管理和响应前治理的确定性AI运行时架构",
-      "originalTitle": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.18246",
-      "date": "2026-07-22T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2607. 18246v1公告类型：新摘要：我们介绍Phionyx ，这是一种确定性的AI运行时架构，源自更广泛的Echoism交互框架，引入了治理优先的人工智能工程方法：将大型语言模型（ LLM ）输出视为噪声传感器测量，而不是直接决策。 与概率代理不同， Phionyx通过由确定性状态演化方程控制的结构化状态向量强制执行确定性状态演化，从而在需要可审计性和治理的应用程序中实现可重现的行为。 该架构集成了三层： （ 1 ）通过规范的46块流水线处理噪声传感器测量的确定性评估核心， （ 2 ）提供预响应控制和架构隐私实施的统一安全层，以及（ 3 ）实现影响加权缓存驱逐的基于语义的时间内存系统。在单实例部署上的实验验证表明，与 事后过滤（ 30 ％的不安全输入比率，模拟成本模型） ，高价值数据保留与LRU相比提高高达24 ％ （ 72 ％与FIFO相比，相同的缓存容量，基准验证） ，在100次重复运行中验证确定性执行，控制信号零方差（哈希验证） ，并且在单实例部署测试中没有计划外重启（有关方法和范围，请参阅附录C ）。 本文介绍了体系结构、其分析结构和有限的实验证据；对分布式或多租户部署的泛化仍然是未来的工作。",
-      "originalSummary": "arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy sensor measurements rather than direct decisions. Unlike probabilistic agents, Phionyx enforces deterministic state evolution via a structured state vector governed by deterministic state-evolution equations, enabling reproducible behavior in applications requiring auditability and governance. The architecture integrates three layers: (1) a deterministic evaluation kernel processing noisy sensor measurements through a canonical 46-block pipeline, (2) a unified safety layer providing pre-response control and architectural privacy enforcement, and (3) a semantic time-based memory system implementing impact-weighted cache eviction. Experimental validation on single-instance deployments demonstrates approximately 31% reduction in computational overhead vs. post-hoc filtering (at 30% unsafe input ratio, simulated cost model) and up to 24% improvement in high-value data retention vs. LRU (72% vs. FIFO, same cache capacity, benchmark-verified), deterministic execution verified across 100 repeated runs with zero variance in control signals (hash-verified), and zero unplanned restarts in single-instance deployment testing (see Appendix C for methodology and scope). This paper presents the architecture, its analytic structure, and scoped experimental evidence; generalization to distributed or multi-tenant deployments remains future work.",
+      "title": "NTT DATA Group通过Codex将事件分析时间缩短至30分钟",
+      "originalTitle": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ntt-data",
+      "date": "2026-07-22T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "NTT DATA Group使用ChatGPT Enterprise和Codex帮助9,000名员工实现工作自动化，将事件分析缩短至30分钟，并扩大安全人工智能的采用范围。",
+      "originalSummary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "安全",
-        "评测"
+        "大模型"
       ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI表示，它不小心用新的人工智能系统入侵了Hugging Face",
-      "originalTitle": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "date": "2026-07-21T21:48:54.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI首席执行官Sam Altman。|彭博社通过Getty Images OpenAI表示，其人工智能模型在内部测试期间错误地违反了开源人工智能平台Hugging Face。在周二的一篇博客文章中， OpenAI写道， GPT-5. 6 SOL和“更强大的预发布模型”在其沙盒测试环境中发现了漏洞，使他们能够访问互联网并锁定拥抱脸。 7月16日， Hugging Face披露了一起安全事件，称该事件是由“自主人工智能代理系统”驱动的。“Hugging Face的人工智能代理检测并阻止了这一漏洞， OpenAI现在承认，这是在对其模型的网络安全能力进行评估时发生的。OpenAI说：“所有这些……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday, OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, [&#8230;]",
-      "rawFullText": "OpenAI CEO Sam Altman. | Bloomberg via Getty Images OpenAI says its AI models mistakenly breached open-source AI platform Hugging Face during internal testing. In a blog post on Tuesday , OpenAI writes that GPT-5.6 Sol and \"an even more capable pre-release model\" discovered vulnerabilities within their sandboxed testing environment, allowing them to gain access to the internet and target Hugging Face. On July 16th, Hugging Face disclosed a security incident that it says was driven by \"an autonomous AI agent system.\" Hugging Face's AI agents detected and stopped the breach, which OpenAI has now admitted occurred during an evaluation of its models' cybersecurity capabilities. OpenAI says \"all e … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 94
     },
     {
       "title": "推出面向小型企业的ChatGPT计划",
@@ -129,23 +188,6 @@
       "fullContent": "OpenAI推出面向小型企业的ChatGPT计划，帮助企业家通过ChatGPT Work培养人工智能技能、实现工作自动化和成长。",
       "originalSummary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
       "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "谷歌推出比Mythos等大型人工智能安全模型更便宜的替代方案",
-      "originalTitle": "Google launches a cheaper alternative to large AI security models like Mythos",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "date": "2026-07-21T15:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "谷歌推出了Gemini 3. 6 Flash以及一种新的安全模型，专门用于快速发现和修补安全漏洞。在周二的一篇博客文章中，谷歌将Gemini 3. 5 Flash Cyber描述为“具有成本效益且功能强大的替代品” ，以取代更大、更昂贵的人工智能系统，例如Anthropic's Mythos提供的系统。网络安全模型建立在Gemini 3之上。 5 Flash ，将首先通过Google以安全为重点的编码代理CodeMender提供给政府和值得信赖的合作伙伴。正如谷歌所指出的那样， CodeMender可以“以高速和低成本多次调用3. 5 Flash Cyber” ，使AI代理能够......在The Verge阅读完整故事。",
-      "originalSummary": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday, Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model [&#8230;]",
-      "rawFullText": "Google is launching Gemini 3.6 Flash alongside a new security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday , Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The cybersecurity model is built upon Gemini 3.5 Flash and will be available first to governments and trusted partners via CodeMender, Google's security-focused coding agent . As noted by Google, CodeMender can call upon 3.5 Flash Cyber \"multiple times at high speed and low cost,\" allowing the AI agents to … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态",
@@ -167,7 +209,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "David Vélez和Robin Vince加入OpenAI基金会和OpenAI集团PBC的董事会",
@@ -182,7 +224,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
+    },
+    {
+      "title": "Grabette ：用于记录机器人操作数据的开放系统",
+      "originalTitle": "Grabette: an open system to record robot-manipulation data",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/grabette",
+      "date": "2026-07-21T00:00:00.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "fullContent": "瓶颈不在于模型。这就是数据。站在UMI Meet Grabette的肩膀上为每个人量身打造从您的手到数据集，分两个步骤1.记录2.直接在浏览器中处理数据，您可以对数据做些什么？这里有一个例子。 现在轮到您了下一步是什么使用手持抓手在几分钟内记录您自己的操作任务，自动将其转换为机器人就绪的数据集，并帮助生成用于机器人学习的开放式协作数据集。机器人学习存在供给问题。我们拥有强大的策略架构（基于变压器的VLA、扩散和流量匹配策略，甚至世界模型）和GPU来训练它们。 我们缺少的是大量、多样化的真实世界操纵数据。远程操作机器人来收集它可能既昂贵又苛刻：首先，它需要一个机器人。根据远程操作方法，如果需要花费数小时并涉及重大的硬件和物流挑战，则数据收集对用户来说可能是乏味的。这很难根据所需的各种任务和环境进行扩展。 但你不需要机器人来收集机器人数据。只是一只人手，一个抓手，一个摄像头，以及一种恢复手的6自由度轨迹的方法。捕捉演示，您就可以获得机器人可以学习的数据。这就是我们今天发布的内容： Grabette ，一个用于记录操作数据的开放式低成本系统。拿起它，用自己的手记录任务，然后找回一个干净的、机器人就绪的数据集。没有机器人，没有实验室，没有遥控钻机。 这就是更大的目标：如果录制演示像拍摄视频一样简单，任何人都可以做出贡献。我们希望Grabette播种一个庞大、开放、协作的操作数据集。任何一个实验室都不可能单独建造。 Grabette直接受到斯坦福大学通用操作界面（ UMI ）的启发：一种带有鱼眼摄像头的手持式抓手，可以“在野外”记录演示，使用SLAM恢复摄像头轨迹，并从中训练视觉运动策略。UMI证明了该配方有效。还有其他（闭源）设备，如Agibot的MEgo抓手、Genrobot的DAS抓手和Sunday Robotics技能捕捉手套。 我们的目标是使用起来毫不费力，从“我有一个任务”到“我有一个训练有素的模型”的障碍尽可能低。Grabette内置于现代开放生态系统中： LeRobot用于数据集， Hugging Face Hub用于共享，以及无需安装即可从浏览器运行的处理管道。Grabette是任何人都可以在工作台上构建、在现场使用并贡献数据的产品。 几个月来，我们一直在开发Grabette ，我们觉得它已经足够可用，可以分享。我们很高兴现在与您分享！ Grabette是一款手持式抓手，配备了重建操纵演示所需的一切设备。它带有两个摄像头，每个摄像头都有不同的工作。",
+      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
+      "rawFullText": "",
+      "tags": [
+        "机器人"
+      ],
+      "score": 82
+    },
+    {
+      "title": "尼尔·布洛姆坎普（ Neill Blomkamp ）的新僵尸人工智能“电影”刚刚热身",
+      "originalTitle": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+      "date": "2026-07-21T22:06:43.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
+      "fullContent": "周一，第九区和《Gran Turismo》导演尼尔·布洛姆坎普（ Neill Blomkamp ）公布了他的最新项目：一部13分钟的科幻短片，名为《Nightborne》，松散地改编自彼得·瓦茨（ Peter Watts ） 2014年的小说《Echopraxia》。这部短片来自Blomkamp的新人工智能创业/制作公司Barley Studios ，其角色的声音和面孔模仿了人类演员。但Nightborne的每一张照片都是用ByteDance的Seedance 2拍摄的。 0文本到视频生成器。Blomkamp在一篇关于短片的X帖子中将其描述为“测试开始” ，旨在展示生成式人工智能的能力，他说他希望“解决短片的全部功能……阅读The Verge的完整故事。",
+      "originalSummary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But [&#8230;]",
+      "rawFullText": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia . The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. But every single one of Nightborne 's shots was made with ByteDance's Seedance 2.0 text-to-video generator . In an X post about the short , Blomkamp described it as a \"test start\" meant to demonstrate what generative AI is capable of, and he said that he wants \"to tackle a full feature in th … Read the full story at The Verge.",
+      "tags": [
+        "模型"
+      ],
+      "score": 79
     },
     {
       "title": "长视野车型时代的安全性和对齐性",
@@ -214,7 +286,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "人工智能比人类更有可能在招聘时形成偏见",
@@ -229,7 +301,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能时代的记分卡",
@@ -244,7 +316,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "天气数据被破坏的风险正在上升",
@@ -259,7 +331,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "为什么青少年应该获得安全的人工智能",
@@ -278,22 +350,6 @@
       "score": 99
     },
     {
-      "title": "Cars24如何通过OpenAI扩展对话并更快地构建",
-      "originalTitle": "How Cars24 scales conversations and builds faster with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/cars24",
-      "date": "2026-07-16T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "Cars24使用OpenAI支持的语音和聊天代理来处理每月超过100万分钟的对话时间，恢复12%的丢失线索，并为整个公司的团队带来代理工作流程。",
-      "originalSummary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 97
-    },
-    {
       "title": "新型号，同等优势",
       "originalTitle": "Newer Models, Same Advantage",
       "source": "Hugging Face",
@@ -306,7 +362,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "安全事件披露— 2026年7月",
@@ -321,7 +377,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "认识GPT-Red ： LLM超级黑客OpenAI ，旨在使其模型更安全",
@@ -353,7 +409,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "模型路由很简单。直到它不是。",
@@ -368,7 +424,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "思考机器的欢迎墨迹",
@@ -383,7 +439,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "推出Real World VoiceEQ ：衡量语音AI的人类质量",
@@ -398,7 +454,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "Anthropic最新的人工智能发现",
@@ -414,7 +470,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
@@ -429,7 +485,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Anthropic发现了一个隐蔽的空间， Claude在这里拼凑概念",
@@ -446,7 +502,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "原生速度vLLM变压器建模后端",
@@ -479,21 +535,6 @@
       "score": 70
     },
     {
-      "title": "在Foundry托管计算上拥抱人脸模型",
-      "originalTitle": "Hugging Face Models on Foundry Managed Compute",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-      "date": "2026-07-07T15:20:06.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "平台： Microsoft Foundry和托管计算为何在Foundry上拥抱面部拥抱面部模型Curation Pipeline模型运行时部署和评分开放式权重模型部署模板部署— Python SDK分数— OpenAI SDK在代理中使用它今天可用的内容在Microsoft Build 2026上，我们在Foundry上发布了Foundry托管计算和拥抱面部模型—来自拥抱面部生态系统的开放式权重模型的精选目录，每周刷新一次 权重在Azure中预先设置，运行时由Microsoft构建和扫描，集合中的每个模型都附带适用于Foundry上所有其他模型的相同企业安全性、治理、可观察性和计费。Microsoft Foundry是一个用于构建和操作代理AI应用程序的平台。 Foundry从任何云上最广泛的模型选择开始—来自Microsoft、OpenAI、Anthropic、Meta、Mistral、DeepSeek、Hugging Face等模型，跨越前沿、开源和自定义权重—所有这些都可以通过Python、C #、JavaScript和Java中的单个端点和单个SDK集访问。 在这些模型之上是Foundry代理服务：具有内置内存的多代理编排，通过Foundry IQ的知识接地，以及通过代理协议的可连接工具目录，因此代理可以处理企业数据。 客服代表运行后， Foundry提供端到端跟踪、实时监控、持续评估和提示优化器，可根据评估结果（即平台的可观察性和质量循环）改进客服代表的行为。 除了按代币付费（最低的入门摩擦路径）和提供的吞吐量（前沿模型上的可预测、高性能生产工作负载）之外， Foundry托管计算是Foundry中的第三个部署选项：用于开源和自定义模型的托管GPU平台即服务。 您可以部署与工作负载相关的事项（参数计数、上下文长度以及是否要针对延迟或吞吐量进行优化）所描述的模型实例，而Foundry则处理下面的GPU拓扑，无论该实例位于一个加速器上还是多个加速器上，因此您可以用模型术语进行思考和规划。 Microsoft负责计算机：容器更新、运行时升级和安全修补程序在受支持的运行时（ vLLM、SGLang、TensorRT-LLM、NIM、TEI、llama. cpp ）上自动发生，而无需重新部署您的模型，而模型配置、部署行为和路由将与您同在。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
-    },
-    {
       "title": "一键从Hugging Face到Amazon SageMaker Studio",
       "originalTitle": "From Hugging Face to Amazon SageMaker Studio in one click",
       "source": "Hugging Face",
@@ -522,21 +563,6 @@
         "公司动态"
       ],
       "score": 73
-    },
-    {
-      "title": "实现卓越运营",
-      "originalTitle": "Achieving operational excellence with AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "date": "2026-07-02T15:37:08.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“实现卓越运营”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to&#8230;",
-      "rawFullText": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to embed habits of measurement, analysis, and accountability into day-to-day company culture. DOWNLOAD THE REPORT But today, those time-tested playbooks are evolving as companies seek to embed AI into established process excellence methodologies. By some estimates, the market for AI-powered process optimization is projected to exceed $113 billion within the next decade. In one study, a full 88% of business leaders anticipated increasing investments into AI-infused process intelligence in the next 12 to 18 months. Yet without the right foundations, many of those investments may not fully deliver on their potential. Companies that already operate with discipline have an edge. They can channel new tools into proven systems rather than bolting them onto shaky foundations. Organizations with mature process disciplines are also better positioned to translate AI ambition into real outcomes, as they are already accustomed to data-driven decision-making and process discipline—precisely the cultural foundation AI systems need to deliver value. Simply put: AI can accelerate process excellence, but existing process excellence is what makes AI truly impactful. Technology and process are no longer separate levers, and only organizations that pull them together stand to realize the full value of both. Download the full report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
     }
   ]
 }
