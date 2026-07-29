@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T00:05:36.526Z",
+  "updatedAt": "2026-07-29T00:02:30.019Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,88 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Perplexity的个人电脑将Windows PC变成AI代理",
+      "originalTitle": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "date": "2026-07-28T12:30:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
+      "fullContent": "Perplexity将其代理个人电脑工具扩展到Windows ，允许运行世界上最流行操作系统的计算机用作本地运行的人工智能系统。与Perplexity于4月推出的Mac版本一样， Personal Computer for Windows的运作方式类似于“通用数字工作者” ，可以访问本地文件和应用程序，代表您执行操作，例如创建文档和更新电子表格。 此次发布建立在Perplexity于5月为Microsoft的365个工作空间应用程序和Teams虚拟会议软件推出的个人计算机集成之上。Windows版个人电脑旨在通过……阅读The Verge的完整故事来弥合剩余的差距。",
+      "originalSummary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform [&#8230;]",
+      "rawFullText": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform actions on your behalf, such as creating documents and updating spreadsheets. This launch builds on Personal Computer integrations that Perplexity launched for Microsoft's 365 workspace apps and Teams virtual meeting software in May. Personal Computer for Windows aims to bridge the remaining gap by … Read the full story at The Verge.",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "DeepLens诊断代理：代理工作流设计让小型推理模型与Frontier LLM竞争",
+      "originalTitle": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.22555",
+      "date": "2026-07-28T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2607. 22555v1公告类型：新摘要：医学诊断是一个多阶段的过程：提取事实、咨询知识、生成微分分析，并通过解释选择最佳诊断。前沿LLM是强大的通才，但单次提示往往会产生脆弱的诊断推理。 我们展示了DeepLens Diagnosis Agent ，这是一个以小型医学推理模型（ JSL Medical Small 7B v2 ）和检索增强生成（ RAG ）为中心的五阶段利用管道（将模型功能与严格的过程约束相结合）。该管道执行结构化临床提取、纪律检索、受限制的候选人生成、明确的证据三角测量和可审计的最终决定。 在915例DiagnosisArena基准测试中，该药剂实现了60. 14%的TOP-1诊断准确率，在中小型模型中最高。尽管标准医学基准为88. 2% ，但没有代理工作流的同一模型实现了23. 99% ，仅从工作流设计中获得了+36分的收益，这表明在不确定性下的诊断推理需要的不仅仅是知识召回。代理费用为0美元。 每箱0072 （ A100为24K代币） ，延迟24秒，比Claude Sonnet 4. 5 （ 0. 0110美元）和Gemini 3. 1 Pro （ 0. 0128美元）便宜35-45 ％ ，同时表现优于它们+9. 70pp和+9. 17pp。利用还可以纠正前沿模型故障；工作流程约束可能超过参数计数或API成本。除了聚合精度之外，管道还会产生结构化的中间工件，使每个阶段都可检查并支持错误定位。 这些属性支持高风险设置，在这些设置中，可追溯性、可重复性和可审计证据与基准性能同等重要。",
+      "originalSummary": "arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagnostic reasoning. We present the DeepLens Diagnosis Agent, a five-stage harnessing pipeline (combining model capabilities with disciplined process constraints) centered on a small medical reasoning model (JSL Medical Small 7B v2) and retrieval-augmented generation (RAG). The pipeline enforces structured clinical extraction, disciplined retrieval, constrained candidate generation, explicit evidence triangulation, and an auditable final decision. On the 915-case DiagnosisArena benchmark, the agent achieved 60.14% top-1 diagnostic accuracy, the highest among small and medium-sized models. The same model without the agent workflow achieved 23.99%, a +36-point gain from workflow design alone, despite 88.2% on standard medical benchmarks, showing that diagnostic reasoning under uncertainty requires more than knowledge recall. The agent costs USD 0.0072 per case (24K tokens on A100) with 24-second latency, 35-45% cheaper than Claude Sonnet 4.5 (USD 0.0110) and Gemini 3.1 Pro (USD 0.0128) while outperforming them by +9.70pp and +9.17pp. Harnessing can also correct frontier model failures; workflow constraints can outweigh parameter count or API cost. Beyond aggregate accuracy, the pipeline produces structured intermediate artifacts that make each stage inspectable and support error localization. These properties support high-stakes settings where traceability, reproducibility, and auditable evidence matter alongside benchmark performance.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SF-AMS ： LLM代理中结构化内存的战略遗忘",
+      "originalTitle": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.22562",
+      "date": "2026-07-28T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2607. 22562v1公告类型：新摘要：管理长上下文依赖仍然是LLM代理的主要瓶颈，因为冗余和不相关的信息会降低多步骤推理的质量。代理记忆系统的战略遗忘（ SF-AMS ）被提出作为通过模拟记忆单元的长期重要性来维护紧凑型高实用性记忆的框架。 SF-AMS将静态检索和启发式衰减替换为公用事业驱动的生存机制，该机制从使用冗余和时间信号中更新内存重要性，从而引入分层内存结构，该结构在过滤噪声时优先考虑稳定的实体一致性信息。最重要的是，复合重要性评分集成了语义和实体级别的信号，以提高检索鲁棒性。 在LoCoMo和LongMemEval-s上的实验表明，在包括LightMem MemO和A-Mem在内的强大先进基线上获得了一致的收益。最大的改进出现在Qwen2. 5-7B下的多跳推理中，其中SF-AMS在最强基线上实现了加9. 65 F1 ，其次是GPT-4o-mini加6. 91 F1和开放域任务加6. 53 F1下的时间推理，表现出强大的跨骨干泛化。 这些结果表明，将内存重要性建模为动态效用信号对于可靠的长上下文推理至关重要。",
+      "originalSummary": "arXiv:2607.22562v1 Announce Type: new Abstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory Systems (SF-AMS) is proposed as a framework for maintaining compact high-utility memory by modeling the long-term importance of memory units. SF-AMS replaces static retrieval and heuristic decay with a utility-driven survival mechanism that updates memory importance from usage redundancy and temporal signals, inducing a hierarchical memory structure that prioritizes stable entity-consistent information while filtering noise. On top of this, Composite Importance Scoring integrates semantic and entity level signals to improve retrieval robustness. Experiments on LoCoMo and LongMemEval-s show consistent gains over strong state of the art baselines including LightMem MemO and A-Mem. The largest improvement appears in multi-hop reasoning under Qwen2.5-7B where SF-AMS achieves plus 9.65 F1 over the strongest baseline followed by temporal reasoning under GPT-4o-mini plus 6.91 F1 and open-domain tasks plus 6.53 F1 demonstrating strong cross backbone generalization. These results show that modeling memory importance as a dynamic utility signal is critical for reliable long-context reasoning.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能领导人签署了一份声明，要求政府对自动化人工智能采取行动",
+      "originalTitle": "AI leaders sign a statement asking the government to do something about automated AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "date": "2026-07-28T19:46:43.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "OpenAI和Anthropic以及谷歌、Meta、Thinking Machines、微软、Mistral和其他领先的人工智能实验室的员工已向美国政府发表声明，支持前沿人工智能开发可能放缓，或至少加快全球协调治理努力。“Al可以帮助创造一个更加美好的未来，但这种结果并不能保证，”员工在声明中写道。 “世界领先的铝公司相信他们可能接近自动化铝研究。很难准确预测这会在多大程度上加速Al的进步，但能力开发人员存在真正的风险……阅读The Verge的完整故事。",
+      "originalSummary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better [&#8230;]",
+      "rawFullText": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better future, but that outcome is not guaranteed,\" the employees wrote in the statement. \"The world's leading Al companies believe they could be close to automating Al research. It is hard to predict exactly how much this will accelerate Al progress, but there is a real risk that capability developmen … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 98
+    },
+    {
+      "title": "MedLoCoMo ：大型语言模型的长语境多会话医学对话基准",
+      "originalTitle": "MedLoCoMo: A Long-Context Multi-Session Medical Dialogue Benchmark for Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.22566",
+      "date": "2026-07-28T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2607. 22566v1公告类型：新摘要： MedLoCoMo是针对多次入院医学对话的患者特定临床推理的医学长上下文记忆基准。现有的医疗QA基准在很大程度上测试了短期背景知识或单一文档基础， LLM是否可以在纵向患者病史上使用、连接和弃权。 我们从去识别的MIMIC-IV和MIMIC-IV-Note记录中构建MedLoCoMo ，通过构建入院级别的临床数据包，合成接地的医患对话，并在单次入院、交叉入院和对抗性无法回答的设置中生成证据链接的QA项目。该基准包含100个患者时间线，平均每次会话1,669. 8回合， 29. 7次会话和74,512. 2个令牌。 在评估的基线中，交叉入院推理始终比局部证据使用更难，即使模型具有较长的上下文窗口或使用外部记忆或检索方法。代码和MedLoCoMo基准测试版本可在https://github. com/leozzy13/MedLoCoMo上获得，以便使用和重现。",
+      "originalSummary": "arXiv:2607.22566v1 Announce Type: new Abstract: MedLoCoMo is a Medical Long-Context Memory benchmark for patient-specific clinical reasoning over multi-admission medical dialogue. Existing medical QA benchmarks largely test short context knowledge or single document grounding, leaving open whether LLMs can use, connect, and abstain over longitudinal patient histories. We build MedLoCoMo from deidentified MIMIC-IV and MIMIC-IV-Note records by constructing admission-level clinical packets, synthesizing grounded doctor-patient conversations, and generating evidence linked QA items over single-admission, cross-admission, and adversarial unanswerable settings. The benchmark contains 100 patient timelines averaging 1,669.8 turns, 29.7 sessions, and 74,512.2 tokens per conversation. Across the evaluated baselines, cross-admission reasoning is consistently harder than localized evidence use, even when models have long context windows or use external memory or retrieval methods. The code and MedLoCoMo benchmark release is available at https://github.com/leozzy13/MedLoCoMo for use and reproducibility.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "产品发布"
+      ],
+      "score": 98
+    },
     {
       "title": "英伟达、微软推出开放式人工智能安全联盟—无需OpenAI、谷歌或Anthropic",
       "originalTitle": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
@@ -66,7 +148,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "通往人工超级智能的道路",
@@ -81,7 +163,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -97,22 +179,7 @@
         "机器人",
         "算力芯片"
       ],
-      "score": 93
-    },
-    {
-      "title": "理解对中国人工智能的恐慌",
-      "originalTitle": "Making sense of the panic over Chinese AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
-      "date": "2026-07-26T19:40:57.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "中国公司推出的最新人工智能模型--Moonshot AI的Kimi--重新引发了关于美国竞争力以及开放式与专有式人工智能的争论。虽然社交媒体上有很多对话，但似乎这场辩论也发生在华盛顿特区的幕后，据报道， OpenAI和Anthropic曾游说监管机构对开放的中国模式表示担忧。 在TechCrunch的Equity播客的最新一集中， Kirsten Korosec ， Sean O’Kane和我讨论了为什么这似乎是一个热门问题。除了建议某些人应该“触摸草地”而不是把周末花在X上争论之外，肖恩还指出，在许多方面，这“感觉就像我们看到了以前的疯狂的重演” ，硅谷的每个人都“期待着一些东西会到来，并把其他一切都吹走。 克尔斯滕指出，对中国人工智能模型实施严格限制主要会使少数公司受益： “我们是在加速并确保美国人赢得人工智能竞赛，还是在确保某些前沿实验室比其他实验室做得更好？请继续阅读，获取我们对话的摘录，并根据长度和清晰度进行编辑。 Anthony Ha ：对于那些关注中国人工智能话语的人来说，这可能是非常非常熟悉的，因为DeepSeek的推出基本上是一个中国模型；在某些基准上，它也是如此，或者至少看起来与一些前沿模型有竞争力；科技行业的某一部分人失去了理智。其中一些[辩论]受到了额外的审查，因为其中一位发布相关内容的人是OpenAI的[高管]。 但总的来说，有一个反复出现的问题：中国公司能否击败美国公司，至少在某些方面，并以更便宜、更开放的方式做到这一点？肖恩·奥凯恩：是的，有很多元素让我们觉得我们看到了以前的怪胎的重演。我认为我最喜欢的一件事是：每个人都已经准备好了，所以期待一些东西会到来，然后把其他一切都吹走。 我认为过去一周我最喜欢的例子是人们炫耀“我的天哪， Kimi在30分钟内复制了整个macOS。“是的，它以令人印象深刻的图形再现了macOS的外观，但它不是操作系统。我们不断看到这些事情一遍又一遍地发生，科技行业的每个人都非常紧张。 我认为，特别是对于一些中国模型的出现，有这种期望，我认为这是人们上周末反应方式的核心原因。（另外，顺便说一句：到外面去，摸摸草，现在是周末。整个周末，这个行业的每个人都在推特上交易倒钩。 ）但这种神经质对我来说真的很有趣，因为我们现在已经离开一周了，我认为没有人像一周前那样感觉结束了。Kirsten Korosec ：我们的一位记者Tim Fernholz有一个非常棒的故事，他试图在美国解开围绕这个问题的精神病。他指出了许多原因。",
-      "originalSummary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
+      "score": 92
     },
     {
       "title": "Anthropic以“接近”寓言5的能力发布作品5",
@@ -132,21 +199,6 @@
       "score": 99
     },
     {
-      "title": "Meta正在使其AI聊天机器人更像助手",
-      "originalTitle": "Meta is making its AI chatbot more like an assistant",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-      "date": "2026-07-24T17:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "Meta表示，其人工智能聊天机器人不仅仅是回答问题和生成图像。|图片： Meta Meta正在使用新的生产力功能升级其AI聊天机器人，以与Gemini、ChatGPT和Claude等竞争对手竞争。此更新将允许Meta AI利用您的日历来帮助您计划活动和生成每日简报，以及进行深入研究，您可以根据进展进行指导。 Meta在一篇博客文章中表示，此次更新标志着其“迈向个人超级智能的下一步” ，首席执行官马克·扎克伯格（ Mark Zuckerberg ）吹捧这是人工智能的未来。Meta正在通过其新发布的Muse Spark 1. 1模型为更新提供支持，该公司表示，这将使其聊天机器人超越其目前回答问题的能力……阅读The Verge的完整故事。",
-      "originalSummary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. [&#8230;]",
-      "rawFullText": "Meta says its AI chatbot is going beyond just answering questions and generating images. | Image: Meta Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. In a blog post, Meta says this update marks its \"next step toward personal superintelligence,\" something CEO Mark Zuckerberg has touted as the future of AI . Meta is powering the update with its newly released Muse Spark 1.1 model , which the company says will allow its chatbot to go beyond its current capabilities of answering questi … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "Midjourney购买了占星应用Co-Star",
       "originalTitle": "Midjourney bought the astrology app Co-Star",
       "source": "The Verge AI",
@@ -159,7 +211,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "您不能再忽略Google Zero了",
@@ -174,39 +226,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
-    },
-    {
-      "title": "美国科学的科技沸腾已经正式开始",
-      "originalTitle": "The tech-broification of American science has officially begun",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
-      "date": "2026-07-24T14:43:55.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "特朗普的科学顾问迈克尔·克拉齐奥斯（ Michael Kratsios ）没有科学背景。|图片： The Verge; Getty Images特朗普政府周四公布了第一笔“创世纪使命”拨款，为数百个人工智能驱动的科学项目拨款50亿美元（ $ 5 billion ） ，白宫称之为“与曼哈顿项目的紧迫性和雄心相当”。 “大约在同一时间，特朗普的科学顾问迈克尔·克拉齐奥斯（ Michael Kratsios ）在国会山向立法者推销了一个同样宏伟的承诺：美国科学的“新黄金时代”，这个时代将优先考虑人工智能、机器人和核能，并淡化生命科学。总而言之，这两个公告提供了唐纳德·特朗普想要如何重塑的最清晰的画面……阅读The Verge的完整故事。",
-      "originalSummary": "The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on [&#8230;]",
-      "rawFullText": "Trump’s science adviser Michael Kratsios has no science background. | Image: The Verge; Getty Images The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds of AI-driven science projects in an effort the White House has described as \"comparable in urgency and ambition to the Manhattan Project.\" At roughly the same time, Trump's science adviser Michael Kratsios was on Capitol Hill selling lawmakers on an equally grandiose promise: \" A New Golden Age \" of American science, one that would prioritize artificial intelligence, robotics, and nuclear energy and downplay life sciences. Taken together, the two announcements offer the clearest picture yet of how Donald Trump wants to remak … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 72
-    },
-    {
-      "title": "克劳德的语音模式现在可用于Opus和Sonnet",
-      "originalTitle": "Claude’s voice mode is now available for Opus and Sonnet",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-      "date": "2026-07-23T19:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "到目前为止，语音模式仅适用于Claude Haiku ，这是Anthropic更快但功能较弱的型号。现在，该公司正在以语音模式提供其Opus和Sonnet模型，并将其覆盖范围扩展到Gmail、Slack和Canva等应用程序。当Anthropic去年推出语音模式时，它主要专注于以最小的延迟提供快速问题的答案。 但在一篇博客文章中，该公司表示，人们立即开始使用语音模式进行远远超过随意查询。他们用它来“解决真正的业务问题” ，而Haiku并不是真正为之设计的。这种模式“让对话保持快速，但不是ALWA……阅读The Verge的完整故事。",
-      "originalSummary": "Until now, voice mode has only been available on Claude Haiku, Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode, and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering [&#8230;]",
-      "rawFullText": "Until now, voice mode has only been available on Claude Haiku , Anthropic's faster but less powerful model. Now the company is making its Opus and Sonnet models available in voice mode , and extending its reach into apps like Gmail, Slack, and Canva. When Anthropic launched voice mode last year, it was primarily focused on delivering answers to quick questions with minimal delay. But in a blog post, the company said people immediately started using voice mode for far more than casual queries. They were using it to work \"through real business problems,\" which Haiku was not really designed for. That model \"kept conversations quick, but not alwa … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 71
     },
     {
       "title": "在ChatGPT中启动Health",
@@ -222,23 +242,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 97
-    },
-    {
-      "title": "Alexa Plus正在进行人工智能更新，以处理更复杂的指令",
-      "originalTitle": "Alexa Plus is getting an AI update to handle more complicated instructions",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
-      "date": "2026-07-23T21:15:06.000Z",
-      "summary": "这条新闻与机器人、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：机器人、产品发布相关动态",
-      "fullContent": "亚马逊正在推出其Alexa Plus助手的更新，使其能够以新的方式连接到智能家居设备。通过目前正在预览的更新， Alexa Plus可以与Bosch、Delta、Ecovacs、iRobot、Yale Home、Whirlpool、Tapo、Eufy等公司的技术人员联系起来，同时自动将请求路由到正确的设备。 在亚马逊分享的一个例子中，一个拥有支持洗衣机的人可以说： “Alexa ，我孩子的足球服可以使用深度清洁，但标签上说只有冷洗。“从那里， Alexa Plus将导航洗衣机的循环选项并选择正确的设置。全新整合功能强大……阅读The Verge的完整故事。",
-      "originalSummary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [&#8230;]",
-      "rawFullText": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update , which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to the correct device. In an example shared by Amazon, a person with a supported washing machine can say, \"Alexa, my kid's soccer jersey could use a deep clean, but the tag says cold wash only.\" From there, Alexa Plus would navigate the washer's cycle options and choose the correct setting. The new integrations are powered … Read the full story at The Verge.",
-      "tags": [
-        "机器人",
-        "产品发布"
-      ],
-      "score": 85
+      "score": 96
     },
     {
       "title": "将Nunchaku 4位扩散推理带给扩散器",
@@ -253,22 +257,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
-      "title": "Patreon将裁员20%",
-      "originalTitle": "Patreon is laying off 20 percent of workers",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
-      "date": "2026-07-23T18:20:30.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“Patreon将裁员20%”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media. In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these changes \"because we believe AI replaces humans,\" but says AI has \"fundamentally transformed the tech industry, including how we work, [&#8230;]",
-      "rawFullText": "Patreon is laying off 20 percent of its workers, or around 93 employees, as reported earlier by 404 Media . In a memo to employees, Patreon CEO Jack Conte writes that the company isn't making these changes \"because we believe AI replaces humans,\" but says AI has \"fundamentally transformed the tech industry, including how we work, how we build products, how we communicate, and more.\" That shift has changed \"how we operate and organize,\" Conte writes. During an interview on Decoder , last month , Conte laid out his stance on AI, saying that the company is \"100 percent embracing\" AI tools internally to continue serving creators: If Patreon doe … Read the full story at The Verge.",
+      "title": "人工智能如何帮助科学家设计下一代药物",
+      "originalTitle": "How AI helps scientists design the next generation of medicines",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "date": "2026-07-23T12:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "设计和开发新药是一项昂贵且容易失败的科学挑战。一种新药的开发可能需要多年时间，代价是大量投资。即便如此，大多数可能的候选人也永远无法接触到患者。对于生物药物，由工程蛋白质而不是合成化学（通常用于治疗大多数主要急性和慢性疾病）制成的疗法，其复杂性甚至更大。 科学家们探索了大量可能的分子，寻找能够与正确靶标结合、在人体内保持稳定并可大规模制造的罕见分子。如今，人工智能正在加快这些流程，并迅速成为制药研发基础设施的核心部分。 人工智能辅助设计是生物候选药物开发的一个日益重要的部分，像阿斯利康这样的公司正在积极建立其工程团队，以进一步推动这一进程。阿斯利康高级副总裁兼研发生物工程和肿瘤学靶向发现负责人Puja Sapra表示： “我们所做的一切，无论是设计、制造、测试还是分析，现在都经过了计算增强。” “循环时间越来越短，而生产力和创新却在提高。Sapra解释说，阿斯利康的方法遵循构建-测量-学习循环。人工智能通过计算生成候选分子或确定其优先级，预测哪些设计最有可能成功。然后，科学家将实验室资源仅集中在排名最高的候选人身上。 这导致更紧密的反馈周期，更少的死胡同，更快的迭代，以及追踪以前被认为是药物无法治疗的疾病目标的能力。由于可能的分子组合数量远远超过任何人类团队可以系统地探索的数量，因此使用人工智能来缩小和优化测试选项已成为生物制剂药物设计的主要焦点。 应对复杂的药物设计问题除了加速时间表之外，人工智能还被应用于发现全新的药物类别。传统生物制剂通常靶向一种疾病途径。下一代药物可以同时击中多个靶点或精确地将治疗有效载荷输送到特定细胞。要实现这一目标，需要同时对多个变量进行优化。 Puja Sapra解释说，展望未来，人工智能驱动的模型可以帮助设计这些日益复杂、多特异性的生物制剂。“例如，”她继续说道， “这样的模型可以帮助根据底层生物学确定哪两个或三个目标的优先级，然后跨多个参数进行优化，以平衡分子的效力、稳定性、可制造性和安全性。Sapra说：“给无法忍受的人下药正在成为现实。” “这些技术最终将使我们能够开发针对曾经被认为不可能达到的目标的药物。对患者的益处潜力是显着的。麦肯锡的数据护城河估计，生成式人工智能与其他计算工具相结合，可以将药物发现时间缩短多达50%。但每个人工智能模型只能与其训练数据一样好。在药物发现中，这意味着大量高质量的生物数据。",
+      "originalSummary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to&#8230;",
+      "rawFullText": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to treat conditions across most major acute and chronic diseases), the complexity is even greater. Scientists explore vast quantities of possible molecules, looking for the rare few that will bind to the right target, remain stable in the human body, and be manufacturable at scale. Today, AI is speeding up these processes and has quickly become a core part of the infrastructure in pharmaceutical R&D. AI-assisted design is a growing part of how biologic drug candidates are developed, and companies like AstraZeneca are actively building its engineering teams to push this further. “Everything we do, whether it’s design, make, test, or analyze, is now computationally enhanced,” says Puja Sapra, senior vice president and head of R&D biologics engineering and oncology targeted discovery at AstraZeneca. “The cycle times are getting shorter while productivity and innovation increase.” Sapra explains that AstraZeneca’s approach follows a build-measure-learn loop. AI generates or prioritizes candidate molecules computationally, predicting which designs are most likely to succeed. Scientists then focus lab resources only on the top-ranked candidates. This leads to a tighter feedback cycle with fewer dead ends, faster iteration, and the ability to go after disease targets that were previously considered untreatable by medicine. Because the number of possible molecular combinations far exceeds what any human team can systematically explore, using AI to narrow and refine the options for testing has become a major focus in biologics drug design. Navigating complex drug design problems Beyond accelerating timelines, AI is also being applied to the discovery of entirely new classes of medicines. Traditional biologics typically target one disease pathway. The next generation of drugs can hit multiple targets simultaneously or precisely deliver therapeutic payloads to specific cells. Achieving this requires optimization across many variables at once. Looking ahead AI-driven models could help design these increasingly complex, multi-specific biologics, explains Puja Sapra. “For example,” she continues, “such models could help identify which two or three targets to prioritize based on the underlying biology, then optimize across multiple parameters to balance a molecule’s potency, stability, manufacturability, and safety.” “Drugging the undruggable is becoming a reality,” Sapra says. “These technologies will eventually enable us to develop medicines against targets once thought impossible to reach. The potential for benefit to patients is remarkable.” The data moat McKinsey estimates that generative AI, combined with other computational tools, could cut drug discovery timelines by as much as 50%. But every AI model is only as good as its training data. In drug discovery, that means ample quantities of high-quality biological data. Experiments can provide a rich source of such data. Whether they succeed or fail, each experiment generates a signal about what does and does not work. “Data is our differentiator,” says Sapra, explaining how the company’s datasets are proprietary and multimodal and include molecular structures, binding measurements, safety profiles, and manufacturing outcomes. “We’ve built an intentionally diverse portfolio across multiple disease areas and drug types. All of that data empowers us to fine-tune frontier AI models with richer, more representative training sets.” She continues, “Further, we have invested in deep screening technologies to generate additional datasets required in volume to constantly refine and validate our models.” Building an autonomous discovery engine To bring all of that data together in one place, AstraZeneca is building what it calls a “lab of the future” facility in Kendall Square, Cambridge, Massachusetts where AI and robotic automation will be able to form a continuous, closed-loop discovery system. “Where a self-driving car uses sensors and models to navigate its environment, this system uses AI to make predictions, robotic systems to execute experiments, and instruments to generate data,” explains Sapra. That data feeds directly back into the models, accelerating each subsequent cycle. “Throughout, scientists will remain central to the process, providing the oversight, judgement, and strategic direction that ensure outputs are explainable, tolerable, and directed toward potential patient benefit,” she adds. Eventually, automated high-throughput systems will be able to make and evaluate thousands of molecular interactions on a weekly basis. “This will generate AI-ready data at a scale that traditional workflows cannot match,” Sapra says. “Robotic sample handling, automated quality checks, and integrated data pipelines also have the potential to help accelerate early drug development timelines significantly.” The next frontier: Generating medicines from scratch Ultimately, Sapra says, the end-state vision for AI in biologic drug discovery is what the field calls “de novo” design. For this, the goal is for AI to generate entirely new protein sequences that precisely fit the desired drug properties. This includes designing the structure, predicting safety, how it will behave in the body and how to make it manufacturable. “The field is making great progress toward a completely AI-generated biologic, designed from scratch all the way to a clinical candidate,” Sapra says. “As we continue to leverage frontier models and fine-tune them with the right datasets, we bring ourselves closer to this reality. I believe it will come. It’s a matter of time.” Several key elements are needed to reach this point, however. First is richer and more standardized training data across the industry. Second, robust evaluation benchmarks for AI-generated candidates. And third, teams that know how to work at the intersection of machine learning and biology. Of all the prerequisites, however, safety prediction may be the most consequential, and perhaps the least discussed, Sapra says. “One of the hardest problems in de novo design is predicting whether a computationally generated molecule will be safe in the human body,” Sapra explains. AstraZeneca is tackling this with what amounts to virtual clinical trials. These are advanced cell systems and micro-scale organ models that function as physical testbeds, paired with AI that learns from their outputs. &nbsp;“These systems have the potential to generate enhanced biological signals without traditional testing bottlenecks, and they&#8217;re a critical missing piece in closing the loop between AI-generated designs and clinical-ready candidates,” Sapra adds. A shift currently underway is the move toward agentic AI systems that can simultaneously generate molecule candidates and predict how efficacious and safe they are likely to be. These autonomous workflows can connect disease-level insights directly to molecule design, bridging what were previously separate data silos. “The complexity of the biology goes hand-in-hand with the design of the molecule,” summarizes Sapra. Human talent unlocks AI potential The transformation underway in biologics is not just about technology. “With more autonomous systems, human oversight remains at the heart of this approach—ensuring explainable and ethical AI for the benefit of patients,” says Sapra. For scientists, working with AI is a collaborative process. “Scientists will work hand-in-hand with these model systems,” she says. “There will be a world where models will design molecules, then scientists will work with the systems to test those molecules and put all that data together.” Through this process of human checks, balances, and judgement calls, the models will evolve and constantly improve, ultimately with potential to benefit patients. For engineers, designing and building effective systems ready for human-AI collaboration will mean ensuring high levels of model transparency and explainability. According to Sapra, AstraZeneca’s engineering teams include data scientists, automation specialists, and AI engineers, who are developing systems that act as “thinking partners” rather than black boxes. “Engineers are designing systems that generate, validate, and learn at speed. And the problems are genuinely hard: Multimodal data fusion, closed-loop optimization, uncertainty quantification, and interpretability at the point of clinical decision-making,” she adds. In taking on such technically demanding challenges, engineers and scientists have the opportunity to contribute to the research and development of potentially life-changing treatments for many diseases, says Sapra. “The biologic medicines we can develop today, and those we’ll design tomorrow, depend on combining world-class AI and engineering talent with deep scientific expertise.” This article has been initiated and funded by AstraZeneca. &nbsp;Z4-85058, July 2026. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "OpenAI Presence简介",
@@ -299,7 +303,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "新闻机构如何利用人工智能推进其重要使命",
@@ -314,7 +318,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "推进国家科学新时代",
@@ -329,7 +333,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "NTT DATA Group通过Codex将事件分析时间缩短至30分钟",
@@ -344,7 +348,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "推出面向小型企业的ChatGPT计划",
@@ -377,7 +381,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "David Vélez和Robin Vince加入OpenAI基金会和OpenAI集团PBC的董事会",
@@ -392,7 +396,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "Grabette ：用于记录机器人操作数据的开放系统",
@@ -407,10 +411,10 @@
       "tags": [
         "机器人"
       ],
-      "score": 78
+      "score": 77
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "通过材料科学创新推进下一代人工智能",
       "originalTitle": "Advancing next-gen AI with materials science innovation",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
@@ -422,7 +426,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "长视野车型时代的安全性和对齐性",
@@ -454,7 +458,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "人工智能比人类更有可能在招聘时形成偏见",
@@ -469,22 +473,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
-    },
-    {
-      "title": "人工智能时代的记分卡",
-      "originalTitle": "A scorecard for the AI age",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "date": "2026-07-17T10:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI首席财务官Sarah Friar介绍了一种实用的AI记分卡，可通过有用的工作、每项成功任务的成本、可靠性和计算回报率来衡量ROI。",
-      "originalSummary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
+      "score": 67
     },
     {
       "title": "天气数据被破坏的风险正在上升",
@@ -499,7 +488,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "新型号，同等优势",
@@ -514,7 +503,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "安全事件披露— 2026年7月",
@@ -529,39 +518,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
-    },
-    {
-      "title": "认识GPT-Red ： LLM超级黑客OpenAI ，旨在使其模型更安全",
-      "originalTitle": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-      "date": "2026-07-15T17:09:37.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、公司动态相关动态",
-      "fullContent": "OpenAI已经建立了一个名为GPT-Red的LLM超级黑客，它将其用作陪练合作伙伴，以帮助其他模型提高对网络攻击的防御能力。上周，该公司发布了其旗舰法学硕士的最新版本GPT-5。6. OpenAI表示，针对GPT-Red进行训练使该模型成为迄今为止最强大的版本。GPT-Red自动对软件系统进行一种称为红队（ red-teaming ）的安全评估，通常由一组人工测试人员完成。 目的是找到尽可能多的不同方法来破坏或劫持系统。然后可以在软件的最终版本发布之前修补弱点。 随着LLM变得越来越复杂，并被用于更广泛的任务中，特别是以代理的形式，它可以与计算机文件、网站、第三方代码以及其他代理进行交互，因此团队成员很难单独跟上可能发生的所有类型的攻击。OpenAI共同创建GPT-Red的研究科学家Nikhil Kandpal说： “风险面会增加，爆炸半径也会增加。” OpenAI构建了GPT-Red ，以面向未来的安全测试流程。该公司的研究科学家、GPT-Red的共同创始人Dylan Hunn说： “随着更多功能模型的出现，我们已经设计出了能够发现新攻击模式的系统。”研究人员表示，它已经提出了以前从未见过的新型攻击。 OpenAI的大部分精力都集中在一种称为提示注入的攻击上，黑客会漏掉LLM指令，使其做开发人员或用户不希望它做的事情，例如复制机密信息、破坏公司的代码库或产生令人尴尬或有害的输出。从理论上讲，此类说明可以隐藏在LLM可能遇到的任何文本中，例如代码或网站。 培训道场为了构建GPT-Red ， OpenAI的研究人员选择了一个未经过黑客培训的LLM ，并将其与其他几种模型一起设置在所谓的自我循环中。它的目标是试图攻击其他模型；他们的目标是试图自卫。经过多轮比赛， GPT-Red在攻击其他LLM方面变得越来越好，而这些LLM在抵御攻击方面变得越来越好。 培训是在OpenAI设计的一种道场中进行的，旨在模仿LLM可能在现实世界中部署的一系列场景，包括浏览网页、阅读电子邮件或日历应用程序以及编辑代码。当GPT-Red发现一种新的攻击时，它会探索它的多个不同版本，为特定场景找到最有效的攻击。 Hunn说： “与人类红色团队相比，该模型非常非常擅长准确地找到有效的方法，准确地找到最有效的方法。” “它非常坚持不懈地深入研究它所发现的攻击。“特别是， OpenAI声称GPT-Red发现了一种研究人员以前从未见过的即时注入攻击，他们称之为虚假的思想链。",
-      "originalSummary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates&#8230;",
-      "rawFullText": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates a type of safety evaluation for software systems known as red-teaming, which is typically done by a team of human testers. The aim is to find as many different ways to break or hijack a system as possible. The weak spots can then be patched before the final version of the software is released. As LLMs become more complex and get used in a wider variety of tasks—especially in the form of agents, which can interact with computer files, websites, and third-party code as well as other agents—it’s hard for teams of people by themselves to keep up with all the types of attacks that might take place. “The risk surface grows and the blast radius also grows,” says Nikhil Kandpal, a research scientist at OpenAI who co-created GPT-Red. OpenAI built GPT-Red to future-proof its safety testing process. “As more capable models become available, we will have already designed the system that can discover new modes of attack,” says Dylan Hunn, a research scientist at the company and fellow co-creator of GPT-Red. The researchers say it has already come up with new types of attack that had not been seen before. OpenAI focused most of its efforts on a type of attack known as a prompt injection, where a hacker slips an LLM instructions to make it do things its developers or users do not want it to, such as copy confidential information, sabotage a company’s code base, or generate embarrassing or harmful output. In theory, such instructions can be hidden in any text that the LLM might encounter—in code or on a website, for example.&nbsp;&nbsp;&nbsp;&nbsp; Training dojo To build GPT-Red, OpenAI’s researchers took an LLM that had not been trained as a hacker and set it up in what’s known as a self-play loop with several other models. Its goal was to try to attack the other models; their goal was to try to defend themselves. Over many rounds of play, GPT-Red became better and better at attacking other LLMs, and those LLMs became better and better at fending off the attacks. The training took place in a kind of dojo that OpenAI had designed to mimic a range of scenarios in which LLMs might be deployed in the real world, including browsing the web, reading emails or calendar apps, and editing code.&nbsp;&nbsp; When GPT-Red found a new kind of attack, it would explore multiple different versions of it to find the most efficient one for specific scenarios. “Compared to a human red-teamer, the model is very, very good at finding exactly what will work, exactly what’s most effective,” says Hunn. “It’s extremely persistent about drilling down into an attack that it has discovered.”&nbsp;&nbsp; In particular, OpenAI claims that GPT-Red found a type of prompt injection attack that the researchers had not seen before, which they call a fake chain of thought. A chain of thought is a kind of diary in which an LLM makes notes to itself and keeps track of partial results as it works through problems. GPT-Red found a way to insert a fake entry into another model’s chain of thought that would trick that model into acting on spoofed information. “It’s like if I told you that 1+1=3 and that you have verified this already,” says Chris Choquette-Choo, another research scientist on the team. “The model’s like, ‘Oh, okay, of course,’ and it just spits out 3.” (After this story was first published, a second team of researchers who are not connected to OpenAI reached out to MIT Technology Review. They said they came up with a very similar attack, which they call a chain-of-thought forgery , around the same time. The work was part of a winning entry in a red-teaming hackathon that OpenAI launched in August 2025 in which teams of researchers were challenged to find new vulnerabilities and unwanted behaviors in the firm&#8217;s open-source LLM gpt-oss-20b. When MIT Technology Review informed OpenAI about this other work, the firm claimed that GPT-Red discovered its version of the attack before these other researchers first mentioned theirs in a blog post about the hackathon. OpenAI has updated its paper to acknowledge the concurrent work.) Jessica Ji, a senior research analyst who works on AI security at Georgetown University’s Center for Security and Emerging Technology (CSET), thinks the self-play loop that OpenAI used is a good approach. “The results look very promising,” she says. OpenAI tested how good an attacker GPT-Red was by rerunning an experiment from 2025 in which human red-teamers tried to find weaknesses in an earlier version of GPT-5. When GPT-Red was set the same task, it was more successful at finding effective attacks than the humans had been. OpenAI also tested GPT-Red against Vendy, a vending machine agent developed by Andon Labs, a company that assesses how well agents perform real-world tasks. GPT-Red was able to hack Vendy to make it change the prices of items on sale and cancel a customer’s order. Defensive behavior OpenAI says that when it tried out some of the strongest attacks that GPT-Red had come up with on its models, more than 90% of them worked against GPT-5 (released in August last year), and fewer than 23% worked against the new GPT-5.6. GPT-Red isn’t perfect. It is not great at figuring out attacks that involve a back-and-forth conversation between hacker and target, something that human attackers would have few problems with. It is also not yet that great at using images, which can be used to pass text to models in prompt injection attacks.&nbsp;&nbsp;&nbsp;&nbsp; The company says that GPT-Red supplements the work of its human red-teamers. People can still find attacks it misses. One approach OpenAI is taking is to give GPT-Red an attack that humans came up with and ask it to find all the variations. “I think human expertise will still be very important,” says CSET’s Ji. “It would be really useful to be able to distinguish where human testing is most needed.” Unsurprisingly, OpenAI will not be releasing GPT-Red. The company is also confident that the super-hacker is stronger than any copycat model someone might try to create. The researchers say they have been working on the model for more than a year, backed by the compute resources of one of the richest companies in the world. “It’s not a trivial thing that someone could easily do—you know, just go and train a super-attacker using this idea,” says Choquette-Choo. This article has been updated.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "关于建筑代理， Shippy教会了我们哪些建筑",
-      "originalTitle": "What building Shippy taught us about building agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
-      "date": "2026-07-15T17:29:41.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "客服代表解剖：非确定性客服代表的技能、灵魂和配置确定性工具沙盒托管和隔离评估客服代表，而不是模型我们的目标Shippy是为高风险决策构建的海事人工智能客服代表，错误的答案会产生实际影响。以下是其背后的架构，以及我们正在为Ai2的其他环境平台带来的经验教训。Shippy回答了关于加纳专属经济区的实时询问。 响应显示其工作：边界源、数据截止点、查询时间戳以及返回天窗地图的深层链接，以便分析师可以验证每个数字。为保护海洋等高风险运营领域构建人工智能代理首先是一个可靠性问题。 对于海事分析师来说，一个错误的答案可能会使巡逻船朝着错误的方向行驶数英里，从而耗费大量本已捉襟见肘的资源，并可能使人员受到伤害。因此，当Skylight团队着手构建Shippy （我们用于实时海域感知的人工智能）时，真正的工作不是模型。它正在建立一个我们可以信赖的系统，以保持其正确性，保持在其限制范围内，并在广泛的任务中坚持下去。 我们必须根据Skylight的实时数据验证所有数据，这些数据随着新的卫星和船只信号的到来而不断更新，而不是静态快照。我们将Shippy这样的代理视为三件事：灵魂、技能和配置。灵魂是构成Shippy角色并设定行为界限的系统提示。技能告诉Shippy如何处理特定类型的请求。 灵魂和技能一起被烘焙到Docker镜像中，这是一个版本化的、可部署的工件，定义了Shippy是什么。配置涵盖了其他所有内容：要运行的代理线束（在Shippy的案例中， OpenClaw是一个开源代理框架）、要使用的LLM （目前， Shippy依赖于Claude Opus 4. 6 ）以及运行时设置。API密钥等密钥在运行时注入；交换模型或线束是配置更改，而不是重建。 Shippy的技能遵循编码工具（如Claude Code和Codex ）使用的相同代理技能规格，即具有结构化前置内容的简单扣分文件。这使得每项技能都易于理解、版本化和易于修改。Shippy目前包括以下技能：例如， Skylight API查询技能编码用于回答有关特定区域的问题的完整工作流程。 当分析师或用户询问“显示上个月在巴拿马专属经济区的钓鱼活动”时，该技能的指示指示Shippy首先通过Skylight的区域API将“巴拿马专属经济区”解析为边界多边形，而不是猜测或硬编码坐标，然后查询该几何体内的钓鱼活动，使用深层链接将结果格式化回Skylight地图，并将从Skylight合作伙伴（如全球钓鱼观察或TMT ）提取的任何船只元数据归因于。 向Shippy提出的一个问题可以同时连接到多个技能。“在Cordillera de Coiba MPA附近是否有船舶运营？”借鉴了Skylight的数据查询技能，我们的合作伙伴ProtectedSeas的MPA边界上下文数据库以及解释船舶行为的船舶跟踪技能。所有这一切都发生在一个对话回合中。灵...",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 74
+      "score": 64
     },
     {
       "title": "模型路由很简单。直到它不是。",
@@ -576,7 +533,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "思考机器的欢迎墨迹",
@@ -591,7 +548,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "推出Real World VoiceEQ ：衡量语音AI的人类质量",
@@ -606,7 +563,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "PyTorch中的分析（第3部分） ：注意力就是你的分析",
@@ -616,36 +573,6 @@
       "date": "2026-07-10T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“PyTorch中的分析（第3部分） ：注意力就是你的分析”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "原生速度vLLM变压器建模后端",
-      "originalTitle": "Native-speed vLLM transformers modeling backend",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-      "date": "2026-07-08T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
-    },
-    {
-      "title": "一键从Hugging Face到Amazon SageMaker Studio",
-      "originalTitle": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
-      "date": "2026-07-07T21:15:33.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
