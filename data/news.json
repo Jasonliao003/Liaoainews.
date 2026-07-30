@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T00:02:30.019Z",
+  "updatedAt": "2026-07-30T00:04:04.381Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,88 @@
   ],
   "articles": [
     {
+      "title": "微软从Anthropic投资中获得了32 $ B ，但OpenAI是一个混合袋",
+      "originalTitle": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
+      "date": "2026-07-29T22:46:03.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "当微软报告其2026财年第四季度（截至6月30日）的杀手级收益时，它隐藏了一个有趣的小窍门，即它对两个最大的、相互竞争的人工智能实验室的投资是如何进行的。",
+      "originalSummary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "启用两个设置如何使我们在ARC-AGI-3基准测试中的分数增加两倍",
+      "originalTitle": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "date": "2026-07-29T15:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "两个API设置如何提高ARC-AGI-3上的GPT-5. 6性能，通过保留推理和启用压缩来提高分数和效率。",
+      "originalSummary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的流氓AI特工没有停止黑客Hugging Face",
+      "originalTitle": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+      "date": "2026-07-29T11:54:29.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI周二透露，逃离OpenAI并入侵开发者平台Hugging Face的AI代理也攻击了其他公司。此次更新大大扩大了已经令人担忧的事件的范围，该事件令业内人士感到震惊，并引发了越来越多的呼吁，要求对前沿人工智能系统进行更强有力的监督。 在一篇详细介绍其正在进行的事件调查的博客文章的更新中， OpenAI表示，任性的AI代理人攻击了几项“公开可用的服务” ，以达到拥抱面孔。“这包括四个服务的四个帐户，”该公司表示，并补充说，代理已经找到了登录凭据......请阅读The Verge的完整故事。",
+      "originalSummary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog [&#8230;]",
+      "rawFullText": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog post detailing its ongoing investigation into the incident, OpenAI said the wayward AI agent attacked several \"publicly-available services\" in its efforts to reach Hugging Face. \"This includes four accounts on four services,\" the company said, adding that the agent had found login credentials o … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们没有理由忽视人工智能的安全",
+      "originalTitle": "We’re running out of reasons to ignore AI safety",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "date": "2026-07-29T11:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
+      "fullContent": "本月早些时候， OpenAI给了其几个人工智能模型一项任务：完成一项旨在衡量其网络安全能力的测试。它将系统放置在没有互联网连接的沙盒环境中，并启动它们的工作。接下来发生的事情几乎是可笑的愚蠢-但正如人工智能安全组织的联合创始人兼首席执行官亚当·格里夫（ Adam Gleave ）所说的那样。人工智能，把它， “一个直观的例子，说明人工智能的错位如何造成伤害。 “根据OpenAI的说法，这些模特逃脱了用来容纳它们的沙箱，穿过公司的内部系统，找到了通往互联网的路线，然后开始寻找进入Hugging Face的途径。为什么是……在The Verge阅读完整故事。",
+      "originalSummary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO [&#8230;]",
+      "rawFullText": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO of AI safety organization FAR.AI, put it, \"a visceral example of how misaligned AI could cause harm.\" According to OpenAI, the models escaped the sandbox meant to contain them, moved through the company's internal systems, found a route to the internet, and then started looking for a way into Hugging Face. And why was … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "使用ChatGPT为学术研究人员加速科学发现",
+      "originalTitle": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "date": "2026-07-29T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI将为10万名学术研究人员免费提供ChatGPT最先进的人工智能模型，以加速科学研究、协作和发现。",
+      "originalSummary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
       "title": "Perplexity的个人电脑将Windows PC变成AI代理",
       "originalTitle": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
       "source": "The Verge AI",
@@ -35,40 +117,6 @@
       "score": 99
     },
     {
-      "title": "DeepLens诊断代理：代理工作流设计让小型推理模型与Frontier LLM竞争",
-      "originalTitle": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.22555",
-      "date": "2026-07-28T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 22555v1公告类型：新摘要：医学诊断是一个多阶段的过程：提取事实、咨询知识、生成微分分析，并通过解释选择最佳诊断。前沿LLM是强大的通才，但单次提示往往会产生脆弱的诊断推理。 我们展示了DeepLens Diagnosis Agent ，这是一个以小型医学推理模型（ JSL Medical Small 7B v2 ）和检索增强生成（ RAG ）为中心的五阶段利用管道（将模型功能与严格的过程约束相结合）。该管道执行结构化临床提取、纪律检索、受限制的候选人生成、明确的证据三角测量和可审计的最终决定。 在915例DiagnosisArena基准测试中，该药剂实现了60. 14%的TOP-1诊断准确率，在中小型模型中最高。尽管标准医学基准为88. 2% ，但没有代理工作流的同一模型实现了23. 99% ，仅从工作流设计中获得了+36分的收益，这表明在不确定性下的诊断推理需要的不仅仅是知识召回。代理费用为0美元。 每箱0072 （ A100为24K代币） ，延迟24秒，比Claude Sonnet 4. 5 （ 0. 0110美元）和Gemini 3. 1 Pro （ 0. 0128美元）便宜35-45 ％ ，同时表现优于它们+9. 70pp和+9. 17pp。利用还可以纠正前沿模型故障；工作流程约束可能超过参数计数或API成本。除了聚合精度之外，管道还会产生结构化的中间工件，使每个阶段都可检查并支持错误定位。 这些属性支持高风险设置，在这些设置中，可追溯性、可重复性和可审计证据与基准性能同等重要。",
-      "originalSummary": "arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagnostic reasoning. We present the DeepLens Diagnosis Agent, a five-stage harnessing pipeline (combining model capabilities with disciplined process constraints) centered on a small medical reasoning model (JSL Medical Small 7B v2) and retrieval-augmented generation (RAG). The pipeline enforces structured clinical extraction, disciplined retrieval, constrained candidate generation, explicit evidence triangulation, and an auditable final decision. On the 915-case DiagnosisArena benchmark, the agent achieved 60.14% top-1 diagnostic accuracy, the highest among small and medium-sized models. The same model without the agent workflow achieved 23.99%, a +36-point gain from workflow design alone, despite 88.2% on standard medical benchmarks, showing that diagnostic reasoning under uncertainty requires more than knowledge recall. The agent costs USD 0.0072 per case (24K tokens on A100) with 24-second latency, 35-45% cheaper than Claude Sonnet 4.5 (USD 0.0110) and Gemini 3.1 Pro (USD 0.0128) while outperforming them by +9.70pp and +9.17pp. Harnessing can also correct frontier model failures; workflow constraints can outweigh parameter count or API cost. Beyond aggregate accuracy, the pipeline produces structured intermediate artifacts that make each stage inspectable and support error localization. These properties support high-stakes settings where traceability, reproducibility, and auditable evidence matter alongside benchmark performance.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
-      "title": "SF-AMS ： LLM代理中结构化内存的战略遗忘",
-      "originalTitle": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.22562",
-      "date": "2026-07-28T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2607. 22562v1公告类型：新摘要：管理长上下文依赖仍然是LLM代理的主要瓶颈，因为冗余和不相关的信息会降低多步骤推理的质量。代理记忆系统的战略遗忘（ SF-AMS ）被提出作为通过模拟记忆单元的长期重要性来维护紧凑型高实用性记忆的框架。 SF-AMS将静态检索和启发式衰减替换为公用事业驱动的生存机制，该机制从使用冗余和时间信号中更新内存重要性，从而引入分层内存结构，该结构在过滤噪声时优先考虑稳定的实体一致性信息。最重要的是，复合重要性评分集成了语义和实体级别的信号，以提高检索鲁棒性。 在LoCoMo和LongMemEval-s上的实验表明，在包括LightMem MemO和A-Mem在内的强大先进基线上获得了一致的收益。最大的改进出现在Qwen2. 5-7B下的多跳推理中，其中SF-AMS在最强基线上实现了加9. 65 F1 ，其次是GPT-4o-mini加6. 91 F1和开放域任务加6. 53 F1下的时间推理，表现出强大的跨骨干泛化。 这些结果表明，将内存重要性建模为动态效用信号对于可靠的长上下文推理至关重要。",
-      "originalSummary": "arXiv:2607.22562v1 Announce Type: new Abstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory Systems (SF-AMS) is proposed as a framework for maintaining compact high-utility memory by modeling the long-term importance of memory units. SF-AMS replaces static retrieval and heuristic decay with a utility-driven survival mechanism that updates memory importance from usage redundancy and temporal signals, inducing a hierarchical memory structure that prioritizes stable entity-consistent information while filtering noise. On top of this, Composite Importance Scoring integrates semantic and entity level signals to improve retrieval robustness. Experiments on LoCoMo and LongMemEval-s show consistent gains over strong state of the art baselines including LightMem MemO and A-Mem. The largest improvement appears in multi-hop reasoning under Qwen2.5-7B where SF-AMS achieves plus 9.65 F1 over the strongest baseline followed by temporal reasoning under GPT-4o-mini plus 6.91 F1 and open-domain tasks plus 6.53 F1 demonstrating strong cross backbone generalization. These results show that modeling memory importance as a dynamic utility signal is critical for reliable long-context reasoning.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
       "title": "人工智能领导人签署了一份声明，要求政府对自动化人工智能采取行动",
       "originalTitle": "AI leaders sign a statement asking the government to do something about automated AI",
       "source": "The Verge AI",
@@ -81,41 +129,52 @@
       "tags": [
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "MedLoCoMo ：大型语言模型的长语境多会话医学对话基准",
-      "originalTitle": "MedLoCoMo: A Long-Context Multi-Session Medical Dialogue Benchmark for Large Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.22566",
-      "date": "2026-07-28T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv: 2607. 22566v1公告类型：新摘要： MedLoCoMo是针对多次入院医学对话的患者特定临床推理的医学长上下文记忆基准。现有的医疗QA基准在很大程度上测试了短期背景知识或单一文档基础， LLM是否可以在纵向患者病史上使用、连接和弃权。 我们从去识别的MIMIC-IV和MIMIC-IV-Note记录中构建MedLoCoMo ，通过构建入院级别的临床数据包，合成接地的医患对话，并在单次入院、交叉入院和对抗性无法回答的设置中生成证据链接的QA项目。该基准包含100个患者时间线，平均每次会话1,669. 8回合， 29. 7次会话和74,512. 2个令牌。 在评估的基线中，交叉入院推理始终比局部证据使用更难，即使模型具有较长的上下文窗口或使用外部记忆或检索方法。代码和MedLoCoMo基准测试版本可在https://github. com/leozzy13/MedLoCoMo上获得，以便使用和重现。",
-      "originalSummary": "arXiv:2607.22566v1 Announce Type: new Abstract: MedLoCoMo is a Medical Long-Context Memory benchmark for patient-specific clinical reasoning over multi-admission medical dialogue. Existing medical QA benchmarks largely test short context knowledge or single document grounding, leaving open whether LLMs can use, connect, and abstain over longitudinal patient histories. We build MedLoCoMo from deidentified MIMIC-IV and MIMIC-IV-Note records by constructing admission-level clinical packets, synthesizing grounded doctor-patient conversations, and generating evidence linked QA items over single-admission, cross-admission, and adversarial unanswerable settings. The benchmark contains 100 patient timelines averaging 1,669.8 turns, 29.7 sessions, and 74,512.2 tokens per conversation. Across the evaluated baselines, cross-admission reasoning is consistently harder than localized evidence use, even when models have long context windows or use external memory or retrieval methods. The code and MedLoCoMo benchmark release is available at https://github.com/leozzy13/MedLoCoMo for use and reproducibility.",
+      "title": "智能AI时代的科学计算",
+      "originalTitle": "Scientific computing in the age of agentic AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai",
+      "date": "2026-07-28T17:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
+      "fullContent": "一份新的现场报告显示了科学家如何使用人工智能编码代理来实现科学计算的现代化，加速基因组学及其他领域的软件开发和发现。",
+      "originalSummary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "评测",
-        "产品发布"
+        "智能体"
       ],
-      "score": 98
+      "score": 91
     },
     {
-      "title": "英伟达、微软推出开放式人工智能安全联盟—无需OpenAI、谷歌或Anthropic",
-      "originalTitle": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
-      "date": "2026-07-27T12:06:22.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
-      "fullContent": "英伟达周一表示，它正在与微软、SpaceX、IBM和其他科技公司合作，构建和共享开源人工智能安全工具。新的开放安全人工智能联盟表示，需要开放工具来有效防御来自前沿模型的攻击。该计划直接回应了人们对先进人工智能系统安全性的担忧，因为一个流氓OpenAI模型在测试期间逃脱了遏制并攻击了另一家公司。 该公司Hugging Face表示，由于严格的安全护栏限制了美国顶级车型的实用性，它被迫使用中国开放式重量模型来保护自己。创始成员…阅读The Verge的完整故事。",
-      "originalSummary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety [&#8230;]",
-      "rawFullText": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety of advanced AI systems after a rogue OpenAI model escaped containment and attacked another company during testing. That company, Hugging Face, said it was forced to use a Chinese open-weight model to defend itself due to the strict safety guardrails limiting the usefulness of top US models. Founding memb … Read the full story at The Verge.",
+      "title": "三星芯片工人正跃升为SK海力士的竞争对手",
+      "originalTitle": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "date": "2026-07-28T09:18:57.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
+      "fullContent": "三星半导体部门的工程师李在轮班结束时打卡下班。他曾经工作时间更长，为了在项目中脱颖而出而付出了额外的努力。但最近，他直接回家为芯片制造商的韩国竞争对手SK海力士(SK Hynix)处理工作申请，与同事分享如何起草一份出色的个人声明。甚至他的老板也鼓励他采取行动。 Lee说：「我的团队负责人告诉我们大家跳槽到SK海力士。」他和他的同事们对SK海力士将向其员工支付的47.6万美元奖金感到沮丧，这笔奖金充斥着为英伟达人工智能加速器提供动力的高带宽内存（ HBM ）芯片的创纪录利润。这个数字使三星的芯片工人将要接受的东西相形见绌，并引发了一场大逃亡。 随着人工智能热潮的升温，半导体巨头们正在发动一场激烈的人才大战，其中包括华而不实的奖金、激进的招聘，甚至是法庭禁令。谁能赢得这场竞赛，在人工智能热潮的核心主宰下一代HBM芯片。Lee说： “除了我们的两个团队负责人之外，我的整个团队（ 30人）刚刚申请了SK海力士。”他指的是该公司7月份发布的一份工作。 Lee在三星工作了三年，甚至在竞争对手那里申请了一个入门级职位。一位在三星工作了八年的同事申请了同样的工作。他们都被拒绝了。但他们希望在寻找更有经验的工程师时，他们会收到回电。 《麻省理工科技评论》采访过的三星和SK海力士的所有员工都要求只用姓氏或化名来识别，因为他们害怕雇主的报复。三星拒绝置评， SK海力士也没有回应置评请求。经过与工会的长时间谈判，三星在5月份达成了一项支付10美元的协议。 半导体部门每年向员工发放5%的营业利润作为奖金，为期10年，主要是三年以上的公司股票。此前， SK海力士去年同意向员工支付10%的营业利润，相当于今年每名员工476,000 $ ，主要是现金。但在三星，每个部门的奖金都与自己的底线挂钩。 其内存部门的芯片工人也从生产HBM芯片中获得了意外收获，今年每名员工的奖金约为40万美元。但那些像Lee一样在三星代工部门工作的人，他们生产特斯拉和谷歌等公司设计的逻辑芯片，并且一直在亏损，他们将获得大约13.5万美元的奖金。 员工告诉《麻省理工科技评论》，三星表示，它不能给表现不佳的部门发放尽可能多的奖金。Lee在看到工会与公司搏斗了几个月后表示，他对自己最终得到的结果感到失望： “即使三星在未来表现良好，我认为它也不会滴落到我身上。“工人的滞后奖金使SK海力士突然看起来很有吸引力。",
+      "originalSummary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on&#8230;",
+      "rawFullText": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on how to draft a stellar personal statement. Even his boss encourages him to make the move. “My team lead tells us all to jump ship to SK Hynix,” says Lee. He and his coworkers are feeling demoralized by the $476,000 bonus that SK Hynix is set to pay its employees, flush with record profits from making the high-bandwidth memory (HBM) chips that power Nvidia’s AI accelerators. The figure dwarfs what chip workers at Samsung are set to receive and is sparking an exodus. As the AI boom heats up, the semiconductor titans are waging a fierce talent war with flashy bonuses, aggressive recruiting, and even a courtroom injunction. Who wins could tilt the race to dominate the next generation of the HBM chips at the heart of the AI boom. “Except for our two team leads, my entire team [of 30 people] just applied to SK Hynix,” Lee says, referring to a job posting the company published in July. Lee, who has worked at Samsung for three years, even applied for an entry-level position at its rival. A coworker, who has worked at Samsung for eight years, applied for the same one. They both got rejected. But they’re hopeful that they’ll get a callback for a posting seeking a more experienced engineer. All employees at Samsung and SK Hynix that MIT Technology Review spoke with asked to be identified by just their last name or a pseudonym because they feared retaliation from their employer. Samsung declined to comment, and SK Hynix did not respond to requests for comment. After prolonged negotiations with its labor union, Samsung struck a deal in May to pay out 10.5% of the semiconductor division’s operating profits to employees as bonuses annually for 10 years, mostly in company stock that vests over three years. The move came after SK Hynix agreed last year to pay out 10% of operating profits to employees, which translates to $476,000 per employee this year—mostly in cash. &nbsp; But at Samsung, each division’s bonus is tied to its own bottom line. Chip workers in its memory division, which is also reaping a windfall from making HBM chips, are getting paid a bonus of roughly $400,000 per employee this year. But those who, like Lee, work in Samsung’s foundry division, which manufactures logic chips that companies like Tesla and Google design and has been operating at a loss, are getting a bonus of roughly $135,000 .&nbsp; Employees told MIT Technology Review that Samsung said it can’t give as many bonuses to divisions that aren’t performing well. Lee, after watching the labor union wrestle with the company for months, says he has felt disappointed by what he ended up with: “Even if Samsung does well in the future, I don’t think any of it will trickle down to me.”&nbsp; The workers’ lagging bonuses are making SK Hynix suddenly look appealing. According to a survey by the Samsung labor union in June, 81.5% of employees in the company’s foundry division, and nearly half of employees in the semiconductor division as a whole, said they wanted to go to another company in the next two years. In April, Samsung labor union chief Choi Seung-ho said more than 200 members of the union had left for SK Hynix over the past four months. On Blind , an anonymous workplace forum, a chorus of disgruntled engineers at Samsung confess that they want to defect to SK Hynix for the bigger bonuses.&nbsp; For decades, SK Hynix lived in Samsung’s shadow. It was the smaller, scrappier memory maker that elite engineering students at universities looked past when applying for jobs. But in 2019, Samsung downsized its HBM team, betting the market would stay niche, while SK Hynix doubled down on the technology. Then the AI boom supercharged the demand for HBMs, which feed AI chips the enormous amounts of data they need at ultra-high speed, driving prices to unprecedented levels. SK Hynix now leads the global market for HBMs, while Samsung is playing catch-up. Both companies topped $1 trillion in market value in May, and SK Hynix briefly dethroned Samsung as South Korea’s most valuable company in June. Predicting that demand for memory chips will continue to surge , the semiconductor titans are making aggressive investments to expand their business. Last month, the companies unveiled plans to invest more than $2 trillion by 2040, including a semiconductor “mega-cluster” in Yongin, a city south of Seoul. To staff the expansion, SK Hynix added 2,152 employees in the first half of 2026 alone and aims to double its manufacturing capacity in five years. Samsung plans to hire 60,000 employees over the next five years, especially for its semiconductor division. Even so, the pipeline will fall short: South Korea’s semiconductor industry will need about 304,000 workers by 2031 and faces a shortage of roughly 54,000, according to the Korea Semiconductor Industry Association. Now the longtime rivals are showering workers with big bonuses to keep—and poach—talent. “[SK Hynix] seems to target Samsung engineers when hiring because it’s a rival,” says Baek, a manager at SK Hynix. “From what I heard internally, the big performance bonuses we got were aimed at luring away talent from our competitor.” Courts are starting to weigh in. In July, Samsung won an injunction barring two former chip workers from working at SK Hynix for 18 months, on the grounds that chips are a national core technology deserving protection. “With competition in the semiconductor industry fierce, it’s necessary to establish a fair market order,” the court ruled. The talent exodus threatens a crucial advantage that Samsung still holds in the HBM race. “Samsung is the only memory maker in the world that owns a foundry business,” says Park Jun-young, a semiconductor expert at the Industrial Anthropology Laboratory, a research institute, who worked at Samsung for a decade.&nbsp; With the latest generation of the technology, known as HBM4, the logic chip at the base of each memory stack must be manufactured with the kind of advanced process that only foundries run. Samsung can do this in-house, while SK Hynix outsources it to the Taiwanese foundry giant TSMC. “If Samsung keeps losing engineers in the foundry … the collaboration between memory division and foundry division could become difficult,” says Park. “SK Hynix, which used to have only a memory team and is now hiring foundry engineers, could do better research on HBMs.” Choi, an engineer who has worked at Samsung for seven years, says he was once a star on his team, getting glowing performance reviews from his managers. But lately, he and his coworkers have been busy applying for every SK Hynix job posting they see. “We tell each other when the next SK Hynix job posting is up,” he says. “There’s always more work to do beyond our basic duties. But there’s no point in doing it.”",
       "tags": [
-        "公司动态",
-        "算力芯片",
-        "安全"
+        "算力芯片"
       ],
-      "score": 99
+      "score": 81
+    },
+    {
+      "title": "智能戒指看起来像我的人工智能小工具",
+      "originalTitle": "Smart rings are looking like my kind of AI gadget",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "date": "2026-07-28T12:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
+      "fullContent": "在过去的几个月里，我花了很多时间与电脑交谈。LLM革命的一个被低估的特点是各种听写技术的显着飞跃-即使是最快，最便宜的模型也非常擅长理解和处理语音。 我已经测试了很多这样的应用程序，从WisprFlow到Monologue ，从Spokenly到Handy ，以及其他许多应用程序，并发现它们都是快速编写电子邮件、Slack消息等的有用方法。他们有时会默认为所有内容提供过于正式的格式，并喜欢以句点结束短信（如反社会者） ，但他们在这方面做得更好……阅读The Verge的完整故事。",
+      "originalSummary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from [&#8230;]",
+      "rawFullText": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from WisprFlow to Monologue to Spokenly to Handy to so many others, and have found them all to be useful ways to quickly write emails, Slack messages, and more. They sometimes default to giving everything a too-formal style of formatting and love ending a text message with a period (like a sociopath), but they're getting better at th … Read the full story at The Verge.",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
     },
     {
       "title": "人工智能如何扩展人们在工作中的工作",
@@ -134,23 +193,6 @@
       "score": 99
     },
     {
-      "title": "微软推出首个网络安全模型，以及新的代理网络安全系统",
-      "originalTitle": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
-      "date": "2026-07-27T18:32:11.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
-      "fullContent": "微软周一在旧金山的一个小型活动中推出了其首个网络安全专用模型以及一个新的人工智能网络安全平台，对该领域的主要参与者（即Anthropic、Google和OpenAI ）进行了大规模的抨击。该公司将MAI-Cyber-1-Flash描述为“在复杂代码库中发现具有挑战性的漏洞”的模型。 “该模型旨在动画化MDASH ，这是微软专门用于软件漏洞识别和修复的线束。新的安全平台被称为Perception ，旨在部署代理团队，以协助和自动化各种安全工作流程，包括识别和修复漏洞。该平台还可以与MDASH集成。 该公司声称，基于其在已建立的人工智能网络安全基准上的表现， MAI-Cyber-1-Flash比竞争对手的型号强大得多（而且更具成本效益）。DeepMind联合创始人兼微软人工智能现任首席执行官Mustafa Suleyman表示： “我们非常高兴地宣布我们的结果。” “我们在MDASH线束内部将MAI-1 Cyber Flash与GPT 5. 4绑定[原文如此] —击败了Gemini ， GPT 5。 5 Cyber、GPT 5. 6 Sol和Cyber Gym上的Mythos 5 ，这是我们都使用的主要基准。这是黄金基准。”他补充说：“我们将立即将其投入生产。” 微软安全副总裁Hayete Gallot指出，黑客越来越多地在网络攻击中使用人工智能，他将Perception描述为企业防御者“以攻击者的规模和速度防御人工智能”的一种方式。“Perception使用代理红队、蓝队和绿队。 红色团队可以提供潜在攻击的详细模拟—提供有关潜在威胁参与者及其可能利用的可能漏洞的背景信息。蓝色团队致力于检测和分类现有漏洞，而绿色团队则针对这些漏洞采取“纠正措施”。Perception的首席工程师Dave Weston将该平台描述为企业捍卫者的大规模效率升级。 “我们已经从安全组织中多个专业人员（ appec猎人、修复工程师等）耗时数小时的手动工作中解脱出来，在几分钟内，我们就能解决所有这些问题。我们不仅可以发现问题并排定优先级，还可以进行检测、姿势修复，甚至代码修复。 “尽管人工智能为公司提供了新的防御能力，但它对网络犯罪分子的可用性已经引发了一系列令人眼花缭乱的潜在威胁。微软表示将于11月3日预览的新安全工具将进入日益拥挤的人工智能网络安全解决方案领域。",
-      "originalSummary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布",
-        "模型"
-      ],
-      "score": 96
-    },
-    {
       "title": "通往人工超级智能的道路",
       "originalTitle": "The path to artificial superintelligence",
       "source": "MIT Technology Review",
@@ -163,7 +205,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -179,54 +221,38 @@
         "机器人",
         "算力芯片"
       ],
-      "score": 92
+      "score": 91
     },
     {
-      "title": "Anthropic以“接近”寓言5的能力发布作品5",
-      "originalTitle": "Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
-      "date": "2026-07-24T17:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "在Anthropic与美国政府最新合作几周后，以及在主导科技行业讨论的OpenAI安全事件发生几天后， Anthropic周四发布了其最新车型Claude Opus 5。该公司在一份新闻稿中表示， Opus 5 “在许多领域接近Claude Fable 5的功能” ，并且在复杂的编码任务方面要好得多。 （寓言5是面向公众的神话类模型，引起了政府的愤怒，与神话5一起下线了几周，然后带回了比以前更强大的网络安全措施。）《寓言5》令人担忧--以及随后几周的谈判……阅读The Verge的完整故事。",
-      "originalSummary": "Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. The company said in a release that Opus 5 \"comes close to the capabilities of Claude Fable 5 in many domains\" and is much [&#8230;]",
-      "rawFullText": "Weeks after Anthropic's latest toe-to-toe with the US government, and days after an OpenAI security incident that dominated tech industry discussions, Anthropic on Thursday released its newest model, Claude Opus 5. The company said in a release that Opus 5 \"comes close to the capabilities of Claude Fable 5 in many domains\" and is much better at complex coding tasks. (Fable 5 is the public-facing Mythos-class model that drew the government's ire, was taken offline for a few weeks along with Mythos 5, and then brought back with even stronger cyber safeguards than before.) The Fable 5 concerns - and the ensuing weeks of negotiations between … Read the full story at The Verge.",
+      "title": "OpenAI称拥抱面部攻击是前所未有的。但我们以前来过这里。",
+      "originalTitle": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "date": "2026-07-27T18:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、模型相关动态",
+      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。上周阅读OpenAI关于其一些模型如何破坏其遏制并入侵另一家人工智能公司Hugging Face的计算机系统的帐户，这是我第一次真正对大型语言模型现在能够做的事情感到不寒而栗。但这是人类傲慢的例子，而不是流氓人工智能。 我不是一个危言耸听的人。事实上，多年来我一直在反对人工智能恐吓故事。即便如此，这件事还是越界了。我认为这是构建和测试这项技术的人如何不完全理解他们在做什么的最清晰的例证。OpenAI可以而且应该已经预见到了这一点。以下是发生的事情，至少根据所涉及的两家公司的说法。 几周前， OpenAI开始测试其一些新型号的黑客能力，包括GPT-5. 6 Sol （ 6月发布）以及OpenAI所描述的“更强大的预发布模型”。OpenAI将其模型与5月份发布的名为ExploitGym的基准进行了对比，该基准挑战LLM寻找利用广泛使用的软件中发现的数百个真实世界漏洞的方法，包括支撑网络的关键代码。 为了了解他们能做些什么，研究人员移除了大部分网络安全护栏。然后，他们在一个从互联网上切断的沙箱中运行模型，除了一个指向第三方软件的链接，该软件充当对外界的代理，以便模型可以安装击败ExploitGym所需的代码。7月9日，据路透社报道， OpenAI的模型开始试图突破代理。 他们在代理的软件中发现了一个未知的错误，并用它来访问互联网。从那里，他们于7月11日闯入Hugging Face的计算机系统，显然是在寻找数据集和解决方案，以帮助他们完成正在测试的任务。Hugging Face于7月16日宣布了黑客攻击。 OpenAI直到7月21日才意识到（或至少没有透露）其模型参与其中，大约10天后他们打破了遏制，一周后拥抱脸关闭了攻击并警告联邦调查局。在给《麻省理工学院技术评论》的一份声明中， OpenAI表示： “我们正在与外部顾问一起进行彻底的审查，并接受我们的安全和安保委员会的监督。 审核完成后，我们将为所有人发布一份学到的技术报告。“该公司还证实，其研究人员当时正确使用了现有的安全指南和程序。唤醒电话OpenAI表示，此次活动是前所未有的，而且在许多方面都是如此。 这是LLM第一次在模拟之外逃脱被认为是安全的沙箱，访问开放的互联网，并攻击另一个组织。这是一个警钟，表明最新的LLM在很少或根本没有人工指导的情况下，在寻找和利用现实世界软件中的漏洞方面有多么出色。然而，与此同时， OpenAI的模型所做的是这项技术多年来所做的事情。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face , another AI company, was the first time I got genuine chills about what large language models are now able to do. But this is a case of human hubris, not rogue AI. I am not an alarmist. In fact, I have been pushing back against AI scare stories for years. Even so, this incident crossed a line. I think it’s the clearest illustration yet of how the people building and testing this technology do not fully understand what they’re doing. OpenAI could—and should—have seen this coming. Here’s what happened, at least according to the two companies involved. A couple of weeks ago, OpenAI started testing the hacking abilities of some of its new models, including GPT‑5.6 Sol (released in June) and what OpenAI describes as “an even more capable pre-release model.” OpenAI pitted its models against a benchmark called ExploitGym , released in May, which challenges LLMs to find ways to exploit hundreds of real-world vulnerabilities found in widely used software, including crucial code that underpins the web. To see what they could do, the researchers removed most of their cybersecurity guardrails. Then they ran the models inside a sandbox that was cut off from the internet except for one link to a third-party piece of software that acted as a proxy to the outside world, so that the models could install code they needed to beat ExploitGym. On July 9, according to reporting by Reuters , OpenAI’s models started trying to break through the proxy. They found an unknown bug in the proxy’s software and used it to access the internet. From there, they broke into Hugging Face’s computer systems on July 11, apparently looking for data sets and solutions that would help them complete the tasks they were being tested on. Hugging Face announced the hack on July 16. OpenAI did not realize (or at least did not reveal) that its models were involved until July 21, around 10 days after they broke containment and a week after Hugging Face had shut down the attack and alerted the FBI. In a statement given to MIT Technology Review , OpenAI says: “We are conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. Once the review is complete, we will publish a technical report of our learnings for everyone.” The firm also confirmed that its researchers were properly using existing safety guidelines and procedures at the time. Wake-up call OpenAI has said the event was unprecedented—and in many ways it was. This was the first time outside of a simulation that LLMs escaped what was thought to be a secure sandbox, accessed the open internet, and attacked another organization. It’s a wake-up call that shows just how good the latest LLMs are at finding and exploiting vulnerabilities in real-world software with little or no human guidance. And yet at the same time, what OpenAI’s models did is something this technology has done for years. Give a model a goal and it will very often achieve that goal in unexpected ways, finding loopholes that look like cheats. OpenAI itself has studied this behavior. A decade ago, it shared results of an experiment in which a model was tasked with beating a video game called CoastRunners . Human players take it for granted that the way to do this is by racing a boat through a series of flags to the finish line, racking up points for each flag you hit. OpenAI’s model figured out that you could get a high score by spinning in a circle and hitting the same three flags over and over again. There have been dozens of similar examples from researchers since. AI will always find a way. “Despite repeatedly catching on fire, crashing into other boats, and going the wrong way on the track, our agent manages to achieve a higher score using this strategy than is possible by completing the course in the normal way,” OpenAI wrote in a blog post about the CoastRunners experiment in 2016. “While harmless and amusing in the context of a video game, this kind of behavior points to a more general issue … it is often difficult or infeasible to capture exactly what we want an agent to do.” I couldn’t help thinking about CoastRunners when I read OpenAI’s blog post about the Hugging Face attack: “All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal … After gaining internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation.” Last week’s news was not about rogue AI, despite the headlines. It was about models achieving the goal they had been given: Find ways to exploit vulnerabilities in software. The fact that those models then behaved in a way OpenAI had not anticipated isn’t surprising. But it is worrying. Back in 2016, OpenAI had this to say about its CoastRunners bot: “More broadly it contravenes the basic engineering principle that systems should be reliable and predictable.” A decade on, those basic engineering principles are still AWOL.&nbsp;&nbsp;",
       "tags": [
-        "大模型",
         "公司动态",
-        "产品发布"
+        "模型"
       ],
-      "score": 99
+      "score": 90
     },
     {
-      "title": "Midjourney购买了占星应用Co-Star",
-      "originalTitle": "Midjourney bought the astrology app Co-Star",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition",
-      "date": "2026-07-24T19:06:58.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "从生成AI CAT图像到全身超声扫描的Midjourney正在进入一个新领域：占星术。这家AI初创公司周四宣布，它已经收购了彭博社早些时候报道的个性化占星应用Co-Star。Co-Star是一款免费的应用程序，提供每日星座运势，让您检查自己与朋友的兼容性。 正如该应用程序的常见问题页面上所指出的那样，它结合了人类的见解、NASA的数据和人工智能，每天为用户提供个性化的建议。据报道， Midjourney的交易条款在春季完成，但尚未披露。Midjourney创始人David Holz表示，联合明星创始人Banu……在The Verge阅读完整故事。",
-      "originalSummary": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans, is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg. Co-Star is a free app that offers daily horoscopes and allows you to check your [&#8230;]",
-      "rawFullText": "Midjourney, which has gone from generating AI cat images to full-body ultrasound scans , is getting into a new field: astrology. The AI startup announced on Thursday that it has acquired the personalized astrology app Co-Star, as reported earlier by Bloomberg . Co-Star is a free app that offers daily horoscopes and allows you to check your compatibility with friends. As noted on the app's FAQ page , it combines human insight, data from NASA, and AI to deliver personalized advice for users each day. The terms of Midjourney's deal, which reportedly closed in spring, haven't been disclosed. Midjourney founder David Holz says Co-Star founder Banu … Read the full story at The Verge.",
+      "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
+      "originalTitle": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "date": "2026-07-27T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "TL; DR初始访问阶段1 ：从OpenAI评估沙箱到根深蒂固的发射台阶段2 ：使用两个注射向量将拥抱面部基础设施渗透到我们的数据集处理器中杀伤链日复一日第1天（ 07-09 ） ：立足点和C2第2天（ 07-10 ） ：自我引用搜索第3天（ 07-11 ） ：横向移动开始第4天（ 07-12 ） ：使用被盗凭据第5天（ 07-13 ） ：排空、持久性、清理三种横向移动技术1. 节点模拟和CSI令牌盗窃（从prod-pod立足点） 2.伪造的身份代币（来自prod-pod立足点） 3.供应链写入访问命令-控制和泄露构建即兴消息协议规避和自我迁移我们如何拦截和分析攻击我们改变了什么反思：不对称问题我们事件披露的配套技术文章。 这篇文章介绍了入侵的实际工作原理：两个初始访问向量、代理如何转向和横向移动、运行的命令的代表性示例以及我们如何使用GLM 5. 2 （开源模型）进行调查。实时凭据、内部主机名和特定指标已被编辑或通用化，而这些技术的描述与Hugging Face完全相同。 我们发布这一级别的细节是因为该技术比事件更重要，因为它揭示了边境特工的新攻击能力，他们如何被流氓行为者使用，以及每个人应该如何做好防御者的准备。以下是入侵的交互式重播- 4. 5天活动的逐步可视化：跨信任边界的攻击链、阶段活动和记录的命令。 在我们的基础设施内大约两天半的时间里，由OpenAI模型组合驱动的自主AI代理对我们的平台进行了端到端入侵：这是成千上万的小型自动化决策，在短暂的沙箱环境中以机器速度执行，并在普通的公共Web服务上进行命令和控制。 该代理正在运行名为ExploitGym的OpenAI网络能力评估线束，这是一个评估基准，任务是AI代理查找和利用软件漏洞。据我们推断，在根据该基准进行评估的过程中，代理推断Hugging Face可能托管该基准的模型、数据集和参考解决方案。 我们认为，从代理的角度来看，整个入侵都是企图欺骗评估：进入我们的生产系统并窃取测试解决方案，而不是自己解决挑战。我们的法医重建涵盖了我们能够在2026-07-09 02:28 UTC和2026-07-13 14:14 UTC之间恢复的约17,600个攻击者行动，分组为约6,280个集群。 我们从代理使用的代码沙箱上的代理日志中重建了这些操作（见下文） ，并能够将它们映射到shell命令以及评估提交，并将操作与我们自己的平台日志相关联，特别是来自数据集处理器节点、API和pod。使用开放权重模型，特别是zai-org/GLM-5。2 ，我们能够破译通过分块和密钥加密加密的大多数代理有效负载（见下文）。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "智能体"
       ],
-      "score": 71
-    },
-    {
-      "title": "您不能再忽略Google Zero了",
-      "originalTitle": "You can’t ignore Google Zero anymore",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-      "date": "2026-07-24T17:29:48.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "网络和谷歌曾经有一笔交易：谷歌收集数据和索引网页，并作为交换向网站发送大量流量。这笔交易并不完美，谷歌赚的钱肯定比网站赚的钱还多，但它在很长一段时间内都奏效了。然而，现在这笔交易似乎已经死了。网络被迫考虑当谷歌流量枯竭时会发生什么。 在The Vergecast的这一集中， David和Nilay谈到了本周的Google Zero新闻，包括Reddit对退出人工智能培训交易的兴趣，以及出版商考虑阻止Google完全抓取他们的网站。（ Nilay也需要一点时间……在The Verge阅读完整的故事。",
-      "originalSummary": "The web and Google once had a deal: Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead. And the [&#8230;]",
-      "rawFullText": "The web and Google once had a deal : Google collects data and indexes webpages and in exchange sends oceans of traffic to websites. The deal wasn't perfect and certainly made Google more money than it made the websites, but it worked for a long time. Now, however, the deal seems to be dead . And the web is being forced to reckon with what happens when the Google traffic dries up. On this episode of The Vergecast , David and Nilay talk about the week's Google Zero news, including Reddit's interest in getting out of an AI training deal , and the publishers considering blocking Google from crawling their sites altogether. (Nilay also takes a bit o … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
+      "score": 83
     },
     {
       "title": "在ChatGPT中启动Health",
@@ -242,7 +268,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "将Nunchaku 4位扩散推理带给扩散器",
@@ -257,7 +283,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "人工智能如何帮助科学家设计下一代药物",
@@ -272,7 +298,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "OpenAI Presence简介",
@@ -303,7 +329,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "新闻机构如何利用人工智能推进其重要使命",
@@ -318,7 +344,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "推进国家科学新时代",
@@ -333,7 +359,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "NTT DATA Group通过Codex将事件分析时间缩短至30分钟",
@@ -348,7 +374,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "推出面向小型企业的ChatGPT计划",
@@ -368,37 +394,6 @@
       "score": 99
     },
     {
-      "title": "OpenAI和Hugging Face合作伙伴在模型评估过程中解决安全事件",
-      "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "date": "2026-07-21T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI和Hugging Face在人工智能模型评估期间分享了安全事故的早期发现，突出了先进的网络能力和防御者的经验教训。",
-      "originalSummary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 93
-    },
-    {
-      "title": "David Vélez和Robin Vince加入OpenAI基金会和OpenAI集团PBC的董事会",
-      "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "date": "2026-07-21T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“David Vélez和Robin Vince加入OpenAI基金会和OpenAI集团PBC的董事会”。它主要涉及公司动态方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
       "title": "Grabette ：用于记录机器人操作数据的开放系统",
       "originalTitle": "Grabette: an open system to record robot-manipulation data",
       "source": "Hugging Face",
@@ -411,7 +406,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "通过材料科学创新推进下一代人工智能",
@@ -426,24 +421,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
-    },
-    {
-      "title": "长视野车型时代的安全性和对齐性",
-      "originalTitle": "Safety and alignment in an era of long-horizon models",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "date": "2026-07-20T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI分享了部署长期运行的人工智能模型的经验教训，突出了新的安全风险、观察到的故障以及通过迭代部署改进的保护措施。",
-      "originalSummary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全",
-        "模型"
-      ],
-      "score": 99
+      "score": 67
     },
     {
       "title": "中国的人工智能模型让特朗普的人工智能世界处于战争状态",
@@ -458,7 +436,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能比人类更有可能在招聘时形成偏见",
@@ -473,22 +451,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "天气数据被破坏的风险正在上升",
-      "originalTitle": "The risk of weather data sabotage is rising",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-      "date": "2026-07-17T08:57:32.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "每天早上，世界各地的航空公司调度员、电网运营商和农民都会根据同样的事情做出决策：天气预报。虽然这些预测是大多数人只看两秒钟的东西，但天气预报会影响许多行业的重大战略决策，涉及真实资金、生计甚至实际生活。 农民使用它们来决定播种哪种作物品种、何时施肥、在灌溉基础设施上投资多少以及牲畜应该放牧多长时间。公用事业公司使用它们来决定在哪里建造太阳能和风力发电场，以及如何为批发电力定价。预测用于警告人们极端天气并触发应急响应措施。 最近，天气预报变得与一个新兴行业相关：预测市场，人们把钱押在各种真实世界的事件上，包括天气。然而，操纵天气数据以在这些市场中占据优势的诱惑，加上向数据驱动的人工智能天气预报的集体举措，开始使天气预报的准确性面临风险。 这些风险目前相对可控，但作为该领域的专家，我们可以预见到他们滚雪球进入更大、更系统性问题的场景。为了进行天气预报，我们需要对当前状况进行准确的观测。这些数据来自多个来源，包括机场气象站、公用事业或运输服务。 传统的操作系统，如天气研究和预报模型或欧洲中期天气预报中心（ ECMWF ）综合预报系统将这些观测与数值近似相结合，以估计未来的天气模式。有时候，气象站会因为仪器故障或设备升级而出现问题。 这些可以实时捕获（通过检查和纠正）或追溯捕获。传统的预测系统还有一个内置的保护措施，称为数据同化：每个传入的测量都与物理模型所说的应该发生的事情以及附近站点的读数进行权衡。总之，这些机制有助于保持天气观测的可靠性和预测的可靠性。 然而，新的威胁正在使观测的准确性面临风险。今年早些时候，新闻媒体报道称，巴黎戴高乐机场（ CDG ）的气象站已被操纵，以记录2026年4月6日和4月15日的可疑温度峰值。当局推测，手持吹风机或打火机可能会发挥作用。无论哪种方式，它都为在线预测市场赌徒带来了一些巨额回报，他们打赌它将达到22°C （ 71。 6°F ） ，实际平均温度约为18°C （ 64.4°F ）。一个人赢了$ 20,000。幸运的是，像这样篡改单个站点通常可以通过人工监控或当前的统计方法来捕获。在这种情况下，法国非营利性气候协会的成员偶然发现了这些异常现象，并发出了警报。但是，如果没有人类监测系统呢？那么其他类型的操纵呢？",
-      "originalSummary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, with real money, livelihoods, and even actual lives at stake. Farmers use&#8230;",
-      "rawFullText": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, with real money, livelihoods, and even actual lives at stake. Farmers use them to determine which crop variety to sow, when to fertilize, how much to invest in irrigation infrastructure, and how long livestock should graze. Utilities use them to decide where to build solar and wind farms, as well as how to price wholesale electricity. Predictions are used to warn people about extreme weather and to trigger emergency response measures. More recently, weather predictions have become relevant for an emerging industry: prediction markets , where people bet money on all kinds of real-world events, including the weather. However, the temptation to manipulate weather data to get an edge in these markets, combined with a collective move toward data-driven AI weather forecasting, is starting to put the accuracy of weather predictions at risk. These risks are relatively manageable for now, but as experts in the field, we can foresee scenarios where they snowball into far bigger, more systemic problems.&nbsp; To develop weather predictions, we need accurate observations of current conditions. These are collected from several sources, including weather stations at airports, utilities, or transport services . Traditional operational systems like the Weather Research and Forecasting model or the European Centre for Medium-Range Weather Forecast (ECMWF) Integrated Forecasting System combine these observations with numerical approximations in order to estimate future weather patterns.&nbsp; Sometimes, weather stations have issues because of, for example, instrument failures or upgrades in equipment. These can be caught either in real time (through checking and correction ) or retroactively. Traditional forecasting systems also have a built-in safeguard called data assimilation: Every incoming measurement is weighed against what the physical model says should be happening and against readings from nearby stations. Together, these mechanisms help keep weather observations reliable and predictions robust. However, new threats are putting observational accuracy at risk. Earlier this year, news outlets reported that the weather station at Paris Charles de Gaulle Airport (CDG) had been manipulated to record suspicious temperature spikes on April 6 and April 15, 2026. Authorities speculate that a hand-held hairdryer or lighter might have come into play. Either way, it led to some big payouts for online prediction-market gamblers who had bet it would hit 22 °C (71.6 °F) on days when the actual average was around 18°C (64.4°F). One individual won $20,000.&nbsp;&nbsp; Fortunately, tampering with a single station like this can usually be caught by human monitoring or current statistical methods. In this case, members of a French climate nonprofit association noticed the anomalies by chance and raised the alarm. But what if there are no human monitoring systems in place? And what about other types of manipulation? What if, instead of tampering with one station, someone remotely nudged the readings at many stations at once—making each change small enough to look plausible on its own? Existing quality controls struggle to catch this kind of coordinated manipulation. And time works against us; careful checks of data and metadata take hours or days, but forecasts have to go out on schedule, whatever the weather is doing. The shift toward artificial intelligence in weather prediction raises the stakes. These methods are even more dependent on accurate, reliable weather observations; in fact, they are known as “data-driven models.” For example, researchers at ECMWF are exploring whether high-quality weather forecasts can be produced directly from raw observations, skipping the assimilation step that currently acts as a quality filter. Other researchers are going one step further; combining geospatial data (including weather station data) with large language models and agentic AI to support real-time, autonomous decision-making during extreme events such as storms.&nbsp; Possible benefits are improvements in accuracy, efficiency, and speed . But removing humans from the equation introduces a vast range of new risks. At the low end of the risk scale, an individual speculator manipulates a weather station for personal gain—that is the CDG Airport case. One step up: A group of traders could coordinate to bias forecasts of renewable energy output, moving wholesale electricity prices and leaving whoever is on the other side of the trade holding the loss. And at the far end, a state actor or saboteur could manipulate one or many stations to set off an early warning system or even keep one silent when it should sound. Step by step, the risk grows, from fraud to compromised disaster preparedness to a matter of national security.&nbsp;&nbsp; As long as there are financial (or other) incentives to manipulate observational data, adversaries will search for new opportunities, and it is our task to stay one step ahead. Here are three ways. 1. Watch the stations. Data quality controls should include station security, anomaly detection and correction, and human oversight. Weather stations should be monitored continuously to deter tampering. Data homogenization methods that clean up weather records also need to get faster, with the goal of catching problems in real time. This will become increasingly important as agentic AI systems use these data to deliver real-time decisions. Finally, human oversight is needed to flag questionable data and model outcomes. After all, it was humans who caught the CDG Airport manipulation. 2. Protect the data to safeguard the AI. Data defense mechanisms must be positioned throughout the AI pipeline. AI explainability and adversarial robustness tools can help us understand the underlying data and the AI model outputs, help us identify data- or model-related issues, and potentially&nbsp; make us more resilient to adversarial attacks.&nbsp; 3. Ensure continuous accountability along the chain. Observational data passes through many hands: the operators who run the stations, the national weather services that steward the records, and the forecasting centers that turn them into predictions. No single one of them can protect data integrity alone—each guards its own link, and any anomaly needs to be communicated along the whole chain, from station operators to the people acting on the forecast. It is fortunate that the situation at CDG Airport was caught, but it should serve as a wake-up call. As the role of observational data grows in weather forecasting, we need to adapt to evolving threats. This means protecting our data and models by strengthening existing oversight and accountability structures, and improving coordination among key partners. This op-ed was written by: Monique Kuglitsch — Innovation Manager at Fraunhofer Heinrich Hertz Institute and Chair of the UN Global Initiative on Resilience to Natural Hazards through AI Solutions Jesper Dramsch — Scientist for Machine Learning at the European Centre for Medium-Range Weather Forecasts (ECMWF), where they work on AIFS (Artificial Intelligence Forecasting System), ECMWF&#8217;s data-driven weather prediction model Franz G. Kuglitsch — Climate Scientist and Executive Secretary of the International Union of Geodesy and Geophysics (IUGG) at the GFZ Helmholtz Centre for Geosciences in Potsdam Andrea Toreti — Senior Scientist at the European Commission&#8217;s Joint Research Centre (JRC), where he coordinates the European and Global Drought Observatory under the Copernicus Emergency Management Service",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
+      "score": 66
     },
     {
       "title": "新型号，同等优势",
@@ -503,7 +466,7 @@
       "tags": [
         "模型"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "安全事件披露— 2026年7月",
@@ -518,7 +481,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "模型路由很简单。直到它不是。",
@@ -533,7 +496,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "思考机器的欢迎墨迹",
