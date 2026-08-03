@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T00:01:36.686Z",
+  "updatedAt": "2026-08-03T00:02:28.527Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,51 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "付钱给艺术家是否足以说服他们接受人工智能？",
+      "originalTitle": "Is paying artists enough to convince them to embrace AI?",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "date": "2026-08-02T13:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
+      "fullContent": "插画家花了数年时间来警告生成式人工智能初创公司在未经许可的情况下根据艺术家的作品来训练他们的模型。他们指出这种做法等同于盗窃，作为回应，许多人工智能推动者认为，这对于技术的发展是必要的。 这导致了有争议的法律纠纷，但也引发了像Pippa这样的人工智能初创公司的新浪潮，他们将自己的服务推销为比竞争对手更合乎道德。像大多数销售文本到视频模型的公司一样， Pippa的主要产品是用户生成的短片，可以拼凑成鹅卵石……阅读The Verge的完整故事。",
+      "originalSummary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's [&#8230;]",
+      "rawFullText": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles , but it's also given rise to a new wave of AI startups like Pippa that market their services as being more ethical than the competition. Like most companies selling access to text-to-video models, Pippa's main product is short bursts of user-generated footage that can be cobbled toget … Read the full story at The Verge.",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
+    },
+    {
+      "title": "山姆·奥尔特曼和人工智能的decel辩论",
+      "originalTitle": "Sam Altman and AI’s decel debate",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "date": "2026-08-02T20:54:22.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）最近表示，现在可能是“加快人工智能发展速度”的时候了，这样社会就可以“强化其中一些新的能力水平”。在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我讨论了Altman的评论可能是由于最近的一次黑客攻击，其中OpenAI代理人入侵了Hugging Face的系统。 Sean指出，虽然人工智能代理执行的黑客攻击是新颖的，但黑客攻击本身并不是“一些新的高级功能。“这更像是尼克松的人闯入水门事件，而不是一些真正的隐形网络行动，因为它不需要，也没有被指示， ”肖恩说。“希望这是一个迹象，表明这些公司将向前推进，并对这些事情更加小心。 奥尔特曼的评论也让我有机会怀疑整个加速主义与减速辩论的有用性，因为（是的，我要引用我自己）框架“有点暗示只有一条路径”和“我们所能决定的—只要我们能够做出决定—就是，我们是加速还是减速？“请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 肖恩·奥凯恩：也许我们终于到了一个转折点。我认为这必须是我们上周讨论的一个主要驱动因素， OpenAI的一个模型闯入了Hugging Face的数据，显然也闯入了互联网上的其他一些东西。[Altman]没有要求暂停，就像我们过去看到科技行业的一些人试图这样做一样。他非常小心地说： “慢慢来。 “我们会看看这是怎么回事。当激励措施推动他们全速前进时，我们看到其中一些实验室放弃的任何谨慎往往会被逆转。所以我仍然持怀疑态度，大吃一惊。Kirsten Korosec ：现在我要说— [Altman]可能对他的话很谨慎，但OpenAI和Anthropic确实[支持]了一份反映他所谈论的内容的请愿书。 我同意你的看法，我认为这很大程度上是由拥抱脸引发的。这可能吓坏了他，当然也吓坏了很多业内人士。这里最难的是：你如何穿针，或者OpenAI如何穿针，以继续创造收入、筹集资金或成功进行首次公开募股，并引用“PACE发展”。“我不知道他们是否能做到这一点。我很想知道他们是否能做到这两点。 Anthony Ha ：我一直在努力解决的一个问题是：加速[与]减速是否是思考这个问题的正确框架？因为这表明只有一条路，我们都被困在这条路上。只要我们能够做出决定，我们就可以决定是加速还是减速？ 与之相反--再说一次，我真的要折磨这个比喻--但我们是否建造了不同的护栏？我们会选择不同的路径吗？我只是非常抵制这个框架。而不是说， “好吧，如果我们对模型现在在做什么不满意，我们还能做什么？减速、暂停、停工是唯一的选择吗？“我不这么认为。",
+      "originalSummary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "Fender的首席执行官似乎认为你的乐队成员只是模拟AI",
+      "originalTitle": "Fender’s CEO seems to think your bandmates are just analog AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+      "date": "2026-08-02T19:36:08.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "Edward “Bud” Cole将于2023年在日本发表演讲。|图片： Jun Sato/WireImage Fender首席执行官Edward “Bud” Cole在5月份接受了T3的采访，庆祝Telecaster成立75周年，并对最初在雷达下飞行的人工智能和音乐发表了评论。 但它最近已经开始巡回演出，在公司通过向建筑商发送停止和终止信，声称Stratocaster车身形状的版权，基本上激怒了整个吉他演奏社区之后，已经肆虐的糟糕公关火上浇油。一些有影响力的吉他YouTube用户甚至表示，在争议之后，他们已经购买了Fender设备。 Cole将翻唱歌曲和乐队成员与某种类型的歌曲进行了比较……阅读The Verge的完整故事。",
+      "originalSummary": "Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently, pouring more fuel on an already raging fire of bad PR following the company pissing off [&#8230;]",
+      "rawFullText": "Edward “Bud” Cole speaks in Japan in 2023. | Image: Jun Sato/WireImage Fender CEO Edward \"Bud\" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recently , pouring more fuel on an already raging fire of bad PR following the company pissing off basically the entire guitar-playing community by sending cease-and-desist letters to builders, claiming copyright of the Stratocaster body shape. Some influential guitar YouTubers have even said they're done buying Fender gear in the wake of the controversy. And Cole's resurfaced comments comparing cover songs and bandmates to a sort … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
     {
       "title": "Sam Altman仍在通过ChatGPT提出养育子女的理由",
       "originalTitle": "Sam Altman is still making the case for parenting via ChatGPT",
@@ -47,7 +92,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "法官驳回xAI阻止明尼苏达州禁止“裸化”应用程序的请求",
@@ -62,7 +107,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "YouTuber Hank Green说他的人工智能使用“不健康”",
@@ -77,7 +122,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "这把$ 9的钥匙可以锁定您最令人上瘾的应用程序",
@@ -92,7 +137,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "在整个欧洲推进负责任的人工智能",
@@ -174,24 +219,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 96
-    },
-    {
-      "title": "谷歌DeepMind的新人工智能模型可以控制机器人的整个身体",
-      "originalTitle": "Google DeepMind’s new AI model can control a robot’s entire body",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
-      "date": "2026-07-30T17:18:45.000Z",
-      "summary": "这条新闻与大模型、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、研究相关动态",
-      "fullContent": "Apptronik的阿波罗2号机器人从架子上取下一只棒球手套。|图片：谷歌谷歌DeepMind表示，其Gemini Robotics人工智能模型的最新版本可以“控制整个人形机器人。根据周四的公告，虽然之前的模型专注于控制人形机器人的上半身，但Gemini Robotics 2现在支持从脚到指尖的“全身运动”。 新模型将允许人形机器人执行更广泛的动作，因为它允许它们行走、蹲伏、拉伸和操纵物体。谷歌分享的视频展示了Apptronik的阿波罗2号机器人如何弯腰捡起浇水罐，以及如何找到并从架子上取下特定物品。虽然谷歌DeepMind没有…阅读The Verge的完整故事。",
-      "originalSummary": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots [&#8230;]",
-      "rawFullText": "Apptronik’s Apollo 2 robot takes a baseball glove off of a shelf. | Image: Google Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday . The new model will allow humanoid robots to perform a wider range of actions, as it allows them to walk, crouch, stretch, and manipulate objects. Videos shared by Google show how Apptronik's Apollo 2 robot can bend over to pick up a watering can, as well as find and take specific items off a shelf. Though Google DeepMind not … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "研究",
-        "机器人"
-      ],
-      "score": 99
+      "score": 95
     },
     {
       "title": "借助GPT-5.6推进性价比前沿",
@@ -242,7 +270,7 @@
         "论文",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -257,7 +285,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
+    },
+    {
+      "title": "蒂姆·库克（ Tim Cook ）暗示iCloud Plus会员等级适用于AI高级用户",
+      "originalTitle": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "date": "2026-07-30T22:29:45.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "Apple可能会允许用户付费以增加其AI使用限制。在周四的财报电话会议上，苹果首席执行官蒂姆·库克（ Tim Cook ）表示，他相信人们会“非常希望使用Apple Intelligence和即将推出的Siri AI” ，并补充说， “我们将在iCloud Plus上提供某种升级可能性，人们可以购买堆栈。 “今年秋天，苹果将广泛推出其推迟已久的iOS 27 Siri AI ，它可以回答有关屏幕上的内容的问题，并在您的应用程序中采取行动。它还包括一个新的独立Siri AI应用程序，提供类似ChatGPT的界面。今年6月，苹果表示其人工智能功能包括……在The Verge阅读完整故事。",
+      "originalSummary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people [&#8230;]",
+      "rawFullText": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people can buy up the stack.\" This fall, Apple will broadly launch its long-delayed Siri AI with iOS 27, which can do things like answer questions about what's on your screen and take action across your apps. It also includes a new standalone Siri AI app that offers a ChatGPT-like interface. In June, Apple said that its AI features , including … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "启用两个设置如何使我们在ARC-AGI-3基准测试中的分数增加两倍",
@@ -323,7 +366,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "智能AI时代的科学计算",
@@ -338,7 +381,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "三星芯片工人正跃升为SK海力士的竞争对手",
@@ -353,7 +396,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "OlmoEarth平台：行星尺度上的地理空间推断",
@@ -368,7 +411,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "LFM2.5-用于CPU上快速长上下文推理的编码器",
@@ -383,7 +426,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能如何扩展人们在工作中的工作",
@@ -414,7 +457,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -430,7 +473,7 @@
         "机器人",
         "算力芯片"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "OpenAI称拥抱面部攻击是前所未有的。但我们以前来过这里。",
@@ -446,7 +489,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
@@ -461,7 +504,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "将Nunchaku 4位扩散推理带给扩散器",
@@ -476,7 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "人工智能如何帮助科学家设计下一代药物",
@@ -491,7 +534,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "Grabette ：用于记录机器人操作数据的开放系统",
@@ -506,7 +549,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "通过材料科学创新推进下一代人工智能",
@@ -521,7 +564,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "中国的人工智能模型让特朗普的人工智能世界处于战争状态",
@@ -536,7 +579,7 @@
       "tags": [
         "模型"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "新型号，同等优势",
