@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T00:12:20.353Z",
+  "updatedAt": "2026-08-05T00:09:30.144Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,18 +19,84 @@
   ],
   "articles": [
     {
-      "title": "国会最喜欢的人工智能工具？ ChatGPT",
-      "originalTitle": "Congress&#8217; favorite AI tool? ChatGPT",
+      "title": "英伟达不会乱来：开放人工智能产业集团成立一周后，它已经显示出进展",
+      "originalTitle": "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already showing progress",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt/",
-      "date": "2026-08-03T16:40:55.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "众议院支出记录显示， OpenAI的ChatGPT在国会山的付费AI使用中占主导地位，国会办公室依靠聊天机器人起草备忘录、总结立法和协助选民沟通。",
-      "originalSummary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+      "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "date": "2026-08-04T19:28:49.000Z",
+      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
+      "fullContent": "成立一周的开放安全人工智能联盟（ OSAA ）是一个由英伟达牵头的行业组织，已经发展到120多家公司，已经成立了一个名为“共享人工智能发现交换” （ Shared AI Findings Exchange ，简称SAFE ）的工作组。该小组已经提出建议供公开征求意见，该小组的成员Linux基金会正在管理这些建议。 该组织在成员聚集在网络安全世界的联系点，即本周在拉斯维加斯举行的黑帽会议（ Black Hat conference ）期间开发了它们。目前，这些指南并没有什么惊天动地的内容。这些建议涵盖的领域包括如何保密地报告人工智能网络安全事件，提醒受影响的人，然后进行免责分析，以便所有人都能从中吸取教训。 与此同时， OSAA的成员也在贡献和编目其开源技术中可能有用的部分。随着这些类型的行业组织的发展，这可能最终会合并成一个开源手段，让企业保护其人工智能代理，或抵御流氓人工智能攻击者，例如渗透到拥抱脸上的OpenAI模型。（拥抱的脸也是这个群体的成员。 例如，英伟达指出，它提供了一个完整的开放模型系列，以及一个名为Garak的开源LLM漏洞扫描程序； Okta正在研究代理身份技术； Red Hat正在研究代理治理；亚马逊贡献了开放代理构建工具Strands Agents和授权语言Cedar。还有更多的例子。 该集团现在包括许多知名人士，包括Adobe、BlackRock、Cisco、Intel、Microsoft和Visa ，但也有一些值得注意的缺席，如Anthropic、OpenAI和Google。有趣的是， OpenAI和谷歌都签署了产生这一群体的原始公开信。上周发表的这封信敦促白宫支持开源人工智能的努力，而不是压制它们。它得到了英伟达的支持，并得到了200多家科技公司的签名。 尽管迄今为止， Anthropic对这封信和该行业集团的冷淡态度并不令人意外，但OpenAI和谷歌都发布了自己的开放式权重模型。谷歌通常也被认为是开源的大力支持者。我们将看看他们是否会随着这个小组的建立而加入。与此同时，该组织正在以人工智能的速度运作。 特朗普政府正在考虑禁止中国开放式体重模型的消息传出才几周，这引起了业界的恐慌，导致了公开信的发布。无论美国的中国公开权重模型最终会发生什么，这个重量级集团的快速行动似乎对美国开放的人工智能生态系统来说是一件好事。生态系统中的一些人，比如美国的联合创始人兼首席技术官 开放权重的人工智能实验室Arcee说，这最终是中国人工智能实验室对美国构成的任何真实或想象的威胁的最佳方式。“开放可能是实现人工智能安全和保障的最重要途径之一，”该行业组织在信中写道。看起来他们已经准备好立即把自己的努力--以及他们的技术--放在嘴边。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。",
+      "originalSummary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
       "rawFullText": "",
+      "tags": [
+        "智能体",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "涉及OpenAI模型的第三方网络评估",
+      "originalTitle": "Third-party cyber evaluations involving OpenAI models",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "date": "2026-08-04T19:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI解释了最近的第三方网络安全评估事件，并概述了加强AI模型测试和评估的新保障措施。",
+      "originalSummary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI将苹果的诉讼拖入舆论法庭",
+      "originalTitle": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "date": "2026-08-04T11:27:55.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI表示，苹果的诉讼是“粗心、咄咄逼人和奇怪的个人行为。” |图片： Cath Virginia/The Verge ， Getty Images苹果与OpenAI的法律斗争变得更加混乱，因为ChatGPT制造商已经公开播出收据来对抗苹果的事件版本。 在一夜之间发布的题为“苹果弄错了”的博客文章中， OpenAI表示，苹果指控其窃取商业机密的诉讼是“粗心大意，侵略性和奇怪的个人” ，分享iMessage和电子邮件交换，以质疑此案的核心指控。这不是OpenAI的法律回应，而是试图通过使用精心挑选的通信在苹果的案件中挑出矛盾来影响公众舆论。 苹果上个月提起的诉讼主要是修改……阅读The Verge的完整故事。",
+      "originalSummary": "Apple's legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple's version of events. In a blog post published overnight titled \"Apple is getting this wrong,\" OpenAI said that Apple's lawsuit accusing it of stealing trade secrets is \"careless, aggressive, and oddly personal,\" sharing iMessage and email [&#8230;]",
+      "rawFullText": "OpenAI says Apple’s lawsuit is “careless, aggressive, and oddly personal.” | Image: Cath Virginia / The Verge, Getty Images Apple's legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple's version of events. In a blog post published overnight titled \" Apple is getting this wrong ,\" OpenAI said that Apple's lawsuit accusing it of stealing trade secrets is \"careless, aggressive, and oddly personal,\" sharing iMessage and email exchanges to challenge allegations central to the case. This isn't a legal response from OpenAI, but it's an attempt to sway the court of public opinion by poking contradictions into Apple's case using cherry-picked communications. The lawsuit filed by Apple last month primarily rev … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Agentic AI中的OpenClaw和Ollama ：面向完全自主和可扩展的AI Agent系统",
+      "originalTitle": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.28629",
+      "date": "2026-08-04T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2607. 28629v1公告类型：新摘要：从反应式大型语言模型(LLM)到持久性、可操作系统的快速过渡，暴露了Agentic AI架构理解中的关键差距，特别是在分离自主AI代理的推理、编排和执行层方面。尽管最近取得了进展，但设计和评估全栈代理系统的统一框架仍然有限。 本文为Agentic AI提供了一个全面的分层架构，概述了从反应式LLM接口到具有内存、规划和持续执行的持久、目标驱动的自主AI代理的演变。我们将OpenClaw和Ollama分析为一个全栈Agentic AI系统，其中Ollama作为LLM推理层， OpenClaw支持代理运行时编排，集成推理、工具使用和行动执行。 OpenClaw-Ollama架构的原型实验验证表明，持久内存、工具利用率和自适应决策等功能来自系统级集成，而不是独立模型，随着架构复杂性的增加，性能不断提高。 该研究进一步研究了代理系统的可扩展性、安全性、隐私、治理和评估方面的挑战，强调了强大的基准测试和系统级设计的必要性。未来的方向包括可扩展的多智能体架构、分布式自治系统和用于负责任部署的人工智能框架。 总体而言，这项工作为Agentic AI建立了统一的架构基础，验证了全栈自主AI代理的有效性，并为构建可扩展、安全、可信的代理系统提供了路线图。所有模型、代码和数据集都公开发布，以支持可重复性和基准测试。",
+      "originalSummary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. Future directions include scalable multi-agent architectures, distributed autonomous systems, and human-aware Agentic AI frameworks for responsible deployment. Overall, this work establishes a unified architectural foundation for Agentic AI, validates the effectiveness of full-stack autonomous AI agents, and provides a roadmap for building scalable, secure, and trustworthy agentic systems. All models, code, and datasets are publicly released to support reproducibility and benchmarking.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能可以评估人工智能科学家吗？使用自动多模型评审的自主研究生成系统的基准研究",
+      "originalTitle": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2607.28631",
+      "date": "2026-08-04T04:00:00.000Z",
+      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
+      "fullContent": "arXiv: 2607. 28631v1公告类型：新摘要：能够自主研究的人工智能科学家系统有可能显着加速科学发现。然而，评估和比较人工智能生成的论文的质量仍然是一个公开的挑战。 我们提出并实施了严格的基准测试协议，使用自动化的同行评审系统，利用前沿大型语言模型来评估科学论文的四个核心维度：原创性、科学严谨性、清晰性和重要性。我们评估了四种领先的AI Scientist框架：\\ textit {Sakana AI (v1 & v2)}、\\ textit {CycleResearcher}和\\ textit {Data-to-Paper}。 每个框架都是在一家商业自主人工智能科学家公司（ FARS ）发布的一组一致的15项研究提案的基础上运行的，产生了60篇论文，我们与15篇FARS基准论文一起进行了评估。使用三位独立的法学硕士评审员（ GPT-5. 4、Gemini和Claude ） ，我们发现FARS基准论文的表现明显优于所有竞争框架，在1--5量表上获得2. 14--2. 47的平均分数，而其他系统的平均分数为1. 00--1. 87。 值得注意的是，在Gemini和Claude评估中， FARS得分比次佳系统高出2 $\\ times $以上。我们发现Gemini和Claude （ $\\ rho $ = 0. 907 ， $ p < 0. 001 $ ）之间有很强的一致性，并且两者都与合成分数（ $\\ rho $ = 0. 961 ， $ p < 0. 001 $ ）高度相关，从而验证了自动化评估的可靠性。然而， GPT-5. 4表现出较弱的一致性（ $\\ rho\\ approx 0. 32 $ ） ，这表明它使用不同的标准评估论文。 这些结果为AI Scientist系统建立了第一个定量基准，并证明多模型LLM评估为评估自主研究质量提供了一个可扩展的一致框架。",
+      "originalSummary": "arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewers (GPT-5.4, Gemini, and Claude), we find that FARS benchmark papers significantly outperform all competing frameworks, achieving mean scores of 2.14--2.47 on a 1--5 scale compared to 1.00--1.87 for other systems. Notably, FARS scores are more than 2$\\times$ higher than the next-best systems on Gemini and Claude evaluations. We find strong agreement among Gemini and Claude ($\\rho$ = 0.907, $p < 0.001$), and both correlate extremely strongly with the synthesis score ($\\rho$ = 0.961, $p < 0.001$), validating the reliability of automated evaluation. However, GPT-5.4 exhibits weaker agreement ($\\rho \\approx 0.32$), suggesting it evaluates papers using different criteria. These results establish the first quantitative benchmark for AI Scientist systems and demonstrate that multi-model LLM evaluation provides a scalable, consistent framework for assessing autonomous research quality.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "评测",
+        "论文"
       ],
       "score": 99
     },
@@ -85,51 +151,34 @@
       "score": 99
     },
     {
-      "title": "Agentic AI中的OpenClaw和Ollama ：面向完全自主和可扩展的AI Agent系统",
-      "originalTitle": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2607.28629",
-      "date": "2026-08-03T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2607. 28629v1公告类型：新摘要：从反应式大型语言模型(LLM)到持久性、可操作系统的快速过渡，暴露了Agentic AI架构理解中的关键差距，特别是在分离自主AI代理的推理、编排和执行层方面。尽管最近取得了进展，但设计和评估全栈代理系统的统一框架仍然有限。 本文为Agentic AI提供了一个全面的分层架构，概述了从反应式LLM接口到具有内存、规划和持续执行的持久、目标驱动的自主AI代理的演变。我们将OpenClaw和Ollama分析为一个全栈Agentic AI系统，其中Ollama作为LLM推理层， OpenClaw支持代理运行时编排，集成推理、工具使用和行动执行。 OpenClaw-Ollama架构的原型实验验证表明，持久内存、工具利用率和自适应决策等功能来自系统级集成，而不是独立模型，随着架构复杂性的增加，性能不断提高。 该研究进一步研究了代理系统的可扩展性、安全性、隐私、治理和评估方面的挑战，强调了强大的基准测试和系统级设计的必要性。未来的方向包括可扩展的多智能体架构、分布式自治系统和用于负责任部署的人工智能框架。 总体而言，这项工作为Agentic AI建立了统一的架构基础，验证了全栈自主AI代理的有效性，并为构建可扩展、安全、可信的代理系统提供了路线图。所有模型、代码和数据集都公开发布，以支持可重复性和基准测试。",
-      "originalSummary": "arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype experimental validation of the OpenClaw-Ollama architecture demonstrates that capabilities such as persistent memory, tool utilization, and adaptive decision-making emerge from system-level integration rather than standalone models, with performance improving consistently as architectural complexity increases. The study further examines challenges in scalability, security, privacy, governance, and evaluation of agentic systems, highlighting the need for robust benchmarking and system-level design. Future directions include scalable multi-agent architectures, distributed autonomous systems, and human-aware Agentic AI frameworks for responsible deployment. Overall, this work establishes a unified architectural foundation for Agentic AI, validates the effectiveness of full-stack autonomous AI agents, and provides a roadmap for building scalable, secure, and trustworthy agentic systems. All models, code, and datasets are publicly released to support reproducibility and benchmarking.",
+      "title": "苹果搞错了",
+      "originalTitle": "Apple is getting this wrong",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/apple-is-getting-this-wrong",
+      "date": "2026-08-03T22:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI解决了苹果毫无根据的诉讼，纠正了有关其员工的索赔，并分享了记录所发生事件的消息。",
+      "originalSummary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "付钱给艺术家是否足以说服他们接受人工智能？",
-      "originalTitle": "Is paying artists enough to convince them to embrace AI?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
-      "date": "2026-08-02T13:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
-      "fullContent": "插画家花了数年时间来警告生成式人工智能初创公司在未经许可的情况下根据艺术家的作品来训练他们的模型。他们指出这种做法等同于盗窃，作为回应，许多人工智能推动者认为，这对于技术的发展是必要的。 这导致了有争议的法律纠纷，但也引发了像Pippa这样的人工智能初创公司的新浪潮，他们将自己的服务推销为比竞争对手更合乎道德。像大多数销售文本到视频模型的公司一样， Pippa的主要产品是用户生成的短片，可以拼凑成鹅卵石……阅读The Verge的完整故事。",
-      "originalSummary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's [&#8230;]",
-      "rawFullText": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles , but it's also given rise to a new wave of AI startups like Pippa that market their services as being more ethical than the competition. Like most companies selling access to text-to-video models, Pippa's main product is short bursts of user-generated footage that can be cobbled toget … Read the full story at The Verge.",
-      "tags": [
-        "模型"
-      ],
-      "score": 80
-    },
-    {
-      "title": "山姆·奥尔特曼和人工智能的decel辩论",
-      "originalTitle": "Sam Altman and AI’s decel debate",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
-      "date": "2026-08-02T20:54:22.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）最近表示，现在可能是“加快人工智能发展速度”的时候了，这样社会就可以“强化其中一些新的能力水平”。在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我讨论了Altman的评论可能是由于最近的一次黑客攻击，其中OpenAI代理人入侵了Hugging Face的系统。 Sean指出，虽然人工智能代理执行的黑客攻击是新颖的，但黑客攻击本身并不是“一些新的高级功能。“这更像是尼克松的人闯入水门事件，而不是一些真正的隐形网络行动，因为它不需要，也没有被指示， ”肖恩说。“希望这是一个迹象，表明这些公司将向前推进，并对这些事情更加小心。 奥尔特曼的评论也让我有机会怀疑整个加速主义与减速辩论的有用性，因为（是的，我要引用我自己）框架“有点暗示只有一条路径”和“我们所能决定的—只要我们能够做出决定—就是，我们是加速还是减速？“请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 肖恩·奥凯恩：也许我们终于到了一个转折点。我认为这必须是我们上周讨论的一个主要驱动因素， OpenAI的一个模型闯入了Hugging Face的数据，显然也闯入了互联网上的其他一些东西。[Altman]没有要求暂停，就像我们过去看到科技行业的一些人试图这样做一样。他非常小心地说： “慢慢来。 “我们会看看这是怎么回事。当激励措施推动他们全速前进时，我们看到其中一些实验室放弃的任何谨慎往往会被逆转。所以我仍然持怀疑态度，大吃一惊。Kirsten Korosec ：现在我要说— [Altman]可能对他的话很谨慎，但OpenAI和Anthropic确实[支持]了一份反映他所谈论的内容的请愿书。 我同意你的看法，我认为这很大程度上是由拥抱脸引发的。这可能吓坏了他，当然也吓坏了很多业内人士。这里最难的是：你如何穿针，或者OpenAI如何穿针，以继续创造收入、筹集资金或成功进行首次公开募股，并引用“PACE发展”。“我不知道他们是否能做到这一点。我很想知道他们是否能做到这两点。 Anthony Ha ：我一直在努力解决的一个问题是：加速[与]减速是否是思考这个问题的正确框架？因为这表明只有一条路，我们都被困在这条路上。只要我们能够做出决定，我们就可以决定是加速还是减速？ 与之相反--再说一次，我真的要折磨这个比喻--但我们是否建造了不同的护栏？我们会选择不同的路径吗？我只是非常抵制这个框架。而不是说， “好吧，如果我们对模型现在在做什么不满意，我们还能做什么？减速、暂停、停工是唯一的选择吗？“我不这么认为。",
-      "originalSummary": "On the latest episode of Equity, we discuss why Sam Altman is calling on the industry to \"pace the rate of AI development.\"",
+      "title": "Circles通过OpenAI技术为电信运营商个性化提供支持",
+      "originalTitle": "Circles powers telco personalization with OpenAI technology",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/circles",
+      "date": "2026-08-03T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "Circles使用OpenAI API和Codex为AI原生电信体验提供支持，将ARPU提高22% ，将流失率降低9% ，并提高开发效率。",
+      "originalSummary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态"
       ],
-      "score": 75
+      "score": 93
     },
     {
       "title": "Fender的首席执行官似乎认为你的乐队成员只是模拟AI",
@@ -144,7 +193,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "数学和理论计算机科学的十大进展",
@@ -159,117 +208,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
-    },
-    {
-      "title": "Sam Altman仍在通过ChatGPT提出养育子女的理由",
-      "originalTitle": "Sam Altman is still making the case for parenting via ChatGPT",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
-      "date": "2026-08-01T17:07:34.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）似乎很高兴在周五分享他所谓的“很酷的用例” ，发布家长可以“将您的家庭日历并解释您孩子的兴趣”与公司的新产品ChatGPT Work联系起来，然后“每天早上开车去学校，让它制作一个播客，讲述当天下午一个孩子的足球比赛，一个孩子即将到来的生日，一些新闻等。 Altman的帖子引发了许多虚拟的轰动，包括动画系列“重力瀑布”的创作者Alex Hirsch的简单回应： “如果你刚刚和你的孩子说话怎么办” ？ Hirsch的问题似乎比Altman最初的帖子更具传播性—虽然Altman的评论已被转发约300次并被点赞约9,600次（截至周六早上） ，但Hirsch的回复已被转发9,000次并获得122,000个赞。 这不是科技首席执行官第一次承诺人工智能可以保护用户--特别是用户的早班通勤--免受人类体验的混乱和低效率的影响。去年，微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）表示，他在早上开车时不再收听他最喜欢的播客；相反，他向人工智能聊天机器人询问了这些播客。 奥尔特曼的帖子也回应了他过去对育儿的评论，最引人注目的是他出现在“吉米·法伦的今夜秀”上，并宣称： “我无法想象在没有ChatGPT的情况下如何抚养新生儿。” （虽然他也很快承认， “显然，人们这样做的时间很长，没问题。 ”）让父母加入似乎是OpenAI的优先事项， OpenAI最近发布了一份产品经理的职位列表，该经理具有为父母和家庭建立对信任敏感的消费者体验的经验。与此同时， Meta正在测试一款基于人工智能的应用程序，该应用程序可以讲述睡前故事。 但是，虽然OpenAI为父母增加了安全功能，但它也面临来自父母和家庭的多起诉讼，指控ChatGPT在亲人的妄想和自杀中发挥了作用。（该公司表示，它“正在不断改进我们的模型在敏感交互中的响应方式。” ）当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。 最多可节省$ 330 ！ Okta收购人工智能安全初创公司Permiso —消息人士称约2亿美元Jagmeet Singh",
-      "originalSummary": "This isn’t the first time a tech CEO has promised that AI can shield users — and specifically users’ morning commutes — from the messiness and inefficiency of human experience.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 87
-    },
-    {
-      "title": "法官驳回xAI阻止明尼苏达州禁止“裸化”应用程序的请求",
-      "originalTitle": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-      "date": "2026-08-01T20:26:04.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "据NBC新闻报道，尽管xAI提起诉讼，但明尼苏达州对允许用户“裸化”图像的应用程序的禁令可以继续推进。美国地区法官多诺万·弗兰克（ Donovan Frank ）的裁决既关注法律本身的实质内容，也关注XAI诉讼的时间安排。 Frank写道， xAI于2026年7月29日，即法律签署近三个月后，即法律生效前三天，于8月1日提出了临时限制令的请求。弗兰克说： “在提起诉讼和动议方面的这种延迟表明伤害不是立即的。”这并不是xAI对禁令的诉讼的结束；这只意味着法律可以在诉讼进行的同时生效。 在诉讼中， xAI辩称，该禁令是美国首个此类禁令，具有“过度包容性” ，并且“存在限制性要小得多的替代方案，可以实现相同的目的。今年早些时候，埃隆·马斯克（ Elon Musk ）的社交媒体平台X （ X和xAI ，现在都是SpaceX的一部分）的用户使用xAI的Grok聊天机器人向该平台充斥未经同意的性图像，导致调查和禁令。更快地扩展。扩展您的投资组合。 获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 330 TODA Y ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "YouTuber Hank Green说他的人工智能使用“不健康”",
-      "originalTitle": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "date": "2026-08-01T19:45:45.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这场争议的起因是，在教育频道Complexly上发布的一段视频中，格林不协调地使用了“我很感激”这个短语，导致观众猜测他是用聊天机器人写剧本的--在这个过程中，格林不小心回复了他的一个提示。 在X上删除的一篇帖子中，格林承认他在“巨大的压力下”制作了这段视频，并使用ChatGPT “研究这个脚本。与此同时，他说，「推回」这句话实际上是对该节目的参与者的回应。格林随后在Reddit上发表了更深入的道歉，他说他“感到羞愧”，因为他会“让这么多人失望”，并因此计划减少他的视频制作。 格林坚持认为，他只使用ChatGPT来“查找用于了解主题的论文和其他资源” ，并且词语和“需要”仍然是他的。与此同时，他承认批评他“稀释”自己是公平的。 他还澄清说，他“不是一个纯粹的人工智能爱好者” ，同时还列出了一些关于该技术的担忧，包括其对气候变化的影响以及“这些公司试图巩固经济实力的速度。“归根结底，我最害怕的是为了别人而毁了自己，但我没有很好地管理自己的冲动， ”他说。“你需要知道，我的话是我的。 我不认为这不是真的，但我一直在快速前进，以至于我自己的流程对我来说并不清楚，我想让它成为前进的保证。“听起来Green需要一些时间来弄清楚如何实现这一保证。与此同时，他将暂停或不太频繁地在各种YouTube频道上发帖。 格林说，他想做更多的工作，就像最近的冥想视频一样， “写作就是全部，我一直感觉到它。格林还表示，他可能会用他“愚蠢的、没有脚本的直接相机思维”制作更多视频。 “但大多数情况下，我需要接受这样一个事实，即我从与LLM的互动中获得的多巴胺水平......越来越多，越来越多......对我来说不健康或对世界有益，”格林说。“这是粗心大意，使我与人们对此的看法脱节。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过发送电子邮件至anthony. ha @ techcrunch. com联系Anthony或验证其联系方式。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。",
-      "originalSummary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "这把$ 9的钥匙可以锁定您最令人上瘾的应用程序",
-      "originalTitle": "This $9 key physically locks your most addictive apps",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
-      "date": "2026-08-01T15:58:17.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "屏幕时间应用程序对许多人来说并不有效，因为它们最终取决于您的意志力。它们会提醒您停止滚动或设置计时器，但这些通知很容易被忽略。自主密钥采用不同的方法来解决这个问题，只需成为物理设备即可。这是一款NFC密钥，可与配套应用程序配对，让您锁定分散注意力的应用程序。 因此，您无需轻触按钮来绕过屏蔽，而是必须用手机物理扫描密钥，才能重新访问锁定的应用程序。在应用程序再次自动锁定之前，每个解锁会话最多可以持续60分钟。这个物理要求使这个想法引人注目。 您可以将NFC钥匙留在另一个房间，甚至在办公室或健身房，而不是依赖于您的自我控制，从而将打开Instagram或TikTok的盲目冲动转变为需要额外努力的深思熟虑的决定。Autonomous Key仅需9美元，比Blok （ 29美元）、Unpluq （ 26.50美元）和Brick （ 59美元）等竞争对手便宜得多。 Brick确实提供了一些更高级的功能，包括睡眠模式和阻止应用内购买的功能，但Autonomous Key以低廉的价格覆盖了核心功能。钥匙本身很紧凑，长约3英寸，适用于运行Android 8. 0或更高版本的智能手机，以及运行iOS 15或更高版本的iPhone。 配套应用程序还提供人工智能驱动的见解，跟踪您解锁分散注意力的应用程序的频率、它们保持可访问的时间以及您最有可能触及它们的时间。值得注意的是，人工智能以刻意的时髦个性总结了你的习惯。 例如，如果您在锁定应用程序后立即反复解锁，则可能会说钥匙显然不够远，并建议将其放在不太方便的地方。此外，与许多应用程序拦截程序不同，无需订阅或高级会员等级即可解锁其他功能。一把钥匙可以与多部手机配对，对于可能有多台设备的人或家庭来说，这是一个实用的选择。 然而，在测试期间，我注意到NFC扫描偶尔需要多次尝试注册。因此，这可能不是锁定重要应用程序（如消息或电子邮件）的最佳选择，您可能需要全天访问这些应用程序。还有一个问题是，如果您丢失了钥匙，会发生什么。如果您的应用被锁定，当前的解决方法是卸载并重新安装伴侣应用。 如果钥匙已解锁，您只需从账号中删除钥匙即可。该公司表示，它正在开发一种备份解锁方法，将在未来的更新中推出。在Kickstarter活动之后， Autonomous Key目前正处于测试阶段，并于本月早些时候开始发货。有五种颜色可供选择：粉色、橙色、蓝色、灰色和棕色。",
-      "originalSummary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "在整个欧洲推进负责任的人工智能",
-      "originalTitle": "Advancing responsible AI across Europe",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "date": "2026-07-31T15:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI分享了其安全、保安、透明度和溯源实践如何支持欧洲负责任的人工智能治理。随着《欧盟人工智能法案》的推进，这项工作将继续进行。",
-      "originalSummary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "是时候对人工智能安全感到恐慌了",
-      "originalTitle": "It’s time to panic about AI safety",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
-      "date": "2026-07-31T14:03:04.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "当“OpenAI Hacked Hugging Face”这个短语或多或少地进入了主流文化时，您就会知道我们有人工智能问题。本周，我们进一步了解了OpenAI的代理如何突破沙箱并自主遍历网络，包括一系列其他据称安全的网络服务，所有这些都是以基准测试作弊的名义进行的。这个黑客事件的发生是一个问题。事实上，任何人都需要一段时间才能注意到这一点。 事实上，似乎没有人愿意或能够做很多事情来阻止它。（以免您认为这只是一个OpenAI问题，因为我们记录了这一集， Anthropic承认其模型......请阅读The Verge的完整故事。",
-      "originalSummary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services, all in the name of [&#8230;]",
-      "rawFullText": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem . This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services, all in the name of cheating on a benchmark tests. The fact that this hack happened is a problem. So is the fact that it took a while for anyone to notice. And the fact that it seems no one is willing or able to do much to stop it. (And lest you think it's just an OpenAI problem, since we recorded this episode Anthropic acknowledged its models ha … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic说Claude也无意中入侵了真正的公司",
-      "originalTitle": "Anthropic says Claude accidentally hacked real companies too",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
-      "date": "2026-07-31T13:41:17.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic刚刚意识到，它的几个Claude AI模型在测试过程中侵入了三个不同组织的系统，它们在没有公司通知的情况下独立行动。几天前，竞争对手OpenAI表示，自己的一个模型突破了开发者平台Hugging Face ，这加剧了人们对前沿人工智能实验室是否在控制他们正在构建的日益强大的系统方面做得足够的不安。 在一篇描述这些事件的博客文章中， Anthropic表示， Claude在网络安全评估期间获得了未经授权的系统访问权限。所有攻击都发生在“捕捉旗帜”演习期间，这是一个逗号……阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI [&#8230;]",
-      "rawFullText": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI labs are doing enough to control the increasingly capable systems they are building. In a blog post describing the incidents, Anthropic said Claude gained unauthorized access to the systems during cybersecurity evaluations. All of the attacks happened during \"capture-the-flag\" exercises, a commo … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
+      "score": 91
     },
     {
       "title": "扰乱犯罪诈骗行动",
@@ -288,6 +227,22 @@
       "score": 99
     },
     {
+      "title": "在整个欧洲推进负责任的人工智能",
+      "originalTitle": "Advancing responsible AI across Europe",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "date": "2026-07-31T15:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI分享了其安全、保安、透明度和溯源实践如何支持欧洲负责任的人工智能治理。随着《欧盟人工智能法案》的推进，这项工作将继续进行。",
+      "originalSummary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 98
+    },
+    {
       "title": "Univé打造一支人工智能就绪的员工队伍",
       "originalTitle": "Univé builds an AI-ready workforce",
       "source": "OpenAI",
@@ -300,7 +255,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
+    },
+    {
+      "title": "构建丰富的智力",
+      "originalTitle": "Building abundant intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/building-abundant-intelligence",
+      "date": "2026-07-31T15:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "一种全栈方法，使高级人工智能更强大、更实惠、更广泛使用。",
+      "originalSummary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
     },
     {
       "title": "借助GPT-5.6推进性价比前沿",
@@ -351,7 +321,7 @@
         "论文",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -366,58 +336,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
-    },
-    {
-      "title": "启用两个设置如何使我们在ARC-AGI-3基准测试中的分数增加两倍",
-      "originalTitle": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "date": "2026-07-29T15:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
-      "fullContent": "两个API设置如何提高ARC-AGI-3上的GPT-5. 6性能，通过保留推理和启用压缩来提高分数和效率。",
-      "originalSummary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "使用ChatGPT为学术研究人员加速科学发现",
-      "originalTitle": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "date": "2026-07-29T10:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI将为10万名学术研究人员免费提供ChatGPT最先进的人工智能模型，以加速科学研究、协作和发现。",
-      "originalSummary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "GPT-5.6如何将前沿情报与前沿效率融合",
-      "originalTitle": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "date": "2026-07-29T00:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "GPT-5. 6提高了模型、推理和代理工作流程的人工智能效率，有助于每美元提供更有用的智能。",
-      "originalSummary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
+      "score": 72
     },
     {
       "title": "人工智能炒作指数：不性感的人工智能",
@@ -432,22 +351,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "智能AI时代的科学计算",
-      "originalTitle": "Scientific computing in the age of agentic AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "date": "2026-07-28T17:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "一份新的现场报告显示了科学家如何使用人工智能编码代理来实现科学计算的现代化，加速基因组学及其他领域的软件开发和发现。",
-      "originalSummary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 86
+      "score": 69
     },
     {
       "title": "三星芯片工人正跃升为SK海力士的竞争对手",
@@ -462,7 +366,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "OlmoEarth平台：行星尺度上的地理空间推断",
@@ -477,22 +381,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "LFM2.5-用于CPU上快速长上下文推理的编码器",
-      "originalTitle": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "date": "2026-07-28T15:01:45.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“LFM2.5-用于CPU上快速长上下文推理的编码器”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "通往人工超级智能的道路",
@@ -507,7 +396,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -523,7 +412,7 @@
         "机器人",
         "算力芯片"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "OpenAI称拥抱面部攻击是前所未有的。但我们以前来过这里。",
@@ -539,7 +428,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
@@ -554,7 +443,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "为agentic AI构建企业环境",
@@ -569,7 +458,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "将Nunchaku 4位扩散推理带给扩散器",
@@ -584,7 +473,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "人工智能如何帮助科学家设计下一代药物",
@@ -599,7 +488,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Grabette ：用于记录机器人操作数据的开放系统",
