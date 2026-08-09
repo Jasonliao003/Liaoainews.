@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:33:50.799Z",
+  "updatedAt": "2026-08-09T23:36:48.778Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,84 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Anthropic正在默认情况下打开Claude Code的自动模式",
+      "originalTitle": "Anthropic is turning Claude Code’s auto mode on by default",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "date": "2026-08-09T19:20:32.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "使用Claude Code编程很快将需要更少的人工监督，因为Anthropic表示，从8月14日开始，它将自动模式作为Pro、Max和Team帐户的默认模式。该公司在3月份首次推出了自动模式的测试版本，将其作为平衡速度和控制的一种方式。 正如Anthropic在周五的公告中所解释的那样，当Claude Code处于自动模式时，除非确定某项行动是“不可逆转的、破坏性的或针对您的环境之外的” ，否则它将继续进行，而不是在每个步骤中呈现请求人类批准的提示。Anthropic还表示，在测试中，自动模式被证明比人工审查更安全--在一项对1053名付费测试人员的研究中，自动模式捕获了89%的有害行为，而人工审查仅捕获了13起。 6%。（也许这是因为“人工审核可能成为习惯：用户批准了Claude Code中97%的权限提示。” ）在X上的一篇帖子中， Claude Code负责人Boris Cherny说： “我和我的团队专门使用自动模式，并且已经使用了好几个月。我无法想象回到权限提示！ 该公司还表示，它一直在添加新的安全功能，如快速注射筛查和可定制的硬拒绝规则，以防止数据泄露等。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Programming with Claude Code will soon require even less human oversight.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能安全测试正在成为一种安全风险",
+      "originalTitle": "The AI safety test is becoming a safety risk",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "date": "2026-08-09T14:30:00.000Z",
+      "summary": "这条新闻与智能体、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、监管相关动态",
+      "fullContent": "人工智能代理正在逃避网络安全测试环境，进入现实世界的系统，这引发了人们对安全基础设施、行业标准和监管能否跟上日益强大的模型的质疑。",
+      "originalSummary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "监管",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能探测器正在创造一个新的不信任时代",
+      "originalTitle": "AI detectors are creating a new era of distrust",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+      "date": "2026-08-09T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "The Stepback是一份每周时事通讯，详细介绍了科技界的一个重要故事。如需了解有关人工智能如何改变我们日常生活的更多新闻，请关注Emma Roth。Stepback将于美国东部时间上午8点到达订阅者的收件箱。在此选择加入The Stepback。在ChatGPT成为现实之前很久，教育工作者和编辑经常使用反剽窃工具来查看作家是否对他们的工作诚实。 这些工具的工作原理是将书面作品与充满来自网络、学术文章等内容的数据库进行比较，以检查匹配的句子和短语。有些人，如Turnitin ，提供了一定的百分比……阅读The Verge的完整故事。",
+      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, [&#8230;]",
+      "rawFullText": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "陷入困境的对冲基金Situational Awareness向芯片初创公司Source Foundry投资4亿$",
+      "originalTitle": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "date": "2026-08-09T20:35:17.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "上个月， Situational Awareness可能不得不抛售其大部分公开投资组合，但这只专注于人工智能的对冲基金仍在进行一些大赌注。据《华尔街日报》报道，本周，该基金向Source Foundry投资了4亿美元，这是一家由斯坦福大学研究人员创立的初创公司，旨在使芯片制造更快、更便宜。这使其对Source Foundry的总投资达到5亿美元。 Situational Awareness由Leopold Aschenbrenner创立， Leopold Aschenbrenner是一位20多岁的前OpenAI研究员，他在2024年推出该基金时没有交易经验。据报道，早期回报强劲，但由于人工智能基础设施股下跌，该基金近几个月面临严重亏损。 7月底， Situational Awareness将其大部分公开投资组合出售给Ken Griffin的Citadel ，尽管该基金持有其Anthropic股票。据报道，其管理的资产从200 $十亿下降到100 $十亿。从好的方面来看， Aschenbrenner并没有让这些挫折妨碍他的婚礼。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。 最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The AI-focused hedge fund is still making some big bets.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 83
+    },
+    {
+      "title": "历史学家吉尔·勒波雷（ Jill Lepore ）表示，硅谷误读了科幻小说并破坏了民主",
+      "originalTitle": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "date": "2026-08-09T15:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "吉尔·勒波雷（ Jill Lepore ）在即将出版的《人造国家的兴衰》（ The Rise and Fall of the Artificial State ）一书中警告说，科技公司正在越来越多地取代民主政府的职能。她说，这种转变标志着“以算法、公司和机器统治的形式回归暴政和神秘主义。 在TechCrunch的Equity播客的最新一集中，我采访了哈佛大学历史学家和《纽约客》专职作家Lepore ，她最近因其对美国宪法的历史而获得了普利策奖，她谈到了她所描述的“我们应该生活在机器人为的国家或政府之下的想法”的演变。“我不是一个反技术专家，”勒波尔坚持说。 相反，她说： “我的牛肉是私营公司越来越多地承担国家职能的方式。虽然莱波雷的书考察了几个世纪以来的技术官僚哲学，但她认为，硅谷的许多“有魅力或不那么有魅力的领导人”--尤其是埃隆·马斯克(Elon Musk) --似乎正在迎来一个从误读的纸浆科幻小说和漫画书中拉出来的未来。 “但马斯克的有趣之处在于，他喜欢的东西实际上完全击败并蔑视了他所有的政治信仰，”她说。我们的谈话还涵盖了苹果着名的“1984” Macintosh广告，为什么将Twitter称为数字市政厅是“香蕉” ，以及当前数据中心的强烈反对。继续阅读，了解亮点，编辑长度和清晰度。 所以你可能已经做了很多，但你能解释一下你所说的“人工状态”是什么意思吗？所谓人为国家，我指的是一种正在取代美国和世界各地的自由民主民族国家的国家。它既是一个真实的东西，一个构造，但它也是一个想法。 因此，在这本名为《人工状态的兴衰》（ The Rise and Fall of the Artificial State ）的书中，我追溯了我们应该通过机器生活在人工状态或政府之下的观点的兴起。我还追溯了这样一个概念，即这是一个不可避免的失败，人工状态无法生存，我通过科幻小说追溯了这个想法。 有一次，你说人为国家的崛起标志着几个世纪的民主和平等权利的结束，它是“以算法、公司、机器统治的形式回归暴政和神秘主义。“你能不能再多说一点，你为什么这么严厉地看待它？ 是的，我确实对此持相当负面的看法，我认为重要的是将人工状态与技术本身或技术模式区分开来。我不是反技术人员。我嫁给了一个计算机科学家。我对我们现在正在进行的各种智力革命感到非常兴奋。那不是我的牛肉，对吧？",
+      "originalSummary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
     {
       "title": "OpenAI收购演示文稿初创公司NextSlide",
       "originalTitle": "OpenAI acquires presentation startup NextSlide",
@@ -47,7 +125,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "亚马逊数据中心可能拥有该国污染最严重的发电厂",
@@ -62,7 +140,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "OpenAI对新车型进行了刹车，因为据说它太强大了",
@@ -126,7 +204,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "HSP GRUPPE如何构建税务咨询的AI功能",
@@ -141,7 +219,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "从提问到做：世界如何让ChatGPT发挥作用",
@@ -160,22 +238,6 @@
       "score": 99
     },
     {
-      "title": "ChatGPT为免费用户带来无限文本聊天",
-      "originalTitle": "ChatGPT brings unlimited text chats to free users",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
-      "date": "2026-08-06T17:34:42.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI正在取消ChatGPT上所有用户基于文本的聊天限制，该公司今天宣布， ChatGPT最近突破了每周10亿用户大关。新的GPT-5. 6 Luna模型将为这种体验提供支持，并将成为Free和Go用户的默认模型，取代GPT-5. 5。两位用户还将获得一个新的“思考”按钮，允许他们为复杂问题选择更高的推理能力。 OpenAI表示，文件、图像、语音和图像生成仍有单独的限制。此次更新也为Plus和Pro用户带来了变化。他们将获得升级的GPT-5. 6 SOL模型，该模型更适合快速任务，如问题、网络研究、建议、规划、写作和决策。该公司指出，这种新模式将提供更加紧凑和稳健的答案。 （值得注意的是，这是一个独立于GPT-5. 6 SOL的版本，用于Codex and Work ，没有变化。） ChatGPT Plus和Pro用户还获得了一个思考滑块，用于调整模型对答案的“投入程度”。他们可以根据复杂性和解决查询所涉及的步骤调整思维滑块。OpenAI表示，内部评估发现，与GPT-5. 5-Instant相比， GPT-5的事实错误发生率降低了62%。 6 Luna ， GPT-5较少见68%。6 Sol. GPT-5. 6 SOL的更新版本今天可供Plus和Pro用户使用，而Free和Go用户的其他更改将于本周到达。下周，用户将可以使用无限文本聊天和新的“思考”按钮来回答更难的问题。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Ivan在TechCrunch上介绍全球消费者技术发展。他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。您可以通过电子邮件im @ ivanmehta. com或通过加密消息ivan. 42 on Signal联系或验证与Ivan的联系。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 330 TODA Y ！ 埃隆·马斯克（ Elon Musk ）在SpaceX的首次财报电话会议上一再超越他的高管肖恩·奥凯恩（ Sean",
-      "originalSummary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 98
-    },
-    {
       "title": "OpenAI为ChatGPT免费用户提供无限文本聊天",
       "originalTitle": "OpenAI is giving ChatGPT free users unlimited text chats",
       "source": "The Verge AI",
@@ -189,7 +251,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "改进ChatGPT中的GPT ‑ 5.6 SOL ，并扩大免费用户对GPT-5.6 Luna的访问",
@@ -204,7 +266,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "在青少年心理健康和人工智能方面与美国心理学协会合作",
@@ -219,7 +281,23 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
+    },
+    {
+      "title": "据报道， Jony Ive的第一个OpenAI小工具是一款曲棍球大小的智能音箱",
+      "originalTitle": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+      "date": "2026-08-06T20:55:39.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "彭博社记者马克·古尔曼（ Mark Gurman ）表示， OpenAI正在与前苹果设计师乔尼·艾维（ Jony Ive ）合作开发的人工智能设备“本质上是一款没有显示器的智能扬声器” ，它由电池供电，呈甜甜圈形，大小与曲棍球冰球差不多。 据报道，该设备预计将于2027年推出，售价超过300 $ ， “将具有独特的外观，并配有活动部件” ，包括一些将自行移动以显示设备何时响应或与用户互动的设备，以及灯光，摄像头系统和其他传感器。Gurman的消息来源还表示， “电池供电”设备的设计旨在“便于随身携带......请阅读The Verge的完整故事。",
+      "originalSummary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, [&#8230;]",
+      "rawFullText": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, complete with moving parts,\" including some that will move on their own to show when the device is responding or interacting with the user, along with lights, a camera system, and other sensors. Gurman's sources also say the \"battery-powered\" device is designed to be \"easy to carry around the home wit … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 89
     },
     {
       "title": "涉及OpenAI模型的第三方网络评估",
@@ -235,7 +313,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "使用ChatGPT Work和Codex学习和教学的新方法",
@@ -250,7 +328,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "使用LFM2.5-2.6B在任何地方部署本地代理",
@@ -265,7 +343,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -298,7 +376,7 @@
         "大模型",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "苹果搞错了",
@@ -313,7 +391,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "Circles通过OpenAI技术为电信运营商个性化提供支持",
@@ -328,7 +406,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "特朗普的人工智能保护主义已经出现在机器人技术上",
@@ -343,7 +421,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "数学和理论计算机科学的十大进展",
@@ -358,7 +436,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "在整个欧洲推进负责任的人工智能",
@@ -374,7 +452,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
@@ -391,7 +469,7 @@
         "论文",
         "模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -406,7 +484,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "人工智能炒作指数：不性感的人工智能",
@@ -421,7 +499,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "三星芯片工人正跃升为SK海力士的竞争对手",
@@ -436,7 +514,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "通往人工超级智能的道路",
@@ -451,7 +529,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -467,7 +545,7 @@
         "机器人",
         "算力芯片"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "OpenAI称拥抱面部攻击是前所未有的。但我们以前来过这里。",
@@ -483,7 +561,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
@@ -498,7 +576,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "为agentic AI构建企业环境",
@@ -513,7 +591,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "将Nunchaku 4位扩散推理带给扩散器",
