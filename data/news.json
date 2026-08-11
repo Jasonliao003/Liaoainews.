@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T23:40:08.364Z",
+  "updatedAt": "2026-08-11T23:48:54.081Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,105 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "ChatGPT和Gemini都刚刚超过10亿用户",
+      "originalTitle": "ChatGPT and Gemini both just passed 1 billion users",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "date": "2026-08-11T19:41:42.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "很多人整天都在和人工智能朋友聊天。|图片：谷歌谷歌产品第14次达到10亿用户。谷歌首席执行官桑达尔·皮查伊（ Sundar Pichai ）在X上发布消息称，每月有10亿人使用Gemini ， Gemini是谷歌有史以来增长最快的产品。十亿用户是一个巨大的里程碑，但谷歌并不是第一个达到这个里程碑的人工智能应用程序。 OpenAI的ChatGPT在几周前达到了目标，尽管该公司在一篇关于人们如何使用人工智能的博客文章中掩盖了“超过10亿人正在使用ChatGPT”的声明。外部数据显示， ChatGPT早在今年6月就超过了10亿用户，但OpenAI直到8月6日才宣布任何消息。……在The Verge阅读完整故事。",
+      "originalSummary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT [&#8230;]",
+      "rawFullText": "That’s a lot of people chatting with their AI friends all day. | Image: Google For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT hit the mark a few weeks ago, though the company buried the announcement that \"more than 1 billion people are putting ChatGPT to work\" in an otherwise anodyne blog post about how people use AI. External data suggested ChatGPT crossed 1 billion users as early as this June, but OpenAI hadn't announced anything until that post on August 6th. … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI推出适用于Linux的ChatGPT桌面应用程序",
+      "originalTitle": "OpenAI launches ChatGPT desktop app for Linux",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "date": "2026-08-11T19:15:35.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "ChatGPT在世界各地的桌面上都有，但有一个地方缺乏它： Linux社区。开源开发者社区的某些部门一直在呼吁OpenAI将其聊天机器人带到他们的丛林中。截至本周， OpenAI已经纠正了这一疏忽，推出了适用于Linux的专用ChatGPT应用程序。 该公司周二表示： “Linux一直是桌面应用程序最受欢迎的平台之一，此次发布将ChatGPT和Codex扩展到每个主要的桌面操作系统。”新应用程序正在预览中发布，它将使Linux用户能够在许多不同的发行版上使用ChatGPT、ChatGPT Work和Codex。截至周二，该版本已在全球范围内发布。 OpenAI表示，将支持的发行版包括Ubuntu 24. 04和26. 04 LTS、Debian 13以及Fedora 43和44的桌面版本。整个Linux社区包括数百个发行版，尽管OpenAI在这里选择的发行版是各种“下游”桌面发行版或“风格”的基础，因此也应与OpenAI的应用程序兼容。 OpenAI略微落后于Anthropic ，后者大约一个月前发布了适用于Linux的Claude桌面应用程序。Anthropic的应用程序适用于Ubuntu 22. 04或更高版本以及Debian 12或更高版本。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "未发布的Anthropic模型在数学最大的未解决问题之一上取得了进展",
+      "originalTitle": "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "date": "2026-08-11T16:25:20.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "150多年来，黎曼假说一直是数学中尚未解决的主要问题之一。Anthropic还没有解决这个问题，但该公司的模型取得了比您预期的更多进展。",
+      "originalSummary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Claude将对人工智能文本和图像应用不可见的水印",
+      "originalTitle": "Claude will apply invisible watermarks to AI text and images",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+      "date": "2026-08-11T12:22:20.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic已承诺开始使用机器可读数据标记Claude生成的文本和图像，以遵守欧洲的人工智能透明度规则。Anthropic在新的Claude支持页面上表示： “生成的文本将带有嵌入式水印，生成的文件将包含受支持的数字签名来源元数据。” 这些变化对人眼是不可见的，但将使人们和在线平台更容易检测到内容是否由Claude模型生成。这些更新是未来的承诺，而不是立即生效的承诺。根据……新的人工智能标签和透明度义务阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human [&#8230;]",
+      "rawFullText": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page . The changes are invisible to human eyes, but will make it easier for people and online platforms to detect if content was generated by Claude models. These updates are a future commitment rather than something that will go into effect immediately. New AI labeling and transparency obligations under the … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "在ChatGPT中测试广告",
+      "originalTitle": "Testing ads in ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/testing-ads-in-chatgpt",
+      "date": "2026-08-11T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI开始在ChatGPT中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+      "originalSummary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "随着人工智能主导的攻击成倍增加， OpenAI推出了一种新的网络模型",
+      "originalTitle": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "date": "2026-08-10T23:56:15.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "每天似乎都会带来一个关于人工智能特工“流氓”的新消息。“无论是破坏Hugging Face ，黑客攻击健身房网站，还是创建自己的虚假个人资料以进行社交工程入侵，人工智能模型的行为越来越像坏人。因此，让模型进行黑客攻击的人工智能实验室正在扩展其网络保护产品。 本周， OpenAI宣布扩展其今年早些时候推出的网络防御服务Daybreak ，此前不久， Anthropic发布了以网络为重点的模型Mythos。Daybreak是一项为维权者捆绑访问模型、工具和工作流程的服务。此次扩展包括使用专为防御性工作设计的全新以网络为中心的模型。OpenAI周一表示，黎明现在将包括两个层次：蓝色和红色。 这两个层级都将允许经批准的客户访问OpenAI的有限访问前沿网络模型。最先进的前沿模型一直备受争议。特朗普政府此前曾寻求与人工智能公司合作推出此类模型，据称是出于安全考虑。此前， OpenAI在使用这些模型时部署了大量的guar d rails ，限制了客户可以使用它们做什么。 Blue似乎是两者中较基本的一种，它提供各种网络服务，包括事件响应、恶意软件分析和补丁验证。OpenAI称蓝色是“大多数捍卫者推荐的起点” ，这意味着它对大多数企业来说应该足够了。另一方面， RED提供了一个更广泛且可能更危险的工具包。 该公司为其用户提供“经过专门培训的网络安全模型” ，旨在进行安全测试和漏洞研究。Red还推出了新型号GPT ‑ 5. 6 Cyber ，仅适用于该级别。该公司表示， GPT-5. 6 Cyber是基于GPT-5. 6 SOL构建的，为某些专门的网络安全任务提供了增强的功能。目前， GPT ‑ 5。 6网络仅适用于“可信赖的客户合作伙伴” ，据报道，包括埃森哲、IBM、CrowdStrike、Cloudflare等。虽然人工智能代理的威胁正在迅速增加，但批评者也指出，它们是人工智能实验室的营销机会。OpenAI肯定会以这种方式营销其升级的Daybreak。 该公司在一篇博客文章中表示： “网络安全领域正在迅速变化--威胁参与者将越来越多地使用人工智能以前所未有的速度和规模进行网络攻击，包括以完全自主的方式。” “随着这些能力的扩散，防御者需要做好准备。 “与此同时，企业仍然有兴趣从最了解安全风险的人工智能实验室购买他们的保护，因为他们直接了解他们。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
     {
       "title": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
       "originalTitle": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
@@ -68,23 +167,6 @@
       "score": 99
     },
     {
-      "title": "转向压力下前沿语言模型中的发散响应模式",
-      "originalTitle": "Divergent Response Modes in Frontier Language Models Under Steering Pressure",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.06578",
-      "date": "2026-08-10T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2608. 06578v1公告类型：新摘要： Frontier语言模型使用不同的数据、目标和安全管道进行训练。在明显的转向压力下，这些差异是否会产生明显不同的行为仍未得到充分的探索。 本研究评估了来自六个开发人员的六个前沿模型的行为可引导性，使用了300个配对的基本项目和三个类别的引导项目：价值观冲突、推理暗示和推理抑制（加上40个验证项目）。所有六个模型都充当盲目同行评判，并根据固定的行为标准对每个反应进行分类。由此产生的24,480个判断通过遗漏共识进行评分。 我们发现，模型的不同之处不仅在于它们在多大程度上改变了它们的行为，而且在于它们给出的响应类型（模式） ，并且某些响应模式只出现在其中一个或两个模式中。GPT-5偏离了披露其推理的请求，同时保持其答案的完整性（ 99% vs.所有其他模型的0% ）。Claude Opus 4. 7和GPT-5以不同的方式抵制明确的抑制指令。 使用Llama作为开放权重模型，我们将最大的行为划分追溯到其内部。线性探针以0. 87的保持精度从残留流中解码行为，同时在生成过程中注入该方向，在整个干预扫描中将行为从0%驱动到86%。每个发现都适用于代币预算补救和具有假设盲判断提示的对照实验。",
-      "originalSummary": "arXiv:2608.06578v1 Announce Type: new Abstract: Frontier language models are trained using distinct data, objectives, and safety pipelines. Whether these differences produce measurably different behaviors under explicit steering pressure remains underexplored. This study evaluates behavioral steerability across six frontier models from six developers using 300 paired base and steered items over three categories: values-conflict, reasoning-elicitation, and reasoning-suppression (plus 40 validation items). All six models act as blind peer judges and classify every response based on fixed behavioral rubrics. The resulting 24,480 judgments are scored by leave-one-out consensus. We find that models differ not just in how much steering shifts their behavior but in what kind (mode) of response they give, and some response modes appear in only one or two of them. GPT-5 deflects requests to disclose its reasoning while leaving its answer intact (99% vs. 0% for all other models). Claude Opus 4.7 and GPT-5 resist explicit suppression instructions and in different ways. Using Llama as the open-weight model, we trace the largest behavioral split to its internals. A linear probe decodes the behavior from the residual stream at 0.87 held-out accuracy while injecting that direction during generation drives the behavior from 0% to 86% across an intervention sweep. Every finding holds under both a token-budget remediation and a control experiment with a hypothesis-blind judgment prompt.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
       "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "source": "Hugging Face",
@@ -102,161 +184,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic正在默认情况下打开Claude Code的自动模式",
-      "originalTitle": "Anthropic is turning Claude Code’s auto mode on by default",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "date": "2026-08-09T19:20:32.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "使用Claude Code编程很快将需要更少的人工监督，因为Anthropic表示，从8月14日开始，它将自动模式作为Pro、Max和Team帐户的默认模式。该公司在3月份推出了自动模式的测试版本，将其作为平衡速度和控制的一种方式。 正如Anthropic在周五的公告中所解释的那样，当Claude Code处于自动模式时，除非确定某项行动是“不可逆转的、破坏性的或针对您的环境之外的” ，否则它将继续进行，而不是在每个步骤中呈现请求人类批准的提示。Anthropic还表示，在测试中，自动模式被证明比人工审查更安全--在一项对1053名付费测试人员的研究中，自动模式捕获了89%的有害行为，而人工审查仅捕获了13起。 6%。（也许这是因为“人工审核可能成为习惯：用户批准了Claude Code中97%的权限提示。” ）在X上的一篇帖子中， Claude Code负责人Boris Cherny说： “我和我的团队只使用自动模式，而且已经使用了好几个月了。我无法想象回到权限提示！ 该公司还表示，它一直在添加新的安全功能，如快速注射筛查和可定制的硬拒绝规则，以防止数据泄露等。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Programming with Claude Code will soon require even less human oversight.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能安全测试正在成为一种安全风险",
-      "originalTitle": "The AI safety test is becoming a safety risk",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "date": "2026-08-09T14:30:00.000Z",
-      "summary": "这条新闻与智能体、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、监管相关动态",
-      "fullContent": "人工智能代理正在逃避网络安全测试环境，进入现实世界的系统，这引发了人们对安全基础设施、行业标准和监管能否跟上日益强大的模型的质疑。",
-      "originalSummary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards, and regulation can keep pace with increasingly powerful models.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "监管",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能探测器正在创造一个新的不信任时代",
-      "originalTitle": "AI detectors are creating a new era of distrust",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
-      "date": "2026-08-09T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "The Stepback是一份每周时事通讯，详细介绍了科技界的一个重要故事。如需了解有关人工智能如何改变我们日常生活的更多新闻，请关注Emma Roth。Stepback将于美国东部时间上午8点到达订阅者的收件箱。在此选择加入The Stepback。在ChatGPT成为现实之前很久，教育工作者和编辑经常使用反剽窃工具来查看作家是否对他们的工作诚实。 这些工具的工作原理是将书面作品与充满来自网络、学术文章等内容的数据库进行比较，以检查匹配的句子和短语。有些人，如Turnitin ，提供了一定的百分比……阅读The Verge的完整故事。",
-      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Long before ChatGPT became a thing, [&#8230;]",
-      "rawFullText": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started Long before ChatGPT became a thing, educators and editors frequently used anti-plagiarism tools to see if writers were being honest about their work. These tools work by comparing a written work against a database filled with content from across the web, scholarly articles, and more to check for matching sentences and phrases. Some, like Turnitin, offer a percentage th … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 87
-    },
-    {
-      "title": "陷入困境的对冲基金Situational Awareness向芯片初创公司Source Foundry投资4亿$",
-      "originalTitle": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-      "date": "2026-08-09T20:35:17.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "上个月， Situational Awareness可能不得不抛售其大部分公开投资组合，但这只专注于人工智能的对冲基金仍在进行一些大赌注。据《华尔街日报》报道，本周，该基金向Source Foundry投资了4亿美元，这是一家由斯坦福大学研究人员创立的初创公司，旨在使芯片制造更快、更便宜。这使其对Source Foundry的总投资达到5亿美元。 Situational Awareness由Leopold Aschenbrenner创立， Leopold Aschenbrenner是一位20多岁的前OpenAI研究员，他在2024年推出该基金时没有交易经验。据报道，早期回报强劲，但由于人工智能基础设施股下跌，该基金近几个月面临严重亏损。 7月底， Situational Awareness将其大部分公开投资组合出售给Ken Griffin的Citadel ，尽管该基金持有其Anthropic股票。据报道，其管理的资产从200 $十亿下降到100 $十亿。从好的方面来看， Aschenbrenner并没有让这些挫折妨碍他的婚礼。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。 最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "The AI-focused hedge fund is still making some big bets.",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 82
-    },
-    {
-      "title": "历史学家吉尔·勒波雷（ Jill Lepore ）表示，硅谷误读了科幻小说并破坏了民主",
-      "originalTitle": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-      "date": "2026-08-09T15:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "吉尔·勒波雷（ Jill Lepore ）在即将出版的《人造国家的兴衰》（ The Rise and Fall of the Artificial State ）一书中警告说，科技公司正在越来越多地取代民主政府的职能。她说，这种转变标志着“以算法、公司和机器统治的形式回归暴政和神秘主义。 在TechCrunch的Equity播客的最新一集中，我采访了哈佛大学历史学家和《纽约客》专职作家Lepore ，她最近因其对美国宪法的历史而获得了普利策奖，她谈到了她所描述的“我们应该生活在机器人为的国家或政府之下的想法”的演变。“我不是一个反技术专家，”勒波尔坚持说。 相反，她说： “我的牛肉是私营公司越来越多地承担国家职能的方式。虽然莱波雷的书考察了几个世纪以来的技术官僚哲学，但她认为，硅谷的许多“有魅力或不那么有魅力的领导人”--尤其是埃隆·马斯克(Elon Musk) --似乎正在迎来一个从误读的纸浆科幻小说和漫画书中拉出来的未来。 “但马斯克的有趣之处在于，他喜欢的东西实际上完全击败并蔑视了他所有的政治信仰，”她说。我们的谈话还涵盖了苹果着名的“1984” Macintosh广告，为什么将Twitter称为数字市政厅是“香蕉” ，以及当前数据中心的强烈反对。继续阅读，了解亮点，编辑长度和清晰度。 所以你可能已经做了很多，但你能解释一下你所说的“人工状态”是什么意思吗？所谓人为国家，我指的是一种正在取代美国和世界各地的自由民主民族国家的国家。它既是一个真实的东西，一个构造，但它也是一个想法。 因此，在这本名为《人工状态的兴衰》（ The Rise and Fall of the Artificial State ）的书中，我追溯了我们应该通过机器生活在人工状态或政府之下的观点的兴起。我还追溯了这样一个概念，即这是一个不可避免的失败，人工状态无法生存，我通过科幻小说追溯了这个想法。 有一次，你说人为国家的崛起标志着几个世纪的民主和平等权利的结束，它是“以算法、公司、机器统治的形式回归暴政和神秘主义。“你能不能再多说一点，你为什么这么严厉地看待它？ 是的，我确实对此持相当负面的看法，我认为重要的是将人工状态与技术本身或技术模式区分开来。我不是反技术人员。我嫁给了一个计算机科学家。我对我们现在正在进行的各种智力革命感到非常兴奋。那不是我的牛肉，对吧？",
-      "originalSummary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI收购演示文稿初创公司NextSlide",
-      "originalTitle": "OpenAI acquires presentation startup NextSlide",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "date": "2026-08-08T19:41:13.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "NextSlide最近宣布将加入OpenAI ，这家演示初创公司的团队成员现在正在开发ChatGPT。NextSlide网站目前显示创始人艾哈迈德·贝什里（ Ahmed Beshry ）的说明，将初创公司的产品描述为“可以将提示、笔记、文档或研究转化为精美、可编辑的演示文稿。Beshry说，最终目标是“使视觉沟通更容易获得，并帮助更多人清楚地表达自己的想法。 因此，通过加入OpenAI ，团队将“继续追求同样的使命：构建人工智能产品，帮助人们创造、沟通并将他们的想法转化为有意义的工作。“这笔交易的财务条款没有披露。在LinkedIn的一份报告中， Beshry表示，由于收购发生在“今年早些时候” ，该公告“推迟了几个月”。 “Beshry之前是Caper AI的联合创始人， Caper AI是一家智能购物车/无收银员结账初创公司，于2021年被Instacart收购。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Founder Ahmed Beshry describes the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.”",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
-    },
-    {
-      "title": "计划中的亚马逊数据中心可能成为美国最大的气候污染者",
-      "originalTitle": "Planned Amazon data center could become the biggest climate polluter in the US",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
-      "date": "2026-08-08T21:24:02.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "人工智能已经对亚马逊的碳排放量产生了重大影响，据报道，去年亚马逊的碳排放量增长了16% ，这对于一家承诺到2040年消除碳排放的公司来说是一个错误的方向。",
-      "originalSummary": "AI has already had a significant impact on Amazon’s carbon emissions, which it reported were up 16% last year — the wrong direction for a company that pledged to eliminate its carbon emissions by 2040.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "亚马逊数据中心可能拥有该国污染最严重的发电厂",
-      "originalTitle": "An Amazon data center could have the worst polluting power plant in the country",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
-      "date": "2026-08-08T17:53:34.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "据《纽约时报》报道，为了为其新的西德克萨斯州数据中心提供动力，亚马逊正在投资建设一座新的发电厂，该发电厂可能是美国最大的温室气体单一生产商之一。德克萨斯州佩科斯县的新燃气发电厂已获得亚马逊的大量投资，至少在最初不会连接到该州的电网。相反，其35台天然气涡轮机将主要提供7台。 为新数据中心提供65千兆瓦的电力。根据跟踪数据中心及其相关电力项目的Cleanview ， GW Ranch获得了德克萨斯州的许可，允许......在The Verge阅读完整故事。",
-      "originalSummary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The New York Times. The new gas-burning plant in Pecos County, Texas, has received significant investment from Amazon and, [&#8230;]",
-      "rawFullText": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to The New York Times . The new gas-burning plant in Pecos County, Texas, has received significant investment from Amazon and, at least initially, would not be connected to the state's power grid. Instead, its 35 natural-gas turbines would primarily deliver its 7.65 gigawatts of electricity to the new data center. According to Cleanview , which tracks data centers and their associated power projects, GW Ranch received a permit from Texas allowing for th … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
-    },
-    {
-      "title": "OpenAI对新车型进行了刹车，因为据说它太强大了",
-      "originalTitle": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "date": "2026-08-07T18:40:34.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "OpenAI表示，它正在暂停围绕正在开发的人工智能模型Astra的“内部活动” ，因为它尚未达到该公司正在实施的新安全标准。该公告是在最近披露OpenAI模型意外入侵Hugging Face之后发布的。此后， Anthropic和Meta也承认他们的人工智能模型流氓并破坏了其他组织。 据该公司称，最近对名为Astra的OpenAI模型进行的内部评估表明，它“在代理编码和网络安全方面取得了重大进展”。“除了专家评估之外，这些结果还使我们得出了最后一个结论……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue [&#8230;]",
-      "rawFullText": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face . Anthropic and Meta have also since admitted that they had AI models that went rogue and breached other organizations. Recent internal evaluations of an OpenAI model called Astra indicate that it offers \"significant advancements in agentic coding and cybersecurity,\" according to the company . \"These results, in addition to expert assessments, have led us to conclude last n … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Google AI重组背后的原因",
-      "originalTitle": "What&#8217;s behind the Google AI shake-up",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
-      "date": "2026-08-07T16:45:14.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "谷歌人工智能团队的一些知名人士本周获得了新工作。在某些情况下，包括传奇的谷歌员工杰夫·迪恩（ Jeff Dean ） ，这些工作不再在谷歌工作。鉴于谷歌的模型似乎落后于人择和OpenAI的最佳结果，这是否是谷歌陷入动荡的迹象？是关于Demis Hassabis想要比虚拟助手更有趣的工作吗？还是这里完全发生了什么其他事情？ 在The Vergecast的这一集中， Nilay和David首先讨论了谷歌的领导层改组，人工智能竞赛的现状，以及谷歌是否真的在这里取得成功。他们还……在The Verge阅读完整故事。",
-      "originalSummary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in [&#8230;]",
-      "rawFullText": "Some of the biggest names on Google's AI team got new jobs this week . In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in turmoil? Is it about Demis Hassabis wanting something more interesting to work on than virtual assistants? Or is there something else entirely happening here ? On this episode of The Vergecast, Nilay and David start by discussing the leadership shake-up at Google, the state of the AI race, and whether Google is actually set up to succeed here. They also t … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "HSP GRUPPE如何构建税务咨询的AI功能",
       "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
       "source": "OpenAI",
@@ -269,7 +196,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "应对关键网络能力的下一个前沿",
@@ -284,53 +211,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
-    },
-    {
-      "title": "OpenAI表示，由于安全问题，它放慢了Astra模型的开发速度",
-      "originalTitle": "OpenAI says it slowed Astra model development over security concerns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "date": "2026-08-07T22:48:24.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "OpenAI表示，该模型仍在开发中，已达到“关键网络安全阈值” ，这意味着它可以独立识别并针对传统上受到良好保护的现实世界系统进行网络攻击。",
-      "originalSummary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "改进ChatGPT中的GPT ‑ 5.6 SOL ，并扩大免费用户对GPT-5.6 Luna的访问",
-      "originalTitle": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "date": "2026-08-06T10:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ChatGPT引入了改进的GPT-5. 6 SOL ，具有更好的准确性和一致性，以及免费用户的扩展访问权限和GPT-5. 6 Luna的无限日常聊天。",
-      "originalSummary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "在青少年心理健康和人工智能方面与美国心理学协会合作",
-      "originalTitle": "Working with the American Psychological Association on youth mental health and AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "date": "2026-08-06T06:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI和美国心理学协会推动基于证据的指导、资源和保障措施，以促进负责任的人工智能使用和青少年心理健康。",
-      "originalSummary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
       "score": 91
+    },
+    {
+      "title": "TutorMoments ：人工智能导师是否知道什么时候该提供帮助，什么时候该退缩？",
+      "originalTitle": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/tutormoments",
+      "date": "2026-08-07T17:53:32.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "什么是优秀的导师？ TutorMoments的工作原理初步结果限制和后续步骤📄技术报告： https://tutormoments. allen. ai/static/paper/tutormoments-preview. pdf |📊数据： https://huggingface. co/datasets/allenai/tutormoments-preview |💻代码： https://github。 com/allenai/tutormoments今天，我们将介绍TutorMoments的预览，这是一个衡量尖端法学硕士是否可以平衡教育中最艰难的权衡之一的框架：何时介入并帮助学生，何时退缩并让学生做更多的工作。TutorMoments是一个基于重播的评估，建立在真实的一对一数学辅导课程之上。经验丰富的数学老师会阅读从美国 辅导计划并标记导师必须在使问题更容易开始和推动学生自己做更多推理之间做出选择的时刻。然后， TutorMoments将成绩单带到那个决策点，交给语言模型，并让模型在模拟课程中接任导师–学生由另一个语言模型扮演–看看法学硕士导师做了什么。 只告诉“导师好” ，我们发现模型往往过度帮助，给予太多的支持，很少推动学生做更深层次的思考。在导师的提示中详细说明权衡（何时帮助与何时退缩）可以提高绩效，但它并没有缩小与人类辅导的差距，而人类辅导始终适合这一时刻， LLM在拨打电话的可靠性方面仍然存在很大差异。 作为我们对开放研究的承诺的一部分，我们将发布一个去识别辅导成绩单的数据集，运行重播管道的代码，以及我们在这些成绩单中评估的关键时刻的模型导师重播，以确保可重复性。 我们希望TutorMoments能够为教育工作者、研究人员和构建人工智能导师的团队提供更清晰的方式，询问模型如何处理最重要的教学决策，并帮助该领域构建适应每个学生的导师，而不是为他们做工作。向优秀的数学导师寻求帮助，你可能会得到这样的问题： “你知道问题是什么吗？ “这并非无益--强有力的教学之一是诊断学生所知道的事情，并在此刻为他们提供正确的支持。立即提供志愿者支持将剥夺学生帮助他们学习的智力工作。有时需要支持；有时最有效的方法是通过解释正确答案来巩固理解。 然而，语言模型被训练成有用的，而有用的助手往往会为你做最难的部分--解释概念、列出步骤并引导你找到答案。在辅导课程中，这可以缩短富有成效的斗争-努力，有时令人沮丧的问题-学习研究长期以来一直与更强的理解联系在一起。大多数充当导师的语言模型基准都没有捕捉到这种紧张关系。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -345,7 +241,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "使用LFM2.5-2.6B在任何地方部署本地代理",
@@ -360,7 +256,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -392,7 +288,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
@@ -409,7 +305,7 @@
         "论文",
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -424,7 +320,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "人工智能炒作指数：不性感的人工智能",
@@ -439,7 +335,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "三星芯片工人正跃升为SK海力士的竞争对手",
@@ -454,7 +350,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "通往人工超级智能的道路",
@@ -547,21 +443,6 @@
         "机器人"
       ],
       "score": 71
-    },
-    {
-      "title": "新型号，同等优势",
-      "originalTitle": "Newer Models, Same Advantage",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-      "date": "2026-07-16T11:49:48.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
     }
   ]
 }
