@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T23:48:54.081Z",
+  "updatedAt": "2026-08-12T23:48:29.749Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,87 @@
   ],
   "articles": [
     {
+      "title": "一些Claude用户很生气，因为Anthropic的新水印会在他们的工作和课程中使用它",
+      "originalTitle": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "date": "2026-08-12T22:26:37.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic最近决定对Claude的输出进行水印—在聊天机器人的编辑文本中插入不可见的代码，将其标记为人工智能生成的。Anthropic推出了这项新政策，以满足欧盟人工智能法案的透明度代码，该代码现在要求科技公司以计算机系统可识别的方式标记人工智能生成或编辑的内容。然而，尽管欧洲监管机构可能会感到高兴，但一些人工智能用户肯定不会。 人们只需看看Reddit就可以找到酝酿不满情绪的证据，尽管该网站上的其他海报并不一致。我遇到的一个更具戏剧性的帖子来自一个名为visionode的用户，他的账号只有三周的历史。根据visionode的说法，新的水印系统是一个严厉的阴谋，旨在伤害全球无辜的聊天机器人用户。 Visionode的基本论点似乎是，虽然精明的Claude用户可以通过复述或通过其他AI服务清理其输出来隐藏其AI使用的证据，但Claude的普通用户将被捕获。“谁会被抓？你，那个利用克劳德重组段落的学生。要求人工智能总结两百页成绩单的记者。 有创意块并要求同义词的作家。那些家伙走出这个过程，额头上有一个数字纹身。“我绝不是要破坏visionode的愤怒，但这些都不是最好的例子。 要求人工智能总结两百页成绩单的记者不会被附在摘要上的水印所困扰，除非他们将摘要逐字复制并粘贴到他们的文章中--这显然是不道德的，不应该发生。对于一个学生来说，在要求克劳德的输出“重新组织一个段落”后，将其复制并粘贴到一篇文章中同样是不道德的。 “其他Reddit用户也没有特别支持海报的愤怒。“抓住这个家伙， ”一张海报只是评论道。Visionode并不是唯一一个抱怨的人。另一位不快乐的露营者称这些水印“不道德”和“恶心”，并认为通过使用克劳德，他们完成了大部分工作。 在他们看来，聊天机器人只是促进他们艰苦劳动的“工具”。“我给出了指示、背景、决定和无数的改进，克劳德就是工具。如果Claude开始对代码或其他生成的内容进行水印，它究竟声称有什么功劳？”海报问道。一位用户回击道： “不过，它并没有声称有功。” “这是关于能够检测人工智能生成的输出，因为人工智能生成的输出可能会在各种情况下造成风险。”",
+      "originalSummary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "从协助到执行：企业如何让人工智能发挥作用",
+      "originalTitle": "From assistance to execution: How enterprises put AI to work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "date": "2026-08-12T06:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI研究揭示了企业如何使用ChatGPT和Codex采用代理人工智能，以及前沿公司如何在人工智能采用方面领先。",
+      "originalSummary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "随着人工智能安全问题的日益增加，三位先驱提出了保持开放的理由",
+      "originalTitle": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "date": "2026-08-12T17:51:00.000Z",
+      "summary": "这条新闻与监管、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：监管、安全相关动态",
+      "fullContent": "在Ai4 ，世界上最受尊敬的三位人工智能专家--杰弗里·辛顿（ Geoffrey Hinton ）、李飞飞（ Fei-Fei Li ）和吴恩达（ Andrew Ng ） --就监管、开源访问以及美国如何随着中国在亚洲的进步而竞争进行了辩论。",
+      "originalSummary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "rawFullText": "",
+      "tags": [
+        "监管",
+        "安全",
+        "开源"
+      ],
+      "score": 97
+    },
+    {
+      "title": "CASE框架：治理企业代理人工智能的多学科控制架构",
+      "originalTitle": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.10153",
+      "date": "2026-08-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2608. 10153v1公告类型：新摘要：企业部署自主人工智能代理的速度快于他们的管理速度，流行的方法扩展了单一学科，通常是为确定性自动化而构建的DevSecOps ，跨越了各种规模的机构。我们认为，代理人工智能治理是四个问题，而不是一个问题，每个问题都有成熟的治理科学。 案例框架将控制理论分配给单个代理（意图作为设定点，护栏作为反馈，评估作为观察） ，复杂的自适应系统理论分配给代理集体（出现使单代理保证非组合） ，监督控制论分配给人类代理团队（必要多样性法则在结构上显示独立的人类监督失败） ，以及工程运营分配给车队（将错误预算扩展到决策质量 我们形式化每一层，推导出跨层耦合条件，包括零接触部署悖论，其中一层的卓越性使其他层的卓越性受到限制，并将二十多个企业控制追溯到其经典构造。 三项实证研究验证了这一论点： 82%的记录在案的生产代理失败是多层轨迹； 22个生态系统工具中没有一个提供完整的第2层（紧急）覆盖；所有35个得分公共部署都处于最低成熟度范围。我们将这种不匹配称为Emergence Gap （紧急状态差距） ，即在紧急状态层实现的风险与勉强提供的能力和实践缺失的风险。 具有非补偿性瓶颈加权指数和评估工具的五级成熟度模型将CASE作为基于生产企业代理平台的科学而非过程成熟度模型进行操作。由于《欧盟人工智能法案》第14条规定有效的人类监督是一项法律要求，只有满足必要多样性的架构才能使监督成为现实，而不是仪式。",
+      "originalSummary": "arXiv:2608.10153v1 Announce Type: new Abstract: Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, across every scale of agency. We argue that agentic AI governance is four problems, not one, each with a mature governing science. The CASE framework assigns Control theory to the individual agent (intent as setpoint, guardrails as feedback, evaluation as observation), complex Adaptive systems theory to agent collectives (where emergence makes single-agent assurance non-compositional), Supervisory cybernetics to human-agent teams (where the Law of Requisite Variety shows unaided human oversight fails structurally), and Engineering operations to fleets (extending error budgets to decision quality so autonomy becomes a controlled variable). We formalize each layer, derive cross-layer coupling conditions, including a zero-touch deployment paradox where excellence at one-layer strains the others, and trace twenty-plus enterprise controls to their classical constructs. Three empirical studies validate the thesis: 82 percent of documented production agent failures are multi-layer trajectories; none of 22 ecosystem tools offers full Layer 2 (emergence) coverage; and all 35 scored public deployments fall in the lowest maturity band. We name this mismatch, risk realized at the emergence layer against capability barely offered and practice absent, the Emergence Gap. A five-level maturity model with a non-compensatory bottleneck-weighted index and assessment instrument operationalizes CASE as a scientific rather than process maturity model, grounded in production enterprise agentic platforms. As EU AI Act Article 14 makes effective human oversight a legal requirement, only architectures satisfying requisite variety can make oversight real rather than ceremonial.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "RingCentral如何构建从工程到运营的人工智能原生工作",
+      "originalTitle": "How RingCentral builds AI-native work from engineering to ops",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ringcentral",
+      "date": "2026-08-12T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "了解RingCentral如何使用ChatGPT Work和Codex来加速人工智能产品开发，并在工程和运营中集中运营智能。",
+      "originalSummary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
       "title": "ChatGPT和Gemini都刚刚超过10亿用户",
       "originalTitle": "ChatGPT and Gemini both just passed 1 billion users",
       "source": "The Verge AI",
@@ -28,56 +109,6 @@
       "fullContent": "很多人整天都在和人工智能朋友聊天。|图片：谷歌谷歌产品第14次达到10亿用户。谷歌首席执行官桑达尔·皮查伊（ Sundar Pichai ）在X上发布消息称，每月有10亿人使用Gemini ， Gemini是谷歌有史以来增长最快的产品。十亿用户是一个巨大的里程碑，但谷歌并不是第一个达到这个里程碑的人工智能应用程序。 OpenAI的ChatGPT在几周前达到了目标，尽管该公司在一篇关于人们如何使用人工智能的博客文章中掩盖了“超过10亿人正在使用ChatGPT”的声明。外部数据显示， ChatGPT早在今年6月就超过了10亿用户，但OpenAI直到8月6日才宣布任何消息。……在The Verge阅读完整故事。",
       "originalSummary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT [&#8230;]",
       "rawFullText": "That’s a lot of people chatting with their AI friends all day. | Image: Google For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT hit the mark a few weeks ago, though the company buried the announcement that \"more than 1 billion people are putting ChatGPT to work\" in an otherwise anodyne blog post about how people use AI. External data suggested ChatGPT crossed 1 billion users as early as this June, but OpenAI hadn't announced anything until that post on August 6th. … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI推出适用于Linux的ChatGPT桌面应用程序",
-      "originalTitle": "OpenAI launches ChatGPT desktop app for Linux",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
-      "date": "2026-08-11T19:15:35.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "ChatGPT在世界各地的桌面上都有，但有一个地方缺乏它： Linux社区。开源开发者社区的某些部门一直在呼吁OpenAI将其聊天机器人带到他们的丛林中。截至本周， OpenAI已经纠正了这一疏忽，推出了适用于Linux的专用ChatGPT应用程序。 该公司周二表示： “Linux一直是桌面应用程序最受欢迎的平台之一，此次发布将ChatGPT和Codex扩展到每个主要的桌面操作系统。”新应用程序正在预览中发布，它将使Linux用户能够在许多不同的发行版上使用ChatGPT、ChatGPT Work和Codex。截至周二，该版本已在全球范围内发布。 OpenAI表示，将支持的发行版包括Ubuntu 24. 04和26. 04 LTS、Debian 13以及Fedora 43和44的桌面版本。整个Linux社区包括数百个发行版，尽管OpenAI在这里选择的发行版是各种“下游”桌面发行版或“风格”的基础，因此也应与OpenAI的应用程序兼容。 OpenAI略微落后于Anthropic ，后者大约一个月前发布了适用于Linux的Claude桌面应用程序。Anthropic的应用程序适用于Ubuntu 22. 04或更高版本以及Debian 12或更高版本。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "未发布的Anthropic模型在数学最大的未解决问题之一上取得了进展",
-      "originalTitle": "An unreleased Anthropic model made progress on one of math&#8217;s biggest unsolved problems",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-      "date": "2026-08-11T16:25:20.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
-      "fullContent": "150多年来，黎曼假说一直是数学中尚未解决的主要问题之一。Anthropic还没有解决这个问题，但该公司的模型取得了比您预期的更多进展。",
-      "originalSummary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Claude将对人工智能文本和图像应用不可见的水印",
-      "originalTitle": "Claude will apply invisible watermarks to AI text and images",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-      "date": "2026-08-11T12:22:20.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic已承诺开始使用机器可读数据标记Claude生成的文本和图像，以遵守欧洲的人工智能透明度规则。Anthropic在新的Claude支持页面上表示： “生成的文本将带有嵌入式水印，生成的文件将包含受支持的数字签名来源元数据。” 这些变化对人眼是不可见的，但将使人们和在线平台更容易检测到内容是否由Claude模型生成。这些更新是未来的承诺，而不是立即生效的承诺。根据……新的人工智能标签和透明度义务阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page. The changes are invisible to human [&#8230;]",
-      "rawFullText": "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency. \"Generated text will carry embedded watermarks, and generated files will include digitally signed provenance metadata where supported,\" Anthropic says on a new Claude support page . The changes are invisible to human eyes, but will make it easier for people and online platforms to detect if content was generated by Claude models. These updates are a future commitment rather than something that will go into effect immediately. New AI labeling and transparency obligations under the … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态"
@@ -101,21 +132,51 @@
       "score": 99
     },
     {
-      "title": "随着人工智能主导的攻击成倍增加， OpenAI推出了一种新的网络模型",
-      "originalTitle": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "date": "2026-08-10T23:56:15.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
-      "fullContent": "每天似乎都会带来一个关于人工智能特工“流氓”的新消息。“无论是破坏Hugging Face ，黑客攻击健身房网站，还是创建自己的虚假个人资料以进行社交工程入侵，人工智能模型的行为越来越像坏人。因此，让模型进行黑客攻击的人工智能实验室正在扩展其网络保护产品。 本周， OpenAI宣布扩展其今年早些时候推出的网络防御服务Daybreak ，此前不久， Anthropic发布了以网络为重点的模型Mythos。Daybreak是一项为维权者捆绑访问模型、工具和工作流程的服务。此次扩展包括使用专为防御性工作设计的全新以网络为中心的模型。OpenAI周一表示，黎明现在将包括两个层次：蓝色和红色。 这两个层级都将允许经批准的客户访问OpenAI的有限访问前沿网络模型。最先进的前沿模型一直备受争议。特朗普政府此前曾寻求与人工智能公司合作推出此类模型，据称是出于安全考虑。此前， OpenAI在使用这些模型时部署了大量的guar d rails ，限制了客户可以使用它们做什么。 Blue似乎是两者中较基本的一种，它提供各种网络服务，包括事件响应、恶意软件分析和补丁验证。OpenAI称蓝色是“大多数捍卫者推荐的起点” ，这意味着它对大多数企业来说应该足够了。另一方面， RED提供了一个更广泛且可能更危险的工具包。 该公司为其用户提供“经过专门培训的网络安全模型” ，旨在进行安全测试和漏洞研究。Red还推出了新型号GPT ‑ 5. 6 Cyber ，仅适用于该级别。该公司表示， GPT-5. 6 Cyber是基于GPT-5. 6 SOL构建的，为某些专门的网络安全任务提供了增强的功能。目前， GPT ‑ 5。 6网络仅适用于“可信赖的客户合作伙伴” ，据报道，包括埃森哲、IBM、CrowdStrike、Cloudflare等。虽然人工智能代理的威胁正在迅速增加，但批评者也指出，它们是人工智能实验室的营销机会。OpenAI肯定会以这种方式营销其升级的Daybreak。 该公司在一篇博客文章中表示： “网络安全领域正在迅速变化--威胁参与者将越来越多地使用人工智能以前所未有的速度和规模进行网络攻击，包括以完全自主的方式。” “随着这些能力的扩散，防御者需要做好准备。 “与此同时，企业仍然有兴趣从最了解安全风险的人工智能实验室购买他们的保护，因为他们直接了解他们。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "title": "破晓型号现已在AWS上提供",
+      "originalTitle": "Daybreak models are now available on AWS",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "date": "2026-08-11T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“破晓型号现已在AWS上提供”。它主要涉及公司动态、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "产品发布",
         "模型"
       ],
       "score": 99
+    },
+    {
+      "title": "Google 2026制作：所有Pixel新闻和公告",
+      "originalTitle": "Made by Google 2026: all the Pixel news and announcements",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
+      "date": "2026-08-11T17:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、模型相关动态",
+      "fullContent": "2026年8月12日，谷歌发布了一系列新的Pixel设备。丰富多彩的Pixel 11系列配备了升级的摄像头和性能， Pro型号提供内置LED环，可为Google的Gemini AI和其他功能点亮。谷歌还展示了其下一代Pixel Fold ，配备更薄的边框，以及带有改进的GPS跟踪功能的新款Pixel Watch 5。还有一个新的像素标签。 Made by Google直播于美国东部时间8月12日下午6点开始。喜剧演员特雷弗·诺亚（ Trevor Noah ）主持了今年的节目，邀请了NBA球星斯蒂芬·库里（ Stephen Curry ）、播客亚历克斯·库珀（ Alex Cooper ）、印度板球运动员舒布曼·吉尔（ Shubman Gill ）和日本女演员中城彩美（ Ayami您可以在此处阅读我们对活动的实时报道。关注有关Google Pixel设备的所有最新消息。 Pixel 11活动直播博客：让我们观看Trevor Noah介绍谷歌新手机不要碰那个表盘！ Google的Pixel 11手机预购可获得高达350 $的礼品卡Google的新款Pixel 11手机与去年型号相比如何在YouTube上与我们直播Pixel ！ Pixel 11 Pro Fold与Galaxy Z Fold 8相比， Google的目标是通过Pixel 11 Creator Suite吸引有影响力的人Google Pixel 11发布的7个最大的公告现在，这就是我所说的开心果。谷歌正在通过让Pixel相机变得更糟来让它们变得更好谷歌的Pixel Watch 5更深入地了解人工智能和健康谷歌两年前的Pixel耳机正在获得ANC更新。 安卓现在具有点击共享功能Pixel Tag是谷歌对AirTag的答案谷歌即将推出的Pixel手机是面向粉丝的，即使它的发布活动不是谷歌2026年Pixel硬件发布活动的期望",
+      "originalSummary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a [&#8230;]",
+      "rawFullText": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a new Pixel Watch 5 with improved GPS tracking. There’s a new Pixel Tag as well. The Made by Google livestream kicked off on August 12th at 6PM ET. Comedian Trevor Noah hosted this year’s show, featuring notable guests like NBA star Stephen Curry, podcaster Alex Cooper, Indian cricketer Shubman Gill, and Japanese actress Ayami Nakajo. You can read our live coverage of the event here . Follow along for all the latest news about Google&#8217;s Pixel devices. Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones Don’t touch that dial! Google’s Pixel 11 phone preorders come with up to $350 in gift cards How Google’s new Pixel 11 phones compare to last year’s models Come talk Pixels with us live on YouTube! How the Pixel 11 Pro Fold compares to the Galaxy Z Fold 8 Google aims for influencers with the Pixel 11 Creator Suite The 7 biggest announcements of Google’s Pixel 11 launch Now that’s what I call pistachio. Google is making the Pixel cameras better by making them worse Google’s Pixel Watch 5 dives deeper into AI and health Google’s two-year-old Pixel earbuds are getting an ANC update. Android now has a tap-to-share feature The Pixel Tag is Google’s answer to the AirTag Google’s upcoming Pixel phones are for the fans, even if its launch event isn’t What to expect from Google’s 2026 Pixel hardware launch event",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "另一位OpenAI高管起飞",
+      "originalTitle": "Another OpenAI executive takes off",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
+      "date": "2026-08-11T17:50:01.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "OpenAI的特殊项目负责人兼公司前首席运营官Brad Lightcap在AI实验室工作了8年后宣布离职。在他后来发布给X的内部备忘录中， Lightcap告诉同事他将开始“一些新的事情。Lightcap写道：“在过去的几个月里，我一直专注于下一个视野，以及阻碍任务成功的因素。” “我相信在我们进入下一个阶段时，世界需要做一些重要的新事情。我……很高兴能帮助你们所有人从不同的有利位置推进任务。“他补充说，在接下来的几周里，他还会在这里。Lightcap的角色…阅读The Verge的完整故事。",
+      "originalSummary": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand [&#8230;]",
+      "rawFullText": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand in the way of mission success,\" Lightcap wrote. \"I believe there are a few important new things the world will need to get right as we enter this next period. I … am excited to help you all advance the mission from a different vantage point.\" He added that he'd still be around for the next few weeks. Lightcap's role … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 86
     },
     {
       "title": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
@@ -151,22 +212,6 @@
       "score": 99
     },
     {
-      "title": "将前沿网络模型交到更值得信赖的人手中",
-      "originalTitle": "Putting frontier cyber models in more trusted hands",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "date": "2026-08-10T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "获批的Daybreak合作伙伴可以使用OpenAI的前沿网络模型为客户提供授权、受管控的网络安全服务。",
-      "originalSummary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
       "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "source": "Hugging Face",
@@ -184,49 +229,35 @@
       "score": 99
     },
     {
-      "title": "HSP GRUPPE如何构建税务咨询的AI功能",
-      "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "title": "将前沿网络模型交到更值得信赖的人手中",
+      "originalTitle": "Putting frontier cyber models in more trusted hands",
       "source": "OpenAI",
-      "link": "https://openai.com/index/hsp-gruppe",
-      "date": "2026-08-07T09:00:00.000Z",
+      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "date": "2026-08-10T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "获批的Daybreak合作伙伴可以使用OpenAI的前沿网络模型为客户提供授权、受管控的网络安全服务。",
+      "originalSummary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
+      "title": "Zapier如何使用ChatGPT转变核心营销流程",
+      "originalTitle": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/zapier",
+      "date": "2026-08-10T00:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "了解HSP GRUPPE如何使用ChatGPT Enterprise来提高生产力、提高工作质量，并为税务咨询和客户服务创造更多能力。",
-      "originalSummary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "fullContent": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户渠道中的掉线次数、构建营销活动资产和自动化报告。",
+      "originalSummary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 92
-    },
-    {
-      "title": "应对关键网络能力的下一个前沿",
-      "originalTitle": "Responding to the next frontier of critical cyber capabilities",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "date": "2026-08-07T15:20:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI正在分享对Astra的初步网络安全评估，以及我们为加强安全保障和安全控制而采取的措施。",
-      "originalSummary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 91
-    },
-    {
-      "title": "TutorMoments ：人工智能导师是否知道什么时候该提供帮助，什么时候该退缩？",
-      "originalTitle": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/tutormoments",
-      "date": "2026-08-07T17:53:32.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "什么是优秀的导师？ TutorMoments的工作原理初步结果限制和后续步骤📄技术报告： https://tutormoments. allen. ai/static/paper/tutormoments-preview. pdf |📊数据： https://huggingface. co/datasets/allenai/tutormoments-preview |💻代码： https://github。 com/allenai/tutormoments今天，我们将介绍TutorMoments的预览，这是一个衡量尖端法学硕士是否可以平衡教育中最艰难的权衡之一的框架：何时介入并帮助学生，何时退缩并让学生做更多的工作。TutorMoments是一个基于重播的评估，建立在真实的一对一数学辅导课程之上。经验丰富的数学老师会阅读从美国 辅导计划并标记导师必须在使问题更容易开始和推动学生自己做更多推理之间做出选择的时刻。然后， TutorMoments将成绩单带到那个决策点，交给语言模型，并让模型在模拟课程中接任导师–学生由另一个语言模型扮演–看看法学硕士导师做了什么。 只告诉“导师好” ，我们发现模型往往过度帮助，给予太多的支持，很少推动学生做更深层次的思考。在导师的提示中详细说明权衡（何时帮助与何时退缩）可以提高绩效，但它并没有缩小与人类辅导的差距，而人类辅导始终适合这一时刻， LLM在拨打电话的可靠性方面仍然存在很大差异。 作为我们对开放研究的承诺的一部分，我们将发布一个去识别辅导成绩单的数据集，运行重播管道的代码，以及我们在这些成绩单中评估的关键时刻的模型导师重播，以确保可重复性。 我们希望TutorMoments能够为教育工作者、研究人员和构建人工智能导师的团队提供更清晰的方式，询问模型如何处理最重要的教学决策，并帮助该领域构建适应每个学生的导师，而不是为他们做工作。向优秀的数学导师寻求帮助，你可能会得到这样的问题： “你知道问题是什么吗？ “这并非无益--强有力的教学之一是诊断学生所知道的事情，并在此刻为他们提供正确的支持。立即提供志愿者支持将剥夺学生帮助他们学习的智力工作。有时需要支持；有时最有效的方法是通过解释正确答案来巩固理解。 然而，语言模型被训练成有用的，而有用的助手往往会为你做最难的部分--解释概念、列出步骤并引导你找到答案。在辅导课程中，这可以缩短富有成效的斗争-努力，有时令人沮丧的问题-学习研究长期以来一直与更强的理解联系在一起。大多数充当导师的语言模型基准都没有捕捉到这种紧张关系。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
+      "score": 94
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -241,22 +272,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
-    },
-    {
-      "title": "使用LFM2.5-2.6B在任何地方部署本地代理",
-      "originalTitle": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "date": "2026-08-04T13:58:29.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "我们如何为边缘设备构建可靠的代理模型基准测试结果CPU和GPU上的推理速度如何使用LFM2。5-2. 6B LFM2。5-2. 6B演示入门引文LFM2。5-2. 6B旨在为完全能够在设备上的代理提供动力。它支持工具调用和多步骤工作流程，同时保持从笔记本电脑到手机等日常硬件的小巧和快速。 这使开发人员能够在任何地方部署代理，在设备上保持数据私有，并在没有云推理账单的情况下扩展使用。LFM2. 5-2. 6B在~ 34T代币上进行预训练，中间训练阶段将上下文窗口扩展到128K。然后，训练后将基本模型分为四个阶段： Agentic RL流水线将模型优化、推断和环境执行分为不同的组件。 Training Engine优化模型，而Rollout Engine使用最新策略生成操作。强化学习框架通过启动部署、收集轨迹和奖励以及更新模型来协调培训循环。操作在沙盒服务中执行，其中黑盒线束托管代理（例如、OpenClaw或Hermes Agent ） ，并协调与任务环境的互动。 线束代理使我们能够将代理线束视为无需修改的黑匣子，同时透明地捕获重建和验证RL训练样本所需的令牌级轨迹。我们评估了LFM2. 5-2. 6B在STEM、指令跟踪、工具使用和代理任务方面的模型，其大小为LFM2. 5-2. 6B的约4倍。它是该组中最小的型号，但它与其他型号竞争并经常击败其他型号。 对于您的应用程序，优势在于说明遵循和工具使用。LFM2. 5-2. 6B高于此处的每个指令遵循基准，以及除BFCLv4之外的每个工具使用基准，其中只有9. 7B Qwen领先。在代理任务上，它击败了Gemma模型，甚至与Qwens保持一致。它还能带来知识，并与数学保持密切联系。编码是较大型号保持明确领先地位的一个地方，因此可以在那里找到更大的东西。LFM2. 5-2. 6B在整个推理生态系统中提供首日支持，包括llama. cpp、MLX、vLLM、SGLang和ONNX。CPU推理。由于其高效的LFM2架构， LFM2. 5-2. 6B是我们测试的最快模型，在M5 Max上解码速度为220令牌/秒，在Ryzen AI Max + 395上解码速度为113令牌/秒。以30令牌/秒的速度，它允许您甚至在手机上运行功能强大的代理。GPU推理。LFM2。5-2。 6B是其规模类中最快的型号，在高并发时几乎达到每秒15K输出令牌，在单个H100上大约每天1. 3B令牌。当您需要大批量工作负载的设备上代理时，请联系LFM2. 5-2. 6B。安装最新版本的变压器（与> = 5. 0. 0的变压器兼容） ：查看为研究代理供电的LFM2. 5-2. 6B的浏览器演示。 客服代表帮助您研究特定问题并生成摘要。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 79
+      "score": 71
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -288,7 +304,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
@@ -305,7 +321,7 @@
         "论文",
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -320,7 +336,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "人工智能炒作指数：不性感的人工智能",
@@ -335,7 +351,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "三星芯片工人正跃升为SK海力士的竞争对手",
@@ -351,21 +367,6 @@
         "算力芯片"
       ],
       "score": 68
-    },
-    {
-      "title": "通往人工超级智能的道路",
-      "originalTitle": "The path to artificial superintelligence",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-      "date": "2026-07-27T12:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "想象一下，一个由多个人工智能代理组成的医疗保健系统：一个管理症状评估、另一个调度、第三个保险和第四个药房。每个人都是其领域的专家。但他们都有自己独特的知识和目标。如今，他们可以交换数据，但如果没有人做出决定，他们还无法真正协调患者护理。“情报已经存在。 缺少的是将四个陌生人变成一个团队的结缔组织。”思科Outshift高级副总裁兼总经理Vijoy Pandey解释说。这种“结缔组织”来自于添加一个语义层--Outshift称之为“认知互联网”--使跨领域的代理能够协同工作，并批判性地通过共同的意图、上下文和推理一起“思考”。 该语义层依赖于其下称为“代理互联网”的连接层，该连接层允许自治代理相互发现、证明身份并跨域交换消息。当一起使用时，它们将使“分布式超级智能的下一步”成为可能， Pandey说。多年来，从独奏硅学者到“认知互联网” ，人工智能行业一直专注于增长。 垂直扩展导致更大的模型，在更多的数据和更多的计算上进行训练。这产生了推理能力，可以像人工智能代理的“大脑”一样，可以在数字环境中感知、推理和行动。Pandey说，虽然垂直扩展可以永久地产生更强大的代理，但为了在不同的系统、公司和平台上实现代理问题解决，下一个扩展轴必须是水平的。 多智能体系统已经在软件工程、药物发现和科学模拟等领域进行了探索，但到目前为止，它们的表现并不令人印象深刻。一项研究发现，在评估七个开源多代理系统时，故障率在41%到87%之间。Pandey解释说： “互联代理能够很好地处理协调行动；完成一项他们已经看到、分散和传递的任务。” “他们不能做的是保持一个共同的目标，并对他们都没有接受过训练来解决的问题进行推理。Pandey补充道：“差距在于建筑，而不是促使问题。”“如果没有正确的协调层，朴素的多智能体设置可能比单个智能体表现更差。步骤的变化是，代理团队在新问题上自行收敛，没有人工缝合接缝。 “为了实现这一目标， Pandey说Outshift已经构建了一个名为AGNTCY的连接层，这是一个现在由Linux基金会领导的开源项目。AGNTCY允许不同系统、公司和平台的代理通过开放的标准化协议找到彼此、证明身份并交换消息。正如Pandey解释的那样，这使得认知互联网论文更进一步。 它创建了一个语义层，允许代理对齐目标（共享意图） ，汇集机构知识和复合记忆（共享上下文） ，并进行集体权衡（共享推理）。潘迪将这种进步比作人类的进步： “几十万年来，人类逐渐变得更加聪明，并且收益随着制造它们的每个人而消失，”他解释说。",
-      "originalSummary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate&#8230;",
-      "rawFullText": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate patient care without a human making the decisions. “The intelligence is already there. What is missing is the connective tissue that turns four strangers into one team,” explains Vijoy Pandey, senior vice president and general manager of Outshift by Cisco. This “connective tissue” comes from adding a semantic layer—what Outshift calls the “Internet of Cognition”—that enables agents across domains to work together and, critically, “think” together through shared intent, context, and reasoning. This semantic layer relies on a connectivity layer beneath it called the “Internet of Agents,” which allows autonomous agents to discover one another, prove identity, and exchange messages across domains. When used together, they enable “the next step on the road to distributed artificial superintelligence,” says Pandey. From solo silicon savants to the ‘Internet of Cognition’ For years, the AI industry has been focused on growth. Scaling vertically has led to bigger models, trained on more data with more compute. This has produced the reasoning capabilities that can be like a “brain” for AI agents, which can perceive, reason, and act in digital environments. While vertical scaling can produce more capable agents perpetually, to enable agentic problem solving across different systems, companies, and platforms the next axis of scale must be horizontal, says Pandey. Multi-agent systems are already being explored in areas like software engineering, drug discovery, and scientific simulations, but their performances so far have been underwhelming. One study finds a failure rate of between 41% and around 87% when evaluating seven open-source multi-agent systems. “Connected agents handle coordinated action well; taking a task whose shape they have seen, divided and passed around,” Pandey explains. “What they cannot do is hold a goal in common and reason toward something none of them was trained to solve.” “The gap is architectural, not a prompting problem,” Pandey adds. “Without the right coordination layer, naive multi-agent setups can perform worse than a single agent. The step change is that team of agents converging on its own, on a new problem, with no human stitching the seams.” To reach this goal, Pandey says Outshift has built a connectivity layer called AGNTCY, an open-source project now under the Linux Foundation. AGNTCY allows agents across different systems, companies, and platforms to find each other, prove identity, and exchange messages through open, standardized protocols. And, as Pandey explains, this allows the Internet of Cognition thesis to take a step further. It creates a semantic layer that allows agents to align goals (share intent), pool institutional knowledge and compound memory (share context), and make collective trade-offs (share reasoning). Pandey likens this progression to that of humans: “For hundreds of thousands of years humans got individually smarter, and the gains died with each person who made them,” he explains. “Around 70,000 years ago that changed, when humans learned to share intent, build cumulative knowledge, and reason collectively. That is when scattered individuals became civilization. “Agents are at the same threshold. We have built the silicon geniuses and given them agency. What they lack is the layer that let humans go collective,” he says. First steps to distributed superintelligence Enabling agents to work collectively rests on three pillars in the tech stack: Shared intent through cognition state protocols: Cognition state protocols are the semantic handshake that allow agents to agree on a goal before they act and then negotiate toward it. Outshift has created an open-source coordination layer called Mycelium, which organizations can clone and use against their own agents. “We found that unstructured groups reached a decision about a third of the time across 14 scenarios,” says Pandey, speaking about internal testing. “A coordination protocol that makes agents declare a goal, surface missing information, and resolve conflicts before acting raised that to 93%.” Shared context through cognition fabric: A cognition fabric is a shared institutional memory and communication mesh that allows agent insight to compound over time rather than resetting each session. This policy-governed context layer solves the problem of “organizational amnesia,” says Pandey, by ensuring the baseline intelligence of the systems only ever goes up. Shared reasoning through cognitive amplifiers and guardrail technologies: Two kinds of cognition engine can be used together to enable shared reasoning. Cognitive amplifiers speed up shared reasoning and modeling, and guardrail technologies (GATs) create security, cost, and compliance frameworks. Humans are active contributors to this layer, making judgment calls the system routes to them (rather than reviewing outputs after the fact). Cognition sharing in multi-agent systems can create new risks, including unintended delegations, malicious prompt injections or memory poisoning, or over-privileged agents with access to permissions and data far beyond what their tasks require. Environment-specific controls are therefore needed to protect against unintended actions or consequences. “Agents have human-like attributes but operate at machine speed and scale,” says Pandey. “Everything we built for twenty years—access control, identity, compliance—was built for humans or machines, not both.” Continuous Agent Semantic Authorization (CASA)—an open-source reference implementation developed by Outshift—is a GAT that works to ensure agent actions remain securely aligned with the user’s original goal through a process of continuous authorization. It does this by reading what the agent is trying to accomplish then checking each tool request against that task. In the case of a healthcare system, for example, an agent told to summarize a patient record may start by querying a whole database. This could lead to CASA denying the call, because the request no longer matches the task it was authorized for. “Today’s controls are scoped to a role or a session not to the task so an agent granted a tool can use it for anything,” explains Pandey. “Roughly 90% of the time, an agent has no way to confirm it is even cleared for the job it was handed.” Experimentation for cross-domain innovation When horizontally scaling intelligence in the enterprise, businesses should begin by experimenting with one cross-functional workflow that spans three or four teams and currently needs a human authorizing the handoffs, Pandey advises. “Stand it up as a small multi-agent system on open, interoperable infrastructure, with a measurable baseline,” he says. “Keep building bigger models, add the horizontal axis on top of them, and change what you measure. Track where one agent’s insight made another agent better—that is the signal the horizontal axis is working.” By starting to experiment now with intent, context, and reasoning layers, organizations can get ahead of the curve. “The problems are open, and the infrastructure is still being written,” says Pandey. “This is the moment to build it.” For more information on the Internet of Cognition, visit Outshift.com . This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 80
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
