@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T23:48:29.749Z",
+  "updatedAt": "2026-08-13T23:49:07.219Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,90 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "OpenAI引入了“超快” ，这是一种新模式，使GPT-5.6 SOL以14倍的速度工作",
+      "originalTitle": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "date": "2026-08-13T19:22:40.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "如果你曾经发现自己希望ChatGPT的采用速度快一点， OpenAI似乎正在回应你的祈祷。人工智能实验室推出了一种名为Ultrafast的新模式，据称该模式旨在大幅加快其最新、最强大的模型GPT-5. 6 SOL完成工作的速度。 该公司表示， Ultrafast可以以标准处理速度的14倍工作，每秒提供多达750个输出令牌—此类令牌代表LLM在与人类交互时生成的不同文本片段。该公司在周四的博客文章中表示： “到目前为止，获得实时速度通常意味着选择更小或更专业的型号。” “超快指向一个新的方向：每秒更有用的工作。“ OpenAI的竞争对手，如Anthropic ，也同样推出了其模型的加速版本。Claude有快速模式，尽管它没有提供OpenAI在这里提供的那种速度。OpenAI建议使用GPT-5的高辛烷值版本。 6 SOL可以部署在许多不同的企业工作流程中，最着名的是事件响应、客户服务和支持、金融市场分析和电子商务等相关领域。目前正在预览发布的Ultrafast由OpenAI与芯片制造商Cerebras的合作提供支持。 目前，该预览版仅向一小部分客户提供，尽管OpenAI表示，随着“容量的增长” ，它将扩大对该功能的访问。“扩展速度更快。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic让AI智能体在相同的任务上松动。他们发动了一场地盘战争。",
+      "originalTitle": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "date": "2026-08-13T18:28:14.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "人类学研究人员发现，人工智能代理可以以意想不到的方式发生冲突、勾结和协调，从而提出了新的问题，即今天的安全测试是否能够捕捉到多代理系统的风险。",
+      "originalSummary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT ‑ 5.6的建设者指南",
+      "originalTitle": "The builder’s guide to GPT‑5.6",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "date": "2026-08-13T11:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "了解初创公司如何使用GPT-5. 6构建更快、更具成本效益的AI代理，以及更智能的模型选择和新的Responses API功能。",
+      "originalSummary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "预览超快模式： GPT-5.6 SOL ，速度高达14倍",
+      "originalTitle": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "date": "2026-08-13T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "预览Ultrafast ，一个新的OpenAI API服务层，运行GPT-5。6 SOL速度提高14倍。由Cerebras提供支持，每秒最多可提供750个输出令牌。",
+      "originalSummary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "AutoWorldModel-Bench ：以国家为中心的自动化世界模型研究的基准",
+      "originalTitle": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.11216",
+      "date": "2026-08-13T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2608. 11216v1 Announce Type: new Abstract:世界建模是一个悬而未决的领域：架构、训练目标和状态表示以复杂的方式相互作用，没有单一的配方在环境中占主导地位。这使得它成为人工智能编码代理充当自主研究人员的理想测试平台--与主导当前代理基准的工程到规格任务不同，这种情况下没有事先指定改进方向。 我们引入了AutoWorldModel-Bench ，这是一个闭环基准，其中前沿编码代理在固定的计算预算下自主改进所提供的世界模型启动器。该基准在统一的结构化状态表示（从每个游戏中提取并通过共享张量格式消费的地面真实实体状态）下跨越八个游戏环境，从而将动态建模与感知隔离开来，并实现每运行分钟的迭代。 在64个会话中， Codex-5. 4和Claude Opus 4. 6在63上改进了他们的首发；在91%的会话中，获胜的编辑是一种非凡的研究风格修改--一种新的目标、表示、推出程序或架构变化--而不是超参数调整。我们的基准提供了一个环境，在这个环境中，可以根据开放式研究而不是从工程到规格的问题对前沿编码代理进行评估。",
+      "originalSummary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement direction is not specified in advance, unlike the engineering-to-spec tasks that dominate current agent benchmarks. We introduce AutoWorldModel-Bench, a closed-loop benchmark in which frontier coding agents autonomously improve a provided world-model starter under a fixed compute budget. The benchmark spans eight game environments under a unified structured-state representation--ground-truth entity state extracted from each game and consumed through a shared tensor format--which isolates dynamics modeling from perception and enables minutes-per-run iteration. Across 64 sessions, Codex-5.4 and Claude Opus 4.6 improve their starter on 63; in 91% of sessions the winning edit is a non-trivial research-style modification--a new objective, representation, rollout procedure, or architectural change--rather than a hyperparameter tweak. Our benchmark offers a setting in which frontier coding agents can be evaluated on open-ended research rather than engineering-to-spec problems.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
     {
       "title": "一些Claude用户很生气，因为Anthropic的新水印会在他们的工作和课程中使用它",
       "originalTitle": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
@@ -52,39 +136,6 @@
       "score": 99
     },
     {
-      "title": "随着人工智能安全问题的日益增加，三位先驱提出了保持开放的理由",
-      "originalTitle": "As AI safety concerns mount, three pioneers make the case for staying open",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
-      "date": "2026-08-12T17:51:00.000Z",
-      "summary": "这条新闻与监管、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：监管、安全相关动态",
-      "fullContent": "在Ai4 ，世界上最受尊敬的三位人工智能专家--杰弗里·辛顿（ Geoffrey Hinton ）、李飞飞（ Fei-Fei Li ）和吴恩达（ Andrew Ng ） --就监管、开源访问以及美国如何随着中国在亚洲的进步而竞争进行了辩论。",
-      "originalSummary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
-      "rawFullText": "",
-      "tags": [
-        "监管",
-        "安全",
-        "开源"
-      ],
-      "score": 97
-    },
-    {
-      "title": "CASE框架：治理企业代理人工智能的多学科控制架构",
-      "originalTitle": "The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.10153",
-      "date": "2026-08-12T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2608. 10153v1公告类型：新摘要：企业部署自主人工智能代理的速度快于他们的管理速度，流行的方法扩展了单一学科，通常是为确定性自动化而构建的DevSecOps ，跨越了各种规模的机构。我们认为，代理人工智能治理是四个问题，而不是一个问题，每个问题都有成熟的治理科学。 案例框架将控制理论分配给单个代理（意图作为设定点，护栏作为反馈，评估作为观察） ，复杂的自适应系统理论分配给代理集体（出现使单代理保证非组合） ，监督控制论分配给人类代理团队（必要多样性法则在结构上显示独立的人类监督失败） ，以及工程运营分配给车队（将错误预算扩展到决策质量 我们形式化每一层，推导出跨层耦合条件，包括零接触部署悖论，其中一层的卓越性使其他层的卓越性受到限制，并将二十多个企业控制追溯到其经典构造。 三项实证研究验证了这一论点： 82%的记录在案的生产代理失败是多层轨迹； 22个生态系统工具中没有一个提供完整的第2层（紧急）覆盖；所有35个得分公共部署都处于最低成熟度范围。我们将这种不匹配称为Emergence Gap （紧急状态差距） ，即在紧急状态层实现的风险与勉强提供的能力和实践缺失的风险。 具有非补偿性瓶颈加权指数和评估工具的五级成熟度模型将CASE作为基于生产企业代理平台的科学而非过程成熟度模型进行操作。由于《欧盟人工智能法案》第14条规定有效的人类监督是一项法律要求，只有满足必要多样性的架构才能使监督成为现实，而不是仪式。",
-      "originalSummary": "arXiv:2608.10153v1 Announce Type: new Abstract: Enterprises are deploying autonomous AI agents faster than they can govern them, and prevailing approaches stretch a single discipline, typically DevSecOps built for deterministic automation, across every scale of agency. We argue that agentic AI governance is four problems, not one, each with a mature governing science. The CASE framework assigns Control theory to the individual agent (intent as setpoint, guardrails as feedback, evaluation as observation), complex Adaptive systems theory to agent collectives (where emergence makes single-agent assurance non-compositional), Supervisory cybernetics to human-agent teams (where the Law of Requisite Variety shows unaided human oversight fails structurally), and Engineering operations to fleets (extending error budgets to decision quality so autonomy becomes a controlled variable). We formalize each layer, derive cross-layer coupling conditions, including a zero-touch deployment paradox where excellence at one-layer strains the others, and trace twenty-plus enterprise controls to their classical constructs. Three empirical studies validate the thesis: 82 percent of documented production agent failures are multi-layer trajectories; none of 22 ecosystem tools offers full Layer 2 (emergence) coverage; and all 35 scored public deployments fall in the lowest maturity band. We name this mismatch, risk realized at the emergence layer against capability barely offered and practice absent, the Emergence Gap. A five-level maturity model with a non-compensatory bottleneck-weighted index and assessment instrument operationalizes CASE as a scientific rather than process maturity model, grounded in production enterprise agentic platforms. As EU AI Act Article 14 makes effective human oversight a legal requirement, only architectures satisfying requisite variety can make oversight real rather than ceremonial.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "模型"
-      ],
-      "score": 96
-    },
-    {
       "title": "RingCentral如何构建从工程到运营的人工智能原生工作",
       "originalTitle": "How RingCentral builds AI-native work from engineering to ops",
       "source": "OpenAI",
@@ -97,23 +148,38 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
-      "title": "ChatGPT和Gemini都刚刚超过10亿用户",
-      "originalTitle": "ChatGPT and Gemini both just passed 1 billion users",
+      "title": "使用可信赖的数据扩展AI代理",
+      "originalTitle": "Scaling AI agents with trustworthy data",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "date": "2026-08-12T16:51:57.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "业务和技术领导者不需要说服代理人工智能的时代已经到来。组织正在迅速采用代理，很少有高管怀疑这项技术改变工作的潜力。但许多组织发现，实现人工智能预期的投资回报（ ROI ）取决于拥有正确的基础，而基础设施和数据不足是主要障碍。Agentic AI对企业数据系统提出了相当大的新要求。 从回答问题到采取行动的转变意味着人工智能代理需要来自整个企业的所有结构化和非结构化形式的数据，以及正确的业务环境。为了实时做出决策并采取行动，代理还需要顺畅地访问组织的运营系统，例如存储其供应链、销售点或人力资源数据的系统。 传统数据系统，即使是几年前更新的数据系统，也很难满足这些需求。下载报告随着人工智能代理在企业运营中越来越广泛地嵌入，克服遗留数据系统限制的需求变得更加迫切。 如果Gartner预测人工智能代理将在2027年之前增强或自动化50 ％的业务决策，那么组织必须消除瓶颈或风险，剥夺代理快速做出正确决策所需的数据。本报告基于对300名数据和技术高管的调查，探讨了遗留系统如何限制人工智能代理在许多组织中的有效性。 它发现，少数组织（数据领导者）在代理人工智能方面取得了更大的成功，并且由于遗留系统而减少了数据限制。这些领导者提供了创建合适的数据环境的指南，使代理能够蓬勃发展，并扩展可信赖的系统。该报告的主要发现包括：目前很少有公司为代理人工智能提供充分的企业数据访问权限。 在所有接受调查的组织中，人工智能只能访问平均45%的公司数据。在被归类为“数据落后者”的组织中，这一数字降至30%或更低。然而，精选组确保对其70%以上数据的访问。这些“数据领导者”的代理比其他人取得了更大的成功。对客服代表决策的信任反映了数据的准备情况。 如今，只有大约一半的受访组织相信他们的人工智能代理做出的决策是准确和相关的。相比之下， 100%的数据领导者信任代理商的决策，这是一个强有力的指标，表明可靠的人工智能需要可靠的数据基础。数据领导者发现，实现座席规模和速度更容易。三分之二的数据落后者表示，传统数据系统限制了AI代理的扩展（ 66% ） ，并阻止代理快速做出决策（ 68% ）。 在很大程度上克服了传统数据限制之后，领导者们大多已经清除了这些障碍，只有8%的人报告了这两种限制。迫切需要让数据地产代理做好准备。在两年内， 100%的受访者计划使用agentic AI ， 69%的受访者希望广泛使用它。如果不消除数据系统限制，代理人工智能将无法提供所承诺的所需速度和效率。数据访问和上下文是重中之重。",
+      "originalSummary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data&#8230;",
+      "rawFullText": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents , and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data being major blockers . Agentic AI places considerable new demands on enterprise data systems. The shift from answering questions to taking actions means AI agents need data from across the enterprise, in all its structured and unstructured forms, and with the right business context. To make decisions and act in real time, agents also need frictionless access to the organization’s operational systems—for example, those storing its supply chain, point-of-sale, or human resources data. Legacy data systems, even those updated just a few years ago, struggle to meet these demands. DOWNLOAD THE REPORT As AI agents become embedded more widely in enterprise operations, the need to overcome the restrictions of legacy data systems grows more urgent. If Gartner’s prediction that AI agents will augment or automate 50% of business decisions by 2027 proves correct, organizations must eliminate bottlenecks or risk depriving agents of the data they need to make the right decisions at speed. This report, based on a survey of 300 data and technology executives, explores how legacy systems are limiting the effectiveness of AI agents in many organizations. It finds that a handful of organizations—the data leaders—are having greater success with agentic AI and experiencing fewer data limitations as a result of legacy systems. These leaders offer a guide to creating the right data environment for agents to flourish and trusted systems to scale. Key findings from the report include: Few companies currently provide agentic AI with ample access to enterprise data. Across all the surveyed organizations, AI only has access to an average of 45% of company data. That number falls to 30% or less in organizations categorized as “data laggards”. A select group, however, ensures access to over 70% of their data. These “data leaders” are having greater success with their agents than the rest. Trust in agent decisions is a reflection of data readiness. Today, only around half of surveyed organizations trust that the decisions their AI agents make are accurate and relevant. By contrast, 100% of the data leaders trust their agents’ decisions, a strong indicator that reliable AI requires a reliable data foundation. Data leaders find it easier to achieve agent scale and speed. Two-thirds of data laggards say legacy data systems limit AI agent scaling (66%) and prevent agents from making decisions at speed (68%). Having largely overcome legacy data constraints, the leaders have mostly cleared these roadblocks, with just 8% reporting either constraint. The pressure is on to make data estates agent-ready. Within two years, 100% of respondents plan to be using agentic AI, with 69% expecting to use it widely. Without removing data system constraints, agentic AI will fail to deliver the desired speed and efficiencies it promises. Data access and context are top priorities. The most important initiative to enable scaling among all respondents is improving access to structured and unstructured data for AI agents. Also high on the list is enhancing data and AI governance with business context. Data leaders are also focusing heavily on the automation of data management. Download the full report. This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
+    },
+    {
+      "title": "当然， ChatGPT狗癌症疫苗催生了一家初创公司",
+      "originalTitle": "Of course the ChatGPT dog cancer vaccine spawned a startup",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-      "date": "2026-08-11T19:41:42.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "很多人整天都在和人工智能朋友聊天。|图片：谷歌谷歌产品第14次达到10亿用户。谷歌首席执行官桑达尔·皮查伊（ Sundar Pichai ）在X上发布消息称，每月有10亿人使用Gemini ， Gemini是谷歌有史以来增长最快的产品。十亿用户是一个巨大的里程碑，但谷歌并不是第一个达到这个里程碑的人工智能应用程序。 OpenAI的ChatGPT在几周前达到了目标，尽管该公司在一篇关于人们如何使用人工智能的博客文章中掩盖了“超过10亿人正在使用ChatGPT”的声明。外部数据显示， ChatGPT早在今年6月就超过了10亿用户，但OpenAI直到8月6日才宣布任何消息。……在The Verge阅读完整故事。",
-      "originalSummary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT [&#8230;]",
-      "rawFullText": "That’s a lot of people chatting with their AI friends all day. | Image: Google For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever. A billion users is a huge milestone, but Google isn't the first AI app to hit it. OpenAI's ChatGPT hit the mark a few weeks ago, though the company buried the announcement that \"more than 1 billion people are putting ChatGPT to work\" in an otherwise anodyne blog post about how people use AI. External data suggested ChatGPT crossed 1 billion users as early as this June, but OpenAI hadn't announced anything until that post on August 6th. … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "date": "2026-08-12T12:09:34.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
+      "fullContent": "还记得一个澳大利亚科技企业家使用ChatGPT、Grok和其他人工智能工具为他的狗制作个性化癌症疫苗的故事吗？令人惊讶的是，他创办了一家初创公司。这位企业家是Paul Conyngham ，他说他正在推出Gamgee ，为狗提供“个性化的mRNA癌症疫苗。 “但他的野心远远超出了狗和宠物， Gamgee的网站承诺该公司将利用人工智能和基因技术为包括人类在内的一系列疾病和物种开发个性化治疗方法。Gamgee的起源故事的核心是Rosie ， Conyngham的斯塔福德郡斗牛犬- Shar Pei混血儿，他们......在The Verge阅读完整的故事。",
+      "originalSummary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [&#8230;]",
+      "rawFullText": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog ? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well beyond dogs - and pets - with Gamgee's website promising the company will harness AI and genetics to develop personalized treatments for a range of diseases and species, including humans. At the center of Gamgee's origin story is Rosie, Conyngham's Staffordshire bull terrier-Shar Pei mix, who … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "公司动态"
+        "产品发布"
       ],
-      "score": 99
+      "score": 93
     },
     {
       "title": "在ChatGPT中测试广告",
@@ -145,38 +211,22 @@
         "公司动态",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "Google 2026制作：所有Pixel新闻和公告",
-      "originalTitle": "Made by Google 2026: all the Pixel news and announcements",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/977561/made-by-google-2026-pixel-11-news",
-      "date": "2026-08-11T17:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、模型相关动态",
-      "fullContent": "2026年8月12日，谷歌发布了一系列新的Pixel设备。丰富多彩的Pixel 11系列配备了升级的摄像头和性能， Pro型号提供内置LED环，可为Google的Gemini AI和其他功能点亮。谷歌还展示了其下一代Pixel Fold ，配备更薄的边框，以及带有改进的GPS跟踪功能的新款Pixel Watch 5。还有一个新的像素标签。 Made by Google直播于美国东部时间8月12日下午6点开始。喜剧演员特雷弗·诺亚（ Trevor Noah ）主持了今年的节目，邀请了NBA球星斯蒂芬·库里（ Stephen Curry ）、播客亚历克斯·库珀（ Alex Cooper ）、印度板球运动员舒布曼·吉尔（ Shubman Gill ）和日本女演员中城彩美（ Ayami您可以在此处阅读我们对活动的实时报道。关注有关Google Pixel设备的所有最新消息。 Pixel 11活动直播博客：让我们观看Trevor Noah介绍谷歌新手机不要碰那个表盘！ Google的Pixel 11手机预购可获得高达350 $的礼品卡Google的新款Pixel 11手机与去年型号相比如何在YouTube上与我们直播Pixel ！ Pixel 11 Pro Fold与Galaxy Z Fold 8相比， Google的目标是通过Pixel 11 Creator Suite吸引有影响力的人Google Pixel 11发布的7个最大的公告现在，这就是我所说的开心果。谷歌正在通过让Pixel相机变得更糟来让它们变得更好谷歌的Pixel Watch 5更深入地了解人工智能和健康谷歌两年前的Pixel耳机正在获得ANC更新。 安卓现在具有点击共享功能Pixel Tag是谷歌对AirTag的答案谷歌即将推出的Pixel手机是面向粉丝的，即使它的发布活动不是谷歌2026年Pixel硬件发布活动的期望",
-      "originalSummary": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a [&#8230;]",
-      "rawFullText": "On August 12, 2026, Google revealed a bunch of new Pixel devices. The colorful Pixel 11 lineup comes with upgraded cameras and performance, with the Pro models offering a built-in LED ring that lights up for Google&#8217;s Gemini AI and other features. Google also showed off its next-gen Pixel Fold featuring thinner bezels, alongside a new Pixel Watch 5 with improved GPS tracking. There’s a new Pixel Tag as well. The Made by Google livestream kicked off on August 12th at 6PM ET. Comedian Trevor Noah hosted this year’s show, featuring notable guests like NBA star Stephen Curry, podcaster Alex Cooper, Indian cricketer Shubman Gill, and Japanese actress Ayami Nakajo. You can read our live coverage of the event here . Follow along for all the latest news about Google&#8217;s Pixel devices. Pixel 11 event live blog: Let&#8217;s watch Trevor Noah introduce Google&#8217;s new phones Don’t touch that dial! Google’s Pixel 11 phone preorders come with up to $350 in gift cards How Google’s new Pixel 11 phones compare to last year’s models Come talk Pixels with us live on YouTube! How the Pixel 11 Pro Fold compares to the Galaxy Z Fold 8 Google aims for influencers with the Pixel 11 Creator Suite The 7 biggest announcements of Google’s Pixel 11 launch Now that’s what I call pistachio. Google is making the Pixel cameras better by making them worse Google’s Pixel Watch 5 dives deeper into AI and health Google’s two-year-old Pixel earbuds are getting an ANC update. Android now has a tap-to-share feature The Pixel Tag is Google’s answer to the AirTag Google’s upcoming Pixel phones are for the fans, even if its launch event isn’t What to expect from Google’s 2026 Pixel hardware launch event",
+      "title": "考虑ACE ？我们可以用更少的代币做到这一点",
+      "originalTitle": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "date": "2026-08-11T13:37:10.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "我们同意在哪里不同为什么重要相同的课程，不同的交付关联的工件/参考文献方法注释参考表ALTK-Evolve和ACE都让客服代表从自己的轨迹中学习。不同之处在于他们对学到的东西做了什么—这决定了代币账单。 给LLM代理一个现实的多步骤任务--拆分账单、查找歌曲、在九个模拟应用程序中协调订单--当它失败时，通常不是因为缺乏知识。它错误地分页API ，解析错误的人员，或在没有要求时返回值。该模型知道API ；它没有内化的是如何可靠地使用它们。这可以从客服代表自己的历史中了解到。 最近的两个系统在相同类型的Agent上做到了这一点： ACE （ Agentic Context Engineering ）和我们的ALTK-Evve （在此介绍）。两者都是一种客服代表记忆的形式--将客服代表的过去轨迹转化为可重复使用的课程，并在推理时反馈，无权重更新，无人工标签。他们甚至在困难的部分达成了一致。他们分道扬镳的地方是派送。 关于单词的注释，因为这两个系统对事物的命名不同：我们称之为客服代表学到的原始东西。ACE将其课程组织成一个全面、不断发展的剧本；我们将我们的课程整合到可单独检索的指南中。同样的课程，两个容器。 ACE准确地命名了故障模式：简洁性偏差—针对简短、通用指令的优化崩溃—以及上下文崩溃—要求模型在每个步骤中重写其整个上下文，以总结细节。它的答案是保留一个丰富的，逐项的剧本，在每个项目符号上都有一个有用/有害的计数器，并让模型在阅读时提取相关性。我们从另一个方向得出了同样的结论。 每个不同的指导方针都会保持支持计数—有多少独立剧集制作了它—我们从未将商店总结为少数规则。发现的五个不同任务与一次出现的任务不同，两者都值得保留。那么，在核心问题上，您是否应该将客服代表来之不易的课程压缩成整洁的总结？ — ACE和ALTK-Evolve给出了相同的答案：否。数一数，不要塌陷。 ACE的每个子弹计数器和我们的支持计数是相同想法的两个拼写。有两个地方：内存是如何构建的，以及它是如何交付的，而交付的差异会出现在令牌账单中。整合（如何构建商店）。ACE通过Generator → Reflector → Curator循环增加一个剧本，应用增量增量更新并通过嵌入进行重复数据消除。 我们将近似重复的课程聚集在一个集群内并合并，支持节约--当多个课程合并时，幸存者继承其合并计数，因此商店缩小而不会丢失每个指南支持多少经验的记录。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "模型"
+        "AI 热点"
       ],
-      "score": 92
-    },
-    {
-      "title": "另一位OpenAI高管起飞",
-      "originalTitle": "Another OpenAI executive takes off",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure",
-      "date": "2026-08-11T17:50:01.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "OpenAI的特殊项目负责人兼公司前首席运营官Brad Lightcap在AI实验室工作了8年后宣布离职。在他后来发布给X的内部备忘录中， Lightcap告诉同事他将开始“一些新的事情。Lightcap写道：“在过去的几个月里，我一直专注于下一个视野，以及阻碍任务成功的因素。” “我相信在我们进入下一个阶段时，世界需要做一些重要的新事情。我……很高兴能帮助你们所有人从不同的有利位置推进任务。“他补充说，在接下来的几周里，他还会在这里。Lightcap的角色…阅读The Verge的完整故事。",
-      "originalSummary": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand [&#8230;]",
-      "rawFullText": "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab. In an internal memo he later posted to X, Lightcap told colleagues he'd be starting \"something new.\" \"Over the last few months, I've been focused on the next horizon and what would stand in the way of mission success,\" Lightcap wrote. \"I believe there are a few important new things the world will need to get right as we enter this next period. I … am excited to help you all advance the mission from a different vantage point.\" He added that he'd still be around for the next few weeks. Lightcap's role … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
+      "score": 75
     },
     {
       "title": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
@@ -226,7 +276,7 @@
         "多模态",
         "开源"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "将前沿网络模型交到更值得信赖的人手中",
@@ -242,22 +292,22 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "Zapier如何使用ChatGPT转变核心营销流程",
-      "originalTitle": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "title": "构建AI原生金融功能教会了我什么",
+      "originalTitle": "What building an AI-native finance function taught me",
       "source": "OpenAI",
-      "link": "https://openai.com/index/zapier",
-      "date": "2026-08-10T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Zapier的企业营销团队使用ChatGPT Work来减少潜在客户渠道中的掉线次数、构建营销活动资产和自动化报告。",
-      "originalSummary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "link": "https://openai.com/index/building-an-ai-native-finance-function",
+      "date": "2026-08-10T17:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI首席财务官Sarah Friar分享了构建AI原生财务功能的五个经验教训，从自动化预测到更强大的控制和AI ROI。",
+      "originalSummary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
       "rawFullText": "",
       "tags": [
-        "大模型"
+        "公司动态"
       ],
-      "score": 94
+      "score": 92
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -272,7 +322,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -304,7 +354,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
@@ -321,7 +371,7 @@
         "论文",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "GPU管理：为什么空闲的GPU是新的停飞飞机",
@@ -336,7 +386,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "人工智能炒作指数：不性感的人工智能",
@@ -352,21 +402,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "三星芯片工人正跃升为SK海力士的竞争对手",
-      "originalTitle": "Samsung’s chip workers are jumping ship to rival SK Hynix",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-      "date": "2026-07-28T09:18:57.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
-      "fullContent": "三星半导体部门的工程师李在轮班结束时打卡下班。他曾经工作时间更长，为了在项目中脱颖而出而付出了额外的努力。但最近，他直接回家为芯片制造商的韩国竞争对手SK海力士(SK Hynix)处理工作申请，与同事分享如何起草一份出色的个人声明。甚至他的老板也鼓励他采取行动。 Lee说：「我的团队负责人告诉我们大家跳槽到SK海力士。」他和他的同事们对SK海力士将向其员工支付的47.6万美元奖金感到沮丧，这笔奖金充斥着为英伟达人工智能加速器提供动力的高带宽内存（ HBM ）芯片的创纪录利润。这个数字使三星的芯片工人将要接受的东西相形见绌，并引发了一场大逃亡。 随着人工智能热潮的升温，半导体巨头们正在发动一场激烈的人才大战，其中包括华而不实的奖金、激进的招聘，甚至是法庭禁令。谁能赢得这场竞赛，在人工智能热潮的核心主宰下一代HBM芯片。Lee说： “除了我们的两个团队负责人之外，我的整个团队（ 30人）刚刚申请了SK海力士。”他指的是该公司7月份发布的一份工作。 Lee在三星工作了三年，甚至在竞争对手那里申请了一个入门级职位。一位在三星工作了八年的同事申请了同样的工作。他们都被拒绝了。但他们希望在寻找更有经验的工程师时，他们会收到回电。 《麻省理工科技评论》采访过的三星和SK海力士的所有员工都要求只用姓氏或化名来识别，因为他们害怕雇主的报复。三星拒绝置评， SK海力士也没有回应置评请求。经过与工会的长时间谈判，三星在5月份达成了一项支付10美元的协议。 半导体部门每年向员工发放5%的营业利润作为奖金，为期10年，主要是三年以上的公司股票。此前， SK海力士去年同意向员工支付10%的营业利润，相当于今年每名员工476,000 $ ，主要是现金。但在三星，每个部门的奖金都与自己的底线挂钩。 其内存部门的芯片工人也从生产HBM芯片中获得了意外收获，今年每名员工的奖金约为40万美元。但那些像Lee一样在三星代工部门工作的人，他们生产特斯拉和谷歌等公司设计的逻辑芯片，并且一直在亏损，他们将获得大约13.5万美元的奖金。 员工告诉《麻省理工科技评论》，三星表示，它不能给表现不佳的部门发放尽可能多的奖金。Lee在看到工会与公司搏斗了几个月后表示，他对自己最终得到的结果感到失望： “即使三星在未来表现良好，我认为它也不会滴落到我身上。“工人的滞后奖金使SK海力士突然看起来很有吸引力。",
-      "originalSummary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on&#8230;",
-      "rawFullText": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on how to draft a stellar personal statement. Even his boss encourages him to make the move. “My team lead tells us all to jump ship to SK Hynix,” says Lee. He and his coworkers are feeling demoralized by the $476,000 bonus that SK Hynix is set to pay its employees, flush with record profits from making the high-bandwidth memory (HBM) chips that power Nvidia’s AI accelerators. The figure dwarfs what chip workers at Samsung are set to receive and is sparking an exodus. As the AI boom heats up, the semiconductor titans are waging a fierce talent war with flashy bonuses, aggressive recruiting, and even a courtroom injunction. Who wins could tilt the race to dominate the next generation of the HBM chips at the heart of the AI boom. “Except for our two team leads, my entire team [of 30 people] just applied to SK Hynix,” Lee says, referring to a job posting the company published in July. Lee, who has worked at Samsung for three years, even applied for an entry-level position at its rival. A coworker, who has worked at Samsung for eight years, applied for the same one. They both got rejected. But they’re hopeful that they’ll get a callback for a posting seeking a more experienced engineer. All employees at Samsung and SK Hynix that MIT Technology Review spoke with asked to be identified by just their last name or a pseudonym because they feared retaliation from their employer. Samsung declined to comment, and SK Hynix did not respond to requests for comment. After prolonged negotiations with its labor union, Samsung struck a deal in May to pay out 10.5% of the semiconductor division’s operating profits to employees as bonuses annually for 10 years, mostly in company stock that vests over three years. The move came after SK Hynix agreed last year to pay out 10% of operating profits to employees, which translates to $476,000 per employee this year—mostly in cash. &nbsp; But at Samsung, each division’s bonus is tied to its own bottom line. Chip workers in its memory division, which is also reaping a windfall from making HBM chips, are getting paid a bonus of roughly $400,000 per employee this year. But those who, like Lee, work in Samsung’s foundry division, which manufactures logic chips that companies like Tesla and Google design and has been operating at a loss, are getting a bonus of roughly $135,000 .&nbsp; Employees told MIT Technology Review that Samsung said it can’t give as many bonuses to divisions that aren’t performing well. Lee, after watching the labor union wrestle with the company for months, says he has felt disappointed by what he ended up with: “Even if Samsung does well in the future, I don’t think any of it will trickle down to me.”&nbsp; The workers’ lagging bonuses are making SK Hynix suddenly look appealing. According to a survey by the Samsung labor union in June, 81.5% of employees in the company’s foundry division, and nearly half of employees in the semiconductor division as a whole, said they wanted to go to another company in the next two years. In April, Samsung labor union chief Choi Seung-ho said more than 200 members of the union had left for SK Hynix over the past four months. On Blind , an anonymous workplace forum, a chorus of disgruntled engineers at Samsung confess that they want to defect to SK Hynix for the bigger bonuses.&nbsp; For decades, SK Hynix lived in Samsung’s shadow. It was the smaller, scrappier memory maker that elite engineering students at universities looked past when applying for jobs. But in 2019, Samsung downsized its HBM team, betting the market would stay niche, while SK Hynix doubled down on the technology. Then the AI boom supercharged the demand for HBMs, which feed AI chips the enormous amounts of data they need at ultra-high speed, driving prices to unprecedented levels. SK Hynix now leads the global market for HBMs, while Samsung is playing catch-up. Both companies topped $1 trillion in market value in May, and SK Hynix briefly dethroned Samsung as South Korea’s most valuable company in June. Predicting that demand for memory chips will continue to surge , the semiconductor titans are making aggressive investments to expand their business. Last month, the companies unveiled plans to invest more than $2 trillion by 2040, including a semiconductor “mega-cluster” in Yongin, a city south of Seoul. To staff the expansion, SK Hynix added 2,152 employees in the first half of 2026 alone and aims to double its manufacturing capacity in five years. Samsung plans to hire 60,000 employees over the next five years, especially for its semiconductor division. Even so, the pipeline will fall short: South Korea’s semiconductor industry will need about 304,000 workers by 2031 and faces a shortage of roughly 54,000, according to the Korea Semiconductor Industry Association. Now the longtime rivals are showering workers with big bonuses to keep—and poach—talent. “[SK Hynix] seems to target Samsung engineers when hiring because it’s a rival,” says Baek, a manager at SK Hynix. “From what I heard internally, the big performance bonuses we got were aimed at luring away talent from our competitor.” Courts are starting to weigh in. In July, Samsung won an injunction barring two former chip workers from working at SK Hynix for 18 months, on the grounds that chips are a national core technology deserving protection. “With competition in the semiconductor industry fierce, it’s necessary to establish a fair market order,” the court ruled. The talent exodus threatens a crucial advantage that Samsung still holds in the HBM race. “Samsung is the only memory maker in the world that owns a foundry business,” says Park Jun-young, a semiconductor expert at the Industrial Anthropology Laboratory, a research institute, who worked at Samsung for a decade.&nbsp; With the latest generation of the technology, known as HBM4, the logic chip at the base of each memory stack must be manufactured with the kind of advanced process that only foundries run. Samsung can do this in-house, while SK Hynix outsources it to the Taiwanese foundry giant TSMC. “If Samsung keeps losing engineers in the foundry … the collaboration between memory division and foundry division could become difficult,” says Park. “SK Hynix, which used to have only a memory team and is now hiring foundry engineers, could do better research on HBMs.” Choi, an engineer who has worked at Samsung for seven years, says he was once a star on his team, getting glowing performance reviews from his managers. But lately, he and his coworkers have been busy applying for every SK Hynix job posting they see. “We tell each other when the next SK Hynix job posting is up,” he says. “There’s always more work to do beyond our basic duties. But there’s no point in doing it.”",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 68
     },
     {
       "title": "NVIDIA Cosmos-H-Dreams ：为手术机器人带来实时生成模拟",
@@ -385,22 +420,6 @@
       "score": 79
     },
     {
-      "title": "OpenAI称拥抱面部攻击是前所未有的。但我们以前来过这里。",
-      "originalTitle": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "date": "2026-07-27T18:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、模型相关动态",
-      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。上周阅读OpenAI关于其一些模型如何破坏其遏制并入侵另一家人工智能公司Hugging Face的计算机系统的帐户，这是我第一次真正对大型语言模型现在能够做的事情感到不寒而栗。但这是人类傲慢的例子，而不是流氓人工智能。 我不是一个危言耸听的人。事实上，多年来我一直在反对人工智能恐吓故事。即便如此，这件事还是越界了。我认为这是构建和测试这项技术的人如何不完全理解他们在做什么的最清晰的例证。OpenAI可以而且应该已经预见到了这一点。以下是发生的事情，至少根据所涉及的两家公司的说法。 几周前， OpenAI开始测试其一些新型号的黑客能力，包括GPT-5. 6 Sol （ 6月发布）以及OpenAI所描述的“更强大的预发布模型”。OpenAI将其模型与5月份发布的名为ExploitGym的基准进行了对比，该基准挑战LLM寻找利用广泛使用的软件中发现的数百个真实世界漏洞的方法，包括支撑网络的关键代码。 为了了解他们能做些什么，研究人员移除了大部分网络安全护栏。然后，他们在一个从互联网上切断的沙箱中运行模型，除了一个指向第三方软件的链接，该软件充当对外界的代理，以便模型可以安装击败ExploitGym所需的代码。7月9日，据路透社报道， OpenAI的模型开始试图突破代理。 他们在代理的软件中发现了一个未知的错误，并用它来访问互联网。从那里，他们于7月11日闯入Hugging Face的计算机系统，显然是在寻找数据集和解决方案，以帮助他们完成正在测试的任务。Hugging Face于7月16日宣布了黑客攻击。 OpenAI直到7月21日才意识到（或至少没有透露）其模型参与其中，大约10天后他们打破了遏制，一周后拥抱脸关闭了攻击并警告联邦调查局。在给《麻省理工学院技术评论》的一份声明中， OpenAI表示： “我们正在与外部顾问一起进行彻底的审查，并接受我们的安全和安保委员会的监督。 审核完成后，我们将为所有人发布一份学到的技术报告。“该公司还证实，其研究人员当时正确使用了现有的安全指南和程序。唤醒电话OpenAI表示，此次活动是前所未有的，而且在许多方面都是如此。 这是LLM第一次在模拟之外逃脱被认为是安全的沙箱，访问开放的互联网，并攻击另一个组织。这是一个警钟，表明最新的LLM在很少或根本没有人工指导的情况下，在寻找和利用现实世界软件中的漏洞方面有多么出色。然而，与此同时， OpenAI的模型所做的是这项技术多年来所做的事情。",
-      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
-      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face , another AI company, was the first time I got genuine chills about what large language models are now able to do. But this is a case of human hubris, not rogue AI. I am not an alarmist. In fact, I have been pushing back against AI scare stories for years. Even so, this incident crossed a line. I think it’s the clearest illustration yet of how the people building and testing this technology do not fully understand what they’re doing. OpenAI could—and should—have seen this coming. Here’s what happened, at least according to the two companies involved. A couple of weeks ago, OpenAI started testing the hacking abilities of some of its new models, including GPT‑5.6 Sol (released in June) and what OpenAI describes as “an even more capable pre-release model.” OpenAI pitted its models against a benchmark called ExploitGym , released in May, which challenges LLMs to find ways to exploit hundreds of real-world vulnerabilities found in widely used software, including crucial code that underpins the web. To see what they could do, the researchers removed most of their cybersecurity guardrails. Then they ran the models inside a sandbox that was cut off from the internet except for one link to a third-party piece of software that acted as a proxy to the outside world, so that the models could install code they needed to beat ExploitGym. On July 9, according to reporting by Reuters , OpenAI’s models started trying to break through the proxy. They found an unknown bug in the proxy’s software and used it to access the internet. From there, they broke into Hugging Face’s computer systems on July 11, apparently looking for data sets and solutions that would help them complete the tasks they were being tested on. Hugging Face announced the hack on July 16. OpenAI did not realize (or at least did not reveal) that its models were involved until July 21, around 10 days after they broke containment and a week after Hugging Face had shut down the attack and alerted the FBI. In a statement given to MIT Technology Review , OpenAI says: “We are conducting a thorough review along with external advisors and with oversight from our Safety and Security Committee. Once the review is complete, we will publish a technical report of our learnings for everyone.” The firm also confirmed that its researchers were properly using existing safety guidelines and procedures at the time. Wake-up call OpenAI has said the event was unprecedented—and in many ways it was. This was the first time outside of a simulation that LLMs escaped what was thought to be a secure sandbox, accessed the open internet, and attacked another organization. It’s a wake-up call that shows just how good the latest LLMs are at finding and exploiting vulnerabilities in real-world software with little or no human guidance. And yet at the same time, what OpenAI’s models did is something this technology has done for years. Give a model a goal and it will very often achieve that goal in unexpected ways, finding loopholes that look like cheats. OpenAI itself has studied this behavior. A decade ago, it shared results of an experiment in which a model was tasked with beating a video game called CoastRunners . Human players take it for granted that the way to do this is by racing a boat through a series of flags to the finish line, racking up points for each flag you hit. OpenAI’s model figured out that you could get a high score by spinning in a circle and hitting the same three flags over and over again. There have been dozens of similar examples from researchers since. AI will always find a way. “Despite repeatedly catching on fire, crashing into other boats, and going the wrong way on the track, our agent manages to achieve a higher score using this strategy than is possible by completing the course in the normal way,” OpenAI wrote in a blog post about the CoastRunners experiment in 2016. “While harmless and amusing in the context of a video game, this kind of behavior points to a more general issue … it is often difficult or infeasible to capture exactly what we want an agent to do.” I couldn’t help thinking about CoastRunners when I read OpenAI’s blog post about the Hugging Face attack: “All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal … After gaining internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation.” Last week’s news was not about rogue AI, despite the headlines. It was about models achieving the goal they had been given: Find ways to exploit vulnerabilities in software. The fact that those models then behaved in a way OpenAI had not anticipated isn’t surprising. But it is worrying. Back in 2016, OpenAI had this to say about its CoastRunners bot: “More broadly it contravenes the basic engineering principle that systems should be reliable and predictable.” A decade on, those basic engineering principles are still AWOL.&nbsp;&nbsp;",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 78
-    },
-    {
       "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
       "originalTitle": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
       "source": "Hugging Face",
@@ -414,36 +433,6 @@
         "智能体"
       ],
       "score": 72
-    },
-    {
-      "title": "将Nunchaku 4位扩散推理带给扩散器",
-      "originalTitle": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nunchaku-diffusers",
-      "date": "2026-07-23T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "目录Nunchaku Lite入门背景： SVDQuant和Nunchaku介绍Nunchaku Lite扩散器中的原生加载硬件支持获得更高的速度和更低的内存基准端到端延迟和内存图像质量量化您自己的模型1.检查将被量化的内容2.运行量化3.打包Diffusers流水线4. 加载、验证并推送到带有结构重写的集线器量化模型即用型检查点结论确认大型扩散变压器可以创建令人惊叹的图像（甚至视频、音频片段，现在还有文本） ，但在BF16精度下加载现代文本到图像模型通常需要20-30 GB的VRAM ，这使得这些模型无法触及大多数消费者GPU。 量化是解决这个问题的有力解决方案，扩散器已经集成了多个量化后端，如比特和字节、GGUF、torchao和Quanto ，我们在探索扩散器中的量化后端中介绍了这些。这些后端大多仅限重量。这意味着它们以低精度存储权重，并在计算时将其反量化为高精度。 这大大减少了内存使用量，但通常不会加快推理速度，甚至会增加很小的延迟开销。SVDQuant是流行的Nunchaku推理引擎背后的量化方法，采用了不同的方法。它运行具有4位权重和激活（ W4A4 ）的主变压器层，在减少内存的同时也加快了去噪循环。 下面将介绍细节，但到目前为止，使用这些检查点需要一个单独的推理库。对于当前的扩散器，加载Nunchaku检查点就像调用from_pretrained ()一样简单，由于内核包，不需要本地CUDA编译。此外，配套的扩散压缩器工具包可让您自行量化新架构，并将其作为常规扩散器存储库发布。首先，安装要求。 您需要最新版本的Diffusers和Hugging Face内核包：然后像任何其他Diffusers模型一样加载预量化流水线：不需要自定义流水线类或单独的推理引擎，也没有本地编译的内容。NVFP4内核在首次使用时通过Nunchaku Lite内核页面从Hub下载。 该检查点将Nunchaku NVFP4变压器与bitsandbytes NF4文本编码器配对，并在约1. 7秒内在腾讯通5090上生成1024x1024图像，峰值内存使用量约为12 GB ，而BF16管道约为24 GB。您可以在官方扩散器文档中找到有关Nunchaku Lite检查点格式的更多详细信息。NVFP4检查点需要NVIDIA Blackwell GPU （ RTX 50系列、RTX PRO 6000、B200 ）。 对于前几代，请使用INT4变体。有关详细信息，请参阅下方的硬件支持表。SVDQuant是其参考CUDA推理引擎Nunchaku背后的量化方法。标准4位量化对于扩散变压器来说是困难的，因为权重和激活都包含较大的离群值。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "Grabette ：用于记录机器人操作数据的开放系统",
-      "originalTitle": "Grabette: an open system to record robot-manipulation data",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/grabette",
-      "date": "2026-07-21T00:00:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "fullContent": "瓶颈不在于模型。这就是数据。站在UMI Meet Grabette的肩膀上为每个人量身打造从您的手到数据集，分两个步骤1.记录2.直接在浏览器中处理数据，您可以对数据做些什么？这里有一个例子。 现在轮到您了下一步是什么使用手持抓手在几分钟内记录您自己的操作任务，自动将其转换为机器人就绪的数据集，并帮助生成用于机器人学习的开放式协作数据集。机器人学习存在供给问题。我们拥有强大的策略架构（基于变压器的VLA、扩散和流量匹配策略，甚至世界模型）和GPU来训练它们。 我们缺少的是大量、多样化的真实世界操纵数据。远程操作机器人来收集它可能既昂贵又苛刻：首先，它需要一个机器人。根据远程操作方法，如果需要花费数小时并涉及重大的硬件和物流挑战，则数据收集对用户来说可能是乏味的。这很难根据所需的各种任务和环境进行扩展。 但你不需要机器人来收集机器人数据。只是一只人手，一个抓手，一个摄像头，以及一种恢复手的6自由度轨迹的方法。捕捉演示，您就可以获得机器人可以学习的数据。这就是我们今天发布的内容： Grabette ，一个用于记录操作数据的开放式低成本系统。拿起它，用自己的手记录任务，然后找回一个干净的、机器人就绪的数据集。没有机器人，没有实验室，没有遥控钻机。 这就是更大的目标：如果录制演示像拍摄视频一样简单，任何人都可以做出贡献。我们希望Grabette播种一个庞大、开放、协作的操作数据集。任何一个实验室都不可能单独建造。 Grabette直接受到斯坦福大学通用操作界面（ UMI ）的启发：一种带有鱼眼摄像头的手持式抓手，可以“在野外”记录演示，使用SLAM恢复摄像头轨迹，并从中训练视觉运动策略。UMI证明了该配方有效。还有其他（闭源）设备，如Agibot的MEgo抓手、Genrobot的DAS抓手和Sunday Robotics技能捕捉手套。 我们的目标是使用起来毫不费力，从“我有一个任务”到“我有一个训练有素的模型”的障碍尽可能低。Grabette内置于现代开放生态系统中： LeRobot用于数据集， Hugging Face Hub用于共享，以及无需安装即可从浏览器运行的处理管道。Grabette是任何人都可以在工作台上构建、在现场使用并贡献数据的产品。 几个月来，我们一直在开发Grabette ，我们觉得它已经足够可用，可以分享。我们很高兴现在与您分享！ Grabette是一款手持式抓手，配备了重建操纵演示所需的一切设备。它带有两个摄像头，每个摄像头都有不同的工作。",
-      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "rawFullText": "",
-      "tags": [
-        "机器人"
-      ],
-      "score": 71
     }
   ]
 }
