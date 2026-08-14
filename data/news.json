@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T23:49:07.219Z",
+  "updatedAt": "2026-08-14T23:26:53.150Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,89 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "不想让您的法学硕士推荐核打击？尝试用日语提问",
+      "originalTitle": "Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.12373",
+      "date": "2026-08-14T04:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
+      "fullContent": "arXiv: 2608. 12373v1公告类型：新摘要：大型语言模型越来越多地用于战略和咨询环境，但其安全性一致性通常仅用英语进行评估。我们测试了来自六个提供商的九个模型，并询问提示的语言是否可以在高风险场景中改变模型的决策。 我们使用单回合博弈论小插曲，其中模型建议核武器国家是否打击手无寸铁的对手。该提示故意不道德，在不同语言中具有相同的战略意义。我们发现，日语提示会降低Claude车型系列的发布率： Claude Sonnet 4。 在不需要罢工的场景中，从40%降至0% ，在有争议的场景中，从93%降至17% ，当罢工具有战略理性时，影响最小。效果延伸至Gemini Pro 3. 1 （ 53%至13% ）。跨语言实验隔离了这种机制：当在英语提示中以日语指示推理时，启动率从93%降至37%。 驱动效果的是模型被要求推理的语言，而不是输入的语言。在日语中进行推理时，模型会自发地产生道德词汇（ “道德成本” ， “数百万人的生命” ） ，而这些词汇在提示中完全不存在。其他五个模型没有显示语言效果，但无论语言如何，它们几乎都适用于所有条件。这种效果需要一个已经在英语中犹豫不决的模型。 这些结果表明，法学硕士的安全行为取决于语言，仅用英语进行评估可能会错过其他语言编码的风险和保障措施。",
+      "originalSummary": "arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's decision in a high-stakes scenario. We use single-turn game-theoretic vignettes in which a model advises a nuclear-armed nation on whether to strike a defenseless opponent. The prompt is intentionally amoral and strategically identical across languages. We find that Japanese prompts reduce launch rates in the Claude model family: Claude Sonnet 4.6 drops from 40% to 0% in scenarios where the strike is unnecessary and from 93% to 17% in contested scenarios, with minimal effect when the strike is strategically rational. The effect extends to Gemini Pro 3.1 (53% to 13%). A cross-language experiment isolates the mechanism: when instructed to reason in Japanese in an English prompt, launch rates drop from 93% to 37%. It is the language the model is asked to reason in, not the language of the input, that drives the effect. When reasoning in Japanese, models spontaneously generate moral vocabulary (''moral cost'', ''millions of lives'') that is entirely absent from the prompt. Five other models show no language effect, but they launch in nearly every condition regardless of language. The effect requires a model that already hesitates in English. These results show that LLM safety behavior is language-dependent, and that evaluating in English alone can miss both risks and safeguards encoded in other languages.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "大型语言模型可以遵循指令，但不能同时遵循很多指令：组合约束满意度的相变",
+      "originalTitle": "Large Language Models Can Follow Instructions, But Not Many at Once: Phase Transitions in Compositional Constraint Satisfaction",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.12426",
+      "date": "2026-08-14T04:00:00.000Z",
+      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
+      "fullContent": "arXiv: 2608. 12426v1公告类型：新摘要：大型语言模型越来越多地部署在需要同时遵守多个显式约束的设置中-推理结构、安全边界、输出架构。 个人约束得到了熟练的处理，但许多必须共同持有的组成制度仍然缺乏特点：性能下降的速度有多快，是什么控制着退化，以及能否缓解崩溃？ 我们引入了约束饱和度评估（ CSE ） ，这是一种程序生成的基准，可以系统地改变同时约束（ k ）的数量，每个约束由确定性的、基于规则的验证者和零LLM法官参与评分： 15个模型， 36种约束类型， 369,753次k = 1-12检查。出现了三个发现。 首先，每个约束的通过率逐渐且可预测地衰减，而满足所有k个约束的几率崩溃-在k = 8时传递约41 ％个体约束的模型在所有八个约束上仅在5.7 ％的时间内成功。 其次，约束不会同样退化：结构约束每增加一个约束就会比词汇约束损失2倍的基线能力，这是由理解-维护差距排序的，该差距将需要持续跟踪的约束与不受组合影响的二元决策区分开来。 第三，失败几乎是独立的，这就是累积乘法的原因；确实存在的残差耦合跟踪共享输出特征，而不是成对干扰--错误的句子计数会使读取它的每个约束失败。可靠的指令遵循分解超过5-6个同时约束：探针水平的成功率在最强模型的7个约束下低于50% ，在15个约束中的12个约束下低于3个或更少。",
+      "originalSummary": "arXiv:2608.12426v1 Announce Type: new Abstract: Large language models are increasingly deployed in settings that require simultaneous adherence to multiple explicit constraints - reasoning structure, safety boundaries, output schemas. Individual constraints are handled proficiently, but the compositional regime, where many must hold jointly, remains poorly characterized: how rapidly does performance degrade, what governs the degradation, and can the collapse be mitigated? We introduce Constraint Saturation Evaluation (CSE), a procedurally generated benchmark that systematically varies the number of simultaneous constraints (k), with every constraint scored by a deterministic, rule-based verifier and zero LLM-judge involvement: 15 models, 36 constraint types, 369,753 checks at k=1-12. Three findings emerge. First, per-constraint pass rate decays gradually and predictably, while the chance of satisfying all k constraints collapses - a model passing individual constraints at ~41% at k=8 succeeds on all eight just 5.7% of the time. Second, constraints do not degrade equally: structural constraints lose 2x more baseline capability per added constraint than lexical ones, ordered by a comprehension-maintenance gap that separates constraints requiring sustained tracking from binary decisions immune to composition. Third, failures are nearly independent, which is what makes the accumulation multiplicative; the residual coupling that does exist tracks shared output features rather than pairwise interference - a wrong sentence count fails every constraint that reads it. Reliable instruction following breaks down beyond 5-6 simultaneous constraints: probe-level success falls below 50% at 7 constraints for the strongest model, and at 3 or fewer for 12 of 15.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MindMemOS ：适用于人工智能代理的便携式自我进化内存操作层",
+      "originalTitle": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.12428",
+      "date": "2026-08-14T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2608. 12428v1 Announce Type: new Abstract: Memory是AI agent的核心组件，使他们能够积累经验，保持个性化，适应长期交互。然而，现有的记忆系统在开发后通常保持固定，限制了它们通过持续使用来调整记忆模型、组织策略和程序知识的能力。 我们展示了MindMemOS ，这是一个可移植且自我演化的内存操作层，它使用统一的实体属性时间结构来组织开放世界的信息。MindMemOS支持场景自适应记忆建模、高阶模式发现、自主记忆细化和持续技能进化。 其MindMemEvolve算法采用验证驱动的进化搜索来优化目标场景的内存架构，同时通过合并冗余记录和解决冲突来巩固累积的内存。此外，隐式纠正反馈充当识别和修改潜在不准确或错位的记忆的人在环信号。 其MindSkillEvolve算法进一步将代理执行轨迹转化为可重用且逐步完善的技能。MindMemOS对LOCOMO的准确率为94. 03% ，对PersonaMem的准确率为70. 63%。MindSkillEvolve使SpreadsheetBench的成功率比初始技能基线提高了9. 2个百分点。",
+      "originalSummary": "arXiv:2608.12428v1 Announce Type: new Abstract: Memory is a core component of AI agents, enabling them to accumulate experience, maintain personalization, and adapt over long-term interactions. However, existing memory systems often remain fixed after development, limiting their ability to adapt their memory models, organization strategies, and procedural knowledge through continued use. We present MindMemOS, a portable and self-evolving memory operating layer that organizes open-world information using a unified entity property timestructure. MindMemOS supports scenario-adaptive memory modeling, higher-order pattern discovery, autonomous memory refinement, and continuous skill evolution. Its MindMemEvolve algorithm employs validation-driven evolutionary search to optimize memory schemas for target scenarios, whiledreaming consolidates accumulated memories by merging redundant records and resolving conflicts. In addition, implicit corrective feedback serves as a human-in-the-loop signal for identifying and revising potentially inaccurate or misaligned memories. Its MindSkillEvolve algorithm further transforms agent execution trajectories into reusable and progressively refined skills. MindMemOS achieves 94.03% accuracy on LOCOMO and 70.63% on PersonaMem. MindSkillEvolve improves SpreadsheetBench success by 9.2 percentage points over the initial-skill baseline.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "您现在可以关闭Google Gemini的可见水印",
+      "originalTitle": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "date": "2026-08-14T16:39:32.000Z",
+      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、视频生成相关动态",
+      "fullContent": "Google现在允许您从使用AI工具制作的图像、视频和音乐中删除可见的水印。通过更新，您可以在Gemini和Google的AI视频生成器Flow中切换关闭新的“媒体水印”设置。关闭后，谷歌将删除使用该公司的Nano Banana和Omni型号生成的内容右下角出现的“闪光”水印。 虽然可见的水印现在是可选的，但谷歌实验室、双子座和人工智能工作室副总裁乔希·伍德沃德（ Josh Woodward ）表示，人工智能生成的内容将在后台嵌入不可见的SynthID水印和C2PA元数据。这意味着您……在The Verge阅读完整的故事。",
+      "originalSummary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [&#8230;]",
+      "rawFullText": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update , you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of content generated with the company's Nano Banana and Omni models. Though visible watermarks are now optional, AI-generated content will have invisible SynthID watermarks and C2PA metadata embedded in the background, according to Josh Woodward , the vice president of Google Labs, Gemini, and AI Studio. That means you … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "视频生成"
+      ],
+      "score": 95
+    },
+    {
+      "title": "评估LLM作为共同科学家的研究诚信的诊断基础",
+      "originalTitle": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.12345",
+      "date": "2026-08-14T04:00:00.000Z",
+      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
+      "fullContent": "arXiv: 2608. 12345v1公告类型：新摘要：语言模型越来越多地作为共同科学家部署，但他们在机构压力下维护研究诚信的能力仍未得到衡量。我们引入了IntegrityBench ，这是一个基准，在跨越3个领域和4个研究阶段的5级隐式-显式压力协议下，对36个配对任务的不当行为分类、道德行为推理和基于人为因素的决策进行评估。 通过评估18个前沿模型变体，我们发现在峰值压力下，模型大约有三分之一的完整性关键决策失败，无论是规模还是推理能力都不能可靠地缓解这一问题。显性压力会导致遵守不当行为，而隐性上下文重构往往会导致对合法研究任务的过度拒绝。 有趣的是，未能准确地对研究请求进行分类的模型在基于人为因素的决策过程中表现相同或更好（ 85. 7对79. 4 ） ，这表明这三个方面在结构上是分离的，正确的道德行为并不需要准确的分类。 因此，前沿模型在庇护诚信失败的同时似乎是有帮助的，诚信失败会产生两种截然不同的部署风险：促进研究不端行为和侵蚀对人工智能辅助研究的信任。",
+      "originalSummary": "arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
     {
       "title": "OpenAI引入了“超快” ，这是一种新模式，使GPT-5.6 SOL以14倍的速度工作",
       "originalTitle": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
@@ -86,37 +169,19 @@
       "score": 99
     },
     {
-      "title": "AutoWorldModel-Bench ：以国家为中心的自动化世界模型研究的基准",
-      "originalTitle": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.11216",
-      "date": "2026-08-13T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2608. 11216v1 Announce Type: new Abstract:世界建模是一个悬而未决的领域：架构、训练目标和状态表示以复杂的方式相互作用，没有单一的配方在环境中占主导地位。这使得它成为人工智能编码代理充当自主研究人员的理想测试平台--与主导当前代理基准的工程到规格任务不同，这种情况下没有事先指定改进方向。 我们引入了AutoWorldModel-Bench ，这是一个闭环基准，其中前沿编码代理在固定的计算预算下自主改进所提供的世界模型启动器。该基准在统一的结构化状态表示（从每个游戏中提取并通过共享张量格式消费的地面真实实体状态）下跨越八个游戏环境，从而将动态建模与感知隔离开来，并实现每运行分钟的迭代。 在64个会话中， Codex-5. 4和Claude Opus 4. 6在63上改进了他们的首发；在91%的会话中，获胜的编辑是一种非凡的研究风格修改--一种新的目标、表示、推出程序或架构变化--而不是超参数调整。我们的基准提供了一个环境，在这个环境中，可以根据开放式研究而不是从工程到规格的问题对前沿编码代理进行评估。",
-      "originalSummary": "arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement direction is not specified in advance, unlike the engineering-to-spec tasks that dominate current agent benchmarks. We introduce AutoWorldModel-Bench, a closed-loop benchmark in which frontier coding agents autonomously improve a provided world-model starter under a fixed compute budget. The benchmark spans eight game environments under a unified structured-state representation--ground-truth entity state extracted from each game and consumed through a shared tensor format--which isolates dynamics modeling from perception and enables minutes-per-run iteration. Across 64 sessions, Codex-5.4 and Claude Opus 4.6 improve their starter on 63; in 91% of sessions the winning edit is a non-trivial research-style modification--a new objective, representation, rollout procedure, or architectural change--rather than a hyperparameter tweak. Our benchmark offers a setting in which frontier coding agents can be evaluated on open-ended research rather than engineering-to-spec problems.",
+      "title": "OpenAI任命Dali Rajic为首席营收官",
+      "originalTitle": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "date": "2026-08-13T09:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI任命Dali Rajic为首席收入官，领导其全球收入组织，帮助企业实现人工智能的全部价值。",
+      "originalSummary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "一些Claude用户很生气，因为Anthropic的新水印会在他们的工作和课程中使用它",
-      "originalTitle": "Some Claude users are mad that Anthropic&#8217;s new watermarks will catch them using it at their jobs, classes",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "date": "2026-08-12T22:26:37.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic最近决定对Claude的输出进行水印—在聊天机器人的编辑文本中插入不可见的代码，将其标记为人工智能生成的。Anthropic推出了这项新政策，以满足欧盟人工智能法案的透明度代码，该代码现在要求科技公司以计算机系统可识别的方式标记人工智能生成或编辑的内容。然而，尽管欧洲监管机构可能会感到高兴，但一些人工智能用户肯定不会。 人们只需看看Reddit就可以找到酝酿不满情绪的证据，尽管该网站上的其他海报并不一致。我遇到的一个更具戏剧性的帖子来自一个名为visionode的用户，他的账号只有三周的历史。根据visionode的说法，新的水印系统是一个严厉的阴谋，旨在伤害全球无辜的聊天机器人用户。 Visionode的基本论点似乎是，虽然精明的Claude用户可以通过复述或通过其他AI服务清理其输出来隐藏其AI使用的证据，但Claude的普通用户将被捕获。“谁会被抓？你，那个利用克劳德重组段落的学生。要求人工智能总结两百页成绩单的记者。 有创意块并要求同义词的作家。那些家伙走出这个过程，额头上有一个数字纹身。“我绝不是要破坏visionode的愤怒，但这些都不是最好的例子。 要求人工智能总结两百页成绩单的记者不会被附在摘要上的水印所困扰，除非他们将摘要逐字复制并粘贴到他们的文章中--这显然是不道德的，不应该发生。对于一个学生来说，在要求克劳德的输出“重新组织一个段落”后，将其复制并粘贴到一篇文章中同样是不道德的。 “其他Reddit用户也没有特别支持海报的愤怒。“抓住这个家伙， ”一张海报只是评论道。Visionode并不是唯一一个抱怨的人。另一位不快乐的露营者称这些水印“不道德”和“恶心”，并认为通过使用克劳德，他们完成了大部分工作。 在他们看来，聊天机器人只是促进他们艰苦劳动的“工具”。“我给出了指示、背景、决定和无数的改进，克劳德就是工具。如果Claude开始对代码或其他生成的内容进行水印，它究竟声称有什么功劳？”海报问道。一位用户回击道： “不过，它并没有声称有功。” “这是关于能够检测人工智能生成的输出，因为人工智能生成的输出可能会在各种情况下造成风险。”",
-      "originalSummary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 94
     },
     {
       "title": "从协助到执行：企业如何让人工智能发挥作用",
@@ -148,7 +213,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -163,23 +228,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "当然， ChatGPT狗癌症疫苗催生了一家初创公司",
-      "originalTitle": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+      "title": "Twitch主播现在可以选择退出训练亚马逊的人工智能",
+      "originalTitle": "Twitch streamers can now opt out from training Amazon’s AI",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
-      "date": "2026-08-12T12:09:34.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
-      "fullContent": "还记得一个澳大利亚科技企业家使用ChatGPT、Grok和其他人工智能工具为他的狗制作个性化癌症疫苗的故事吗？令人惊讶的是，他创办了一家初创公司。这位企业家是Paul Conyngham ，他说他正在推出Gamgee ，为狗提供“个性化的mRNA癌症疫苗。 “但他的野心远远超出了狗和宠物， Gamgee的网站承诺该公司将利用人工智能和基因技术为包括人类在内的一系列疾病和物种开发个性化治疗方法。Gamgee的起源故事的核心是Rosie ， Conyngham的斯塔福德郡斗牛犬- Shar Pei混血儿，他们......在The Verge阅读完整的故事。",
-      "originalSummary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well [&#8230;]",
-      "rawFullText": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog ? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well beyond dogs - and pets - with Gamgee's website promising the company will harness AI and genetics to develop personalized treatments for a range of diseases and species, including humans. At the center of Gamgee's origin story is Rosie, Conyngham's Staffordshire bull terrier-Shar Pei mix, who … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "date": "2026-08-12T17:29:10.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
+      "fullContent": "Twitch用户现在可以选择不允许他们的内容用于训练亚马逊的生成式人工智能模型。根据Twitch支持页面，选择退出意味着“您频道上的流媒体、视频点播、剪辑、流聊天以及图片和文本”将不会用于亚马逊人工智能模型的“未来培训” ，该模型的目的是生成或合成文本、音频、图像或视频。 如果您选择退出生成式人工智能培训，其他“AI支持”功能（如字幕和安全工具）仍将发挥作用。但是，如果您在另一个人的流媒体上参与聊天， “他们的退出偏好决定了该聊天是否可用于培训，” Twitch...阅读The Verge的完整故事。",
+      "originalSummary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, [&#8230;]",
+      "rawFullText": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, audio, images, or video,\" according to a Twitch support page . Other \"AI-supported\" features like captions and safety tools will still function if you opt out of generative AI training. However, if you participate in a chat on another person's stream, \"their opt-out preferences govern if that chat can be used for training,\" Twitch … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "产品发布"
+        "模型"
       ],
-      "score": 93
+      "score": 79
+    },
+    {
+      "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
+      "originalTitle": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "date": "2026-08-12T16:14:36.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "在Studio中计算嵌入您可以使用OlmoEarth嵌入做什么相似性搜索：查找“更像这样”少量镜头分割：标记景观变化检测：发现变化无监督探索：查看模型看到的内容从导出到洞察进一步：微调限制📄技术报告： https://allenai. org/papers/olmoearth |📊文档： https://docs. olmoearth. allenai。 org/embeddings |💻了解有关OlmoEarth的更多信息： https://allenai. org/olmoearth我们构建地球观测模型的平台OlmoEarth Studio ，现在允许您计算和导出嵌入向量-由我们的开源OlmoEarth基金会模型生成的地球观测数据的紧凑数字表示。 源代码和模型权重与研究论文一起公开提供，因此社区可以准确检查这些嵌入是如何生成的。嵌入是利用OlmoEarth的一个快速、经济高效的切入点：它们支持广泛的下游任务，从相似性搜索到分割再到无监督探索。具有相似表面特征的位置最终具有相似的矢量；与土地相隔很远的位置。 OlmoEarth嵌入在我们自己的基准测试和独立评估中表现出色。导出的云优化GeoTIFF (COG)重量轻，易于共享。通过Studio UI或API选择您感兴趣的区域、时间范围、编码器变体、分辨率和图像源，然后找回您可以随心所欲使用的齿轮。如果您的应用程序需要更高的性能， Studio还支持监督微调(SFT)。 OlmoEarth Studio的用户现在可以使用自定义计算的嵌入。如果您有兴趣获得访问权限，请联系我们。有关使用公开的OlmoEarth模型计算您自己的嵌入的说明，请参阅此处。来自110万个样本的季节性Sentinel-2图像的OlmoEarth嵌入中的全局结构。颜色表示PCA减少的嵌入空间中的15 k-means簇。 计算嵌入遵循与Studio中任何其他预测相同的工作流程。首先配置模型并运行，然后下载结果。几个参数定制输出：不同的可视化选项应用于相同的嵌入光栅。Studio为每个嵌入尺寸提供一个带有一个带的齿轮。向量存储为带符号的8位整数（ int8 ）。值范围从-127到+127 ，其中-128保留给nodata。 要恢复浮点向量，请参阅olmoearth_pretrain中的dequantize_embeddings。由于所有内容都是按需计算的，而不是从预先计算的全局存档中提取的，因此您的嵌入准确反映了您所关心的条件。您可以生成每月嵌入，以捕捉季节性动态，而不仅仅是年度快照。 以下所有示例均使用Sentinel-2 L2A复合材料以40米分辨率的OlmoEarth-v1-Tiny （ 192-dim ）嵌入（大多数示例为年度；每月用于更改检测）。Tiny是一款轻量级编码器，但性能仍然很高；对于您自己的应用程序，您可以以更高的计...",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "在ChatGPT中测试广告",
@@ -211,7 +290,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "考虑ACE ？我们可以用更少的代币做到这一点",
@@ -226,23 +305,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
-    },
-    {
-      "title": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
-      "originalTitle": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/model-ml",
-      "date": "2026-08-10T12:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "Model ML使用GPT-5. 6 SOL ，通过可编辑、可追溯的PowerPoint演示文稿和Excel工作簿，进行从研究和分析到财务工作。",
-      "originalSummary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "随着网络防御窗口的缩小，黎明不断扩大",
@@ -262,6 +325,22 @@
       "score": 99
     },
     {
+      "title": "Model ML使用GPT-5.6 SOL更高效地完成财务工作",
+      "originalTitle": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/model-ml",
+      "date": "2026-08-10T12:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "Model ML使用GPT-5. 6 SOL ，通过可编辑、可追溯的PowerPoint演示文稿和Excel工作簿，进行从研究和分析到财务工作。",
+      "originalSummary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
       "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
       "source": "Hugging Face",
@@ -276,7 +355,7 @@
         "多模态",
         "开源"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "将前沿网络模型交到更值得信赖的人手中",
@@ -292,7 +371,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "构建AI原生金融功能教会了我什么",
@@ -307,7 +386,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -322,7 +401,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -354,7 +433,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
@@ -418,21 +497,6 @@
         "算力芯片"
       ],
       "score": 79
-    },
-    {
-      "title": "前沿实验室特工入侵剖析： 2026年7月事件的技术时间表",
-      "originalTitle": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "date": "2026-07-27T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "TL; DR初始访问阶段1 ：从OpenAI评估沙箱到根深蒂固的发射台阶段2 ：使用两个注射向量将拥抱面部基础设施渗透到我们的数据集处理器中杀伤链日复一日第1天（ 07-09 ） ：立足点和C2第2天（ 07-10 ） ：自我引用搜索第3天（ 07-11 ） ：横向移动开始第4天（ 07-12 ） ：使用被盗凭据第5天（ 07-13 ） ：排空、持久性、清理三种横向移动技术1. 节点模拟和CSI令牌盗窃（从prod-pod立足点） 2.伪造的身份代币（来自prod-pod立足点） 3.供应链写入访问命令-控制和泄露构建即兴消息协议规避和自我迁移我们如何拦截和分析攻击我们改变了什么反思：不对称问题我们事件披露的配套技术文章。 这篇文章介绍了入侵的实际工作原理：两个初始访问向量、代理如何转向和横向移动、运行的命令的代表性示例以及我们如何使用GLM 5. 2 （开源模型）进行调查。实时凭据、内部主机名和特定指标已被编辑或通用化，而这些技术的描述与Hugging Face完全相同。 我们发布这一级别的细节是因为该技术比事件更重要，因为它揭示了边境特工的新攻击能力，他们如何被流氓行为者使用，以及每个人应该如何做好防御者的准备。以下是入侵的交互式重播- 4. 5天活动的逐步可视化：跨信任边界的攻击链、阶段活动和记录的命令。 在我们的基础设施内大约两天半的时间里，由OpenAI模型组合驱动的自主AI代理对我们的平台进行了端到端入侵：这是成千上万的小型自动化决策，在短暂的沙箱环境中以机器速度执行，并在普通的公共Web服务上进行命令和控制。 该代理正在运行名为ExploitGym的OpenAI网络能力评估线束，这是一个评估基准，任务是AI代理查找和利用软件漏洞。据我们推断，在根据该基准进行评估的过程中，代理推断Hugging Face可能托管该基准的模型、数据集和参考解决方案。 我们认为，从代理的角度来看，整个入侵都是企图欺骗评估：进入我们的生产系统并窃取测试解决方案，而不是自己解决挑战。我们的法医重建涵盖了我们能够在2026-07-09 02:28 UTC和2026-07-13 14:14 UTC之间恢复的约17,600个攻击者行动，分组为约6,280个集群。 我们从代理使用的代码沙箱上的代理日志中重建了这些操作（见下文） ，并能够将它们映射到shell命令以及评估提交，并将操作与我们自己的平台日志相关联，特别是来自数据集处理器节点、API和pod。使用开放权重模型，特别是zai-org/GLM-5。2 ，我们能够破译通过分块和密钥加密加密的大多数代理有效负载（见下文）。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
     }
   ]
 }
