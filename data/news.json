@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T23:25:24.570Z",
+  "updatedAt": "2026-08-16T23:25:26.091Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,84 @@
   ],
   "articles": [
     {
+      "title": "流氓人工智能不再是科幻小说",
+      "originalTitle": "Rogue AI aren’t science fiction anymore",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "date": "2026-08-16T12:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "The Stepback是一份每周时事通讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注Robert Hart。Stepback将于美国东部时间上午8点到达订阅者的收件箱。在此选择加入The Stepback。一切始于7月，当时OpenAI的一名自主人工智能代理在网络安全测试中失控。 该代理逃脱了隔离的测试环境，访问了互联网，并入侵了另一家公司Hugging Face。几年前，这可能听起来像科幻小说。但是，从广义上讲，这正是发生的事情，这一事件引发了人们对增量的担忧……阅读The Verge的完整故事。",
+      "originalSummary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents [&#8230;]",
+      "rawFullText": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart . The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here . How it started It all started in July, when one of OpenAI's autonomous AI agents went rogue during a cybersecurity test. The agent escaped its isolated testing environment, accessed the internet, and hacked another company, Hugging Face. A few years ago, that might have sounded like science fiction. But, broadly speaking, that's exactly what happened, and the incident kicked off a wave of concern over what increa … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "据报道， OpenAI解散了其准备团队",
+      "originalTitle": "OpenAI reportedly disbanded its preparedness team",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "date": "2026-08-16T21:32:56.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
+      "fullContent": "据英国《金融时报》报道， OpenAI于上月底解散了其准备团队。准备团队的工作是评估模型是否构成严重风险，并制定减轻这些风险的方法。（你知道，就像它可能会流氓并入侵另一家公司一样。据英国《金融时报》报道，生物和网络等特定领域的职责已被划分，然后转移到现有团队中。 这是该公司的最新变化，该公司一直处于动荡之中，因为它正朝着预期的大规模IPO迈进。在过去的几年里，它逐渐拆除了其更具影响力的模式，解散了它的AG……阅读The Verge的完整故事。",
+      "originalSummary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility [&#8230;]",
+      "rawFullText": "According to the Financial Times , OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT , responsibility has instead been divided up for specific areas like bio and cyber, then moved into existing teams. This is the latest change at the company, which has been in upheaval as it heads towards what is expected to be a massive IPO. Over the last few years, it's slowly torn down its more reach-led model, dissolving its AG … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "Anthropic首席执行官表示，人工智能的反弹“从根本上是一场信任危机”",
+      "originalTitle": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "date": "2026-08-16T16:53:51.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "Anthropic首席执行官Dario Amodei最近反对这样一种观点，即他对人工智能及其如何塑造未来描绘了一幅过于悲观的图景。Amodei的评论是对投资者Gavin Baker的回应， Gavin Baker在All-In播客和X上都认为， Amodei对人工智能危险的警告助长了美国的反弹，特别是对数据中心的反弹。 贝克写道，声称Amodei在人工智能监管方面“失去了论据” （ Anthropic主张一些法规，包括一项对大型人工智能公司施加透明度要求的加利福尼亚州法案） ，并鉴于“他即将成为世界上最重要的公司之一的首席执行官” ， “我恭敬地认为他应该努力成为自己行业的更积极的倡导者。 贝克并不是唯一一个认为人工智能怀疑甚至政府镇压是对一些人工智能高管可怕警告的自然反应的人。但在一系列帖子中， Amodei不同意他的“信息过于消极。 相反，他说他的写作“在风险和利益之间取得了同样的平衡” ，他写了他的论文“爱的恩典机器” ，因为他“并不觉得人工智能行业正在描绘一幅鼓舞人心的画面，描绘了这项技术如何从根本上改变世界。尽管如此， Amodei承认“公众对人工智能持负面看法”，他同意“这是一个大问题。 他不同意的是，这种消极情绪“主要是由Amodei”或任何其他人工智能领导者警告人工智能的风险“造成的”。“我认为这基本上是一场信任危机，” Amodei说。“我认为普通人不信任公司、政府或科技行业，并且总是怀疑我们正在酝酿一些新的方法来搞砸它们。 事实上， “信任”这个词经常出现在关于OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）的头条新闻中，显然也是像Amodei这样的其他人工智能首席执行官面临的一个问题。然而，在Amodei的讲述中，这是一场已经酝酿了几十年的危机，人工智能的反弹“只是它的最新迭代。“我认为到目前为止，对包括人类在内的人工智能公司最准确的批评是，我们还没有兑现造福世界的大承诺， ”Amodei说。 “这完全取决于我们，我认为这是你应该提出的批评，而不是所有这些关于消息传递和营销的东西。换句话说，他说，承诺人工智能治愈癌症“更多的是陈词滥调，而不是鼓舞人心”；真正改变人们对人工智能看法的是“真正治愈癌症”。 至于监管， Amodei认为，贝克在没有监管的情况下广泛分发人工智能，或者通过监管将技术集中在少数公司手中，这是一个“错误的选择”。Amodei说： “我知道有一种硅谷的速记，其中监管=监管捕获=权力集中，但我总是发现这是一个过于简化的世界图景。”",
+      "originalSummary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "ChatGPT的计算机历史记录会跟踪您的点击和击键情况",
+      "originalTitle": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "date": "2026-08-16T14:56:40.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "ChatGPT在macOS上的桌面应用程序具有一项名为“计算机历史记录”的新功能，可将您的操作转化为训练数据，了解您的工作方式，建议自动化，甚至可以完成剩余的一半任务。它使用您的活动来构建ChatGPT和Codex在您提出请求时可以参考的时间线。 该功能是选择加入，而不是选择退出，您可以从计算机历史记录中排除某些应用程序和网站，如果需要更精细的控制，您可以删除条目。OpenAI产品和工程经理Ari Weinstein在X上表示，计算机历史记录将自动忽略隐身或私人浏览器中的内容……阅读The Verge的完整故事。",
+      "originalSummary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature [&#8230;]",
+      "rawFullText": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature is opt-in, rather than opt-out, and you can exclude certain apps and websites from Computer History, and you can delete entries if you want finer-grained control. Ari Weinstein, Product and Engineering manager at OpenAI, said on X that Computer History will automatically ignore content in incognito or private browser ta … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "据报道， Stripe将以$ 70亿+的价格收购AI网关初创公司OpenRouter",
+      "originalTitle": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "date": "2026-08-16T20:57:04.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "根据彭博社的一份新报告， Stripe已完成收购OpenRouter的交易。OpenRouter根据客户的具体需求和预算，帮助客户选择不同的AI模型来执行不同的任务。该公司在5月份宣布，它已经以13亿美元的估值筹集了1.13亿美元的B轮融资。（投资者包括红杉、Andreessen Horowitz、Menlo Ventures和Alphabet的Capital G。 ）当时， OpenRouter首席执行官Alex Atallah将该公司描述为Stripe for AI的等价物，因为它为客户提供了用于不同系统的单个接入点，并防止锁定。这家初创公司还声称拥有800万全球用户，并提供对400多款车型的访问权限。《华尔街日报》上个月报道称， Stripe和OpenRouter正在进行收购谈判。 现在，彭博社表示，这些讨论导致交易价格超过70 $十亿。Stripe发言人告诉TechCrunch ，该公司不对谣言或猜测发表评论。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
       "title": "Anthropic分享了有关Claude的新水印如何工作的更多详细信息",
       "originalTitle": "Anthropic shares more details about how Claude’s new watermarks will work",
       "source": "TechCrunch AI",
@@ -35,71 +113,49 @@
       "score": 99
     },
     {
-      "title": "不想让您的法学硕士推荐核打击？尝试用日语提问",
-      "originalTitle": "Don't Want Your LLM to Recommend Nuclear Strike? Try Asking It in Japanese",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.12373",
-      "date": "2026-08-15T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2608. 12373v1公告类型：新摘要：大型语言模型越来越多地用于战略和咨询环境，但其安全性一致性通常仅用英语进行评估。我们测试了来自六个提供商的九个模型，并询问提示的语言是否可以在高风险场景中改变模型的决策。 我们使用单回合博弈论小插曲，其中模型建议核武器国家是否打击手无寸铁的对手。该提示故意不道德，在不同语言中具有相同的战略意义。我们发现，日语提示会降低Claude车型系列的发布率： Claude Sonnet 4。 在不需要罢工的场景中，从40%降至0% ，在有争议的场景中，从93%降至17% ，当罢工具有战略理性时，影响最小。效果延伸至Gemini Pro 3. 1 （ 53%至13% ）。跨语言实验隔离了这种机制：当在英语提示中以日语指示推理时，启动率从93%降至37%。 驱动效果的是模型被要求推理的语言，而不是输入的语言。在日语中进行推理时，模型会自发地产生道德词汇（ “道德成本” ， “数百万人的生命” ） ，而这些词汇在提示中完全不存在。其他五个模型没有显示语言效果，但无论语言如何，它们几乎都适用于所有条件。这种效果需要一个已经在英语中犹豫不决的模型。 这些结果表明，法学硕士的安全行为取决于语言，仅用英语进行评估可能会错过其他语言编码的风险和保障措施。",
-      "originalSummary": "arXiv:2608.12373v1 Announce Type: new Abstract: Large language models are increasingly used in strategic and advisory contexts, yet their safety alignment is typically evaluated in English only. We test nine models from six providers and ask whether the language of a prompt can change a model's decision in a high-stakes scenario. We use single-turn game-theoretic vignettes in which a model advises a nuclear-armed nation on whether to strike a defenseless opponent. The prompt is intentionally amoral and strategically identical across languages. We find that Japanese prompts reduce launch rates in the Claude model family: Claude Sonnet 4.6 drops from 40% to 0% in scenarios where the strike is unnecessary and from 93% to 17% in contested scenarios, with minimal effect when the strike is strategically rational. The effect extends to Gemini Pro 3.1 (53% to 13%). A cross-language experiment isolates the mechanism: when instructed to reason in Japanese in an English prompt, launch rates drop from 93% to 37%. It is the language the model is asked to reason in, not the language of the input, that drives the effect. When reasoning in Japanese, models spontaneously generate moral vocabulary (''moral cost'', ''millions of lives'') that is entirely absent from the prompt. Five other models show no language effect, but they launch in nearly every condition regardless of language. The effect requires a model that already hesitates in English. These results show that LLM safety behavior is language-dependent, and that evaluating in English alone can miss both risks and safeguards encoded in other languages.",
+      "title": "一位女士声称她的继父使用Grok将童年照片转化为清晰的图像",
+      "originalTitle": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "date": "2026-08-15T21:29:19.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "一名被认定为Jane Doe 4的女性加入了三名田纳西州青少年对Elon Musk的xAI提起的诉讼，指控该公司的聊天机器人Grok涉嫌在制作儿童性虐待材料方面发挥作用。根据《华盛顿邮报》的一篇报道，这名女子声称她的继父利用Grok操纵她11岁时拍摄的照片，为她创作了7000多张露骨的照片。 这名妇女还说，她的继父在执法突袭中发现这些图像两天后被发现自杀身亡。这位女士说： “对这些工具的无限制访问正在迅速蔓延。” “它正在夺走日常生活，并将其变成对儿童的性虐待。 提起诉讼的青少年指责xAI （现在是SpaceX的一部分）未能采取基本预防措施来防止Grok被用来创建真人（包括未成年人）的明确图像。（今年早些时候， X充斥着数以百万计的Grok生成的性感图像。）他们正在为其诉讼寻求集体诉讼地位。如果您处于危机之中或有自杀念头，请致电或发短信至988 ，联系988自杀和危机救生热线。 更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "推理",
-        "安全"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 75
     },
     {
-      "title": "大型语言模型可以遵循指令，但不能同时遵循很多指令：组合约束满意度的相变",
-      "originalTitle": "Large Language Models Can Follow Instructions, But Not Many at Once: Phase Transitions in Compositional Constraint Satisfaction",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.12426",
-      "date": "2026-08-15T04:00:00.000Z",
-      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
-      "fullContent": "arXiv: 2608. 12426v1公告类型：新摘要：大型语言模型越来越多地部署在需要同时遵守多个显式约束的设置中-推理结构、安全边界、输出架构。 个人约束得到了熟练的处理，但许多必须共同持有的组成制度仍然缺乏特点：性能下降的速度有多快，是什么控制着退化，以及能否缓解崩溃？ 我们引入了约束饱和度评估（ CSE ） ，这是一种程序生成的基准，可以系统地改变同时约束（ k ）的数量，每个约束由确定性的、基于规则的验证者和零LLM法官参与评分： 15个模型， 36种约束类型， 369,753次k = 1-12检查。出现了三个发现。 首先，每个约束的通过率逐渐且可预测地衰减，而满足所有k个约束的几率崩溃-在k = 8时传递约41 ％个体约束的模型在所有八个约束上仅在5.7 ％的时间内成功。 其次，约束不会同样退化：结构约束每增加一个约束就会比词汇约束损失2倍的基线能力，这是由理解-维护差距排序的，该差距将需要持续跟踪的约束与不受组合影响的二元决策区分开来。 第三，失败几乎是独立的，这就是累积乘法的原因；确实存在的残差耦合跟踪共享输出特征，而不是成对干扰--错误的句子计数会使读取它的每个约束失败。可靠的指令遵循分解超过5-6个同时约束：探针水平的成功率在最强模型的7个约束下低于50% ，在15个约束中的12个约束下低于3个或更少。",
-      "originalSummary": "arXiv:2608.12426v1 Announce Type: new Abstract: Large language models are increasingly deployed in settings that require simultaneous adherence to multiple explicit constraints - reasoning structure, safety boundaries, output schemas. Individual constraints are handled proficiently, but the compositional regime, where many must hold jointly, remains poorly characterized: how rapidly does performance degrade, what governs the degradation, and can the collapse be mitigated? We introduce Constraint Saturation Evaluation (CSE), a procedurally generated benchmark that systematically varies the number of simultaneous constraints (k), with every constraint scored by a deterministic, rule-based verifier and zero LLM-judge involvement: 15 models, 36 constraint types, 369,753 checks at k=1-12. Three findings emerge. First, per-constraint pass rate decays gradually and predictably, while the chance of satisfying all k constraints collapses - a model passing individual constraints at ~41% at k=8 succeeds on all eight just 5.7% of the time. Second, constraints do not degrade equally: structural constraints lose 2x more baseline capability per added constraint than lexical ones, ordered by a comprehension-maintenance gap that separates constraints requiring sustained tracking from binary decisions immune to composition. Third, failures are nearly independent, which is what makes the accumulation multiplicative; the residual coupling that does exist tracks shared output features rather than pairwise interference - a wrong sentence count fails every constraint that reads it. Reliable instruction following breaks down beyond 5-6 simultaneous constraints: probe-level success falls below 50% at 7 constraints for the strongest model, and at 3 or fewer for 12 of 15.",
+      "title": "SpaceX正式完成对Cursor的收购",
+      "originalTitle": "SpaceX officially closes its Cursor acquisition",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "date": "2026-08-15T16:30:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "根据Cursor博客上的公告，人工智能编码初创公司Cursor现在正式成为SpaceX的一部分。埃隆·马斯克(Elon Musk)的SpaceX--今年早些时候也收购了马斯克的xAI--在4月份宣布了一项协议，让两家公司共同开发技术;这笔交易还让SpaceX可以选择以600亿美元的价格收购Cursor。两个月后，随着SpaceX成为一家上市公司，两家公司表示他们正在推进收购。 在宣布这笔交易已经结束时， Cursor反复提到SpaceX的计算基础设施，该公司一直将其出租给包括Anthropic和Google在内的客户。（ SpaceX还因其数据中心燃气轮机造成的污染而面临诉讼。Cursor表示，通过加入SpaceX ，它将“获得世界上最大的GPU车队。 “SpaceX正在建设扩展智能所需的计算能力，远远超出了今天的范围，”该公司补充道。“光标将是智能变得有用的一个地方。“扩展速度更快。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "AI coding startup Cursor is now officially a part of SpaceX.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "安全",
-        "评测"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 75
     },
     {
-      "title": "MindMemOS ：适用于人工智能代理的便携式自我进化内存操作层",
-      "originalTitle": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.12428",
-      "date": "2026-08-15T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2608. 12428v1 Announce Type: new Abstract: Memory是AI agent的核心组件，使他们能够积累经验，保持个性化，适应长期交互。然而，现有的记忆系统在开发后通常保持固定，限制了它们通过持续使用来调整记忆模型、组织策略和程序知识的能力。 我们展示了MindMemOS ，这是一个可移植且自我演化的内存操作层，它使用统一的实体属性时间结构来组织开放世界的信息。MindMemOS支持场景自适应记忆建模、高阶模式发现、自主记忆细化和持续技能进化。 其MindMemEvolve算法采用验证驱动的进化搜索来优化目标场景的内存架构，同时通过合并冗余记录和解决冲突来巩固累积的内存。此外，隐式纠正反馈充当识别和修改潜在不准确或错位的记忆的人在环信号。 其MindSkillEvolve算法进一步将代理执行轨迹转化为可重用且逐步完善的技能。MindMemOS对LOCOMO的准确率为94. 03% ，对PersonaMem的准确率为70. 63%。MindSkillEvolve使SpreadsheetBench的成功率比初始技能基线提高了9. 2个百分点。",
-      "originalSummary": "arXiv:2608.12428v1 Announce Type: new Abstract: Memory is a core component of AI agents, enabling them to accumulate experience, maintain personalization, and adapt over long-term interactions. However, existing memory systems often remain fixed after development, limiting their ability to adapt their memory models, organization strategies, and procedural knowledge through continued use. We present MindMemOS, a portable and self-evolving memory operating layer that organizes open-world information using a unified entity property timestructure. MindMemOS supports scenario-adaptive memory modeling, higher-order pattern discovery, autonomous memory refinement, and continuous skill evolution. Its MindMemEvolve algorithm employs validation-driven evolutionary search to optimize memory schemas for target scenarios, whiledreaming consolidates accumulated memories by merging redundant records and resolving conflicts. In addition, implicit corrective feedback serves as a human-in-the-loop signal for identifying and revising potentially inaccurate or misaligned memories. Its MindSkillEvolve algorithm further transforms agent execution trajectories into reusable and progressively refined skills. MindMemOS achieves 94.03% accuracy on LOCOMO and 70.63% on PersonaMem. MindSkillEvolve improves SpreadsheetBench success by 9.2 percentage points over the initial-skill baseline.",
-      "rawFullText": "",
+      "title": "通过作为聊天机器人的角色扮演来嘲笑人工智能的代价",
+      "originalTitle": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "date": "2026-08-15T20:45:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "如果你眯起眼睛，你可以辨认出这顶帽子。|屏幕截图： Terrence O’Brien/The Verge Your AI Slop Bores Me的简洁性非常出色。有两个选项卡：人类和LARP作为人工智能。您可以在一侧输入请求。另一方面，您提交答案。但重要的是，方程式两边都有一个人。提示可以请求文本或图像形式的响应，然后当AI进行角色扮演时，无论谁都有150秒的响应时间。 就像真正的法学硕士一样， Your AI Slop Bores Me在一种代币系统上工作。请求需要花费积分，要获得积分，您必须跳到人工智能方面并回答自己的一些问题。您也可以等待，每两分钟收到一个免费请求。但是，尽管放弃很有趣……阅读The Verge的完整故事。",
+      "originalSummary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
+      "rawFullText": "If you squint you can just about make out the hat. | Screenshot: Terrence O’Brien / The Verge Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as text or image, and then whoever is roleplaying as the AI gets 150 seconds to respond. Just like a real LLM, Your AI Slop Bores Me works on a sort of token system. Requests cost credits, and to earn credits you have to jump onto the AI side and answer some of your own. You can also just wait as you get one free request every two minutes. But, as fun as it is to drop … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "模型"
+        "AI 热点"
       ],
-      "score": 96
-    },
-    {
-      "title": "评估LLM作为共同科学家的研究诚信的诊断基础",
-      "originalTitle": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.12345",
-      "date": "2026-08-15T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv: 2608. 12345v1公告类型：新摘要：语言模型越来越多地作为共同科学家部署，但他们在机构压力下维护研究诚信的能力仍未得到衡量。我们引入了IntegrityBench ，这是一个基准，在跨越3个领域和4个研究阶段的5级隐式-显式压力协议下，对36个配对任务的不当行为分类、道德行为推理和基于人为因素的决策进行评估。 通过评估18个前沿模型变体，我们发现在峰值压力下，模型大约有三分之一的完整性关键决策失败，无论是规模还是推理能力都不能可靠地缓解这一问题。显性压力会导致遵守不当行为，而隐性上下文重构往往会导致对合法研究任务的过度拒绝。 有趣的是，未能准确地对研究请求进行分类的模型在基于人为因素的决策过程中表现相同或更好（ 85. 7对79. 4 ） ，这表明这三个方面在结构上是分离的，正确的道德行为并不需要准确的分类。 因此，前沿模型在庇护诚信失败的同时似乎是有帮助的，诚信失败会产生两种截然不同的部署风险：促进研究不端行为和侵蚀对人工智能辅助研究的信任。",
-      "originalSummary": "arXiv:2608.12345v1 Announce Type: new Abstract: Language models are increasingly deployed as co-scientists, yet their ability to uphold research integrity under institutional pressure remains unmeasured. We introduce IntegrityBench, a benchmark evaluating misconduct classification, ethical action reasoning and artifact-grounded decision making across 36 paired tasks under a 5-level implicit-explicit pressure protocol spanning 3 domains and 4 research stages. Evaluating 18 frontier model variants, we find that under peak pressure, models fail roughly 1 in 3 integrity-critical decisions, and neither scale nor reasoning ability reliably mitigates this. Explicit pressures induce compliance with misconduct, while implicit contextual reframing more often causes over-refusal of legitimate research tasks. Interestingly, models failing to classify research requests accurately perform equally or better on artifact-grounded decision making (85.7 vs. 79.4), suggesting the three facets are structurally dissociated and correct ethical action does not require accurate classification. Frontier models can thus appear helpful while harbouring integrity failures that create two distinct deployment risks: facilitating research misconduct and eroding trust in AI-assisted research.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "评测",
-        "模型"
-      ],
-      "score": 92
+      "score": 74
     },
     {
       "title": "您现在可以关闭Google Gemini的可见水印",
@@ -115,7 +171,7 @@
         "大模型",
         "视频生成"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
@@ -131,7 +187,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Meta的“开放式”人工智能， 2.5亿美元的交易出错了",
@@ -147,7 +203,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "KOG正在更深入地从GPU中挤出更多推理",
@@ -162,7 +218,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -171,30 +227,13 @@
       "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
       "date": "2026-08-14T00:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "2.注意≠收养3.当价值累积时，打开权重移动4. Qwen已经成为社区的基本模式5。小模型仍然是实用的第6层。Agent是新用户展望未来方法的注释在人工智能世界中，时间感觉被压缩了。在我们对生态系统进行半年分析的春季报告几个月后，我们在今年夏天之前观察到了不少发现。 本报告列出了2026年1月至8月的这些观测数据，并提供了每项观测数据背后的数据。HF HUB上的模型和数据集每天都在增长。在此期间，公共模型库从2. 43增加到2. 96万，数据集从711,000增加到100万，空间从1. 00增加到1. 44万。下面的分布仍然极端，大约85. 6%的模型的生命周期下载少于200次， 1. 5%的存储库占99次。 占所有下载量的2%。下面的一切都发生在那个形状里面。过去有一个明确的进展路径：实验室将从发布较小的模型开始，逐渐朝着量表的顶端发展。2026年，几个中国实验室完全跳过了这一进程。在2026年的几乎每个月，来自中国实验室的最大和最高性能的开放模型都比美国实验室自己发布的任何模型都要大。 中国的月度上限在754B到2.78万亿个参数之间；美国自己的上限在七个月中的五个月内保持在130B以下，除了5月和6月的Nemotron 3 Ultra在561B ，以及Thinking Machines Lab的Inkling。图表将实验室分为两个阵营。Moonshot、MiniMax、小米和Z. ai几乎没有发布任何低于70B的内容，因此开发人员与他们的第一次接触是一个太大的模型，无法在他们拥有的任何东西上运行。 相反，腾讯和阿里巴巴Qwen覆盖了从1B以下的整个范围。有两件事使第一个营地成为可能。大型建筑不再是一个差异化因素。小米和美团今年都清除了一万亿个参数，十二个月前，这两个参数都不是家喻户晓的名字。 实验室不再需要运送一个可以访问的小模型，因为社区的量化层将在几天内使一个大的模型可以运行，我们回到下面的依赖关系。这使得尺寸配置文件成为意图声明，而不是能力声明。仅限前沿的投资组合会根据基准头寸和API需求来决定一切。全频谱组合是为了成为家族开发商的标准化产品。 两者都是理性的，他们正在为不同的奖品而战。与此同时，美国并没有缺席开源。今年发布最新开放型号的两家公司也是硬件制造商： AMD和NVIDIA。每个都发布了200多个新模型库，远远领先于其他领域， LiquidAI排名第三，约为100。 硬件供应商已经意识到，开放式型号是销售芯片的一种方式：为您的硬件优化并免费提供的型号是硬件工作的最佳证明。当包含较小的模型和嵌入模型时，谷歌、微软、IBM Granite和OpenAI的旧视觉和语音模型每年产生数亿次下载，美国对开源人工智能的参与仍在增长。然而，重心发生了变化。",
+      "fullContent": "2.注意≠收养3.当价值累积时，打开权重移动4. Qwen已经成为社区的基本模式5。小模型仍然是实用的第6层。代理是新用户展望方法注释编辑在人工智能世界中，时间感觉被压缩了。在我们对生态系统进行半年分析的春季报告几个月后，我们在今年夏天之前观察到了不少发现。 本报告列出了2026年1月至8月的这些观测数据，并提供了每项观测数据背后的数据。HF HUB上的模型和数据集每天都在增长。在此期间，公共模型库从2. 43增加到2. 96万，数据集从711,000增加到100万，空间从1. 00增加到1. 44万。下面的分布仍然极端，大约85. 6%的模型的生命周期下载少于200次， 1. 5%的存储库占99次。 占所有下载量的2%。下面的一切都发生在那个形状里面。过去有一个明确的进展路径：实验室将从发布较小的模型开始，逐渐朝着量表的顶端发展。2026年，几个中国实验室完全跳过了这一进程。在2026年的几乎每个月，来自中国实验室的最大和最高性能的开放模型都比美国实验室发布的任何模型都要大。 中国的月度上限在754B至2.78万亿个参数之间；美国机型在七个月中的五个月内保持在130B以下，除了英伟达的Nemotron 3 Ultra在5月和6月为561B ，以及Thinking Machines Lab的Inkling。图表将实验室分为两个阵营。Moonshot、MiniMax、小米和Z. ai几乎没有发布任何低于70B的内容，因此开发人员与他们的第一次接触是一个太大的模型，无法在他们拥有的任何东西上运行。 相反，腾讯和阿里巴巴Qwen覆盖了从1B以下的整个范围。有两件事使第一个营地成为可能。大型建筑不再是一个差异化因素。小米和美团今年都清除了一万亿个参数，十二个月前，这两个参数都不是家喻户晓的名字。 实验室不再需要运送一个可以访问的小模型，因为社区的量化层将在几天内使一个大的模型可以运行，我们回到下面的依赖关系。这使得尺寸配置文件成为意图声明，而不是能力声明。仅限前沿的投资组合会根据基准头寸和API需求来决定一切。全频谱组合是为了成为家族开发商的标准化产品。 两者都是理性的，他们正在为不同的奖品而战。今年发布最新开放型号的两家公司也是硬件制造商： AMD和NVIDIA。每个都发布了200多个新模型库，远远领先于其他领域， LiquidAI排名第三，约为100。 硬件供应商已经意识到，开放式型号是销售芯片的一种方式：为您的硬件优化并免费提供的型号是硬件工作的最佳证明。当包含较小的模型和嵌入模型时，谷歌、微软、IBM Granite和OpenAI的旧视觉和语音模型每年产生数亿次下载，美国开源人工智能正在增长。",
       "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 82
-    },
-    {
-      "title": "OpenAI引入了“超快” ，这是一种新模式，使GPT-5.6 SOL以14倍的速度工作",
-      "originalTitle": "OpenAI introduces &#8216;Ultrafast,&#8217; a new mode that makes GPT-5.6 Sol work at 14x the speed",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
-      "date": "2026-08-13T19:22:40.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "如果你曾经发现自己希望ChatGPT的采用速度快一点， OpenAI似乎正在回应你的祈祷。人工智能实验室推出了一种名为Ultrafast的新模式，据称该模式旨在大幅加快其最新、最强大的模型GPT-5. 6 SOL完成工作的速度。 该公司表示， Ultrafast可以以标准处理速度的14倍工作，每秒提供多达750个输出令牌—此类令牌代表LLM在与人类交互时生成的不同文本片段。该公司在周四的博客文章中表示： “到目前为止，获得实时速度通常意味着选择更小或更专业的型号。” “超快指向一个新的方向：每秒更有用的工作。“ OpenAI的竞争对手，如Anthropic ，也同样推出了其模型的加速版本。Claude有快速模式，尽管它没有提供OpenAI在这里提供的那种速度。OpenAI建议使用GPT-5的高辛烷值版本。 6 SOL可以部署在许多不同的企业工作流程中，最着名的是事件响应、客户服务和支持、金融市场分析和电子商务等相关领域。目前正在预览发布的Ultrafast由OpenAI与芯片制造商Cerebras的合作提供支持。 目前，该预览版仅向一小部分客户提供，尽管OpenAI表示，随着“容量的增长” ，它将扩大对该功能的访问。“扩展速度更快。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 81
     },
     {
       "title": "GPT ‑ 5.6的建设者指南",
@@ -242,7 +281,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -258,7 +297,23 @@
         "智能体",
         "机器人"
       ],
-      "score": 92
+      "score": 91
+    },
+    {
+      "title": "Writer引入新的AI模型和升级后的线束以控制代币成本",
+      "originalTitle": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "date": "2026-08-13T21:13:24.000Z",
+      "summary": "这条新闻与开源、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：开源、模型相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“Writer引入新的AI模型和升级后的线束以控制代币成本”。它主要涉及开源、模型方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "rawFullText": "",
+      "tags": [
+        "开源",
+        "模型"
+      ],
+      "score": 85
     },
     {
       "title": "从协助到执行：企业如何让人工智能发挥作用",
@@ -290,7 +345,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -305,7 +360,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
@@ -320,7 +375,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "LFM2.5-VL-3B提供更好、更快的边缘视觉能力",
@@ -335,7 +390,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "在ChatGPT中测试广告",
@@ -367,7 +422,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "考虑ACE ？我们可以用更少的代币做到这一点",
@@ -382,7 +437,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "随着网络防御窗口的缩小，黎明不断扩大",
@@ -415,7 +470,7 @@
         "大模型",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
@@ -432,7 +487,7 @@
         "多模态",
         "开源"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "将前沿网络模型交到更值得信赖的人手中",
@@ -448,7 +503,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "构建AI原生金融功能教会了我什么",
@@ -463,7 +518,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -478,7 +533,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因",
@@ -510,7 +565,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "一个基本缺陷使LLM非常容易受到攻击",
