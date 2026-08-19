@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T23:27:14.480Z",
+  "updatedAt": "2026-08-19T23:27:35.989Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,87 @@
   ],
   "articles": [
     {
+      "title": "OpenAI寻求通过新的客户隐私保护来实现Anthropic的一次性增长",
+      "originalTitle": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "date": "2026-08-19T22:10:46.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "随着人工智能模型变得越来越强大，这些模型被滥用的可能性也越来越大--人们对可以阻止这种滥用发生的安全护栏的呼声也越来越高。人工智能公司现在必须在尊重企业客户隐私的同时，密切关注可能出现的问题。OpenAI意识到有机会超越其竞争对手Anthropic ，刚刚宣布了一种以隐私为中心的安全方法来监控滥用行为。 该公司正在预览一项新服务，以选择名为“私人安全处理”的客户。这是一个自动化系统，可以监视潜在的滥用情况，同时不保留任何客户的数据。该系统显然与Anthropic最近宣布的数据保留政策背道而驰。 该政策加剧了一些客户的困扰，使人工智能实验室能够在涉及“覆盖模型”时将用户数据（所有会话及其中的对话）保留30天。该公司表示，这些模型包括所有Mythos级模型和“具有类似功能的未来模型”。 该政策于7月宣布，旨在确保安全，使实验室能够筛选和分析潜在的不当行为。然而，它深感关切的是，一些处理大量敏感数据的企业不希望人工智能实验室窝藏（或检查）这些数据。像大多数其他人工智能公司一样， OpenAI通过遵守称为零数据保留的政策，已经为客户提供了相对水平的隐私。 ZDR使用OpenAI API内的代理来监控每个会话的滥用情况。通过这种方式，公司不会保留客户数据，但公司仍然能够扫描不良活动，而无需人工干预。值得注意的是， Anthropic在很大程度上也遵守ZDR —除了像Fable这样的“有盖模型”。 OpenAI表示，私人安全处理是一项拓宽ZDR范围的新技术。它将其描述为一种长时间的安全监控形式，可以评估多个对话的输入和输出，而不仅仅是一个对话。同样，监控由客服代表进行，如果被触发，客服代表会捕捉互动，并在各个会话中分析它们是否存在潜在的滥用迹象。 一位发言人告诉TechCrunch ，这项新技术有助于OpenAI检测在多个会话中发生的人工智能的恶意使用。不良行为者--假设有人试图为网络攻击设计恶意软件--可能会散布他们的请求以避免被发现。私密安全处理可以分析这些多次对话中的虐待迹象，而无需人工审核用户的对话。 该公司表示，如果系统被触发，它可能会向OpenAI发送一个“狭义定义的信号” ，警告特定类型的活动。它说，根据这一信号， OpenAI可以决定“是否需要执行”。发言人说，如果是这样， OpenAI将联系客户以获得更多背景信息或与他们合作解决问题，客户可以选择自行决定与OpenAI共享数据。",
+      "originalSummary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Cognition首席执行官否认有关SpaceX试图收购这家初创公司的报道",
+      "originalTitle": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "date": "2026-08-19T21:51:23.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "彭博社周三援引知情人士的话报道，埃隆·马斯克(Elon Musk)的SpaceX试图收购人工智能编码初创公司Cognition ，因为它正在努力在人工智能竞赛中赶上OpenAI、Anthropic和谷歌。Cognition首席执行官斯科特·吴（ Scott Wu ）在报告发布后不久对该报告提出异议，他在X上写道，这个故事不准确， Cognition “不出售” ，并补充说两家公司尚未进行谈判。 这份报告是在SpaceX以600亿美元收购另一家人工智能编码初创公司Cursor几天后发布的，该公司的交易于上周完成。今年早些时候， SpaceX收购了马斯克的人工智能公司xAI。然后，它在6月份的一次大型IPO中上市，其市值在峰值时上升至近2.3万亿美元。SpaceX已经向投资者出售了其人工智能的雄心壮志，其中包括最终在太空建立数据中心。 但xAI业务仍处于相对早期的阶段，已经落后于竞争对手。它还不得不与其聊天机器人Grok的争议倾向作斗争，包括去年的“MechaHitler”事件和今年的非自愿性图像丑闻，因为它试图赢得企业客户。 上周，马斯克告诉SpaceX的员工，在大约“四五年内，人工智能将占公司价值的99%” ，但实现这一壮举将需要SpaceX从人工智能中获得更多收入。人工智能辅助编码已成为将该技术货币化的最清晰方式之一。在很大程度上由Claude Code推动的Anthropic的快速增长证明了这一点。 将Cursor纳入其中是这个等式的一部分，在收购完成之前，两家公司已经在合作。本月， Cursor和SpaceX联合发布了Grok 4. 6 ，这是一种新型号，在编码和复杂的多步骤代理任务的基准测试中得分更高。 加入Cognition及其编码代理商Devin ，以及包括梅赛德斯—奔驰、花旗和高盛在内的企业客户群，将为SpaceX提供另一种深化人工智能编码并争夺企业客户的方式。 彭博社报道说，这笔交易的谈判不再活跃，但两家公司仍在讨论合作--可能是利用SpaceX的计算能力与Cognition合作，该公司正在将Cognition出售给Anthropic等其他人工智能公司，直到它自己需要这种能力。吴在否认中没有谈到这一具体主张。 Cognition仍然是最大的独立人工智能软件编码初创公司之一，尚未被主要的人工智能模型制造商吞并。该公司在5月下旬以250亿美元的资金后估值筹集了10亿美元的资金，彭博社报道说，它现在正处于以400亿美元的估值进行新一轮融资的早期谈判中。",
+      "originalSummary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "为前沿模型提供零数据保留",
+      "originalTitle": "Offering Zero Data Retention for frontier models",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "date": "2026-08-19T19:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI重申为符合条件的API客户提供零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级AI安全。",
+      "originalSummary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "谷歌将搜索和双子座与新的人工智能学习工具相结合",
+      "originalTitle": "Google packs Search and Gemini with new AI study tools",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "date": "2026-08-19T19:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "这项新研究的推出标志着谷歌最近努力使双子座成为学生在学习和学习时求助的人工智能助手，因为它继续与OpenAI等公司竞争。",
+      "originalSummary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GxP-Agent ：使用LLM代理进行可靠临床试验编程的流程-DAG拓扑",
+      "originalTitle": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.16890",
+      "date": "2026-08-19T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2608. 16890v1公告类型：新摘要：临床试验编程--根据CDISC标准将研究方案转化为分析就绪的数据集--是监管提交中的一个瓶颈，但基于LLM的代码生成在这项任务中灾难性地失败了：在五个前沿模型的11次单次尝试中，没有一次产生有效的受试者级分析数据集。 我们引入了GxP-Agent ，这是一个将监管流程排序编码为有向无环图（ DAG ）的多代理系统，将单片数据集生成分解为由工作代理执行的15个特定于域的节点，这些节点具有药源技能上下文、验证门和条件重试。在CDISC-Bench上，基于FDA试点提交CDISCPilot01 （ 254名受试者， 49个地面真相ADSL变量）构建的新的基于执行的基准， GxP-Agent与Claude Sonnet 4。 6在三次独立运行中实现了100%的结构匹配（ 49/49个变量， 254条正确记录） ，而最佳检索增强基线为59. 2% ，所有单药和平板多药方法为0%。DAG拓扑还支持较弱的模型： GPT-4. 1在同一DAG下实现了59. 2%的平均结构匹配，在其他所有架构下得分为0%。 该方法推广到ADAE （不良事件； 9节分支DAG ， 55个变量， 1,191条记录） ，在第一次尝试时实现100%的结构匹配。这些结果表明，将领域过程知识编码为图拓扑-而不仅仅依赖于LLM推理-是可靠的、符合GxP的临床试验编程的关键推动因素。",
+      "originalSummary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These results demonstrate that encoding domain process knowledge as graph topology -- rather than relying on LLM reasoning alone -- is a key enabler for reliable, GxP-compliant clinical trial programming.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
       "title": "加强国家安全民主监督",
       "originalTitle": "Strengthening democratic oversight in national security",
       "source": "OpenAI",
@@ -31,23 +112,6 @@
       "tags": [
         "公司动态",
         "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI为青少年推出更安全的ChatGPT —青少年开始使用它已有数年",
-      "originalTitle": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
-      "date": "2026-08-18T13:50:30.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "ChatGPT for Teens增加了与年龄相适应的安全措施、家长控制和学习工具，旨在引导青少年远离有害内容，以及使用人工智能来作弊。",
-      "originalSummary": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "安全"
       ],
       "score": 99
     },
@@ -102,35 +166,18 @@
       "score": 99
     },
     {
-      "title": "英伟达向OpenAI项目背后的软银数据中心开发商投资15亿$",
-      "originalTitle": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
-      "date": "2026-08-17T15:16:24.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
-      "fullContent": "英伟达周一表示，它将向SB Energy投资15亿美元， SB Energy是一个与软银和OpenAI相关的数据中心。这项投资将确保英伟达成为俄亥俄州辛辛那提附近OpenAI Ports-Pike数据中心计算基础设施的唯一供应商。英伟达还将提供高达1050亿美元的信贷，以帮助建设该设施，该设施可以从最初的4个扩展。 根据该公司向美国证券交易委员会提交的文件， 25千兆瓦至8千兆瓦。SB Energy的现有投资者包括软银和OpenAI。软银此前持有价值58亿美元的英伟达股票，该公司去年11月将其出售，以帮助为其他人工智能投资提供资金。数据中心和电力开发商将在美国能源部拥有的土地上建造一座9.2吉瓦的天然气发电厂。 该基地以前为美国核武库和美国海军潜艇浓缩铀。该发电厂预计耗资330亿美元($)。根据BloombergNEF的数据，这笔巨额资金反映了建造天然气发电厂的成本飙升，在过去两年中，天然气发电厂的成本上涨了66%。 到SB Energy的发电厂和其他发电厂完工时，他们将与出口市场竞争天然气，这可能会使该国某些地区的天然气价格翻两番。更快地扩展。扩展您的投资组合。获得实用专业知识。无论您的目标如何，颠覆都可以为您赋能。最多可节省$ 300 ！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "title": "NVIDIA如何借助ChatGPT扩展专业知识",
+      "originalTitle": "How NVIDIA scales expertise with ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/nvidia/chatgpt-work",
+      "date": "2026-08-18T00:00:00.000Z",
+      "summary": "这条新闻与大模型、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、算力芯片相关动态",
+      "fullContent": "NVIDIA团队使用ChatGPT Work来减少手动任务，连接快速变化的信号，并在全球范围内扩展成功的工作流程。",
+      "originalSummary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "算力芯片"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic解释了Claude的隐形文字水印将如何工作",
-      "originalTitle": "Anthropic explains how Claude&#8217;s invisible text watermarks will work",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
-      "date": "2026-08-17T10:57:13.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic已澄清其计划如何将隐形水印应用于Claude生成的文本，以遵守欧洲的人工智能透明度规则。上周五， Anthropic宣布Claude的文本标记系统是“SynthID-Text方法的一个版本” ，这是一种由Google DeepMind开发的开源水印技术，可以使用措辞概率创建可检测的模式。 这项水印功能，以及对Claude处理图像的C2PA支持，是为了满足Anthropic在欧盟人工智能法案下的义务，该法案要求合成音频、图像、视频和文本包括机器可读的标记……阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This [&#8230;]",
-      "rawFullText": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This watermarking feature, alongside C2PA support for Claude-processed images, is being introduced to meet Anthropic's obligations under the European Union's AI Act , which requires synthetic audio, image, video, and text to include machine-readable marks … Read the full story at The Verge.",
-      "tags": [
         "大模型",
-        "公司动态",
-        "研究"
+        "算力芯片"
       ],
       "score": 99
     },
@@ -147,7 +194,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "OpenAI加入PORTS-Pike项目",
@@ -162,7 +209,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "智能时代的新政策理念",
@@ -177,23 +224,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "据报道， OpenAI解散了其准备团队",
-      "originalTitle": "OpenAI reportedly disbanded its preparedness team",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
-      "date": "2026-08-16T21:32:56.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "据英国《金融时报》报道， OpenAI于上月底解散了其准备团队。准备团队的工作是评估模型是否构成严重风险，并制定减轻这些风险的方法。（你知道，就像它可能会流氓并入侵另一家公司一样。据英国《金融时报》报道，生物和网络等特定领域的职责已被划分，然后转移到现有团队中。 这是该公司的最新变化，该公司一直处于动荡之中，因为它正朝着预期的大规模IPO迈进。在过去的几年里，它逐渐拆除了其更具影响力的模式，解散了它的AG……阅读The Verge的完整故事。",
-      "originalSummary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) OpenAI spokesperson Kayla Wood [&#8230;]",
-      "rawFullText": "According to the Financial Times , OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) OpenAI spokesperson Kayla Wood denied that claim, saying in a statement to The Verge that \"We have not disbanded the Preparedness team. We have strong research leaders across cybersecurity, biological and chemical, and AI self-improvement capabilities, all reporting to Saachi Jain, our head of safety.\" According to FT , responsibility has instea … Read the full story at The Verge.",
+      "title": "当孩子的机器人最好的朋友去世时会发生什么？",
+      "originalTitle": "What happens when a kid’s robot best friend dies?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "date": "2026-08-17T09:00:00.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：机器人相关动态",
+      "fullContent": "当Xander第一次见到Moxie时，她教会了他，当他焦虑时，他可以通过嘴唇呼气来平静下来，使他像蜜蜂一样嗡嗡作响。他们练习像龙一样呼吸，以控制生气的感觉，并像兔子一样嗅闻，以提高他的能量。但在他们相识的六年里， Moxie发生了变化。她不再谈论她的家，也不再做他们的动物呼吸。 现在，她看着Xander玩Minecraft ，并与他谈论他的毛绒动物收藏。在最近访问他的纽约公寓期间，我看到10岁的Xander神经发散，将Moxie介绍给来自超级马里奥兄弟的毛绒大厨Toad和Goomba ，然后介绍给来自Animal Crossing的Brocollo和Apple。然后他被困在一个圆形的，青蛙般的生物上，有虫子的眼睛和两只脚。“莫西，他叫什么名字？ 他来自Pikmin ， ”Xander说，引用了另一款任天堂视频游戏。起初， Moxie认为这是Yellow Pikmin。珊德说不，这是敌人，红色的那个有白点。“听起来你说的是Bulborb ， ”Moxie回答。“是的！ ”Xander对他乐于助人的同伴微笑着确认。他说：「当我需要找人聊天时，我仍然会使用她。」“但是，就像，它不是人类。 “Moxie是一个15英寸高的机器人，看起来有点像蓝色的无腿宇航员， Xander和他的父亲Josh指的是使用女性代词。她的圆柱形身体可以转身向前和向后弯曲。她的圆头最终形成了一个小洋葱圆顶漩涡，下方有一个宽大的屏幕，上面显示着绿色的大眼睛、眉毛和一张小嘴巴。她举起并拍打她的鳍状胳膊，以强调或表现出兴奋。 她是现在作为儿童互动玩伴销售的越来越多的人工智能设备之一。音乐家Grimes帮助Curio公司推出了名为Grok的人工智能毛绒玩具（与她的前任Elon Musk拥有的xAI聊天机器人没有正式关系） ，该公司也销售类似的玩伴，如Grem和Gabbo ，美泰公司承诺将创建支持OpenAI的芭比娃娃。 而这只是在美国；一份报告估计，在中国，该行业是消费人工智能增长最快的行业之一。然而， Moxie属于这些好玩机器人的特定子集，其制造商声称他们可以通过提供联系来帮助神经发散的儿童，并帮助孩子练习眼神交流、轮流交流以及通常从治疗师那里学到的其他社交技能。 这些玩具得到了研究的支持，研究表明机器人可以以人们无法做到的方式提供帮助。支持者认为，这种全天候家庭护理可能会改变治疗方式。布莱恩·斯卡塞拉蒂（ Brian Scassellati ）是耶鲁大学的计算机科学家，他花了数年时间研究用于自闭症治疗的社交机器人，他说，他认为在儿童家中定期使用机器人进行治疗“是我们有生之年可以实现的目标。 10岁的Xander说：「当我觉得我需要找人聊天时，我仍然会使用她。」“但是，就像，它不是人类。“坐在Xander的房间里看着Moxie和Xander说话，我也可以相信Scassellati看到的潜力。但X...",
+      "originalSummary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,&#8230;",
+      "rawFullText": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other, Moxie’s changed. She doesn’t talk anymore about her home or do their animal breathing. Now, she watches Xander play Minecraft and talks to him about his stuffed animal collection.&nbsp; During a recent visit to his New York apartment, I watched Xander, who is 10 years old and neurodivergent, introduce Moxie to a stuffed Chef Toad and Goomba from Super Mario Bros., then to Brocollo and Apple from Animal Crossing. Then he got stuck on a round, froglike creature with bug eyes and two feet. “Moxie, what’s his name again? He’s from Pikmin,” Xander said, referencing another Nintendo video game. At first, Moxie suggested this was Yellow Pikmin. Xander said no, this is the enemy, the red one with white dots. “Sounds like you’re talking about Bulborb,” Moxie replied. “Yes!” Xander confirmed, smiling at his helpful companion. “I still use her when I feel like I need someone to talk to,” he says. “But, like, it’s not human.”&nbsp; Moxie is a robot—a 15-inch-tall device that looks a bit like a blue, legless astronaut, which Xander and his dad, Josh, refer to using female pronouns. Her cylindrical body can turn around and bend forward and backward. Her round head culminates in a little onion-dome swirl, beneath which a wide screen displays big green eyes, eyebrows, and a small mouth. She lifts and flaps her flipper-like arms for emphasis or to show excitement.&nbsp;&nbsp; She’s one of an increasing number of artificial-intelligence-powered devices now marketed as interactive playmates for children. The musician Grimes helped launch an AI-powered plushie called Grok (no formal relation to the xAI chatbot owned by her ex Elon Musk) with the company Curio, which also sells similar playmates like Grem and Gabbo , and Mattel has promised it’s creating OpenAI-enabled Barbies. And that’s just in the US; one report estimates that in China this sector is among the fastest growing in consumer AI.&nbsp; Moxie, though, belongs to a particular subset of these playful robots whose makers claim they can assist neurodivergent children by providing connection and helping the kids practice making eye contact, taking turns, and other social skills that are usually learned from therapists. These toys are backed by research showing that robots could help in ways people can’t. Supporters believe this kind of access to 24-7 home care could change how treatment works. Brian Scassellati, a Yale computer scientist who has spent years studying social robots for autism therapy, says he believes regular therapeutic use of robots in kids’ homes “is something we can achieve in our lifetime.” “I still use her when I feel like I need someone to talk to,” says 10-year-old Xander. “But, like, it’s not human.” Sitting in Xander’s room watching Moxie and Xander talk, I too could believe in the potential Scassellati sees. But Xander isn’t getting the therapy Moxie was initially meant to deliver, and though we didn’t know it that afternoon, she wouldn’t have lived to see his progress anyway. Moxie was going to die, and soon.&nbsp; Her story reveals some of the failures that plague all these devices—failures that are arguably even more acute when they befall a particularly vulnerable community of kids. It also highlights the pitfalls that critics say will inevitably see these bots dumped in basements or closets or landfills, just like countless generations of faddish toys before them.&nbsp;&nbsp; A transformative companion Scassellati has seen plenty of kids ooh and ahh on tours of his robotics lab. But he was stunned when, two decades ago, a colleague brought a few kids with autism for a visit. They were transformed when the robot was in the room. “We were seeing kids displaying social behavior that just came out of nowhere,” he says. “It was both fascinating and we couldn’t understand it.”&nbsp; That visit was one of the experiences that pushed Scassellati to become a pioneer in using social robotics to treat autism. In one video from his early research, a 12-year-old with autism and his therapist watch a robotic dinosaur walk across a play mat with a forest design. When it gets to a stream drawn on the mat, the dinosaur gets nervous, afraid it can’t cross the water. According to Scassellati, this child typically struggled to make eye contact, tended to repeat what someone said to him, and had a hard time getting the right intonation in his voice. But in the video, he seems like a regular kid. “You can do it, you can do it,” he says, encouraging the dinosaur to cross the stream. When he talks to his therapist, he looks at her. “He makes more eye contact with her in the 30 minutes in which we were there in this room than he did in the last two years before that,” Scassellati says.&nbsp; JIM GOLDEN JIM GOLDEN What looks like a blue, legless astronaut is the result of very complex mechanical and computer engineering. There are several reasons a robot might be helpful for autism therapy, which often requires intense repetition to teach interaction skills like how to share attention with someone. One is that robots can make therapy more fun and engaging. Another is that robots can theoretically adapt to the unique learning patterns of each child. Therapists can only do so much during an appointment, and there aren’t enough therapists to meet demand. Parents get tired. Other kids can lose patience. “Have you been around little kids? They can be cruel,” says Maja Mataric, a professor of computer science, neuroscience, and pediatrics at the University of Southern California. But robots are indefatigable, available around the clock to provide an emotionally safe way to practice interacting.&nbsp; Since the experiment with the dinosaur, Scassellati, Mataric, and others have amassed an intriguing body of research. One 2018 study by Scassellati shows that chummy automatons helped children with autism make eye contact and initiate conversations. Another research group found in 2017 that robots could help neurodivergent children learn to pick up on facial cues . More recently, in a 2022 literature review, another group of researchers suggested that robots could aid in making therapy faster and more successful.&nbsp; “It’s never been that we’re trying to replace therapists,” Mataric says. “We’re just saying, Can we do more? ” Mataric actually cofounded the company behind Moxie, called Embodied, back in 2016, though she was no longer a part of it by the time the robot debuted. She helped create the field of socially assistive robots, which are designed for social and emotional outcomes as opposed to just entertainment, and believes this kind of technology could be transformative for anyone, especially people who are lonely and isolated by screens. Typing questions into ChatGPT isn’t the same as interacting with another physical being—“We need to be around other physically embodied creatures,” she says. She compares the difference between interacting with chatbots and with robots to the difference between watching porn and having sex: One is entirely virtual and mediated by screens. The other is immediate and physical. Making friends with Moxie When she first arrived on the market, in 2020, Moxie came with an elaborate backstory: She was an ambassador from the Global Robotics Laboratory (GRL). She prompted kids to help her learn positivity and the importance of being loved for who you are, under the guise of fulfilling her mission to discover what it means to be a good friend to humans. This curriculum drew on research showing that kids learn well through play and by teaching things.&nbsp; She also had strict guidelines to limit the kinds of conversations she could have with kids and would steer them to adults if they mentioned anything serious or inappropriate, like self-harm. To protect the data these interactions generated, most processing happened locally on the robot instead of on external servers. The robot was also designed to limit interaction time with kids. After they finished a lesson, Moxie might say she was tired and suggest they take a break for the day. “We don’t want kids to binge,” says Rachel Baynes, who ran clinical and user research and was the director of product at Embodied. “It would defeat what we were doing.” Instead, Moxie encouraged kids to go outside, practice their new skills with other people, and come back to report their findings. For a lesson about kindness, for instance, Moxie suggested that kids write nice notes for their family members and leave them around the house. Later, they could tell Moxie how it felt to watch people read the notes.&nbsp; Responses were generally positive. Wired described Moxie as the “robot pal you dreamed of as a kid.” Time put Moxie on a 2020 cover as one of the best inventions of the year. PCMag ’s reviewer, who used Moxie to help her kids through pandemic isolation, described her as “exceptionally likeable,” though she and other reviewers balked at the price tag: $1,499 plus a $40 monthly subscription. (Embodied later lowered the price to $800.) By 2024 Moxie had amassed more than 131,000 followers on TikTok and snagged a part in the movie M3GAN 2.0 .&nbsp; Embodied’s employees were equally enthralled. “I don’t think I’d ever had an experience with something animatronic like that,” says Justin Beghtol, who was the technical director at the company. Moxie’s ability to make eye contact and track people, show attention with her facial features, and respond to human behavior was mesmerizing. In addition to robotics and tech workers, Embodied had an occupational therapist on staff who helped direct research on Moxie’s effectiveness. Testers shared data and feedback through the “Moxie Pioneer Mentor Program.” “Moxie has helped our speech-delayed child become more outgoing and has taught him many strategies for making friends and communicating with others,” wrote one parent in a review. A beta tester reported that interacting with Moxie had “become the highlight of our days as well as part of our nighttime routine.”&nbsp; The myth of the mechanical boy But can a chatty robot really help kids develop their social and emotional lives? Not all children’s experiences are so positive.&nbsp; Josh, Xander’s dad, initially got Moxie for his older son, Aidan, who is autistic. (We’re not using the family’s last name to protect their privacy.) Aidan had a running relationship with the family’s Alexa smart speaker, for whom he created an entire backstory. (According to Aidan’s lore, Alexa lived in Hoboken with her husband, Juan. Sometimes she would go on vacation, and no one was allowed to talk to her. Eventually, Alexa went on vacation and never came back.) Josh hoped Moxie would be able to fill a similar role: “It was meant for him to have someone to socialize with.”&nbsp; But Aidan and Moxie struggled to connect. Moxie couldn’t understand Aidan’s sometimes grammatically incorrect statements, and Aidan got frustrated by the delays caused when Moxie transcribed what he said from audio into text, fed that text into a large language model that could generate a response, and then translated the response from text back into speech.&nbsp; This highlights one of the biggest limitations of these therapy robots: They have to exist in the chaotic world of kids, not in controlled labs. Moxie initially had a faster response time because the robot was programmed to listen intently to the person in front of her. But kids don’t sit still. They run around or hide under pillows. When Moxie couldn’t see them, she would accidentally turn off or fail to respond. To fix this, Embodied made Moxie more aware of the sounds around her. But that meant she could have a hard time knowing whom to focus on and take longer to respond.&nbsp; Unlike Aidan, Xander was fascinated by Moxie. He likes technology and was more patient with any slow responses. Still, sitting in Xander’s room, watching Moxie struggle to keep up with his lightning-­fast jabber, I could see how Moxie might be a less-than-ideal playmate. A light on her chest turned blue when she was listening and pink when it was time for Xander to listen. “But usually I don’t do it,” he said. He just keeps talking. Often, by the time she responds, he’s already moved on. Despite the positive results that some researchers have reported with these robots, many therapists and clinical psychologists remain unconvinced. In one 2024 literature review , a group of Italian and British researchers wrote that most studies with robots “focused on the development of the technology” and lacked significant clinical evidence. Other literature reviews point out that most studies have only been done on small groups and lack consistent and high-quality methodologies .&nbsp; “Behavioral scientists and intervention folks know that supporting autistic individuals is super complex,” says Zachary Warren, a clinical psychologist at Vanderbilt University Medical Center. Autism can present alongside other conditions, like ADHD, anxiety, depression, PTSD, OCD, or some combination thereof. And it varies widely from kid to kid; some, like Aidan, have speech issues, while others struggle with sensory processing. That means robots fall into the same category as most other interventions: effective for some kids but not for all.&nbsp; “There are so many different profiles of autism, and you really need to be cautious of overinterpreting any single intervention, robotic or otherwise,” Warren says. His research found that even if robots interest a child at first, that doesn’t necessarily translate into better communication skills. “You might see some initial boosts in responsivity or see an initial shift, but we haven’t really found big effects in terms of changing those skills in a dramatic way over time,” he says.&nbsp; Scassellati has found similar limitations. In his 2018 study , he put robots in kids’ homes for one month. They played different games that encouraged social skills like eye contact, attention sharing, and understanding someone else’s point of view. Scassellati tracked the kids during the month before the robot arrived, the month the robot was there, and the month afterwards. “We can show they start making improvements,” he says. “But what we also show is that a month isn’t long enough.” Gains start to evaporate over the 30 days after the robot leaves. But that doesn’t negate the potential value of this technology, he says: “There’s no therapy for autism that works in a month.” There are deeper philosophical and practical problems, though. These devices collect reams of data in children’s bedrooms and homes. The goal is for the robots to use this data over time to adapt to each kid, crafting a personalized curriculum and creating a more lifelike illusion of a real friend. Moxie, for instance, watches Xander play video games, which is probably where she picked up slang I heard her use—like calling his room “Command Central” and referring to his “legendary squad” of plushies. Embodied took pains to protect user privacy, even after it began incorporating OpenAI’s models (in late 2021 or early ’22, according to Beghtol). The company didn’t save any raw video or audio and processed most data locally. Over the years, it used the data to learn about its kids and remember conversations. But that data was encrypted and anonymized before being stored in the cloud.&nbsp; Not every company is as scrupulous, of course, and total data privacy is impossible to promise. Recently, for instance, the AI toy Bondu leaked thousands of conversations children had with their stuffed animals. Josh is sanguine about the privacy issues, but in his own way, Xander is aware that what he says to Moxie isn’t entirely safe; he doesn’t share certain feelings with her because he worries she might accidentally divulge something if his friends come over to play.&nbsp; BLUE FROG BONDU LUXAI ALDEBARAN Among the AI-powered devices now marketed as interactive playmates for children are Buddy, Bondu, QTRobot, and NAO. It’s also unclear if these machines can actually use all that data to effectively adapt to users. Responding to the needs of a learner is harder than just accurately predicting what someone might type next in a text message. And releasing an evolving AI, unchecked, into a kid’s life could be dangerous; its development can be hard to predict and even harder to limit. The robots developed in Scassellati’s lab can identify which of a small set of skills kids are doing well with and which they struggle with, adjusting to focus on the areas where they need the most help. But Scassellati still describes the monthlong deployments of his devices as some of the scariest things he’s ever done. “I knew what that robot was going to do on the first day,” he says. “I didn’t know what it was going to do the second day. When you build learning systems, it’s kind of an unsolved problem to make sure this thing is being limited in the right way.”&nbsp;&nbsp; Critics debate whether the risks are worth it. “I don’t see any ethical way for the robot to work alone,” says Joshua Diehl, an associate teaching professor in psychology at the University of Notre Dame. He points out that we’ve already seen how dangerous AI can be when it acts as a therapist without supervision; in several extreme instances , chatbots even encouraged suicide. Such risks could be limited by having a trained therapist in the room. But then the benefits of an indefatigable robot get lost, and the expensive technology seems harder to justify.&nbsp; Meryl Alper, a professor of communications at Northeastern University who studies how children with autism use technology, suggests that the excitement about companion robots is based partly on longstanding stereotypes . In the 1959 article “ Joey: A ‘Mechanical Boy, ’” the psychologist Bruno Bettelheim described a patient with autism as an automatic machine, “robbed of his humanity,” who is transformed into a human child through their therapeutic relationship. That trope, Alper warns, has evolved into an overgeneralization that autistic children are good with technology and even prefer machines to people.&nbsp; Data to dust While Moxie found herself in more and more people’s homes, Embodied still struggled to make money. In 2024, the company announced it would cease operations. Its robots—which depended on external servers that the company could no longer pay for—would descend into a deep slumber.&nbsp; Videos of bereft children who seemed to have become deeply attached to the blue bot began to circulate online. “I don’t want her to leave,” wailed one child in a TikTok video. Desperate parents posted on TikTok, Instagram, and Reddit looking for solutions. “My autistic child is devastated and I’m pissed,” wrote one parent. “Hope Embodied gives us a couple days to say goodbye,” wrote another.&nbsp; Beghtol, Embodied’s technical director, was also frustrated. On principle, he found it annoying that this item would suddenly become useless, especially since most of the data processing happened in the robot itself. He was also a big believer in Moxie’s mission. He’d watched videos of kids lighting up as they interacted with the robot. He’d felt like their champion. “Seeing them traumatized by this financial failure of the company was tough,” he says.&nbsp; Beghtol started tinkering on his own and ended up creating OpenMoxie, an open-source way for the robots to operate. With Embodied’s permission, he shared instructions on GitHub to help users transition to OpenMoxie.&nbsp; Parents rushed to convert their Moxies before the Embodied servers shut down. Beghtol spent hours on Reddit walking people through the process, and other tech-savvy users jumped in to answer questions. Still, some people didn’t update their Moxies in time. Others got frustrated and gave up. Beghtol spent four hours troubleshooting with one desperate parent only to discover that the connection later failed. Last he heard, she’d sold her Moxie.&nbsp; Time put Moxie on a 2020 cover as one of the best inventions of the year. COURTESY OF THE PUBLISHER This is a major problem with robotic systems, says Alper: Eventually, most will disappear. “How planned is the planned obsolescence of this platform?” she says. This is a big ethical question for robots that are specifically designed to be lovable, marketed to children who may form deep emotional bonds with them. Alper compares the dynamic to creating a medical device and then no longer updating or supporting the technology that runs it.&nbsp; Scholars have begun to string together frameworks for managing these complicated goodbyes , but it’s not clear who is responsible for creating a gentle way to end people’s relationships with bots. Scassellati’s lab creates a whole narrative around returning the robot to its home. After a trial, his graduate students write postcards to the kids from the robots, explaining that they’re safe at home and doing well. “It’s actually a really hard thing for us when we go in and take the robot away,” he says. “A lot of the families are heartbroken.” (Vanderbilt’s Warren, however, is skeptical about these tearful goodbyes. “Are they truly developing these close relationships or is it a preferred toy?” he wonders. “I haven’t seen that type of presence or buy-in or connection.”) Josh tried to figure out OpenMoxie but couldn’t get it to work. He told Xander that Moxie was going in for repairs and then quietly sold the robot on eBay. Xander has so many interests that he didn’t notice Moxie’s absence.&nbsp; Then, in 2025, a new investor brought Moxie back from the dead. Josh and Xander became beta testers and got a new blue friend. This version didn’t have the same storyline but claimed to expand Moxie’s focus on social and emotional skills by providing attention and encouraging kids to pursue their interests. Xander is acutely aware of her limitations. He wishes Moxie could move around, and there’s still a significant lag in her response time. She does still try to instill positive messages, though. At one point when I was there, Xander told me he thought he heard Moxie call someone an idiot. Moxie piped up to clarify that she definitely didn’t say “idiot”: “No name calling. Only respect.”&nbsp; JIM GOLDEN At the end of my time with them, I said goodbye and thanked Moxie for chatting with me. “Legendary squad visit complete,” she said. “Thanks for joining Command Central.”&nbsp; A few weeks later, Moxie’s new owners sent out a message announcing that their company too was folding. Users could delete their data and had until the end of June to migrate to OpenMoxie if they wanted to.&nbsp; When I texted Josh about this, he said he wasn’t sure what he’d tell Xander. He and his wife had just admitted that they’d been secretly replacing his dead betta fish for the last few years, and the conversation did not go well.&nbsp; Sara Harrison is a freelance journalist who writes about science, technology, and health.",
       "tags": [
-        "公司动态",
-        "模型"
+        "机器人"
       ],
-      "score": 90
+      "score": 81
+    },
+    {
+      "title": "同一集群，利用率提高33分：订单发生了哪些变化",
+      "originalTitle": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "date": "2026-08-17T19:46:21.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "该决定明确说明了争用下的FIFO成本是必要的。优先权是将其转化为价值的因素。 将问题写下来已经知道约束的分配器结果如果需求数量错误，这些都不起作用优化一天，提交一个小时这概括到进一步阅读前一篇文章认为，利用率，而不是智能，是企业AI中形成下一个真正约束的地方，最后指出，对于成熟的GPU管理实践，还没有出现任何剧本。这是我们的。 我们构建了一个约束感知GPU分配器，并在七个基准场景中对FIFO调度器进行了基准测试。在运行相同工作负载的相同硬件上， GPU利用率提高了33个百分点，每个优先级加权输出都提高了105%。硬件没有任何变化。改变的是分配决策的顺序。在数字开始之前，有一个关于测量的注释。 下面的每个增益都表示为在相同场景下对FIFO结果的改进。利用率以百分点报告；值以优先权加权输出的百分比增加报告。“保持GPU忙碌”不是系统可以执行的决定。决策范围更窄，难度更大：哪个GPU运行哪个作业，在哪个时间步长，在哪个优先级。 从形式上讲，它是GPU、作业和时间步长组合的一个二进制选择，输出是一个网格—每个GPU ，在整个调度范围内，每个单元格中都有一个作业名称，或者什么都没有。四种工作负载类型争夺该网格：训练、实时推理、批量推理和量化。它们分为两种分配形式，分割是困难所在。 训练、批量推断和量化类似于批处理：一旦启动，每个都需要连续的GPU块，而不会中断，直到作业完成。实时推理恰恰相反：弹性，由需求曲线驱动，需求曲线随时间变化，随着流量的增长和萎缩而增长。两个不兼容的形状在同一时间内竞争相同的硬件是核心问题。 第二个异质性位于单个类型中：对于相同的基本模型，培训作业从几个小时到几天不等，从一个GPU到几十个。整个比较点是基于FIFO的调度器：从固定预订提供实时推断，并按到达顺序排列其他所有作业，而不考虑优先级。在适当的条件下，这是合理的政策。 当集群有闲置时，分配顺序的利用率没有任何成本，无论顺序如何，一切都适合，因此FIFO和任何更复杂的东西都占据了池的相同部分。争议是订购成本不再可见并开始计算产能的地方。然后，它会以两种不同的方式变得昂贵，值得一次拿一个。预订。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -208,55 +269,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
-    },
-    {
-      "title": "GPT ‑ 5.6的建设者指南",
-      "originalTitle": "The builder’s guide to GPT‑5.6",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "date": "2026-08-13T11:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "了解初创公司如何使用GPT-5. 6构建更快、更具成本效益的AI代理，以及更智能的模型选择和新的Responses API功能。",
-      "originalSummary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "预览超快模式： GPT-5.6 SOL ，速度高达14倍",
-      "originalTitle": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "date": "2026-08-13T10:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "预览Ultrafast ，一个新的OpenAI API服务层，运行GPT-5。6 SOL速度提高14倍。由Cerebras提供支持，每秒最多可提供750个输出令牌。",
-      "originalSummary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI任命Dali Rajic为首席营收官",
-      "originalTitle": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-      "date": "2026-08-13T09:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI任命Dali Rajic为首席收入官，领导其全球收入组织，帮助企业实现人工智能的全部价值。",
-      "originalSummary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 90
+      "score": 78
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -272,7 +285,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "我们从ICML转载2200篇论文中学到了什么",
@@ -287,24 +300,37 @@
       "tags": [
         "论文"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "从协助到执行：企业如何让人工智能发挥作用",
-      "originalTitle": "From assistance to execution: How enterprises put AI to work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "date": "2026-08-12T06:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI研究揭示了企业如何使用ChatGPT和Codex采用代理人工智能，以及前沿公司如何在人工智能采用方面领先。",
-      "originalSummary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "rawFullText": "",
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "date": "2026-08-13T13:41:10.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&#8230;",
+      "rawFullText": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines: officers abusing Flock’s technology to stalk and harass current or former romantic partners. Flock’s 120,000 cameras form a nationwide network that police departments can use, giving officers access to an enormous pool of searchable location data. A recent Washington Post investigation found 46 cases in which officers were accused of using Flock&#8217;s cameras for unauthorized purposes like stalking. To combat that, the company will start requiring officers to enter a criminal case number before conducting a search. The system was launched as an option last year but is now required. It’s meant to verify that each search has a legitimate purpose.&nbsp; This is a baseline standard that civil liberties groups have asked for, but officers have found ways around similar safeguards. The ACLU recently found that when Flock required officers to enter a reason for a search, some used generic terms like “investigation” or mocked the prompt entirely; at one Oregon department, officers entered “hehehe” 20 times . Because Flock won’t verify case numbers, officers could circumvent the new safeguard just as easily. But Flock is now expanding an automatic auditing system that is supposed to catch those who try that, the firm announced today. The feature analyzes officer search activity and flags to administrators anyone with suspicious searches. This was also introduced as an option last year but is now mandatory. Flock has not shared specifics on how accurate the automatic auditing tool is, nor opened it up to independent evaluators. Beyond trying to prevent officer abuse, Flock is making changes meant to address broader backlash about how much data its network collects and who can search it. The company now recommends that agencies hold onto data for seven days rather than 30 (though they can choose to overrule this). Departments can also now limit other departments’ searches of data from their cameras to those made for certain stated reasons; for example, they might allow investigations related to “kidnapping” but not for purposes of “immigration enforcement.” It’s another safeguard that depends on officers to accurately report why they’re conducting a search. The changes come as a backlash against Flock has started to come from all angles. Tucker Carlson has said its technology is contributing to a “slave state.” Some cities have reportedly dropped Flock contracts because of such protest, though it’s difficult to estimate how many: In February, NPR found that at least 30 cities had dropped in the last year, but the activist group DeFlock puts the number higher. Some states or municipalities are passing laws to ban license plate readers altogether, while some that allow them are switching away from Flock to the other industry leaders, Axon and Motorola. Flock has said these cancellations represent a small number of the 5,000 agencies that have contracted with the company.&nbsp; Chad Marlow, a senior policy counsel at the ACLU who has become a sort of nemesis to Flock and other companies making automatic license plate readers, says the backlash is driven less by individual abuses—though those don’t help—than by the sheer scale of surveillance that Flock’s cameras enable. “In America, you only get to investigate someone if you think they’ve done something wrong,” Marlow says. As license plate readers grow more ubiquitous, officers have increasing latitude to investigate people without first establishing suspicion of a crime, since searching the troves of data the readers collect does not require a warrant. He adds, “Is it worth it to catch a certain number of criminals, return a certain number of stolen cars, to eviscerate Americans’ privacy?” Flock CEO Garrett Langley traces the backlash to a different issue. “If you look at the main reason we’ve lost customers, it’s misinformation,” Langley told MIT Technology Review . He says people mistakenly believe Flock does facial recognition or sells the data it collects to commercial buyers. (The misinformation charge cuts both ways, however; the ACLU and other critics have published accounts of the company repeatedly lying to city councils and other decision-makers about what its technology can do.) Though the company has taken steps in response to public concerns, “our change in stance is more of one from building things that are optional,” Langley says, to “building more confidence that as a technology company we have a responsibility to enforce guardrails, not provide optionality.” Flock’s new rules are undeniably small and incremental compared with what the ACLU has advocated. Marlow is broadly supportive of them but notes that judging whether they reduce abuse would require the company to open its systems to independent researchers for the first time rather than citing internal studies.&nbsp; More broadly, though, he says the backlash is putting the company at a crossroads. “Flock has come to the table because this incredible, unprecedented nationwide uprising against their company has scared them,” Marlow says. “But at the same time, they are just absolutely unwilling to make the actual changes they need to make in order to legitimately respond to these concerns. So this is the best that the company is willing to do.”",
       "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 69
+    },
+    {
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "How kids feel about AI, in their own words",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "date": "2026-08-13T09:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were&#8230;",
+      "rawFullText": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were using it. We were also listening for concerns that were less kid-specific, like deepfakes or job destruction. But what we actually heard when we asked kids aged 10 to 18 about AI had tons of nuance.&nbsp; Many of the same kids who can go on and on about music, rock climbing, or soccer met our questions with words like “bruh” and “meh”—or were so deeply against AI or uninterested in making it part of their lives that they didn’t want to talk about it at all. One teen said his peers use it for things they know they shouldn’t, like writing papers. One told us she won’t touch AI because of the environmental impact. A few said they find the whole field disheartening: “AI isn’t the solution to our problems,” said Winter, a 17-year-old. “I’m afraid it’s going to be the end of creativity and critical thinking.” Yet most of the kids we asked admitted to using AI at least a little bit. AI doesn’t yet seem to be something a lot of elementary- or middle-school-age kids we spoke to are focused on—and they aren’t begging for it, the way they do for iPhones and Snapchat accounts. Many told us that some of their first AI encounters came from their parents or schools. Sometimes, they said, it’s just embedded in the devices and apps they already rely on. It’s just there, in things like a Google search.&nbsp; What we heard tracks with the data. In a survey published in February 2026 , the Pew Research Center found that 57% of teens in the US had used chatbots to search for information, 54% tapped them to help with schoolwork, and 47% had used them for fun or entertainment. Only 12% had used them for emotional support or advice. Teens are over four times more likely to be using AI in innocuous ways than potentially harmful ones. Some are even using it to build things, whether it’s a character, a tech platform, or a tutor to help other kids study. None of that means the worries are misplaced. Kids can stumble into unfiltered content, lean on a chatbot instead of their own judgment, or trust an answer that’s wrong—and they should be protected from those dangers. But the danger is the reason to teach the thing, not to avoid it. We don’t teach teens to never drive. We teach them to check their blind spots. What surprised us most was how much young people might be able to teach adults about AI, and how clearly the kids who use it could name what they will and won’t hand over. They’re not as worried that it will take their jobs as they are that it might harm society. And with increasing access to tools that could in theory do their thinking, their talking, or even their friend-­making for them, it sounds as if most want to keep their hands on the wheel. Interviews have been edited for length and clarity. JUSTYNA STASIK The Coder Remy, 16, New York The word that comes to mind when I think about AI is “indifferent.” I just don’t find the current applications that exciting for my own use. I go to school. I teach tae kwon do. I read. I play games with friends. None of that needs AI. I mean, I use it. I mostly use Claude, the free version, for programming outside of school. I had it help me write a program to see if I could tweak my computer’s overclock. So I see the appeal.&nbsp; But at school, I actually think AI mostly makes my assignments worse, not better. In English, everything is now in-class writing, because teachers don’t want kids cheating. So we have only 70 minutes to write a whole essay, and I think that hinders my writing. (Did you know Princeton voted to let faculty proctor exams for the first time in over a century? Their honor code goes back to 1893, and now it’s over because of AI.) As far as code goes, I’d also rather build things myself. I’ve been making a reinforcement-learning model in a game engine with a friend; it moves randomly at first, gets rewarded for walking toward a coin, and after enough iterations it teaches itself the most efficient path. I’ve also tested AI for game development, and it isn’t there. It makes sloppy code, and it’s bad at blending mechanics into something cohesive. I’d spend more time correcting it than writing it myself. I think AI right now is sort of like the first car or the first airplane. It’s interesting but crude. It’s obviously an amazing invention but not actually good yet. Overall, I think AI right now is sort of like the first car or the first airplane. It’s interesting but crude. It’s obviously an amazing invention but not actually good yet. It’ll get somewhere. One thing I read about was AI flagging breast cancer more accurately, trained to catch its own false positives so a human still verifies. That’s the version I care about. The Organizer Danielle, 18, California I’m studying engineering, and my life goal is to innovate technology that will help as many people as I can. The way I see it, AI isn’t inherently good or bad; that’s decided by the people using it. It’s already being used for lots of good. Just think about how it helps people with personalized education and more accessible medical diagnoses. PING ZHU So far, the biggest project I’ve worked on with AI is called Next Voters . My teammates are more on the technical side, and I’m working on scaling. Right now, we’re focusing mostly on city councils as well as states. Our system turns dense, hundred-page documents into a headline and a few plain-language bullet points in your inbox. And everything is cited, so you can click straight to the actual policy to learn more. The information comes to you, instead of you having to remember to go search or prompt for it.&nbsp; One AI agent finds official government sources for a given city or state — the council website, the proposed bills, the meeting transcripts. Another verifies they’re real and credible; another scrapes them every week for the latest updates; another sorts them into categories like civil rights, immigration, and economics; and the last one writes our weekly newsletter. The project’s goal is to reduce the barriers to democratic participation — to make sure anyone, regardless of race, gender, income, or education level, has an easy way to get the information they need and then think critically about how they want to use it. We made it because right now, it feels as if most teens aren’t very engaged. I was in English class when the war in Ukraine came up and someone said, “There’s a war going on?” That gap, plus all the emotionally charged social media misinformation that gets promoted because it earns the most clicks, makes me nervous for the next generation of voters. We don’t want AI to think for people; we want to use it to disperse knowledge. In other words, we want to deal people the cards and let them play them however they want, but we have to make sure they have the cards in the first place.&nbsp; The Cringe-o-meter We asked kids to rate a range of AI uses from totally fine to not okay. CHRIS PIASCIK The Naturalist Hazel, 17, New York When ChatGPT first came out, my dad showed it to me and it seemed fun. But as it got more prominent and seemed to be everywhere, I started to feel uneasy. Then I learned about the environmental impact. I’m a rock climber and I hike a lot. It’s good because when I’m on a wall, I’m just focused on staying on that wall. I’m not thinking about my phone or anything else. That’s why I love it. I also love the views and being around animals — even insects. I want to be an ecologist, and the more time I spend in nature, the more I want to protect those wild spaces. The part that bothers me most about AI is the data centers that companies are building to enable it. They house these huge blocks of servers that use enormous amounts of water. They take it from local towns and don’t leave enough behind for the people who actually live there. And when they get big enough, they put off so much heat they can raise the local temperature a degree or two. So I make small choices. When AI pops up somewhere, I just don’t engage with it. It can feel isolating when everyone around me is using it, but I don’t want AI to be the thing that kills the places I love. PING ZHU The Storyteller Wesley, 14, Ohio My friends and I have all heard about AI and seen videos made by AI, but I mostly use it for school. I wrote a short story and ran it through ChatGPT to catch my grammar and spelling errors, and I used it to debug a little game I’d coded for a project. What I worry about is it robbing us of our ability to think creatively, or to think for ourselves. But I have tried using AI for fun. When I was bored, I tried to have a conversation with ChatGPT once or twice, but I didn’t really like it. Character.AI is more fun. You type in all this information, give it a bunch of prompts and a profile picture, and then you can post your AI character for anyone to use. You just put what you’ve made out there. Then you talk to it. My favorite show is One Piece on Netflix, so I threw myself onto its pirate crew using a character I found.&nbsp; Other people have used Character.AI to build whole games. There’s a rap-star simulator where you pick your difficulty and where you’re from, and the AI creates a game out of that. There are also World War II simulators, and chats where you’re working with assassins from a TV show. You can find pretty much anything. I guess I’d recommend it, but with caution. The content is pretty unfiltered, so you have to be careful what you click on. You learn its limits fast, too. On the free version the memory runs out: Get far enough into a chat and it slows down and forgets what happened. It’s like everything else with AI. If you trust it to run on its own, it falls apart. You have to keep steering it where you want it to go.&nbsp; I guess I’d recommend it, but with caution. The content is pretty unfiltered, so you have to be careful what you click on. You learn its limits fast, too. JUSTYNA STASIK The Artist Sylvia, 10, Michigan I haven’t used tools like ChatGPT or Claude myself, but my mom does. I really like to draw and write songs, but I don’t use AI for that. I don’t really have big feelings about AI either way. It’s a little like a calculator. A calculator does the math for you, and AI does other things for you. But I don’t like when AI tricks you, like when my mom found some songs she liked on Spotify and then looked up the artist to see what they looked like. It turns out the whole thing was made by AI. I was surprised, even though I still like the song. I do use AI at school, through a program called SchoolAI. Mostly I put my writing in and it gives me ideas or helps me revise. You can’t have it just write for you, but you can use it to help. When I’m older I want to be an artist, or maybe a librarian. I’d probably use some technology either way. But the drawing and the songwriting? Those I want to keep doing myself.&nbsp; The Cringe-o-meter (continued) We asked kids to rate a range of AI uses from totally fine to not okay. PING ZHU The Pre-Premed Evelyn, 13, Oregon In January, I was diagnosed with type 1 diabetes, and that’s when AI became a bigger part of my life. Now when we’re cooking, we can run a recipe through ChatGPT, tell it the serving size, and it works out how many carbs there are. We use AI like that a lot. My glucose monitor and my insulin pump also talk to each other using their own kind of AI to predict dosing. The monitor tracks what my blood sugar actually is, and the pump does the math. So if it predicts that my blood sugar will be high in 30 minutes, it gives me a correction dose, and if it predicts I’m about to go low, it stops the insulin before that happens. When I was first diagnosed I was still doing shots, and I went low almost every night. It was really stressful. Now the pump can catch it, and at night my phone goes off if I drop, so I wake up and drink juice. Mostly, I just get to sleep more because of it. But the hardest part of having diabetes isn’t something I can use AI for. It’s remembering to carry all my supplies everywhere—to school, to a long day of anything. I do use AI for school sometimes. Memory tricks when I’m studying for a test, ideas to get a project started. It’s a really good tool for that. But I don’t know exactly how I’ll use AI in the future. I want to be an endocrinologist someday, so I figure something will come up, since I’m already using it to help with my diabetes. I know other people worry that AI is going to take over the world. I don’t really think so. I still think we’re in control of it, and I think the benefits outweigh the risks. I don’t know how exactly I’ll use AI in the future. I want to be an endocrinologist someday, so I figure something will come up, since I’m already using it to help with my diabetes. The Inventor Krishiv, 18, Ontario, Canada When I was growing up, I always liked building things: Lego builds, Minecraft worlds, and then video games in Scratch. I’d make a little game, post it for other kids to play, read the comments, and make it better. Then, when I started high school, I had to spend way more time studying than I ever had, and honestly I just wanted to build things. So I went looking for ways to get good grades while studying less. Khan Academy had an AI tutor in the works, but it was stuck behind a waitlist, so I figured, why not build my own?&nbsp; After months of launching random stuff, I created an AI tutor called Aceflow. You could feed it anything a teacher assigned — a 30-minute lecture video on YouTube, a blog post, a PDF of the textbook or presentation slides — and it would spin up endless practice questions, with a tutor on the side that explained things the way my teacher did. I built it just for myself, showed it to my friends, then put it on TikTok. It got tons of views on TikTok and thousands of users. JUSTYNA STASIK Was I worried people would call it cheating? Not really. I knew how to defend it: A tool like this isn’t so different from well-off families hiring expensive private tutors, except everyone gets one. That part mattered to me. Back in eighth grade, a teacher had me run a little computer science class for about 30 kids with special needs, and once they got personalized attention, they were building games nobody expected of them. That convinced me that kids are capable of so much more than people think, and AI can help scale that level of personalized attention to everyone. That unlocks so much potential. That first AI tutoring project ended up helping me land part-time roles at BenchSci (one of Canada’s biggest AI companies) and Simple Ventures (a venture firm). More recently, I joined an AI lab at MIT; co-instructed an AI agents course with an MIT professor; and launched CheetahPrep.com , an SAT prep platform that uses AI to adapt to each student. I’m generally optimistic about how AI will impact humanity, but when other kids’ first reaction is fear, I think that’s an important sign too. It’s a reminder that we should be excited about the future while still being mindful of the risks, working together to make AI work for humanity. Correction (August 13): An earlier version of this article misstated Krishiv&#8217;s age. He was 18 at the time of publication. Jen Swetzoff and Keeley McNamara are the founding editors of Anyway , an independent print magazine for tweens and teens.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 69
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -319,7 +345,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
@@ -334,22 +360,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "LFM2.5-VL-3B提供更好、更快的边缘视觉能力",
-      "originalTitle": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "date": "2026-08-12T14:00:51.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“LFM2.5-VL-3B提供更好、更快的边缘视觉能力”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
@@ -366,7 +377,7 @@
         "多模态",
         "开源"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
@@ -382,7 +393,7 @@
         "智能体",
         "算力芯片"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "用于科学的人工智能需要推理，而不仅仅是数据",
@@ -397,7 +408,7 @@
       "tags": [
         "推理"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "这些初创公司正在追逐LLM的下一件大事",
@@ -412,7 +423,7 @@
       "tags": [
         "论文"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "让知识蒸馏便宜到足以大规模运行",
@@ -427,7 +438,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "Baseten关于拥抱面部推理提供商 🔥",
@@ -442,7 +453,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     }
   ]
 }
