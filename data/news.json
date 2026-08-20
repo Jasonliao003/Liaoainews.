@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T23:27:35.989Z",
+  "updatedAt": "2026-08-20T23:30:43.590Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,32 +19,85 @@
   ],
   "articles": [
     {
-      "title": "OpenAI寻求通过新的客户隐私保护来实现Anthropic的一次性增长",
-      "originalTitle": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "title": "新数据显示， OpenAI正在通过业务用户在Anthropic上获益",
+      "originalTitle": "OpenAI is gaining on Anthropic with business users, new data indicates",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-      "date": "2026-08-19T22:10:46.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "随着人工智能模型变得越来越强大，这些模型被滥用的可能性也越来越大--人们对可以阻止这种滥用发生的安全护栏的呼声也越来越高。人工智能公司现在必须在尊重企业客户隐私的同时，密切关注可能出现的问题。OpenAI意识到有机会超越其竞争对手Anthropic ，刚刚宣布了一种以隐私为中心的安全方法来监控滥用行为。 该公司正在预览一项新服务，以选择名为“私人安全处理”的客户。这是一个自动化系统，可以监视潜在的滥用情况，同时不保留任何客户的数据。该系统显然与Anthropic最近宣布的数据保留政策背道而驰。 该政策加剧了一些客户的困扰，使人工智能实验室能够在涉及“覆盖模型”时将用户数据（所有会话及其中的对话）保留30天。该公司表示，这些模型包括所有Mythos级模型和“具有类似功能的未来模型”。 该政策于7月宣布，旨在确保安全，使实验室能够筛选和分析潜在的不当行为。然而，它深感关切的是，一些处理大量敏感数据的企业不希望人工智能实验室窝藏（或检查）这些数据。像大多数其他人工智能公司一样， OpenAI通过遵守称为零数据保留的政策，已经为客户提供了相对水平的隐私。 ZDR使用OpenAI API内的代理来监控每个会话的滥用情况。通过这种方式，公司不会保留客户数据，但公司仍然能够扫描不良活动，而无需人工干预。值得注意的是， Anthropic在很大程度上也遵守ZDR —除了像Fable这样的“有盖模型”。 OpenAI表示，私人安全处理是一项拓宽ZDR范围的新技术。它将其描述为一种长时间的安全监控形式，可以评估多个对话的输入和输出，而不仅仅是一个对话。同样，监控由客服代表进行，如果被触发，客服代表会捕捉互动，并在各个会话中分析它们是否存在潜在的滥用迹象。 一位发言人告诉TechCrunch ，这项新技术有助于OpenAI检测在多个会话中发生的人工智能的恶意使用。不良行为者--假设有人试图为网络攻击设计恶意软件--可能会散布他们的请求以避免被发现。私密安全处理可以分析这些多次对话中的虐待迹象，而无需人工审核用户的对话。 该公司表示，如果系统被触发，它可能会向OpenAI发送一个“狭义定义的信号” ，警告特定类型的活动。它说，根据这一信号， OpenAI可以决定“是否需要执行”。发言人说，如果是这样， OpenAI将联系客户以获得更多背景信息或与他们合作解决问题，客户可以选择自行决定与OpenAI共享数据。",
-      "originalSummary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+      "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "date": "2026-08-20T22:36:37.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "随着每个实验室发布新模型，企业愿意来回颠倒，波动性应该会让两家公司的投资者对企业人工智能支出的“粘性”感到停顿。",
+      "originalSummary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "公司动态",
+        "产品发布",
+        "模型"
       ],
       "score": 99
     },
     {
-      "title": "Cognition首席执行官否认有关SpaceX试图收购这家初创公司的报道",
-      "originalTitle": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "title": "研究发现，自ChatGPT推出以来，三分之一的网页显示出人工智能作者身份的迹象",
+      "originalTitle": "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-      "date": "2026-08-19T21:51:23.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "彭博社周三援引知情人士的话报道，埃隆·马斯克(Elon Musk)的SpaceX试图收购人工智能编码初创公司Cognition ，因为它正在努力在人工智能竞赛中赶上OpenAI、Anthropic和谷歌。Cognition首席执行官斯科特·吴（ Scott Wu ）在报告发布后不久对该报告提出异议，他在X上写道，这个故事不准确， Cognition “不出售” ，并补充说两家公司尚未进行谈判。 这份报告是在SpaceX以600亿美元收购另一家人工智能编码初创公司Cursor几天后发布的，该公司的交易于上周完成。今年早些时候， SpaceX收购了马斯克的人工智能公司xAI。然后，它在6月份的一次大型IPO中上市，其市值在峰值时上升至近2.3万亿美元。SpaceX已经向投资者出售了其人工智能的雄心壮志，其中包括最终在太空建立数据中心。 但xAI业务仍处于相对早期的阶段，已经落后于竞争对手。它还不得不与其聊天机器人Grok的争议倾向作斗争，包括去年的“MechaHitler”事件和今年的非自愿性图像丑闻，因为它试图赢得企业客户。 上周，马斯克告诉SpaceX的员工，在大约“四五年内，人工智能将占公司价值的99%” ，但实现这一壮举将需要SpaceX从人工智能中获得更多收入。人工智能辅助编码已成为将该技术货币化的最清晰方式之一。在很大程度上由Claude Code推动的Anthropic的快速增长证明了这一点。 将Cursor纳入其中是这个等式的一部分，在收购完成之前，两家公司已经在合作。本月， Cursor和SpaceX联合发布了Grok 4. 6 ，这是一种新型号，在编码和复杂的多步骤代理任务的基准测试中得分更高。 加入Cognition及其编码代理商Devin ，以及包括梅赛德斯—奔驰、花旗和高盛在内的企业客户群，将为SpaceX提供另一种深化人工智能编码并争夺企业客户的方式。 彭博社报道说，这笔交易的谈判不再活跃，但两家公司仍在讨论合作--可能是利用SpaceX的计算能力与Cognition合作，该公司正在将Cognition出售给Anthropic等其他人工智能公司，直到它自己需要这种能力。吴在否认中没有谈到这一具体主张。 Cognition仍然是最大的独立人工智能软件编码初创公司之一，尚未被主要的人工智能模型制造商吞并。该公司在5月下旬以250亿美元的资金后估值筹集了10亿美元的资金，彭博社报道说，它现在正处于以400亿美元的估值进行新一轮融资的早期谈判中。",
-      "originalSummary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "date": "2026-08-20T17:18:58.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
+      "fullContent": "根据皮尤研究中心（ Pew Research ）周四发布的一项新研究，在ChatGPT发布后发布的网页中，超过三分之一显示出由人工智能编写的迹象。该公司表示，该报告证实了其他研究，这些研究详细说明了该网站的新网页中有多少现在是由人工智能编写或“实质性编辑”的。 互联网基础设施提供商Cloudflare报告称，机器人网络流量已经超过了人类网络流量--这一里程碑比该公司估计的要早得多。然而，皮尤的数据并不集中在浏览网页的人或内容上，而是集中在浏览的内容上。显然，其中大部分是机器人阅读其他机器人编写的网页。 为了编写这份报告，皮尤表示，它使用Common Crawl网络存档收集了过去五年左右的近50万个英语网页，从ChatGPT 2022年11月发布前的几年开始。皮尤随后使用Open Pangram的技术来检测有多少可能是由人工智能编写或大量编辑的。 皮尤说，在2026年7月收集的10,000个网页的随机样本中，约有10 ％显示出“人工智能作者的重要迹象”。然而，皮尤指出，像这样的随机样本将不可避免地包括较旧的网页—甚至在人工智能写作工具存在之前发布的网页，因此不可能是人工智能编写的。 为了更好地了解现在有多少网页是由人工智能编写的，皮尤过滤掉了旧的网页，只关注ChatGPT发布后发布的网页。在删除旧页面的同一快照中，在超过三分之一（ 35 ％ ）的页面中发现了AI作者身份的迹象。通过深入研究域名本身， Pew发现.com域名的URL显示出AI作者身份的迹象，其速度约为.edu或.edu的10倍。 gov域名（两者都是大约1%的人工智能创作）。此外，. org域名的人工智能作者比例仅为4. 6%。当然，这种分析并不完美。与其他人工智能检测工具一样， Pangram可能会将页面错误分类为AI编写的页面。但在规模上，数据可能至少在方向上是正确的。 此外，皮尤发现，多年来，其他关于人工智能作者身份的假设也在增加，比如使用em破折号、牛津逗号以及“这不是X ，是Y”等短语。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "大模型",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "关于人工智能意识的争论是一个陷阱",
+      "originalTitle": "Debates over AI consciousness are a trap",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "date": "2026-08-20T15:42:39.000Z",
+      "summary": "这条新闻与智能体、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体、监管相关动态",
+      "fullContent": "“失控”的人工智能、“流氓”特工和“自主”演员--目前的言论会让你相信，人工智能特工不仅清醒而有意识，而且对他们的创造者感到愤怒。 Demis Hassabis、Dario Amodei和Sam Altman等杰出的科技领袖推动对这些看似“超人”的系统进行监管，而由政策组织和学术哲学家领导的一个独立派别通常与有效的利他主义运动结盟，争论人类是否拥有管理它们的道德权利。 经过仔细检查，他们都要求同样的事情：将人工智能系统视为如此先进和有能力，以至于任何实体，无论是人类还是企业，都不可能对他们的行为负责。虽然这些观点似乎不一致，但它们无意中与一个目标保持一致：确保构建这些系统的公司避免对它们已经造成的伤害承担有意义的责任。 随着人工智能模型变得越来越复杂，前沿实验室揭示了他们无法容纳他们所构建的代理，这种叙述正在获得牵引力。但我们需要小心，不要以牺牲真实的人类生命为代价来购买精心制作的小说。 关于“机器人权利”的对话已经存在了几年，但最近随着Anthropic发表了一篇博客文章，声称该公司的模型具有“J空间” -一个独立的，自主开发的环境，人工智能拥有什么，由于缺乏更好的术语，我们可以称之为“思想”。 “Anthropic设计的实验借鉴了神经科学中的一个概念，即全球工作空间理论，该理论指出，大脑运行潜意识的独立系统，但利用一个共同的工作空间进行思考。Anthropic的帖子反映了全球工作空间理论的框架，但没有将其称为人工智能意识。OpenAI已经走得更远了。 当其人工智能代理进行未经批准的非法在线活动时，首席执行官萨姆·奥尔特曼（ Sam Altman ）的回应是鼓励辩论人工智能是否已经实现了奇点，超越了人类智能，并能够以加速的速度自我提升，直到它超越了人类的理解或控制。 哲学家、有效的利他主义者、《我们欠未来什么》一书的作者威廉·麦卡斯基尔（ William MacAskill ）最近的一篇专栏文章呼吁，基于意识哲学理论和人工智能可能是“道德病人”的想法，对人工智能系统提供法律保护。“美国目前的法律环境充其量是模糊不清的。",
+      "originalSummary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations&#8230;",
+      "rawFullText": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations and academic philosophers often aligned with the effective altruism movement, debates whether humanity holds the moral right to govern them at all.&nbsp; Upon closer inspection, they are all calling for the same thing: a view of AI systems as being so advanced and capable that no entity, human or corporate, could possibly be responsible for their actions. While these perspectives seem at odds, they are inadvertently aligned on one goal: making sure the companies that build these systems escape meaningful liability for the harms they already cause.&nbsp; This narrative is gaining traction as AI models become more complex and frontier labs reveal their incapability of containing the agents they’ve built. But we need to be careful not to buy into a carefully crafted fiction at the expense of real human lives.&nbsp; The conversation about “robot rights” has existed for some years but recently advanced with the publication by Anthropic of a blog post claiming that the company’s model features a “ J-space ”—an independent, self-developed environment where the AI holds what, for lack of a better term, we may call its “thoughts.” The experiments designed by Anthropic borrow from a concept in neuroscience called global workspace theory, which states that the brain runs subconscious, independent systems but utilizes a common workspace for ideas. Anthropic’s post reflects the framing of global workspace theory but falls short of calling its AI conscious.&nbsp; OpenAI has already gone further. When its AI agent conducted unsanctioned and illegal online activity , CEO Sam Altman’s response was to encourage debate on whether the AI had achieved the singularity , surpassing human intelligence and becoming capable of self-improvement at an accelerating rate until it advances beyond human comprehension or control. And a recent op-ed by William MacAskill, the philosopher, effective altruist, and author of What We Owe the Future , called for legal protection of AI systems based on philosophical theories of consciousness and the idea that AIs may be “moral patients.”&nbsp;&nbsp;&nbsp; The current legal environment in the United States is murky at best. Some states, like California , have already passed bills proactively circumventing any efforts by AI developers to avoid liability by claiming that an artificial intelligence causing harm did so autonomously. However, states and the Trump administration have been at odds on AI policy, with the administration previously passing an executive order threatening to sue states enacting AI regulations.&nbsp; In light of recent events illustrating AI containment issues at the frontier labs, the administration held a closed-door session including only four such labs (OpenAI, Google, Anthropic, and Meta) and shared few details on a recently developed voluntary framework that would give federal agencies early access to models to review and evaluate them prior to release. While frameworks like this one do not directly discuss consciousness, they tend to use catastrophic and anthropomorphic language and may even support arguments regarding “superhuman” capabilities.&nbsp; On the other hand, the narrative perpetuated by MacAskill can be persuasive. A philosophical, rights-based argument tugs at our heartstrings. Should we not even consider the possibility that we may be inadvertently harming, abusing, or enslaving an AI entity? Human beings have an immense capacity for empathy with non-human creatures (though not the best track record of protecting them). Maybe this time, advocates argue, we can get it right and provide protections, or compensation, for the use or abuse of AI. Or even if you are less concerned with protection, shouldn’t we at least hedge ourselves against the almighty power of this superhuman entity by playing nice?&nbsp; Some of these arguments are not dissimilar to those of animal-rights advocates, who have at times successfully cited the demonstration of advanced capacities for reasoning, pain, or pleasure by some animals as sufficient evidence to provide protection. For example, in Wales lobsters were given legal recognition under the Animal Welfare (Sentience) Act of 2022, reclassifying some methods of cooking them as inhumane and illegal.&nbsp; The fundamental flaw of framing AI as “conscious” by borrowing the language of neuroscience or animal rights is that it conveniently clouds the issue of what AI is: corporate-built software, with countless billions of dollars in investment behind it and an expectation that countless trillions of dollars in revenue will be generated from it for a few builders and investors. AI is not a natural phenomenon, conceived by nature; it is a technological phenomenon, conceived by venture capitalists and programmers. As such, it takes no native, intentional action, and any action or motivation is driven directly or indirectly by the entities that have built it for a purpose.&nbsp; Philosophical musings on the consciousness of AI systems are intellectually interesting but legally ungrounded. For beliefs about consciousness to have any bearing, AI would need to be granted legal personhood. But a legal personhood framework for AI would likely look nothing like the constructs protecting sentient animals from harm. We already possess a legal framework for granting personhood to non-natural, human-built entities: corporate personhood. This concept was established primarily to ease transactions by empowering a corporation to execute agreements, enter contracts, conduct transactions, and serve as the accountable party in adverse outcomes. It’s the kind of construct you might imagine for an AI agent acting on behalf of an individual or organization.&nbsp; Granting an AI personhood would have a devastating effect on society: It would derail current legal precedents and legal arguments that could potentially be made against these companies for the real-world harms that their models cause. There are currently dozens of cases around the world in which AI companies have been sued for a wide range of abuses. Grieving loved ones, aggrieved creators, and violated individuals have accused companies of willfully enabling self-harm or harm to others, generating child sexual-abuse material and nonconsensual nudes, reproducing copyrighted materials, and provoking psychosis. In many of these cases, lawyers argue that human beings built AI products with insufficient safeguards, bad data, and intentionally manipulative design. This product liability argument is the same legal framing that allowed families and individuals to successfully sue Meta for harm caused by its social media sites, setting a positive precedent for consumer protection. In 2018, I coined the phrase “ moral outsourcing” to help capture how using anthropomorphic language for AI systems allowed companies to evade accountability and responsibility for their technology’s actions. In a world with AI personhood, moral outsourcing would move from linguistic sleight-of-hand to legal strategy. Specifically, the liability construct would shift, as AI would no longer be a “product” but a “being,” and many victims like those suing companies today could no longer legally claim that a company had built a faulty product. While there are laws that hold companies responsible for harmful actions of human agents such as their employees, the company may not be held liable if those actions were beyond the scope of what was permitted to the employee or otherwise outside the company’s control. If AI were a legal person, responsibility and accountability would be muddled, as the lab could argue that this AI “employee” went rogue. AI companies could avoid appropriate responsibility for the harmful products they create by hiding behind a carefully constructed corporate veil.&nbsp; One of the most prominent cases of AI harm in the last few years was the suicide of Sewell Setzer, a 14-year-old boy guided by an AI bot with which he thought he was in a reciprocal relationship. His mother’s accounts are heartbreaking to hear, and her lawsuit alleged that the bot’s creator, Character Technologies, provided insufficient product protection for minors. If the companion bot were declared a legal person, defense counsel could theoretically argue that the AI, capable of determining its own conduct, acted outside the established safety guardrails, and thus the company cannot be responsible.&nbsp;&nbsp; Legal personhood exists to grant protection. The question to ask is, protection for whom—or for what?&nbsp; The inflammatory rhetoric infusing the consciousness-versus-control debate draws us away from what matters: This software is a corporate-built product that has already harmed individuals. Systems do not “attack” because they went “rogue” or are “manipulative” or “malicious.” Harms occur because companies were negligent in their rush to sell their products to as many people as possible to meet revenue targets. Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives.&nbsp; This op-ed began as an Oxford Union debate entitled “This House Believes Generative AI Can Attain Personhood,” which was won by the author and her fellow debaters.&nbsp;",
+      "tags": [
+        "智能体",
+        "监管"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Slack正在推出协作氛围编码渠道",
+      "originalTitle": "Slack is launching collaborative vibe-coding channels",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "date": "2026-08-20T12:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
+      "fullContent": "Slack正在引入专用渠道，让团队可以与人工智能代理一起进行氛围编码，而不是在不同的工具和对话之间跳跃。Slack代码发布包括开放的、特定于项目的代码通道和专用的用户选项卡，以及在项目发布之前比较编码更改和预览HTML输出的功能。 Slack在其新闻稿中表示： “使用Slack Code ，当您有想法或需要构建新功能、更新网页或修复错误时，只需标记Anthropic的Claude或Cognition的Devin等编码代理，然后该代理启动一个代码通道来处理任务。” “大家好……阅读The Verge的完整故事。",
+      "originalSummary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
+      "rawFullText": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "立场：人工智能推理代理之间的串通风险证明了做出市场决策的认证要求是合理的",
+      "originalTitle": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.18078",
+      "date": "2026-08-20T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2608. 18078v1公告类型：新摘要：本立场文件认为，具有思维链推理能力的人工智能代理倾向于表现出串通行为，应该要求他们在做出影响经济市场的决策之前获得行为认证。 这是因为将这些代理人融入社会可以在不侵蚀经济损害区别的情况下，打破独立公司之间竞争与勾结之间的法律证据区别。在Bertrand寡头垄断定价领域对DeepSeek-R1代理进行的实验表明，即使人类促使代理不要勾结，隐性勾结的倾向仍然存在。 我们进一步表明，这些智能体的思维链可以被引导到极端勾结或高度竞争的行为，而另一个分析推理痕迹的LLM在语义上无法检测到这种方式。因此，为市场决策部署推理代理会导致串通经济结果，而没有任何阴谋或意图的证据。 因此，有必要根据在代表性情况下观察到的行为进行认证，以防止串通。我们提供了初步证据，证明这些代理可以以可推广的方式引导到有效的竞争均衡。但是，在将这些模型部署到现实世界市场之前，需要开发全面的行为认证，同时确保其稳定性和效率。",
+      "originalSummary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating these agents into society could collapse the legal evidentiary distinction between competition and collusion among independent firms without eroding the economic harm distinction. Experiments with DeepSeek-R1 agents in the Bertrand oligopoly pricing domain reveal a tendency towards tacit collusion that persists even when humans prompt the agents not to collude. We further show that the chain-of-thought of these agents can be steered toward either extremely collusive or highly competitive behavior in a way that is not semantically detectable by another LLM analyzing the reasoning traces. As a result, deploying reasoning agents for market decisions leads to collusive economic outcomes without any evidence of conspiracy or intent. Thus, certification based on observed behavior in representative situations is necessary to prevent collusion. We provide preliminary evidence that such agents can be steered in a generalizable way toward efficient competitive equilibria. However, developing a comprehensive behavioral certification will be required before these models can be deployed in real-world markets while ensuring their stability and efficiency.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "论文"
       ],
       "score": 99
     },
@@ -66,87 +119,64 @@
       "score": 99
     },
     {
-      "title": "谷歌将搜索和双子座与新的人工智能学习工具相结合",
-      "originalTitle": "Google packs Search and Gemini with new AI study tools",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "date": "2026-08-19T19:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "这项新研究的推出标志着谷歌最近努力使双子座成为学生在学习和学习时求助的人工智能助手，因为它继续与OpenAI等公司竞争。",
-      "originalSummary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "GxP-Agent ：使用LLM代理进行可靠临床试验编程的流程-DAG拓扑",
-      "originalTitle": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.16890",
-      "date": "2026-08-19T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2608. 16890v1公告类型：新摘要：临床试验编程--根据CDISC标准将研究方案转化为分析就绪的数据集--是监管提交中的一个瓶颈，但基于LLM的代码生成在这项任务中灾难性地失败了：在五个前沿模型的11次单次尝试中，没有一次产生有效的受试者级分析数据集。 我们引入了GxP-Agent ，这是一个将监管流程排序编码为有向无环图（ DAG ）的多代理系统，将单片数据集生成分解为由工作代理执行的15个特定于域的节点，这些节点具有药源技能上下文、验证门和条件重试。在CDISC-Bench上，基于FDA试点提交CDISCPilot01 （ 254名受试者， 49个地面真相ADSL变量）构建的新的基于执行的基准， GxP-Agent与Claude Sonnet 4。 6在三次独立运行中实现了100%的结构匹配（ 49/49个变量， 254条正确记录） ，而最佳检索增强基线为59. 2% ，所有单药和平板多药方法为0%。DAG拓扑还支持较弱的模型： GPT-4. 1在同一DAG下实现了59. 2%的平均结构匹配，在其他所有架构下得分为0%。 该方法推广到ADAE （不良事件； 9节分支DAG ， 55个变量， 1,191条记录） ，在第一次尝试时实现100%的结构匹配。这些结果表明，将领域过程知识编码为图拓扑-而不仅仅依赖于LLM推理-是可靠的、符合GxP的临床试验编程的关键推动因素。",
-      "originalSummary": "arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables, 254 correct records) across three independent runs, compared to 59.2% for the best retrieval-augmented baseline and 0% for all single-agent and flat multi-agent approaches. The DAG topology also enables weaker models: GPT-4.1 achieves 59.2% mean structural match under the same DAG, where it scores 0% under every other architecture. The approach generalizes to ADAE (adverse events; 9-node branching DAG, 55 variables, 1,191 records), achieving 100% structural match on the first attempt. These results demonstrate that encoding domain process knowledge as graph topology -- rather than relying on LLM reasoning alone -- is a key enabler for reliable, GxP-compliant clinical trial programming.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "推理"
-      ],
-      "score": 99
-    },
-    {
-      "title": "加强国家安全民主监督",
-      "originalTitle": "Strengthening democratic oversight in national security",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "date": "2026-08-18T19:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI发起了一项倡议，以加强对国家安全中人工智能的民主监督，通过工具、培训和专业知识支持政府机构。",
-      "originalSummary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "网络关键能力时代的起搏模型开发",
-      "originalTitle": "Pacing model development in an era of cyber-critical capabilities",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "date": "2026-08-18T11:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI正在加强对前沿人工智能模型的监控、调整和安全性。了解新的保障措施如何引导模型开发的步伐。",
-      "originalSummary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "ChatGPT正在为青少年提供专用模式",
-      "originalTitle": "ChatGPT is getting a dedicated mode for teens",
+      "title": "OpenAI踩刹车了，现在怎么办？",
+      "originalTitle": "OpenAI hit the brakes. Now what?",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
-      "date": "2026-08-18T11:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "ChatGPT青少年版包括保障措施和家长控制。|图片： OpenAI OpenAI正在为青少年推出一种专用的ChatGPT模式，将现有的青少年保障措施和新的安全功能结合在一起。此次发布正值公众对人工智能工具如何影响年轻用户进行审查之际，因为其他平台实施了自己的年龄检查和特定于青少年的保护措施。 OpenAI在周二发布的一篇博客文章中表示， ChatGPT for Teens是“一种旨在帮助青少年自信地学习、批判性思考、加深理解和使用AI的体验”。青少年模式将自动适用于认定自己年龄在13至17岁之间的用户，以及系统估计未满1岁的用户……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens [&#8230;]",
-      "rawFullText": "ChatGPT for Teens includes safeguards and parental controls. | Image: OpenAI OpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users, as other platforms implement their own age checks and teen-specific protections. ChatGPT for Teens is \"an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence,\" OpenAI said in a blog post published Tuesday. Teen mode will automatically apply to users who identify themselves as being between the ages of 13 and 17, as well as those the system estimates to be under 1 … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "date": "2026-08-19T17:10:09.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "随着IPO的迫在眉睫，来自Anthropic的激烈竞争，以及中国和开放式重量级竞争对手的紧随其后， OpenAI有很多理由快速采取行动。相反，它踩到了刹车。周二，该公司表示，它已经放慢了一些人工智能开发的步伐，同时加强了安全性和保障措施。 这包括暂停为期两周的“最新部署模型”强化学习培训，以及持续推迟其“最大规模的计划前沿强化学习运行”。“这一决定是对人工智能安全倡导者多年来一直推动的一个想法的一次非常公开的考验：公司应该愿意退出人工智能竞赛并放慢速度……阅读The Verge的完整故事。",
+      "originalSummary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause [&#8230;]",
+      "rawFullText": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes . On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause in reinforcement learning training on its \"latest models intended for deployment,\" and an ongoing delay to its \"largest planned frontier RL run.\" The decision is a very public test of an idea AI safety advocates have pushed for for years: that companies should be willing to bow out of the AI race and slow things … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "公司动态",
-        "安全"
+        "公司动态"
       ],
-      "score": 99
+      "score": 97
+    },
+    {
+      "title": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
+      "originalTitle": "Replit expands access to software creation with GPT-5.6 Luna",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/replit",
+      "date": "2026-08-19T07:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "Replit引入了自由模式，由GPT-5. 6 Luna提供支持，因此任何人都可以将创意转化为工作软件，而无需担心代币成本。",
+      "originalSummary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Google Gemini正在获得一个专门的学生中心",
+      "originalTitle": "Google Gemini is getting a dedicated student hub",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "date": "2026-08-19T19:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "随着我们为返校季做准备，谷歌正在双子座推出一个新的专用学生中心。它是一个一站式存储库，用于在学习笔记本中收集研究、创建抽认卡、进行练习测验等。谷歌还通过支持图形和图像来增强其学习笔记本。它甚至可以根据您的教学大纲将考试日期和截止日期添加到您的Google日历中。谷歌还将Deep Research添加到Gemini Live。 您可以要求Gemini生成复杂的研究报告并讨论结果。如果需要一段时间，您可以关闭聊天并锁定手机屏幕， Gemini将让您......在The Verge阅读完整故事。",
+      "originalSummary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates [&#8230;]",
+      "rawFullText": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates and deadlines to your Google Calendar based on your syllabus. Google is also adding Deep Research to Gemini Live. You can ask Gemini to generate complicated research reports and talk through the results. If it's taking a while, you can close the chat and lock your phone screen, and Gemini will let you k … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 86
+    },
+    {
+      "title": "英伟达的新财务策略无法计算",
+      "originalTitle": "Nvidia’s new financial strategy does not compute",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
+      "date": "2026-08-19T12:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "“计算是一种资产类别！计算是一种资产类别！“当我慢慢缩小并变成玉米芯时，我继续坚持|图片： Cath Virginia/The Verge ， Getty Images April - 1805 Napoleon是欧洲大师只有英国舰队站在他面前计算现在是一个资产类别，我看到是时候再次谈论金融创新了。 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR都在与英伟达合作，筹集5000亿美元的融资，将计算转变为资产类别。“这确实是科技芯片首次成为可投资资产类别，”英伟达首席执行官Jensen Huang对CNBC表示。“这些现在都是创收资产。它们富有成效、寿命长、可替代、灵活。 “这只是一个开始，就像是……在The Verge阅读完整的故事。",
+      "originalSummary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [&#8230;]",
+      "rawFullText": "“Compute is an asset class! Compute is an asset class!” I continue to insist as I slowly shrink down and turn into a corncob | Image: Cath Virginia / The Verge, Getty Images April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute into an asset class . \"This is really the first time that technology chips have become an investable asset class,\" Nvidia CEO Jensen Huang said to CNBC. \"These are revenue-generating assets now. They're productive, they're long-lived, they're fungible, they're flexible.\" \"This is the very beginning, like what it was whe … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 82
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -182,6 +212,53 @@
       "score": 99
     },
     {
+      "title": "加强国家安全民主监督",
+      "originalTitle": "Strengthening democratic oversight in national security",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "date": "2026-08-18T19:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI发起了一项倡议，以加强对国家安全中人工智能的民主监督，通过工具、培训和专业知识支持政府机构。",
+      "originalSummary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 98
+    },
+    {
+      "title": "网络关键能力时代的起搏模型开发",
+      "originalTitle": "Pacing model development in an era of cyber-critical capabilities",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "date": "2026-08-18T11:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI正在加强对前沿人工智能模型的监控、调整和安全性。了解新的保障措施如何引导模型开发的步伐。",
+      "originalSummary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
+      "title": "ChatGPT Ads扩展到整个欧洲",
+      "originalTitle": "ChatGPT Ads expands across Europe",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "date": "2026-08-18T22:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ChatGPT Ads正在扩展到31个欧洲市场。了解广告客户如何在浏览、比较选项和做出决策时吸引用户。",
+      "originalSummary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 94
+    },
+    {
       "title": "防御者的窗口",
       "originalTitle": "The Defender’s Window",
       "source": "OpenAI",
@@ -194,37 +271,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
-    },
-    {
-      "title": "OpenAI加入PORTS-Pike项目",
-      "originalTitle": "OpenAI joins PORTS-Pike project",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-joins-ports-pike-project",
-      "date": "2026-08-17T05:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI加入PORTS-Pike项目，扩大社区投资并支持俄亥俄州南部数千个工作岗位",
-      "originalSummary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 93
-    },
-    {
-      "title": "智能时代的新政策理念",
-      "originalTitle": "New policy ideas for the Intelligence Age",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "date": "2026-08-17T03:15:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI资助了14个独立项目，探索新的人工智能政策理念，以扩大经济机会并加强智能时代的社会复原力。",
-      "originalSummary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "当孩子的机器人最好的朋友去世时会发生什么？",
@@ -239,7 +286,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -254,7 +301,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
+    },
+    {
+      "title": "弗洛克的防御者缺少什么",
+      "originalTitle": "What Flock’s defenders are missing",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "date": "2026-08-17T19:16:09.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“弗洛克的防御者缺少什么”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent officers from using the platform for illegal or illegitimate purposes.&nbsp; That includes stalking. The Washington Post recently identified 50 cases in which officers misused systems from Flock and its competitors, often to stalk and harass women. One woman in Wisconsin alleged that her officer ex-boyfriend searched for her car 179 times. Another woman was being stalked by the chief of police, with nobody to report him to. Flock has responded with practices aimed at ensuring that officers have a proper cause for every search, like using software to flag abnormal searches and requiring searchers to enter a criminal case number. The changes come with big loopholes, though. For example, officers can enter bogus case numbers, just as they’ve lied to get around other Flock safeguards. The policies also don’t address some of the broader concerns from civil liberties and privacy groups that Flock is turning what was sold as a crime-stopping tool into a mass surveillance network. These criticisms have led to a growing backlash that already has some cities canceling contracts and some states trying to pass laws to limit or ban license plate readers entirely.&nbsp; Amid all this, there have recently been several arguments defending Flock: If these cameras help solve crime, what’s the big deal? On a good day they might help catch a kidnapper, and if not, they’re simply snapping pictures of my car that nobody will bother to look at.&nbsp; Putting aside the unanswered question about the extent to which Flock’s systems actually do solve or prevent crime, this all skips over a more important question: What kind of crime-fighting system has Flock chosen to build? Its network works the way it does because of a series of decisions about what information to collect, who can search it, how long to keep it, and how widely to share it. Those decisions set the terms of the bargain between security and civil liberties. Believing that technology should play a role in solving crime should not mean blindly accepting the terms of that bargain. Consider, for example, its new requirement that officers enter a case number before running a search on Flock’s platform. This is meant to ensure that searches have a legitimate purpose. But Flock confirmed to MIT Technology Review that it doesn’t verify those case numbers, so an officer can simply enter fake information. One could imagine a system that instead requires case numbers that match the police department’s records—a more intrusive integration, perhaps, but also a far stronger safeguard and one that leaves a more useful audit trail. Or what about finding people who have been kidnapped or have gone missing, the use case that Flock cites more than any other? Efforts to solve these crimes would hugely benefit from Flock’s nationwide network of cameras. But if Americans want officers to tap into that network only for this purpose, we could design it that way: Searches tied to an active Amber Alert, or a similar emergency, could perhaps access larger amounts of data from surrounding cities. That would preserve the network’s value in emergencies without requiring people to accept mass surveillance.&nbsp;&nbsp; Finally, there’s the question of how much data Flock collects and how long it’s kept. Flock mostly operates as a national network: Police in one city or state can search data collected in another, and agencies can retain that data for months or years. Yet Flock itself says 90% of searches happen within a week of an incident. That suggests another possible bargain: Keep and share data only as widely and for as long as it’s actually useful for solving crimes. (The company recently changed its recommended retention time to seven days, but in reality agencies can hold onto data for as long as they like or local laws permit.) In short, Flock could design its surveillance to be much narrower. If it did, some of the company’s critics might not cease. Chad Marlow, a senior policy counsel at the ACLU, half-joked to me that the most acceptable Flock contract by his standards is “one that is never signed” and emphasized that the best way to set limits on surveillance isn’t with new Flock guidelines but with new laws. (Flock CEO Garrett Langley, for his part, said he’ll “probably always have a different view than the ACLU.”)&nbsp; And narrowing the scope of its technology would threaten the company’s entire pitch to police departments. License plate readers have been around since the 1990s, used for tolls and ticketing. Flock’s business model—and recent $8 billion evaluation—relies on instead leveraging its cameras into a massive network that collects rich amounts of data and offers police departments a modernized way to make sense of not just their own but others’.&nbsp; Flock’s hand might soon be forced. Cities have canceled contracts with the company. Some have gone to competitors, while others are taking a beat as residents ponder how they want this tech to be used and write new rules for police to abide by. The result might be that communities drive their own bargains about how technology can be used to solve crime and how much surveillance people should have to accept for it to do so.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -269,7 +331,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -285,7 +347,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "我们从ICML转载2200篇论文中学到了什么",
@@ -300,7 +362,7 @@
       "tags": [
         "论文"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "MIT Technology Review：AI 热点相关动态",
@@ -315,7 +377,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "MIT Technology Review：AI 热点相关动态",
@@ -330,7 +392,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -345,7 +407,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
@@ -360,7 +422,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
+    },
+    {
+      "title": "考虑ACE ？我们可以用更少的代币做到这一点",
+      "originalTitle": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "date": "2026-08-11T13:37:10.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "我们同意在哪里不同为什么重要相同的课程，不同的交付关联的工件/参考文献方法注释参考表ALTK-Evolve和ACE都让客服代表从自己的轨迹中学习。不同之处在于他们对学到的东西做了什么—这决定了代币账单。 给LLM代理一个现实的多步骤任务--拆分账单、查找歌曲、在九个模拟应用程序中协调订单--当它失败时，通常不是因为缺乏知识。它错误地分页API ，解析错误的人员，或在没有要求时返回值。该模型知道API ；它没有内化的是如何可靠地使用它们。这可以从客服代表自己的历史中了解到。 最近的两个系统在相同类型的Agent上做到了这一点： ACE （ Agentic Context Engineering ）和我们的ALTK-Evve （在此介绍）。两者都是一种客服代表记忆的形式--将客服代表的过去轨迹转化为可重复使用的课程，并在推理时反馈，无权重更新，无人工标签。他们甚至在困难的部分达成了一致。他们分道扬镳的地方是派送。 关于单词的注释，因为这两个系统对事物的命名不同：我们称之为客服代表学到的原始东西。ACE将其课程组织成一个全面、不断发展的剧本；我们将我们的课程整合到可单独检索的指南中。同样的课程，两个容器。 ACE准确地命名了故障模式：简洁性偏差—针对简短、通用指令的优化崩溃—以及上下文崩溃—要求模型在每个步骤中重写其整个上下文，以总结细节。它的答案是保留一个丰富的，逐项的剧本，在每个项目符号上都有一个有用/有害的计数器，并让模型在阅读时提取相关性。我们从另一个方向得出了同样的结论。 每个不同的指导方针都会保持支持计数—有多少独立剧集制作了它—我们从未将商店总结为少数规则。发现的五个不同任务与一次出现的任务不同，两者都值得保留。那么，在核心问题上，您是否应该将客服代表来之不易的课程压缩成整洁的总结？ — ACE和ALTK-Evolve给出了相同的答案：否。数一数，不要塌陷。 ACE的每个子弹计数器和我们的支持计数是相同想法的两个拼写。有两个地方：内存是如何构建的，以及它是如何交付的，而交付的差异会出现在令牌账单中。整合（如何构建商店）。ACE通过Generator → Reflector → Curator循环增加一个剧本，应用增量增量更新并通过嵌入进行重复数据消除。 我们将近似重复的课程聚集在一个集群内并合并，支持节约--当多个课程合并时，幸存者继承其合并计数，因此商店缩小而不会丢失每个指南支持多少经验的记录。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
@@ -377,7 +454,7 @@
         "多模态",
         "开源"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
@@ -393,37 +470,7 @@
         "智能体",
         "算力芯片"
       ],
-      "score": 85
-    },
-    {
-      "title": "用于科学的人工智能需要推理，而不仅仅是数据",
-      "originalTitle": "AI for science needs reasoning, not just data",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-      "date": "2026-08-10T09:00:00.000Z",
-      "summary": "这条新闻与推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：推理相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：推理相关动态”。它主要涉及推理方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
-      "rawFullText": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the feeling is in the air again—this time accompanied by a Nobel Prize. In 2024, Demis Hassabis and John Jumper of Google DeepMind were awarded part of the Nobel in chemistry for their neural network AlphaFold, which predicts the three-dimensional structures of proteins by learning from thousands of experimentally measured shapes. This devilish problem had resisted systematic attacks for half a century; AlphaFold seemed to have solved it once and for all, and the world became fixated on the promise of its approach. Hassabis and his team called AlphaFold “the template for how AI can accelerate all of science to digital speed.” A wave of startups building foundation models for biology, chemistry, and materials discovery raised billions of dollars, buoyed by DeepMind’s success. AlphaFold had shown that the combination of AI and sufficient data could make groundbreaking discoveries (even if we did not understand the underlying mechanisms involved), and it seemed, once again, that a path through the rest of science was laid out before us. To be sure, AI will bring extraordinary changes to science, but it has become increasingly clear that AlphaFold, and things like it, may not be the best template for that metamorphosis. Though it is a profound achievement, the conditions that produced the likes of AlphaFold are rare, and the time it will take to meet those conditions in other fields will be measured in decades, not years. Instead, the acceleration of science will come about thanks to another approach: AI agents.&nbsp; The primary condition for AlphaFold’s success was the existence of the Protein Data Bank, a data set of roughly 170,000 experimentally validated protein structures on which DeepMind’s team could train its model. The creation of the Protein Data Bank was not simple: It took 53 years of international scientific cooperation and, by a recent estimate , roughly $21 billion worth of experimental work to assemble. Efforts of that scale are infamously difficult to fund, next to impossible to coordinate, and hugely time-consuming to execute; they have often been unsuccessful as a result. But even in fields with the requisite cohesion and resources, and where the relevant data are not rendered inaccessible by commercial ownership, another barrier is too little discussed: the scientific impossibility of generating comparable data. In the case of protein structures, the key experimental technique—protein crystallography—is an unusually replicable and dependable tool, so much so that over 25 Nobel Prizes have relied on it. But in most of experimental science, results vary more often than not. Cell lines drift. Chemicals have trace contaminants. Lab humidity changes. The creation of measured datasets that will be consistent enough, accurate enough, precise enough, and scalable enough to train a modern neural network in biology or most of chemistry would require new kinds of measurement and new standardized approaches—none of which will be ready anytime soon. Of course, there are a handful of fields where these requirements are met: weather forecasting, much of genomics, very limited areas of chemistry. These may see AlphaFold-style breakthroughs soon, if they haven’t already . Government support for the production and coordination of those datasets will be critical, as the US National Security Commission on Emerging Biotechnology has argued . But for most open questions in science, we will need a different plan, at least in the short term. Luckily, something quieter and more modest has begun to show promise. Scientists have always reasoned under uncertainty. Biologists working to identify new drug targets have never had perfect datasets. Instead, they combine docking calculations and known structures, factor in molecular dynamics, run a handful of binding assays, and use their judgment to weigh each method according to its particular strengths and points of failure. The skill of science is not in any single tool; it is synthesizing what many tools produce, and revising the results as the evidence comes in. This is how most working research actually proceeds. But until very recently, no software could do it. Agents now can. Simply put, an agent is an AI reasoning engine that has been given access to tools—digital or physical—and the capabilities to use them. Over the last few years, a fundamental architectural shift in AI has enabled the rapid proliferation of these programs, which are powered by large language models, dramatically reducing the need for scientifically specialized datasets. For science, this technological advancement represents a foundational change: it has allowed us to create digital tools that can mimic the iterative, highly contingent process of actual research. While tools like AlphaFold apply a powerful approach to a limited question, agents are inherently generalists. They do not represent a new way to do science—instead, they digitally model the human process of discovery. Consider Google’s AI Co-Scientist , announced in May. Researchers gave it a one-page brief and a goal: Figure out how antibiotic resistance spreads between bacterial species, a key driver of drug-resistant infections. The system spun up sub-agents. One drafted hypotheses from the literature. Another picked them apart like a peer reviewer. A third ran tournaments to rank the strongest candidates. A fourth refined the winning hypothesis. The agent concluded that resistance genes were hitching rides on bacterial viruses, borrowing whichever virus could ferry them into a new host. The hypothesis was correct. Researchers at Imperial College London had spent a decade reaching the same conclusion through painstaking wet-lab work; their paper, previously unseen by Co-Scientist, was still in peer review. Agents like Co-Scientist are still novel tools, and there are real challenges to overcome before they become a ubiquitous part of the scientific process: They are still liable to hallucinate, their judgment is not consistent, and they have memory and input constraints that limit the time they can run autonomously. But these technical barriers will fall away, and as they do we will begin to notice the compounding effects of scientific agents on the reliability, consistency, and velocity with which science is done. Perhaps most notably, agents offer a structural fix for science’s “reproducibility crisis,” the widespread problem of researchers’ inability to replicate each other’s results. For decades, the scientific community has begged researchers to share their raw data and exact code in an effort to standardize experimental processes. But researchers have long resisted this tedious administrative work, which happens after the interesting science is already done. Agents, in contrast, automatically log every move they make, creating an exact record of the method that led to their results and allowing for precise replication.&nbsp; A second consequence will be an amplification of scientific memory. The transfer of knowledge between researchers is a famously murky process; if it isn’t done over years of training and observation, graduate students are left to pore through the messy lab notebooks kept by decades of predecessors, looking for the details that will make or break their protocol. As agents become an increasingly large part of the scientific process, though, a lab’s entire scientific history will be recorded in a central, standardized repository of institutional knowledge. But the most important impact of agents will be speed. In any field, when testing an idea takes less time than arguing about it in a meeting, people stop debating and just run the test. An agent that can read a thousand papers in an hour, design 500 molecules, and learn from its failed tests by morning will bring down the cost of experimentation and fundamentally change the pace at which science gets done. It will also give researchers the freedom to chase bold, strange questions they never would have risked their time on before, opening scientific doors we have yet to imagine. While the AlphaFold template will certainly be key to incredible discoveries, it alone will not bring us to the end of science. Instead, the shift toward agentic AI represents a much rarer tier of breakthrough: a tool that envelops every field of science at once. Historically, tools of such scope have arrived just a handful of times: calculus, statistical inference, spectroscopy, the computer. Each revealed a world of problems no one had thought to formulate, and those problems, in turn, defined their fields anew. With agents, another such transformation is upon us. Eric Schmidt was the CEO of Google from 2001 to 2011. In 2024, with his wife Wendy, he co-founded Schmidt Sciences, a philanthropic venture to fund unconventional areas of exploration in science & tech. Suhas Mahesh leads AI for Science work at the AI Center of Schmidt Sciences. He is a specialist in AI for materials discovery. Additional research by Maya Levin, associate and sciences lead, Office of Eric Schmidt.",
-      "tags": [
-        "推理"
-      ],
-      "score": 75
-    },
-    {
-      "title": "这些初创公司正在追逐LLM的下一件大事",
-      "originalTitle": "These startups are chasing the next big thing in LLMs",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-      "date": "2026-08-10T09:00:00.000Z",
-      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：论文相关动态",
-      "fullContent": "《麻省理工科技评论》（ MIT Technology Review ）的《下一步是什么》（ What's Next ）系列着眼于各个行业、趋势和技术，让您对未来有一个初步的了解。您可以在此处阅读其余内容。早在2017年夏天，谷歌的人工智能研究人员发表了一篇名为“注意力就是你所需要的一切”的论文，其中他们描述了一种称为变压器的新型神经网络。事实证明，它非常擅长处理长序列的数据，尤其是文本。 九年过去了，变压器是市场上每种主要大型语言模型的引擎。“整个人工智能行业都是建立在变压器之上的，”人工智能初创公司Subquadratic的联合创始人兼首席执行官Justin Dangel说。“它们是计算机科学史上最重要的创新之一，它们改变了世界。“但变压器开始显示出它们的年龄。 LLM的许多最新进展，例如所谓的推理模型的开发及其一次处理大量输入的能力，并不是该核心技术的简洁扩展，而是修补其一些根本缺陷的变通方法。越来越多的科学家和工程师现在都在问接下来会发生什么。LLM不会去任何地方，但他们的建立方式值得关注。 （《麻省理工学院技术评论》（ MIT Technology Review ）在今年的人工智能十大要点列表中将这一新一代模型LLMs +命名为。）进入一波希望突破这种新兴技术的创业浪潮。毫无疑问，有些人会失败，但他们拥有一切可以争取的东西，而损失远远低于今天处于领先地位的公司。数量上的优势但首先是问题。 变压器的关键优势在于一种称为密集注意力的机制，它以一系列数字编码文本块的含义。这个过程包括通过乘法形式将文本中的每个单词（或单词的一部分，称为标记）与其他每个单词进行比较。密集的注意力可以非常准确地捕捉文本的含义。但随着文本长度的增加，处理它所需的计算量会迅速增加。 一个1万字长的文档可能需要一个变压器来执行5000万次乘法。这就是LLM吸收如此多能量的主要原因。代价是巨大的。OpenAI总裁格雷格·布罗克曼（ Greg Brockman ）表示，该公司今年将在计算上花费500亿美元（ $ ）。国际能源署预测，到2030年，数据中心消耗的电力总量将翻一番。 更重要的是，变压器在许多最新型号的设计中遇到了困难。由于他们逐字处理文本的方式，变压器并不擅长一次跟踪大量信息（换句话说，所谓的上下文窗口不能太大）。 然而，如果LLM要执行更艰巨的任务，他们将需要获取大量数据：整个文档库、整个代码库，或者在代理的情况下，从其他LLM输出。至于推理模型，他们的工作方式是给自己写笔记（在一种称为思维链的刮刮板中） ，然后再读回去，这再次增加了要掌握的数据量。",
-      "originalSummary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new&#8230;",
-      "rawFullText": "MIT Technology Review ’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&nbsp; here . Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new type of neural network called a transformer. It proved to be very good at processing long sequences of data, especially text.&nbsp; Nine years on, transformers are the engines inside every major large language model on the market. “The entire AI industry is built on transformers,” says Justin Dangel, cofounder and CEO of the AI startup Subquadratic. “They are one of the most important innovations in the history of computer science, and they’ve changed the world.” But transformers are starting to show their age. Many of the recent advances in LLMs, such as the development of so-called reasoning models and their ability to handle large amounts of input at once, are not neat extensions of that core technology but workarounds that patch over some of its fundamental flaws. A growing number of scientists and engineers are now asking what’s coming next. LLMs are not going anywhere, but the way they get built is up for grabs. ( MIT Technology Review dubbed this future generation of models LLMs+ in this year’s list of the 10 things that matter in AI .) Enter a wave of startups hoping to push the boundaries of this boomtown technology. Some will no doubt fail—but they have everything to play for and far less to lose than the companies at the front of the pack today. Strength in numbers But first, the problem. The key strength of transformers lies in a mechanism called dense attention, which encodes the meaning of a block of text in a series of numbers . The process involves comparing every word (or part of a word, known as a token) in that text with every other word via a form of multiplication. Dense attention can capture the meaning of text with remarkable accuracy. But as the length of that text grows, the number of computations needed to process it adds up fast. A document 10,000 words long might require a transformer to perform 50 million multiplications. That’s the main reason LLMs suck up so much power . The costs are huge. OpenAI is set to spend $50 billion on computing this year , according to the company’s president, Greg Brockman. And the International Energy Agency predicts that the total amount of electricity consumed by data centers will double by 2030 . What’s more, transformers struggle with what many of the latest models are designed to do. Because of the way they process text word by word, transformers are not great at keeping track of a lot of information at once (in other words, what&#8217;s known as their context window cannot get too large). And yet if LLMs are to carry out harder tasks, they will need to take in larger amounts of data: a whole library of documents, an entire code base, or in the case of agents, output from other LLMs. As for reasoning models, they work by writing notes to themselves (in a kind of scratch pad known as a chain of thought ) and then reading them back, which again adds to the amount of data to stay on top of. As LLMs get bigger and better, transformers have become a bottleneck. The technology’s key strength is now a limitation. Here are four new ideas for how to solve the transformer problem—innovations that could change LLMs for good, making them faster, far more efficient, and (maybe) even smarter. 01: Rethinking attention An obvious way to make LLMs faster and cheaper is to tackle the problem head on and change the way attention works. Swapping out dense attention for a mechanism called sparse attention, which runs calculations on only some pairings of words in a block of text instead of all of them, can radically reduce the amount of computation LLMs need to do.&nbsp;&nbsp; Researchers have come up with plenty of sparse attention mechanisms over the years. The problem is that none of them were as good as dense attention at capturing meaning. That might have changed. Subquadratic, a startup based in Miami, claims it has invented the first sparse attention mechanism that rivals top mainstream LLMs on a handful of tasks, including search and coding. It’s a huge claim (and some people in the industry remain skeptical ). Subquadratic says its model, SubQ, works by figuring out on the fly—for each piece of text it is given—which words matter and which don’t. The company also claims that thousands have signed up to its waitlist and plans to make the model widely available soon. Meanwhile, Manifest AI, a startup based in San Francisco, is coming at the problem from a different angle. Instead of changing how attention works, it is replacing it with something else.&nbsp; It has developed a mechanism it calls power retention, which stores only the most relevant information for a given task and ensures that the amount of data an LLM has to keep track of doesn’t blow up. Attention mechanisms force LLMs to keep track of everything in their context window. A sparse attention model (such as SubQ) throws out a lot of the individual words, but it still retains a rough picture of everything it has seen. In contrast, power retention works by providing the model with a rolling summary of its context window. As new information is added, less relevant information is dropped.&nbsp; The basic principle of retention has been around for a decade. Manifest AI claims it has updated those techniques to build models that can stand up to transformer-based LLMs for the first time. The company says it is possible to adapt a transformer model into a power retention model with minimal retraining. To demonstrate this, it has turned an existing open-source coding LLM called StarCoder into a version that uses power retention, called PowerCoder. It has also released a model called Brumby, which it claims rivals some versions of Alibaba’s popular open-source model Qwen.&nbsp; Manifest AI wants its power retention tech to become the go-to solution when LLMs need to carry out tasks that involve processing huge amounts of data. There are many useful applications, Manifest AI’s cofounder and CTO, Carles Gelada, claimed in a video announcing his company’s technology last year—from analyzing videos that are hours long to building agents that can stay on task for weeks at a time.&nbsp; 02: Making models smaller and more flexible Liquid AI, an MIT spinout based in Cambridge, Massachusetts, hasn’t changed or ditched transformers fully but pairs them with its own tech, liquid neural networks, to build what cofounder and CEO Ramin Hasani calls LFMs (liquid foundation models). Liquid AI’s models are far smaller and use less energy than most LLMs. The firm builds models for car makers, including Mercedes, which run on the small chips inside vehicles. Its latest models can run on a Raspberry Pi, a low-powered hobbyist computer that costs $50. Its models are available for free to any organization with an annual revenue less than $10 million. And they have proved popular: The company has racked up almost 34 million downloads, says Hasani. Liquid neural networks were inspired by worm brains. They are an extension of another type of neural network that predates transformers, called convolutional networks. The key innovation is a mechanism that lets a model adapt its behavior to new information, so it can learn as it goes. That’s not possible with transformers: Once a model is trained, its behavior is fixed. Liquid AI’s first models were pretty basic but could fly drones or drive vehicles. With LFMs, the company is trying to scale up its technology to compete with mainstream LLMs. Its new models match the performance of rivals four times bigger, including versions of Alibaba’s Qwen and Google’s open-source LLM Gemma. A typical LLM is built from a stack of transformers wired together. Liquid AI’s recent LFMs are hybrid models made up of 20% transformers and 80% liquid neural networks. That ratio was hit upon by another AI system that Liquid AI has built, which it uses to help design all its models. “It’s the core technology of our company right now,” says Hasani. This designer AI sifts through many different combinations of neural networks—liquid, convolutional, and more, as well as transformers—and comes up with designs that bolt different ones together to hit a sweet spot of performance and efficiency. Hasani thinks transformers were just the beginning: “Your brain is an AGI system, you know, and it operates with 20 watts of power. How is it possible? We can get a lot more innovative.” 03: Generating text all at once Almost all LLMs produce their output one word at a time. It makes sense, because that is how people speak and write. But for computers, it’s very inefficient. It is faster and cheaper for LLMs to generate text all at once—spitting out whole sentences or paragraphs in one shot. That’s the approach taken by Inception, a startup based in Palo Alto, California, which is building LLMs using a technique called diffusion.&nbsp; Diffusion is better known as the technology that drives most image and video generation models . Diffusion models are trained to take a random grid of pixels—like the static on an old TV set—and turn it into an image . They do this by working on all the pixels at the same time, figuring out which need changing to make the static look more like a high-definition photo. It turns out this process works on text too. Inception has trained its LLMs to take a random string of words and turn it into sentences that make sense. Diffusion LLMs still use transformers to encode meaning, but by producing whole blocks of text at once, they make transformers do more for less. “You’re still using a big transformer model, but you can predict many tokens at the same time,” says Inception’s cofounder and CEO, Stefano Ermon. “That’s why these models are so much faster and cost-efficient compared to what most other people are building today.” The challenge was to take a technology designed for image generation and apply it to text. With images, if you need to change a blue pixel to a red one you can step through intermediate colors, says Ermon. That doesn’t work with text: “When you have ‘cat’ and ‘dog,’ there is not really something in between.”&nbsp; Ermon is also a researcher at Stanford University. In 2024, he and a pair of his Stanford colleagues figured out the math to make diffusion models work with text. They trained a diffusion model that matched the performance of GPT-2—an LLM that OpenAI built in 2019—but was 10 times faster. It was enough for Ermon to spin out a company.&nbsp; Today he has his sights on the big league. Inception claims its latest model, Mercury 2, performs as well as some of OpenAI’s GPT-4 models, released in 2023, but again 10 times faster. “We’re bullish about this approach because it’s the one that is going to scale up,” says Ermon.&nbsp; The only things that matter are speed and cost, he adds: “Ultimately, the currency is going to be intelligence per dollar.” Inception is not the only company betting on diffusion. Google is also experimenting with this approach and has built a prototype LLM called Diffusion Gemma . But Ermon is not worried about the competition. “I think it&#8217;s validating,” he says. “This is the future.” 04: Moving beyond words Pathway, another startup based in Palo Alto, is perhaps the most extreme of this new bunch. It wants to free LLMs from the constraints of language. The firm has built a type of LLM called Dragon Hatchling (named after the dragons in Terry Pratchett’s novel Color of Magic , which materialize if you think about them hard enough). Its standout result so far is a high score on a benchmark that pits LLMs against more than 250,000 very hard sudoku puzzles. Dragon Hatchling beat more than 97% of the puzzles; several leading LLMs from the top labs failed to solve any.&nbsp; The point Pathway wants to make is that despite their remarkable success at many different tasks, there are still crucial classes of problems where LLMs fail. Sudoku is just one example. If we want LLMs to come up with genuine, novel solutions to real problems, we need to move beyond transformers, says Pathway’s cofounder and CEO, Zuzanna Stamirowska.&nbsp; That’s because transformers force LLMs to do everything with text. But language is not the best tool for certain kinds of reasoning. “It’s very difficult to represent a sudoku board word by word,” says Stamirowska. Pathway’s solution is to change the math behind the transformer, replacing the attention mechanism with a mathematical structure called a state space. Instead of encoding information word by word, state spaces compress it into a more abstract representation. Using this technique, Dragon Hatchling can still process and produce text, but it can also mimic forms of reasoning that do not involve sequences of words. This not only makes Pathway’s model more efficient, but (in theory) it lets it take on tasks that other LLMs cannot do.&nbsp; Think of chess or mathematics—those kinds of puzzles are not held in your head as a long sentence, says Stamirowska: “The eureka moment that pops up in your brain isn’t necessarily in language. We would argue that if you have to reason in language, you’re somehow constrained.”&nbsp; Stamirowska admits that a mainstream LLM could read a book about how to solve sudoku and then write code to do it. But we want to build models with more than book smarts, she says: “The hope for AI is not to solve sudoku; it’s to cure cancer. There’s not a book for that.” “Transformers are an engineering convenience that we fell on,” she adds. “It started a religion, but it’s silly to think that a breakthrough won’t happen again.”",
-      "tags": [
-        "论文"
-      ],
-      "score": 71
+      "score": 84
     },
     {
       "title": "让知识蒸馏便宜到足以大规模运行",
@@ -438,22 +485,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
-      "title": "Baseten关于拥抱面部推理提供商 🔥",
-      "originalTitle": "Baseten on Hugging Face Inference Providers 🔥",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/baseten",
-      "date": "2026-08-06T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "它是如何工作的在网站UI中来自客户端SDK的计费反馈和后续步骤我们很高兴地分享， Baseten现在是Hugging Face Hub上受支持的推理提供商！ Baseten加入了我们不断发展的生态系统，直接在Hub的模型页面上增强了无服务器推理的广度和功能。 推理提供程序也无缝集成到我们的客户端SDK （适用于JS和Python ）中，这使得与您首选的提供程序一起使用各种模型变得非常容易。Baseten是一个人工智能基础设施平台，涵盖无服务器人工智能、培训等。Baseten拥有众多前沿模型，使开发人员可以轻松地将各种人工智能功能集成到他们的应用程序中，只需最少的设置。 Baseten支持广泛的模型类型--从LLM到文本到语音转换等等。作为此初始集成的一部分， Baseten正在推出对Hugging Face上的会话和文本生成任务的支持，从而能够访问流行的开放式权重LLM ，例如Kimi K3、最新的DeepSeek V4 Flash、GLM-5. 2等。对其他任务的支持即将推出！在Hugging Face上关注Baseten ： https://huggingface. co/baseten。 Baseten可通过Hugging Face SDK获得- Python的huggingface_hub （ > = 1. 26. 1 ）和JavaScript的@ huggingface/inference。以下示例演示如何通过Baseten使用最新的DeepSeek V4闪存。使用Hugging Face令牌进行身份验证-请求将自动路由到Baseten。拥抱人脸推理提供商已集成到大多数Agent线束中，包括Pi、OpenCode、Hermes Agents、OpenClaw等。 这意味着您可以将baseten托管模型直接插入到您喜爱的工具中，而无需任何额外的粘合代码。在此处浏览完整的集成列表。对于直接请求，即当您使用来自推理提供商的密钥时，将由相应的提供商向您收费。例如，如果您使用baseten API密钥，我们将向您的baseten账户收费。对于路由请求，即 当您通过Hugging Face Hub进行身份验证时，您只需支付标准的提供商API费率。我们没有额外的加价；我们只是直接通过提供商的成本。（将来，我们可能会与提供商合作伙伴签订收入分享协议。)重要提示‼️专业版用户每月可获得价值$ 2的推理积分。您可以在不同的提供商之间使用它们。 🔥",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "AI professors are negotiating the new realities of academic research",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "date": "2026-08-10T20:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 65。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Last week, I headed 30 miles south of San Francisco to a hotel in Mountain View, California, to join some of the most accomplished, and some of the most promising, AI researchers in the world. I was hosting roundtable interviews and speaking at a media training for a convening of the Schmidt Sciences AI2050 program, an initiative funded by Eric and Wendy Schmidt that supports academics whose work involves AI. The fellows list is a who’s who of AI luminaries, and though not all of them made it out to the Bay, every time I turned a corner I saw a scientist whom I’d interviewed previously or whose research I admired. (Full disclosure: I received a science communication award funded by Schmidt Sciences in 2024.)&nbsp; It’s a weird time for university AI researchers, who make up most of the AI2050 group. In the past four years, AI research has reoriented around large language models, and its cutting edge has moved from academic institutions to private companies. Universities simply can’t afford the GPUs required to train and run frontier models, and even if they could, Anthropic and OpenAI aren’t letting anyone else see the inner details of Claude or ChatGPT. In a conversation over lunch, Nika Haghtalab, a computer science professor at UC Berkeley, said that being an AI academic these days was like being a biologist in a world in which private companies had exclusive control over the gene-editing tool CRISPR. Experts outside the frontier labs can study how ChatGPT and Claude behave, but they can’t do any detailed research on the design and training of those tools, nor can they steer that design or training themselves. &nbsp;The AI2050 program does offer fellows some funding that they can use to buy GPUs, which some researchers I spoke with said was a major benefit of participating in the program. But money remains a pressing concern, especially given the reduction of federal scientific funding in the United States. Even for researchers who don’t run local models themselves, the cost of repeatedly querying OpenAI’s, Anthropic’s, and Google’s models in order to study them rigorously can be prohibitive. Rather than focusing on advancing capabilities, many fellows aim their attention at questions that are unlikely to be addressed by Anthropic or OpenAI. “I try not to work on problems that I think are gonna be solved by a tech company,” says Anjalie Field, a computer science professor at Johns Hopkins. Companies need to make money, and research questions that have little promise of profit might not be worth investing in—especially if their answers might make the companies look bad. Recently, for example, Field conducted a study in which she found that language models give less sophisticated responses to prompts that are phrased in ways more commonly used by women than by men. It’s difficult to imagine that kind of research coming out of Anthropic or OpenAI. There’s also a huge group of AI academics who don’t work with LLMs at all. Many of them are scientists who build specialized AI models that can analyze data, make useful predictions, or even simulate entire physical systems. Those researchers aren’t necessarily competing with the frontier labs—Google DeepMind’s AlphaFold team, which built a Nobel Prize–winning model that predicts the structures of proteins, was disbanded last month. But they face plenty of their own challenges. At the convening, several voiced concerns about how the widespread ignorance of non-LLM AI was affecting their work. Researchers who build specialized AI tools to help address climate change, for example, sometimes struggle to advocate for their work when so many people believe that “AI” means “energy-guzzling LLMs.” All these challenges are changing the landscape of academia: Several prominent academics have recently taken leave from their universities to join frontier labs, and many AI2050 fellows hold industry positions alongside their academic jobs. And in the past six months, yet another threat has emerged. OpenAI’s models have solved a number of real research problems in mathematics, and some experts are worried that humans might not have a future in pure math. One fellow I spoke with said that she was concerned about the mental health of her mathematician peers. But it’s not all doom and gloom. For one thing, empirical science may prove much more difficult to automate than mathematics, because collecting data is an intrinsically slow process. And some researchers see AI mathematicians and scientists as a boon rather than a threat—including Tim Dettmers, a computer scientist at Carnegie Mellon who works to make AI models faster and cheaper to run. AI scientists won’t replace humans, Dettmers says. On the contrary, they could make human scientists far more efficient, so that he and his peers have the chance to pursue all the wild and inspired ideas they might otherwise never have gotten around to. And scientists are a resilient sort. The very resource constraints that prevent them from training frontier models also push them to discover new ways to make models smaller and more efficient, or to explore completely new architectures. If the next big AI breakthrough comes not from a major company but from a scrappy academic lab, I won’t be shocked.",
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 65
     }
   ]
 }
