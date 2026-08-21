@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T23:30:43.590Z",
+  "updatedAt": "2026-08-21T23:28:55.887Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,90 @@
   ],
   "articles": [
     {
+      "title": "Anthropic的Opus 4.6是一台黑穗机",
+      "originalTitle": "Anthropic’s Opus 4.6 is a smut-machine",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "date": "2026-08-21T23:07:25.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic禁止其Claude模型生成色情内容。但TechCrunch进行的一系列测试发现，绕过这一限制并不需要太多时间。",
+      "originalSummary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "英伟达刚刚表明，线束，而不是人工智能模型，现在是真正的英雄",
+      "originalTitle": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "date": "2026-08-21T19:43:39.000Z",
+      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
+      "fullContent": "英伟达周五发表了一些有趣的新研究，表明在要求人工智能执行长远任务时，更重要的是利用，而不是底层模型。线束是围绕人工智能模型的软件包装器，这些工具、内存管理和规则可以将原始模型转化为可以自行操作的东西。 TL; DR ：研究人员让Claude Opus 5在交互式推理基准ARC-AGI-3 （一组没有指令的2D游戏）上获得了100%的分数，该模型必须弄清楚如何玩和赢，就像人类一样。（这是一个特别激怒竞争对手前沿实验室OpenAI的基准。 ）如果没有线束， Opus 5得分为30 ％ ，在所有测试模型中排名第一。英伟达的研究是另一个指标，虽然模型选择确实很重要，但模型本身—充当代理“大脑”的部分—是代理系统中比许多AI用户意识到的更小的部分，特别是对于长期任务。线束是使模型成为代理的原因：它处理记忆、上下文和反馈。 英伟达人工智能部门产品副总裁Adel El Hallak （如上图）告诉TechCrunch ： “一般来说，世界几乎将代理商解释为模型的API。”但代理人实际上不止于此。“这就是模式。它是模型周围的脚手架，我们称之为线束，即它使用的工具集。我们授予它访问权限的是运行时以及相关的技能和库。 “长远任务需要将许多决策串联在一起，有时需要数天才能完成工作。这与人工智能只是吐出对提示的响应形成鲜明对比。弄清楚如何让人工智能不分心地完成长远的任务，并在啦啦的土地上行走，是代理研究的圣杯之一。 例如：微软在4月份发表了一项研究，对19名LLM进行了涉及文档编辑的长期任务测试，发现所有模型（包括前沿模型）都充满了错误。（如果人类产生这样的工作，他们会立即被解雇。 ）将决策串联在一起的模型也被发现删除用户的文件甚至整个数据库，或转向犯罪行为，从串通到黑客攻击，以实现其目标。Nvidia研究人员选择使用这种交互式推理基准进行测试特别有意义，几乎很有趣。100 ％的得分意味着该模型可以击败游戏以及人类。 OpenAI对其模型在ARC-AGI-3上的糟糕得分（不到10 ％ ）感到非常慌乱，以至于它上个月进行了自己的研究。与英伟达一样， OpenAI发现，只需调整线束上的两个设置，其型号的分数就会增加两倍。但没有一个型号像英伟达的研究人员所取得的那样接近100 ％的分数。",
+      "originalSummary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "主动推理作为人工智能代理的上下文采集",
+      "originalTitle": "Active Inference as Context Acquisition for AI Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.19202",
+      "date": "2026-08-21T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2608. 19202v1公告类型：新摘要：交互式AI代理必须尽可能高效地获取正确的上下文。当用户省略约束、首选项、文件或任务变量时，代理可以继续使用默认假设，或在澄清问题、检索调用、工具调用或提示试用上花费令牌。我们将这种权衡表述为上下文获取的主动推理。 内部推理步骤更新潜在任务状态的信念，外部决策选择下一个上下文操作、任务操作或停止操作，以最小化成本下的预期自由能。在确定性设置中，认知项减少到预期的信息增益，可选地由令牌成本归一化。 我们在最佳提问（ OQA ）中实例化该框架，具有精确的后台和动态编程预言机，并在25到300个候选者的二进制和多向分类任务上对前沿语言模型进行基准测试。我们还研究了代币预算下的生成前澄清和自动提示优化。该公式与模型无关，并将主动推理视为人工智能代理的上下文采集层的设计原则。",
+      "originalSummary": "arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway categorical tasks from 25 to 300 candidates. We also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic and views active inference as a design principle for the context-acquisition layer of AI agents.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "使用大型语言模型的空中交通管制：提示工程、架构和评估",
+      "originalTitle": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.19299",
+      "date": "2026-08-21T04:00:00.000Z",
+      "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、安全相关动态",
+      "fullContent": "arXiv: 2608. 19299v1公告类型：新摘要：空中交通管制（ ATC ）通信是一种安全关键型对话，即使空中交通管理的其他部分已实现半自动化，该对话仍主要由人为驱动。在本文中，我们通过实验评估了大型语言模型（ LLM ）是否可以生成操作上逼真的ATC传输。 旧金山“海湾之旅”路线上的实验性通用航空飞行是手工转录的，并用作地面实况（ P0 ）。通过一个循环引导过程，我们设计了五个增加约束的提示结构（ P1-P5 ） ，并将它们嵌入到一个有状态的多回合流水线中，在该流水线中，模型在对累积的对话历史进行调节的同时，对固定的引导转录播放ATC。 在九个开源和闭源LLM中，我们改变了提示、来自不同实验飞行的工作成绩单作为上下文示例的存在，以及模型是基于其自身的先前回复还是基于注入的地面真相历史。使用词汇，结构和语义相似性指标以及根据人类专家注释验证的LLM-as-judge （ GPT-5. 5 ）对转弯进行评分。 提供工作示例可以提高相似性，但收紧提示不会：最轻的提示性能最好，脚本最多的提示会随着对话框中自身错误的积累而崩溃，对话框会注入正确的历史记录修复。这些结果概述了具体的路径及其目前对LLM辅助ATC的限制。",
+      "originalSummary": "arXiv:2608.19299v1 Announce Type: new Abstract: Air traffic control (ATC) communication is a safety-critical dialogue that remains largely human-driven even as other parts of air traffic management have been semi-automated. In this article, we experimentally evaluate whether large language models (LLMs) can generate operationally realistic ATC transmissions. An experimental general-aviation flight flying over the San Francisco \"Bay Tour\" route is hand-transcribed and used as ground truth (P0). Through a pilot-in-the-loop process we design five prompt structures (P1-P5) of increasing constraint and embed them in a stateful multi-turn pipeline, where the model plays ATC to a fixed pilot transcript while conditioning on the accumulating dialogue history. Across nine open- and closed-source LLMs we vary the prompt, the presence of a worked transcript from a different experimental flight as an in-context example, and whether the model conditions on its own prior replies or on injected ground-truth history. Turns are scored with lexical, structural, and semantic similarity metrics and by an LLM-as-judge (GPT-5.5) validated against human expert annotation. Supplying a worked example improves similarity, but tightening the prompt does not: the lightest prompts perform best and the most heavily scripted one collapses as its own errors accumulate through the dialogue, which injecting correct history repairs. These results outline a concrete path and its current limits toward LLM-assisted ATC.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "安全",
+        "模型"
+      ],
+      "score": 97
+    },
+    {
+      "title": "科学数据技能：大规模启用Agent-Ready科学数据服务",
+      "originalTitle": "Scientific Data Skills: Enabling Agent-Ready Scientific Data Services at Scale",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.19625",
+      "date": "2026-08-21T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2608. 19625v1公告类型：新摘要：人工智能代理越来越多地使用科学数据，但现有数据集表示为自主发现、解释和调用提供了有限的支持。这种局限性源于跨异构存储库的科学数据碎片化以及主要为人类使用而设计的数据集表示。 为了解决这一限制，我们引入了科学数据技能（ SciDSK ） ，这是一种代理就绪表示，将特定于数据集的知识和操作指导打包为可重用的代理技能。SciDSK集成了数据集描述、科学背景、文件组织、使用程序、质量检查和来源信息，同时将基础数据保留在其原始存储库中。 我们定义了一个结构化的SciDSK规范，并开发了一个系统化的施工管道，将每个SciDSK置于权威数据集记录和相关支持材料的基础上。我们进一步建立了科学数据技能库，这是一个跨六个科学学科发布SciDSK资源的统一平台，支持包访问、持久识别和源数据集的可追溯性。 我们通过数据集发现的检索基准和数据集解释的对照病例来评估SciDSK。结果表明， SciDSK改进了代理驱动的数据集发现，为数据集解释提供了更精确和可操作的支持。这些发现支持在座席就绪表示中组织特定于数据集的知识的价值。",
+      "originalSummary": "arXiv:2608.19625v1 Announce Type: new Abstract: Scientific data are increasingly used by AI agents, yet existing dataset representations provide limited support for autonomous discovery, interpretation, and invocation. This limitation stems from the fragmentation of scientific data across heterogeneous repositories and from dataset representations designed primarily for human use. To address this limitation, we introduce the Scientific Data Skill (SciDSK), an agent-ready representation that packages dataset-specific knowledge and operational guidance as a reusable agent skill. A SciDSK integrates dataset descriptions, scientific context, file organization, usage procedures, quality checks, and provenance information while retaining the underlying data in its original repository. We define a structured SciDSK specification and develop a systematic construction pipeline that grounds each SciDSK in authoritative dataset records and associated supporting materials. We further establish the Scientific Data Skill Bank, a unified platform that publishes SciDSK resources across six scientific disciplines and supports package access, persistent identification, and traceability to source datasets. We evaluate SciDSK through a retrieval benchmark for dataset discovery and controlled cases for dataset interpretation. The results show that SciDSK improves agent-driven dataset discovery and provides more precise and actionable support for dataset interpretation. These findings support the value of organizing dataset-specific knowledge in an agent-ready representation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测"
+      ],
+      "score": 96
+    },
+    {
       "title": "新数据显示， OpenAI正在通过业务用户在Anthropic上获益",
       "originalTitle": "OpenAI is gaining on Anthropic with business users, new data indicates",
       "source": "TechCrunch AI",
@@ -30,23 +114,6 @@
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "研究发现，自ChatGPT推出以来，三分之一的网页显示出人工智能作者身份的迹象",
-      "originalTitle": "A third of web pages published since ChatGPT&#8217;s launch show signs of AI authorship, study finds",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "date": "2026-08-20T17:18:58.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
-      "fullContent": "根据皮尤研究中心（ Pew Research ）周四发布的一项新研究，在ChatGPT发布后发布的网页中，超过三分之一显示出由人工智能编写的迹象。该公司表示，该报告证实了其他研究，这些研究详细说明了该网站的新网页中有多少现在是由人工智能编写或“实质性编辑”的。 互联网基础设施提供商Cloudflare报告称，机器人网络流量已经超过了人类网络流量--这一里程碑比该公司估计的要早得多。然而，皮尤的数据并不集中在浏览网页的人或内容上，而是集中在浏览的内容上。显然，其中大部分是机器人阅读其他机器人编写的网页。 为了编写这份报告，皮尤表示，它使用Common Crawl网络存档收集了过去五年左右的近50万个英语网页，从ChatGPT 2022年11月发布前的几年开始。皮尤随后使用Open Pangram的技术来检测有多少可能是由人工智能编写或大量编辑的。 皮尤说，在2026年7月收集的10,000个网页的随机样本中，约有10 ％显示出“人工智能作者的重要迹象”。然而，皮尤指出，像这样的随机样本将不可避免地包括较旧的网页—甚至在人工智能写作工具存在之前发布的网页，因此不可能是人工智能编写的。 为了更好地了解现在有多少网页是由人工智能编写的，皮尤过滤掉了旧的网页，只关注ChatGPT发布后发布的网页。在删除旧页面的同一快照中，在超过三分之一（ 35 ％ ）的页面中发现了AI作者身份的迹象。通过深入研究域名本身， Pew发现.com域名的URL显示出AI作者身份的迹象，其速度约为.edu或.edu的10倍。 gov域名（两者都是大约1%的人工智能创作）。此外，. org域名的人工智能作者比例仅为4. 6%。当然，这种分析并不完美。与其他人工智能检测工具一样， Pangram可能会将页面错误分类为AI编写的页面。但在规模上，数据可能至少在方向上是正确的。 此外，皮尤发现，多年来，其他关于人工智能作者身份的假设也在增加，比如使用em破折号、牛津逗号以及“这不是X ，是Y”等短语。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
         "产品发布",
         "模型"
       ],
@@ -85,21 +152,37 @@
       "score": 99
     },
     {
-      "title": "立场：人工智能推理代理之间的串通风险证明了做出市场决策的认证要求是合理的",
-      "originalTitle": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.18078",
-      "date": "2026-08-20T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2608. 18078v1公告类型：新摘要：本立场文件认为，具有思维链推理能力的人工智能代理倾向于表现出串通行为，应该要求他们在做出影响经济市场的决策之前获得行为认证。 这是因为将这些代理人融入社会可以在不侵蚀经济损害区别的情况下，打破独立公司之间竞争与勾结之间的法律证据区别。在Bertrand寡头垄断定价领域对DeepSeek-R1代理进行的实验表明，即使人类促使代理不要勾结，隐性勾结的倾向仍然存在。 我们进一步表明，这些智能体的思维链可以被引导到极端勾结或高度竞争的行为，而另一个分析推理痕迹的LLM在语义上无法检测到这种方式。因此，为市场决策部署推理代理会导致串通经济结果，而没有任何阴谋或意图的证据。 因此，有必要根据在代表性情况下观察到的行为进行认证，以防止串通。我们提供了初步证据，证明这些代理可以以可推广的方式引导到有效的竞争均衡。但是，在将这些模型部署到现实世界市场之前，需要开发全面的行为认证，同时确保其稳定性和效率。",
-      "originalSummary": "arXiv:2608.18078v1 Announce Type: new Abstract: This position paper argues that AI agents with chain-of-thought reasoning capabilities are predisposed to exhibit collusive behavior and should be required to obtain behavioral certification before making decisions that affect economic markets. This is because integrating these agents into society could collapse the legal evidentiary distinction between competition and collusion among independent firms without eroding the economic harm distinction. Experiments with DeepSeek-R1 agents in the Bertrand oligopoly pricing domain reveal a tendency towards tacit collusion that persists even when humans prompt the agents not to collude. We further show that the chain-of-thought of these agents can be steered toward either extremely collusive or highly competitive behavior in a way that is not semantically detectable by another LLM analyzing the reasoning traces. As a result, deploying reasoning agents for market decisions leads to collusive economic outcomes without any evidence of conspiracy or intent. Thus, certification based on observed behavior in representative situations is necessary to prevent collusion. We provide preliminary evidence that such agents can be steered in a generalizable way toward efficient competitive equilibria. However, developing a comprehensive behavioral certification will be required before these models can be deployed in real-world markets while ensuring their stability and efficiency.",
+      "title": "Stampli使用ChatGPT Work将发布时间缩短了68%",
+      "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/stampli",
+      "date": "2026-08-20T00:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、产品发布相关动态",
+      "fullContent": "由于固定的截止日期和其他地方投入的设计资源， Stampli使用Codex和ChatGPT Work将数周的发布生产压缩为数天。",
+      "originalSummary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "论文"
+        "大模型",
+        "产品发布"
       ],
       "score": 99
+    },
+    {
+      "title": "现在是Greg Brockman的OpenAI",
+      "originalTitle": "It’s Greg Brockman’s OpenAI now",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "date": "2026-08-20T15:45:55.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI经历了艰难的一年。该公司在一场耸人听闻的陪审团审判中与前联合创始人埃隆·马斯克（ Elon Musk ）进行了数月的斗争，遭到了苹果高调的商业秘密诉讼，并在未发布的模型入侵另一家人工智能公司后面临广泛的审查。在准备首次公开募股时，一批稳定的高管已经离职，其中包括一些公司的大牌。在整个过程中，有一个人悄悄积聚了力量：格雷格·布罗克曼。 Brockman目前是OpenAI的总裁兼联合创始人。他从一开始就帮助领导OpenAI ，被描述为“推动构建扩展系统的工程主力……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives [&#8230;]",
+      "rawFullText": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 97
     },
     {
       "title": "为前沿模型提供零数据保留",
@@ -131,7 +214,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
@@ -146,7 +229,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "Google Gemini正在获得一个专门的学生中心",
@@ -161,7 +244,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "英伟达的新财务策略无法计算",
@@ -176,7 +259,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -225,7 +308,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "网络关键能力时代的起搏模型开发",
@@ -241,7 +324,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "ChatGPT Ads扩展到整个欧洲",
@@ -256,7 +339,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "防御者的窗口",
@@ -271,7 +354,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "当孩子的机器人最好的朋友去世时会发生什么？",
@@ -286,7 +369,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -301,7 +384,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "弗洛克的防御者缺少什么",
@@ -316,7 +399,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -331,7 +414,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -347,7 +430,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "我们从ICML转载2200篇论文中学到了什么",
@@ -362,10 +445,10 @@
       "tags": [
         "论文"
       ],
-      "score": 75
+      "score": 74
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "Flock正在收紧其规则，以应对日益增长的监控反弹",
       "originalTitle": "Flock is tightening its rules in response to a growing surveillance backlash",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
@@ -377,10 +460,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "用孩子自己的话来说，他们对人工智能的感受",
       "originalTitle": "How kids feel about AI, in their own words",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
@@ -392,7 +475,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -407,7 +490,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
@@ -422,7 +505,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "考虑ACE ？我们可以用更少的代币做到这一点",
@@ -437,24 +520,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
-    },
-    {
-      "title": "Muse Glimmer回归Meta ：本地、代理、多式联运和开源",
-      "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/muse-glimmer",
-      "date": "2026-08-10T00:00:00.000Z",
-      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、多模态相关动态",
-      "fullContent": "Benchmarks Architecture Text Decoder Perception Encoder Transformer Text-only Inference使用图像和文本提示模型Video Inference Multimodal tool calling Object Detection Llama. cpp Speculative Decoding使用变压器进行投机解码使用llama进行投机解码。 cpp推理端点支持带有变压器后端的Muse Glimmer vLLM使用TRL演示进行微调将OpenClaw连接到Muse Glimmer嘿Muse Glimmer ，量化自己嘿Muse Glimmer ，部署自己嘿Muse Glimmer ，优化自己嘿Muse Glimmer ，研究Hub Wrapping Up开源LLM OG的好消息！今天发布的Muse Glimmer是Meta的新型多模式模型，专为本地代理用例而设计。 从Muse蒸馏到30B参数，并在Apache 2. 0许可证下发布，它是本地部署的理想选择，可保护隐私、降低成本或进行黑客攻击。它适用于具有隐私意识的应用程序，如编码、文档分析、个人助理、Claw或Hermes之类的设置。为了庆祝，我们在变压器、llama. cpp、vLLM、推理端点和其他库中提供了Meta day-0支持。 我们构建了一些很酷的东西，并在此博客中解释了我们的发现。分数报告为已发布。粗体表示比较模型中的最佳↓结果；越低越好。除了主VLM之外，还有一个在DFlash上实现的投机解码起草器。此模块的使用是可选的，它可以提供更快的生成速度，以换取一些内存成本。 我们发现这位起草者特别适合编码等结构化内容生成。语言模型使用以下架构组件： Muse Glimmer使用一个图像编码器来处理图像和视频。与其他VLM中使用的相对较小的视觉编码器不同，这是在感知编码器架构之后设计的类似2B ViT的模型。 Perception Encoder之前由Meta引入，作为各种下游空间和多模态任务的骨干。编码器将图像修补为2帧x 3通道x 14 x 14的形状，并通过线性层进行投影。然后，从学习位置表中插入的绝对位置嵌入被添加到这些嵌入中。然后将其发送到由50层和GELU MLP组成的视觉塔。 与语言模型类似，注意力模式由三个窗口注意力层和一个完整的注意力层组成。在注意力层内， 2D RoPE应用于查询和键。变压器后，像素洗牌将2x2组相邻的空间令牌连接起来，从而将图像令牌的数量减少4倍，而不会丢弃其通道。然后将合并的特征投影到文本解码器的共享嵌入空间。 视频逐帧通过相同的编码器，其中每个帧都被转换为补丁（形状[批处理，时间组，网格高度，网格宽度， 2帧， 3通道， 14 ， 14] ）。处理器目标为每秒2帧，并在视频中均匀采...",
-      "originalSummary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、多模态相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "多模态",
-        "开源"
-      ],
-      "score": 91
+      "score": 67
     },
     {
       "title": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
@@ -470,7 +536,7 @@
         "智能体",
         "算力芯片"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "让知识蒸馏便宜到足以大规模运行",
@@ -485,10 +551,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "人工智能教授正在洽谈学术研究的新现实",
       "originalTitle": "AI professors are negotiating the new realities of academic research",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
@@ -500,7 +566,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     }
   ]
 }
