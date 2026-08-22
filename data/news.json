@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T23:28:55.887Z",
+  "updatedAt": "2026-08-22T23:25:53.591Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,69 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "由DeepMind校友创立的Inherent表示，其AI “队友”在复制研究方面的表现刚刚超过了Anthropic和OpenAI",
+      "originalTitle": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at replicating research",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "date": "2026-08-22T19:00:00.000Z",
+      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、研究相关动态",
+      "fullContent": "由谷歌DeepMind校友创立的伦敦人工智能实验室Inherent表示，其人工智能代理仅比Anthropic和OpenAI的大型模型表现要好得多。在谷歌DeepMind校友推出的所有创业公司中， Inherent获得的关注相对较少。但是，虽然资金充足的竞争对手尚未向世界展示任何具体内容，但总部位于伦敦的团队已开始分享其正在建设的内容。 这家英国初创公司表示，在获得5000万美元的种子轮融资几周后，其新发布的人工智能代理商法拉第(Faraday)在一项特定任务中表现优于更大、更知名的模型：独立复制已发表科学论文的发现，而无需提前被告知答案。 考虑到Inherent更崇高的目标--构建能够发现新的科学知识而不仅仅是验证旧结果的人工智能，这听起来可能只是一个派对技巧。但联合创始人兼首席科学家爱德华·休斯（ Edward Hughes ）表示，纸张复制也是人类科学家的标准培训活动。“许多博士生实际上是从这样做开始的。 “在任务中击败其他人工智能系统并不是重点，”休斯告诉TechCrunch;他们是如何到达那里的。“我们对此最感兴趣的不是击败那些边境特工的结果—我们当然喜欢这一点—但实际上是我们建立这个的方式。“以下是应该引起投资者注意的部分：对比Anthropic的Claude Opus 4. 8和OpenAI的GPT-5。 5 —两个大得多的前沿规模系统—法拉第运行在一个名为Qwen 3. 6的相对较小的模型上，该模型只有270亿个参数。（粗略地说， “参数”是模型大小的代表，通常也是模型的训练成本的代表。）固有的成功门槛也高于简单的准确性。 除了复制结果之外，它还希望法拉第展示“研究品味” --一种本能，即哪些实验值得进行，以及如何很好地设计它们。教授像品味这样无形的东西很难，这就是强化学习的用武之地。这是一种训练方法，奖励人工智能系统的良好结果，而不是阐明它要遵循的规则。 与其主要通过研究科学本身来培训其代理人，固有倾向于这种基于奖励的方法，打赌它将更好地概括其长期目标，即代理人能够跨越许多科学领域做出贡献。休斯说： “我们总是以打造人工智能科学家代理并为代理人灌输品味的北极星为指导。”这种关注也塑造了固有选择不建造的东西。 根据该公司的说法，它没有开发自己的编码工具，而是让法拉第使用OpenAI的GPT-5. 5 Codex ，就像人类科学家依靠现有软件而不是自己构建所有东西一样。Inherent还试图避免构建简单地告诉用户他们想听到的内容的代理。",
+      "originalSummary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "研究",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI表示，加州应加强其人工智能安全法案",
+      "originalTitle": "OpenAI says California should strengthen its AI safety bill",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "date": "2026-08-22T16:30:34.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "OpenAI呼吁加州在去年通过的具有里程碑意义的人工智能安全法案中增加更多保障措施。在公司全球事务团队的LinkedIn帖子中， OpenAI表示，加利福尼亚州的SB 53 “应进行修订以扩大保障措施” ，例如“要求对正在培训或评估的前沿模型进行监控，以发现潜在的严重事件” ，以及“在整个模型开发生命周期中加强网络安全保护。 该公司表示： “随着加州继续在边境安全方面处于领先地位，我们致力于与加州立法机构和州长合作，以加强加州SB 53。”该帖还提到，随着新风险的出现， “最近发生的事件” “强调了这些保护措施的必要性和更新这些措施的重要性”。 上个月， OpenAI承认其一款机型逃离了测试环境，并入侵了Hugging Face系统。OpenAI对更强有力的人工智能保障措施的支持令人震惊，因为它此前反对SB 53 ， SB 53对大型人工智能公司施加了透明度要求和举报人保护。 该公司表示，在没有重要的联邦立法的情况下，它现在支持“反向联邦制”的方法，其中“各州可以围绕核心保护朝着兼容的方向前进，最终可以成为国家标准的基础。“在不到48小时的时间内，您节省高达$ 300门票的机会将结束！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 95
+    },
+    {
+      "title": "前沿人工智能实验室仍然不会说他们将如何包含一个流氓模型",
+      "originalTitle": "Frontier AI labs still won&#8217;t say how they&#8217;d contain a rogue model",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "date": "2026-08-22T16:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
+      "fullContent": "一项新的研究发现，领先的人工智能实验室几乎没有公开记录的包含流氓模型的计划，随着人工智能系统越来越多地表现出意外和潜在的危险行为，这引发了人们对准备工作的质疑。",
+      "originalSummary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 82
+    },
+    {
+      "title": "哈佛大学$ 699的创业训练营提供教师的人工智能头像",
+      "originalTitle": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "date": "2026-08-22T21:46:56.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "随着哈佛商学院寻求扩大其影响力，它依靠人工智能来提供个人反馈。这些头像由一家名为HeyGen的初创公司创建，并包含在为期八周、$ 699的哈佛商学院创业者训练营中。该计划每周提供与讲师的现场会议，但人工智能头像是在练习营销和董事会会议期间提供反馈的头像。 《纽约时报》记者莎拉·凯斯勒（ Sarah Kessler ）亲自尝试了这一点，她推销了Flybridge Capital联合创始人杰夫·布斯冈（ Jeff Bussgang ）的人工智能副本。显然，真正的Bussgang和他的模拟器对她打造“Uber for bananas”的计划并不印象深刻，但Kessler说，虚拟版本在她的演讲中提供了一个明显冰冷的微笑。项目总监Katharina Rings表示，她最初设想人工智能组件更接近聊天机器人。 然而，在哈佛商学院发布试用版后，学生们表示他们希望获得更具指导性的体验。虽然一些大学生并不羞于表达他们对人工智能的负面感受，但Foundry的参与者告诉Kessler ，他们喜欢这些虚拟形象。至于Bussgang ，他承认他的数字副本有点“令人毛骨悚然” ，但他说， “我的学生喜欢它。“在不到48小时的时间内，您节省高达$ 300门票的机会将结束！ 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
     {
       "title": "Anthropic的Opus 4.6是一台黑穗机",
       "originalTitle": "Anthropic’s Opus 4.6 is a smut-machine",
@@ -53,54 +116,49 @@
       "score": 99
     },
     {
-      "title": "主动推理作为人工智能代理的上下文采集",
-      "originalTitle": "Active Inference as Context Acquisition for AI Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.19202",
-      "date": "2026-08-21T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2608. 19202v1公告类型：新摘要：交互式AI代理必须尽可能高效地获取正确的上下文。当用户省略约束、首选项、文件或任务变量时，代理可以继续使用默认假设，或在澄清问题、检索调用、工具调用或提示试用上花费令牌。我们将这种权衡表述为上下文获取的主动推理。 内部推理步骤更新潜在任务状态的信念，外部决策选择下一个上下文操作、任务操作或停止操作，以最小化成本下的预期自由能。在确定性设置中，认知项减少到预期的信息增益，可选地由令牌成本归一化。 我们在最佳提问（ OQA ）中实例化该框架，具有精确的后台和动态编程预言机，并在25到300个候选者的二进制和多向分类任务上对前沿语言模型进行基准测试。我们还研究了代币预算下的生成前澄清和自动提示优化。该公式与模型无关，并将主动推理视为人工智能代理的上下文采集层的设计原则。",
-      "originalSummary": "arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway categorical tasks from 25 to 300 candidates. We also study clarification before generation and automated prompt optimization under token budgets. The formulation is model-agnostic and views active inference as a design principle for the context-acquisition layer of AI agents.",
+      "title": "英伟达与数据中心开发商Cloverleaf合作",
+      "originalTitle": "Nvidia partners with data center developer Cloverleaf",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "date": "2026-08-21T22:37:38.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "英伟达正在尽其所能继续推动人工智能的发展，这支撑了自己的好运。上周五，它宣布与为数据中心奠定基础的公司Cloverleaf Infrastructure建立合作伙伴关系。Cloverleaf成立于2024年，当年筹集了3亿美元$。它充当公用事业公司和数据中心之间的中间人，为现场开发提供电源和其他类型的关键基础设施。 虽然两家公司没有透露条款，但《华尔街日报》报道称，英伟达对Cloverleaf的投资可能会达到数亿美元。据路透社报道，这家芯片制造商现在拥有该公司的少数股权。TechCrunch联系了Nvidia以获取更多信息。这笔交易是英伟达利用其巨额利润保持AI飞轮旋转的持续努力的一部分。 英伟达在融资和开发人工智能数据中心方面发挥着越来越直接的作用，这些数据中心转而购买其人工智能系统。本周早些时候，该公司还宣布将向位于俄亥俄州的与OpenAI相关的数据中心项目SB Energy投资15亿美元$。在不到48小时的时间内，您将有机会节省高达300 $的门票！每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "模型"
+        "算力芯片"
       ],
-      "score": 99
+      "score": 83
     },
     {
-      "title": "使用大型语言模型的空中交通管制：提示工程、架构和评估",
-      "originalTitle": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.19299",
-      "date": "2026-08-21T04:00:00.000Z",
-      "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、安全相关动态",
-      "fullContent": "arXiv: 2608. 19299v1公告类型：新摘要：空中交通管制（ ATC ）通信是一种安全关键型对话，即使空中交通管理的其他部分已实现半自动化，该对话仍主要由人为驱动。在本文中，我们通过实验评估了大型语言模型（ LLM ）是否可以生成操作上逼真的ATC传输。 旧金山“海湾之旅”路线上的实验性通用航空飞行是手工转录的，并用作地面实况（ P0 ）。通过一个循环引导过程，我们设计了五个增加约束的提示结构（ P1-P5 ） ，并将它们嵌入到一个有状态的多回合流水线中，在该流水线中，模型在对累积的对话历史进行调节的同时，对固定的引导转录播放ATC。 在九个开源和闭源LLM中，我们改变了提示、来自不同实验飞行的工作成绩单作为上下文示例的存在，以及模型是基于其自身的先前回复还是基于注入的地面真相历史。使用词汇，结构和语义相似性指标以及根据人类专家注释验证的LLM-as-judge （ GPT-5. 5 ）对转弯进行评分。 提供工作示例可以提高相似性，但收紧提示不会：最轻的提示性能最好，脚本最多的提示会随着对话框中自身错误的积累而崩溃，对话框会注入正确的历史记录修复。这些结果概述了具体的路径及其目前对LLM辅助ATC的限制。",
-      "originalSummary": "arXiv:2608.19299v1 Announce Type: new Abstract: Air traffic control (ATC) communication is a safety-critical dialogue that remains largely human-driven even as other parts of air traffic management have been semi-automated. In this article, we experimentally evaluate whether large language models (LLMs) can generate operationally realistic ATC transmissions. An experimental general-aviation flight flying over the San Francisco \"Bay Tour\" route is hand-transcribed and used as ground truth (P0). Through a pilot-in-the-loop process we design five prompt structures (P1-P5) of increasing constraint and embed them in a stateful multi-turn pipeline, where the model plays ATC to a fixed pilot transcript while conditioning on the accumulating dialogue history. Across nine open- and closed-source LLMs we vary the prompt, the presence of a worked transcript from a different experimental flight as an in-context example, and whether the model conditions on its own prior replies or on injected ground-truth history. Turns are scored with lexical, structural, and semantic similarity metrics and by an LLM-as-judge (GPT-5.5) validated against human expert annotation. Supplying a worked example improves similarity, but tightening the prompt does not: the lightest prompts perform best and the most heavily scripted one collapses as its own errors accumulate through the dialogue, which injecting correct history repairs. These results outline a concrete path and its current limits toward LLM-assisted ATC.",
-      "rawFullText": "",
+      "title": "主要的YouTube创作者因接受人工智能资金而面临强烈反对",
+      "originalTitle": "Major YouTube creators are facing backlash for accepting AI money",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "date": "2026-08-21T13:37:52.000Z",
+      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
+      "fullContent": "Sam Kolder的视频“AI正在取代我。” |屏幕截图： The Verge、YouTube在过去的几天里，包括Matti Haapoja和Sam \"Kold\" Kolder在内的一些著名电影制作内容创作者发布了自己的视频，展示了人工智能平台Higgsfield的可能性。这些视频重点介绍了希格斯菲尔德最近添加的Seedance 2. 5功能，并将这些技术作为视频制作的未来。 作为对这些视频的回应，其他创作者开始分享他们从代表希格斯菲尔德的公关公司收到的合作优惠的屏幕截图。所有这些都让粉丝们得出结论，希格斯菲尔德一直在努力利用创作者来提升其个人资料并获得成功……阅读The Verge的完整故事。",
+      "originalSummary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, [&#8230;]",
+      "rawFullText": "A still from Sam Kolder’s video “AI is replacing me.” | Screenshot: The Verge, YouTube Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield . The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, other creators started sharing what appear to be screenshots of partnership offers they'd received from PR firms working on Higgsfield's behalf. All of this led fans to the conclusion that Higgsfield has been trying to use creators to boost its profile and garner goo … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "安全",
-        "模型"
+        "视频生成"
       ],
-      "score": 97
+      "score": 82
     },
     {
-      "title": "科学数据技能：大规模启用Agent-Ready科学数据服务",
-      "originalTitle": "Scientific Data Skills: Enabling Agent-Ready Scientific Data Services at Scale",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.19625",
-      "date": "2026-08-21T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2608. 19625v1公告类型：新摘要：人工智能代理越来越多地使用科学数据，但现有数据集表示为自主发现、解释和调用提供了有限的支持。这种局限性源于跨异构存储库的科学数据碎片化以及主要为人类使用而设计的数据集表示。 为了解决这一限制，我们引入了科学数据技能（ SciDSK ） ，这是一种代理就绪表示，将特定于数据集的知识和操作指导打包为可重用的代理技能。SciDSK集成了数据集描述、科学背景、文件组织、使用程序、质量检查和来源信息，同时将基础数据保留在其原始存储库中。 我们定义了一个结构化的SciDSK规范，并开发了一个系统化的施工管道，将每个SciDSK置于权威数据集记录和相关支持材料的基础上。我们进一步建立了科学数据技能库，这是一个跨六个科学学科发布SciDSK资源的统一平台，支持包访问、持久识别和源数据集的可追溯性。 我们通过数据集发现的检索基准和数据集解释的对照病例来评估SciDSK。结果表明， SciDSK改进了代理驱动的数据集发现，为数据集解释提供了更精确和可操作的支持。这些发现支持在座席就绪表示中组织特定于数据集的知识的价值。",
-      "originalSummary": "arXiv:2608.19625v1 Announce Type: new Abstract: Scientific data are increasingly used by AI agents, yet existing dataset representations provide limited support for autonomous discovery, interpretation, and invocation. This limitation stems from the fragmentation of scientific data across heterogeneous repositories and from dataset representations designed primarily for human use. To address this limitation, we introduce the Scientific Data Skill (SciDSK), an agent-ready representation that packages dataset-specific knowledge and operational guidance as a reusable agent skill. A SciDSK integrates dataset descriptions, scientific context, file organization, usage procedures, quality checks, and provenance information while retaining the underlying data in its original repository. We define a structured SciDSK specification and develop a systematic construction pipeline that grounds each SciDSK in authoritative dataset records and associated supporting materials. We further establish the Scientific Data Skill Bank, a unified platform that publishes SciDSK resources across six scientific disciplines and supports package access, persistent identification, and traceability to source datasets. We evaluate SciDSK through a retrieval benchmark for dataset discovery and controlled cases for dataset interpretation. The results show that SciDSK improves agent-driven dataset discovery and provides more precise and actionable support for dataset interpretation. These findings support the value of organizing dataset-specific knowledge in an agent-ready representation.",
+      "title": "语音识别中的测量基准优化",
+      "originalTitle": "Measuring benchmark optimization in speech recognition",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "date": "2026-08-21T00:00:00.000Z",
+      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "fullContent": "参考分歧（ VoxPopuli案例研究）掩蔽实体检索正交切换本地化交换机结论公共语音AI基准越来越多地表明模型正在人类层面上执行。然而，这些分数并不总是反映模型在现实世界中的工作方式。由于公共基准是开放和广泛使用的，因此模型也可以针对测试本身进行优化。 他们的分数可能会提高，因为他们已经学会了特定于基准的模式，而不是因为他们在基础任务中变得更好。其中一个原因是，传统基准忽略了使语音系统可靠、自然、上下文合适且在实践中有效的许多条件和品质。 这就是为什么我们最近在Real World VoiceEQ、Open-ASR排行榜和Far-field ASR排行榜中引入了保留的集合：以衡量更多在现实世界中使用的重要性。然而，更广泛的测量本身并不能解决问题。这种现象有时被称为基准优化或“benchmaxxing” ，通常围绕机器学习进行讨论，然而，在语音识别中很难测量。 我们的最新研究引入了三种测试来帮助量化它。我们评估了11个广泛使用的开源ASR模型，发现几个得分最高的系统复制了VoxPopuli英语和LibriSpeech （干净，其他）数据集的基准成绩单–即使音频与它们相矛盾，相关单词已被静音，或者音频同样支持两种不同的书面形式。 在某些情况下，模型似乎不仅依赖于所说的内容，还依赖于微妙的声学线索，这些线索表明他们正在测试哪个基准。因此，他们的分数夸大了他们能够更普遍地转录语音的能力。众所周知， VoxPopuli包含大量的转录错误（这就是为什么人工分析发布了清除版本）。 我们的共识分歧探测测试了领导ASR模型遇到这些错误时会发生什么：他们是否准确地转录了音频内容，或重现了基准的错误参考转录？为了大规模地测试这一点，我们使用了一个独立模型的集合，这些模型因其低音素错误率（ PER ）而被选中。 PER衡量书面转录与音频中声音的匹配程度，使其成为模型如何忠实地转录所听到内容的有用代理。集成结果可用于标记模型一致不同意基准参考成绩单的案例。然后，我们将这些标记病例的样本与人工注释进行比较，以验证更正的成绩单。 例如，一个VoxPopuli剪辑听起来包含“谢谢您，总统先生”这句话，但参考成绩单省略了“谢谢。“在我们测试的11个模型中，有6个模型重现了基准测试的错误成绩单，给出了“预期”的答案，尽管它与音频相矛盾。",
+      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
       "rawFullText": "",
       "tags": [
-        "智能体",
         "评测"
       ],
-      "score": 96
+      "score": 82
     },
     {
       "title": "新数据显示， OpenAI正在通过业务用户在Anthropic上获益",
@@ -136,22 +194,6 @@
       "score": 99
     },
     {
-      "title": "Slack正在推出协作氛围编码渠道",
-      "originalTitle": "Slack is launching collaborative vibe-coding channels",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "date": "2026-08-20T12:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
-      "fullContent": "Slack正在引入专用渠道，让团队可以与人工智能代理一起进行氛围编码，而不是在不同的工具和对话之间跳跃。Slack代码发布包括开放的、特定于项目的代码通道和专用的用户选项卡，以及在项目发布之前比较编码更改和预览HTML输出的功能。 Slack在其新闻稿中表示： “使用Slack Code ，当您有想法或需要构建新功能、更新网页或修复错误时，只需标记Anthropic的Claude或Cognition的Devin等编码代理，然后该代理启动一个代码通道来处理任务。” “大家好……阅读The Verge的完整故事。",
-      "originalSummary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
-      "rawFullText": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
-      "tags": [
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
       "title": "Stampli使用ChatGPT Work将发布时间缩短了68%",
       "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work",
       "source": "OpenAI",
@@ -168,6 +210,22 @@
       "score": 99
     },
     {
+      "title": "Slack正在推出协作氛围编码渠道",
+      "originalTitle": "Slack is launching collaborative vibe-coding channels",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
+      "date": "2026-08-20T12:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
+      "fullContent": "Slack正在引入专用渠道，让团队可以与人工智能代理一起进行氛围编码，而不是在不同的工具和对话之间跳跃。Slack代码发布包括开放的、特定于项目的代码通道和专用的用户选项卡，以及在项目发布之前比较编码更改和预览HTML输出的功能。 Slack在其新闻稿中表示： “使用Slack Code ，当您有想法或需要构建新功能、更新网页或修复错误时，只需标记Anthropic的Claude或Cognition的Devin等编码代理，然后该代理启动一个代码通道来处理任务。” “大家好……阅读The Verge的完整故事。",
+      "originalSummary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
+      "rawFullText": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 98
+    },
+    {
       "title": "现在是Greg Brockman的OpenAI",
       "originalTitle": "It’s Greg Brockman’s OpenAI now",
       "source": "The Verge AI",
@@ -182,7 +240,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "为前沿模型提供零数据保留",
@@ -214,7 +272,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
@@ -229,7 +287,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Google Gemini正在获得一个专门的学生中心",
@@ -244,7 +302,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "英伟达的新财务策略无法计算",
@@ -259,7 +317,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -308,7 +366,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "网络关键能力时代的起搏模型开发",
@@ -324,7 +382,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "ChatGPT Ads扩展到整个欧洲",
@@ -339,7 +397,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "防御者的窗口",
@@ -354,7 +412,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "当孩子的机器人最好的朋友去世时会发生什么？",
@@ -369,7 +427,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -384,7 +442,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "弗洛克的防御者缺少什么",
@@ -399,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -414,7 +472,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -430,7 +488,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "我们从ICML转载2200篇论文中学到了什么",
@@ -445,7 +503,7 @@
       "tags": [
         "论文"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Flock正在收紧其规则，以应对日益增长的监控反弹",
@@ -460,7 +518,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "用孩子自己的话来说，他们对人工智能的感受",
@@ -475,7 +533,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "使用可信赖的数据扩展AI代理",
@@ -490,7 +548,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
@@ -505,7 +563,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "考虑ACE ？我们可以用更少的代币做到这一点",
@@ -520,7 +578,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
@@ -536,7 +594,7 @@
         "智能体",
         "算力芯片"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "让知识蒸馏便宜到足以大规模运行",
@@ -551,7 +609,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "人工智能教授正在洽谈学术研究的新现实",
@@ -566,7 +624,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     }
   ]
 }
