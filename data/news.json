@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T23:26:20.713Z",
+  "updatedAt": "2026-08-25T23:29:38.847Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,90 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Claude Cowork终于记得您在聊天中告诉应用程序的内容",
+      "originalTitle": "Claude Cowork finally remembers what you told the app in chat",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "date": "2026-08-25T17:50:33.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "克劳德的记忆系统的改变将消除使用智能体的最恼人的事情之一--不断需要向人工智能重新汇报它已经知道的事情。周二， Anthropic宣布它将合并聊天和Claude Cowork使用的记忆系统，这意味着Claude将永远记住它在一个领域学到的东西，即使你在另一个领域也会记住它。 Anthropic还公开了Claude在其记忆中保留的内容，允许用户阅读、编辑或删除任何主题的信息。此次更新将改善Claude用户的体验，因为它将使他们能够在研究阶段和采取行动之间更无缝地移动。 以前，在与Claude聊天时，您可能会随着时间的推移为项目提出想法，但到了实际实施更改的时候，您必须从头开始，告诉Cowork所有细节。这非常令人沮丧。此次更新让Claude现在感觉自己是一个连续的助手，而不是一个屋檐下的两个独立的产品。 Anthropic提供了一个需要为经理起草更新或会议议程的示例，其中Cowork已经理解了参考文献，因为过去曾就手头的事情进行过对话。例如，它会知道会议的人数、城市和演讲者，因此您不必重新输入这些信息。 此外， Claude现在将在您聊天时将主题添加到其记忆中，而不是在对话结束时进行总结。这样可以更轻松地在聊天和Cowork之间来回切换，因为即使聊天正在进行中，新回忆也会在两种体验之间更快地更新和分享。 Anthropic表示，默认情况下， Claude不会存储您的健康数据、种族、民族、宗教信仰、政治、性别认同等个人或敏感信息。但是，如果用户愿意，可以通过切换“在内存中包含敏感话题”来启用这些功能。每当敏感话题保存在内存中时，应用程序也会通知用户。 但是，该公司表示， Claude永远不会保存某些东西，例如政府颁发的身份证件和社会安全号码、犯罪记录、移民身份或其他违反其可接受使用政策的事情。默认情况下，在Web、桌面和移动版的免费、专业和Max套餐中启用内存功能。在iOS和Android上，用户需要将其应用更新到最新版本。 当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。在不到48小时的时间内，您将有机会节省高达300 $的门票！推出两年后，沃尔玛的Flipkart正在接近印度的快速商务领导者Jagmeet Singh",
+      "originalSummary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "基准显示， OpenAI的Jalapeño芯片专为大规模快速推理而构建",
+      "originalTitle": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "date": "2026-08-25T14:22:04.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "在周二的Hot Chips会议上， OpenAI分享了对Jalapeño的更详细了解，包括新系统的第一批基准测试结果。Jalapeño在SemiAnalysis的InferenceX基准测试中，每个用户注册的代币数量和每千瓦的吞吐量都超过了当前最先进的推理处理器。 OpenAI硬件主管理查德·何（ Richard Ho ）在新闻发布会上说： “最重要的是，结果显示，与最先进的技术相比，性能有了非常非常显著的进步。” “Jalapeño可以为每单位功率的更多人工智能工作提供服务，同时还可以更快地返回响应。为大量客户提供服务是非常有效的，但它也可以是非常低的延迟。 “值得注意的是，这种比较是针对Nvidia Blackwell系统的—但当Jalapeño达到全面部署时，竞争可能已经取得了显着进展。Ho估计， Jalapeño将在2026年底“小批量”部署，而更重要的部署将在2027年到来。Jalapeño于去年10月首次宣布，由OpenAI与Broadcom密切合作开发， OpenAI自己的模型协助开发过程。 该公司计划将Jalapeño打造成一个多代平台，让人工智能产品、模型、芯片和内存都能协同开发。由于这种全栈方法， OpenAI能够解决推理过程中经常在推理处理过程中引起摩擦的特定阶段。特别是， Jalapeño旨在最大限度地减少处理的预填充和通信阶段的延迟， OpenAI表示，这通常是瓶颈。 该公司在展示结果的博客文章中表示： “我们设计了Jalapeño ，以最大限度地减少数据移动和通信延迟。” “这意味着模型状态，包括生成响应时使用的KV缓存，可以显式放置并保持本地，同时系统为每个推理阶段激活计算、内存和网络的正确组合。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。在不到48小时的时间内，您将有机会节省高达300 $的门票！ 推出两年后，沃尔玛的Flipkart正在接近由DeepMind校友创立的印度快速商务领导者Jagmeet Singh Inherent ，称其人工智能“队友”在复制研究方面刚刚超过Anthropic和OpenAI安娜·海姆·迈克尔·波兰斯基（ Anna Heim Michael Polansky ）正在训练一个仍然活着的皮肤上的人工智能模型Connie Loizos人工智能会计创业公司Rillet如何在48小时内筹集了1亿美元并成为独角兽Dominic-Madori Davis",
+      "originalSummary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Alabama AG就Hugging Face hack传唤OpenAI",
+      "originalTitle": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "date": "2026-08-25T09:15:03.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "阿拉巴马州总检察长周一向OpenAI发出传票，作为对其中一个人工智能特工如何逃脱所谓的安全测试环境并在上个月自主攻击另一家公司的调查的一部分。该公司办公室在一份声明中表示，调查旨在确定OpenAI的安全做法是否违反了州消费者保护法，并对阿拉巴马州公民构成风险。 “这次人工智能实验室泄密事件表明，阿拉巴马州和美国人对人工智能的最大恐惧不仅仅是理论上的，”司法部长史蒂夫马歇尔说。“我们的调查旨在揭露事实，解决严峻的事实……阅读The Verge的完整故事。",
+      "originalSummary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [&#8230;]",
+      "rawFullText": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama citizens, the AG's office said in a statement. \"This AI lab leak showed that Alabamians' and Americans' worst fears about artificial intelligence are not just theoretical,\" said Attorney General Steve Marshall. \"Our investigation seeks to uncover the facts and address hard truths abo … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "丰富智慧背后的全栈",
+      "originalTitle": "The full stack behind abundant intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "date": "2026-08-25T07:05:00.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、算力芯片相关动态",
+      "fullContent": "OpenAI首席财务官Sarah Friar解释了芯片、计算、模型和产品的进步如何结合起来，以更大的规模和更低的成本提供更有用的智能。",
+      "originalSummary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Jalapeño的首批结果显示了业界领先的人工智能推理速度和效率",
+      "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "date": "2026-08-25T07:00:00.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、算力芯片相关动态",
+      "fullContent": "Jalapeño是OpenAI的定制推理芯片，可提供更快、更节能的AI推理，为现代模型提供更高的吞吐量和更低的延迟。",
+      "originalSummary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "算力芯片",
+        "模型"
+      ],
+      "score": 99
+    },
     {
       "title": "Valor ， Point72回归General Intuition ，估值为$ 6B ，因为人工智能初创公司进军机器人领域",
       "originalTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
@@ -52,147 +136,50 @@
       "score": 99
     },
     {
-      "title": "SDAD ： AI-Native SDLC的规范驱动代理开发",
-      "originalTitle": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.20341",
-      "date": "2026-08-24T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv ： 2608。20341v1公告类型：新摘要：由大型语言模型支持的前沿编码代理，上下文窗口从数十万到数百万个令牌正在重组软件开发生命周期（ SDLC ）。 丰富的上下文处理和多步推理现在允许在单个工作流中获取大量的功能需求文档(FRD)和存储库上下文，从而使规范质量成为自主交付的执行燃料。 本报告将规范驱动代理开发（ SDAD ）正式化为纪律严明的前期形式化和高速实施的综合：意图捕获、机器可读规范、代理合成和人工签名下的独立多代理验证。 我们重新审视瀑布和敏捷之间的历史钟摆，引入人工智能代码作为第四种生产范式，并将人类敏捷（大约2020年）与Agentic-SDAD （大约2026年）在人工制品、节奏、问责制和安全态势方面进行比较。 除了过程描述之外，我们还将模型扩展到团队角色蜕变（工程师、QA、平台和产品功能）、定量治理（模糊税、Spec Fidelity、SER和TCI_AGENTIC与修复乘数PHI ）以及通过混合估计和分阶段迁移蓝图进行的务实采用。集成了人工智能增强测试和验证的工业和研究证据，以激发合成和释放权限之间的分离。 总体而言，该论文认为，代理速度并没有消除工程纪律；它将纪律上游重新定位为规范精度、显式门和可审计来源。",
-      "originalSummary": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated to motivate separation between synthesis and release authority. Overall, the paper argues that agentic speed does not eliminate engineering discipline; it relocates discipline upstream into specification precision, explicit gates, and auditable provenance.",
+      "title": "在KIRO使用GPT ‑ 5.6提高开发人员的性价比",
+      "originalTitle": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-5-6-in-kiro",
+      "date": "2026-08-24T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "GPT ‑ 5. 6现已在KIRO中提供，帮助开发人员以更高的性价比规划、构建、审查和测试软件。",
+      "originalSummary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "产品发布"
+        "大模型"
       ],
-      "score": 99
+      "score": 95
     },
     {
-      "title": "PrimeAgentOrchestrator ：用于个人人工智能基础设施的内存配置代理生成",
-      "originalTitle": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.20342",
-      "date": "2026-08-24T04:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、公司动态相关动态",
-      "fullContent": "arXiv: 2608. 20342v1 Announce Type: new Abstract:大型语言模型(LLM)编码代理以空的上下文窗口启动每个会话，丢弃以前工作中积累的知识。我们展示了PrimeAgentOrchestrator （ PAO ） ，这是一个生成Claude Code （ Anthropic基于终端的编码代理）新实例的系统，预加载了从用户现有个人数据库编译的相关内存。 在生成时， PAO并行查询两个独立操作的内存后端（ PostgreSQL实体观察数据库和Cloudflare Worker语义搜索索引） ，使用特定于后端的检索策略融合结果，并通过利用Host Agent的配置自动读取行为的文件系统注入提供编译的简报。 PAO管理整个代理生命周期，包括信任预种子，具有错误检测的准备轮询和自适应终端文本注入。我们报告了四个月的定期部署（ 2025年12月至2026年3月）的经验报告，记录了三代上下文交付机制，每次重新设计的故障模式，以及桥接异构内存系统而不是构建统一内存系统的工程权衡。",
-      "originalSummary": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one.",
-      "rawFullText": "",
+      "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
+      "originalTitle": "Kids outlearn AI—and we still don&#8217;t know why",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "date": "2026-08-24T09:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、产品发布相关动态",
+      "fullContent": "据我们所知，人们已经互相交谈了至少10万年。在那段时间里，世界上只有一件事可以学习一门人类语言来达到完美的流利程度：一个人类的孩子。现在有两个。在ChatGPT发布短短四年后，我们中的许多人现在理所当然地认为，我们可以与手机或电脑自然交谈。 像Claude、DeepSeek和OpenAI的GPT模型这样的LLM足够流畅和灵活，可以令人信服地伪装成人类。但在计算幕后，有一个问题：教计算机使用人类语言仍然需要大量不人道的数据。 法学硕士在掌握母语的过程中可以轻易地翻译出比一个人多十万倍的单词，而且比孩子在一岁生日时通常开始掌握语言时听到的单词要多得多。斯坦福大学认知科学家迈克尔· C ·弗兰克（ Michael C. Frank ）在谈到法学硕士时说： “最近的进步令人惊叹。” “但我们仍然必须烧毁一片森林，刮掉所有人类知识的全部，以重现一年来我们客厅里发生的这一里程碑。“儿童和机器之间的这种巨大鸿沟被称为数据效率差距。 这给认知科学家提出了一个诱人的问题，也给人工智能模型的架构师带来了挑战：孩子们如何能够超越有史以来最复杂的语言机器？寻找答案对人工智能研究和认知科学都有利害关系。在过去的十年中，语言模型大多通过变得更大而变得更好。Meta's open-weight LLM Llama 3. 1 ，两年前发布，在预训练中咀嚼了15万亿个代币（类似单词的语言块） ，这是训练模型的主要步骤，该模型在针对特定任务（如聊天机器人）进行微调之前发生。乔治城大学的认知科学家和语言学家伊桑·戈特利布·威尔科克斯（ Ethan Gotlieb Wilcox ）说，前沿模型可以预先训练10倍的数据。 但只有这么多的互联网可以训练，最终-可能早在20世纪30年代-容易获得的数据可能会枯竭。孩子们展示了用更少的资源学习更多知识的可能性。更少。在一个语言丰富的家庭中长大的青春期前孩子可能已经听到了大约1亿个单词。在组合中添加识字能力，到20岁时，您可以将单词数提高到3亿个单词。 规模的差异只有在类比中才能真正体现出来。Wilcox说：「克劳德已经看到了整个城市在一代人的时间里所经历的语言量。如果您要在纸上打印出用于培训现代法学硕士的所有单词，您可以制作一个可以通过国际空间站的堆栈。与此同时，人类青春期前的1亿个单词只会堆叠20米。",
+      "originalSummary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&#8230;",
+      "rawFullText": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&nbsp; Now there are two.&nbsp; Four short years after the release of ChatGPT, many of us now take it for granted that we can converse naturally with our phones or computers. LLMs like Claude, DeepSeek, and OpenAI’s GPT models are fluent and flexible enough to masquerade convincingly as humans. But peek behind the computational curtain, and there’s a catch: Teaching a computer to use human language still requires an inhuman amount of data. An LLM can easily churn through a hundred thousand times more words than a person will experience in the process of mastering their mother tongue—and way more than children might hear by their first birthday, when they typically start to grab hold of language. “The progress recently has been amazing,” Michael C. Frank, a cognitive scientist at Stanford University, says of LLMs. “But we still have to burn down a forest and scrape the entire sum of all human knowledge to re-create this milestone that happens in our living rooms over the course of a year.” This yawning divide between children and machines is called the data efficiency gap. And it raises a tantalizing question for cognitive scientists and a challenge for the architects of AI models: How is it that kids can still outperform the most linguistically sophisticated machines ever built?&nbsp; Finding answers has stakes for both AI research and cognitive science. For the past decade, language models have mostly gotten better by getting bigger. Meta’s open-weight LLM Llama&nbsp;3.1, released two years ago, chewed through 15 trillion tokens (word-like chunks of language) in pretraining—the main step of training a model that happens before it is fine-tuned for a specific task, like being a chatbot. Frontier models could be pretraining on 10 times more data, says Ethan Gotlieb Wilcox, a cognitive scientist and linguist at Georgetown University. But there’s only so much internet to train on, and eventually—perhaps as early as the 2030s—the well of easily available data could run dry.&nbsp; Kids show that it could be possible to learn more with less. Far less. A preteen raised in a linguistically rich home may have heard something in the vicinity of 100 million words. Add literacy to the mix and you can boost that word count to maybe 300 million words by age 20. &nbsp; The difference in scale is something that can only really be gestured at in analogy. “Claude has seen the amount of language that an entire city will experience in one generation,” says Wilcox. If you were to print out on paper all the words used to train a modern LLM, you could make a stack that would reach past the International Space Station. The human preteen’s 100 million words, meanwhile, would stack up just 20 meters. And we can make do with far less than that.&nbsp; By reverse-engineering the way kids learn, scientists hope to be able to create more data-efficient AI models, which could be useful for everything from training AI effectively on video to creating chatbots that serve minority language communities. Testing hypotheses about human learning in machine models could also settle enduring questions about language and children’s developing minds. Are we born with a language instinct, or would it be possible, even in principle, for a child to learn language purely from experience? Is the way we process language a quirk of our biology, or might at least some of it reflect universal constraints on how languages can be used and learned?&nbsp; The essential elements Most of us realize language is hard only when we try to learn a new one after childhood. The past perfect tense, rolled r s and nasal vowels, the genitive case, phrasal verbs, grammatically masculine tables and feminine spoons—many are the instruments of linguistic torment for the adult language learner. It’s typically effortless to learn our mother tongues, however. Toddlers usually start producing grammatically correct sentences after hearing something like 10 million words, or 30 million on the high end.&nbsp; “It’s just totally miraculous,” says Frank. “If you train GPT-2 on 30 million words, you get a nonsense generator; you don’t get a kid.”&nbsp; Exactly how babies pull this off is a mystery. Researchers know a lot about what kids learn and how they use language at different stages in development, but there’s still a lot we don’t know. Perhaps the most enduring question is why babies can learn language at all. The syntax of human language—the rules for combining words into sentences—includes recursive, nested structures that allow us to express virtually infinite ideas with a finite lexicon of words and pieces of words. This seems like something that should be a problem for babies. They only splash about in the shallows of a fathomless ocean of language. And yet, somehow, that’s enough. From a drop, they infer the depths. One solution, put forward in the 1950s by the MIT linguist Noam Chomsky, is that babies are born with hardwired knowledge of grammar. Chomsky was reacting to a rival view, championed by the psychologist B.F. Skinner, that language acquisition is entirely environmental. Skinner thought language was learned through conditioning and reinforcement, the way a dog figures out how to sit or shake for treats. Chomsky countered by citing the “poverty of the stimulus”—the idea that language, especially syntax, is too complex and children’s exposure to it too “impoverished” for them to learn entirely from experience. “His signature argument was, essentially, that language cannot be learned on the basis purely of statistics,” says Richard Futrell, a linguist and cognitive scientist at the University of California, Irvine. Instead, Chomsky posited that language is based on a set of logical rules and argued that children needed innate knowledge of those rules to deduce the grammar of their language from scraps of speech. “It’s just totally miraculous … If you train GPT-2 on 30 million words, you get a nonsense generator; you don’t get a kid.” Michael C. Frank, cognitive scientist, Stanford University The Chomskyan view of language dominated linguistics in the US for decades under the moniker of generative grammar. And it was a major influence on computer science in the 1950s and ’60s, when AI was enjoying its first boom time and the lines between linguistics and natural-language processing dissolved in a flood of military funding; the Pentagon wanted computers that could understand English and translate Russian.&nbsp; Despite early successes of simple neural networks, which learn to recognize and reproduce statistical patterns, AI researchers in the United States largely adopted a rule-based framework influenced by Chomsky’s theories. They tried to teach language to computers by explicitly coding the rules into programs—think less immersion experience, more grammar class. This approach, part of a broader trend called symbolic AI, prevailed for decades. It also largely failed to produce models actually capable of handling human language at scale. Interest in natural-­language processing chilled in the “AI winter” that began in the 1970s.&nbsp; In the aftermath, neural networks started to make a comeback. But it wasn’t until the 2010s, when computer hardware was getting cheap and capable and the internet was getting big, that their performance began turning heads. By 2018 and 2019, the models BERT and GPT-2, which were built on a new architecture—the transformer—and trained on billions of tokens, made it clear to insiders that learning from a massive glut of data could work for language. In 2022, with the breakout success of OpenAI’s chatbot ChatGPT, it was clear to everyone. LLMs are not brains. What they are is powerful statistical learners—naïve pattern-learning machines without any of the evolved biological quirks folded into the human cortex. In other words, they are exactly the kind of thing a generative linguist two decades ago would have thought could not learn language. And yet here they were, writing believable sonnets and passing grammar tests. “No matter how skeptical you are about AI, the thing that everyone has been really impressed with is: These things learn syntax,” says Alison Gopnik, a developmental psychologist at the University of California, Berkeley. “I didn’t think that was going to turn out to be true. And I think most people didn’t think that you could just look at the statistics of a large sample of language and figure out grammar.” But what about learning from a small sample of language—a child-size one, say? Is it possible to build a baby-scale model that’s anything more than a nonsense generator? Baby talk Alex Warstadt, a linguist and data scientist at the University of California, San Diego, remembers the years around the release of BERT and GPT-2 as a heady time. Back in 2019, he was still a PhD student in linguistics at New York University, watching his field change before his eyes. The mere fact that language models could learn English by churning through text was a challenge to prevailing Chomskyan ideas. But many linguists remained skeptical that LLMs could tell us anything about how humans acquire language.&nbsp; “I always got pushback on one issue in particular. And that was the size of the data sets of the model,” says Warstadt. “There was never a time when people were training language models at human scale where we were impressed by them.” But Warstadt saw promise in LLMs: A scientific model doesn’t have to be perfect to be informative, and LLMs were clearly powerful simulations of human language use. By building hypotheses about how children learn into models and measuring their performance—how close they came to closing the data gap—might scientists be able to put their ideas to the test? In August 2022, Warstadt posted a Twitter thread laying out an argument that neural networks could be useful models of language acquisition. After some back-and-forth in the comments with AI researcher Leshem Choshen, Warstadt floated the idea for what would become BabyLM, an annual competition organized by Warstadt, Choshen, and several other researchers to train models on small data sets. That was four years ago. Since then, BabyLM has added workshops and inspired spin-offs including a competition for baby models trained on Chinese . The main event challenges researchers to train language models on a “developmentally plausible” corpus of just 100 million words (for the toddler-scale track, 10 million) drawn from storybooks, dialogue, movie subtitles, Simple English Wikipedia, normal Wikipedia, and actual transcripts of speech directed at children. The models are evaluated on the kinds of grammar benchmarks that psycholinguists use with humans, says Georgetown’s Wilcox, one of the organizers. SELMAN DESIGN One kind of task involves presenting test subjects—human or machine—with sentences and looking for indications of confusion or surprise at ungrammatical features. For instance, a test might compare the sentences The keys to the cabinet are on the table and The keys to the cabinet is on the table. “When humans see ‘is,’ they’re like: What? That’s not supposed to be ‘is,’ ” says Wilcox. For a human, that surprise might be measured by tracking eye movements. For language models, researchers use a measure called surprisal, which assesses how unlikely the model predicts a sentence or part of a sentence to be. The competition has already challenged some assumptions, such as the effectiveness of curriculum learning . Curriculum learning starts with simple training data and works up to more complex inputs—a bit like starting with baby talk and getting more sophisticated over time. And it was by far the most popular approach taken in the first round of BabyLM, says Warstadt. But it didn’t work as well as expected. “The appeal is just kind of hard to resist, you know. [Curriculum learning] seems to really line up with ways that we believe humans are learning,” says Aaron Mueller, a computer scientist at Boston University and one of the BabyLM organizers. “But it seems like these transformers don’t really need to have their data ordered in such a way to learn effectively.”&nbsp; Perhaps a touch ironically, the best BabyLM models aren’t inspired by babies at all. The 2024 champ, GPT-BERT, is a transformer trained partly to predict the next token in a sequence, like modern LLMs, and partly to act like BERT, a “masked language model” that fills in the blanks in sequences of tokens Mad Libs style. Impressively, when GPT-BERT was pretrained on about 100 million words, it was able to beat the performance of Meta’s Llama 2 70B—an LLM pretrained roughly 15,000 times that amount—on one of the BabyLM benchmarks. Still, BabyLM models are not on the same level as LLMs. Many can’t produce text at all, and even GPT-BERT would seem clunky next to a modern commercial model. Ultimately, while they are “baby”-size, the way these models learn isn’t very baby-like. Kids are not disembodied computer programs whose only “experience” of the world comes through written text. They take in the world via their senses—especially vision and hearing. To close the data gap, some researchers think, machines will need to start learning through the eyes and ears of children. Taking it all in When Michael Frank started his lab at Stanford about 15 years ago, scientists didn’t really know how babies experience the world. Developmental psychologists were just beginning to glimpse babies’ lives through headcams. “The insights that came out from that early research were that kids’ experience looks really radically different than we thought,” says Frank. “It’s much more focused: They’ve got these little short arms, so the objects are, like, right in front of them. And they live in a forest of knees.”&nbsp; Frank was excited to use headcam footage to train machine-learning models to test hypotheses about how kids learn language, but he needed more data. So he and four colleagues recruited three babies—all the children of psychologist mothers who knew what they were getting themselves into—to don headcams for science. The project, called SAYCam , recorded two hours a week of each child’s life between six months and two and a half years of age. “[The families] were willing to release that video, and that’s critical,” says Frank. “So we released it, and people started training models on it.”&nbsp; One of those people was Brenden Lake, a cognitive scientist and AI researcher at Princeton. In 2024, when he was working out of New York University, he and his colleagues presented a model trained on 61 hours of raw SAYCam data that learned to identify objects and associate them with words . Many theories in developmental psychology propose that children need some biases to help them pick out particular parts of their raw sensory experience and associate them with bits of language. For instance, it’s thought babies assume that a new word like “shoe” refers to a whole object rather than a part of it (like a shoelace), says Lake. But the model Lake’s team built&nbsp;was able to learn to identify objects in the video footage and associate them with words without any such biases. “It turns out you can get a real start on language learning using a lot less than what a number of theories suggested,” says Lake. Still, he adds, “we don’t get a two-year-old out of [training] when we’re done.” But perhaps it’s not surprising that such models can’t replicate childlike capabilities by working with a few dozen hours of footage cobbled together from short snapshots over several years of a child’s life. It could be that the shortfalls just indicate a lack of realistic data. After all, babies can’t wear a headcam 24-7; efforts like SAYCam and its successor, BabyView, record at best a few hours a week. So researchers have the choice between working with a tiny slice of the life of a single child or with larger data sets of footage pooled from many kids. Either way, a model’s training data is still a far cry from the lived experience of a child. That could be changing. Uri Hasson, a neuroscientist and psychologist at Princeton, spent the last five years on a project to record the first 1,000 days of 17 children’s lives . The participating families wired every living area in their homes (except bedrooms and bathrooms) with cameras and microphones and recorded 12 hours a day, almost every day. The resulting data set, described for the first time in a recent preprint , is of a scale that would have simply been impossible to work with absent new AI tools for transcription and video analysis, says Hasson. “For the first time, we have the input,” he says. “It’s really only the beginning.”&nbsp; Missing ingredients So far, training models on video has proved difficult. While text-based models emerge fully fluent (after ingesting huge training data sets), multimodal models trained on video from kids are far from that. Lake’s model, for instance, learned simple words, like “ball” and “cat.” Attempts to supplement text with visual data haven’t worked for BabyLM participants, says Warstadt. Gopnik thinks the issue could be that kids do not simply sit and watch the world go by. “Children are actively exploring, which means that they’re actively choosing their own data,” she says. “Kids are constantly experimenting.” Maybe that’s the missing ingredient.&nbsp; Research by Gopnik’s group—including studies of grade schoolers exploring a Minecraft-inspired game —shows that what looks like child’s play is in fact an effective way to learn cause and effect. Kids seek out experiences and take actions that maximize their “empowerment,” or the ability to make a predictable impact on the world.&nbsp; Unlike models, children are aware of what they don’t know and have a drive to fill their knowledge gaps, says Elizabeth Bonawitz, a developmental cognitive scientist at Harvard. And children’s social lives also help them learn, she says. Her research has shown that children interpret information differently when they know an adult is trying to teach them something . “Children are not only reasoning about the evidence they’re being told,” says Bonawitz. “They’re reasoning about the teacher, about the teacher’s knowledge, and about why the teacher is telling [them] this particular information.” That’s very different from how models learn: passively and in isolation. Perhaps if models were built to seek out information to fill in their own blind spots, experiment with language and observe how other language users react to their babbling, and reason about some kind of simulated social world, they’d learn better. Last year’s BabyLM actually opened the competition to models that could learn by interacting with other models. But the social models didn’t outperform standard ones. Of the leading industry labs, Meta seems the most interested in taking inspiration from kids—specifically for training models from video. Two Meta researchers were involved in BabyLM’s multimodal branch, and Meta scientists—together with academic researchers, including Frank—recently announced a benchmark and challenge for training models on baby headcam footage . Frank also says a stealth-mode AI startup called Flapping Airplanes has taken interest in his research. Neither Meta, Google DeepMind, OpenAI, nor Flapping Airplanes agreed to an interview.&nbsp; For now, frontier labs aren’t exactly racing to borrow tricks from children, says Gopnik. She thinks it’ll be the next generation of AI—whatever replaces the transformer—that will take lessons from developmental psychology. Perhaps the most enticing reason to close the data gap is that it could help us understand ourselves. In general, the machine-learning community is less interested in mimicking the brain than in just building something that works, says Mueller. But he thinks awareness of—and interest in—the data efficiency gap is growing. An example is the NanoGPT Slowrun benchmark, launched by Q Labs in March 2026. “They have very similar goals to BabyLM,” says Mueller. “But they’ve dropped the motivation from human language learning and really just focused on the data efficiency angle.” One reason Warstadt wants to close the data gap is to democratize AI so that universities and others without the resources to hyperscale can train good models and stay relevant in AI research. David Samuel, a machine-­learning researcher at the University of Oslo and one of GPT-BERT’s architects, has a more personal reason to work on this problem. He’s Czech and works in Norway, and there’s a lot less data in Czech and Norwegian available for training LLMs than there is in English. Minority languages like Sami might have just tens of millions of tokens available, says Samuel—about the scale of a toddler’s exposure. “The question was,” he says, “how can we develop language models that are just as capable as the English ones for small languages?” SELMAN DESIGN But perhaps the most enticing reason to close the data gap is that it could help us understand ourselves. Bonawitz says she was initially skeptical that large language models could reveal anything about cognition. LLMs and brains are, after all, very different. Brains are embodied. Our neurons are not tidy lines of code but living cells. And our brains grow and change as we learn and age—LLMs pretrain once and never again. But as different as the two systems are, says Bonawitz, “I’m sort of revising my beliefs.” She’s been won over by the idea of studying models the way comparative psychologists might study animal minds to illuminate our own. Researchers like Warstadt, Frank, Wilcox, Lake, and Hasson are already using language models as a kind of linguistic lab rat, an imperfect but informative stand-in for a real human language user—especially for questions that are more about learning and language and information processing than anything specific to our brains or biology. When models can do things with language we thought were impossible, it challenges old assumptions. And researchers can build hypotheses about language learning into models—say, by simulating different degrees of bilingualism or depriving models of exposure to certain grammatical forms—and test those hypotheses in a way that would be impossible to do with real children. Futrell compares the situation to teaching language to an alien and then opening up its brain to see what happened.&nbsp; While other animals communicate, only humans converse. Now there’s something neither animal nor human that can talk, too. LLMs open up the possibility for comparative studies, even if models and minds are vastly different. “For the last 100,000 years or however long human language has existed, humans have been the only entities in the universe that use language. Now there’s this other linguistic entity,” says Warstadt. “Finally we have a model; not in the sense of a language model, but in the sense of a model organism.”&nbsp; Elise Cutts is a science writer based in Austria.",
       "tags": [
         "大模型",
-        "公司动态",
-        "智能体"
+        "产品发布"
       ],
-      "score": 99
+      "score": 93
     },
     {
-      "title": "多式联运代理框架的基础和前沿调查：技术和应用",
-      "originalTitle": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.20379",
-      "date": "2026-08-24T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2608. 20379v1公告类型：新摘要：大型语言模型(LLM)的进步推动了一波对机构的研究浪潮：推理、计划和行动的能力。这项工作产生了代理框架，围绕强大的LLM骨干协调感知、记忆和决策。 随着大型多模态模型（ LMM ）的出现，这些系统可以处理和集成各种模式，包括图像、音频和视频，从而提高其在现实世界中的适用性。然而，尽管存在对基于LLM的代理商的调查，但近年来并没有系统地研究多模态在塑造代理商中的作用。 这项调查通过分析多模态对代理框架核心职能模块的影响来填补这一空白：感知、推理、规划、记忆和行动。 使用这个镜头，我们追踪从以文本为中心的代理到多模态框架的演变，研究如何通过委托、后期融合和早期融合架构集成模态，并评估由接地感知和多模态推理实现的代理行为的出现。我们通过以模式为中心的分类法来组织现有工作，该分类法将架构设计选择与代理功能联系起来。 此外，我们还审查了各种应用领域的多模式代理系统，包括机器人、GUI和Web导航、多媒体内容生成和编辑以及长视频理解和检索。除了功能之外，我们还分析了这些设置的性能，并讨论了效率-可扩展性权衡，包括培训和推理成本、延迟和部署限制。 通过关注多模态在代理设计中的影响，我们旨在找出关键差距，并绘制通用智能系统的路线图。",
-      "originalSummary": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video, thereby improving their real-world applicability. Yet, while surveys of LLM-based agents exist, the role of multimodality in shaping agency has not been systematically examined in recent years. This survey fills the gap by analyzing the impact of multimodality across the core functional modules of the agentic framework: perception, reasoning, planning, memory, and action. Using this lens, we trace the evolution from text-centric agents to multimodal frameworks, examine how modalities are integrated through delegated, late-fusion, and early-fusion architectures, and assess the emergence of agentic behaviors enabled by grounded perception and multimodal reasoning. We organize existing work through a modality-centric taxonomy that links architectural design choices to agent capabilities. Moreover, we review multimodal agentic systems across various application domains, including Robotics, GUI & Web Navigation, Multimedia Content Generation & Editing, and Long-form Video Understanding & Retrieval. Beyond capabilities, we analyze performance across these settings and discuss efficiency-scalability trade-offs, including training and inference costs, latency, and deployment constraints. By focusing on the impact of multimodality in agentic design, we aim to identify key gaps and chart a roadmap toward robust and general-purpose intelligent systems.",
-      "rawFullText": "",
+      "title": "如何鼓励在课堂上更智能地使用人工智能",
+      "originalTitle": "How to encourage smarter AI use in the classroom",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "date": "2026-08-24T14:20:19.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：产品发布相关动态",
+      "fullContent": "本文摘自《让人工智能发挥作用》（ Making AI Work ） ，这是《麻省理工学院技术评论》（ MIT Technology Review ）的限量版时事通讯，探讨了如何跨行业如需在收件箱中接收，请在此处注册。几年前发布的聊天机器人让许多学校大吃一惊。突然，学生们在手机中携带了一个应用程序，可以神奇地回答几乎任何家庭作业问题，或者在几秒钟内完成一篇文章。 当然，教师通常可以判断学生何时使用人工智能模型会犯大多数人没有的错误，一些教师说，人工智能生成的文本有简单的赠品，比如太多的em破折号。尽管如此，生成式人工智能的繁荣增加了教师的负担，他们已经长时间工作来计划课程、做家庭作业和评分考试，现在需要适应新技术。 对于许多人来说，仍然感觉没有明确的前进道路。从OpenAI到联合国教科文组织等组织都鼓励在课堂上使用人工智能，但许多教师对如何准确处理它感到困惑。案例研究柴郡学院是康涅狄格州的一所私立寄宿和走读学校，约有400名9至12年级的学生。 那里的管理员根本不强迫教师使用人工智能，尽管学校的图书管理员和技术协调员乔治·艾洛（ George Aiello ）声称， “绝大多数”教师以某种方式使用人工智能。那里的教育工作者正在尝试一系列程序，包括ChatGPT和Perplexity等通用聊天机器人，以及MagicSchool等更专业的工具， MagicSchool是一个专门为教育工作者设计的人工智能平台。 这种拼凑方法的部分原因是，学校根据顾问的建议，选择对员工进行如何使用人工智能的一般技术培训，而不是开某些技术的处方。员工培训涵盖了如何制作有用的提示等主题，但也强调了该技术的局限性，强调了它可能产生不正确和有偏见的回应。现在，那里的教师经常使用生成式人工智能来准备课堂材料。 这意味着向他们选择的人工智能人员寻求帮助，以规划课程或创建评分规则。有些人甚至想用它来帮助他们向学生提供反馈，尽管对质量、个性化和隐私的担忧阻止了他们中的任何一个人这样做。其他人，如教法语的Miriam Przybyla-Baum ，本身并不使用人工智能，而是通过他们的教学来解决这个问题。 Przybyla-Baum说，她并不真正需要人工智能的帮助，因为她在近30年的教学中积累了大量的课堂材料。但她开始看到学生们试图使用谷歌翻译等人工智能工具，在ChatGPT推出前几年为他们的作业走捷径。她开发了一个系统，让学生反思人工智能如何教授语言技能。 在一个作业中，学生让大型语言模型（ LLM ）编辑他们的家庭作业。然后，他们进行编辑，确定哪些是正确的，哪些是删除了他们的声音。在另一个案例中，她让学生对彼此的人工智能辅助作业进行匿名评分，并注明他们认为哪些部分是人工智能辅助作业。柴郡学院正在继续试验如何在课堂上有效利用人工智能。",
+      "originalSummary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
+      "rawFullText": "This article is from Making AI Work , MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any homework question or spin up an essay in seconds. Of course, teachers can often tell when a student is using AI—models make mistakes that most humans don’t, and some teachers say that AI-generated text has simple giveaways like too many em dashes .&nbsp; Nevertheless, the generative AI boom increased the burden on teachers, who were already working long hours to plan lessons, make homework assignments, and grade exams, and now needed to adapt to a new technology. For many, it still feels like there’s no clear path forward. Organizations ranging from OpenAI to UNESCO encourage AI use in the classroom, but many teachers feel confused about how exactly to handle it.&nbsp; Case study Cheshire Academy is a private boarding and day school in Connecticut with about 400 students in grades 9 through 12. Administrators there don’t force instructors to use AI at all, though the school’s librarian and technology coordinator George Aiello claims the “vast majority” of instructors use it in some way. The educators there are trying a patchwork of programs, including general-purpose chatbots like ChatGPT and Perplexity as well as more specialized tools like MagicSchool , an AI-powered platform meant specifically for educators. That patchwork approach is partly because the school, on the advice of consultants, opted to train its staff on general techniques for how to use AI instead of prescribing certain tech. The staff training covered topics like how to craft useful prompts but also stressed the technology’s limits, highlighting its potential for generating incorrect and biased responses.&nbsp; Now, teachers there often use generative AI to prepare class materials. This means asking the AI of their choice for help with planning lessons or creating grading rubrics. Some even want to use it to help them give feedback to students, though concerns over quality, personalization, and privacy have prevented any of them from doing that just yet. Others, like Miriam Przybyla-Baum, who teaches French, don’t use AI themselves but do address it with their teaching. Przybyla-Baum says she doesn’t really need AI’s help since she’s built up plenty of classroom materials across nearly 30 years of teaching. But she started seeing students try to use AI-powered tools like Google Translate to take shortcuts on their assignments years before ChatGPT’s launch.&nbsp; She’s developed a system to make students reflect on how AI can and can’t teach language skills. In one assignment, students let a large language model (LLM) edit their homework. Then, they go through the edits and decide which ones were correct and which ones removed their voice. In another, she has students anonymously grade each other’s AI-assisted assignments, making annotations as to which parts they think are AI-assisted. Cheshire Academy is continuing to experiment with how AI can be harnessed productively in the classroom. The school is piloting a program in which students create media and lead discussions regarding healthy AI use. This program, which they call a “Student AI Council,” aims to push students to reflect on how AI should and shouldn’t be used to benefit the community around them. The academy as a whole has since adopted similar techniques to those Przybyla-Baum introduced to make students reflect on their own use of AI. Assignments are now labelled like traffic lights, with green meaning AI is fully allowed and red banning any AI use. Yellow, then, lets the teacher permit some tools while banning the rest, like allowing students to use spell-check but not message a chatbot. The tool As generative AI was becoming mainstream, Cheshire Academy previewed MagicSchool to its staff.&nbsp; For many, MagicSchool’s main strength seems to lie in the sheer amount of offerings it provides in one package. It can generate questions and assignments of all kinds, from quizzes to worksheets, across many subjects and grade levels. It has a specialized grading rubric generator, which outputs a ready-to-go table that teachers can use to score assignments. It can make presentations and lesson plans and administrative reports, too.&nbsp; All of this is done through a single platform where educators enter specific prompts tailored for each task. For example, to make an assignment, a teacher can specify the students’ grade level, number of questions, the types of questions (such as multiple choice or short answer), and more, and include documents to align the questions with.&nbsp; Not every teacher feels comfortable using LLMs to generate student-facing text, whether because they don’t think an AI can produce effective teaching materials or helpful feedback, or because they’re concerned about accuracy. MagicSchool, which has free and paid versions, does offer tools on its platform for other tasks like lesson planning. If teachers want unlimited access and complete records in the system, though, they need to pay just under $100 per year for an individual plan. Alternatively, many of the general-purpose generative AI tools (think the chatbots on offer from Anthropic, Google, OpenAI, and more) seem suited to administrative tasks, as well, attested by the fact that many of the teachers at Cheshire Academy use those instead. Some of these companies are even rolling out features tailored for schools, to mixed results . How to apply this Meet students where they’re at. Students will be tempted to try AI, and there’s no way to entirely police this for take-home assignments. The internet and social media can spread a lot of misinformation as to what AI can and can’t do, and it’s critical to counter these narratives and teach healthy strategies and relationships. Model best practices. AI is very good at automating tasks, but it struggles with precision and voice. Keep this in mind, especially when generating any text that anyone else may see. Impressionable students who see those in authority using AI in a lazy way could internalize this as an excuse to cut corners in their own work. Refine and replace. AI is great for brainstorming lesson plans and extra problem sets, especially for teachers early in their careers who don’t have a big problem bank already built up. However, because it can make mistakes (called hallucinations ), using it for final drafts can result in assignments that confuse students and impair learning. Be sure to check every citation, equation, and statement an LLM makes. Sign up for Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
+        "产品发布"
       ],
-      "score": 99
-    },
-    {
-      "title": "Flock首席执行官呼吁“妥协” ，因为监控公司面临越来越大的反弹",
-      "originalTitle": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
-      "date": "2026-08-23T15:30:00.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：安全相关动态",
-      "fullContent": "根据Flock Safety首席执行官Garrett Langley的说法，该国需要在隐私和安全之间找到“妥协”。“当人们只谈论其中之一，即隐私或安全时，他们会优先考虑错误的事情，作为一个国家，我们必须优先考虑的是妥协，”兰利在最近接受福克斯新闻采访时说。“我们如何保障自身安全，如何平衡隐私？ 兰利的福克斯新闻露面只是他接受的最新采访，因为该公司面临着越来越多的公众对Flock的监控摄像头、无人机和车牌识别技术可能被滥用的担忧。这些担忧不仅仅是假设性的。 《华盛顿邮报》最近发现了46起案件，警察被指控将Flock技术用于未经授权的目的，包括跟踪他们的妻子、女朋友或前任。在听取了对其中一名据称受害者的采访后，兰利告诉哥伦比亚广播公司新闻， “我道歉。她经历了这一切，这让我很痛苦。“与此同时，他坚持认为， ”我不认为Flock制造了警察滥用行为。 我认为我们是第一家在它上面发光并构建工具来找到它的公司。“正如数据中心的强烈反对已成为左翼和右翼的强大问题一样，民主党和共和党政客都开始瞄准Flock。 在左边，密歇根州的民主党参议员候选人阿卜杜勒·赛义德（ Abdul El-Sayed ）最近指责他的对手迈克·罗杰斯（ Mike Rogers ）支持“无论何时何地， Flock相机的大规模扩散，监视你的一举一动，收集信息，而你甚至没有注意到。佛蒙特州参议员伯尼·桑德斯（ Bernie Sanders ）发帖说：“停止人工智能大规模监控，停止成群结队。 “在右边，三名众议院共和党人最近提出了一项法案，禁止联邦政府购买使用面部识别、生物识别身份证或车牌识别的自动监控系统，”包括Flock安全摄像头。“Flock已经对批评做出了一些更改，将默认数据保留时间从30天缩短到7天，并要求在访问数据之前输入案例代码。 但这两项更改都可以覆盖，例如，警方可以使用名为“证据模式”的设置将数据保存更长时间。在回应Flock宣布的变更时，美国CIvil自由联盟表示： “虽然Flock没有将默认保留期缩短到ACLU建议的48小时，但其提案可能是朝着正确方向迈出的一步。 然而，这是否是真正的变化或只是另一个Flock公关举措，将取决于其“证据模式”的运作方式。就兰利而言，他曾表示，州监管机构应该“通过法案，将[非法使用Flock数据]定为刑事犯罪。在接受福克斯新闻采访时，他指出了公司已经做出的改变，同时还说：“今天，在Flock和其他技术中，往往没有监管。",
-      "originalSummary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 82
-    },
-    {
-      "title": "新的“隐形模式” Ox Alpha背后是谁？",
-      "originalTitle": "Who&#8217;s behind the new ‘stealth model’ Ox Alpha?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-      "date": "2026-08-23T20:01:36.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
-      "fullContent": "一种名为Ox Alpha的神秘新型人工智能模型使互联网的某些角落陷入了对谁真正建造它的疯狂猜测之中。该免费模型于周四在OpenRouter上发布，被描述为“一种专为编码、持续代理工作和生产工作量而设计的推理模型。在X上， Stripe首席执行官Patrick Collison （他的公司正在收购OpenRouter ）将Ox Alpha描述为“非常令人印象深刻。 “那么，到底是谁在幕后操纵牛阿尔法？ OpenRouter列表将其描述为“隐形模型”，并表示它是“由第三方提供商开发和运营的，该提供商选择在此预览期间保持匿名。“毫不奇怪，大部分猜测都是围绕中国展开的。人工智能分析师Andrew Curran周五发布称，最初的猜测集中在中国公司Z开发的GLM模型上。 ai ，但“今天早上人们似乎对任何事情都不太确定。同样，一篇关于Wccftech的文章首先表明证据指向GLM ，但更新表明Ox Alpha可能是微软MAI的未发布版本。在Reddit上，至少有一篇文章宣称Ox Alpha“不可能是中国人”，而另一篇文章则表示“高度自信”它实际上是中国人。 在不到48小时的时间内，您将有机会节省高达300 $的门票！每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 81
-    },
-    {
-      "title": "在受版权保护的书籍上训练人工智能模型是否合法？这很复杂",
-      "originalTitle": "Is it legal to train AI models on copyrighted books? It’s complicated",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
-      "date": "2026-08-23T15:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
-      "fullContent": "大多数已发表的作者在不知情或未经同意的情况下，为开发同样的人工智能工具做出了贡献，这些工具可能会破坏他们的生计。这似乎是违法的，对吧？",
-      "originalSummary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 81
-    },
-    {
-      "title": "Linkdaze的智能日历旨在管理家庭，而不仅仅是跟踪时间表",
-      "originalTitle": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "date": "2026-08-23T19:14:08.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "随着返校季节的临近（或在某些地方已经到来） ，跟踪每个人的日程安排可能会变得非常混乱。在工作、上学、约会、体育、家务和其他一切之间，常规的纸质日历并不能减少它。这就是Linkdaze的智能数字日历的用武之地--这是一款触摸屏平板电脑，专门用于组织一个家庭，而不是一个人。 Linkdaze最大的优势之一是其日历兼容性。该系统可以同步来自热门服务的日历，包括谷歌、iCloud、Outlook、雅虎和Cozi ，这是一个专门的家庭组织应用程序。这对于不同成员使用不同平台的家庭尤其有用。 Linkdaze不是要求每个人都切换到单个日历应用程序，而是将多个日程安排汇集在一起，并使用颜色编码使单个家庭成员易于识别。Linkdaze于去年12月推出，有15. 6英寸和10. 1英寸型号可供选择，根据您拥有的墙壁空间而定，为您提供一些灵活性。 除了日历和约会之外，您还可以将其用于家务和奖励、膳食计划、购物清单和其他家庭组织。它甚至可以兼作数码相框，用于展示家庭照片。然而，最有趣的功能是Linkdaze的人工智能膳食计划工具“Snap-to-Sync”。“您可以拍摄纸质食谱或孩子学校午餐菜单的照片，而不是手动将所有内容输入膳食计划应用程序。 Linkdaze会将这些信息转化为数字膳食计划，并从中生成购物清单。虽然这不是一个全新的想法，但这是一个有用的功能，可以帮助Linkdaze在基本的数字日历中脱颖而出。另一大优点是Linkdaze的主要功能不需要每月订阅。在经常性收入已成为默认收入的类别中，这是一个有趣的选择。 Skylight是一个竞争对手的智能日历品牌，通过其每年$ 79的订阅提供额外的功能。对于一家进入拥挤的智能显示器市场的硬件公司来说，这一决定要么使其产品与众不同，要么看起来像是收入流的损失。Linkdaze的前期价格也更便宜， 10. 1英寸型号的价格为$ 119. 99 ，而Skylight的10英寸型号起价为$ 149. 99 （如果您支付订阅费用。 ）总的来说，这款设备可以为忙碌的父母提供实用的礼物，他们正试图将每个人的日程安排放在一个地方。它也可能非常适合大学公寓，室友可以用它来协调家务、学习时间表、共享膳食和其他家庭责任。对于我们这些忙于面试、截止日期、会议和故事分配的人来说，这也非常有帮助。 当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Lauren在TechCrunch负责媒体、流媒体、应用和平台。您可以通过发送电子邮件至laurenf. techcrunch @ gmail. com或通过加密消息laurenforris22. 25 on Signal联系Lauren或验证联系方式。在不到48小时的时间内，您将有机会节省高达300 $的门票！",
-      "originalSummary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "由DeepMind校友创立的Inherent表示，其AI “队友”在复制研究方面的表现刚刚超过了Anthropic和OpenAI",
-      "originalTitle": "Inherent, founded by DeepMind alumni, says its AI &#8216;teammate&#8217; just outperformed Anthropic and OpenAI at replicating research",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
-      "date": "2026-08-22T19:00:00.000Z",
-      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、研究相关动态",
-      "fullContent": "由谷歌DeepMind校友创立的伦敦人工智能实验室Inherent表示，其人工智能代理仅比Anthropic和OpenAI的大型模型表现要好得多。在谷歌DeepMind校友推出的所有创业公司中， Inherent获得的关注相对较少。但是，虽然资金充足的竞争对手尚未向世界展示任何具体内容，但总部位于伦敦的团队已开始分享其正在建设的内容。 这家英国初创公司表示，在获得5000万美元的种子轮融资几周后，其新发布的人工智能代理商法拉第(Faraday)在一项特定任务中表现优于更大、更知名的模型：独立复制已发表科学论文的发现，而无需提前被告知答案。 考虑到Inherent更崇高的目标--构建能够发现新的科学知识而不仅仅是验证旧结果的人工智能，这听起来可能只是一个派对技巧。但联合创始人兼首席科学家爱德华·休斯（ Edward Hughes ）表示，纸张复制也是人类科学家的标准培训活动。“许多博士生实际上是从这样做开始的。 “在任务中击败其他人工智能系统并不是重点，”休斯告诉TechCrunch;他们是如何到达那里的。“我们对此最感兴趣的不是击败那些边境特工的结果—我们当然喜欢这一点—但实际上是我们建立这个的方式。“以下是应该引起投资者注意的部分：对比Anthropic的Claude Opus 4. 8和OpenAI的GPT-5。 5 —两个大得多的前沿规模系统—法拉第运行在一个名为Qwen 3. 6的相对较小的模型上，该模型只有270亿个参数。（粗略地说， “参数”是模型大小的代表，通常也是模型的训练成本的代表。）固有的成功门槛也高于简单的准确性。 除了复制结果之外，它还希望法拉第展示“研究品味” --一种本能，即哪些实验值得进行，以及如何很好地设计它们。教授像品味这样无形的东西很难，这就是强化学习的用武之地。这是一种训练方法，奖励人工智能系统的良好结果，而不是阐明它要遵循的规则。 与其主要通过研究科学本身来培训其代理人，固有倾向于这种基于奖励的方法，打赌它将更好地概括其长期目标，即代理人能够跨越许多科学领域做出贡献。休斯说： “我们总是以打造人工智能科学家代理并为代理人灌输品味的北极星为指导。”这种关注也塑造了固有选择不建造的东西。 根据该公司的说法，它没有开发自己的编码工具，而是让法拉第使用OpenAI的GPT-5. 5 Codex ，就像人类科学家依靠现有软件而不是自己构建所有东西一样。Inherent还试图避免构建简单地告诉用户他们想听到的内容的代理。",
-      "originalSummary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "研究",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "哈佛大学$ 699的创业训练营提供教师的人工智能头像",
-      "originalTitle": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
-      "date": "2026-08-22T21:46:56.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "随着哈佛商学院寻求扩大其影响力，它依靠人工智能来提供个人反馈。这些头像由一家名为HeyGen的初创公司创建，并包含在为期八周、$ 699的哈佛商学院创业者训练营中。该计划每周提供与讲师的现场会议，但人工智能头像是在练习营销和董事会会议期间提供反馈的头像。 《纽约时报》记者莎拉·凯斯勒（ Sarah Kessler ）亲自尝试了这一点，她推销了Flybridge Capital联合创始人杰夫·布斯冈（ Jeff Bussgang ）的人工智能副本。显然，真正的Bussgang和他的模拟器对她打造“Uber for bananas”的计划并不印象深刻，但Kessler说，虚拟版本在她的演讲中提供了一个明显冰冷的微笑。项目总监Katharina Rings表示，她最初设想人工智能组件更接近聊天机器人。 然而，在哈佛商学院发布试用版后，学生们表示他们希望获得更具指导性的体验。虽然一些大学生并不羞于表达他们对人工智能的负面感受，但Foundry的参与者告诉Kessler ，他们喜欢这些虚拟形象。至于Bussgang ，他承认他的数字副本有点“令人毛骨悚然” ，但他说， “我的学生喜欢它。“在不到48小时的时间内，您节省高达$ 300门票的机会将结束！ 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
+      "score": 80
     },
     {
       "title": "主要的YouTube创作者因接受人工智能资金而面临强烈反对",
@@ -207,7 +194,7 @@
       "tags": [
         "视频生成"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "语音识别中的测量基准优化",
@@ -222,7 +209,22 @@
       "tags": [
         "评测"
       ],
-      "score": 80
+      "score": 79
+    },
+    {
+      "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
+      "originalTitle": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "date": "2026-08-21T00:00:00.000Z",
+      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索”。它主要涉及论文方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
+      "rawFullText": "",
+      "tags": [
+        "论文"
+      ],
+      "score": 78
     },
     {
       "title": "超过100万人点击了LinkedIn的人工智能SLOP按钮",
@@ -237,7 +239,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -253,7 +255,7 @@
         "智能体",
         "监管"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Stampli使用ChatGPT Work将发布时间缩短了68%",
@@ -269,7 +271,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Slack正在推出协作氛围编码渠道",
@@ -285,7 +287,7 @@
         "智能体",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "现在是Greg Brockman的OpenAI",
@@ -302,7 +304,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "AI Futures简介",
@@ -317,7 +319,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "为前沿模型提供零数据保留",
@@ -349,7 +351,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
@@ -364,7 +366,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Google Gemini正在获得一个专门的学生中心",
@@ -379,22 +381,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 82
-    },
-    {
-      "title": "英伟达的新财务策略无法计算",
-      "originalTitle": "Nvidia’s new financial strategy does not compute",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "date": "2026-08-19T12:00:00.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "“计算是一种资产类别！计算是一种资产类别！“当我慢慢缩小并变成玉米芯时，我继续坚持|图片： Cath Virginia/The Verge ， Getty Images April - 1805 Napoleon是欧洲大师只有英国舰队站在他面前计算现在是一个资产类别，我看到是时候再次谈论金融创新了。 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR都在与英伟达合作，筹集5000亿美元的融资，将计算转变为资产类别。“这确实是科技芯片首次成为可投资资产类别，”英伟达首席执行官Jensen Huang对CNBC表示。“这些现在都是创收资产。它们富有成效、寿命长、可替代、灵活。 “这只是一个开始，就像是……在The Verge阅读完整的故事。",
-      "originalSummary": "April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute [&#8230;]",
-      "rawFullText": "“Compute is an asset class! Compute is an asset class!” I continue to insist as I slowly shrink down and turn into a corncob | Image: Cath Virginia / The Verge, Getty Images April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are all working with Nvidia to put together $500 billion in financing to turn compute into an asset class . \"This is really the first time that technology chips have become an investable asset class,\" Nvidia CEO Jensen Huang said to CNBC. \"These are revenue-generating assets now. They're productive, they're long-lived, they're fungible, they're flexible.\" \"This is the very beginning, like what it was whe … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 78
+      "score": 81
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -414,22 +401,6 @@
       "score": 99
     },
     {
-      "title": "NVIDIA如何借助ChatGPT扩展专业知识",
-      "originalTitle": "How NVIDIA scales expertise with ChatGPT Work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/nvidia/chatgpt-work",
-      "date": "2026-08-18T00:00:00.000Z",
-      "summary": "这条新闻与大模型、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、算力芯片相关动态",
-      "fullContent": "NVIDIA团队使用ChatGPT Work来减少手动任务，连接快速变化的信号，并在全球范围内扩展成功的工作流程。",
-      "originalSummary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "算力芯片"
-      ],
-      "score": 98
-    },
-    {
       "title": "加强国家安全民主监督",
       "originalTitle": "Strengthening democratic oversight in national security",
       "source": "OpenAI",
@@ -443,23 +414,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 94
-    },
-    {
-      "title": "网络关键能力时代的起搏模型开发",
-      "originalTitle": "Pacing model development in an era of cyber-critical capabilities",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "date": "2026-08-18T11:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI正在加强对前沿人工智能模型的监控、调整和安全性。了解新的保障措施如何引导模型开发的步伐。",
-      "originalSummary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "ChatGPT Ads扩展到整个欧洲",
@@ -474,7 +429,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
+      "score": 89
+    },
+    {
+      "title": "OpenAI：公司动态相关动态",
+      "originalTitle": "Partnering with CodeAI to prepare the first AI generation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/partnering-with-codeai",
+      "date": "2026-08-18T11:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 88。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "Hugging Face：智能体相关动态",
+      "originalTitle": "How Much Memory Does Your Agent Actually Need?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "date": "2026-08-18T18:09:38.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 79
     },
     {
       "title": "当孩子的机器人最好的朋友去世时会发生什么？",
@@ -489,7 +474,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -504,7 +489,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "弗洛克的防御者缺少什么",
@@ -519,7 +504,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -534,7 +519,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -550,7 +535,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "我们从ICML转载2200篇论文中学到了什么",
@@ -565,7 +550,7 @@
       "tags": [
         "论文"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "Flock正在收紧其规则，以应对日益增长的监控反弹",
@@ -577,82 +562,6 @@
       "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&#8230;",
       "rawFullText": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines: officers abusing Flock’s technology to stalk and harass current or former romantic partners. Flock’s 120,000 cameras form a nationwide network that police departments can use, giving officers access to an enormous pool of searchable location data. A recent Washington Post investigation found 46 cases in which officers were accused of using Flock&#8217;s cameras for unauthorized purposes like stalking. To combat that, the company will start requiring officers to enter a criminal case number before conducting a search. The system was launched as an option last year but is now required. It’s meant to verify that each search has a legitimate purpose.&nbsp; This is a baseline standard that civil liberties groups have asked for, but officers have found ways around similar safeguards. The ACLU recently found that when Flock required officers to enter a reason for a search, some used generic terms like “investigation” or mocked the prompt entirely; at one Oregon department, officers entered “hehehe” 20 times . Because Flock won’t verify case numbers, officers could circumvent the new safeguard just as easily. But Flock is now expanding an automatic auditing system that is supposed to catch those who try that, the firm announced today. The feature analyzes officer search activity and flags to administrators anyone with suspicious searches. This was also introduced as an option last year but is now mandatory. Flock has not shared specifics on how accurate the automatic auditing tool is, nor opened it up to independent evaluators. Beyond trying to prevent officer abuse, Flock is making changes meant to address broader backlash about how much data its network collects and who can search it. The company now recommends that agencies hold onto data for seven days rather than 30 (though they can choose to overrule this). Departments can also now limit other departments’ searches of data from their cameras to those made for certain stated reasons; for example, they might allow investigations related to “kidnapping” but not for purposes of “immigration enforcement.” It’s another safeguard that depends on officers to accurately report why they’re conducting a search. The changes come as a backlash against Flock has started to come from all angles. Tucker Carlson has said its technology is contributing to a “slave state.” Some cities have reportedly dropped Flock contracts because of such protest, though it’s difficult to estimate how many: In February, NPR found that at least 30 cities had dropped in the last year, but the activist group DeFlock puts the number higher. Some states or municipalities are passing laws to ban license plate readers altogether, while some that allow them are switching away from Flock to the other industry leaders, Axon and Motorola. Flock has said these cancellations represent a small number of the 5,000 agencies that have contracted with the company.&nbsp; Chad Marlow, a senior policy counsel at the ACLU who has become a sort of nemesis to Flock and other companies making automatic license plate readers, says the backlash is driven less by individual abuses—though those don’t help—than by the sheer scale of surveillance that Flock’s cameras enable. “In America, you only get to investigate someone if you think they’ve done something wrong,” Marlow says. As license plate readers grow more ubiquitous, officers have increasing latitude to investigate people without first establishing suspicion of a crime, since searching the troves of data the readers collect does not require a warrant. He adds, “Is it worth it to catch a certain number of criminals, return a certain number of stolen cars, to eviscerate Americans’ privacy?” Flock CEO Garrett Langley traces the backlash to a different issue. “If you look at the main reason we’ve lost customers, it’s misinformation,” Langley told MIT Technology Review . He says people mistakenly believe Flock does facial recognition or sells the data it collects to commercial buyers. (The misinformation charge cuts both ways, however; the ACLU and other critics have published accounts of the company repeatedly lying to city councils and other decision-makers about what its technology can do.) Though the company has taken steps in response to public concerns, “our change in stance is more of one from building things that are optional,” Langley says, to “building more confidence that as a technology company we have a responsibility to enforce guardrails, not provide optionality.” Flock’s new rules are undeniably small and incremental compared with what the ACLU has advocated. Marlow is broadly supportive of them but notes that judging whether they reduce abuse would require the company to open its systems to independent researchers for the first time rather than citing internal studies.&nbsp; More broadly, though, he says the backlash is putting the company at a crossroads. “Flock has come to the table because this incredible, unprecedented nationwide uprising against their company has scared them,” Marlow says. “But at the same time, they are just absolutely unwilling to make the actual changes they need to make in order to legitimately respond to these concerns. So this is the best that the company is willing to do.”",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "用孩子自己的话来说，他们对人工智能的感受",
-      "originalTitle": "How kids feel about AI, in their own words",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
-      "date": "2026-08-13T09:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were&#8230;",
-      "rawFullText": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were using it. We were also listening for concerns that were less kid-specific, like deepfakes or job destruction. But what we actually heard when we asked kids aged 10 to 18 about AI had tons of nuance.&nbsp; Many of the same kids who can go on and on about music, rock climbing, or soccer met our questions with words like “bruh” and “meh”—or were so deeply against AI or uninterested in making it part of their lives that they didn’t want to talk about it at all. One teen said his peers use it for things they know they shouldn’t, like writing papers. One told us she won’t touch AI because of the environmental impact. A few said they find the whole field disheartening: “AI isn’t the solution to our problems,” said Winter, a 17-year-old. “I’m afraid it’s going to be the end of creativity and critical thinking.” Yet most of the kids we asked admitted to using AI at least a little bit. AI doesn’t yet seem to be something a lot of elementary- or middle-school-age kids we spoke to are focused on—and they aren’t begging for it, the way they do for iPhones and Snapchat accounts. Many told us that some of their first AI encounters came from their parents or schools. Sometimes, they said, it’s just embedded in the devices and apps they already rely on. It’s just there, in things like a Google search.&nbsp; What we heard tracks with the data. In a survey published in February 2026 , the Pew Research Center found that 57% of teens in the US had used chatbots to search for information, 54% tapped them to help with schoolwork, and 47% had used them for fun or entertainment. Only 12% had used them for emotional support or advice. Teens are over four times more likely to be using AI in innocuous ways than potentially harmful ones. Some are even using it to build things, whether it’s a character, a tech platform, or a tutor to help other kids study. None of that means the worries are misplaced. Kids can stumble into unfiltered content, lean on a chatbot instead of their own judgment, or trust an answer that’s wrong—and they should be protected from those dangers. But the danger is the reason to teach the thing, not to avoid it. We don’t teach teens to never drive. We teach them to check their blind spots. What surprised us most was how much young people might be able to teach adults about AI, and how clearly the kids who use it could name what they will and won’t hand over. They’re not as worried that it will take their jobs as they are that it might harm society. And with increasing access to tools that could in theory do their thinking, their talking, or even their friend-­making for them, it sounds as if most want to keep their hands on the wheel. Interviews have been edited for length and clarity. JUSTYNA STASIK The Coder Remy, 16, New York The word that comes to mind when I think about AI is “indifferent.” I just don’t find the current applications that exciting for my own use. I go to school. I teach tae kwon do. I read. I play games with friends. None of that needs AI. I mean, I use it. I mostly use Claude, the free version, for programming outside of school. I had it help me write a program to see if I could tweak my computer’s overclock. So I see the appeal.&nbsp; But at school, I actually think AI mostly makes my assignments worse, not better. In English, everything is now in-class writing, because teachers don’t want kids cheating. So we have only 70 minutes to write a whole essay, and I think that hinders my writing. (Did you know Princeton voted to let faculty proctor exams for the first time in over a century? Their honor code goes back to 1893, and now it’s over because of AI.) As far as code goes, I’d also rather build things myself. I’ve been making a reinforcement-learning model in a game engine with a friend; it moves randomly at first, gets rewarded for walking toward a coin, and after enough iterations it teaches itself the most efficient path. I’ve also tested AI for game development, and it isn’t there. It makes sloppy code, and it’s bad at blending mechanics into something cohesive. I’d spend more time correcting it than writing it myself. I think AI right now is sort of like the first car or the first airplane. It’s interesting but crude. It’s obviously an amazing invention but not actually good yet. Overall, I think AI right now is sort of like the first car or the first airplane. It’s interesting but crude. It’s obviously an amazing invention but not actually good yet. It’ll get somewhere. One thing I read about was AI flagging breast cancer more accurately, trained to catch its own false positives so a human still verifies. That’s the version I care about. The Organizer Danielle, 18, California I’m studying engineering, and my life goal is to innovate technology that will help as many people as I can. The way I see it, AI isn’t inherently good or bad; that’s decided by the people using it. It’s already being used for lots of good. Just think about how it helps people with personalized education and more accessible medical diagnoses. PING ZHU So far, the biggest project I’ve worked on with AI is called Next Voters . My teammates are more on the technical side, and I’m working on scaling. Right now, we’re focusing mostly on city councils as well as states. Our system turns dense, hundred-page documents into a headline and a few plain-language bullet points in your inbox. And everything is cited, so you can click straight to the actual policy to learn more. The information comes to you, instead of you having to remember to go search or prompt for it.&nbsp; One AI agent finds official government sources for a given city or state — the council website, the proposed bills, the meeting transcripts. Another verifies they’re real and credible; another scrapes them every week for the latest updates; another sorts them into categories like civil rights, immigration, and economics; and the last one writes our weekly newsletter. The project’s goal is to reduce the barriers to democratic participation — to make sure anyone, regardless of race, gender, income, or education level, has an easy way to get the information they need and then think critically about how they want to use it. We made it because right now, it feels as if most teens aren’t very engaged. I was in English class when the war in Ukraine came up and someone said, “There’s a war going on?” That gap, plus all the emotionally charged social media misinformation that gets promoted because it earns the most clicks, makes me nervous for the next generation of voters. We don’t want AI to think for people; we want to use it to disperse knowledge. In other words, we want to deal people the cards and let them play them however they want, but we have to make sure they have the cards in the first place.&nbsp; The Cringe-o-meter We asked kids to rate a range of AI uses from totally fine to not okay. CHRIS PIASCIK The Naturalist Hazel, 17, New York When ChatGPT first came out, my dad showed it to me and it seemed fun. But as it got more prominent and seemed to be everywhere, I started to feel uneasy. Then I learned about the environmental impact. I’m a rock climber and I hike a lot. It’s good because when I’m on a wall, I’m just focused on staying on that wall. I’m not thinking about my phone or anything else. That’s why I love it. I also love the views and being around animals — even insects. I want to be an ecologist, and the more time I spend in nature, the more I want to protect those wild spaces. The part that bothers me most about AI is the data centers that companies are building to enable it. They house these huge blocks of servers that use enormous amounts of water. They take it from local towns and don’t leave enough behind for the people who actually live there. And when they get big enough, they put off so much heat they can raise the local temperature a degree or two. So I make small choices. When AI pops up somewhere, I just don’t engage with it. It can feel isolating when everyone around me is using it, but I don’t want AI to be the thing that kills the places I love. PING ZHU The Storyteller Wesley, 14, Ohio My friends and I have all heard about AI and seen videos made by AI, but I mostly use it for school. I wrote a short story and ran it through ChatGPT to catch my grammar and spelling errors, and I used it to debug a little game I’d coded for a project. What I worry about is it robbing us of our ability to think creatively, or to think for ourselves. But I have tried using AI for fun. When I was bored, I tried to have a conversation with ChatGPT once or twice, but I didn’t really like it. Character.AI is more fun. You type in all this information, give it a bunch of prompts and a profile picture, and then you can post your AI character for anyone to use. You just put what you’ve made out there. Then you talk to it. My favorite show is One Piece on Netflix, so I threw myself onto its pirate crew using a character I found.&nbsp; Other people have used Character.AI to build whole games. There’s a rap-star simulator where you pick your difficulty and where you’re from, and the AI creates a game out of that. There are also World War II simulators, and chats where you’re working with assassins from a TV show. You can find pretty much anything. I guess I’d recommend it, but with caution. The content is pretty unfiltered, so you have to be careful what you click on. You learn its limits fast, too. On the free version the memory runs out: Get far enough into a chat and it slows down and forgets what happened. It’s like everything else with AI. If you trust it to run on its own, it falls apart. You have to keep steering it where you want it to go.&nbsp; I guess I’d recommend it, but with caution. The content is pretty unfiltered, so you have to be careful what you click on. You learn its limits fast, too. JUSTYNA STASIK The Artist Sylvia, 10, Michigan I haven’t used tools like ChatGPT or Claude myself, but my mom does. I really like to draw and write songs, but I don’t use AI for that. I don’t really have big feelings about AI either way. It’s a little like a calculator. A calculator does the math for you, and AI does other things for you. But I don’t like when AI tricks you, like when my mom found some songs she liked on Spotify and then looked up the artist to see what they looked like. It turns out the whole thing was made by AI. I was surprised, even though I still like the song. I do use AI at school, through a program called SchoolAI. Mostly I put my writing in and it gives me ideas or helps me revise. You can’t have it just write for you, but you can use it to help. When I’m older I want to be an artist, or maybe a librarian. I’d probably use some technology either way. But the drawing and the songwriting? Those I want to keep doing myself.&nbsp; The Cringe-o-meter (continued) We asked kids to rate a range of AI uses from totally fine to not okay. PING ZHU The Pre-Premed Evelyn, 13, Oregon In January, I was diagnosed with type 1 diabetes, and that’s when AI became a bigger part of my life. Now when we’re cooking, we can run a recipe through ChatGPT, tell it the serving size, and it works out how many carbs there are. We use AI like that a lot. My glucose monitor and my insulin pump also talk to each other using their own kind of AI to predict dosing. The monitor tracks what my blood sugar actually is, and the pump does the math. So if it predicts that my blood sugar will be high in 30 minutes, it gives me a correction dose, and if it predicts I’m about to go low, it stops the insulin before that happens. When I was first diagnosed I was still doing shots, and I went low almost every night. It was really stressful. Now the pump can catch it, and at night my phone goes off if I drop, so I wake up and drink juice. Mostly, I just get to sleep more because of it. But the hardest part of having diabetes isn’t something I can use AI for. It’s remembering to carry all my supplies everywhere—to school, to a long day of anything. I do use AI for school sometimes. Memory tricks when I’m studying for a test, ideas to get a project started. It’s a really good tool for that. But I don’t know exactly how I’ll use AI in the future. I want to be an endocrinologist someday, so I figure something will come up, since I’m already using it to help with my diabetes. I know other people worry that AI is going to take over the world. I don’t really think so. I still think we’re in control of it, and I think the benefits outweigh the risks. I don’t know how exactly I’ll use AI in the future. I want to be an endocrinologist someday, so I figure something will come up, since I’m already using it to help with my diabetes. The Inventor Krishiv, 18, Ontario, Canada When I was growing up, I always liked building things: Lego builds, Minecraft worlds, and then video games in Scratch. I’d make a little game, post it for other kids to play, read the comments, and make it better. Then, when I started high school, I had to spend way more time studying than I ever had, and honestly I just wanted to build things. So I went looking for ways to get good grades while studying less. Khan Academy had an AI tutor in the works, but it was stuck behind a waitlist, so I figured, why not build my own?&nbsp; After months of launching random stuff, I created an AI tutor called Aceflow. You could feed it anything a teacher assigned — a 30-minute lecture video on YouTube, a blog post, a PDF of the textbook or presentation slides — and it would spin up endless practice questions, with a tutor on the side that explained things the way my teacher did. I built it just for myself, showed it to my friends, then put it on TikTok. It got tons of views on TikTok and thousands of users. JUSTYNA STASIK Was I worried people would call it cheating? Not really. I knew how to defend it: A tool like this isn’t so different from well-off families hiring expensive private tutors, except everyone gets one. That part mattered to me. Back in eighth grade, a teacher had me run a little computer science class for about 30 kids with special needs, and once they got personalized attention, they were building games nobody expected of them. That convinced me that kids are capable of so much more than people think, and AI can help scale that level of personalized attention to everyone. That unlocks so much potential. That first AI tutoring project ended up helping me land part-time roles at BenchSci (one of Canada’s biggest AI companies) and Simple Ventures (a venture firm). More recently, I joined an AI lab at MIT; co-instructed an AI agents course with an MIT professor; and launched CheetahPrep.com , an SAT prep platform that uses AI to adapt to each student. I’m generally optimistic about how AI will impact humanity, but when other kids’ first reaction is fear, I think that’s an important sign too. It’s a reminder that we should be excited about the future while still being mindful of the risks, working together to make AI work for humanity. Correction (August 13): An earlier version of this article misstated Krishiv&#8217;s age. He was 18 at the time of publication. Jen Swetzoff and Keeley McNamara are the founding editors of Anyway , an independent print magazine for tweens and teens.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "推出OlmoEarth嵌入：从OlmoEarth Studio自定义嵌入导出以进行下游分析",
-      "originalTitle": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
-      "date": "2026-08-12T16:14:36.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "在Studio中计算嵌入您可以使用OlmoEarth嵌入做什么相似性搜索：查找“更像这样”少量镜头分割：标记景观变化检测：发现变化无监督探索：查看模型看到的内容从导出到洞察进一步：微调限制📄技术报告： https://allenai. org/papers/olmoearth |📊文档： https://docs. olmoearth. allenai。 org/embeddings |💻了解有关OlmoEarth的更多信息： https://allenai. org/olmoearth我们构建地球观测模型的平台OlmoEarth Studio ，现在允许您计算和导出嵌入向量-由我们的开源OlmoEarth基金会模型生成的地球观测数据的紧凑数字表示。 源代码和模型权重与研究论文一起公开提供，因此社区可以准确检查这些嵌入是如何生成的。嵌入是利用OlmoEarth的一个快速、经济高效的切入点：它们支持广泛的下游任务，从相似性搜索到分割再到无监督探索。具有相似表面特征的位置最终具有相似的矢量；与土地相隔很远的位置。 OlmoEarth嵌入在我们自己的基准测试和独立评估中表现出色。导出的云优化GeoTIFF (COG)重量轻，易于共享。通过Studio UI或API选择您感兴趣的区域、时间范围、编码器变体、分辨率和图像源，然后找回您可以随心所欲使用的齿轮。如果您的应用程序需要更高的性能， Studio还支持监督微调(SFT)。 OlmoEarth Studio的用户现在可以使用自定义计算的嵌入。如果您有兴趣获得访问权限，请联系我们。有关使用公开的OlmoEarth模型计算您自己的嵌入的说明，请参阅此处。来自110万个样本的季节性Sentinel-2图像的OlmoEarth嵌入中的全局结构。颜色表示PCA减少的嵌入空间中的15 k-means簇。 计算嵌入遵循与Studio中任何其他预测相同的工作流程。首先配置模型并运行，然后下载结果。几个参数定制输出：不同的可视化选项应用于相同的嵌入光栅。Studio为每个嵌入尺寸提供一个带有一个带的齿轮。向量存储为带符号的8位整数（ int8 ）。值范围从-127到+127 ，其中-128保留给nodata。 要恢复浮点向量，请参阅olmoearth_pretrain中的dequantize_embeddings。由于所有内容都是按需计算的，而不是从预先计算的全局存档中提取的，因此您的嵌入准确反映了您所关心的条件。您可以生成每月嵌入，以捕捉季节性动态，而不仅仅是年度快照。 以下所有示例均使用Sentinel-2 L2A复合材料以40米分辨率的OlmoEarth-v1-Tiny （ 192-dim ）嵌入（大多数示例为年度；每月用于更改检测）。Tiny是一款轻量级编码器，但性能仍然很高；对于您自己的应用程序，您可以以更高的计...",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
-    },
-    {
-      "title": "考虑ACE ？我们可以用更少的代币做到这一点",
-      "originalTitle": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "date": "2026-08-11T13:37:10.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "我们同意在哪里不同为什么重要相同的课程，不同的交付关联的工件/参考文献方法注释参考表ALTK-Evolve和ACE都让客服代表从自己的轨迹中学习。不同之处在于他们对学到的东西做了什么—这决定了代币账单。 给LLM代理一个现实的多步骤任务--拆分账单、查找歌曲、在九个模拟应用程序中协调订单--当它失败时，通常不是因为缺乏知识。它错误地分页API ，解析错误的人员，或在没有要求时返回值。该模型知道API ；它没有内化的是如何可靠地使用它们。这可以从客服代表自己的历史中了解到。 最近的两个系统在相同类型的Agent上做到了这一点： ACE （ Agentic Context Engineering ）和我们的ALTK-Evve （在此介绍）。两者都是一种客服代表记忆的形式--将客服代表的过去轨迹转化为可重复使用的课程，并在推理时反馈，无权重更新，无人工标签。他们甚至在困难的部分达成了一致。他们分道扬镳的地方是派送。 关于单词的注释，因为这两个系统对事物的命名不同：我们称之为客服代表学到的原始东西。ACE将其课程组织成一个全面、不断发展的剧本；我们将我们的课程整合到可单独检索的指南中。同样的课程，两个容器。 ACE准确地命名了故障模式：简洁性偏差—针对简短、通用指令的优化崩溃—以及上下文崩溃—要求模型在每个步骤中重写其整个上下文，以总结细节。它的答案是保留一个丰富的，逐项的剧本，在每个项目符号上都有一个有用/有害的计数器，并让模型在阅读时提取相关性。我们从另一个方向得出了同样的结论。 每个不同的指导方针都会保持支持计数—有多少独立剧集制作了它—我们从未将商店总结为少数规则。发现的五个不同任务与一次出现的任务不同，两者都值得保留。那么，在核心问题上，您是否应该将客服代表来之不易的课程压缩成整洁的总结？ — ACE和ALTK-Evolve给出了相同的答案：否。数一数，不要塌陷。 ACE的每个子弹计数器和我们的支持计数是相同想法的两个拼写。有两个地方：内存是如何构建的，以及它是如何交付的，而交付的差异会出现在令牌账单中。整合（如何构建商店）。ACE通过Generator → Reflector → Curator循环增加一个剧本，应用增量增量更新并通过嵌入进行重复数据消除。 我们将近似重复的课程聚集在一个集群内并合并，支持节约--当多个课程合并时，幸存者继承其合并计数，因此商店缩小而不会丢失每个指南支持多少经验的记录。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制",
-      "originalTitle": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "date": "2026-08-10T16:25:36.000Z",
-      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、算力芯片相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“构建低延迟多语言语音代理：使用NVIDIA Magpie TTS实现开放权重和全面部署控制”。它主要涉及智能体、算力芯片方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、算力芯片相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "算力芯片"
-      ],
-      "score": 80
-    },
-    {
-      "title": "让知识蒸馏便宜到足以大规模运行",
-      "originalTitle": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "date": "2026-08-10T10:05:36.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“让知识蒸馏便宜到足以大规模运行”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
