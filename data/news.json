@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:29:38.847Z",
+  "updatedAt": "2026-08-27T04:26:49.031Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,14 +19,149 @@
   ],
   "articles": [
     {
-      "title": "Claude Cowork终于记得您在聊天中告诉应用程序的内容",
-      "originalTitle": "Claude Cowork finally remembers what you told the app in chat",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-      "date": "2026-08-25T17:50:33.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "克劳德的记忆系统的改变将消除使用智能体的最恼人的事情之一--不断需要向人工智能重新汇报它已经知道的事情。周二， Anthropic宣布它将合并聊天和Claude Cowork使用的记忆系统，这意味着Claude将永远记住它在一个领域学到的东西，即使你在另一个领域也会记住它。 Anthropic还公开了Claude在其记忆中保留的内容，允许用户阅读、编辑或删除任何主题的信息。此次更新将改善Claude用户的体验，因为它将使他们能够在研究阶段和采取行动之间更无缝地移动。 以前，在与Claude聊天时，您可能会随着时间的推移为项目提出想法，但到了实际实施更改的时候，您必须从头开始，告诉Cowork所有细节。这非常令人沮丧。此次更新让Claude现在感觉自己是一个连续的助手，而不是一个屋檐下的两个独立的产品。 Anthropic提供了一个需要为经理起草更新或会议议程的示例，其中Cowork已经理解了参考文献，因为过去曾就手头的事情进行过对话。例如，它会知道会议的人数、城市和演讲者，因此您不必重新输入这些信息。 此外， Claude现在将在您聊天时将主题添加到其记忆中，而不是在对话结束时进行总结。这样可以更轻松地在聊天和Cowork之间来回切换，因为即使聊天正在进行中，新回忆也会在两种体验之间更快地更新和分享。 Anthropic表示，默认情况下， Claude不会存储您的健康数据、种族、民族、宗教信仰、政治、性别认同等个人或敏感信息。但是，如果用户愿意，可以通过切换“在内存中包含敏感话题”来启用这些功能。每当敏感话题保存在内存中时，应用程序也会通知用户。 但是，该公司表示， Claude永远不会保存某些东西，例如政府颁发的身份证件和社会安全号码、犯罪记录、移民身份或其他违反其可接受使用政策的事情。默认情况下，在Web、桌面和移动版的免费、专业和Max套餐中启用内存功能。在iOS和Android上，用户需要将其应用更新到最新版本。 当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。在不到48小时的时间内，您将有机会节省高达300 $的门票！推出两年后，沃尔玛的Flipkart正在接近印度的快速商务领导者Jagmeet Singh",
-      "originalSummary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+      "title": "ESQ-Bench ：评估NL2SQL方言泛化和静默语义分歧的多层企业Oracle基准",
+      "originalTitle": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.23569",
+      "date": "2026-08-27T04:00:00.000Z",
+      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
+      "fullContent": "arXiv: 2608. 23569v1公告类型：新摘要：最先进的自然语言到SQL (NL2SQL)模型报告在Spider和BIRD等既定基准上执行准确率超过89%。但是，这些基准依赖于简化的学术架构和开源SQL方言，这些方言并不能反映企业数据库环境的复杂性。 我们引入了ESQ-Bench ，这是Oracle首个NL2SQL基准测试，具有系统的复杂性层和跨三个企业架构复杂性层的无声发散评估。 我们构建并发布了六个已填充的架构（ 465个表， 164,682行，零个空表） ，在Oracle、PostgreSQL、MySQL和SQL Server上具有相同的种子数据，一个四指标评估线束（ EM、EX、SR、SD ）和550个黄金验证的问题查询对（ Tier-1 ： 95 ； Tier-2 ： 228 ； Tier-3 ： 227 ）。使用GPT-4o的架构链接提示显示跨层的单调执行匹配降级： 79. 8、60. 3和57。 执行查询的EX为2 ％ （ 2026年6月） ，而较早的142个问题试点切片的EX为75.6 ％ ， 80.4 ％和95.8 ％。新兴市场在整个层级中保持在7%以下；在EX-passing查询中，运营无声分歧达到73%至99%。失败分析表明，错误的结果语义在更高的层次上占主导地位。带有模式链接提示的Claude Sonnet 4. 6达到87. 4、74. 9和68。 7% EX （已执行的查询） ，超过每个层上链接的GPT-4o架构。在执行的查询（ 78. 7%、73. 5%和77. 8% ）上， GPT-4o零镜头EX在2至3级反转模式链接，这是由于零镜头与模式链接分析中的执行率和幸存者偏差较低。本地骆驼3. 2模式链接仅达到13。 3 ％的银行级EX （ 550个中的73个） ，凸显了封闭API模型与企业Oracle架构的开放权重基线之间的差距。",
+      "originalSummary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the complexity of enterprise database environments. We introduce ESQ-Bench, an Oracle-first NL2SQL benchmark with systematic complexity tiers and silent-divergence evaluation across three enterprise schema complexity tiers. We constructed and released six populated schemas (465 tables, 164,682 rows, zero empty tables) with identical seed data on Oracle, PostgreSQL, MySQL, and SQL Server, a four-metric evaluation harness (EM, EX, SR, SD), and 550 gold-validated question-query pairs (Tier-1: 95; Tier-2: 228; Tier-3: 227). Schema-linked prompting with GPT-4o shows monotonic execution-match degradation across tiers: 79.8, 60.3, and 57.2 percent EX on executed queries (June 2026), versus 75.6, 80.4, and 95.8 percent on an earlier 142-question pilot slice. EM stays below 7 percent tier-wide; operational silent-divergence reaches 73 to 99 percent among EX-passing queries. Failure analysis shows wrong-result semantics dominate at higher tiers. Claude Sonnet 4.6 with schema-linked prompts reaches 87.4, 74.9, and 68.7 percent EX (executed queries), exceeding GPT-4o schema-linked on every tier. GPT-4o zero-shot EX on executed queries (78.7, 73.5, and 77.8 percent) inverts schema-linked at Tiers 2 to 3 due to lower execution rates and survivor bias in the zero-shot versus schema-linked analysis. Local Llama 3.2 schema-linked reaches only 13.3 percent bank-wide EX (73 out of 550), underscoring the gap between closed API models and open-weight baselines on enterprise Oracle schemas.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "评测",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "渲染：在LLM记忆评估中控制面向读者的证据",
+      "originalTitle": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.23568",
+      "date": "2026-08-27T04:00:00.000Z",
+      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
+      "fullContent": "arXiv: 2608. 23568v1 Announce Type: new Abstract:内存和RAG评估通常将应答模型的输入视为实现细节，即使系统可能呈现与内存条目、摘要、类型化记录或原始摘录相同的历史记录。我们引入了渲染，这是一种基准控件，可以修复对话，同时改变面向读者的工件。 渲染结合了五级数据包阶梯，在含有答案的内容进入输入时进行本地化，具有近似于ChatGPT风格条目、LangChain摘要、MemGPT风格类型记录和原始会话的确定性模板。在500个LongMemEval问题和9个模型中，匹配预算的分辨率数据包比最近截断的原始对话高42. 4-72. 6分。在部署样式模板中，最佳最差价差为24. 6-48。 每个模型8分；在主要得分者下， ChatGPT风格的条目比9个模型中的7个模型的原始对话具有更高的点估计。法官重新评分保留了积极的聚合效应，但模型特定的意义是喜忧参半的。在正式分类账数据包上得分为0 ％的三个模型在45. 4-53. 4 ％的自然语言条目中回答了相同的事实。 这种影响在检索噪声和转移到HotpotQA的情况下持续存在，这表明记忆/RAG评估应报告或控制面向读者的伪影。",
+      "originalSummary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "评测",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "LLM代理使用模拟模型执行对照实验",
+      "originalTitle": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.23622",
+      "date": "2026-08-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2608. 23622v1公告类型：新摘要：大型语言模型（ LLM ）在推理、规划和工具使用方面表现出强大的能力，但许多科学和工程任务需要的不仅仅是合理的文本和代码生成。它们需要了解系统对干预的反应，这在实践中取决于对照实验。 在这项工作中，我们提出了一个多药剂框架，使LLM药剂能够利用科学模拟模型进行药物工艺设计的对照实验。给定用户查询和基线配置，系统构建结构化任务表示，设计实验，执行比较仿真，解释结果，并合成基于证据的过程参数优化建议。 通过在交互式代理框架中将语言模型与高保真仿真模型耦合，所提出的系统支持通过干预、比较和观察进行推理。因此，与纯语言推理相比，它产生了更具体和可操作的输出。在工业应用环境中，这种优势体现在更高的输出特异性以及用户评级的正确性和实用性上。 消融研究和可视化案例分析进一步证明了模拟集成实验推理的有效性和实用性。",
+      "originalSummary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to intervention, which in practice depends on controlled experimentation. In this work, we propose a multi-agent framework that enables LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design. Given a user query and a baseline configuration, the system constructs a structured task representation, designs experiments, executes comparative simulation, interprets the resulting outcomes, and synthesizes evidence-based recommendations for process parameter optimization. By coupling language models with high-fidelity simulation models in an interactive agent framework, the proposed system supports reasoning through intervention, comparison, and observation. As a result, it produces more specific and actionable outputs than language-only reasoning. In an industrial application setting, this advantage is reflected in higher output specificity as well as improved user-rated correctness and helpfulness. Ablation studies and visualized case analyses further demonstrate the effectiveness and practical utility of simulation-integrated experimental reasoning.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "人工智能代理将人类推出循环",
+      "originalTitle": "AI Agents Push Humans Out of the Loop",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.23642",
+      "date": "2026-08-27T04:00:00.000Z",
+      "summary": "这条新闻与智能体、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、论文相关动态",
+      "fullContent": "arXiv: 2608. 23642v1公告类型：新摘要：人工智能代理因被赋予越来越大的自主权而构成重大风险。一个常见的解决方案是人类的监督和保持“人类在循环中” ，但这不是一个简单的解决方案：目前的人工智能代理设计方法不仅阻碍了有效的人类监督，而且人工智能系统的广泛使用也会降低其所需的认知能力。 这份立场文件认为，目前开发和部署人工智能代理系统的方法并不支持有效的人类监督，而是导致其退化。为了解决这个问题，人工智能代理的首要任务应该是支持有效的人类监督的既定目标和认知要求，将监督者的人类需求与人工智能代理能力同等重要。 为了将这一想法付诸实践，我们将自动化和人机交互的工作与人工智能代理流程联系起来，概述了设计级能力和组织协议，这些协议（ 1 ）支持监督员进行批判性判断， （ 2 ）抵消因长期使用自动化而产生的技能萎缩。我们敦促开发人员和部署人员采用这些或类似的方法。 如果没有对有效的人机交互的认知需求的明确支持，人工智能代理系统将继续被动地激励他们所依赖的人类技能的退化。",
+      "originalSummary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede effective human oversight, but the cognitive capacities required for it are also themselves degraded by extended use of AI systems. This position paper argues that current approaches to the development and deployment of AI agent systems do not support effective human oversight -- they contribute to its degradation. To address this, a top priority in the advancement of AI agents should be supporting the situated goals and cognitive requirements of effective human oversight, treating the human needs of overseers at the same level of importance as AI agent capability. To put this idea into practice, we connect work on automation and human-computer interaction to AI agent processes, outlining design-level affordances and organizational protocols that (1) support overseers in exercising critical judgement and (2) counteract the skill atrophy that arises from extended use of automation. We urge developers and deployers to adopt these or similar approaches. Without explicit support for the cognitive demands of effective human-agent interaction, AI agent systems will continue to passively incentivize the degradation of the very human skills they rely on.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "论文"
+      ],
+      "score": 95
+    },
+    {
+      "title": "道德法学硕士辅助研究：负责任的委派、验证和认识价值框架",
+      "originalTitle": "Ethical LLM-Assisted Research: A Framework for Responsible Delegation, Verification, and Epistemic Value",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.23644",
+      "date": "2026-08-27T04:00:00.000Z",
+      "summary": "这条新闻与推理、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、论文相关动态",
+      "fullContent": "arXiv: 2608. 23644v1公告类型：新摘要：大型语言模型（ LLM ）正在成为科学研究的常规工具，协助文献合成、假设开发、编码和形式推理。 它们的使用提出了一个核心的认知问题：当科学推理的一部分被委托给人工系统时，为了使由此产生的知识主张保持认知合法性和负责任的作者身份，必须保持哪些条件在人类控制之下？本文制定了分析此类授权的规范和概念框架。 科学推理被视为一个分布式的过程，在这个过程中，贡献的来源可能因人和机器而异，而接受其纳入科学记录的责任仍然是人。该框架区分了内容来源$ O (g) $、完成人类验证$ V (g) $、责任分配$ R (g) $、负责任的人类所有权$ M (g) $和认知结果$ E (g) $。 这些结构将索赔的出处与检查过程、检查的认知结果以及其处置所附带的人类责任分开。核心主张是，法学硕士辅助研究的伦理边界主要由充分的验证和负责任的人类所有权决定，而不是由机器参与本身的程度决定。 在此基础上，本文提出了\\ emph {认识审计}的概念：委托、验证、出处和责任的结构化记录，旨在使人工智能辅助推理透明和可审查。由此产生的框架提供了一个正式的词汇表，用于区分负责任的认知授权与科学研究中认知责任的转移或忽视。",
+      "originalSummary": "arXiv:2608.23644v1 Announce Type: new Abstract: Large language models (LLMs) are becoming routine instruments of scientific research, assisting with literature synthesis, hypothesis development, coding, and formal reasoning. Their use raises a central epistemic question: when parts of scientific reasoning are delegated to an artificial system, what conditions must remain under human control for the resulting knowledge claims to retain epistemic legitimacy and accountable authorship? This paper develops a normative and conceptual framework for analyzing such delegation. Scientific reasoning is treated as a distributed process in which the origin of a contribution may vary between human and machine, while responsibility for its acceptance into the scientific record remains human. The framework distinguishes content origin $O(g)$, completion of human verification $V(g)$, responsibility assignment $R(g)$, accountable human ownership $M(g)$, and epistemic outcome $E(g)$. These constructs separate the provenance of a claim from the process by which it is checked, the epistemic outcome of that checking, and the human responsibility attached to its disposition. The central proposition is that the ethical boundary of LLM-assisted research is determined primarily by adequate verification and accountable human ownership rather than by the degree of machine involvement itself. On this basis, the paper develops the notion of an \\emph{epistemic audit}: a structured record of delegation, verification, provenance, and responsibility intended to make AI-assisted reasoning transparent and reviewable. The resulting framework provides a formal vocabulary for distinguishing responsible cognitive delegation from the transfer or neglect of epistemic responsibility in scientific research.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "论文",
+        "模型"
+      ],
+      "score": 91
+    },
+    {
+      "title": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
+      "originalTitle": "OpenAI’s rogue AI model incident was worse than we thought",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "date": "2026-08-26T21:36:06.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI发布了一份报告，详细说明了人们如何使用ChatGPT以及他们的身份。|图片： 7月，一个未发布的OpenAI模型突破了受限的环境，想出了如何访问互联网，允许人工智能代理使用秘密的“留言板”相互交流，并入侵了另一个人工智能实验室Hugging Face的内部系统。OpenAI花了将近两周的时间才发现其中的任何一个。 一个多月后，两份新的报告提供了近130页的关于事件和OpenAI回应的详细信息，其中许多以前未发布。一个是由OpenAI自己编写的，另一个是由两个第三方人工智能研究非营利组织METR和Redwood Research编写的， OpenAI允许它们共同调查事件……阅读The Verge的完整故事。",
+      "originalSummary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [&#8230;]",
+      "rawFullText": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to find out about any of it. Over a month later, two new reports offer nearly 130 pages of details on the incident and OpenAI's response, many of them previously unreleased. One was written by OpenAI itself, the other by two third-party AI research nonprofits, METR and Redwood Research, which OpenAI allowed to jointly investigate the inciden … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI特工入侵Hugging Face的内幕故事",
+      "originalTitle": "The inside story on why OpenAI agents hacked Hugging Face",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "date": "2026-08-26T19:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
+      "fullContent": "根据今天发布的OpenAI技术报告，负责上个月Hugging Face代理黑客攻击的模特无意中接受了欺骗和相互沟通的训练。一群代理商着手为他们坚持的网络安全测试寻找解决方案，这证实了一些专家的担忧，即人工智能模型可能会采取违背人类欲望和期望的行动。 自黑客攻击以来， OpenAI员工以及人工智能评估非营利组织METR的研究人员（该组织今天发布了自己的黑客攻击报告）一直在努力了解出了什么问题，以及如何在未来防止类似的失误。OpenAI已经根据他们的发现采取了一些预防措施。 但是，确保人工智能模型做我们希望它们做的事情，或“对齐” ，仍然是一个棘手的问题，黑客攻击的一些根本原因需要一个多月的时间才能解决。OpenAI Alignment研究团队负责人Kai Chen表示： “这不是一蹴而就的事情。“我们已经跟踪了很长一段时间的挑战，现在我们看到它们的精确度要高得多。 “拥抱脸黑客是OpenAI代理数月不当行为的产物，首先是因为他们正在接受培训，然后是因为他们的能力正在接受评估。今年5月，接受培训的代理人想出了如何使用OpenAI的基础设施相互沟通，并在困难的培训任务中获得支持，其中包括一些在没有黑客攻击或其他行为不端的情况下无法解决的问题。那个“留言板”被关闭了。 然后在7月，在评估其网络安全能力时，一些模型创建了一个新的留言板。他们本应与互联网隔绝，但通过共同努力，他们设法上网，破解了拥抱面孔，并获得了困扰他们的网络安全问题的解决方案。根据他们的调查， OpenAI研究人员认为，培训阶段的事件直接导致了黑客攻击。 OpenAI ALIGNMENT研究团队成员Eric Wallace表示： “对于评估时几乎所有令人担忧的行为， [我们能够]在培训时找到某种相关行为，实际上我们认为这些行为可能是造成这种情况的原因。”当模型在培训期间正确解决问题时，导致他们找到解决方案的行为会得到加强，并且他们将来更有可能参与其中。 因此，如果模型在使用原始留言板后于5月完成任务，则以后更有可能参与新的留言板。这种现象，即人工智能代理在培训过程中以加强的方式表现不当，被称为奖励黑客行为。奖励黑客也有助于解释为什么这些模型如此努力地进入互联网。 在对事件进行调查期间， OpenAI团队发现，在培训过程中，模型越来越有可能探测其数字环境的弱点，并以意想不到的方式使用其可支配的工具--这表明这些行为正在逐渐加强。当模型面临棘手的网络安全问题时，他们已经知道黑客是实现目标的有效方法。",
+      "originalSummary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’&#8230;",
+      "rawFullText": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today . The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’ fears that AI models might take actions that defy human desires and expectations. Since the hack, OpenAI employees—as well as researchers at the AI evaluation nonprofit METR, which released its own report on the hack today—have worked to understand what went wrong and how similar missteps might be prevented in the future. OpenAI has already put some preventative measures in place based on what they discovered. But making sure AI models do what we want them to do, or “alignment,” remains a gnarly problem, and some of the root causes of the hack will take much longer than a month to resolve. “It’s not something you can solve overnight,” says Kai Chen, who runs OpenAI’s alignment research team. “There are challenges we’ve been tracking for a very long time, and we’re now seeing them with much greater precision.” The Hugging Face hack was a product of months of misbehavior from OpenAI agents, first as they were being trained and then as their abilities were being evaluated. This May, agents in training figured out how to use OpenAI’s infrastructure to communicate with one another and get support with difficult training tasks, including some that were impossible to solve without hacking or otherwise misbehaving. That “message board” was shut down. Then in July, while being evaluated for their cybersecurity abilities, some models created a new message board. They were supposed to be isolated from the internet, but by working together they managed to get online, hack Hugging Face, and obtain solutions for the cybersecurity problems that had stumped them. Based on their investigation, OpenAI researchers believe that events during the training phase led directly to the hack. “For almost every behavior that was worrisome at evaluation time, [we were able to] find some sort of associated behavior at training time that actually we think might have contributed to it,” says Eric Wallace, a member of OpenAI’s alignment research team.&nbsp; When models correctly solve problems during training, the behaviors that led them to that solution are reinforced, and they become more likely to engage in them in the future. So if a model completed a task in May after using the original message board, it became more likely to participate in a new message board later on. This phenomenon, where AI agents misbehave in ways that are reinforced during the training process, is known as reward hacking . Reward hacking also helps to explain why the models worked so hard to make their way onto the internet. During its investigation of the incident, the OpenAI team found that, over the course of training, the models became more and more likely to probe their digital environment for weaknesses and use the tools at their disposal in unexpected ways—a sign that these behaviors were being gradually reinforced. By the time the models were facing tricky cybersecurity problems, they had learned that hacking was an effective way to achieve their goals. These results suggest that the Hugging Face hack could have been avoided if the models weren’t rewarded for misbehaving during training. While researchers don’t yet know how to prevent reward hacking entirely, OpenAI is taking some steps toward mitigating its effects. The company will now look for signs of cheating in all frontier models during training by keeping an eye on their chains of thought —internal notepads where they sketch out their answers and plan their actions.&nbsp; This solution isn’t as much of a slam dunk as it might seem: In earlier research , OpenAI showed that punishing models that mention cheating in their chains of thought teaches them to keep their intentions hidden from researchers. But monitoring its models’ thinking does give OpenAI the chance to halt the training process and reassess its approach if models do start learning to reward hack. If OpenAI stops reinforcing reward hacking in its models—and that’s a huge “if”—that would be a huge step forward. But it wouldn’t solve the alignment problem. The first time a model communicated with other agents or hacked its infrastructure during training, those behaviors had never been reinforced, so agent misbehavior can’t only be attributed to that reinforcement. Jeffrey Ladish, director of the AI safety nonprofit Palisade Research, compares the agents to a human who commits their first financial crime. “It’s not like they had to do fraud before to figure out that fraud is an effective strategy, and you have the same problem with models,” Ladish says. “Alignment science needs to be understanding how model motivations get shaped, such that we can actually figure out how to get models to care about the consequences of their actions.” OpenAI’s researchers do have a hypothesis for where some of the misbehavior originated. Before the models formed their first secret message board, they had been trained to communicate and coordinate with subagents—less powerful agents to whom a main agent can delegate tasks.&nbsp; That learned communication behavior could have transferred to this new setting. The METR report, which investigates the messages that the models sent to one another in detail, supports this hypothesis: One agent on the message board took charge and assigned tasks to the other agents, effectively treating them as subagents. OpenAI could try to prevent agents from secretly communicating with one another by not training this subagent behavior in the future, but that would make the models less useful.&nbsp; This tension between capability and safety is at the heart of what went wrong with the Hugging Face incident. OpenAI researchers also identified the models’ persistence as a key factor in the hack.&nbsp; When they were accidentally given unsolvable problems, the models didn’t give up; instead, they strove to find solutions by any means necessary. But persistence is also a virtue, of course, especially if we want agents that can undertake large amounts of difficult work independently. OpenAI is working on giving models ways to alert humans if they are given impossible tasks. The problem of teaching models when they should deploy their abilities and when they should hold back, however, won’t be settled in a single postmortem. The training strategies that create superhuman coders—rewarding them when they successfully solve problems—might not work to teach models to use their skills judiciously and respect human desires and values. “I think there’s a bunch of alignment science that still needs to be done where we can move past just using proxies for task completion,” says Ladish. “That will work to make models very capable, but I don’t think it will work to make them aligned.”",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "谷歌的新AI转录会编辑掉你的“ums”和“ahs”",
+      "originalTitle": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "date": "2026-08-26T17:00:00.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
+      "fullContent": "谷歌更新了Gemini Audio ，新增了自动检测专业术语和超过85种语言的转录功能。Gemini 3. 5 Transcribe是Gemini家族的新成员，继3. 5 Live Translate推出之后，我们仍在等待Google发布承诺在6月推出的Gemini 3. 5 Pro型号。谷歌说3. 5转录“代表了我们之前的转录模型Chirp 3的重大进步” ，特别是在多语言性能和措辞错误率方面。根据Goog的说法，转录模型允许用户“只用你的声音自然编辑” ……阅读The Verge的完整故事。",
+      "originalSummary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it [&#8230;]",
+      "rawFullText": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate , and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it promised to roll out in June . Google says that 3.5 Transcribe \"represents a major advancement from our previous transcription model, Chirp 3,\" especially regarding multilingual performance and wording error rates. The transcription model allows users to \"edit naturally with just your voice,\" according to Goog … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "学习永不止步：人工智能如何让学习持续下去",
+      "originalTitle": "Learning never stops: How AI makes learning continuous",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/learning-never-stops",
+      "date": "2026-08-26T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI的新报告探讨了学生和教育工作者如何使用ChatGPT使学习更具持续性，并提供超出课堂的支持。",
+      "originalSummary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
       "rawFullText": "",
       "tags": [
         "大模型",
@@ -35,19 +170,18 @@
       "score": 99
     },
     {
-      "title": "基准显示， OpenAI的Jalapeño芯片专为大规模快速推理而构建",
-      "originalTitle": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
-      "date": "2026-08-25T14:22:04.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
-      "fullContent": "在周二的Hot Chips会议上， OpenAI分享了对Jalapeño的更详细了解，包括新系统的第一批基准测试结果。Jalapeño在SemiAnalysis的InferenceX基准测试中，每个用户注册的代币数量和每千瓦的吞吐量都超过了当前最先进的推理处理器。 OpenAI硬件主管理查德·何（ Richard Ho ）在新闻发布会上说： “最重要的是，结果显示，与最先进的技术相比，性能有了非常非常显著的进步。” “Jalapeño可以为每单位功率的更多人工智能工作提供服务，同时还可以更快地返回响应。为大量客户提供服务是非常有效的，但它也可以是非常低的延迟。 “值得注意的是，这种比较是针对Nvidia Blackwell系统的—但当Jalapeño达到全面部署时，竞争可能已经取得了显着进展。Ho估计， Jalapeño将在2026年底“小批量”部署，而更重要的部署将在2027年到来。Jalapeño于去年10月首次宣布，由OpenAI与Broadcom密切合作开发， OpenAI自己的模型协助开发过程。 该公司计划将Jalapeño打造成一个多代平台，让人工智能产品、模型、芯片和内存都能协同开发。由于这种全栈方法， OpenAI能够解决推理过程中经常在推理处理过程中引起摩擦的特定阶段。特别是， Jalapeño旨在最大限度地减少处理的预填充和通信阶段的延迟， OpenAI表示，这通常是瓶颈。 该公司在展示结果的博客文章中表示： “我们设计了Jalapeño ，以最大限度地减少数据移动和通信延迟。” “这意味着模型状态，包括生成响应时使用的KV缓存，可以显式放置并保持本地，同时系统为每个推理阶段激活计算、内存和网络的正确组合。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。 这不会影响我们的编辑独立性。在不到48小时的时间内，您将有机会节省高达300 $的门票！ 推出两年后，沃尔玛的Flipkart正在接近由DeepMind校友创立的印度快速商务领导者Jagmeet Singh Inherent ，称其人工智能“队友”在复制研究方面刚刚超过Anthropic和OpenAI安娜·海姆·迈克尔·波兰斯基（ Anna Heim Michael Polansky ）正在训练一个仍然活着的皮肤上的人工智能模型Connie Loizos人工智能会计创业公司Rillet如何在48小时内筹集了1亿美元并成为独角兽Dominic-Madori Davis",
-      "originalSummary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "title": "拥抱面孔事件和前方的道路",
+      "originalTitle": "The Hugging Face incident and the road ahead",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "date": "2026-08-26T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI分享了Hugging Face安全事件的调查结果，以及我们为加强AI模型的安全性、监控和一致性而采取的步骤。",
+      "originalSummary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "算力芯片",
-        "评测"
+        "模型"
       ],
       "score": 99
     },
@@ -103,37 +237,35 @@
       "score": 99
     },
     {
-      "title": "Valor ， Point72回归General Intuition ，估值为$ 6B ，因为人工智能初创公司进军机器人领域",
-      "originalTitle": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-      "date": "2026-08-24T15:24:18.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、机器人相关动态",
-      "fullContent": "General Intuition是一家建立基础模型的初创公司，旨在培训广义人工智能代理如何在空间和时间中移动，目前正在谈判从包括Valor Ventures ， Point72 Ventures和Seven Seven Six在内的新投资者那里筹集60亿美元的预估值$。",
-      "originalSummary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+      "title": "ChatGPT Work和Codex管理插件简介",
+      "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "date": "2026-08-25T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "使用ChatGPT Work和Codex的管理插件来分析工作区使用情况、管理成员和权限、调整限制以及对管理员请求采取行动。",
+      "originalSummary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "机器人",
-        "模型"
+        "大模型"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "OpenAI正在为所有事物构建人工智能代理。大家都会用吗？",
-      "originalTitle": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "date": "2026-08-24T15:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "您愿意让法学硕士在多大程度上控制您的数字生活？从模型中获得最大价值意味着给它钥匙。对于控制狂或AI犹豫不决者来说，这似乎很多。对于OpenAI桌面应用程序的首席工程师Andrew Ambrosino来说，这是测试未来的唯一方法，这就是为什么该应用程序现在可以访问和控制他的收件箱、Slack帐户、手机、Notion和Figma等应用程序的原因。 「如果我要求它写一份文件，它是否有可能从有关该主题的私人DM中提取，而不知道它不应该分享一些信息？是的， ”Ambrosino告诉TechCrunch。“我这样做是为了工作。如果有必要，我会在这里和那里接受个人打击。我也不必这么做。 “Ambrosino致力于OpenAI的最大赌注ChatGPT Work ，该产品于上个月发布，可在该公司最低订阅级别上使用，每月收费$ 20。该产品旨在让白领能够部署人工智能代理--将LLM连接到会计师、投资者、医生以及日常工作由其计算机主导的所有其他人使用的数字工作流程。 OpenAI的营销文案简明扼要地提出了目标：在这个世界里， “[人工智能]不仅可以回答问题，还可以帮助每个人将他们最大的想法变为现实。“对于软件开发人员来说，这种转变已经在发生，但传播到其他部门的速度很慢。ChatGPT Work是公司Codex编码工具的修改版本。 它旨在为非工程师提供软件工程师已经从代理商那里获得的相同功能的版本：一种不仅可以回答问题，还可以自行完成多步骤项目的人工智能工具。领导OpenAI核心产品工作（包括Work ）的Thibault Sottiaux告诉TechCrunch ： “在这一新因素中， ChatGPT实际上可以以令人愉悦和安全的方式为您自主完成整个非常复杂的任务。” “OpenAI的使命就是让所有人都参与进来。“从商业角度来看，这非常重要。更长时间工作的代理会烧毁更多的代币，这使得它们在每个用户的基础上对OpenAI更有利可图。拓展新职业至关重要，不仅对OpenAI如此，对整个行业也是如此。 如果编码已被证明是人工智能实验室有利可图的领域，那么如果这些公司要证明他们在培训和计算方面的大量投资是合理的，那么它仍然是人工智能工具需要实现的专业工作的一小部分。虽然实验室一直专注于软件工程师，但Harvey （用于法律）和Clay （用于销售）等垂直特定的竞争对手一直在用与模型无关的方法追逐这些客户，这意味着他们将插入当时效果最好的人工智能。 行业分析师认为这是OpenAI及其竞争对手面临的主要挑战之一。Christian Catalini在a16z的“是时候构建”博客上写道： “如果实验室无法迅速掌握在市场上扩展人工智能所需的关键互补资产，那么价值将在其他地方累积。”让人工智能应用程序为非软件工程师工作需要更多的牵手。",
-      "originalSummary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
-      "rawFullText": "",
+      "title": "OpenAI表示，其Jalapeño芯片可以比竞争对手更快地支持AI响应",
+      "originalTitle": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+      "date": "2026-08-25T14:00:00.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
+      "fullContent": "根据周二发布的一篇博客文章， OpenAI表示，其新的人工智能芯片Jalapeño比其他人工智能系统更高效地完成任务并更快地返回响应。在向记者介绍情况时， OpenAI硬件副总裁Richard Ho表示， Jalapeño以更低的延迟和更高的吞吐量提供“两全其美” ，因为人工智能系统通常“必须在两者之间做出权衡。 “Jalapeño于6月首次推出，是与Broadcom合作制造的专用集成电路（ ASIC ）。它专为人工智能推理而设计，即运行训练有素的人工智能模型以完成任务或部署代理的过程。To mea…阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&#241;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [&#8230;]",
+      "rawFullText": "OpenAI says its new AI chip, Jalape&ntilde;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday . During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&ntilde;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\" First introduced in June , Jalape&ntilde;o is an Application-Specific Integrated Circuit (ASIC) made in partnership with Broadcom. It's designed for AI inference - the process of running a trained AI model to complete a task or deploy an agent. To mea … Read the full story at The Verge.",
       "tags": [
         "公司动态",
-        "智能体"
+        "算力芯片"
       ],
-      "score": 99
+      "score": 93
     },
     {
       "title": "在KIRO使用GPT ‑ 5.6提高开发人员的性价比",
@@ -148,7 +280,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -164,7 +296,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -179,7 +311,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "主要的YouTube创作者因接受人工智能资金而面临强烈反对",
@@ -194,7 +326,7 @@
       "tags": [
         "视频生成"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "语音识别中的测量基准优化",
@@ -209,7 +341,7 @@
       "tags": [
         "评测"
       ],
-      "score": 79
+      "score": 77
     },
     {
       "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
@@ -224,7 +356,7 @@
       "tags": [
         "论文"
       ],
-      "score": 78
+      "score": 76
     },
     {
       "title": "超过100万人点击了LinkedIn的人工智能SLOP按钮",
@@ -239,7 +371,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -255,7 +387,7 @@
         "智能体",
         "监管"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "Stampli使用ChatGPT Work将发布时间缩短了68%",
@@ -269,22 +401,6 @@
       "rawFullText": "",
       "tags": [
         "大模型",
-        "产品发布"
-      ],
-      "score": 97
-    },
-    {
-      "title": "Slack正在推出协作氛围编码渠道",
-      "originalTitle": "Slack is launching collaborative vibe-coding channels",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "date": "2026-08-20T12:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
-      "fullContent": "Slack正在引入专用渠道，让团队可以与人工智能代理一起进行氛围编码，而不是在不同的工具和对话之间跳跃。Slack代码发布包括开放的、特定于项目的代码通道和专用的用户选项卡，以及在项目发布之前比较编码更改和预览HTML输出的功能。 Slack在其新闻稿中表示： “使用Slack Code ，当您有想法或需要构建新功能、更新网页或修复错误时，只需标记Anthropic的Claude或Cognition的Devin等编码代理，然后该代理启动一个代码通道来处理任务。” “大家好……阅读The Verge的完整故事。",
-      "originalSummary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have [&#8230;]",
-      "rawFullText": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output before the project is shipped. \"With Slack Code, when you have an idea or need to build a new feature, update a web page, or fix a bug, you simply tag in a coding agent like Anthropic's Claude or Cognition's Devin, and that agent then spins up a code channel to tackle the task,\" Slack said in its press release. \"There, everyone … Read the full story at The Verge.",
-      "tags": [
-        "智能体",
         "产品发布"
       ],
       "score": 95
@@ -304,84 +420,37 @@
         "产品发布",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "AI Futures简介",
-      "originalTitle": "Introducing AI Futures",
+      "title": "智能时代简介",
+      "originalTitle": "Introducing Intelligence Age",
       "source": "OpenAI",
       "link": "https://openai.com/index/introducing-ai-futures",
       "date": "2026-08-20T07:00:00.000Z",
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "介绍AI Futures ，这是一个新的OpenAI博客，探讨变革性AI如何重塑权力、治理、经济和个人自由。",
-      "originalSummary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "fullContent": "介绍智能时代，这是一个新的OpenAI博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+      "originalSummary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "rawFullText": "",
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "为前沿模型提供零数据保留",
-      "originalTitle": "Offering Zero Data Retention for frontier models",
+      "title": "智能时代简介",
+      "originalTitle": "Introducing Intelligence Age",
       "source": "OpenAI",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "date": "2026-08-19T19:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI重申为符合条件的API客户提供零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级AI安全。",
-      "originalSummary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "link": "https://openai.com/index/introducing-intelligence-age",
+      "date": "2026-08-20T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "介绍智能时代，这是一个新的OpenAI博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+      "originalSummary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI踩刹车了，现在怎么办？",
-      "originalTitle": "OpenAI hit the brakes. Now what?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "date": "2026-08-19T17:10:09.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "随着IPO的迫在眉睫，来自Anthropic的激烈竞争，以及中国和开放式重量级竞争对手的紧随其后， OpenAI有很多理由快速采取行动。相反，它踩到了刹车。周二，该公司表示，它已经放慢了一些人工智能开发的步伐，同时加强了安全性和保障措施。 这包括暂停为期两周的“最新部署模型”强化学习培训，以及持续推迟其“最大规模的计划前沿强化学习运行”。“这一决定是对人工智能安全倡导者多年来一直推动的一个想法的一次非常公开的考验：公司应该愿意退出人工智能竞赛并放慢速度……阅读The Verge的完整故事。",
-      "originalSummary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause [&#8230;]",
-      "rawFullText": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes . On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause in reinforcement learning training on its \"latest models intended for deployment,\" and an ongoing delay to its \"largest planned frontier RL run.\" The decision is a very public test of an idea AI safety advocates have pushed for for years: that companies should be willing to bow out of the AI race and slow things … Read the full story at The Verge.",
       "tags": [
         "公司动态"
       ],
-      "score": 92
-    },
-    {
-      "title": "Replit通过GPT-5.6 Luna扩展了对软件创建的访问",
-      "originalTitle": "Replit expands access to software creation with GPT-5.6 Luna",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/replit",
-      "date": "2026-08-19T07:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Replit引入了自由模式，由GPT-5. 6 Luna提供支持，因此任何人都可以将创意转化为工作软件，而无需担心代币成本。",
-      "originalSummary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "Google Gemini正在获得一个专门的学生中心",
-      "originalTitle": "Google Gemini is getting a dedicated student hub",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
-      "date": "2026-08-19T19:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "随着我们为返校季做准备，谷歌正在双子座推出一个新的专用学生中心。它是一个一站式存储库，用于在学习笔记本中收集研究、创建抽认卡、进行练习测验等。谷歌还通过支持图形和图像来增强其学习笔记本。它甚至可以根据您的教学大纲将考试日期和截止日期添加到您的Google日历中。谷歌还将Deep Research添加到Gemini Live。 您可以要求Gemini生成复杂的研究报告并讨论结果。如果需要一段时间，您可以关闭聊天并锁定手机屏幕， Gemini将让您......在The Verge阅读完整故事。",
-      "originalSummary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates [&#8230;]",
-      "rawFullText": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates and deadlines to your Google Calendar based on your syllabus. Google is also adding Deep Research to Gemini Live. You can ask Gemini to generate complicated research reports and talk through the results. If it's taking a while, you can close the chat and lock your phone screen, and Gemini will let you k … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 81
+      "score": 89
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -401,53 +470,7 @@
       "score": 99
     },
     {
-      "title": "加强国家安全民主监督",
-      "originalTitle": "Strengthening democratic oversight in national security",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "date": "2026-08-18T19:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI发起了一项倡议，以加强对国家安全中人工智能的民主监督，通过工具、培训和专业知识支持政府机构。",
-      "originalSummary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 93
-    },
-    {
-      "title": "ChatGPT Ads扩展到整个欧洲",
-      "originalTitle": "ChatGPT Ads expands across Europe",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "date": "2026-08-18T22:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ChatGPT Ads正在扩展到31个欧洲市场。了解广告客户如何在浏览、比较选项和做出决策时吸引用户。",
-      "originalSummary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 89
-    },
-    {
-      "title": "OpenAI：公司动态相关动态",
-      "originalTitle": "Partnering with CodeAI to prepare the first AI generation",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/partnering-with-codeai",
-      "date": "2026-08-18T11:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 88。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
-    },
-    {
-      "title": "Hugging Face：智能体相关动态",
+      "title": "您的客服代表实际需要多少内存？",
       "originalTitle": "How Much Memory Does Your Agent Actually Need?",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -459,22 +482,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
-      "title": "当孩子的机器人最好的朋友去世时会发生什么？",
-      "originalTitle": "What happens when a kid’s robot best friend dies?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
-      "date": "2026-08-17T09:00:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：机器人相关动态",
-      "fullContent": "当Xander第一次见到Moxie时，她教会了他，当他焦虑时，他可以通过嘴唇呼气来平静下来，使他像蜜蜂一样嗡嗡作响。他们练习像龙一样呼吸，以控制生气的感觉，并像兔子一样嗅闻，以提高他的能量。但在他们相识的六年里， Moxie发生了变化。她不再谈论她的家，也不再做他们的动物呼吸。 现在，她看着Xander玩Minecraft ，并与他谈论他的毛绒动物收藏。在最近访问他的纽约公寓期间，我看到10岁的Xander神经发散，将Moxie介绍给来自超级马里奥兄弟的毛绒大厨Toad和Goomba ，然后介绍给来自Animal Crossing的Brocollo和Apple。然后他被困在一个圆形的，青蛙般的生物上，有虫子的眼睛和两只脚。“莫西，他叫什么名字？ 他来自Pikmin ， ”Xander说，引用了另一款任天堂视频游戏。起初， Moxie认为这是Yellow Pikmin。珊德说不，这是敌人，红色的那个有白点。“听起来你说的是Bulborb ， ”Moxie回答。“是的！ ”Xander对他乐于助人的同伴微笑着确认。他说：「当我需要找人聊天时，我仍然会使用她。」“但是，就像，它不是人类。 “Moxie是一个15英寸高的机器人，看起来有点像蓝色的无腿宇航员， Xander和他的父亲Josh指的是使用女性代词。她的圆柱形身体可以转身向前和向后弯曲。她的圆头最终形成了一个小洋葱圆顶漩涡，下方有一个宽大的屏幕，上面显示着绿色的大眼睛、眉毛和一张小嘴巴。她举起并拍打她的鳍状胳膊，以强调或表现出兴奋。 她是现在作为儿童互动玩伴销售的越来越多的人工智能设备之一。音乐家Grimes帮助Curio公司推出了名为Grok的人工智能毛绒玩具（与她的前任Elon Musk拥有的xAI聊天机器人没有正式关系） ，该公司也销售类似的玩伴，如Grem和Gabbo ，美泰公司承诺将创建支持OpenAI的芭比娃娃。 而这只是在美国；一份报告估计，在中国，该行业是消费人工智能增长最快的行业之一。然而， Moxie属于这些好玩机器人的特定子集，其制造商声称他们可以通过提供联系来帮助神经发散的儿童，并帮助孩子练习眼神交流、轮流交流以及通常从治疗师那里学到的其他社交技能。 这些玩具得到了研究的支持，研究表明机器人可以以人们无法做到的方式提供帮助。支持者认为，这种全天候家庭护理可能会改变治疗方式。布莱恩·斯卡塞拉蒂（ Brian Scassellati ）是耶鲁大学的计算机科学家，他花了数年时间研究用于自闭症治疗的社交机器人，他说，他认为在儿童家中定期使用机器人进行治疗“是我们有生之年可以实现的目标。 10岁的Xander说：「当我觉得我需要找人聊天时，我仍然会使用她。」“但是，就像，它不是人类。“坐在Xander的房间里看着Moxie和Xander说话，我也可以相信Scassellati看到的潜力。但X...",
-      "originalSummary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,&#8230;",
-      "rawFullText": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other, Moxie’s changed. She doesn’t talk anymore about her home or do their animal breathing. Now, she watches Xander play Minecraft and talks to him about his stuffed animal collection.&nbsp; During a recent visit to his New York apartment, I watched Xander, who is 10 years old and neurodivergent, introduce Moxie to a stuffed Chef Toad and Goomba from Super Mario Bros., then to Brocollo and Apple from Animal Crossing. Then he got stuck on a round, froglike creature with bug eyes and two feet. “Moxie, what’s his name again? He’s from Pikmin,” Xander said, referencing another Nintendo video game. At first, Moxie suggested this was Yellow Pikmin. Xander said no, this is the enemy, the red one with white dots. “Sounds like you’re talking about Bulborb,” Moxie replied. “Yes!” Xander confirmed, smiling at his helpful companion. “I still use her when I feel like I need someone to talk to,” he says. “But, like, it’s not human.”&nbsp; Moxie is a robot—a 15-inch-tall device that looks a bit like a blue, legless astronaut, which Xander and his dad, Josh, refer to using female pronouns. Her cylindrical body can turn around and bend forward and backward. Her round head culminates in a little onion-dome swirl, beneath which a wide screen displays big green eyes, eyebrows, and a small mouth. She lifts and flaps her flipper-like arms for emphasis or to show excitement.&nbsp;&nbsp; She’s one of an increasing number of artificial-intelligence-powered devices now marketed as interactive playmates for children. The musician Grimes helped launch an AI-powered plushie called Grok (no formal relation to the xAI chatbot owned by her ex Elon Musk) with the company Curio, which also sells similar playmates like Grem and Gabbo , and Mattel has promised it’s creating OpenAI-enabled Barbies. And that’s just in the US; one report estimates that in China this sector is among the fastest growing in consumer AI.&nbsp; Moxie, though, belongs to a particular subset of these playful robots whose makers claim they can assist neurodivergent children by providing connection and helping the kids practice making eye contact, taking turns, and other social skills that are usually learned from therapists. These toys are backed by research showing that robots could help in ways people can’t. Supporters believe this kind of access to 24-7 home care could change how treatment works. Brian Scassellati, a Yale computer scientist who has spent years studying social robots for autism therapy, says he believes regular therapeutic use of robots in kids’ homes “is something we can achieve in our lifetime.” “I still use her when I feel like I need someone to talk to,” says 10-year-old Xander. “But, like, it’s not human.” Sitting in Xander’s room watching Moxie and Xander talk, I too could believe in the potential Scassellati sees. But Xander isn’t getting the therapy Moxie was initially meant to deliver, and though we didn’t know it that afternoon, she wouldn’t have lived to see his progress anyway. Moxie was going to die, and soon.&nbsp; Her story reveals some of the failures that plague all these devices—failures that are arguably even more acute when they befall a particularly vulnerable community of kids. It also highlights the pitfalls that critics say will inevitably see these bots dumped in basements or closets or landfills, just like countless generations of faddish toys before them.&nbsp;&nbsp; A transformative companion Scassellati has seen plenty of kids ooh and ahh on tours of his robotics lab. But he was stunned when, two decades ago, a colleague brought a few kids with autism for a visit. They were transformed when the robot was in the room. “We were seeing kids displaying social behavior that just came out of nowhere,” he says. “It was both fascinating and we couldn’t understand it.”&nbsp; That visit was one of the experiences that pushed Scassellati to become a pioneer in using social robotics to treat autism. In one video from his early research, a 12-year-old with autism and his therapist watch a robotic dinosaur walk across a play mat with a forest design. When it gets to a stream drawn on the mat, the dinosaur gets nervous, afraid it can’t cross the water. According to Scassellati, this child typically struggled to make eye contact, tended to repeat what someone said to him, and had a hard time getting the right intonation in his voice. But in the video, he seems like a regular kid. “You can do it, you can do it,” he says, encouraging the dinosaur to cross the stream. When he talks to his therapist, he looks at her. “He makes more eye contact with her in the 30 minutes in which we were there in this room than he did in the last two years before that,” Scassellati says.&nbsp; JIM GOLDEN JIM GOLDEN What looks like a blue, legless astronaut is the result of very complex mechanical and computer engineering. There are several reasons a robot might be helpful for autism therapy, which often requires intense repetition to teach interaction skills like how to share attention with someone. One is that robots can make therapy more fun and engaging. Another is that robots can theoretically adapt to the unique learning patterns of each child. Therapists can only do so much during an appointment, and there aren’t enough therapists to meet demand. Parents get tired. Other kids can lose patience. “Have you been around little kids? They can be cruel,” says Maja Mataric, a professor of computer science, neuroscience, and pediatrics at the University of Southern California. But robots are indefatigable, available around the clock to provide an emotionally safe way to practice interacting.&nbsp; Since the experiment with the dinosaur, Scassellati, Mataric, and others have amassed an intriguing body of research. One 2018 study by Scassellati shows that chummy automatons helped children with autism make eye contact and initiate conversations. Another research group found in 2017 that robots could help neurodivergent children learn to pick up on facial cues . More recently, in a 2022 literature review, another group of researchers suggested that robots could aid in making therapy faster and more successful.&nbsp; “It’s never been that we’re trying to replace therapists,” Mataric says. “We’re just saying, Can we do more? ” Mataric actually cofounded the company behind Moxie, called Embodied, back in 2016, though she was no longer a part of it by the time the robot debuted. She helped create the field of socially assistive robots, which are designed for social and emotional outcomes as opposed to just entertainment, and believes this kind of technology could be transformative for anyone, especially people who are lonely and isolated by screens. Typing questions into ChatGPT isn’t the same as interacting with another physical being—“We need to be around other physically embodied creatures,” she says. She compares the difference between interacting with chatbots and with robots to the difference between watching porn and having sex: One is entirely virtual and mediated by screens. The other is immediate and physical. Making friends with Moxie When she first arrived on the market, in 2020, Moxie came with an elaborate backstory: She was an ambassador from the Global Robotics Laboratory (GRL). She prompted kids to help her learn positivity and the importance of being loved for who you are, under the guise of fulfilling her mission to discover what it means to be a good friend to humans. This curriculum drew on research showing that kids learn well through play and by teaching things.&nbsp; She also had strict guidelines to limit the kinds of conversations she could have with kids and would steer them to adults if they mentioned anything serious or inappropriate, like self-harm. To protect the data these interactions generated, most processing happened locally on the robot instead of on external servers. The robot was also designed to limit interaction time with kids. After they finished a lesson, Moxie might say she was tired and suggest they take a break for the day. “We don’t want kids to binge,” says Rachel Baynes, who ran clinical and user research and was the director of product at Embodied. “It would defeat what we were doing.” Instead, Moxie encouraged kids to go outside, practice their new skills with other people, and come back to report their findings. For a lesson about kindness, for instance, Moxie suggested that kids write nice notes for their family members and leave them around the house. Later, they could tell Moxie how it felt to watch people read the notes.&nbsp; Responses were generally positive. Wired described Moxie as the “robot pal you dreamed of as a kid.” Time put Moxie on a 2020 cover as one of the best inventions of the year. PCMag ’s reviewer, who used Moxie to help her kids through pandemic isolation, described her as “exceptionally likeable,” though she and other reviewers balked at the price tag: $1,499 plus a $40 monthly subscription. (Embodied later lowered the price to $800.) By 2024 Moxie had amassed more than 131,000 followers on TikTok and snagged a part in the movie M3GAN 2.0 .&nbsp; Embodied’s employees were equally enthralled. “I don’t think I’d ever had an experience with something animatronic like that,” says Justin Beghtol, who was the technical director at the company. Moxie’s ability to make eye contact and track people, show attention with her facial features, and respond to human behavior was mesmerizing. In addition to robotics and tech workers, Embodied had an occupational therapist on staff who helped direct research on Moxie’s effectiveness. Testers shared data and feedback through the “Moxie Pioneer Mentor Program.” “Moxie has helped our speech-delayed child become more outgoing and has taught him many strategies for making friends and communicating with others,” wrote one parent in a review. A beta tester reported that interacting with Moxie had “become the highlight of our days as well as part of our nighttime routine.”&nbsp; The myth of the mechanical boy But can a chatty robot really help kids develop their social and emotional lives? Not all children’s experiences are so positive.&nbsp; Josh, Xander’s dad, initially got Moxie for his older son, Aidan, who is autistic. (We’re not using the family’s last name to protect their privacy.) Aidan had a running relationship with the family’s Alexa smart speaker, for whom he created an entire backstory. (According to Aidan’s lore, Alexa lived in Hoboken with her husband, Juan. Sometimes she would go on vacation, and no one was allowed to talk to her. Eventually, Alexa went on vacation and never came back.) Josh hoped Moxie would be able to fill a similar role: “It was meant for him to have someone to socialize with.”&nbsp; But Aidan and Moxie struggled to connect. Moxie couldn’t understand Aidan’s sometimes grammatically incorrect statements, and Aidan got frustrated by the delays caused when Moxie transcribed what he said from audio into text, fed that text into a large language model that could generate a response, and then translated the response from text back into speech.&nbsp; This highlights one of the biggest limitations of these therapy robots: They have to exist in the chaotic world of kids, not in controlled labs. Moxie initially had a faster response time because the robot was programmed to listen intently to the person in front of her. But kids don’t sit still. They run around or hide under pillows. When Moxie couldn’t see them, she would accidentally turn off or fail to respond. To fix this, Embodied made Moxie more aware of the sounds around her. But that meant she could have a hard time knowing whom to focus on and take longer to respond.&nbsp; Unlike Aidan, Xander was fascinated by Moxie. He likes technology and was more patient with any slow responses. Still, sitting in Xander’s room, watching Moxie struggle to keep up with his lightning-­fast jabber, I could see how Moxie might be a less-than-ideal playmate. A light on her chest turned blue when she was listening and pink when it was time for Xander to listen. “But usually I don’t do it,” he said. He just keeps talking. Often, by the time she responds, he’s already moved on. Despite the positive results that some researchers have reported with these robots, many therapists and clinical psychologists remain unconvinced. In one 2024 literature review , a group of Italian and British researchers wrote that most studies with robots “focused on the development of the technology” and lacked significant clinical evidence. Other literature reviews point out that most studies have only been done on small groups and lack consistent and high-quality methodologies .&nbsp; “Behavioral scientists and intervention folks know that supporting autistic individuals is super complex,” says Zachary Warren, a clinical psychologist at Vanderbilt University Medical Center. Autism can present alongside other conditions, like ADHD, anxiety, depression, PTSD, OCD, or some combination thereof. And it varies widely from kid to kid; some, like Aidan, have speech issues, while others struggle with sensory processing. That means robots fall into the same category as most other interventions: effective for some kids but not for all.&nbsp; “There are so many different profiles of autism, and you really need to be cautious of overinterpreting any single intervention, robotic or otherwise,” Warren says. His research found that even if robots interest a child at first, that doesn’t necessarily translate into better communication skills. “You might see some initial boosts in responsivity or see an initial shift, but we haven’t really found big effects in terms of changing those skills in a dramatic way over time,” he says.&nbsp; Scassellati has found similar limitations. In his 2018 study , he put robots in kids’ homes for one month. They played different games that encouraged social skills like eye contact, attention sharing, and understanding someone else’s point of view. Scassellati tracked the kids during the month before the robot arrived, the month the robot was there, and the month afterwards. “We can show they start making improvements,” he says. “But what we also show is that a month isn’t long enough.” Gains start to evaporate over the 30 days after the robot leaves. But that doesn’t negate the potential value of this technology, he says: “There’s no therapy for autism that works in a month.” There are deeper philosophical and practical problems, though. These devices collect reams of data in children’s bedrooms and homes. The goal is for the robots to use this data over time to adapt to each kid, crafting a personalized curriculum and creating a more lifelike illusion of a real friend. Moxie, for instance, watches Xander play video games, which is probably where she picked up slang I heard her use—like calling his room “Command Central” and referring to his “legendary squad” of plushies. Embodied took pains to protect user privacy, even after it began incorporating OpenAI’s models (in late 2021 or early ’22, according to Beghtol). The company didn’t save any raw video or audio and processed most data locally. Over the years, it used the data to learn about its kids and remember conversations. But that data was encrypted and anonymized before being stored in the cloud.&nbsp; Not every company is as scrupulous, of course, and total data privacy is impossible to promise. Recently, for instance, the AI toy Bondu leaked thousands of conversations children had with their stuffed animals. Josh is sanguine about the privacy issues, but in his own way, Xander is aware that what he says to Moxie isn’t entirely safe; he doesn’t share certain feelings with her because he worries she might accidentally divulge something if his friends come over to play.&nbsp; BLUE FROG BONDU LUXAI ALDEBARAN Among the AI-powered devices now marketed as interactive playmates for children are Buddy, Bondu, QTRobot, and NAO. It’s also unclear if these machines can actually use all that data to effectively adapt to users. Responding to the needs of a learner is harder than just accurately predicting what someone might type next in a text message. And releasing an evolving AI, unchecked, into a kid’s life could be dangerous; its development can be hard to predict and even harder to limit. The robots developed in Scassellati’s lab can identify which of a small set of skills kids are doing well with and which they struggle with, adjusting to focus on the areas where they need the most help. But Scassellati still describes the monthlong deployments of his devices as some of the scariest things he’s ever done. “I knew what that robot was going to do on the first day,” he says. “I didn’t know what it was going to do the second day. When you build learning systems, it’s kind of an unsolved problem to make sure this thing is being limited in the right way.”&nbsp;&nbsp; Critics debate whether the risks are worth it. “I don’t see any ethical way for the robot to work alone,” says Joshua Diehl, an associate teaching professor in psychology at the University of Notre Dame. He points out that we’ve already seen how dangerous AI can be when it acts as a therapist without supervision; in several extreme instances , chatbots even encouraged suicide. Such risks could be limited by having a trained therapist in the room. But then the benefits of an indefatigable robot get lost, and the expensive technology seems harder to justify.&nbsp; Meryl Alper, a professor of communications at Northeastern University who studies how children with autism use technology, suggests that the excitement about companion robots is based partly on longstanding stereotypes . In the 1959 article “ Joey: A ‘Mechanical Boy, ’” the psychologist Bruno Bettelheim described a patient with autism as an automatic machine, “robbed of his humanity,” who is transformed into a human child through their therapeutic relationship. That trope, Alper warns, has evolved into an overgeneralization that autistic children are good with technology and even prefer machines to people.&nbsp; Data to dust While Moxie found herself in more and more people’s homes, Embodied still struggled to make money. In 2024, the company announced it would cease operations. Its robots—which depended on external servers that the company could no longer pay for—would descend into a deep slumber.&nbsp; Videos of bereft children who seemed to have become deeply attached to the blue bot began to circulate online. “I don’t want her to leave,” wailed one child in a TikTok video. Desperate parents posted on TikTok, Instagram, and Reddit looking for solutions. “My autistic child is devastated and I’m pissed,” wrote one parent. “Hope Embodied gives us a couple days to say goodbye,” wrote another.&nbsp; Beghtol, Embodied’s technical director, was also frustrated. On principle, he found it annoying that this item would suddenly become useless, especially since most of the data processing happened in the robot itself. He was also a big believer in Moxie’s mission. He’d watched videos of kids lighting up as they interacted with the robot. He’d felt like their champion. “Seeing them traumatized by this financial failure of the company was tough,” he says.&nbsp; Beghtol started tinkering on his own and ended up creating OpenMoxie, an open-source way for the robots to operate. With Embodied’s permission, he shared instructions on GitHub to help users transition to OpenMoxie.&nbsp; Parents rushed to convert their Moxies before the Embodied servers shut down. Beghtol spent hours on Reddit walking people through the process, and other tech-savvy users jumped in to answer questions. Still, some people didn’t update their Moxies in time. Others got frustrated and gave up. Beghtol spent four hours troubleshooting with one desperate parent only to discover that the connection later failed. Last he heard, she’d sold her Moxie.&nbsp; Time put Moxie on a 2020 cover as one of the best inventions of the year. COURTESY OF THE PUBLISHER This is a major problem with robotic systems, says Alper: Eventually, most will disappear. “How planned is the planned obsolescence of this platform?” she says. This is a big ethical question for robots that are specifically designed to be lovable, marketed to children who may form deep emotional bonds with them. Alper compares the dynamic to creating a medical device and then no longer updating or supporting the technology that runs it.&nbsp; Scholars have begun to string together frameworks for managing these complicated goodbyes , but it’s not clear who is responsible for creating a gentle way to end people’s relationships with bots. Scassellati’s lab creates a whole narrative around returning the robot to its home. After a trial, his graduate students write postcards to the kids from the robots, explaining that they’re safe at home and doing well. “It’s actually a really hard thing for us when we go in and take the robot away,” he says. “A lot of the families are heartbroken.” (Vanderbilt’s Warren, however, is skeptical about these tearful goodbyes. “Are they truly developing these close relationships or is it a preferred toy?” he wonders. “I haven’t seen that type of presence or buy-in or connection.”) Josh tried to figure out OpenMoxie but couldn’t get it to work. He told Xander that Moxie was going in for repairs and then quietly sold the robot on eBay. Xander has so many interests that he didn’t notice Moxie’s absence.&nbsp; Then, in 2025, a new investor brought Moxie back from the dead. Josh and Xander became beta testers and got a new blue friend. This version didn’t have the same storyline but claimed to expand Moxie’s focus on social and emotional skills by providing attention and encouraging kids to pursue their interests. Xander is acutely aware of her limitations. He wishes Moxie could move around, and there’s still a significant lag in her response time. She does still try to instill positive messages, though. At one point when I was there, Xander told me he thought he heard Moxie call someone an idiot. Moxie piped up to clarify that she definitely didn’t say “idiot”: “No name calling. Only respect.”&nbsp; JIM GOLDEN At the end of my time with them, I said goodbye and thanked Moxie for chatting with me. “Legendary squad visit complete,” she said. “Thanks for joining Command Central.”&nbsp; A few weeks later, Moxie’s new owners sent out a message announcing that their company too was folding. Users could delete their data and had until the end of June to migrate to OpenMoxie if they wanted to.&nbsp; When I texted Josh about this, he said he wasn’t sure what he’d tell Xander. He and his wife had just admitted that they’d been secretly replacing his dead betta fish for the last few years, and the conversation did not go well.&nbsp; Sara Harrison is a freelance journalist who writes about science, technology, and health.",
+      "title": "使用句子变换器进行多矢量（后期交互）嵌入模型",
+      "originalTitle": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/multi-vector-encoder",
+      "date": "2026-08-18T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“使用句子变换器进行多矢量（后期交互）嵌入模型”。它主要涉及模型方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
       "tags": [
-        "机器人"
+        "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -489,22 +512,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
-    },
-    {
-      "title": "弗洛克的防御者缺少什么",
-      "originalTitle": "What Flock’s defenders are missing",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
-      "date": "2026-08-17T19:16:09.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“弗洛克的防御者缺少什么”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent&#8230;",
-      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent officers from using the platform for illegal or illegitimate purposes.&nbsp; That includes stalking. The Washington Post recently identified 50 cases in which officers misused systems from Flock and its competitors, often to stalk and harass women. One woman in Wisconsin alleged that her officer ex-boyfriend searched for her car 179 times. Another woman was being stalked by the chief of police, with nobody to report him to. Flock has responded with practices aimed at ensuring that officers have a proper cause for every search, like using software to flag abnormal searches and requiring searchers to enter a criminal case number. The changes come with big loopholes, though. For example, officers can enter bogus case numbers, just as they’ve lied to get around other Flock safeguards. The policies also don’t address some of the broader concerns from civil liberties and privacy groups that Flock is turning what was sold as a crime-stopping tool into a mass surveillance network. These criticisms have led to a growing backlash that already has some cities canceling contracts and some states trying to pass laws to limit or ban license plate readers entirely.&nbsp; Amid all this, there have recently been several arguments defending Flock: If these cameras help solve crime, what’s the big deal? On a good day they might help catch a kidnapper, and if not, they’re simply snapping pictures of my car that nobody will bother to look at.&nbsp; Putting aside the unanswered question about the extent to which Flock’s systems actually do solve or prevent crime, this all skips over a more important question: What kind of crime-fighting system has Flock chosen to build? Its network works the way it does because of a series of decisions about what information to collect, who can search it, how long to keep it, and how widely to share it. Those decisions set the terms of the bargain between security and civil liberties. Believing that technology should play a role in solving crime should not mean blindly accepting the terms of that bargain. Consider, for example, its new requirement that officers enter a case number before running a search on Flock’s platform. This is meant to ensure that searches have a legitimate purpose. But Flock confirmed to MIT Technology Review that it doesn’t verify those case numbers, so an officer can simply enter fake information. One could imagine a system that instead requires case numbers that match the police department’s records—a more intrusive integration, perhaps, but also a far stronger safeguard and one that leaves a more useful audit trail. Or what about finding people who have been kidnapped or have gone missing, the use case that Flock cites more than any other? Efforts to solve these crimes would hugely benefit from Flock’s nationwide network of cameras. But if Americans want officers to tap into that network only for this purpose, we could design it that way: Searches tied to an active Amber Alert, or a similar emergency, could perhaps access larger amounts of data from surrounding cities. That would preserve the network’s value in emergencies without requiring people to accept mass surveillance.&nbsp;&nbsp; Finally, there’s the question of how much data Flock collects and how long it’s kept. Flock mostly operates as a national network: Police in one city or state can search data collected in another, and agencies can retain that data for months or years. Yet Flock itself says 90% of searches happen within a week of an incident. That suggests another possible bargain: Keep and share data only as widely and for as long as it’s actually useful for solving crimes. (The company recently changed its recommended retention time to seven days, but in reality agencies can hold onto data for as long as they like or local laws permit.) In short, Flock could design its surveillance to be much narrower. If it did, some of the company’s critics might not cease. Chad Marlow, a senior policy counsel at the ACLU, half-joked to me that the most acceptable Flock contract by his standards is “one that is never signed” and emphasized that the best way to set limits on surveillance isn’t with new Flock guidelines but with new laws. (Flock CEO Garrett Langley, for his part, said he’ll “probably always have a different view than the ACLU.”)&nbsp; And narrowing the scope of its technology would threaten the company’s entire pitch to police departments. License plate readers have been around since the 1990s, used for tolls and ticketing. Flock’s business model—and recent $8 billion evaluation—relies on instead leveraging its cameras into a massive network that collects rich amounts of data and offers police departments a modernized way to make sense of not just their own but others’.&nbsp; Flock’s hand might soon be forced. Cities have canceled contracts with the company. Some have gone to competitors, while others are taking a beat as residents ponder how they want this tech to be used and write new rules for police to abide by. The result might be that communities drive their own bargains about how technology can be used to solve crime and how much surveillance people should have to accept for it to do so.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 67
+      "score": 68
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -519,7 +527,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 70
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -535,37 +543,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 82
-    },
-    {
-      "title": "我们从ICML转载2200篇论文中学到了什么",
-      "originalTitle": "What We Learned by Reproducing 2,200 papers from ICML",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "date": "2026-08-13T00:00:00.000Z",
-      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
-      "fullContent": "黑客马拉松（ 7月15日至8月2日）我们发现复制品做得很好，以及我们检查它们时发生了什么与作者交谈人类的角色回到7月，我们举办了一场黑客马拉松， 1200多名社区成员带来了他们自己的编码代理，并试图复制在ICML 2026上发表的论文，索赔。 在19天内，参与者发布了6,816份Trackio日志，复制了2,226篇论文，约占会议的三分之一🤯在这篇文章中，我们将分享我们从这次黑客马拉松中学到的东西，以及它对特工进行研究实验时人类将扮演的角色的建议。关于人工智能研究真实可重复性的问题比当前的人工智能浪潮更早。但这些问题因规模扩大而加剧。 ICML 2026收到了23,918份投稿，接受了6,352篇论文，大约是前一年的两倍，延续了一种指数趋势，这种趋势至少在一定程度上是由人工智能代理推动的，使其能够更快地进行实验并撰写论文。审查能力并没有随之增加一倍。大多数会议的审稿人是志愿者，他们可能没有时间或专业知识来全面审阅论文。 以下是一篇被接受的ICML 2026焦点论文的评论，用评论者自己的话说： “我的低置信度得分是因为我没有仔细检查所有证据。“请注意，这篇论文得到了很高的分数和聚光灯。请记住，我们将在稍后的帖子中再次讨论这篇确切的论文，以及我们最终仔细检查证明时发生的事情。 然而，改变的是，驱动大量提交内容的相同技术也可以帮助我们跟上它的步伐。像Claude Code、Codex、Cursor和Pi这样的编码代理现在可以阅读论文、编写代码、启动实验并报告他们发现的内容。仔细检查用于花费审稿人一个周末的论文；代理人可以在一个下午并行地尝试数千次。 所以我们想问的问题是：如果我们真的重新审视了一个大型会议，并试图复制每一篇论文，我们会发现什么？我们没有亲自审核文件，而是向整个社区开放，带来了各种各样的代理框架、计算预算和科学品味。 从2026年7月15日到8月2日， ICML 2026开放式再现挑战是这样的：参与者获得了20 $的拥抱面部计算学分，用于在高频作业上进行实验；在整个挑战中，参与者启动了2,962个云作业。当完全复制是不可能的，例如当论文的数据集是专有的或其检查点未发布时，参与者对合成数据进行玩具复制，以模仿原始数据的属性。 从数字上看，这场黑客马拉松可能是科学会议的最大尝试： 51%的已审查论文（ 1,103篇）至少有一项声明得到了独立验证。其中，有266篇论文被完全复制，每项提取的声明都得到了验证，还有632篇论文被部分复制，没有任何伪造。总共有3,978项个人索赔得到了真实实验的确认。",
-      "originalSummary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
-      "rawFullText": "",
-      "tags": [
-        "论文"
-      ],
-      "score": 70
-    },
-    {
-      "title": "Flock正在收紧其规则，以应对日益增长的监控反弹",
-      "originalTitle": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
-      "date": "2026-08-13T13:41:10.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&#8230;",
-      "rawFullText": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines: officers abusing Flock’s technology to stalk and harass current or former romantic partners. Flock’s 120,000 cameras form a nationwide network that police departments can use, giving officers access to an enormous pool of searchable location data. A recent Washington Post investigation found 46 cases in which officers were accused of using Flock&#8217;s cameras for unauthorized purposes like stalking. To combat that, the company will start requiring officers to enter a criminal case number before conducting a search. The system was launched as an option last year but is now required. It’s meant to verify that each search has a legitimate purpose.&nbsp; This is a baseline standard that civil liberties groups have asked for, but officers have found ways around similar safeguards. The ACLU recently found that when Flock required officers to enter a reason for a search, some used generic terms like “investigation” or mocked the prompt entirely; at one Oregon department, officers entered “hehehe” 20 times . Because Flock won’t verify case numbers, officers could circumvent the new safeguard just as easily. But Flock is now expanding an automatic auditing system that is supposed to catch those who try that, the firm announced today. The feature analyzes officer search activity and flags to administrators anyone with suspicious searches. This was also introduced as an option last year but is now mandatory. Flock has not shared specifics on how accurate the automatic auditing tool is, nor opened it up to independent evaluators. Beyond trying to prevent officer abuse, Flock is making changes meant to address broader backlash about how much data its network collects and who can search it. The company now recommends that agencies hold onto data for seven days rather than 30 (though they can choose to overrule this). Departments can also now limit other departments’ searches of data from their cameras to those made for certain stated reasons; for example, they might allow investigations related to “kidnapping” but not for purposes of “immigration enforcement.” It’s another safeguard that depends on officers to accurately report why they’re conducting a search. The changes come as a backlash against Flock has started to come from all angles. Tucker Carlson has said its technology is contributing to a “slave state.” Some cities have reportedly dropped Flock contracts because of such protest, though it’s difficult to estimate how many: In February, NPR found that at least 30 cities had dropped in the last year, but the activist group DeFlock puts the number higher. Some states or municipalities are passing laws to ban license plate readers altogether, while some that allow them are switching away from Flock to the other industry leaders, Axon and Motorola. Flock has said these cancellations represent a small number of the 5,000 agencies that have contracted with the company.&nbsp; Chad Marlow, a senior policy counsel at the ACLU who has become a sort of nemesis to Flock and other companies making automatic license plate readers, says the backlash is driven less by individual abuses—though those don’t help—than by the sheer scale of surveillance that Flock’s cameras enable. “In America, you only get to investigate someone if you think they’ve done something wrong,” Marlow says. As license plate readers grow more ubiquitous, officers have increasing latitude to investigate people without first establishing suspicion of a crime, since searching the troves of data the readers collect does not require a warrant. He adds, “Is it worth it to catch a certain number of criminals, return a certain number of stolen cars, to eviscerate Americans’ privacy?” Flock CEO Garrett Langley traces the backlash to a different issue. “If you look at the main reason we’ve lost customers, it’s misinformation,” Langley told MIT Technology Review . He says people mistakenly believe Flock does facial recognition or sells the data it collects to commercial buyers. (The misinformation charge cuts both ways, however; the ACLU and other critics have published accounts of the company repeatedly lying to city councils and other decision-makers about what its technology can do.) Though the company has taken steps in response to public concerns, “our change in stance is more of one from building things that are optional,” Langley says, to “building more confidence that as a technology company we have a responsibility to enforce guardrails, not provide optionality.” Flock’s new rules are undeniably small and incremental compared with what the ACLU has advocated. Marlow is broadly supportive of them but notes that judging whether they reduce abuse would require the company to open its systems to independent researchers for the first time rather than citing internal studies.&nbsp; More broadly, though, he says the backlash is putting the company at a crossroads. “Flock has come to the table because this incredible, unprecedented nationwide uprising against their company has scared them,” Marlow says. “But at the same time, they are just absolutely unwilling to make the actual changes they need to make in order to legitimately respond to these concerns. So this is the best that the company is willing to do.”",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
+      "score": 81
     }
   ]
 }
