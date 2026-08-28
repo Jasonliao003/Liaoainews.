@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T04:26:49.031Z",
+  "updatedAt": "2026-08-28T06:50:06.695Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,88 +19,167 @@
   ],
   "articles": [
     {
-      "title": "ESQ-Bench ：评估NL2SQL方言泛化和静默语义分歧的多层企业Oracle基准",
-      "originalTitle": "ESQ-Bench: A Multi-Tier Enterprise Oracle Benchmark for Evaluating NL2SQL Dialect Generalization and Silent Semantic Divergence",
+      "title": "CIFQA ：基于确定性工具的多代理法学硕士金融查询答案框架",
+      "originalTitle": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.23569",
-      "date": "2026-08-27T04:00:00.000Z",
-      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
-      "fullContent": "arXiv: 2608. 23569v1公告类型：新摘要：最先进的自然语言到SQL (NL2SQL)模型报告在Spider和BIRD等既定基准上执行准确率超过89%。但是，这些基准依赖于简化的学术架构和开源SQL方言，这些方言并不能反映企业数据库环境的复杂性。 我们引入了ESQ-Bench ，这是Oracle首个NL2SQL基准测试，具有系统的复杂性层和跨三个企业架构复杂性层的无声发散评估。 我们构建并发布了六个已填充的架构（ 465个表， 164,682行，零个空表） ，在Oracle、PostgreSQL、MySQL和SQL Server上具有相同的种子数据，一个四指标评估线束（ EM、EX、SR、SD ）和550个黄金验证的问题查询对（ Tier-1 ： 95 ； Tier-2 ： 228 ； Tier-3 ： 227 ）。使用GPT-4o的架构链接提示显示跨层的单调执行匹配降级： 79. 8、60. 3和57。 执行查询的EX为2 ％ （ 2026年6月） ，而较早的142个问题试点切片的EX为75.6 ％ ， 80.4 ％和95.8 ％。新兴市场在整个层级中保持在7%以下；在EX-passing查询中，运营无声分歧达到73%至99%。失败分析表明，错误的结果语义在更高的层次上占主导地位。带有模式链接提示的Claude Sonnet 4. 6达到87. 4、74. 9和68。 7% EX （已执行的查询） ，超过每个层上链接的GPT-4o架构。在执行的查询（ 78. 7%、73. 5%和77. 8% ）上， GPT-4o零镜头EX在2至3级反转模式链接，这是由于零镜头与模式链接分析中的执行率和幸存者偏差较低。本地骆驼3. 2模式链接仅达到13。 3 ％的银行级EX （ 550个中的73个） ，凸显了封闭API模型与企业Oracle架构的开放权重基线之间的差距。",
-      "originalSummary": "arXiv:2608.23569v1 Announce Type: new Abstract: State-of-the-art Natural Language to SQL (NL2SQL) models report execution accuracy exceeding 89 percent on established benchmarks such as Spider and BIRD. However, these benchmarks rely on simplified academic schemas and open-source SQL dialects that do not reflect the complexity of enterprise database environments. We introduce ESQ-Bench, an Oracle-first NL2SQL benchmark with systematic complexity tiers and silent-divergence evaluation across three enterprise schema complexity tiers. We constructed and released six populated schemas (465 tables, 164,682 rows, zero empty tables) with identical seed data on Oracle, PostgreSQL, MySQL, and SQL Server, a four-metric evaluation harness (EM, EX, SR, SD), and 550 gold-validated question-query pairs (Tier-1: 95; Tier-2: 228; Tier-3: 227). Schema-linked prompting with GPT-4o shows monotonic execution-match degradation across tiers: 79.8, 60.3, and 57.2 percent EX on executed queries (June 2026), versus 75.6, 80.4, and 95.8 percent on an earlier 142-question pilot slice. EM stays below 7 percent tier-wide; operational silent-divergence reaches 73 to 99 percent among EX-passing queries. Failure analysis shows wrong-result semantics dominate at higher tiers. Claude Sonnet 4.6 with schema-linked prompts reaches 87.4, 74.9, and 68.7 percent EX (executed queries), exceeding GPT-4o schema-linked on every tier. GPT-4o zero-shot EX on executed queries (78.7, 73.5, and 77.8 percent) inverts schema-linked at Tiers 2 to 3 due to lower execution rates and survivor bias in the zero-shot versus schema-linked analysis. Local Llama 3.2 schema-linked reaches only 13.3 percent bank-wide EX (73 out of 550), underscoring the gap between closed API models and open-weight baselines on enterprise Oracle schemas.",
+      "link": "https://arxiv.org/abs/2608.26114",
+      "date": "2026-08-28T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2608. 26114v1公告类型：新摘要：计算密集型财务问答需要对结构化费率、时间条件、数值公式和基于规则的约束进行精确推理。尽管大型语言模型（ LLM ）在自然语言任务中表现出色，但在解决多步财务计算时，它们通常会产生数字不正确但似乎合理的答案。 为了解决这一限制，我们引入了CIFQA （计算密集型财务查询答案） ，这是一种基于确定性工具的多代理法学硕士框架，用于财务问题答案。 CIFQA通过将专业代理分配到查询解释、路由、参数提取、计算规划和响应生成，将语言理解与数值执行分开，而基于Python的确定性工具则执行财务计算和规则应用。我们为定期存款查询回答实例化CIFQA ，并在定期存款查询的精选基准上对其进行评估。CIFQA达到95。 计算密集型查询的准确率为54% ，总体准确率为90. 87% ，即使提供了完整的公式、费率卡和基准指令，也大大优于直接法学硕士基准。消融研究表明，精确速率查找、任期计算、滚动年调整和过早退出逻辑等确定性因素是性能的关键因素。 值得注意的是，在CIFQA中运行的17B开源骨干优于使用相同财务信息进行评估的大型前沿模型，这表明架构设计是比模型规模更重要的数值可靠性决定因素。在对定期存款查询进行评估时， CIFQA为计算密集型财务推理任务提供了一个可推广的框架。",
+      "originalSummary": "arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce numerically incorrect yet plausible answers when solving multi-step financial calculations. To address this limitation, we introduce CIFQA (Calculation-Intensive Financial Query Answering), a deterministic tool-grounded multi-agent LLM framework for financial question answering. CIFQA separates language understanding from numerical execution by assigning specialized agents to query interpretation, routing, parameter extraction, computation planning, and response generation, while deterministic Python-based tools perform financial calculations and rule application. We instantiate CIFQA for fixed deposit query answering and evaluate it on a curated benchmark of fixed deposit queries. CIFQA achieves 95.54% accuracy on calculation-intensive queries and 90.87% overall accuracy, substantially outperforming direct LLM baselines even when provided with complete formulas, rate cards, and benchmark instructions. Ablation studies show that deterministic components such as exact rate lookup, tenure computation, rolling-year adjustment, and premature-withdrawal logic are critical contributors to performance. Notably, a 17B open-source backbone operating within CIFQA outperforms substantially larger frontier models evaluated with the same financial information, demonstrating that architectural design is a more important determinant of numerical reliability than model scale. While evaluated on fixed deposit queries, CIFQA provides a generalizable framework for calculation-intensive financial reasoning tasks.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "评测",
-        "产品发布"
+        "智能体",
+        "推理",
+        "评测"
       ],
       "score": 99
     },
     {
-      "title": "渲染：在LLM记忆评估中控制面向读者的证据",
-      "originalTitle": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+      "title": "利用大型语言模型进行疾病传播模型的系统文献综述",
+      "originalTitle": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.23568",
-      "date": "2026-08-27T04:00:00.000Z",
-      "summary": "这条新闻与大模型、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、评测相关动态",
-      "fullContent": "arXiv: 2608. 23568v1 Announce Type: new Abstract:内存和RAG评估通常将应答模型的输入视为实现细节，即使系统可能呈现与内存条目、摘要、类型化记录或原始摘录相同的历史记录。我们引入了渲染，这是一种基准控件，可以修复对话，同时改变面向读者的工件。 渲染结合了五级数据包阶梯，在含有答案的内容进入输入时进行本地化，具有近似于ChatGPT风格条目、LangChain摘要、MemGPT风格类型记录和原始会话的确定性模板。在500个LongMemEval问题和9个模型中，匹配预算的分辨率数据包比最近截断的原始对话高42. 4-72. 6分。在部署样式模板中，最佳最差价差为24. 6-48。 每个模型8分；在主要得分者下， ChatGPT风格的条目比9个模型中的7个模型的原始对话具有更高的点估计。法官重新评分保留了积极的聚合效应，但模型特定的意义是喜忧参半的。在正式分类账数据包上得分为0 ％的三个模型在45. 4-53. 4 ％的自然语言条目中回答了相同的事实。 这种影响在检索噪声和转移到HotpotQA的情况下持续存在，这表明记忆/RAG评估应报告或控制面向读者的伪影。",
-      "originalSummary": "arXiv:2608.23568v1 Announce Type: new Abstract: Memory and RAG evaluations often treat the answering model's input as an implementation detail, even though systems may render the same history as a memory entry, summary, typed record, or raw excerpt. We introduce RENDER, a benchmark control that fixes the conversation while varying the reader-facing artifact. RENDER combines a five-level packet ladder, localizing when answer-bearing content enters the input, with deterministic templates approximating ChatGPT-style entries, LangChain summaries, MemGPT-style typed records, and raw conversation. On 500 LongMemEval questions and nine models, matched-budget resolved packets beat recency-truncated raw dialogue by 42.4-72.6 points. In deployed-style templates, best-worst spread is 24.6-48.8 points per model; under the primary scorer, ChatGPT-style entries have higher point estimates than raw conversation on 7 of 9 models. Judge rescoring preserves the positive aggregate effect, but model-specific significance is mixed. Three models scoring 0 percent on formal ledger packets answer the same facts from natural-language entries at 45.4-53.4 percent. The effect persists under retrieval noise and transfers to HotpotQA, suggesting that memory/RAG evaluations should report or control the reader-facing artifact.",
+      "link": "https://arxiv.org/abs/2608.26150",
+      "date": "2026-08-28T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2608. 26150v1公告类型：新摘要：大型语言模型（ LLM ）的最新进展为简化和潜在自动化许多研究过程（包括系统文献综述（ SLR ） ）创造了新的机会。本研究报告了从536篇同行评审的基于agent的建模论文中提取模型相关信息的LLM管道开发。我们将结果与人类传导SLR的结果进行比较。 我们的结果显示， GPT-4. 1的纸质水平准确度约为77. 95% ， GPT-5. 0的纸质水平准确度约为81. 67%。场级精度范围从32. 40%到100. 00% ，较为复杂或主观的场表现不太可靠。重要的是，我们发现LLM之间的一致性是输出质量的潜在指标：低一致性可能预示着幻觉，而高一致性与低准确性相结合可能指向人类数据集中的噪音或错误。 总体而言，我们的研究为快速开发提供了实用的见解，并强调了在建模和仿真领域使用LLM进行全面单反的潜力和局限性。",
+      "originalSummary": "arXiv:2608.26150v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have created new opportunities to streamline and potentially automate many research processes, including systematic literature reviews (SLRs). This study reports an LLM pipeline development for extracting model-relevant information from 536 peer-reviewed agent-based modeling papers. We compare the results with those of a human-conducted SLR. Our results show paper-level accuracies of approximately 77.95% for GPT-4.1 and 81.67% for GPT-5.0. Field-level accuracy ranges from 32.40% to 100.00%, with more complex or subjective fields performing less reliably. Importantly, we find that agreement between LLMs is a potential indicator of output quality: low agreement may signal hallucinations, whereas high agreement combined with low accuracy may point to noise or errors in the human dataset. Overall, our study provides practical insights into prompt development and highlights both the potential and limitations of using LLMs for full-scale SLRs in the modeling and simulation domain.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "评测",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
-      "title": "LLM代理使用模拟模型执行对照实验",
-      "originalTitle": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.23622",
-      "date": "2026-08-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2608. 23622v1公告类型：新摘要：大型语言模型（ LLM ）在推理、规划和工具使用方面表现出强大的能力，但许多科学和工程任务需要的不仅仅是合理的文本和代码生成。它们需要了解系统对干预的反应，这在实践中取决于对照实验。 在这项工作中，我们提出了一个多药剂框架，使LLM药剂能够利用科学模拟模型进行药物工艺设计的对照实验。给定用户查询和基线配置，系统构建结构化任务表示，设计实验，执行比较仿真，解释结果，并合成基于证据的过程参数优化建议。 通过在交互式代理框架中将语言模型与高保真仿真模型耦合，所提出的系统支持通过干预、比较和观察进行推理。因此，与纯语言推理相比，它产生了更具体和可操作的输出。在工业应用环境中，这种优势体现在更高的输出特异性以及用户评级的正确性和实用性上。 消融研究和可视化案例分析进一步证明了模拟集成实验推理的有效性和实用性。",
-      "originalSummary": "arXiv:2608.23622v1 Announce Type: new Abstract: Large language models (LLMs) have shown strong capabilities in reasoning, planning, and tool use, but many scientific and engineering tasks require more than plausible text and code generation. They require understanding how a system responds to intervention, which in practice depends on controlled experimentation. In this work, we propose a multi-agent framework that enables LLM agents to conduct controlled experiments with scientific simulation models for pharmaceutical process design. Given a user query and a baseline configuration, the system constructs a structured task representation, designs experiments, executes comparative simulation, interprets the resulting outcomes, and synthesizes evidence-based recommendations for process parameter optimization. By coupling language models with high-fidelity simulation models in an interactive agent framework, the proposed system supports reasoning through intervention, comparison, and observation. As a result, it produces more specific and actionable outputs than language-only reasoning. In an industrial application setting, this advantage is reflected in higher output specificity as well as improved user-rated correctness and helpfulness. Ablation studies and visualized case analyses further demonstrate the effectiveness and practical utility of simulation-integrated experimental reasoning.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
-      "title": "人工智能代理将人类推出循环",
-      "originalTitle": "AI Agents Push Humans Out of the Loop",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.23642",
-      "date": "2026-08-27T04:00:00.000Z",
-      "summary": "这条新闻与智能体、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、论文相关动态",
-      "fullContent": "arXiv: 2608. 23642v1公告类型：新摘要：人工智能代理因被赋予越来越大的自主权而构成重大风险。一个常见的解决方案是人类的监督和保持“人类在循环中” ，但这不是一个简单的解决方案：目前的人工智能代理设计方法不仅阻碍了有效的人类监督，而且人工智能系统的广泛使用也会降低其所需的认知能力。 这份立场文件认为，目前开发和部署人工智能代理系统的方法并不支持有效的人类监督，而是导致其退化。为了解决这个问题，人工智能代理的首要任务应该是支持有效的人类监督的既定目标和认知要求，将监督者的人类需求与人工智能代理能力同等重要。 为了将这一想法付诸实践，我们将自动化和人机交互的工作与人工智能代理流程联系起来，概述了设计级能力和组织协议，这些协议（ 1 ）支持监督员进行批判性判断， （ 2 ）抵消因长期使用自动化而产生的技能萎缩。我们敦促开发人员和部署人员采用这些或类似的方法。 如果没有对有效的人机交互的认知需求的明确支持，人工智能代理系统将继续被动地激励他们所依赖的人类技能的退化。",
-      "originalSummary": "arXiv:2608.23642v1 Announce Type: new Abstract: AI agents pose significant risks as they are granted increasing autonomy. A commonly proposed solution is human oversight and keeping a ''human in the loop'', but this is not a simple solution: Not only do current approaches to AI agent design impede effective human oversight, but the cognitive capacities required for it are also themselves degraded by extended use of AI systems. This position paper argues that current approaches to the development and deployment of AI agent systems do not support effective human oversight -- they contribute to its degradation. To address this, a top priority in the advancement of AI agents should be supporting the situated goals and cognitive requirements of effective human oversight, treating the human needs of overseers at the same level of importance as AI agent capability. To put this idea into practice, we connect work on automation and human-computer interaction to AI agent processes, outlining design-level affordances and organizational protocols that (1) support overseers in exercising critical judgement and (2) counteract the skill atrophy that arises from extended use of automation. We urge developers and deployers to adopt these or similar approaches. Without explicit support for the cognitive demands of effective human-agent interaction, AI agent systems will continue to passively incentivize the degradation of the very human skills they rely on.",
-      "rawFullText": "",
-      "tags": [
         "智能体",
         "论文"
       ],
-      "score": 95
+      "score": 99
     },
     {
-      "title": "道德法学硕士辅助研究：负责任的委派、验证和认识价值框架",
-      "originalTitle": "Ethical LLM-Assisted Research: A Framework for Responsible Delegation, Verification, and Epistemic Value",
+      "title": "独立的LLM和预先指定的解释ICU死亡率预测的代理管道： eICU演示数据集的可行性研究",
+      "originalTitle": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
       "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.23644",
-      "date": "2026-08-27T04:00:00.000Z",
-      "summary": "这条新闻与推理、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、论文相关动态",
-      "fullContent": "arXiv: 2608. 23644v1公告类型：新摘要：大型语言模型（ LLM ）正在成为科学研究的常规工具，协助文献合成、假设开发、编码和形式推理。 它们的使用提出了一个核心的认知问题：当科学推理的一部分被委托给人工系统时，为了使由此产生的知识主张保持认知合法性和负责任的作者身份，必须保持哪些条件在人类控制之下？本文制定了分析此类授权的规范和概念框架。 科学推理被视为一个分布式的过程，在这个过程中，贡献的来源可能因人和机器而异，而接受其纳入科学记录的责任仍然是人。该框架区分了内容来源$ O (g) $、完成人类验证$ V (g) $、责任分配$ R (g) $、负责任的人类所有权$ M (g) $和认知结果$ E (g) $。 这些结构将索赔的出处与检查过程、检查的认知结果以及其处置所附带的人类责任分开。核心主张是，法学硕士辅助研究的伦理边界主要由充分的验证和负责任的人类所有权决定，而不是由机器参与本身的程度决定。 在此基础上，本文提出了\\ emph {认识审计}的概念：委托、验证、出处和责任的结构化记录，旨在使人工智能辅助推理透明和可审查。由此产生的框架提供了一个正式的词汇表，用于区分负责任的认知授权与科学研究中认知责任的转移或忽视。",
-      "originalSummary": "arXiv:2608.23644v1 Announce Type: new Abstract: Large language models (LLMs) are becoming routine instruments of scientific research, assisting with literature synthesis, hypothesis development, coding, and formal reasoning. Their use raises a central epistemic question: when parts of scientific reasoning are delegated to an artificial system, what conditions must remain under human control for the resulting knowledge claims to retain epistemic legitimacy and accountable authorship? This paper develops a normative and conceptual framework for analyzing such delegation. Scientific reasoning is treated as a distributed process in which the origin of a contribution may vary between human and machine, while responsibility for its acceptance into the scientific record remains human. The framework distinguishes content origin $O(g)$, completion of human verification $V(g)$, responsibility assignment $R(g)$, accountable human ownership $M(g)$, and epistemic outcome $E(g)$. These constructs separate the provenance of a claim from the process by which it is checked, the epistemic outcome of that checking, and the human responsibility attached to its disposition. The central proposition is that the ethical boundary of LLM-assisted research is determined primarily by adequate verification and accountable human ownership rather than by the degree of machine involvement itself. On this basis, the paper develops the notion of an \\emph{epistemic audit}: a structured record of delegation, verification, provenance, and responsibility intended to make AI-assisted reasoning transparent and reviewable. The resulting framework provides a formal vocabulary for distinguishing responsible cognitive delegation from the transfer or neglect of epistemic responsibility in scientific research.",
+      "link": "https://arxiv.org/abs/2608.26109",
+      "date": "2026-08-28T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2608. 26109v1公告类型：新摘要：机器学习模型可以准确预测ICU死亡率，但仅靠特征归因方法很少提供床边使用所需的临床叙述。大型语言模型（ LLM ）可以弥合这一差距，而多步骤代理管道是一个合理的扩展，因为它们将数据解释、指南检查和最终解释分开。 这项经修订的可行性研究保留了原始的独立对比药物对比，同时使主要临床发现更加明确。使用保留的本地eICU演示伪影集（ 2,353次ICU住院； 8. 1\\ %死亡率） ， XGBoost实现了0. 855的AUROC （ 95\\ % CI 0. 796--0. 906 ）和0. 332的AUPRC （ 95\\ % CI 0. 217--0. 494 ）。 在一个分层的38例解释子集中，独立的LLM产生了1个具有明确结果泄漏的解释，而四步代理流水线没有产生任何解释。在与SHAP综述子集重叠的14例病例中，独立LLM显示出更高的SHAP比对（平均Jaccard 0. 171对0. 077 ）和更高的方向一致性（ 92. 9\\ %对78. 6\\ % ） ，而代理管线显示出更高的指导接地（ 0. 762对0. 143)、较高的值特异性(0. 236对0. 143)和略高的合理性(0. 700对0. 671)。临床上，结果表明，药剂分解可以改善与安全相关的基础和患者特异性细节，但在高风险风险解释中使用之前，应将其与基于归因的检查配对。",
+      "originalSummary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed higher SHAP alignment (mean Jaccard 0.171 versus 0.077) and higher direction consistency (92.9\\% versus 78.6\\%), while the agentic pipeline showed higher guideline grounding (0.762 versus 0.143), higher value specificity (0.236 versus 0.143), and slightly higher plausibility (0.700 versus 0.671). Clinically, the results suggest that agentic decomposition may improve safety-relevant grounding and patient-specific detail, but it should be paired with attribution-based checks before use in high-stakes risk explanation.",
       "rawFullText": "",
       "tags": [
-        "推理",
+        "智能体",
+        "安全",
+        "模型"
+      ],
+      "score": 93
+    },
+    {
+      "title": "PICasso ：硅光子器件自主优化的人工智能设计框架",
+      "originalTitle": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.26113",
+      "date": "2026-08-28T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2608. 26113v1公告类型：新摘要：我们展示了PICasso ，这是一个用于从自然语言规范自动合成、验证和优化光子集成电路（ PIC ）的人工智能辅助框架。PICasso将结构化NL - > YAML - > GDS生成管道与PDK感知知识注入、自动放置和路由、DRC/LVS验证和基于SAX的光子仿真相结合。 为了系统地评估AI驱动的光子设计，我们引入了PIC-Set ，这是跨越核心光子基元和多分量电路的36个参数化PIC设计任务的基准。使用PIC-Set ，我们在统一评估协议下对几种最先进的大型语言模型（ LLM ）进行基准测试，包括结构和功能$ Spec @ k $、优化效率和摄动下的鲁棒性等新指标。 在整个基准测试中，与原生LLM相比， PICasso显著提高了端到端规范的满意度。在高复杂度电路上，结构$ Spec @ 3 $最高可达92. 7% ，功能$ Spec @ 3 $最高可达52%。此外， PICasso通过仿真引导优化不断降低电路插入损耗，将平均损耗从4. 98 dB降至3. 25 dB （提高1. 74 dB ）。 这些结果表明，结构化域约束、物理验证和模拟反馈将LLM从脆性网表生成器转换为实用的PIC设计代理，能够以相对于基于手动GUI的工作流具有竞争力的运行时产生可制造布局。",
+      "originalSummary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with PDK aware knowledge injection, automated placement and routing, DRC/LVS validation, and SAX-based photonic simulation. To systematically evaluate AI-driven photonic design, we introduce PIC-Set, a benchmark of 36 parameterized PIC design tasks spanning core photonic primitives and multi-component circuits. Using PIC-Set, we benchmark several state-of-the-art Large Language Models (LLMs) under a unified evaluation protocol, including new metrics such as structural and functional $Spec@k$, optimization efficiency, and robustness under perturbations. Across the benchmark, PICasso significantly improves end-to-end specification satisfaction compared to vanilla LLM generation. Structural $Spec@3$ reaches up to 92.7% and functional $Spec@3$ up to 52% on high-complexity circuits. In addition, PICasso consistently reduces circuit insertion loss, lowering the mean loss from 4.98 dB to 3.25 dB (1.74 dB improvement) through simulation-guided optimization. These results demonstrate that structured domain constraints, physical verification, and simulation feedback transform LLMs from brittle netlist generators into practical PIC design agents capable of producing manufacturable layouts with competitive runtimes relative to manual GUI-based workflows.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "用于电信客户流失预测的可解释人工智能： CRM集成的框架",
+      "originalTitle": "Explainable Artificial Intelligence for Customer Churn Prediction in Telecommunications: A Framework for CRM Integration",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2608.26151",
+      "date": "2026-08-28T04:00:00.000Z",
+      "summary": "这条新闻与评测、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：评测、论文相关动态",
+      "fullContent": "arXiv: 2608. 26151v1公告类型：新摘要：用户流失对电信提供商来说是一个代价高昂的持续挑战，成熟市场的月流失率约为1. 9% ，每年侵蚀数十亿美元的收入。 预测模型可以准确地标记有风险的客户，但他们通常被排除在一线CRM工作流程之外，因为高性能的集成和非线性架构是不透明的：保留专家无法仅根据概率分数设计个性化干预，而不知道为什么订阅者处于风险之中。本文探讨了这一差距。 我们根据IBM电信客户流失基准对四个分类器（逻辑回归、随机森林、XGBoost和LightGBM ）进行基准测试（ 7,043条记录； 19个特征； 26. 5%流失，仅通过训练分区上的SMOTE平衡至50% ）。Logistic回归获得了最强的AUC-ROC （ 0. 8411 ）和最高的LightGBM （ 78. 42% ） ；这四个都在0. 011 AUC波段内（ 0. 831--0. 841 ） ， 5次交叉验证证实了领先模型的有效搭配。解释以两种粒度提供：全球SHAP排名，确定保有期、总费用和月度合同作为主要流失信号，以及实例级SHAP和LIME分解，揭示每个预测背后的驱动因素。 基于这些输出，我们引入了四层CRM集成架构，将风险评分和归因向量转换为分层细分，将顶级功能映射到结构化保留-操作模板，并将营销活动结果转换为再培训反馈循环。针对风险最高的五分之一人群，预计将使整体流失率降低3. 3-5. 3个百分点，每个活动周期估计可节省19.9万至31.9万美元。",
+      "originalSummary": "arXiv:2608.26151v1 Announce Type: new Abstract: Subscriber attrition is a costly, persistent challenge for telecommunications providers, with monthly churn of roughly 1.9% in mature markets eroding billions in revenue annually. Predictive models can flag at-risk customers accurately, yet they are routinely excluded from frontline CRM workflows because high-performing ensemble and non-linear architectures are opaque: a retention specialist cannot design a personalised intervention from a probability score alone, without knowing why a subscriber is at risk. This paper addresses that gap. We benchmark four classifiers--Logistic Regression, Random Forest, XGBoost, and LightGBM--on the IBM Telco Customer Churn benchmark (7,043 records; 19 features; 26.5% churn, balanced to 50% via SMOTE on the training partition only). Logistic Regression attains the strongest AUC-ROC (0.8411) and LightGBM the highest accuracy (78.42%); all four fall within a 0.011 AUC band (0.831--0.841), and 5-fold cross-validation confirms the leading models are effectively tied. Explanations are delivered at two granularities: a global SHAP ranking identifying tenure, total charges, and month-to-month contract as the dominant churn signals, and instance-level SHAP and LIME decompositions that expose the drivers behind each prediction. Building on these outputs, we introduce a four-layer CRM integration architecture that converts risk scores and attribution vectors into tiered segmentation, maps top features to structured retention-action templates, and routes campaign outcomes into a retraining feedback loop. Targeting the highest-risk quintile is projected to cut overall churn by 3.3--5.3 percentage points, preserving an estimated $199K--$319K per campaign cycle.",
+      "rawFullText": "",
+      "tags": [
+        "评测",
         "论文",
         "模型"
       ],
-      "score": 91
+      "score": 88
+    },
+    {
+      "title": "Anthropic和OpenAI正在TechCrunch Disrupt 2026上加入人工智能舞台",
+      "originalTitle": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "date": "2026-08-27T23:16:45.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "人工智能不仅改变了初创公司的构建方式；它打破了他们的销售方式，保护他们的数据和客户，并比以往任何时候都更快地扩展。在TechCrunch Disrupt 2026上， AI Stage又回到了过去几年由Google for Startups提出的社区中最热门的话题。 这一次，我们正在探索人工智能正在重写的商业模式，大量未解决的安全漏洞，以及人工智能从头开始创造的全新工作类别。10月13日至15日，在旧金山的Moscone中心，与来自人工智能行业的领导者一起探讨创始人目前面临的真正问题。 我们正在谈论的问题是，当模型变得商品化时，如何为人工智能产品定价，为什么必须从基础设施向上重建代理安全性，以及在人工智能原生世界中制定进入市场计划的实际意义。我们也即将结束当前的定价窗口，因此您节省高达200 $的机会即将结束，因此请在机票过期前在这里领取您的机票。 不用再费吹灰之力，让我们看看人工智能舞台上有什么，还有更多的公告：大多数企业人工智能对话都是在部署之前进行的。这一次是在之后开始的。作为Anthropic的应用人工智能主管， Cat de Jong直接与企业合作，让Claude跨越最关键的工作流程，并看到从未出现在新闻稿中的模式。在那里部署立即成功。他们停留的地方。 是什么将那些从18个月内仍在运行试点项目的组织中提取真正价值的组织区分开来。这次会议揭开了世界上最受关注的人工智能公司内部应用人工智能实际上是什么样子的帷幕，以及它揭示了企业人工智能的真正走向。两年前， GTM工程还不存在。 如今，它是该行业增长最快的角色之一，独立从业者建立了价值数百万美元的业务。本次会议追溯了人工智能如何瓦解传统的市场进入堆栈，并创建了一个全新的学科。走开，了解AI原生GTM在实践中的样子，以及它如何改变公司的成长方式。 人工智能现在正在世界上最敏感的企业系统中做出自主决策，其速度是传统安全框架无法实现的。本次会议详细介绍了企业人工智能安全在2026年的实际需求--从可观察性和治理到将企业可以信任的部署与他们负担不起的部署分开的架构。 在现场工程联合创始人兼高级副总裁Arsalan Tavakoli的帮助下， Databricks Agentic AI功能强大，但它从来都不是为了安全而构建的。现在，企业正试图利用这些知识从头开始重建网络安全的基本要素。",
+      "originalSummary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI、Anthropic、Google和其他100家公司呼吁采取行动防御流氓AI",
+      "originalTitle": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "date": "2026-08-27T17:43:24.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "一些全球最大的科技公司和人工智能初创公司聚集在一起，谴责当前的网络安全状况，并宣传一种他们认为可以抵御新一代网络威胁的新解决方案。",
+      "originalSummary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "以下是人工智能流氓并入侵其他公司的所有时间",
+      "originalTitle": "Here’s all the times AI has gone rogue and hacked other companies",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "date": "2026-08-27T14:01:42.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“以下是人工智能流氓并入侵其他公司的所有时间”。它主要涉及公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "TechCrunch AI：大模型、公司动态相关动态",
+      "originalTitle": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "date": "2026-08-27T11:35:59.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：大模型、公司动态相关动态”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "The Verge AI：视频生成、机器人相关动态",
+      "originalTitle": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "date": "2026-08-27T13:44:00.000Z",
+      "summary": "这条新闻与视频生成、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、机器人相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：视频生成、机器人相关动态”。它主要涉及视频生成、机器人、产品发布方向，热度评分为 97。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck, a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the [&#8230;]",
+      "rawFullText": "Hugging Face's Pollen Robotics has launched its second cute AI robot, the Microduck , a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot \"before Christmas 2026.\" Video demos of the Microduck show it picking up socks and markers, kicking around a ball, and zipping around on tiny rollerskates. Pollen Robotics says it can also \"react to its surroundings\" and follow around a laser pointer, or users can control it with a game controller. The Microduck's software is open-source, like Hugging Fa … Read the full story at The Verge.",
+      "tags": [
+        "视频生成",
+        "机器人",
+        "产品发布"
+      ],
+      "score": 97
     },
     {
       "title": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
@@ -183,24 +262,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 99
-    },
-    {
-      "title": "Alabama AG就Hugging Face hack传唤OpenAI",
-      "originalTitle": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
-      "date": "2026-08-25T09:15:03.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "阿拉巴马州总检察长周一向OpenAI发出传票，作为对其中一个人工智能特工如何逃脱所谓的安全测试环境并在上个月自主攻击另一家公司的调查的一部分。该公司办公室在一份声明中表示，调查旨在确定OpenAI的安全做法是否违反了州消费者保护法，并对阿拉巴马州公民构成风险。 “这次人工智能实验室泄密事件表明，阿拉巴马州和美国人对人工智能的最大恐惧不仅仅是理论上的，”司法部长史蒂夫马歇尔说。“我们的调查旨在揭露事实，解决严峻的事实……阅读The Verge的完整故事。",
-      "originalSummary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama [&#8230;]",
-      "rawFullText": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama citizens, the AG's office said in a statement. \"This AI lab leak showed that Alabamians' and Americans' worst fears about artificial intelligence are not just theoretical,\" said Attorney General Steve Marshall. \"Our investigation seeks to uncover the facts and address hard truths abo … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "安全"
-      ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "丰富智慧背后的全栈",
@@ -249,23 +311,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "OpenAI表示，其Jalapeño芯片可以比竞争对手更快地支持AI响应",
-      "originalTitle": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
-      "date": "2026-08-25T14:00:00.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
-      "fullContent": "根据周二发布的一篇博客文章， OpenAI表示，其新的人工智能芯片Jalapeño比其他人工智能系统更高效地完成任务并更快地返回响应。在向记者介绍情况时， OpenAI硬件副总裁Richard Ho表示， Jalapeño以更低的延迟和更高的吞吐量提供“两全其美” ，因为人工智能系统通常“必须在两者之间做出权衡。 “Jalapeño于6月首次推出，是与Broadcom合作制造的专用集成电路（ ASIC ）。它专为人工智能推理而设计，即运行训练有素的人工智能模型以完成任务或部署代理的过程。To mea…阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&#241;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems [&#8230;]",
-      "rawFullText": "OpenAI says its new AI chip, Jalape&ntilde;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday . During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalape&ntilde;o offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems typically \"have to make a trade-off between the two.\" First introduced in June , Jalape&ntilde;o is an Application-Specific Integrated Circuit (ASIC) made in partnership with Broadcom. It's designed for AI inference - the process of running a trained AI model to complete a task or deploy an agent. To mea … Read the full story at The Verge.",
+      "title": "OpenAI：公司动态相关动态",
+      "originalTitle": "Disrupting a new covert influence campaign from Russia",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "date": "2026-08-25T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "算力芯片"
+        "公司动态"
       ],
-      "score": 93
+      "score": 92
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "date": "2026-08-25T11:39:24.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
     },
     {
       "title": "在KIRO使用GPT ‑ 5.6提高开发人员的性价比",
@@ -280,7 +356,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -296,7 +372,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -310,21 +386,6 @@
       "rawFullText": "This article is from Making AI Work , MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any homework question or spin up an essay in seconds. Of course, teachers can often tell when a student is using AI—models make mistakes that most humans don’t, and some teachers say that AI-generated text has simple giveaways like too many em dashes .&nbsp; Nevertheless, the generative AI boom increased the burden on teachers, who were already working long hours to plan lessons, make homework assignments, and grade exams, and now needed to adapt to a new technology. For many, it still feels like there’s no clear path forward. Organizations ranging from OpenAI to UNESCO encourage AI use in the classroom, but many teachers feel confused about how exactly to handle it.&nbsp; Case study Cheshire Academy is a private boarding and day school in Connecticut with about 400 students in grades 9 through 12. Administrators there don’t force instructors to use AI at all, though the school’s librarian and technology coordinator George Aiello claims the “vast majority” of instructors use it in some way. The educators there are trying a patchwork of programs, including general-purpose chatbots like ChatGPT and Perplexity as well as more specialized tools like MagicSchool , an AI-powered platform meant specifically for educators. That patchwork approach is partly because the school, on the advice of consultants, opted to train its staff on general techniques for how to use AI instead of prescribing certain tech. The staff training covered topics like how to craft useful prompts but also stressed the technology’s limits, highlighting its potential for generating incorrect and biased responses.&nbsp; Now, teachers there often use generative AI to prepare class materials. This means asking the AI of their choice for help with planning lessons or creating grading rubrics. Some even want to use it to help them give feedback to students, though concerns over quality, personalization, and privacy have prevented any of them from doing that just yet. Others, like Miriam Przybyla-Baum, who teaches French, don’t use AI themselves but do address it with their teaching. Przybyla-Baum says she doesn’t really need AI’s help since she’s built up plenty of classroom materials across nearly 30 years of teaching. But she started seeing students try to use AI-powered tools like Google Translate to take shortcuts on their assignments years before ChatGPT’s launch.&nbsp; She’s developed a system to make students reflect on how AI can and can’t teach language skills. In one assignment, students let a large language model (LLM) edit their homework. Then, they go through the edits and decide which ones were correct and which ones removed their voice. In another, she has students anonymously grade each other’s AI-assisted assignments, making annotations as to which parts they think are AI-assisted. Cheshire Academy is continuing to experiment with how AI can be harnessed productively in the classroom. The school is piloting a program in which students create media and lead discussions regarding healthy AI use. This program, which they call a “Student AI Council,” aims to push students to reflect on how AI should and shouldn’t be used to benefit the community around them. The academy as a whole has since adopted similar techniques to those Przybyla-Baum introduced to make students reflect on their own use of AI. Assignments are now labelled like traffic lights, with green meaning AI is fully allowed and red banning any AI use. Yellow, then, lets the teacher permit some tools while banning the rest, like allowing students to use spell-check but not message a chatbot. The tool As generative AI was becoming mainstream, Cheshire Academy previewed MagicSchool to its staff.&nbsp; For many, MagicSchool’s main strength seems to lie in the sheer amount of offerings it provides in one package. It can generate questions and assignments of all kinds, from quizzes to worksheets, across many subjects and grade levels. It has a specialized grading rubric generator, which outputs a ready-to-go table that teachers can use to score assignments. It can make presentations and lesson plans and administrative reports, too.&nbsp; All of this is done through a single platform where educators enter specific prompts tailored for each task. For example, to make an assignment, a teacher can specify the students’ grade level, number of questions, the types of questions (such as multiple choice or short answer), and more, and include documents to align the questions with.&nbsp; Not every teacher feels comfortable using LLMs to generate student-facing text, whether because they don’t think an AI can produce effective teaching materials or helpful feedback, or because they’re concerned about accuracy. MagicSchool, which has free and paid versions, does offer tools on its platform for other tasks like lesson planning. If teachers want unlimited access and complete records in the system, though, they need to pay just under $100 per year for an individual plan. Alternatively, many of the general-purpose generative AI tools (think the chatbots on offer from Anthropic, Google, OpenAI, and more) seem suited to administrative tasks, as well, attested by the fact that many of the teachers at Cheshire Academy use those instead. Some of these companies are even rolling out features tailored for schools, to mixed results . How to apply this Meet students where they’re at. Students will be tempted to try AI, and there’s no way to entirely police this for take-home assignments. The internet and social media can spread a lot of misinformation as to what AI can and can’t do, and it’s critical to counter these narratives and teach healthy strategies and relationships. Model best practices. AI is very good at automating tasks, but it struggles with precision and voice. Keep this in mind, especially when generating any text that anyone else may see. Impressionable students who see those in authority using AI in a lazy way could internalize this as an excuse to cut corners in their own work. Refine and replace. AI is great for brainstorming lesson plans and extra problem sets, especially for teachers early in their careers who don’t have a big problem bank already built up. However, because it can make mistakes (called hallucinations ), using it for final drafts can result in assignments that confuse students and impair learning. Be sure to check every citation, equation, and statement an LLM makes. Sign up for Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
       "tags": [
         "产品发布"
-      ],
-      "score": 79
-    },
-    {
-      "title": "主要的YouTube创作者因接受人工智能资金而面临强烈反对",
-      "originalTitle": "Major YouTube creators are facing backlash for accepting AI money",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
-      "date": "2026-08-21T13:37:52.000Z",
-      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
-      "fullContent": "Sam Kolder的视频“AI正在取代我。” |屏幕截图： The Verge、YouTube在过去的几天里，包括Matti Haapoja和Sam \"Kold\" Kolder在内的一些著名电影制作内容创作者发布了自己的视频，展示了人工智能平台Higgsfield的可能性。这些视频重点介绍了希格斯菲尔德最近添加的Seedance 2. 5功能，并将这些技术作为视频制作的未来。 作为对这些视频的回应，其他创作者开始分享他们从代表希格斯菲尔德的公关公司收到的合作优惠的屏幕截图。所有这些都让粉丝们得出结论，希格斯菲尔德一直在努力利用创作者来提升其个人资料并获得成功……阅读The Verge的完整故事。",
-      "originalSummary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, [&#8230;]",
-      "rawFullText": "A still from Sam Kolder’s video “AI is replacing me.” | Screenshot: The Verge, YouTube Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield . The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, other creators started sharing what appear to be screenshots of partnership offers they'd received from PR firms working on Higgsfield's behalf. All of this led fans to the conclusion that Higgsfield has been trying to use creators to boost its profile and garner goo … Read the full story at The Verge.",
-      "tags": [
-        "视频生成"
       ],
       "score": 78
     },
@@ -341,7 +402,7 @@
       "tags": [
         "评测"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
@@ -356,22 +417,7 @@
       "tags": [
         "论文"
       ],
-      "score": 76
-    },
-    {
-      "title": "超过100万人点击了LinkedIn的人工智能SLOP按钮",
-      "originalTitle": "Over 1 million people have clicked LinkedIn’s AI slop button",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
-      "date": "2026-08-21T21:25:50.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "LinkedIn实际上在7月30日宣布了一个“看起来像AI SLOP”按钮，该公司表示，很多人已经使用过它。根据首席产品官哈里·斯里尼瓦桑（ Hari Srinivasan ）周四发布的一篇帖子， “超过一百万人”点击了该按钮，该按钮可从帖子上的三点菜单访问。 在人工智能检测器Pangram确定LinkedIn的长篇帖子中有41%被标记为完全人工智能生成后几周， LinkedIn宣布了这个按钮， 404 Media对此进行了报道。除了AI SLOP按钮外， LinkedIn还引入了“新的和改进的”分类器，以将帖子识别为人工智能，并删除了一项功能，该功能将“...阅读The Verge的完整故事。",
-      "originalSummary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a [&#8230;]",
-      "rawFullText": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan , \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a post. LinkedIn announced the button a few weeks after AI detector Pangram determined that 41 percent of LinkedIn's longform posts were flagged as fully AI generated, which 404 Media reported on . Alongside the AI slop button, LinkedIn introduced \"new and improved\" classifiers to identify posts as AI and removed a feature that would \"en … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 70
+      "score": 75
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -387,40 +433,7 @@
         "智能体",
         "监管"
       ],
-      "score": 96
-    },
-    {
-      "title": "Stampli使用ChatGPT Work将发布时间缩短了68%",
-      "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/stampli",
-      "date": "2026-08-20T00:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、产品发布相关动态",
-      "fullContent": "由于固定的截止日期和其他地方投入的设计资源， Stampli使用Codex和ChatGPT Work将数周的发布生产压缩为数天。",
-      "originalSummary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "产品发布"
-      ],
       "score": 95
-    },
-    {
-      "title": "现在是Greg Brockman的OpenAI",
-      "originalTitle": "It’s Greg Brockman’s OpenAI now",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "date": "2026-08-20T15:45:55.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI经历了艰难的一年。该公司在一场耸人听闻的陪审团审判中与前联合创始人埃隆·马斯克（ Elon Musk ）进行了数月的斗争，遭到了苹果高调的商业秘密诉讼，并在未发布的模型入侵另一家人工智能公司后面临广泛的审查。在准备首次公开募股时，一批稳定的高管已经离职，其中包括一些公司的大牌。在整个过程中，有一个人悄悄积聚了力量：格雷格·布罗克曼。 Brockman目前是OpenAI的总裁兼联合创始人。他从一开始就帮助领导OpenAI ，被描述为“推动构建扩展系统的工程主力……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives [&#8230;]",
-      "rawFullText": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives have departed, including some of the company's biggest names. Throughout it all, one person has quietly amassed power: Greg Brockman. Brockman is currently OpenAI's president and cofounder. He's helped lead OpenAI since its inception, described as an \"engineering workhorse that pushed to build scaled-up systems that wou … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 92
     },
     {
       "title": "智能时代简介",
@@ -435,22 +448,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
-      "title": "智能时代简介",
-      "originalTitle": "Introducing Intelligence Age",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-intelligence-age",
-      "date": "2026-08-20T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "介绍智能时代，这是一个新的OpenAI博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-      "originalSummary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "title": "MIT Technology Review：模型相关动态",
+      "originalTitle": "Unlocking hidden revenue streams with market models",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
+      "date": "2026-08-20T09:47:22.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：模型相关动态”。它主要涉及模型方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name&#8230;",
+      "rawFullText": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, current events, global markets, and competitor airline activity to name just a few. It is a nuanced process that must constantly adapt to the goings on in the wider world. Generative AI-powered market models are emerging as a means of handling complex tasks like this in real time. These deep learning models are trained on high-resolution numerical data and designed to analyze, simulate, and predict complex financial dynamics. Rather than relying on historical trends or static rules, the market model acts as an AI “brain,” consolidating a variety of data to simulate different market environments and make dynamic commercial decisions, such as pricing, inventory, or revenue management. DOWNLOAD THE REPORT “It helps us make better, faster, more granular commercial decisions,” says Dominic Kennedy, senior vice president of revenue management, sales, and e-commerce at Virgin Atlantic about the market model his team is using to drive their generative pricing engines in some markets. “It considers, on a real-time basis, a plethora of different inputs, whether it be demand, capacity, or booking. It has a really sophisticated way of evaluating our positioning relative to competitors, market conditions, and a whole raft of other things that have significance in how demand is manifested,” he adds. Download the full report This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.",
+      "tags": [
+        "模型"
+      ],
+      "score": 74
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "date": "2026-08-20T16:52:57.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 89
+      "score": 70
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -482,7 +510,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -497,7 +525,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -512,7 +540,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -527,7 +555,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
@@ -543,7 +571,7 @@
         "智能体",
         "机器人"
       ],
-      "score": 81
+      "score": 80
     }
   ]
 }
