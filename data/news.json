@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T06:50:06.695Z",
+  "updatedAt": "2026-08-29T04:05:16.089Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -23,7 +23,7 @@
       "originalTitle": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2608.26114",
-      "date": "2026-08-28T04:00:00.000Z",
+      "date": "2026-08-29T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2608. 26114v1公告类型：新摘要：计算密集型财务问答需要对结构化费率、时间条件、数值公式和基于规则的约束进行精确推理。尽管大型语言模型（ LLM ）在自然语言任务中表现出色，但在解决多步财务计算时，它们通常会产生数字不正确但似乎合理的答案。 为了解决这一限制，我们引入了CIFQA （计算密集型财务查询答案） ，这是一种基于确定性工具的多代理法学硕士框架，用于财务问题答案。 CIFQA通过将专业代理分配到查询解释、路由、参数提取、计算规划和响应生成，将语言理解与数值执行分开，而基于Python的确定性工具则执行财务计算和规则应用。我们为定期存款查询回答实例化CIFQA ，并在定期存款查询的精选基准上对其进行评估。CIFQA达到95。 计算密集型查询的准确率为54% ，总体准确率为90. 87% ，即使提供了完整的公式、费率卡和基准指令，也大大优于直接法学硕士基准。消融研究表明，精确速率查找、任期计算、滚动年调整和过早退出逻辑等确定性因素是性能的关键因素。 值得注意的是，在CIFQA中运行的17B开源骨干优于使用相同财务信息进行评估的大型前沿模型，这表明架构设计是比模型规模更重要的数值可靠性决定因素。在对定期存款查询进行评估时， CIFQA为计算密集型财务推理任务提供了一个可推广的框架。",
       "originalSummary": "arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce numerically incorrect yet plausible answers when solving multi-step financial calculations. To address this limitation, we introduce CIFQA (Calculation-Intensive Financial Query Answering), a deterministic tool-grounded multi-agent LLM framework for financial question answering. CIFQA separates language understanding from numerical execution by assigning specialized agents to query interpretation, routing, parameter extraction, computation planning, and response generation, while deterministic Python-based tools perform financial calculations and rule application. We instantiate CIFQA for fixed deposit query answering and evaluate it on a curated benchmark of fixed deposit queries. CIFQA achieves 95.54% accuracy on calculation-intensive queries and 90.87% overall accuracy, substantially outperforming direct LLM baselines even when provided with complete formulas, rate cards, and benchmark instructions. Ablation studies show that deterministic components such as exact rate lookup, tenure computation, rolling-year adjustment, and premature-withdrawal logic are critical contributors to performance. Notably, a 17B open-source backbone operating within CIFQA outperforms substantially larger frontier models evaluated with the same financial information, demonstrating that architectural design is a more important determinant of numerical reliability than model scale. While evaluated on fixed deposit queries, CIFQA provides a generalizable framework for calculation-intensive financial reasoning tasks.",
@@ -40,7 +40,7 @@
       "originalTitle": "Leveraging Large Language Models for Systematic Literature Review of Disease Spread Models",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2608.26150",
-      "date": "2026-08-28T04:00:00.000Z",
+      "date": "2026-08-29T04:00:00.000Z",
       "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
       "fullContent": "arXiv: 2608. 26150v1公告类型：新摘要：大型语言模型（ LLM ）的最新进展为简化和潜在自动化许多研究过程（包括系统文献综述（ SLR ） ）创造了新的机会。本研究报告了从536篇同行评审的基于agent的建模论文中提取模型相关信息的LLM管道开发。我们将结果与人类传导SLR的结果进行比较。 我们的结果显示， GPT-4. 1的纸质水平准确度约为77. 95% ， GPT-5. 0的纸质水平准确度约为81. 67%。场级精度范围从32. 40%到100. 00% ，较为复杂或主观的场表现不太可靠。重要的是，我们发现LLM之间的一致性是输出质量的潜在指标：低一致性可能预示着幻觉，而高一致性与低准确性相结合可能指向人类数据集中的噪音或错误。 总体而言，我们的研究为快速开发提供了实用的见解，并强调了在建模和仿真领域使用LLM进行全面单反的潜力和局限性。",
       "originalSummary": "arXiv:2608.26150v1 Announce Type: new Abstract: Recent advancements in Large Language Models (LLMs) have created new opportunities to streamline and potentially automate many research processes, including systematic literature reviews (SLRs). This study reports an LLM pipeline development for extracting model-relevant information from 536 peer-reviewed agent-based modeling papers. We compare the results with those of a human-conducted SLR. Our results show paper-level accuracies of approximately 77.95% for GPT-4.1 and 81.67% for GPT-5.0. Field-level accuracy ranges from 32.40% to 100.00%, with more complex or subjective fields performing less reliably. Importantly, we find that agreement between LLMs is a potential indicator of output quality: low agreement may signal hallucinations, whereas high agreement combined with low accuracy may point to noise or errors in the human dataset. Overall, our study provides practical insights into prompt development and highlights both the potential and limitations of using LLMs for full-scale SLRs in the modeling and simulation domain.",
@@ -57,7 +57,7 @@
       "originalTitle": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2608.26109",
-      "date": "2026-08-28T04:00:00.000Z",
+      "date": "2026-08-29T04:00:00.000Z",
       "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
       "fullContent": "arXiv: 2608. 26109v1公告类型：新摘要：机器学习模型可以准确预测ICU死亡率，但仅靠特征归因方法很少提供床边使用所需的临床叙述。大型语言模型（ LLM ）可以弥合这一差距，而多步骤代理管道是一个合理的扩展，因为它们将数据解释、指南检查和最终解释分开。 这项经修订的可行性研究保留了原始的独立对比药物对比，同时使主要临床发现更加明确。使用保留的本地eICU演示伪影集（ 2,353次ICU住院； 8. 1\\ %死亡率） ， XGBoost实现了0. 855的AUROC （ 95\\ % CI 0. 796--0. 906 ）和0. 332的AUPRC （ 95\\ % CI 0. 217--0. 494 ）。 在一个分层的38例解释子集中，独立的LLM产生了1个具有明确结果泄漏的解释，而四步代理流水线没有产生任何解释。在与SHAP综述子集重叠的14例病例中，独立LLM显示出更高的SHAP比对（平均Jaccard 0. 171对0. 077 ）和更高的方向一致性（ 92. 9\\ %对78. 6\\ % ） ，而代理管线显示出更高的指导接地（ 0. 762对0. 143)、较高的值特异性(0. 236对0. 143)和略高的合理性(0. 700对0. 671)。临床上，结果表明，药剂分解可以改善与安全相关的基础和患者特异性细节，但在高风险风险解释中使用之前，应将其与基于归因的检查配对。",
       "originalSummary": "arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produced none. Among the 14 cases that overlapped with the SHAP review subset, the standalone LLM showed higher SHAP alignment (mean Jaccard 0.171 versus 0.077) and higher direction consistency (92.9\\% versus 78.6\\%), while the agentic pipeline showed higher guideline grounding (0.762 versus 0.143), higher value specificity (0.236 versus 0.143), and slightly higher plausibility (0.700 versus 0.671). Clinically, the results suggest that agentic decomposition may improve safety-relevant grounding and patient-specific detail, but it should be paired with attribution-based checks before use in high-stakes risk explanation.",
@@ -74,7 +74,7 @@
       "originalTitle": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2608.26113",
-      "date": "2026-08-28T04:00:00.000Z",
+      "date": "2026-08-29T04:00:00.000Z",
       "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
       "fullContent": "arXiv: 2608. 26113v1公告类型：新摘要：我们展示了PICasso ，这是一个用于从自然语言规范自动合成、验证和优化光子集成电路（ PIC ）的人工智能辅助框架。PICasso将结构化NL - > YAML - > GDS生成管道与PDK感知知识注入、自动放置和路由、DRC/LVS验证和基于SAX的光子仿真相结合。 为了系统地评估AI驱动的光子设计，我们引入了PIC-Set ，这是跨越核心光子基元和多分量电路的36个参数化PIC设计任务的基准。使用PIC-Set ，我们在统一评估协议下对几种最先进的大型语言模型（ LLM ）进行基准测试，包括结构和功能$ Spec @ k $、优化效率和摄动下的鲁棒性等新指标。 在整个基准测试中，与原生LLM相比， PICasso显著提高了端到端规范的满意度。在高复杂度电路上，结构$ Spec @ 3 $最高可达92. 7% ，功能$ Spec @ 3 $最高可达52%。此外， PICasso通过仿真引导优化不断降低电路插入损耗，将平均损耗从4. 98 dB降至3. 25 dB （提高1. 74 dB ）。 这些结果表明，结构化域约束、物理验证和模拟反馈将LLM从脆性网表生成器转换为实用的PIC设计代理，能够以相对于基于手动GUI的工作流具有竞争力的运行时产生可制造布局。",
       "originalSummary": "arXiv:2608.26113v1 Announce Type: new Abstract: We present PICasso, an AI-assisted framework for automated synthesis, verification, and optimization of photonic integrated circuits (PICs) from natural-language specifications. PICasso couples a structured NL -> YAML -> GDS generation pipeline with PDK aware knowledge injection, automated placement and routing, DRC/LVS validation, and SAX-based photonic simulation. To systematically evaluate AI-driven photonic design, we introduce PIC-Set, a benchmark of 36 parameterized PIC design tasks spanning core photonic primitives and multi-component circuits. Using PIC-Set, we benchmark several state-of-the-art Large Language Models (LLMs) under a unified evaluation protocol, including new metrics such as structural and functional $Spec@k$, optimization efficiency, and robustness under perturbations. Across the benchmark, PICasso significantly improves end-to-end specification satisfaction compared to vanilla LLM generation. Structural $Spec@3$ reaches up to 92.7% and functional $Spec@3$ up to 52% on high-complexity circuits. In addition, PICasso consistently reduces circuit insertion loss, lowering the mean loss from 4.98 dB to 3.25 dB (1.74 dB improvement) through simulation-guided optimization. These results demonstrate that structured domain constraints, physical verification, and simulation feedback transform LLMs from brittle netlist generators into practical PIC design agents capable of producing manufacturable layouts with competitive runtimes relative to manual GUI-based workflows.",
@@ -91,7 +91,7 @@
       "originalTitle": "Explainable Artificial Intelligence for Customer Churn Prediction in Telecommunications: A Framework for CRM Integration",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2608.26151",
-      "date": "2026-08-28T04:00:00.000Z",
+      "date": "2026-08-29T04:00:00.000Z",
       "summary": "这条新闻与评测、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：评测、论文相关动态",
       "fullContent": "arXiv: 2608. 26151v1公告类型：新摘要：用户流失对电信提供商来说是一个代价高昂的持续挑战，成熟市场的月流失率约为1. 9% ，每年侵蚀数十亿美元的收入。 预测模型可以准确地标记有风险的客户，但他们通常被排除在一线CRM工作流程之外，因为高性能的集成和非线性架构是不透明的：保留专家无法仅根据概率分数设计个性化干预，而不知道为什么订阅者处于风险之中。本文探讨了这一差距。 我们根据IBM电信客户流失基准对四个分类器（逻辑回归、随机森林、XGBoost和LightGBM ）进行基准测试（ 7,043条记录； 19个特征； 26. 5%流失，仅通过训练分区上的SMOTE平衡至50% ）。Logistic回归获得了最强的AUC-ROC （ 0. 8411 ）和最高的LightGBM （ 78. 42% ） ；这四个都在0. 011 AUC波段内（ 0. 831--0. 841 ） ， 5次交叉验证证实了领先模型的有效搭配。解释以两种粒度提供：全球SHAP排名，确定保有期、总费用和月度合同作为主要流失信号，以及实例级SHAP和LIME分解，揭示每个预测背后的驱动因素。 基于这些输出，我们引入了四层CRM集成架构，将风险评分和归因向量转换为分层细分，将顶级功能映射到结构化保留-操作模板，并将营销活动结果转换为再培训反馈循环。针对风险最高的五分之一人群，预计将使整体流失率降低3. 3-5. 3个百分点，每个活动周期估计可节省19.9万至31.9万美元。",
       "originalSummary": "arXiv:2608.26151v1 Announce Type: new Abstract: Subscriber attrition is a costly, persistent challenge for telecommunications providers, with monthly churn of roughly 1.9% in mature markets eroding billions in revenue annually. Predictive models can flag at-risk customers accurately, yet they are routinely excluded from frontline CRM workflows because high-performing ensemble and non-linear architectures are opaque: a retention specialist cannot design a personalised intervention from a probability score alone, without knowing why a subscriber is at risk. This paper addresses that gap. We benchmark four classifiers--Logistic Regression, Random Forest, XGBoost, and LightGBM--on the IBM Telco Customer Churn benchmark (7,043 records; 19 features; 26.5% churn, balanced to 50% via SMOTE on the training partition only). Logistic Regression attains the strongest AUC-ROC (0.8411) and LightGBM the highest accuracy (78.42%); all four fall within a 0.011 AUC band (0.831--0.841), and 5-fold cross-validation confirms the leading models are effectively tied. Explanations are delivered at two granularities: a global SHAP ranking identifying tenure, total charges, and month-to-month contract as the dominant churn signals, and instance-level SHAP and LIME decompositions that expose the drivers behind each prediction. Building on these outputs, we introduce a four-layer CRM integration architecture that converts risk scores and attribution vectors into tiered segmentation, maps top features to structured retention-action templates, and routes campaign outcomes into a retraining feedback loop. Targeting the highest-risk quintile is projected to cut overall churn by 3.3--5.3 percentage points, preserving an estimated $199K--$319K per campaign cycle.",
@@ -100,6 +100,84 @@
         "评测",
         "论文",
         "模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "在被SpaceX收购后，我们对Cursor的决定",
+      "originalTitle": "Our decision on Cursor following its acquisition by SpaceX",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "date": "2026-08-28T06:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“在被SpaceX收购后，我们对Cursor的决定”。它主要涉及公司动态、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "支持泰国的下一代人工智能初创公司",
+      "originalTitle": "Supporting Thailand’s next generation of AI startups",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "date": "2026-08-28T02:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI和泰国的MHESI推出了为期八周的加速器，帮助10家健康、保健和教育初创公司将人工智能原型转化为可信赖的产品。",
+      "originalSummary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "一位人类学研究人员刚刚向我们展示了自我改进的人工智能",
+      "originalTitle": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "date": "2026-08-28T19:30:38.000Z",
+      "summary": "这条新闻与公司动态、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、评测相关动态",
+      "fullContent": "使用其他AI模型训练AI模型已成为neolabs的一个非常受欢迎的目标—现在， Anthropic研究员计划的研究人员让我们早期了解了它在实践中的样子。上周五， Anthropic发表了一篇名为“Automated Researchers Can Reliable Mitigate Alignment Failures”的新论文，详细介绍了人工智能系统如何在一组对准基准上可靠地提高模型的性能。 当为特定的不对齐行为提供10个基准时，自动化系统能够提高每个基准的性能，而不会降低整体性能。在Anthropic研究员Chen Yueh-Han的带领下，该系统复制了许多传统的研究方法。 每个自动化系统都搜索可用的文献，提出一种方法，并使用该方法训练模型30分钟，通过几次迭代逐渐增加基准。保留了有效的方法，同时丢弃了无效的方法，从而使系统能够快速、大规模地运行。“总的来说，这些结果提供了早期证据，证明训练后自动对中可能在短期内变得可行，”该论文写道。 这篇论文是朝着递归自我改善迈出的一步，许多人认为这是人工智能进步的下一个重要步骤。如果模型能够改进自己的对齐训练，那么它们可能会更广泛地改进训练实践—此时，人类人工智能研究人员可能很快就会过时。该论文并不羞于解决这一想法，明确地将自动对齐研究员（ AAR ）与其人类同等人员进行了比较。 “最好的AAR方法平均在六小时内击败有经验的人类提出的建议，”该论文写道。“人类引导的研究方向不会导致更强的性能。“甚至还有成本比较，以防有人不相信。“AAR的API推断成本约为每小时4美元，而我们向人类研究人员支付的每小时150美元。“公平地说，本文还指出了这种方法的一些局限性。 自动化系统仅在基准反映实际对齐目标的情况下才有效，即便如此，在建立和维护这些基准方面仍有大量工作要做—更不用说维护和扩展自动化研究人员所借鉴的文献了。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。千万不要错过。 初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？据报道， Fitbit创始人推出了LTE健康和安全乐队Aisha Malik Hugging Face Luffu Link ，将以130亿美元的价格收购Rebecca Bellan",
+      "originalSummary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "评测"
+      ],
+      "score": 93
+    },
+    {
+      "title": "Neocloud Lambda获得$ 10亿债务以购买更多芯片",
+      "originalTitle": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "date": "2026-08-28T20:24:11.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "据彭博社报道，购买计算芯片并将其出租给企业的人工智能云公司Lambda已经筹集了10亿美元的私人短期债务，以购买英伟达的人工智能芯片，并将其租赁给微软。 彭博社称，这笔交易的条款是由摩根大通(JP Morgan Chase)安排的，这表明Lambda押注它将能够迅速部署芯片并开始从中获得收入，让它能够使用这笔现金相当快地偿还债务。这是Lambda用于为特定客户的GPU基础设施提供资金的一系列贷款中的最新一笔。 今年5月，它完成了一笔10亿美元的担保信贷贷款，本周宣布完成一笔9.26亿美元的贷款，为Nvidia GB300 GPU （ Nvidia最新芯片型号之一）提供资金，用于根据合同为其提供Nvidia的部署。这笔10亿美元的私人债务交易发生之际，据报道， Lambda正在就30亿美元的首次公开募股前融资进行谈判。该公司去年11月以5美元的价格筹集了15亿美元的风险投资。 每份PitchBook数据的430亿资金后估值。Lambda并不是唯一一家依靠债务为人工智能繁荣提供资金的公司--根据彭博社编制的数据，到2026年，银行和科技公司在全球范围内筹集了超过4000亿美元的人工智能相关债务。千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 91
+    },
+    {
+      "title": "Anthropic首次赢得五角大楼供应链风险标签的法庭胜利",
+      "originalTitle": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "date": "2026-08-28T12:46:12.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "一名联邦法官裁定特朗普政府非法将Anthropic标记为供应链风险，随着其第二次五角大楼诉讼在华盛顿继续进行，这家AI公司取得了胜利。",
+      "originalSummary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
       ],
       "score": 88
     },
@@ -116,7 +194,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "OpenAI、Anthropic、Google和其他100家公司呼吁采取行动防御流氓AI",
@@ -131,7 +209,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "以下是人工智能流氓并入侵其他公司的所有时间",
@@ -146,26 +224,10 @@
       "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "TechCrunch AI：大模型、公司动态相关动态",
-      "originalTitle": "OpenAI to start showing ads on ChatGPT&#8217;s free and Go tiers in India",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-      "date": "2026-08-27T11:35:59.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：大模型、公司动态相关动态”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "The Verge AI：视频生成、机器人相关动态",
+      "title": "Hugging Face的新机器人是一只可爱的旱冰鸭",
       "originalTitle": "Hugging Face’s new robot is an adorable rollerskating duck",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
@@ -179,7 +241,22 @@
         "机器人",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
+    },
+    {
+      "title": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
+      "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "date": "2026-08-27T09:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "一项针对1000多名学生的随机研究考察了ChatGPT、批判性思维、原创性和学生在现实世界大学作业中的表现。",
+      "originalSummary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
     },
     {
       "title": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
@@ -216,23 +293,6 @@
       "score": 99
     },
     {
-      "title": "谷歌的新AI转录会编辑掉你的“ums”和“ahs”",
-      "originalTitle": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
-      "date": "2026-08-26T17:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
-      "fullContent": "谷歌更新了Gemini Audio ，新增了自动检测专业术语和超过85种语言的转录功能。Gemini 3. 5 Transcribe是Gemini家族的新成员，继3. 5 Live Translate推出之后，我们仍在等待Google发布承诺在6月推出的Gemini 3. 5 Pro型号。谷歌说3. 5转录“代表了我们之前的转录模型Chirp 3的重大进步” ，特别是在多语言性能和措辞错误率方面。根据Goog的说法，转录模型允许用户“只用你的声音自然编辑” ……阅读The Verge的完整故事。",
-      "originalSummary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it [&#8230;]",
-      "rawFullText": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate , and comes as we're still waiting for Google to release the Gemini 3.5 Pro model that it promised to roll out in June . Google says that 3.5 Transcribe \"represents a major advancement from our previous transcription model, Chirp 3,\" especially regarding multilingual performance and wording error rates. The transcription model allows users to \"edit naturally with just your voice,\" according to Goog … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "学习永不止步：人工智能如何让学习持续下去",
       "originalTitle": "Learning never stops: How AI makes learning continuous",
       "source": "OpenAI",
@@ -262,7 +322,22 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
+    },
+    {
+      "title": "将ChatGPT带到更多的美国学区",
+      "originalTitle": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "date": "2026-08-26T10:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ChatGPT for Teachers正在扩展到55个美国学校系统，为超过10万名教育工作者和员工提供安全的人工智能工具、培训和支持。",
+      "originalSummary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 94
     },
     {
       "title": "丰富智慧背后的全栈",
@@ -311,10 +386,10 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "OpenAI：公司动态相关动态",
+      "title": "颠覆俄罗斯新的秘密影响力运动",
       "originalTitle": "Disrupting a new covert influence campaign from Russia",
       "source": "OpenAI",
       "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
@@ -326,10 +401,10 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
-      "title": "Hugging Face：模型相关动态",
+      "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
       "originalTitle": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
@@ -341,22 +416,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
-    },
-    {
-      "title": "在KIRO使用GPT ‑ 5.6提高开发人员的性价比",
-      "originalTitle": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "date": "2026-08-24T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "GPT ‑ 5. 6现已在KIRO中提供，帮助开发人员以更高的性价比规划、构建、审查和测试软件。",
-      "originalSummary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 93
+      "score": 80
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -372,7 +432,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -387,7 +447,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "语音识别中的测量基准优化",
@@ -402,7 +462,7 @@
       "tags": [
         "评测"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
@@ -417,7 +477,7 @@
       "tags": [
         "论文"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -433,25 +493,10 @@
         "智能体",
         "监管"
       ],
-      "score": 95
+      "score": 94
     },
     {
-      "title": "智能时代简介",
-      "originalTitle": "Introducing Intelligence Age",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-ai-futures",
-      "date": "2026-08-20T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "介绍智能时代，这是一个新的OpenAI博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-      "originalSummary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
-    },
-    {
-      "title": "MIT Technology Review：模型相关动态",
+      "title": "通过市场模型解锁隐藏的收入来源",
       "originalTitle": "Unlocking hidden revenue streams with market models",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
@@ -463,10 +508,10 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "使用LFM2.5-DSpark ，推理速度提高3.2倍",
       "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
@@ -478,7 +523,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -510,7 +555,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -525,7 +570,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -540,7 +585,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
@@ -556,22 +601,6 @@
         "模型"
       ],
       "score": 69
-    },
-    {
-      "title": "使用Strands Agent、LeRobot和Hugging Face Storage Buckets从一个地方记录、训练和部署",
-      "originalTitle": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "date": "2026-08-13T17:16:04.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
-      "fullContent": "构建先决条件步骤1 -将演示记录到存储桶中步骤2 -使用字节级重复数据删除存储步骤3 -通过从集线器流进行培训步骤4 -部署策略并将数据返回到循环使用示例应用程序进行尝试安全注意事项清理从哪里开始资源Strands Robots中的流数据循环演练，一个记录机器人演示的代理循环，通过直接阅读 您有一位客服代表已经可以录制演示并将其推送到Hugging Face Hub。现在，您希望持续运行该循环：收集当天的情节，针对不断增长的数据集训练策略，部署它，然后拉回下一批以对其进行改进。运行该循环一次，每个部件都能正常工作。每天运行它，您开始一遍又一遍地为相同的字节传输付费。 您上传的录制文件不断增加，每次训练运行都会在开始之前将整个数据集复制到GPU中，并且在下一批录制文件返回时，每个新的检查点都会出货。本系列的第一篇文章介绍了Strands Robots ，这是一个来自AWS （ Apache 2. 0 ）的开源SDK ，它将机器人抽象、模拟和LeRobot堆栈作为AgentTools公开给单个Strands代理。 它涵盖了Robot ()工厂，在模拟中记录演示，运行策略，并将相同的代理代码部署到物理SO-101。该工厂根据武器，人形动物，移动基地和手的注册表解析名称，因此在本文中使用的SO-100是许多受支持的实施方案之一。机器人目录列出了工厂知道的所有机器人。 LeRobot的数据集格式已被来自8,000多家发布商（ LeRobot Project Pulse ）的Hub上的90,000多个数据集和模型使用。Strands Robots录音是其中之一，因此任何为读取LeRobot数据而构建的东西都可以无需转换即可读取。如果您是Strands Robots的新手，请从那里开始；此帖假设设置。该帖子沿着代理循环的一个方向，从Hub数据集到物理机器人。 从第一个记录的帧返回到部署的策略，通过拥抱人脸存储桶（ Hugging Face Storage Buckets ） ，这是一种可变的、非版本化的、Xet支持的对象存储库类型，于2026年3月宣布。存储桶位于同一hf://命名空间中的数据集存储库旁边，并使用您已有的hf CLI ，因此它成为在您记录数据之日和在其上进行培训之日之间保存数据的工作层。 必须有人决定保留哪些剧集，当场景漂移到足以重新录制时，今天的批次是否足以训练，以及哪个检查点取代手臂上的检查点。这些决定中的每一个都会在收集活动中出现数十次，并且每个决定都需要在下一个命令发出之前查看返回的内容。这就是客服代表的工作。 这篇文章将引导您通过单个代理中的数据循环：将演示记录到存储桶中，将其存储为每个同步仅上传已更改的字节，通过直接从Hub流式传输数据集而不是下载数据集来训练，并通过一个关键字参数更改将检查点部署回硬件。此帖子的可运行伴侣位于examples...",
-      "originalSummary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、机器人相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "机器人"
-      ],
-      "score": 80
     }
   ]
 }
