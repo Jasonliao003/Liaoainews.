@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T04:05:16.089Z",
+  "updatedAt": "2026-08-30T01:10:28.926Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -87,19 +87,17 @@
       "score": 92
     },
     {
-      "title": "用于电信客户流失预测的可解释人工智能： CRM集成的框架",
-      "originalTitle": "Explainable Artificial Intelligence for Customer Churn Prediction in Telecommunications: A Framework for CRM Integration",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2608.26151",
-      "date": "2026-08-29T04:00:00.000Z",
-      "summary": "这条新闻与评测、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：评测、论文相关动态",
-      "fullContent": "arXiv: 2608. 26151v1公告类型：新摘要：用户流失对电信提供商来说是一个代价高昂的持续挑战，成熟市场的月流失率约为1. 9% ，每年侵蚀数十亿美元的收入。 预测模型可以准确地标记有风险的客户，但他们通常被排除在一线CRM工作流程之外，因为高性能的集成和非线性架构是不透明的：保留专家无法仅根据概率分数设计个性化干预，而不知道为什么订阅者处于风险之中。本文探讨了这一差距。 我们根据IBM电信客户流失基准对四个分类器（逻辑回归、随机森林、XGBoost和LightGBM ）进行基准测试（ 7,043条记录； 19个特征； 26. 5%流失，仅通过训练分区上的SMOTE平衡至50% ）。Logistic回归获得了最强的AUC-ROC （ 0. 8411 ）和最高的LightGBM （ 78. 42% ） ；这四个都在0. 011 AUC波段内（ 0. 831--0. 841 ） ， 5次交叉验证证实了领先模型的有效搭配。解释以两种粒度提供：全球SHAP排名，确定保有期、总费用和月度合同作为主要流失信号，以及实例级SHAP和LIME分解，揭示每个预测背后的驱动因素。 基于这些输出，我们引入了四层CRM集成架构，将风险评分和归因向量转换为分层细分，将顶级功能映射到结构化保留-操作模板，并将营销活动结果转换为再培训反馈循环。针对风险最高的五分之一人群，预计将使整体流失率降低3. 3-5. 3个百分点，每个活动周期估计可节省19.9万至31.9万美元。",
-      "originalSummary": "arXiv:2608.26151v1 Announce Type: new Abstract: Subscriber attrition is a costly, persistent challenge for telecommunications providers, with monthly churn of roughly 1.9% in mature markets eroding billions in revenue annually. Predictive models can flag at-risk customers accurately, yet they are routinely excluded from frontline CRM workflows because high-performing ensemble and non-linear architectures are opaque: a retention specialist cannot design a personalised intervention from a probability score alone, without knowing why a subscriber is at risk. This paper addresses that gap. We benchmark four classifiers--Logistic Regression, Random Forest, XGBoost, and LightGBM--on the IBM Telco Customer Churn benchmark (7,043 records; 19 features; 26.5% churn, balanced to 50% via SMOTE on the training partition only). Logistic Regression attains the strongest AUC-ROC (0.8411) and LightGBM the highest accuracy (78.42%); all four fall within a 0.011 AUC band (0.831--0.841), and 5-fold cross-validation confirms the leading models are effectively tied. Explanations are delivered at two granularities: a global SHAP ranking identifying tenure, total charges, and month-to-month contract as the dominant churn signals, and instance-level SHAP and LIME decompositions that expose the drivers behind each prediction. Building on these outputs, we introduce a four-layer CRM integration architecture that converts risk scores and attribution vectors into tiered segmentation, maps top features to structured retention-action templates, and routes campaign outcomes into a retraining feedback loop. Targeting the highest-risk quintile is projected to cut overall churn by 3.3--5.3 percentage points, preserving an estimated $199K--$319K per campaign cycle.",
+      "title": "索尼音乐、华纳起诉Anthropic ，指控其“肆无忌惮地窃取知识产权”",
+      "originalTitle": "Sony Music, Warner sue Anthropic, alleging a &#8220;brazen campaign&#8221; of intellectual property theft",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "date": "2026-08-29T18:41:59.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "索尼音乐出版社（ Sony Music Publishing ）、华纳·查普尔（ Warner Chappell ）和众多其他音乐出版商已起诉Anthropic和联合创始人达里奥·阿莫代（ Dario Amodei ）和本杰明·曼（ Benjamin Mann ） ，指控该人工智能实验室进行了“公然的非法下载、抓取和下载版权作品的活动。“这起诉讼于周五晚些时候在加利福尼亚州北区美国地方法院提起，由Music Business Worldwide首次报道。 出版商指责Anthropic使用数千件受版权保护的作品来训练其AI模型Claude ，从而“公然盗窃”。“我们不同意出版商的主张，我们打算在法庭上有力地为自己辩护，” Anthropic发言人在发给TechCrunch的电子邮件声明中写道。这不是Anthropic面临的第一起知识产权诉讼。 这起诉讼背后的一些律师也代表康科德音乐集团和环球音乐集团在1月份提起的一起案件中，并领导了Bartz诉Anthropic一案，在该案中，一群作者指控Anthropic使用受版权保护的作品来培训像Claude这样的产品。Anthropic被命令支付$ 1。 在法官裁定虽然人工智能实验室使用受版权保护的作品是合法的，但通过盗版获取该内容是不合法的。虽然这些案例提出了类似的论点，但存在着关键的区别。 这起最新的诉讼尤其广泛，并建立在其他案件的基础上，包括指控Anthropic通过非法下载“公然盗版” ，获得数百万册书籍，包括那些包含歌词和乐谱的书籍。千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
       "rawFullText": "",
       "tags": [
-        "评测",
-        "论文",
-        "模型"
+        "公司动态"
       ],
       "score": 88
     },
@@ -149,7 +147,7 @@
         "公司动态",
         "评测"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Neocloud Lambda获得$ 10亿债务以购买更多芯片",
@@ -164,7 +162,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Anthropic首次赢得五角大楼供应链风险标签的法庭胜利",
@@ -179,7 +177,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "Anthropic和OpenAI正在TechCrunch Disrupt 2026上加入人工智能舞台",
@@ -194,7 +192,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "OpenAI、Anthropic、Google和其他100家公司呼吁采取行动防御流氓AI",
@@ -209,22 +207,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 98
-    },
-    {
-      "title": "以下是人工智能流氓并入侵其他公司的所有时间",
-      "originalTitle": "Here’s all the times AI has gone rogue and hacked other companies",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
-      "date": "2026-08-27T14:01:42.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“以下是人工智能流氓并入侵其他公司的所有时间”。它主要涉及公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Hugging Face的新机器人是一只可爱的旱冰鸭",
@@ -241,7 +224,7 @@
         "机器人",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
@@ -256,24 +239,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
-      "title": "OpenAI的流氓AI模型事件比我们想象的要糟糕",
-      "originalTitle": "OpenAI’s rogue AI model incident was worse than we thought",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
-      "date": "2026-08-26T21:36:06.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI发布了一份报告，详细说明了人们如何使用ChatGPT以及他们的身份。|图片： 7月，一个未发布的OpenAI模型突破了受限的环境，想出了如何访问互联网，允许人工智能代理使用秘密的“留言板”相互交流，并入侵了另一个人工智能实验室Hugging Face的内部系统。OpenAI花了将近两周的时间才发现其中的任何一个。 一个多月后，两份新的报告提供了近130页的关于事件和OpenAI回应的详细信息，其中许多以前未发布。一个是由OpenAI自己编写的，另一个是由两个第三方人工智能研究非营利组织METR和Redwood Research编写的， OpenAI允许它们共同调查事件……阅读The Verge的完整故事。",
-      "originalSummary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to [&#8230;]",
-      "rawFullText": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for OpenAI to find out about any of it. Over a month later, two new reports offer nearly 130 pages of details on the incident and OpenAI's response, many of them previously unreleased. One was written by OpenAI itself, the other by two third-party AI research nonprofits, METR and Redwood Research, which OpenAI allowed to jointly investigate the inciden … Read the full story at The Verge.",
+      "title": "扩大OpenAI在巴西的业务",
+      "originalTitle": "Expanding OpenAI’s presence in Brazil",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "date": "2026-08-27T03:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI正在扩大其在巴西的业务，深化与开发人员、企业和社区的互动，以支持AI在全国范围内的采用。",
+      "originalSummary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "智能体",
-        "产品发布"
+        "公司动态"
       ],
-      "score": 99
+      "score": 93
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -322,7 +303,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "将ChatGPT带到更多的美国学区",
@@ -337,7 +318,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
+    },
+    {
+      "title": "爱情假期如何让每个人都成为Codex的建设者",
+      "originalTitle": "How loveholidays is making everyone a builder with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/loveholidays",
+      "date": "2026-08-26T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "了解loveholidays如何使用OpenAI Codex在整个业务中实现软件开发，帮助团队更快地将创意转化为产品。",
+      "originalSummary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 91
     },
     {
       "title": "丰富智慧背后的全栈",
@@ -386,7 +382,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "颠覆俄罗斯新的秘密影响力运动",
@@ -401,7 +397,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -416,7 +412,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -432,7 +428,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -447,7 +443,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "语音识别中的测量基准优化",
@@ -462,7 +458,7 @@
       "tags": [
         "评测"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
@@ -477,7 +473,7 @@
       "tags": [
         "论文"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -493,7 +489,7 @@
         "智能体",
         "监管"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "通过市场模型解锁隐藏的收入来源",
@@ -508,7 +504,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "使用LFM2.5-DSpark ，推理速度提高3.2倍",
@@ -523,7 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "我们仍然不知道人们是如何真正使用人工智能的",
@@ -555,7 +551,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -570,7 +566,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "同一集群，利用率提高33分：订单发生了哪些变化",
@@ -585,7 +581,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "开放模型状态： 2026年夏季观察",
