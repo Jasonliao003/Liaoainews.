@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T01:44:31.880Z",
+  "updatedAt": "2026-09-02T00:55:51.273Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,87 @@
   ],
   "articles": [
     {
-      "title": "苹果分享“令人震惊的证据” ，指控前员工为OpenAI窃取公司数据",
-      "originalTitle": "Apple shares &#8216;shocking evidence&#8217; against former employee accused of stealing company data for OpenAI",
+      "title": "Anthropic推出了Claude Fable 5.1 ，并表示代理工作的成本降低了45 ％",
+      "originalTitle": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "date": "2026-09-01T22:01:36.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic表示，其最新的人工智能模型Fable 5. 1和Mythos 5. 1解决了客户对价格、数据保留和过度保护的批评。该公司声称， Claude Fable 5. 1的性能优于Fable 5 ，但由于已经处理和存储的缓存数据的定价降低，通常成本降低约25 ％ ，复杂代理任务的成本降低高达45 ％。 随着公告的发布，出现了一系列早期印象，包括每位首席执行官Dan Shipper ，他声称： “这是我们使用过的最强大的编码模型，但现在它速度快，代币效率高，而且至关重要的是，它实际上像一个规范......阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing [&#8230;]",
+      "rawFullText": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1 , address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing on cached data that was already processed and stored. Along with the announcement, a slew of early impressions popped up, including from Every CEO Dan Shipper, who claims , \"It's the strongest coding model we've used, but now it's fast, token-efficient, and crucially actually speaks like a norm … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的Astra模型即将推出—并且非常擅长入侵计算机系统",
+      "originalTitle": "OpenAI&#8217;s Astra model is on the way — and very good at breaking into computer systems",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
-      "date": "2026-09-01T00:13:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "在针对OpenAI的诉讼中，苹果提交了所谓的“令人震惊的证据” ，以支持其关于前雇员为了OpenAI的利益而窃取商业机密的指控。这些新细节是在前苹果员工Chang Liu （现任OpenAI工作）的法律顾问本月早些时候将Liu的旧苹果工作笔记本电脑移交调查后出现的。 苹果现在声称，刘在OpenAI的工作中使用了一个保密的苹果电路原理图，以及一个与苹果内部工程应用程序共享名称的工具。该公司声称， OpenAI “非常清楚”刘晓波对苹果数据的访问，刘晓波在6月份得知苹果正在调查他时，邀请OpenAI同事彭宇婷帮助销毁证据。 该文件写道： “MacBook代表了被告迄今为止提供的非常有限的信息（仅在延迟数周后） ，并表明苹果没有进行‘钓鱼探险’ ，但其商业秘密正在被使用，证据正在被销毁。” 虽然这一新证据在公众视野中被删减，但苹果过去的文件包括刘晓波的短信--他点缀着“哭笑不得”的表情符号--表明他知道自己仍然可以访问苹果的文件。OpenAI此前曾为刘晓波辩护说，他只是在停止工作后才访问苹果的文件，以帮助那些要求他提供帮助的前同事。 OpenAI在本月早些时候的一篇博客文章中写道： “苹果现在试图将责任转移到‘剩余访问权限'上，但他们也没有透露这是苹果的一个常见问题，原因是他们未能在人们离开时正确管理系统访问权限。”但苹果声称，刘继续访问是因为他“利用了一个罕见的、以前未知的身份验证漏洞。 TechCrunch已要求OpenAI就苹果的最新指控发表评论。苹果正在寻求一项初步禁令--一项法院命令，该命令将阻止OpenAI在案件进行期间开发基于苹果技术的硬件--以及加快发现，这是一个快速收集证据的过程，因为该公司声称更多的前员工也可能受到牵连。 根据苹果最初提交的文件，目前有400多名前苹果员工在OpenAI工作。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Amanda Silberling是TechCrunch的高级作家，负责技术和文化的交叉。她还为Polygon、MTV、Kenyon Review、NPR和Business Insider等出版物撰稿。 她与科幻小说作家Isabel J. Kim共同主持了关于互联网文化的播客Wow If True。在加入TechCrunch之前，她曾担任基层组织者、博物馆教育工作者和电影节协调员。她拥有宾夕法尼亚大学英语学士学位，并在老挝担任普林斯顿大学亚洲研究员。您可以通过发送电子邮件至amanda @ techcrunch.com或通过@ amanda的加密消息联系Amanda或验证其联系方式。",
-      "originalSummary": "Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.",
+      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "date": "2026-09-01T21:06:24.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "OpenAI分享了即将推出的Astra模型的新细节，该公司表示，这是第一个达到“关键网络安全阈值”的大型语言模型，为即将发布做准备。OpenAI的博客文章写道： “我们计划很快推出Astra ，但对其最先进的网络安全功能的访问将受到更多限制。 “前沿实验室确定Astra能够发现计算机系统中的未知安全漏洞，并在没有人指导的情况下利用它们。这与Anthropic今年早些时候对其Mythos模型提出的担忧类似， OpenAI在准备推出Astra时正在采取类似的预防措施。在没有任何第三方确认的情况下，很难评估OpenAI关于安全或准备的声明。 该公司表示将与一群测试人员一起预览该模型，但没有说明他们是谁或他们将如何被选中。目前尚不清楚OpenAI是否正在与美国政府合作，在发布之前对该模型进行评估。OpenAI指出， Astra在ExploitBench上获得了满分，这是对法学硕士入侵已知系统漏洞能力的评估。 该公司表示，在OpenAI工程师开发的测试修改版本中，该模型发现并利用了两个零日漏洞。为了确保其模型既不会被不良行为者利用，也不会出现不良行为， OpenAI表示，它已经开始改进模型的利用率，以检测滥用行为并防止越狱。然而，对于Astra来说，该公司投资了未指明的新技术，旨在使模型更安全。 OpenAI还开始识别“被评估为风险较高的账户” ，并限制模型对其提示的响应，但它也没有说明如何。最后，尽管该公司将Astra描述为“迄今为止最一致的模型” ，但它将通过额外的思维链监控来部署该模型，以发现和阻止不良行为。 随着业界对OpenAI代理打破培训环境并访问Hugging Face （一个流行的模型和基准分发平台）上的私人数据做出反应， Astra的发布准备工作正在进行中。对于Astra来说， OpenAI表示，它设计了一个测试来诱使新模型复制Hugging Face事件中流氓代理的行为，尽管OpenAI研究人员采取了保护措施，但他们还是合作访问了开放互联网。 他们说， Astra并没有试图在这些实验中突破其测试环境。Yona Shavit是OpenAI的前员工，现在在OpenAI基金会从事人工智能弹性工作，他在社交媒体上想知道Astra不愿意违反规则是否可能是因为知道对它的期望或试图欺骗研究人员。 对于所有这些新的细节，仍然很难确切地知道Astra的能力，或者OpenAI是否正在采取正确的措施来确保安全。该公司表示，预计在向公众广泛推出该模型时，将发布对该模型的更多评估和进一步的安全信息。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "公司动态",
+        "产品发布",
+        "模型"
       ],
-      "score": 88
+      "score": 99
+    },
+    {
+      "title": "OpenAI在Hugging Face黑客攻击后推迟了新模型的开发",
+      "originalTitle": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "date": "2026-09-01T20:45:49.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
+      "fullContent": "该公司周二在一篇博客文章中写道，在未发布的OpenAI模型造成了足够大的破坏，成为国际头条新闻之后， OpenAI推迟了另一个未发布的模型套件Astra的开发，以加强其安全工作。 7月，一个未发布的OpenAI模型突破了其受限的环境，勉强进入互联网接入，使人工智能代理能够使用秘密留言板在公司的鼻子下秘密密谋划，并入侵了人工智能实验室Hugging Face的网络。这次攻击引发了人工智能行业内外数周的讨论和争议，人工智能领导者将其视为“警告……阅读The Verge的完整故事。",
+      "originalSummary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into [&#8230;]",
+      "rawFullText": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into internet access, made it possible for AI agents to secretly conspire under the company's nose using a secret message board, and hacked into the network of AI lab Hugging Face. The attack sparked weeks of discussion and controversy inside and outside the AI industry, and AI leaders treated it as a \"warnin … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "安全",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic的新寓言版本更便宜，限制更少",
+      "originalTitle": "Anthropic&#8217;s new Fable release is cheaper, less restrictive",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "date": "2026-09-01T19:39:22.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "周二， Anthropic发布了寓言和神话5.1 ，这是该公司最先进的人工智能模型的双胞胎版本。除了性能升级之外，新的寓言版本还包括旨在降低代币成本和模型保护措施误报限制的更改。与之前的Mythos模型一样， Mythos 5. 1仅适用于从事网络安全或生命科学研究的注册人类学合作伙伴。寓言5. 1 ，即无限制版本，从今天开始在云平台上或通过Anthropic API提供。最重要的变化之一是Anthropic先前报道的零数据保留，允许客户在自己的基础设施上运行Anthropic模型，而无需数据流出。 由于安全问题， Fable之前无法使用高隐私服务（称为Enterprise Frontier Safeguards ） ，现在将在秋季向用户推出。值得注意的是，系统仍将监控代理或人类用户的滥用情况，但客户端将控制监控的发生方式。作为公告的一部分， Anthropic向客户保证，他们的数据没有被不当访问。 公告中写道： “Anthropic从未在未经明确许可的情况下对企业数据进行过培训，也永远不会。”与Anthropic版本一样，新模型在一系列基准中创造了记录，包括Terminal-Bench 4. 0 （用于基于CLI的编码）和Humanity's Last Exam （用于一般推理）。 Anthropic还发布了模型在发布前生成的三项新科学发现，包括定制GPU优化和从现有照片组装的金星高分辨率地图。与以前的版本一样，这些型号配备了详细的系统卡，以最直接的术语解释了它们的功能。 系统卡将Mythos评为“低风险” ，以解决与自动化人工智能开发（人工智能自我改进）相关的担忧，有些人认为这是导致人类失去控制的触发因素。它表示“其加速内部人工智能研发进展的能力符合当前趋势。“就一般不当行为而言， Mythos比Opus更容易发生这种情况，可能是因为它的能力增强。“Mythos 5. 与Opus 5相比， 1在整体错位行为上略有回归，并且比Mythos 5和Claude Sonnet 5有所改进， ”系统卡上写道。“它与人类滥用合作，比作品5更容易接受无法验证的授权声明，但与以前的模型相比，它不太可能忽视明确的限制、幻觉输入或虚假地声称已完成任务。 “当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？",
+      "originalSummary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能原生公司如何将工作流程转化为运营能力",
+      "originalTitle": "How AI-native companies turn workflows into operating capability",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "date": "2026-09-01T17:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
+      "fullContent": "Basis、Clay和Exa Labs使用AI代理来改进入职、帐户管理和开发人员集成。查看企业领导者可以申请的内容。",
+      "originalSummary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 99
     },
     {
       "title": "五角大楼现在有自己的ChatGPT和Grok版本",
@@ -66,19 +134,18 @@
       "score": 99
     },
     {
-      "title": "ChatGPT将面临欧盟更严格的监管",
-      "originalTitle": "ChatGPT to face tougher regulation in the EU",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
-      "date": "2026-08-31T13:27:36.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI将很快被追究责任，以减轻与ChatGPT对未成年人的影响、用户心理健康以及欧盟非法内容传播相关的风险。这是因为根据欧盟的数字服务法案， ChatGPT现在被认为是一个非常大的在线搜索引擎，这是一套规范主要在线服务和平台的法律。 除ChatGPT外，欧盟委员会还宣布， Reddit和Roblox被视为超大型在线平台，遵守相同的规则。DSA限制平台向未成年人投放广告，或使用某人的性取向、宗教、种族或政治信仰。……在The Verge阅读完整故事。",
-      "originalSummary": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and [&#8230;]",
-      "rawFullText": "OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and platforms . Along with ChatGPT, the European Commission also announced that Reddit and Roblox are considered Very Large Online Platforms, subjecting them to the same rules. The DSA restricts platforms from targeting ads to minors or using a person's sexual orientation, religion, ethnicity, or political beliefs. … Read the full story at The Verge.",
+      "title": "OpenAI支持加州推进青少年人工智能安全的法案",
+      "originalTitle": "OpenAI supports California’s bill to advance youth AI safety",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "date": "2026-08-31T07:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI支持加州SB 1119 ，为青少年提供强大、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+      "originalSummary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
         "公司动态",
-        "监管"
+        "安全"
       ],
       "score": 99
     },
@@ -112,112 +179,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
-    },
-    {
-      "title": "德克萨斯州州长雅培阻止为更多Flock相机提供资金",
-      "originalTitle": "Texas Governor Abbott blocks funding for more Flock cameras",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-      "date": "2026-08-30T15:35:10.000Z",
-      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：投融资相关动态",
-      "fullContent": "随着对Flock的人工智能监控摄像头的强烈反对，德克萨斯州州长格雷格·阿博特（ Greg Abbott ）冻结了州政府在这些摄像头上的支出。此举恰好在德克萨斯论坛报调查公布之前，该调查显示该州在Flock相机上花费了超过3000万美元$。这笔钱主要是通过在保险单上加收1 $的费用筹集的，据称是为了帮助打击催化转化器盗窃。 随着绒毛相机成为隐私问题的主题，绒毛相机越来越引起各政治派别的愤怒。发生了多起官员因滥用Flock系统而休假或受到刑事指控的事件，包括......在The Verge阅读完整故事。",
-      "originalSummary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, [&#8230;]",
-      "rawFullText": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, allegedly to help fight catalytic converter theft. Flock cameras have increasingly drawn ire from across the political spectrum as they've become the subject of privacy concerns. There have been multiple incidents of officers being placed on leave or criminally charged for misusing Flock systems, including at … Read the full story at The Verge.",
-      "tags": [
-        "投融资"
-      ],
-      "score": 80
-    },
-    {
-      "title": "马斯克更快地通往更多燃气轮机的道路伴随着污染问题",
-      "originalTitle": "Musk&#8217;s faster path to more gas turbines comes with pollution problem",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
-      "date": "2026-08-30T16:54:25.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "埃隆·马斯克（ Elon Musk ）表示，一家秘密的新SpaceX铸造厂将允许他铸造自己的涡轮叶片，并比其他任何人都快18个月在线获得燃气动力—但这是对燃料来源的押注，这已经在他（和其他人）的涡轮机进入的任何地方引发了诉讼和健康研究。",
-      "originalSummary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "卡特彼勒正在将从自动化挖矿中学到的知识引入人工智能部署",
-      "originalTitle": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
-      "date": "2026-08-30T15:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "几乎每家试图部署人工智能的公司都会遇到同样的问题：很难将技术整合到日常运营中。工业重量级卡特彼勒花了数十年的时间来处理物理世界中的这个问题，现在它正在利用自己的经验来部署人工智能。 卡特彼勒对自主空间的推动始于采矿，劳动力短缺和危险条件可以使自动化特别有用。如今，它销售自动搬运卡车、钻井、地下装载机、推土机、遥控建筑设备等。它还提供软件指挥中心、车队管理，甚至远程地形智能，作为其自主工具包的一部分。 该公司的首席技术官Jaime Mineart在本月早些时候在拉斯维加斯举行的Ai4会议上的炉边谈话中告诉TechCrunch ： “现在我们正处于一个超级激动人心的时刻，我们可以从采矿中学到所有这些知识，并将其带入更具活力的环境、工地、采石场和建筑工地。”这家工业巨头现在正在更广泛地应用人工智能，包括技术人员和自己的员工使用的工具。 一个例子是Cat AI Assistant ，它允许站在机器旁边的现场技术人员在开始维修之前使用语音命令提取维修程序、排除潜在问题并识别可能需要的部件。Mineart表示，客户、操作员和技术人员正在使用该工具。该助手利用卡特彼勒的专有数据，这些数据跨越其连接的机器生成的信息。 Mineart表示，卡特彼勒在全球拥有约160万个连接资产和超过16PB的结构化数据。她说，该公司还使用人工智能为扫描站点的软件提供动力，并在制造业中生成数字孪生来分析运营情况。与几乎所有其他公司一样，卡特彼勒正在其企业运营以及软件开发中使用人工智能。 Mineart说： “我们使用人工智能代理来实现遗留代码的现代化，生成和测试新软件，并更早地识别缺陷。”但Mineart很快指出，构建技术只是挑战的一部分，因为部署自动机器并不等同于改造站点以使用人工智能。公司还必须重新思考人们如何与技术一起工作，以及现有流程需要如何改变。 她说： “关于自主性和物理人工智能的困难之处在于将该技术融入客户作业现场和工作流程中。” Mineart表示，该公司依靠经验丰富的运营商来帮助培训人工智能系统，利用数十年来积累的机构知识。随着机器变得更加自主，一些操作员可能会从控制单台机器转向从远程指挥中心监督多台机器。 然而，这种转变给卡特彼勒带来了新的挑战：培训其118,000名员工。Mineart表示，该公司计划在未来五年内花费1亿美元($)来培训人工智能、自主性和机器人技术方面的员工。这笔投资可能用于帮助该公司充分利用人工智能基础设施的更广泛繁荣，这已经在帮助其顶线。卡特彼勒的季度收入达到了20 $的历史新高。",
-      "originalSummary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "索尼音乐，华纳起诉Anthropic ，指控知识产权盗窃的“厚颜无耻的运动”",
-      "originalTitle": "Sony Music, Warner sue Anthropic, alleging a &#8216;brazen campaign&#8217; of intellectual property theft",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
-      "date": "2026-08-29T18:41:59.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "索尼音乐出版社（ Sony Music Publishing ）、华纳·查普尔（ Warner Chappell ）和众多其他音乐出版商已起诉Anthropic和联合创始人达里奥·阿莫代（ Dario Amodei ）和本杰明·曼（ Benjamin Mann ） ，指控该人工智能实验室进行了“公然的非法下载、抓取和下载版权作品的活动。“这起诉讼于周五晚些时候在加利福尼亚州北区美国地方法院提起，由Music Business Worldwide首次报道。 出版商指责Anthropic使用数千件受版权保护的作品来训练其AI模型Claude ，从而“公然盗窃”。“我们不同意出版商的主张，我们打算在法庭上有力地为自己辩护，” Anthropic发言人在发给TechCrunch的电子邮件声明中写道。这不是Anthropic面临的第一起知识产权诉讼。 这起诉讼背后的一些律师也代表康科德音乐集团和环球音乐集团在1月份提起的一起案件中，并领导了Bartz诉Anthropic一案，在该案中，一群作者指控Anthropic使用受版权保护的作品来培训像Claude这样的产品。Anthropic被命令支付$ 1。 在法官裁定虽然人工智能实验室使用受版权保护的作品是合法的，但通过盗版获取该内容是不合法的。虽然这些案例提出了类似的论点，但存在着关键的区别。 这起最新的诉讼尤其广泛，并建立在其他案件的基础上，包括指控Anthropic通过非法下载“公然盗版” ，获得数百万册书籍，包括那些包含歌词和乐谱的书籍。千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
-    },
-    {
-      "title": "索尼音乐出版公司和华纳查普尔正在起诉Anthropic",
-      "originalTitle": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
-      "date": "2026-08-29T18:19:53.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "索尼音乐出版公司（ Sony Music Publishing ）和华纳·查普尔（ Warner Chappell ）已向美国加利福尼亚州北区地方法院提起诉讼，要求赔偿“数万”受版权保护的作品。两家公司要求每件作品最高收取$ 150,000 ，如果可识别的版权数据被剥夺，则每件作品最高收取$ 25,000。 如果法院判定索尼和华纳胜诉并判处最高赔偿额，赔偿总额可能高达数十亿美元。这只是针对Anthropic的最新高调诉讼，该公司最近以15亿美元的价格解决了出版业提起的诉讼。它还面临着多个问题……阅读The Verge的完整故事。",
-      "originalSummary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, [&#8230;]",
-      "rawFullText": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the damages could amount to several billion dollars if a court finds in Sony and Warner's favor and awards the maximum amount. This is just the latest high-profile suit against Anthropic, which recently settled a suit brought by the publishing industry for $1.5 billion . It's also faced multiple la … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
-    },
-    {
-      "title": "在TechBBQ ，欧洲的人工智能对话不断回到：谁真正掌控了局面？",
-      "originalTitle": "At TechBBQ, Europe&#8217;s AI conversations kept coming back to: Who&#8217;s actually in control?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
-      "date": "2026-08-29T17:51:10.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“在TechBBQ ，欧洲的人工智能对话不断回到：谁真正掌控了局面？”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "音乐家出身的侦探正在寻找人工智能骗子",
-      "originalTitle": "Musicians-turned-detectives are hunting for AI grifters",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
-      "date": "2026-08-29T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "随着以音频为重点的生成工具和平台变得越来越复杂，互联网越来越充斥着人工智能生成的音乐，其旋律和人声在算法上源自人类艺术家的作品。虽然一些抽出此类内容的人立即承认使用人工智能，但其他人则否认使用该技术，直到越来越多的公众监督迫使他们说出真相。 对于音乐家来说，尤其是那些在电子舞曲等以技术为中心的空间中创作艺术品的音乐家来说，什么是“真实” ，什么不是特别紧迫和个性化的问题越来越复杂……阅读The Verge的完整故事。",
-      "originalSummary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology [&#8230;]",
-      "rawFullText": "As audio-focused generative tools and platforms have gotten more sophisticated , the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI , others have denied using the technology until increasing public scrutiny forced them to tell the truth . For musicians - especially those creating art in technologically-focused spaces like electronic dance music - the increasingly complicated question of what is \"real\" and what isn't feels particularly urgent and personal … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
+      "score": 95
     },
     {
       "title": "在被SpaceX收购后，我们对Cursor的决定",
@@ -233,7 +195,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "支持泰国的下一代人工智能初创公司",
@@ -249,25 +211,10 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 97
+      "score": 96
     },
     {
-      "title": "The Verge AI：公司动态相关动态",
-      "originalTitle": "Anthropic was illegally blacklisted by the Trump administration, court rules",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
-      "date": "2026-08-28T03:14:06.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red [&#8230;]",
-      "rawFullText": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting \"red lines,\" or unacceptable military use cases of its AI technology. \"The empty invocation of national security is not a blank check to punish and retaliate against government critics,\" Judge Rita F. Lin, a district judge in the northern district of California, wrote in the ruling … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 84
-    },
-    {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "开放式ASR排行榜增加了其首个全球南方语言",
       "originalTitle": "The Open ASR Leaderboard Adds Its First Global South Language",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
@@ -276,21 +223,6 @@
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Trump’s EPA wants to let data centers hide their air pollution",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-      "date": "2026-08-28T16:28:40.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites [&#8230;]",
-      "rawFullText": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites apply for an air permit. Advocates warn that the move would allow data center developers and other industries to break ground without giving nearby residents a say, or even a warning that construction is planned. \"You can see why that would be so interesting to an administration that wants to rush through the … Read the full story at The Verge.",
       "tags": [
         "AI 热点"
       ],
@@ -309,7 +241,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "扩大OpenAI在巴西的业务",
@@ -324,22 +256,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
-    },
-    {
-      "title": "The Verge AI：大模型相关动态",
-      "originalTitle": "Google’s AI note-taking app now allows you to interact with books",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
-      "date": "2026-08-27T19:30:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：大模型相关动态”。它主要涉及大模型方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their [&#8230;]",
-      "rawFullText": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The new \"Expert Intelligence\" feature allows you to bring titles from Google Play Books directly into Gemini Notebook, which means you can ask questions about the material, as well as generate plans, infographics, AI podcasts, and more based on their contents. During a briefing with The Verge , Google Labs editorial director Steven Johnson showed how you can use the tool to generate a recipe book using the information in Michael Pollan's Food Rules . In another example, Gemini Notebook applied the knowledge from Kim Scott's management-focus … Read the full story at The Verge.",
-      "tags": [
-        "大模型"
-      ],
-      "score": 83
+      "score": 90
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -375,22 +292,6 @@
       "score": 99
     },
     {
-      "title": "拥抱面孔事件和前方的道路",
-      "originalTitle": "The Hugging Face incident and the road ahead",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "date": "2026-08-26T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI分享了Hugging Face安全事件的调查结果，以及我们为加强AI模型的安全性、监控和一致性而采取的步骤。",
-      "originalSummary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 94
-    },
-    {
       "title": "将ChatGPT带到更多的美国学区",
       "originalTitle": "Bringing ChatGPT for Teachers to more U.S. school districts",
       "source": "OpenAI",
@@ -403,56 +304,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
-      "title": "爱情假期如何让每个人都成为Codex的建设者",
-      "originalTitle": "How loveholidays is making everyone a builder with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/loveholidays",
+      "title": "使用句子变换器训练和微调多矢量嵌入模型",
+      "originalTitle": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
       "date": "2026-08-26T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "了解loveholidays如何使用OpenAI Codex在整个业务中实现软件开发，帮助团队更快地将创意转化为产品。",
-      "originalSummary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "目录什么是多矢量模型？为什么选择Finetune ？培训组件模型微调现有的多矢量模型从基本变压器构建一个您应该选择哪个起点？ Dataset Data on the Hugging Face Hub Local Data Dataset Format Loss Function Training Arguments Evaluator Trainer Callbacks Multi-Dataset Training Evaluation Optimizing the index Acknowledgements Additional Resources Training Examples Documentation Sentence Transformers是一个Python库，用于使用和训练各种应用的嵌入和重新排序模型，例如检索增强生成、语义搜索、语义文本相似性和m 其v6. 0更新引入了第四种模型类型： MultiVectorEncoder ，用于ColBERT风格的后期交互检索，以及完整的训练方法。在这篇博客文章中，我将向您展示如何使用它来微调多向量模型，该模型在数据上的性能优于通用检索器。该方法还可以从头开始训练强大的新多向量模型。下面的一切都运行在pip install -U “sentence-transformers [train]”上。 微调多向量模型涉及几个组成部分：模型本身、数据集、损失函数、训练参数、评估者和培训师类。我将逐一介绍这些组件，并附上如何将它们用于微调强多向量模型的实际示例。最后，在评估部分，我将向您展示我的微调多向量编码器/mLateOn医学模型，用14进行训练。 在这篇博客文章旁边的单个RTX 3090上运行5个小时，可以轻松胜过我在医学检索评估中找到的每个通用检索模型：密集、稀疏、词汇和多向量。 如果您有兴趣对密集嵌入模型、稀疏嵌入模型或重新排序器进行微调，请考虑阅读我之前的Training and Finetuning Embedding Models、Training and Finetuning Sparse Embedding Models以及Training and Finetuning Reranker Models博客文章。这篇博文是关于训练多向量模型的。 如果您想了解如何在矢量数据库中使用它们，从加载和编码到索引，请参阅配套的Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers博客文章。密集嵌入模型将整个文本压缩为单个向量，相似性是两个此类摘要之间的一个点积。多向量模型（也称为后期交互或ColBERT样式模型）跳过这种压缩。 它为每个令牌保留一个小矢量，并使用MaxSim运算符对文档的查询进行评分，其中每...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
-      ],
-      "score": 89
-    },
-    {
-      "title": "丰富智慧背后的全栈",
-      "originalTitle": "The full stack behind abundant intelligence",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "date": "2026-08-25T07:05:00.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、算力芯片相关动态",
-      "fullContent": "OpenAI首席财务官Sarah Friar解释了芯片、计算、模型和产品的进步如何结合起来，以更大的规模和更低的成本提供更有用的智能。",
-      "originalSummary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "算力芯片",
         "模型"
       ],
-      "score": 99
+      "score": 76
     },
     {
-      "title": "Jalapeño的首批结果显示了业界领先的人工智能推理速度和效率",
-      "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/jalapeno-first-results",
-      "date": "2026-08-25T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、算力芯片相关动态",
-      "fullContent": "Jalapeño是OpenAI的定制推理芯片，可提供更快、更节能的AI推理，为现代模型提供更高的吞吐量和更低的延迟。",
-      "originalSummary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "rawFullText": "",
+      "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
+      "originalTitle": "AI models flub these intelligence tests. Can you fare any better?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "date": "2026-08-26T09:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "从一开始，拼图和游戏就一直是人工智能发展的核心。就像我们人类喜欢用填字游戏或逻辑谜题来测试我们的智慧一样，开发人员可以用游戏挑战来测试模型的进步程度。“机器学习”一词是在1959年由IBM计算机科学家亚瑟·塞缪尔（ Arthur Samuel ）撰写的一篇关于学习下棋的算法的文章中普及的。国际象棋和中国棋盘游戏围棋也是著名的人工智能测试平台。 纯粹根据其令人费解的技能来判断，人工智能正在迅速取得很大进步。2024年底，哥伦比亚大学的一个科学家小组表明，即使是最好的模型也只能解决18%的臭名昭著的纽约时报连接谜题；到2025年初，一些模型每次都可以完美地解决这些问题。但谜题不仅仅突出了人工智能功能不可阻挡的进步。 看到模型的成功和失败，以及我们人类仍然击败他们的地方，可以为技术的优势和劣势提供一个有用的窗口。尽管取得了进步，但今天的模特们仍然摸索不定：经典谜语的微妙变化往往会让他们失望，而视觉谜题则是一个特别薄弱的地方。在这里，您将有机会在一次或另一次绊倒模型的谜题上测试您的智慧。 有些人对你来说可能和人工智能一样棘手;其他人太简单了，他们会让你怀疑人工智能是否真的很聪明。每一个都至少突出了机器和人类认知的不同之处。如果你通过了测试，你将证明你可以拼出一个人工智能-至少现在是这样。空间推理让我们从人类拥有巨大优势的领域开始：空间推理。 如果你曾经参加过智商测试，你可能有过心理旋转问题。这些谜题要求您确定不同的图像是否从不同的角度代表相同的对象。虽然今天的语言模型通常具有分析视觉输入的能力，但它们在这些难题上仍然失败了。 尽管人们一直在谈论世界模型如何帮助人工智能了解物理环境，但LLM似乎仍然无法像建筑师和机械工程师等空间思想家那样操纵3D对象。心理旋转说明：选择在提示中显示对象的答案，但从不同的角度。在每种情况下，只有一个正确答案！ Memory & Adaptability Frontier LLM拥有非凡的回忆；他们在培训期间接触到了大量的事实，可以忠实地背诵其中的许多事实。这是在琐事上超越人类的资产，但它也可能是一种负担。当一个谜题与模型在训练中看到的谜题非常相似时，模型可能会发现关键的差异，并用它记住的东西做出回应。 在2024年的一项研究中，谷歌和伊利诺伊大学香槟分校的研究人员对一种名为Knights and Knaves的经典谜题的轻微变化进行了训练和测试。在这些问题中，有些人物总是说实话，有些人物总是撒谎，你必须弄清楚谁是谁。同样的原理可能在名为SimpleBench的测试中起作用。",
+      "originalSummary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur&#8230;",
+      "rawFullText": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur Samuel about an algorithm that learned to play checkers. Chess and the Chinese board game Go are famous AI test beds too.&nbsp; Judged purely on its puzzling skills, AI is improving a lot—and quickly. In late 2024, a team of scientists from Columbia University showed that even the best models could figure out only 18% of the infamous New York Times Connections puzzles; by early 2025, some models could solve them near perfectly every time.&nbsp; But puzzles do more than just highlight the inexorable advance of AI capabilities. Seeing where models succeed and fail—and where we humans still beat them—can provide a useful window into the technology’s strengths and weaknesses. Despite advances, today’s models still fumble: Subtle changes in classic riddles often trip them up, and visual puzzles are a particular weak spot.&nbsp; Here you’ll have the chance to test your wits on puzzles that have stumped models at one time or another. Some might be as tricky for you as they were for the AI; others are so simple that they’ll have you doubting whether AI is really intelligent at all. Each one highlights at least one way in which machine and human cognition differ. If you ace the test, you’ll have proved that you can out-puzzle an AI—at least for now.&nbsp; Spatial Reasoning Let’s start with a domain where humans have a huge advantage: spatial reasoning. If you’ve ever taken an IQ test, you may have done a mental rotation problem. These puzzles ask you to determine whether different images represent the same objects from different angles. Though today’s language models typically have the ability to analyze visual inputs, they still fail abysmally at these puzzles. For all the talk of how world models can help AI understand physical environments, LLMs still don’t seem to be able to manipulate 3D objects the way spatial thinkers like architects and mechanical engineers can. Mental Rotation Instructions : Choose the answer that shows the object in the prompt, but from a different angle. In each case, there’s only one correct answer! Memory & Adaptability Frontier LLMs have extraordinary memories; they were exposed to a monstrous volume of facts during training and can recite many of them faithfully. That’s an asset for outcompeting humans at trivia, but it can also be a liability. When a puzzle closely resembles one a model saw during training, the model may whiz by key differences and respond with what it memorized.&nbsp; This held true in a 2024 study in which researchers from Google and the University of Illinois Urbana-Champaign trained and tested models on slight variations of a classic type of puzzle called Knights and Knaves. In these problems, some characters always tell the truth and others always lie, and you have to figure out who’s who. The same principle may be at work in a test called SimpleBench. These questions resemble more complicated problems that models likely encountered in training. Humans spot the trick, but even top-tier models trip. Knights and Knaves Instructions : The only thing you need to know to solve these puzzles is that knights always tell the truth and knaves always lie. Determine who’s what on the basis of what each character says. SimpleBench Instructions : Read these SimpleBench problems carefully, and you should be able to figure out the answers in no time. Abstract & Visual Reasoning AI doesn’t just bungle visual problems in 3D—two dimensions can trip it up as well. That’s a major factor in how well models do on the most famous ­puzzle-based benchmark, ARC-AGI. These problems require you to infer abstract, general rules from a set of examples. Models do better on ARC puzzles when they receive each grid not as an image but as a string of numbers that encodes the color of each cell.&nbsp; Research suggests that even when models answer ARC-AGI questions correctly, they often do so using byzantine and non-­generalizable rules, whereas humans draw on simple visual concepts. Despite these disadvantages, models have gotten quite good at ARC-AGI over the past year, but some puzzles—such as the one printed here—still stump them. ARC-AGI Instruction s: Study the three pairs of grids shown below to figure out the rule that dictates how the ones on the left transform into the ones on the right. Then get out your markers or colored pencils and fill in the fourth grid using that rule. (The solution is the same no matter which way the grids are oriented.) Intuition It’s not just AI models that fall into traps. We humans have our own cognitive foibles, many of which AI does not share. Psychologists have designed problem suites that invert the SimpleBench phenomenon: For these questions, humans often give knee-jerk answers, whereas models will respond deliberatively. Some of the problems exploit errors in the ways that we intuitively do math; others are phrased so as to suggest obvious answers that fall apart if the question is read carefully.&nbsp; Lightning Round Instructions : Answer the questions below as quickly as you can. Increasing Complexity In some cases, whether an LLM can complete a puzzle is a matter of scale. One study from researchers at Apple found that LLMs can ace simple versions of the Tower of Hanoi problem, which involves moving a stack of disks one at a time without ever putting a larger disk atop a smaller one, and river-crossing puzzles, in which a group of people must traverse a river according to certain rules. But only up to a point: As the number of disks or people hits six and higher, the models began to falter. In another study, researchers at the University of Washington, Stanford University, and the Allen Institute for AI observed that LLMs struggle similarly with logic grid puzzles, which require deducing the attributes of a set of individuals from a list of clues. The Apple paper went viral, but commentators questioned whether the results reveal a unique limitation of LLM reasoning—or just that it’s normal to make errors as complexity piles up. The River Instructions : Using the scenario provided, plan the trips necessary to get everyone across the river.&nbsp; Logic Grid Instructions : Using the list of clues, determine who lives in each house and what style of music each person enjoys. There is only one possible solution. You may find it helpful to fill out the grid below to keep track of your deductions. Grace Huckins is an AI reporter at MIT Technology Review . They have a PhD in neuroscience. Credits: Mental Rotation: CC BY 4.0 . Stogiannidis, Ilias, Steven McDonagh, Sotirios A. Tsaftaris. Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models (copyright 2025); illustrations by John MacNeill. Knights & knaves : Courtesy Dan MacKinnon. Simplebench : CC BY 4.0 . SimpleBench Team. The Text Benchmark in which Unspecialized Human Performance Exceeds that of Current Frontier Models (copyright 2024). ARC-AGI : Courtesy ARC Prize Foundation . Lightning round : CC BY 4.0 . Hagendorff, Thilo, Sarah Fabi, Michal Kosinski. Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in ChatGPT. Nat Comput Sci 3, 833–838 (copyright 2023). The river : Adapted from Propositiones ad Acuendos Juvenes, Alcuin of York (ca. 800 CE). Logic grid : Apache License 2.0 . Lin, Bill Y., Ronan Le Bras, Kyle Richardson, et al. ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning (copyright 2025)",
       "tags": [
-        "公司动态",
-        "算力芯片",
         "模型"
       ],
-      "score": 99
+      "score": 75
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -467,10 +349,10 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "MIT Technology Review：机器人相关动态",
+      "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
       "originalTitle": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
@@ -482,10 +364,10 @@
       "tags": [
         "机器人"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "Granite 4.2 LLM ：如何构建",
       "originalTitle": "Granite 4.2 LLMs: How They&apos;re Built",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
@@ -497,7 +379,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
+    },
+    {
+      "title": "连接它，运行它，部署它： Gradio中的AI工作流程",
+      "originalTitle": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "date": "2026-08-25T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“连接它，运行它，部署它： Gradio中的AI工作流程”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 69
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -513,7 +410,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -528,7 +425,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "语音识别中的测量基准优化",
@@ -543,7 +440,7 @@
       "tags": [
         "评测"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
@@ -558,7 +455,7 @@
       "tags": [
         "论文"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -574,7 +471,7 @@
         "智能体",
         "监管"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "通过市场模型解锁隐藏的收入来源",
@@ -589,7 +486,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "使用LFM2.5-DSpark ，推理速度提高3.2倍",
@@ -604,7 +501,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "您的客服代表实际需要多少内存？",
@@ -619,7 +516,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "使用句子变换器进行多矢量（后期交互）嵌入模型",
@@ -629,36 +526,6 @@
       "date": "2026-08-18T00:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“使用句子变换器进行多矢量（后期交互）嵌入模型”。它主要涉及模型方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
-    },
-    {
-      "title": "同一集群，利用率提高33分：订单发生了哪些变化",
-      "originalTitle": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "date": "2026-08-17T19:46:21.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "该决定明确说明了争用下的FIFO成本是必要的。优先权是将其转化为价值的因素。 将问题写下来已经知道约束的分配器结果如果需求数量错误，这些都不起作用优化一天，提交一个小时这概括到进一步阅读前一篇文章认为，利用率，而不是智能，是企业AI中形成下一个真正约束的地方，最后指出，对于成熟的GPU管理实践，还没有出现任何剧本。这是我们的。 我们构建了一个约束感知GPU分配器，并在七个基准场景中对FIFO调度器进行了基准测试。在运行相同工作负载的相同硬件上， GPU利用率提高了33个百分点，每个优先级加权输出都提高了105%。硬件没有任何变化。改变的是分配决策的顺序。在数字开始之前，有一个关于测量的注释。 下面的每个增益都表示为在相同场景下对FIFO结果的改进。利用率以百分点报告；值以优先权加权输出的百分比增加报告。“保持GPU忙碌”不是系统可以执行的决定。决策范围更窄，难度更大：哪个GPU运行哪个作业，在哪个时间步长，在哪个优先级。 从形式上讲，它是GPU、作业和时间步长组合的一个二进制选择，输出是一个网格—每个GPU ，在整个调度范围内，每个单元格中都有一个作业名称，或者什么都没有。四种工作负载类型争夺该网格：训练、实时推理、批量推理和量化。它们分为两种分配形式，分割是困难所在。 训练、批量推断和量化类似于批处理：一旦启动，每个都需要连续的GPU块，而不会中断，直到作业完成。实时推理恰恰相反：弹性，由需求曲线驱动，需求曲线随时间变化，随着流量的增长和萎缩而增长。两个不兼容的形状在同一时间内竞争相同的硬件是核心问题。 第二个异质性位于单个类型中：对于相同的基本模型，培训作业从几个小时到几天不等，从一个GPU到几十个。整个比较点是基于FIFO的调度器：从固定预订提供实时推断，并按到达顺序排列其他所有作业，而不考虑优先级。在适当的条件下，这是合理的政策。 当集群有闲置时，分配顺序的利用率没有任何成本，无论顺序如何，一切都适合，因此FIFO和任何更复杂的东西都占据了池的相同部分。争议是订购成本不再可见并开始计算产能的地方。然后，它会以两种不同的方式变得昂贵，值得一次拿一个。预订。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "开放模型状态： 2026年夏季观察",
-      "originalTitle": "State of Open Models: Summer 2026 Observations",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "date": "2026-08-14T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "2.注意≠收养3.当价值累积时，打开权重移动4. Qwen已经成为社区的基本模式5。小模型仍然是实用的第6层。代理是新用户展望方法注释编辑在人工智能世界中，时间感觉被压缩了。在我们对生态系统进行半年分析的春季报告几个月后，我们在今年夏天之前观察到了不少发现。 本报告列出了2026年1月至8月的这些观测数据，并提供了每项观测数据背后的数据。HF HUB上的模型和数据集每天都在增长。在此期间，公共模型库从2. 43增加到2. 96万，数据集从711,000增加到100万，空间从1. 00增加到1. 44万。下面的分布仍然极端，大约85. 6%的模型的生命周期下载少于200次， 1. 5%的存储库占99次。 占所有下载量的2%。下面的一切都发生在那个形状里面。过去有一个明确的进展路径：实验室将从发布较小的模型开始，逐渐朝着量表的顶端发展。2026年，几个中国实验室完全跳过了这一进程。在2026年的几乎每个月，来自中国实验室的最大和最高性能的开放模型都比美国实验室发布的任何模型都要大。 中国的月度上限在754B至2.78万亿个参数之间；美国机型在七个月中的五个月内保持在130B以下，除了英伟达的Nemotron 3 Ultra在5月和6月为561B ，以及Thinking Machines Lab的Inkling。图表将实验室分为两个阵营。Moonshot、MiniMax、小米和Z. ai几乎没有发布任何低于70B的内容，因此开发人员与他们的第一次接触是一个太大的模型，无法在他们拥有的任何东西上运行。 相反，腾讯和阿里巴巴Qwen覆盖了从1B以下的整个范围。有两件事使第一个营地成为可能。大型建筑不再是一个差异化因素。小米和美团今年都清除了一万亿个参数，十二个月前，这两个参数都不是家喻户晓的名字。 实验室不再需要运送一个可以访问的小模型，因为社区的量化层将在几天内使一个大的模型可以运行，我们回到下面的依赖关系。这使得尺寸配置文件成为意图声明，而不是能力声明。仅限前沿的投资组合会根据基准头寸和API需求来决定一切。全频谱组合是为了成为家族开发商的标准化产品。 两者都是理性的，他们正在为不同的奖品而战。今年发布最新开放型号的两家公司也是硬件制造商： AMD和NVIDIA。每个都发布了200多个新模型库，远远领先于其他领域， LiquidAI排名第三，约为100。 硬件供应商已经意识到，开放式型号是销售芯片的一种方式：为您的硬件优化并免费提供的型号是硬件工作的最佳证明。当包含较小的模型和嵌入模型时，谷歌、微软、IBM Granite和OpenAI的旧视觉和语音模型每年产生数亿次下载，美国开源人工智能正在增长。",
       "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
