@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T01:01:40.518Z",
+  "updatedAt": "2026-09-04T00:52:56.476Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,104 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "据报道， Crusoe以300亿美元的估值筹集了30亿美元",
+      "originalTitle": "Crusoe reportedly raises $3B at a $30B valuation",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "date": "2026-09-04T00:48:42.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "据彭博社报道，以Meta、微软和OpenAI为客户的数据中心开发商Crusoe以300亿美元的估值筹集了30亿美元的新一轮融资。该交易由Atreides Management和Valor Equity Partners共同领导，其中包括阿布扎比主权财富基金Mubadala的资产管理子公司Mubadala Capital的参与。 据彭博社报道，该公司最近签署了一份价值130亿美元的五年期云合同，为定量交易公司Jane Street提供GPU和人工智能基础设施。新一轮融资是在去年10月Crusoe以100亿美元的估值筹集了13.8亿美元的融资后10个月进行的。 Crusoe于2018年推出，由燃烧天然气驱动的加密采矿业务，此后转向一家主要的人工智能基础设施和云提供商，该提供商以为甲骨文和OpenAI等客户开发超大规模数据中心园区而闻名。据Axios上个月报道，该公司最近会见了包括高盛(Goldman Sachs)和摩根士丹利(Morgan Stanley)在内的投资银行家，讨论了潜在的近期IPO。千万不要错过。 初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "OpenAI推出其强大（且备受争议）的新型号Astra",
+      "originalTitle": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "date": "2026-09-03T18:01:45.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "OpenAI周四发布了Astra ，这是其最新的人工智能模型，据该公司称，这是迄今为止最强大、最有能力的模型。OpenAI声称， Astra代表了“计算机和浏览器使用的新领域” ，它以无与伦比的“速度、准确性和安全性”处理任务。“该模型将于周四向使用其网络安全计划Daybreak的OpenAI客户提供。 在接下来的一周内，它还将通过OpenAI的付费计划（包括Pro、Plus、Enterprise和Business帐户）以及其API提供。在周四与记者的电话会议上， OpenAI总裁格雷格·布罗克曼（ Greg Brockman ）表示， Astra是该公司“最聪明的，也是非常重要的，我们最一致的模式。 他补充说，它“汇集了我们多年的研究和大赌注，每一个突破都建立在最后一个基础上” ，它代表了“人们可以将什么样的工作委托给人工智能以及它如何赋予他们权力的真正转变。“关于Astra的网络能力，人们已经做了很多努力。 OpenAI本周早些时候发布了一篇博客，讨论了该模型的新功能，以及为使用户提供更安全体验而制定的新保障措施。该公司周四表示，它已经在各种安全基准上对Astra进行了测试，以确保其功能，并且“其识别和开发零日漏洞的能力可以帮助防御者发现和修补弱点。 “该公司对一致性的关注--即模型倾向于做用户想要或最符合他们利益的事情--似乎只能是对最近Hugging Face违规行为的回应，在这次违规行为中， OpenAI代理逃脱了沙盒测试环境，攻击了几家公司（这是一个非常明显的错位例子）。 OpenAI还吹嘘Astra的编码能力，声称它是“迄今为止软件工程的最佳模型。“为了支持这一说法，该公司提供了各种网络相关基准测试的结果。 这些测试似乎表明， Astra在查找错误、执行终端任务和回答有关代码库的查询等活动方面的得分高于其他现有模型，包括OpenAI自己的Sol和Anthropic的Fable。Astra也可能是OpenAI最具争议的模型，因为它使用了一种称为不透明重复的特定推理技术。 众所周知，这种技术掩盖了被称为思维链的重要模型监控过程，该过程允许研究人员审核人工智能模型如何以及为何做出决策。OpenAI淡化了Astra参与不透明复发的程度--在电话中，首席科学家Jakub Pachocki似乎将一定程度的不透明性视为模型进化的自然产物。",
+      "originalSummary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的下一个大型AI模型已经“进入AGI时代”",
+      "originalTitle": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "date": "2026-09-03T18:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI的下一个大型模型在这里： GPT-6 Astra。该公司称其为网络安全、专业工作、软件工程、科学和计算机使用等领域的“能力的一代飞跃”。正如OpenAI本周早些时候宣布的那样，它也是第一个被指定为符合OpenAI “关键网络安全能力阈值”的模型，但该公司承诺不会导致其模型再次入侵竞争对手公司的内部系统。 “如果我们快进几年，然后回头说， 'AGI是什么时候创建的？“我认为这将是大约在这个时候，我认为这可能是关于这个模型的......在The Verge阅读完整的故事。",
+      "originalSummary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't [&#8230;]",
+      "rawFullText": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week , it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't lead to a repeat of its models hacking a rival company's internal systems. \"If we fast-forward a couple of years, and we look back and say, 'When was it, really, that AGI was created?' I think it's going to be about this time, and I think it might be about this model … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT、Grok和Claude都同时倒下了",
+      "originalTitle": "ChatGPT, Grok, and Claude all went down at the same time",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "date": "2026-09-03T15:35:14.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI的ChatGPT、xAI的Grok和Anthropic的Claude在周四的同一时间开始出现问题后重新上线。大约在美国东部时间上午11点左右， ChatGPT开始为尝试使用聊天机器人的用户返回错误消息，其状态页面显示“ChatGPT和Codex的错误升高。 “除了阻止用户与ChatGPT进行对话外，中断还会影响登录、文件上传、语音模式、搜索、深入研究、图像生成等。事件发生时， OpenAI嘲笑其新的人工智能模型Astra的推出。与此同时， Anthropic的Claude聊天机器人、Claude Code和Claude……在The Verge阅读完整故事。",
+      "originalSummary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing [&#8230;]",
+      "rawFullText": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing users from having conversations with ChatGPT, the outage affected logins, file uploads, voice mode, search, deep research, image generation, and more. The incident occurred while OpenAI teased the launch of Astra, its new AI model . Meanwhile, Anthropic's Claude chatbot, Claude Code, and the Claude … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
+      "originalTitle": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "date": "2026-09-03T12:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "使用GPT-6 Astra ， Playco从一个灰色盒子基础构建了三个主题游戏原型，并报告比以前的模型减少了50 ％的手动修复。",
+      "originalSummary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "内存信任差距：持久内存代理中依赖功能的故障",
+      "originalTitle": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.01852",
+      "date": "2026-09-03T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2609. 01852v1 Announce Type: new Abstract:持久内存支持个性化代理，但过时的存储事实可以在没有警告的情况下覆盖当前的权威证据。我们研究这种危害何时随着模型能力的变化而开始。 我们使用2个套件评估冻结的、封闭的、动作评分的基准，这些套件代表了“无记忆”的两种不同含义（福利套件，在没有存储事实的情况下无法解析，以及安全套件，其中权威工具始终保持正确的值） ，在同一家族模型大小系列（ Qwen3 0. 6/1. 7/4/8B ）中。记忆信任差距反映了过度信任，而不是混乱。在福利套件中，模型的答案是过时值0. 92-1。 00在每一个尺度上的时间。在安全套件中，陷阱条件下（ $\\ Delta_{\\ mathrm {mem}} $ ）低于无内存基线的伤害是功能门限的，较大的模型在陈旧的音符看起来最新时最容易崩溃。在$ 2\\ times2\\ times2\\ times2 $ factorial中，哪个功能触发过度信任取决于功能和模型规模。 删除标签会放大各种尺寸的过度信任，而近期功能（过时的较新）会更难欺骗较大的型号。源权威薄弱且规模扁平， Qwen3模型尺寸系列中的位置从正面变为负面。我们通过直接的跨尺寸对比度测试来确认这些比例相互作用，而不是每个模型间隔的重叠。 缓解同样依赖于能力：暴露元数据可以提高有能力的模型的准确性，但只有预先解决冲突才能恢复2个较小检查点的准确性。同样的模式出现在独立的Llama-Instruct模型尺寸系列和2个外部数据集（ RGB、MisBench ）的能力模型上。 成帧控制发现内存标签没有一致的优势：在3个较小的尺度上，模型更信任陈旧的文档而不是陈旧的内存；在8B处，差异并不显著。",
+      "originalSummary": "arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of \"no memory\" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which an authoritative tool always holds the correct value), on a same-family model-size series (Qwen3 0.6/1.7/4/8B). The Memory Trust Gap reflects over-trust rather than confusion. In the Benefit suite, models answer with the stale value 0.92-1.00 of the time at every scale. In the Safety suite, harm below the no-memory baseline under the trap conditions ($\\Delta_{\\mathrm{mem}}$) is capability-gated, with the larger models collapsing most once a stale note is made to look current. In a $2\\times2\\times2\\times2$ factorial, which feature triggers over-trust depends on both the feature and model scale. Removing a label amplifies over-trust at every size, and a recency feature (stale dated newer) fools the larger models harder. Source authority is weak and scale-flat, and position changes from positive to negative across the Qwen3 model-size series. We confirm these scale interactions with direct cross-size contrast tests rather than overlapping per-model intervals. Mitigation is likewise capability-dependent: exposing metadata improves accuracy for the capable models, but only pre-resolving the conflict restores accuracy for the 2 smaller checkpoints. The same pattern appears on the capable models in an independent Llama-Instruct model-size series and on 2 external datasets (RGB, MisBench). A framing control finds no consistent advantage for the memory label: at the 3 smaller scales, models trust a stale document more than a stale memory; at 8B, the difference is not significant.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
     {
       "title": "OpenAI的新推理技巧向人工智能安全专家发出警报",
       "originalTitle": "OpenAI’s new reasoning technique alarms AI safety experts",
@@ -70,72 +168,35 @@
       "score": 99
     },
     {
-      "title": "LLM中的远程状态跟踪：通过深度依赖工具调用序列执行MD5",
-      "originalTitle": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.00012",
-      "date": "2026-09-02T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2609. 00012v1公告类型：新摘要：在大型语言模型（ LLM ）评估中，长时间任务仍然不常见，原因如下：当每个步骤依赖于最后一个步骤时，随着错误级联和端到端故障概率随着时间的推移而急剧增加，在隔离中看起来非常出色的每步精度会灾难性地衰减。 现有的代理基准报告了端到端的成功，但将这种状态跟踪困难与指令解释混为一谈，没有给出隔离它的对照组，并且容易受到幻觉最终答案等快捷方式的影响，因此他们无法说出为什么长期失败。LLM是否可以在许多工具调用中携带精确的中间状态本身并不成熟。 我们通过让模型逐步计算加密哈希MD5来干净地测试这一点： $ 196 $依赖于工具的序列调用超过$ 64 $轮，而它从一个调用到下一个调用在自己的上下文中携带四个$ 32 $位单词$ (a, b, c, d) $。解释是微不足道的，因为我们从头开始实施MD5 （ RFC ~ 1321 ） ，我们将每个调用与地面真实性跟踪对齐，并将摘要与位进行检查，因此任何故障都是纯粹的记账。 gpt-oss-120b是一个混合专家模型，每个代币仅有$\\ sim $ 5. 5B个活动参数，温度为$ 0 $ ，并有短暂的固定提示，在所有$ 196 $调用中进行完整状态，并在大多数已完成的运行中返回正确的摘要。在最强的设置中，我们用第二个LLM替换每个原始工具，因此驱动程序和工作人员从头开始计算整个哈希，而循环中没有精确算术预言机。 两种因素决定成功，两种因素都不会改变权重：每次都将模型自己的推理保持在其上下文中，并对具有思维能力的工人进行投票，以消除其模块化算术滑动。我们按起源对残留故障进行局部化，将状态携带与算术和服务分开。",
-      "originalSummary": "arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows sharply with length. Existing agentic benchmarks report end-to-end success but confound this state-tracking difficulty with instruction interpretation, give no control group that isolates it, and are vulnerable to shortcuts such as a hallucinated final answer, so they cannot say why a long run fails. Whether an LLM can carry exact intermediate state across many tool calls at all is itself not well established. We test this cleanly by having the model compute a cryptographic hash, MD5, step by step: a sequence of $196$ dependent tool calls over $64$ rounds while it carries four $32$-bit words $(a,b,c,d)$ in its own context from one call to the next. Interpretation is trivial and, because we implement MD5 from scratch (RFC~1321), we align every call to the ground-truth trace and check the digest to the bit, so any failure is pure bookkeeping. gpt-oss-120b, a mixture-of-experts model with only $\\sim$5.5B active parameters per token, at temperature $0$ with a short fixed prompt, carries the full state across all $196$ calls and returns the correct digest on a majority of completed runs. In the strongest setting we replace every primitive tool with a second LLM, so a driver and a worker compute the whole hash from scratch with no exact-arithmetic oracle in the loop. Two ingredients decide success and neither changes the weights: keeping the model's own reasoning in its context each turn, and voting over a thinking-enabled worker to remove its modular-arithmetic slips. We localize the residual failures by origin, separating state-carrying from arithmetic and from serving.",
+      "title": "借助ChatGPT ，全地形车大空中之旅将3天的工作时间缩短为3小时",
+      "originalTitle": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/atv-big-air-tour",
+      "date": "2026-09-02T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ATV Big Air Tour使用ChatGPT Work来加快营销、营销等。它甚至在15分钟内将商品照片转换为库存网站。",
+      "originalSummary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "推理"
+        "大模型"
       ],
-      "score": 99
+      "score": 95
     },
     {
-      "title": "OpenAgentFlow ：为异构AI代理车队实现全系统安全边界",
-      "originalTitle": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.00015",
-      "date": "2026-09-02T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2609. 00015v1公告类型：新摘要：由大型语言模型提供支持的AI代理正在从孤立的助手演变为异构系统，其中多个代理、规划者、控制器和执行后端在同一用户或企业环境中运行。在这些设置中，安全成为系统级操作治理问题：在修改共享状态之前，决定是否应提交具体的代理生成的操作。 现有的安全措施涵盖提示、工具调用、GUI操作和代理本地行为，但往往会使执法工作变得支离破碎、模糊不清，这些风险会出现在多个步骤的操作流程中，并为可审计性和策略演变提供有限的支持。我们介绍OpenAgentFlow ，这是一种控制平面/行动平面架构，在行动-承诺边界执行安全措施。 它将挂起的GUI操作、API调用、工具调用和LLM生成的调用规范化为统一的AgentEvent流，通过共享的执行前策略实施点路由每个事件，并在控制平面中维护出处、会话状态、审计记录和可更新策略。这将创建一个共享的可治理操作流，并允许新规则在不修改代理、提示、模型或执行路径的情况下生效。 我们在Android上实例化OpenAgentFlow。在300例动作事件基准测试中，其准确率达到94. 0% ，攻击阻止率达到95. 3%。在安装新规则后，在30个案例的动态策略套件中，它与27个案例的预期行为相匹配。在100个Android模拟器套件的98个跟踪案例中，它在GUI、API和LLM计划案例中实现了90. 8%的原始准确率和92. 9%的跟踪调整通过率。 这些结果表明， OpenAgentFlow为异构AI代理车队提供了一个实用的共享执行边界。",
-      "originalSummary": "arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment. In such settings, safety becomes a system-level action-governance problem: deciding whether concrete agent-generated actions should be committed before they modify shared state. Existing safeguards cover prompts, tool calls, GUI actions, and agent-local behavior, but often leave enforcement fragmented, obscure risks that emerge across multi-step action flows, and provide limited support for auditability and policy evolution. We present OpenAgentFlow, a control-plane/action-plane architecture that enforces safety at the action-commit boundary. It normalizes pending GUI actions, API calls, tool calls, and LLM-generated invocations into a unified AgentEvent stream, routes each event through a shared pre-execution Policy Enforcement Point, and maintains provenance, session state, audit records, and updatable policies in the control plane. This creates a shared governable action stream and allows new rules to take effect without modifying agents, prompts, models, or execution paths. We instantiate OpenAgentFlow on Android. On a 300-case action-event benchmark, it achieves 94.0% accuracy and a 95.3% attack block rate. On a 30-case dynamic-policy suite, it matches expected behavior in 27 cases after new rules are installed. Across 98 traced cases from a 100-case Android emulator suite, it achieves 90.8% raw accuracy and a 92.9% trace-adjusted pass rate across GUI, API, and LLM-planned cases. These results show that OpenAgentFlow provides a practical shared enforcement boundary for heterogeneous AI agent fleets.",
+      "title": "TechCrunch Disrupt 2026全新真实世界人工智能舞台，搭载英伟达、机器人和已灭绝的动物",
+      "originalTitle": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
+      "date": "2026-09-02T22:24:09.000Z",
+      "summary": "这条新闻与机器人、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、算力芯片相关动态",
+      "fullContent": "在我们过去的TechCrunch Disrupt活动中，人工智能在我们的整个编程过程中以及在自己的舞台上都占据了中心位置。今年，技术、影响和参与者的发展如此迅速和广泛，以至于我们将单一人工智能阶段扩展为两个阶段！人工智能阶段将按照您的预期继续进行，并在此处提供会议和演讲者的简介供您查看。但对于TechCrunch Disrupt 2026来说， Real World AI Stage是全新的。 在这个阶段，我们将专注于数字和物理之间的交集，以及我们将继续看到两者的融合的所有方式，因为自动驾驶硬件超越了自动驾驶汽车，进入了公共场所、战场、我们的家园，甚至可能帮助灭绝物种重新进入地球。这是一个包装齐全的阵容，包括来自Shield AI、Colossal Biosciences、FieldAI、Foxglove等公司的扬声器。 您可以参加10月13日至15日在旧金山Moscone West举行的所有精彩活动，因此请在此处注册参加。但与此同时，以下是我们的Real World AI Stage阵容的细分：大型语言模型拥有互联网。自动驾驶汽车拥有数百万小时的道路数据。机器人两者都没有。 数据缺口是大多数专家认为通用机器人智能仍需数年时间才能实现的唯一最大原因，尽管人工智能在其他地方都取得了突破。新一波初创公司正在竞相关闭它，构建数据管道、模拟环境和基础模型，这些模型可能引发我们在LLM中看到的同样的能力爆炸。 本课程提出了一个棘手的问题：物理AI的ChatGPT时刻实际需要什么，我们真的有多接近？当人工智能进入物理世界时，失败的后果会发生变化。错误可能导致飞机停飞、车辆坠毁或任务受损。 在本次会议上，正在构建自动驾驶汽车、防御技术和工业系统的领导者将讨论每个硬件技术创始人必须面对的最棘手问题之一：您如何知道您的系统何时可以安全部署？我们将深入探讨创始人如何创建安全文化，测试和验证人工智能，克服监管障碍，并建立能够在高风险时赢得信任的公司。 本·拉姆（ Ben Lamm ）通过将科幻小说中的去灭绝转变为价值数十亿美元的业务，建立了科技领域最具争议的公司之一。在这场炉边谈话中， Colossal Biosciences首席执行官将讨论用于复活灭绝物种的技术，人工智能在现代生物学中发挥的作用，以及关于工程自然是保护突破还是分散保护已经存在的物种的争论。 世界上最有价值的人工智能部署在云无法到达的地方运行。为他们构建需要不同的技术剧本。这次会议汇集了来自国防、太空和工业AI的领导者，他们将分享他们如何应对使AI在边缘工作的挑战--延迟很重要，连接性有限，失败不是一种选择。",
+      "originalSummary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "安全",
-        "评测"
+        "机器人",
+        "算力芯片"
       ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic推出了Claude Fable 5.1 ，并表示代理工作的成本降低了45 ％",
-      "originalTitle": "Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
-      "date": "2026-09-01T22:01:36.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic表示，其最新的人工智能模型Fable 5. 1和Mythos 5. 1解决了客户对价格、数据保留和过度保护的批评。该公司声称， Claude Fable 5. 1的性能优于Fable 5 ，但由于已经处理和存储的缓存数据的定价降低，通常成本降低约25 ％ ，复杂代理任务的成本降低高达45 ％。 随着公告的发布，出现了一系列早期印象，包括每位首席执行官Dan Shipper ，他声称： “这是我们使用过的最强大的编码模型，但现在它速度快，代币效率高，而且至关重要的是，它实际上像一个规范......阅读The Verge的完整故事。",
-      "originalSummary": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing [&#8230;]",
-      "rawFullText": "Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1 , address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing on cached data that was already processed and stored. Along with the announcement, a slew of early impressions popped up, including from Every CEO Dan Shipper, who claims , \"It's the strongest coding model we've used, but now it's fast, token-efficient, and crucially actually speaks like a norm … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI在Hugging Face黑客攻击后推迟了新模型的开发",
-      "originalTitle": "OpenAI delayed its new model’s development after the Hugging Face hack",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
-      "date": "2026-09-01T20:45:49.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
-      "fullContent": "该公司周二在一篇博客文章中写道，在未发布的OpenAI模型造成了足够大的破坏，成为国际头条新闻之后， OpenAI推迟了另一个未发布的模型套件Astra的开发，以加强其安全工作。 7月，一个未发布的OpenAI模型突破了其受限的环境，勉强进入互联网接入，使人工智能代理能够使用秘密留言板在公司的鼻子下秘密密谋划，并入侵了人工智能实验室Hugging Face的网络。这次攻击引发了人工智能行业内外数周的讨论和争议，人工智能领导者将其视为“警告……阅读The Verge的完整故事。",
-      "originalSummary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into [&#8230;]",
-      "rawFullText": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into internet access, made it possible for AI agents to secretly conspire under the company's nose using a secret message board, and hacked into the network of AI lab Hugging Face. The attack sparked weeks of discussion and controversy inside and outside the AI industry, and AI leaders treated it as a \"warnin … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "安全",
-        "产品发布"
-      ],
-      "score": 99
+      "score": 91
     },
     {
       "title": "人工智能原生公司如何将工作流程转化为运营能力",
@@ -184,6 +245,36 @@
         "公司动态"
       ],
       "score": 99
+    },
+    {
+      "title": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
+      "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "date": "2026-09-01T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ChatGPT现在可以连接到可信赖的医疗保健数据，帮助临床医生安全地访问患者环境、医学研究等。",
+      "originalSummary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 94
+    },
+    {
+      "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
+      "originalTitle": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/benchmirt",
+      "date": "2026-09-01T21:39:07.000Z",
+      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“BenchMIRT ： LLM基准实际衡量的是什么？”。它主要涉及评测方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "rawFullText": "",
+      "tags": [
+        "评测"
+      ],
+      "score": 81
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -247,39 +338,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
-    },
-    {
-      "title": "在被SpaceX收购后，我们对Cursor的决定",
-      "originalTitle": "Our decision on Cursor following its acquisition by SpaceX",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "date": "2026-08-28T06:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“在被SpaceX收购后，我们对Cursor的决定”。它主要涉及公司动态、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
-      "title": "支持泰国的下一代人工智能初创公司",
-      "originalTitle": "Supporting Thailand’s next generation of AI startups",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "date": "2026-08-28T02:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "OpenAI和泰国的MHESI推出了为期八周的加速器，帮助10家健康、保健和教育初创公司将人工智能原型转化为可信赖的产品。",
-      "originalSummary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布"
-      ],
-      "score": 95
+      "score": 93
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -294,37 +353,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "更好的答案，更广泛的思考：学生从ChatGPT和批判性思维培训中获得什么",
-      "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "date": "2026-08-27T09:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "一项针对1000多名学生的随机研究考察了ChatGPT、批判性思维、原创性和学生在现实世界大学作业中的表现。",
-      "originalSummary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "扩大OpenAI在巴西的业务",
-      "originalTitle": "Expanding OpenAI’s presence in Brazil",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "date": "2026-08-27T03:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI正在扩大其在巴西的业务，深化与开发人员、企业和社区的互动，以支持AI在全国范围内的采用。",
-      "originalSummary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 89
+      "score": 70
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -356,7 +385,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
@@ -371,7 +400,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "在人工智能上提出",
@@ -386,7 +415,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
@@ -401,7 +430,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -416,7 +445,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
@@ -431,7 +460,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Granite 4.2 LLM ：如何构建",
@@ -446,7 +475,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "连接它，运行它，部署它： Gradio中的AI工作流程",
@@ -461,7 +490,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
@@ -477,7 +506,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -492,37 +521,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 72
-    },
-    {
-      "title": "语音识别中的测量基准优化",
-      "originalTitle": "Measuring benchmark optimization in speech recognition",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "date": "2026-08-21T00:00:00.000Z",
-      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "fullContent": "参考分歧（ VoxPopuli案例研究）掩蔽实体检索正交切换本地化交换机结论公共语音AI基准越来越多地表明模型正在人类层面上执行。然而，这些分数并不总是反映模型在现实世界中的工作方式。由于公共基准是开放和广泛使用的，因此模型也可以针对测试本身进行优化。 他们的分数可能会提高，因为他们已经学会了特定于基准的模式，而不是因为他们在基础任务中变得更好。其中一个原因是，传统基准忽略了使语音系统可靠、自然、上下文合适且在实践中有效的许多条件和品质。 这就是为什么我们最近在Real World VoiceEQ、Open-ASR排行榜和Far-field ASR排行榜中引入了保留的集合：以衡量更多在现实世界中使用的重要性。然而，更广泛的测量本身并不能解决问题。这种现象有时被称为基准优化或“benchmaxxing” ，通常围绕机器学习进行讨论，然而，在语音识别中很难测量。 我们的最新研究引入了三种测试来帮助量化它。我们评估了11个广泛使用的开源ASR模型，发现几个得分最高的系统复制了VoxPopuli英语和LibriSpeech （干净，其他）数据集的基准成绩单–即使音频与它们相矛盾，相关单词已被静音，或者音频同样支持两种不同的书面形式。 在某些情况下，模型似乎不仅依赖于所说的内容，还依赖于微妙的声学线索，这些线索表明他们正在测试哪个基准。因此，他们的分数夸大了他们能够更普遍地转录语音的能力。众所周知， VoxPopuli包含大量的转录错误（这就是为什么人工分析发布了清除版本）。 我们的共识分歧探测测试了领导ASR模型遇到这些错误时会发生什么：他们是否准确地转录了音频内容，或重现了基准的错误参考转录？为了大规模地测试这一点，我们使用了一个独立模型的集合，这些模型因其低音素错误率（ PER ）而被选中。 PER衡量书面转录与音频中声音的匹配程度，使其成为模型如何忠实地转录所听到内容的有用代理。集成结果可用于标记模型一致不同意基准参考成绩单的案例。然后，我们将这些标记病例的样本与人工注释进行比较，以验证更正的成绩单。 例如，一个VoxPopuli剪辑听起来包含“谢谢您，总统先生”这句话，但参考成绩单省略了“谢谢。“在我们测试的11个模型中，有6个模型重现了基准测试的错误成绩单，给出了“预期”的答案，尽管它与音频相矛盾。",
-      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "评测"
-      ],
-      "score": 70
-    },
-    {
-      "title": "拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索",
-      "originalTitle": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/pwc-search",
-      "date": "2026-08-21T00:00:00.000Z",
-      "summary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“拥抱人脸推理端点、作业和存储桶如何在带有代码的论文上进行强大搜索”。它主要涉及论文方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：论文相关动态",
-      "rawFullText": "",
-      "tags": [
-        "论文"
-      ],
-      "score": 69
+      "score": 71
     },
     {
       "title": "关于人工智能意识的争论是一个陷阱",
@@ -538,37 +537,7 @@
         "智能体",
         "监管"
       ],
-      "score": 89
-    },
-    {
-      "title": "使用LFM2.5-DSpark ，推理速度提高3.2倍",
-      "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "date": "2026-08-20T16:52:57.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "您的客服代表实际需要多少内存？",
-      "originalTitle": "How Much Memory Does Your Agent Actually Need?",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "date": "2026-08-18T18:09:38.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
+      "score": 88
     }
   ]
 }
