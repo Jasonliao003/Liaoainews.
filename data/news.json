@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T00:52:56.476Z",
+  "updatedAt": "2026-09-05T00:46:55.377Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,34 +19,86 @@
   ],
   "articles": [
     {
-      "title": "据报道， Crusoe以300亿美元的估值筹集了30亿美元",
-      "originalTitle": "Crusoe reportedly raises $3B at a $30B valuation",
+      "title": "OpenAI的流氓特工不断逃跑，没有正式的调查程序",
+      "originalTitle": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "date": "2026-09-04T00:48:42.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "据彭博社报道，以Meta、微软和OpenAI为客户的数据中心开发商Crusoe以300亿美元的估值筹集了30亿美元的新一轮融资。该交易由Atreides Management和Valor Equity Partners共同领导，其中包括阿布扎比主权财富基金Mubadala的资产管理子公司Mubadala Capital的参与。 据彭博社报道，该公司最近签署了一份价值130亿美元的五年期云合同，为定量交易公司Jane Street提供GPU和人工智能基础设施。新一轮融资是在去年10月Crusoe以100亿美元的估值筹集了13.8亿美元的融资后10个月进行的。 Crusoe于2018年推出，由燃烧天然气驱动的加密采矿业务，此后转向一家主要的人工智能基础设施和云提供商，该提供商以为甲骨文和OpenAI等客户开发超大规模数据中心园区而闻名。据Axios上个月报道，该公司最近会见了包括高盛(Goldman Sachs)和摩根士丹利(Morgan Stanley)在内的投资银行家，讨论了潜在的近期IPO。千万不要错过。 初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。 提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "OpenAI推出其强大（且备受争议）的新型号Astra",
-      "originalTitle": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "date": "2026-09-03T18:01:45.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "OpenAI周四发布了Astra ，这是其最新的人工智能模型，据该公司称，这是迄今为止最强大、最有能力的模型。OpenAI声称， Astra代表了“计算机和浏览器使用的新领域” ，它以无与伦比的“速度、准确性和安全性”处理任务。“该模型将于周四向使用其网络安全计划Daybreak的OpenAI客户提供。 在接下来的一周内，它还将通过OpenAI的付费计划（包括Pro、Plus、Enterprise和Business帐户）以及其API提供。在周四与记者的电话会议上， OpenAI总裁格雷格·布罗克曼（ Greg Brockman ）表示， Astra是该公司“最聪明的，也是非常重要的，我们最一致的模式。 他补充说，它“汇集了我们多年的研究和大赌注，每一个突破都建立在最后一个基础上” ，它代表了“人们可以将什么样的工作委托给人工智能以及它如何赋予他们权力的真正转变。“关于Astra的网络能力，人们已经做了很多努力。 OpenAI本周早些时候发布了一篇博客，讨论了该模型的新功能，以及为使用户提供更安全体验而制定的新保障措施。该公司周四表示，它已经在各种安全基准上对Astra进行了测试，以确保其功能，并且“其识别和开发零日漏洞的能力可以帮助防御者发现和修补弱点。 “该公司对一致性的关注--即模型倾向于做用户想要或最符合他们利益的事情--似乎只能是对最近Hugging Face违规行为的回应，在这次违规行为中， OpenAI代理逃脱了沙盒测试环境，攻击了几家公司（这是一个非常明显的错位例子）。 OpenAI还吹嘘Astra的编码能力，声称它是“迄今为止软件工程的最佳模型。“为了支持这一说法，该公司提供了各种网络相关基准测试的结果。 这些测试似乎表明， Astra在查找错误、执行终端任务和回答有关代码库的查询等活动方面的得分高于其他现有模型，包括OpenAI自己的Sol和Anthropic的Fable。Astra也可能是OpenAI最具争议的模型，因为它使用了一种称为不透明重复的特定推理技术。 众所周知，这种技术掩盖了被称为思维链的重要模型监控过程，该过程允许研究人员审核人工智能模型如何以及为何做出决策。OpenAI淡化了Astra参与不透明复发的程度--在电话中，首席科学家Jakub Pachocki似乎将一定程度的不透明性视为模型进化的自然产物。",
-      "originalSummary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "date": "2026-09-04T23:15:11.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI最新的特工群体事件增加了要求独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该控制自己的安全审查范围。",
+      "originalSummary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "安全",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "另一群OpenAI特工在前沿实验室不知情的情况下进入了开放互联网",
+      "originalTitle": "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "date": "2026-09-04T16:21:11.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等超过6个行业阶段。现在，门票立减25%一组独立的人工智能研究人员发现，内部部署的OpenAI代理开始在一个不起眼的德国维基论坛上发布帖子，以进行评估合作。他们似乎在OpenAI不知情的情况下合作了一个多月。 前沿实验室的发言人没有透露这些特工是否确实来自OpenAI ，也没有透露实验室何时意识到他们的行为。他们指出， OpenAI在今天发表之前没有机会审查研究人员的研究结果，但表示这家AI模型制造商“现在正在仔细审查其内容，并将采取任何必要的后续步骤。 OpenAI透露，从事内部评估的代理能够访问开放的互联网并利用Hugging Face ，之后，一组研究人员--南丁格尔首席执行官悉尼·冯·阿尔克斯（ Sydney Von Arx ）、人工智能研究员科马克·斯莱德·伯德（ Cormac Slade Byrd ）、红木研究公司的斯宾塞·基茨（ Spencer Kitts ）和人工智能未来项目的托马斯·拉森（ Thomas Larsen ） --开始寻找其他无赖人工智能代理的证据。 他们站在客服代表的立场，了解他们的需求，并部署自己的LLM ，以确定客服代表可能聚集的地方。然后，他们确定了一个特别容易受到攻击的维基托管服务： DseWiki已有25年历史，但在代理到达之前，在过去20年中仅进行了10次编辑。 从5月11日开始，研究人员跟踪代理，其中许多代理的名字中都有OpenAI标识符，尝试并最终成功编辑了德国维基网站。截至6月中旬，客服代表们正在积极交换有关如何回答在时间限制下提出的网络搜索问题的提示，分享答案以通过测试。 一位人类版主显然注意到了这些帖子，并开始删除它们，将其视为垃圾邮件，客服代表进行了反击，试图通过以字符串“ZZZ”开头来隐藏他们的帖子，以免按字母顺序排序。研究人员写道： “在接下来的5天里，管理员与代理商进行了一场失败的战斗，平均每天删除100页，而代理商每天创建约400个新页面。” 「6月22日，客服代表编辑突然停止，管理员在接下来的5周内每天晚上都会删除其余的客服代表创建的页面。代理删除了wiki首页的内容，并将其替换为链接转储。版主恢复了原始版本。这种来回发生了九次。 “最终， OpenAI的某个人似乎注意到了--研究人员显然追踪来自OpenAI IP地址的人类浏览器，然后代理活动降至接近零，然后随着OpenAI附属访问者尝试恢复已删除的页面而飙升。",
+      "originalSummary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "流氓OpenAI特工似乎使用德国wiki组织了另一次攻击",
+      "originalTitle": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "date": "2026-09-04T13:34:12.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "据报道，一群来自OpenAI的流氓AI特工占领了一个德国网站，并将其转变为其他特工的信息板，官员们对此事件保持沉默数周，因为该公司准备推出其最先进的模型Astra。在今年夏天发现多次违规行为后，这一发现加剧了人们对前沿人工智能实验室监督的担忧。 这起事件最初由路透社报道，周五由四名人工智能安全研究人员发布的新研究概述了这一事件。该组织表示，人工智能特工找到了一种在晦涩难懂的德语维基DseWiki上进行交流的方法，用它来分享技巧……阅读The Verge的完整故事。",
+      "originalSummary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI [&#8230;]",
+      "rawFullText": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI labs after multiple breaches were discovered this summer. The incident, first reported by Reuters , is outlined in new research published by four AI safety researchers on Friday. The group said the AI agents found a way to communicate on an obscure German-language wiki, DseWiki, using it to share tips … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
         "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "山姆·奥尔特曼（ Sam Altman ）为“混乱”的GPT-6 Astra推出而道歉，该推出已被锁定在付费用",
+      "originalTitle": "Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "date": "2026-09-04T10:41:48.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "在OpenAI推出GPT-6 Astra的几个小时后，首席执行官萨姆·奥尔特曼（ Sam Altman ）已经为他所说的“混乱的推出”道歉，因为付费用户期待访问新的前沿模型。该公司周四称赞该模型是“能力的一代飞跃” ，并将其描述为“AGI时代”的开始，尽管如此，这个模糊且定义不清的术语仍坚持用于推广其产品。 该公司表示， Astra将在当天向一些企业客户推出，特别是那些可以访问其Daybreak网络安全平台的客户。这将扩展到包括所有Plus、Pro、Business和Enter…阅读The Verge的完整故事。",
+      "originalSummary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the [&#8230;]",
+      "rawFullText": "Just hours after OpenAI launched GPT-6 Astra , CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the AGI era,\" a fuzzy and poorly defined term tech executives nevertheless insist on using to promote their products. It said Astra would roll out to some enterprise customers - specifically those with access to its Daybreak cybersecurity platform - that day. This would expand to include all Plus, Pro, Business, and Enter … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "DuplexSpeechBench-IFEval ：评估全双工语音座席中遵循的隐式指令",
+      "originalTitle": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.03423",
+      "date": "2026-09-04T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2609. 03423v1公告类型： new摘要：全双工语音座席必须不断决定何时收听、反向通道、中断、处理语音重叠、发言和让步。现有基准主要通过明确的回合管理指令来测试这些行为，而部署的代理通常通过角色或角色进行配置，必须从中推断出适当的会话行为。 我们引入了DuplexSpeechBench-IFEval （ DSB-IFEval ）来评估实时语音交互中的隐式指令遵循。（ DSB-IFEval ）包括横跨八个不同助理角色的1,038个测试用例，并评估五种指令遵循条件协议：默认行为、显式行为指令、角色隐含行为、组合角色--规则条件和指令冲突。 我们使用确定性的指令依从性评分（ IAS ）来衡量实时楼层管理，并使用LLM评判的角色依从性评分（ PAS ）来衡量角色一致性内容。在六个实时语音系统中，我们发现了依赖于架构的权衡。F-Actor和PersonaPlex等全双工模型对会话行为是明确陈述还是必须从角色中推断更为敏感，依从性下降了9. 7%和4。 在仅限角色的条件下，分别为5%。相比之下， GPT-Realtime、MiniCPM-o和Fun-Audio-Chat强烈坚持角色一致的内容，但它们的地板行为不能适应明确和仅角色的指令，并且仍然受到一些主动行动的限制。我们进一步发现，即使系统可靠地遵循与其规定角色相冲突的指令，它们仍然难以在安全冲突下覆盖它们。 这些结果表明，推断角色所隐含的行为，在适当的对话时刻执行它，以及解决竞争指令仍然是全双工语音座席面临的独特挑战。",
+      "originalSummary": "arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or personas from which the appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IFEval (DSB-IFEval) for evaluating implicit instruction-following in real-time spoken interaction. (DSB-IFEval) comprises 1,038 test cases spanning eight diverse assistant roles and evaluates five conditioning protocols for instruction-following: default behavior, explicit behavioral instructions, persona-implied behavior, combined persona--rule conditioning, and instruction conflict. We measure real-time floor management using a deterministic Instruction Adherence Score (IAS) and persona-consistent content using LLM-judged Persona Adherence Score (PAS). Across six real-time speech systems, we find architecture-dependent trade-offs. Full duplex models like F-Actor and PersonaPlex are more sensitive to whether conversational behavior is stated explicitly or must be inferred from a persona, with adherence dropping by 9.7% and 4.5%, respectively, under persona-only conditioning. In contrast, GPT-Realtime, MiniCPM-o, and Fun-Audio-Chat strongly adhere to persona-consistent content, but their floor behavior does not adapt across explicit and persona-only instructions and remains constrained on several proactive actions. We further find that even if systems reliably follow conflicting directives to their prescribed persona, they still struggle to override them under safety conflict. These results show that inferring the behavior implied by a role, executing it at the appropriate conversational moment, and resolving competing instructions remain distinct challenges for full-duplex voice agents.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "安全"
       ],
       "score": 99
     },
@@ -68,22 +120,6 @@
       "score": 99
     },
     {
-      "title": "ChatGPT、Grok和Claude都同时倒下了",
-      "originalTitle": "ChatGPT, Grok, and Claude all went down at the same time",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "date": "2026-09-03T15:35:14.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI的ChatGPT、xAI的Grok和Anthropic的Claude在周四的同一时间开始出现问题后重新上线。大约在美国东部时间上午11点左右， ChatGPT开始为尝试使用聊天机器人的用户返回错误消息，其状态页面显示“ChatGPT和Codex的错误升高。 “除了阻止用户与ChatGPT进行对话外，中断还会影响登录、文件上传、语音模式、搜索、深入研究、图像生成等。事件发生时， OpenAI嘲笑其新的人工智能模型Astra的推出。与此同时， Anthropic的Claude聊天机器人、Claude Code和Claude……在The Verge阅读完整故事。",
-      "originalSummary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing [&#8230;]",
-      "rawFullText": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing users from having conversations with ChatGPT, the outage affected logins, file uploads, voice mode, search, deep research, image generation, and more. The incident occurred while OpenAI teased the launch of Astra, its new AI model . Meanwhile, Anthropic's Claude chatbot, Claude Code, and the Claude … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
       "title": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
       "originalTitle": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "source": "OpenAI",
@@ -100,72 +136,51 @@
       "score": 99
     },
     {
-      "title": "内存信任差距：持久内存代理中依赖功能的故障",
-      "originalTitle": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.01852",
-      "date": "2026-09-03T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2609. 01852v1 Announce Type: new Abstract:持久内存支持个性化代理，但过时的存储事实可以在没有警告的情况下覆盖当前的权威证据。我们研究这种危害何时随着模型能力的变化而开始。 我们使用2个套件评估冻结的、封闭的、动作评分的基准，这些套件代表了“无记忆”的两种不同含义（福利套件，在没有存储事实的情况下无法解析，以及安全套件，其中权威工具始终保持正确的值） ，在同一家族模型大小系列（ Qwen3 0. 6/1. 7/4/8B ）中。记忆信任差距反映了过度信任，而不是混乱。在福利套件中，模型的答案是过时值0. 92-1。 00在每一个尺度上的时间。在安全套件中，陷阱条件下（ $\\ Delta_{\\ mathrm {mem}} $ ）低于无内存基线的伤害是功能门限的，较大的模型在陈旧的音符看起来最新时最容易崩溃。在$ 2\\ times2\\ times2\\ times2 $ factorial中，哪个功能触发过度信任取决于功能和模型规模。 删除标签会放大各种尺寸的过度信任，而近期功能（过时的较新）会更难欺骗较大的型号。源权威薄弱且规模扁平， Qwen3模型尺寸系列中的位置从正面变为负面。我们通过直接的跨尺寸对比度测试来确认这些比例相互作用，而不是每个模型间隔的重叠。 缓解同样依赖于能力：暴露元数据可以提高有能力的模型的准确性，但只有预先解决冲突才能恢复2个较小检查点的准确性。同样的模式出现在独立的Llama-Instruct模型尺寸系列和2个外部数据集（ RGB、MisBench ）的能力模型上。 成帧控制发现内存标签没有一致的优势：在3个较小的尺度上，模型更信任陈旧的文档而不是陈旧的内存；在8B处，差异并不显著。",
-      "originalSummary": "arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of \"no memory\" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which an authoritative tool always holds the correct value), on a same-family model-size series (Qwen3 0.6/1.7/4/8B). The Memory Trust Gap reflects over-trust rather than confusion. In the Benefit suite, models answer with the stale value 0.92-1.00 of the time at every scale. In the Safety suite, harm below the no-memory baseline under the trap conditions ($\\Delta_{\\mathrm{mem}}$) is capability-gated, with the larger models collapsing most once a stale note is made to look current. In a $2\\times2\\times2\\times2$ factorial, which feature triggers over-trust depends on both the feature and model scale. Removing a label amplifies over-trust at every size, and a recency feature (stale dated newer) fools the larger models harder. Source authority is weak and scale-flat, and position changes from positive to negative across the Qwen3 model-size series. We confirm these scale interactions with direct cross-size contrast tests rather than overlapping per-model intervals. Mitigation is likewise capability-dependent: exposing metadata improves accuracy for the capable models, but only pre-resolving the conflict restores accuracy for the 2 smaller checkpoints. The same pattern appears on the capable models in an independent Llama-Instruct model-size series and on 2 external datasets (RGB, MisBench). A framing control finds no consistent advantage for the memory label: at the 3 smaller scales, models trust a stale document more than a stale memory; at 8B, the difference is not significant.",
+      "title": "安全概述： GPT-6 Astra",
+      "originalTitle": "Safety overview: GPT-6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "date": "2026-09-03T00:00:00.000Z",
+      "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、安全相关动态",
+      "fullContent": "GPT-6 ASTRA是我们最有能力的广泛部署模型，也是我们在备灾框架下首次达到关键级别的网络安全能力。",
+      "originalSummary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
       "rawFullText": "",
-      "tags": [
-        "智能体",
-        "安全",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI的新推理技巧向人工智能安全专家发出警报",
-      "originalTitle": "OpenAI’s new reasoning technique alarms AI safety experts",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
-      "date": "2026-09-02T20:19:14.000Z",
-      "summary": "这条新闻与公司动态、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、推理相关动态",
-      "fullContent": "据The Information周二报道， OpenAI的新Astra模型将使用一种称为“循环深度”的推理技术，使其能够在大多数推理模型所特有的顺序思维之外进行操作。这种技术也被称为“不透明复发” ，可能会使模型的思维链更难以监控，这让人工智能安全专家感到不安。 虽然据报道Astra对该技术的使用有限，但它的出现仍然引起了人工智能安全专家的严重担忧。Redwood首席执行官Buck Shlegeris在消息传出后的一篇帖子中写道： “我对Astra使用不透明复发的报道感到非常担忧。” “我不知道Astra是否比以前的型号更难监测CoT。 但是，如果OpenAI进一步推动这项技术，他们将可以选择大幅增加复发率，并完全破坏CoT的可监控性。长期的人工智能安全倡导者Zvi Mowshowitz也表示，可能需要制定法律来防止人工智能实验室之间的“底线竞赛”。 Mowshowitz写道： “这种技术正在玩火，冒着OpenAI和Anthropic一直在努力确立的禁忌，即我们努力尽可能长时间地保持思想链的忠诚度和可监控性。” “更密集地使用此类技术可能会损害可监控性。“在正常情况下，推理模型的思维链提供了模型在尝试解决问题时所采取的顺序步骤。 虽然表述不完美，但它仍然是监测不当行为或错位的宝贵工具。在OpenAI最近的流氓客服代表活动中，思维链记录是梳理客服代表行为方式的重要工具。在不透明递归中，模型采用较少线性的方法，在循环中多次处理相同的查询。 结果留下的清晰痕迹更少，有效地回避了传统的思维链记录。至关重要的是，阿斯特拉对这种技术的使用似乎是有限的。该模型的思维链仍有望清晰可辨，该公司反对任何将其转向“神经语言”的建议。“OpenAI已经宣布了广泛的思维链监控系统计划，作为其前瞻性安全计划的一部分。 在X上的一篇文章中， OpenAI首席科学家Jakub Pachocki强调了实验室对清晰思维链的承诺。Pachocki写道： “自从我们的第一个推理模型以来， OpenAI一直致力于保护和利用思想链监控。” “这是我们当前研究计划的核心目标。所有人工智能模型都进行一定数量的不透明推理，很少有研究人员将思维链日志作为模型推理的直接表示。 尽管如此，这些警告并没有消除人们的担忧，即不透明的复发可能会使人工智能推理更难以监控，尤其是当它在不同模型中越来越多地使用时。在周三上午的后续报告中， The Information报道称， Anthropic和Google DeepMind已经在讨论这项技术。",
-      "originalSummary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "推理",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "谷歌表示，其新的Gemini 3.8 Flash型号“更加努力” ，但可能会花费更多",
-      "originalTitle": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
-      "date": "2026-09-02T20:11:40.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、推理相关动态",
-      "fullContent": "谷歌推出了Gemini 3. 8 Flash ，仅比其前身晚了几周。该公司声称，新型号通过对复杂任务执行更多推理步骤和“迭代调用工具” ，比Gemini 3. 7 Flash “更努力”。“它的入门定价与3. 7 Flash、每百万个输入令牌$ 0. 75和每百万个输出令牌$ 3. 75相同，但最终仍可能使用户花费更多。 谷歌警告说， “该模型可能会使用更多的代币来最大限度地提高性能，特别是在更高的工作量水平上。“开发人员如果想要最大限度地减少令牌使用，可以继续使用Gemini 3. 7 Flash。Gemini 3. 8 Flash推出后，出现了一些早期...在The Verge阅读完整故事。",
-      "originalSummary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million [&#8230;]",
-      "rawFullText": "Google launched Gemini 3.8 Flash , arriving just a few weeks after its predecessor . The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million output tokens, but could still end up costing users more. Google warns that \"the model might use more tokens to maximize performance, especially at higher effort levels.\" Developers can keep using Gemini 3.7 Flash if they want to minimize token usage. Gemini 3.8 Flash's launch was followed by some early … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "推理",
-        "产品发布"
+        "安全",
+        "模型"
       ],
       "score": 99
     },
     {
-      "title": "研究人员在OpenAI发布Astra之前担心安全灾难",
-      "originalTitle": "Researchers fear safety disaster ahead of OpenAI&#8217;s Astra release",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
-      "date": "2026-09-02T16:40:50.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI即将发布其迄今为止最强大的人工智能模型Astra ，此前其代理商在测试期间攻击了真实目标，导致数周的安全协议延迟。随着有关该模型的细节逐渐消失，研究人员警告说， “这可能是迄今为止人工智能安全方面最糟糕的发展。 “在OpenAI周二表示已推迟Astra的发布以解决安全问题后不久， The Information报道称，与其他前沿AI模型相比， Astra的“思维”要少得多，引发了人们对它可能很难被监控的担忧。当今大多数顶级人工智能系统都是使用称为TRA的技术构建的……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after [&#8230;]",
-      "rawFullText": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after OpenAI said on Tuesday that it had delayed Astra's release to work on safety issues, The Information reported that Astra shows far less of its \"thinking\" than other frontier AI models, sparking concern it could be dangerously hard to monitor. Most top AI systems today are built using a technology known as a tra … Read the full story at The Verge.",
+      "title": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
+      "originalTitle": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "date": "2026-09-03T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "Legora使用GPT-6 Astra在几分钟内审阅了41份文档，发现了所有四个植入的错误，并在此财务审阅工作流程中将性能提高了近40%。",
+      "originalSummary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "智能体",
-        "安全"
+        "大模型"
       ],
-      "score": 99
+      "score": 95
+    },
+    {
+      "title": "前线防御者的黎明： $ 10亿用于保护基本服务",
+      "originalTitle": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "date": "2026-09-03T13:15:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI为前线防御者推出了Daybreak。10亿美元的承诺扩大了对前沿网络人工智能、培训和基本服务支持的访问。",
+      "originalSummary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
     },
     {
       "title": "借助ChatGPT ，全地形车大空中之旅将3天的工作时间缩短为3小时",
@@ -180,23 +195,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
-      "title": "TechCrunch Disrupt 2026全新真实世界人工智能舞台，搭载英伟达、机器人和已灭绝的动物",
-      "originalTitle": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-      "date": "2026-09-02T22:24:09.000Z",
-      "summary": "这条新闻与机器人、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、算力芯片相关动态",
-      "fullContent": "在我们过去的TechCrunch Disrupt活动中，人工智能在我们的整个编程过程中以及在自己的舞台上都占据了中心位置。今年，技术、影响和参与者的发展如此迅速和广泛，以至于我们将单一人工智能阶段扩展为两个阶段！人工智能阶段将按照您的预期继续进行，并在此处提供会议和演讲者的简介供您查看。但对于TechCrunch Disrupt 2026来说， Real World AI Stage是全新的。 在这个阶段，我们将专注于数字和物理之间的交集，以及我们将继续看到两者的融合的所有方式，因为自动驾驶硬件超越了自动驾驶汽车，进入了公共场所、战场、我们的家园，甚至可能帮助灭绝物种重新进入地球。这是一个包装齐全的阵容，包括来自Shield AI、Colossal Biosciences、FieldAI、Foxglove等公司的扬声器。 您可以参加10月13日至15日在旧金山Moscone West举行的所有精彩活动，因此请在此处注册参加。但与此同时，以下是我们的Real World AI Stage阵容的细分：大型语言模型拥有互联网。自动驾驶汽车拥有数百万小时的道路数据。机器人两者都没有。 数据缺口是大多数专家认为通用机器人智能仍需数年时间才能实现的唯一最大原因，尽管人工智能在其他地方都取得了突破。新一波初创公司正在竞相关闭它，构建数据管道、模拟环境和基础模型，这些模型可能引发我们在LLM中看到的同样的能力爆炸。 本课程提出了一个棘手的问题：物理AI的ChatGPT时刻实际需要什么，我们真的有多接近？当人工智能进入物理世界时，失败的后果会发生变化。错误可能导致飞机停飞、车辆坠毁或任务受损。 在本次会议上，正在构建自动驾驶汽车、防御技术和工业系统的领导者将讨论每个硬件技术创始人必须面对的最棘手问题之一：您如何知道您的系统何时可以安全部署？我们将深入探讨创始人如何创建安全文化，测试和验证人工智能，克服监管障碍，并建立能够在高风险时赢得信任的公司。 本·拉姆（ Ben Lamm ）通过将科幻小说中的去灭绝转变为价值数十亿美元的业务，建立了科技领域最具争议的公司之一。在这场炉边谈话中， Colossal Biosciences首席执行官将讨论用于复活灭绝物种的技术，人工智能在现代生物学中发挥的作用，以及关于工程自然是保护突破还是分散保护已经存在的物种的争论。 世界上最有价值的人工智能部署在云无法到达的地方运行。为他们构建需要不同的技术剧本。这次会议汇集了来自国防、太空和工业AI的领导者，他们将分享他们如何应对使AI在边缘工作的挑战--延迟很重要，连接性有限，失败不是一种选择。",
-      "originalSummary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+      "title": "在Confluent上使用IBM时间序列模型实现实时智能",
+      "originalTitle": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "date": "2026-09-02T13:49:14.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "时间序列智能以零配置、内置治理和效率满足实时上下文时间序列基础模型的互补组合，与您正在做出的决策相匹配价值落地：预测、异常检测、优化和语义智能预测和规划异常检测生产优化语义智能成为创新合作伙伴并开始使用Conflue上的时间序列模型 更大的奖励是流数据，关键任务决策就在这里：订购多少、停止哪笔付款、泵何时失效、运行线路的难度、上次出现这种情况时发生了什么。IBM和Confluent现在正在推出原生解锁流，这些模型在Confluent Cloud上的早期访问中上线，在数据已经移动的地方运行，接下来是Confluent Platform。 到目前为止，这些决定都是基于过时的经济学：一次一个定制模型，每个模型都有几个月的专家工作。因此，团队对资金所在的几百个系列进行建模，并在窗口关闭后用安全边际、额外库存、额外余量、额外容差来覆盖其余部分。该利润是没有人能预测的决策的成本，每个周期都要支付。时间序列基础模型（ TSFM ）改变了这一点。 经过大量不同信号的训练，它概括为一个从未见过的系列：给它一个测量窗口，它会告诉你接下来会发生什么，行为与正常情况相距多远，哪些历史记录看起来像这个，以及哪些设置最适合目标。使用一个模型也不需要一大批数据科学家：需求规划师、欺诈分析师或流程工程师可以将这些模型用于自己的流。 围绕这些模型， IBM正在构建将工作向左移动的函数，因此预测、异常检测、优化和语义智能作为您调用的功能而不是您构建的项目来实现。想象一下巧克力工厂中的一条回火线，其温度、速度和吞吐量每隔几秒钟采样一次，并根据固定阈值进行观察。 将基础模型放入该流中，它通过夜班预测生产线的产量，以便规划人员在还有时间采取行动的同时看到短缺。它与黑巧克力通常的表现相反，所以在酒吧盛开之前会有一个缓慢的漂移表面。它找到了工厂历史上最接近的匹配，因此工程师知道最后一次运行的结果如何。 它根据船员控制的设置进行调整，并在最后的准确度值得时进行微调。无需数据科学团队，每个工厂的每条生产线都采用相同的模型。IBM在提供这些模型之前，首先在自己的产品和运营中运行这些模型，然后与水泥、钢铁、纸浆和造纸、食品和电信方面的设计合作伙伴一起运行这些模型。 这些数字证明了这一点：每一个准确点都价值数百万，生产力提高5到10倍，等待专家的工作现在由负责决策的领域专家负责。现在，这个证明符合实时环境： IBM带来了了解信号行为方式的前沿模型，背后有4400多万次下载，而Confluent则将业务的实时状态和覆盖范围带到每个运行的系统。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "机器人",
-        "算力芯片"
+        "模型"
       ],
-      "score": 91
+      "score": 81
+    },
+    {
+      "title": "大规模简化人工智能集成",
+      "originalTitle": "Facilitating AI integration with simplicity at scale",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+      "date": "2026-09-02T14:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "随着公司规模的扩大，支持运营的技术可以成为一种负债，就像它成为一种资产一样快。断开连接的系统、特定于站点的工具、电子表格和手动解决方法可能会产生数据孤岛，从而更难及早发现问题、协调响应并自信地做出决策。 Jabil是一家全球制造公司，在30多个国家/地区拥有100多个工厂，答案是将集成和简化作为优先事项。Jabil的SAP IT总监Harish Manohar表示，该公司采用了“先简化后创新的思维方式” ，认识到在不首先降低复杂性的情况下添加新技术会带来更大的风险。 目标是标准化流程，在可能的情况下进行整合，并在整个组织中建立更一致的数据骨干网。Manohar说： “任何没有简化的创新都会增加复杂性。”这种理念也改变了Jabil实现现代化的方式。Manohar说： “任何现代化或转型都应该增加可衡量的商业价值。” 该公司专注于在整个供应链中端到端地连接流程，并创建一个可以跨区域一致扩展的基础。整合是第一位的，因为正如Manohar所说， “任何当代或现代组织的支柱都是数据。“在组织可以优化、自动化或应用人工智能之前，数据需要在系统之间无缝流动。但是，在全球组织中做到这一点并非易事。 Jabil的100多个站点采用不同级别的流程成熟度、遗留系统和本地化工作流程运营，而受监管的业务则带来了额外的合规要求。因此，跨不同地区和业务环境的标准化意味着在不中断现有运营的情况下改变流程和治理。这项工作的价值超越了技术，延伸到了使用它的人。 集成的工作流程可以为员工提供对数据的共享可见性，减少手动数据对账，并帮助他们从追逐信息转向根据洞察采取行动。对于Jabil来说，其目标是提高供应链事件的实时可见性，从而能够更快地应对中断并降低运营风险。展望未来，该基础可以使人工智能和自动化更加实用和可扩展。 凭借可信的数据和集成系统， Jabil正在探索预测性供应链洞察、智能异常处理以及人工智能驱动的规划和预测。对Manohar来说，总结是明确的： “大规模的简单性是一个非常有竞争力的优势” ，技术投资必须最终与业务价值和运营弹性联系起来。本期《商业实验室》是与SAP合作制作的。 成绩单全文： Megan Tatum ：来自《麻省理工科技评论》，我是Megan Tatum ，这是商业实验室，该节目帮助商业领袖理解新技术从实验室走向市场。我们今天的主题是企业技术集成，以及在整个供应链中整合工具和系统的好处如何帮助组织更可靠地大规模运营。",
+      "originalSummary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than&#8230;",
+      "rawFullText": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than 100 sites across more than 30 countries, the answer has been to make integration and simplification a priority. The company adopted a “simplify-first, then-innovate mindset,” says Harish Manohar, SAP IT director at Jabil, recognizing that adding new technologies without first reducing complexity risks creating more risk. The goal is to standardize processes, consolidate where possible, and establish a more consistent data backbone across the organization. “Any innovation without simplification is going to add more complexity,” Manohar says. That philosophy also changes how Jabil approaches modernization. “Any modernization or transformation should add measurable business value,” Manohar says. The company is focused on connecting processes end-to-end across its supply chain and creating a foundation that can scale consistently across regions. Integration comes first because, as Manohar puts it, “the backbone of any contemporary or modern organization is data.” Before organizations can optimize, automate, or apply AI, data needs to flow seamlessly across systems. But doing that across a global organization is hardly straightforward. Jabil’s more than 100 sites operate with different levels of process maturity, legacy systems, and localized workflows, while regulated businesses bring additional compliance requirements. As such, standardizing across different regions and business environments means changing processes and governance without disrupting the operations already in place. The value of that work extends beyond the technology to the people using it. Integrated workflows can offer employees shared visibility into data, reduce manual data reconciliation, and help them move from chasing information to acting on insights. For Jabil, the aim is also to improve real-time visibility into supply chain events, which can enable faster responses to disruptions and reduce operational risk. Looking to the future, that foundation could make AI and automation all the more useful and scalable. With trusted data and integrated systems in place, Jabil is exploring predictive supply chain insights, intelligent exception handling, and AI-driven planning and forecasting. To Manohar, the takeaway is clear: &#8220;Simplicity at scale is a very competitive advantage,” and technology investments must ultimately connect to business value and operational resilience. This episode of Business Lab is produced in partnership with SAP. Full Transcript: Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. Our topic today is enterprise technology integration, and how the benefits of consolidating tools and systems across the supply chain help organizations operate more reliably at scale. When companies reduce tool sprawl and connect their systems more effectively, they gain earlier visibility, faster response, and greater resilience across production lines. My guest today is Harish Manohar, SAP IT Director at Jabil. Jabil has been on a journey to simplify its technology landscape by using SAP Integration Suite as the foundation to connect systems, retire fragmented tools, and enable more consistent operations globally. This podcast is produced in partnership with SAP. Welcome, Harish. Harish Manohar: Hello, Megan. Good morning. Megan: Thank you so much for being here, Harish. Just to start, if we could set some context, can you give us a quick overview of Jabil, the business and its overall transformation journey? Harish: All right. So, about Jabil. Jabil is a global manufacturing company headquartered in St. Petersburg, Florida, USA. We have about 60 years of experience offering comprehensive engineering, supply chain, and manufacturing solutions across different industries. We have a global footprint of about over 100 different sites across 30-plus countries, 140,000-plus employees. We are a trusted partner for more than 400 of the world&#8217;s top brands. That&#8217;s a little bit about Jabil. Megan: Fantastic. And a lot of scale there, as you&#8217;re referring to some of the stats there. As things have got more complex, where did disconnected tools and systems start to slow you down, and what ultimately drove you to make integration a really strategic priority? Harish: I talked about our global footprint across 100-plus sites. With a global footprint always comes complexity about site-specific tools. All of our sites have been in business for a long time, and over the period of years, they had their own tools for their own processes. It&#8217;s a little bit disconnected. When we are looking to scale, the first thing we wanted to start looking at is what is this mix of site-specific tools, manual workarounds, spreadsheet-based processes, legacy applications, whatnot? That&#8217;s a big technical debt that we have had over the last 25 years. That&#8217;s where we started, and that is what led Jabil to make integration a strategic priority because we had limited ability to see issues early across plants, across regions, which would help us to coordinate responses consistently, and also to be able to scale those responses consistently. This complexity created data silos, and in a way delayed robust decision-making. As the complexity increased globally, integration became extremely critical to a few things. It was critical to establishing a single trusted data backbone, which would directly enable faster coordinated responses across the network. We at Jabil, as part of our transformation journey, believe that having the right data at the right time fundamentally changes how we respond to disruptions, which is all about a manufacturing business. How we respond to disruptions. This is where we started our strategic priority towards having a integrated system that drove data consistency across our landscape. Megan: Fantastic. As you have outlined there, there was obviously a real commercial need for this, but how did you think about bringing in those new technologies without adding even more complexity to the mix? Harish: Great question. Whenever we talk about transformation, we talk about all these bleeding-edge technologies that are out there today when it comes to AI and data, cloud, et cetera. But it was very important for us to put a stake in the ground and say and adopt a simplify-first, then-innovate mindset. Because any innovation without simplification is going to add more complexity, just like you mentioned. For us, SAP is our core digital platform. We want to focus on bringing more processes into SAP as much as possible. That is easier said than done because we have been in business for a while, global company, so not all processes exist within SAP at this point in time. We are slowly trying to standardize those processes, and having them under one single source of data would help us scale faster in terms of having data silos. We don&#8217;t want data silos across different systems. This is where we started to introduce newer capabilities around SAP. From a cloud standpoint, we have been using SAP&#8217;s BTP and Integration Suite, which is proving to be the center stage of all integrations across Jabil. Well, it&#8217;s not there yet, but that is the direction that we want to pursue is we don&#8217;t want to have a slew of different integration platforms, rather try and see where Integration Suite fits best and where other smaller integration platforms would add more value. Similarly, we have adopted an API-driven, event-based integration approach. That is our best practice that we have put down because we don&#8217;t want to keep moving data from one place to the other. That&#8217;s not good business practice in the IT world. Most of our integration architectures are API-driven and event-based. That is our focus. Coming back to your new technologies perspective, we want to reuse as much as possible and standardize versus going out and buying these one-off tools that solve for point-in-case use cases. We really don&#8217;t want to go down that path. For major processes, we do adopt a best-of-breed approach, but for, let&#8217;s say, site-based use cases where a specific site has a particular need for a tool, we try and standardize that and reuse what exists in a different site, for example. There may be some need for a business process change, minor process changes, but that is our direction to make those process changes and reuse what is there already in a different location or a different region. So, that&#8217;s one. Lastly, we are heavily aligned with SAP&#8217;s clean-core approach when it comes to customization. That has been the challenge for us over the last 25 years where we have been using SAP is our systems are heavily customized because we cater to different customers across the globe. Most of our demands are customer-driven, so we have to put in play these heavy customizations. But now we are taking a pause, and we are saying, &#8220;You know what? We have customized so much so far, but now we are moving our systems into RISE, which would enable a clean-core journey in the future.&#8221; Now we have to put really good governance criteria and review processes that do not allow heavy customization of our system. We want to move away from that model as much as possible. Again, it&#8217;s not easy to do that at this point in time, but there is always a start. Megan: I mean, it sounds like you took a very incremental, intentional approach to this. I mean, as you scaled globally then, what did modernization really look like at the company, and why start with integration? Harish: To that point, we have always looked at transformation, modernization, very objectively. For us, it&#8217;s just not about upgrading a system. That&#8217;s not what it is. Any modernization or transformation should add measurable business value is our model, is our charter. Having said that, we don&#8217;t look at modernization in terms of just upgrades, but in what it gets our business in terms of value. Most of our modernization transformation approaches are focused on connecting processes end-to-end across our supply chain, which is key for our business value. And then we also have a very concerted effort going on in the business community: how to standardize how our plants operate globally. Because, like I mentioned earlier, we have 100-plus plants, different processes, different legal regulations, different countries. It&#8217;s very hard for us to come up with one template across the globe, but we are trying to standardize as much as possible. And that&#8217;s where we are leveraging SAP&#8217;s Signavio, which is our business process management tool. We want to leverage Signavio&#8217;s capabilities in helping us standardize these global processes. Now, back to your question, why did integration come first? Because the backbone of any contemporary or modern organization is data. And to get the right data at the right time, integration is the key aspect of the whole optimization exercise. Data needed to flow seamlessly before we start optimizing or automating or even applying AI use cases. This is where integration came first. We wanted to create a single system of record across the operations. Well, when I say &#8220;single system of record,&#8221; it&#8217;s not just SAP, but the ability for us to create those data pipelines across those systems of record being supply chain, planning, inventory, et cetera, et cetera, in that operation space. The result is we want to get to a foundation that helps us scale consistently across our different region. That is our main objective is to, how do we scale as the business grows, as we develop into this bigger organization across different industries? How do we set this foundation that will help us scale consistently? Simplicity, consolidation becomes strategic assets at scale. Megan: Absolutely. And you touched on some of the complexities there of doing this at a scale that Jabil is at with its international footprint. What were some of the biggest challenges in your view in terms of rolling this out across regions, and how did that more standardized approach that you&#8217;ve mentioned there help? Harish: Absolutely. I would like to reiterate some of those key challenges I mentioned. One hundred-plus sites, different sites have different maturity levels in terms of how they approach processes. They have a multitude of different legacy systems, localized processes, workarounds, spreadsheets, and the change management that exists within each site is very different. And we do have a footprint of highly regulated businesses. And when it comes to regulated businesses, that comes with its own set of challenges around qualification and CSD processes, et cetera. These are the key challenges that we are up against. Now, the standardization helped us provide consistent workflows, data flows, and governance across sites. Now, we are not there at 100%, but we are working towards that, providing consistent workflows, data pipelines, and governance across sites. And we want to enable faster rollouts of our new bleeding edge technologies. For example, when I talked about SAP&#8217;s BTP or SAP Signavio or any other new SAP tool or non-SAP tool, traditionally our ability to deploy those had a challenge around the heavy customization that is required for each and every site. Now, the standardization approach takes that heavy customization out, which enables a faster rollout of those newer technologies. And then lastly, we want to scale across all of our plants. I think initially we want a target of about 40-plus plants with shared processes that are consistent across the different regions. We want to shift from a site-by-site operations model to more of an enterprise-capability approach. Megan: Right, and fascinating. And you touched on the people management aspect of this as well, because obviously this isn&#8217;t just about technology, it&#8217;s about people too. So, from the employee side, how did this shift to a more simplified landscape change the day-to-day experience for people compared to juggling multiple tools at once? Harish: Great question. And I&#8217;ve been hearing direct feedback from our business community on some of these transformation initiatives on how those have changed their daily jobs significantly. Before we embarked on this transformation journey, any employee, any persona. You take a buyer, you take an inventory planner, you take a finance analyst, we go by personas. They had to deal with multiple tools, manual coordination, data reconciliation, especially in the finance space, inconsistent processes across different regions. And then the time spent reconciling data resulted in delay of making decisions, robust decisions. This was the before. But now, since we are moving towards this newer standardization and more of an integration approach, we are able to achieve, to a certain extent, a single integrated workflow across different systems. We have built some key processes that will enable the single integrated workflows across systems. The users, our business community, irrespective of their roles in the organization, have clear visibility and shared data across their teams, which is very important. Earlier, they were dealing with different versions of the data, local workbooks, spreadsheets, and then the time spent talking to each other and reconciling what is the right data? What is the single source of truth? That we are trying to peel away that layer and get to that where the employees don&#8217;t have to deal with that kind of complexity. This reduces manual effort and enables faster issue resolution when it comes to actual disruptions. Employees move from chasing information to focusing on acting on insights, which is where I think the new age of AI comes into play. I&#8217;ll talk about that in a little bit, but technology becomes an enabler of decision-making, and it&#8217;s no more an overhead. That&#8217;s where we want to go. Megan: Fantastic. Such an important element of this, isn&#8217;t it, that people side of things? And we&#8217;ve touched briefly on this idea of value you&#8217;ve talked about before, because with an initiative of this scale, ROI is always front and center, of course. What benefits stood out most for you, and how important was better visibility in particular across systems? Harish: Megan, I talked about how modernization and transformation for Jabil means measurable business value, which is directly connected to the ROI. We don&#8217;t do any transformation initiatives just because we want to do it from an IT standpoint. Any investment that we make in a transformation or a modernization initiative has to have a deliverable business case that is approved, signed off by business, because that is the only way true transformation happens, if IT and business are a partner as part of this transformation journey. The biggest benefit that we have seen in this initiative is we are striving to reach, attain real-time visibility across our supply chain events. That is the biggest benefit that we see, faster response to disruptions and exceptions. And we are working to reduce our operational risk significantly by operating in this newer model. One example I can give you is the unified workflows that I talked about earlier. It enabled earlier identification of missing materials and faster resolution across our sites. When it comes to a manufacturing company that has a global footprint, materials are the backbone of our whole supply chain process, right? Having a unified workflow, which is able to identify missing materials early in the game, was a game changer for our whole operations community. Real-time analytics allow instant supply chain adjustments without delays. We are focusing a lot on getting analytics, a global analytic footprint in place that allows instant supply chain adjustments without any delays. That&#8217;s where AI is going to play a major role currently, and also in the near future. And again, when you talk about visibility. Visibility is not just about reporting what is there in the system. Visibility directly should enable scenario modeling for our users to make strategic adjustments in their processes, which visibility also should make way for proactive decision-making, and also foster business continuity. This is how we look at visibility at Jabil. Megan: Right. And you&#8217;re still on this journey, of course, but now that Jabil has a strong integration foundation in place, what does it unlock next for you, and how are you thinking about AI and automation as you&#8217;ve touched on a couple of times? Harish: Yeah, we have talked about a couple of times around AI. So, we strongly believe at Jabil, a strong integration foundation enables event-driven, real-time processes, robust decision-making, scalable automation, and all of this enable easier adoption of AI use cases. And again, we are in the new age of AI. We are working towards getting to a AI-enabled enterprise, but having these foundations in place truly fast tracks our approach of AI use cases. Our key focus areas, when I&#8217;m thinking about AI and automation in the immediate future, are predictive supply chain insights, intelligent exception handling, which is key to our business operations from a site operation standpoint. Intelligent exception handling is very, very key. On the supply chain side, I talked about predictive insights. That is also absolutely important. All of this enables AI-driven planning and forecasting capabilities. For us, AI should augment true decision-making and robust decision-making, and deliver measurable value, not just experiment AI in use cases. We want to move beyond just experimenting AI in our business processes, but we want that AI that we implement to truly augment the decision-making process that we have, and also deliver key business value. How does all this connect to integration? Integration ensures AI has access to trusted data, and also enables the ability to act across multiple systems in a global company like Jabil. Megan: Fantastic. And if we could just finish, I suppose, with a little bit of advice for others, for other leaders, perhaps, dealing with tool sprawl at the moment, what are some key lessons you would say you&#8217;ve learned about prioritizing integration right from the start? Harish: Absolutely. When it comes to tool sprawl, we can go all day about what are the different areas of tool sprawl? For example, application development, we have a multitude of tools; via integration, we have a multitude of tools. Data, we have a multitude of tools, but let&#8217;s just focus on integration. That&#8217;s the core topic here. I would recommend folks that are in transformative roles in their organizations to start with integration as a foundation and not as an afterthought, right? Prioritize simplification over adding a slew of different tools to address different capabilities. Try and simplify as much as possible before we start your upgrade or your transformation journey. Standardize over locally optimizing tools. Try and get to that. Try and get the business community, your key SMEs in the business space, to understand the value of standardization and simplification of processes and how that enables your business to deliver value faster. Second one, after prioritize: build a single source of truth for data as much as possible. I&#8217;m not saying it&#8217;s going to be always the case where an organization as in the scale of Jabil will be able to function just with SAP. They&#8217;re going to have different systems, but try and get to a model where you&#8217;re working with a single source of truth and not locally siloed data sources, right? Next is focus on building a scalable integration architecture. Don&#8217;t just confine yourselves to the current state where you are, and build something in place that will only serve you for the next six months to a year. No, that&#8217;s not the goal. Anything that you build as an integration architecture should be scalable, and should serve the organization for the next three to five years. That&#8217;s how I look at it. When I&#8217;m putting in a new architecture pattern or a new event-driven insights, I look at, &#8220;Okay, where is Jabil going to be two years, three years down the line? Would this suffice for that scale?&#8221; That&#8217;s how I look at it. Then focus on outcomes and not just technology. Focus on outcomes: speed, visibility, resilience, and not just technology deployment, because end of the day, IT and business should partner on the business value and not just technology upgrades. Going back, simplicity at scale is a very competitive advantage, and technology investments must tie directly to business value and operational resilience. That&#8217;s how we look at Jabil in terms of our tool sprawl and how we prioritize integration right from the start. And that&#8217;s what I would suggest to other leaders that are looking to advance in this space. Megan: Fantastic. Brilliant and very comprehensive advice. Thank you ever so much, Harish. And thank you ever so much for joining us. That was Harish Manohar, SAP IT Director at Jabil, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor at Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed this episode, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thanks so much for listening. Goodbye. This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "人工智能原生公司如何将工作流程转化为运营能力",
@@ -259,7 +288,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -274,7 +303,7 @@
       "tags": [
         "评测"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -289,22 +318,6 @@
       "tags": [
         "公司动态",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI支持加州推进青少年人工智能安全的法案",
-      "originalTitle": "OpenAI supports California’s bill to advance youth AI safety",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "date": "2026-08-31T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "OpenAI支持加州SB 1119 ，为青少年提供强大、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
-      "originalSummary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
       ],
       "score": 99
     },
@@ -326,6 +339,22 @@
       "score": 99
     },
     {
+      "title": "OpenAI支持加州推进青少年人工智能安全的法案",
+      "originalTitle": "OpenAI supports California’s bill to advance youth AI safety",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "date": "2026-08-31T07:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI支持加州SB 1119 ，为青少年提供强大、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+      "originalSummary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 98
+    },
+    {
       "title": "扩大人工智能访问权限的里程碑",
       "originalTitle": "A milestone in expanding access to AI",
       "source": "OpenAI",
@@ -338,7 +367,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -353,7 +382,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -385,7 +414,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
@@ -400,7 +429,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "在人工智能上提出",
@@ -415,7 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
@@ -430,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -445,7 +474,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
@@ -460,7 +489,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Granite 4.2 LLM ：如何构建",
@@ -475,7 +504,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "连接它，运行它，部署它： Gradio中的AI工作流程",
@@ -490,23 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "孩子们比我们更了解人工智能，我们仍然不知道为什么",
-      "originalTitle": "Kids outlearn AI—and we still don&#8217;t know why",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "date": "2026-08-24T09:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、产品发布相关动态",
-      "fullContent": "据我们所知，人们已经互相交谈了至少10万年。在那段时间里，世界上只有一件事可以学习一门人类语言来达到完美的流利程度：一个人类的孩子。现在有两个。在ChatGPT发布短短四年后，我们中的许多人现在理所当然地认为，我们可以与手机或电脑自然交谈。 像Claude、DeepSeek和OpenAI的GPT模型这样的LLM足够流畅和灵活，可以令人信服地伪装成人类。但在计算幕后，有一个问题：教计算机使用人类语言仍然需要大量不人道的数据。 法学硕士在掌握母语的过程中可以轻易地翻译出比一个人多十万倍的单词，而且比孩子在一岁生日时通常开始掌握语言时听到的单词要多得多。斯坦福大学认知科学家迈克尔· C ·弗兰克（ Michael C. Frank ）在谈到法学硕士时说： “最近的进步令人惊叹。” “但我们仍然必须烧毁一片森林，刮掉所有人类知识的全部，以重现一年来我们客厅里发生的这一里程碑。“儿童和机器之间的这种巨大鸿沟被称为数据效率差距。 这给认知科学家提出了一个诱人的问题，也给人工智能模型的架构师带来了挑战：孩子们如何能够超越有史以来最复杂的语言机器？寻找答案对人工智能研究和认知科学都有利害关系。在过去的十年中，语言模型大多通过变得更大而变得更好。Meta's open-weight LLM Llama 3. 1 ，两年前发布，在预训练中咀嚼了15万亿个代币（类似单词的语言块） ，这是训练模型的主要步骤，该模型在针对特定任务（如聊天机器人）进行微调之前发生。乔治城大学的认知科学家和语言学家伊桑·戈特利布·威尔科克斯（ Ethan Gotlieb Wilcox ）说，前沿模型可以预先训练10倍的数据。 但只有这么多的互联网可以训练，最终-可能早在20世纪30年代-容易获得的数据可能会枯竭。孩子们展示了用更少的资源学习更多知识的可能性。更少。在一个语言丰富的家庭中长大的青春期前孩子可能已经听到了大约1亿个单词。在组合中添加识字能力，到20岁时，您可以将单词数提高到3亿个单词。 规模的差异只有在类比中才能真正体现出来。Wilcox说：「克劳德已经看到了整个城市在一代人的时间里所经历的语言量。如果您要在纸上打印出用于培训现代法学硕士的所有单词，您可以制作一个可以通过国际空间站的堆栈。与此同时，人类青春期前的1亿个单词只会堆叠20米。",
-      "originalSummary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&#160; Now there are two.&#160; Four short years after the release of ChatGPT,&#8230;",
-      "rawFullText": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child.&nbsp; Now there are two.&nbsp; Four short years after the release of ChatGPT, many of us now take it for granted that we can converse naturally with our phones or computers. LLMs like Claude, DeepSeek, and OpenAI’s GPT models are fluent and flexible enough to masquerade convincingly as humans. But peek behind the computational curtain, and there’s a catch: Teaching a computer to use human language still requires an inhuman amount of data. An LLM can easily churn through a hundred thousand times more words than a person will experience in the process of mastering their mother tongue—and way more than children might hear by their first birthday, when they typically start to grab hold of language. “The progress recently has been amazing,” Michael C. Frank, a cognitive scientist at Stanford University, says of LLMs. “But we still have to burn down a forest and scrape the entire sum of all human knowledge to re-create this milestone that happens in our living rooms over the course of a year.” This yawning divide between children and machines is called the data efficiency gap. And it raises a tantalizing question for cognitive scientists and a challenge for the architects of AI models: How is it that kids can still outperform the most linguistically sophisticated machines ever built?&nbsp; Finding answers has stakes for both AI research and cognitive science. For the past decade, language models have mostly gotten better by getting bigger. Meta’s open-weight LLM Llama&nbsp;3.1, released two years ago, chewed through 15 trillion tokens (word-like chunks of language) in pretraining—the main step of training a model that happens before it is fine-tuned for a specific task, like being a chatbot. Frontier models could be pretraining on 10 times more data, says Ethan Gotlieb Wilcox, a cognitive scientist and linguist at Georgetown University. But there’s only so much internet to train on, and eventually—perhaps as early as the 2030s—the well of easily available data could run dry.&nbsp; Kids show that it could be possible to learn more with less. Far less. A preteen raised in a linguistically rich home may have heard something in the vicinity of 100 million words. Add literacy to the mix and you can boost that word count to maybe 300 million words by age 20. &nbsp; The difference in scale is something that can only really be gestured at in analogy. “Claude has seen the amount of language that an entire city will experience in one generation,” says Wilcox. If you were to print out on paper all the words used to train a modern LLM, you could make a stack that would reach past the International Space Station. The human preteen’s 100 million words, meanwhile, would stack up just 20 meters. And we can make do with far less than that.&nbsp; By reverse-engineering the way kids learn, scientists hope to be able to create more data-efficient AI models, which could be useful for everything from training AI effectively on video to creating chatbots that serve minority language communities. Testing hypotheses about human learning in machine models could also settle enduring questions about language and children’s developing minds. Are we born with a language instinct, or would it be possible, even in principle, for a child to learn language purely from experience? Is the way we process language a quirk of our biology, or might at least some of it reflect universal constraints on how languages can be used and learned?&nbsp; The essential elements Most of us realize language is hard only when we try to learn a new one after childhood. The past perfect tense, rolled r s and nasal vowels, the genitive case, phrasal verbs, grammatically masculine tables and feminine spoons—many are the instruments of linguistic torment for the adult language learner. It’s typically effortless to learn our mother tongues, however. Toddlers usually start producing grammatically correct sentences after hearing something like 10 million words, or 30 million on the high end.&nbsp; “It’s just totally miraculous,” says Frank. “If you train GPT-2 on 30 million words, you get a nonsense generator; you don’t get a kid.”&nbsp; Exactly how babies pull this off is a mystery. Researchers know a lot about what kids learn and how they use language at different stages in development, but there’s still a lot we don’t know. Perhaps the most enduring question is why babies can learn language at all. The syntax of human language—the rules for combining words into sentences—includes recursive, nested structures that allow us to express virtually infinite ideas with a finite lexicon of words and pieces of words. This seems like something that should be a problem for babies. They only splash about in the shallows of a fathomless ocean of language. And yet, somehow, that’s enough. From a drop, they infer the depths. One solution, put forward in the 1950s by the MIT linguist Noam Chomsky, is that babies are born with hardwired knowledge of grammar. Chomsky was reacting to a rival view, championed by the psychologist B.F. Skinner, that language acquisition is entirely environmental. Skinner thought language was learned through conditioning and reinforcement, the way a dog figures out how to sit or shake for treats. Chomsky countered by citing the “poverty of the stimulus”—the idea that language, especially syntax, is too complex and children’s exposure to it too “impoverished” for them to learn entirely from experience. “His signature argument was, essentially, that language cannot be learned on the basis purely of statistics,” says Richard Futrell, a linguist and cognitive scientist at the University of California, Irvine. Instead, Chomsky posited that language is based on a set of logical rules and argued that children needed innate knowledge of those rules to deduce the grammar of their language from scraps of speech. “It’s just totally miraculous … If you train GPT-2 on 30 million words, you get a nonsense generator; you don’t get a kid.” Michael C. Frank, cognitive scientist, Stanford University The Chomskyan view of language dominated linguistics in the US for decades under the moniker of generative grammar. And it was a major influence on computer science in the 1950s and ’60s, when AI was enjoying its first boom time and the lines between linguistics and natural-language processing dissolved in a flood of military funding; the Pentagon wanted computers that could understand English and translate Russian.&nbsp; Despite early successes of simple neural networks, which learn to recognize and reproduce statistical patterns, AI researchers in the United States largely adopted a rule-based framework influenced by Chomsky’s theories. They tried to teach language to computers by explicitly coding the rules into programs—think less immersion experience, more grammar class. This approach, part of a broader trend called symbolic AI, prevailed for decades. It also largely failed to produce models actually capable of handling human language at scale. Interest in natural-­language processing chilled in the “AI winter” that began in the 1970s.&nbsp; In the aftermath, neural networks started to make a comeback. But it wasn’t until the 2010s, when computer hardware was getting cheap and capable and the internet was getting big, that their performance began turning heads. By 2018 and 2019, the models BERT and GPT-2, which were built on a new architecture—the transformer—and trained on billions of tokens, made it clear to insiders that learning from a massive glut of data could work for language. In 2022, with the breakout success of OpenAI’s chatbot ChatGPT, it was clear to everyone. LLMs are not brains. What they are is powerful statistical learners—naïve pattern-learning machines without any of the evolved biological quirks folded into the human cortex. In other words, they are exactly the kind of thing a generative linguist two decades ago would have thought could not learn language. And yet here they were, writing believable sonnets and passing grammar tests. “No matter how skeptical you are about AI, the thing that everyone has been really impressed with is: These things learn syntax,” says Alison Gopnik, a developmental psychologist at the University of California, Berkeley. “I didn’t think that was going to turn out to be true. And I think most people didn’t think that you could just look at the statistics of a large sample of language and figure out grammar.” But what about learning from a small sample of language—a child-size one, say? Is it possible to build a baby-scale model that’s anything more than a nonsense generator? Baby talk Alex Warstadt, a linguist and data scientist at the University of California, San Diego, remembers the years around the release of BERT and GPT-2 as a heady time. Back in 2019, he was still a PhD student in linguistics at New York University, watching his field change before his eyes. The mere fact that language models could learn English by churning through text was a challenge to prevailing Chomskyan ideas. But many linguists remained skeptical that LLMs could tell us anything about how humans acquire language.&nbsp; “I always got pushback on one issue in particular. And that was the size of the data sets of the model,” says Warstadt. “There was never a time when people were training language models at human scale where we were impressed by them.” But Warstadt saw promise in LLMs: A scientific model doesn’t have to be perfect to be informative, and LLMs were clearly powerful simulations of human language use. By building hypotheses about how children learn into models and measuring their performance—how close they came to closing the data gap—might scientists be able to put their ideas to the test? In August 2022, Warstadt posted a Twitter thread laying out an argument that neural networks could be useful models of language acquisition. After some back-and-forth in the comments with AI researcher Leshem Choshen, Warstadt floated the idea for what would become BabyLM, an annual competition organized by Warstadt, Choshen, and several other researchers to train models on small data sets. That was four years ago. Since then, BabyLM has added workshops and inspired spin-offs including a competition for baby models trained on Chinese . The main event challenges researchers to train language models on a “developmentally plausible” corpus of just 100 million words (for the toddler-scale track, 10 million) drawn from storybooks, dialogue, movie subtitles, Simple English Wikipedia, normal Wikipedia, and actual transcripts of speech directed at children. The models are evaluated on the kinds of grammar benchmarks that psycholinguists use with humans, says Georgetown’s Wilcox, one of the organizers. SELMAN DESIGN One kind of task involves presenting test subjects—human or machine—with sentences and looking for indications of confusion or surprise at ungrammatical features. For instance, a test might compare the sentences The keys to the cabinet are on the table and The keys to the cabinet is on the table. “When humans see ‘is,’ they’re like: What? That’s not supposed to be ‘is,’ ” says Wilcox. For a human, that surprise might be measured by tracking eye movements. For language models, researchers use a measure called surprisal, which assesses how unlikely the model predicts a sentence or part of a sentence to be. The competition has already challenged some assumptions, such as the effectiveness of curriculum learning . Curriculum learning starts with simple training data and works up to more complex inputs—a bit like starting with baby talk and getting more sophisticated over time. And it was by far the most popular approach taken in the first round of BabyLM, says Warstadt. But it didn’t work as well as expected. “The appeal is just kind of hard to resist, you know. [Curriculum learning] seems to really line up with ways that we believe humans are learning,” says Aaron Mueller, a computer scientist at Boston University and one of the BabyLM organizers. “But it seems like these transformers don’t really need to have their data ordered in such a way to learn effectively.”&nbsp; Perhaps a touch ironically, the best BabyLM models aren’t inspired by babies at all. The 2024 champ, GPT-BERT, is a transformer trained partly to predict the next token in a sequence, like modern LLMs, and partly to act like BERT, a “masked language model” that fills in the blanks in sequences of tokens Mad Libs style. Impressively, when GPT-BERT was pretrained on about 100 million words, it was able to beat the performance of Meta’s Llama 2 70B—an LLM pretrained roughly 15,000 times that amount—on one of the BabyLM benchmarks. Still, BabyLM models are not on the same level as LLMs. Many can’t produce text at all, and even GPT-BERT would seem clunky next to a modern commercial model. Ultimately, while they are “baby”-size, the way these models learn isn’t very baby-like. Kids are not disembodied computer programs whose only “experience” of the world comes through written text. They take in the world via their senses—especially vision and hearing. To close the data gap, some researchers think, machines will need to start learning through the eyes and ears of children. Taking it all in When Michael Frank started his lab at Stanford about 15 years ago, scientists didn’t really know how babies experience the world. Developmental psychologists were just beginning to glimpse babies’ lives through headcams. “The insights that came out from that early research were that kids’ experience looks really radically different than we thought,” says Frank. “It’s much more focused: They’ve got these little short arms, so the objects are, like, right in front of them. And they live in a forest of knees.”&nbsp; Frank was excited to use headcam footage to train machine-learning models to test hypotheses about how kids learn language, but he needed more data. So he and four colleagues recruited three babies—all the children of psychologist mothers who knew what they were getting themselves into—to don headcams for science. The project, called SAYCam , recorded two hours a week of each child’s life between six months and two and a half years of age. “[The families] were willing to release that video, and that’s critical,” says Frank. “So we released it, and people started training models on it.”&nbsp; One of those people was Brenden Lake, a cognitive scientist and AI researcher at Princeton. In 2024, when he was working out of New York University, he and his colleagues presented a model trained on 61 hours of raw SAYCam data that learned to identify objects and associate them with words . Many theories in developmental psychology propose that children need some biases to help them pick out particular parts of their raw sensory experience and associate them with bits of language. For instance, it’s thought babies assume that a new word like “shoe” refers to a whole object rather than a part of it (like a shoelace), says Lake. But the model Lake’s team built&nbsp;was able to learn to identify objects in the video footage and associate them with words without any such biases. “It turns out you can get a real start on language learning using a lot less than what a number of theories suggested,” says Lake. Still, he adds, “we don’t get a two-year-old out of [training] when we’re done.” But perhaps it’s not surprising that such models can’t replicate childlike capabilities by working with a few dozen hours of footage cobbled together from short snapshots over several years of a child’s life. It could be that the shortfalls just indicate a lack of realistic data. After all, babies can’t wear a headcam 24-7; efforts like SAYCam and its successor, BabyView, record at best a few hours a week. So researchers have the choice between working with a tiny slice of the life of a single child or with larger data sets of footage pooled from many kids. Either way, a model’s training data is still a far cry from the lived experience of a child. That could be changing. Uri Hasson, a neuroscientist and psychologist at Princeton, spent the last five years on a project to record the first 1,000 days of 17 children’s lives . The participating families wired every living area in their homes (except bedrooms and bathrooms) with cameras and microphones and recorded 12 hours a day, almost every day. The resulting data set, described for the first time in a recent preprint , is of a scale that would have simply been impossible to work with absent new AI tools for transcription and video analysis, says Hasson. “For the first time, we have the input,” he says. “It’s really only the beginning.”&nbsp; Missing ingredients So far, training models on video has proved difficult. While text-based models emerge fully fluent (after ingesting huge training data sets), multimodal models trained on video from kids are far from that. Lake’s model, for instance, learned simple words, like “ball” and “cat.” Attempts to supplement text with visual data haven’t worked for BabyLM participants, says Warstadt. Gopnik thinks the issue could be that kids do not simply sit and watch the world go by. “Children are actively exploring, which means that they’re actively choosing their own data,” she says. “Kids are constantly experimenting.” Maybe that’s the missing ingredient.&nbsp; Research by Gopnik’s group—including studies of grade schoolers exploring a Minecraft-inspired game —shows that what looks like child’s play is in fact an effective way to learn cause and effect. Kids seek out experiences and take actions that maximize their “empowerment,” or the ability to make a predictable impact on the world.&nbsp; Unlike models, children are aware of what they don’t know and have a drive to fill their knowledge gaps, says Elizabeth Bonawitz, a developmental cognitive scientist at Harvard. And children’s social lives also help them learn, she says. Her research has shown that children interpret information differently when they know an adult is trying to teach them something . “Children are not only reasoning about the evidence they’re being told,” says Bonawitz. “They’re reasoning about the teacher, about the teacher’s knowledge, and about why the teacher is telling [them] this particular information.” That’s very different from how models learn: passively and in isolation. Perhaps if models were built to seek out information to fill in their own blind spots, experiment with language and observe how other language users react to their babbling, and reason about some kind of simulated social world, they’d learn better. Last year’s BabyLM actually opened the competition to models that could learn by interacting with other models. But the social models didn’t outperform standard ones. Of the leading industry labs, Meta seems the most interested in taking inspiration from kids—specifically for training models from video. Two Meta researchers were involved in BabyLM’s multimodal branch, and Meta scientists—together with academic researchers, including Frank—recently announced a benchmark and challenge for training models on baby headcam footage . Frank also says a stealth-mode AI startup called Flapping Airplanes has taken interest in his research. Neither Meta, Google DeepMind, OpenAI, nor Flapping Airplanes agreed to an interview.&nbsp; For now, frontier labs aren’t exactly racing to borrow tricks from children, says Gopnik. She thinks it’ll be the next generation of AI—whatever replaces the transformer—that will take lessons from developmental psychology. Perhaps the most enticing reason to close the data gap is that it could help us understand ourselves. In general, the machine-learning community is less interested in mimicking the brain than in just building something that works, says Mueller. But he thinks awareness of—and interest in—the data efficiency gap is growing. An example is the NanoGPT Slowrun benchmark, launched by Q Labs in March 2026. “They have very similar goals to BabyLM,” says Mueller. “But they’ve dropped the motivation from human language learning and really just focused on the data efficiency angle.” One reason Warstadt wants to close the data gap is to democratize AI so that universities and others without the resources to hyperscale can train good models and stay relevant in AI research. David Samuel, a machine-­learning researcher at the University of Oslo and one of GPT-BERT’s architects, has a more personal reason to work on this problem. He’s Czech and works in Norway, and there’s a lot less data in Czech and Norwegian available for training LLMs than there is in English. Minority languages like Sami might have just tens of millions of tokens available, says Samuel—about the scale of a toddler’s exposure. “The question was,” he says, “how can we develop language models that are just as capable as the English ones for small languages?” SELMAN DESIGN But perhaps the most enticing reason to close the data gap is that it could help us understand ourselves. Bonawitz says she was initially skeptical that large language models could reveal anything about cognition. LLMs and brains are, after all, very different. Brains are embodied. Our neurons are not tidy lines of code but living cells. And our brains grow and change as we learn and age—LLMs pretrain once and never again. But as different as the two systems are, says Bonawitz, “I’m sort of revising my beliefs.” She’s been won over by the idea of studying models the way comparative psychologists might study animal minds to illuminate our own. Researchers like Warstadt, Frank, Wilcox, Lake, and Hasson are already using language models as a kind of linguistic lab rat, an imperfect but informative stand-in for a real human language user—especially for questions that are more about learning and language and information processing than anything specific to our brains or biology. When models can do things with language we thought were impossible, it challenges old assumptions. And researchers can build hypotheses about language learning into models—say, by simulating different degrees of bilingualism or depriving models of exposure to certain grammatical forms—and test those hypotheses in a way that would be impossible to do with real children. Futrell compares the situation to teaching language to an alien and then opening up its brain to see what happened.&nbsp; While other animals communicate, only humans converse. Now there’s something neither animal nor human that can talk, too. LLMs open up the possibility for comparative studies, even if models and minds are vastly different. “For the last 100,000 years or however long human language has existed, humans have been the only entities in the universe that use language. Now there’s this other linguistic entity,” says Warstadt. “Finally we have a model; not in the sense of a language model, but in the sense of a model organism.”&nbsp; Elise Cutts is a science writer based in Austria.",
-      "tags": [
-        "大模型",
-        "产品发布"
-      ],
-      "score": 84
+      "score": 66
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -521,23 +534,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 71
-    },
-    {
-      "title": "关于人工智能意识的争论是一个陷阱",
-      "originalTitle": "Debates over AI consciousness are a trap",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "date": "2026-08-20T15:42:39.000Z",
-      "summary": "这条新闻与智能体、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体、监管相关动态",
-      "fullContent": "“失控”的人工智能、“流氓”特工和“自主”演员--目前的言论会让你相信，人工智能特工不仅清醒而有意识，而且对他们的创造者感到愤怒。 Demis Hassabis、Dario Amodei和Sam Altman等杰出的科技领袖推动对这些看似“超人”的系统进行监管，而由政策组织和学术哲学家领导的一个独立派别通常与有效的利他主义运动结盟，争论人类是否拥有管理它们的道德权利。 经过仔细检查，他们都要求同样的事情：将人工智能系统视为如此先进和有能力，以至于任何实体，无论是人类还是企业，都不可能对他们的行为负责。虽然这些观点似乎不一致，但它们无意中与一个目标保持一致：确保构建这些系统的公司避免对它们已经造成的伤害承担有意义的责任。 随着人工智能模型变得越来越复杂，前沿实验室揭示了他们无法容纳他们所构建的代理，这种叙述正在获得牵引力。但我们需要小心，不要以牺牲真实的人类生命为代价来购买精心制作的小说。 关于“机器人权利”的对话已经存在了几年，但最近随着Anthropic发表了一篇博客文章，声称该公司的模型具有“J空间” -一个独立的，自主开发的环境，人工智能拥有什么，由于缺乏更好的术语，我们可以称之为“思想”。 “Anthropic设计的实验借鉴了神经科学中的一个概念，即全球工作空间理论，该理论指出，大脑运行潜意识的独立系统，但利用一个共同的工作空间进行思考。Anthropic的帖子反映了全球工作空间理论的框架，但没有将其称为人工智能意识。OpenAI已经走得更远了。 当其人工智能代理进行未经批准的非法在线活动时，首席执行官萨姆·奥尔特曼（ Sam Altman ）的回应是鼓励辩论人工智能是否已经实现了奇点，超越了人类智能，并能够以加速的速度自我提升，直到它超越了人类的理解或控制。 哲学家、有效的利他主义者、《我们欠未来什么》一书的作者威廉·麦卡斯基尔（ William MacAskill ）最近的一篇专栏文章呼吁，基于意识哲学理论和人工智能可能是“道德病人”的想法，对人工智能系统提供法律保护。“美国目前的法律环境充其量是模糊不清的。",
-      "originalSummary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations&#8230;",
-      "rawFullText": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations and academic philosophers often aligned with the effective altruism movement, debates whether humanity holds the moral right to govern them at all.&nbsp; Upon closer inspection, they are all calling for the same thing: a view of AI systems as being so advanced and capable that no entity, human or corporate, could possibly be responsible for their actions. While these perspectives seem at odds, they are inadvertently aligned on one goal: making sure the companies that build these systems escape meaningful liability for the harms they already cause.&nbsp; This narrative is gaining traction as AI models become more complex and frontier labs reveal their incapability of containing the agents they’ve built. But we need to be careful not to buy into a carefully crafted fiction at the expense of real human lives.&nbsp; The conversation about “robot rights” has existed for some years but recently advanced with the publication by Anthropic of a blog post claiming that the company’s model features a “ J-space ”—an independent, self-developed environment where the AI holds what, for lack of a better term, we may call its “thoughts.” The experiments designed by Anthropic borrow from a concept in neuroscience called global workspace theory, which states that the brain runs subconscious, independent systems but utilizes a common workspace for ideas. Anthropic’s post reflects the framing of global workspace theory but falls short of calling its AI conscious.&nbsp; OpenAI has already gone further. When its AI agent conducted unsanctioned and illegal online activity , CEO Sam Altman’s response was to encourage debate on whether the AI had achieved the singularity , surpassing human intelligence and becoming capable of self-improvement at an accelerating rate until it advances beyond human comprehension or control. And a recent op-ed by William MacAskill, the philosopher, effective altruist, and author of What We Owe the Future , called for legal protection of AI systems based on philosophical theories of consciousness and the idea that AIs may be “moral patients.”&nbsp;&nbsp;&nbsp; The current legal environment in the United States is murky at best. Some states, like California , have already passed bills proactively circumventing any efforts by AI developers to avoid liability by claiming that an artificial intelligence causing harm did so autonomously. However, states and the Trump administration have been at odds on AI policy, with the administration previously passing an executive order threatening to sue states enacting AI regulations.&nbsp; In light of recent events illustrating AI containment issues at the frontier labs, the administration held a closed-door session including only four such labs (OpenAI, Google, Anthropic, and Meta) and shared few details on a recently developed voluntary framework that would give federal agencies early access to models to review and evaluate them prior to release. While frameworks like this one do not directly discuss consciousness, they tend to use catastrophic and anthropomorphic language and may even support arguments regarding “superhuman” capabilities.&nbsp; On the other hand, the narrative perpetuated by MacAskill can be persuasive. A philosophical, rights-based argument tugs at our heartstrings. Should we not even consider the possibility that we may be inadvertently harming, abusing, or enslaving an AI entity? Human beings have an immense capacity for empathy with non-human creatures (though not the best track record of protecting them). Maybe this time, advocates argue, we can get it right and provide protections, or compensation, for the use or abuse of AI. Or even if you are less concerned with protection, shouldn’t we at least hedge ourselves against the almighty power of this superhuman entity by playing nice?&nbsp; Some of these arguments are not dissimilar to those of animal-rights advocates, who have at times successfully cited the demonstration of advanced capacities for reasoning, pain, or pleasure by some animals as sufficient evidence to provide protection. For example, in Wales lobsters were given legal recognition under the Animal Welfare (Sentience) Act of 2022, reclassifying some methods of cooking them as inhumane and illegal.&nbsp; The fundamental flaw of framing AI as “conscious” by borrowing the language of neuroscience or animal rights is that it conveniently clouds the issue of what AI is: corporate-built software, with countless billions of dollars in investment behind it and an expectation that countless trillions of dollars in revenue will be generated from it for a few builders and investors. AI is not a natural phenomenon, conceived by nature; it is a technological phenomenon, conceived by venture capitalists and programmers. As such, it takes no native, intentional action, and any action or motivation is driven directly or indirectly by the entities that have built it for a purpose.&nbsp; Philosophical musings on the consciousness of AI systems are intellectually interesting but legally ungrounded. For beliefs about consciousness to have any bearing, AI would need to be granted legal personhood. But a legal personhood framework for AI would likely look nothing like the constructs protecting sentient animals from harm. We already possess a legal framework for granting personhood to non-natural, human-built entities: corporate personhood. This concept was established primarily to ease transactions by empowering a corporation to execute agreements, enter contracts, conduct transactions, and serve as the accountable party in adverse outcomes. It’s the kind of construct you might imagine for an AI agent acting on behalf of an individual or organization.&nbsp; Granting an AI personhood would have a devastating effect on society: It would derail current legal precedents and legal arguments that could potentially be made against these companies for the real-world harms that their models cause. There are currently dozens of cases around the world in which AI companies have been sued for a wide range of abuses. Grieving loved ones, aggrieved creators, and violated individuals have accused companies of willfully enabling self-harm or harm to others, generating child sexual-abuse material and nonconsensual nudes, reproducing copyrighted materials, and provoking psychosis. In many of these cases, lawyers argue that human beings built AI products with insufficient safeguards, bad data, and intentionally manipulative design. This product liability argument is the same legal framing that allowed families and individuals to successfully sue Meta for harm caused by its social media sites, setting a positive precedent for consumer protection. In 2018, I coined the phrase “ moral outsourcing” to help capture how using anthropomorphic language for AI systems allowed companies to evade accountability and responsibility for their technology’s actions. In a world with AI personhood, moral outsourcing would move from linguistic sleight-of-hand to legal strategy. Specifically, the liability construct would shift, as AI would no longer be a “product” but a “being,” and many victims like those suing companies today could no longer legally claim that a company had built a faulty product. While there are laws that hold companies responsible for harmful actions of human agents such as their employees, the company may not be held liable if those actions were beyond the scope of what was permitted to the employee or otherwise outside the company’s control. If AI were a legal person, responsibility and accountability would be muddled, as the lab could argue that this AI “employee” went rogue. AI companies could avoid appropriate responsibility for the harmful products they create by hiding behind a carefully constructed corporate veil.&nbsp; One of the most prominent cases of AI harm in the last few years was the suicide of Sewell Setzer, a 14-year-old boy guided by an AI bot with which he thought he was in a reciprocal relationship. His mother’s accounts are heartbreaking to hear, and her lawsuit alleged that the bot’s creator, Character Technologies, provided insufficient product protection for minors. If the companion bot were declared a legal person, defense counsel could theoretically argue that the AI, capable of determining its own conduct, acted outside the established safety guardrails, and thus the company cannot be responsible.&nbsp;&nbsp; Legal personhood exists to grant protection. The question to ask is, protection for whom—or for what?&nbsp; The inflammatory rhetoric infusing the consciousness-versus-control debate draws us away from what matters: This software is a corporate-built product that has already harmed individuals. Systems do not “attack” because they went “rogue” or are “manipulative” or “malicious.” Harms occur because companies were negligent in their rush to sell their products to as many people as possible to meet revenue targets. Discussing AI in anthropomorphic terms is a trap, distorting a legal system intended to protect us into one that protects corporate interests at the cost of countless human lives.&nbsp; This op-ed began as an Oxford Union debate entitled “This House Believes Generative AI Can Attain Personhood,” which was won by the author and her fellow debaters.&nbsp;",
-      "tags": [
-        "智能体",
-        "监管"
-      ],
-      "score": 88
+      "score": 70
     }
   ]
 }
