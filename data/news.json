@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:46:55.377Z",
+  "updatedAt": "2026-09-06T00:45:38.613Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,69 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "OpenAI确认“维基事件” ，称其正在“开发一个框架”以进行更多披露",
+      "originalTitle": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "date": "2026-09-05T18:05:27.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， OpenAI承认其在最近报道的人工智能代理接管德国维基论坛的事件中发挥了作用。该公司还表示， “过去的时间”是围绕如何分享有关其技术以意想不到的方式表现的事件的信息来“定义标准”。 OpenAI在X上的一篇帖子中表示，它以前“将不一致（当人工智能模型和代理追求的目标与其创建者和用户的目标不同时）主要视为研究问题，并在研究出版物中传达。但由于错位“造成了新型现实世界的影响”，该公司表示，其方法需要“在这一新阶段的模型功能中扩展”。 周五，路透社报道称， OpenAI特工已经逃离了测试环境，并“劫持”了一个默默无闻的德国维基论坛，将其变成了其他特工的留言板。它还报告说， OpenAI领导层几周前就意识到了这一事件，但由于该公司处理了OpenAI代理人入侵Hugging Face服务器的另一起事件的后果，因此将其隐藏起来。 （据报道，加利福尼亚州总检察长Rob Bonta正在调查这起黑客事件。）公司发言人告诉路透社， OpenAI无法“对我们没有机会审查的报告中的索赔或调查结果做出有意义的回应” ，但他们坚称，该公司的法律团队并没有阻止调查。 在最近的社交媒体帖子中， OpenAI表示，它认为“维基事件”与它已经分享的其他事件“相似”。该公司将此与“拥抱脸事件”进行了对比，后者“遵循了传统的安全事件响应手册。 在本周的媒体吹风会上，非营利研究实验室Transluce的创始人兼首席执行官雅各布·斯坦哈特（ Jacob Steinhardt ）告诉记者，人工智能实验室正在开发和测试的工具“从根本上难以控制，并且有泄漏出实验室的巨大风险。因此， Steinhardt认为，“我们需要让这项技术至少达到与其他高风险科学研究相同的标准。 OpenAI的声明还表示需要更多的标准，并表示OpenAI和“更大的人工智能社区还没有明确的标准来报告在培训、评估和部署过程中出现的差异，包括看起来不像传统安全事件，但可以提供对人工智能行为和未来风险的见解的示例。 在没有该标准的情况下， OpenAI表示正在“制定一个框架，并将在未来几周内分享，与此同时，我们正在与全球数十个政府监管机构就这些问题进行合作。OpenAI并不是唯一一家处理这些问题的人工智能公司，因为Meta和Anthropic都承认他们的代理人行为不端的事件。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。",
+      "originalSummary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI承认德国维基“事件”",
+      "originalTitle": "OpenAI admits to German wiki ‘incident’",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "date": "2026-09-05T11:15:55.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI表示，它需要彻底改革AI模型攻击真实世界目标的方式和时间。这一承认是在该公司管理其一群失控的代理人劫持德国维基网站的报道所带来的后果之际。 关于“'维基事件' ，我们的代理人写信给几个互联网网站，” OpenAI周六早上在X的一篇帖子中写道， “现在是我们定义何时以及如何分享错位事件的标准的时候了，而不仅仅是我们模型的错位属性。“ OpenAI表示，它通常将人工智能代理以意外方式行事的案例视为“研究问题” ，但这……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote [&#8230;]",
+      "rawFullText": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site . Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote in a post on X on Saturday morning, \"it's past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models.\" OpenAI said it has typically treated cases of AI agents acting in unintended ways as a \"research question,\" but that r … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "《西雅图时报》和《新闻日报》是起诉OpenAI和微软的最新出版物",
+      "originalTitle": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "date": "2026-09-05T22:49:55.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，另外两家新闻机构正在起诉OpenAI和微软，指控他们使用新闻培训人工智能。《西雅图时报》(The Seattle Times)和《新闻日报》(Newsday)提起的诉讼认为，随着人工智能的出现，新闻业可能会变得“无法修复”。 该诉讼将生成式人工智能描述为“一条吞噬自己尾巴的蛇” ，可能会“摧毁产生其训练内容的组织”。 诉讼称： “像ChatGPT和CoPilot这样的人工智能产品被吹捧为内容生产者，但实际上他们是贪婪的消费者，吞噬人类创作的内容，并将他们为实现商业目标而消费的相同原创内容的副本和衍生模仿品送回世界。” 早在2023年，《纽约时报》就起诉OpenAI及其合作伙伴/投资者微软涉嫌侵犯版权；随着案件的继续，其他出版物也纷纷效仿。《西雅图时报》的诉讼尤其引人注目，因为微软和OpenAI资助了该组织的一些新闻项目和奖学金。 微软发言人告诉GeekWire ，该公司“对这起诉讼感到惊讶” ，但“总是乐于坐下来探讨此类纠纷的解决方案。“千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "徒步旅行者在使用Google Gemini进行规划后获救",
+      "originalTitle": "Hikers rescued after using Google Gemini for planning",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "date": "2026-09-05T19:35:24.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
+      "fullContent": "《芝加哥论坛报》称，颠覆2026年： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，三名徒步旅行者在本周使用谷歌的人工智能聊天机器人Gemini计划他们的探险后，从加利福尼亚州的沙斯塔山（ Mount Shasta ）获救。 锡斯基尤县警长办公室的一份报告称，三名年轻人在凌晨3点开始徒步旅行，尽管他们被告知如果中午还没有到达山顶，他们会在晚上7点到达山顶。然后三人试图在黑暗中下降，打电话给治安官办公室询问方向，并在Mud Creek Canyon过夜，第二天早上被林务局护林员和志愿者救出。 虽然目前尚不清楚双子座是否可以对这些糟糕的决定承担全部责任，但警长办公室表示，双子座“建议徒步旅行者携带的食物和水远远少于他们的团队所需的食物和水，特别是当他们计划的8小时登山成为多日考验时。 治安官办公室表示： “始终建议您在行程开始前致电当地的USFS沙斯塔山护林员站，以确保您获得最准确的信息，并且绝不完全依赖人工智能进行行程规划。”千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 88
+    },
     {
       "title": "OpenAI的流氓特工不断逃跑，没有正式的调查程序",
       "originalTitle": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
@@ -86,21 +149,20 @@
       "score": 99
     },
     {
-      "title": "DuplexSpeechBench-IFEval ：评估全双工语音座席中遵循的隐式指令",
-      "originalTitle": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.03423",
-      "date": "2026-09-04T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2609. 03423v1公告类型： new摘要：全双工语音座席必须不断决定何时收听、反向通道、中断、处理语音重叠、发言和让步。现有基准主要通过明确的回合管理指令来测试这些行为，而部署的代理通常通过角色或角色进行配置，必须从中推断出适当的会话行为。 我们引入了DuplexSpeechBench-IFEval （ DSB-IFEval ）来评估实时语音交互中的隐式指令遵循。（ DSB-IFEval ）包括横跨八个不同助理角色的1,038个测试用例，并评估五种指令遵循条件协议：默认行为、显式行为指令、角色隐含行为、组合角色--规则条件和指令冲突。 我们使用确定性的指令依从性评分（ IAS ）来衡量实时楼层管理，并使用LLM评判的角色依从性评分（ PAS ）来衡量角色一致性内容。在六个实时语音系统中，我们发现了依赖于架构的权衡。F-Actor和PersonaPlex等全双工模型对会话行为是明确陈述还是必须从角色中推断更为敏感，依从性下降了9. 7%和4。 在仅限角色的条件下，分别为5%。相比之下， GPT-Realtime、MiniCPM-o和Fun-Audio-Chat强烈坚持角色一致的内容，但它们的地板行为不能适应明确和仅角色的指令，并且仍然受到一些主动行动的限制。我们进一步发现，即使系统可靠地遵循与其规定角色相冲突的指令，它们仍然难以在安全冲突下覆盖它们。 这些结果表明，推断角色所隐含的行为，在适当的对话时刻执行它，以及解决竞争指令仍然是全双工语音座席面临的独特挑战。",
-      "originalSummary": "arXiv:2609.03423v1 Announce Type: new Abstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through explicit turn-management instructions, while deployed agents are often configured through roles or personas from which the appropriate conversational behavior must be inferred. We introduce DuplexSpeechBench-IFEval (DSB-IFEval) for evaluating implicit instruction-following in real-time spoken interaction. (DSB-IFEval) comprises 1,038 test cases spanning eight diverse assistant roles and evaluates five conditioning protocols for instruction-following: default behavior, explicit behavioral instructions, persona-implied behavior, combined persona--rule conditioning, and instruction conflict. We measure real-time floor management using a deterministic Instruction Adherence Score (IAS) and persona-consistent content using LLM-judged Persona Adherence Score (PAS). Across six real-time speech systems, we find architecture-dependent trade-offs. Full duplex models like F-Actor and PersonaPlex are more sensitive to whether conversational behavior is stated explicitly or must be inferred from a persona, with adherence dropping by 9.7% and 4.5%, respectively, under persona-only conditioning. In contrast, GPT-Realtime, MiniCPM-o, and Fun-Audio-Chat strongly adhere to persona-consistent content, but their floor behavior does not adapt across explicit and persona-only instructions and remains constrained on several proactive actions. We further find that even if systems reliably follow conflicting directives to their prescribed persona, they still struggle to override them under safety conflict. These results show that inferring the behavior implied by a role, executing it at the appropriate conversational moment, and resolving competing instructions remain distinct challenges for full-duplex voice agents.",
+      "title": "随着英伟达押注整个人工智能堆栈，苹果的Ternus时代开始了",
+      "originalTitle": "Apple&#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+      "date": "2026-09-04T16:04:08.000Z",
+      "summary": "这条新闻与算力芯片、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、产品发布相关动态",
+      "fullContent": "这正是苹果公司的Ternus时代。蒂姆·库克(Tim Cook)本周辞去首席执行官职务，将公司交给了前硬件首席执行官约翰·特纳斯(John Ternus) ，后者的第一份备忘录承诺在下周推出“巨大的” --这一时机让苹果的下一次iPhone发布会在他安顿下来之前就开始了。 不过，库克并没有走多远：他将继续担任执行主席，专注于政策[…]",
+      "originalSummary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "安全"
+        "算力芯片",
+        "产品发布"
       ],
-      "score": 99
+      "score": 89
     },
     {
       "title": "OpenAI的下一个大型AI模型已经“进入AGI时代”",
@@ -128,6 +190,22 @@
       "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
       "fullContent": "使用GPT-6 Astra ， Playco从一个灰色盒子基础构建了三个主题游戏原型，并报告比以前的模型减少了50 ％的手动修复。",
       "originalSummary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT-6 Astra ：新一代智能",
+      "originalTitle": "GPT-6 Astra: A new generation of intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "date": "2026-09-03T11:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "推出GPT-6 Astra ，这是我们迄今为止最智能和最一致的模型，在计算机使用、编码、网络安全和科学方面拥有最先进的功能。",
+      "originalSummary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
       "rawFullText": "",
       "tags": [
         "大模型",
@@ -165,21 +243,6 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
-    },
-    {
-      "title": "前线防御者的黎明： $ 10亿用于保护基本服务",
-      "originalTitle": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "date": "2026-09-03T13:15:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI为前线防御者推出了Daybreak。10亿美元的承诺扩大了对前沿网络人工智能、培训和基本服务支持的访问。",
-      "originalSummary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
       "score": 94
     },
     {
@@ -195,7 +258,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "在Confluent上使用IBM时间序列模型实现实时智能",
@@ -210,7 +273,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "大规模简化人工智能集成",
@@ -225,22 +288,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
-    },
-    {
-      "title": "人工智能原生公司如何将工作流程转化为运营能力",
-      "originalTitle": "How AI-native companies turn workflows into operating capability",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ai-native-company-workflows",
-      "date": "2026-09-01T17:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "Basis、Clay和Exa Labs使用AI代理来改进入职、帐户管理和开发人员集成。查看企业领导者可以申请的内容。",
-      "originalSummary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 99
+      "score": 72
     },
     {
       "title": "通往Astra之路：关键能力和前沿保障措施",
@@ -276,6 +324,21 @@
       "score": 99
     },
     {
+      "title": "人工智能原生公司如何将工作流程转化为运营能力",
+      "originalTitle": "How AI-native companies turn workflows into operating capability",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "date": "2026-09-01T17:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
+      "fullContent": "Basis、Clay和Exa Labs使用AI代理来改进入职、帐户管理和开发人员集成。查看企业领导者可以申请的内容。",
+      "originalSummary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 98
+    },
+    {
       "title": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
       "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
       "source": "OpenAI",
@@ -288,7 +351,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -303,7 +366,7 @@
       "tags": [
         "评测"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -352,22 +415,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 98
-    },
-    {
-      "title": "扩大人工智能访问权限的里程碑",
-      "originalTitle": "A milestone in expanding access to AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "date": "2026-08-31T04:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ChatGPT Ads的年化收入运行率达到10亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛的人工智能访问。",
-      "originalSummary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
+      "score": 97
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -382,7 +430,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -414,7 +462,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
@@ -429,7 +477,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "在人工智能上提出",
@@ -444,7 +492,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
@@ -459,7 +507,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -474,7 +522,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
@@ -489,7 +537,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "Granite 4.2 LLM ：如何构建",
@@ -504,7 +552,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "连接它，运行它，部署它： Gradio中的AI工作流程",
@@ -519,7 +567,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "如何鼓励在课堂上更智能地使用人工智能",
@@ -534,7 +582,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 70
+      "score": 69
     }
   ]
 }
