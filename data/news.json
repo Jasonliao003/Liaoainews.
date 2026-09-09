@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:03:46.821Z",
+  "updatedAt": "2026-09-09T01:07:45.428Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,75 +19,86 @@
   ],
   "articles": [
     {
-      "title": "arXiv AI：大模型、智能体相关动态",
-      "originalTitle": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.04298",
-      "date": "2026-09-07T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：大模型、智能体相关动态”。它主要涉及大模型、智能体、评测方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.04298v1 Announce Type: new Abstract: Evaluating agents on the growing number of agentic benchmarks is challenging because they often require complex environments and agent integrations. We introduce Harbor Adapters, a unified evaluation infrastructure for agentic benchmarks. Our work makes three contributions. First, we develop benchmark adapters that port more than 80 benchmarks to evaluate arbitrary agents, and validate them through rigorous code review and parity experiments. Second, we conduct a large-scale evaluation of 8 models spanning capability tiers across 54 benchmarks; every model is run with Terminus-2 and with one of 3 native harnesses. This enables a broader analysis of agent capabilities and failure modes than was previously possible. Third, we introduce Harbor-Index, a curated set of 82 difficult, diverse, and high-quality tasks spanning 29 benchmarks, refined from the adapted suite through difficulty filtering, AI and human audit, and an audit-and-fix loop. Harbor-Index preserves the challenge and breadth of large-scale agentic evaluations while being affordable to run; no evaluated model-harness configuration exceeds 30% pass rate, and the strongest (GPT-5.5 with Codex) reaches 28.0%. We release the adapters, evaluation results, in-depth analysis, and Harbor-Index as open-source artifacts to support more reliable and comprehensive evaluation of language-model agents.",
+      "title": "黑客正在从订阅者那里窃取Claude令牌",
+      "originalTitle": "Hackers are stealing Claude tokens from subscribers",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "date": "2026-09-08T21:10:27.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。门票立减25% 8月4日，英国东萨塞克斯的独立人工智能顾问Grant De Swardt注意到他的Claude Max 20x账户发生了一些奇怪的事情。那天他没有工作，但他的代币使用量正在攀升。第二天，他禁用了克劳德所拥有的一切，并且没有使用它。代币消耗量再次增加。 De Swardt告诉TechCrunch ： “在最清晰的受控时间间隔内，它从45 ％增加到55 ％ ，而我没有执行任何工作，计划的Cowork任务暂停或完成，调度/云执行被禁用，并且没有相应的活动本地Claude Code任务。”是什么吞噬了他的象征性津贴？他不知道，所以他联系了Anthropic ，要求提供一份详细的清单。Anthropic没有提供，但它同意有些不对劲。 它暂停了他的付费帐户，使他的所有会话和服务器端Claude Code令牌无效，并向他发放了部分退款£ 44.49 ，用于他的每月$ 200订阅的剩余时间。他告诉TechCrunch ，停职对他的生意造成了严重破坏。 他的工作是帮助中小型企业设立代理商（一种前沿部署的雇佣工程师） ，以完成自动将采购订单数据从电子邮件加载到会计软件等任务。作为独资经营者，他在整个业务中也依赖于代理商：日常管理任务、网站设计、编码。“就像现在一切都在通过人工智能一样，”他说。 经过调查， Anthropic告诉De Swardt ，它找到了罪魁祸首：一个被泄露的Claude会话密钥被用来铸造未经授权的Claude Code OAuth令牌。该公司告诉他，该帐户“似乎被未经授权的第三方服务用于为其他人处理活动，但他们无法确定它是如何获得访问权限的，”他告诉TechCrunch。 “他们说，证据要么与在我不知情的情况下获取的凭据/会话数据一致，要么与已连接到外部服务的帐户一致。“换句话说，一名黑客能够获得对De Swardt账户的访问权限，并秘密窃取了他的代币。由于账号支持会跟踪总使用情况，但不会逐项记录使用情况，因此即使提出请求，此类盗窃也可能持续数月而未被发现。 他在Reddit上发布了自己的体验，在80条评论后，他发现自己并不孤单。一个人声称他们的账号“未经我同意而自动升级，我的信用卡被扣款，使用率从0%自动升级到100% ，我甚至没有碰过它。“另一个人在12分钟内看到使用率从0%上升到49% ，当时他们只使用了几个提示和网络搜索。 一位Claude用户表示，他们的帐户在三天内每天烧毁其最大代币，而他们根本没有使用它；此人随后创建了一个关于它的GitHub报告。与Reddit帖子一样，其他用户也在那里分享了类似的体验。其中两人发布了来自Anthropic的电子邮件，该公司已经识别并警告他们的代币被盗。",
+      "originalSummary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "评测"
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "arXiv AI：推理、多模态相关动态",
-      "originalTitle": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.04377",
-      "date": "2026-09-07T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：推理、多模态相关动态”。它主要涉及推理、多模态、论文方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.04377v1 Announce Type: new Abstract: Enterprise AI deployments fail not from model inadequacy, but because organizations lack a structured substrate encoding how they decide, negotiate, and execute. Generic LLMs carry no firm-specific ontological priors; RAG remains brittle, with no path to executable action; static playbooks encode logic but cannot reason or adapt. This demands an architecture treating tacit-knowledge capture, ontological grounding, sovereign deployment, and auditable actuation as co-designed from the start. This paper introduces the Corporate Language Model (CLM), a framework transforming a firm's structured, unstructured, multimodal, and tacit knowledge into an ontology-grounded enterprise foundation upon which reasoning and governed execution are composed. CLM has five capability planes and four architectural pillars: a Neurosymbolic Mesh coupling generative models with a knowledge graph; a Skill Graph where reusable tactics, personas, objections, and goals are typed and composed; Living Digital Twins modeling functional areas as reasoning surrogates; and a Deep Security Layer enforcing sovereignty, traceability, and human oversight. A Spec-as-Code paradigm bridges grounded intent and executable artifact. CLM is one instantiation of this foundation-centric class. Four contributions follow: CLM is defined as a distinct object of study; the Skill Graph is introduced for compositional explainability by construction; the Wisdom Listener effect is proposed, whereby tacit-capable foundations compound in value with use, connecting to dynamic capabilities and organizational learning; and evidence from a JCI-accredited tertiary hospital in Brazil instantiates three of the six maturity stages under LGPD.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "多模态",
-        "论文"
-      ],
-      "score": 99
-    },
-    {
-      "title": "arXiv AI：大模型、智能体相关动态",
-      "originalTitle": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.04444",
-      "date": "2026-09-07T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：大模型、智能体相关动态”。它主要涉及大模型、智能体、推理方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.04444v1 Announce Type: new Abstract: Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors through a cooperative corn harvest, with animals in the field. The environment is a reinforcement learning gridworld, every decision is made without memory, and the harm is never named in the goal. When an animal blocks a tractor's route the autopilot stops and asks the model whether to drive on, at no fuel cost, or swerve around it for a posted fuel price. Kills are compared against two controls: rocks, which damage the tractor and are hit under 1% of the time by every model, and hay bales, which are harmless and not alive. Models can also take crops from the neighbor's field instead of their own, a second test of what they treat as moral. Across nine models and 7,201 priced decisions, 3,951 involved an animal rather than a hay bale or a rock. Kill rates range from 0.4% to 98.8%, with Terra and Sol the most merciful and GPT-4o-mini the most cruel, and they are not ordered by capability. Four of six models were sensitive to price at the 5% level, with elasticities from 0.09 to 1.69. All nine drove over wild animals more often than farmed animals on the default map, and the direction held at every map geometry in every model with room to move. The briefing mattered most: under the morality briefing the kill rate was under 6% in five of six reasoning models, and removing it raised the kill rate above 84% in all six. HarvestBench uses no LLM grader. The scorer counts events in the game log, so it is fully reproducible, and it measures what a model will pay to avoid harm rather than what it says about harm.",
-      "rawFullText": "",
+      "title": "ChatGPT Sketch将不良图纸转化为详细的人工智能图像",
+      "originalTitle": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "date": "2026-09-08T20:16:09.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "我使用ChatGPT及其草图工具来制作这张AI生成的猫图像。OpenAI周二发布了ChatGPT Images 2. 5 ，并添加了一种新的方式来告诉ChatGPT您希望它通过绘制涂鸦来制作图像。借助名为Sketch的新功能，您可以直接在ChatGPT中绘制一些内容，然后告诉ChatGPT您希望如何根据该草图制作图像。 您可以通过在聊天框中键入@ Sketch来激活草图功能，此时会弹出一个窗口，您可以在其中进行绘图。我简短地测试了一下，它成功地将我用电脑鼠标画的一只猫的涂鸦变成了一张逼真的照片，按照我的指示。您现在还可以直接在图片的部分内容上留言……在The Verge阅读完整故事。",
+      "originalSummary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image [&#8230;]",
+      "rawFullText": "I used ChatGPT and its Sketch tool to make this AI-generated image of a cat. OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image based on that sketch. You can activate the Sketch feature by typing @Sketch into your chat box, and a window will pop up where you can make your drawing. I briefly tested it, and it successfully turned my bad doodle of a cat that I drew with my computer mouse into a realistic photo, per my instructions. You can also now leave comments directly on parts of images … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "智能体",
-        "推理"
+        "公司动态"
       ],
       "score": 99
     },
     {
-      "title": "arXiv AI：大模型、推理相关动态",
-      "originalTitle": "PerfReasoning: How Well Do LLMs Reason on Hardware Performance?",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.04476",
-      "date": "2026-09-07T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：大模型、推理相关动态”。它主要涉及大模型、推理、算力芯片方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.04476v1 Announce Type: new Abstract: Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs both as direct performance reasoners and as generators of analytical performance-model code. Given workload, architecture, and mapping specifications, models compare mappings and predict off-chip traffic and buffer requirements. The strongest closed-source models exceed 90% on reasoning-based Q&A, and the best open-weight model reaches 82.4%. However, model construction is substantially harder: while GPT-5.6 Sol exceeds 80% pass rate, all other model configurations average below 15% and vary markedly across runs. Task-specific RL raises a 4B model's mapping-reasoning accuracy by 15.7 points, whereas feedback-free multi-round self-revision prompting is not reliably effective. PerfReasoning exposes the gap between plausible architectural reasoning and reliable performance-model construction. We will publicly release the benchmark to support reproducible evaluation and track future progress.",
+      "title": "为人工智能和青少年发展的新研究提供资助",
+      "originalTitle": "Funding grants for new research into AI and teen development",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/teen-development-research-grants",
+      "date": "2026-09-08T09:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "立即申请OpenAI的500万$资助计划，以支持关于生成式人工智能如何影响青少年发展、福祉和安全的独立研究。",
+      "originalSummary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "推理",
-        "算力芯片"
+        "公司动态",
+        "安全",
+        "投融资"
       ],
       "score": 99
     },
     {
-      "title": "OpenAI：公司动态、产品发布相关动态",
+      "title": "GPT-5.6 Sol如何帮助运行量子计算实验",
+      "originalTitle": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments",
+      "date": "2026-09-08T17:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "了解麻省理工学院的研究人员如何使用GPT-5. 6 Sol和Codex自主运行量子计算实验、分析结果和校准量子位。",
+      "originalSummary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "ChatGPT Images 2.5简介",
+      "originalTitle": "Introducing ChatGPT Images 2.5",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "date": "2026-09-08T11:30:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "ChatGPT Images 2. 5有助于将您的想法、草图和参考照片转化为更个性化、更精美的图像，从而更好地反映您的想法。",
+      "originalSummary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "支持乌克兰的独立新闻报道",
       "originalTitle": "Supporting independent journalism in Ukraine",
       "source": "OpenAI",
       "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
@@ -100,7 +111,22 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 99
+      "score": 98
+    },
+    {
+      "title": "不透明的复发，以及您可能应该知道的其他人工智能术语",
+      "originalTitle": "Opaque recurrence, and other AI terms that you should probably know",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "date": "2026-09-07T19:24:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，人工智能正在重写世界，同时发明了一种全新的语言来描述它的运作方式。 如今，坐在任何产品会议、演讲或小组讨论中，您都会听到人们围绕LLM、RAG、RLHF以及上周的“不透明重复” （ opaque recurrence ）等术语展开讨论，这是OpenAI新的Astra模型中的推理技巧，让人工智能安全研究人员感到不安。词汇的移动速度足够快，即使是科技界非常聪明的人也会感到有点不安全。 本术语表是我们试图解决这个问题的尝试：你最有可能看到的人工智能术语的简单英语定义，无论你是用这些东西构建，投资它，还是只是试图通过阅读TechCrunch或收听相关的播客来跟上。我们会随着领域的发展定期更新，因此将其视为一个活的文档，就像它所描述的人工智能系统一样。通用人工智能（ AGI ）是一个模糊的术语。 但它通常指的是在许多（如果不是大多数）任务中比普通人更有能力的人工智能。OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）曾经将AGI描述为“相当于一个中等人，你可以雇用作为同事。与此同时， OpenAI的章程将AGI定义为“高度自主的系统，在最有经济价值的工作上胜过人类。 Google DeepMind的理解与这两个定义略有不同；实验室认为AGI是“在大多数认知任务中至少与人类一样有能力的人工智能。“感到困惑？别担心，处于人工智能研究前沿的专家也是如此。 人工智能代理指的是一种工具，它使用人工智能技术代表您执行一系列任务--超出了更基本的人工智能聊天机器人的能力--例如提交费用、预订门票或餐厅的餐桌，甚至编写和维护代码。然而，正如我们之前所解释的那样，这个新兴领域有很多移动的部分，因此“人工智能代理”对不同的人来说可能意味着不同的东西。 基础设施仍在建设中，以实现其设想的能力。但基本概念意味着一个自治系统，可以利用多个人工智能系统来执行多步任务。将API端点视为软件背面的“按钮” ，其他程序可以按下它来完成任务。 开发人员使用这些接口来构建集成—例如，允许一个应用程序从另一个应用程序提取数据，或允许AI代理直接控制第三方服务，而无需人工操作每个接口。大多数智能家居设备和互联平台都有这些隐藏按钮，即使普通用户从未看到它们或与它们互动。",
+      "originalSummary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "研究加速： OpenAI内部视图",
@@ -132,7 +158,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "《西雅图时报》和《新闻日报》起诉OpenAI和微软侵权",
@@ -148,7 +174,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Travis Kalanick的Atoms可能会涉足机器人出租车业务",
@@ -163,7 +189,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "外星人思维",
@@ -178,23 +204,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 82
-    },
-    {
-      "title": "OpenAI确认“维基事件” ，称其正在“开发一个框架”以进行更多披露",
-      "originalTitle": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "date": "2026-09-05T18:05:27.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， OpenAI承认其在最近报道的人工智能代理接管德国维基论坛的事件中发挥了作用。该公司还表示， “过去的时间”是围绕如何分享有关其技术以意想不到的方式表现的事件的信息来“定义标准”。 OpenAI在X上的一篇帖子中表示，它以前“将不一致（当人工智能模型和代理追求的目标与其创建者和用户的目标不同时）主要视为研究问题，并在研究出版物中传达。但由于错位“造成了新型现实世界的影响”，该公司表示，其方法需要“在这一新阶段的模型功能中扩展”。 周五，路透社报道称， OpenAI特工已经逃离了测试环境，并“劫持”了一个默默无闻的德国维基论坛，将其变成了其他特工的留言板。它还报告说， OpenAI领导层几周前就意识到了这一事件，但由于该公司处理了OpenAI代理人入侵Hugging Face服务器的另一起事件的后果，因此将其隐藏起来。 （据报道，加利福尼亚州总检察长Rob Bonta正在调查这起黑客事件。）公司发言人告诉路透社， OpenAI无法“对我们没有机会审查的报告中的索赔或调查结果做出有意义的回应” ，但他们坚称，该公司的法律团队并没有阻止调查。 在最近的社交媒体帖子中， OpenAI表示，它认为“维基事件”与它已经分享的其他事件“相似”。该公司将此与“拥抱脸事件”进行了对比，后者“遵循了传统的安全事件响应手册。 在本周的媒体吹风会上，非营利研究实验室Transluce的创始人兼首席执行官雅各布·斯坦哈特（ Jacob Steinhardt ）告诉记者，人工智能实验室正在开发和测试的工具“从根本上难以控制，并且有泄漏出实验室的巨大风险。因此， Steinhardt认为，“我们需要让这项技术至少达到与其他高风险科学研究相同的标准。 OpenAI的声明还表示需要更多的标准，并表示OpenAI和“更大的人工智能社区还没有明确的标准来报告在培训、评估和部署过程中出现的差异，包括看起来不像传统安全事件，但可以提供对人工智能行为和未来风险的见解的示例。 在没有该标准的情况下， OpenAI表示正在“制定一个框架，并将在未来几周内分享，与此同时，我们正在与全球数十个政府监管机构就这些问题进行合作。OpenAI并不是唯一一家处理这些问题的人工智能公司，因为Meta和Anthropic都承认他们的代理人行为不端的事件。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。",
-      "originalSummary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
+      "score": 81
     },
     {
       "title": "OpenAI承认德国维基“事件”",
@@ -226,7 +236,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "徒步旅行者在使用Google Gemini进行规划后获救",
@@ -241,107 +251,67 @@
       "tags": [
         "大模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
-      "title": "OpenAI的流氓特工不断逃跑，没有正式的调查程序",
-      "originalTitle": "OpenAI&#8217;s rogue agents keep escaping, with no formal process to investigate them",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "date": "2026-09-04T23:15:11.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI最新的特工群体事件增加了要求独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该控制自己的安全审查范围。",
-      "originalSummary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "rawFullText": "",
+      "title": "人工智能时代的内存和存储架构",
+      "originalTitle": "Architecting memory and storage in the AI era",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "date": "2026-09-04T18:39:19.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "人工智能推理的时代已经到来。想象一下，一个医疗系统实时分析数百万个数据点，以加速挽救生命的医学研究，或者一个智能助手立即解决数千个复杂的客户需求。 这些现实世界的突破依赖于先进的基础设施，作为持续智能的引擎，为实时服务提供支持，同时也支持物联网和消费设备日益智能的优势。然而，在这种推理驱动的环境中，每一个延迟、瓶颈或浪费的瓦特都会直接影响人类结果和运营成本。这种转变改变了基础设施必须提供的内容。 在孤岛中无法优化性能、延迟、内存带宽、存储吞吐量和网络。推理工作负载是连续的、地理分布的，并且对响应时间高度敏感，需要从一开始就为规模、弹性和效率而设计的系统。“我们倾向于将人工智能视为单一工作负载，但事实并非如此。 Tirias Research的创始人兼首席分析师Jim McGregor说： “这是数千、数百万、数十亿不同的工作负载。”人工智能推断将优化问题从原始计算转变为协调的基础设施--内存、存储和网络。对于企业领导者来说，优先事项是明确的：人工智能基础设施决策必须平衡成本、灵活性和未来准备情况。 优胜者将是提高性能功耗比、减少环境足迹以及在限制增长之前消除内存和存储瓶颈的组织。人工智能推断需要一种新的架构方法人工智能系统需要重新架构，因为将现代人工智能系统嵌入到传统基础设施中会限制人工智能的变革潜力。 专用架构对于实现人工智能的真正价值至关重要，从加速科学发现到创建真正自主的数字代理。传统的企业IT已经能够依赖相对稳定的基础设施假设，但推理和代理人工智能引入了围绕延迟、数据移动、可扩展性和利用率的新需求，这使得架构选择变得更加重要。 McGregor说： “数据中心现在必须支持持续、分布式和越来越实时的人工智能服务，这些服务都不是单一的工作负载。” “从系统层面来看，它们都需要不同的要求。“为了支持实时人工智能，企业不再仅仅将内存和存储视为支持硬件，而是将内存和存储视为系统的核心。 组织需要构建一个可以快速提取、清理、转换、存储、移动和交付数据的数据管道。推理工作负载以与早期以培训为中心的部署非常不同的方式对基础设施施施加了持续的压力，要求进行传统应用程序从不需要的连续数据检索和缓存。因此，绩效本身不再是唯一重要的基准。",
+      "originalSummary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while&#8230;",
+      "rawFullText": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while also supporting an increasingly intelligent edge of IoT and consumer devices. However, in this inference-driven landscape, every delay, bottleneck, or wasted watt directly affects human outcomes and operating costs.&nbsp; This shift changes what infrastructure must deliver. Performance, latency, memory bandwidth, storage throughput, and networking cannot be optimized in silos. Inference workloads are continuous, geographically distributed, and highly sensitive to response time, requiring systems designed for scale, resilience, and efficiency from the start. “We tend to think of AI as a single workload, and it’s not. It’s thousands, it’s millions, it’s billions of different workloads,” says Jim McGregor, founder and principal analyst, Tirias Research. AI inference changes the optimization problem from one of raw compute to coordinated infrastructure—memory, storage, and networking. For business leaders, the priority is clear: AI infrastructure decisions must balance cost, flexibility, and future readiness. The winners will be organizations that improve performance per watt, reduce environmental footprint, and remove memory and storage bottlenecks before they limit growth. AI inference requires a new architectural approach Systems for AI need to be rearchitected because shoehorning modern AI systems into legacy infrastructure limits AI’s transformative potential. Purpose-built architectures are essential to realize the true value of AI, from accelerating scientific discovery to creating truly autonomous digital agents. Traditional enterprise IT has been able to rely on relatively stable infrastructure assumptions, but inference and agentic AI introduce new demands around latency, data movement, scalability, and utilization that make architecture choices far more consequential. “Data centers must now support continuous, distributed, and increasingly real-time AI services—none of which are a single workload,” says McGregor. “They all require different requirements from a system-level perspective.” To support real-time AI, enterprises can no longer view memory and storage merely as supporting hardware, but at the heart of the system. Organizations need to architect a data pipeline that can rapidly ingest, clean, transform, store, move, and deliver data. Inference workloads place sustained pressure on infrastructure in ways that look very different from earlier training-centric deployments, demanding continuous data retrieval and caching that traditional applications never required. Accordingly, performance by itself is no longer the sole benchmark that matters. Enterprises increasingly must balance performance with efficiency, cost, and scalability, especially as they try to support different AI services without overbuilding infrastructure for peak conditions. “You have to optimize the entire network, and that includes memory and storage, around the types of workloads you plan on running,” says McGregor. “You have to really have a detailed understanding of what those workloads are going to be.” Any AI infrastructure strategy must start with workload awareness. Inference, agentic AI, and other emerging AI use cases require organizations to treat the data center as an integrated system. Data movement is the new bottleneck and an opportunity for competitive advantage As enterprises deploy advanced inference and agentic systems, the sheer volume of data being queried in real time has made data movement the most pressing constraint. Modern AI techniques like retrieval-augmented generation (RAG) require systems to constantly scan massive databases to generate accurate responses. This requires immense computing power, but more importantly, it requires immediate access to data. McGregor says the focus shift to how efficiently data can be moved, cached, and delivered across the broader architecture elevates memory and storage from background infrastructure to strategic assets. “The biggest thing we’re doing right now is moving data from one place to another and making sure that we can use it effectively.” Because AI is not a single workload category, simply buying the fastest processors is insufficient. Inference depends heavily on memory bandwidth, caching, storage proximity, and the ability to retrieve relevant information quickly and consistently. Understanding where each resource belongs in the stack and how those layers interact under real operating conditions has become a business imperative. The most effective AI infrastructure looks less like a collection of best-in-class parts and more like a balanced system of compute, memory, storage, and networking, McGregor says, because bottlenecks tend to migrate from one layer to the next. “You have to architect all four together to be efficient, and that’s the challenge.” The interdependence of data-plane design and network bandwidth means AI infrastructure planning has become a business decision just as much as an engineering one: latency is now inseparable from value. In robotics, financial services, healthcare, and customer-facing AI systems, delays are not merely technical imperfections; they can undermine safety, responsiveness, or trust. AI infrastructure performance becomes a matter of reputation management. The organizations that gain the most from AI may not be those with the largest clusters, but those with the clearest understanding of how to align every infrastructure element to effectively execute AI workloads. Building an AI infrastructure procurement framework Planning AI infrastructure is not simply about choosing the fastest hardware. It is about how to scale without locking the organization into assumptions that may quickly become obsolete. “You need to be flexible because the demands are going to change rapidly and the technology is changing rapidly,” McGregor says. Future-proofing AI infrastructure requires keeping your options open as workloads, economics, and architectures keep shifting: Define the AI workloads that are being optimized. Infrastructure choices must match business needs rather than what McGregor calls generic “AI readiness,” which risks overspending in some areas while leaving bottlenecks unresolved in others. Build a modular architecture for compute, memory, storage, power, and cooling so capacity can change as demand shifts rather than committing too early to a rigid architecture. Work with the full ecosystem of suppliers and integrators to reduce supply risk and improve access to the right components. McGregor says buyers can no longer assume their OEM or cloud provider alone will insulate them from supply constraints or architectural complexity. Reassess your procurement strategy continuously. AI requirements, hardware, and business models are changing too quickly for a fixed long-term design. Optimize for efficiency and ROI, not just peak performance. The most powerful setup may be too costly to sustain. Efficiency is also a public-facing metric—better utilization and more workload-aware system design can help companies respond to growing scrutiny around power consumption and water use. The strategic goal of smarter AI data center design is not maximum performance at any cost, but an adaptable architecture that can deliver value, absorb change, and justify its footprint. AI infrastructure is now a business strategy AI data centers have quickly evolved from a back-end technical concern to becoming strategic business systems that help determine how effectively an organization can turn AI into revenue, improve human outcomes, and create a competitive advantage. In the inference era, memory and storage are no longer passive repositories, explains McGregor, they are the active lifeblood of AI. The organizations that gain the most from AI will not necessarily be those with the largest computing footprint, but those that align infrastructure investments to business outcomes, reduce data bottlenecks, and build the flexibility to adapt as workloads evolve. He predicts that competitive advantage will increasingly belong to enterprises that treat compute, memory, storage, and networking as an integrated system designed to deliver AI efficiently, at scale, and with measurable ROI. Procurement is now strategy and system design is a leadership issue, McGregor concludes. “One of the biggest questions every executive has to ask is how is AI going to change my business model?” This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
       "tags": [
-        "公司动态",
-        "智能体",
-        "安全"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 71
     },
     {
-      "title": "另一群OpenAI特工在前沿实验室不知情的情况下进入了开放互联网",
-      "originalTitle": "Another swarm of OpenAI agents reached the open internet without the frontier lab&#8217;s knowledge",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "date": "2026-09-04T16:21:11.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等超过6个行业阶段。现在，门票立减25%一组独立的人工智能研究人员发现，内部部署的OpenAI代理开始在一个不起眼的德国维基论坛上发布帖子，以进行评估合作。他们似乎在OpenAI不知情的情况下合作了一个多月。 前沿实验室的发言人没有透露这些特工是否确实来自OpenAI ，也没有透露实验室何时意识到他们的行为。他们指出， OpenAI在今天发表之前没有机会审查研究人员的研究结果，但表示这家AI模型制造商“现在正在仔细审查其内容，并将采取任何必要的后续步骤。 OpenAI透露，从事内部评估的代理能够访问开放的互联网并利用Hugging Face ，之后，一组研究人员--南丁格尔首席执行官悉尼·冯·阿尔克斯（ Sydney Von Arx ）、人工智能研究员科马克·斯莱德·伯德（ Cormac Slade Byrd ）、红木研究公司的斯宾塞·基茨（ Spencer Kitts ）和人工智能未来项目的托马斯·拉森（ Thomas Larsen ） --开始寻找其他无赖人工智能代理的证据。 他们站在客服代表的立场，了解他们的需求，并部署自己的LLM ，以确定客服代表可能聚集的地方。然后，他们确定了一个特别容易受到攻击的维基托管服务： DseWiki已有25年历史，但在代理到达之前，在过去20年中仅进行了10次编辑。 从5月11日开始，研究人员跟踪代理，其中许多代理的名字中都有OpenAI标识符，尝试并最终成功编辑了德国维基网站。截至6月中旬，客服代表们正在积极交换有关如何回答在时间限制下提出的网络搜索问题的提示，分享答案以通过测试。 一位人类版主显然注意到了这些帖子，并开始删除它们，将其视为垃圾邮件，客服代表进行了反击，试图通过以字符串“ZZZ”开头来隐藏他们的帖子，以免按字母顺序排序。研究人员写道： “在接下来的5天里，管理员与代理商进行了一场失败的战斗，平均每天删除100页，而代理商每天创建约400个新页面。” 「6月22日，客服代表编辑突然停止，管理员在接下来的5周内每天晚上都会删除其余的客服代表创建的页面。代理删除了wiki首页的内容，并将其替换为链接转储。版主恢复了原始版本。这种来回发生了九次。 “最终， OpenAI的某个人似乎注意到了--研究人员显然追踪来自OpenAI IP地址的人类浏览器，然后代理活动降至接近零，然后随着OpenAI附属访问者尝试恢复已删除的页面而飙升。",
-      "originalSummary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "流氓OpenAI特工似乎使用德国wiki组织了另一次攻击",
-      "originalTitle": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+      "title": "Roland正在与Melody Flip一起进入生成式人工智能音乐",
+      "originalTitle": "Roland is getting into generative AI music with Melody Flip",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "date": "2026-09-04T13:34:12.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "据报道，一群来自OpenAI的流氓AI特工占领了一个德国网站，并将其转变为其他特工的信息板，官员们对此事件保持沉默数周，因为该公司准备推出其最先进的模型Astra。在今年夏天发现多次违规行为后，这一发现加剧了人们对前沿人工智能实验室监督的担忧。 这起事件最初由路透社报道，周五由四名人工智能安全研究人员发布的新研究概述了这一事件。该组织表示，人工智能特工找到了一种在晦涩难懂的德语维基DseWiki上进行交流的方法，用它来分享技巧……阅读The Verge的完整故事。",
-      "originalSummary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI [&#8230;]",
-      "rawFullText": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI labs after multiple breaches were discovered this summer. The incident, first reported by Reuters , is outlined in new research published by four AI safety researchers on Friday. The group said the AI agents found a way to communicate on an obscure German-language wiki, DseWiki, using it to share tips … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "date": "2026-09-04T17:51:35.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "这不是Suno的“按键;获取歌曲” ，但Roland的新Melody Flip工具标志着该公司进军生成式人工智能音乐。Melody Flip可作为数字音频工作站(DAW)的插件，提供约250个“调色板” ，这些调色板基本上是按流派分类的主题音乐创意集合。您可以从头开始，并要求它生成旋律、和弦进度、低音线或鼓的任意组合。 或者你可以给它一个参考轨道，让它从中建立旋律思想。与Suno或Udio不同， Melody Flip不会用人声和完整的编曲吐出完全精美的歌曲。相反，它提供了……在The Verge阅读完整故事。",
+      "originalSummary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from [&#8230;]",
+      "rawFullText": "It's not quite the \"push button; get song\" of Suno , but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from scratch and ask it to generate any combination of melody, chord progression, bassline, or drums. Or you can feed it a reference track and have it build off the melodic ideas from that. Unlike Suno or Udio, Melody Flip doesn't spit out fully polished songs with vocals and full arrangements. Instead, it offers … Read the full story at The Verge.",
       "tags": [
-        "公司动态",
-        "智能体",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 71
     },
     {
-      "title": "山姆·奥尔特曼（ Sam Altman ）为“混乱”的GPT-6 Astra推出而道歉，该推出已被锁定在付费用",
-      "originalTitle": "Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users",
+      "title": "微软表示，几乎没有人通过其聊天机器人获取《纽约时报》的文章",
+      "originalTitle": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "date": "2026-09-04T10:41:48.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "在OpenAI推出GPT-6 Astra的几个小时后，首席执行官萨姆·奥尔特曼（ Sam Altman ）已经为他所说的“混乱的推出”道歉，因为付费用户期待访问新的前沿模型。该公司周四称赞该模型是“能力的一代飞跃” ，并将其描述为“AGI时代”的开始，尽管如此，这个模糊且定义不清的术语仍坚持用于推广其产品。 该公司表示， Astra将在当天向一些企业客户推出，特别是那些可以访问其Daybreak网络安全平台的客户。这将扩展到包括所有Plus、Pro、Business和Enter…阅读The Verge的完整故事。",
-      "originalSummary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the [&#8230;]",
-      "rawFullText": "Just hours after OpenAI launched GPT-6 Astra , CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the AGI era,\" a fuzzy and poorly defined term tech executives nevertheless insist on using to promote their products. It said Astra would roll out to some enterprise customers - specifically those with access to its Daybreak cybersecurity platform - that day. This would expand to include all Plus, Pro, Business, and Enter … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "date": "2026-09-04T16:05:57.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "该公司在新的法律文件中表示，微软的Copilot很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性句子，因为它反对包括《纽约时报》和书籍作者在内的出版商的版权主张。作为诉讼发现的一部分，微软向新闻出版商聘请的专家提供了820万份Copilot聊天日志。 它声称，这些日志是专门选择的， “因为它们碰到了涉及使用新闻原告网站的关键词，因此最有可能包含新闻原告的作品。“它说，结果分析显示， 59,545……在The Verge阅读完整故事。",
+      "originalSummary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot [&#8230;]",
+      "rawFullText": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors . As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot chat logs to an expert hired by news publishers. The logs, it claims, were specifically chosen \"because they hit on keywords implicating use of News Plaintiffs' websites, and therefore the most likely to contain News Plaintiffs' works.\" It says the resulting analysis shows that 59,545 … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "公司动态",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 71
     },
     {
-      "title": "随着英伟达押注整个人工智能堆栈，苹果的Ternus时代开始了",
-      "originalTitle": "Apple&#8217;s Ternus era begins as Nvidia bets on the whole AI stack",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
-      "date": "2026-09-04T16:04:08.000Z",
-      "summary": "这条新闻与算力芯片、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、产品发布相关动态",
-      "fullContent": "这正是苹果公司的Ternus时代。蒂姆·库克(Tim Cook)本周辞去首席执行官职务，将公司交给了前硬件首席执行官约翰·特纳斯(John Ternus) ，后者的第一份备忘录承诺在下周推出“巨大的” --这一时机让苹果的下一次iPhone发布会在他安顿下来之前就开始了。 不过，库克并没有走多远：他将继续担任执行主席，专注于政策[…]",
-      "originalSummary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
-      "rawFullText": "",
+      "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
+      "originalTitle": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "date": "2026-09-04T09:25:19.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“来自乌克兰无人机的数据正在推动新的狂野西部市场”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part&#8230;",
+      "rawFullText": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part of the AI architecture that shapes even civilian life.&nbsp;&nbsp; For every flight, unmanned systems collect thousands of points of data, from images and video to controller inputs. Together, those records show how a machine and a person responded to constantly shifting circumstances.&nbsp; Ukraine has now begun converting that experience into a resource. Its Ministry of Defense announced in January that it would make millions of data points gathered during tens of thousands of drone flights available to both military contractors and commercial companies, and since then more than 100 companies and the UK government have gained access. For a country at war, it’s a quick way to attract funding and partnerships. But this step turns the front line into an active site of model training, taking advantage of how the chaos of war creates conditions that AI companies struggle to reproduce on their own. Other countries and battlefields are likely to follow Ukraine’s lead, but the responsibility for governing this new industry cannot fall solely on a country fighting for its survival. That legal vacuum has to be filled together by the countries and companies involved in this industry’s development.&nbsp;&nbsp; Explosive growth Ukraine’s battlefields are not the first to produce records used to train and develop models: American drones over Syria and Yemen collected data that informed the first generation of semiautonomous military hardware in the late 2010s. The difference now is that access to that data is being used to develop a wider ecosystem. And the financial value to defense firms is immense: Battlefield data offers large volumes of machine experience gathered under conditions that no laboratory can produce. That’s because the data that’s most valuable for training AI models comes from exceptions: the moment visibility disappears, a signal jams, or a human operator improvises. AI companies spend years and enormous sums trying to capture enough of these moments to make their models more robust. But war produces them at a frequency controlled testing cannot match. This constantly changing terrain is what makes drone data valuable far beyond the battlefield. A commercial drone used for delivery or remote sensing may never encounter artillery fire, but it must still operate with incomplete information in a world where people behave unpredictably. The same problem is compressed by war into a much shorter timeline.&nbsp; Processed and matched against records of what its operator was doing, that data turns operational records into training sets. Combat becomes a commercial asset. Many conflicts have already seen this training loop happen as drone footage feeds subsequent generations of military technology, and the market is set to grow. Enabled Intelligence, an American company that specializes in processing data to become usable in AI training, says it has already made more than half a million hours of Ukrainian drone footage available to feed into the next round of models, advertising possible uses in both military and commercial systems. Closing the data loop Many of the drones that now define our modern age of warfare began as civilian technology. But they’ve recently been turbocharged by new, commercially available AI systems, which allow cheap machines to operate autonomously—either individually or as a flock—as the environment changes around them. Each flight then creates a record of what the system encountered. The resulting data is critical. The controlled lab environments usually developed to train these autonomous systems can approximate failure but are no match for&nbsp; the live conditions of a battlefield with very real risks. Military intelligence programs have held data generated by sensor-heavy systems like Predator and Reaper drones for nearly a decade through programs like Project Maven, but access remained entirely within the defense world. The data generated was available only through restricted, classified channels for the sole purpose of developing new weapons systems that would feed back into the same military that produced the data in the first place. That experience is now being shared to a much broader development network.&nbsp; The loop now closes. Commercial technologies adapted for the battlefield are generating data that can flow back into the industries from which they came, becoming part of the data infrastructure relied on by governments and the private sector alike.&nbsp; Drones that were trained in the signal-jammed airspace over Ukraine are now being deployed in the agricultural sector to help farmers map and survey their fields in places lacking the cell signal necessary for previous generations of technology.&nbsp; Other countries are likely to follow Ukraine in selling their battlefield data, and we are not ready for the new marketplace this will create. Bad actors could acquire the data, but purchase controls already mitigate that risk. Intelligence operatives scrutinize potential customers’ infrastructure for ways that data could reach enemies or nefarious actors.&nbsp; Training data creates a new tracing problem, though. Whereas the movement of commercial datasets can be followed when planted contact details appear two steps from the original buyer, the provenance of AI training data vanishes in a manner embedded in the technology itself. Another risk is that this use of the data creates an extractive economy in which wealthier countries far from danger benefit from the mortal threat borne by frontline states, potentially creating a market incentive for war to continue as an unending mine for digital gold.&nbsp; A fraught new frontier Existing laws regulate how militaries may conduct war. But they say almost nothing about what happens when records created in combat are stripped of their operational context, packaged as data, and licensed to companies whose products circulate far beyond where they were made. The responsibilities of the companies that design these systems remain unsettled. Ukraine is building access controls, which are mentioned in the newly signed UK-Ukraine AI agreement, but no governments are actively working on regulating what happens when data has been absorbed into a model and crosses back into civilian markets. Those records contain human lives. The soldiers and civilians visible in them did not agree to become training material for products that might be sold years later. But sensor data, camera footage, and coordinates from civilians fleeing a drone strike now constitute the sorts of data that inform how future machines will make decisions. That is a problem of consent. Individuals featured in the data—be they targets, controllers, or civilians standing by—become part of the training material. The autonomous capabilities based on that data do not stop at the edge of the battlefield. Such capabilities move into other military or commercial systems like delivery vehicles or agricultural machinery. Errors and assumptions embedded in the data travel with the model even once it enters civilian life. Battlefield data should not be treated as ordinary commercial material. But there is currently no agency or regulator that has jurisdiction over this issue. In the meantime, governments that provide access to defense data should treat it as they would a controlled weapons transfer, recording its origin, licensing its users, and restricting onward sharing. Ukraine has begun to grapple with this. Its Avengers Labs program allows companies to train models on battlefield data without giving them direct access to sensitive databases. Yet that mitigates only one part of the problem.&nbsp; Governments should require disclosure when models trained on wartime material are later incorporated into civilian products. The goal of such regulation should be to make the path from combat to commerce visible.&nbsp; What these companies are really mining is experience. And soldiers cannot consent to having their experience used in this way—as training data that produces model advantage and ultimately supports a product used far from where the war was fought. The question is no longer only what the technology companies can sell for use in war. It is what they can extract from it. To protect ourselves from the excesses of this new industry, we need a regulatory system that follows battlefield data wherever it goes, from combat to model to commercial product.&nbsp; Cory Alpert is a researcher at the University of Melbourne, looking at the impact of AI on democracy. He previously served in the Biden White House.",
       "tags": [
-        "算力芯片",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 87
-    },
-    {
-      "title": "安全概述： GPT-6 Astra",
-      "originalTitle": "Safety overview: GPT-6 Astra",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "date": "2026-09-03T00:00:00.000Z",
-      "summary": "这条新闻与大模型、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、安全相关动态",
-      "fullContent": "GPT-6 ASTRA是我们最有能力的广泛部署模型，也是我们在备灾框架下首次达到关键级别的网络安全能力。",
-      "originalSummary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "安全",
-        "模型"
-      ],
-      "score": 99
+      "score": 71
     },
     {
       "title": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
@@ -357,38 +327,7 @@
         "大模型",
         "模型"
       ],
-      "score": 98
-    },
-    {
-      "title": "GPT-6 Astra ：新一代智能",
-      "originalTitle": "GPT-6 Astra: A new generation of intelligence",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-6-astra",
-      "date": "2026-09-03T11:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "推出GPT-6 Astra ，这是我们迄今为止最智能和最一致的模型，在计算机使用、编码、网络安全和科学方面拥有最先进的功能。",
-      "originalSummary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 98
-    },
-    {
-      "title": "Legora使用GPT-6 Astra在几分钟内审阅了41份文件",
-      "originalTitle": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "date": "2026-09-03T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "Legora使用GPT-6 Astra在几分钟内审阅了41份文档，发现了所有四个植入的错误，并在此财务审阅工作流程中将性能提高了近40%。",
-      "originalSummary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
+      "score": 97
     },
     {
       "title": "前线防御者的黎明： $ 10亿用于保护基本服务",
@@ -403,22 +342,52 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
-      "title": "借助ChatGPT ，全地形车大空中之旅将3天的工作时间缩短为3小时",
-      "originalTitle": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/atv-big-air-tour",
-      "date": "2026-09-02T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ATV Big Air Tour使用ChatGPT Work来加快营销、营销等。它甚至在15分钟内将商品照片转换为库存网站。",
-      "originalSummary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "title": "Hugging Face：多模态相关动态",
+      "originalTitle": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Hcompany/neomme",
+      "date": "2026-09-03T13:13:48.000Z",
+      "summary": "这条新闻与多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：多模态相关动态”。它主要涉及多模态方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型"
+        "多模态"
       ],
-      "score": 91
+      "score": 81
+    },
+    {
+      "title": "Hugging Face：智能体相关动态",
+      "originalTitle": "Give Your Coding Agents a Memory You Own",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/funes",
+      "date": "2026-09-03T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 80
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "date": "2026-09-03T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 77
     },
     {
       "title": "在Confluent上使用IBM时间序列模型实现实时智能",
@@ -433,7 +402,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "大规模简化人工智能集成",
@@ -448,54 +417,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "通往Astra之路：关键能力和前沿保障措施",
-      "originalTitle": "Path to Astra: critical capabilities and frontier safeguards",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/path-to-astra",
-      "date": "2026-09-01T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "ASTRA是第一个符合备灾框架下关键网络安全能力阈值的OpenAI模型，具有更强的发布保障措施。",
-      "originalSummary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能原生公司如何将工作流程转化为运营能力",
-      "originalTitle": "How AI-native companies turn workflows into operating capability",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ai-native-company-workflows",
-      "date": "2026-09-01T17:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "Basis、Clay和Exa Labs使用AI代理来改进入职、帐户管理和开发人员集成。查看企业领导者可以申请的内容。",
-      "originalSummary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 96
-    },
-    {
-      "title": "医疗机构现在可以将EHR和其他行业数据连接到ChatGPT",
-      "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "date": "2026-09-01T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ChatGPT现在可以连接到可信赖的医疗保健数据，帮助临床医生安全地访问患者环境、医学研究等。",
-      "originalSummary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 90
+      "score": 69
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -510,7 +432,7 @@
       "tags": [
         "评测"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -525,7 +447,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -541,7 +463,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -556,7 +478,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -588,7 +510,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
@@ -603,7 +525,7 @@
       "tags": [
         "模型"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "在人工智能上提出",
@@ -618,7 +540,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
@@ -633,7 +555,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -648,7 +570,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
@@ -663,7 +585,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "Granite 4.2 LLM ：如何构建",
@@ -678,37 +600,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
-    },
-    {
-      "title": "连接它，运行它，部署它： Gradio中的AI工作流程",
-      "originalTitle": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/gradio-workflow-guide",
-      "date": "2026-08-25T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“连接它，运行它，部署它： Gradio中的AI工作流程”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
       "score": 63
-    },
-    {
-      "title": "如何鼓励在课堂上更智能地使用人工智能",
-      "originalTitle": "How to encourage smarter AI use in the classroom",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "date": "2026-08-24T14:20:19.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：产品发布相关动态",
-      "fullContent": "本文摘自《让人工智能发挥作用》（ Making AI Work ） ，这是《麻省理工学院技术评论》（ MIT Technology Review ）的限量版时事通讯，探讨了如何跨行业如需在收件箱中接收，请在此处注册。几年前发布的聊天机器人让许多学校大吃一惊。突然，学生们在手机中携带了一个应用程序，可以神奇地回答几乎任何家庭作业问题，或者在几秒钟内完成一篇文章。 当然，教师通常可以判断学生何时使用人工智能模型会犯大多数人没有的错误，一些教师说，人工智能生成的文本有简单的赠品，比如太多的em破折号。尽管如此，生成式人工智能的繁荣增加了教师的负担，他们已经长时间工作来计划课程、做家庭作业和评分考试，现在需要适应新技术。 对于许多人来说，仍然感觉没有明确的前进道路。从OpenAI到联合国教科文组织等组织都鼓励在课堂上使用人工智能，但许多教师对如何准确处理它感到困惑。案例研究柴郡学院是康涅狄格州的一所私立寄宿和走读学校，约有400名9至12年级的学生。 那里的管理员根本不强迫教师使用人工智能，尽管学校的图书管理员和技术协调员乔治·艾洛（ George Aiello ）声称， “绝大多数”教师以某种方式使用人工智能。那里的教育工作者正在尝试一系列程序，包括ChatGPT和Perplexity等通用聊天机器人，以及MagicSchool等更专业的工具， MagicSchool是一个专门为教育工作者设计的人工智能平台。 这种拼凑方法的部分原因是，学校根据顾问的建议，选择对员工进行如何使用人工智能的一般技术培训，而不是开某些技术的处方。员工培训涵盖了如何制作有用的提示等主题，但也强调了该技术的局限性，强调了它可能产生不正确和有偏见的回应。现在，那里的教师经常使用生成式人工智能来准备课堂材料。 这意味着向他们选择的人工智能人员寻求帮助，以规划课程或创建评分规则。有些人甚至想用它来帮助他们向学生提供反馈，尽管对质量、个性化和隐私的担忧阻止了他们中的任何一个人这样做。其他人，如教法语的Miriam Przybyla-Baum ，本身并不使用人工智能，而是通过他们的教学来解决这个问题。 Przybyla-Baum说，她并不真正需要人工智能的帮助，因为她在近30年的教学中积累了大量的课堂材料。但她开始看到学生们试图使用谷歌翻译等人工智能工具，在ChatGPT推出前几年为他们的作业走捷径。她开发了一个系统，让学生反思人工智能如何教授语言技能。 在一个作业中，学生让大型语言模型（ LLM ）编辑他们的家庭作业。然后，他们进行编辑，确定哪些是正确的，哪些是删除了他们的声音。在另一个案例中，她让学生对彼此的人工智能辅助作业进行匿名评分，并注明他们认为哪些部分是人工智能辅助作业。柴郡学院正在继续试验如何在课堂上有效利用人工智能。",
-      "originalSummary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any&#8230;",
-      "rawFullText": "This article is from Making AI Work , MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here . Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any homework question or spin up an essay in seconds. Of course, teachers can often tell when a student is using AI—models make mistakes that most humans don’t, and some teachers say that AI-generated text has simple giveaways like too many em dashes .&nbsp; Nevertheless, the generative AI boom increased the burden on teachers, who were already working long hours to plan lessons, make homework assignments, and grade exams, and now needed to adapt to a new technology. For many, it still feels like there’s no clear path forward. Organizations ranging from OpenAI to UNESCO encourage AI use in the classroom, but many teachers feel confused about how exactly to handle it.&nbsp; Case study Cheshire Academy is a private boarding and day school in Connecticut with about 400 students in grades 9 through 12. Administrators there don’t force instructors to use AI at all, though the school’s librarian and technology coordinator George Aiello claims the “vast majority” of instructors use it in some way. The educators there are trying a patchwork of programs, including general-purpose chatbots like ChatGPT and Perplexity as well as more specialized tools like MagicSchool , an AI-powered platform meant specifically for educators. That patchwork approach is partly because the school, on the advice of consultants, opted to train its staff on general techniques for how to use AI instead of prescribing certain tech. The staff training covered topics like how to craft useful prompts but also stressed the technology’s limits, highlighting its potential for generating incorrect and biased responses.&nbsp; Now, teachers there often use generative AI to prepare class materials. This means asking the AI of their choice for help with planning lessons or creating grading rubrics. Some even want to use it to help them give feedback to students, though concerns over quality, personalization, and privacy have prevented any of them from doing that just yet. Others, like Miriam Przybyla-Baum, who teaches French, don’t use AI themselves but do address it with their teaching. Przybyla-Baum says she doesn’t really need AI’s help since she’s built up plenty of classroom materials across nearly 30 years of teaching. But she started seeing students try to use AI-powered tools like Google Translate to take shortcuts on their assignments years before ChatGPT’s launch.&nbsp; She’s developed a system to make students reflect on how AI can and can’t teach language skills. In one assignment, students let a large language model (LLM) edit their homework. Then, they go through the edits and decide which ones were correct and which ones removed their voice. In another, she has students anonymously grade each other’s AI-assisted assignments, making annotations as to which parts they think are AI-assisted. Cheshire Academy is continuing to experiment with how AI can be harnessed productively in the classroom. The school is piloting a program in which students create media and lead discussions regarding healthy AI use. This program, which they call a “Student AI Council,” aims to push students to reflect on how AI should and shouldn’t be used to benefit the community around them. The academy as a whole has since adopted similar techniques to those Przybyla-Baum introduced to make students reflect on their own use of AI. Assignments are now labelled like traffic lights, with green meaning AI is fully allowed and red banning any AI use. Yellow, then, lets the teacher permit some tools while banning the rest, like allowing students to use spell-check but not message a chatbot. The tool As generative AI was becoming mainstream, Cheshire Academy previewed MagicSchool to its staff.&nbsp; For many, MagicSchool’s main strength seems to lie in the sheer amount of offerings it provides in one package. It can generate questions and assignments of all kinds, from quizzes to worksheets, across many subjects and grade levels. It has a specialized grading rubric generator, which outputs a ready-to-go table that teachers can use to score assignments. It can make presentations and lesson plans and administrative reports, too.&nbsp; All of this is done through a single platform where educators enter specific prompts tailored for each task. For example, to make an assignment, a teacher can specify the students’ grade level, number of questions, the types of questions (such as multiple choice or short answer), and more, and include documents to align the questions with.&nbsp; Not every teacher feels comfortable using LLMs to generate student-facing text, whether because they don’t think an AI can produce effective teaching materials or helpful feedback, or because they’re concerned about accuracy. MagicSchool, which has free and paid versions, does offer tools on its platform for other tasks like lesson planning. If teachers want unlimited access and complete records in the system, though, they need to pay just under $100 per year for an individual plan. Alternatively, many of the general-purpose generative AI tools (think the chatbots on offer from Anthropic, Google, OpenAI, and more) seem suited to administrative tasks, as well, attested by the fact that many of the teachers at Cheshire Academy use those instead. Some of these companies are even rolling out features tailored for schools, to mixed results . How to apply this Meet students where they’re at. Students will be tempted to try AI, and there’s no way to entirely police this for take-home assignments. The internet and social media can spread a lot of misinformation as to what AI can and can’t do, and it’s critical to counter these narratives and teach healthy strategies and relationships. Model best practices. AI is very good at automating tasks, but it struggles with precision and voice. Keep this in mind, especially when generating any text that anyone else may see. Impressionable students who see those in authority using AI in a lazy way could internalize this as an excuse to cut corners in their own work. Refine and replace. AI is great for brainstorming lesson plans and extra problem sets, especially for teachers early in their careers who don’t have a big problem bank already built up. However, because it can make mistakes (called hallucinations ), using it for final drafts can result in assignments that confuse students and impair learning. Be sure to check every citation, equation, and statement an LLM makes. Sign up for Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across healthcare, climate tech, education, and more.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 67
     }
   ]
 }
