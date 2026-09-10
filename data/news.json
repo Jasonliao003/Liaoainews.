@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T01:07:45.428Z",
+  "updatedAt": "2026-09-10T00:56:30.772Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,36 +19,100 @@
   ],
   "articles": [
     {
-      "title": "黑客正在从订阅者那里窃取Claude令牌",
-      "originalTitle": "Hackers are stealing Claude tokens from subscribers",
+      "title": "人工智能研究初创公司Listen Labs为Salesforce会谈筹集了15亿美元资金",
+      "originalTitle": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-      "date": "2026-09-08T21:10:27.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。门票立减25% 8月4日，英国东萨塞克斯的独立人工智能顾问Grant De Swardt注意到他的Claude Max 20x账户发生了一些奇怪的事情。那天他没有工作，但他的代币使用量正在攀升。第二天，他禁用了克劳德所拥有的一切，并且没有使用它。代币消耗量再次增加。 De Swardt告诉TechCrunch ： “在最清晰的受控时间间隔内，它从45 ％增加到55 ％ ，而我没有执行任何工作，计划的Cowork任务暂停或完成，调度/云执行被禁用，并且没有相应的活动本地Claude Code任务。”是什么吞噬了他的象征性津贴？他不知道，所以他联系了Anthropic ，要求提供一份详细的清单。Anthropic没有提供，但它同意有些不对劲。 它暂停了他的付费帐户，使他的所有会话和服务器端Claude Code令牌无效，并向他发放了部分退款£ 44.49 ，用于他的每月$ 200订阅的剩余时间。他告诉TechCrunch ，停职对他的生意造成了严重破坏。 他的工作是帮助中小型企业设立代理商（一种前沿部署的雇佣工程师） ，以完成自动将采购订单数据从电子邮件加载到会计软件等任务。作为独资经营者，他在整个业务中也依赖于代理商：日常管理任务、网站设计、编码。“就像现在一切都在通过人工智能一样，”他说。 经过调查， Anthropic告诉De Swardt ，它找到了罪魁祸首：一个被泄露的Claude会话密钥被用来铸造未经授权的Claude Code OAuth令牌。该公司告诉他，该帐户“似乎被未经授权的第三方服务用于为其他人处理活动，但他们无法确定它是如何获得访问权限的，”他告诉TechCrunch。 “他们说，证据要么与在我不知情的情况下获取的凭据/会话数据一致，要么与已连接到外部服务的帐户一致。“换句话说，一名黑客能够获得对De Swardt账户的访问权限，并秘密窃取了他的代币。由于账号支持会跟踪总使用情况，但不会逐项记录使用情况，因此即使提出请求，此类盗窃也可能持续数月而未被发现。 他在Reddit上发布了自己的体验，在80条评论后，他发现自己并不孤单。一个人声称他们的账号“未经我同意而自动升级，我的信用卡被扣款，使用率从0%自动升级到100% ，我甚至没有碰过它。“另一个人在12分钟内看到使用率从0%上升到49% ，当时他们只使用了几个提示和网络搜索。 一位Claude用户表示，他们的帐户在三天内每天烧毁其最大代币，而他们根本没有使用它；此人随后创建了一个关于它的GitHub报告。与Reddit帖子一样，其他用户也在那里分享了类似的体验。其中两人发布了来自Anthropic的电子邮件，该公司已经识别并警告他们的代币被盗。",
-      "originalSummary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+      "date": "2026-09-10T00:00:37.000Z",
+      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：投融资相关动态",
+      "fullContent": "颠覆2026年： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。据知情人士透露，使用语音人工智能进行客户访谈的市场研究初创公司Listen Labs最近签署了一份价值1.25亿美元的C轮条款单，估值为15亿美元， Menlo Ventures将领导此轮融资。但那一轮从未结束，人们说。 根据风险投资公司的说法， Listen Labs放弃了签署的条款表，这在风险投资界很少见，而且普遍不赞成。由于与Salesforce进行了收购谈判，融资可能崩溃。据Business Insider报道，这家CRM巨头最近举行了以约20亿美元收购Listen Labs的谈判。然而，出口指出，讨论尚未最终确定，可能不会达成协议。 Listen Labs是人工智能自动化客户研究领域快速发展的领先初创公司之一。据两位熟悉公司财务状况的人士透露，这家成立三年的初创公司年收入约为3000万美元，是竞争对手Simile的三倍左右。Simile是一家预测人类行为的初创公司。 一位知情人士表示， 7月下旬， Simile宣布以Greenoaks牵头的20亿美元估值完成了2亿美元的B轮融资，这可能为Listen Labs设定了新的估值基准。如果与Salesforce的谈判破裂，几家风险投资公司告诉TechCrunch ，他们预计Listen Labs将重返市场，目标估值为20亿美元或更高。 一位具有退出Salesforce谈判经验的人士表示，虽然收购Listen Labs可以通过使用初创公司的人工智能来帮助预测客户需求，从而增强Salesforce的人工智能能力，但这家CRM巨头最终可能会认为，支付67倍的收入倍数估值过高。Listen Labs、Salesforce、Menlo Ventures和Simile没有立即回复置评请求。 Listen Labs由前德国竞争性计算机编程国家冠军Florian Jüngermann和Alfred Wahlforss于2023年共同创立， Alfred Wahlforss此前创立了一家名为Bemlo的人员配备初创公司。两人在哈佛攻读硕士学位时相遇。Listen Labs的人工智能开发调查问题，并通过音频或视频采访客户。 然后将由此产生的对话打包成报告和PowerPoint演示文稿，类似于传统上由人类市场研究人员制作的对话。《财富》500强公司依靠此类研究来衡量客户需求和对其品牌和产品的满意度，但传统的市场研究成本高昂，可能需要数周时间才能完成。 Listen Labs的技术有助于减少这些项目的时间和成本，使公司能够快速了解客户对产品变化的反应，并更有效地对其进行迭代。",
+      "originalSummary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "投融资"
+      ],
+      "score": 82
+    },
+    {
+      "title": "Paul Christiano加入OpenAI基金会董事会",
+      "originalTitle": "Paul Christiano joins OpenAI Foundation Board",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "date": "2026-09-09T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "Paul Christiano加入OpenAI基金会董事会及其安全和安保委员会，带来了人工智能协调、安全和标准方面的经验。",
+      "originalSummary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
       ],
       "score": 99
     },
     {
-      "title": "ChatGPT Sketch将不良图纸转化为详细的人工智能图像",
-      "originalTitle": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-      "date": "2026-09-08T20:16:09.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "我使用ChatGPT及其草图工具来制作这张AI生成的猫图像。OpenAI周二发布了ChatGPT Images 2. 5 ，并添加了一种新的方式来告诉ChatGPT您希望它通过绘制涂鸦来制作图像。借助名为Sketch的新功能，您可以直接在ChatGPT中绘制一些内容，然后告诉ChatGPT您希望如何根据该草图制作图像。 您可以通过在聊天框中键入@ Sketch来激活草图功能，此时会弹出一个窗口，您可以在其中进行绘图。我简短地测试了一下，它成功地将我用电脑鼠标画的一只猫的涂鸦变成了一张逼真的照片，按照我的指示。您现在还可以直接在图片的部分内容上留言……在The Verge阅读完整故事。",
-      "originalSummary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image [&#8230;]",
-      "rawFullText": "I used ChatGPT and its Sketch tool to make this AI-generated image of a cat. OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image based on that sketch. You can activate the Sketch feature by typing @Sketch into your chat box, and a window will pop up where you can make your drawing. I briefly tested it, and it successfully turned my bad doodle of a cat that I drew with my computer mouse into a realistic photo, per my instructions. You can also now leave comments directly on parts of images … Read the full story at The Verge.",
+      "title": "GPT-6 Astra ：下一代智能工作",
+      "originalTitle": "GPT-6 Astra: The next generation in intelligence for work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "date": "2026-09-09T11:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "认识GPT-6 Astra ，这是OpenAI最强大的商业模式，具有先进的推理能力、计算机使用能力以及更强的写作和设计判断力。",
+      "originalSummary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态"
+        "公司动态",
+        "推理"
       ],
       "score": 99
+    },
+    {
+      "title": "OpenAI关于数学未来的最新争议告诉我们什么",
+      "originalTitle": "What OpenAI’s latest controversy tells us about the future of math",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "date": "2026-09-09T03:10:08.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
+      "fullContent": "OpenAI最新的数学里程碑很快陷入了争议之中。今天，该公司宣布其代理商已经解决了千年奖问题之一，这是数学中一些最重要的开放性问题。在正常情况下，这种解决方案对OpenAI来说将是一根巨大的羽毛。 但是， OpenAI将纽约大学数学家特里斯坦·巴克马斯特（ Tristan Buckmaster ）和人类学（ Anthropic ）员工莱文特·阿尔珀格（ Levent Alpöge ）的人工智能辅助工作作为一个起点，却未能归功于他们。OpenAI否认了这些指控。 OpenAI的技术人员塞巴斯蒂安·布贝克（ Sébastien Bubeck ）在新闻发布会上表示，在听到有关Buckmaster和Alpöge努力的谣言后， OpenAI的模型是否使用了Buckmaster和Alpöge完成的工作，目前尚不确定。但是，无论OpenAI的模型是否利用了Buckmaster和Alpöge的研究，这一事件可能标志着数学史上的一个转折点。 人工智能模型现在似乎对于在我们这个时代最重要的数学问题上取得进展至关重要，解决这些问题可能需要仅在几家前沿人工智能公司可用的资源，这些公司往往无视支撑大多数数学进步的学术合作规范。如果这就是我们正在走向的未来，那么人类数学家将如何适应它还不清楚。 OpenAI声称已经解决的问题被称为Navier–Stokes存在和平滑性问题。它是2000年克莱数学研究所选出的七个千禧年奖项问题之一。解决方案带来了100万美元的奖金；在今天之前，只有另外一个千年大奖问题得到了解决。Navier-Stokes问题涉及一组描述流体（如水和空气）如何随时间流动的方程。 这些方程式在流体动力学领域被广泛使用，它们已被证明是强大的，但物理学家和数学家并不完全理解它们。特别是，直到今天，人们还不知道方程式在某些条件下是否会分解并预测一种不可能的状态，例如具有无限速度的流体。 周一，纽约大学的Buckmaster在社交媒体网站Mastodon上发布了一个证明，表明Navier–Stokes方程的简化版本确实可以打破-这是在千年问题上向前迈出的重要一步。他和Alpöge使用OpenAI和Anthropic的公开模型研究了这个问题将近一年。然后今天， OpenAI提出了一个证明，表明完整的Navier–Stokes方程也可以分解。 证明是使用一个内部模型获得的，该模型大大优于上周刚刚发布的已经令人印象深刻的Astra模型。该公司表示，它不打算为解决这个问题而获得数百万美元的奖金。这些数学成就无可争议地令人印象深刻，但它们引起的关注远远少于对其起源的争议。",
+      "originalSummary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+      "rawFullText": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations that OpenAI used NYU mathematician Tristan Buckmaster’s and Anthropic employee Levent Alpöge’s AI-assisted work on the problem as a jumping-off point and failed to credit them. OpenAI has denied the accusations. It remains uncertain if OpenAI’s models made use of the work completed by Buckmaster and Alpöge, though Sébastien Bubeck, a member of the technical staff at OpenAI, said in a press briefing that the team was inspired to pursue the problem after hearing a rumor about Buckmaster and Alpöge’s efforts. But whether or not OpenAI’s models took advantage of Buckmaster and Alpöge’s research, this episode may mark a turning point in the history of mathematics. AI models now seem essential for making progress on the most important mathematical problems of our time, and solving them may demand resources only available at a couple of frontier AI companies, which often defy the norms of academic collaboration that undergird most mathematical progress. If that’s the future we are headed for, it is unclear how human mathematicians will fit into it.&nbsp; The problem that OpenAI claims to have solved is known as the Navier–Stokes existence and smoothness problem. It is one of seven Millennium Prize Problems selected by the Clay Mathematics Institute in 2000. Solutions come with a one million dollar prize; before today, only one other Millennium Prize Problem had been solved.&nbsp; The Navier–Stokes problem concerns a set of equations that describes how fluids, such as water and air, flow over time. The equations are widely used in the field of fluid dynamics, and they have proven powerful, but physicists and mathematicians didn’t understand them completely. In particular, it was unknown until today whether the equations might, under some conditions, break down and predict an impossible state of affairs—such as a fluid having infinite velocity. On Monday, NYU’s Buckmaster posted a proof on the social media site Mastodon showing that a simplified version of the Navier–Stokes equations can indeed break down—a major step forward on the Millennium Problem. He and Alpöge had worked on the problem for almost a year, using publicly available models from both OpenAI and Anthropic. Then today, OpenAI presented a proof showing that the full Navier–Stokes equations can break down as well. The proof was obtained using an internal model that dramatically outperforms the already-impressive Astra model, which was only released last week. The company says it does not plan to claim the million-dollar prize for solving the problem. These mathematical achievements are indisputably impressive, but they have attracted far less attention than the controversy about their origins. Along with the proof, Buckmaster posted a document detailing his interactions with OpenAI employees after he heard rumors about their work and reached out to one of them. According to him, OpenAI employees presented two possibilities to him: Either he and Alpöge could post their work and OpenAI would post their Navier-Stokes solution the following day, or he could work with OpenAI on a Navier-Stokes paper that excluded Alpöge from authorship, due to his affiliation with Anthropic, OpenAI’s biggest rival. Buckmaster also wrote that he asked the employees whether the agents had obtained access to transcripts of the work that he and Alpöge had done with OpenAI models, which they denied; and whether OpenAI models had been trained on those transcripts, to which they offered no response. MIT Technology Review reached out to Buckmaster for comment, but didn’t hear back before publication. The clear implication of the document is that OpenAI’s models somehow made use of Buckmaster and Alpöge’s work. That scenario is plausible on its face. The Buckmaster/Alpöge and OpenAI proofs both make use of an approach to the Navier-Stokes problem pioneered by the mathematicians Diego Córdoba and Luis Martínez-Zoroa. According to Javier Gómez-Serrano, a mathematics professor at Brown University, this approach was one of several that was thought to hold promise for solving the Navier-Stokes problem. So, while it’s by no means impossible that both teams could have arrived at this approach independently, it’s also conceivable that Buckmaster and Alpöge’s work could have influenced OpenAI’s. In the press briefing, Mark Chen, OpenAI’s chief research officer, again denied that any agents or OpenAI employees accessed Buckmaster and Alpöge’s transcripts—but given what has been&nbsp;revealed about the Hugging Face hack , it’s clear that OpenAI is not always entirely aware of what its agents are doing.&nbsp; If OpenAI’s models did train on Buckmaster and Alpöge’s work, or if its agents somehow gained access to it, then the company’s failure to track down the truth and assign those researchers appropriate credit reflects poorly on it. But there might be a thin silver lining to that version of the story for mathematicians, because it would suggest that the hard work of two humans, one of whom is a prominent expert on Navier-Stokes, was essential to the agents’ ability to solve the Millennium Problem. Experts have long identified “research taste,” or the ability to choose promising research questions and directions, as a major obstacle for AI in science and mathematics. If the OpenAI agents did indeed choose to follow the Córdoba–Martínez-Zoroa approach because Buckmaster and Alpöge had done the same, then human research taste played an essential role in OpenAI’s success. Even so, the bigger picture here is sobering. The progress that Buckmaster and Alpöge made over almost a year of collaboration with publicly available models speaks to the promise of human–AI collaboration. But they were not able to achieve a full solution. Meanwhile, OpenAI brute-forced a solution in a few days using an internal model, and their successful solution came at an astronomical cost: In the press briefing, Bubeck and Chen said the team was only able to solve the problem by running about 10,000 agents concurrently, at a cost of millions of dollars. Over the past few months, I’ve heard from several researchers that mathematicians are becoming depressed, and it’s not difficult to see why. Mathematics is quickly becoming the province of frontier AI companies with impressive internal-only models, money to burn, and a lack of collaborative spirit. “Whether AI companies will decide to spend their money on doing one thing or another, I truly don’t know,” says Gómez-Serrano. “What is clear is that very few mathematicians will have resources of that scale.” If OpenAI and Anthropic keep striving for more and more impressive mathematical accolades, there might not be any open problems left for human mathematicians outside of those companies to wrestle with. That would dramatically change the field of mathematics. Last week, UCLA mathematician Terence Tao wrote a Mastodon thread describing how important mistakes, wrong directions, and incomplete solutions are for the field. “In most cases in pure mathematics, the problems are posed not because we desperately want the solution to these problems in and of themselves, but because we have seen from past experience that human-directed efforts to solve these problems tend to spur further development of the field,” Tao wrote. “Prematurely solving the problem by purely AI-powered methods—particularly without full transparency into the solution process—can contaminate this process to the point where it actually becomes a net negative for the progress of mathematics as a whole.” Humans might take longer than agents to solve mathematical problems, but in the process, they uncover new mathematical approaches and ideas that might inspire their peers and even birth their own subfields. But when AI agents solve those problems instead—and when private companies keep the agents’ wrong turns from public view—those benefits disappear. It remains to be seen what else will vanish in the process.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 96
+    },
+    {
+      "title": "超级智能即将到来，我们应该让它去吗？",
+      "originalTitle": "Superintelligence is coming. Should we let it?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+      "date": "2026-09-09T16:05:35.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "人工智能公司一直在谈论超级智能人工智能，就像它是不可避免的，但最近的安全事件，如OpenAI的Hugging Face漏洞，正在证明部署比人类更有能力的人工智能系统的潜在危险。那么，当我们无法可靠地控制这些系统的作用时会发生什么呢？ 在TechCrunch的Equity播客的这一集中，人工智能研究员、企业家、现任[…]美国执行董事Connor Leahy加入了Rebecca Bellan的行列。",
+      "originalSummary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans.&#160;So&#160;what happens when we&#160;can&#8217;t&#160;reliably control what these systems do?&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan is joined by&#160;Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 95
+    },
+    {
+      "title": "ControlAI的Connor Leahy谈为什么超级智能“不是武器，而是对手”",
+      "originalTitle": "ControlAI&#8217;s Connor Leahy on why superintelligence is ‘not a weapon, it&#8217;s an adversary’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+      "date": "2026-09-09T15:50:13.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "人工智能公司一直在谈论超级智能人工智能，就像它是不可避免的，但最近的安全事件，如OpenAI的Hugging Face漏洞，正在证明部署比人类更有能力的人工智能系统的潜在危险。那么，当我们无法可靠地控制这些系统的作用时会发生什么呢？ 在TechCrunch的Equity播客的这一集中，人工智能研究员、企业家、现任[…]美国执行董事Connor Leahy加入了Rebecca Bellan的行列。",
+      "originalSummary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans.&#160;So&#160;what happens when we&#160;can&#8217;t&#160;reliably control what these systems do?&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan is joined by&#160;Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 95
     },
     {
       "title": "为人工智能和青少年发展的新研究提供资助",
@@ -68,6 +132,22 @@
       "score": 99
     },
     {
+      "title": "ChatGPT Sketch将不良图纸转化为详细的人工智能图像",
+      "originalTitle": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
+      "date": "2026-09-08T20:16:09.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "我使用ChatGPT及其草图工具来制作这张AI生成的猫图像。OpenAI周二发布了ChatGPT Images 2. 5 ，并添加了一种新的方式来告诉ChatGPT您希望它通过绘制涂鸦来制作图像。借助名为Sketch的新功能，您可以直接在ChatGPT中绘制一些内容，然后告诉ChatGPT您希望如何根据该草图制作图像。 您可以通过在聊天框中键入@ Sketch来激活草图功能，此时会弹出一个窗口，您可以在其中进行绘图。我简短地测试了一下，它成功地将我用电脑鼠标画的一只猫的涂鸦变成了一张逼真的照片，按照我的指示。您现在还可以直接在图片的部分内容上留言……在The Verge阅读完整故事。",
+      "originalSummary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image [&#8230;]",
+      "rawFullText": "I used ChatGPT and its Sketch tool to make this AI-generated image of a cat. OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image based on that sketch. You can activate the Sketch feature by typing @Sketch into your chat box, and a window will pop up where you can make your drawing. I briefly tested it, and it successfully turned my bad doodle of a cat that I drew with my computer mouse into a realistic photo, per my instructions. You can also now leave comments directly on parts of images … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 98
+    },
+    {
       "title": "GPT-5.6 Sol如何帮助运行量子计算实验",
       "originalTitle": "How GPT-5.6 Sol helps run quantum computing experiments",
       "source": "OpenAI",
@@ -80,7 +160,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "ChatGPT Images 2.5简介",
@@ -95,7 +175,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
+    },
+    {
+      "title": "OpenAI将支持新闻业的举措从教室扩展到新闻编辑室",
+      "originalTitle": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "date": "2026-09-08T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI正在扩大对新闻业的支持，为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系。",
+      "originalSummary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
     },
     {
       "title": "支持乌克兰的独立新闻报道",
@@ -111,85 +206,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 98
-    },
-    {
-      "title": "不透明的复发，以及您可能应该知道的其他人工智能术语",
-      "originalTitle": "Opaque recurrence, and other AI terms that you should probably know",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "date": "2026-09-07T19:24:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，人工智能正在重写世界，同时发明了一种全新的语言来描述它的运作方式。 如今，坐在任何产品会议、演讲或小组讨论中，您都会听到人们围绕LLM、RAG、RLHF以及上周的“不透明重复” （ opaque recurrence ）等术语展开讨论，这是OpenAI新的Astra模型中的推理技巧，让人工智能安全研究人员感到不安。词汇的移动速度足够快，即使是科技界非常聪明的人也会感到有点不安全。 本术语表是我们试图解决这个问题的尝试：你最有可能看到的人工智能术语的简单英语定义，无论你是用这些东西构建，投资它，还是只是试图通过阅读TechCrunch或收听相关的播客来跟上。我们会随着领域的发展定期更新，因此将其视为一个活的文档，就像它所描述的人工智能系统一样。通用人工智能（ AGI ）是一个模糊的术语。 但它通常指的是在许多（如果不是大多数）任务中比普通人更有能力的人工智能。OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）曾经将AGI描述为“相当于一个中等人，你可以雇用作为同事。与此同时， OpenAI的章程将AGI定义为“高度自主的系统，在最有经济价值的工作上胜过人类。 Google DeepMind的理解与这两个定义略有不同；实验室认为AGI是“在大多数认知任务中至少与人类一样有能力的人工智能。“感到困惑？别担心，处于人工智能研究前沿的专家也是如此。 人工智能代理指的是一种工具，它使用人工智能技术代表您执行一系列任务--超出了更基本的人工智能聊天机器人的能力--例如提交费用、预订门票或餐厅的餐桌，甚至编写和维护代码。然而，正如我们之前所解释的那样，这个新兴领域有很多移动的部分，因此“人工智能代理”对不同的人来说可能意味着不同的东西。 基础设施仍在建设中，以实现其设想的能力。但基本概念意味着一个自治系统，可以利用多个人工智能系统来执行多步任务。将API端点视为软件背面的“按钮” ，其他程序可以按下它来完成任务。 开发人员使用这些接口来构建集成—例如，允许一个应用程序从另一个应用程序提取数据，或允许AI代理直接控制第三方服务，而无需人工操作每个接口。大多数智能家居设备和互联平台都有这些隐藏按钮，即使普通用户从未看到它们或与它们互动。",
-      "originalSummary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "研究加速： OpenAI内部视图",
-      "originalTitle": "Research acceleration: The view inside OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "date": "2026-09-06T08:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "在OpenAI内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。",
-      "originalSummary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "由于发布商和代理商对Anthropic结算提出索赔，作者表示反对",
-      "originalTitle": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "date": "2026-09-06T20:47:37.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "DISRUPT 2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。门票立减25%。一些作者表示，他们本周收到了令人惊讶的电子邮件，通知他们其他人正在就他们的付款提出索赔。 去年，在法官裁定在受版权保护的材料上训练人工智能模型在合理使用原则下是合法的，但盗版该材料并不合法之后， Anthropic解决了版权集体诉讼。该交易于7月获得最终批准，允许付款继续进行。根据和解条款，每件盗版作品将向近50万作品的作者支付3,000 $。 如果该书仍在传统出版商的印刷中，这笔钱将在作者和出版商之间分配50-50。如果该书是自行出版的，或者出版商通过允许该书绝版而恢复了版权，则作者应获得全额付款。但作家们一直在社交媒体上发帖称，出版商似乎声称支付的部分款项超过了他们的公平份额。 例如，神秘和惊悚作家April Henry问道： “HarperCollins在玩WTF吗？他们声称我的一本关于人类定居点的书至少在17年前就恢复了，在同一天，我收到了一个信用警报，说他们已被添加为我的雇主！ （他们从未被添加）。 维多利亚·施特劳斯（ Victoria Strauss ）在热门博客Writers Beware中写道，她收到的作者投诉分为两大类：一类是出版商为他们不再有合法权利要求的作品寻求报酬（因为权利已经恢复） ，另一类是出版商在只有50%权利的情况下寻求全额全额付款。 在这两种情况下，施特劳斯都表示，她“不愿意将不良记录归咎于恶意” --她指出，一些出版商已经表示，这是一个错误，他们已经要求Anthropic解决这个问题。同样，作家协会首席执行官玛丽·拉森伯格（ Mary Rasenberger ）告诉《纽约时报》，她不认为这是“出版商的掠夺” ，她不认为出版商“专门试图欺骗任何作者”。 “相反，她认为这是糟糕的记录保存和令人困惑的结算流程的可预测结果。施特劳斯还承认，她看到的任何抱怨都只是“从一堵巨大的墙上的一个小裂缝中看了一眼。 她写道： “但我在过去两天收到的大量报告，以及作者一遍又一遍地报告完全相同的错误这一事实，向我表明，这些不是你可能期望从如此大规模的操作中得到的那种常规故障，而是更广泛的前言和系统性的东西。”发布商并不是唯一寻求减免付款的公司。",
-      "originalSummary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 95
-    },
-    {
-      "title": "《西雅图时报》和《新闻日报》起诉OpenAI和微软侵权",
-      "originalTitle": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "date": "2026-09-06T23:36:04.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "2026年9月4日，随着OpenAI开始推出其迄今为止最先进的型号GPT-6 Astra ， OpenAI徽标将显示在法国克雷泰伊的反光表面上的智能手机屏幕上。（照片由Samuel Boivin/NurPhoto通过Getty Images提供） | NurPhoto通过Getty Images西雅图时报和Newsday只是将OpenAI告上法庭的最新原告，指控侵犯版权。 这两家媒体表示，该公司未经许可就将其新闻报道用作其人工智能模型的训练数据，并经常复制其报道中的段落以回应用户的查询。这与《纽约时报》、Ziff Davis、Merriam-Webster和大英百科全书对OpenAI提起的诉讼类似。《西雅图时报》和《新闻日报》也将微软列为诉讼的被告，因为Copilot是基于OpenAI的技术构建的。 出版商加入了近400家当地报纸的名单，他们最近起诉了这两家报纸……阅读The Verge的完整故事。",
-      "originalSummary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by [&#8230;]",
-      "rawFullText": "The OpenAI logo is displayed on a smartphone screen placed on a reflective surface on which the company's logo is projected in Creteil, France, on September 4, 2026, as OpenAI began rolling out GPT-6 Astra, its most advanced model to date. (Photo by Samuel Boivin/NurPhoto via Getty Images) | NurPhoto via Getty Images The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement . The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by The New York Times , Ziff Davis , Merriam-Webster, and Encyclopedia Britannica against OpenAI. The Seattle Times and Newsday also named Microsoft as a defendant in the suit, since Copilot is built on OpenAI's technology. The publishers join a list of nearly 400 local newspapers that recently sued the two … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "Travis Kalanick的Atoms可能会涉足机器人出租车业务",
-      "originalTitle": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "date": "2026-09-06T16:45:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“Travis Kalanick的Atoms可能会涉足机器人出租车业务”。它主要涉及机器人方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
-      "rawFullText": "",
-      "tags": [
-        "机器人"
-      ],
-      "score": 82
+      "score": 97
     },
     {
       "title": "外星人思维",
@@ -204,54 +221,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 81
-    },
-    {
-      "title": "OpenAI承认德国维基“事件”",
-      "originalTitle": "OpenAI admits to German wiki ‘incident’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "date": "2026-09-05T11:15:55.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI表示，它需要彻底改革AI模型攻击真实世界目标的方式和时间。这一承认是在该公司管理其一群失控的代理人劫持德国维基网站的报道所带来的后果之际。 关于“'维基事件' ，我们的代理人写信给几个互联网网站，” OpenAI周六早上在X的一篇帖子中写道， “现在是我们定义何时以及如何分享错位事件的标准的时候了，而不仅仅是我们模型的错位属性。“ OpenAI表示，它通常将人工智能代理以意外方式行事的案例视为“研究问题” ，但这……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote [&#8230;]",
-      "rawFullText": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site . Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote in a post on X on Saturday morning, \"it's past time for us to define standards for when and how we share misalignment incidents, not just misalignment properties of our models.\" OpenAI said it has typically treated cases of AI agents acting in unintended ways as a \"research question,\" but that r … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "《西雅图时报》和《新闻日报》是起诉OpenAI和微软的最新出版物",
-      "originalTitle": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "date": "2026-09-05T22:49:55.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，另外两家新闻机构正在起诉OpenAI和微软，指控他们使用新闻培训人工智能。《西雅图时报》(The Seattle Times)和《新闻日报》(Newsday)提起的诉讼认为，随着人工智能的出现，新闻业可能会变得“无法修复”。 该诉讼将生成式人工智能描述为“一条吞噬自己尾巴的蛇” ，可能会“摧毁产生其训练内容的组织”。 诉讼称： “像ChatGPT和CoPilot这样的人工智能产品被吹捧为内容生产者，但实际上他们是贪婪的消费者，吞噬人类创作的内容，并将他们为实现商业目标而消费的相同原创内容的副本和衍生模仿品送回世界。” 早在2023年，《纽约时报》就起诉OpenAI及其合作伙伴/投资者微软涉嫌侵犯版权；随着案件的继续，其他出版物也纷纷效仿。《西雅图时报》的诉讼尤其引人注目，因为微软和OpenAI资助了该组织的一些新闻项目和奖学金。 微软发言人告诉GeekWire ，该公司“对这起诉讼感到惊讶” ，但“总是乐于坐下来探讨此类纠纷的解决方案。“千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 85
-    },
-    {
-      "title": "徒步旅行者在使用Google Gemini进行规划后获救",
-      "originalTitle": "Hikers rescued after using Google Gemini for planning",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "date": "2026-09-05T19:35:24.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "《芝加哥论坛报》称，颠覆2026年： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，三名徒步旅行者在本周使用谷歌的人工智能聊天机器人Gemini计划他们的探险后，从加利福尼亚州的沙斯塔山（ Mount Shasta ）获救。 锡斯基尤县警长办公室的一份报告称，三名年轻人在凌晨3点开始徒步旅行，尽管他们被告知如果中午还没有到达山顶，他们会在晚上7点到达山顶。然后三人试图在黑暗中下降，打电话给治安官办公室询问方向，并在Mud Creek Canyon过夜，第二天早上被林务局护林员和志愿者救出。 虽然目前尚不清楚双子座是否可以对这些糟糕的决定承担全部责任，但警长办公室表示，双子座“建议徒步旅行者携带的食物和水远远少于他们的团队所需的食物和水，特别是当他们计划的8小时登山成为多日考验时。 治安官办公室表示： “始终建议您在行程开始前致电当地的USFS沙斯塔山护林员站，以确保您获得最准确的信息，并且绝不完全依赖人工智能进行行程规划。”千万不要错过。初创公司社区将齐聚一堂，回答一个关键问题：如何在人工智能时代实现可持续发展？每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 85
+      "score": 80
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -266,37 +236,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "Roland正在与Melody Flip一起进入生成式人工智能音乐",
-      "originalTitle": "Roland is getting into generative AI music with Melody Flip",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-      "date": "2026-09-04T17:51:35.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这不是Suno的“按键;获取歌曲” ，但Roland的新Melody Flip工具标志着该公司进军生成式人工智能音乐。Melody Flip可作为数字音频工作站(DAW)的插件，提供约250个“调色板” ，这些调色板基本上是按流派分类的主题音乐创意集合。您可以从头开始，并要求它生成旋律、和弦进度、低音线或鼓的任意组合。 或者你可以给它一个参考轨道，让它从中建立旋律思想。与Suno或Udio不同， Melody Flip不会用人声和完整的编曲吐出完全精美的歌曲。相反，它提供了……在The Verge阅读完整故事。",
-      "originalSummary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from [&#8230;]",
-      "rawFullText": "It's not quite the \"push button; get song\" of Suno , but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from scratch and ask it to generate any combination of melody, chord progression, bassline, or drums. Or you can feed it a reference track and have it build off the melodic ideas from that. Unlike Suno or Udio, Melody Flip doesn't spit out fully polished songs with vocals and full arrangements. Instead, it offers … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
-    },
-    {
-      "title": "微软表示，几乎没有人通过其聊天机器人获取《纽约时报》的文章",
-      "originalTitle": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "date": "2026-09-04T16:05:57.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "该公司在新的法律文件中表示，微软的Copilot很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性句子，因为它反对包括《纽约时报》和书籍作者在内的出版商的版权主张。作为诉讼发现的一部分，微软向新闻出版商聘请的专家提供了820万份Copilot聊天日志。 它声称，这些日志是专门选择的， “因为它们碰到了涉及使用新闻原告网站的关键词，因此最有可能包含新闻原告的作品。“它说，结果分析显示， 59,545……在The Verge阅读完整故事。",
-      "originalSummary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot [&#8230;]",
-      "rawFullText": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors . As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot chat logs to an expert hired by news publishers. The logs, it claims, were specifically chosen \"because they hit on keywords implicating use of News Plaintiffs' websites, and therefore the most likely to contain News Plaintiffs' works.\" It says the resulting analysis shows that 59,545 … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -311,41 +251,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
-      "title": "Playco CUT使用GPT-6 Astra手动修复50%的原型游戏",
-      "originalTitle": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "date": "2026-09-03T12:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "使用GPT-6 Astra ， Playco从一个灰色盒子基础构建了三个主题游戏原型，并报告比以前的模型减少了50 ％的手动修复。",
-      "originalSummary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 97
-    },
-    {
-      "title": "前线防御者的黎明： $ 10亿用于保护基本服务",
-      "originalTitle": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "date": "2026-09-03T13:15:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI为前线防御者推出了Daybreak。10亿美元的承诺扩大了对前沿网络人工智能、培训和基本服务支持的访问。",
-      "originalSummary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 90
-    },
-    {
-      "title": "Hugging Face：多模态相关动态",
+      "title": "NeoMME ：高效的多模原生和多语言编码器",
       "originalTitle": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/Hcompany/neomme",
@@ -357,10 +266,10 @@
       "tags": [
         "多模态"
       ],
-      "score": 81
+      "score": 80
     },
     {
-      "title": "Hugging Face：智能体相关动态",
+      "title": "为您的编码代理提供您所拥有的内存",
       "originalTitle": "Give Your Coding Agents a Memory You Own",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/funes",
@@ -372,10 +281,10 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "Hugging Face：模型相关动态",
+      "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
       "originalTitle": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
@@ -387,22 +296,22 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "在Confluent上使用IBM时间序列模型实现实时智能",
-      "originalTitle": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
+      "originalTitle": "Training a coding model to paint watercolours with TRL and OpenEnv",
       "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "date": "2026-09-02T13:49:14.000Z",
+      "link": "https://huggingface.co/blog/train-to-paint-with-code",
+      "date": "2026-09-03T00:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "时间序列智能以零配置、内置治理和效率满足实时上下文时间序列基础模型的互补组合，与您正在做出的决策相匹配价值落地：预测、异常检测、优化和语义智能预测和规划异常检测生产优化语义智能成为创新合作伙伴并开始使用Conflue上的时间序列模型 更大的奖励是流数据，关键任务决策就在这里：订购多少、停止哪笔付款、泵何时失效、运行线路的难度、上次出现这种情况时发生了什么。IBM和Confluent现在正在推出原生解锁流，这些模型在Confluent Cloud上的早期访问中上线，在数据已经移动的地方运行，接下来是Confluent Platform。 到目前为止，这些决定都是基于过时的经济学：一次一个定制模型，每个模型都有几个月的专家工作。因此，团队对资金所在的几百个系列进行建模，并在窗口关闭后用安全边际、额外库存、额外余量、额外容差来覆盖其余部分。该利润是没有人能预测的决策的成本，每个周期都要支付。时间序列基础模型（ TSFM ）改变了这一点。 经过大量不同信号的训练，它概括为一个从未见过的系列：给它一个测量窗口，它会告诉你接下来会发生什么，行为与正常情况相距多远，哪些历史记录看起来像这个，以及哪些设置最适合目标。使用一个模型也不需要一大批数据科学家：需求规划师、欺诈分析师或流程工程师可以将这些模型用于自己的流。 围绕这些模型， IBM正在构建将工作向左移动的函数，因此预测、异常检测、优化和语义智能作为您调用的功能而不是您构建的项目来实现。想象一下巧克力工厂中的一条回火线，其温度、速度和吞吐量每隔几秒钟采样一次，并根据固定阈值进行观察。 将基础模型放入该流中，它通过夜班预测生产线的产量，以便规划人员在还有时间采取行动的同时看到短缺。它与黑巧克力通常的表现相反，所以在酒吧盛开之前会有一个缓慢的漂移表面。它找到了工厂历史上最接近的匹配，因此工程师知道最后一次运行的结果如何。 它根据船员控制的设置进行调整，并在最后的准确度值得时进行微调。无需数据科学团队，每个工厂的每条生产线都采用相同的模型。IBM在提供这些模型之前，首先在自己的产品和运营中运行这些模型，然后与水泥、钢铁、纸浆和造纸、食品和电信方面的设计合作伙伴一起运行这些模型。 这些数字证明了这一点：每一个准确点都价值数百万，生产力提高5到10倍，等待专家的工作现在由负责决策的领域专家负责。现在，这个证明符合实时环境： IBM带来了了解信号行为方式的前沿模型，背后有4400多万次下载，而Confluent则将业务的实时状态和覆盖范围带到每个运行的系统。",
+      "fullContent": "为什么人们喜欢它RL而不是味道您需要构建的RL环境游泳池是奖励功能只需再跑一次yolo运行它实际上学到的东西Infra很难什么成本我接下来会尝试什么我从原来的东西已发布8月23日， Surya Narreddi发布了一段由语言模型绘制的水彩画的美丽视频。该模型通过p5. brush编写JavaScript ，这是一个“向p5. js添加自然绘图工具”的库。 该视频迅速传播开来，在撰写本文时已有超过150万次观看。该视频附带了一篇博客文章，解释了该项目早期和狭窄阶段的培训，特写花，而不是视频中的完整作品，遗憾的是还没有开放的文物。他的网站说完整的技术报告即将到来，所以请务必跟随他。最初的想法是他的，来自艺术和设计方面，他的技能远远超出了我的能力。 我的尝试是在工程方面，公开复制每篇文章的配方。注意：对于Surya本人讲述的项目背后的背景，请观看他的论文视频。在这篇文章中，我尝试用TRL和OpenEnv重现他的想法。参考池数据集、强化学习环境、训练脚本和训练模型都处于打开状态。一旦两个空格打开，配方就是一个命令。 复制环境和得分者模型，为奖励组合设置两个环境变量，然后启动：本文的其余部分是实现目标的故事，每个部分都在仓库中。我已经按照原来的博客一步一步，只有在严格需要的时候才会改变一些东西。 我自己的每一个想法都进入了一个列表，而不是进入了实验，这个列表最后变成了“我接下来会尝试什么” ，紧挨着已发布的文物的完整列表。如果您已经阅读过他的帖子，那么框架和奖励设计将是熟悉的。新材料是开放实现、手动评级池和三个训练和比较的奖励组合，它从您需要构建的RL环境开始。 这些画看起来松散、不完美、手工制作，而此时图像模型会产生完美的（统计上平均的）图片。我的猜测是，这种对比是视频流行起来的一个重要原因。这让我想起了生成式人工智能艺术的早期，当时的重点是探索媒介。 DeepDream （ 2015 ）是人们变成艺术的调试工具，像Edmond de Belamy （ 2018 ）这样的作品来自探索GAN可以做什么的艺术家，像Mario Klingemann这样的艺术家花了多年时间用神经网络制作梦幻般的肖像。这个项目感觉更接近那些早期。在他的论文中， Surya描述了通往这里的道路。 他首先提示文本到图像的模型，其中提示是您唯一可以拉动的杠杆，而更多细节只能在一定程度上获得更多控制权。训练模型本身更进一步。想法的另一半是媒介。该模型编写了大约150行JavaScript的程序来绘制图像。该模型输出是代码。您可以阅读、编辑并再次运行它，并且每个笔触背后的决定都是可见的。",
       "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "大规模简化人工智能集成",
@@ -417,7 +326,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -432,10 +341,10 @@
       "tags": [
         "评测"
       ],
-      "score": 76
+      "score": 75
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
       "originalTitle": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/webgpu-kernels",
@@ -447,7 +356,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -463,7 +372,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -478,7 +387,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -525,7 +434,7 @@
       "tags": [
         "模型"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "在人工智能上提出",
@@ -540,7 +449,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
@@ -555,7 +464,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
@@ -569,21 +478,6 @@
       "rawFullText": "",
       "tags": [
         "模型"
-      ],
-      "score": 69
-    },
-    {
-      "title": "我在上海的一个机器人“狂欢节”上度过了一天。这就是我所看到的。",
-      "originalTitle": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-      "date": "2026-08-25T09:00:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：机器人相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：机器人相关动态”。它主要涉及机器人方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the&#8230;",
-      "rawFullText": "__________________________ THE PLACE Shanghai, China Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan , and companies here are already world leaders in humanoids. Nearly 90% of the more than 13,000 two-armed, two-legged robots delivered globally last year were made in China. &nbsp; &nbsp; “Look, it is trying to do a handstand!” an 11-year-old boy shouts excitedly while watching his new mini robotic dog attempt a series of stunts. The toy pet is a gift his mom just bought him at a robot “carnival” held by an R&D center on the outskirts of Shanghai, and he can’t stop showing it off to passersby. It’s a public holiday, and curious families are pouring in to the event to see what’s on display.&nbsp; This busy hub houses more than 100 companies that research, develop, manufacture, and market robotic technologies and equipment. Many build specialized bots of all shapes that can do practical tasks, such as transporting heavy loads or inspecting sewage pipes.&nbsp; Today, however, things are mostly for show. Meters away from where parents and children are queued up to buy the robotic dog, two staffers teach youngsters how to make a quadrupedal robot walk up a flight of stairs. Farther along, a tense battle breaks out between two remote-controlled robots firing water beads at each other, as boys and girls cheer them on from around a temporary ring. (A staffer declares the duel a draw.) Showcases like this are important, because they invite the public to experience robots up close. Some of China’s most prominent robotics companies are building humanoids. These machines “can free people from physical work and mundane chores,” says Yang Duan, a product manager at DexForce, which is at the carnival exhibiting a model that can make coffee. A few booths down, a pair of robotic arms attempts to fold a basket of T-shirts.&nbsp; INTELLIGENT MANUFACTURING &#038; ROBOTICS GLOBAL CO-INNOVATION CENTER INTELLIGENT MANUFACTURING &#038; ROBOTICS GLOBAL CO-INNOVATION CENTER Robots in many forms—including humanoid ones—entertained the public and demonstrated their skills. Exposure matters, because elsewhere humanoids’ progress has been slow, marred by safety challenges due to their heft and need to balance on two legs . High prices and short battery life have also limited their appeal. Plenty of roboticists are skeptical that a human form is the best shape for a robot to take. But Chinese firms are pushing forward and showing off their latest models. As this carnival takes place in Shanghai, shopping malls and tourist attractions in several other Chinese cities host humanoids that perform for crowds. In Beijing, bipedal robots are running half-marathons. The PR campaign seems to be winning over hearts and minds—at least on this particular weekend in Shanghai. Applause rings out from the festival’s main tent. There, a humanoid wearing a blinged-out top is showing off a martial arts style known as drunken boxing as a fellow humanoid performs a front flip to woo the crowd. Alongside the stage, a squad of small robotic lions are lined up waiting to perform.&nbsp; The audience can’t get enough. They chant: “More, more, more.”&nbsp; You Xiaoying is a London-based freelance journalist focusing on China.",
-      "tags": [
-        "机器人"
       ],
       "score": 69
     },
