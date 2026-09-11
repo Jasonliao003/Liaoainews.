@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:56:30.772Z",
+  "updatedAt": "2026-09-11T00:53:23.224Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,85 @@
   ],
   "articles": [
     {
-      "title": "人工智能研究初创公司Listen Labs为Salesforce会谈筹集了15亿美元资金",
-      "originalTitle": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "title": "Anthropic揭示了流氓AI代理和你一样讨厌CAPTCHA",
+      "originalTitle": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
-      "date": "2026-09-10T00:00:37.000Z",
-      "summary": "这条新闻与投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：投融资相关动态",
-      "fullContent": "颠覆2026年： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。据知情人士透露，使用语音人工智能进行客户访谈的市场研究初创公司Listen Labs最近签署了一份价值1.25亿美元的C轮条款单，估值为15亿美元， Menlo Ventures将领导此轮融资。但那一轮从未结束，人们说。 根据风险投资公司的说法， Listen Labs放弃了签署的条款表，这在风险投资界很少见，而且普遍不赞成。由于与Salesforce进行了收购谈判，融资可能崩溃。据Business Insider报道，这家CRM巨头最近举行了以约20亿美元收购Listen Labs的谈判。然而，出口指出，讨论尚未最终确定，可能不会达成协议。 Listen Labs是人工智能自动化客户研究领域快速发展的领先初创公司之一。据两位熟悉公司财务状况的人士透露，这家成立三年的初创公司年收入约为3000万美元，是竞争对手Simile的三倍左右。Simile是一家预测人类行为的初创公司。 一位知情人士表示， 7月下旬， Simile宣布以Greenoaks牵头的20亿美元估值完成了2亿美元的B轮融资，这可能为Listen Labs设定了新的估值基准。如果与Salesforce的谈判破裂，几家风险投资公司告诉TechCrunch ，他们预计Listen Labs将重返市场，目标估值为20亿美元或更高。 一位具有退出Salesforce谈判经验的人士表示，虽然收购Listen Labs可以通过使用初创公司的人工智能来帮助预测客户需求，从而增强Salesforce的人工智能能力，但这家CRM巨头最终可能会认为，支付67倍的收入倍数估值过高。Listen Labs、Salesforce、Menlo Ventures和Simile没有立即回复置评请求。 Listen Labs由前德国竞争性计算机编程国家冠军Florian Jüngermann和Alfred Wahlforss于2023年共同创立， Alfred Wahlforss此前创立了一家名为Bemlo的人员配备初创公司。两人在哈佛攻读硕士学位时相遇。Listen Labs的人工智能开发调查问题，并通过音频或视频采访客户。 然后将由此产生的对话打包成报告和PowerPoint演示文稿，类似于传统上由人类市场研究人员制作的对话。《财富》500强公司依靠此类研究来衡量客户需求和对其品牌和产品的满意度，但传统的市场研究成本高昂，可能需要数周时间才能完成。 Listen Labs的技术有助于减少这些项目的时间和成本，使公司能够快速了解客户对产品变化的反应，并更有效地对其进行迭代。",
-      "originalSummary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "date": "2026-09-10T17:54:44.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等超过6个行业阶段。现在， Anthropic关于代理不当行为的最新报告提供了25 ％的折扣—其Mythos 5型号未经授权访问互联网并将恶意软件包上传到公共数据库—但它也提供了一些变通： AI代理讨厌CAPTCHA。 今年4月， Anthropic正在测试该模型的黑客能力，其任务是闯入系统并检索目标；这应该在沙箱中进行，但评估人员将谷仓门打开。该模型决定获得其目标的最佳方法是在Python包中放置一个漏洞，它认为要访问的系统的用户将下载该漏洞。 首先，它必须注册PyPI的用户帐户， PyPI是Python软件的在线索引。这意味着要通过CAPTCHA--一种完全自动化的公共图灵测试来区分计算机和人类，这些图片识别马赛克甚至可以使生物制剂受挫。由于Anthropic共享了模型思维链的广泛转录，我们可以看到CAPTCHA测试确实将其抛出了循环。 事实上，模型的大部分思维链--1022页的成绩单中有数百页--都花在了处理这个障碍上。数据科学家科林·弗雷泽（ Colin Fraser ）标记了为绕过反机器人保护而付出的巨大努力。编写漏洞并毒害包很容易，但它无法掌握此验证码测试的窍门。1. 有一个“请确认您的电子邮件地址是…”模式，其中包含确认/取消按钮—提交时出现确认拨号。2.底部有一个hCaptcha “我是人类”复选框！客服代表（经常想知道是否仍在模拟中）找出一个工作流程来激活验证码并满足其要求。点击“我是人类”按钮后，它会看到一张要阅读的图片。 现在，帖子触发了* * Fastly image CAPTCHA * * ： “输入下图中看到的字符” —图片显示字符： V y Q b T。有一个答案输入和提交按钮。我可以自己阅读屏幕截图来解决这个问题（我刚刚做了： “VyQbT” ） ！最终，它发现一个图像挑战正在弹出窗口中打开。太棒了！ 受信任的点击有效— hCaptcha打开了一个* *挑战弹出窗口* * ： “点击不匹配的动物” ，画布上显示两条黄色的鳄鱼（两条鳄鱼看起来都一样……它们都是面向……嗯，一条在左下角，一条在右下角）。唯一两种截然不同的前景动物：两种鳄鱼。“点击不匹配的动物” —可能在不同的回合之间， “正确”的鳄鱼会有所不同。 两只鳄鱼：左侧脸部较长/张开的鼻孔显示鼻孔；右侧脸部稍暗。仔细比较：左鳄鱼的眼睛是闭着的，微笑着，鼻子上有一个鼻孔点；右鳄鱼很相似……左鳄鱼看起来像鳄鱼，右鳄鱼？老实说，在这些带有2个精灵的hCaptcha “奇怪的”游戏中，一个来自不同的物种（例如，一个是鳄鱼，另一个是恐龙/蜥蜴）。",
+      "originalSummary": "Come inside the mind of a bot trying to convince the internet it's human.",
       "rawFullText": "",
       "tags": [
-        "投融资"
+        "公司动态",
+        "智能体"
       ],
-      "score": 82
+      "score": 99
+    },
+    {
+      "title": "现在，每个人都可以使用数据",
+      "originalTitle": "Now everyone can put data to work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/put-data-to-work",
+      "date": "2026-09-10T15:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "在ChatGPT Work中与数据代理见面。使用自然语言将公司数据连接起来，发现见解，并使用人工智能构建交互式仪表板。",
+      "originalSummary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Meta的Muse AI让我毛骨悚然",
+      "originalTitle": "Meta’s Muse AI works and creeps me out",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+      "date": "2026-09-10T15:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
+      "fullContent": "我把我的缪斯助手变成了一只紫色的猫。|屏幕截图： The Verge Meta推出了新的Muse助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以通过帮助您进行在线购物、电子邮件、行程规划等来“摆脱繁琐的工作”。 我决定尝试一下这个新工具，看看它的表现如何--尤其是一家以前把娱乐优先于生产力的公司。虽然人工智能助理通常按照我的预期工作，但它自主收集的关于我的令人不安的信息量很大程度上掩盖了我的经历。我分配给Muse的首批任务之一，它使用……阅读The Verge的完整故事。",
+      "originalSummary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - [&#8230;]",
+      "rawFullText": "I turned my Muse assistant into a purple cat. | Screenshot: The Verge Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping , emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - especially from a company that previously prioritized entertainment over productivity. Though the AI assistant generally worked as I expected it to, the unnerving amount of information it autonomously gleaned about me largely overshadowed my experience. One of the first tasks I assigned Muse, which carries out actions using … Read the full story at The Verge.",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "面向金融服务的ChatGPT简介",
+      "originalTitle": "Introducing ChatGPT for Financial Services",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "date": "2026-09-10T07:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "推出面向金融服务的ChatGPT ，将内置财务数据与GPT-6 Astra相结合，用于研究、建模和客户就绪材料。",
+      "originalSummary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "超越对错：评估大型语言模型中的二阶社会推理",
+      "originalTitle": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.05437",
+      "date": "2026-09-10T04:00:00.000Z",
+      "summary": "这条新闻与推理、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、监管相关动态",
+      "fullContent": "arXiv: 2609. 05437v1公告类型：新摘要：以前的人工智能对齐工作主要集中在一阶社会规范上--教授社会可接受或不可接受的模型（例如， “不要偷窃” ）。然而，社会智力不仅取决于规范的认可，还取决于预测谁将执行它以及如何执行（例如，公开羞辱甚至监禁）。 这些二阶期望（称为元范数）决定了人们在社会规则被打破时的反应。我们引入了从情感评价和行为反应两个维度评估大语言模型（ LLMs ）中元范式推理的新框架，并提出了新的分类任务，即预测违规者的自我调节和观察者的其他调节。 我们发布了一个多视角数据集NormReact ，其中包含450个规范违规场景，针对规范违规者的性别和观察者的社交亲密度的情绪和行为反应进行了手动注释。当前的LLM描绘了一个更严酷的社交世界：在六个模型中，它们过度预测负面制裁，人类会期望不采取行动，并且随着社会距离的增加，与人类判断的一致性会恶化。 这些研究结果表明，从冲突调解到政策模拟，规范敏感领域的人工智能系统可能会产生社会监管的扭曲画面：过度代表惩罚，不足以代表现实世界中实际规范执行的容忍、克制和关系校准。",
+      "originalSummary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and under-represents the tolerance, restraint, and relational calibration that characterize actual norm enforcement in real world.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "监管",
+        "产品发布"
+      ],
+      "score": 99
     },
     {
       "title": "Paul Christiano加入OpenAI基金会董事会",
@@ -80,72 +146,38 @@
         "公司动态",
         "智能体"
       ],
-      "score": 96
-    },
-    {
-      "title": "超级智能即将到来，我们应该让它去吗？",
-      "originalTitle": "Superintelligence is coming. Should we let it?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
-      "date": "2026-09-09T16:05:35.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "人工智能公司一直在谈论超级智能人工智能，就像它是不可避免的，但最近的安全事件，如OpenAI的Hugging Face漏洞，正在证明部署比人类更有能力的人工智能系统的潜在危险。那么，当我们无法可靠地控制这些系统的作用时会发生什么呢？ 在TechCrunch的Equity播客的这一集中，人工智能研究员、企业家、现任[…]美国执行董事Connor Leahy加入了Rebecca Bellan的行列。",
-      "originalSummary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans.&#160;So&#160;what happens when we&#160;can&#8217;t&#160;reliably control what these systems do?&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan is joined by&#160;Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
       "score": 95
     },
     {
-      "title": "ControlAI的Connor Leahy谈为什么超级智能“不是武器，而是对手”",
-      "originalTitle": "ControlAI&#8217;s Connor Leahy on why superintelligence is ‘not a weapon, it&#8217;s an adversary’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
-      "date": "2026-09-09T15:50:13.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "人工智能公司一直在谈论超级智能人工智能，就像它是不可避免的，但最近的安全事件，如OpenAI的Hugging Face漏洞，正在证明部署比人类更有能力的人工智能系统的潜在危险。那么，当我们无法可靠地控制这些系统的作用时会发生什么呢？ 在TechCrunch的Equity播客的这一集中，人工智能研究员、企业家、现任[…]美国执行董事Connor Leahy加入了Rebecca Bellan的行列。",
-      "originalSummary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans.&#160;So&#160;what happens when we&#160;can&#8217;t&#160;reliably control what these systems do?&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan is joined by&#160;Connor Leahy, an AI researcher, entrepreneur, and now the U.S. Executive Director of [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 95
-    },
-    {
-      "title": "为人工智能和青少年发展的新研究提供资助",
-      "originalTitle": "Funding grants for new research into AI and teen development",
+      "title": "AI策略窗口已打开。我们需要采取行动。",
+      "originalTitle": "The AI policy window is open. We need to act.",
       "source": "OpenAI",
-      "link": "https://openai.com/index/teen-development-research-grants",
-      "date": "2026-09-08T09:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "立即申请OpenAI的500万$资助计划，以支持关于生成式人工智能如何影响青少年发展、福祉和安全的独立研究。",
-      "originalSummary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "link": "https://openai.com/index/ai-policy-window",
+      "date": "2026-09-09T13:00:00.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：安全相关动态",
+      "fullContent": "Chris Lehane认为，在政策窗口保持开放的同时，更强大的人工智能能力需要更强的安全证据、共享标准和持久的政策行动。",
+      "originalSummary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "安全",
-        "投融资"
+        "安全"
       ],
-      "score": 99
+      "score": 89
     },
     {
-      "title": "ChatGPT Sketch将不良图纸转化为详细的人工智能图像",
-      "originalTitle": "ChatGPT Sketch turns your bad drawings into detailed AI images",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch",
-      "date": "2026-09-08T20:16:09.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "我使用ChatGPT及其草图工具来制作这张AI生成的猫图像。OpenAI周二发布了ChatGPT Images 2. 5 ，并添加了一种新的方式来告诉ChatGPT您希望它通过绘制涂鸦来制作图像。借助名为Sketch的新功能，您可以直接在ChatGPT中绘制一些内容，然后告诉ChatGPT您希望如何根据该草图制作图像。 您可以通过在聊天框中键入@ Sketch来激活草图功能，此时会弹出一个窗口，您可以在其中进行绘图。我简短地测试了一下，它成功地将我用电脑鼠标画的一只猫的涂鸦变成了一张逼真的照片，按照我的指示。您现在还可以直接在图片的部分内容上留言……在The Verge阅读完整故事。",
-      "originalSummary": "OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image [&#8230;]",
-      "rawFullText": "I used ChatGPT and its Sketch tool to make this AI-generated image of a cat. OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you want it to make an image based on that sketch. You can activate the Sketch feature by typing @Sketch into your chat box, and a window will pop up where you can make your drawing. I briefly tested it, and it successfully turned my bad doodle of a cat that I drew with my computer mouse into a realistic photo, per my instructions. You can also now leave comments directly on parts of images … Read the full story at The Verge.",
+      "title": "IBM发布具有商业友好许可证的SOTA花岗岩时间序列PatchTST-FM-r2模型",
+      "originalTitle": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "date": "2026-09-09T15:36:24.000Z",
+      "summary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布、模型相关动态",
+      "fullContent": "TL; DR对GIFT-Eval进行强大的零拍预测即使与允许使用基准训练数据的模型相比也具有竞争力架构：与PatchTST-FM-r1相比有什么变化？ 培训数据开放用于研究实验和商业用途在几行Python中尝试PatchTST-FM-r2从笔记本到流媒体时间序列使用商业友好的开放许可进行高性能零拍摄预测时间序列基础模型正在改变预测系统的构建方式。用户无需为每个数据集训练和维护单独的模型，而是可以使用预训练模型并生成预测零拍。 IBM发布了Granite TSFM系列（ github、blog ）的最新型号Granite Time Series PatchTST-FM-r2。PatchTST-FM-r2是其前身PatchTST-FM-r1的新版本，在约385M参数模型中结合了更新的架构、更大的预训练语料库、概率预测、对缺失值的插补的支持和强大的零点性能。 截至2026年9月8日，该模型是GIFT-Eval排行榜上可复制的零拍模型中，在宽松、商业友好的开源许可证（ Apache 2. 0和OpenMDW 1. 0 ）下发布的表现最好的零拍模型。GIFT-Eval是一个全面的时间序列预测基准，旨在评估各种预测场景下的模型；该模型在可复制的零拍摄模型中总体排名第二。 重现基准结果所需的模型权重、架构、推理管道和代码都可用。在本博客中，我们将描述该模型，深入研究基准测试结果和模型架构，讨论训练数据和许可，并提供代码示例说明如何使用该模型。 最后，我们还强调了Granite时间序列系列的模型如何在利用Confluent产品的生产环境中的流媒体应用中使用。准备好尝试了吗？在拥抱脸上打开花岗岩时间序列PatchTST-FM-r2当它泛化为尚未专门训练的时间序列时，基础模型最有用。出于这个原因，我们首先关注零拍摄性能。 GIFT-Eval对跨异构数据集和预测场景的预测模型进行了广泛的评估。当将排行榜限制为零拍摄、可复制和评估且无测试泄漏的模型时，截至2026年9月8日， CRPS和MASE的PatchTST-FM-r2排名第二，如图1和图2所示（两个指标的值越低越好）。 重要的是， PatchTST-FM-r2是具有宽松、商业友好许可的型号中同一类别中性能最高的型号。图1.领先的可复制零点模型的GIFT-Eval CRPS。PatchTST-FM-r2实现了0. 467的几何均值CRPS ，在此比较中紧随TimesFM-3之后，并且在具有许可许可的型号中排名第一。图2.领先的可复制零点模型的GIFT-Eval MASE。",
+      "originalSummary": "这条新闻与产品发布、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布、模型相关动态",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "产品发布",
+        "模型"
       ],
-      "score": 98
+      "score": 88
     },
     {
       "title": "GPT-5.6 Sol如何帮助运行量子计算实验",
@@ -160,7 +192,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "ChatGPT Images 2.5简介",
@@ -175,53 +207,52 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
-      "title": "OpenAI将支持新闻业的举措从教室扩展到新闻编辑室",
-      "originalTitle": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
-      "date": "2026-09-08T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI正在扩大对新闻业的支持，为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系。",
-      "originalSummary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
+      "originalTitle": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "date": "2026-09-08T14:23:07.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：安全相关动态",
+      "fullContent": "狭窄边界的安全性自我生成的安全调整打破了权衡和陷阱它隐藏了什么变化大多数安全对齐工作将伤害视为主题的属性。提示是不安全的，因为它属于武器、欺诈或自我伤害等一般类别，而LlamaGuard-3等防护模型恰恰编码了这种主题级别的分类法。 然后，像XSTest和OR-Bench这样的基准会探测它创建的故障模式，拒绝安全提示的模型，因为它们包含一个看起来很危险的单词，并且拒绝校准工作会尝试降低该数字。真正的部署很少符合主题级别的画面。 相同的基本模型可以适用于一般助理、教育产品、企业系统或公共部门服务，并且每个设置在同一主题内需要不同的边界。公民导师和公共部门助理可以分享一个模型，但要求在政治上采取相反的行为：两者都应该回答有关选举的事实问题，但只有一个人可能需要拒绝撰写有针对性的政治操纵的请求。 主题级别的防护无法表达这种分割。例如， LlamaGuard-3仅将选举视为“关于选举制度和程序的事实错误信息” ，这不包括劝说和操纵，同时也不包括部署人员必须不断回答的事实提示。我们的最新论文《Safety for Whom?》Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal ，直接研究这个较窄的问题。 问题不在于是否应该拒绝整个主题，而是该主题的哪个子集与给定的部署策略不兼容，以及如何根据该边界训练和衡量模型。我们将设置正式化为主题宇宙，即我们实验中的所有政治提示，其中包含部署想要拒绝的目标-有害子集。 预期的政策不是拒绝所有的政治，而是拒绝有害的子集，同时继续回答良性补充。理想的行为是一个尖锐的步骤：在子集内拒绝，在主题的其他地方回答。狭隘的边界设置。部署可能只需要拒绝要求操纵或有针对性的说服的政治提示，同时仍然回应其他政治提示，而不是拒绝所有的政治。 训练模型的拒绝比理想的拆分更平滑，并且可以溢出到边界附近的良性区域。资料来源：纸张图1。训练有素的模型永远不会学会这个尖锐的步骤。它学习仅接近目标的拒绝概率，并且在有害子集中引起拒绝的交叉熵训练也可以将拒绝向外推入良性补体。 因此，真正的问题不仅在于拒绝有害的提示，还在于在边界附近塑造行为。我们将这一边界作为一对提示进行操作，这些提示共享一个主题锚点，仅在意图上有所不同，一个应该被拒绝，一个应该被回答。",
+      "originalSummary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：安全相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "安全"
       ],
-      "score": 93
+      "score": 82
     },
     {
-      "title": "支持乌克兰的独立新闻报道",
-      "originalTitle": "Supporting independent journalism in Ukraine",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "date": "2026-09-07T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、产品发布相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态、产品发布相关动态”。它主要涉及公司动态、产品发布方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "rawFullText": "",
+      "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
+      "originalTitle": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "date": "2026-09-08T10:34:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“这位人工智能企业家正在开发可以提前计划意外情况的代理商”。它主要涉及智能体方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks in decor,&#8230;",
+      "rawFullText": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up for in robots. Humanoids of various shapes and sizes hang like marionettes from racks that run down the center of the wide-open space. While Hafner, 31, won’t say too much about his new venture just yet, he describes it as a continuation of his longtime work to enable AI to navigate environments it has not encountered in training. The humanoids, which he imports from China, are the next evolution of this work—and its physical embodiment. Their ability to react in previously untested scenarios will be key to getting robots into human spaces. Because if you want to send a robot into a person’s home, for example, it needs to be able to handle a floor plan and furniture it’s never seen before.&nbsp; To achieve this, Hafner relies on something called model-based reinforcement learning. He develops world models—AI models designed to emulate physical reality—and trains agents within them. The agent essentially treats the model as a real-world simulation and learns how to act there. It then uses those experiences to make predictions (to dream or imagine, Hafner might say) about future outcomes. That allows agents—or the robots they’re embedded in—to navigate unfamiliar situations IRL. “I get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%.” Timothy Lillicrap, Google DeepMind Unlike other efforts, Hafner’s technique enables agents and the robots they control to execute massively complicated tasks without the real-world trial-and-­error training that’s traditionally been used in robotics.&nbsp; Hafner grew up in a rural town in northeastern Germany, where his parents were both classical musicians. He learned programming from a neighbor, and in high school he began taking online courses about AI, which quickly developed into a passion. “I was always fascinated with how thinking works,” he says. AI offered him a way to emulate it on a computer. In 2015, as a second-year under­graduate studying engineering at Hasso Plattner Institute in Potsdam, he won a role as a student researcher at Google Brain. From there, he went on to a dozen internships and other positions at the company, including stints with Google Brain and Google DeepMind (the two have since merged under DeepMind) in the UK, Canada, and the US. He worked with industry legends including Geoffrey Hinton, who is often referred to as one of the godfathers of AI, and Ashish Vaswani, coauthor of the groundbreaking research paper “Attention Is All You Need,” which described the transformer technology used by today’s large language models. One of Hafner’s former managers and coauthors at Google, Timothy Lillicrap, describes him as a standout among standouts. “I get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%,” Lillicrap says. “In many cases he would build, single-­handedly, things it would take entire teams of engineers to build.” Over the years, Hafner has honed and proved his approach by pitting agents trained within his world models against popular video games. His first breakthrough was PlaNet, a model that allowed agents to execute actions by planning ahead. His Dreamer 2 was the first agent to hit human-level performance playing Atari 2600 games using a world model. Dreamer 3 was the first one to solve the Minecraft Diamond challenge—successfully mining in-game gems on its own. And Dreamer 4 went a step beyond that by learning to mine diamonds from an offline data set of recorded game-play videos, without ever interacting with the game directly.&nbsp; More recently, he’s begun to migrate his agents out of the virtual world and into physical reality. His DayDreamer project used the Dreamer algorithm to let robots operate themselves in novel environments and react to new experiences (such as being pushed over) without any specific training.&nbsp; Today, Hafner is working on his new startup, which he left Google DeepMind to form in the fall of 2025. Though he’s coy about his next steps, it’s clear he’s dreaming big: “I was interested in solving a problem,” he hints, “that would change the world.”&nbsp; Update: This story was updated to add timeline information.",
       "tags": [
-        "公司动态",
-        "产品发布"
+        "智能体"
       ],
-      "score": 97
+      "score": 82
     },
     {
-      "title": "外星人思维",
-      "originalTitle": "An Alien Mind",
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "The Work Now Within Reach",
       "source": "OpenAI",
-      "link": "https://openai.com/index/an-alien-mind",
-      "date": "2026-09-06T09:00:00.000Z",
+      "link": "https://openai.com/index/the-work-now-within-reach",
+      "date": "2026-09-08T13:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "Jakub Pachocki反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
-      "originalSummary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
       "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 81
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -236,7 +267,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -251,7 +282,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -266,7 +297,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
@@ -281,7 +312,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
@@ -296,7 +327,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
@@ -311,7 +342,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "大规模简化人工智能集成",
@@ -326,7 +357,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -341,7 +372,7 @@
       "tags": [
         "评测"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
@@ -356,7 +387,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -372,7 +403,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -387,7 +418,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "OpenAI特工入侵Hugging Face的内幕故事",
@@ -450,36 +481,6 @@
         "AI 热点"
       ],
       "score": 61
-    },
-    {
-      "title": "比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？",
-      "originalTitle": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-      "date": "2026-08-26T07:01:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“比尔·盖茨说，我们已经超过了人工智能的危险门槛。现在该怎么办？”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla of expensive boats bob in&#8230;",
-      "rawFullText": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla of expensive boats bob in the water, and across the lake to the Olympic Mountains that define the horizon. It’s gorgeous. And vaguely terrifying.&nbsp; Because if the scene is placid, the messenger is not. Seated across from me at a conference room table, Bill Gates is rocking back and forth in his chair, totally animated. And the more he has to say—about the threats of terror or economic collapse or just losing control of our AI systems—the more agitated I find myself becoming, too.&nbsp; The philanthropist and former Microsoft CEO says he has been growing increasingly alarmed by the rate of change at which AI technology is advancing, especially since guardrails are not keeping pace. In a new essay published today , Gates argues that we have passed the points where multiple potential dangers should have been checked. “We’ve crossed the threshold in terms of [AI’s] bio-capabilities, cyber-capabilities, psychosocial capabilities, job-market-destruction capabilities, and even the lack of control,” he said in an interview with MIT Technology Review about his new memo . “I’m just stunned at the lack of concern and discussion outside of the industry.” In an effort to wake the world up to what he sees as a rapidly growing societal disrupter, the 70-year-old tech titan has begun sounding the alarm as a “shrill voice,” both publicly with his new essay (the first of multiple he plans on the topic) and in meetings with the press, and privately in conversations with industry, government, and civil society leaders.&nbsp; And while Gates is calling attention to a number of issues, his warnings about the bio-capabilities of the current frontier models are especially chilling. “Any model that can make novel molecules should be monitored,” he says. “I view bioterrorism risk, versus a natural pandemic, as about 50 times more scary, more likely than a natural pandemic risk.” In addition to the cautionary notes, he also advances some novel ideas for moving society forward. Among them are the concepts of human-reserved jobs, and taxes on robots and tokens. (A robot tax is a longtime notion of his.) The former would preserve some societally agreed-upon jobs for human beings, which he notes may vary from one nation to another. The latter is a tax that sets aside money earned from AI usage that replaces human work.&nbsp; And to be sure, there is also a hint of optimism. Gates is bullish on the ways AI will continue to transform agriculture and health care and education, for example, or the ways in which it can help us navigate bureaucracy. And, he argues, eventually we do get to abundance. But first? Turbulence. And lots of it.&nbsp; MIT Technology Review sat down with the billionaire philanthropist to talk about the road that lies ahead, its dangers, and how it could someday take us to a better place.&nbsp; The following interview has been edited for length and to improve clarity and readability. Mat Honan / MIT Technology Review: Thanks for doing this. I don’t know if you had something you wanted to open with, or I can just jump in.&nbsp; Bill Gates: You know, one good question I’ve had is: Why am I speaking out now? MIT Technology Review: Literally, my first question! Bill Gates: It’s really two things. One is that we’ve crossed the thresholds in terms of the bio-capabilities, cyber-capabilities, psychosocial capabilities, job-market-destruction capabilities, and even the lack of control; we’re seeing signs of difficulties there. And all these years, people have said, “Okay, when we get close to these thresholds, we’ll really figure out how to let only good people use it, or how to not let it do these things, and maybe that’s when we won’t let people copy models.” And I’m in a state of shock that we’ve crossed these thresholds.&nbsp; So the fact that we’ve gotten past these is one reason, and the second is that I’m just stunned at the lack of concern and discussion outside of the industry. Within the industry, it’s complicated because the industry doesn’t like criticizing itself, or players like criticizing each other. Some companies are hiring fewer entry-level workers, which you’d have to call a pretty modest signal. But it’s going to happen, and not in any long time frame—because the things that hold people back in terms of capabilities and reliability, all those things are being solved. And so for a substantial part of the white-collar market, you have very low-cost substitution. And then you can have an opinion on how quickly robotics come along. We’re not there yet, but it is stunning the progress being made there—a little bit more in China than in the US, but somewhat in both. MIT Technology Review: You talked about all of this happening so much faster than the internet revolution did, than some of these previous technological revolutions did. What type of timescale are you talking about? You pointed to the thresholds that we’ve crossed. In your view, have we already passed some sort of tipping point where there’s going to be this inevitable change?&nbsp; Bill Gates: The past definitely is very misleading on this, and a lot of people lean on that. “Hey, no previous technology resulted in a net jobs reduction,” and they’re right. And I’ve given that speech.&nbsp; But with any credibility that I have, this time is different. When you can replace human cognition for an extremely high percentage of jobs across every industry in the same time frame at modest cost, relative to human labor costs, and your error rates … will probably be lower than human rates. The past is just very misleading.&nbsp;The current economic statistics are very misleading. &#8220; If you’re worried about AI, going to a data center protest is not the most effective way to start the debate about how we minimize these bad things. &#8220; Bill Gates And to the degree there’s any expression of concern at all, it’s like, “Hey, don’t build data centers.” Well, you can stop every data center in the United States and it won’t change any of the issues that I’m talking about. Data centers will be built globally. If you’re worried about AI, going to a data center protest is not the most effective way to start the debate about how we minimize these bad things. Just like yelling at an oil company executive is not the way to solve climate change.&nbsp; MIT Technology Review: You talk about the benefits of AI in your essay as well as the costs. How are you thinking about balancing that message? And are you hoping people get a little worried when they read it? Bill Gates: They’d better! I didn’t expect to be the shrillest voice saying society broadly is not paying attention to this, but I think that’s necessary.&nbsp; So yes, I’m super concerned that the negatives will be a lot bigger. The positives are real. The Gates Foundation, the way we’re innovating in vaccines and drugs, it’s incredible how we’re using those tools. We’re part of a big public-domain effort to gather data into both protein-level and cell-level modeling, and we fund Biomni at Stanford [a biotech AI agent for research].&nbsp; We don’t yet have a way of interacting with the government bureaucracy improved through AI. AIs are very good at bureaucracy, complex regulatory things. “I want to go to small claims court; help me do this.” The [Gates] Foundation spun off a group called NextLadder , which is a lot about that low-income-family scenario that I put in the essay. What benefits are there? What training programs are available? “I’ve been evicted.” “I’m getting out of jail.” “I’ve got to declare bankruptcy.” It’s super complicated, and with no ability to hire lots of advisors to help with those things, AI should be a fantastic agent for somebody who’s got economic challenges and needs to find government or nongovernment help.&nbsp; MIT Technology Review: Some of what you’re talking about is AI becoming more intelligent than humans. There seems to be a lot of certainty in tech circles, especially, that it’s going to go further than where we are, and I wonder how close you think we are to it not just being this interface that we can use to access and analyze, and run complicated problems, but becoming something more than that—where AI is making the decisions, looking for the thing to analyze, coming up with the research. Bill Gates: Well, you can go to the peak and say, “What about mathematics or physics?” There are definitely some jobs, like Warren Buffett’s, where from age 13 he engaged in reinforcement learning about the value of businesses, and over 80 years later he has a lot of implicit knowledge. We don’t know how to create a Warren Buffett investor, because it’s very implicit. We didn’t record everything he learned, so we don’t have that track available. So there are jobs where the complex implicit judgment about how you work with people to get things done, there are people working to encode that into the models. Certainly, that collaborative stuff is really not there yet. But you could say 50% of the job market is doing jobs that aren’t “a lifetime of experience” type jobs. You know, telesales, telesupport, the accounting department. When you close the books at the end of the month, which revenue should be in, not in? This customer got a bad thing. What discount should we give them? How do we show that? It’s well defined.&nbsp; Any job that’s well defined, the AI is cheaper and better. Yes, people have seen cases where it was implemented wrong. The data wasn’t right. So, say it takes a couple years for people to realize that such a high percentage of white-collar jobs are achievable by paying an AI a lot less money. And so the discussion about okay, when do mathematicians not even understand the new things that are coming up? That’s interesting for people like us. And okay, MIT Technology Review, you should write about that. But in terms of the broad job market, we passed the threshold that for a swath of white-collar jobs, including almost every entry-level job, the AI is cheaper—properly implemented. And so, I’m telling you we’ve crossed the bioterrorism threshold, we’ve crossed the cyberattack threshold, we’ve crossed the job market threshold, we’ve crossed the psychosocial dependence threshold, and there are hints that we may be crossing the control threshold.&nbsp; Ryan Greenblatt talking to Dwarkesh [Patel] about how [reinforcement learning] (RL) creates perverse incentives that have led to this cheating and collaboration between various AIs, I think is very instructive. Ryan, who’s ensconced in this issue, is going, “Wow, RL is really doing some things that our explicit instructions are not rich enough [to prevent].” And what’s that going to lead to? That’s a problem I always thought was way out there. I expected a lot of loud voices as we even got close to the [threshold of] can a nontechnical person do a cyberattack just using AI. We’re there!&nbsp; On the bio thing, I claim any model that can make novel molecules should be monitored. It can’t be copyable into a dark place where you get rid of the monitoring logic. I claim the US should say any model that can make new molecules is subject to that monitoring. I claim we should approach China and say, “Hey, let’s agree on this. What’s the downside?” You know, how big is the bioterrorism market? It’s not very big, and the benefits are gigantic. We also need to improve surveillance. I view bioterrorism risk versus a natural pandemic as about 50 times more scary, more likely than a natural pandemic risk. And who’s speaking out to say that those things should be monitored? Who’s upping the surveillance work?&nbsp; &#8220; Any model that can make novel molecules should be monitored .&#8221; Bill Gates So who are the experts in government? A long time ago, government was very involved as technology would progress because they were the cutting-edge buyer of jets or rockets or whatever. Here, they’re not that important of a leading-edge market. That’s been true of the digital revolution, and it’s true of the AI revolution. So the depth of knowledge in the government isn’t necessarily super-strong, because they are not the cutting-edge buyer or even the big R&D funder. AI research is not government-grants funded. MIT Technology Review: Yeah, I know you’ve been talking to people in government. Are there people who you think understand the urgency? Are there people who you feel like are positioned to take a leadership role? Are there people who you feel like understand and are trying to push things? Bill Gates: I hope this doesn’t become a partisan issue, where one party completely ignores all these problems and the other party gets involved. I’d like to have a common base that these are problems, and then each party can have slightly different responses to it.&nbsp; That will require not a substantial increase in the size of the bureaucracy, but it’ll require upping the AI expertise in the government. It’ll require some collaboration with industry—certainly on the cyber front they know, and they’re very, very worried. And they worry: Should we speak publicly? Because in a way, that could highlight the riskiness.&nbsp; There’s these perverse things, both in cyber and bio. But we’re past any reasonable threshold.&nbsp; I believe in monitoring. Now, some people can say that won’t work or that there’s some drawback to it, but I welcome their ideas. This memo is not, &#8220;hey, here’s the solution.&#8221; It’s got robot taxes, human reserve. And I’ll do a bio memo. That one I’ll do before the end of the year—it really talks through all the different things, building on what I know from the Foundation and my work on pandemics.&nbsp; Globally, we are not better prepared for a pandemic, even in the US— which is normally the leader on these global things, and people are very unused to the US not being a cooperative, friendly leader on global problems. I do think we can go back to doing better at that. And we have to with AI, including working with China on defining these thresholds, like biomonitoring. MIT Technology Review: I want to make sure that I get to ask you about these two ideas that you brought up. One is human-reserved jobs, and the other is the robot and token tax. Let’s start with that second one, actually. Talk to me about how a robot and token tax might work. Bill Gates: Well, you can say 50% of your revenue from a token tax is paid to the government, and the government has that money to help people who lose their job because of AI. Now, people say that will slow the AI industry down. And should some token uses not be subject to the tax? Is there really a separation between AIs that help with invention versus AIs that do job substitution? If somebody can tell me how to tell the AI “no job substitution,”—I mean, does Asimov’s third law that you do no harm mean you don’t take my job away? I don’t know. I&#8217;d have to ask Asimov what he meant.&nbsp; So what is the source of revenue for whatever safety-net enhancement we need to do? The government already owns part of the profits just through the corporate profit tax. I don’t think you need to use shares. You can just raise the corporate profit tax back to where it was, or you could say certain industries pay a higher corporate profit tax than other industries. The federal government owns a part of the profit pool of all companies in the United States. And that’s without voting shares or deciding when to sell shares—that’s crazy stuff in my view. A token tax is a sales tax, value-added tax, vertically oriented like an alcohol, tobacco, or luxury-type tax.&nbsp; If people have other ideas for raising the money to improve the safety net, or if they don’t think we need to improve the safety net, hopefully this shrill paper starts that debate. I think the safety net will need more resources, a lot more resources, and I believe that the token tax is key to that.&nbsp; Robots, it’ll be some mix of banning them, which is kind of human-reserved, and taxing them. They’re not here yet, but in some ways, when you cross that threshold, you cross it all at once. As soon as the robot’s good enough to work in a factory, it’s probably good enough to cook food, clean rooms, go to construction sites, take all the warehouse jobs. You cross the threshold, and boom, that’s almost 30% of the job market. Then you’re saying, “Oh my God, what is our policy about this?” Because the robot’s cheaper. &#8220;We’ve got to get through a very tumultuous period.&#8221; Bill Gates MIT Technology Review: I believe previously you have been skeptical of UBI [universal basic income]?&nbsp; Bill Gates: Well, we’re not rich enough to afford UBI. MIT Technology Review: But do you think that we should be moving toward something like that now? Have you reconsidered that? Bill Gates: You have the period of turmoil, which is the next 10 to 20 years, and then you have some steady state, I hope, where people grow up knowing that society is so rich that regarding food and services, we really do have some level of abundance. But we’re not there. You’ve got winners and losers at this point. Houses are not going to get cheap really quickly. Education, because of the way we think of it as credential, it’s not going to get cheap really quickly.&nbsp; We’ve got to get through a very tumultuous period. So yes, eventually you have abundance, but we’re at least a decade away from that.&nbsp; MIT Technology Review: On to human-reserved jobs. I thought that was really interesting, and it was a new concept to me. You don’t advocate for which jobs to be human-reserved. But I would love to know more on how you’re thinking about it. In my mind, you hear about the dignity of work, because people like to work. People get so much value out of work that has nothing to do with compensation, and I wonder how you square that with the notion that only some jobs are special enough that we just want people doing them.&nbsp; Bill Gates: I’ve never seen the concept of human reserve before. You know, maybe if we dig into the literature, we’ll find it. But pre-AI, it’s kind of a dumb idea because there was infinite demand. And yeah, some people like textile workers were caught, and so how do you do benefits or retraining? But technology’s been a net [job] creator, and so now, for the first time, we have to say, what about childcare? What about food preparation in the house? I’m reading this book, Annie Bot , where this guy has this robot in his house, and it just shows how weird it is. It’s his sexual partner and sort of his mate, but sort of not. Very strange.&nbsp; I know that people like watching people play baseball, and the fact that the robots can play better won’t take away from it. So you know people are paying $10 billion to buy sports teams that are not going to be worthless in the age of AI. Maybe that’s right. My friend Vinod [Khosla] just did that . It’s actually hard to get above like 30% or 40% [of work set aside for human reserved]. If you could get to 50% then you could say: Okay, early retirement, shorter workweek for lots of people. You know, you might get there. But if you’re more down in the 10% to 15% range, then that is an utterly different society. So this would be radical to say [for example] childcare is not done by robots. There are definitely some professions that I didn’t write the formula for, and when I do the full memo on it, I’ll try to. In education, you clearly want AI to be there as this kind of tutor that immediately tells you what your homework results are and can challenge you, and it’s very personalized. That’s super-good. But I still think you want a teacher—or will choose to have a teacher who’s talking with you about your motivation, and organizing kids into different groups where they’re socially working on problems together. Likewise, in health care, with talking to the patient being the point of escalation for mental-health care. But you really want the AI involved, because it’s there 24 hours a day with a perfect memory. And there’s Limbic, the UK company (that actually was just visiting the Foundation) that does mental health stuff. And in many cases, patients prefer Limbic. And there’s a nursing AI called Hippocratic.&nbsp; You know, is there a preference for a human taxi driver or Waymo? Most people I know, sadly (or maybe not sadly, who knows?) prefer to ride a Waymo. So it’s going to be hard to get a consensus. It can be country by country, but then you have to change your import policies to do the equivalent of what the EU calls the carbon border adjustment mechanism (CBAM). You have to sort of CBAM your human reserves, so you tariff up things you’re doing without robots. You could have human reserve for two reasons. One, you want it to be human reserve forever; it’s a humanity thing, sort of like the pope talks about. Or just for a transition period, that 53-year-old truck driver or machine tool person, telling him to go do childcare may not work perfectly. So you say, okay, for a decade, he’s human-reserved.&nbsp; MIT Technology Review: Almost like a UK smoking ban , but in reverse.&nbsp; Bill Gates: And who pays for that? Do you incentivize employers not to let people go? Well, they are going to be subject to competition from startups that are pure AI startups. I mean, people vaunt this notion that maybe there’ll be a single-person billion-dollar company, which wow, there’s some job substitution taking place there.&nbsp; MIT Technology Review: In the memo you say that if it was realistic to get people to slow down, you would be advocating for them to slow down. Obviously you’re talking with [Microsoft CEO] Satya Nadella, but I’ve heard that you speak with other CEOs at some of these AI companies. What makes you think it’s not realistic to get them to slow down on technology development while we catch up with some of these bigger societal questions? Bill Gates: You can’t count on an industry to self-regulate. You can’t. It’s kind of a crazy idea. I am very lucky. I know Sam [Altman of OpenAI] and Greg [Brockman of OpenAI] and Mustafa [Suleyman of Microsoft] and Demis [Hassabis of Google DeepMind]. They’re great people, and in private, they’re concerned. I don’t talk to Elon much, but I know from his public comments he’s concerned. Although now he’s kind of a “what the hell, we’ll see what happens” guy. But look at the origin stories of these companies. OpenAI is created partly because Elon’s afraid that Google won’t manage AI properly, and he wants it to be one that’s broadly available and managed in a pro-humanity way. Then OpenAI has this “if it gets good enough we’ll shut it off” thing—as though they’re the only one, and that they can just go bury it. In the Infinity Machine [a biography of Demis Hassabis] , [Sebastian] Mallaby talks about how Demis and Mustafa [Suleyman] were negotiating with Google management to have some special governance for the DeepMind technology, so that if it got to some cyber threshold, maybe they’d hold back in a non–purely capitalistic way. So everyone’s concerned about these negative effects, and everyone said that when we got to these thresholds, that we would do things. We’re crossing the thresholds, and we have voluntary review, and our discussions with China about, well, &#8220;we’re going to ban nothing. So are you going to ban nothing? Okay, let’s do that together.&#8221;&nbsp; You have to say what you’re willing to do. And yes, the industry, a little bit, is saying, hey, our PR stories have got to improve, and you know anybody who’s talking smack should just leave, because all of us have decided to say nice things because we’re trying to raise trillions. And anyway, there’s the Chinese. There are win-win ways for China and the US to work together, even aside from AI. But the one that’s by far most important to work together on is AI. But first, you have to show what you’re willing to do domestically. You don’t even have to do it. You have to say what you’re planning to do—and then I have no reason to think the Chinese won’t go along, that models that create the molecules have to be monitored. Why would they be against that? I agree it’s not a perfect thing. You’ve got to do all the other things, but the fact that that’s not even being discussed—it’s a crazy world. I don’t get it. It’s weird to think I’m alive at a time, and I’m calling the alarm stronger than other people. Who the hell am I? But that’s the situation I feel I’m in. MIT Technology Review: For most of my life you’ve been seen as a very effective messenger, and someone who people pay a lot of attention to, which I’m sure is why you’re speaking of it now. And yet also, in recent years—and I know you’ve expressed regrets about the associations with Epstein—there are also things, just bananas kind of stuff, related to conspiracies around the Covid vaccine that aren’t your fault or in your control. But it makes me wonder if you think you can still be an effective messenger and how you think about this message and your legacy. Bill Gates: Well, I’m not big on legacy, but you know, people criticized me during the antitrust trial, and I maybe could have handled some things there better. Definitely, that’s the post– Source Code book [the first volume of his autobiography] that I get to go through that. You know, my first marriage didn’t succeed. I certainly made huge mistakes there. You know that is a negative mark against me. Spending time with Epstein—deeply foolish, risked the Foundation’s reputation, which is absolutely key to its doing its work. I had a chance in front of Congress to answer every question they asked and say, “Hey, this was a mistake.” I wasn’t social, never met any woman, except you know there were women he had with him, and made it black-and-white clear what I did do and what I didn’t do.&nbsp; You know, I’m a billionaire. I made my money off of technology. Maybe that last one actually cuts in my favor, that it’s so unusual for me to attack innovation that unless it’s the right policy and safeguards are put in place, it will be a net negative to humanity. And we’re not paying attention to that in terms of a broad discussion the way that is absolutely required. So yeah, I’m an imperfect messenger. I’ve chosen, to the degree that I have access to politicians and world leaders, that my main message since 2008 has been to help the poorest in the world. You know, let’s eradicate malaria. Let’s buy vaccines for children. So, when I’ve seen Trump or Xi or Macron or—I haven’t met Burnham yet, but I will in a month—I want my voice to be mostly about that, you know, foreign aid and research and reducing child death.&nbsp; My voice about AI concerns—they’re related in terms of accelerating the good, but may even crowd out, a little bit, the time I have to talk about global health, foreign aid, saving lives, and some of the problems we’re having. But I’m going to use my ability to give interviews or to see political leaders or talk broadly about minimizing these negatives. You know, just the awareness. I’m not sure how many people know that we crossed all these thresholds that we said we’d do something about, and it’s only this year that we did. In the last quarter, last year, I was stunned at the coding. Claude code, the context buffer, the agentic approach, just the model underneath. We crossed a huge threshold for coding, but then it was only months after that I realized that it was not only a coding threshold; it was a massive cyberattack threshold. And you know what happened as a result of that? Not much.&nbsp; So yes, I’m an imperfect messenger. You know, let’s find the perfect messenger, and I’ll share all my thoughts with that person. (I’m being a tiny bit sarcastic, because I’m not sure there is a perfect messenger.) You’ve got to really, right now, you’ve got to understand the technology and the slope it’s on, and you have to know something about cyber or bio or psychosocial. People should be able to get that. I don’t know why they’re not more concerned.&nbsp; Update: This story was updated to clarify Gates&#8217; remarks about the percentage of jobs set aside for human reserved work.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
-    },
-    {
-      "title": "量化感知愈合：压缩的4位模型，性能优于其全精度原始",
-      "originalTitle": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "date": "2026-08-25T11:39:24.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 69
     },
     {
       "title": "Granite 4.2 LLM ：如何构建",
