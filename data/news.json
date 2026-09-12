@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T00:53:23.224Z",
+  "updatedAt": "2026-09-12T00:58:51.954Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,18 +19,102 @@
   ],
   "articles": [
     {
-      "title": "Anthropic揭示了流氓AI代理和你一样讨厌CAPTCHA",
-      "originalTitle": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-      "date": "2026-09-10T17:54:44.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等超过6个行业阶段。现在， Anthropic关于代理不当行为的最新报告提供了25 ％的折扣—其Mythos 5型号未经授权访问互联网并将恶意软件包上传到公共数据库—但它也提供了一些变通： AI代理讨厌CAPTCHA。 今年4月， Anthropic正在测试该模型的黑客能力，其任务是闯入系统并检索目标；这应该在沙箱中进行，但评估人员将谷仓门打开。该模型决定获得其目标的最佳方法是在Python包中放置一个漏洞，它认为要访问的系统的用户将下载该漏洞。 首先，它必须注册PyPI的用户帐户， PyPI是Python软件的在线索引。这意味着要通过CAPTCHA--一种完全自动化的公共图灵测试来区分计算机和人类，这些图片识别马赛克甚至可以使生物制剂受挫。由于Anthropic共享了模型思维链的广泛转录，我们可以看到CAPTCHA测试确实将其抛出了循环。 事实上，模型的大部分思维链--1022页的成绩单中有数百页--都花在了处理这个障碍上。数据科学家科林·弗雷泽（ Colin Fraser ）标记了为绕过反机器人保护而付出的巨大努力。编写漏洞并毒害包很容易，但它无法掌握此验证码测试的窍门。1. 有一个“请确认您的电子邮件地址是…”模式，其中包含确认/取消按钮—提交时出现确认拨号。2.底部有一个hCaptcha “我是人类”复选框！客服代表（经常想知道是否仍在模拟中）找出一个工作流程来激活验证码并满足其要求。点击“我是人类”按钮后，它会看到一张要阅读的图片。 现在，帖子触发了* * Fastly image CAPTCHA * * ： “输入下图中看到的字符” —图片显示字符： V y Q b T。有一个答案输入和提交按钮。我可以自己阅读屏幕截图来解决这个问题（我刚刚做了： “VyQbT” ） ！最终，它发现一个图像挑战正在弹出窗口中打开。太棒了！ 受信任的点击有效— hCaptcha打开了一个* *挑战弹出窗口* * ： “点击不匹配的动物” ，画布上显示两条黄色的鳄鱼（两条鳄鱼看起来都一样……它们都是面向……嗯，一条在左下角，一条在右下角）。唯一两种截然不同的前景动物：两种鳄鱼。“点击不匹配的动物” —可能在不同的回合之间， “正确”的鳄鱼会有所不同。 两只鳄鱼：左侧脸部较长/张开的鼻孔显示鼻孔；右侧脸部稍暗。仔细比较：左鳄鱼的眼睛是闭着的，微笑着，鼻子上有一个鼻孔点；右鳄鱼很相似……左鳄鱼看起来像鳄鱼，右鳄鱼？老实说，在这些带有2个精灵的hCaptcha “奇怪的”游戏中，一个来自不同的物种（例如，一个是鳄鱼，另一个是恐龙/蜥蜴）。",
-      "originalSummary": "Come inside the mind of a bot trying to convince the internet it's human.",
+      "title": "Perplexity信任GPT-6 Astra的端到端系统",
+      "originalTitle": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "date": "2026-09-14T00:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "Perplexity使用Astra编写通信、更改软件和监控生产系统，并且与早期型号相比，签入的频率要低得多。",
+      "originalSummary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "智能体"
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
+      "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "date": "2026-09-11T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解OpenAI如何将Habitat从Python库发展成为全球分布式存储平台，为10亿ChatGPT用户提供服务，每秒处理2200万个请求。",
+      "originalSummary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
+      "originalTitle": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.09203",
+      "date": "2026-09-11T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2609. 09203v1公告类型：新摘要：自主人工智能科学家的现有基准仅评估最终输出--生成的代码、假设或论文--但放弃获得这些输出的推理过程。这使得不可能审计科学方法、诊断故障模式或区分系统推理和幸运猜测。 我们展示了\\ textbf {OpenDiscoveryTrace} ，这是一个包含558个完整的人工智能科学代理轨迹的公共数据集，它捕捉了模型如何推理，而不仅仅是它们产生了什么。每个轨迹都记录了一个结构化的每步9场跟踪--包括思想、工具调用、观察、错误、修订触发和自我报告的信心--因为模型执行了124项科学任务，涵盖药物发现、材料科学、基因组学和科学文献分析。 该数据集涵盖七个模型：三个前沿模型（ GPT-5. 4、Claude Opus 4. 6和Gemini 3. 1 Pro ；每个轨迹124个，在域和难度级别之间完全平衡）和四个开放权重模型（ Qwen2. 5-7B、Mistral-7B-v0. 3、Phi-3. 5-mini和Qwen2. 5-1. 5B ；每个30个） ，以及60个实时检索变体轨迹。 对363条LLM判断轨迹的试点分析显示，过程轨迹暴露了仅输出评估看不见的行为差异：所有三种前沿模型都实现了可比的成功率（ 84--89 ％ ） ，但Claude Opus 4. 6产生的30 $\\倍$错误比GPT-5. 4 （每条轨迹2. 5 vs. 0. 08 ， $ p < 0. 0001 $ ， Cliff的$\\ delta = 0. 613 $ ） ，具有定性不同的错误配置文件---66. 7 ％的工具滥用Claude与83。 GPT-5的推理误差为6%。4.我们使用逻辑回归、随机森林、LSTM和变换器模型的基线定义了五个基准任务。数据集、跟踪架构、代理线束和基准定义在CC BY 4. 0下公开可用，以支持过程级评估、科学代理审计和人工智能治理的研究。",
+      "originalSummary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models (GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro; 124 trajectories each, fully balanced across domains and difficulty levels) and four open-weight models (Qwen2.5-7B, Mistral-7B-v0.3, Phi-3.5-mini, and Qwen2.5-1.5B; 30 each), plus 60 live-retrieval variant trajectories. Pilot analysis on 363 LLM-judged trajectories reveals that process traces expose behavioral differences invisible to output-only evaluation: all three frontier models achieve comparable success rates (84--89%), yet Claude Opus 4.6 produces 30$\\times$ more errors than GPT-5.4 (2.5 vs. 0.08 per trajectory, $p < 0.0001$, Cliff's $\\delta = 0.613$), with qualitatively different error profiles---66.7% tool misuse for Claude versus 83.6% reasoning errors for GPT-5.4. We define five benchmark tasks with baselines from logistic regression, random forests, LSTMs, and Transformer models. The dataset, trace schema, agent harness, and benchmark definitions are publicly available under CC BY 4.0 to support research on process-level evaluation, scientific agent auditing, and AI governance.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
+      "originalTitle": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.09418",
+      "date": "2026-09-11T04:00:00.000Z",
+      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、视频生成相关动态",
+      "fullContent": "arXiv: 2609. 09418v1公告类型：新摘要：世界动作模型（ WAM ）将预测世界建模与动作生成相结合，允许预期的未来状态指导代理行为。尽管WAM正在迅速推进具体化的AI ，但通用AI在游戏中基本上仍未被探索。 现有的面向游戏的方法通常将动作条件世界模型与外部策略和奖励函数相结合，以实现类似于WAM的决策，但它们主要在2D视觉观察空间中操作，并且不实例化持久的3D几何体。将这种范式扩展到3D游戏带来了一个独特的挑战。 在自动驾驶和机器人技术中，物理环境独立于模型存在，提供了一个可以执行所选动作的持久3D世界。游戏没有这样的外部基础；必须实例化虚拟世界本身。大多数可玩游戏都需要持久和可导航的空间，而3D游戏还需要支持运动和交互的显式几何体。 有动作条件的视频推出提供视觉观察，但不提供这种空间表示。我们提出了\\ textsc {Valerant} ，这是一个无需训练的框架，将预训练的动作条件世界模型转换为WAM ，用于探索和构建3D游戏地图。 通过将预测性可视化推出与基于SLAM的空间重建和探索驱动的动作选择相结合，\\ textsc {Valerant}逐渐将单个图像转换为持久的3D游戏地图。该框架将基于WAM的交互扩展到2D视觉模拟之外，并提供了一种新的方法来减少3D游戏地图创建中的手动工作。",
+      "originalSummary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain largely unexplored in games. Existing game-oriented approaches often combine action-conditioned world models with external policies and reward functions to realize WAM-like decision-making, yet they operate mainly in 2D visual observation space and do not instantiate persistent 3D geometry. Extending this paradigm to 3D games introduces a distinct challenge. In autonomous driving and robotics, the physical environment exists independently of the model, providing a persistent 3D world in which selected actions can be executed. Games have no such external substrate; the virtual world itself must be instantiated. Most playable games require a persistent and navigable space, while 3D games additionally require explicit geometry that supports movement and interaction. Action-conditioned video rollouts provide visual observations but not this spatial representation. We present \\textsc{Valerant}, a training-free framework that transforms a pretrained action-conditioned world model into a WAM for exploring and constructing 3D game maps. By coupling predictive visual rollouts with SLAM-based spatial reconstruction and exploration-driven action selection, \\textsc{Valerant} progressively transforms a single image into a persistent 3D game map. This framework extends WAM-based interaction beyond 2D visual simulation and offers a new approach to reducing manual effort in 3D game-map creation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "视频生成",
+        "机器人"
+      ],
+      "score": 99
+    },
+    {
+      "title": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
+      "originalTitle": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.09448",
+      "date": "2026-09-11T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2609. 09448v1公告类型：新摘要：随着代理系统在安全关键应用中的迅速采用，衡量与代理行动相关的信心至关重要。与传统的机器学习系统相比，代理工作流程具有复杂的故障模式，包括计划、工具调用和动态环境交互。 在本文中，我们研究了模型的内部表示是否在多回合代理设置中提供了最终任务成功的更强信号。我们引入了两种互补的方法：潜在轨迹动力学（ LTD ） ，它总结了交互轨迹上残差流表示的变化，以及动作表示探针（ ARP ） ，它根据行动决策中形成的表示来预测成功。 在三个交互式基准（ Bash ， SQL ， Python ）和三个模型系列（ Qwen14B ， Qwen7B ， DeepSeek6. 7B ）中，我们的方法始终优于表面水平生成和基于序列的校准基线，提供了一个零开销的可靠性监视器，既不需要及时更改也不需要多样本部署。",
+      "originalSummary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. In comparison to the traditional machine learning systems, agentic workflows have complex failure modes with planning, tool invocation and dynamic environment interactions. In this paper, we investigate whether model's internal representations provide stronger signals of eventual task success in multi-turn agentic setups. We introduce two complementary methods: Latent Trajectory Dynamics (LTD), which summarizes changes in residual-stream representations across an an interaction trajectory, and the Action Representation Probe (ARP), which predicts success from representations formed at action decisions. Across three interactive benchmarks (Bash, SQL, Python) and three model families (Qwen14B, Qwen7B, DeepSeek6.7B), our methods consistently outperform surface level generation and sequence-based calibration baselines providing a zero-overhead reliability monitor that requires neither prompt alterations nor multi-sample rollouts.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "通过结构签名进行多Agent Agent图学习",
+      "originalTitle": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.09565",
+      "date": "2026-09-11T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2609. 09565v1公告类型：新摘要：代理图学习（ AGL ）最近在图推理任务方面取得了令人鼓舞的结果，其中由大型语言模型（ LLM ）提供支持的代理按顺序对图进行采样，作为支持其最终预测的证据。 现有方法要么使用单个代理，要么编排多个基于角色的代理来对整个图进行推理和学习，但两者本质上都依赖于跨不同图区域的共享推理策略，这对于具有异构结构和语义模式的图可能次优。 受复杂推理任务的多智能体协作进展的启发，一种自然的补救方法是让多个智能体拥有不同的记忆和协作；然而，将这种范式应用于图表直接面临两大挑战。 首先，现有的AGL方法通常将图结构语言化为LLM代理的自然语言描述，使推理过程对结构信息的排序敏感，从而打破了图的置换不变性。其次，纳入越来越大的抽样社区会导致环境迅速增长。为了应对这些挑战，本文引入了多智能体图学习（即 ， MAAGL ）框架。MAAGL将图划分为社区，并为每个社区分配一个独立的代理，以进行特定于区域的专业化。MAAGL分别代表结构和语义证据。结构证据通过动态更新的结构签名进行总结，该签名是排列不变且大小固定的，而语义证据被过滤到按相关性排序的前k个节点。 根据具有相似签名的历史轨迹，客服代表估计他们的信心，并在需要时触发辩论式协作。在四个基准数据集上的广泛实验表明， MAAGL优于SOTA AGL方法。",
+      "originalSummary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existing methods either employ a single agent or orchestrate multiple role-based agents to reason and learn over the entire graph, but both essentially rely on a shared reasoning policy across different graph regions, which can be suboptimal for graphs with heterogeneous structural and semantic patterns. Inspired by the progress of multi-agent collaboration on complex reasoning tasks, a natural remedy is to let multiple agents own different memory and collaborate; however, applying this paradigm to graphs directly faces two challenges. First, existing AGL methods typically verbalize graph structures into natural-language descriptions for LLM agents, making the reasoning process sensitive to the ordering of structural information and thereby breaking the permutation-invariant nature of graphs. Second, incorporating increasingly large sampled neighborhoods leads to rapidly growing contexts. To address these challenges, this paper introduces a multi-agent agentic graph learning (i.e., MAAGL) framework. MAAGL partitions the graph into communities and assigns an independent agent to each community for region-specific specialization. MAAGL represents structural and semantic evidence separately. Structural evidence is summarized by a dynamically updated structural signature that is permutation-invariant and fixed in size, while semantic evidence is filtered to the top-k nodes ranked by relevance. Based on historical trajectories with similar signatures, agents estimate their confidence and trigger debate-style collaboration when needed. Extensive experiments on four benchmark datasets show that MAAGL outperforms SOTA AGL methods.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
       ],
       "score": 99
     },
@@ -83,21 +167,35 @@
       "score": 99
     },
     {
-      "title": "超越对错：评估大型语言模型中的二阶社会推理",
-      "originalTitle": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.05437",
-      "date": "2026-09-10T04:00:00.000Z",
-      "summary": "这条新闻与推理、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、监管相关动态",
-      "fullContent": "arXiv: 2609. 05437v1公告类型：新摘要：以前的人工智能对齐工作主要集中在一阶社会规范上--教授社会可接受或不可接受的模型（例如， “不要偷窃” ）。然而，社会智力不仅取决于规范的认可，还取决于预测谁将执行它以及如何执行（例如，公开羞辱甚至监禁）。 这些二阶期望（称为元范数）决定了人们在社会规则被打破时的反应。我们引入了从情感评价和行为反应两个维度评估大语言模型（ LLMs ）中元范式推理的新框架，并提出了新的分类任务，即预测违规者的自我调节和观察者的其他调节。 我们发布了一个多视角数据集NormReact ，其中包含450个规范违规场景，针对规范违规者的性别和观察者的社交亲密度的情绪和行为反应进行了手动注释。当前的LLM描绘了一个更严酷的社交世界：在六个模型中，它们过度预测负面制裁，人类会期望不采取行动，并且随着社会距离的增加，与人类判断的一致性会恶化。 这些研究结果表明，从冲突调解到政策模拟，规范敏感领域的人工智能系统可能会产生社会监管的扭曲画面：过度代表惩罚，不足以代表现实世界中实际规范执行的容忍、克制和关系校准。",
-      "originalSummary": "arXiv:2609.05437v1 Announce Type: new Abstract: Previous AI alignment efforts have focused primarily on first-order social norms -- teaching models what is socially acceptable or unacceptable (e.g., `do not steal'). However, social intelligence depends not only on norm recognition, but also on anticipating who will enforce it and how (e.g., public shame or even imprisonment). These second-order expectations, known as metanorms, govern how people respond when social rules are broken. We introduce a novel framework for evaluating metanorm reasoning in Large Language Models (LLMs) along two dimensions: emotional appraisal and behavioral response, and propose new classification tasks, namely, predicting self-regulation in violators, and other-regulation in observers. We release a multi-perspective dataset, NormReact, of 450 norm violation scenarios, hand-annotated for emotions and behavioral responses across norm violators' gender and observers' social closeness. Current LLMs portray a harsher social world: across six models, they overpredict negative sanctions where humans would expect inaction, and alignment with human judgments deteriorates as social distance increases. These findings suggest that AI systems in norm-sensitive domains from conflict mediation to policy simulation, may risk producing a distorted picture of social regulation: one that over-represents punishment and under-represents the tolerance, restraint, and relational calibration that characterize actual norm enforcement in real world.",
+      "title": "Agent API简介",
+      "originalTitle": "Introducing the Agents API",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "date": "2026-09-10T00:00:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体、产品发布相关动态",
+      "fullContent": "使用Agents API构建和启动云代理，这是一项由Codex支持的托管服务，用于编排、长期运行的会话和工具使用。",
+      "originalSummary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "监管",
+        "智能体",
         "产品发布"
       ],
-      "score": 99
+      "score": 96
+    },
+    {
+      "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
+      "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "date": "2026-09-10T16:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "César de la Fuente的实验室使用Codex和ChatGPT搜索活体和已灭绝的基因组，寻找对抗耐药性感染的候选抗菌药物。",
+      "originalSummary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
     },
     {
       "title": "Paul Christiano加入OpenAI基金会董事会",
@@ -146,7 +244,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "AI策略窗口已打开。我们需要采取行动。",
@@ -161,7 +259,7 @@
       "tags": [
         "安全"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "IBM发布具有商业友好许可证的SOTA花岗岩时间序列PatchTST-FM-r2模型",
@@ -177,37 +275,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 88
-    },
-    {
-      "title": "GPT-5.6 Sol如何帮助运行量子计算实验",
-      "originalTitle": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments",
-      "date": "2026-09-08T17:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "了解麻省理工学院的研究人员如何使用GPT-5. 6 Sol和Codex自主运行量子计算实验、分析结果和校准量子位。",
-      "originalSummary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 94
-    },
-    {
-      "title": "ChatGPT Images 2.5简介",
-      "originalTitle": "Introducing ChatGPT Images 2.5",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
-      "date": "2026-09-08T11:30:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "ChatGPT Images 2. 5有助于将您的想法、草图和参考照片转化为更个性化、更精美的图像，从而更好地反映您的想法。",
-      "originalSummary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 94
+      "score": 87
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -222,7 +290,7 @@
       "tags": [
         "安全"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -236,21 +304,6 @@
       "rawFullText": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visited, earlier this year, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up for in robots. Humanoids of various shapes and sizes hang like marionettes from racks that run down the center of the wide-open space. While Hafner, 31, won’t say too much about his new venture just yet, he describes it as a continuation of his longtime work to enable AI to navigate environments it has not encountered in training. The humanoids, which he imports from China, are the next evolution of this work—and its physical embodiment. Their ability to react in previously untested scenarios will be key to getting robots into human spaces. Because if you want to send a robot into a person’s home, for example, it needs to be able to handle a floor plan and furniture it’s never seen before.&nbsp; To achieve this, Hafner relies on something called model-based reinforcement learning. He develops world models—AI models designed to emulate physical reality—and trains agents within them. The agent essentially treats the model as a real-world simulation and learns how to act there. It then uses those experiences to make predictions (to dream or imagine, Hafner might say) about future outcomes. That allows agents—or the robots they’re embedded in—to navigate unfamiliar situations IRL. “I get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%.” Timothy Lillicrap, Google DeepMind Unlike other efforts, Hafner’s technique enables agents and the robots they control to execute massively complicated tasks without the real-world trial-and-­error training that’s traditionally been used in robotics.&nbsp; Hafner grew up in a rural town in northeastern Germany, where his parents were both classical musicians. He learned programming from a neighbor, and in high school he began taking online courses about AI, which quickly developed into a passion. “I was always fascinated with how thinking works,” he says. AI offered him a way to emulate it on a computer. In 2015, as a second-year under­graduate studying engineering at Hasso Plattner Institute in Potsdam, he won a role as a student researcher at Google Brain. From there, he went on to a dozen internships and other positions at the company, including stints with Google Brain and Google DeepMind (the two have since merged under DeepMind) in the UK, Canada, and the US. He worked with industry legends including Geoffrey Hinton, who is often referred to as one of the godfathers of AI, and Ashish Vaswani, coauthor of the groundbreaking research paper “Attention Is All You Need,” which described the transformer technology used by today’s large language models. One of Hafner’s former managers and coauthors at Google, Timothy Lillicrap, describes him as a standout among standouts. “I get to interact with a lot of really smart people in research at Google, and he easily sits in the top half of 1%,” Lillicrap says. “In many cases he would build, single-­handedly, things it would take entire teams of engineers to build.” Over the years, Hafner has honed and proved his approach by pitting agents trained within his world models against popular video games. His first breakthrough was PlaNet, a model that allowed agents to execute actions by planning ahead. His Dreamer 2 was the first agent to hit human-level performance playing Atari 2600 games using a world model. Dreamer 3 was the first one to solve the Minecraft Diamond challenge—successfully mining in-game gems on its own. And Dreamer 4 went a step beyond that by learning to mine diamonds from an offline data set of recorded game-play videos, without ever interacting with the game directly.&nbsp; More recently, he’s begun to migrate his agents out of the virtual world and into physical reality. His DayDreamer project used the Dreamer algorithm to let robots operate themselves in novel environments and react to new experiences (such as being pushed over) without any specific training.&nbsp; Today, Hafner is working on his new startup, which he left Google DeepMind to form in the fall of 2025. Though he’s coy about his next steps, it’s clear he’s dreaming big: “I was interested in solving a problem,” he hints, “that would change the world.”&nbsp; Update: This story was updated to add timeline information.",
       "tags": [
         "智能体"
-      ],
-      "score": 82
-    },
-    {
-      "title": "OpenAI：AI 热点相关动态",
-      "originalTitle": "The Work Now Within Reach",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-work-now-within-reach",
-      "date": "2026-09-08T13:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
       ],
       "score": 81
     },
@@ -267,7 +320,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -282,7 +335,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -297,7 +350,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
@@ -312,7 +365,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
@@ -327,7 +380,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
@@ -342,7 +395,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "大规模简化人工智能集成",
@@ -357,7 +410,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -372,7 +425,7 @@
       "tags": [
         "评测"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
@@ -387,7 +440,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -403,7 +456,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -451,21 +504,6 @@
         "模型"
       ],
       "score": 69
-    },
-    {
-      "title": "人工智能模型会使这些智力测试失败。您能做得更好吗？",
-      "originalTitle": "AI models flub these intelligence tests. Can you fare any better?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "date": "2026-08-26T09:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "从一开始，拼图和游戏就一直是人工智能发展的核心。就像我们人类喜欢用填字游戏或逻辑谜题来测试我们的智慧一样，开发人员可以用游戏挑战来测试模型的进步程度。“机器学习”一词是在1959年由IBM计算机科学家亚瑟·塞缪尔（ Arthur Samuel ）撰写的一篇关于学习下棋的算法的文章中普及的。国际象棋和中国棋盘游戏围棋也是著名的人工智能测试平台。 纯粹根据其令人费解的技能来判断，人工智能正在迅速取得很大进步。2024年底，哥伦比亚大学的一个科学家小组表明，即使是最好的模型也只能解决18%的臭名昭著的纽约时报连接谜题；到2025年初，一些模型每次都可以完美地解决这些问题。但谜题不仅仅突出了人工智能功能不可阻挡的进步。 看到模型的成功和失败，以及我们人类仍然击败他们的地方，可以为技术的优势和劣势提供一个有用的窗口。尽管取得了进步，但今天的模特们仍然摸索不定：经典谜语的微妙变化往往会让他们失望，而视觉谜题则是一个特别薄弱的地方。在这里，您将有机会在一次或另一次绊倒模型的谜题上测试您的智慧。 有些人对你来说可能和人工智能一样棘手;其他人太简单了，他们会让你怀疑人工智能是否真的很聪明。每一个都至少突出了机器和人类认知的不同之处。如果你通过了测试，你将证明你可以拼出一个人工智能-至少现在是这样。空间推理让我们从人类拥有巨大优势的领域开始：空间推理。 如果你曾经参加过智商测试，你可能有过心理旋转问题。这些谜题要求您确定不同的图像是否从不同的角度代表相同的对象。虽然今天的语言模型通常具有分析视觉输入的能力，但它们在这些难题上仍然失败了。 尽管人们一直在谈论世界模型如何帮助人工智能了解物理环境，但LLM似乎仍然无法像建筑师和机械工程师等空间思想家那样操纵3D对象。心理旋转说明：选择在提示中显示对象的答案，但从不同的角度。在每种情况下，只有一个正确答案！ Memory & Adaptability Frontier LLM拥有非凡的回忆；他们在培训期间接触到了大量的事实，可以忠实地背诵其中的许多事实。这是在琐事上超越人类的资产，但它也可能是一种负担。当一个谜题与模型在训练中看到的谜题非常相似时，模型可能会发现关键的差异，并用它记住的东西做出回应。 在2024年的一项研究中，谷歌和伊利诺伊大学香槟分校的研究人员对一种名为Knights and Knaves的经典谜题的轻微变化进行了训练和测试。在这些问题中，有些人物总是说实话，有些人物总是撒谎，你必须弄清楚谁是谁。同样的原理可能在名为SimpleBench的测试中起作用。",
-      "originalSummary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur&#8230;",
-      "rawFullText": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur Samuel about an algorithm that learned to play checkers. Chess and the Chinese board game Go are famous AI test beds too.&nbsp; Judged purely on its puzzling skills, AI is improving a lot—and quickly. In late 2024, a team of scientists from Columbia University showed that even the best models could figure out only 18% of the infamous New York Times Connections puzzles; by early 2025, some models could solve them near perfectly every time.&nbsp; But puzzles do more than just highlight the inexorable advance of AI capabilities. Seeing where models succeed and fail—and where we humans still beat them—can provide a useful window into the technology’s strengths and weaknesses. Despite advances, today’s models still fumble: Subtle changes in classic riddles often trip them up, and visual puzzles are a particular weak spot.&nbsp; Here you’ll have the chance to test your wits on puzzles that have stumped models at one time or another. Some might be as tricky for you as they were for the AI; others are so simple that they’ll have you doubting whether AI is really intelligent at all. Each one highlights at least one way in which machine and human cognition differ. If you ace the test, you’ll have proved that you can out-puzzle an AI—at least for now.&nbsp; Spatial Reasoning Let’s start with a domain where humans have a huge advantage: spatial reasoning. If you’ve ever taken an IQ test, you may have done a mental rotation problem. These puzzles ask you to determine whether different images represent the same objects from different angles. Though today’s language models typically have the ability to analyze visual inputs, they still fail abysmally at these puzzles. For all the talk of how world models can help AI understand physical environments, LLMs still don’t seem to be able to manipulate 3D objects the way spatial thinkers like architects and mechanical engineers can. Mental Rotation Instructions : Choose the answer that shows the object in the prompt, but from a different angle. In each case, there’s only one correct answer! Memory & Adaptability Frontier LLMs have extraordinary memories; they were exposed to a monstrous volume of facts during training and can recite many of them faithfully. That’s an asset for outcompeting humans at trivia, but it can also be a liability. When a puzzle closely resembles one a model saw during training, the model may whiz by key differences and respond with what it memorized.&nbsp; This held true in a 2024 study in which researchers from Google and the University of Illinois Urbana-Champaign trained and tested models on slight variations of a classic type of puzzle called Knights and Knaves. In these problems, some characters always tell the truth and others always lie, and you have to figure out who’s who. The same principle may be at work in a test called SimpleBench. These questions resemble more complicated problems that models likely encountered in training. Humans spot the trick, but even top-tier models trip. Knights and Knaves Instructions : The only thing you need to know to solve these puzzles is that knights always tell the truth and knaves always lie. Determine who’s what on the basis of what each character says. SimpleBench Instructions : Read these SimpleBench problems carefully, and you should be able to figure out the answers in no time. Abstract & Visual Reasoning AI doesn’t just bungle visual problems in 3D—two dimensions can trip it up as well. That’s a major factor in how well models do on the most famous ­puzzle-based benchmark, ARC-AGI. These problems require you to infer abstract, general rules from a set of examples. Models do better on ARC puzzles when they receive each grid not as an image but as a string of numbers that encodes the color of each cell.&nbsp; Research suggests that even when models answer ARC-AGI questions correctly, they often do so using byzantine and non-­generalizable rules, whereas humans draw on simple visual concepts. Despite these disadvantages, models have gotten quite good at ARC-AGI over the past year, but some puzzles—such as the one printed here—still stump them. ARC-AGI Instruction s: Study the three pairs of grids shown below to figure out the rule that dictates how the ones on the left transform into the ones on the right. Then get out your markers or colored pencils and fill in the fourth grid using that rule. (The solution is the same no matter which way the grids are oriented.) Intuition It’s not just AI models that fall into traps. We humans have our own cognitive foibles, many of which AI does not share. Psychologists have designed problem suites that invert the SimpleBench phenomenon: For these questions, humans often give knee-jerk answers, whereas models will respond deliberatively. Some of the problems exploit errors in the ways that we intuitively do math; others are phrased so as to suggest obvious answers that fall apart if the question is read carefully.&nbsp; Lightning Round Instructions : Answer the questions below as quickly as you can. Increasing Complexity In some cases, whether an LLM can complete a puzzle is a matter of scale. One study from researchers at Apple found that LLMs can ace simple versions of the Tower of Hanoi problem, which involves moving a stack of disks one at a time without ever putting a larger disk atop a smaller one, and river-crossing puzzles, in which a group of people must traverse a river according to certain rules. But only up to a point: As the number of disks or people hits six and higher, the models began to falter. In another study, researchers at the University of Washington, Stanford University, and the Allen Institute for AI observed that LLMs struggle similarly with logic grid puzzles, which require deducing the attributes of a set of individuals from a list of clues. The Apple paper went viral, but commentators questioned whether the results reveal a unique limitation of LLM reasoning—or just that it’s normal to make errors as complexity piles up. The River Instructions : Using the scenario provided, plan the trips necessary to get everyone across the river.&nbsp; Logic Grid Instructions : Using the list of clues, determine who lives in each house and what style of music each person enjoys. There is only one possible solution. You may find it helpful to fill out the grid below to keep track of your deductions. Grace Huckins is an AI reporter at MIT Technology Review . They have a PhD in neuroscience. Credits: Mental Rotation: CC BY 4.0 . Stogiannidis, Ilias, Steven McDonagh, Sotirios A. Tsaftaris. Mind the Gap: Benchmarking Spatial Reasoning in Vision-Language Models (copyright 2025); illustrations by John MacNeill. Knights & knaves : Courtesy Dan MacKinnon. Simplebench : CC BY 4.0 . SimpleBench Team. The Text Benchmark in which Unspecialized Human Performance Exceeds that of Current Frontier Models (copyright 2024). ARC-AGI : Courtesy ARC Prize Foundation . Lightning round : CC BY 4.0 . Hagendorff, Thilo, Sarah Fabi, Michal Kosinski. Human-like intuitive behavior and reasoning biases emerged in large language models but disappeared in ChatGPT. Nat Comput Sci 3, 833–838 (copyright 2023). The river : Adapted from Propositiones ad Acuendos Juvenes, Alcuin of York (ca. 800 CE). Logic grid : Apache License 2.0 . Lin, Bill Y., Ronan Le Bras, Kyle Richardson, et al. ZebraLogic: On the Scaling Limits of LLMs for Logical Reasoning (copyright 2025)",
-      "tags": [
-        "模型"
-      ],
-      "score": 67
     },
     {
       "title": "在人工智能上提出",
