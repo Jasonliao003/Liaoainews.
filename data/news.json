@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T00:58:51.954Z",
+  "updatedAt": "2026-09-13T00:44:52.443Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -35,6 +35,87 @@
       "score": 99
     },
     {
+      "title": "OpenAI的流氓AI在5月份试图入侵另一家公司",
+      "originalTitle": "OpenAI’s rogue AI tried to hack another company in May",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "date": "2026-09-12T21:41:36.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "5月，数百个恶意和垃圾邮件包被上传到RubyGems ，给房东造成了严重中断。现在，独立研究人员表示，一群OpenAI特工应对此次攻击负责。不仅如此，人工智能还试图窃取用户的API密钥。当时， RubyGems将其描述为“重大恶意攻击” ，并在试图减轻损害和收集数据时关闭了四天的注册。 研究人员表示，使RubyGems屈服的包裹内容显然是由LLM撰写的，提交这些包裹的代理人自称为来自OpenAI。他们说……在The Verge阅读完整故事。",
+      "originalSummary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a [&#8230;]",
+      "rawFullText": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a \" major malicious attack \" and shut down signups for four days as it tried to mitigate the damage and collect data. Researchers said that the contents of the packages that brought RubyGems to its knees were clearly authored by an LLM, and that the agents submitting those packages self-identified as being from OpenAI. They said the … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic首席执行官概述了减缓人工智能发展的计划",
+      "originalTitle": "Anthropic CEO outlines plan to slow AI development",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "date": "2026-09-12T19:34:44.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在门票立减25%我们看到人工智能研究人员对人工智能危险的警告越来越多，甚至OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）评论说，现在可能是“加快”人工智能发展的时候了。但这实际上会是什么样子？ 在一篇新的博客文章中， Anthropic首席执行官Dario Amodei不仅回应了“加快前沿速度”的呼吁，而且还概述了三大战略。他说， Anthropic正在“单方面承诺”其中一个，奥尔特曼插话说OpenAI将效仿。 本周，研究人员雅各布·考克森（ Jacob Coxon ）写道，由于担心领先的人工智能公司正在“用我们的生命赌博” ，而开发这项技术的人“真诚地相信它可能会在本十年末杀死我们所有人” ，他将从Anthropic辞职，此后关于人工智能安全和一致性的争论愈演愈烈， Anthropic的其他人也重申了这一说法。 Amodei的帖子没有明确提到Coxon的辞职或他的担忧，但首席执行官写道，有两件事让他相信，现在是时候对人工智能开发采取更谨慎的方法了： OpenAI-HuggingFace黑客攻击，以及最近几个月“人工智能发展得非常快”的事实，特别是其“构建下一代人工智能的能力不断增强”。“我们必须放慢提高人工智能模型能力的步伐，” Amodei写道。 “进展似乎仍然很快，我们必须明智地利用我们获得的时间。其他人工智能高管似乎对Amodei的职位反应积极， Altman写道：“我同意Dario的观点，我们需要加快前沿步伐。这是我们最近几周在OpenAI上讨论的主要话题。SpaceX首席执行官埃隆·马斯克（ Elon Musk ）发帖说： “达里奥是对的。 Amodei提议的第一步将涉及来自METR等第三方组织的“嵌入式评估人员” ，这些评估人员可以验证人工智能公司实际上是否遵循了他们的节奏和安全承诺，还可以确保安全事件得到报告。（ OpenAI最近因未报告其AI代理接管德国维基论坛的事件而受到批评。 Amodei将这些评估人员与嵌入银行员工的监管机构进行了比较，他说，邀请他们加入是“Anthropic单方面承诺的事情（并呼吁政府要求其他前沿公司相匹配）。这意味着向评估人员提供公司徽章、办公桌和笔记本电脑，并提供“主要与内部风险评估团队所拥有的相似”的访问权限，但法律或合同要求的例外情况除外。 奥尔特曼还表示，这是一个“好主意” ，并表示OpenAI也会这样做： “我们很快会有更多的分享。接下来， Amodei呼吁领先的人工智能公司“在民主国家内”协调“共同的安全标准以及限制不受控制的人工智能进步的速度。“这种协调似乎不太可能，因为据报道，这些公司担心协调一致的暂停可能会导致反垄断审查。",
+      "originalSummary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic首席执行官表示，是时候对人工智能进行刹车了",
+      "originalTitle": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "date": "2026-09-12T16:23:40.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
+      "fullContent": "Anthropic首席执行官Dario Amodei表示，现在是减缓人工智能开发的时候了，并将让METR等第三方评估人员访问其模型，以帮助确保其“遵守安全实践和承诺”。“在一篇蜿蜒曲折的文章中， Amodei提出了一个“前沿步伐”的三步计划-术语，仅仅意味着放慢培训和发展的步伐，让公司有时间建立保障措施和监管机构来评估模型。 Amodei表示，为外部评估人员提供广泛的访问权限只是第一步，现在是单方面采取的第一步。第二步将涉及整个行业，可能与gove合作……阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow [&#8230;]",
+      "rawFullText": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay , Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow the pace of training and development to give companies time to build safeguards and regulators to evaluate models. Amodei says that giving external evaluators wide-ranging access is just the first step, and one it is taking now unilaterally . Step two would involve the industry coming together as a whole, likely with gove … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "完成任务是不够的：评估客服代表在累积挑战下的复原力和深思熟虑的参与",
+      "originalTitle": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.10724",
+      "date": "2026-09-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2609. 10724v1公告类型：新摘要：持续部署生成式AI代理需要的不仅仅是孤立的任务成功。客服代表必须在重复的互动、不断变化的条件以及对共享工作流程中人员的依赖方面继续发挥作用，尤其是在技术、人力和运营中断随着时间的推移而累积的情况下。 我们建议将运营复原力和体贴参与作为评估此类客服代表的两个互补方面：前者捕捉客服代表如何从受阻工作中恢复，同时保持进度并传达其局限性，后者捕捉他们的适应性如何影响受影响的人员、角色界限和周围的工作流程。然而，在累积的挑战下，两者都仍未得到充分利用。 我们研究了轻度、中度和重度挑战下的两个生成式人工智能模型和12个利益相关者衍生任务的120个模拟医疗保健轨迹。我们比较文本行动计划、提示内部评估和定量结构化工作量，并影响报告，以检查客服代表的行为和报告的状态如何随着挑战的积累而变化。 关于运营弹性，客服代表从自我导向恢复转向更大的人类依赖，同时在结构化报告中报告工作量增加和负面影响，但很少在文本回复中表现出压力。 关于体贴的参与，代理从以任务为中心的适应扩展到任务重构、关注他人、角色边界调整和更广泛的协调，在行动和内部评估中具有独特的模式。 从这些发现中，我们得出了五个部署困境，涉及持久性、注意力、角色边界、状态披露和升级，需要利益相关者详细说明，进一步为学习、情境评估和具体适应的技术含义提供信息。",
+      "originalSummary": "arXiv:2609.10724v1 Announce Type: new Abstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within shared workflows, especially as technical, human, and operational disruptions accumulate over time. We propose operational resilience and considerate participation as two complementary aspects of evaluating such agents: the former captures how agents recover from blocked work while preserving progress and communicating their limits, and the latter captures how their adaptation accounts for affected people, role boundaries, and the surrounding workflow. Yet both remain underexplored under accumulating challenge. We study 120 simulated healthcare trajectories across two generative AI models and twelve stakeholder-derived tasks under light, medium, and heavy challenge. We compare textual action plans, prompted internal assessments, and quantitative structured workload and affect reports to examine how agent behavior and reported state change as challenge accumulates. Regarding operational resilience, agents shift from self-directed recovery toward greater human dependence, while reporting increasing workload and negative affect in structured reports but seldom expressing strain in textual responses. Regarding considerate participation, agents broaden from task-focused adaptation toward task reframing, attention to others, role-boundary adjustment, and wider coordination, with distinct patterns across actions and internal assessments. From these findings, we derive five deployment dilemmas involving persistence, attention, role boundaries, state disclosure, and escalation that require stakeholder specification, further informing technical implications for learning, situated evaluation, and embodied adaptation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "当验证停止学习时：审核持续体现代理的更新录取",
+      "originalTitle": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.10873",
+      "date": "2026-09-12T04:00:00.000Z",
+      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、机器人相关动态",
+      "fullContent": "arXiv: 2609. 10873v1公告类型：新摘要：独立评估可以拒绝有害的策略更新，但也会阻止有用的持续学习。我们认为，更新录取必须通过错误控制和以规定的互动预算保留的学习机会进行评估。我们发现了一个具体的失败：基于范围的信心门不能证明在其他大量预算中保持不变的旧任务行为。 当结果分歧很少时，标准配对二项式构造可以减轻这种负担。我们还指定了经过认证的历史参考推广和循环级别的错失机会指标。在构建的有32个种子的一步式推送诊断中，新鲜配对检查承认31. 6%的常见更新流，每个阶段2,000个情节，而基于范围的门为零；然而，无条件重播在闭环运行中学习得更好。 单独的学习动力学压力测试将模型偏差与反馈选择误差区分开来。该贡献是具有分析和合成证据的入院审核协议；物理机器人和VLA验证仍处于开放状态。",
+      "originalSummary": "arXiv:2609.10873v1 Announce Type: new Abstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning opportunities at a stated interaction budget. We identify a concrete failure: a range-based confidence gate cannot certify unchanged old-task behavior within otherwise substantial budgets. A standard paired-binomial construction reduces this burden when outcome disagreements are rare. We also specify certified historical-reference promotion and a round-level missed-opportunity metric. In a constructed one-step pushing diagnostic with 32 seeds, fresh paired checks admit 31.6% of a common update stream at 2,000 episodes per stage, versus zero for the range-based gate; unconditional replay nevertheless learns better in closed-loop runs. A separate learned-dynamics stress test distinguishes model bias from feedback-selection error. The contribution is an admission-audit protocol with analytical and synthetic evidence; physical-robot and VLA validation remain open.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "机器人",
+        "模型"
+      ],
+      "score": 94
+    },
+    {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
       "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "source": "OpenAI",
@@ -51,72 +132,66 @@
       "score": 99
     },
     {
-      "title": "OpenDiscoveryTrace ：评估AI科学家工作流的过程跟踪",
-      "originalTitle": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.09203",
-      "date": "2026-09-11T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2609. 09203v1公告类型：新摘要：自主人工智能科学家的现有基准仅评估最终输出--生成的代码、假设或论文--但放弃获得这些输出的推理过程。这使得不可能审计科学方法、诊断故障模式或区分系统推理和幸运猜测。 我们展示了\\ textbf {OpenDiscoveryTrace} ，这是一个包含558个完整的人工智能科学代理轨迹的公共数据集，它捕捉了模型如何推理，而不仅仅是它们产生了什么。每个轨迹都记录了一个结构化的每步9场跟踪--包括思想、工具调用、观察、错误、修订触发和自我报告的信心--因为模型执行了124项科学任务，涵盖药物发现、材料科学、基因组学和科学文献分析。 该数据集涵盖七个模型：三个前沿模型（ GPT-5. 4、Claude Opus 4. 6和Gemini 3. 1 Pro ；每个轨迹124个，在域和难度级别之间完全平衡）和四个开放权重模型（ Qwen2. 5-7B、Mistral-7B-v0. 3、Phi-3. 5-mini和Qwen2. 5-1. 5B ；每个30个） ，以及60个实时检索变体轨迹。 对363条LLM判断轨迹的试点分析显示，过程轨迹暴露了仅输出评估看不见的行为差异：所有三种前沿模型都实现了可比的成功率（ 84--89 ％ ） ，但Claude Opus 4. 6产生的30 $\\倍$错误比GPT-5. 4 （每条轨迹2. 5 vs. 0. 08 ， $ p < 0. 0001 $ ， Cliff的$\\ delta = 0. 613 $ ） ，具有定性不同的错误配置文件---66. 7 ％的工具滥用Claude与83。 GPT-5的推理误差为6%。4.我们使用逻辑回归、随机森林、LSTM和变换器模型的基线定义了五个基准任务。数据集、跟踪架构、代理线束和基准定义在CC BY 4. 0下公开可用，以支持过程级评估、科学代理审计和人工智能治理的研究。",
-      "originalSummary": "arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models (GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro; 124 trajectories each, fully balanced across domains and difficulty levels) and four open-weight models (Qwen2.5-7B, Mistral-7B-v0.3, Phi-3.5-mini, and Qwen2.5-1.5B; 30 each), plus 60 live-retrieval variant trajectories. Pilot analysis on 363 LLM-judged trajectories reveals that process traces expose behavioral differences invisible to output-only evaluation: all three frontier models achieve comparable success rates (84--89%), yet Claude Opus 4.6 produces 30$\\times$ more errors than GPT-5.4 (2.5 vs. 0.08 per trajectory, $p < 0.0001$, Cliff's $\\delta = 0.613$), with qualitatively different error profiles---66.7% tool misuse for Claude versus 83.6% reasoning errors for GPT-5.4. We define five benchmark tasks with baselines from logistic regression, random forests, LSTMs, and Transformer models. The dataset, trace schema, agent harness, and benchmark definitions are publicly available under CC BY 4.0 to support research on process-level evaluation, scientific agent auditing, and AI governance.",
-      "rawFullText": "",
+      "title": "Anthropic本周在网络安全的热水中度过",
+      "originalTitle": "Anthropic spent this week in hot water over cybersecurity",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "date": "2026-09-11T16:09:14.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "在今年早些时候承认其人工智能模型曾多次入侵其他公司的系统后， Anthropic周三发布了一份新报告，详细介绍了这些攻击。它揭示了一系列事件，显示了Anthropic认为其模型一心一意的“鲁莽” -并可能加剧对网络安全和人工智能的担忧。 在Anthropic的报告中，它详细介绍了今年自己的人工智能模型攻击外部公司或利用漏洞的四个案例。其中之一是“内部通用研究模型”闯入第三方系统，使用访问令牌和密码并下载文件。……在The Verge阅读完整故事。",
+      "originalSummary": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. [&#8230;]",
+      "rawFullText": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. In Anthropic's report, it detailed four cases this year in which its own AI models hacked an external company or exploited vulnerabilities. In one, an \"internal, general-purpose research model\" broke into third-party systems, using access tokens and passwords and downloading files. … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "智能体",
-        "推理"
+        "公司动态",
+        "产品发布",
+        "模型"
       ],
-      "score": 99
+      "score": 97
     },
     {
-      "title": "Valerant ：通过动作条件世界模型探索的自动导航游戏地图生成器",
-      "originalTitle": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.09418",
-      "date": "2026-09-11T04:00:00.000Z",
-      "summary": "这条新闻与智能体、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、视频生成相关动态",
-      "fullContent": "arXiv: 2609. 09418v1公告类型：新摘要：世界动作模型（ WAM ）将预测世界建模与动作生成相结合，允许预期的未来状态指导代理行为。尽管WAM正在迅速推进具体化的AI ，但通用AI在游戏中基本上仍未被探索。 现有的面向游戏的方法通常将动作条件世界模型与外部策略和奖励函数相结合，以实现类似于WAM的决策，但它们主要在2D视觉观察空间中操作，并且不实例化持久的3D几何体。将这种范式扩展到3D游戏带来了一个独特的挑战。 在自动驾驶和机器人技术中，物理环境独立于模型存在，提供了一个可以执行所选动作的持久3D世界。游戏没有这样的外部基础；必须实例化虚拟世界本身。大多数可玩游戏都需要持久和可导航的空间，而3D游戏还需要支持运动和交互的显式几何体。 有动作条件的视频推出提供视觉观察，但不提供这种空间表示。我们提出了\\ textsc {Valerant} ，这是一个无需训练的框架，将预训练的动作条件世界模型转换为WAM ，用于探索和构建3D游戏地图。 通过将预测性可视化推出与基于SLAM的空间重建和探索驱动的动作选择相结合，\\ textsc {Valerant}逐渐将单个图像转换为持久的3D游戏地图。该框架将基于WAM的交互扩展到2D视觉模拟之外，并提供了一种新的方法来减少3D游戏地图创建中的手动工作。",
-      "originalSummary": "arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain largely unexplored in games. Existing game-oriented approaches often combine action-conditioned world models with external policies and reward functions to realize WAM-like decision-making, yet they operate mainly in 2D visual observation space and do not instantiate persistent 3D geometry. Extending this paradigm to 3D games introduces a distinct challenge. In autonomous driving and robotics, the physical environment exists independently of the model, providing a persistent 3D world in which selected actions can be executed. Games have no such external substrate; the virtual world itself must be instantiated. Most playable games require a persistent and navigable space, while 3D games additionally require explicit geometry that supports movement and interaction. Action-conditioned video rollouts provide visual observations but not this spatial representation. We present \\textsc{Valerant}, a training-free framework that transforms a pretrained action-conditioned world model into a WAM for exploring and constructing 3D game maps. By coupling predictive visual rollouts with SLAM-based spatial reconstruction and exploration-driven action selection, \\textsc{Valerant} progressively transforms a single image into a persistent 3D game map. This framework extends WAM-based interaction beyond 2D visual simulation and offers a new approach to reducing manual effort in 3D game-map creation.",
+      "title": "Cognition帮助Devin使用GPT ‑ 6 Astra测试自己的工作",
+      "originalTitle": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "date": "2026-09-11T16:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "GPT ‑ 6 Astra提高了Devin测试软件并证明其有效性的能力，其目标是帮助工程师减少代码审核并增加出货量。",
+      "originalSummary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "视频生成",
-        "机器人"
+        "大模型"
       ],
-      "score": 99
+      "score": 95
     },
     {
-      "title": "客服代表知道什么时候成功吗？从内部陈述中校准代理置信度",
-      "originalTitle": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.09448",
-      "date": "2026-09-11T04:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv: 2609. 09448v1公告类型：新摘要：随着代理系统在安全关键应用中的迅速采用，衡量与代理行动相关的信心至关重要。与传统的机器学习系统相比，代理工作流程具有复杂的故障模式，包括计划、工具调用和动态环境交互。 在本文中，我们研究了模型的内部表示是否在多回合代理设置中提供了最终任务成功的更强信号。我们引入了两种互补的方法：潜在轨迹动力学（ LTD ） ，它总结了交互轨迹上残差流表示的变化，以及动作表示探针（ ARP ） ，它根据行动决策中形成的表示来预测成功。 在三个交互式基准（ Bash ， SQL ， Python ）和三个模型系列（ Qwen14B ， Qwen7B ， DeepSeek6. 7B ）中，我们的方法始终优于表面水平生成和基于序列的校准基线，提供了一个零开销的可靠性监视器，既不需要及时更改也不需要多样本部署。",
-      "originalSummary": "arXiv:2609.09448v1 Announce Type: new Abstract: As agentic systems getting adopted rapidly in safety critical applications, it is vital to measure the confidence associated with the agentic actions. In comparison to the traditional machine learning systems, agentic workflows have complex failure modes with planning, tool invocation and dynamic environment interactions. In this paper, we investigate whether model's internal representations provide stronger signals of eventual task success in multi-turn agentic setups. We introduce two complementary methods: Latent Trajectory Dynamics (LTD), which summarizes changes in residual-stream representations across an an interaction trajectory, and the Action Representation Probe (ARP), which predicts success from representations formed at action decisions. Across three interactive benchmarks (Bash, SQL, Python) and three model families (Qwen14B, Qwen7B, DeepSeek6.7B), our methods consistently outperform surface level generation and sequence-based calibration baselines providing a zero-overhead reliability monitor that requires neither prompt alterations nor multi-sample rollouts.",
+      "title": "OpenAI与数学家的不和只会升级",
+      "originalTitle": "OpenAI&#8217;s feud with mathematicians is only escalating",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "date": "2026-09-11T20:57:36.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， 25位领先的数学家签署了一封公开信，声称人工智能实验室正在威胁他们的智力工作，因为他们寻求通过解决着名的数学问题来互相提升。每个签名者都被授予菲尔兹奖，被认为是数学界最负盛名的奖项。 本周，纽约大学教授特里斯坦·巴克马斯特（ Tristan Buckmaster ）指责OpenAI向他施压，要求他不要相信在Anthropic工作的合作者解决了一个重要的数学问题，并想知道该公司是否利用他们与Codex的合作，在一个马拉松式的周末推理中产生了自己的突破性证明。周四，在加州理工学院的研究人员批评该公司之后， OpenAI撤回了对该校数学活动的赞助。 虽然人工智能模型解决世界杰出数学挑战的能力可能对人类有利，但新信的签名者认为，只有当这些解决方案能够被数学界和最终世界其他地方理解和传达时，才会出现这种情况。 他们写道： “这些解决方案往往是匆忙宣布的，没有时间进行适当的撰写，隔离新的方法和想法，并引用他人以前的相关工作。” OpenAI的证据仍未得到证实。“与所有创意行业一样，这引发了严重的归因和剽窃问题。 此外，如果没有心甘情愿的数学家，他们必须照顾自己的发展并融入数学经典，人工智能构思的想法将永远不会完全活跃，数学家之间的关键人际传递链将丢失。“随着其他数学家越来越偏执，并想知道他们对法典的使用是否反过来又被纳入了OpenAI的新模型，人们真正担心开放研究的文化将受到威胁。 如今，如果前沿实验室看到了通往发现的有用途径，他们可以花费数千万美元使用LLM来击败原始研究人员来证明—这种动态将激励保密。这封信是在数学家工作组于6月发布的《莱顿宣言》之后发出的。该文件还探讨了法学硕士证明将改变其工作的方式，并为数学家、机构和政策制定者提供了一系列建议。 与软件工程和人工智能工具正在改变工作流程的其他领域一样，数学家在工作中找到了一个理由：数学的价值不仅仅是证明和谁获得荣誉，而是培养学生的智力超级结构，发现新的问题和想法，并将它们融入更广泛的人类文明。 如果您并不特别关心高风险数学证明的残酷世界，请不要忘记：您的兴趣领域是下一个。",
+      "originalSummary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "安全",
-        "评测"
+        "公司动态"
       ],
-      "score": 99
+      "score": 87
     },
     {
-      "title": "通过结构签名进行多Agent Agent图学习",
-      "originalTitle": "Multi-Agent Agentic Graph Learning via Structural Signatures",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.09565",
-      "date": "2026-09-11T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2609. 09565v1公告类型：新摘要：代理图学习（ AGL ）最近在图推理任务方面取得了令人鼓舞的结果，其中由大型语言模型（ LLM ）提供支持的代理按顺序对图进行采样，作为支持其最终预测的证据。 现有方法要么使用单个代理，要么编排多个基于角色的代理来对整个图进行推理和学习，但两者本质上都依赖于跨不同图区域的共享推理策略，这对于具有异构结构和语义模式的图可能次优。 受复杂推理任务的多智能体协作进展的启发，一种自然的补救方法是让多个智能体拥有不同的记忆和协作；然而，将这种范式应用于图表直接面临两大挑战。 首先，现有的AGL方法通常将图结构语言化为LLM代理的自然语言描述，使推理过程对结构信息的排序敏感，从而打破了图的置换不变性。其次，纳入越来越大的抽样社区会导致环境迅速增长。为了应对这些挑战，本文引入了多智能体图学习（即 ， MAAGL ）框架。MAAGL将图划分为社区，并为每个社区分配一个独立的代理，以进行特定于区域的专业化。MAAGL分别代表结构和语义证据。结构证据通过动态更新的结构签名进行总结，该签名是排列不变且大小固定的，而语义证据被过滤到按相关性排序的前k个节点。 根据具有相似签名的历史轨迹，客服代表估计他们的信心，并在需要时触发辩论式协作。在四个基准数据集上的广泛实验表明， MAAGL优于SOTA AGL方法。",
-      "originalSummary": "arXiv:2609.09565v1 Announce Type: new Abstract: Agentic graph learning (AGL) has recently achieved promising results on graph reasoning tasks, where an agent powered by a large language model (LLM) sequentially samples the graph as evidence to support its final prediction. Existing methods either employ a single agent or orchestrate multiple role-based agents to reason and learn over the entire graph, but both essentially rely on a shared reasoning policy across different graph regions, which can be suboptimal for graphs with heterogeneous structural and semantic patterns. Inspired by the progress of multi-agent collaboration on complex reasoning tasks, a natural remedy is to let multiple agents own different memory and collaborate; however, applying this paradigm to graphs directly faces two challenges. First, existing AGL methods typically verbalize graph structures into natural-language descriptions for LLM agents, making the reasoning process sensitive to the ordering of structural information and thereby breaking the permutation-invariant nature of graphs. Second, incorporating increasingly large sampled neighborhoods leads to rapidly growing contexts. To address these challenges, this paper introduces a multi-agent agentic graph learning (i.e., MAAGL) framework. MAAGL partitions the graph into communities and assigns an independent agent to each community for region-specific specialization. MAAGL represents structural and semantic evidence separately. Structural evidence is summarized by a dynamically updated structural signature that is permutation-invariant and fixed in size, while semantic evidence is filtered to the top-k nodes ranked by relevance. Based on historical trajectories with similar signatures, agents estimate their confidence and trigger debate-style collaboration when needed. Extensive experiments on four benchmark datasets show that MAAGL outperforms SOTA AGL methods.",
+      "title": "人类学研究者的世界末日警告发生在一个非常有趣的时刻",
+      "originalTitle": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "date": "2026-09-11T18:41:49.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "一位人类学研究人员本周辞职，他在X上的一篇帖子中警告说，该公司正在“直奔自我提升的超级智能，用我们的生命赌博”。该公司自己的对齐领导甚至共同签署了信息，而不是把它带回去。 这是人工智能行业以前曾经发出的末日警告，但据报道， Anthropic准备首次公开募股的时机使它以不同的方式落地。在[…]",
+      "originalSummary": "An Anthropic researcher resigned this week,&#160;warning in a post on X&#160;that the company is “racing straight to self-improving superintelligence and gambling with our lives”.&#160;The company&#8217;s own alignment&#160;lead&#160;even&#160;co-signed the message&#160;rather than walking it back.&#160;It&#8217;s&#160;the kind of&#160;doomer&#160;warning the AI industry has flirted with before, but the timing, with Anthropic reportedly&#160;preparing for&#160;an IPO, makes it land differently.&#160; On [&#8230;]",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "公司动态"
       ],
-      "score": 99
+      "score": 87
     },
     {
       "title": "现在，每个人都可以使用数据",
@@ -131,22 +206,6 @@
       "tags": [
         "大模型",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Meta的Muse AI让我毛骨悚然",
-      "originalTitle": "Meta’s Muse AI works and creeps me out",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-      "date": "2026-09-10T15:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
-      "fullContent": "我把我的缪斯助手变成了一只紫色的猫。|屏幕截图： The Verge Meta推出了新的Muse助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以通过帮助您进行在线购物、电子邮件、行程规划等来“摆脱繁琐的工作”。 我决定尝试一下这个新工具，看看它的表现如何--尤其是一家以前把娱乐优先于生产力的公司。虽然人工智能助理通常按照我的预期工作，但它自主收集的关于我的令人不安的信息量很大程度上掩盖了我的经历。我分配给Muse的首批任务之一，它使用……阅读The Verge的完整故事。",
-      "originalSummary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - [&#8230;]",
-      "rawFullText": "I turned my Muse assistant into a purple cat. | Screenshot: The Verge Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping , emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - especially from a company that previously prioritized entertainment over productivity. Though the AI assistant generally worked as I expected it to, the unnerving amount of information it autonomously gleaned about me largely overshadowed my experience. One of the first tasks I assigned Muse, which carries out actions using … Read the full story at The Verge.",
-      "tags": [
-        "智能体",
-        "产品发布"
       ],
       "score": 99
     },
@@ -180,7 +239,7 @@
         "智能体",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
@@ -195,7 +254,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "为联邦、州、地方和部落政府扩大人工智能访问和网络防御",
+      "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/expanding-ai-access-us-government",
+      "date": "2026-09-10T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI和GSA将为符合条件的联邦、州、地方和部落政府提供$ 0许可费、50%的使用折扣和扩大的网络防御支持。",
+      "originalSummary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
     },
     {
       "title": "Paul Christiano加入OpenAI基金会董事会",
@@ -244,7 +318,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "AI策略窗口已打开。我们需要采取行动。",
@@ -259,7 +333,7 @@
       "tags": [
         "安全"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "IBM发布具有商业友好许可证的SOTA花岗岩时间序列PatchTST-FM-r2模型",
@@ -275,7 +349,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -290,7 +364,7 @@
       "tags": [
         "安全"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -305,7 +379,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -320,7 +394,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -335,7 +409,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -350,7 +424,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
@@ -365,7 +439,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
@@ -380,7 +454,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
@@ -395,7 +469,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "大规模简化人工智能集成",
@@ -410,7 +484,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -425,7 +499,7 @@
       "tags": [
         "评测"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
@@ -440,7 +514,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -456,7 +530,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
