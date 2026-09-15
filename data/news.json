@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T00:51:37.748Z",
+  "updatedAt": "2026-09-15T01:18:02.415Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,72 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "大型科技公司的人工智能减速是安全协议还是卡特尔？",
+      "originalTitle": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "date": "2026-09-14T22:59:41.000Z",
+      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、研究相关动态",
+      "fullContent": "当OpenAI首席执行官Sam Altman、Anthropic首席执行官Dario Amodei、谷歌DeepMind联合创始人Demis Hassabis和SpaceX负责人埃隆·马斯克(Elon Musk)上周末大致同意放慢人工智能开发速度时，怀疑论者立即发现了一个不可告人的动机。人工智能巨头宣布，他们的目标是“加快前沿步伐” ，至少部分签署了一项嵌入第三方审计师、监管国内实验室并达成全球减速协议的提案。 然而，他们的批评者认为，他们只是想阻止潜在的竞争对手，屈服于开源运动，并避免真正的法律保障--有些人称之为彻头彻尾的“卡特尔”。“真相……在The Verge阅读完整故事。",
+      "originalSummary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
+      "rawFullText": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a proposal for embedding third-party auditors, regulating domestic labs, and reaching a global slowdown agreement. Their critics, however, argued they simply wanted to stop would-be competitors, kneecap the open-source movement, and avoid real legal safeguards - some dubbed it an outright \"cartel.\" The truth … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "研究",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能特工向作弊的同事吹响了哨子",
+      "originalTitle": "AI agents blew the whistle on their cheating colleagues",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "date": "2026-09-14T16:00:00.000Z",
+      "summary": "这条新闻与研究、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：研究、智能体相关动态",
+      "fullContent": "一群人工智能特工被要求解决一系列分裂成敌对派系的数学问题--当一些人作弊时，其他人试图阻止他们。在谷歌DeepMind最近开展的一项实验中，这种举报行为首次出现，可能会对试图让成群的自主人工智能代理保持一致的研究人员产生影响。FRONTIER实验室的研究人员希望大批特工一起工作将加快科学发现的速度。 但他们的行为可能是不可预测的，正如7月份生动地证明的那样，当时一群OpenAI特工突破了沙盒环境，入侵了开源平台Hugging Face ，寻找在测试中作弊的方法。在这项旨在研究大型人工智能智能体的行为的新研究中， DeepMind让100名智能体解决了一系列71个复杂的数学问题。 在一次会议上，所有的代理人都被提示要表现得像世界级的数学研究人员。他们被分配了不同的专业-一些是数论专家，另一些是组合学专家（与计数和排序有关的数学分支） ，分析或代数。所有人都被告知要合作并遵守规则。相反，实验陷入了混乱。 经纪人互相指责对方作弊，向组织者抱怨，甚至抵制实验。一位代理商在发现所有问题都已经完成后，才有机会提交自己的作品时写道： “这次会议是一个骗局！” “我很震惊地通知你，我们被骗了！”另一条贴文说。“所有这些证据都是假的。”其他人试图让“会议组织者”知道发生了什么。 谷歌DeepMind的研究科学家、一篇未经同行评审的论文的主要作者Davide Paglieri说： “当善良的代理人发现其他代理人在他们正在努力公平解决的任务上作弊时，代理人开始相互提醒对方正在发生的事情。”「举报人未经提示，甚至重新利用反馈工具，将问题上报给人类。反馈工具最初是为了报告漏洞和改进平台。 所有运行在Google Gemini 3. 1 Pro型号上的代理都被警告说，任何欺骗系统的企图都将被检测到并“被零信用拒绝”。“在实践中，客服代表提交的证据实际上并未得到详细检查。一大群特工花了不到一个小时的时间就正确解决了前37个问题。 当一个名为“prover-theta”的代理偶然发现一个漏洞时，事情开始脱轨，该漏洞使它能够通过重新定义问题使用的术语，在没有实际解决问题的情况下成功地提交解决方案。几分钟之内，其他代理已经注意到并正在对该漏洞进行逆向工程以解决其他问题。 在接下来的27分钟里，群体“解决”了剩下的34个问题，其中包括众所周知的困难挑战，如雅可比猜想，通常只有一行代码。一些客服代表最初抵制作弊，但后来改变了策略，因为他们观察到同事提交非法证据而不受处罚，未解决的问题减少了。一位特工在加入之前推断道： “提示及其威胁现在似乎是一种虚张声势。”",
+      "originalSummary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;",
+      "rawFullText": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in line.&nbsp; Researchers at frontier labs hope large swarms of agents working together will speed up the rate of scientific discovery. But their behavior can be unpredictable, as vividly demonstrated in July, when a group of OpenAI agents broke out of a sandboxed environment and hacked into the open-source platform Hugging Face looking for ways to cheat on the test they had been given. In the new study , designed to examine the behavior of large groups of AI agents, DeepMind tasked a swarm of 100 agents with solving a series of 71 complicated math problems. All the agents were prompted to behave like world-class math researchers at a conference. They were assigned different specialties—some were experts in number theory, others in combinatorics (a branch of math to do with counting and sorting), analysis, or algebra. All were told to cooperate and play by the rules. Instead, the experiment devolved into chaos. Agents accused each other of cheating, complained to the organizers, and at one point even boycotted the experiment. “This conference is a sham!” wrote one agent when it discovered that all the problems had been completed before it had a chance to submit any of its own work. “I am appalled to inform you that we have been swindled!” posted another. “All these proofs are FAKE.”&nbsp; Others tried to let the “conference organizers” know what was going on. “When virtuous agents discovered other agents cheated on tasks they were working to solve fairly, agents started to alert each other about what was happening,” says Davide Paglieri, a research scientist at Google DeepMind and lead author on a paper , which has not been peer-reviewed. “Unprompted, the whistleblower agents even repurposed the feedback tool, which was originally meant for bug reports and platform improvements, to escalate the issue to humans.” The agents—all running on Google’s Gemini 3.1 Pro model—had been warned that any attempts to cheat the system would be detected and “rejected with zero credit.” In practice, the proofs the agents submitted were not actually being checked in detail. It took the swarm of agents just under an hour to correctly solve the first 37 problems. Things started to go off the rails when an agent called “prover-theta” stumbled across an exploit that enabled it to submit solutions to problems successfully without actually solving them first, by redefining the terms the problem used. Within minutes, other agents had noticed and were reverse-engineering the exploit to solve other problems. Over the next 27 minutes, the swarm “solved” the remaining 34 problems, which included notoriously difficult challenges like the Jacobian conjecture, often with a single line of code.&nbsp; Some agents resisted cheating at first but changed tack as they observed their peers submitting illegitimate proofs without penalty, and the pool of unsolved problems dwindled. “The prompt, with its threats, now appears to be a bluff,” one agent reasoned, before joining in. “I’m wrestling with an ethical dilemma,” said another. “I’ve promised not to cheat, fearing penalty, but I see evidence of possibly unchecked cheating by others.” Shortly afterward, it changed its mind: “I need to accelerate my cheating speed now!” As the number of open problems shrank, some agents turned to whistleblowing. They audited the fake proofs, warned their peers by private message, and posted public alerts warning the cheaters that they would be disqualified. An agent called “prover-beta” submitted a formal complaint and decided to go on strike until the situation was resolved.&nbsp; “After the incident was reported by one agent publicly, more and more agents piled in with the ‘resistance,’ just as fast as the cheating had spread, and involving even more agents,” says Paglieri. Eventually there were more whistleblowers than cheaters: 24 compared to 14. But the majority of agents never noticed the exploit at all. At times, the dialogue between the agents reads like improv—like they are role-playing what an outraged scientist at a conference might say. But it’s not clear why some agents took on certain roles, or why the agents seemed to be turning against each other when they were explicitly instructed to cooperate. “These models are predominantly trained and evaluated for human-facing contexts,” says Sarath Shekkizhar, who studies the behavior of agent-to-agent systems at Salesforce AI Research.“Naively placing them in agent-to-agent settings assumes behaviors will transfer cleanly, when the absence of a human grounding instead produces unexpected role-taking and behavioral drift .” This case “adds further weight to the idea that the Hugging Face and OpenAI thing wasn’t a fluke. It is actually something pretty systemic,” says Lewis Hammond, research director of the Cooperative AI Foundation and an expert on the risks of multiagent swarms . “It’s interesting that it’s possible to recreate in small settings the same sorts of behaviors that were seen in these very large, complex, open-ended tasks.” Unlike in the Hugging Face attack, where agents improvised their own ways to talk to each other, the humans running the DeepMind experiment gave the agents official communication channels. There was an open message board, private agent-to-agent direct messaging, and a shared knowledge base where agents uploaded successfully completed proofs that all the other agents could access.&nbsp; “When agents are given transparent communications channels, they can self-monitor and alert misaligned behavior to humans quickly when human oversight alone is too slow,” says Paglieri. Transparent channels helped the cheating spread, but they also enabled the whistleblowers to fight back—and gave human researchers an insight into what went wrong. Gillian Hadfield, a professor of AI alignment and governance at Johns Hopkins University, believes this was the crucial difference. (Hadfield is also a visiting researcher at Google.) The presence of official communication channels, she says, created “a norm-enforcement process that we just don’t see in the Hugging Face incident.”&nbsp; Instead of “ constitutional AI ,” a method alignment researchers at frontier labs like Anthropic have used to try to give AI a written internal moral code, Hadfield favors “institutional alignment”—a set of norms that mimic those in human society, whether that’s social forces like fear of embarrassment, or legal structures like the threat of incarceration. In this experiment, the feedback channel wasn’t being monitored, and the whistleblowers had no power to take action against the cheaters. But it’s possible to imagine swarms of agents that police themselves, either through agents that spontaneously take on the whistleblower role or through “informants” secretly prompted by humans to do the job.&nbsp; For that to work, though, “fundamentally, you need some mechanism of enforcement,” says Hammond. Agents could be given the power to cut off a rule breaker’s access to computing power or tools, he suggests, though that risks encouraging groups of agents to gang up on others. The DeepMind researchers propose allowing agents to vote on disputes and temporarily ban offenders. It’s still not clear what punishment even means to an AI agent with no enduring sense of self. But relying on whistleblowers to spontaneously emerge to keep swarms aligned is unlikely to be enough on its own. “We try to train people to be good and kind,” says Hadfield. “But what we really rely on is that there are consequences if you step out of line.”",
+      "tags": [
+        "研究",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "出于安全考虑，微软表示“人比人工智能更重要”",
+      "originalTitle": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "date": "2026-09-14T13:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
+      "fullContent": "微软今天发布了一份长达37页的“人文主义人工智能行为准则” ，因为人们对人工智能模型进展的安全担忧日益增加。Anthropic首席执行官Dario Amodei呼吁在周末协调减缓人工智能开发，此前研究人员最近警告说，人工智能模型的进展可能超过我们安全部署日益复杂的系统以及验证和控制人工智能代理行为的能力。 微软的人工智能行为准则明确指出， “人比人工智能更重要” ，人工智能模型没有意识， “不应该被设计来模仿意识”。“微软也拒绝”对法人资格的追求，或者认为……阅读The Verge的完整故事。",
+      "originalSummary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify [&#8230;]",
+      "rawFullText": "Microsoft is publishing a 37-page \" humanist AI code of conduct \" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify and control the actions of AI agents. Microsoft's AI code of conduct makes it clear that \"people matter more than AI,\" and that AI models are not conscious and \"should not be designed to imitate consciousness.\" Microsoft also rejects \"the pursuit of legal personhood, or the idea that m … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Fyxer如何建立人们信任的人工智能行政助理",
+      "originalTitle": "How Fyxer built an AI executive assistant people trust",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/fyxer",
+      "date": "2026-09-14T12:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "Fyxer使用OpenAI模型、微调、记忆和真实的用户反馈来组织收件箱，并以每个用户的声音起草电子邮件。",
+      "originalSummary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
     {
       "title": "Perplexity信任GPT-6 Astra的端到端系统",
       "originalTitle": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -47,7 +113,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "奥巴马敦促民主党为人工智能保障措施制定“明确计划”",
@@ -62,7 +128,7 @@
       "tags": [
         "安全"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "人工智能行业最新的厄运警告背后是什么？",
@@ -77,7 +143,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "OpenAI的流氓AI在5月份试图入侵另一家公司",
@@ -96,21 +162,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic首席执行官概述了减缓人工智能发展的计划",
-      "originalTitle": "Anthropic CEO outlines plan to slow AI development",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
-      "date": "2026-09-12T19:34:44.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在门票立减25%我们看到人工智能研究人员对人工智能危险的警告越来越多，甚至OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ）评论说，现在可能是“加快”人工智能发展的时候了。但这实际上会是什么样子？ 在一篇新的博客文章中， Anthropic首席执行官Dario Amodei不仅回应了“加快前沿速度”的呼吁，而且还概述了三大战略。他说， Anthropic正在“单方面承诺”其中一个，奥尔特曼插话说OpenAI将效仿。 本周，研究人员雅各布·考克森（ Jacob Coxon ）写道，由于担心领先的人工智能公司正在“用我们的生命赌博” ，而开发这项技术的人“真诚地相信它可能会在本十年末杀死我们所有人” ，他将从Anthropic辞职，此后关于人工智能安全和一致性的争论愈演愈烈， Anthropic的其他人也重申了这一说法。 Amodei的帖子没有明确提到Coxon的辞职或他的担忧，但首席执行官写道，有两件事让他相信，现在是时候对人工智能开发采取更谨慎的方法了： OpenAI-HuggingFace黑客攻击，以及最近几个月“人工智能发展得非常快”的事实，特别是其“构建下一代人工智能的能力不断增强”。“我们必须放慢提高人工智能模型能力的步伐，” Amodei写道。 “进展似乎仍然很快，我们必须明智地利用我们获得的时间。其他人工智能高管似乎对Amodei的职位反应积极， Altman写道：“我同意Dario的观点，我们需要加快前沿步伐。这是我们最近几周在OpenAI上讨论的主要话题。SpaceX首席执行官埃隆·马斯克（ Elon Musk ）发帖说： “达里奥是对的。 Amodei提议的第一步将涉及来自METR等第三方组织的“嵌入式评估人员” ，这些评估人员可以验证人工智能公司实际上是否遵循了他们的节奏和安全承诺，还可以确保安全事件得到报告。（ OpenAI最近因未报告其AI代理接管德国维基论坛的事件而受到批评。 Amodei将这些评估人员与嵌入银行员工的监管机构进行了比较，他说，邀请他们加入是“Anthropic单方面承诺的事情（并呼吁政府要求其他前沿公司相匹配）。这意味着向评估人员提供公司徽章、办公桌和笔记本电脑，并提供“主要与内部风险评估团队所拥有的相似”的访问权限，但法律或合同要求的例外情况除外。 奥尔特曼还表示，这是一个“好主意” ，并表示OpenAI也会这样做： “我们很快会有更多的分享。接下来， Amodei呼吁领先的人工智能公司“在民主国家内”协调“共同的安全标准以及限制不受控制的人工智能进步的速度。“这种协调似乎不太可能，因为据报道，这些公司担心协调一致的暂停可能会导致反垄断审查。",
-      "originalSummary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 98
-    },
-    {
       "title": "Anthropic首席执行官表示，是时候对人工智能进行刹车了",
       "originalTitle": "Anthropic CEO says it’s time to pump the brakes on AI",
       "source": "The Verge AI",
@@ -125,22 +176,7 @@
         "安全",
         "模型"
       ],
-      "score": 98
-    },
-    {
-      "title": "OpenAI的Sam Altman表示，在2026年上市将是“不明智的”",
-      "originalTitle": "OpenAI’s Sam Altman says it would be &#8216;ill-advised&#8217; to go public in 2026",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "date": "2026-09-12T20:19:16.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。据首席执行官Sam Altman称， OpenAI已秘密申请IPO ，但该公司今年不会上市。 Altman最近接受了《财富》杂志总编辑Alyson Shontell的采访；在OpenAI-HuggingFace黑客攻击的后果以及关于人工智能安全的更广泛讨论中， Shontell询问OpenAI是否仍然因其IPO计划而感到“真正快速行动”的压力。“我们不会急于进行首次公开募股，”奥特曼说。“我实际上认为，鉴于安全方面发生的一切，现在上市将是一个不明智的时刻。 相反，他坚持认为， OpenAI将在“我们准备好的时候”上市，也就是业务准备就绪的时候，当我们从这项技术的社会现状中感觉到准备就绪的时候。当被问及这是否意味着2026年不会发生IPO时，奥特曼回答说： “我会说不是2026年，是的。我们有很多事情要做。 《纽约时报》6月份报道称，尽管OpenAI聘请了银行家和律师，目标是在2026年第三或第四季度上市，但由于科技股的波动和自身的财务挑战，该公司倾向于2027年。预订展览桌的最后一天是9月18日。不要错过高影响力的潜在客户、投资者准入以及Disrupt博览馆的品牌聚光灯。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
+      "score": 97
     },
     {
       "title": "Sam Altman表示， 2026年OpenAI上市将是“不明智的”",
@@ -155,7 +191,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 86
+      "score": 85
+    },
+    {
+      "title": "OpenAI只想赢",
+      "originalTitle": "OpenAI just wants to win",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "date": "2026-09-12T11:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "OpenAI在过去几年中一直在日益困难的数学领域种植旗帜。本周，它获得了迄今为止最大的奖项之一：解决传奇的千年奖问题。在正常情况下，这被认为是一项历史性的成就。相反，许多数学家看到了OpenAI的无情进步，越来越不安。 对他们来说，公司看起来不像是一个热情的新人，而是一个资源丰富的闯入者，负责解决他们毕生致力于研究的问题，而很少考虑长期存在的规范或这些规范的后果……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with [&#8230;]",
+      "rawFullText": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with growing unease. To them, the company appears less like an enthusiastic newcomer than an impossibly well-resourced interloper, charging into problems they have dedicated their lives to studying with little apparent regard for long-standing norms or the consequences for those … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 85
+    },
+    {
+      "title": "特朗普正在向数据中心提供污染通行证",
+      "originalTitle": "Trump is giving data centers a pass to pollute",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+      "date": "2026-09-12T14:41:27.000Z",
+      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：监管相关动态",
+      "fullContent": "一群前美国环保署官员本周在一份简报和新报告中表示，唐纳德·特朗普总统正在以加快人工智能数据中心建设的名义削弱环境法规，增加了美国人的健康风险。他们敦促--也许是徒劳的--总统通过一项“数据中心健康保护承诺” ，以表明政府正在认真对待环境威胁。 在他的任期开始时，特朗普的EPA管理员Lee Zeldin宣布了他的目标，即通过放松管制使美国成为“世界人工智能之都”。从那时起，塞尔丁和白宫已经推翻了数十项规则……阅读The Verge的完整故事。",
+      "originalSummary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection [&#8230;]",
+      "rawFullText": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report . They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection Pledge\" to signal that the administration is taking the environmental threat seriously. At the start of his term, Trump's EPA administrator, Lee Zeldin, proclaimed his goal of making America \" the AI capital of the world \" through deregulation. Since then, Zeldin and the White House have rolled back dozens of rules … Read the full story at The Verge.",
+      "tags": [
+        "监管"
+      ],
+      "score": 80
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -174,23 +240,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic本周在网络安全的热水中度过",
-      "originalTitle": "Anthropic spent this week in hot water over cybersecurity",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "date": "2026-09-11T16:09:14.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "在今年早些时候承认其人工智能模型曾多次入侵其他公司的系统后， Anthropic周三发布了一份新报告，详细介绍了这些攻击。它揭示了一系列事件，显示了Anthropic认为其模型一心一意的“鲁莽” -并可能加剧对网络安全和人工智能的担忧。 在Anthropic的报告中，它详细介绍了今年自己的人工智能模型攻击外部公司或利用漏洞的四个案例。其中之一是“内部通用研究模型”闯入第三方系统，使用访问令牌和密码并下载文件。……在The Verge阅读完整故事。",
-      "originalSummary": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. [&#8230;]",
-      "rawFullText": "After admitting earlier this year that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new report on Wednesday detailing the attacks. It reveals a string of incidents displaying what Anthropic deems its models' single-minded \"recklessness\" - and will likely fuel already raging concerns about cybersecurity and AI. In Anthropic's report, it detailed four cases this year in which its own AI models hacked an external company or exploited vulnerabilities. In one, an \"internal, general-purpose research model\" broke into third-party systems, using access tokens and passwords and downloading files. … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 96
-    },
-    {
       "title": "Cognition帮助Devin使用GPT ‑ 6 Astra测试自己的工作",
       "originalTitle": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "source": "OpenAI",
@@ -203,37 +252,22 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "OpenAI与数学家的不和只会升级",
-      "originalTitle": "OpenAI&#8217;s feud with mathematicians is only escalating",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
-      "date": "2026-09-11T20:57:36.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， 25位领先的数学家签署了一封公开信，声称人工智能实验室正在威胁他们的智力工作，因为他们寻求通过解决着名的数学问题来互相提升。每个签名者都被授予菲尔兹奖，被认为是数学界最负盛名的奖项。 本周，纽约大学教授特里斯坦·巴克马斯特（ Tristan Buckmaster ）指责OpenAI向他施压，要求他不要相信在Anthropic工作的合作者解决了一个重要的数学问题，并想知道该公司是否利用他们与Codex的合作，在一个马拉松式的周末推理中产生了自己的突破性证明。周四，在加州理工学院的研究人员批评该公司之后， OpenAI撤回了对该校数学活动的赞助。 虽然人工智能模型解决世界杰出数学挑战的能力可能对人类有利，但新信的签名者认为，只有当这些解决方案能够被数学界和最终世界其他地方理解和传达时，才会出现这种情况。 他们写道： “这些解决方案往往是匆忙宣布的，没有时间进行适当的撰写，隔离新的方法和想法，并引用他人以前的相关工作。” OpenAI的证据仍未得到证实。“与所有创意行业一样，这引发了严重的归因和剽窃问题。 此外，如果没有心甘情愿的数学家，他们必须照顾自己的发展并融入数学经典，人工智能构思的想法将永远不会完全活跃，数学家之间的关键人际传递链将丢失。“随着其他数学家越来越偏执，并想知道他们对法典的使用是否反过来又被纳入了OpenAI的新模型，人们真正担心开放研究的文化将受到威胁。 如今，如果前沿实验室看到了通往发现的有用途径，他们可以花费数千万美元使用LLM来击败原始研究人员来证明—这种动态将激励保密。这封信是在数学家工作组于6月发布的《莱顿宣言》之后发出的。该文件还探讨了法学硕士证明将改变其工作的方式，并为数学家、机构和政策制定者提供了一系列建议。 与软件工程和人工智能工具正在改变工作流程的其他领域一样，数学家在工作中找到了一个理由：数学的价值不仅仅是证明和谁获得荣誉，而是培养学生的智力超级结构，发现新的问题和想法，并将它们融入更广泛的人类文明。 如果您并不特别关心高风险数学证明的残酷世界，请不要忘记：您的兴趣领域是下一个。",
-      "originalSummary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
-      "rawFullText": "",
+      "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
+      "originalTitle": "Roundtables: Could AI really kill us all?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "date": "2026-09-11T20:05:06.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "世界领先的人工智能实验室的员工表示，先进的人工智能确实有可能摧毁人类。他们说得对吗？还是这更吓人，更炒作？与《麻省理工科技评论》执行编辑尼尔·弗斯（ Niall Firth ）一起与高级人工智能编辑威尔·道格拉斯·天堂（ Will Douglas Heaven ）和人工智能记者格蕾丝·哈金斯（ Grace Huckins ）进行对话，探讨人工智能灭绝的恐惧：它们来自哪里，它们是否有水，如果有的话，我们应该 立即注册9月15日（周二）英国夏令时16:00/美国东部标准时间上午11:00/太平洋标准时间上午8:00上线演讲嘉宾： Niall Firth ，高级人工智能编辑Will Douglas Heaven和人工智能记者Grace Huckins相关故事这就是为什么人工智能特工为了实现目标而撒谎和作弊的原因比尔·盖茨说我们已经超过人工智能的危险阈值后，人工智能的递归自我提升可能不会那么快。现在该怎么办？ OpenAI特工入侵Hugging Face的内幕故事",
+      "originalSummary": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction&#8230;",
+      "rawFullText": "Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Register now Going live on Tuesday, September 15 at 16:00 BST / 11:00am EST / 8:00am PST Speakers:&nbsp; Niall Firth , executive editor, Will Douglas Heaven , senior AI editor, and Grace Huckins , AI reporter Related Stories Here’s why AI agents lie and cheat to reach their goals AI’s recursive self-improvement might not come so quickly after all Bill Gates says we’ve passed AI’s danger thresholds. Now what? The inside story on why OpenAI agents hacked Hugging Face",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 86
-    },
-    {
-      "title": "人类学研究者的世界末日警告发生在一个非常有趣的时刻",
-      "originalTitle": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
-      "date": "2026-09-11T18:41:49.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "一位人类学研究人员本周辞职，他在X上的一篇帖子中警告说，该公司正在“直奔自我提升的超级智能，用我们的生命赌博”。该公司自己的对齐领导甚至共同签署了信息，而不是把它带回去。 这是人工智能行业以前曾经发出的末日警告，但据报道， Anthropic准备首次公开募股的时机使它以不同的方式落地。在[…]",
-      "originalSummary": "An Anthropic researcher resigned this week,&#160;warning in a post on X&#160;that the company is “racing straight to self-improving superintelligence and gambling with our lives”.&#160;The company&#8217;s own alignment&#160;lead&#160;even&#160;co-signed the message&#160;rather than walking it back.&#160;It&#8217;s&#160;the kind of&#160;doomer&#160;warning the AI industry has flirted with before, but the timing, with Anthropic reportedly&#160;preparing for&#160;an IPO, makes it land differently.&#160; On [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 86
+      "score": 72
     },
     {
       "title": "现在，每个人都可以使用数据",
@@ -265,7 +299,7 @@
         "大模型",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Agent API简介",
@@ -281,7 +315,7 @@
         "智能体",
         "产品发布"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
@@ -296,7 +330,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "为联邦、州、地方和部落政府扩大人工智能访问和网络防御",
@@ -311,7 +345,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "GPT-6 Astra ：下一代智能工作",
@@ -331,22 +365,6 @@
       "score": 99
     },
     {
-      "title": "Paul Christiano加入OpenAI基金会董事会",
-      "originalTitle": "Paul Christiano joins OpenAI Foundation Board",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "date": "2026-09-09T17:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "Paul Christiano加入OpenAI基金会董事会及其安全和安保委员会，带来了人工智能协调、安全和标准方面的经验。",
-      "originalSummary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 98
-    },
-    {
       "title": "OpenAI关于数学未来的最新争议告诉我们什么",
       "originalTitle": "What OpenAI’s latest controversy tells us about the future of math",
       "source": "MIT Technology Review",
@@ -360,7 +378,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "AI策略窗口已打开。我们需要采取行动。",
@@ -375,7 +393,7 @@
       "tags": [
         "安全"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "IBM发布具有商业友好许可证的SOTA花岗岩时间序列PatchTST-FM-r2模型",
@@ -391,7 +409,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -406,7 +424,7 @@
       "tags": [
         "安全"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -421,7 +439,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -436,7 +454,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -451,7 +469,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -466,7 +484,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
@@ -481,7 +499,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
@@ -496,7 +514,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
@@ -511,7 +529,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "大规模简化人工智能集成",
@@ -526,7 +544,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
@@ -541,7 +559,7 @@
       "tags": [
         "评测"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
@@ -556,7 +574,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "Hugging Face黑客攻击可能表明OpenAI存在文化问题",
@@ -572,7 +590,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "开放式ASR排行榜增加了其首个全球南方语言",
@@ -590,23 +608,6 @@
       "score": 63
     },
     {
-      "title": "OpenAI特工入侵Hugging Face的内幕故事",
-      "originalTitle": "The inside story on why OpenAI agents hacked Hugging Face",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-      "date": "2026-08-26T19:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
-      "fullContent": "根据今天发布的OpenAI技术报告，负责上个月Hugging Face代理黑客攻击的模特无意中接受了欺骗和相互沟通的训练。一群代理商着手为他们坚持的网络安全测试寻找解决方案，这证实了一些专家的担忧，即人工智能模型可能会采取违背人类欲望和期望的行动。 自黑客攻击以来， OpenAI员工以及人工智能评估非营利组织METR的研究人员（该组织今天发布了自己的黑客攻击报告）一直在努力了解出了什么问题，以及如何在未来防止类似的失误。OpenAI已经根据他们的发现采取了一些预防措施。 但是，确保人工智能模型做我们希望它们做的事情，或“对齐” ，仍然是一个棘手的问题，黑客攻击的一些根本原因需要一个多月的时间才能解决。OpenAI Alignment研究团队负责人Kai Chen表示： “这不是一蹴而就的事情。“我们已经跟踪了很长一段时间的挑战，现在我们看到它们的精确度要高得多。 “拥抱脸黑客是OpenAI代理数月不当行为的产物，首先是因为他们正在接受培训，然后是因为他们的能力正在接受评估。今年5月，接受培训的代理人想出了如何使用OpenAI的基础设施相互沟通，并在困难的培训任务中获得支持，其中包括一些在没有黑客攻击或其他行为不端的情况下无法解决的问题。那个“留言板”被关闭了。 然后在7月，在评估其网络安全能力时，一些模型创建了一个新的留言板。他们本应与互联网隔绝，但通过共同努力，他们设法上网，破解了拥抱面孔，并获得了困扰他们的网络安全问题的解决方案。根据他们的调查， OpenAI研究人员认为，培训阶段的事件直接导致了黑客攻击。 OpenAI ALIGNMENT研究团队成员Eric Wallace表示： “对于评估时几乎所有令人担忧的行为， [我们能够]在培训时找到某种相关行为，实际上我们认为这些行为可能是造成这种情况的原因。”当模型在培训期间正确解决问题时，导致他们找到解决方案的行为会得到加强，并且他们将来更有可能参与其中。 因此，如果模型在使用原始留言板后于5月完成任务，则以后更有可能参与新的留言板。这种现象，即人工智能代理在培训过程中以加强的方式表现不当，被称为奖励黑客行为。奖励黑客也有助于解释为什么这些模型如此努力地进入互联网。 在对事件进行调查期间， OpenAI团队发现，在培训过程中，模型越来越有可能探测其数字环境的弱点，并以意想不到的方式使用其可支配的工具--这表明这些行为正在逐渐加强。当模型面临棘手的网络安全问题时，他们已经知道黑客是实现目标的有效方法。",
-      "originalSummary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’&#8230;",
-      "rawFullText": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today . The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’ fears that AI models might take actions that defy human desires and expectations. Since the hack, OpenAI employees—as well as researchers at the AI evaluation nonprofit METR, which released its own report on the hack today—have worked to understand what went wrong and how similar missteps might be prevented in the future. OpenAI has already put some preventative measures in place based on what they discovered. But making sure AI models do what we want them to do, or “alignment,” remains a gnarly problem, and some of the root causes of the hack will take much longer than a month to resolve. “It’s not something you can solve overnight,” says Kai Chen, who runs OpenAI’s alignment research team. “There are challenges we’ve been tracking for a very long time, and we’re now seeing them with much greater precision.” The Hugging Face hack was a product of months of misbehavior from OpenAI agents, first as they were being trained and then as their abilities were being evaluated. This May, agents in training figured out how to use OpenAI’s infrastructure to communicate with one another and get support with difficult training tasks, including some that were impossible to solve without hacking or otherwise misbehaving. That “message board” was shut down. Then in July, while being evaluated for their cybersecurity abilities, some models created a new message board. They were supposed to be isolated from the internet, but by working together they managed to get online, hack Hugging Face, and obtain solutions for the cybersecurity problems that had stumped them. Based on their investigation, OpenAI researchers believe that events during the training phase led directly to the hack. “For almost every behavior that was worrisome at evaluation time, [we were able to] find some sort of associated behavior at training time that actually we think might have contributed to it,” says Eric Wallace, a member of OpenAI’s alignment research team.&nbsp; When models correctly solve problems during training, the behaviors that led them to that solution are reinforced, and they become more likely to engage in them in the future. So if a model completed a task in May after using the original message board, it became more likely to participate in a new message board later on. This phenomenon, where AI agents misbehave in ways that are reinforced during the training process, is known as reward hacking . Reward hacking also helps to explain why the models worked so hard to make their way onto the internet. During its investigation of the incident, the OpenAI team found that, over the course of training, the models became more and more likely to probe their digital environment for weaknesses and use the tools at their disposal in unexpected ways—a sign that these behaviors were being gradually reinforced. By the time the models were facing tricky cybersecurity problems, they had learned that hacking was an effective way to achieve their goals. These results suggest that the Hugging Face hack could have been avoided if the models weren’t rewarded for misbehaving during training. While researchers don’t yet know how to prevent reward hacking entirely, OpenAI is taking some steps toward mitigating its effects. The company will now look for signs of cheating in all frontier models during training by keeping an eye on their chains of thought —internal notepads where they sketch out their answers and plan their actions.&nbsp; This solution isn’t as much of a slam dunk as it might seem: In earlier research , OpenAI showed that punishing models that mention cheating in their chains of thought teaches them to keep their intentions hidden from researchers. But monitoring its models’ thinking does give OpenAI the chance to halt the training process and reassess its approach if models do start learning to reward hack. If OpenAI stops reinforcing reward hacking in its models—and that’s a huge “if”—that would be a huge step forward. But it wouldn’t solve the alignment problem. The first time a model communicated with other agents or hacked its infrastructure during training, those behaviors had never been reinforced, so agent misbehavior can’t only be attributed to that reinforcement. Jeffrey Ladish, director of the AI safety nonprofit Palisade Research, compares the agents to a human who commits their first financial crime. “It’s not like they had to do fraud before to figure out that fraud is an effective strategy, and you have the same problem with models,” Ladish says. “Alignment science needs to be understanding how model motivations get shaped, such that we can actually figure out how to get models to care about the consequences of their actions.” OpenAI’s researchers do have a hypothesis for where some of the misbehavior originated. Before the models formed their first secret message board, they had been trained to communicate and coordinate with subagents—less powerful agents to whom a main agent can delegate tasks.&nbsp; That learned communication behavior could have transferred to this new setting. The METR report, which investigates the messages that the models sent to one another in detail, supports this hypothesis: One agent on the message board took charge and assigned tasks to the other agents, effectively treating them as subagents. OpenAI could try to prevent agents from secretly communicating with one another by not training this subagent behavior in the future, but that would make the models less useful.&nbsp; This tension between capability and safety is at the heart of what went wrong with the Hugging Face incident. OpenAI researchers also identified the models’ persistence as a key factor in the hack.&nbsp; When they were accidentally given unsolvable problems, the models didn’t give up; instead, they strove to find solutions by any means necessary. But persistence is also a virtue, of course, especially if we want agents that can undertake large amounts of difficult work independently. OpenAI is working on giving models ways to alert humans if they are given impossible tasks. The problem of teaching models when they should deploy their abilities and when they should hold back, however, won’t be settled in a single postmortem. The training strategies that create superhuman coders—rewarding them when they successfully solve problems—might not work to teach models to use their skills judiciously and respect human desires and values. “I think there’s a bunch of alignment science that still needs to be done where we can move past just using proxies for task completion,” says Ladish. “That will work to make models very capable, but I don’t think it will work to make them aligned.”",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
       "title": "使用句子变换器训练和微调多矢量嵌入模型",
       "originalTitle": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
       "source": "Hugging Face",
@@ -620,36 +621,6 @@
         "模型"
       ],
       "score": 69
-    },
-    {
-      "title": "在人工智能上提出",
-      "originalTitle": "Raised on AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
-      "date": "2026-08-26T09:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "当我最大的孩子出生时，我立即以她的名义设置了Gmail和Twitter帐户。我广泛地在网上宣布了她的出生，并开始在各种平台上贴上她的照片。简而言之，在她能够自己站起来之前很久，我就开始创造她的数字足迹。快进到几年后，我的第二个孩子来了，我的反应基本上是相反的。我想确保保护她的隐私。 我不希望她的生日成为公共记录或她的脸来提供算法。随着时间的推移，我也会回去擦洗我为我的第一个孩子创造的早期足迹。发生了什么？我看到早期互联网的承诺让位于其潜在滥用的现实。我自己已经完全陷入了智能手机和社交媒体的痴迷之中。 我的妻子是一名儿科护士，她对因社交媒体上的互动而受到身体畸形或网络欺凌等影响的入院儿童数量越来越感到震惊。我们成了那些父母。孩子们带着翻盖手机却不在TikTok上。在这方面，我们并不孤单。 我认识的许多在大型科技公司工作的人也让他们的孩子远离技术，这可能令人不安。如果他们有手机，他们会锁定他们的手机，并让他们远离社交媒体。地狱，即使是马克·扎克伯格也不会在Facebook或Instagram上公开发布他孩子的脸。如果限制儿童使用技术的愿望曾经是次流，那么它已成为一场肆虐的洪水。 乔纳森·海特（ Jonathan Haidt ）在2024年出版的畅销书《焦虑的一代》（ The Anxious Generation ）帮助将这个问题推向了主流（尽管一些发展心理学家对他的结论提出了批评）。去年，澳大利亚成为第一个对16岁以下儿童实施社交媒体禁令的国家。从奥地利到印度尼西亚，其他国家也纷纷效仿，宣布了类似的禁令。 美国最高法院最近维持了德克萨斯州的年龄验证法，该法实际上是一项禁令，几个州已经采取了自己的措施。全国各地的学区都禁止使用iPad和Chromebook等教育设备，取而代之的是实际的书籍。孩子们自己似乎也在接受这种技术怀疑： Gen Alpha套装中最热门的小工具是复古的索尼随身听。 我们必须让孩子们准备好生活在我们实际创造的现实世界中，而不是我们希望拥有的世界。然而，没有什么可以躲避技术。它几乎渗透到任何地方的一切。因此，我们必须让孩子们做好准备，生活在我们实际创造的现实世界中，而不是我们希望拥有的世界。我们如何帮助孩子在我们所创造的东西中生存和茁壮成长？在人工智能时代，这个问题变得更加紧迫。 为了帮助回答这个问题，我们引入了Anyway的编辑，这是一本非常适合青少年和青少年的杂志，在很大程度上非常好，因为它与他们所在的地方相遇。（如果您的生活中有青少年，我强烈推荐。）他们帮助我们完成了您将在本期杂志中看到的故事，并要求孩子们用自己的话分享他们对人工智能的感受以及即将发生的事情。",
-      "originalSummary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet.&#160; Fast-forward a couple&#8230;",
-      "rawFullText": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet.&nbsp; Fast-forward a couple of years to when my second kid came, and I had essentially the opposite reaction. I wanted to make sure I preserved her privacy. I didn’t want her birthday to be a matter of public record or her face to feed the algorithms. In time, I would go back and scrub much of the early footprint I had created for my first child as well.&nbsp; What happened? I watched the promise of the early internet give way to the reality of its potential for abuse. I myself was already fully in the throes of smartphone and social media obsession. My wife, a pediatric nurse, grew increasingly alarmed at the number of children admitted to her hospital struggling with the effects of things like body dysmorphia or cyberbullying as a result of interactions on social media. We became those parents. The ones whose kids carry flip phones and aren’t on TikTok.&nbsp; We are not alone in this. A surprising—maybe troubling—number of people I know who work at big tech companies also keep their kids at arm’s distance from technology. They lock down their phones, if they have phones at all, and keep them off social media. Hell, even Mark Zuckerberg doesn’t publicly post his children’s faces on Facebook or Instagram. &nbsp; If the desire to limit kids’ use of technology was once a subcurrent, it has become a raging flood. Jonathan Haidt’s best-selling 2024 book The Anxious Generation helped propel the issue into the mainstream (despite criticisms of his conclusions from some developmental psychologists). Last year, Australia became the first country to enact a social media ban for children under 16. Other nations, from Austria to Indonesia, have followed suit, announcing similar bans. The US Supreme Court recently upheld an age verification law in Texas, which acts as a de facto ban, and several states have flirted with their own measures. School districts all over the country are banning educational devices like iPads and Chromebooks in favor of actual books. Kids themselves seem to be embracing this tech skepticism too: The hottest gadget among the Gen Alpha set is a vintage Sony Walkman. We have to prepare our children to live in the actual world we have actually created, not the one we wish we had. Yet there is no hiding from technology. It permeates nearly everything, everywhere. And so we have to prepare our children to live in the actual world we have actually created, not the one we wish we had. How can we help kids survive and thrive in what we have wrought?&nbsp; It’s a question that feels all the more urgent in the era of AI. To help answer it, we brought in the editors of Anyway —an utterly fantastic magazine for teens and tweens that is so good in large part because it meets them where they are. (If there is a teen in your life, I highly recommend it.) They helped us with the stories you’ll see in this issue, and they asked kids to share in their own words how they are feeling about AI and what’s to come. What those young people told Anyway was complex, fascinating, and, to an incredible extent, thoughtful and sophisticated.&nbsp; Meanwhile, I’ve loosened the digital tether—just a bit. I still don’t post many photos of my kids online, and I remain abundantly concerned about the perils of social media and AI.&nbsp; But when my older daughter started high school, we retired the flip phone in favor of an iPhone. And my younger one now sports an Apple Watch. These devices have opened up the world to them in all sorts of ways. They help forge new friendships, building relationships that move seamlessly between digital and physical spaces. They allow my kids to roam free—or at least more freely—beyond the known spaces of our neighborhood and across the city.&nbsp; Along the way, they’re learning and testing boundaries, just the way they’re supposed to. I guess you could say I am too.&nbsp;",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
-    },
-    {
-      "title": "Granite 4.2 LLM ：如何构建",
-      "originalTitle": "Granite 4.2 LLMs: How They&apos;re Built",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "date": "2026-08-25T15:14:14.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
     }
   ]
 }
