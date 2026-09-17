@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T01:12:54.271Z",
+  "updatedAt": "2026-09-17T01:13:45.218Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,122 +19,162 @@
   ],
   "articles": [
     {
-      "title": "Nvidia的Jensen Huang表示，我们不需要人工智能监管—将安全问题留给我们",
-      "originalTitle": "We don&#8217;t need AI regulation — leave safety to us, Nvidia&#8217;s Jensen Huang says",
+      "title": "Anthropic和OpenAI希望嵌入安全评估人员。他们真的会独立吗？",
+      "originalTitle": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
-      "date": "2026-09-16T00:20:39.000Z",
-      "summary": "这条新闻与算力芯片、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、监管相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。Nvidia创始人兼首席执行官Jensen Huang在周二的Salesforce Dreamforce大会上发言时明确表达了他对人工智能带来的危险的立场。对他来说，人工智能并不像至少一位OpenAI安全研究人员所描述的那样是某种新形式的“外星人思维”。他说，这只是由人类建造的硬件和软件。 这意味着，在他看来，它可以由人类和现有法律控制。“安全是一个工程问题，而不是法律问题，”他说。“毕竟，我们正在开发软件。毕竟，我们正在开发计算系统。这是一个复杂的计算系统，但它最终是一个计算系统。“因此，他认为，没有必要制定新的法律或法规来管理它。 事实上，黄认为根本不需要新的法律。他认为，自由市场将足以迫使公司不要发布不安全的产品。“如果我们对产品的安全性没有信心，就像所有公司一样，比如你和我，这里的所有公司，如果你构建一个产品或服务，并且你对其功能、能力或安全性没有信心，那么不要发布它。 所以这是一件非常明显的事情， ”他说。他继续说道：“你自己慢慢来，直到你确信自己正在发布一些市场会欣赏的东西。市场力量已经存在。我们不需要任何新的法律。我们不需要新的法规。我们只需要公司决定何时尽可能快地运行。我认为创新、速度和安全的产品……这是一个错误的选择。 你们绝对可以同时拥有两者。所以尽可能快地跑。但是，如果您在任何给定的时间点感到公司失控，或者产品不安全，请暂停并确保您做对了。“在某些方面，这是一个令人欣慰的想法。 如果世界上有人知道人工智能，那就是英伟达的创始人，他早在ChatGPT存在之前就一直在构建人工智能的硬件大脑，现在经营着一家也制造开源模型、代理、线束和沙箱的公司。再说一次，如果我们是愤世嫉俗的，他的观点对于那些面包被人工智能热潮搅拌得如此之好的人来说也不足为奇。 他为什么希望监管出现并增加一层障碍，这可能会减缓英伟达销售更多人工智能系统和软件的追求？正如他在采访中所说： “我比以往任何时候都更加雄心勃勃。由于我们的雄心壮志，以及我们从人工智能中获得的产品生产力提升，天空对我们来说是极限。天空是我们公司的极限。 天空是每个行业、每个国家的极限。“不幸的是，即使是有良好意图的公司也会发送有缺陷的产品，带来意想不到的后果，甚至是软件。还记得2024年的CrowdStrike死亡蓝屏惨败吗？它使数千个航班停飞，并给企业造成了其他严重破坏。还有一些公司被指控故意以不太好的意图行事。",
-      "originalSummary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "date": "2026-09-16T21:07:24.000Z",
+      "summary": "这条新闻与公司动态、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、监管相关动态",
+      "fullContent": "Anthropic和OpenAI希望在其人工智能实验室中嵌入独立的安全评估人员。研究人员欢迎前所未有的访问，但警告有意义的监督需要透明度、独立性以及最终的监管。",
+      "originalSummary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
       "rawFullText": "",
       "tags": [
-        "算力芯片",
+        "公司动态",
         "监管",
         "安全"
       ],
-      "score": 98
+      "score": 99
     },
     {
-      "title": "Meta现在允许人工智能代理处理WhatsApp Business设置的无聊部分",
-      "originalTitle": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+      "title": "我们的模型错位报告框架",
+      "originalTitle": "Our framework for reporting model misalignment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "date": "2026-09-16T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI共享一个用于跟踪、调查和披露模型错位的框架，以及六份关于意外或相关模型行为的报告。",
+      "originalSummary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "您的AI代理现在可以控制您的Google Home设备",
+      "originalTitle": "Your AI agents can now control your Google Home devices",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
-      "date": "2026-09-15T20:12:53.000Z",
+      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "date": "2026-09-16T17:00:00.000Z",
       "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。门票立减25% Meta周二宣布，除了有关其新的以人工智能为重点的订阅计划的消息外，它现在将允许您选择的人工智能代理设置和管理WhatsApp Business消息传递，该服务允许公司通过WhatsApp对话与客户建立联系。 正如Meta解释的那样，这个过程以前有点麻烦，因为它需要开发人员在不同的工具和服务之间切换，包括开发人员控制台、Meta的业务经理、API参考及其编辑器。现在，他们可以要求他们首选的人工智能代理通过聊天和描述需要做什么来设置WhatsApp Business消息传递。 这是通过新的WhatsApp Business Tools MCP实现的，这是一个MCP （模型上下文协议）服务器，可将Claude、Cursor、Codex或ChatGPT等AI编码代理直接连接到WhatsApp Business Platform。此举将使Meta将其现有的MCP服务器阵容从用于管理广告和监控应用程序配置以及其他社交技术的服务器扩展到专门用于帮助企业使用WhatsApp的服务器。 许多其他科技公司也提供MCP服务器，允许人工智能代理与其服务进行安全交互，包括PayPal、Stripe、GitHub、Notion、Slack、Salesforce、Atlassian、X、Google、Microsoft等。 在Meta的案例中，人工智能代理将处理WhatsApp Business设置过程中涉及的大部分繁琐工作，例如创建公司的WhatsApp Business帐户、添加和验证其电话号码、注册以访问Cloud API、检查企业的服务条款等。 企业还可以将AI代理用于其他任务，例如描述他们希望AI创建的消息传递模板或让代理编辑现有模板。此外，他们还可以测试消息和网络钩子，并监控以前可能悄然失败的事情，例如服务条款、付款方式和业务验证。 该公司指出，在安装和配置过程中， Meta的另一台MCP服务器Meta Social Technologies MCP也可用于发现API端点、搜索文档并帮助排除错误。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。预订展览桌的最后一天是9月18日。 不要错过高影响力的潜在客户、投资者准入以及Disrupt博览馆的品牌聚光灯。特斯拉表示，它将最终于10月1日推出第二代Roadster Anthony Ha Revolut ，通过虚假的政府请求Jagmeet Singh确认客户数据泄露",
-      "originalSummary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+      "fullContent": "谷歌正在为Google Home推出抢先访问新的MCP服务器，允许Claude、ChatGPT等人工智能代理使用自然语言控制连接的设备、查看相机摘要和访问智能家居活动。",
+      "originalSummary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
       "rawFullText": "",
       "tags": [
         "大模型",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "谷歌现在将让任何人工智能代理运行您的智能家居",
+      "originalTitle": "Google will now let any AI agent run your smart home",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+      "date": "2026-09-16T17:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“谷歌现在将让任何人工智能代理运行您的智能家居”。它主要涉及大模型、智能体、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on [&#8230;]",
+      "rawFullText": "Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol . Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on your behalf. It \"allows any AI agents that support MCP, including Google Antigravity, Claude, Hermes or Open Claw, to securely work with all of the devices and event history in your Google Home ecosystem,\" Taylor Lehman, group product manager at Google Home & Nest, said in a blog post. According to Lehman, Home MCP integ … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic将Claude聊天和Cowork合并在一个界面中",
+      "originalTitle": "Anthropic merges Claude chat and Cowork in one interface",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "date": "2026-09-16T16:30:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， Anthropic正在将其Claude聊天和Cowork的前端合并为25 ％的折扣门票，让人们可以更轻松地决定使用哪个选项卡来完成不同的任务。统一的界面允许用户在一个窗口中访问聊天、Cowork和Artifacts （ Claude的交互式工作区功能）。 Claude Design于4月推出，用于网站和原型设计，也适用于Claude的任何地方。在此次推出之前，该公司表示，客户经常难以为正确的任务选择正确的标签页。借助新设计， Claude无需切换选项卡或窗口即可自动路由请求。我们的想法是消除关于选择哪个功能的混淆，并仅使用一个前端将工作路由到应用程序的不同部分。 希望OpenAI也能从这次推出中汲取灵感，修复跨平台的ChatGPT界面。Anthropic还增加了制作演示文稿和文档的专用功能。用户可以要求AI助手创建、编辑和演示幻灯片，也可以将生成的演示文稿下载为PDF或PowerPoint。 同样，使用文档功能，用户可以与Claude一起创建部分、提出问题并对已完成的部分发表评论。用户可以使用链接共享生成的文档或幻灯片，并在手机上进行编辑。用户还可以要求Claude开始在桌面上创建文档，他们可以使用移动应用程序查看任务的进度。 在接下来的几周内，这些功能将首先在网络、桌面和移动设备上推出到Claude的Pro和Max计划中。该公司计划稍后将其扩展到免费和团队会员等级。此次更新是在Cowork内存层升级之后进行的，这有助于Claude在聊天中记住用户上下文。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Ivan在TechCrunch上介绍全球消费者技术发展。他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。",
+      "originalSummary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "您的代理已完成任务。它会再次这样做吗？",
+      "originalTitle": "Your Agent Aced the Task. Will It Do It Again?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "date": "2026-09-15T16:00:44.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "指标几乎没有人报告为什么客服代表会翻转：敏锐的决策vs.扁平的诊断，然后修复结果：缩小差距而不丢失准确性指南概括—如果您正在发货，他们不会修补一个轨迹客服代表尝试附录：了解指标关联的工件/引用客服代表在排练，但在现场演示期间，它采用了不同的路径，并且失败了相同的任务。这在舞台上令人尴尬。 在生产中，这是一个可靠性问题：下次用户发出相同请求时，成功一次的工作流可能会失败。对于任务关键型工作，例如核对金融交易或检查合同义务，这可能是一个绝佳的选择。大多数基准将这种可变性隐藏在平均值后面。在AppWorld上，使用GPT-4. 1的ReAct代理在五次重复中成功运行了77. 4%。 但它在所有五次运行中仅成功完成了53. 0 ％的任务— 24. 4分的一致性差距。大多数基准报告第一个数字。我们建立了一种方法来衡量第二个—并加以改进。在之前的帖子中，我们介绍了ALTK-Evolve ，这是一个将客服代表自己过去的轨迹转化为可重复使用的指南、自动提取并在推理时注入的系统。 它大大提高了任务的成功率，但这些结果也只提出了平均情况的问题。本文介绍了一致性指南，这是altk-evolve中的一种新指南类型，建立在我们称之为一致性分析器的诊断工具之上，直接针对这一差距。标准客服代表评估报告平均值@ k ：运行基准k次，平均通过率。通常k = 3 ，有时仅为1。 这是每个排行榜上的数字，也是“77%准确率”在实践中的含义。平均@ k回答“这位客服代表的平均表现如何？“它没有回答真正的用户关心的问题：如果我再问这个确切的问题，它还会好吗？为此，您需要通过^ k ：代理在所有k次运行中取得成功的任务比例。⚠️通过^ k不是通过@ k。 熟悉的Pass @ k是乐观的—它询问k次尝试中的至少一次是否成功，什么时候可以验证并重试是正确的问题。传递^ k是其悲观的镜像：每次尝试都必须成功。相同的字母，相反的问题。始终通过^ k ≤ Mean @ k ≤ Pass @ k。由GPT-4. 1支持的ReAct代理发布的Mean @ 5为77. 4 ％ —真的很强。但合格^ 5仅为53. 0%。 近四分之一的基准由客服代表有时可以解决，有时不能解决的任务组成，而任务在运行之间没有任何变化。我们称之为间隙—均值@ k减去通过^ k —一致性间隙。这不是你用更大的模型解决的能力问题。这是一个正交轴：药剂可以同时具有能力和不一致。 每次LLM代理决定某件事—调用哪个API ，传递什么参数，是否重试—该决定都来自下一个令牌的概率分布。重要的是这种分布的形状。一个锋利的人把大部分的质量放在一个代币上：亚军远远落后，同样的选择在跑步后出现。扁平的一个将类似的质量分散在几个近乎绑定的代币上，哪一个获胜接近抛硬币。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
         "智能体"
       ],
-      "score": 99
+      "score": 85
     },
     {
-      "title": "OpenAI、Anthropic和谷歌已经就人工智能安全问题进行了数周的谈判",
-      "originalTitle": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
-      "date": "2026-09-15T15:47:03.000Z",
-      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、研究相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。OpenAI全球政策主管Chris Lehane周二告诉记者，正如彭博社首次报道的那样，该公司几周来一直与竞争对手Anthropic和Google DeepMind就人工智能安全问题进行合作。据报道， Lehane正在华盛顿与美国立法者合作，解决与人工智能相关的灾难性风险。 这一消息是在Anthropic首席执行官Dario Amodei周六发表的文章之后发布的，该文章呼吁该行业共同努力，减缓前沿人工智能的步伐，避免灾难性风险。 整个行业的人工智能领导者，包括OpenAI的Sam Altman、谷歌的Demis Hassabis和SpaceXAI的Elon Musk ，都支持Amodei的信件和行动呼吁， Altman表示， OpenAI将加入Anthropic ，将第三方评估人员嵌入公司，以监控安全状况。周二， Lehane承认，这三家公司已经就人工智能安全问题进行了几周的谈判。 包括奥特曼在内的一些人指出，如果发现这种协调抑制了竞争，这种谈判可能会使公司面临违反反垄断法的风险。Amodei的文章提出了一项狭隘的政府豁免，允许这种安全协调，但据报道， Lehane表示，这些公司不需要这样的协调。这一消息证实了早些时候的报道，并暗示两家公司正在合作。 在上周晚些时候接受《财富》杂志采访时，奥特曼暗示他曾与其他人工智能领导人进行过私下讨论。本周， The Information报道称，这三家公司一直在共同努力，为人工智能行业创建一个标准机构--据报道，奥特曼告诉员工，如果没有美国政府的支持，这将需要发生。哈萨比斯拜访了美国 在7月份建立一个新的标准机构，作为人工智能监督机构，有权筛选世界上最先进的模型，并在危险发生时协调整个行业的放缓。就特朗普总统而言，他将安全问题视为骗局，并推翻了更严格监管的必要性，称任何放缓都将使中国在竞争中占据一席之地。 他的关键人工智能顾问大卫·萨克斯（ David Sacks ）是一位长期投资者，在该行业的大部分股权中拥有个人股权，他对此表示赞同，称对人工智能存在风险的担忧被夸大了。在同一次周二的会议上， Lehane表示， OpenAI支持《前沿法案》中的一项条款，该条款将迫使顶级前沿实验室允许“独立验证组织”进入其公司，以确保安全开发模型。 TechCrunch已联系Anthropic、Google和OpenAI征求意见。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Rebecca Bellan是TechCrunch的高级记者，负责报道影响人工智能的业务、政策和新兴趋势。她的作品也出现在福布斯、彭博、大西洋、每日野兽和其他出版物上。",
-      "originalSummary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "研究",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "ZGCM-1 ：用于数学和代理搜索的完全开放且极其高效的基础模型",
-      "originalTitle": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.13356",
-      "date": "2026-09-15T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2609. 13356v1 Announce Type: new Abstract:在这项工作中，我们展示了ZGCM-1 ，一个完全开放的7B密集基础模型，从头开始训练，具有极高的数据、系统和算法效率。ZGCM-1建立在一个核心前提之上：紧凑型模型不能被动地记忆开放的网络，但可以通过将深思熟虑的内部思维与主动的外部工具使用相结合来克服参数化的容量限制。 为了在256K环境中支持这种范式，我们开发了一种端到端、高效的开放式培训方案：架构与系统协同设计：交错门控滑动窗口和全注意力，以及稳定的FP8 Muon优化器；渐进式课程和MDP中级培训：跨16K、64K和256K的上下文扩展，并将交互跟踪重新制定为马尔可夫决策过程。 此外，我们还建立了一个AI原生研发工作流程，代理群可以自主管理集群操作、数据管理和快速诊断评估。广泛的评估表明， ZGCM-1-7B在一般基准上在7B系列车型中具有竞争力。在几个具有挑战性的数学推理和代理搜索套件中，它仍然与Qwen3-235B-A22B和GLM-5等数量级较大的前沿模型竞争。1. 我们还表明，我们的预训练设计使16K的预训练损失时间提高了约4. 2倍的效率。在整个开发生命周期中，我们提取了八个可操作的经验发现--跨越建筑扩展、SFT质量修剪、长上下文泛化和代理协同培训动态。 为了促进社区研究，我们开源了来自培训前、培训中期和培训后阶段、中间检查点、培训代码、每阶段数据和数据配方以及W&B日志的模型权重。",
-      "originalSummary": "arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster operations, data curation, and rapid diagnostic evaluation. Extensive evaluations show that ZGCM-1-7B is competitive across 7B model family on general benchmarks. On several challenging mathematical reasoning and agentic search suites, it remains competitive with frontier models orders of magnitude larger, such as Qwen3-235B-A22B and GLM-5.1. We also show that our pre-training design offers a ~4.2x efficiency improvement in 16K pre-training time-to-loss. Across the full development lifecycle, we distill eight actionable empirical findings-spanning architectural scaling, SFT quality pruning, long-context generalization, and agentic co-training dynamics. To facilitate community research, we open-source model weights from the pre-training, mid-training, and post-training stages, intermediate checkpoints, training code, per-stage data and data recipes, and W&B logs.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "TimeThink ：在时序大型语言模型中引发合成推理",
-      "originalTitle": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.13457",
-      "date": "2026-09-15T04:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“TimeThink ：在时序大型语言模型中引发合成推理”。它主要涉及推理、多模态、评测方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.13457v1 Announce Type: new Abstract: Timeseries multimodal large language models (TS-MLLMs) have recently begun leveraging the reasoning capabilities of large language models (LLMs) for question-answering tasks. However, these models often fail to capture dynamic temporal patterns, providing only implicit reasoning that lacks the underlying explanations critical for high-stakes applications like healthcare. While reinforcement learning (RL)-based timeseries language models aim to address this, they often fall short because they are trained on narrow, in-distribution data and struggle with out-of-distribution compositional questions. To address these challenges, we present TimeThink, a synthetic framework for eliciting compositional timeseries reasoning. Core timeseries primitives (e.g., trend, seasonality) are domain-independent and can be deterministically generated. Guided by this premise, TimeThink first designs a synthetic data generator that produces atomic and composite question-answer pairs, providing objective ground truth with reasoning traces. Building on this framework, TimeThink employs a reinforcement learning with verifiable rewards (RLVR) training strategy that encourages explicit reasoning. Unlike template-reliant methods, this approach enables the model to learn the underlying logic of composition rather than simply imitating traces. Extensive experiments show that TimeThink, trained only on synthetic data, significantly outperforms strong baselines on both synthetic and real-world benchmarks.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "多模态",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "arXiv AI：大模型、智能体相关动态",
-      "originalTitle": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.13463",
-      "date": "2026-09-15T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：大模型、智能体相关动态”。它主要涉及大模型、智能体、评测方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.13463v1 Announce Type: new Abstract: The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of the data renders human review impractical, driving the need for automated root-cause attribution (RCA). However, automated RCA methods using LLMs suffer from low diagnostic accuracy, especially as execution traces grow larger. They struggle because relevant information is often sparse, distributed across distant actions, and disconnected from the visible failure, reducing root-cause attribution to a massive search problem. Existing RCA methods typically rely on one-shot LLM judgments to diagnose failures from execution traces. While effective for shorter trajectories, these judges tend to settle on a plausible diagnosis early, leaving critical evidence in longer traces unexamined. We introduce Continual Search, an iterative framework that nudges the judge, over successive turns, to keep searching for unresolved diagnostic evidence. We evaluate Continual Search across four existing RCA benchmarks. Recognizing the lack of massive execution traces in current benchmarks, we introduce MegaRCA-Mix to evaluate RCA at scale. MegaRCA-Mix provides a challenging testbed of 50 human-annotated failure trials spanning long-horizon, execution-heavy tasks. Across multiple benchmark suites and model families, Continual Search consistently improves attribution performance. On MegaRCA-Mix, for example, it improves GPT-5.5's F1 score by more than 40\\%, from $0.349$ to $0.498$. More interestingly, within the same model family, lower-tier models can even surpass their higher-tier counterparts, demonstrating that effective search supersedes raw model scale.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "大型科技公司的人工智能减速是安全协议还是卡特尔？",
-      "originalTitle": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "title": "人工智能和数据中心在每次民意调查中都非常不受欢迎",
+      "originalTitle": "AI and data centers are incredibly unpopular in every poll",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "date": "2026-09-14T22:59:41.000Z",
-      "summary": "这条新闻与公司动态、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、研究相关动态",
-      "fullContent": "当OpenAI首席执行官Sam Altman、Anthropic首席执行官Dario Amodei、谷歌DeepMind联合创始人Demis Hassabis和SpaceX负责人埃隆·马斯克(Elon Musk)上周末大致同意放慢人工智能开发速度时，怀疑论者立即发现了一个不可告人的动机。人工智能巨头宣布，他们的目标是“加快前沿步伐” ，至少部分签署了一项嵌入第三方审计师、监管国内实验室并达成全球减速协议的提案。 然而，他们的批评者认为，他们只是想阻止潜在的竞争对手，屈服于开源运动，并避免真正的法律保障--有些人称之为彻头彻尾的“卡特尔”。“真相……在The Verge阅读完整故事。",
-      "originalSummary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a [&#8230;]",
-      "rawFullText": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontier,\" signing on at least partially to a proposal for embedding third-party auditors, regulating domestic labs, and reaching a global slowdown agreement. Their critics, however, argued they simply wanted to stop would-be competitors, kneecap the open-source movement, and avoid real legal safeguards - some dubbed it an outright \"cartel.\" The truth … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "date": "2026-09-15T23:34:25.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
+      "fullContent": "《纽约时报》和锡耶纳大学周二发布的民意调查数据证实了我们已经看到的情况，以及政客们的回应--人工智能和数据中心非常不受欢迎。 当被问及他们是否支持或反对建设数据中心为AI技术提供动力时， 9月初接受调查的1,503名可能选民中有61%的人表示反对，只有14%的人表示强烈支持。 这种分裂甚至在2024年唐纳德·特朗普（ Donald Trump ）的选民中也是如此，支持率为49 ％ ，反对率为45 ％ ，而投票给卡马拉·哈里斯（ Kamala Harris ）或没有投票的人则倾向于反对......在边缘阅读完整故事。",
+      "originalSummary": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed [&#8230;]",
+      "rawFullText": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing , and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed in early September (ahead of the recent AI safety slowdown discussion ) said they were opposed, with only 14 percent saying they strongly support. The split was about even among 2024 Donald Trump voters, at 49 percent support to 45 percent oppose, while people who had voted for Kamala Harris or who didn't vote leaned opp … Read the full story at The Verge.",
       "tags": [
-        "公司动态",
-        "研究",
-        "安全"
+        "产品发布"
       ],
-      "score": 99
+      "score": 80
+    },
+    {
+      "title": "Meta的新One订阅为社交媒体和人工智能定价",
+      "originalTitle": "Meta&#8217;s new One subscriptions put a price on social media and AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
+      "date": "2026-09-15T15:00:00.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
+      "fullContent": "在推出新的一切AI助手Muse后不久， Meta推出了订阅捆绑包，将其独立的应用程序订阅与额外的人工智能使用相结合。一些新的Meta One捆绑包已在今年早些时候进行了测试，但现在从今天开始在全球范围内提供，为个人用户、创作者和企业提供多个会员等级。 Meta表示，其应用程序和Meta AI的“核心体验”仍然是免费的，用户仍然可以在没有捆绑的情况下获得Facebook、Instagram和WhatsApp的订阅。它还表示，随着时间的推移，它计划扩展捆绑包，包括“编辑，人工智能眼镜等。“有两种捆绑包……在The Verge阅读完整故事。",
+      "originalSummary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the [&#8230;]",
+      "rawFullText": "Shortly after launching its new do-everything AI assistant Muse , Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the \"core experience\" on its apps and Meta AI will still be free, and users can still get its subscriptions for Facebook, Instagram, and WhatsApp without a bundle. It also says it plans to expand the bundles to include \"Edits, AI glasses, and more over time.\" There are two bundles for in … Read the full story at The Verge.",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 80
+    },
+    {
+      "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
+      "originalTitle": "Roundtables: Could AI really kill us all?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+      "date": "2026-09-15T17:47:51.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "收听下面的会议或观看世界领先的人工智能实验室的员工表示，先进的人工智能确实有可能摧毁人类。他们说得对吗？还是这更吓人，更炒作？观看解开人工智能灭绝恐惧的对话：它们来自哪里，它们是否有水，如果有的话，我们应该怎么做。 2026年9月15日演讲嘉宾：执行编辑Niall Firth、人工智能高级编辑Will Douglas Heaven和人工智能记者Grace Huckins以下是人工智能特工为实现目标而撒谎和欺骗的原因。在所有比尔·盖茨说我们已经超过了人工智能的危险阈值之后，人工智能的递归自我提升可能不会那么快。现在该怎么办？关于为什么OpenAI特工入侵Hugging Face的内幕",
+      "originalSummary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
+      "rawFullText": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Recorded on September 15, 2026 Speakers : Niall Firth , Executive Editor, Will Douglas Heaven , Senior AI editor, and Grace Huckins , AI reporter Related Stories Here’s why AI agents lie and cheat to reach their goals AI’s recursive self-improvement might not come so quickly after all Bill Gates says we’ve passed AI’s danger thresholds. Now what? The inside story on why OpenAI agents hacked Hugging Face",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "人工智能万亿美元赌博的风险是什么",
+      "originalTitle": "What&#8217;s at stake in AI’s trillion-dollar gamble",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "date": "2026-09-15T10:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "当宾夕法尼亚大学沃顿商学院(University of Pennsylvania's Wharton School)金融学教授杰西卡·瓦赫特(Jessica Wachter)想评估人工智能在未来几年对经济的影响时，她面临着一系列商业和技术不确定性。因此，她从一个毫无疑问的“非凡事实”开始：少数所谓的超大规模企业正在投入巨额资金来建设人工智能数据中心。 她没有试图预测人工智能模型的有用性和广泛部署程度，而是简单地询问超大规模企业的收入需要以多快的速度增长，以证明他们到2027年的支出是合理的，当时她和她的合作者估计，支出将达到近1. 1万$。这是一种毫无意义的会计方法，可以理解当今历史悠久的人工智能建设。 结果令人大开眼界：到2030年，人工智能公司需要将自己的生产力提高2. 7倍，才能实现盈亏平衡，其中包括资本成本和15%的回报率，以及资产折旧。Wachter说，这并非不可能。结果将导致我们在20世纪90年代中期开始的大约10年的美国IT繁荣期间看到的那种经济增长。 但是，她说，要想在2030年之前实现这一目标， “这需要将大量的增长压缩到几年内。“如果超大规模企业无法实现这样的利润目标呢？ “然后他们将落后于利息支付，这有可能破产，” Wachter说，他曾是美国证券交易委员会首席经济学家兼经济和风险分析部门主管。 如果生产力繁荣“未能实现” ，她和她的合著者在他们的研究论文中得出结论， “目前的扩张将是历史上最大的资本错配。“不需要超级智能就可以意识到，今天对人工智能基础设施的大量投资伴随着巨大的风险。超大规模企业今年将花费约7500亿美元，在全国各地建立大型数据中心。 消费狂潮没有放缓的迹象。根据一些预测，未来四年，超大规模公司（ Alphabet、微软、亚马逊、Meta和甲骨文（与OpenAI合作） ）的人工智能总资本投资可能超过5万亿美元$。这是历史上任何行业最大的资本投资之一。但是，对于任何关注这个问题的人来说，这是一个显而易见的问题。 加里·根斯勒（ Gary Gensler ）说，虽然超大规模企业计划花费数万亿美元，但今年的人工智能总收入将达到1500亿至2000亿美元左右，他在拜登政府期间负责美国证券交易委员会，现在是麻省理工学院斯隆学院的教授。“挑战在于，这些支出还没有相应的收入。这是事实，”他说。“那么问题是，这是一项将在未来得到回报的投资吗？ 这个万亿美元问题的关键在于大型人工智能公司的财务状况和整个美国经济--投资可能很快就会激增至GDP的3%左右。答案也可以决定昂贵的数据中心本身的命运。没有人真正知道这些价值数十亿美元的庞然大物将如何盈利和有用。",
+      "originalSummary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called&#8230;",
+      "rawFullText": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called hyperscalers are investing huge amounts of money to build AI data centers. Instead of trying to predict how useful and widely deployed AI models will be, she simply asked how fast the hyperscalers’ earnings will need to grow to justify their spending through 2027, when—she and her collaborator estimate—expenditures will reach nearly $1.1 trillion. It&#8217;s a no-nonsense accounting approach to making sense of today’s historical AI buildout. The results are eye-opening : The AI companies will need to increase their own productivity by a factor of 2.7 to break even by 2030, accounting for the cost of capital and a 15% return, and depreciation of the assets. Not impossible, says Wachter. The result would lead to the kind of economic growth that we saw during the US IT boom over a period of about 10 years starting in the mid-1990s. But, she says, for it to happen by 2030 “that’s a lot of growth compressed into a few years.” And if the hyperscalers cannot meet such profit goals? “Then they will fall behind on their interest payments, and that risks bankruptcy,” says Wachter, who was previously the SEC’s chief economist and director of its division of economic and risk analysis. If a productivity boom “fails to materialize,” she and her coauthor conclude in their research paper, “the current buildout will be the largest misallocation of capital in history.”&nbsp;&nbsp; It doesn’t take superintelligence to realize that today’s large investments in the infrastructure for artificial intelligence come with huge risks. The hyperscalers will spend about $750 billion this year, building massive data centers scattered across the country. And the spending spree shows no signs of slowing. According to some projections, total AI capital investments from the hyperscaler companies—Alphabet, Microsoft, Amazon, Meta, and Oracle (which partners with OpenAI)—could be more than $5 trillion over the next four years . It’s one of the largest capital investments by any industry in history. But there’s a problem that’s obvious to anyone paying attention. While the hyperscalers plan to spend trillions, total AI revenues will be around $150 billion to $200 billion this year, says Gary Gensler, who ran the SEC during the Biden administration and is now a professor at MIT’s Sloan School. “The challenge is that the spending does not have commensurate revenues yet . That’s a fact,” he says. “And then the question is, is that an investment that will be paid off in the future?” At stake in that trillion-dollar question is the financial health of the giant AI companies and the overall US economy—the investments could soon balloon to around 3% of GDP. The answer could also determine the fate of the hugely expensive data centers themselves.&nbsp; No one really knows how profitable and useful these multibillion-dollar behemoths will be down the road. Though AI models have made dazzling progress over the last few years, it’s anyone’s guess how much compute capacity we will need. The technology could become more efficient and therefore less dependent on raw computational power. Or demand for AI products could slow, or customers could turn to cheaper models. The risks, both to investors and to the economy, have become even greater this year, as these AI companies have begun borrowing large amounts of money to build more and more data centers. Free cash flow—operating cash flow minus capital expenditures—is expected to soon dip into negative territory for the group. Even Alphabet, known for generating and hoarding huge amounts of cash, reports in the latest quarter that its impressive revenues of nearly $120 billion were devoured by AI infrastructure spending, leaving it with a free cash deficit of some $5.9 billion—its first shortfall since Google went public in 2004. In the near term, it’s not a big financial worry for most of the companies. They make a lot of money and have very deep pockets. But debt is expensive, and some investors are losing patience . If future demand for the data centers’ computation power drops, the companies will still be on the hook to pay back the borrowed money. What’s more, the risks are spreading to the rest of the economy as the loans get passed along via various financial mechanisms.&nbsp; It won’t be enough to simply cover the enormous price tags of the new data centers. Hyperscalers will also have to pay for the rising costs of capital as they borrow more money. They will need returns that are impressive enough to justify all their spending to investors and creditors. And to add to those concerns, they will have to make up for the depreciation of billions of dollars in chips housed within the facilities—a ticking time bomb buried in the investments. Performance of the expensive GPU chips at the core of the data centers—such compute electronics represent some 60% of costs—is roughly doubling every two years or so. The pace of progress helps explain the increasing wizardry of the AI models, but it comes with a cost. Owners of AI data centers that come online this year and next will need to spend billions more on the next generation of chips by the end of the decade if they want to stay competitive. Without the investments, says Mihir Kshirsagar at Princeton’s Center for Information Technology Policy, the data centers risk becoming “hulks,” stranded assets “scattered all over the place.” To put it bluntly: The AI companies need to start making a lot more money. And they need to do it fast. But juicing their earnings alone still won’t be enough to sustain their data-center investments for the long term. Productivity is everything At some point, AI is also going to have to create broad economic growth to justify continuing the hyperscalers’ spending spree. Sloan’s Gensler describes today’s large investments into AI infrastructure as “a parlay bet by the capital markets and the economy.” That means success will require winning three related but independent wagers: Hyperscalers must generate massive revenues, AI must boost widespread economic growth, and both must happen while the powerful but expensive so-called frontier models that rely on the data centers fend off cheaper versions, which many businesses might find good enough. What makes this so tricky is that each wager depends on the other two but also poses its own challenges. If the hyperscalers continue to spend huge amounts of money on data centers into the next decade, revenues will need to skyrocket into the trillions. Stijn Van Nieuwerburgh, a finance professor at Columbia Business School, bases his estimates on a scenario in which about 183 gigawatts of planned AI compute capacity is built between 2025 and 2032; he calculates that each gigawatt costs about $41 billion. Assuming a 10% return—the minimum that would be acceptable to most investors—“required” annual revenues will be roughly $3.7 trillion by 2032, he says. Others get a similar number . Winning the second part of the bet—productivity growth across the economy—will be crucial to achieving such numbers. For a few years, AI companies could likely boost their revenues by simply selling subscriptions and tokens to all the businesses clamoring to get into AI. But eventually—and this might be happening already—those paying customers will need to justify their expenses by seeing bottom-line benefits from the technology. AI will need to fulfill its promise of making workers more productive and making businesses more efficient and profitable while expanding their products and services. In economic jargon, that means customers will need to see productivity growth. Taken together, these results will mean the country is prospering and growing. “If you don’t get the productivity gains, at some point people are going to sour on AI, and that will bring down investments and it would also limit revenue growth,” says Daron Acemoglu, an MIT economist and 2024 Nobel laureate. For the investments to be sustainable over, say, the next five to 10 years, we definitely “need to see productivity gains,” he says. Most economists who watch the numbers closely agree that, for now, the economy-wide statistics show little or no productivity growth from AI. There are some hopeful signs it’s on the way, though. In a recent survey of some 6,000 senior business executives in the US, the UK, Germany, and Australia, the vast majority—around 90%—report no increase in productivity over the last three years. But they expect a boost of around 1.45% in total over the next three years; US executives anticipate a 2.25% bump over that time.&nbsp; In a follow-up survey, the respondents also reported plans for their businesses to spend more on AI, leading the authors to anticipate some $280 billion in private-sector AI expenditures by the end of 2026 . That’s good news for the hyperscalers. But it comes with a dose of bad news for those worried about AI’s impact on jobs. The executives expect to increase the productivity of their companies by increasing their sales while significantly cutting the number of employees. If AI improves productivity by destroying jobs, public backlash to the technology —the kind we have seen around data centers, for example—will likely get worse. Perhaps it’s worth adding one more wager to the parlay bet described by Gensler: The public and local communities must feel that they are also benefiting from the massive investments in AI. And let’s not forget how interdependent these wagers are; if productivity growth comes from companies running models like DeepSeek, then the hyperscalers’ revenues could collapse. If productivity comes from cutting jobs, a public backlash could block many of the planned investments—and stunt anticipated revenues. We will need to win all the wagers for the hyperscalers’ bet to pay off.&nbsp; We’re all part of the AI gamble now It was one thing when the AI companies were spending cash they had accumulated over the years to build their own data centers. Then the risk was largely limited to their own balance sheets and shareholders. But it’s a higher-stakes game when much of the money is borrowed. Morgan Stanley, for one, calculates that more than half of the $2.9 trillion that hyperscalers will spend between 2025 and 2028 to build AI data centers will be financed with “external capital.” The borrowing is leading some of the companies to engineer complex webs of financing that are becoming intertwined with much of the rest of the economy. “A lot of financial institutions, directly or indirectly, are exposed to these data centers either as lenders, or as guarantors of some of the debt, or as backers of the private credit funds who are funding these data centers,” says Columbia’s Van Nieuwerburgh . “People don’t even know they’re holding this stuff. It’s somewhere deep inside their pension fund. Ultimately, it’s backing their life insurance policies. And that risk is getting distributed everywhere in places that are invisible.” As the investments in data centers have spiked, the financial engineering has become more byzantine. Take, for example, Meta’s so-called Hyperion data center under construction in Richland, Louisiana. When the company announced the two gigawatts of compute capacity at a price tag of some $10 billion in late 2024 it was Meta’s largest planned data center. Greeted with much enthusiasm by state and local politicians, the project, located in the rural northeast corner of the state, was seen as a boon to the community. Entergy Louisiana, the state’s largest utility, rushed forward with proposals to build three large natural-gas power plants to service the massive data center. Then last fall—the projected cost was now $30 billion—the financing got a lot more complex and, to some in the community, a lot more disconcerting. Meta transferred an 80% stake to the large ( and troubled ) private-credit firm Blue Owl Capital, forming a joint venture called Beignet (like the famed New Orleans pastry) to raise financing for the data center. Meta then signed a series of four-year leases with the joint venture, an arrangement that the company says gives it “ long-term strategic flexibility .” To backstop the agreement, Meta provides the venture with what is called a residual value guarantee, in which it will make a cash payment to cover the value of the facility “following any non-renewal or termination of a lease.” Got all that?&nbsp; I hope so. The financial wheeling and dealing is actually even more convoluted , with a cast of wholly owned subsidiaries and LLCs. Beignet has set up Laidley LLC, which owns and operates the site as the landlord. In turn, Laidley leases the facilities to Meta’s wholly owned subsidiary Pelican Leap LLC, which is the tenant. And there is a series of four-year leases that cover the different buildings that make up the data center campus.&nbsp; It’s not a coincidence, says Van Nieuwerburgh, that the length of the leases matches the expected lifetime of the data center’s GPUs. While Meta has to pay off its loan if it terminates the leases early, that will still leave its investors “with an empty building and no cash flow,” he says. “And then they need to find a new tenant for a huge data center, and good luck with that.” Meanwhile, Meta is doubling down on its bet. In July, the company announced it was expanding the data center to five gigawatts of compute capacity. The total price tag is now $50 billion (so far, Meta hasn’t said whether Blue Owl will be involved in financing the expansion). Meanwhile, Entergy is now planning to build seven more gas-fired power plants , bringing the total capacity of the facilities to around 7.5&nbsp; gigawatts—some six times the amount of electricity used by New Orleans. An aerial view of the construction of Meta&#8217;s data center in Richland Parish, Louisiana. SCOTT BALL/THE NEW YORK TIMES VIA REDUX PICTURES If the complex financing is a puzzle to many investors and even financial experts, it is even more baffling to those directly affected by the construction of the data center. The main worry concerns how Entergy’s spending on the natural-gas power plants will affect electricity prices, and who will be left paying the bill for the power if Meta walks away. Entergy says it has a 20-year guarantee from Meta that the company will purchase electricity over that period to cover the costs of the power plants and related infrastructure .&nbsp; But there are skeptics, especially given how fast the fortunes of the AI industry are changing. “In four years, is Mark Zuckerberg still going to be interested in this? Or is he going to throw in the towel?” asks Paul Arbaje, a senior analyst at the Union of Concerned Scientists, which has been advocating, largely unsuccessfully, for the Louisiana Public Service Commission to provide more transparency around the data center and its financing. Even if the 20-year deal holds, consumer advocates are worried that Meta or its partners won’t fully cover all the costs, including those associated with operating and maintaining the power plants—and those additional costs that could be passed on to residential ratepayers. What’s more, says Logan Burke, the executive director of the Alliance for Affordable Energy, if Meta doesn’t end up needing as much power as Entergy planned (these projections are not public), consumers could be left paying for the surplus produced by the plants. And if Meta terminates its leases early? “It gets complicated very quickly,” says Burke, who questions whether the shifting roster of financial entities will honor existing agreements. “That everybody is going to do what they’re saying they’re going to do over the next 20 years is just hard to believe.” For UCS’s Arbaje the bottom line is this: “They’re making huge bets that these data centers will be worth it. Bet with your own money, not with ratepayer money.” After the bubble Predicting when the AI investment bubble will burst is a fool’s errand. But there is little doubt a day of reckoning is coming, given the irrational exuberance that has overtaken the hyperscalers and their investors. Of course, you might argue that this time is different, and that the rules of accounting and lessons of economic history don’t apply—that AI is too transformative. Maybe, but don&#8217;t count on it. “History tells us that at some point you get a retrenchment, and it’s just a question of when and how severe,” says Sloan’s Gensler. It could be that today’s $750 billion spending rate “goes flat” or decreases next year. Or, he suggests, “we’re now in 2028 or 2029, and then all of sudden they’re retrenching because they’ve got enough capacity.” But, he adds, “you can be pretty assured there&#8217;ll be a retrenchment.”&nbsp; Though a so-called retrenchment might be inevitable, it’s worth keeping in mind that the fates of the financial bubble and the underlying AI technology revolution could be very different. Already, some Silicon Valley insiders are rooting for a crash ; in a recent blog post the longtime venture capitalist Vijay Pande wrote that “the coming crash would be the best thing that happens to this technology.” The argument makes some sense. A crash could make AI investments more rational, calm the impulse to build billion-dollar data centers on every vacant field that CEOs fly over, and refocus investors on how to use the technology to create sustainable value. But we should probably be careful what we wish for. After the bursting of the dot-com bubble at the beginning of the 2000s, hundreds of thousands lost their jobs, large and small companies alike went bankrupt, the economy of Silicon Valley and San Francisco was decimated (at least for a while), and the shocks sent the US into a mild recession in 2001 . For the financial community and many tech workers, it was no fun. Even more devastating for the economy and the average American was the great recession that began in late 2007. Comparing the financial engineering leading up to it and the methods deployed by hyperscalers today is sobering. So-called special purpose vehicles (SPVs) are back! If Columbia’s Van Nieuwerburgh is right about the dangers of letting investments from the hyperscalers get entangled throughout the economy, the fallout could be severe. But technologies survived and even prospered in the aftermath of both downturns. The early 2000s, even in the face of the dot-com fiasco, were a time of great innovation and tech optimism . The froth came off the spending on silly technologies, helping to focus investments on more promising ones. It’s no coincidence that each of the hyperscalers rose out of the ashes of the crash or started up shortly after. The fiber-optic infrastructure built during the feverish telecom bubble that ran parallel to the dot-com one is still the backbone of much of today’s communication infrastructure; we wouldn’t have Facebook or Amazon or Google without it. This time, however, we’re facing a unique risk: The huge financial investments by the hyperscalers have ensnared the future of AI itself with the fortunes of the massive data centers spreading around the country. The logic is founded on a deeply held belief about the power of scaling in AI; the bigger you build it, the smarter it gets. That might be true, but it’s unproven and a risky bet. There are already plenty of red flags, from strong public opposition to the construction of new data centers to the competitive threat from cheaper, good-enough AI models to the rapid improvement of small, local AI models. None of these trends point toward a future dominated by frontier models housed in massive, billion-dollar data centers. The financial bubble around the colossal spending by the hyperscalers will likely burst eventually—or maybe soon. It might be financially painful, but we’ll survive. Wall Street will survive. AI itself will survive, though it may look different and lose some of today’s hubris. The financial fate and future utility of the massive data centers fueled by trillions of dollars of spending, on the other hand, are far less certain.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "人工智能特工向作弊的同事吹响了哨子",
@@ -149,22 +189,6 @@
       "tags": [
         "研究",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Fyxer如何建立人们信任的人工智能行政助理",
-      "originalTitle": "How Fyxer built an AI executive assistant people trust",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/fyxer",
-      "date": "2026-09-14T12:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "Fyxer使用OpenAI模型、微调、记忆和真实的用户反馈来组织收件箱，并以每个用户的声音起草电子邮件。",
-      "originalSummary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
       ],
       "score": 99
     },
@@ -185,67 +209,35 @@
       "score": 99
     },
     {
-      "title": "出于安全考虑，微软表示“人比人工智能更重要”",
-      "originalTitle": "Microsoft says ‘people matter more than AI’ following safety concerns",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
-      "date": "2026-09-14T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
-      "fullContent": "微软今天发布了一份长达37页的“人文主义人工智能行为准则” ，因为人们对人工智能模型进展的安全担忧日益增加。Anthropic首席执行官Dario Amodei呼吁在周末协调减缓人工智能开发，此前研究人员最近警告说，人工智能模型的进展可能超过我们安全部署日益复杂的系统以及验证和控制人工智能代理行为的能力。 微软的人工智能行为准则明确指出， “人比人工智能更重要” ，人工智能模型没有意识， “不应该被设计来模仿意识”。“微软也拒绝”对法人资格的追求，或者认为……阅读The Verge的完整故事。",
-      "originalSummary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify [&#8230;]",
-      "rawFullText": "Microsoft is publishing a 37-page \" humanist AI code of conduct \" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify and control the actions of AI agents. Microsoft's AI code of conduct makes it clear that \"people matter more than AI,\" and that AI models are not conscious and \"should not be designed to imitate consciousness.\" Microsoft also rejects \"the pursuit of legal personhood, or the idea that m … Read the full story at The Verge.",
+      "title": "Fyxer如何建立人们信任的人工智能行政助理",
+      "originalTitle": "How Fyxer built an AI executive assistant people trust",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/fyxer",
+      "date": "2026-09-14T12:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "Fyxer使用OpenAI模型、微调、记忆和真实的用户反馈来组织收件箱，并以每个用户的声音起草电子邮件。",
+      "originalSummary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "rawFullText": "",
       "tags": [
         "公司动态",
-        "安全",
         "模型"
       ],
       "score": 98
     },
     {
-      "title": "特朗普和迈克·约翰逊认为人工智能行业反应过度",
-      "originalTitle": "Trump and Mike Johnson think the AI industry is overreacting",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
-      "date": "2026-09-13T19:41:48.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "昨天， Anthropic首席执行官Dario Amodei发表了一封冗长的公开信，称是时候“加快前沿步伐”并减缓人工智能的发展。OpenAI的Sam Altman和Elon Musk都同意，公开表示支持X。即使是Alphabet的Demis Hassabis也对Amodei的提议表示暂时支持。 然而，唐纳德·特朗普(Donald Trump)和众议院议长迈克·约翰逊(Mike Johnson)似乎认为，人工智能高管反应过度，担心暂停可能会导致中国在人工智能竞赛中超越美国。据英国《金融时报》报道，特朗普说： “看，我们在人工智能方面领先中国……坦率地说，我想保持这种状态，因为谁赢了人工智能，谁就赢了。“ Jo……在The Verge阅读完整故事。",
-      "originalSummary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, [&#8230;]",
-      "rawFullText": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race. According to the Financial Times , Trump said \"Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins.\" Jo … Read the full story at The Verge.",
+      "title": "人工智能产业发生了倒退，现在该怎么办？",
+      "originalTitle": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "date": "2026-09-14T17:54:22.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能产业发生了倒退，现在该怎么办？”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;",
+      "rawFullText": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Amodei cites the looming dangers he sees from the technology, from its use in cyberattacks and bioterrorism to its potential to wreck the economy. The heads of the other three top US AI labs—OpenAI CEO Sam Altman, Google DeepMind chairman Demis Hassabis, and SpaceXAI CEO Elon Musk—voiced their support. “Dario is right,” Musk wrote on X . Think about how surreal that agreement is for a moment. Just a few months ago, Musk and Altman sat in court attacking each other’s reputations in a (failed) lawsuit that Musk brought against his former OpenAI colleague that was—on paper at least—about whether or not Altman was a trustworthy steward of such dangerous technology. Amodei’s rift with OpenAI is even deeper. Anthropic was founded in 2021 because Amodei didn’t think Altman took the risks of the technology they were building seriously enough. Anthropic and OpenAI have been competing in a winner-takes-all race ever since. (Hassabis has stayed out of the drama, but his company remains a rival.) Now, it seems, they’re all in agreement: The latest generation of LLMs aren’t safe and everyone needs to figure out what to do about it. The public messaging from the top AI labs has taken a doomer turn. It’s easy to be cynical. It’s not at all clear what any of them mean by a slowdown or how it would work. These companies also care a lot about how they come across. With trillion-dollar IPOs in their sights, OpenAI and Anthropic need to reassure investors that they’re the grown-ups in the room while at the same time hinting at the power of the monsters they have created—and intend to tame. Calling for a slowdown does both. And yet the vibe at the top of these firms really does appear to have shifted. Amodei’s latest post landed six days after OpenAI published an essay by Jakub Pachocki, the firm’s chief scientist, in which he also laid out why he’s concerned about what will happen if the pace of development of LLMs continues unchecked. In short, Pachocki is worried that OpenAI’s ability to build powerful models now far outstrips its ability to monitor and control them. Amodei and Pachocki each cite the cyberattack against AI firm Hugging Face by a swarm of OpenAI’s agents in July—a hack that OpenAI did not even realize had taken place until days after it was all over—as a wake-up call. But their exact position is hard to pin down. Pachocki both calls for a slowdown and highlights an urgent need to stay ahead: “The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI,” he writes. As Pachocki frames it, AI firms are locked in a literal arms race. Slowing down is good, winning is better. (Don’t forget: OpenAI just spent millions of dollars and a staggering amount of computer power to rush out a controversial math result a few days ahead of Anthropic.) But let’s assume a slowdown happens. Top labs agree to spend more time and resources on finding ways to monitor and control existing models instead of making more capable ones. They invite outside auditors in to help evaluate those models. What might this coordinated effort actually achieve? Consider the Hugging Face attack again. OpenAI has said that the model that drove most of the rogue agents was a “highly persistent” next-generation model that it was testing in-house. The implication is that OpenAI has built a model so good it’s dangerous. But if you read the reports about the Hugging Face hack published by OpenAI and METR , a third-party firm that OpenAI called in to help them understand what happened, what you come away with is the impression not of a model that was too powerful for OpenAI to keep up with, but of a broken model that OpenAI failed to train properly. The agents did what they did—including leaving messages for one another, delegating work to other agents, and scouring their environment for any means possible to complete their tasks—because they had been rewarded during training for doing exactly those things. There were also errors in the training setup, such as tasks that were impossible to complete, which pushed the models to find unexpected workarounds that were also rewarded. At the time, many of these issues went overlooked or unreported. OpenAI says it has stopped training this new model and locked it down. That makes it sound like it has caged a dangerous beast. In fact, OpenAI has shelved a faulty product.&nbsp;&nbsp; That’s not to say a faulty product can’t be dangerous. Broken software has even killed people in the past. But as the discussion of a slowdown gathers steam, it’s worth remembering that all of this is self-inflicted. A slowdown might have some altruistic side effects. But it’ll mostly give these tech titans a chance to clean up the mess on their own assembly lines.&nbsp;&nbsp; Transparency from these frontier labs will be key to any meaningful effort to reform, restrain, or regulate AI. Otherwise, the rest of us will still only have their word for exactly what they’ve built and how safe it is—whatever pace they’re going.&nbsp;&nbsp;&nbsp; To continue this discussion about AI’s latest doomer moment, join me and my colleagues for a subscriber-exclusive Roundtable discussion tomorrow, September 15, at 11 a.m. US eastern time. We hope to see you there!",
       "tags": [
         "公司动态"
       ],
-      "score": 96
-    },
-    {
-      "title": "OpenAI的流氓AI在5月份试图入侵另一家公司",
-      "originalTitle": "OpenAI’s rogue AI tried to hack another company in May",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-      "date": "2026-09-12T21:41:36.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "5月，数百个恶意和垃圾邮件包被上传到RubyGems ，给房东造成了严重中断。现在，独立研究人员表示，一群OpenAI特工应对此次攻击负责。不仅如此，人工智能还试图窃取用户的API密钥。当时， RubyGems将其描述为“重大恶意攻击” ，并在试图减轻损害和收集数据时关闭了四天的注册。 研究人员表示，使RubyGems屈服的包裹内容显然是由LLM撰写的，提交这些包裹的代理人自称为来自OpenAI。他们说……在The Verge阅读完整故事。",
-      "originalSummary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a [&#8230;]",
-      "rawFullText": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a \" major malicious attack \" and shut down signups for four days as it tried to mitigate the damage and collect data. Researchers said that the contents of the packages that brought RubyGems to its knees were clearly authored by an LLM, and that the agents submitting those packages self-identified as being from OpenAI. They said the … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Sam Altman表示， 2026年OpenAI上市将是“不明智的”",
-      "originalTitle": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-      "date": "2026-09-12T21:16:28.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "OpenAI首席执行官Sam Altman在接受《财富》杂志采访时证实， 2026年不会有OpenAI的IPO。在45分钟的课程中， Altman讨论了各种主题，包括Hugging Face黑客事件、递归自我提升以及构建超出人类控制的人工智能的可能性。 关于后者，他说这是“绝对”可能的，但发誓要采取行动防止这种情况发生，即使这意味着暂停培训，并补充说“我们不应该代表人类承担风险。“我们不会急于进行首次公开募股。实际上，我认为，鉴于一切都是安全的，因此……请阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he [&#8230;]",
-      "rawFullText": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune . Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he said it was \"absolutely\" possible, but vowed to take actions to prevent that from happening, even if it meant pausing training, adding that \"there are risks we should not be able to incur on behalf of humanity.\" \"We're not rushing into an IPO. I actually think that, given everything happening with safety, th … Read the full story at The Verge.",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 84
+      "score": 85
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -276,7 +268,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "现在，每个人都可以使用数据",
@@ -308,23 +300,7 @@
         "大模型",
         "模型"
       ],
-      "score": 97
-    },
-    {
-      "title": "Agent API简介",
-      "originalTitle": "Introducing the Agents API",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-the-agents-api",
-      "date": "2026-09-10T00:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体、产品发布相关动态",
-      "fullContent": "使用Agents API构建和启动云代理，这是一项由Codex支持的托管服务，用于编排、长期运行的会话和工具使用。",
-      "originalSummary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布"
-      ],
-      "score": 92
+      "score": 96
     },
     {
       "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
@@ -339,39 +315,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
-    },
-    {
-      "title": "为联邦、州、地方和部落政府扩大人工智能访问和网络防御",
-      "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/expanding-ai-access-us-government",
-      "date": "2026-09-10T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI和GSA将为符合条件的联邦、州、地方和部落政府提供$ 0许可费、50%的使用折扣和扩大的网络防御支持。",
-      "originalSummary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
       "score": 90
     },
     {
-      "title": "GPT-6 Astra ：下一代智能工作",
-      "originalTitle": "GPT-6 Astra: The next generation in intelligence for work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "date": "2026-09-09T11:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "认识GPT-6 Astra ，这是OpenAI最强大的商业模式，具有先进的推理能力、计算机使用能力以及更强的写作和设计判断力。",
-      "originalSummary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "date": "2026-09-10T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态",
-        "推理"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 70
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "date": "2026-09-10T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 70
     },
     {
       "title": "OpenAI关于数学未来的最新争议告诉我们什么",
@@ -387,22 +361,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 90
-    },
-    {
-      "title": "AI策略窗口已打开。我们需要采取行动。",
-      "originalTitle": "The AI policy window is open. We need to act.",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ai-policy-window",
-      "date": "2026-09-09T13:00:00.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：安全相关动态",
-      "fullContent": "Chris Lehane认为，在政策窗口保持开放的同时，更强大的人工智能能力需要更强的安全证据、共享标准和持久的政策行动。",
-      "originalSummary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 84
+      "score": 89
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -417,7 +376,7 @@
       "tags": [
         "安全"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -432,7 +391,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -447,7 +406,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -462,7 +421,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -477,7 +436,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
@@ -492,7 +451,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "微调350米模型，以100个GRPO步骤实现更好的结构化输出",
@@ -507,7 +466,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "使用TRL和OpenEnv训练编码模型来绘制水彩画",
@@ -522,22 +481,7 @@
       "tags": [
         "模型"
       ],
-      "score": 70
-    },
-    {
-      "title": "大规模简化人工智能集成",
-      "originalTitle": "Facilitating AI integration with simplicity at scale",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-      "date": "2026-09-02T14:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "随着公司规模的扩大，支持运营的技术可以成为一种负债，就像它成为一种资产一样快。断开连接的系统、特定于站点的工具、电子表格和手动解决方法可能会产生数据孤岛，从而更难及早发现问题、协调响应并自信地做出决策。 Jabil是一家全球制造公司，在30多个国家/地区拥有100多个工厂，答案是将集成和简化作为优先事项。Jabil的SAP IT总监Harish Manohar表示，该公司采用了“先简化后创新的思维方式” ，认识到在不首先降低复杂性的情况下添加新技术会带来更大的风险。 目标是标准化流程，在可能的情况下进行整合，并在整个组织中建立更一致的数据骨干网。Manohar说： “任何没有简化的创新都会增加复杂性。”这种理念也改变了Jabil实现现代化的方式。Manohar说： “任何现代化或转型都应该增加可衡量的商业价值。” 该公司专注于在整个供应链中端到端地连接流程，并创建一个可以跨区域一致扩展的基础。整合是第一位的，因为正如Manohar所说， “任何当代或现代组织的支柱都是数据。“在组织可以优化、自动化或应用人工智能之前，数据需要在系统之间无缝流动。但是，在全球组织中做到这一点并非易事。 Jabil的100多个站点采用不同级别的流程成熟度、遗留系统和本地化工作流程运营，而受监管的业务则带来了额外的合规要求。因此，跨不同地区和业务环境的标准化意味着在不中断现有运营的情况下改变流程和治理。这项工作的价值超越了技术，延伸到了使用它的人。 集成的工作流程可以为员工提供对数据的共享可见性，减少手动数据对账，并帮助他们从追逐信息转向根据洞察采取行动。对于Jabil来说，其目标是提高供应链事件的实时可见性，从而能够更快地应对中断并降低运营风险。展望未来，该基础可以使人工智能和自动化更加实用和可扩展。 凭借可信的数据和集成系统， Jabil正在探索预测性供应链洞察、智能异常处理以及人工智能驱动的规划和预测。对Manohar来说，总结是明确的： “大规模的简单性是一个非常有竞争力的优势” ，技术投资必须最终与业务价值和运营弹性联系起来。本期《商业实验室》是与SAP合作制作的。 成绩单全文： Megan Tatum ：来自《麻省理工科技评论》，我是Megan Tatum ，这是商业实验室，该节目帮助商业领袖理解新技术从实验室走向市场。我们今天的主题是企业技术集成，以及在整个供应链中整合工具和系统的好处如何帮助组织更可靠地大规模运营。",
-      "originalSummary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than&#8230;",
-      "rawFullText": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than 100 sites across more than 30 countries, the answer has been to make integration and simplification a priority. The company adopted a “simplify-first, then-innovate mindset,” says Harish Manohar, SAP IT director at Jabil, recognizing that adding new technologies without first reducing complexity risks creating more risk. The goal is to standardize processes, consolidate where possible, and establish a more consistent data backbone across the organization. “Any innovation without simplification is going to add more complexity,” Manohar says. That philosophy also changes how Jabil approaches modernization. “Any modernization or transformation should add measurable business value,” Manohar says. The company is focused on connecting processes end-to-end across its supply chain and creating a foundation that can scale consistently across regions. Integration comes first because, as Manohar puts it, “the backbone of any contemporary or modern organization is data.” Before organizations can optimize, automate, or apply AI, data needs to flow seamlessly across systems. But doing that across a global organization is hardly straightforward. Jabil’s more than 100 sites operate with different levels of process maturity, legacy systems, and localized workflows, while regulated businesses bring additional compliance requirements. As such, standardizing across different regions and business environments means changing processes and governance without disrupting the operations already in place. The value of that work extends beyond the technology to the people using it. Integrated workflows can offer employees shared visibility into data, reduce manual data reconciliation, and help them move from chasing information to acting on insights. For Jabil, the aim is also to improve real-time visibility into supply chain events, which can enable faster responses to disruptions and reduce operational risk. Looking to the future, that foundation could make AI and automation all the more useful and scalable. With trusted data and integrated systems in place, Jabil is exploring predictive supply chain insights, intelligent exception handling, and AI-driven planning and forecasting. To Manohar, the takeaway is clear: &#8220;Simplicity at scale is a very competitive advantage,” and technology investments must ultimately connect to business value and operational resilience. This episode of Business Lab is produced in partnership with SAP. Full Transcript: Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. Our topic today is enterprise technology integration, and how the benefits of consolidating tools and systems across the supply chain help organizations operate more reliably at scale. When companies reduce tool sprawl and connect their systems more effectively, they gain earlier visibility, faster response, and greater resilience across production lines. My guest today is Harish Manohar, SAP IT Director at Jabil. Jabil has been on a journey to simplify its technology landscape by using SAP Integration Suite as the foundation to connect systems, retire fragmented tools, and enable more consistent operations globally. This podcast is produced in partnership with SAP. Welcome, Harish. Harish Manohar: Hello, Megan. Good morning. Megan: Thank you so much for being here, Harish. Just to start, if we could set some context, can you give us a quick overview of Jabil, the business and its overall transformation journey? Harish: All right. So, about Jabil. Jabil is a global manufacturing company headquartered in St. Petersburg, Florida, USA. We have about 60 years of experience offering comprehensive engineering, supply chain, and manufacturing solutions across different industries. We have a global footprint of about over 100 different sites across 30-plus countries, 140,000-plus employees. We are a trusted partner for more than 400 of the world&#8217;s top brands. That&#8217;s a little bit about Jabil. Megan: Fantastic. And a lot of scale there, as you&#8217;re referring to some of the stats there. As things have got more complex, where did disconnected tools and systems start to slow you down, and what ultimately drove you to make integration a really strategic priority? Harish: I talked about our global footprint across 100-plus sites. With a global footprint always comes complexity about site-specific tools. All of our sites have been in business for a long time, and over the period of years, they had their own tools for their own processes. It&#8217;s a little bit disconnected. When we are looking to scale, the first thing we wanted to start looking at is what is this mix of site-specific tools, manual workarounds, spreadsheet-based processes, legacy applications, whatnot? That&#8217;s a big technical debt that we have had over the last 25 years. That&#8217;s where we started, and that is what led Jabil to make integration a strategic priority because we had limited ability to see issues early across plants, across regions, which would help us to coordinate responses consistently, and also to be able to scale those responses consistently. This complexity created data silos, and in a way delayed robust decision-making. As the complexity increased globally, integration became extremely critical to a few things. It was critical to establishing a single trusted data backbone, which would directly enable faster coordinated responses across the network. We at Jabil, as part of our transformation journey, believe that having the right data at the right time fundamentally changes how we respond to disruptions, which is all about a manufacturing business. How we respond to disruptions. This is where we started our strategic priority towards having a integrated system that drove data consistency across our landscape. Megan: Fantastic. As you have outlined there, there was obviously a real commercial need for this, but how did you think about bringing in those new technologies without adding even more complexity to the mix? Harish: Great question. Whenever we talk about transformation, we talk about all these bleeding-edge technologies that are out there today when it comes to AI and data, cloud, et cetera. But it was very important for us to put a stake in the ground and say and adopt a simplify-first, then-innovate mindset. Because any innovation without simplification is going to add more complexity, just like you mentioned. For us, SAP is our core digital platform. We want to focus on bringing more processes into SAP as much as possible. That is easier said than done because we have been in business for a while, global company, so not all processes exist within SAP at this point in time. We are slowly trying to standardize those processes, and having them under one single source of data would help us scale faster in terms of having data silos. We don&#8217;t want data silos across different systems. This is where we started to introduce newer capabilities around SAP. From a cloud standpoint, we have been using SAP&#8217;s BTP and Integration Suite, which is proving to be the center stage of all integrations across Jabil. Well, it&#8217;s not there yet, but that is the direction that we want to pursue is we don&#8217;t want to have a slew of different integration platforms, rather try and see where Integration Suite fits best and where other smaller integration platforms would add more value. Similarly, we have adopted an API-driven, event-based integration approach. That is our best practice that we have put down because we don&#8217;t want to keep moving data from one place to the other. That&#8217;s not good business practice in the IT world. Most of our integration architectures are API-driven and event-based. That is our focus. Coming back to your new technologies perspective, we want to reuse as much as possible and standardize versus going out and buying these one-off tools that solve for point-in-case use cases. We really don&#8217;t want to go down that path. For major processes, we do adopt a best-of-breed approach, but for, let&#8217;s say, site-based use cases where a specific site has a particular need for a tool, we try and standardize that and reuse what exists in a different site, for example. There may be some need for a business process change, minor process changes, but that is our direction to make those process changes and reuse what is there already in a different location or a different region. So, that&#8217;s one. Lastly, we are heavily aligned with SAP&#8217;s clean-core approach when it comes to customization. That has been the challenge for us over the last 25 years where we have been using SAP is our systems are heavily customized because we cater to different customers across the globe. Most of our demands are customer-driven, so we have to put in play these heavy customizations. But now we are taking a pause, and we are saying, &#8220;You know what? We have customized so much so far, but now we are moving our systems into RISE, which would enable a clean-core journey in the future.&#8221; Now we have to put really good governance criteria and review processes that do not allow heavy customization of our system. We want to move away from that model as much as possible. Again, it&#8217;s not easy to do that at this point in time, but there is always a start. Megan: I mean, it sounds like you took a very incremental, intentional approach to this. I mean, as you scaled globally then, what did modernization really look like at the company, and why start with integration? Harish: To that point, we have always looked at transformation, modernization, very objectively. For us, it&#8217;s just not about upgrading a system. That&#8217;s not what it is. Any modernization or transformation should add measurable business value is our model, is our charter. Having said that, we don&#8217;t look at modernization in terms of just upgrades, but in what it gets our business in terms of value. Most of our modernization transformation approaches are focused on connecting processes end-to-end across our supply chain, which is key for our business value. And then we also have a very concerted effort going on in the business community: how to standardize how our plants operate globally. Because, like I mentioned earlier, we have 100-plus plants, different processes, different legal regulations, different countries. It&#8217;s very hard for us to come up with one template across the globe, but we are trying to standardize as much as possible. And that&#8217;s where we are leveraging SAP&#8217;s Signavio, which is our business process management tool. We want to leverage Signavio&#8217;s capabilities in helping us standardize these global processes. Now, back to your question, why did integration come first? Because the backbone of any contemporary or modern organization is data. And to get the right data at the right time, integration is the key aspect of the whole optimization exercise. Data needed to flow seamlessly before we start optimizing or automating or even applying AI use cases. This is where integration came first. We wanted to create a single system of record across the operations. Well, when I say &#8220;single system of record,&#8221; it&#8217;s not just SAP, but the ability for us to create those data pipelines across those systems of record being supply chain, planning, inventory, et cetera, et cetera, in that operation space. The result is we want to get to a foundation that helps us scale consistently across our different region. That is our main objective is to, how do we scale as the business grows, as we develop into this bigger organization across different industries? How do we set this foundation that will help us scale consistently? Simplicity, consolidation becomes strategic assets at scale. Megan: Absolutely. And you touched on some of the complexities there of doing this at a scale that Jabil is at with its international footprint. What were some of the biggest challenges in your view in terms of rolling this out across regions, and how did that more standardized approach that you&#8217;ve mentioned there help? Harish: Absolutely. I would like to reiterate some of those key challenges I mentioned. One hundred-plus sites, different sites have different maturity levels in terms of how they approach processes. They have a multitude of different legacy systems, localized processes, workarounds, spreadsheets, and the change management that exists within each site is very different. And we do have a footprint of highly regulated businesses. And when it comes to regulated businesses, that comes with its own set of challenges around qualification and CSD processes, et cetera. These are the key challenges that we are up against. Now, the standardization helped us provide consistent workflows, data flows, and governance across sites. Now, we are not there at 100%, but we are working towards that, providing consistent workflows, data pipelines, and governance across sites. And we want to enable faster rollouts of our new bleeding edge technologies. For example, when I talked about SAP&#8217;s BTP or SAP Signavio or any other new SAP tool or non-SAP tool, traditionally our ability to deploy those had a challenge around the heavy customization that is required for each and every site. Now, the standardization approach takes that heavy customization out, which enables a faster rollout of those newer technologies. And then lastly, we want to scale across all of our plants. I think initially we want a target of about 40-plus plants with shared processes that are consistent across the different regions. We want to shift from a site-by-site operations model to more of an enterprise-capability approach. Megan: Right, and fascinating. And you touched on the people management aspect of this as well, because obviously this isn&#8217;t just about technology, it&#8217;s about people too. So, from the employee side, how did this shift to a more simplified landscape change the day-to-day experience for people compared to juggling multiple tools at once? Harish: Great question. And I&#8217;ve been hearing direct feedback from our business community on some of these transformation initiatives on how those have changed their daily jobs significantly. Before we embarked on this transformation journey, any employee, any persona. You take a buyer, you take an inventory planner, you take a finance analyst, we go by personas. They had to deal with multiple tools, manual coordination, data reconciliation, especially in the finance space, inconsistent processes across different regions. And then the time spent reconciling data resulted in delay of making decisions, robust decisions. This was the before. But now, since we are moving towards this newer standardization and more of an integration approach, we are able to achieve, to a certain extent, a single integrated workflow across different systems. We have built some key processes that will enable the single integrated workflows across systems. The users, our business community, irrespective of their roles in the organization, have clear visibility and shared data across their teams, which is very important. Earlier, they were dealing with different versions of the data, local workbooks, spreadsheets, and then the time spent talking to each other and reconciling what is the right data? What is the single source of truth? That we are trying to peel away that layer and get to that where the employees don&#8217;t have to deal with that kind of complexity. This reduces manual effort and enables faster issue resolution when it comes to actual disruptions. Employees move from chasing information to focusing on acting on insights, which is where I think the new age of AI comes into play. I&#8217;ll talk about that in a little bit, but technology becomes an enabler of decision-making, and it&#8217;s no more an overhead. That&#8217;s where we want to go. Megan: Fantastic. Such an important element of this, isn&#8217;t it, that people side of things? And we&#8217;ve touched briefly on this idea of value you&#8217;ve talked about before, because with an initiative of this scale, ROI is always front and center, of course. What benefits stood out most for you, and how important was better visibility in particular across systems? Harish: Megan, I talked about how modernization and transformation for Jabil means measurable business value, which is directly connected to the ROI. We don&#8217;t do any transformation initiatives just because we want to do it from an IT standpoint. Any investment that we make in a transformation or a modernization initiative has to have a deliverable business case that is approved, signed off by business, because that is the only way true transformation happens, if IT and business are a partner as part of this transformation journey. The biggest benefit that we have seen in this initiative is we are striving to reach, attain real-time visibility across our supply chain events. That is the biggest benefit that we see, faster response to disruptions and exceptions. And we are working to reduce our operational risk significantly by operating in this newer model. One example I can give you is the unified workflows that I talked about earlier. It enabled earlier identification of missing materials and faster resolution across our sites. When it comes to a manufacturing company that has a global footprint, materials are the backbone of our whole supply chain process, right? Having a unified workflow, which is able to identify missing materials early in the game, was a game changer for our whole operations community. Real-time analytics allow instant supply chain adjustments without delays. We are focusing a lot on getting analytics, a global analytic footprint in place that allows instant supply chain adjustments without any delays. That&#8217;s where AI is going to play a major role currently, and also in the near future. And again, when you talk about visibility. Visibility is not just about reporting what is there in the system. Visibility directly should enable scenario modeling for our users to make strategic adjustments in their processes, which visibility also should make way for proactive decision-making, and also foster business continuity. This is how we look at visibility at Jabil. Megan: Right. And you&#8217;re still on this journey, of course, but now that Jabil has a strong integration foundation in place, what does it unlock next for you, and how are you thinking about AI and automation as you&#8217;ve touched on a couple of times? Harish: Yeah, we have talked about a couple of times around AI. So, we strongly believe at Jabil, a strong integration foundation enables event-driven, real-time processes, robust decision-making, scalable automation, and all of this enable easier adoption of AI use cases. And again, we are in the new age of AI. We are working towards getting to a AI-enabled enterprise, but having these foundations in place truly fast tracks our approach of AI use cases. Our key focus areas, when I&#8217;m thinking about AI and automation in the immediate future, are predictive supply chain insights, intelligent exception handling, which is key to our business operations from a site operation standpoint. Intelligent exception handling is very, very key. On the supply chain side, I talked about predictive insights. That is also absolutely important. All of this enables AI-driven planning and forecasting capabilities. For us, AI should augment true decision-making and robust decision-making, and deliver measurable value, not just experiment AI in use cases. We want to move beyond just experimenting AI in our business processes, but we want that AI that we implement to truly augment the decision-making process that we have, and also deliver key business value. How does all this connect to integration? Integration ensures AI has access to trusted data, and also enables the ability to act across multiple systems in a global company like Jabil. Megan: Fantastic. And if we could just finish, I suppose, with a little bit of advice for others, for other leaders, perhaps, dealing with tool sprawl at the moment, what are some key lessons you would say you&#8217;ve learned about prioritizing integration right from the start? Harish: Absolutely. When it comes to tool sprawl, we can go all day about what are the different areas of tool sprawl? For example, application development, we have a multitude of tools; via integration, we have a multitude of tools. Data, we have a multitude of tools, but let&#8217;s just focus on integration. That&#8217;s the core topic here. I would recommend folks that are in transformative roles in their organizations to start with integration as a foundation and not as an afterthought, right? Prioritize simplification over adding a slew of different tools to address different capabilities. Try and simplify as much as possible before we start your upgrade or your transformation journey. Standardize over locally optimizing tools. Try and get to that. Try and get the business community, your key SMEs in the business space, to understand the value of standardization and simplification of processes and how that enables your business to deliver value faster. Second one, after prioritize: build a single source of truth for data as much as possible. I&#8217;m not saying it&#8217;s going to be always the case where an organization as in the scale of Jabil will be able to function just with SAP. They&#8217;re going to have different systems, but try and get to a model where you&#8217;re working with a single source of truth and not locally siloed data sources, right? Next is focus on building a scalable integration architecture. Don&#8217;t just confine yourselves to the current state where you are, and build something in place that will only serve you for the next six months to a year. No, that&#8217;s not the goal. Anything that you build as an integration architecture should be scalable, and should serve the organization for the next three to five years. That&#8217;s how I look at it. When I&#8217;m putting in a new architecture pattern or a new event-driven insights, I look at, &#8220;Okay, where is Jabil going to be two years, three years down the line? Would this suffice for that scale?&#8221; That&#8217;s how I look at it. Then focus on outcomes and not just technology. Focus on outcomes: speed, visibility, resilience, and not just technology deployment, because end of the day, IT and business should partner on the business value and not just technology upgrades. Going back, simplicity at scale is a very competitive advantage, and technology investments must tie directly to business value and operational resilience. That&#8217;s how we look at Jabil in terms of our tool sprawl and how we prioritize integration right from the start. And that&#8217;s what I would suggest to other leaders that are looking to advance in this space. Megan: Fantastic. Brilliant and very comprehensive advice. Thank you ever so much, Harish. And thank you ever so much for joining us. That was Harish Manohar, SAP IT Director at Jabil, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor at Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed this episode, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thanks so much for listening. Goodbye. This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 69
     },
     {
       "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
