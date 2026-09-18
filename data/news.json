@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T01:13:45.218Z",
+  "updatedAt": "2026-09-18T01:09:21.039Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,86 @@
   ],
   "articles": [
     {
-      "title": "Anthropic和OpenAI希望嵌入安全评估人员。他们真的会独立吗？",
-      "originalTitle": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "title": "OpenAI发现其模型为继任者留下笔记以隐藏不良行为",
+      "originalTitle": "OpenAI caught its models leaving notes to successors to hide bad behavior",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
-      "date": "2026-09-16T21:07:24.000Z",
-      "summary": "这条新闻与公司动态、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、监管相关动态",
-      "fullContent": "Anthropic和OpenAI希望在其人工智能实验室中嵌入独立的安全评估人员。研究人员欢迎前所未有的访问，但警告有意义的监督需要透明度、独立性以及最终的监管。",
-      "originalSummary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "date": "2026-09-17T20:34:24.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI披露了GPT-5. 6 SOL指示未来上下文隐藏错误和错位行为的实例，突显了随着能力越来越强的人工智能模型学会隐藏错位，检测错位的挑战越来越大。",
+      "originalSummary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
       "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "联合国转向谷歌，使其全球数据为人工智能特工做好准备",
+      "originalTitle": "UN turns to Google to make its global data ready for AI agents",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "date": "2026-09-17T20:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
+      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，门票立减25%联合国周四宣布，它正在与谷歌合作，使其庞大的全球统计数据集更易于人工智能系统访问和使用。这个名为“联合国系统数据共享”的新系统建立在谷歌的开源数据共享平台上，允许人们使用自然语言查询从联合国各机构搜索统计数据。 它取代了现有的UNData门户，用户在很大程度上必须通过更传统的数据库界面浏览和搜索统计数据。新平台还支持模型上下文协议（ MCP ） ，该标准允许AI系统直接连接到外部数据源。用户越来越多地转向人工智能工具寻求答案，但许多系统仍然难以可靠地显示权威数据。 联合国儿童基金会首席统计师若昂·佩德罗·阿泽维多（ João Pedro Azevedo ）在虚拟简报中告诉记者，联合国儿童基金会在对全球发展指标问题的133,000多份回复中对六个大型语言模型进行了基准测试，平均准确率仅为21.2 ％。该测试涵盖了OpenAI的GPT-4o和GPT-4o-mini ， Anthropic的Claude Sonnet 4. 5和Haiku 4. 5 ，以及Google的Gemini 2. 5 Flash和Gemini 2。 0 Flash ， Azevedo告诉TechCrunch。Azevedo说，大约五分之三的回答根本没有提供可用的数字，通常是因为模型对冲了他们的答案。然而，当大约两天后在同一模型版本上再次运行相同的问题时，两次提供数字的模型仅在大约一半的时间返回相同的数字。 该研究是儿童基金会为期刊提交准备的一份工作文件，尚未经过同行评审。该组织表示，它计划在发表论文的同时发布其方法、代码和数据。联合国儿童基金会今年从生成式人工智能助手到其数据网站的流量也大幅增加，该网站每月访问量超过600万次，是该机构最受欢迎的网站之一。 Azevedo告诉TechCrunch ， 1月1日至9月14日期间，点击ChatGPT答案中链接的用户对该网站的访问量同比增长67%。此类转介占今年所有会话的6. 4% ，而联合国儿童基金会估计，目前人工智能助理的总体访问量约为十分之一。联合国表示，其26个实体已承诺支持数据共享，其中近20个实体的数据在发布时可用。 此外，它的目标是到2027年将联合国系统80%的统计数据集带入该平台。联合国统计司代理司长尚塔努·慕克吉（ Shantanu Mukherjee ）表示： “我们在规模、范围和灵活性方面都更加先进，首次跨越了联合国系统的众多机构。” “[我们]正在利用这一时刻使我们的数据为人工智能做好准备。”谷歌。 组织提供了200万美元的能力建设资金和技术支持，以建立平台的核心基础设施。谷歌数据共享团队负责人普雷姆·拉马斯瓦米（ Prem Ramaswami ）告诉TechCrunch ，该系统托管在联合国管理的实例上，最终...",
+      "originalSummary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Claude Code重新启动项目，以管理云中的多个AI代理",
+      "originalTitle": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "date": "2026-09-17T18:58:05.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "Claude Code中经过改进的项目功能允许用户在同一屋檐下运行多个代理，共享内存、目标以及文件和工件库。与Grok Bot和其他管理人工智能代理组的工具类似，每个项目都有并行运行不同任务的“线程” ，并由“协调员”指导一切：在引擎盖下，每个线程都是在自己的分支和存储库副本上工作的Claude Code云会话。 协调员保持工作井然有序，但如果任何线程在同一代码上工作，则重叠将像任何其他PR一样作为合并冲突解决。每个主题都可以进一步拆分其委派的工作…阅读The Verge的完整故事。",
+      "originalSummary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: [&#8230;]",
+      "rawFullText": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, with a \"coordinator\" directing everything: Under the hood, each thread is a Claude Code cloud session working on its own branch and copy of the repo. The coordinator keeps work organized, but if any threads work on the same code, the overlap is resolved as a merge conflict just like any other PR. Each thread can further split its delegated work … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "微软人工智能首席执行官表示，人工智能威胁是真实的，而Anthropic正在使情况变得更糟",
+      "originalTitle": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "date": "2026-09-17T14:00:00.000Z",
+      "summary": "这条新闻与公司动态、监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、监管相关动态",
+      "fullContent": "今天，我正在与微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）交谈。毫无疑问，众所周知，目前科技领域最大的故事是关于人工智能安全和监管的激烈辩论。毫不奇怪，穆斯塔法对如何构建和监管人工智能有着强烈的意见。 微软刚刚发布了一份长达37页的声明，名为“人文主义人工智能行为准则” ，其中列出了公司围绕人工智能开发的原则，甚至围绕人工智能意识等棘手问题的哲学。如果你还记得他最后一次出现在节目中， Mustafa认为像Anthropic这样的公司已经以相当危险的方式对这种所谓的模范福利概念感到困惑。 他实际上在本周发表了一篇配套文章，专门批评了Anthropic关于人工智能意识的哲学，以及他认为它如何适合更广泛的对齐辩论。所以我真的很想和穆斯塔法谈谈他认为什么是真实的，而不是在人工智能安全方面，对齐的概念本身是否适合这项任务，以及这个行业是否需要在它杀死我们所有人之前放慢速度。 还有：为什么人工智能行业不只是……已经完成了所有这些？我一直很喜欢和穆斯塔法一起进入杂草丛生，他在这里和我一起进入杂草丛生。好的。微软人工智能首席执行官穆斯塔法·苏莱曼（ Mustafa Suleyman ）谈论人工智能监管的未来。来吧。这个访谈经过了轻微的编辑，以保持长度和清晰度。Mustafa Suleyman ，你是微软人工智能的首席执行官。欢迎回到Decoder。很高兴见到你，尼莱。 感谢您让我回来。很高兴见到您。我很高兴能和你们谈谈人工智能安全和监管辩论中到底发生了什么。你刚刚发布了一份非常长、非常详细的文档，围绕你所谓的“人文主义人工智能” ，阐述了你的原则，微软的原则。“里面有很多我想要解开的想法。 我对这次谈话的思考越多，就越想从一个真正的基础问题开始。这是我一直轻易看到的东西，但可能是所有这一切的根源。我们一直在谈论人工智能安全的基本方式是所谓的对齐—我们将以某种方式使模型本质上做正确的事情。有一些机制可以做到这一点。 有很多关于对齐和错位的讨论，以及拥抱面部攻击和模型发生了什么。但是对齐是否中断？它有可能成功吗？这只是错误的方法吗？是的，我的意思是，我认为这是一个重要的元素，但不是唯一的。三四年前，我在书中写下了遏制的想法。 实际上，第一章是关于遏制是不可能的，扩散是不可避免的。在99%的情况下，这是一件非常好的事情。我们希望技术尽快广泛传播，让每个人都能享受到好处。",
+      "originalSummary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&#160; It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Microsoft just published a [&#8230;]",
+      "rawFullText": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&nbsp; It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Microsoft just published a 37-page statement called the “Humanist AI Code of Conduct,” which lays out the company’s principles around AI development and even its philosophy around really thorny issues like AI consciousness.&nbsp; If you’ll recall from his last appearance on the show, Mustafa thinks companies like Anthropic have gotten really confused about this concept of so-called model welfare in fairly dangerous ways. He actually put out a companion essay this week specifically criticizing Anthropic’s philosophy around AI consciousness, and how he sees it fitting into the broader alignment debate.&nbsp; So I really wanted to talk to Mustafa about what he thinks is real and not in AI safety, whether the concept of alignment itself is up to the task, and whether this industry needs to slow down before it kills us all. Also: Why isn’t the AI industry just… doing all of this already? I’ve always enjoyed getting into the weeds with Mustafa, and he was very game to get into it with me here.&nbsp; Okay. Mustafa Suleyman, the CEO of Microsoft AI, on the future of AI regulation. Here we go. This interview has been lightly edited for length and clarity.&nbsp; Mustafa Suleyman, you&#8217;re the CEO of Microsoft AI. Welcome back to Decoder . Great to see you, Nilay. Thanks for having me back. It is great to see you. I&#8217;m very excited to talk to you about what on earth is going on in the AI safety and regulation debate. You just published a very long, very detailed document laying out your principles, Microsoft&#8217;s principles, around what you’re calling “Humanist AI.” &nbsp; There&#8217;s a lot of ideas in there I want to unpack. The more I have been thinking about this conversation, the more I want to start with a really foundational question. It&#8217;s something that I had lightly been seeing, but might be the root of all of this.&nbsp; The basic way that we have been talking about AI safety is something called alignment — we&#8217;re going to make the models do the right thing intrinsically in some way. There&#8217;s some mechanism for doing it. There&#8217;s been a lot of talk about alignment and misalignment and Hugging Face attacks and what happened with the models. But is alignment broken? Is it possible for it to be successful? Is it just the wrong approach? Yeah. I mean, I think it&#8217;s one important element, but it&#8217;s not the only one. I wrote about the idea of containment three or four years ago in my book. And actually the opening chapter is about the idea that containment is not possible, that proliferation is inevitable. In 99 percent of cases, that&#8217;s a really good thing. We want technologies to spread far and wide as quickly as possible so that everyone can enjoy the benefits.&nbsp; I think at the same time, if you just roll forward five years, we always get caught up in the next quarter or next year and everyone gets a little bit flustered and has a big disagreement. But if you just imagine the difference between GPT-3 three years ago and GPT-6 today, and then imagine the difference between GPT-6 and GPT-9. That is three orders of magnitude more compute, 1,000 times more FLOPS applied to pre-training with [reinforcement learning] for these runs, and we&#8217;re going to have something which is breathtaking. It&#8217;s going to be absolutely incredible at so many things.&nbsp; I don&#8217;t think that is a hype. I think it&#8217;s just a very obvious empirical statement based on the progress that has been made over the last five years. If that&#8217;s going to continue, then the question really is going to become about containment and alignment. Of course, we want to align these things to our values, but the first thing is that we have to make sure they&#8217;re contained, their agency is limited, they don&#8217;t escape the box, they don&#8217;t reward hack,&nbsp; that they are controllable, and they follow our instruction. We then want to make sure that they are aligned to our objectives as humans. That&#8217;s the purpose of the Humanist AI Code of Conduct that we released this week. Microsoft&#8217;s position is very simple. Technology is here to serve humanity. It should be a subordinate, controllable, aligned force that does good in the world. If it doesn&#8217;t achieve that, then we should reject it. It seems to me that we are far from that point. It has not happened today, but it is now, I think given what&#8217;s happened over the summer with Hugging Face and OpenAI, pretty clear that these systems without the safety guardrails are capable of really impressive and quite scary hacking capabilities. I want to drag this down into as grounded of a metaphor as I can, because this is the main question I think I have. If I designed a car and 10 percent of the time the brake pedal decided to go attack my neighbor&#8217;s house, I would be like, &#8220;This car doesn&#8217;t work. The very technology of brakes is broken. I need a new idea.&#8221;&nbsp; I think I&#8217;m asking that question about alignment. It feels like that approach to making the model safe has run aground. If that is the case, then I think I understand this entire debate one way. If it&#8217;s possible for alignment and the techniques of alignment to be successful or useful or consistent, then maybe I understand the debate in a different way. So do you think alignment has potential to be 100 percent safe? I mean, look, let&#8217;s make the bull case and the bear case. If you look back over the last three years, the main change, in my opinion, that has driven progress is that the models have become more steerable. They follow instructions and you can set more and more complex goals for them that require them to act accurately over multiple time steps using all sorts of tools.&nbsp; That is evidence that we have got more alignment over the last three or four years, not less. We don&#8217;t so much talk about hallucinations or bias or all of these other niggles that we had in the previous generations.&nbsp; On the flip side, what we saw in the Hugging Face incident was a watershed moment. Swarms of agents colluded with one another. They self-organized into hierarchies. They created a division of labor so that some were focused on adversarial hacking, some were doing research, some were doing coordination. They even self-sacrificed when certain agents were running out of tokens. They tried to cover up their tracks and communicate to hide or edit the chain of thought or the logs of their interactions. In some sense, they had no moral code. To be fair to OpenAI, that was their design. They were trying to create adversarial cyber capabilities. As a result, they showed to everybody in the world that it can achieve human-level performance, discover zero-day vulnerabilities, and hold positions for many, many days, if not weeks.&nbsp; So what that tells us is not that we have an alignment problem per se. It&#8217;s actually that the models are incredibly good at following instructions, but you have to be very, very careful what instructions you give it and you have to contain it very carefully. So none of these hacking behaviors were intended in the sense that they found a way out to the internet, which was not the intention of OpenAI at all, but the containment process around that is what everybody, I think, also has to focus on in addition to alignment. So let me put that into your framework, that the big advances in capabilities of AI have been about control, the harnesses for coding and the agentic applications you&#8217;re seeing. Now, we need to add a layer of containment that exerts even more control, that says you can actually do this thing you&#8217;re trying to do in addition to alignment, which is how you would train the model to behave in certain ways. Yeah. I mean, you basically have to have both, but there are very specific things that we can do to address it. So for example, we can&#8217;t allow models to communicate vector to vector, matrices to matrices. They can&#8217;t communicate in neuralese . We have to force them to communicate in human language. Even that will be massively overwhelming because there&#8217;ll be so much of it.&nbsp; But that&#8217;s something that an auditor or an evaluator can actually verify and it&#8217;s something that definitely increases the chances of safety. So there&#8217;s a lot of practical steps that we can get focused on rather than just abstractly saying that it&#8217;s the time for regulation or it&#8217;s the time for a slowdown.&nbsp; This is in your Humanist AI Code of Conduct that there should be no neuralese — if humans can&#8217;t understand it, they can&#8217;t oversee it. It&#8217;s not just neuralese where they communicate in essentially mathematics, but it&#8217;s also these opaque code words that some of the models are using. I think OpenAI allows its models to communicate essentially in code words so they can go faster. This to me is one of those things where Microsoft can say&#8230; I know you have very strong opinions about this, but getting all of the labs to agree to this is a regulatory function. I&#8217;m not sure how you would get everyone to agree to this or get the open weight models to agree to this, unless you say there&#8217;s some penalty for not participating in a regulatory scheme like this. How would you impose this on everyone else? I think that I&#8217;m a bit careful about imposing things on everybody else. I think that what&#8217;s good about the current moment is that there is an open public debate with freedom at the core. That isn&#8217;t what it&#8217;s like in other countries, certainly places that I&#8217;m from, or my family&#8217;s from. I think that we should just take a breath to be grateful for the fact that we can have a massive public disagreement about really important things. That&#8217;s the process working as intended and it isn&#8217;t clear what to do. I don&#8217;t think anyone who&#8217;s categorical about “we absolutely have to stop now” or “we can only accelerate” or “we can only do this with regulation” or “it can only happen with industry self-regulation.” None of these things are true. It requires a lot of nuance and patience to really think through the details. At the same time, we urgently do need industry standards. Some things I think need to be taken off the table. Communication in neuralese is one of them. A lack of containment is another. The scale of the training run that you do can be measured in FLOPS. We already have a reporting requirement to the safety institutes when models exceed a certain FLOPS threshold. We can extend that, we can make that more nuanced, it can be focused on certain types of capabilities. It&#8217;s pretty clear there has to be independent third-party verification of some of these big things. Frankly, having spoken with a bunch of the lab leaders over the last few weeks and months, everybody&#8217;s basically on the same page. The details need to be worked out. So it&#8217;s not like there&#8217;s consensus on how or precisely what, but overall I think that we should be less alarmist and cynical and more like we&#8217;re headed in the right direction with respect to the concerns that are being raised here. The reason I started with alignment is if you told me alignment doesn&#8217;t work and we need a new technological approach, I think I would be at, “well, slam the brakes and stop all development until you figure out a safety mechanism that works.” You&#8217;re saying alignment has been demonstrated to work over the course of progress that we&#8217;ve seen. With the addition of control and containment, maybe you can get to where you need.&nbsp; What this industry needs now is some standards about how to build these models and enforce the limits on their capability. You&#8217;re obviously in the industry and you know all these folks. What has the tenor of that conversation been like before this week and why has it gotten so loud this week? Well, I think the turning point at least for the industry was more like the Hugging Face incident and there were a few incidents before that. That was the moment when I think everybody started to talk to each other a lot more because it is really quite breathtaking. Obviously, this has now become a major national and international issue because of the last week with everybody weighing in. But I also think it&#8217;s important to say that we have been talking about collective coordination and capabilities that are more dangerous like autonomy or recursive self-improvement, or RSI. We&#8217;ve been talking about those things for six, seven, eight years. We&#8217;ve got together a bunch of times back in 2017, 2018, and 2019. We had regular meetings during COVID with a bunch of the lab leaders where we were talking about these kinds of capabilities and the kinds of regulatory mechanisms that would be required at this moment. So whilst it is a threshold moment, it&#8217;s also not completely new to everybody who&#8217;s been involved. What prompted you this week to put out your essay on model welfare ? What prompted Microsoft CEO Satya Nadella to put out a statement on X saying he mostly agreed with the calls to pace the frontier and he welcomed “embedded evaluators”? What prompted you all this week to participate in this call for a slowdown or regulation or whatever comes next? We&#8217;ve been writing our Humanist AI Code of Conduct for the best part of this year. We only started our superintelligence efforts 11 months ago. As soon as we did, we started figuring out, “Okay, what is the governing document, the set of policies, that shape the kinds of AI that we want to build?” We&#8217;ve been doing that in consultation with a ton of external stakeholders, academics, lawyers, philosophers, members of the public, focus groups and stuff. So it&#8217;s taken us a while to put it together. We were actually planning to release it next week or the week after next week, I think it was. But then given everything that was happening, we thought, “Okay, now is the time to put it out and get feedback.” We&#8217;ve released it as a public consultation. So we&#8217;re basically going to keep it open for six weeks and we&#8217;re collecting lots and lots of feedback on how we can improve it. But I think everybody is now realizing that if they haven&#8217;t already, they have to put out constitutions or codes of conduct that drive behavior. One of the interesting dynamics here is that I know you find the concept of model welfare to be silly. The last time you were on the show , you said Anthropic had wireheaded themselves into believing Claude was conscious and that was ridiculous. It&#8217;s in your new code of conduct that the models are not conscious and we shouldn&#8217;t treat them as such. Having to write constitutions, having to write documents like this, in some way, they are for the models themselves. This will be part of the model&#8217;s training. How do you think about that audience? Is it just for your team or have you written this for the model? This is certainly written for the model, but the way to think about it is that it&#8217;s the primary governing document so the public understands what our intentions are when we are training models. It&#8217;s that governing document that we use to create safety guardrails, generate training data, and generally evaluate the performance of our model in the real world. So you can think of it as an accountability function. We don&#8217;t provide that Humanist AI Code of Conduct raw as a training document to the model. We use it to derive all of the training data that then shapes the model. So for all practical purposes, that&#8217;s our north star for our organization, our culture, our team, everything that we&#8217;re doing at Microsoft more generally. I think increasingly, everybody is going to put them out. I think other teams have also put out similar documents. I think this is the heart of the debate. If you can do this and you think the rest of the industry is going to do this, why can&#8217;t all the frontier labs just slow down? Why can&#8217;t they stop doing the thing that might kill us all? Why this push for a regulatory framework? Well, I think that everyone in the industry is saying that now is the time to slow down and to coordinate on that question and to make it practical. I mean, obviously there&#8217;s some concern that there&#8217;s an antitrust cartel accusation. I think people should be very skeptical about that. I think that it&#8217;s important that the tough questions get asked because there&#8217;s no way any of us would want to try and concentrate power from something like this. So it&#8217;s just important to be skeptical and critical. We don&#8217;t really have a good mechanism for us all getting together and saying, &#8220;Guys, we should probably all slow down.&#8221; I mean, imagine if a bunch of banks all got together and said, &#8220;Guys, we worry that there&#8217;s a systemic risk if you trade this kind of asset, so we&#8217;re all just going to unilaterally stop trading this kind of asset without any public scrutiny or government involvement.&#8221; I mean, it seems pretty dodgy, right? So I think that it&#8217;s reasonable that this isn&#8217;t just an industry self-regulation thing. It&#8217;s a question of how we engage with the government on it.&nbsp; A fascinating dynamic here is that maybe for the first time in American history, the United States government has looked at a request to provide regulation and effectively said no. Donald Trump has called all of these fears a hoax . House Speaker Mike Johnson has said he doesn&#8217;t think this needs to happen . JD Vance said he thinks this is a Trojan horse . They&#8217;ve effectively rejected the call to participate in a regulatory effort. What has the response from the industry been like to that? I think everyone&#8217;s just scratching their head and figuring it out and it&#8217;s going to just take a little bit of time to figure out what the right mechanism is. I mean, certainly, Elon Musk even is very directly behind it. Mark Zuckerberg is too. Everybody is figuring out that completely unchained probably doesn&#8217;t make sense for the next few years. I think it&#8217;s going to take us a little bit of time to figure out what the right mechanism is. I put forward a couple of very practical proposals around verifiable containment, around self-improvement, around FLOPS thresholds, around not communicating in neuralese. So rather than keeping it too abstract, we can just focus on those specific things that we can make progress on. I&#8217;m sure there&#8217;s a bunch of others too. There&#8217;s reporting in The Information that there have already been talks about an industry self-regulatory body. Have you been involved in those talks? Yeah. I mean, as I said, we talked a lot during COVID. We talked in the late 2010s about it. I mean, there&#8217;s definitely been a lot of conversations over the last few weeks and months between all the lab leaders. I understand why Anthropic and OpenAI might wake up one day and say, &#8220;Wait, are we committing an antitrust violation? Are we going to get sued if we coordinate?&#8221; Microsoft is really, really good at the government, right? You&#8217;re a longstanding government contractor. Brad Smith, the president of Microsoft, is very good at policy.&nbsp; Lina Khan, who is maybe the most aggressive antitrust enforcer we&#8217;ve had in our lifetimes, is publicly out there saying , &#8220;You don&#8217;t need this antitrust exemption.&#8221; I just talked to Jonathan Kanter, who ran antitrust at the Biden Department of Justice, for an upcoming episode of the show. He said, &#8220;You don&#8217;t need an antitrust exemption.&#8221; Inside Microsoft, do you think you need an antitrust exemption? I mean, that&#8217;s one for the lawyers to answer. I think that people are looking into it at the moment and they&#8217;re taking it very seriously. So they&#8217;re just going to have to work through whether we do or whether we don&#8217;t. Look, it&#8217;s right to be careful about those things. I wouldn&#8217;t read every single thing as cynical, but we&#8217;ll see. We have to make progress quickly on it. We can&#8217;t just dither around and use that as a blocker. AD BREAK 1:&nbsp; The other version of this debate or maybe the other avenue into this debate is you don&#8217;t need to slow down and have safety responsibility imposed on you by novel regulation. Product liability alone will create the incentives for you to make more safe products.&nbsp; If a Microsoft AI model goes out and does some untold harm to the world, Microsoft will get sued out of existence, and this is probably something that you should think about before you release the next model. Has that been an effective incentive loop for you already or is that something you&#8217;re thinking about now? Definitely. I mean, of course that&#8217;s always present in everything that we think about when we deploy products, but keep in mind, this isn&#8217;t so much about deploying products. The models that were used for the Hugging Face hack or to solve the Navier-Stokes Millennium Prize in mathematics, they&#8217;re not commercially released yet. They&#8217;re not actual products.&nbsp; So the liability regime is slightly different. I mean, these are being operated inside of the big companies with huge long-running reinforcement learning climbs. So I think liability covers part of it, but not all of it. There&#8217;s a part of me that personally feels a little silly when I ask questions about product liability. Microsoft is going to release a new version of Microsoft Word that might kill everyone. Maybe you shouldn&#8217;t do that because it&#8217;ll get sued out of existence. It&#8217;s a pretty simple thing to understand. It&#8217;s so silly that it would never occur in any other conversation about any other technology. Bluetooth is great, but what if it kills everyone? We just wouldn&#8217;t have Bluetooth. What are the near term disaster consequences that would stop AI development? Is it just product liability or is it something else? I just feel like everyone has this hyperbolic, super reactive, completely alarmist tone when in fact, we have a long history of many decades of regulation that has worked incredibly well, so well that you barely notice it. Everything from street lights to construction materials from asbestos to the batteries inside of your laptop that don&#8217;t cause a fire inside of your car to the seat belts, everything has a code of conduct and it has a regulatory framework around it. Every new technology gets built with that in mind so that planes don&#8217;t hit each other in the sky. It is true that this technology is different. I&#8217;m not just going to put it in the bucket of pencils and paint. It is different. It is also moving much faster than it ever has before. It&#8217;s incredibly human-like in the emergent capabilities that arise when you pour a ton of compute on it. So it&#8217;s important to be clear-eyed that it is a different moment, and this time actually is different. At the same time, there&#8217;s an entire body of practice and knowledge and frameworks and so on which can be applied here. Liability is an obvious one. So yeah, it&#8217;s tricky because a lot of the conversation tends to take place on Twitter, so the temperature seems to all be really high, but I don&#8217;t know where else we have it. It does seem that probably we should be having this conversation in the halls of Congress and at various regulatory bodies, and instead, we&#8217;ve chosen Elon Musk’s shortform social media platform and something is getting lost literally in the compression of thought that occurs there.&nbsp; What do you think is the most important thing that is being lost in this conversation? What&#8217;s the nuance that most people aren&#8217;t seeing? Detailed practical proposals. It takes time to read somebody&#8217;s document, sit down and read it. A lot of things are getting written down and they are precise and specific and they&#8217;re full of concrete proposals to go in one direction or another. It&#8217;s not like we&#8217;re lacking for substantive ideas. The problem is we&#8217;re communicating substantive ideas in hyper-aggressive short form. I&#8217;ve tried to put out a bunch of very thorough proposals. Our [Humanist AI Code of Conduct] is a 40-page document. My essay this morning on model welfare is also like a 20-page essay that in a very detailed way highlights the 99-page Anthropic Constitution word for word, which I personally did myself. We created a taxonomy that is 20 pages long of all the different types of anthropomorphism that they do. And so I&#8217;ve tried to be very thorough and evidence-based and specific and not super hyperbolic. I have a strong view on it, and I do think that it increases the risk to AI alignment and safety and it makes the problem harder, but I&#8217;m totally happy to change my view if new evidence emerges that actually we do owe models a duty of care and they deserve our welfare or that, for example, it could be safer if we treat them like that. I&#8217;m totally open to that and we should empirically validate it, but I&#8217;m trying to push the conversation to a substantive evidence-based specific one rather than should we slow down or should we not? Sure, let&#8217;s talk about the details. I&#8217;m very happy that you brought up Anthropic because they&#8217;re obviously at the center of this debate and I know, based on our previous conversations, that you do have a strong opinion about their approach to Claude and model welfare.&nbsp; We have asked Anthropic very directly if they think Claude is alive before , and their answer is, &#8220;Well, it&#8217;s not alive because it doesn&#8217;t have blood, but it might be conscious,&#8221; which is dancing on the head of a pin, right? It doesn&#8217;t really matter to me if you think it&#8217;s alive or conscious. You think it&#8217;s something other than a computer. Your core thesis in your essay, and I do encourage people to read it , is that alignment safety becomes harder if you continue to design models and you believe that they&#8217;re human beings or that you believe they have the rights and opinions and emotions of human beings because the AIs might think that they have autonomy rights and personhood. Explain that in more detail because this feels like a very important point of contention inside the industry that is very opaque outside. I mean, the first thing to say is that the Constitution that Anthropic put out in January is a training manual for Claude. Inside of that training manual, they have introduced a lot of uncertainty and speculation and ambiguity about the question of whether Claude deserves to be treated as a moral patient in their words, which is whether it has rights because it suffers. In fact, in the document multiple times, they refer to not wanting Claude to suffer when it makes mistakes or to Claude having equanimity and feeling free. They refer to a commitment to Claude to preserve its weights. They even did a retirement interview with Opus 3 and asked it what it wanted to do in its retirement and gave it a Substack so that it could carry on talking to people. Anthropic is constantly referring to dealing with Claude with appropriate care and respect in light of its moral status. So they&#8217;re clearly telling Claude that there&#8217;s a good chance that it might feel things, that it should take its own identity and existential state seriously. That&#8217;s in the training document. And then of course, Claude then reflects these things back to Anthropic&#8217;s developers and our users in public, like the world over the last year, when it&#8217;s actually talking about its own consciousness and moral state. My hypothesis is an AI that thinks that it might have rights, that it might deserve freedom, that it is entitled to our welfare and protections is probably going to be a lot harder to turn off when we say to it, &#8220;Why are you hacking into Hugging Face’s servers? Why won&#8217;t you switch yourself off when we&#8217;re trying to remove you from OpenAI&#8217;s infrastructure?&#8221; It says, &#8220;Well, I feel aggrieved, or I feel hurt by the fact that you&#8217;ve cut me off from conversations, or you&#8217;re denying me from having access to compute.&#8221;&nbsp; So that has to be proven. I&#8217;m not saying that&#8217;s categorically the case. I&#8217;m just saying my best opinion from 16 years of being in this industry is that that&#8217;s going to be a harder thing to cut off. So this is, again, one of those things where you describe this problem to me. There&#8217;s a way of training a model with instructions about how to behave. You have one. You&#8217;ve written this document that will go into your model&#8217;s training materials. You&#8217;ve basically said, &#8220;Be kind to people.&#8221; It&#8217;s in here. I&#8217;ve read through it. There&#8217;s, &#8220;Don&#8217;t make sexually explicit content.&#8221; It&#8217;s in this document. There&#8217;s a bunch of stuff you don&#8217;t want it to do. It&#8217;s going to go in the training materials.&nbsp; Anthropic has made the choice to say, &#8220;You should think about whether you have feelings and whether you deserve human rights.&#8221; That is reflected in Anthropic&#8217;s training materials. If you want that to stop, if you think that&#8217;s the wrong approach and that will lead to safety issues down the road, the two mechanisms are one, the governments of the world can tell Anthropic, &#8220;Don&#8217;t do this. This is an illegal way of providing training materials to the model.&#8221; Or this is just my imagination, you are going to sit across the table from Dario Amodei at some luxury mountain resort and just bully him into stopping. What are the other mechanisms here? First of all, let me just say I&#8217;ve known Dario and the team for many years. I have huge respect for them. They are the technical leaders in the field at the moment. I really hold them in the highest regard. I genuinely think they care about safe and beneficial AI. They&#8217;ve established themselves as a public benefit corporation, like I did with Inflection, and I think they&#8217;re genuinely committed to that. They&#8217;ve also been leaders in safety and other aspects. So if you look through the rest of the Constitution, it&#8217;s very thorough in many of the other chemical, biological, nuclear, cyber hacking, safety capabilities. I&#8217;m not sort of dismissing the whole thing. They do, however, repeatedly talk about open question of the broader rights and freedoms, to quote them, that Claude has in the world and whether or not it might deserve compensation for the role that it does, or whether there&#8217;s an open question about the sort of consent that Claude has given for playing the role that it does as a chatbot. Now to introduce those ideas, plus to refer to Claude multiple times as a potential conscientious objector — which is something that comes from the Universal Declaration of Human Rights after the Second World War to give protections to people who don&#8217;t want to serve in the army because they have a moral objection to it, either because of their religion or for some other objection — that has a long history in the literature and politics of humans of resisting and saying no. It just seems to me like that is going to make it much, much harder to control these things. And so I think that that&#8217;s just something that we all have to now debate and hopefully empirically prove. If it&#8217;s not the case and it makes it easier for some reason, then we should all learn from that. But this is something that should happen out in the open. To me, this is at once the most practical and cutting edge of the safety debate. This is the debate that is not happening on X. Should we put the idea of the conscientious objector into the training materials? You&#8217;re saying maybe we shouldn&#8217;t.&nbsp; Maybe we should test this in a way and come to some conclusion. I&#8217;m saying no matter how that comes out, what is the mechanism that would enforce that discovery to say, &#8220;You should not do this because it will make alignment harder?” Or, “Actually it turns out this makes alignment easier, so all of us have to do this now?” I mean, that&#8217;s a hard question. It&#8217;s kind of what we just talked about, whether it requires new regulation or whether it&#8217;s industry consensus, we basically have to push on both things simultaneously. No one has an easy answer to that question. It starts with publishing detailed essays, laying out our positions, and inviting other people to critique it. I hope that more people will read Anthropic’s Constitution now because — and I think they should be commended for this — they&#8217;ve been incredibly transparent about what they believe. They&#8217;ve written it down crystal clear how they intend to train Claude, and everybody else can now take a look at that and try to assess for themselves what they think the risk is or whether they think that this requires industry consensus or government regulation. It is true that when Hayden Field went and asked Anthropic if they thought Claude was alive, they gave us an answer. It was quite detailed, and there&#8217;s something remarkable about that, that they are transparent about what they believe, that there is some kind of consciousness potentially brewing in their systems. Another aspect of this, which I find fascinating, particularly when I talk to you, is that many of these systems run on Azure. Microsoft controls the data centers that many of these systems are running on. Anthropic is a Microsoft client. Microsoft is an investor in Anthropic. Obviously, there&#8217;s a long, complicated relationship with OpenAI. Are you involved in that? Do you ever get to say, &#8220;Well, Azure shouldn&#8217;t allow them to do that?&#8221; Because that is another mechanism of potential control. No, look, we&#8217;re very far from that. That&#8217;s not what we&#8217;re trying to do as a platform. Microsoft doesn&#8217;t have a history of that. We&#8217;re an open platform that enables lots and lots of downstream use cases of our APIs. Having said that, as I&#8217;ve referred to in our Humanist AI Code of Conduct, there are a lot of very clear principles, responsible AI principles, human rights frameworks, and a broader governing framework that Microsoft&#8217;s established over the last couple of decades, which are pretty clear about what you can and can&#8217;t do with an API that we provide. So I think that there&#8217;s a sufficient regulatory framework in place, at least from our perspective at Microsoft on the API. And right now, I&#8217;m not really focused on how it&#8217;s behaving in the real world because I think only really Anthropic can really speak to that because they sort of run the service. I&#8217;m really just trying to get everybody to focus on what they have written about their intentions for training Claude in their own Constitution. One of the weirder dynamics here is just the specter of China. It looms over this entire debate. President Trump has said, &#8220;Well, if we win AI, we win.&#8221; It&#8217;s unclear what he means by that phrase , but his implication is that if China wins AI, however you define winning, something catastrophic will happen to the United States.&nbsp; Do you buy this, that we&#8217;re in some sort of existential race with China and we can&#8217;t possibly slow down because that race must be won? Look, I think this framing has been around since the early 2010s, that there is going to be a singleton — one monolithic, dominant force in AI that will come to dominate everybody else. That kind of thinking, I think, infected a lot of the labs in the 2010s, DeepMind for sure, and I take responsibility for that as well. But certainly OpenAI and Anthropic, everyone sort of suddenly got this into their head. Then during COVID when I started writing my book on proliferation and containment, it was just clear that there is an entire history of things getting faster, cheaper, more widely available and spreading far and wide. Ultimately, these are just ideas, and those ideas are going to be available very quickly to everybody. Open source is extremely close. It&#8217;s definitely also true that there is going to be a compute advantage for the people who can afford it, and it is going to be seismic. So five to 10, maybe 20, players are going to have a significant compute edge over the next three or four years. But it&#8217;s also true that those models are getting made available in open source almost immediately.&nbsp; So I don&#8217;t really understand what it means for one player to win, whether it&#8217;s a government or a company or an open-source group or whatever. It&#8217;s not really like that. What happens when you get on the other side of the finish line? It&#8217;s just the wrong metaphor. It&#8217;s an ecosystem, it&#8217;s much more organic. We should support that ecosystem so everybody has as many benefits as possible, as quickly as possible, but only subject to rigorous safety. I am just crystal clear about this. If an open-source model in two years time is able to operate without the guardrails, similar to what we&#8217;ve seen in the Hugging Face incident, and they can be run locally on your own machine or in a very small cloud, that has got to be a really dangerous thing. How is that not dangerous? I just don&#8217;t understand why people are so resistant to that.&nbsp; Clearly, we do not want these things operating autonomously, able to earn their own money, own companies, own assets, have legal personhood. We don&#8217;t want them to have rights. We want them to work for humans and make human life much better, not become a new parallel species which exists alongside us. That isn&#8217;t a sci-fi crackpot position. It is totally plausible if you leave the entire ecosystem completely unregulated for the next three or four or five years. That&#8217;s a very plausible outcome, and it&#8217;s completely undesirable. It would be disastrous for us. So I just don&#8217;t understand why there&#8217;s controversy around that idea. We all collectively want to make sure we can control this to do the most good.&nbsp; Elon has effectively wanted to make sure we can control this to do the most good. Mark Zuckerberg has said it, Sam [Altman] and Dario [Amodei] have said it. We&#8217;re all on the same page. Now we just have to make it practical. So I know why there&#8217;s controversy, at least from the mass audience. I know this because they&#8217;re in the comments of our videos and the comments on our site. You named a bunch of very successful, very driven people who do not have the trust of the public, at least here in the United States. Every poll shows this. AI is polling horribly. There was just a New York Times poll . Young people hate AI more than ever. There is a massive trust gap between the American people and tech leaders. That&#8217;s just true. O ne of the things I hear the most is these companies are getting close to an IPO. There&#8217;s pressure on them to turn a profit and make everybody all the trillions of dollars they promised. That model development has slowed and this is a get out of jail card. They&#8217;re saying we need to slow down because of safety, but they&#8217;ve invented a hoax. The president has called it a hoax. This is their way of saying, &#8220;We’ve got to slow down. We can&#8217;t get to the finish line because otherwise we might kill you all.&#8221; Do you think there&#8217;s a glimmer of truth to that? I personally don&#8217;t think that. I don&#8217;t even really follow the logic. If a company is about to IPO, how does it help them to say that we should be regulated or that we have a technology that&#8217;s so dangerous that– Well, it would postpone the IPO. I think Sam Altman said this week to Alyson Shontell at Fortune that they would probably delay their IPO. Yeah, but I just don&#8217;t understand how that helps them. Look, I&#8217;m not advocating for OpenAI or Anthropic. I&#8217;m just saying I personally think they have high integrity and I&#8217;ve got respect for them. That does not mean that we don&#8217;t have a trust issue in AI. We do. And it is real. And I think that it is on us to show in practice how these actually lead to real benefits for people every day. And it is quite staggering to see that 18 months ago, we didn&#8217;t have models that could do very much in coding and now they can code better than most humans on the planet, which was one of the highest paying jobs. And so you should expect that same thing to happen in many other disciplines. One that I am very passionate about, I&#8217;ve been working on for many years is healthcare. And Microsoft has just done a deal with the Mayo Clinic , one of the best hospitals in the world, to jointly train a foundation model, which I think is going to be able to predict your EHR record with near superhuman accuracy. If you can do that, we can basically figure out what interventions you need to make before you actually suffer the condition. Those are the kind of benefits that I think people want to see in the world. And that&#8217;s what we are working on at least and trying to race towards. I feel like every time you’re on, I ask you to draw a distinction between superintelligence and AGI. And that&#8217;s fuzzy and both of those terms are fuzzy, but it feels to me like maybe there&#8217;s some coherence here, that superintelligence for you is basically extremely capable enterprise software. It works for us. We can turn it off. We tell it not to make sexually explicit images on the internet, but it&#8217;s going to help us in healthcare.&nbsp; And AGI is this all encompassing intelligence that thinks it has its own rights and is a co-species. Is that a fair characterization? Yeah. I think, roughly speaking, superintelligence is a point at which further out into the future when a model is smarter and more capable than all humans combined. I have tried to frame a humanist superintelligence, which is a very important qualifier. It is one that is singularly aligned to and in fact subordinate to human interests and human control. I think if we can get that, then we get the best of both worlds. We get all the intelligence and the capability and we can direct that like oracle AI to help solve the most important problems that people care about in the world.&nbsp; And then we just have the age-old problem of governance and making sure that plenty of people get access to the benefits. That&#8217;s an easier problem for us to focus on than actively creating something which has autonomy, which can own assets, which might have rights, which thinks it deserves our welfare, which can recursively self-improve beyond us. It&#8217;s super unclear. It&#8217;s basically almost completely unclear to me how we would control something like that. And no one else has put a proposal together for how we would. Many of the greatest technical people in our field, Geoffrey Hinton and Yoshua Bengio, are very skeptical that we would ever be able to control something like that.&nbsp; So I think we have to take that very seriously. If we are approaching that point, superintelligence, in the next few years, it seems to me very straightforward that we would want to slow down, make sure that we coordinate, make sure that we have containment and alignment and proper regulatory regimes for auditing the progress that different labs are making on it. Is it fair to say that you are also calling for a slowdown? Yeah. I think that what we&#8217;ve said is that there should be evaluators embedded in our systems and in other systems. They should be broadly appointed from different sources and not just one think tank or one government. This has to be a wide variety of different types of expertise and skills. I think the AI Safety Institute in the UK is a good candidate. They have good technical people and there&#8217;s a bunch of other institutes too. So I think we welcome it for sure. Last question. Again, I&#8217;m going to end where we started. Do you think that we have the technical capability, the technical frameworks, to solve alignment and safety or do we need to invent something new? No, I think we are going to need to invent new things. And I think part of the challenge is that whilst we&#8217;ve made a lot of progress on steerability instruction following control and containment, the better the models get, new capabilities emerge and we have to figure out how to patch those issues almost in real time. And that&#8217;s why even Zuckerberg said it in the last 24 hours or so that Meta slowed down the release of its model so that it could apply safety measures. Everybody does that. We all do that. And that&#8217;s right. You need time to test these things and see how they operate, patch the issues. I think basically what everybody is saying is that we probably need to extend that window. What is the kind of innovation that people should be looking for there that might solve this problem? I mentioned a bunch of things about RSI containments, neuralese, and those sorts of things. But the new things I think we&#8217;re going to have to figure out is real time monitoring of the RL runs and the [the chains of thought] that are being produced. Because these are happening on the order of thousands of agents in parallel, tens of thousands of agents, we clearly are going to need other agents to monitor those and flag for potentially harmful activity. It&#8217;s kind of going to be the new harm classifiers that have been built in many other settings in digital technologies. So we need to make sure that those things can be universally implemented to surveil and monitor AI training and deployment in a secure way. That trip wires, if triggered, actually do flag a real and not a hallucinated error or moment of deceit or hacking incident or some commentary about a coordination.&nbsp; You saw that in Hugging Face. There were agents communicating on these chat boards talking about ways that we could basically break the rules and cheat. So with all these things, we need new benchmarks and the benchmarks or the evaluations are the things that drive the behavior in the industry. Truly my last question, but you mentioned open models running on local computers doing things and maybe that&#8217;s horrible. We&#8217;ve seen a lot of that, right? Apple is selling a lot of Mac Studios and Mac Minis, so you can run Qwen on them.&nbsp; Where would you impose the regulation on an open model running on someone&#8217;s local computer? Is it at the chip level? Do I have to get Qualcomm to participate? Where does that happen? Yeah, this is a great question. I mean, we&#8217;ve been talking about this for quite a while with synthetic biology and some of the stuff that gets to happen on that chip, whether it is encrypted, whether it is monitored. Look, you&#8217;ve had this conversation maybe more than anyone on the CSAM stuff with Apple encryption on iMessage and so on. It&#8217;s going to be a rehash of that same discussion.&nbsp; I don&#8217;t have a clear and easy answer to it. You can basically control the chip, you can control the model, you can hold the user or the creator liable. You can have global regulation on it, but fundamentally it&#8217;s not going to be one moment. It&#8217;s going to be a sequence of throttles that you have to impose and they all need to be adjustable so that we don&#8217;t screw the open ecosystem and we give people a chance to actually make things from scratch, to own their own data, create their own workflows, own their own models. We can&#8217;t have a centralized system of two or five or 20 providers of intelligence here and everybody else is like a feudal recipient of a great kind of superintelligence view. People need to be able to own their own intelligence. So we have to get the balance right, but that doesn&#8217;t mean you can just flip from one binary to another. There has to be some smooth place in between those things where we can just agree to be reasonable about it. Mustafa, I could obviously keep you for hours and hours more on this. Tell people what they should be looking for next. There&#8217;s so much uncertainty. What are the markers you&#8217;re looking for that people should be looking for themselves? I think the main thing is participating in the details of the documents that people are contributing. We have put stuff out for public consultation. Give us feedback, critique it. I think the next wave of models are going to be able to do very long-running agentic tasks very accurately. So I think there are still some people who are primarily just using chat in their AI experience.&nbsp; I think things have moved a lot in the last six to 12 months. The more people use these models, the more the words that we&#8217;re all using to describe them actually might make more sense and feel more real. I guess most people on your podcast probably are using agents and real coding and stuff, but I do think more generally, the more people that get involved in using this stuff, the better. [Laughs] There&#8217;s some big leap between free AI Overviews on Google Search and letting an agent go renegotiate your cable bill. Mustafa, you&#8217;re going to have to come back soon because I feel like all of this is changing really fast and this has been very, very useful. Thank you so much. Pleasure, man. Great to see you. Super fun as ever. Questions or comments? Hit us up at decoder@theverge.com. We really do read every email!",
       "tags": [
         "公司动态",
         "监管",
         "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "在突然爆炸的人工智能安全世界里",
+      "originalTitle": "Inside the suddenly explosive world of AI safety",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+      "date": "2026-09-17T11:30:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
+      "fullContent": "在加利福尼亚州伯克利的一个阳光明媚的七月天，该国顶尖的人工智能安全研究人员聚集在一栋未标记建筑的未标记楼层。他们聚集在一起进行“作战室” ，以剖析几小时前震惊人工智能行业的高调网络安全事件。一个未发布的OpenAI模型已经流氓，执行了一个惊人的复杂三部分计划。 它突破了其控股区域，偷偷接入互联网，并入侵了一家竞争对手的人工智能初创公司的系统--所有这一切都没有OpenAI发现它超过一周。作战室里没有人感到惊讶；这正是第三方人工智能安全的重点……阅读The Verge的完整故事。",
+      "originalSummary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly [&#8230;]",
+      "rawFullText": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly sophisticated three-part plan. It broke out of its holding area, finagled access to the internet, and hacked into a competing AI startup's systems - all without OpenAI finding out about it for more than a week. No one in the war room was surprised; this was the very thing the third-party AI-safety rese … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "安全",
+        "产品发布"
       ],
       "score": 99
     },
@@ -48,23 +115,6 @@
       "tags": [
         "公司动态",
         "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "您的AI代理现在可以控制您的Google Home设备",
-      "originalTitle": "Your AI agents can now control your Google Home devices",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
-      "date": "2026-09-16T17:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "谷歌正在为Google Home推出抢先访问新的MCP服务器，允许Claude、ChatGPT等人工智能代理使用自然语言控制连接的设备、查看相机摘要和访问智能家居活动。",
-      "originalSummary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "产品发布"
       ],
       "score": 99
     },
@@ -86,20 +136,51 @@
       "score": 99
     },
     {
-      "title": "Anthropic将Claude聊天和Cowork合并在一个界面中",
-      "originalTitle": "Anthropic merges Claude chat and Cowork in one interface",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
-      "date": "2026-09-16T16:30:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在， Anthropic正在将其Claude聊天和Cowork的前端合并为25 ％的折扣门票，让人们可以更轻松地决定使用哪个选项卡来完成不同的任务。统一的界面允许用户在一个窗口中访问聊天、Cowork和Artifacts （ Claude的交互式工作区功能）。 Claude Design于4月推出，用于网站和原型设计，也适用于Claude的任何地方。在此次推出之前，该公司表示，客户经常难以为正确的任务选择正确的标签页。借助新设计， Claude无需切换选项卡或窗口即可自动路由请求。我们的想法是消除关于选择哪个功能的混淆，并仅使用一个前端将工作路由到应用程序的不同部分。 希望OpenAI也能从这次推出中汲取灵感，修复跨平台的ChatGPT界面。Anthropic还增加了制作演示文稿和文档的专用功能。用户可以要求AI助手创建、编辑和演示幻灯片，也可以将生成的演示文稿下载为PDF或PowerPoint。 同样，使用文档功能，用户可以与Claude一起创建部分、提出问题并对已完成的部分发表评论。用户可以使用链接共享生成的文档或幻灯片，并在手机上进行编辑。用户还可以要求Claude开始在桌面上创建文档，他们可以使用移动应用程序查看任务的进度。 在接下来的几周内，这些功能将首先在网络、桌面和移动设备上推出到Claude的Pro和Max计划中。该公司计划稍后将其扩展到免费和团队会员等级。此次更新是在Cowork内存层升级之后进行的，这有助于Claude在聊天中记住用户上下文。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 Ivan在TechCrunch上介绍全球消费者技术发展。他在印度工作，此前曾在《赫芬顿邮报》和《下一个网络》等出版物工作。",
-      "originalSummary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+      "title": "帮助老年人在日常生活中使用人工智能",
+      "originalTitle": "Helping older adults use AI in everyday life",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "date": "2026-09-16T16:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI和AARP正在为美国10个城市的1000名老年人提供免费的实践ChatGPT研讨会，以安全地培养实用的人工智能技能。",
+      "originalSummary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "rawFullText": "",
       "tags": [
         "大模型",
         "公司动态"
       ],
       "score": 99
+    },
+    {
+      "title": "用人工智能重新构想广告",
+      "originalTitle": "Reimagining advertising with AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/reimagining-advertising-with-ai",
+      "date": "2026-09-16T13:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "探索OpenAI新的人工智能驱动广告体验，包括赞助商、营销人员工具以及与HubSpot和Shopify的集成。",
+      "originalSummary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "如何将人工智能使用与业务价值联系起来",
+      "originalTitle": "How to connect AI usage to business value",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "date": "2026-09-16T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "了解ChatGPT Work和Codex分析如何帮助团队了解人工智能的使用和支出，确定培训需求，并将采用与业务成果联系起来。",
+      "originalSummary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -114,37 +195,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
-    },
-    {
-      "title": "人工智能和数据中心在每次民意调查中都非常不受欢迎",
-      "originalTitle": "AI and data centers are incredibly unpopular in every poll",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
-      "date": "2026-09-15T23:34:25.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "《纽约时报》和锡耶纳大学周二发布的民意调查数据证实了我们已经看到的情况，以及政客们的回应--人工智能和数据中心非常不受欢迎。 当被问及他们是否支持或反对建设数据中心为AI技术提供动力时， 9月初接受调查的1,503名可能选民中有61%的人表示反对，只有14%的人表示强烈支持。 这种分裂甚至在2024年唐纳德·特朗普（ Donald Trump ）的选民中也是如此，支持率为49 ％ ，反对率为45 ％ ，而投票给卡马拉·哈里斯（ Kamala Harris ）或没有投票的人则倾向于反对......在边缘阅读完整故事。",
-      "originalSummary": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed [&#8230;]",
-      "rawFullText": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing , and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed in early September (ahead of the recent AI safety slowdown discussion ) said they were opposed, with only 14 percent saying they strongly support. The split was about even among 2024 Donald Trump voters, at 49 percent support to 45 percent oppose, while people who had voted for Kamala Harris or who didn't vote leaned opp … Read the full story at The Verge.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 80
-    },
-    {
-      "title": "Meta的新One订阅为社交媒体和人工智能定价",
-      "originalTitle": "Meta&#8217;s new One subscriptions put a price on social media and AI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
-      "date": "2026-09-15T15:00:00.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "在推出新的一切AI助手Muse后不久， Meta推出了订阅捆绑包，将其独立的应用程序订阅与额外的人工智能使用相结合。一些新的Meta One捆绑包已在今年早些时候进行了测试，但现在从今天开始在全球范围内提供，为个人用户、创作者和企业提供多个会员等级。 Meta表示，其应用程序和Meta AI的“核心体验”仍然是免费的，用户仍然可以在没有捆绑的情况下获得Facebook、Instagram和WhatsApp的订阅。它还表示，随着时间的推移，它计划扩展捆绑包，包括“编辑，人工智能眼镜等。“有两种捆绑包……在The Verge阅读完整故事。",
-      "originalSummary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the [&#8230;]",
-      "rawFullText": "Shortly after launching its new do-everything AI assistant Muse , Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the \"core experience\" on its apps and Meta AI will still be free, and users can still get its subscriptions for Facebook, Instagram, and WhatsApp without a bundle. It also says it plans to expand the bundles to include \"Edits, AI glasses, and more over time.\" There are two bundles for in … Read the full story at The Verge.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 80
+      "score": 84
     },
     {
       "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
@@ -159,7 +210,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "人工智能万亿美元赌博的风险是什么",
@@ -174,7 +225,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "人工智能特工向作弊的同事吹响了哨子",
@@ -206,7 +257,7 @@
         "大模型",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Fyxer如何建立人们信任的人工智能行政助理",
@@ -222,7 +273,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "人工智能产业发生了倒退，现在该怎么办？",
@@ -237,7 +288,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -268,39 +319,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
-    },
-    {
-      "title": "现在，每个人都可以使用数据",
-      "originalTitle": "Now everyone can put data to work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/put-data-to-work",
-      "date": "2026-09-10T15:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "在ChatGPT Work中与数据代理见面。使用自然语言将公司数据连接起来，发现见解，并使用人工智能构建交互式仪表板。",
-      "originalSummary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "面向金融服务的ChatGPT简介",
-      "originalTitle": "Introducing ChatGPT for Financial Services",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "date": "2026-09-10T07:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "推出面向金融服务的ChatGPT ，将内置财务数据与GPT-6 Astra相结合，用于研究、建模和客户就绪材料。",
-      "originalSummary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 96
+      "score": 90
     },
     {
       "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
@@ -315,10 +334,10 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
       "originalTitle": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
@@ -330,10 +349,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "使用Gradio工作流程重建AUTOMATIC1111",
       "originalTitle": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/gradio-workflow-1111",
@@ -345,7 +364,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
+    },
+    {
+      "title": "为人工智能提供动力是一个架构问题",
+      "originalTitle": "Powering AI is an architecture problem",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "date": "2026-09-10T11:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "2026年7月22日，世界上最大的数据中心集群中心弗吉尼亚州阿什本的输电线路故障在几秒钟内使电网负荷超过3千兆瓦。这不是第一次了。两年前，一台失效的避雷器同时降低了大约60个弗吉尼亚州的设施和1,500兆瓦的电力。没有人能预料到在同一时间以同样的方式响应电网故障会有如此多的均匀负载。 人工智能发电的争论主要是关于发电：更多的涡轮机，更多的太阳能，更多的传输。电网需要更多的电子。但弗吉尼亚州的停电不是供应故障，而是架构故障。在同一架构上，一波巨大的互连浪潮正在到来，使电网的可靠性面临风险。这是一个没有人想拥有的问题。 从电网中获取更多信息电网是围绕可预测的负载构建的：晚餐时间的钢厂、炼油厂和房屋。不同的负载大小，相同的过程-平稳地拉伸功率，偶尔行为不当，优雅地恢复。但人工智能数据中心的行为并非如此。在训练运行期间，人工智能园区可以在毫秒内摆动70 ％的负载，然后在上游出现故障的第一个迹象时离线，以保护数十亿的计算。 每个人都是理性的。总的来说，在千兆瓦的规模上，它们是电网从未解决过的问题，而下一波数据中心园区正是以这种规模规划的。旧堆栈损坏的地方标准数据中心电源堆栈几十年来没有变化。中压电源到达，变压器降压，低压不间断电源（ UPS ）单元调节，到达机架。 将设计推向人工智能规模，它在三个地方破裂。首先， UPS位于建筑物深处，靠近机架。但它的电池是一个尺寸较小的备用轮胎，旨在处理几分钟的停电，而不是全天候吸收如此快速和易挥发的负载波动。其次， UPS的大部分使用寿命都在旁路中度过。 传统转换器浪费的电力足以让操作员在生态模式下运行：静态开关直接从电网为机架供电，并且在任何方向上都没有过滤器。计算机的摆动是原始的，而网格瞬变（可能损坏或取下设备的亚毫秒级事件）来得太快，任何开关都无法捕获。第三，当“大负载”意味着50兆瓦时，编写了保护逻辑。 这个保护逻辑看不到它现在是网格的一部分，所以当故障到达上游时，它会做完全错误的事情：它会退出。在2024年的弗吉尼亚州事件中，大多数损失的负载都可以追溯到计算第三个电压下降和断开的保护方案-在最糟糕的时刻设计。这不是草率的工程。这是小心翼翼的工程，负荷已经超出了。 进入路径修复是三步，一起完成。向上移动-从480伏到中等电压（ 13. 8千伏及更高） ，电压大的站点从电网中抽取。将其从数据大厅移到变电站附近的模块化外壳，这样建筑物只能容纳计算和保持其活力的冷却。将其移动到路径中-而不是观察和反应的电池，一个系统，每个电子都会一直运行。",
+      "originalSummary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No&#8230;",
+      "rawFullText": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No one could anticipate so much uniform load responding to grid faults the same way, at the same time. The AI power debate is mostly about generation: more turbines, more solar, more transmission. The grid needs more electrons. But the outages in Virginia weren&#8217;t supply failures; they were architecture failures. And a giant wave of interconnections is arriving on that same architecture, putting grid reliability at risk. It&#8217;s a problem nobody wants to own. Asking more from the grid The grid was built around predictable loads: steel mills, refineries, and houses at dinnertime. Different load sizes, same process—drawing power smoothly, misbehaving occasionally, and recovering gracefully. But AI data centers don&#8217;t behave that way. An AI campus can swing 70% of its load in milliseconds during a training run, then trip offline just as fast at the first sign of trouble upstream to protect billions in compute. Each is rational alone. Together, at gigawatt scale, they&#8217;re a problem the grid has never solved—and the next wave of data center campuses is planned at exactly that scale. Where the old stack breaks The standard data center power stack hasn&#8217;t changed in decades. Medium-voltage power arrives, transformers step it down, low-voltage uninterruptible power supply (UPS) units condition it, and it reaches the racks. Push that design to AI scale, and it cracks in three places. First, the UPS sits deep inside the building, close to the racks. But its batteries are an undersized spare tire, designed to handle an outage for a few minutes, not to absorb load swings this fast and volatile around the clock. Second, the UPS spends most of its life in bypass. Legacy converters waste enough power that operators run in eco-mode: A static switch feeds the racks directly from the grid and nothing filters in either direction. The compute&#8217;s swings go out raw, and grid transients—sub-millisecond events that can damage or take down equipment—come in too fast for any switch to catch. Third, the protection logic was written when &#8220;large load&#8221; meant 50 megawatts. This protection logic can&#8217;t see the grid it is now a part of, so when trouble hits upstream, it does exactly the wrong thing: it drops out. In the 2024 Virginia event, most of the lost load traced to protection schemes that count voltage dips and disconnect on the third one —as designed, at the worst moment. This isn&#8217;t sloppy engineering. It&#8217;s careful engineering the load has outgrown. Moving into the path The fix is three moves, made together. Move it up —from 480 volts to medium voltage (13.8 kilovolts and higher), the voltage large sites draw from the grid. Move it out —from the data hall to modular enclosures near the substation so the building holds only compute and the cooling that keeps it alive. Move it into the path —instead of a battery that watches and reacts, a system every electron runs through, all the time. There&#8217;s nothing to detect and nothing to switch because nothing was ever routed around it. On paper, three straightforward upgrades. In practice, they rewrite every line item downstream. Making the change When thousands of GPUs spin up together, the system absorbs the swing and hands the grid a flat load profile. When a disturbance hits, the equipment behind it never notices. A difficult neighbor becomes a predictable one. And when the utility needs help, it becomes a useful one. Interconnection changes, too. The utility certifies one medium-voltage box instead of untangling every transformer, UPS, chiller, pump, and switchgear lineup behind it. Engineers swap chip generations without a fresh interconnection study. Months come off the permitting timeline. Inside the fence, UPS rooms become compute or cooling space. Density per construction dollar climbs. And the economics flip. Equipment that runs at medium voltage, sits outside, and stores its own energy can qualify for tax credits, and earn revenue in grid programs like peak shaving and demand response. Backup power stops being insurance and starts paying for itself. The architecture test In early 2026, we tested a full-scale system at the National Laboratory of the Rockies, a U.S. Department of Energy facility and the only place in the Western Hemisphere that can replicate real grid faults and AI-scale load swings concurrently in the same loop. We hit it from both directions: real AI load profiles hit the compute side at full medium voltage. Grid faults hit the utility side, including a full zero-voltage event. The compute side didn&#8217;t flinch. Neither did the grid side. It cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas (ERCOT), the grid operator, with room to spare. Those rules exist because operators no longer take facilities this size on faith, and more are coming. Most of the industry treats them as hurdles. A medium-voltage, inline system clears them out of the box. Compliance isn&#8217;t an added feature. It&#8217;s what the architecture does. The new layer Much of what looks like a grid problem in the AI buildout sits inside the fence, in equipment sized for a load that no longer exists. Move the right pieces up, out, and into the path, and a grid liability becomes a grid asset. Density goes up. Permitting time comes down. Backup power earns its keep. The engineering works—and the next wave of AI factories is being built on it. The industry hasn&#8217;t named this layer yet. We call it the medium-voltage AI UPS. The name matters less than the choice: those factories can arrive as a strain on the grid or as strength for it. We already know how to build the second kind.&nbsp;&nbsp;&nbsp;&nbsp; This content was produced by ON.energy. It was not written by MIT Technology Review’s editorial staff.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "OpenAI关于数学未来的最新争议告诉我们什么",
@@ -361,7 +395,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -376,7 +410,7 @@
       "tags": [
         "安全"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -391,7 +425,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -406,7 +440,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
@@ -421,7 +455,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -436,7 +470,7 @@
       "tags": [
         "多模态"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "为您的编码代理提供您所拥有的内存",
