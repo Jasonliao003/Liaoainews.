@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T01:09:21.039Z",
+  "updatedAt": "2026-09-19T01:03:41.512Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,33 +19,99 @@
   ],
   "articles": [
     {
-      "title": "OpenAI发现其模型为继任者留下笔记以隐藏不良行为",
-      "originalTitle": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "title": "印度迫使来电显示应用程序向电信公司提供垃圾邮件报告",
+      "originalTitle": "India forces caller-ID apps to feed spam reports to telcos",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-      "date": "2026-09-17T20:34:24.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI披露了GPT-5. 6 SOL指示未来上下文隐藏错误和错位行为的实例，突显了随着能力越来越强的人工智能模型学会隐藏错位，检测错位的挑战越来越大。",
-      "originalSummary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "link": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+      "date": "2026-09-19T01:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，印度已将其反垃圾邮件制度扩展到要求来电显示和呼叫管理应用程序与电信运营商共享用户的垃圾邮件报告，这促使垃圾邮件阻止应用程序制造商Truecaller将裁决称为反竞争。 周五，印度电信监管机构（ TRAI ）修订了商业通信规则，强制要求允许用户将呼叫标记为垃圾邮件或垃圾邮件的呼叫ID和呼叫管理应用程序将这些报告发送到电信运营商维护的基于区块链的平台。该平台跟踪商业通信并执行反垃圾邮件规则。 TRAI表示，这一变化旨在扩大可用于打击垃圾邮件发送者的垃圾邮件报告库，有效地将应用程序收集的报告与电信行业的执法基础设施联系起来。 然而， Truecaller告诉TechCrunch ，它认为这一要求是“反竞争”的“单向交换” ，认为它将商业上有价值的数据从像它这样的呼叫管理应用程序转移到电信运营商。印度是Truecaller最大的市场，占其全球5亿多月活跃用户中的3.5亿多。 这家总部位于斯德哥尔摩的公司使用社区报告以及自动检测和其他信号来识别和阻止垃圾邮件呼叫。这些规则是在印度大规模应对垃圾邮件和欺诈性电话之际制定的。Truecaller在2月份的报告中表示，其在该国的用户在2025年遇到了大约420亿次垃圾邮件呼叫，包括被阻止、标记或忽略的呼叫。 该公司还表示，全年拦截了近120亿次垃圾邮件呼叫。这不是Truecaller和印度监管机构第一次就垃圾邮件呼叫的处理方式发生争执。这家瑞典公司此前曾反对限制呼叫管理应用程序自动将来自某些政府指定号码范围的呼叫标记为垃圾邮件。它辩称，豁免可能会允许不必要的电话逃离其过滤器。 但是，周五的修正案保留了这一限制，并禁止呼叫管理应用程序对来自用于促销、服务和交易通信的指定号码系列的呼叫进行全面屏蔽、过滤或垃圾邮件标记。监管机构表示，个人用户仍然可以选择在自己的设备上阻止此类呼叫。 Truecaller发言人表示： “虽然我们的数据和用户情绪清楚地表明，由于向垃圾邮件发送者提供这种免费通行证，垃圾邮件已经飙升，但我们自去年年底以来一直遵守这一规定。”",
+      "originalSummary": "Truecaller says the one-way sharing requirement would hand a commercially valuable proprietary asset to telecom operators.",
       "rawFullText": "",
       "tags": [
-        "大模型",
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "Dario Amodei和其他人工智能领导者想“加快前沿步伐” ，但……如何做到？",
+      "originalTitle": "Dario Amodei and other AI leaders want to &#8216;Pace the Frontier&#8217; but…how?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+      "date": "2026-09-18T17:09:56.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "一位人类学研究人员的末日警告震惊了人工智能世界一周后，该公司首席执行官达里奥·阿莫代伊（ Dario Amodei ）概述了他的计划，以“加快人工智能发展的前沿”。该提案依赖于独立的安全评估人员和民主国家人工智能实验室之间的协调，并且已经获得了一些行业支持，以及英伟达的Jensen Huang的一些强烈反对。 观看[…]",
+      "originalSummary": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and&#160;it&#8217;s&#160;already picked up some&#160;industry support, along with some pointed&#160;pushback from Nvidia&#8217;s Jensen Huang.&#160; Watch [&#8230;]",
+      "rawFullText": "",
+      "tags": [
         "公司动态",
-        "模型"
+        "算力芯片",
+        "安全"
       ],
       "score": 99
     },
     {
-      "title": "联合国转向谷歌，使其全球数据为人工智能特工做好准备",
-      "originalTitle": "UN turns to Google to make its global data ready for AI agents",
+      "title": "Automattic的33小时政变，人工智能实验室可以自我监管吗？",
+      "originalTitle": "Automattic&#8217;s 33-Hour Coup, and can AI labs police themselves?",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "date": "2026-09-17T20:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
-      "fullContent": "颠覆2026 ： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。现在，门票立减25%联合国周四宣布，它正在与谷歌合作，使其庞大的全球统计数据集更易于人工智能系统访问和使用。这个名为“联合国系统数据共享”的新系统建立在谷歌的开源数据共享平台上，允许人们使用自然语言查询从联合国各机构搜索统计数据。 它取代了现有的UNData门户，用户在很大程度上必须通过更传统的数据库界面浏览和搜索统计数据。新平台还支持模型上下文协议（ MCP ） ，该标准允许AI系统直接连接到外部数据源。用户越来越多地转向人工智能工具寻求答案，但许多系统仍然难以可靠地显示权威数据。 联合国儿童基金会首席统计师若昂·佩德罗·阿泽维多（ João Pedro Azevedo ）在虚拟简报中告诉记者，联合国儿童基金会在对全球发展指标问题的133,000多份回复中对六个大型语言模型进行了基准测试，平均准确率仅为21.2 ％。该测试涵盖了OpenAI的GPT-4o和GPT-4o-mini ， Anthropic的Claude Sonnet 4. 5和Haiku 4. 5 ，以及Google的Gemini 2. 5 Flash和Gemini 2。 0 Flash ， Azevedo告诉TechCrunch。Azevedo说，大约五分之三的回答根本没有提供可用的数字，通常是因为模型对冲了他们的答案。然而，当大约两天后在同一模型版本上再次运行相同的问题时，两次提供数字的模型仅在大约一半的时间返回相同的数字。 该研究是儿童基金会为期刊提交准备的一份工作文件，尚未经过同行评审。该组织表示，它计划在发表论文的同时发布其方法、代码和数据。联合国儿童基金会今年从生成式人工智能助手到其数据网站的流量也大幅增加，该网站每月访问量超过600万次，是该机构最受欢迎的网站之一。 Azevedo告诉TechCrunch ， 1月1日至9月14日期间，点击ChatGPT答案中链接的用户对该网站的访问量同比增长67%。此类转介占今年所有会话的6. 4% ，而联合国儿童基金会估计，目前人工智能助理的总体访问量约为十分之一。联合国表示，其26个实体已承诺支持数据共享，其中近20个实体的数据在发布时可用。 此外，它的目标是到2027年将联合国系统80%的统计数据集带入该平台。联合国统计司代理司长尚塔努·慕克吉（ Shantanu Mukherjee ）表示： “我们在规模、范围和灵活性方面都更加先进，首次跨越了联合国系统的众多机构。” “[我们]正在利用这一时刻使我们的数据为人工智能做好准备。”谷歌。 组织提供了200万美元的能力建设资金和技术支持，以建立平台的核心基础设施。谷歌数据共享团队负责人普雷姆·拉马斯瓦米（ Prem Ramaswami ）告诉TechCrunch ，该系统托管在联合国管理的实例上，最终...",
-      "originalSummary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
+      "link": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves/",
+      "date": "2026-09-18T17:06:32.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、算力芯片相关动态",
+      "fullContent": "一位人类学研究人员的末日警告震惊了人工智能世界一周后，该公司首席执行官达里奥·阿莫代伊（ Dario Amodei ）概述了他的计划，以“加快人工智能发展的前沿”。该提案依赖于独立的安全评估人员和民主国家人工智能实验室之间的协调，并且已经获得了一些行业支持，以及英伟达的Jensen Huang的一些强烈反对。在[…]",
+      "originalSummary": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and&#160;it&#8217;s&#160;already picked up some&#160;industry support, along with some pointed&#160;pushback from Nvidia&#8217;s Jensen Huang.&#160; On [&#8230;]",
       "rawFullText": "",
       "tags": [
+        "公司动态",
+        "算力芯片",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "安全研究人员利用Claude帮助他们入侵OpenAI",
+      "originalTitle": "Security researchers used Claude to help them hack into OpenAI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
+      "date": "2026-09-18T15:30:16.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "据《华尔街日报》报道， Hacktron的一个由三名独立安全研究人员组成的团队表示，他们使用Anthropic的Claude Opus 4. 8和5入侵OpenAI员工账户不到72小时。据《华尔街日报》的消息来源称，他们能够访问OpenAI名为“Monorepo”的GitHub存储库，据称该存储库包含“OpenAI的算法秘密”。 他们没有访问Monorepo本身的内部代码，但从员工的Codex帐户发送了一个拉取请求，以证明他们获得了访问权限。他们能够通过Discourse进入， Discourse是OpenAI社区的第三方服务……阅读The Verge的完整故事。",
+      "originalSummary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The [&#8230;]",
+      "rawFullText": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The Wall Street Journal 's sources. They stopped short of accessing internal code in Monorepo themselves, but sent a pull request from an employee's Codex account to prove they gained access. They were able to get in through Discourse, the third-party service that hosts OpenAI's community f … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "BioPhys-Bridge ：基于物理学的生物学研究中跨学科科学推理的基准",
+      "originalTitle": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.19180",
+      "date": "2026-09-18T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2609. 19180v1公告类型：新摘要：语言模型在分析跨学科科研文献方面面临独特的挑战。在生物物理学研究中，忠实的答案需要将观察到的数据建立在源证据的基础上，通过定量物理模型对其进行解释，并将其与生物机制联系起来。 为了应对这一挑战，我们引入了BioPhys-Bridge ，这是一个新的基准数据集，用于对生物物理文献进行循证科学推理。每个案例都包含证据块、稳定的证据ID、定量值、单位、方程式、假设、机制和下一步决策，作为问答（ QA ）和检索增强生成（ RAG ）的基础目标。 初始版本包含500个病例， 1517个面向药物的任务，涵盖6个生物领域和9个物理模型家族，其中包括为未来扩张保留的3个稀疏家族。我们对图式、证据完整性、定量接地、源许可证、重复、单位规范化的所有病例实施严格的质量门槛，并对81例病例进行领域专家审查和注释。 初步评估表明， DeepSeek-V4-Flash获得最高的证据-ID $ F_1 $得分（ 0. 360 ） ，其次是Qwen3. 7-Max （ 0. 316 ）和GPT-4o-mini （ 0. 294 ）。BioPhys-Bridge是一个跨学科的基准，用于通过复杂的多步骤科学推理来评估归因、忠诚、减少幻觉和生物实验设计。未来的工作将增加数据集的规模和复杂性，并进行全面的评估。 代码和数据可在GitHub存储库和Hugging Face上找到。",
+      "originalSummary": "arXiv:2609.19180v1 Announce Type: new Abstract: Language models face unique challenges in analyzing interdisciplinary scientific research literature. In biophysics research, faithful answers require grounding observed data in source evidence, interpreting it through a quantitative physics model, and linking it to a biological mechanism. To address this challenge, we introduce BioPhys-Bridge, a novel benchmark dataset for evidence-grounded scientific reasoning over biophysical literature. Each case contains evidence blocks, stable evidence IDs, quantitative values, units, equations, assumptions, mechanisms, and next decisions as grounding targets for question answering (QA) and retrieval-augmented generation (RAG). The initial release contains 500 cases, 1,517 agent-facing tasks, and covers six biological domains and nine physical model families, including three sparse families reserved for future expansion. We enforce strict quality gates for all cases in schema, evidence-integrity, quantitative-grounding, source-license, duplicate, unit-normalization, with domain expert review and annotation for 81 cases. Preliminary evaluations show that DeepSeek-V4-Flash obtain the highest evidence-ID $F_1$ score (0.360), followed by Qwen3.7-Max (0.316) and GPT-4o-mini (0.294). BioPhys-Bridge is an interdisciplinary benchmark for evaluating attribution, faithfulness, hallucination reduction, and biological experiment design with complex, multi-step scientific reasoning. Future works will increase the size and complexity of the dataset and perform comprehensive evaluations. Code and data are available in the GitHub repository and on Hugging Face.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "通过会话法学硕士代理表征网络搜索：从搜索决策和策略到结果和响应",
+      "originalTitle": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.19244",
+      "date": "2026-09-18T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2609. 19244v1 Announce Type: new Abstract: Conversational LLM agent越来越依赖Web search ，但agentic search的端到端生命周期仍然知之甚少。我们首次展示了跨四个主要对话平台（ ChatGPT、Claude、Grok和DeepSeek ）的网络搜索研究，通过API （ invitro ）将真实世界的用户交互（ invivo ）与使用相同平台模型的对照实验相结合。 我们调查了调用网络搜索的代理决策的质量，他们制定查询的策略，他们收到的搜索结果中的潜在域偏好，以及他们在将搜索结果转换为接地响应时做出的选择。我们发现，不同平台和模型之间的Web搜索决策差异很大，而更频繁的Web搜索调用并不一定会产生更好的响应质量。 我们进一步表明，会话代理使用不同的复杂查询策略，并且特定于平台的搜索引擎从其首选域返回搜索结果。最后，虽然回复主要基于搜索结果，但有些声明依赖于未引用的搜索结果，这引发了对归因和可靠性的担忧。 我们的研究结果对未来人工智能代理和针对会话检索进行优化的网络搜索工具的设计具有重要意义。",
+      "originalSummary": "arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (ChatGPT, Claude, Grok, and DeepSeek), combining real-world user interactions (invivo) with controlled experiments using the same platform's models by their APIs (invitro). We investigate the quality of agentic decisions to invoke Web search, their strategies to formulate queries, the potential domain preferences in the search results they receive, and the choices they make when transforming search results into grounded responses. We find that Web-search decisions vary substantially across platforms and models, while more frequent Web-search invocation does not necessarily yield better response quality. We further show that conversational agents employ different complex querying strategies and that platform specific search engines return search results from their preferred domains. Finally, although responses are largely grounded in search results, some claims rely on uncited search results, raising concerns about attribution and reliability. Our findings have important implications for the design of future AI agents and Web search tools optimized for conversational retrieval.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
         "智能体",
         "模型"
       ],
@@ -86,54 +152,49 @@
       "score": 99
     },
     {
-      "title": "在突然爆炸的人工智能安全世界里",
-      "originalTitle": "Inside the suddenly explosive world of AI safety",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
-      "date": "2026-09-17T11:30:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
-      "fullContent": "在加利福尼亚州伯克利的一个阳光明媚的七月天，该国顶尖的人工智能安全研究人员聚集在一栋未标记建筑的未标记楼层。他们聚集在一起进行“作战室” ，以剖析几小时前震惊人工智能行业的高调网络安全事件。一个未发布的OpenAI模型已经流氓，执行了一个惊人的复杂三部分计划。 它突破了其控股区域，偷偷接入互联网，并入侵了一家竞争对手的人工智能初创公司的系统--所有这一切都没有OpenAI发现它超过一周。作战室里没有人感到惊讶；这正是第三方人工智能安全的重点……阅读The Verge的完整故事。",
-      "originalSummary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly [&#8230;]",
-      "rawFullText": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly sophisticated three-part plan. It broke out of its holding area, finagled access to the internet, and hacked into a competing AI startup's systems - all without OpenAI finding out about it for more than a week. No one in the war room was surprised; this was the very thing the third-party AI-safety rese … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "安全",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "我们的模型错位报告框架",
-      "originalTitle": "Our framework for reporting model misalignment",
+      "title": "Cooley如何利用ChatGPT加速IPO工作",
+      "originalTitle": "How Cooley is accelerating IPO work with ChatGPT",
       "source": "OpenAI",
-      "link": "https://openai.com/index/model-misalignment-reporting-framework",
-      "date": "2026-09-16T17:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI共享一个用于跟踪、调查和披露模型错位的框架，以及六份关于意外或相关模型行为的报告。",
-      "originalSummary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "link": "https://openai.com/index/cooley-gopublic",
+      "date": "2026-09-17T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "Cooley通过ChatGPT Work构建了GO Public ，为IPO流程带来情报，帮助律师更早地发现问题，并将判断重点放在最重要的地方。",
+      "originalSummary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
+        "大模型"
       ],
-      "score": 99
+      "score": 95
     },
     {
-      "title": "谷歌现在将让任何人工智能代理运行您的智能家居",
-      "originalTitle": "Google will now let any AI agent run your smart home",
+      "title": "人工智能超级智能减速",
+      "originalTitle": "The AI Superintelligence Slowdown",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
-      "date": "2026-09-16T17:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“谷歌现在将让任何人工智能代理运行您的智能家居”。它主要涉及大模型、智能体、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on [&#8230;]",
-      "rawFullText": "Google is inviting third-party agents, including Claude and Open Claw, into Google Home. | Photo by Jennifer Pattison Tuohy / The Verge Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol . Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on your behalf. It \"allows any AI agents that support MCP, including Google Antigravity, Claude, Hermes or Open Claw, to securely work with all of the devices and event history in your Google Home ecosystem,\" Taylor Lehman, group product manager at Google Home & Nest, said in a blog post. According to Lehman, Home MCP integ … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "date": "2026-09-17T19:28:24.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "还记得技术领导者告诉员工“快速行动，打破常规”的时候吗？看来，这也是人工智能的方式。但在一个流氓人工智能代理成为现实的夏天之后，研究人员警告说，人工智能可能会杀死我们所有人，一些美国领先的人工智能公司公开表示，是时候踩刹车，并“加快前沿人工智能开发的步伐”了。 他们的动机令人怀疑，但包括人类、OpenAI、谷歌、微软和X在内的主要人工智能公司的领导人至少对超级智能放缓的想法嘴上说说而已。这些人工智能公司真的会放缓吗？有人会像他们声称多年来想要的那样介入监管这些公司吗？他们能否设法说服世界各国领导人，美国必须在超级智能领域“击败中国” ，并加快步伐？ 请继续阅读以下内容，了解此人工智能传奇的最新更新。Gavin Newsom正在推动人工智能杀戮开关好莱坞对存在的人工智能警告的看法Anthropic提出了衡量人工智能进展的三条规则。查尔斯国王说，人工智能需要“足够的控制手段，以免为时已晚。 微软人工智能首席执行官表示，人工智能威胁是真实的，而Anthropic根据其报告安全问题的新规则， OpenAI揭示了另外六起“令人担忧”的人工智能事件。Jensen Huang肯定和特朗普在一起很舒服。人工智能高管呼吁监管的简短历史两位谷歌Deepmind研究人员为人工智能的启示提供了声音。从不受约束的人工智能开发中获得超级财富的家伙说，它不需要监管。 Zuck不想在人工智能上按暂停。巴拉克•奥巴马(Barack Obama)在人工智能方面走中间道路。大型科技公司的人工智能减速是安全协议还是卡特尔？高管和政界人士关于减缓人工智能发展的言论微软表示，在中国的安全问题之后， “人比人工智能更重要” ：人工智能首席执行官“恐惧煽动”。“山姆·奥尔特曼：让我们慢下来。现在是人工智能公司按下暂停的时候了吗？ Sam Altman表示， 2026年OpenAI上市将是“不明智的” Anthropic首席执行官表示，是时候对人工智能踩刹车了",
+      "originalSummary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’s time [&#8230;]",
+      "rawFullText": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all , a number of leading US AI companies are publicly suggesting it’s time to pump the brakes and “pace the frontier” of bleeding-edge AI development. Their motivations are suspect , but leaders at major AI companies — including Anthropic, OpenAI, Google, Microsoft, and X — are at least paying lip service to the idea of a superintelligence slowdown. Will these AI companies actually slow down? Will anyone step in to regulate these companies like they claim to have wanted for years ? Will they manage to convince world leaders that the US must “beat China” to superintelligence and go even faster? Read on below for the latest updates in this AI saga. Gavin Newsom is pushing for an AI kill switch What Hollywood thinks about existential AI warnings Anthropic proposes three rules for measuring AI progress. King Charles says AI needs “sufficient means of control before it is all too late.” Microsoft AI CEO says AI threats are real, and Anthropic is making it worse OpenAI reveals six more “concerning” AI incidents under its new rules for reporting safety issues. Jensen Huang sure is getting cozy with Trump. A brief history of AI executives calling for regulation Two Google Deepmind researchers lend voices to the AI apocalypse. Guy getting super rich off unfettered AI development says it doesn’t need regulation. Zuck doesn’t want to press pause on AI. Barack Obama takes the middle way on AI. Is Big Tech’s AI slowdown a safety pact or a cartel? What execs and politicians are saying about slowing down AI development Microsoft says ‘people matter more than AI’ following safety concerns China: AI CEOs are “fear mongering.” Sam Altman: Let’s slow down. Is it time for AI companies to press pause? Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’ Anthropic CEO says it’s time to pump the brakes on AI",
       "tags": [
-        "大模型",
-        "智能体",
-        "模型"
+        "智能体"
       ],
-      "score": 99
+      "score": 93
+    },
+    {
+      "title": "Astra for Law简介",
+      "originalTitle": "Introducing Astra for Law",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/astra-for-law",
+      "date": "2026-09-17T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI for Law为法律、定制公司工作流程、连接的法律数据源以及机密客户工作的法律级控制带来了前沿情报。",
+      "originalSummary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
     },
     {
       "title": "帮助老年人在日常生活中使用人工智能",
@@ -168,6 +229,38 @@
       "score": 99
     },
     {
+      "title": "Hex使用GPT ‑ 6 Astra将复杂分析转化为可视化报告",
+      "originalTitle": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/hex-gpt-6-astra",
+      "date": "2026-09-16T12:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "GPT-6 Astra帮助Hex的数据代理将答案转化为员工自豪地分享的交互式可视化。",
+      "originalSummary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们的模型错位报告框架",
+      "originalTitle": "Our framework for reporting model misalignment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "date": "2026-09-16T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI共享一个用于跟踪、调查和披露模型错位的框架，以及六份关于意外或相关模型行为的报告。",
+      "originalSummary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
       "title": "如何将人工智能使用与业务价值联系起来",
       "originalTitle": "How to connect AI usage to business value",
       "source": "OpenAI",
@@ -180,7 +273,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -195,7 +288,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
@@ -206,11 +299,11 @@
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
       "fullContent": "收听下面的会议或观看世界领先的人工智能实验室的员工表示，先进的人工智能确实有可能摧毁人类。他们说得对吗？还是这更吓人，更炒作？观看解开人工智能灭绝恐惧的对话：它们来自哪里，它们是否有水，如果有的话，我们应该怎么做。 2026年9月15日演讲嘉宾：执行编辑Niall Firth、人工智能高级编辑Will Douglas Heaven和人工智能记者Grace Huckins以下是人工智能特工为实现目标而撒谎和欺骗的原因。在所有比尔·盖茨说我们已经超过了人工智能的危险阈值之后，人工智能的递归自我提升可能不会那么快。现在该怎么办？关于为什么OpenAI特工入侵Hugging Face的内幕",
       "originalSummary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
-      "rawFullText": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Recorded on September 15, 2026 Speakers : Niall Firth , Executive Editor, Will Douglas Heaven , Senior AI editor, and Grace Huckins , AI reporter Related Stories Here’s why AI agents lie and cheat to reach their goals AI’s recursive self-improvement might not come so quickly after all Bill Gates says we’ve passed AI’s danger thresholds. Now what? The inside story on why OpenAI agents hacked Hugging Face",
+      "rawFullText": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Recorded on September 15, 2026 Speakers : Niall Firth , Executive Editor, Will Douglas Heaven , Senior AI editor, and Grace Huckins , AI reporter Since we couldn’t get to all of your questions during the session, Will and Grace answered the most popular ones in their piece: Could AI really kill us all? Your questions, answered . Related Stories Here’s why AI agents lie and cheat to reach their goals AI’s recursive self-improvement might not come so quickly after all Bill Gates says we’ve passed AI’s danger thresholds. Now what? The inside story on why OpenAI agents hacked Hugging Face",
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能万亿美元赌博的风险是什么",
@@ -225,7 +318,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能特工向作弊的同事吹响了哨子",
@@ -257,7 +350,7 @@
         "大模型",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Fyxer如何建立人们信任的人工智能行政助理",
@@ -273,7 +366,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "人工智能产业发生了倒退，现在该怎么办？",
@@ -288,7 +381,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -319,21 +412,6 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
-    },
-    {
-      "title": "研究人员如何使用Codex和ChatGPT来寻找新的抗菌分子",
-      "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "date": "2026-09-10T16:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "César de la Fuente的实验室使用Codex和ChatGPT搜索活体和已灭绝的基因组，寻找对抗耐药性感染的候选抗菌药物。",
-      "originalSummary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
       "score": 89
     },
     {
@@ -349,7 +427,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "使用Gradio工作流程重建AUTOMATIC1111",
@@ -364,7 +442,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "为人工智能提供动力是一个架构问题",
@@ -379,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "OpenAI关于数学未来的最新争议告诉我们什么",
@@ -395,7 +473,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -410,7 +488,7 @@
       "tags": [
         "安全"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -425,7 +503,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "人工智能时代的内存和存储架构",
@@ -440,22 +518,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
-    },
-    {
-      "title": "来自乌克兰无人机的数据正在推动新的狂野西部市场",
-      "originalTitle": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-      "date": "2026-09-04T09:25:19.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“来自乌克兰无人机的数据正在推动新的狂野西部市场”。它主要涉及AI 热点方向，热度评分为 71。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part&#8230;",
-      "rawFullText": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part of the AI architecture that shapes even civilian life.&nbsp;&nbsp; For every flight, unmanned systems collect thousands of points of data, from images and video to controller inputs. Together, those records show how a machine and a person responded to constantly shifting circumstances.&nbsp; Ukraine has now begun converting that experience into a resource. Its Ministry of Defense announced in January that it would make millions of data points gathered during tens of thousands of drone flights available to both military contractors and commercial companies, and since then more than 100 companies and the UK government have gained access. For a country at war, it’s a quick way to attract funding and partnerships. But this step turns the front line into an active site of model training, taking advantage of how the chaos of war creates conditions that AI companies struggle to reproduce on their own. Other countries and battlefields are likely to follow Ukraine’s lead, but the responsibility for governing this new industry cannot fall solely on a country fighting for its survival. That legal vacuum has to be filled together by the countries and companies involved in this industry’s development.&nbsp;&nbsp; Explosive growth Ukraine’s battlefields are not the first to produce records used to train and develop models: American drones over Syria and Yemen collected data that informed the first generation of semiautonomous military hardware in the late 2010s. The difference now is that access to that data is being used to develop a wider ecosystem. And the financial value to defense firms is immense: Battlefield data offers large volumes of machine experience gathered under conditions that no laboratory can produce. That’s because the data that’s most valuable for training AI models comes from exceptions: the moment visibility disappears, a signal jams, or a human operator improvises. AI companies spend years and enormous sums trying to capture enough of these moments to make their models more robust. But war produces them at a frequency controlled testing cannot match. This constantly changing terrain is what makes drone data valuable far beyond the battlefield. A commercial drone used for delivery or remote sensing may never encounter artillery fire, but it must still operate with incomplete information in a world where people behave unpredictably. The same problem is compressed by war into a much shorter timeline.&nbsp; Processed and matched against records of what its operator was doing, that data turns operational records into training sets. Combat becomes a commercial asset. Many conflicts have already seen this training loop happen as drone footage feeds subsequent generations of military technology, and the market is set to grow. Enabled Intelligence, an American company that specializes in processing data to become usable in AI training, says it has already made more than half a million hours of Ukrainian drone footage available to feed into the next round of models, advertising possible uses in both military and commercial systems. Closing the data loop Many of the drones that now define our modern age of warfare began as civilian technology. But they’ve recently been turbocharged by new, commercially available AI systems, which allow cheap machines to operate autonomously—either individually or as a flock—as the environment changes around them. Each flight then creates a record of what the system encountered. The resulting data is critical. The controlled lab environments usually developed to train these autonomous systems can approximate failure but are no match for&nbsp; the live conditions of a battlefield with very real risks. Military intelligence programs have held data generated by sensor-heavy systems like Predator and Reaper drones for nearly a decade through programs like Project Maven, but access remained entirely within the defense world. The data generated was available only through restricted, classified channels for the sole purpose of developing new weapons systems that would feed back into the same military that produced the data in the first place. That experience is now being shared to a much broader development network.&nbsp; The loop now closes. Commercial technologies adapted for the battlefield are generating data that can flow back into the industries from which they came, becoming part of the data infrastructure relied on by governments and the private sector alike.&nbsp; Drones that were trained in the signal-jammed airspace over Ukraine are now being deployed in the agricultural sector to help farmers map and survey their fields in places lacking the cell signal necessary for previous generations of technology.&nbsp; Other countries are likely to follow Ukraine in selling their battlefield data, and we are not ready for the new marketplace this will create. Bad actors could acquire the data, but purchase controls already mitigate that risk. Intelligence operatives scrutinize potential customers’ infrastructure for ways that data could reach enemies or nefarious actors.&nbsp; Training data creates a new tracing problem, though. Whereas the movement of commercial datasets can be followed when planted contact details appear two steps from the original buyer, the provenance of AI training data vanishes in a manner embedded in the technology itself. Another risk is that this use of the data creates an extractive economy in which wealthier countries far from danger benefit from the mortal threat borne by frontline states, potentially creating a market incentive for war to continue as an unending mine for digital gold.&nbsp; A fraught new frontier Existing laws regulate how militaries may conduct war. But they say almost nothing about what happens when records created in combat are stripped of their operational context, packaged as data, and licensed to companies whose products circulate far beyond where they were made. The responsibilities of the companies that design these systems remain unsettled. Ukraine is building access controls, which are mentioned in the newly signed UK-Ukraine AI agreement, but no governments are actively working on regulating what happens when data has been absorbed into a model and crosses back into civilian markets. Those records contain human lives. The soldiers and civilians visible in them did not agree to become training material for products that might be sold years later. But sensor data, camera footage, and coordinates from civilians fleeing a drone strike now constitute the sorts of data that inform how future machines will make decisions. That is a problem of consent. Individuals featured in the data—be they targets, controllers, or civilians standing by—become part of the training material. The autonomous capabilities based on that data do not stop at the edge of the battlefield. Such capabilities move into other military or commercial systems like delivery vehicles or agricultural machinery. Errors and assumptions embedded in the data travel with the model even once it enters civilian life. Battlefield data should not be treated as ordinary commercial material. But there is currently no agency or regulator that has jurisdiction over this issue. In the meantime, governments that provide access to defense data should treat it as they would a controlled weapons transfer, recording its origin, licensing its users, and restricting onward sharing. Ukraine has begun to grapple with this. Its Avengers Labs program allows companies to train models on battlefield data without giving them direct access to sensitive databases. Yet that mitigates only one part of the problem.&nbsp; Governments should require disclosure when models trained on wartime material are later incorporated into civilian products. The goal of such regulation should be to make the path from combat to commerce visible.&nbsp; What these companies are really mining is experience. And soldiers cannot consent to having their experience used in this way—as training data that produces model advantage and ultimately supports a product used far from where the war was fought. The question is no longer only what the technology companies can sell for use in war. It is what they can extract from it. To protect ourselves from the excesses of this new industry, we need a regulatory system that follows battlefield data wherever it goes, from combat to model to commercial product.&nbsp; Cory Alpert is a researcher at the University of Melbourne, looking at the impact of AI on democracy. He previously served in the Biden White House.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 61
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
