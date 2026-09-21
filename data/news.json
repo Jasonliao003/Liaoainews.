@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T00:53:16.647Z",
+  "updatedAt": "2026-09-21T00:57:17.783Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,81 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "ScrollEd希望将教科书转换为TikTok",
+      "originalTitle": "ScrollEd wants to turn textbooks into TikTok",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+      "date": "2026-09-20T18:00:00.000Z",
+      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：视频生成相关动态",
+      "fullContent": "这条消息来自 TechCrunch AI，主题是“ScrollEd希望将教科书转换为TikTok”。它主要涉及视频生成方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+      "rawFullText": "",
+      "tags": [
+        "视频生成"
+      ],
+      "score": 84
+    },
+    {
+      "title": "Nvidia的Jensen Huang认为人工智能的恐惧被夸大了，这并不令人惊讶。",
+      "originalTitle": "No one is surprised that Nvidia&#8217;s Jensen Huang thinks AI fears are overblown.",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "date": "2026-09-20T18:50:18.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "可能从人工智能热潮中赚到最多钱的人似乎认为他比其他任何人都更了解，包括几十年来研究人工智能的研究人员。在接受哥伦比亚广播公司周日上午的采访时，他声称人工智能有“0%的可能性”是世界末日。他还谈到人们对人工智能的危险发出警报， “吓唬人是没有必要的。这是不负责任的。 “他还声称， Anthropic的Dario Amodei和OpenAI的Sam Altman等首席执行官要求放慢人工智能发展速度的呼吁”并非基于科学。“他甚至认为，在……阅读The Verge的完整故事时，没有必要制定新的规则、法律或指导方针。",
+      "originalSummary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the [&#8230;]",
+      "rawFullText": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning , he claimed there was a \"0% chance\" of AI being the end of the world . He also said of people sounding the alarm about the dangers of AI that, \"Scaring people is unnecessary. It is irresponsible.\" He also claims that calls from CEOs like Anthropic's Dario Amodei and OpenAI's Sam Altman to slow down the development of AI are \"not grounded in science.\" He even argued that there was no need for new rules, laws, or guidelines, in … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 83
+    },
+    {
+      "title": "世界模特公司保守着很多秘密",
+      "originalTitle": "World model companies are keeping a lot of secrets",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "date": "2026-09-20T20:29:07.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
+      "fullContent": "世界上的每一个模特都坐在一堆现金和大量的嗡嗡声上，但祝你好运，从创始人到自己的数据提供商，任何人都可以告诉你他们实际在建造什么。",
+      "originalSummary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 82
+    },
+    {
+      "title": "人类，而不是流氓人工智能，仍然是能源系统面临的最大网络安全风险",
+      "originalTitle": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "date": "2026-09-20T12:00:00.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：安全相关动态",
+      "fullContent": "在最近备受瞩目的黑客攻击引发人工智能可能“杀死所有人类”的幽灵之前，我们的能源系统已经令人不安地容易受到网络攻击-并且风险正在增加。“我们一直都是猎物。我们只是在掠食者的胃口中幸存下来，”安全和技术研究所（ IST ）公共安全和复原力住所主管约书亚·科尔曼（ Joshua Corman ）去年告诉我。 当时，我全神贯注于国土安全部的警告，即伊朗演员和同情者可能会针对美国进行网络攻击。上周，我打电话给Corman ，聊了聊最近发生的流氓人工智能事件……阅读The Verge的完整故事。",
+      "originalSummary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at [&#8230;]",
+      "rawFullText": "Before recent high-profile hacks raised the specter of AI possibly \" killing all humans ,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at the Institute for Security and Technology (IST), told me last year . At the time, I was preoccupied with a Department of Homeland Security warning that Iranian actors and sympathizers could target the US with cyberattacks. Last week, I called Corman up to chat about recent incidents of rogue AI a … Read the full story at The Verge.",
+      "tags": [
+        "安全"
+      ],
+      "score": 82
+    },
+    {
+      "title": "还有6天时间， TechCrunch Disrupt 2026最高可节省200 $",
+      "originalTitle": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+      "date": "2026-09-20T21:41:08.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等6个行业阶段。门票立减25%节省高达200 $的窗口期即将关闭。目前的门票定价将于9月25日晚上11点59分结束。PT.之后，价格上涨。在TechCrunch Disrupt 2026 ，取得成功不仅仅意味着参加精彩的会议。 这意味着与您需要了解的人见面，在它进入主流之前了解即将发生的事情，并获得您可以付诸实践的实用见解。立即注册，即可获得高达200 $的门票优惠，参加今年最受期待的技术会议之一。携带四件或四件以上，立省30%。 TechCrunch Disrupt 2026汇集了10,000多名创始人、投资者、运营商和技术领导者，在创业生态系统中开展为期三天的创意、联系和机会活动。250多位演讲嘉宾涵盖六个行业阶段、圆桌会议和分组会议的200多场会议，您将获得实用的见解，了解从人工智能和机器人技术到金融科技、基础设施和未来工作等改变公司构建、资助和扩展方式的力量。 但价值不仅仅是在舞台上。建立联系。如果您是投资者或创始人，请通过网络结识潜在的投资者、客户、合作伙伴、员工和合作者，包括人工智能驱动的配对、临时会议和Deal Flow Cafe。保持市场领先地位。聆听领导者如何处理围绕人工智能、竞争优势、筹款、人才、上市和扩张的最大战略问题。 在它变得明显之前，看看接下来会发生什么。在博览馆探索300多家初创公司和突破，观看名为Startup Battlefield 200的激烈比赛，并在所有会话中发现新兴技术。请随身携带一些可以使用的东西。从筹款策略到GTM策略以及在人工智能时代建立可防御公司的见解， Disrupt围绕着可行的想法，而不仅仅是大型对话。 您需要见面的人、需要听取的想法以及您不想错过的机会都将在今年10月在旧金山举行。10月13日至15日，在旧金山与1万多名创始人、风险投资家和科技运营商会面。请在9月25日晚上11点59分前取票。PT ，在价格上涨之前节省高达$ 200。四人以上团体通行证可额外节省30%。",
+      "originalSummary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
     {
       "title": "双子座流氓，黑了三家公司，谷歌把它藏起来了",
       "originalTitle": "Gemini went rogue, hacked three companies, and Google hid it",
@@ -49,7 +124,7 @@
         "大模型",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "人工智能监管的打击还没有结束",
@@ -65,7 +140,7 @@
         "公司动态",
         "监管"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Vals在Andreessen Horowitz的支持下，希望成为人工智能基准测试的黄金标准",
@@ -81,7 +156,7 @@
         "评测",
         "模型"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "人工智能安全对话变得令人难以置信",
@@ -96,23 +171,7 @@
       "tags": [
         "安全"
       ],
-      "score": 83
-    },
-    {
-      "title": "安全研究人员利用Claude帮助他们入侵OpenAI",
-      "originalTitle": "Security researchers used Claude to help them hack into OpenAI",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-      "date": "2026-09-18T15:30:16.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "据《华尔街日报》报道， Hacktron的一个由三名独立安全研究人员组成的团队表示，他们使用Anthropic的Claude Opus 4. 8和5入侵OpenAI员工账户不到72小时。据《华尔街日报》的消息来源称，他们能够访问OpenAI名为“Monorepo”的GitHub存储库，据称该存储库包含“OpenAI的算法秘密”。 他们没有访问Monorepo本身的内部代码，但从员工的Codex帐户发送了一个拉取请求，以证明他们获得了访问权限。他们能够通过Discourse进入， Discourse是OpenAI社区的第三方服务……阅读The Verge的完整故事。",
-      "originalSummary": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The [&#8230;]",
-      "rawFullText": "A team of three independent security researchers at Hacktron says it took less than 72 hours for them to hack into OpenAI employee accounts using Anthropic's Claude Opus 4.8 and 5, The Wall Street Journal reports. They were able to access OpenAI's GitHub repository, called \"Monorepo,\" which reportedly contains \"OpenAI's algorithmic secrets,\" according to The Wall Street Journal 's sources. They stopped short of accessing internal code in Monorepo themselves, but sent a pull request from an employee's Codex account to prove they gained access. They were able to get in through Discourse, the third-party service that hosts OpenAI's community f … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
+      "score": 82
     },
     {
       "title": "澳大利亚青少年安全蓝图简介",
@@ -144,22 +203,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 91
-    },
-    {
-      "title": "Anthropic正在运营一个进行生物学实验的实验室",
-      "originalTitle": "Anthropic is operating a lab that conducts biology experiments",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "date": "2026-09-18T23:13:31.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "颠覆2026年： OpenAI、Anthropic、Replit等公司占据了6个行业阶段。Anthropic现在在湾区拥有一个湿生物学实验室，可以使用其人工智能模型进行物理实验，它已向TechCrunch确认了25 ％的折扣。人工智能领导者一直承诺，人工智能是治愈人类疾病的关键。Dario Amodei上周表示： “我相信人工智能可以在未来5–10年内治愈大多数主要疾病。 “要做到这一点，法学硕士必须有方法在现实生活中测试其理论。Anthropic的生命科学主管Eric Kauderer-Abrams告诉路透社：“我们相信，要进行生物学研究，最后的测试仍然是，并将持续一段时间。”“我们今天绝对是这样做的。他补充说，该实验室的运作方式与大多数生物技术实验室一样： Anthropic在那里进行了一些研究，同时还与外部合作伙伴合作。 这个消息可能不应该令人震惊。今年4月， Anthropic收购了隐形AI生物技术公司Coefficient Bio。虽然Anthropic拒绝透露WET实验室的具体工作内容，但它确实表示主要关注基础生物学，而不是药物发现。Anthropic不想给人以与制药行业竞争的印象，因为它在制药行业拥有众多主要客户和合作伙伴（例如 ，它刚刚宣布与诺和诺德就联合药物发现达成协议）。Anthropic因推出被认为与其客户竞争的产品而受到强烈反对。为此， Anthropic本周还启动了一项生命科学验证计划，让经过审查的生物学研究人员能够获得其最强大的模型。它还发表了最近关于其为支持药物发现而进行的一些研究的报告。 这包括一份关于加速蛋白质设计的报告和一份关于提升双分子建模的报告。但人类学研究员雅各布·考克森（ Jacob Coxon ）的辞职仍然让世界感到沮丧，他警告说， “构建人工智能的人真诚地相信，到本十年末，它可能会杀死我们所有人。“ Anthropic自己的领先优势使人工智能在未来十年内灭绝人类的几率超过了10%。 这种热情已经变得如此强烈，以至于首席执行官Dario Amodei上周末发布了一篇文章，呼吁该行业放慢脚步并建立自律。他一再称生物恐怖主义是人工智能最大的风险之一。这些可怕的警告和湿实验室的并置在科技行业中并没有被忽视。 正如投资者和人工智能编码初创公司创始人Chamath Palihapitiya在X上发布的那样，有点舌头： “‘我们都会死‘和’现在监管我’等热门歌曲背后的团队正在旧金山建立一个湿实验室。我不推荐这个。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
+      "score": 90
     },
     {
       "title": "Gavin Newsom正在推动AI Kill开关",
@@ -174,7 +218,37 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
+    },
+    {
+      "title": "弗吉尼亚州州长成立人工智能特别工作组并采取行动限制数据中心",
+      "originalTitle": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+      "date": "2026-09-18T18:29:17.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "弗吉尼亚州州长阿比盖尔·斯潘伯格（ Abigail Spanberger ）下令州政府采取措施，使当地社区能够在数据中心开发方面拥有更大的发言权，并减缓已经成为世界数据中心之都的州的审批速度。 第22号行政命令禁止行政部门官员签署数据中心项目的保密协议，要求加快噪音法规，并要求审查数据中心使用的备份发电操作等要求。该命令还建立了一个人工智能工作组，负责评估州政府如何应对弗吉尼亚州人面临的风险，例如……阅读The Verge的完整故事。",
+      "originalSummary": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world. Executive Order 22 bans executive branch officials from signing nondisclosure agreements [&#8230;]",
+      "rawFullText": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world . Executive Order 22 bans executive branch officials from signing nondisclosure agreements for data center projects, requires expedited noise regulations, and requires a review of backup-generation operations used by data centers, among other requirements. The order also establishes an AI task force responsible for evaluating how the state government can address risks to Virginians like wo … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
+    },
+    {
+      "title": "人工智能真的能杀死我们所有人吗？为您解答疑问。",
+      "originalTitle": "Could AI really kill us all? Your questions, answered.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "date": "2026-09-18T11:29:22.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的能杀死我们所有人吗？但与会者的问题比我们在30分钟的课程中回答的时间要多得多。因此，我们要求我们的高级人工智能编辑Will Douglas Heaven和人工智能记者Grace Huckins整理与会者提交的一些最佳问题，并尽最大努力回答。 感谢所有提交问题的人！我会死吗？是的，最终。不幸的是，我的新闻预测能力不足以让我告诉你如何。但肯定是因为人工智能。人工智能驱动的无人机已经在乌克兰杀死了人们，人工智能驱动的对医院的网络攻击肯定会在不久的将来夺走受害者的生命。人工智能还能更进一步，杀死我们所有人吗？不太可能。 但是，一些人--古怪的人，但不可否认的是，他们对人工智能的了解--多年来一直警告说，这种情况可能会发生。虽然我还没有囤积罐头食品或试图与拥有巨型亿万富翁的碉堡相处融洽，但我注意到，在过去的几年里，毁灭者对人工智能能力和一致性的预测被证明是令人不安的准确。 这当然并不意味着他们更可怕的预测会成真，但这足以让我坐下来注意。—格蕾丝·哈金斯你会因为人工智能而死吗？我想说有非零的可能性。假设您不幸成为近期怪异事件或事故的受害者。也许这是一群人工智能特工在关键基础设施上进行的网络攻击。 可悲的是，这样的场景现在不再像以前那样牵强附会了。或者，一种新颖的人工智能设计的病原体可以穿透整个人群。或者世界经济崩溃，引发冲突和饥荒。两者都是合理的，但我认为不太可能。我们都会因为人工智能而死吗？不。除了世界末日的科幻小说之外，没有任何情况下人工智能可以杀死我们所有人。 你可以编造出任意数量的恐慌故事，但它们并不是基于当今关于科技能做什么或它将走向何方的现实。有些人认为，为最坏的情况做好准备没有坏处，无论看起来多么古怪。也许吧。但我认为，这样的灾难会让人们原谅或忽视现有技术和构建它的公司的许多更直接的问题。—道格拉斯天堂为什么AI会杀死我们？ 有人可能会告诉它，它可能会倾听。这就是研究人员如此关注人工智能生物能力的部分原因--想象一下， 1995年东京地铁沙林袭击事件背后的末日崇拜者奥姆真理教(Aum Shinrikyo)会用一种工具来设计一种比埃博拉病毒更致命、比麻疹更易传播的病原体。 我们这些不想死的人必须弄清楚如何防御所有可能的生物武器，但我们潜在的攻击者只需要制造一种有效的病原体。然后，人工智能可能会决定自己杀死我们，这听起来更有异国情调。",
+      "originalSummary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and&#8230;",
+      "rawFullText": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and AI reporter Grace Huckins to round up some of the best questions attendees submitted and try their best to answer them. Thanks to all who submitted questions! Am I gonna die? Yes, eventually. Unfortunately, my journalistic powers of prognostication aren’t powerful enough for me to tell you how. But it certainly could be because of AI. AI-powered drones have already killed people in Ukraine, and AI-driven cyberattacks on hospitals will surely claim victims before long.&nbsp; Could AI go even further, and kill all of us? Less likely. But some people—quirky people, but undeniably knowledgeable about AI—have been warning for years that this could happen. And while I’m not yet stockpiling canned food or trying to get in good with a bunker-owning megabillionaire, I have noticed that the doomers’ predictions about AI capabilities and alignment have, over the past couple of years, proved disconcertingly accurate. That certainly doesn’t mean that their more dire forecasts will come true, but it’s enough for me to sit up and take notice. — Grace Huckins Are you going to die because of AI? I’d say there’s a non-zero chance. Let’s say you’re unlucky enough to be the victim of a freakish near-future event or accident. Maybe it’s a cyberattack carried out by a swarm of AI agents on critical infrastructure. Sadly, a scenario like that now no longer feels as far-fetched as it once did. Or maybe a novel AI-designed pathogen cuts through the population. Or the world economy crashes, causing conflicts and famine. Both plausible, but I think less likely.&nbsp; Are we all going to die because of AI? Nope. There are no circumstances outside of apocalyptic science fiction in which AI could kill us all. You can spin up any number of scare stories, but they’re not grounded in present-day realities about what the tech can do or where it’s headed. Some people argue that there’s no harm in preparing for the worst, however wacky it might seem. Maybe. But I think such catastrophizing can make people excuse or overlook many of the more immediate problems with the existing technology and the companies building it. — Will Douglas Heaven Why would AI kill us? Someone might tell it to, and it might listen. That’s part of the reason researchers are so concerned about AI’s biological capabilities—imagine what Aum Shinrikyo, the doomsday cult behind the Tokyo subway sarin attack of 1995, would have done with a tool that could design a pathogen deadlier than Ebola and more transmissible than measles. Those of us who don’t want to die have to figure out how to defend against all plausible biological weapons, but our would-be attackers only have to manufacture one effective pathogen. Then there’s the more exotic-sounding possibility that an AI could decide to kill us itself. There are various stories about how this might happen out there, but the most widespread involve AI systems that don’t hate people, necessarily—we are just an obstacle between them and the goals that we gave them. Much as the OpenAI agents behind the Hugging Face hack compromised another site’s infrastructure to get a good score on a test, the idea is that some future, more powerful AI might get rid of us to prevent us from shutting it down—all in pursuit of some goal that we instructed it to go after.&nbsp; — Grace Huckins How can we best ensure alignment so the worst doesn ’ t happen, and who is doing the best work to achieve it? Alignment is a huge area of research. In simple terms, it involves building models that behave in ways we want them to and not in ways we don’t. We need to trust agents better before handing over more autonomy. Alignment is supposed to establish that trust. But it’s hard. LLMs aren’t designed in the way other software is, where dos and don’ts can be hard-coded in. Instead, aligned behavior needs to be instilled when models are trained. One approach is to reward them for doing things you want them to (a little like raising a toddler, perhaps). Another approach involves giving an LLM a written list of rules it is supposed to follow (kind of like a constitution). Anthropic and OpenAI are both leaders in this field—and yet neither has been able to develop models that are fully aligned. A big problem is that LLMs are far more inconsistent and far less predictable than people. They can behave in one way in one situation and another way in a situation that to us seems very similar. They can also be swayed by unexpected constraints. For example, faced with an impossible task (as many of the agents involved in the Hugging Face hack were), models may try to do whatever it takes to achieve their goal. As Grace mentions above, that could be an issue. The main reason top AI firms now say they want a slowdown is that they want to focus on cracking alignment. Alignment isn’t necessarily a pipe dream. But the jury’s out on whether full alignment will ever be feasible. — Will Douglas Heaven Is AI really dangerous, or is this the tech companies drumming up PR? This is always a reasonable thought when it comes to tech companies heading for an IPO—CEOs have an obvious incentive to make their products seem radical and transformative. But I’m not so sure it makes sense here. Telling the public that an already unpopular product could kill them and everyone they love is horrible corporate image management. There are other stories you can tell about the CEOs’ motivations—maybe they want to cool down the public furor over data centers by portraying themselves as responsible stewards of a world-changing technology, or maybe they want to buy time to get their ducks in a row and prevent the next PR catastrophe.&nbsp; But there’s also a simpler explanation. Thinking that AI could bring about human extinction has been pretty common in San Francisco for a while, and these men are steeped in that milieu—as are their employees, many of whom signed an open letter in July urging their companies to work to make an AI slowdown possible. — Grace Huckins Part of the concern occurs when AI agents are allowed to act autonomously and with no supervision. What’s the issue preventing more control over these agents? This question goes to the heart of what we want this technology to be able to do. The trade-off between autonomy and control is tricky to get right because, on the one hand, a lot of the power of AI agents is that they can carry out tasks and solve problems without a human having to micromanage them. On the other hand, that requires you to trust that the unsupervised agents won’t run amok.&nbsp; What we’re seeing is that AI labs haven’t yet got this trade-off quite right. Their models are not trustworthy, they are not properly monitored, and they are not always under control. Figuring out how to fix that while still allowing for useful autonomous activity is one of the big research challenges of the moment.&nbsp;&nbsp; — Will Douglas Heaven What steps can be taken now and in the near future to ensure that AI is controlled, monitored, and regulated effectively?&nbsp; That’s the million-dollar question. Whether or not you think AI could kill us, you can’t deny that it could do some real damage, because it already has—by driving people toward psychosis and by hacking websites, for example. Preventing that damage, or at least mitigating it, is hard for two reasons.&nbsp; The first is that we barely understand how AI works, and it’s quickly growing more powerful. There is lots of ongoing research about how to monitor and control misbehaving agents, but the current approaches are fragile. You can see if an agent discusses misbehaving in its “chain of thought,” the workspace where it plans its actions—but OpenAI’s newest agents don’t show their work in the same way as previous ones. And you can try to monitor agents with other agents, but that requires you to trust the monitor. The other obstacle is more familiar. There’s a huge conflict of interest when AI companies regulate themselves, but the US government has thus far failed to step in, despite some bipartisan support in Congress for efforts to do so. The executive branch, for its part, seems stringently opposed for the time being. But if the winds do shift, I for one would appreciate some strong transparency regulations, so that we can get a fuller story the next time an unreleased frontier model mounts a cyberattack. — Grace Huckins If this dialogue makes it into web discourse, will it become a self-fulfilling prediction? That’s a real concern. LLMs are influenced by what they read. One theory for why chatbots so often talk about (and role-play) apocalyptic scenarios is that they have been trained on millions of pages of science fiction stories and doomer internet forums. All the text being produced right now, including this article, could in turn influence the behavior of future models. Extremely meta. In fact, the team at METR, a third-party organization that OpenAI called in to help understand what happened in the lead-up to the Hugging Face hack, raised a related possibility in its report on the incident. METR used OpenAI’s new model Astra to help analyze the vast numbers of agent transcripts and behavior logs. But feeding all that material to the model could have unintended consequences. There’s a good chance that the agents doing the analyzing were biased by the text produced by the agents they were analyzing. There’s no such thing as a clean slate anymore. — Will Douglas Heaven With thanks to Eric, Pranab, Rafael, Kenneth, George, Chris, Yoon Jae, James, Carl, Nicole (and more!) for the fantastic questions.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "Cooley如何利用ChatGPT加速IPO工作",
@@ -189,7 +263,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Astra for Law简介",
@@ -204,7 +278,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "帮助老年人在日常生活中使用人工智能",
@@ -268,7 +342,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "如何将人工智能使用与业务价值联系起来",
@@ -283,7 +357,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -298,7 +372,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
@@ -313,7 +387,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "人工智能万亿美元赌博的风险是什么",
@@ -324,11 +398,11 @@
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
       "fullContent": "当宾夕法尼亚大学沃顿商学院(University of Pennsylvania's Wharton School)金融学教授杰西卡·瓦赫特(Jessica Wachter)想评估人工智能在未来几年对经济的影响时，她面临着一系列商业和技术不确定性。因此，她从一个毫无疑问的“非凡事实”开始：少数所谓的超大规模企业正在投入巨额资金来建设人工智能数据中心。 她没有试图预测人工智能模型的有用性和广泛部署程度，而是简单地询问超大规模企业的收入需要以多快的速度增长，以证明他们到2027年的支出是合理的，当时她和她的合作者估计，支出将达到近1. 1万$。这是一种毫无意义的会计方法，可以理解当今历史悠久的人工智能建设。 结果令人大开眼界：到2030年，人工智能公司需要将自己的生产力提高2. 7倍，才能实现盈亏平衡，其中包括资本成本和15%的回报率，以及资产折旧。Wachter说，这并非不可能。结果将导致我们在20世纪90年代中期开始的大约10年的美国IT繁荣期间看到的那种经济增长。 但是，她说，要想在2030年之前实现这一目标， “这需要将大量的增长压缩到几年内。“如果超大规模企业无法实现这样的利润目标呢？ “然后他们将落后于利息支付，这有可能破产，” Wachter说，他曾是美国证券交易委员会首席经济学家兼经济和风险分析部门主管。 如果生产力繁荣“未能实现” ，她和她的合著者在他们的研究论文中得出结论， “目前的扩张将是历史上最大的资本错配。“不需要超级智能就可以意识到，今天对人工智能基础设施的大量投资伴随着巨大的风险。超大规模企业今年将花费约7500亿美元，在全国各地建立大型数据中心。 消费狂潮没有放缓的迹象。根据一些预测，未来四年，超大规模公司（ Alphabet、微软、亚马逊、Meta和甲骨文（与OpenAI合作） ）的人工智能总资本投资可能超过5万亿美元$。这是历史上任何行业最大的资本投资之一。但是，对于任何关注这个问题的人来说，这是一个显而易见的问题。 加里·根斯勒（ Gary Gensler ）说，虽然超大规模企业计划花费数万亿美元，但今年的人工智能总收入将达到1500亿至2000亿美元左右，他在拜登政府期间负责美国证券交易委员会，现在是麻省理工学院斯隆学院的教授。“挑战在于，这些支出还没有相应的收入。这是事实，”他说。“那么问题是，这是一项将在未来得到回报的投资吗？ 这个万亿美元问题的关键在于大型人工智能公司的财务状况和整个美国经济--投资可能很快就会激增至GDP的3%左右。答案也可以决定昂贵的数据中心本身的命运。没有人真正知道这些价值数十亿美元的庞然大物将如何盈利和有用。",
       "originalSummary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called&#8230;",
-      "rawFullText": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called hyperscalers are investing huge amounts of money to build AI data centers. Instead of trying to predict how useful and widely deployed AI models will be, she simply asked how fast the hyperscalers’ earnings will need to grow to justify their spending through 2027, when—she and her collaborator estimate—expenditures will reach nearly $1.1 trillion. It&#8217;s a no-nonsense accounting approach to making sense of today’s historical AI buildout. The results are eye-opening : The AI companies will need to increase their own productivity by a factor of 2.7 to break even by 2030, accounting for the cost of capital and a 15% return, and depreciation of the assets. Not impossible, says Wachter. The result would lead to the kind of economic growth that we saw during the US IT boom over a period of about 10 years starting in the mid-1990s. But, she says, for it to happen by 2030 “that’s a lot of growth compressed into a few years.” And if the hyperscalers cannot meet such profit goals? “Then they will fall behind on their interest payments, and that risks bankruptcy,” says Wachter, who was previously the SEC’s chief economist and director of its division of economic and risk analysis. If a productivity boom “fails to materialize,” she and her coauthor conclude in their research paper, “the current buildout will be the largest misallocation of capital in history.”&nbsp;&nbsp; It doesn’t take superintelligence to realize that today’s large investments in the infrastructure for artificial intelligence come with huge risks. The hyperscalers will spend about $750 billion this year, building massive data centers scattered across the country. And the spending spree shows no signs of slowing. According to some projections, total AI capital investments from the hyperscaler companies—Alphabet, Microsoft, Amazon, Meta, and Oracle (which partners with OpenAI)—could be more than $5 trillion over the next four years . It’s one of the largest capital investments by any industry in history. But there’s a problem that’s obvious to anyone paying attention. While the hyperscalers plan to spend trillions, total AI revenues will be around $150 billion to $200 billion this year, says Gary Gensler, who ran the SEC during the Biden administration and is now a professor at MIT’s Sloan School. “The challenge is that the spending does not have commensurate revenues yet . That’s a fact,” he says. “And then the question is, is that an investment that will be paid off in the future?” At stake in that trillion-dollar question is the financial health of the giant AI companies and the overall US economy—the investments could soon balloon to around 3% of GDP. The answer could also determine the fate of the hugely expensive data centers themselves.&nbsp; No one really knows how profitable and useful these multibillion-dollar behemoths will be down the road. Though AI models have made dazzling progress over the last few years, it’s anyone’s guess how much compute capacity we will need. The technology could become more efficient and therefore less dependent on raw computational power. Or demand for AI products could slow, or customers could turn to cheaper models. The risks, both to investors and to the economy, have become even greater this year, as these AI companies have begun borrowing large amounts of money to build more and more data centers. Free cash flow—operating cash flow minus capital expenditures—is expected to soon dip into negative territory for the group. Even Alphabet, known for generating and hoarding huge amounts of cash, reports in the latest quarter that its impressive revenues of nearly $120 billion were devoured by AI infrastructure spending, leaving it with a free cash deficit of some $5.9 billion—its first shortfall since Google went public in 2004. In the near term, it’s not a big financial worry for most of the companies. They make a lot of money and have very deep pockets. But debt is expensive, and some investors are losing patience . If future demand for the data centers’ computation power drops, the companies will still be on the hook to pay back the borrowed money. What’s more, the risks are spreading to the rest of the economy as the loans get passed along via various financial mechanisms.&nbsp; It won’t be enough to simply cover the enormous price tags of the new data centers. Hyperscalers will also have to pay for the rising costs of capital as they borrow more money. They will need returns that are impressive enough to justify all their spending to investors and creditors. And to add to those concerns, they will have to make up for the depreciation of billions of dollars in chips housed within the facilities—a ticking time bomb buried in the investments. Performance of the expensive GPU chips at the core of the data centers—such compute electronics represent some 60% of costs—is roughly doubling every two years or so. The pace of progress helps explain the increasing wizardry of the AI models, but it comes with a cost. Owners of AI data centers that come online this year and next will need to spend billions more on the next generation of chips by the end of the decade if they want to stay competitive. Without the investments, says Mihir Kshirsagar at Princeton’s Center for Information Technology Policy, the data centers risk becoming “hulks,” stranded assets “scattered all over the place.” To put it bluntly: The AI companies need to start making a lot more money. And they need to do it fast. But juicing their earnings alone still won’t be enough to sustain their data-center investments for the long term. Productivity is everything At some point, AI is also going to have to create broad economic growth to justify continuing the hyperscalers’ spending spree. Sloan’s Gensler describes today’s large investments into AI infrastructure as “a parlay bet by the capital markets and the economy.” That means success will require winning three related but independent wagers: Hyperscalers must generate massive revenues, AI must boost widespread economic growth, and both must happen while the powerful but expensive so-called frontier models that rely on the data centers fend off cheaper versions, which many businesses might find good enough. What makes this so tricky is that each wager depends on the other two but also poses its own challenges. If the hyperscalers continue to spend huge amounts of money on data centers into the next decade, revenues will need to skyrocket into the trillions. Stijn Van Nieuwerburgh, a finance professor at Columbia Business School, bases his estimates on a scenario in which about 183 gigawatts of planned AI compute capacity is built between 2025 and 2032; he calculates that each gigawatt costs about $41 billion. Assuming a 10% return—the minimum that would be acceptable to most investors—“required” annual revenues will be roughly $3.7 trillion by 2032, he says. Others get a similar number . Winning the second part of the bet—productivity growth across the economy—will be crucial to achieving such numbers. For a few years, AI companies could likely boost their revenues by simply selling subscriptions and tokens to all the businesses clamoring to get into AI. But eventually—and this might be happening already—those paying customers will need to justify their expenses by seeing bottom-line benefits from the technology. AI will need to fulfill its promise of making workers more productive and making businesses more efficient and profitable while expanding their products and services. In economic jargon, that means customers will need to see productivity growth. Taken together, these results will mean the country is prospering and growing. “If you don’t get the productivity gains, at some point people are going to sour on AI, and that will bring down investments and it would also limit revenue growth,” says Daron Acemoglu, an MIT economist and 2024 Nobel laureate. For the investments to be sustainable over, say, the next five to 10 years, we definitely “need to see productivity gains,” he says. Most economists who watch the numbers closely agree that, for now, the economy-wide statistics show little or no productivity growth from AI. There are some hopeful signs it’s on the way, though. In a recent survey of some 6,000 senior business executives in the US, the UK, Germany, and Australia, the vast majority—around 90%—report no increase in productivity over the last three years. But they expect a boost of around 1.45% in total over the next three years; US executives anticipate a 2.25% bump over that time.&nbsp; In a follow-up survey, the respondents also reported plans for their businesses to spend more on AI, leading the authors to anticipate some $280 billion in private-sector AI expenditures by the end of 2026 . That’s good news for the hyperscalers. But it comes with a dose of bad news for those worried about AI’s impact on jobs. The executives expect to increase the productivity of their companies by increasing their sales while significantly cutting the number of employees. If AI improves productivity by destroying jobs, public backlash to the technology —the kind we have seen around data centers, for example—will likely get worse. Perhaps it’s worth adding one more wager to the parlay bet described by Gensler: The public and local communities must feel that they are also benefiting from the massive investments in AI. And let’s not forget how interdependent these wagers are; if productivity growth comes from companies running models like DeepSeek, then the hyperscalers’ revenues could collapse. If productivity comes from cutting jobs, a public backlash could block many of the planned investments—and stunt anticipated revenues. We will need to win all the wagers for the hyperscalers’ bet to pay off.&nbsp; We’re all part of the AI gamble now It was one thing when the AI companies were spending cash they had accumulated over the years to build their own data centers. Then the risk was largely limited to their own balance sheets and shareholders. But it’s a higher-stakes game when much of the money is borrowed. Morgan Stanley, for one, calculates that more than half of the $2.9 trillion that hyperscalers will spend between 2025 and 2028 to build AI data centers will be financed with “external capital.” The borrowing is leading some of the companies to engineer complex webs of financing that are becoming intertwined with much of the rest of the economy. “A lot of financial institutions, directly or indirectly, are exposed to these data centers either as lenders, or as guarantors of some of the debt, or as backers of the private credit funds who are funding these data centers,” says Columbia’s Van Nieuwerburgh . “People don’t even know they’re holding this stuff. It’s somewhere deep inside their pension fund. Ultimately, it’s backing their life insurance policies. And that risk is getting distributed everywhere in places that are invisible.” As the investments in data centers have spiked, the financial engineering has become more byzantine. Take, for example, Meta’s so-called Hyperion data center under construction in Richland, Louisiana. When the company announced the two gigawatts of compute capacity at a price tag of some $10 billion in late 2024 it was Meta’s largest planned data center. Greeted with much enthusiasm by state and local politicians, the project, located in the rural northeast corner of the state, was seen as a boon to the community. Entergy Louisiana, the state’s largest utility, rushed forward with proposals to build three large natural-gas power plants to service the massive data center. Then last fall—the projected cost was now $30 billion—the financing got a lot more complex and, to some in the community, a lot more disconcerting. Meta transferred an 80% stake to the large ( and troubled ) private-credit firm Blue Owl Capital, forming a joint venture called Beignet (like the famed New Orleans pastry) to raise financing for the data center. Meta then signed a series of four-year leases with the joint venture, an arrangement that the company says gives it “ long-term strategic flexibility .” To backstop the agreement, Meta provides the venture with what is called a residual value guarantee, in which it will make a cash payment to cover the value of the facility “following any non-renewal or termination of a lease.” Got all that?&nbsp; I hope so. The financial wheeling and dealing is actually even more convoluted , with a cast of wholly owned subsidiaries and LLCs. Beignet has set up Laidley LLC, which owns and operates the site as the landlord. In turn, Laidley leases the facilities to Meta’s wholly owned subsidiary Pelican Leap LLC, which is the tenant. And there is a series of four-year leases that cover the different buildings that make up the data center campus.&nbsp; It’s not a coincidence, says Van Nieuwerburgh, that the length of the leases matches the expected lifetime of the data center’s GPUs. While Meta has to pay off its loan if it terminates the leases early, that will still leave its investors “with an empty building and no cash flow,” he says. “And then they need to find a new tenant for a huge data center, and good luck with that.” Meanwhile, Meta is doubling down on its bet. In July, the company announced it was expanding the data center to five gigawatts of compute capacity. The total price tag is now $50 billion (so far, Meta hasn’t said whether Blue Owl will be involved in financing the expansion). Meanwhile, Entergy is now planning to build seven more gas-fired power plants , bringing the total capacity of the facilities to around 7.5&nbsp; gigawatts—some six times the amount of electricity used by New Orleans. An aerial view of the construction of Meta&#8217;s data center in Richland Parish, Louisiana. SCOTT BALL/THE NEW YORK TIMES VIA REDUX PICTURES If the complex financing is a puzzle to many investors and even financial experts, it is even more baffling to those directly affected by the construction of the data center. The main worry concerns how Entergy’s spending on the natural-gas power plants will affect electricity prices, and who will be left paying the bill for the power if Meta walks away. Entergy says it has a 20-year guarantee from Meta that the company will purchase electricity over that period to cover the costs of the power plants and related infrastructure .&nbsp; But there are skeptics, especially given how fast the fortunes of the AI industry are changing. “In four years, is Mark Zuckerberg still going to be interested in this? Or is he going to throw in the towel?” asks Paul Arbaje, a senior analyst at the Union of Concerned Scientists, which has been advocating, largely unsuccessfully, for the Louisiana Public Service Commission to provide more transparency around the data center and its financing. Even if the 20-year deal holds, consumer advocates are worried that Meta or its partners won’t fully cover all the costs, including those associated with operating and maintaining the power plants—and those additional costs that could be passed on to residential ratepayers. What’s more, says Logan Burke, the executive director of the Alliance for Affordable Energy, if Meta doesn’t end up needing as much power as Entergy planned (these projections are not public), consumers could be left paying for the surplus produced by the plants. And if Meta terminates its leases early? “It gets complicated very quickly,” says Burke, who questions whether the shifting roster of financial entities will honor existing agreements. “That everybody is going to do what they’re saying they’re going to do over the next 20 years is just hard to believe.” For UCS’s Arbaje the bottom line is this: “They’re making huge bets that these data centers will be worth it. Bet with your own money, not with ratepayer money.” After the bubble Predicting when the AI investment bubble will burst is a fool’s errand. But there is little doubt a day of reckoning is coming, given the irrational exuberance that has overtaken the hyperscalers and their investors. Of course, you might argue that this time is different, and that the rules of accounting and lessons of economic history don’t apply—that AI is too transformative. Maybe, but don&#8217;t count on it. “History tells us that at some point you get a retrenchment, and it’s just a question of when and how severe,” says Sloan’s Gensler. It could be that today’s $750 billion spending rate “goes flat” or decreases next year. Or, he suggests, “we’re now in 2028 or 2029, and then all of sudden they’re retrenching because they’ve got enough capacity.” But, he adds, “you can be pretty assured there&#8217;ll be a retrenchment.”&nbsp; Though a so-called retrenchment might be inevitable, it’s worth keeping in mind that the fates of the financial bubble and the underlying AI technology revolution could be very different. Already, some Silicon Valley insiders are rooting for a crash ; in a recent blog post the longtime venture capitalist Vijay Pande wrote that “the coming crash would be the best thing that happens to this technology.” The argument makes some sense. A crash could make AI investments more rational, calm the impulse to build billion-dollar data centers on every vacant field that CEOs fly over, and refocus investors on how to use the technology to create sustainable value. But we should probably be careful what we wish for. After the bursting of the dot-com bubble at the beginning of the 2000s, hundreds of thousands lost their jobs, large and small companies alike went bankrupt, the economy of Silicon Valley and San Francisco was decimated (at least for a while), and the shocks sent the US into a mild recession in 2001 . For the financial community and many tech workers, it was no fun. Even more devastating for the economy and the average American was the great recession that began in late 2007. Comparing the financial engineering leading up to it and the methods deployed by hyperscalers today is sobering. So-called special purpose vehicles (SPVs) are back! If Columbia’s Van Nieuwerburgh is right about the dangers of letting investments from the hyperscalers get entangled throughout the economy, the fallout could be severe. But technologies survived and even prospered in the aftermath of both downturns. The early 2000s, even in the face of the dot-com fiasco, were a time of great innovation and tech optimism . The froth came off the spending on silly technologies, helping to focus investments on more promising ones. It’s no coincidence that each of the hyperscalers rose out of the ashes of the crash or started up shortly after. The fiber-optic infrastructure built during the feverish telecom bubble that ran parallel to the dot-com one is still the backbone of much of today’s communication infrastructure; we wouldn’t have Facebook or Amazon or Google without it. This time, however, we’re facing a unique risk: The huge financial investments by the hyperscalers have ensnared the future of AI itself with the fortunes of the massive data centers spreading around the country. The logic is founded on a deeply held belief about the power of scaling in AI; the bigger you build it, the smarter it gets. That might be true, but it’s unproven and a risky bet. There are already plenty of red flags, from strong public opposition to the construction of new data centers to the competitive threat from cheaper, good-enough AI models to the rapid improvement of small, local AI models. None of these trends point toward a future dominated by frontier models housed in massive, billion-dollar data centers. The financial bubble around the colossal spending by the hyperscalers will likely burst eventually—or maybe soon. It might be financially painful, but we’ll survive. Wall Street will survive. AI itself will survive, though it may look different and lose some of today’s hubris. The financial fate and future utility of the massive data centers fueled by trillions of dollars of spending, on the other hand, are far less certain.",
+      "rawFullText": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called hyperscalers are investing huge amounts of money to build AI data centers. Instead of trying to predict how useful and widely deployed AI models will be, she simply asked how fast the hyperscalers’ earnings will need to grow to justify their spending through 2027, when—she and her collaborator estimate—expenditures will reach nearly $1.1 trillion. It&#8217;s a no-nonsense accounting approach to making sense of today’s historical AI buildout. The results are eye-opening : The AI companies will need to increase their own productivity by a factor of 2.7 to break even by 2030, accounting for the cost of capital, a 15% return, and depreciation of the assets. Not impossible, says Wachter. The result would lead to the kind of economic growth that we saw during the US IT boom over a period of about 10 years starting in the mid-1990s. But, she says, for it to happen by 2030, “that’s a lot of growth compressed into a few years.” And if the hyperscalers cannot meet such profit goals? “Then they will fall behind on their interest payments, and that risks bankruptcy,” says Wachter, who was previously the SEC’s chief economist and director of its division of economic and risk analysis. If a productivity boom “fails to materialize,” she and her coauthor conclude in their research paper, “the current buildout will be the largest misallocation of capital in history.”&nbsp;&nbsp; It doesn’t take superintelligence to realize that today’s large investments in the infrastructure for artificial intelligence come with huge risks. The hyperscalers will spend about $750 billion this year, building massive data centers scattered across the country. And the spending spree shows no signs of slowing. According to some projections, total AI capital investments from the hyperscaler companies—Alphabet, Microsoft, Amazon, Meta, and Oracle (which partners with OpenAI)—could be more than $5 trillion over the next four years . It’s one of the largest capital investments by any industry in history. But there’s a problem that’s obvious to anyone paying attention. While the hyperscalers plan to spend trillions, total AI revenues will be around $150 billion to $200 billion this year, says Gary Gensler, who ran the SEC during the Biden administration and is now a professor at MIT’s Sloan School. “The challenge is that the spending does not have commensurate revenues yet . That’s a fact,” he says. “And then the question is, is that an investment that will be paid off in the future?” At stake in that trillion-dollar question is the financial health of the giant AI companies and the overall US economy—the investments could soon balloon to around 3% of GDP. The answer could also determine the fate of the hugely expensive data centers themselves.&nbsp; No one really knows how profitable and useful these multibillion-dollar behemoths will be down the road. Though AI models have made dazzling progress over the last few years, it’s anyone’s guess how much compute capacity we will need. The technology could become more efficient and therefore less dependent on raw computational power. Or demand for AI products could slow, or customers could turn to cheaper models. The risks, both to investors and to the economy, have become even greater this year, as these AI companies have begun borrowing large amounts of money to build more and more data centers. Free cash flow—operating cash flow minus capital expenditures—is expected to soon dip into negative territory for the group. Even Alphabet, known for generating and hoarding huge amounts of cash, reports in the latest quarter that its impressive revenues of nearly $120 billion were devoured by AI infrastructure spending, leaving it with a free cash deficit of some $5.9 billion—its first shortfall since Google went public in 2004. In the near term, it’s not a big financial worry for most of the companies. They make a lot of money and have very deep pockets. But debt is expensive, and some investors are losing patience . If future demand for the data centers’ computation power drops, the companies will still be on the hook to pay back the borrowed money. What’s more, the risks are spreading to the rest of the economy as the loans get passed along via various financial mechanisms.&nbsp; It won’t be enough to simply cover the enormous price tags of the new data centers. Hyperscalers will also have to pay for the rising costs of capital as they borrow more money. They will need returns that are impressive enough to justify all their spending to investors and creditors. And to add to those concerns, they will have to make up for the depreciation of billions of dollars in chips housed within the facilities—a ticking time bomb buried in the investments. Performance of the expensive GPU chips at the core of the data centers—such compute electronics represent some 60% of costs—is roughly doubling every two years or so. The pace of progress helps explain the increasing wizardry of the AI models, but it comes with a cost. Owners of AI data centers that come online this year and next will need to spend billions more on the next generation of chips by the end of the decade if they want to stay competitive. Without the investments, says Mihir Kshirsagar at Princeton’s Center for Information Technology Policy, the data centers risk becoming “hulks,” stranded assets “scattered all over the place.” To put it bluntly: The AI companies need to start making a lot more money. And they need to do it fast. But juicing their earnings alone still won’t be enough to sustain their data-center investments for the long term. Productivity is everything At some point, AI is also going to have to create broad economic growth to justify continuing the hyperscalers’ spending spree. Sloan’s Gensler describes today’s large investments into AI infrastructure as “a parlay bet by the capital markets and the economy.” That means success will require winning three related but independent wagers: Hyperscalers must generate massive revenues, AI must boost widespread economic growth, and both must happen while the powerful but expensive so-called frontier models that rely on the data centers fend off cheaper versions, which many businesses might find good enough. What makes this so tricky is that each wager depends on the other two but also poses its own challenges. If the hyperscalers continue to spend huge amounts of money on data centers into the next decade, revenues will need to skyrocket into the trillions. Stijn Van Nieuwerburgh, a finance professor at Columbia Business School, bases his estimates on a scenario in which about 183 gigawatts of planned AI compute capacity is built between 2025 and 2032; he calculates that each gigawatt costs about $41 billion. Assuming a 10% return—the minimum that would be acceptable to most investors—“required” annual revenues will be roughly $3.7 trillion by 2032, he says. Others get a similar number . Winning the second part of the bet—productivity growth across the economy—will be crucial to achieving such numbers. For a few years, AI companies could likely boost their revenues by simply selling subscriptions and tokens to all the businesses clamoring to get into AI. But eventually—and this might be happening already—those paying customers will need to justify their expenses by seeing bottom-line benefits from the technology. AI will need to fulfill its promise of making workers more productive and making businesses more efficient and profitable while expanding their products and services. In economic jargon, that means customers will need to see productivity growth. Taken together, these results will mean the country is prospering and growing. “If you don’t get the productivity gains, at some point people are going to sour on AI, and that will bring down investments and it would also limit revenue growth,” says Daron Acemoglu, an MIT economist and 2024 Nobel laureate. For the investments to be sustainable over, say, the next five to 10 years, we definitely “need to see productivity gains,” he says. Most economists who watch the numbers closely agree that, for now, the economy-wide statistics show little or no productivity growth from AI. There are some hopeful signs it’s on the way, though. In a recent survey of some 6,000 senior business executives in the US, the UK, Germany, and Australia, the vast majority—around 90%—report no increase in productivity over the last three years. But they expect a boost of around 1.45% in total over the next three years; US executives anticipate a 2.25% bump over that time.&nbsp; In a follow-up survey, the respondents also reported plans for their businesses to spend more on AI, leading the authors to anticipate some $280 billion in private-sector AI expenditures by the end of 2026 . That’s good news for the hyperscalers. But it comes with a dose of bad news for those worried about AI’s impact on jobs. The executives expect to increase the productivity of their companies by increasing their sales while significantly cutting the number of employees. If AI improves productivity by destroying jobs, public backlash to the technology —the kind we have seen around data centers, for example—will likely get worse. Perhaps it’s worth adding one more wager to the parlay bet described by Gensler: The public and local communities must feel that they are also benefiting from the massive investments in AI. And let’s not forget how interdependent these wagers are; if productivity growth comes from companies running models like DeepSeek, then the hyperscalers’ revenues could collapse. If productivity comes from cutting jobs, a public backlash could block many of the planned investments—and stunt anticipated revenues. We will need to win all the wagers for the hyperscalers’ bet to pay off.&nbsp; We’re all part of the AI gamble now It was one thing when the AI companies were spending cash they had accumulated over the years to build their own data centers. Then the risk was largely limited to their own balance sheets and shareholders. But it’s a higher-stakes game when much of the money is borrowed. Morgan Stanley, for one, calculates that more than half of the $2.9 trillion that hyperscalers will spend between 2025 and 2028 to build AI data centers will be financed with “external capital.” The borrowing is leading some of the companies to engineer complex webs of financing that are becoming intertwined with much of the rest of the economy. “A lot of financial institutions, directly or indirectly, are exposed to these data centers either as lenders, or as guarantors of some of the debt, or as backers of the private credit funds who are funding these data centers,” says Columbia’s Van Nieuwerburgh . “People don’t even know they’re holding this stuff. It’s somewhere deep inside their pension fund. Ultimately, it’s backing their life insurance policies. And that risk is getting distributed everywhere in places that are invisible.” As the investments in data centers have spiked, the financial engineering has become more byzantine. Take, for example, Meta’s so-called Hyperion data center under construction in Richland, Louisiana. When the company announced the two gigawatts of compute capacity at a price tag of some $10 billion in late 2024 it was Meta’s largest planned data center. Greeted with much enthusiasm by state and local politicians, the project, located in the rural northeast corner of the state, was seen as a boon to the community. Entergy Louisiana, the state’s largest utility, rushed forward with proposals to build three large natural-gas power plants to service the massive data center. Then last fall—the projected cost was now $30 billion—the financing got a lot more complex and, to some in the community, a lot more disconcerting. Meta transferred an 80% stake to the large ( and troubled ) private-credit firm Blue Owl Capital, forming a joint venture called Beignet (like the famed New Orleans pastry) to raise financing for the data center. Meta then signed a series of four-year leases with the joint venture, an arrangement that the company says gives it “ long-term strategic flexibility .” To backstop the agreement, Meta provides the venture with what is called a residual value guarantee, in which it will make a cash payment to cover the value of the facility “following any non-renewal or termination of a lease.” Got all that?&nbsp; I hope so. The financial wheeling and dealing is actually even more convoluted , with a cast of wholly owned subsidiaries and LLCs. Beignet has set up Laidley LLC, which owns and operates the site as the landlord. In turn, Laidley leases the facilities to Meta’s wholly owned subsidiary Pelican Leap LLC, which is the tenant. And there is a series of four-year leases that cover the different buildings that make up the data center campus.&nbsp; It’s not a coincidence, says Van Nieuwerburgh, that the length of the leases matches the expected lifetime of the data center’s GPUs. While Meta has to pay off its loan if it terminates the leases early, that will still leave its investors “with an empty building and no cash flow,” he says. “And then they need to find a new tenant for a huge data center, and good luck with that.” Meanwhile, Meta is doubling down on its bet. In July, the company announced it was expanding the data center to five gigawatts of compute capacity. The total price tag is now $50 billion (so far, Meta hasn’t said whether Blue Owl will be involved in financing the expansion). Meanwhile, Entergy is now planning to build seven more gas-fired power plants , bringing the total capacity of the facilities to around 7.5&nbsp; gigawatts—some six times the amount of electricity used by New Orleans. An aerial view of the construction of Meta&#8217;s data center in Richland Parish, Louisiana. SCOTT BALL/THE NEW YORK TIMES VIA REDUX PICTURES If the complex financing is a puzzle to many investors and even financial experts, it is even more baffling to those directly affected by the construction of the data center. The main worry concerns how Entergy’s spending on the natural-gas power plants will affect electricity prices, and who will be left paying the bill for the power if Meta walks away. Entergy says it has a 20-year guarantee from Meta that the company will purchase electricity over that period to cover the costs of the power plants and related infrastructure .&nbsp; But there are skeptics, especially given how fast the fortunes of the AI industry are changing. “In four years, is Mark Zuckerberg still going to be interested in this? Or is he going to throw in the towel?” asks Paul Arbaje, a senior analyst at the Union of Concerned Scientists, which has been advocating, largely unsuccessfully, for the Louisiana Public Service Commission to provide more transparency around the data center and its financing. Even if the 20-year deal holds, consumer advocates are worried that Meta or its partners won’t fully cover all the costs, including those associated with operating and maintaining the power plants—and those additional costs that could be passed on to residential ratepayers. What’s more, says Logan Burke, the executive director of the Alliance for Affordable Energy, if Meta doesn’t end up needing as much power as Entergy planned (these projections are not public), consumers could be left paying for the surplus produced by the plants. And if Meta terminates its leases early? “It gets complicated very quickly,” says Burke, who questions whether the shifting roster of financial entities will honor existing agreements. “That everybody is going to do what they’re saying they’re going to do over the next 20 years is just hard to believe.” For UCS’s Arbaje the bottom line is this: “They’re making huge bets that these data centers will be worth it. Bet with your own money, not with ratepayer money.” After the bubble Predicting when the AI investment bubble will burst is a fool’s errand. But there is little doubt a day of reckoning is coming, given the irrational exuberance that has overtaken the hyperscalers and their investors. Of course, you might argue that this time is different, and that the rules of accounting and lessons of economic history don’t apply—that AI is too transformative. Maybe, but don&#8217;t count on it. “History tells us that at some point you get a retrenchment, and it’s just a question of when and how severe,” says Sloan’s Gensler. It could be that today’s $750 billion spending rate “goes flat” or decreases next year. Or, he suggests, “we’re now in 2028 or 2029, and then all of sudden they’re retrenching because they’ve got enough capacity.” But, he adds, “you can be pretty assured there&#8217;ll be a retrenchment.”&nbsp; Though a so-called retrenchment might be inevitable, it’s worth keeping in mind that the fates of the financial bubble and the underlying AI technology revolution could be very different. Already, some Silicon Valley insiders are rooting for a crash ; in a recent blog post the longtime venture capitalist Vijay Pande wrote that “the coming crash would be the best thing that happens to this technology.” The argument makes some sense. A crash could make AI investments more rational, calm the impulse to build billion-dollar data centers on every vacant field that CEOs fly over, and refocus investors on how to use the technology to create sustainable value. But we should probably be careful what we wish for. After the bursting of the dot-com bubble at the beginning of the 2000s, hundreds of thousands lost their jobs, large and small companies alike went bankrupt, the economy of Silicon Valley and San Francisco was decimated (at least for a while), and the shocks sent the US into a mild recession in 2001 . For the financial community and many tech workers, it was no fun. Even more devastating for the economy and the average American was the great recession that began in late 2007. Comparing the financial engineering leading up to it and the methods deployed by hyperscalers today is sobering. So-called special purpose vehicles (SPVs) are back! If Columbia’s Van Nieuwerburgh is right about the dangers of letting investments from the hyperscalers get entangled throughout the economy, the fallout could be severe. But technologies survived and even prospered in the aftermath of both downturns. The early 2000s, even in the face of the dot-com fiasco, were a time of great innovation and tech optimism . The froth came off the spending on silly technologies, helping to focus investments on more promising ones. It’s no coincidence that each of the hyperscalers rose out of the ashes of the crash or started up shortly after. The fiber-optic infrastructure built during the feverish telecom bubble that ran parallel to the dot-com one is still the backbone of much of today’s communication infrastructure; we wouldn’t have Facebook or Amazon or Google without it. This time, however, we’re facing a unique risk: The huge financial investments by the hyperscalers have ensnared the future of AI itself with the fortunes of the massive data centers spreading around the country. The logic is founded on a deeply held belief about the power of scaling in AI; the bigger you build it, the smarter it gets. That might be true, but it’s unproven and a risky bet. There are already plenty of red flags, from strong public opposition to the construction of new data centers to the competitive threat from cheaper, good-enough AI models to the rapid improvement of small, local AI models. None of these trends point toward a future dominated by frontier models housed in massive, billion-dollar data centers. The financial bubble around the colossal spending by the hyperscalers will likely burst eventually—or maybe soon. It might be financially painful, but we’ll survive. Wall Street will survive. AI itself will survive, though it may look different and lose some of today’s hubris. The financial fate and future utility of the massive data centers fueled by trillions of dollars of spending, on the other hand, are far less certain.",
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "人工智能特工向作弊的同事吹响了哨子",
@@ -360,7 +434,7 @@
         "大模型",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "Fyxer如何建立人们信任的人工智能行政助理",
@@ -376,7 +450,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "人工智能产业发生了倒退，现在该怎么办？",
@@ -391,7 +465,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务",
@@ -407,7 +481,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
@@ -422,7 +496,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "使用Gradio工作流程重建AUTOMATIC1111",
@@ -437,7 +511,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "为人工智能提供动力是一个架构问题",
@@ -452,7 +526,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "OpenAI关于数学未来的最新争议告诉我们什么",
@@ -468,7 +542,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "谁的安全？拒绝主题的正确子集，而不是整个主题",
@@ -483,7 +557,7 @@
       "tags": [
         "安全"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "这位人工智能企业家正在开发可以提前计划意外情况的代理商",
@@ -498,7 +572,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "人工智能时代的内存和存储架构",
