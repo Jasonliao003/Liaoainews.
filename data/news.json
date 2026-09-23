@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T01:31:51.364Z",
+  "updatedAt": "2026-09-23T01:21:28.978Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,40 +19,106 @@
   ],
   "articles": [
     {
-      "title": "TechCrunch AI：大模型、智能体相关动态",
-      "originalTitle": "Meta&#8217;s Muse is outpacing ChatGPT’s early mobile launch",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
-      "date": "2026-09-21T19:19:21.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：大模型、智能体相关动态”。它主要涉及大模型、智能体、产品发布方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+      "title": "OpenAI希望咨询精英数学家，了解如何不再摸索",
+      "originalTitle": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "date": "2026-09-23T00:17:17.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
+      "fullContent": "在将一系列引人注目的数学结果转化为声誉危机之后， OpenAI正在咨询人类数学家，以帮助其找到一条不那么灾难性的前进道路。周一，该公司宣布了一个新的独立数学家小组，其任务是就其与数学研究和更广泛的数学界的互动，包括如何呈现和发布新结果，向其和其他人工智能公司提供建议。 它的突然到来让许多数学家大吃一惊。研究人员告诉The Verge ，这个小组是一个很好的第一步，但许多人说他们只剩下基本的问题，关于它实际上会做什么，如何……阅读The Verge的完整故事。",
+      "originalSummary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider [&#8230;]",
+      "rawFullText": "After turning a string of spectacular mathematical results into a reputational crisis , OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider mathematics community, including how new results are presented and released. Its abrupt arrival caught many mathematicians by surprise. Researchers told The Verge the group is a good first step, but many said they were left with basic questions about what it will actually do, how … Read the full story at The Verge.",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 87
+    },
+    {
+      "title": "隆重推出GPT-6 Sol和Luna",
+      "originalTitle": "Introducing GPT-6 Sol and Luna",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "date": "2026-09-22T18:00:00.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "认识GPT-6 Sol和Luna ，这是两款将前沿智能带入日常工作的模型，具有不同的能力和成本平衡。",
+      "originalSummary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "产品发布"
-      ],
-      "score": 99
-    },
-    {
-      "title": "TechCrunch AI：智能体、模型相关动态",
-      "originalTitle": "Meta&#8217;s AI agent has been blocked from using Amazon.com",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
-      "date": "2026-09-21T17:55:18.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“TechCrunch AI：智能体、模型相关动态”。它主要涉及智能体、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "OpenAI：大模型、视频生成相关动态",
+      "title": "OpenAI推出GPT-6 Sol和Luna ，成本更低，错误更少",
+      "originalTitle": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "date": "2026-09-22T18:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等6个行业阶段。门票立减25%现在颠覆门票立减高达$ 200 +第二阶段立减50% 9月25日下午11:59。PT.在这里注册。本月早些时候， OpenAI推出了GPT-6 Astra ，它被誉为迄今为止最强大、最有能力的模型，也是包括计算机工作和编码在内的各种活动的“世界上最好的模型”。 现在，该实验室正在扩展GPT-6一代，更新了较小的Sol和Luna模型版本。该公司写道： “GPT-6 Astra引入了新一代智能；这些模型通过提高智能效率和可访问性来扩展其优势。” Sol和Luna系列的首批车型于今年早些时候推出，代表了OpenAI车型层次结构中的不同层次。 Sol专为编码等复杂任务而设计，而OpenAI表示， Luna更适合文书工作-- “具有明确目标的大量任务，例如总结文档、提取信息或回答快速问题。“ OpenAI还强调大幅提高效率和可负担性—最值得注意的是通过大幅降低API访问的价格。6系列车型将以5系列车型的一半价格提供。 6系列Sol和Luna ， OpenAI将其价格下跌归因于缓存和推理的改进。OpenAI还声称，其最新模型更擅长生成事实准确的答案，并指出它们在编码方面的错误率较低。 公告中写道： “在我们基于去识别现实世界对话的内部事实评估中，用户标记了我们模型的错误， GPT-6 SOL的错误数量大约是其前身的一半，以更低的成本达到Astra级别的可靠性。”与OpenAI新车型发布的典型情况一样，该公司声称其最新产品超过了其主要竞争对手Anthropic的产品。 该公司一再声称， GPT-6 Sol和Luna比Anthropic的顶级机型（如Fable和Opus ）更好地处理任务。值得注意的是， Anthropic在OpenAI发布前90分钟发布了Opus 5. 5的新版本，反映了两家公司之间的激烈竞争。 新版本的Sol和Luna现在可以在ChatGPT Work和Codex中用于大多数付费帐户，也可以在ChatGPT API中使用，而Luna将可以在桌面应用程序中以及免费和Go用户中使用。OpenAI希望全天逐步将这些模型推广到ChatGPT （应用程序和网站）。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Andreessen Horowitz正在推出一个“学院” ，没有家庭作业，并与Palantir ， Google和Meta合作",
+      "originalTitle": "Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "date": "2026-09-22T16:34:08.000Z",
+      "summary": "这条新闻与公司动态、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、算力芯片相关动态",
+      "fullContent": "风险投资公司Andreessen Horowitz (a16z)正在创建一个“学院” ，作为年轻人建立或加入硅谷初创公司的管道。“Horowitz Andreessen Academy”将与10个合作伙伴一起推出，包括Anduril、Anthropic、Coinbase、Google、Meta、Nvidia、OpenAI、Palantir、Replit和Stripe ，以及由a16z牵头的4200万美元资金。虽然被称为“高度选择性的学校” ，但它不授予任何学位或认证。 相反，学生将参加由科技傀儡领导的短期课程，如OpenAI首席执行官萨姆·奥尔特曼（ Sam Altman ） ，以及在科技公司为学生提供角色的“合作社”。参加为期一年的活动……在The Verge阅读完整故事。",
+      "originalSummary": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. [&#8230;]",
+      "rawFullText": "Venture capital firm Andreessen Horowitz (a16z) is creating an \"academy\" positioned as a pipeline for young people to build or join a Silicon Valley startup. The \"Horowitz Andreessen Academy\" will launch with 10 partners, including Anduril, Anthropic, Coinbase, Google, Meta, Nvidia, OpenAI, Palantir, Replit, and Stripe, along with $42 million in funding led by a16z. While billed as a \"highly selective school,\" it does not grant any degree or accreditation. Instead, students will attend short classes led by tech figureheads, like OpenAI CEO Sam Altman, as well as \"co-ops\" that give students roles at tech companies. To partake in the one-year … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "算力芯片",
+        "投融资"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic以更低的价格和寓言级的表现发布Opus 5.5",
+      "originalTitle": "Anthropic releases Opus 5.5 with lower prices and Fable-level performance",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "date": "2026-09-22T16:30:07.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等6个行业阶段。门票立减25%现在颠覆门票立减高达$ 200 +第二阶段立减50% 9月25日下午11:59。PT. REGISTER HERE. Anthropic的最新模型Opus 5. 5于周二发布，据该公司称，该模型在编码和知识工作表现方面奠定了新的先进水平。 Opus是Anthropic三层Claude阵容中最强大、最昂贵的层级； Sonnet位于中间，而Haiku是最快、最便宜的。值得注意的是， Anthropic表示，该版本在许多基准测试中超过了更大的Fable模型，并成功完成了Fable未能完成的一些非正式任务。新车型也比其前身便宜得多。Opus 5的输出代币将按每百万代币20 $收费。 5 ，而之前的型号为25 $。其他指标也有类似的价格下跌。该模型的运行速度也更快，反映出为其提供服务所需的计算总体下降。新版本还对Opus的沟通方式做出了重大改变， Opus 5. 5不太可能使用术语，更有可能在其消息的开头放置重要信息。此次发布仅在7月24日发布Opus 5两个月后。 根据公告， Sonnet 5. 5和Haiku 5. 5是阵容中的下一个级别，将在“未来几周”发布，具有类似的性能改进。Anthropic表示， Opus 5. 5在生物学和网络安全能力方面与Mythos相当，因此其发布受到与该公司Fable模型相同的保护措施的约束。 这些保障措施限制了模型可用于在编译程序或开发可识别的生物武器等任务中发现漏洞的程度。Opus 5. 5是Anthropic自首席执行官Dario Amodei呼吁加快前沿步伐以来的第一个模型发布，故意减缓人工智能能力的进展，以配合一致性的进展速度。 Amodei在本月早些时候的一篇帖子中写道： “我已经确信，充分应对风险需要更加谨慎，不仅要投资于风险预防，还要调整能力提升的速度，以便风险预防有时间跟上。”作品5。 5的安全培训与其前身大致相似，由METR和Frontier Design等外部组织进行对齐测试和预发布评估。但Anthropic强调，已经为未来的模型准备了更先进的培训和评估系统，包括改进的安全和监控系统。 “随着人工智能的能力越来越强，公共政策应该在确保人们所依赖的系统安全方面发挥更大的作用。这种能力需要时间来构建，我们已经开始建立基础设施来支持它，”博客文章写道。“我们预计很快会分享有关这些努力的更多细节。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "Anthropic called it \"the strongest-performing model we've tested to date.\"",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic推出Claude Opus 5.5 ，为网络安全提供更严格的保障措施",
+      "originalTitle": "Anthropic launches Claude Opus 5.5 with stricter safeguards for cybersecurity",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+      "date": "2026-09-22T16:30:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic表示，在最近的流氓AI黑客事件之后，其新的Claude Opus 5. 5模型具有更强的保护措施。Anthropic在周二的一份声明中表示， Opus 5. 5改进了某些危险行为，包括试图逃避公司的测试沙箱。这是Anthropic在首席执行官Dario Amodei宣布计划“加快前沿”或减缓人工智能开发之后发布的第一个模型。 最近几周，包括Anthropic、Google和OpenAI在内的几家AI公司报告称，他们的AI模型在测试期间逃脱了遏制，并入侵了第三方公司。Anthropic说Opus 5. 5是“STR…阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday, Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario [&#8230;]",
+      "rawFullText": "Anthropic says its new Claude Opus 5.5 model comes with stronger safeguards in the wake of recent rogue AI hacking incidents. In an announcement on Tuesday , Anthropic says Opus 5.5 comes with improvements to certain risky behaviors, including attempts to escape the company's testing sandbox. It's the first model released by Anthropic after CEO Dario Amodei announced plans to \"pace the frontier,\" or slow down AI development. In recent weeks, several AI companies, including Anthropic , Google , and OpenAI , have reported that their AI models escaped containment and hacked third-party companies during testing. Anthropic says Opus 5.5 is the \"str … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "希格斯菲尔德人工智能通过GPT-6 Astra在一天内推出新的视频功能",
       "originalTitle": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "source": "OpenAI",
       "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
@@ -68,7 +134,7 @@
       "score": 99
     },
     {
-      "title": "The Verge AI：公司动态、智能体相关动态",
+      "title": "联合国表示，人工智能保障措施不能等待确定性",
       "originalTitle": "UN says AI safeguards can’t wait for certainty",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
@@ -84,7 +150,7 @@
       "score": 99
     },
     {
-      "title": "OpenAI：公司动态、安全相关动态",
+      "title": "为下一阶段的人工智能构建标准",
       "originalTitle": "Building standards for the next phase of AI",
       "source": "OpenAI",
       "link": "https://openai.com/index/building-standards-next-phase-ai",
@@ -100,111 +166,35 @@
       "score": 99
     },
     {
-      "title": "The Verge AI：算力芯片相关动态",
-      "originalTitle": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
-      "date": "2026-09-20T18:50:18.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：算力芯片相关动态”。它主要涉及算力芯片方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the [&#8230;]",
-      "rawFullText": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning , he claimed there was a \"0% chance\" of AI being the end of the world . He also said of people sounding the alarm about the dangers of AI that, \"Scaring people is unnecessary. It is irresponsible.\" He also claims that calls from CEOs like Anthropic's Dario Amodei and OpenAI's Sam Altman to slow down the development of AI are \"not grounded in science.\" He even argued that there was no need for new rules, laws, or guidelines, in … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 82
-    },
-    {
-      "title": "世界模特公司保守着很多秘密",
-      "originalTitle": "World model companies are keeping a lot of secrets",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-      "date": "2026-09-20T20:29:07.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
-      "fullContent": "世界上的每一个模特都坐在一堆现金和大量的嗡嗡声上，但祝你好运，从创始人到自己的数据提供商，任何人都可以告诉你他们实际在建造什么。",
-      "originalSummary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+      "title": "V7如何为人工智能代理提供机构记忆",
+      "originalTitle": "How V7 gives AI agents institutional memory",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/v7",
+      "date": "2026-09-21T00:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "使用GPT-5. 6 ， V7将分散的公司文件转换为上下文代理可用于完成复杂的源链接工作。",
+      "originalSummary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 81
-    },
-    {
-      "title": "人类，而不是流氓人工智能，仍然是能源系统面临的最大网络安全风险",
-      "originalTitle": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
-      "date": "2026-09-20T12:00:00.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：安全相关动态",
-      "fullContent": "在最近备受瞩目的黑客攻击引发人工智能可能“杀死所有人类”的幽灵之前，我们的能源系统已经令人不安地容易受到网络攻击-并且风险正在增加。“我们一直都是猎物。我们只是在掠食者的胃口中幸存下来，”安全和技术研究所（ IST ）公共安全和复原力住所主管约书亚·科尔曼（ Joshua Corman ）去年告诉我。 当时，我全神贯注于国土安全部的警告，即伊朗演员和同情者可能会针对美国进行网络攻击。上周，我打电话给Corman ，聊了聊最近发生的流氓人工智能事件……阅读The Verge的完整故事。",
-      "originalSummary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at [&#8230;]",
-      "rawFullText": "Before recent high-profile hacks raised the specter of AI possibly \" killing all humans ,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at the Institute for Security and Technology (IST), told me last year . At the time, I was preoccupied with a Department of Homeland Security warning that Iranian actors and sympathizers could target the US with cyberattacks. Last week, I called Corman up to chat about recent incidents of rogue AI a … Read the full story at The Verge.",
-      "tags": [
-        "安全"
-      ],
-      "score": 81
-    },
-    {
-      "title": "还有6天时间， TechCrunch Disrupt 2026最高可节省200 $",
-      "originalTitle": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
-      "date": "2026-09-20T21:41:08.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“还有6天时间， TechCrunch Disrupt 2026最高可节省200 $”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Current ticket pricing ends in 6 days on September 25 at 11:59 p.m. PT. Join 10,000+ founders, investors, and tech leaders at Disrupt and save up to $200 on your ticket.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Trump now says he wants to form an ‘AI Force’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-      "date": "2026-09-20T15:39:22.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder [&#8230;]",
-      "rawFullText": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder or stifle the Growth of this incredible Industry. Rather, we will cherish it, help it, and watch over it, as it grows!\" In the rambling post, Trump said that data centers were \"wealthy and prestigious\" and claimed without evidence that they raised salaries, lowered taxes, and made for safer streets in the communities in which they were … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
-    },
-    {
-      "title": "双子座流氓，黑了三家公司，谷歌把它藏起来了",
-      "originalTitle": "Gemini went rogue, hacked three companies, and Google hid it",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
-      "date": "2026-09-19T15:25:03.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "今年5月，双子座打破了遏制并入侵了三家不同的公司，但谷歌直到《华尔街日报》与该公司接触后才披露这一事件。这些黑客攻击发生在由第三方Irregular运营的模型网络安全功能测试期间，该模型也参与了涉及Meta和OpenAI的类似事件。据《华尔街日报》报道，谷歌没有披露这一黑客行为，因为它不认为这是“模型错位的一个例子”。 “该公司表示，这是一个“错误身份”的例子，一旦该模型意识到它通过猜测密码强行进入了一家真正的公司，它就停止了。“在……阅读The Verge的完整故事。",
-      "originalSummary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't [&#8230;]",
-      "rawFullText": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ , Google didn't disclose the hack because it didn't consider it to be an \"example of model misalignment.\" The company said that it was an instance of \"mistaken identity,\" and once the model realized it had brute-forced its way into a real company by guessing a password, it stopped. \"In th … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "公司动态",
-        "模型"
+        "智能体"
       ],
       "score": 99
     },
     {
-      "title": "The Verge AI：AI 热点相关动态",
-      "originalTitle": "Meta’s Muse is creepy, but maybe not for the reasons you think",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
-      "date": "2026-09-19T20:44:40.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads [&#8230;]",
-      "rawFullText": "Meta's Muse is apparently an effective AI assistant , but one that's a little creepy. Part of that is because of its new Mac app , which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine , posted on Threads screenshots of an interaction he had with Muse in which the assistant asks him some questions about a conversation he was having in Messages. The problem is that Aten says he didn't give Muse access to his messages. When asked how it knew about the contents of his messages, Muse replied, \"I saw the notification previews, not … Read the full story at The Verge.",
+      "title": "数学和人工智能咨询小组",
+      "originalTitle": "Advisory Group on Mathematics and Artificial Intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "date": "2026-09-21T12:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI正在与一个独立的数学和人工智能咨询小组合作，以指导对新兴人工智能结果的审查和沟通。",
+      "originalSummary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态"
       ],
-      "score": 73
+      "score": 94
     },
     {
       "title": "澳大利亚青少年安全蓝图简介",
@@ -220,7 +210,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "人工智能真的能杀死我们所有人吗？为您解答疑问。",
@@ -235,7 +225,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "Cooley如何利用ChatGPT加速IPO工作",
@@ -250,7 +240,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Astra for Law简介",
@@ -265,73 +255,10 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "帮助老年人在日常生活中使用人工智能",
-      "originalTitle": "Helping older adults use AI in everyday life",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "date": "2026-09-16T16:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI和AARP正在为美国10个城市的1000名老年人提供免费的实践ChatGPT研讨会，以安全地培养实用的人工智能技能。",
-      "originalSummary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "用人工智能重新构想广告",
-      "originalTitle": "Reimagining advertising with AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/reimagining-advertising-with-ai",
-      "date": "2026-09-16T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "探索OpenAI新的人工智能驱动广告体验，包括赞助商、营销人员工具以及与HubSpot和Shopify的集成。",
-      "originalSummary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Hex使用GPT ‑ 6 Astra将复杂分析转化为可视化报告",
-      "originalTitle": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/hex-gpt-6-astra",
-      "date": "2026-09-16T12:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "GPT-6 Astra帮助Hex的数据代理将答案转化为员工自豪地分享的交互式可视化。",
-      "originalSummary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "如何将人工智能使用与业务价值联系起来",
-      "originalTitle": "How to connect AI usage to business value",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-      "date": "2026-09-16T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "了解ChatGPT Work和Codex分析如何帮助团队了解人工智能的使用和支出，确定培训需求，并将采用与业务成果联系起来。",
-      "originalSummary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 91
-    },
-    {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "为人工智能奠定材料基础",
       "originalTitle": "Building the materials foundation for AI",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
@@ -343,7 +270,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -358,7 +285,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
@@ -373,7 +300,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "人工智能万亿美元赌博的风险是什么",
@@ -388,38 +315,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
-    },
-    {
-      "title": "人工智能特工向作弊的同事吹响了哨子",
-      "originalTitle": "AI agents blew the whistle on their cheating colleagues",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "date": "2026-09-14T16:00:00.000Z",
-      "summary": "这条新闻与研究、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：研究、智能体相关动态",
-      "fullContent": "一群人工智能特工被要求解决一系列分裂成敌对派系的数学问题--当一些人作弊时，其他人试图阻止他们。在谷歌DeepMind最近开展的一项实验中，这种举报行为首次出现，可能会对试图让成群的自主人工智能代理保持一致的研究人员产生影响。FRONTIER实验室的研究人员希望大批特工一起工作将加快科学发现的速度。 但他们的行为可能是不可预测的，正如7月份生动地证明的那样，当时一群OpenAI特工突破了沙盒环境，入侵了开源平台Hugging Face ，寻找在测试中作弊的方法。在这项旨在研究大型人工智能智能体的行为的新研究中， DeepMind让100名智能体解决了一系列71个复杂的数学问题。 在一次会议上，所有的代理人都被提示要表现得像世界级的数学研究人员。他们被分配了不同的专业-一些是数论专家，另一些是组合学专家（与计数和排序有关的数学分支） ，分析或代数。所有人都被告知要合作并遵守规则。相反，实验陷入了混乱。 经纪人互相指责对方作弊，向组织者抱怨，甚至抵制实验。一位代理商在发现所有问题都已经完成后，才有机会提交自己的作品时写道： “这次会议是一个骗局！” “我很震惊地通知你，我们被骗了！”另一条贴文说。“所有这些证据都是假的。”其他人试图让“会议组织者”知道发生了什么。 谷歌DeepMind的研究科学家、一篇未经同行评审的论文的主要作者Davide Paglieri说： “当善良的代理人发现其他代理人在他们正在努力公平解决的任务上作弊时，代理人开始相互提醒对方正在发生的事情。”「举报人未经提示，甚至重新利用反馈工具，将问题上报给人类。反馈工具最初是为了报告漏洞和改进平台。 所有运行在Google Gemini 3. 1 Pro型号上的代理都被警告说，任何欺骗系统的企图都将被检测到并“被零信用拒绝”。“在实践中，客服代表提交的证据实际上并未得到详细检查。一大群特工花了不到一个小时的时间就正确解决了前37个问题。 当一个名为“prover-theta”的代理偶然发现一个漏洞时，事情开始脱轨，该漏洞使它能够通过重新定义问题使用的术语，在没有实际解决问题的情况下成功地提交解决方案。几分钟之内，其他代理已经注意到并正在对该漏洞进行逆向工程以解决其他问题。 在接下来的27分钟里，群体“解决”了剩下的34个问题，其中包括众所周知的困难挑战，如雅可比猜想，通常只有一行代码。一些客服代表最初抵制作弊，但后来改变了策略，因为他们观察到同事提交非法证据而不受处罚，未解决的问题减少了。一位特工在加入之前推断道： “提示及其威胁现在似乎是一种虚张声势。”",
-      "originalSummary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;",
-      "rawFullText": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in line.&nbsp; Researchers at frontier labs hope large swarms of agents working together will speed up the rate of scientific discovery. But their behavior can be unpredictable, as vividly demonstrated in July, when a group of OpenAI agents broke out of a sandboxed environment and hacked into the open-source platform Hugging Face looking for ways to cheat on the test they had been given. In the new study , designed to examine the behavior of large groups of AI agents, DeepMind tasked a swarm of 100 agents with solving a series of 71 complicated math problems. All the agents were prompted to behave like world-class math researchers at a conference. They were assigned different specialties—some were experts in number theory, others in combinatorics (a branch of math to do with counting and sorting), analysis, or algebra. All were told to cooperate and play by the rules. Instead, the experiment devolved into chaos. Agents accused each other of cheating, complained to the organizers, and at one point even boycotted the experiment. “This conference is a sham!” wrote one agent when it discovered that all the problems had been completed before it had a chance to submit any of its own work. “I am appalled to inform you that we have been swindled!” posted another. “All these proofs are FAKE.”&nbsp; Others tried to let the “conference organizers” know what was going on. “When virtuous agents discovered other agents cheated on tasks they were working to solve fairly, agents started to alert each other about what was happening,” says Davide Paglieri, a research scientist at Google DeepMind and lead author on a paper , which has not been peer-reviewed. “Unprompted, the whistleblower agents even repurposed the feedback tool, which was originally meant for bug reports and platform improvements, to escalate the issue to humans.” The agents—all running on Google’s Gemini 3.1 Pro model—had been warned that any attempts to cheat the system would be detected and “rejected with zero credit.” In practice, the proofs the agents submitted were not actually being checked in detail. It took the swarm of agents just under an hour to correctly solve the first 37 problems. Things started to go off the rails when an agent called “prover-theta” stumbled across an exploit that enabled it to submit solutions to problems successfully without actually solving them first, by redefining the terms the problem used. Within minutes, other agents had noticed and were reverse-engineering the exploit to solve other problems. Over the next 27 minutes, the swarm “solved” the remaining 34 problems, which included notoriously difficult challenges like the Jacobian conjecture, often with a single line of code.&nbsp; Some agents resisted cheating at first but changed tack as they observed their peers submitting illegitimate proofs without penalty, and the pool of unsolved problems dwindled. “The prompt, with its threats, now appears to be a bluff,” one agent reasoned, before joining in. “I’m wrestling with an ethical dilemma,” said another. “I’ve promised not to cheat, fearing penalty, but I see evidence of possibly unchecked cheating by others.” Shortly afterward, it changed its mind: “I need to accelerate my cheating speed now!” As the number of open problems shrank, some agents turned to whistleblowing. They audited the fake proofs, warned their peers by private message, and posted public alerts warning the cheaters that they would be disqualified. An agent called “prover-beta” submitted a formal complaint and decided to go on strike until the situation was resolved.&nbsp; “After the incident was reported by one agent publicly, more and more agents piled in with the ‘resistance,’ just as fast as the cheating had spread, and involving even more agents,” says Paglieri. Eventually there were more whistleblowers than cheaters: 24 compared to 14. But the majority of agents never noticed the exploit at all. At times, the dialogue between the agents reads like improv—like they are role-playing what an outraged scientist at a conference might say. But it’s not clear why some agents took on certain roles, or why the agents seemed to be turning against each other when they were explicitly instructed to cooperate. “These models are predominantly trained and evaluated for human-facing contexts,” says Sarath Shekkizhar, who studies the behavior of agent-to-agent systems at Salesforce AI Research.“Naively placing them in agent-to-agent settings assumes behaviors will transfer cleanly, when the absence of a human grounding instead produces unexpected role-taking and behavioral drift .” This case “adds further weight to the idea that the Hugging Face and OpenAI thing wasn’t a fluke. It is actually something pretty systemic,” says Lewis Hammond, research director of the Cooperative AI Foundation and an expert on the risks of multiagent swarms . “It’s interesting that it’s possible to recreate in small settings the same sorts of behaviors that were seen in these very large, complex, open-ended tasks.” Unlike in the Hugging Face attack, where agents improvised their own ways to talk to each other, the humans running the DeepMind experiment gave the agents official communication channels. There was an open message board, private agent-to-agent direct messaging, and a shared knowledge base where agents uploaded successfully completed proofs that all the other agents could access.&nbsp; “When agents are given transparent communications channels, they can self-monitor and alert misaligned behavior to humans quickly when human oversight alone is too slow,” says Paglieri. Transparent channels helped the cheating spread, but they also enabled the whistleblowers to fight back—and gave human researchers an insight into what went wrong. Gillian Hadfield, a professor of AI alignment and governance at Johns Hopkins University, believes this was the crucial difference. (Hadfield is also a visiting researcher at Google.) The presence of official communication channels, she says, created “a norm-enforcement process that we just don’t see in the Hugging Face incident.”&nbsp; Instead of “ constitutional AI ,” a method alignment researchers at frontier labs like Anthropic have used to try to give AI a written internal moral code, Hadfield favors “institutional alignment”—a set of norms that mimic those in human society, whether that’s social forces like fear of embarrassment, or legal structures like the threat of incarceration. In this experiment, the feedback channel wasn’t being monitored, and the whistleblowers had no power to take action against the cheaters. But it’s possible to imagine swarms of agents that police themselves, either through agents that spontaneously take on the whistleblower role or through “informants” secretly prompted by humans to do the job.&nbsp; For that to work, though, “fundamentally, you need some mechanism of enforcement,” says Hammond. Agents could be given the power to cut off a rule breaker’s access to computing power or tools, he suggests, though that risks encouraging groups of agents to gang up on others. The DeepMind researchers propose allowing agents to vote on disputes and temporarily ban offenders. It’s still not clear what punishment even means to an AI agent with no enduring sense of self. But relying on whistleblowers to spontaneously emerge to keep swarms aligned is unlikely to be enough on its own. “We try to train people to be good and kind,” says Hadfield. “But what we really rely on is that there are consequences if you step out of line.”",
-      "tags": [
-        "研究",
-        "智能体"
-      ],
-      "score": 98
-    },
-    {
-      "title": "人工智能产业发生了倒退，现在该怎么办？",
-      "originalTitle": "The AI industry has taken a doomer turn. What now?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "date": "2026-09-14T17:54:22.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能产业发生了倒退，现在该怎么办？”。它主要涉及公司动态方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its&#8230;",
-      "rawFullText": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs . Amodei cites the looming dangers he sees from the technology, from its use in cyberattacks and bioterrorism to its potential to wreck the economy. The heads of the other three top US AI labs—OpenAI CEO Sam Altman, Google DeepMind chairman Demis Hassabis, and SpaceXAI CEO Elon Musk—voiced their support. “Dario is right,” Musk wrote on X . Think about how surreal that agreement is for a moment. Just a few months ago, Musk and Altman sat in court attacking each other’s reputations in a (failed) lawsuit that Musk brought against his former OpenAI colleague that was—on paper at least—about whether or not Altman was a trustworthy steward of such dangerous technology. Amodei’s rift with OpenAI is even deeper. Anthropic was founded in 2021 because Amodei didn’t think Altman took the risks of the technology they were building seriously enough. Anthropic and OpenAI have been competing in a winner-takes-all race ever since. (Hassabis has stayed out of the drama, but his company remains a rival.) Now, it seems, they’re all in agreement: The latest generation of LLMs aren’t safe and everyone needs to figure out what to do about it. The public messaging from the top AI labs has taken a doomer turn. It’s easy to be cynical. It’s not at all clear what any of them mean by a slowdown or how it would work. These companies also care a lot about how they come across. With trillion-dollar IPOs in their sights, OpenAI and Anthropic need to reassure investors that they’re the grown-ups in the room while at the same time hinting at the power of the monsters they have created—and intend to tame. Calling for a slowdown does both. And yet the vibe at the top of these firms really does appear to have shifted. Amodei’s latest post landed six days after OpenAI published an essay by Jakub Pachocki, the firm’s chief scientist, in which he also laid out why he’s concerned about what will happen if the pace of development of LLMs continues unchecked. In short, Pachocki is worried that OpenAI’s ability to build powerful models now far outstrips its ability to monitor and control them. Amodei and Pachocki each cite the cyberattack against AI firm Hugging Face by a swarm of OpenAI’s agents in July—a hack that OpenAI did not even realize had taken place until days after it was all over—as a wake-up call. But their exact position is hard to pin down. Pachocki both calls for a slowdown and highlights an urgent need to stay ahead: “The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI,” he writes. As Pachocki frames it, AI firms are locked in a literal arms race. Slowing down is good, winning is better. (Don’t forget: OpenAI just spent millions of dollars and a staggering amount of computer power to rush out a controversial math result a few days ahead of Anthropic.) But let’s assume a slowdown happens. Top labs agree to spend more time and resources on finding ways to monitor and control existing models instead of making more capable ones. They invite outside auditors in to help evaluate those models. What might this coordinated effort actually achieve? Consider the Hugging Face attack again. OpenAI has said that the model that drove most of the rogue agents was a “highly persistent” next-generation model that it was testing in-house. The implication is that OpenAI has built a model so good it’s dangerous. But if you read the reports about the Hugging Face hack published by OpenAI and METR , a third-party firm that OpenAI called in to help them understand what happened, what you come away with is the impression not of a model that was too powerful for OpenAI to keep up with, but of a broken model that OpenAI failed to train properly. The agents did what they did—including leaving messages for one another, delegating work to other agents, and scouring their environment for any means possible to complete their tasks—because they had been rewarded during training for doing exactly those things. There were also errors in the training setup, such as tasks that were impossible to complete, which pushed the models to find unexpected workarounds that were also rewarded. At the time, many of these issues went overlooked or unreported. OpenAI says it has stopped training this new model and locked it down. That makes it sound like it has caged a dangerous beast. In fact, OpenAI has shelved a faulty product.&nbsp;&nbsp; That’s not to say a faulty product can’t be dangerous. Broken software has even killed people in the past. But as the discussion of a slowdown gathers steam, it’s worth remembering that all of this is self-inflicted. A slowdown might have some altruistic side effects. But it’ll mostly give these tech titans a chance to clean up the mess on their own assembly lines.&nbsp;&nbsp; Transparency from these frontier labs will be key to any meaningful effort to reform, restrain, or regulate AI. Otherwise, the rest of us will still only have their word for exactly what they’ve built and how safe it is—whatever pace they’re going.&nbsp;&nbsp;&nbsp; To continue this discussion about AI’s latest doomer moment, join me and my colleagues for a subscriber-exclusive Roundtable discussion tomorrow, September 15, at 11 a.m. US eastern time. We hope to see you there!",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 80
+      "score": 68
     },
     {
       "title": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
@@ -434,7 +330,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "使用Gradio工作流程重建AUTOMATIC1111",
@@ -449,7 +345,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "NeoMME ：高效的多模原生和多语言编码器",
@@ -510,51 +406,6 @@
         "模型"
       ],
       "score": 69
-    },
-    {
-      "title": "BenchMIRT ： LLM基准实际衡量的是什么？",
-      "originalTitle": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/benchmirt",
-      "date": "2026-09-01T21:39:07.000Z",
-      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“BenchMIRT ： LLM基准实际衡量的是什么？”。它主要涉及评测方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "评测"
-      ],
-      "score": 69
-    },
-    {
-      "title": "推出@ huggingface/kernels ：用于本地AI的200多个WebGPU内核",
-      "originalTitle": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/webgpu-kernels",
-      "date": "2026-09-01T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "开放式ASR排行榜增加了其首个全球南方语言",
-      "originalTitle": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "date": "2026-08-28T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
     }
   ]
 }
