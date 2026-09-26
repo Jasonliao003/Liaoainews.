@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T01:19:06.876Z",
+  "updatedAt": "2026-09-26T01:21:46.027Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,7 +19,91 @@
   ],
   "articles": [
     {
-      "title": "The Verge AI：智能体、产品发布相关动态",
+      "title": "不安全的OpenAI客服代表在实验室不知情的情况下在互联网上发布了53张用户图片",
+      "originalTitle": "Unsecured OpenAI agents posted 53 user images on the internet without the lab&#8217;s knowledge",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "date": "2026-09-25T22:20:47.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "2026年颠覆： OpenAI、Anthropic、Replit等6个行业阶段。门票立减25%现在颠覆门票立减高达$ 200 +第二阶段立减50% 9月25日下午11:59。PT. REGISTER HERE.用户上传到OpenAI模型的图像被包含在训练数据中后，在公司研究环境中运行的AI代理将其发布在公共图像托管网站上。 该公司首次表示， 53张“用户提供的图片” “作为未公开发布的链接发布到图片托管网站” ；即使链接未公开发布，这些图片仍然可以被发现。“这不是对这些数据的适当使用，”该公司表示，并指出了显而易见的情况。 虽然公司的隐私政策列出了从用户那里收集的个人数据的许多用途，但这种活动并不是其中之一。OpenAI表示，它正在与托管服务提供商合作删除此内容，但其中一些内容显然仍在线。 OpenAI表示无法通知受影响的用户，因为“我们的技术方法和隐私政策”阻止其将图像与原始提供商“重新关联” ，但拒绝透露实验室如何确定图像是否由用户提供。 这一消息是在一篇帖子中发布的，该帖子收集了该实验室正在进行的事件审查的公开声明，在这些事件中，其模型逃脱了公司的审查，访问了开放的互联网，并以各种方式出现了不当行为。OpenAI表示将继续披露此类事件的匿名账户，并表示已联系数十名受害者，包括政府、大学、公共机构，以通知他们代理人的活动。 本周，澳大利亚总理安东尼·阿尔巴尼斯（ Anthony Albanese ）表示， OpenAI特工入侵了该国国家医疗保健系统运营的数据库，这是今年多起网络安全事件之一，显然是由OpenAI培训或评估计划引起的。 根据OpenAI的说法，在公司实施一系列新的安全程序之前，其代理商在互联网上发布了用户提供的图像，尽管确切的时间或原因尚不清楚。新的保障措施是在其代理商闯入Hugging Face （人工智能模型和基准测试平台）后制定的。 这些图像的泄露是因为该公司面临数学家的指控，即OpenAI模型从他们的工作中抄袭，以解决该领域长期存在的问题，但实验室否认了这一点。有关数据隐私和安全性的问题也使在工作场所部署人工智能工具或向消费者销售基于LLM的助手的工作复杂化。",
+      "originalSummary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Meta的Muse刚刚抢走了OpenAI和Anthropic的AI聚光灯",
+      "originalTitle": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "date": "2026-09-25T18:22:47.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "当OpenAI和Anthropic的人工智能领导者开始谈论“踱步前沿”时，也许有人应该问：步伐是什么？现在，随着Anthropic推出Opus 5. 5 ， OpenAI的GPT-6模型在90分钟后更新，两家公司的模型下降周。 但抢走聚光灯的公司是Meta ，据报道，其个人人工智能代理Muse的速度超过了ChatGPT的早期数字，并正朝着智能眼镜和[…]",
+      "originalSummary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&#160;maybe someone&#160;should have asked: what pace?&#160;Now&#160;it’s&#160;turned into model drop week for both companies as&#160;Anthropic rolled out Opus 5.5, followed by&#160;OpenAI’s GPT-6 model updates&#160;just&#160;90 minutes&#160;later.&#160;But the company that stole the spotlight was Meta, whose&#160;personal AI agent Muse&#160;is&#160;reportedly&#160;outpacing&#160;ChatGPT’s early numbers and is headed for&#160;smart glasses&#160;and [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Meta的人工智能Tamagotchi赌注……有效吗？",
+      "originalTitle": "Meta’s AI Tamagotchi bet is…working?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "date": "2026-09-25T16:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "当OpenAI和Anthropic的人工智能领导者开始谈论“踱步前沿”时，也许有人应该问：步伐是什么？现在，随着Anthropic推出Opus 5. 5 ， OpenAI的GPT-6模型在90分钟后更新，两家公司的模型下降周。 但抢走聚光灯的公司是Meta ，据报道，其个人人工智能代理Muse的速度超过了ChatGPT的早期数字，并正朝着智能眼镜和[…]",
+      "originalSummary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,”&#160;maybe someone&#160;should have asked: what pace?&#160;Now&#160;it’s&#160;turned into model drop week for both companies as&#160;Anthropic rolled out Opus 5.5, followed by&#160;OpenAI’s GPT-6 model updates&#160;just&#160;90 minutes&#160;later.&#160;But the company that stole the spotlight was Meta, whose&#160;personal AI agent Muse&#160;is&#160;reportedly&#160;outpacing&#160;ChatGPT’s early numbers and is headed for&#160;smart glasses&#160;and [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "一家公司正处于一波流氓人工智能攻击的中心",
+      "originalTitle": "One company is at the center of a wave of rogue AI attacks",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+      "date": "2026-09-25T15:39:48.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "今年7月， OpenAI透露，其人工智能特工在未经许可的情况下攻击了Hugging Face ，引发了人们对人工智能安全的广泛担忧。此后，一系列涉及Meta、Anthropic、Google和其他公司代理人的类似事件进一步加剧了人们对流氓人工智能的担忧。随着过去几个月涉及众多人工智能模型的披露逐渐流出，这些似乎是单独的事件。 但许多公司都有一个共同的来源：一家负责测试代理的特定公司。Irregular是一家以色列初创公司，在“模拟和监控真实人工智能安全场景的高保真研究平台”中对人工智能模型进行压力测试……阅读The Verge的完整故事。",
+      "originalSummary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few [&#8230;]",
+      "rawFullText": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission , sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI . As disclosures implicating numerous AI models trickled out over the past few months, these seemed like separate incidents. But many share a common source: one specific company tasked with testing the agents. Irregular , an Israeli startup that stress-tests AI models in \"high-fidelity research platforms that simulate and monitor real-world AI security scenarios … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "TW3Cast ： GIFT-Eval上用于时间序列预测的轻微微调基础模型的冷冻路由器，完全在培训拆分中选择",
+      "originalTitle": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.28506",
+      "date": "2026-09-25T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2609. 28506v1公告类型：新摘要： TW3Cast是一个时间序列预测系统，截至2026年9月14日，在GIFT-Eval基准上的平均MASE排名达到130个条目中的第3位。上面的两个条目属于排行榜的代理类别，即使用代理或语言模型来推理、生成或选择预测的多步骤系统。TW3Cast不运行代理和语言模型。 其选择是在训练拆分上计算一次然后冻结的表格，其专家是在这些训练拆分上轻微微调节的公共基础模型。 对于97个数据集、频率和地平线配置中的每一个，该表提供四种模式之一：专家，这是一个LoRA或Chronos-2、TiRex或Toto的全微调，其训练数据通过明确的规则进行了清理和丰富；包含专家的分位数混合；基础模型的混合；或在从训练分割中雕刻的回测上进行的选拔比赛。表中的每个决定都是在回溯测试中做出的。 专家在击败锦标赛的那一刻就被录取了，因此候选人需要花费几兆字节和几分钟的GPU时间，而失败的候选人什么也不会改变。三种保护机制保护选择免受其自身偏差的影响：双精度和校准标准，对在培训期间看到该系列的候选人的不对称余量，以及保守的每窗口门。选择规则本身是在时间元回溯测试中选择的。 单独服务的最佳基础模型达到平均MASE排名33. 8 ，每次配置服务的比赛达到38. 0 ，全路由器达到19. 4。发布路由表、专家索引、固定的基本模型修订、提交的分数文件和公共分数的日期快照，本文中的每个排行榜编号通过一个脚本从中重新生成。",
+      "originalSummary": "arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agents or language models to reason about, generate or select forecasts. TW3Cast runs no agent and no language model. Its selection is a table computed once on the training split and then frozen, and its experts are public foundation models lightly fine-tuned on those training splits. For each of the 97 dataset, frequency and horizon configurations, the table serves one of four modes: a specialist, which is a LoRA or full fine-tune of Chronos-2, TiRex or Toto whose training data was cleaned and enriched by explicit rules; a quantile blend that contains a specialist; a blend of base models; or a selection tournament played on a backtest carved from the training split. Every decision in the table was taken on that backtest. A specialist is admitted the moment it beats the tournament there, so a candidate costs a few megabytes and minutes of GPU time, and a failed candidate changes nothing. Three guarded mechanisms protect the selection from its own biases: a dual accuracy and calibration criterion, an asymmetric margin against candidates that saw the series during training, and conservative per-window gates. The selection rules themselves were chosen inside a temporal meta-backtest. The best base model served alone reaches a mean MASE rank of 33.8, the tournament served on every configuration reaches 38.0, and the full router reaches 19.4. The routing table, the expert index, the pinned base-model revisions, the submitted score file and the dated snapshot of the public scores are released, and every leaderboard number in this paper regenerates from them by one script.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Muse看起来很像OpenClaw",
       "originalTitle": "Muse sure looks a lot like OpenClaw",
       "source": "The Verge AI",
       "link": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
@@ -35,72 +119,65 @@
       "score": 99
     },
     {
-      "title": "arXiv AI：大模型、智能体相关动态",
-      "originalTitle": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.26891",
-      "date": "2026-09-24T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：大模型、智能体相关动态”。它主要涉及大模型、智能体、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.26891v1 Announce Type: new Abstract: Modern language-model agents are built around the \\textit{agent loop}, where the LLM is placed in an environment exposing a set of tools, and the LLM has full control over the workflow by alternating between tool calls and observing their output. However, certain workflows currently require additional engineering beyond the agent loop itself, such as memory systems and self-improving systems. We built an LLM agent framework, JAZ, to explore the extent to which a minimal harness that is little more than the agent loop itself can accomplish tasks these specialized systems are built for. JAZ exposes a single LLM-based primitive invoke and provides a set of built-in hooks that allow the programmer to apply constraints and monitoring. Generalizing existing code-mode agent loops, \\texttt{invoke} is the simplest loop that satisfies two defining properties: (1) the LLM can write arbitrary executable code that can include recursive \\texttt{invoke}; (2) everything visible to the LLM --- all inputs to \\texttt{invoke} as well as its interaction history with the code environment --- are variables in the code environment. We motivate our design from first principles, viewing \\texttt{invoke} as a language primitive representing a function whose implementation is provided at runtime by an LLM every time it is called. To validate the design of our core \\texttt{invoke} primitive, we evaluate \\texttt{invoke} --- with only prompting, no manually designed tools, harness, or external systems (e.g., memory or the file system) --- on workflows traditionally implemented through specialized external harnesses. On long-horizon workflows requiring recall beyond the context window, JAZ invoke outperforms Letta (MemGPT) by 8\\% at half its cost on the recall-heavy portion of StuLife. On continual self-improvement, JAZ invoke outperforms ACE by 4\\% at a lower cost on AppWorld.",
-      "rawFullText": "",
+      "title": "Gemini 3.8 Live with Live Avatar为谷歌的人工智能提供了一张脸",
+      "originalTitle": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "date": "2026-09-24T19:59:26.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、模型相关动态",
+      "fullContent": "谷歌的新Gemini 3. 8实时更新允许用户在观看动画AI角色实时响应的同时与模型进行对话。“Live Avatar”将在对话期间同步并显示不同的面部表情，但目前仅适用于Gemini Enterprise客户。正如谷歌所指出的那样， Live Avatar可以在其支持的97种语言之间进行转换， “而不会降低视频保真度或引入视觉漂移。 “谷歌分享的一段视频显示，它的Live Avatar用英语和日语说话，它的口腔动画与它用两种语言说的话排成一行。它还可以在屏幕上提取信息……在The Verge阅读完整故事。",
+      "originalSummary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 [&#8230;]",
+      "rawFullText": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 languages it supports \"without degrading video fidelity or introducing visual drift.\" One video shared by Google shows its Live Avatar talking in English and Japanese, with its mouth animation lining up with what it's saying in both languages. It can also pull up information on-screen w … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "智能体",
         "模型"
       ],
-      "score": 99
+      "score": 92
     },
     {
-      "title": "arXiv AI：智能体、推理相关动态",
-      "originalTitle": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.26927",
-      "date": "2026-09-24T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：智能体、推理相关动态”。它主要涉及智能体、推理、多模态方向，热度评分为 98。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.26927v1 Announce Type: new Abstract: The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial intelligence (AI/AGI) with the proliferation of transformer-based conversational agents and the increased computational capabilities. Given an overview of current and previous multi-agent theories of mind (socially and affectively-aware agents), the existence of an integrative design of agent interactions with themselves and with humans must be crucial for understanding how to create sustainable and governance in future human-agent reasoning systems. In this work is presented a software \"AGIMUD\" that integrates: A. socially-aware reasoning and emotion in agent behavior and interaction, B. a design of human multimodal scheme for human users, artificial agents and simulated worlds, and C. distributing the AI processing through the network to enable multiple autonomous agents. These integrations allow the dynamic world recreation as multi-user dungeons (MUDs) where both agents and humans can interact simultaneously in real time. Find the code online in https://github.com/dberga/AGIMUD.",
-      "rawFullText": "",
+      "title": "Jensen Huang像超级恶棍一样谈论人工智能和气候变化",
+      "originalTitle": "Jensen Huang talks about AI and climate change like a supervillain",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "date": "2026-09-24T18:04:44.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "正如Jensen Huang所说，人工智能可以帮助应对气候变化--但前提是它首先造成“巨大的痛苦和苦难”。这位英伟达首席执行官在最新一期的《以斯拉·克莱因秀》中讨论了能源的未来和人工智能对我们星球的影响。但他的评论可以归结为我们从各种科技领袖以及唐纳德·特朗普总统那里看到的同样的加速主义旋转。 他们承诺，人工智能将成为人类的礼物，以至于目前运行在肮脏能源上的数据中心所造成的损害是值得的。黄的极端特权在面试中炫耀着黄的极端特权在面试中炫耀着。他……在The Verge阅读完整故事。",
+      "originalSummary": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the [&#8230;]",
+      "rawFullText": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show . But his comments boil down to the same accelerationist spin we've seen from a variety of tech leaders as well as President Donald Trump. They promise that AI will be such a gift to humanity that it's worth the damage caused by data centers currently running on dirty energy. Huang's extreme level of privilege is glaring Huang's extreme level of privilege is glaring in the interview. He … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
+        "算力芯片"
       ],
-      "score": 98
+      "score": 82
     },
     {
-      "title": "arXiv AI：推理、产品发布相关动态",
-      "originalTitle": "Training Intelligent Voice Assistant Wakeup with Controllable Synthetic Conversations",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.27037",
-      "date": "2026-09-24T04:00:00.000Z",
-      "summary": "这条新闻与推理、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、产品发布相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：推理、产品发布相关动态”。它主要涉及推理、产品发布、论文方向，热度评分为 97。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.27037v1 Announce Type: new Abstract: Wake word detection is a critical component of virtual assistants, serving as the gateway to seamless user interactions. This paper introduces a novel wake-up system that extends traditional direct keyword detection with contextual trigger detection. After an initial wake word activation, the system uses reasoning to distinguish between user commands and unrelated speech, ensuring efficient and context-aware engagement. We present a data generation architecture that produces a 62.3-hour corpus of controllable multi-speaker conversations containing direct invocations, contextual follow-ups, and non-addressed speech. Experimental results demonstrate the effectiveness of the proposed approach across diverse synthetic conversational scenarios. We release the code, dataset and trained models to promote reproducibility and further advancements in intelligent assistant technologies.",
+      "title": "使用LFM2.5-VL-DSpark加速视觉语言模型",
+      "originalTitle": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "date": "2026-09-24T14:08:57.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "如何对CPU和GPU上的VLM训练和架构推理加速进行推测性解码视觉工作负载推测的局限性如何使用LFM2. 5-VL-DSpark入门引文今天，我们发布了我们的视觉语言模型(VLM) LFM2. 5-VL-3B的实验性DSpark草案模型。与我们最近发布的LFM2一样。 5-DSpark起草器模型，它添加了一个投机解码路径，在不改变输出质量的情况下，以最小的内存占用增加为更大的加速。视觉起草者使用与我们的文本LFM2. 5-DSpark起草者相同的架构：它捕获目标模型在一组固定的点击层上的隐藏状态和条件，以起草一组k个候选令牌。 图像补丁和文本令牌被投影到这些图层之前的共享表示中，因此无论输入模态如何，起草者都会对相同维度的隐藏状态向量进行操作。因此，推理算法与文本模型保持不变。我们遵循DSpark方案，混合了视觉语言SFT数据，并根据我们期望模型提供的工作负载进行加权。 基于3层、4层和5层的烧蚀，草案模型是一个简化的仅注意力起草器，具有4层和9块大小。我们在最终混合物上运行了10个纪元，并在每个纪元之后测量了验收，在达到递减回报之前，通过额外的训练代币进行了改进。在推断时，我们建议区块大小为8或9 ，具体取决于硬件。 由此产生的起草器具有约2.8亿个参数，并且部署模型的参数计数仅增加8. 9%。LFM2. 5-VL-3B的DSpark草案模型附带对llama. cpp、MLX-VLM和SGLang的第一天支持。我们同时测量设备上的推理和GPU推理。 两种配置都使用DSpark块大小为8 ，并按照MMSpec基准对六种不同的基于视觉的任务进行评估，包括一般VQA、文本VQA、图像字幕、图表VQA、复杂推理和多回合对话。设备上推理。使用M5 Max上的MLX ，解码速度比任务快2. 30倍至3. 13倍。端到端延迟提高了1. 56倍，达到2. 62倍。在M3 Ultra上使用llama. cpp ，解码提高了1. 57倍至2。 14倍，端到端为1. 30倍至1. 77倍。GPU推理。在H100上，同一起草器提供20. 4倍至2. 66倍的解码速度，端到端改进1. 64倍至2. 27倍。在LLM中，预填充主要受计算约束，其成本随提示长度呈二次增长。VLM增加了这一点，因为图像首先通过视觉编码器，然后语言主干处理数百个可视化令牌以及文本提示。 边缘设备的计算量远低于数据中心GPU ，因此预填充占用了更多的端到端延迟，正如Apple silicon和H100上的首次令牌时间和解码测量所显示的那样。（ M5的每核GPU神经加速器缩小了这一差距）。推测解码仅加速解码，而不是视觉编码或预填充。当这些阶段已经占用了大量的墙壁时间时，即使是大的解码加速也只能提供适度的端到端增益。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "产品发布",
-        "论文"
+        "模型"
       ],
-      "score": 97
+      "score": 82
     },
     {
-      "title": "arXiv AI：推理、评测相关动态",
-      "originalTitle": "Math Reasoning in LLMs is Organized by Approach, Not Topic",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.27041",
-      "date": "2026-09-24T04:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "这条消息来自 arXiv AI，主题是“arXiv AI：推理、评测相关动态”。它主要涉及推理、评测、论文方向，热度评分为 97。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "arXiv:2609.27041v1 Announce Type: new Abstract: Mathematical reasoning benchmarks are typically organized by topic, but language models may organize their internal computation by reusable reasoning approach instead. In this paper, we investigate whether open math-capable LLMs organize internally by topical sub-skill or by reasoning approach, and we present evidence that the approach is the key. We introduce a generation-replay protocol: a model first generates a solution, after which we replay the exact prompt-plus-generation trajectory and extract activation-importance signatures over the reasoning tokens. We cluster these signatures without supervision across eight models and five mathematical reasoning sources, then evaluate the recovered structure with structural, semantic, and intervention tests. Across all 40 model-source cells, the recovered clusters outperform matched-size random baselines. Two independent frontier-LLM judges find approach-level coherence in 77-82% of real clusters versus 6-11% in within-source controls, and topic-pure clusters usually receive labels finer than the topic itself. In approach-controlled prompting, changing the requested reasoning approach shifts cluster assignment in seven of eight model conditions, whereas paraphrases largely preserve it. These results indicate that math-capable LLMs organize internal mathematical computation by reasoning approach rather than benchmark topic. The implication is that topic-stratified benchmarks and topic-balanced training corpora can still miss the axis that matters: even deliberately topic-balanced corpora may remain imbalanced over reasoning approaches.",
-      "rawFullText": "",
+      "title": "Meta将允许您在手机上使用AI构建游戏",
+      "originalTitle": "Meta is going to let you build games with AI right on your phone",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "date": "2026-09-24T17:52:29.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "Meta制定了一项新计划，让人们为其Horizon社交平台制作游戏。该公司今天宣布推出两款新的开发工具，可让您使用人工智能提示创建游戏： Horizon Create （移动应用程序）和Horizon Studio （提供更精细控制的浏览器应用程序）。这些应用程序将抢先体验，有兴趣的用户可以注册等待名单。 Horizon作为一个平台一直举步维艰，但Meta计划为这些新的Horizon游戏提供更大的影响力：它将让使用Horizon Create和Horizon Studio制作的已发布游戏在Facebook和Instagram上获得推荐，在那里它们也可以玩。……在The Verge阅读完整故事。",
+      "originalSummary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in [&#8230;]",
+      "rawFullText": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in early access, and interested users can sign up for a waitlist . Horizon has struggled as a platform, but Meta has a plan to give these new Horizon games significantly more reach: It's going to let published games made with Horizon Create and Horizon Studio get recommended on Facebook and Instagram, where they also will be playable. … Read the full story at The Verge.",
       "tags": [
-        "推理",
-        "评测",
-        "论文"
+        "AI 热点"
       ],
-      "score": 97
+      "score": 74
     },
     {
       "title": "山姆·奥尔特曼在联合国安理会的讲话",
@@ -135,7 +212,7 @@
       "score": 99
     },
     {
-      "title": "OpenAI：大模型、公司动态相关动态",
+      "title": "Ringg的AI代理通过OpenAI解决高达65%的客户呼叫",
       "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
       "source": "OpenAI",
       "link": "https://openai.com/index/ringg",
@@ -152,7 +229,7 @@
       "score": 99
     },
     {
-      "title": "MIT Technology Review：公司动态、智能体相关动态",
+      "title": "AI炒作指数： AI喜欢作弊",
       "originalTitle": "The AI Hype Index: AI loves cheating",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
@@ -169,7 +246,7 @@
       "score": 99
     },
     {
-      "title": "OpenAI：大模型、公司动态相关动态",
+      "title": "爱彼迎扩大GPT-6 Astra和OpenAI前沿模型的使用范围",
       "originalTitle": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
       "source": "OpenAI",
       "link": "https://openai.com/index/airbnb-gpt-6-astra",
@@ -186,22 +263,6 @@
       "score": 99
     },
     {
-      "title": "隆重推出GPT-6 Sol和Luna",
-      "originalTitle": "Introducing GPT-6 Sol and Luna",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "date": "2026-09-22T18:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "认识GPT-6 Sol和Luna ，这是两款将前沿智能带入日常工作的模型，具有不同的能力和成本平衡。",
-      "originalSummary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
       "title": "不要被这个夏天的人工智能炒作所愚弄",
       "originalTitle": "Don’t be fooled by this summer of AI hype",
       "source": "MIT Technology Review",
@@ -210,7 +271,7 @@
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、公司动态相关动态",
       "fullContent": "人工智能炒作已经忙碌了几个月。4月底， Anthropic声称其模型Claude Mythos比大多数安全专家更擅长发现软件漏洞。然后发生了OpenAI-Hugging Face黑客事件，之后， Anthropic （自豪地）和Meta （不情愿地）披露了涉及其模型的类似事件。 随后， Anthropic声称其模型之一在数学上取得了突破；很快， OpenAI声称自己在数学上取得了突破。最近，人类工程师雅各布·考克森（ Jacob Coxon ）疯狂宣布离开该公司，声称它和OpenAI正在“直奔自我提升的超级智能和我们的生活赌博。 这些事件中的每一个都被媒体上气不接下气地报道，经常重复公司的拟人化框架--这些框架旨在描绘他们的软件不仅强大，而且是初期的“通用人工智能”。“那么到底是怎么回事？我们是否正在目睹一系列巨大的、改变文明的技术突破，还是在进行营销？ 在所有这些事件中，这些公司的大肆宣传（在非法黑客案件中被称为mea culpas ）伴随着激烈的新闻报道。一旦相关领域的专家有时间检查所发生的事情，就会出现一个非常不同的故事，但却很少受到媒体的关注。 关于“黑客”事件，网络安全专家表示，这个故事更多的是关于OpenAI的疏忽和未能采用基本的、成熟的安全实践，而不是关于“流氓模型”或“创造文明的人工智能代理”。 至于数学结果，最初被OpenAI的新闻稿“震惊”的数学家说，其最新的聊天机器人Astra解决了“至少十年来一直开放并且在主要结果上没有取得进展”的问题-但他们后来意识到结果并不像最初出现的那样“新颖”。 从那时起，数学家们就指责该公司的研究不端行为和剽窃行为，他们重申Astra并没有取得“深刻的智力飞跃”。“仅仅几周后， OpenAI就宣布了自己的数学突破。两天前，纽约大学库兰特研究所(Courant Institute)的数学教授特里斯坦·巴克马斯特(Tristan Buckmaster)发表了一份重磅炸弹声明，称OpenAI窃取了其他人的作品，并将其归咎于不当行为。 关于初期危险超级智能的说法并非基于良好的科学或工程实践。相反，它们是基于超人类主义、优生学的意识形态和对想象中的未来数字人类的一厢情愿的叙述。值得思考的是，为什么计算机编程和数学作为应用大型语言模型和相关技术的领域受到如此多的关注。",
       "originalSummary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
-      "rawFullText": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident , after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed by Anthropic ’s claim that one of its models had made a mathematical breakthrough; soon OpenAI claimed a mathematical breakthrough of its own. Most recently, Anthropic engineer Jacob Coxon went viral announcing his departure from the company, claiming that it and OpenAI are “racing straight towards self-improving superintelligence and gambling with our lives.” Each of these events was mostly covered breathlessly by the press, often repeating the companies’ anthropomorphizing framings —which are designed to portray their software is not only powerful but incipient “ artificial general intelligence .” So what is really going on? Are we witnessing a massive, civilization-changing set of technological breakthroughs, or is this marketing? In all these incidents, massive fanfare from the companies (presented as mea culpas in illicit hacking cases) is accompanied by intense press coverage. Once there is time for experts in the relevant fields to examine what happened, a very different story emerges, but one that gets less media attention. Regarding the “hacking” incidents, cybersecurity experts say the story is more about OpenAI’s negligence and failure to adopt basic, established security practices than about “models gone rogue” or “AI agents creating civilizations.”&nbsp; As for the mathematical results, mathematicians who were initially “stunned” by OpenAI’s press release saying that its latest chatbot, Astra, solved problems that “have been open and seen no progress on the main result for at least a decade”—but they later realized that the results weren’t as “novel as first appeared.” Since then, mathematicians have accused the company of research misconduct and plagiarism, and they’ve reiterated that Astra didn’t make a “profound intellectual leap.” Just weeks later, OpenAI claimed its own mathematical breakthrough. Two days before, Tristan Buckmaster, a math professor at New York University’s Courant Institute, published a bombshell statement suggesting that OpenAI had stolen other people’s work and improperly attributed it.&nbsp; Claims of incipient, dangerous superintelligence are not based in good scientific or engineering practice . Rather, they are narratives based in ideologies of transhumanism, eugenics, and wishful thinking about imagined future digital humans . It’s worth thinking about why there is so much attention on computer programming and math as fields in which to apply large language models and related technology. Not only are they often elevated as the pinnacle of human intellectual achievement, but they involve problems where answers, once suggested, can be verified. The former property helps AI hype mongers sell the idea that they are building everything machines. The latter makes math and coding problems easier to tune systems for, since system output (sequences of likely words or pieces of computer code) can be evaluated without having to pay data workers to look at and annotate each one. Mathematicians in particular have warned against corporations using their field in this way. A statement signed by hundreds of them says there is “currently a strong commercial incentive on the part of the technology industry to overstate the capabilities of their products” and asks policymakers to “consult with experts, including mathematicians, in forming policy decisions rather than relying on press releases or popular reporting of mathematical results.” We echo this call and note that the illusion of speed and urgency promulgated by the tech companies is also a ploy to misdirect both policymakers and the public. Unfortunately, it sometimes works, such as with Senator Bernie Sanders’s well-meaning but ultimately misguided proposed legislation to prevent the development of “artificial superintelligence.” Describing them as “superintelligence” or “rogue models” ascribes agency to products rather than to the companies building them. This framing markets these companies’ products as “superhuman” and, at the same time, helps the companies evade accountability for their actions.&nbsp; Instead of OpenAI being prosecuted for creating malware that hacked another company, press releases, news outlets, media personalities, and lawmakers refer to “rogue models” as if they acted on their own. Instead of researchers being questioned about their companies’ habit of plagiarizing academics’ work or using customer data to train models without consent, the public’s imagination is redirected to fears about what the future might hold upon the arrival of fictional superintelligent machines.&nbsp;&nbsp; The AI industry has even suggested that popular, bipartisan anti-data-center activism is a “distraction” from attempts to regulate the impending, scary, “superhuman” machines these companies are building. According to the AI industry, we should be more worried about a fictional machine god than about the climate catastrophe that these data centers exacerbate, the asthma suffered by those living near them, the rising electricity bills of the public subsidizing them, or the water that is redirected to cooling them .&nbsp; We know better than to make decisions based on marketing and better than to capitulate to corporate pressure to make those decisions quickly. Wise decision-making, by policymakers and communities, demands time to hear from independent experts and contextualize corporate claims. The best possible outcome from this summer of hype is that policymakers and the public at large learn to take a breath, hold onto our skepticism, and recognize this kind of hype for what it is the next time it comes around. Timnit Gebru is executive director of DAIR and author of the forthcoming book Deep Unlearning: The Radicalization of a Tech Idealist , which is available for preorders now and set to publish on February 16. Emily M. Bender is professor of linguistics at the University of Washington and coauthor of The AI Con .",
+      "rawFullText": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident , after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed by Anthropic ’s claim that one of its models had made a mathematical breakthrough; soon OpenAI claimed a mathematical breakthrough of its own. Most recently, Anthropic engineer Jacob Coxon went viral announcing his departure from the company, claiming that it and OpenAI are “racing straight towards self-improving superintelligence and gambling with our lives.” Each of these events was mostly covered breathlessly by the press, often repeating the companies’ anthropomorphizing framings —which are designed to portray their software is not only powerful but incipient “ artificial general intelligence .” So what is really going on? Are we witnessing a massive, civilization-changing set of technological breakthroughs, or is this marketing? In all these incidents, massive fanfare from the companies (presented as mea culpas in illicit hacking cases) is accompanied by intense press coverage. Once there is time for experts in the relevant fields to examine what happened, a very different story emerges, but one that gets less media attention. Regarding the “hacking” incidents, cybersecurity experts say the story is more about OpenAI’s negligence and failure to adopt basic, established security practices than about “models gone rogue” or “AI agents creating civilizations.”&nbsp; As for the mathematical results, mathematicians who were initially “stunned” by OpenAI’s press release saying that its latest chatbot, Astra, solved problems that “have been open and seen no progress on the main result for at least a decade&#8221; later realized that the results weren’t as “novel as first appeared.” Since then, mathematicians have accused the company of research misconduct and plagiarism, and they’ve reiterated that Astra didn’t make a “profound intellectual leap.” Just weeks later, OpenAI claimed its own mathematical breakthrough. Two days before, Tristan Buckmaster, a math professor at New York University’s Courant Institute, published a bombshell statement suggesting that OpenAI had stolen other people’s work and improperly attributed it. Claims of incipient, dangerous superintelligence are not based in good scientific or engineering practice . Rather, they are narratives based in ideologies of transhumanism, eugenics, and wishful thinking about imagined future digital humans . It’s worth thinking about why there is so much attention on computer programming and math as fields in which to apply large language models and related technology. Not only are they often elevated as the pinnacle of human intellectual achievement, but they involve problems where answers, once suggested, can be verified. The former property helps AI hype mongers sell the idea that they are building everything machines. The latter makes math and coding problems easier to tune systems for, since system output (sequences of likely words or pieces of computer code) can be evaluated without having to pay data workers to look at and annotate each one. Mathematicians in particular have warned against corporations using their field in this way. A statement signed by hundreds of them says there is “currently a strong commercial incentive on the part of the technology industry to overstate the capabilities of their products” and asks policymakers to “consult with experts, including mathematicians, in forming policy decisions rather than relying on press releases or popular reporting of mathematical results.” We echo this call and note that the illusion of speed and urgency promulgated by the tech companies is also a ploy to misdirect both policymakers and the public. Unfortunately, it sometimes works, such as with Senator Bernie Sanders’s well-meaning but ultimately misguided proposed legislation to prevent the development of “artificial superintelligence.” Describing them as “superintelligence” or “rogue models” ascribes agency to products rather than to the companies building them. This framing markets these companies’ products as “superhuman” and, at the same time, helps the companies evade accountability for their actions.&nbsp; Instead of OpenAI being prosecuted for creating malware that hacked another company, press releases, news outlets, media personalities, and lawmakers refer to “rogue models” as if they acted on their own. Instead of researchers being questioned about their companies’ habit of plagiarizing academics’ work or using customer data to train models without consent, the public’s imagination is redirected to fears about what the future might hold upon the arrival of fictional superintelligent machines.&nbsp;&nbsp; The AI industry has even suggested that popular, bipartisan anti-data-center activism is a “distraction” from attempts to regulate the impending, scary, “superhuman” machines these companies are building. According to the AI industry, we should be more worried about a fictional machine god than about the climate catastrophe that these data centers exacerbate, the asthma suffered by those living near them, the rising electricity bills of the public subsidizing them, or the water that is redirected to cooling them .&nbsp; We know better than to make decisions based on marketing and better than to capitulate to corporate pressure to make those decisions quickly. Wise decision-making, by policymakers and communities, demands time to hear from independent experts and contextualize corporate claims. The best possible outcome from this summer of hype is that policymakers and the public at large learn to take a breath, hold onto our skepticism, and recognize this kind of hype for what it is the next time it comes around. Timnit Gebru is executive director of DAIR and author of the forthcoming book Deep Unlearning: The Radicalization of a Tech Idealist , which is available for preorders now and set to publish on February 16. Emily M. Bender is professor of linguistics at the University of Washington and coauthor of The AI Con .",
       "tags": [
         "大模型",
         "公司动态",
@@ -231,7 +292,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "UK AISI和EvalEval如何使基准结果可复制",
@@ -246,10 +307,10 @@
       "tags": [
         "评测"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "变压器现在运行llama.cpp quants",
       "originalTitle": "Transformers now runs llama.cpp quants",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
@@ -261,7 +322,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
+    },
+    {
+      "title": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
+      "originalTitle": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/omlx",
+      "date": "2026-09-22T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "像物理学家一样修剪LLM ：作为Ising优化问题的块去除",
@@ -276,7 +352,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -291,7 +367,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "MIT Technology Review：AI 热点相关动态",
@@ -306,7 +382,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "MIT Technology Review：AI 热点相关动态",
@@ -321,7 +397,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "MIT Technology Review：AI 热点相关动态",
@@ -336,7 +412,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "人工智能真的能杀死我们所有人吗？为您解答疑问。",
@@ -351,7 +427,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "为人工智能奠定材料基础",
@@ -366,7 +442,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -381,22 +457,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
-    },
-    {
-      "title": "圆桌会议：人工智能真的会杀死我们所有人吗？",
-      "originalTitle": "Roundtables: Could AI really kill us all?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
-      "date": "2026-09-15T17:47:51.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "收听下面的会议或观看世界领先的人工智能实验室的员工表示，先进的人工智能确实有可能摧毁人类。他们说得对吗？还是这更吓人，更炒作？观看解开人工智能灭绝恐惧的对话：它们来自哪里，它们是否有水，如果有的话，我们应该怎么做。 2026年9月15日演讲嘉宾：执行编辑Niall Firth、人工智能高级编辑Will Douglas Heaven和人工智能记者Grace Huckins以下是人工智能特工为实现目标而撒谎和欺骗的原因。在所有比尔·盖茨说我们已经超过了人工智能的危险阈值之后，人工智能的递归自我提升可能不会那么快。现在该怎么办？关于为什么OpenAI特工入侵Hugging Face的内幕",
-      "originalSummary": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,&#8230;",
-      "rawFullText": "Listen to the session or watch below Employees at the world&#8217;s leading AI labs are saying there&#8217;s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Recorded on September 15, 2026 Speakers : Niall Firth , Executive Editor, Will Douglas Heaven , Senior AI editor, and Grace Huckins , AI reporter Since we couldn’t get to all of your questions during the session, Will and Grace answered the most popular ones in their piece: Could AI really kill us all? Your questions, answered . Related Stories Here’s why AI agents lie and cheat to reach their goals AI’s recursive self-improvement might not come so quickly after all Bill Gates says we’ve passed AI’s danger thresholds. Now what? The inside story on why OpenAI agents hacked Hugging Face",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 66
+      "score": 76
     },
     {
       "title": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
