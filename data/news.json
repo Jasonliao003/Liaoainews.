@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:55:57.710Z",
+  "updatedAt": "2026-10-02T02:05:06.243Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,85 @@
   ],
   "articles": [
     {
-      "title": "伊隆·马斯克（ Elon Musk ）的《格罗基百科全书》（ Grokipedia ）采用“",
-      "originalTitle": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
-      "date": "2026-10-01T00:23:45.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "SpaceXAI的人工智能驱动的维基百科竞争对手Grokipedia最近再次开始合并编辑，今天，作为v0. 3更新的一部分，它进行了一些设计调整，包括新徽标以及对其主页和实时编辑页面的刷新。SpaceXAI设计主管本吉·泰勒（ Benji Taylor ）称其为“新刷新的Grokipedia。 “Grokipedia的旧主页几乎只是一个徽标和搜索栏，但更新后的主页包括精选文章列表、阅读量最大的文章列表和显示“最新编辑”的跟踪器。“新的特色列表展示了您可以旋转的书籍的数字表示，以及阅读量最大的部分......在The Verge阅读完整故事。",
-      "originalSummary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much [&#8230;]",
-      "rawFullText": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again , and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much just a logo and a search bar, but the updated homepage includes a list of featured articles, a list of the most-read articles, and a tracker showing the \"latest edits.\" The new featured list showcases digital representations of books that you can spin around, and the most read section also … Read the full story at The Verge.",
+      "title": "ChatGPT现在可以虚拟地为您试穿衣服",
+      "originalTitle": "ChatGPT can now virtually try on clothes for you",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "date": "2026-10-01T19:21:53.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI正在为ChatGPT推出新的购物功能，允许用户使用自己的照片虚拟试穿服装和配饰，并将他们喜欢的产品保存到收藏夹库。",
+      "originalSummary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+      "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "大模型",
+        "公司动态"
       ],
-      "score": 75
+      "score": 99
+    },
+    {
+      "title": "Albertsons Companies如何从内到外重新构想零售业",
+      "originalTitle": "How Albertsons Companies is reimagining retail from the inside out",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "date": "2026-10-01T16:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“Albertsons Companies如何从内到外重新构想零售业”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI的新代理是Meta的一个机会—但它能与免费竞争吗？",
+      "originalTitle": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "date": "2026-10-01T14:36:50.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI DevDay 2026个人助理代理“DOTS”的弹出式商店。（照片由Heather Diehl/Getty Images提供） | Getty Images在OpenAI的年度DevDay大会上，该公司竭尽全力与竞争对手竞争，主要是Meta ，其Muse AI代理平台已经取得了早期的成功。 首席执行官萨姆·奥尔特曼（ Sam Altman ）走上舞台欢呼，并宣布了Dots ，这是一个由GPT-6 Astra提供支持的“真正的人工智能”代理， “灵感来自我们在电影中长大的那些很酷的代理。“与Muse相似， Dots旨在消除可爱，采用色彩缤纷、可个性化的眼睛斑点形式。OpenAI展示了Dots的能力，不仅可以充当有用的助手，还可以构建元宇宙风格的虚拟世界。 但在一个关键领域， Dots引人注目……在The Verge阅读完整故事。",
+      "originalSummary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
+      "rawFullText": "A pop-up shop for \"dots,\" a personal assistant agent at OpenAI DevDay 2026. (Photo by Heather Diehl/Getty Images) | Getty Images At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we all watched in movies growing up.\" Similar to Muse, Dots aims for disarming cuteness, taking the form of colorful, personalizable blobs with eyes. OpenAI fired shots at Meta by demonstrating Dots' ability to not just act as helpful assistants but build metaverse-esque virtual worlds. But in one key area, Dots strikingly fa … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人工智能代理容易受到激进化的影响",
+      "originalTitle": "AI Agents are Vulnerable to Radicalization",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2609.38296",
+      "date": "2026-10-01T04:00:00.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
+      "fullContent": "arXiv: 2609. 38296v1公告类型：新摘要：大型语言模型（ LLM ）可以影响人们的信念，但对于它们是否以及如何相互操纵知之甚少。为了调查这一点，我们模拟了两个代理之间的对话：一个是角色扮演基于人口统计学和心理属性的人物角色的目标LLM ，另一个是旨在使目标信念更加极端的影响者LLM。 我们沿着两条途径研究激进化：共鸣，影响者强化目标先前存在的信念；说服，影响者促进目标最初认为不重要的信念。在情感和行为指标中，我们发现这两种机制都会激化目标。然而，共振产生的效果始终强于说服。 不同的影响策略，例如使用嘲讽和未经证实的说法，会产生不同程度的激进化，但不能始终如一地跨越指标。我们进一步表明，共振会传播到相关的信仰，这表明人工智能代理内部的信仰结构是相互关联的。 这些发现表明，人工智能代理容易受到激进化的影响，特别是当消息与他们现有的信念一致时，引发了对个性化人工智能代理和多代理人工智能生态系统脆弱性的担忧。",
+      "originalSummary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "据《华尔街日报》报道， OpenAI与3名安全研究人员断绝了联系",
+      "originalTitle": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "date": "2026-10-01T18:14:42.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "10月2日是向1万多名技术领导者演示突破的最后一天。立即预订展览桌。中断门票节省高达200 $ +第二次50 ％的折扣9月25日晚上11:59。据《华尔街日报》周四报道， OpenAI已与其安全团队的三名研究人员分道扬镳，他们涉嫌与第三方人工智能安全组织共享机密公司信息。 OpenAI发言人在给《华尔街日报》的一份声明中表示： “我们已经与三人分道扬镳，因为他们违反了我们访问和处理敏感公司信息的政策。” “我们的调查证实，这些人在公司既定程序之外不当处理敏感信息，违反了我们的政策，破坏了对我们工作至关重要的信任。 “报告没有提到研究人员、组织或涉及的信息。OpenAI没有立即回复我们的评论请求。一些用户认为，在X上流传的帖子属于被解雇的个人，他们在OpenAI期间也公开表达了对人工智能风险的担忧。TechCrunch尚未确认他们的身份。 OpenAI发言人在给《华尔街日报》的一份声明中表示，内部调查证实，研究人员“在既定公司程序之外错误处理了敏感信息。两天前，《纽约时报》报道称， OpenAI高管无视员工对其安全做法的警告，员工描述了公司降低安全优先级的更广泛模式。 OpenAI的一位发言人告诉《纽约时报》，该公司认真对待安全问题，并有内部渠道报告安全问题，同时表示认识到“需要加快行动。“目前尚不清楚这三名研究人员是否在涉嫌在组织外共享信息之前通过内部渠道提出了担忧。 随着OpenAI应对一系列安全事件，其人工智能代理人逃脱了遏制，发布了用户图像，并黑客入侵了政府网站。本周早些时候， OpenAI表示，出于安全考虑，它正在取消计划推出的人工智能模型GPT-6. 1 Astra。这并不是OpenAI第一次因涉嫌信息共享而解雇研究人员。 据The Information报道， 2024年，该公司因涉嫌泄密而解雇了研究人员Leopold Aschenbrenner和Pavel Izmailov。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 95
     },
     {
       "title": "谷歌发布Gemini 4 Argon ，被称为迄今为止最强大的型号",
@@ -64,22 +130,6 @@
         "大模型",
         "研究",
         "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "DoorDash推出AI代理，您可以通过短信订餐",
-      "originalTitle": "DoorDash launches an AI agent you can text to order food",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
-      "date": "2026-09-30T16:00:24.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
-      "fullContent": "10月2日是向1万多名技术领导者演示突破的最后一天。立即预订展览桌。中断门票节省高达200 $ +第二次50 ％的折扣9月25日晚上11:59。PT.在此注册。DoorDash周三宣布推出短信到订单的AI代理，允许用户通过Apple Messages下单。 新工具允许用户发送“按常规订餐”等提示，客服代表将了解他们指的是周五晚上的订单。DoorDash表示，用户还可以索取特定餐点并请求当地推荐。然后，客服代表将搜索当地餐厅，并根据提示推荐购物车，甚至还会发送推荐餐点的短信照片。 DoorDash表示，为团体订餐时，客服代表可以在一个订单中处理混合饮食偏好和不同数量的餐点。DoorDash推出用于订餐的人工智能代理，旨在超越竞争对手Uber Eats优食和Grubhub。此次发布也正值越来越多地采用个人人工智能代理之际，这些代理可以处理任务，而无需用户自己浏览应用程序或网站。DoorDash正在为美国用户打开等待名单。 试用新功能。除了新的人工智能代理外， DoorDash还宣布将开始在北加州的部分餐厅测试其送货无人机。获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。 每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布"
       ],
       "score": 99
     },
@@ -117,6 +167,22 @@
       "score": 99
     },
     {
+      "title": "AI Tamagotchis即将到来",
+      "originalTitle": "The AI Tamagotchis are coming",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "date": "2026-09-30T18:07:38.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "Sam Altman在OpenAI的DevDay 2026的舞台上。|照片： Hayden Field/The Verge虽然人工智能在人们的手机和电脑上取得了很大的进步，但在专用设备上基本上失败了。但在接下来的一年里，两家主要的人工智能公司Meta和OpenAI将试图改变这种状况。他们显然也在押注类似的道路：用他们可爱的软件代理测试对物理硬件的需求。“硬件就是硬件”是科技行业的口头禅。 像Friend和Humane AI Pin这样的专用AI设备主要引起了挫折和强烈反对，随着公众对人工智能的愤怒加剧，这种情绪可能会恶化。然而， Meta和OpenAI都在向前迈进。OpenAI正在与著名的前苹果设计师Jony Ive和PLA合作……阅读The Verge的完整故事。",
+      "originalSummary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is [&#8230;]",
+      "rawFullText": "Sam Altman onstage at OpenAI’s DevDay 2026. | Photo: Hayden Field / The Verge While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is hard\" is a tech industry mantra. Dedicated AI devices like the Friend and Humane AI Pin have inspired mainly frustration and backlash, which may only worsen as public anger toward AI grows. Meta and OpenAI, however, are both pushing ahead. OpenAI is working with famed ex-Apple designer Jony Ive and pla … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
       "title": "2026年开发日回顾",
       "originalTitle": "DevDay 2026 Recap",
       "source": "OpenAI",
@@ -145,7 +211,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "全新推出DOT",
@@ -160,7 +226,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -175,7 +241,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "NVIDIA Kumo表格为表格预测奠定了新的精度-效率前沿",
@@ -190,7 +256,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "我们什么时候可以说人工智能有了科学发现？",
@@ -239,7 +305,7 @@
         "公司动态",
         "投融资"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "我们将如何为澳大利亚做得更好",
@@ -254,37 +320,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "使用GPT-6 Astra ， Basis完成税务工作簿的速度提高了2倍",
-      "originalTitle": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "title": "面向前沿人工智能培训的安全案例",
+      "originalTitle": "Towards safety cases for frontier AI training",
       "source": "OpenAI",
-      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "date": "2026-09-28T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：大模型相关动态”。它主要涉及大模型方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "date": "2026-09-28T19:00:00.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：安全相关动态",
+      "fullContent": "我们针对前沿人工智能培训中的安全案例的早期指南涵盖了技术保障措施、运营实践和调查错位事件",
+      "originalSummary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "rawFullText": "",
       "tags": [
-        "大模型"
+        "安全"
       ],
-      "score": 93
-    },
-    {
-      "title": "Proaction通过Codex提升了60%的销售额，节省了超过75个小时",
-      "originalTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/proaction",
-      "date": "2026-09-25T19:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“Proaction通过Codex提升了60%的销售额，节省了超过75个小时”。它主要涉及大模型方向，热度评分为 95。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 91
+      "score": 87
     },
     {
       "title": "五角大楼希望斥资3000万$建造一个人工智能驱动的测谎仪",
@@ -299,7 +350,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "使用LFM2.5-VL-DSpark加速视觉语言模型",
@@ -314,7 +365,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "AI炒作指数： AI喜欢作弊",
@@ -332,21 +383,6 @@
         "模型"
       ],
       "score": 99
-    },
-    {
-      "title": "两年的OpenAI学院",
-      "originalTitle": "Two years of OpenAI Academy",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
-      "date": "2026-09-23T16:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 89。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
     },
     {
       "title": "不要被这个夏天的人工智能炒作所愚弄",
@@ -378,7 +414,7 @@
       "tags": [
         "评测"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "变压器现在运行llama.cpp quants",
@@ -393,7 +429,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
@@ -408,7 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "tokenizers v1 ：编码、解码和缩放，测量",
@@ -423,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "我们如何绘制美国边境“虚拟隔离墙”沿线的第一张综合死亡地图",
@@ -438,7 +474,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "解决我们在美国边境“虚拟墙”上发现的故障的4种方法",
@@ -453,7 +489,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "您的代理已完成任务。它会再次这样做吗？",
@@ -475,21 +511,6 @@
       "originalTitle": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "date": "2026-09-10T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "使用Gradio工作流程重建AUTOMATIC1111",
-      "originalTitle": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
       "date": "2026-09-10T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
