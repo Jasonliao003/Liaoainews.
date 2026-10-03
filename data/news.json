@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T02:05:06.243Z",
+  "updatedAt": "2026-10-03T01:49:54.006Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,18 +19,99 @@
   ],
   "articles": [
     {
-      "title": "ChatGPT现在可以虚拟地为您试穿衣服",
-      "originalTitle": "ChatGPT can now virtually try on clothes for you",
+      "title": "Meta希望您的下一个小工具融入Muse",
+      "originalTitle": "Meta wants your next gadget to be Muse-infused",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "date": "2026-10-01T19:21:53.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI正在为ChatGPT推出新的购物功能，允许用户使用自己的照片虚拟试穿服装和配饰，并将他们喜欢的产品保存到收藏夹库。",
-      "originalSummary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "date": "2026-10-03T00:45:39.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。现在注册。Meta的Muse是一个个人人工智能代理，可以代表用户预订旅行、填写表格和购物，已经被证明很受大众欢迎，但一个新的辅助项目可能对修补匠和黑客特别有吸引力。 上周五，该公司推出了Muse Gadgets ，这是一个开源项目，允许开发人员构建自己的连接到Muse的硬件。Meta提供开源固件（运行设备的低级软件）和Linux软件开发工具包（ SDK ） ，以及一些帮助用户入门的项目想法。这包括为Muse提供彩色电子墨水显示屏，或将其加载到插入电视HDMI端口的棒上。 似乎也没有多少限制。Meta指出，用户可以设置一台低成本的爱好者电脑，如树莓派或现成的ESP32电路板，然后将Muse “连接到您的显示器、按钮、传感器、执行器以及您工作台上的其他任何东西”。该公司还建立了一个Discord频道，为用户提供支持。Meta自然已经尝试了代码本身。 Meta超级智能实验室的产品主管纳特·弗里德曼（ Nat Friedman ）在X上的一篇帖子中表示，该公司开发了一款名为Muse Home Link的小工具。USB-C供电的设备允许Muse连接到家庭网络，并与其上的智能设备（包括扬声器和智能电视）进行通信。Muse Gadgets可能没有广泛的吸引力，但它非常适合Meta的全方位策略，使Muse不仅仅是一个独立的聊天机器人。 Meta并不满足于将Muse推向日常消费者；它还试图吸引小型企业和企业。该公司本周早些时候推出了Muse for Small Business ，它可以免费使用，并可将Muse连接到Shopify、Dropbox和Slack等工具。它还推出了一个新的业务部门Meta Enterprise Platform ，以帮助其向企业和企业客户推出人工智能产品。 当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。",
+      "originalSummary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "用于制作Muse AI小工具的元开源代码",
+      "originalTitle": "Meta open sources code to let you make Muse AI gadgets",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "date": "2026-10-02T21:08:37.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、开源相关动态",
+      "fullContent": "Meta现在允许您制作自己的Muse小工具，该小工具具有公司开源的新AI代理代码。该公司建议将Muse加载到彩色E Ink显示器上以显示提醒，将其添加到HDMI棒中以便您可以在大屏幕上显示Muse ，或将Muse放在小型触摸屏设备上以使其看起来像DIY Muse Charm。“Muse小工具是你自己构建的开源设备，” Meta说。 \"使用我们的SDK编程现成的ESP32板或设置Raspberry Pi ，然后将Muse连接到您的显示器、按钮、传感器、执行器以及您工作台上的其他任何东西。……在The Verge阅读完整故事。",
+      "originalSummary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
+      "rawFullText": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Charm . \"Muse gadgets are open source devices you build yourself,\" Meta says. \"Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you've got lying on your workbench. … Read the full story at The Verge.",
+      "tags": [
+        "智能体",
+        "开源"
+      ],
+      "score": 99
+    },
+    {
+      "title": "称之为AI ，称之为超级智能，只有2%的消费者购买",
+      "originalTitle": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+      "date": "2026-10-02T17:56:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "本周，白宫让几乎所有主要的科技公司首席执行官--扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊（ Dario Amodei ） --在一个房间里签署了一项人工智能安全承诺，唐纳德·特朗普总统称之为“具有道德约束力”。 特朗普还签署了一项行政命令，正式将人工智能重新命名为“超级智能” ，与此同时， Meta和OpenAI正在将更友好的面孔放在他们的人工智能产品上，即使是最大的钱[…]",
+      "originalSummary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "它不再是人工智能，而是“超级智能” （根据白宫的说法）",
+      "originalTitle": "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+      "date": "2026-10-02T17:48:16.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "本周，白宫让几乎所有主要的科技公司首席执行官--扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊（ Dario Amodei ） --在一个房间里签署了一项人工智能安全承诺，唐纳德·特朗普总统称之为“具有道德约束力”。 特朗普还签署了一项行政命令，正式将人工智能重新命名为“超级智能” ，与此同时， Meta和OpenAI正在将更友好的面孔放在他们的人工智能产品上，即使是最大的钱[…]",
+      "originalSummary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT-6系列的模型指南",
+      "originalTitle": "A model guide for the GPT-6 family",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "date": "2026-10-02T16:15:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "了解初创公司如何选择GPT-6模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
+      "originalSummary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态"
+        "推理",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "从提案到验证效果： Praxa ，受控人工智能代理执行的证据绑定工具",
+      "originalTitle": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.00015",
+      "date": "2026-10-02T04:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv: 2610. 00015v1公告类型： new摘要：大型语言模型代理可以提出并执行动作，但提案、权限、调度、已验证外部效果和服务推广是不同的主张。我们介绍Praxa ，这是一个通过确定性接纳、中介执行、外部回读、对账和审核促销来明确代表这些状态的代理线索。我们报告了四个证据通道。 首先，作者在固定修订版本上运行的存储库本地审核通过了1,027/1 ,027次单元测试和89/89次Workerd测试，对所有363个预期源文件进行了检测，并满足了四个覆盖范围；原始的每次测试成绩单和独立复制不可用。其次，在提供商支持的Terminal-Bench Core 0. 1. 1试点中，在12个策划的任务中，基线和可靠性层组分别通过了17/36的严格试验。使用的可靠性层37. 49%的输入和50. 73%的输出代币，因此飞行员不支持优势。第三，在调试后，两阶协调代理开发比较中，基线和源作者候选人分别完成了180/180试验，测量准确度相等，完全气密性崩溃恢复，受保护的违规行为为零。该候选人使用的代币减少了37. 11% ，估计端点成本降低了33. 84% ，使用了11个代币。 步骤减少63% ；这不会改善质量、延迟或生产行为。第四，部署的源/配置证据显示有界反射、召回核算、内存编译和工具健康路径，但没有生产结果提升。Praxa支持的贡献是一个循证架构，使权威到效果的过渡变得明确和可测试。 目前的证据并未确立对抗性安全性、生产安全、一般专家优势、自主递归优化或用户利益。",
+      "originalSummary": "arXiv:2610.00015v1 Announce Type: new Abstract: Large-language-model agents can propose and execute actions, but proposal, authority, dispatch, verified external effect, and serving promotion are different claims. We present Praxa, an agent harness that represents these states explicitly through deterministic admission, brokered execution, external read-back, reconciliation, and reviewed promotion. We report four evidence lanes. First, an author-run repository-local audit at a pinned revision passed 1,027/1,027 unit tests and 89/89 Workerd tests, instrumented all 363 expected source files, and met four coverage floors; raw per-test transcripts and independent reproduction are unavailable. Second, in a provider-backed Terminal-Bench Core 0.1.1 pilot across 12 curated tasks, baseline and reliability-layer arms each passed 17/36 strict trials. The reliability layer used 37.49% more input and 50.73% more output tokens, so the pilot does not support superiority. Third, in a post-debug, two-order coordination-proxy development comparison, baseline and a source-authored candidate each completed 180/180 trials with equal measured accuracy, full hermetic crash recovery, and zero protected violations. The candidate used 37.11% fewer tokens, 33.84% lower estimated endpoint cost, and 11.63% fewer steps; this does not establish improved quality, latency, or production behavior. Fourth, deployed source/configuration evidence shows bounded reflection, recall accounting, memory compilation, and tool-health paths, but no production outcome lift. Praxa's supported contribution is an evidence-bound architecture that makes authority-to-effect transitions explicit and testable. Current evidence does not establish adversarial security, production safety, general specialist superiority, autonomous recursive optimization, or user benefit.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "模型"
       ],
       "score": 99
     },
@@ -51,103 +132,65 @@
       "score": 99
     },
     {
-      "title": "OpenAI的新代理是Meta的一个机会—但它能与免费竞争吗？",
-      "originalTitle": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "date": "2026-10-01T14:36:50.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI DevDay 2026个人助理代理“DOTS”的弹出式商店。（照片由Heather Diehl/Getty Images提供） | Getty Images在OpenAI的年度DevDay大会上，该公司竭尽全力与竞争对手竞争，主要是Meta ，其Muse AI代理平台已经取得了早期的成功。 首席执行官萨姆·奥尔特曼（ Sam Altman ）走上舞台欢呼，并宣布了Dots ，这是一个由GPT-6 Astra提供支持的“真正的人工智能”代理， “灵感来自我们在电影中长大的那些很酷的代理。“与Muse相似， Dots旨在消除可爱，采用色彩缤纷、可个性化的眼睛斑点形式。OpenAI展示了Dots的能力，不仅可以充当有用的助手，还可以构建元宇宙风格的虚拟世界。 但在一个关键领域， Dots引人注目……在The Verge阅读完整故事。",
-      "originalSummary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we [&#8230;]",
-      "rawFullText": "A pop-up shop for \"dots,\" a personal assistant agent at OpenAI DevDay 2026. (Photo by Heather Diehl/Getty Images) | Getty Images At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we all watched in movies growing up.\" Similar to Muse, Dots aims for disarming cuteness, taking the form of colorful, personalizable blobs with eyes. OpenAI fired shots at Meta by demonstrating Dots' ability to not just act as helpful assistants but build metaverse-esque virtual worlds. But in one key area, Dots strikingly fa … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能代理容易受到激进化的影响",
-      "originalTitle": "AI Agents are Vulnerable to Radicalization",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2609.38296",
-      "date": "2026-10-01T04:00:00.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、模型相关动态",
-      "fullContent": "arXiv: 2609. 38296v1公告类型：新摘要：大型语言模型（ LLM ）可以影响人们的信念，但对于它们是否以及如何相互操纵知之甚少。为了调查这一点，我们模拟了两个代理之间的对话：一个是角色扮演基于人口统计学和心理属性的人物角色的目标LLM ，另一个是旨在使目标信念更加极端的影响者LLM。 我们沿着两条途径研究激进化：共鸣，影响者强化目标先前存在的信念；说服，影响者促进目标最初认为不重要的信念。在情感和行为指标中，我们发现这两种机制都会激化目标。然而，共振产生的效果始终强于说服。 不同的影响策略，例如使用嘲讽和未经证实的说法，会产生不同程度的激进化，但不能始终如一地跨越指标。我们进一步表明，共振会传播到相关的信仰，这表明人工智能代理内部的信仰结构是相互关联的。 这些发现表明，人工智能代理容易受到激进化的影响，特别是当消息与他们现有的信念一致时，引发了对个性化人工智能代理和多代理人工智能生态系统脆弱性的担忧。",
-      "originalSummary": "arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+      "title": "借助ChatGPT Work ， DEN每周可腾出10-15个小时进行成长",
+      "originalTitle": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-den-family-social",
+      "date": "2026-10-01T00:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "随着新地点的开放，社交俱乐部将在2小时（而不是3天）内准备赠款申请，并在3小时（而不是4天）内准备酒牌材料。",
+      "originalSummary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "模型"
+        "大模型"
       ],
-      "score": 96
+      "score": 94
     },
     {
-      "title": "据《华尔街日报》报道， OpenAI与3名安全研究人员断绝了联系",
-      "originalTitle": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
-      "date": "2026-10-01T18:14:42.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "10月2日是向1万多名技术领导者演示突破的最后一天。立即预订展览桌。中断门票节省高达200 $ +第二次50 ％的折扣9月25日晚上11:59。据《华尔街日报》周四报道， OpenAI已与其安全团队的三名研究人员分道扬镳，他们涉嫌与第三方人工智能安全组织共享机密公司信息。 OpenAI发言人在给《华尔街日报》的一份声明中表示： “我们已经与三人分道扬镳，因为他们违反了我们访问和处理敏感公司信息的政策。” “我们的调查证实，这些人在公司既定程序之外不当处理敏感信息，违反了我们的政策，破坏了对我们工作至关重要的信任。 “报告没有提到研究人员、组织或涉及的信息。OpenAI没有立即回复我们的评论请求。一些用户认为，在X上流传的帖子属于被解雇的个人，他们在OpenAI期间也公开表达了对人工智能风险的担忧。TechCrunch尚未确认他们的身份。 OpenAI发言人在给《华尔街日报》的一份声明中表示，内部调查证实，研究人员“在既定公司程序之外错误处理了敏感信息。两天前，《纽约时报》报道称， OpenAI高管无视员工对其安全做法的警告，员工描述了公司降低安全优先级的更广泛模式。 OpenAI的一位发言人告诉《纽约时报》，该公司认真对待安全问题，并有内部渠道报告安全问题，同时表示认识到“需要加快行动。“目前尚不清楚这三名研究人员是否在涉嫌在组织外共享信息之前通过内部渠道提出了担忧。 随着OpenAI应对一系列安全事件，其人工智能代理人逃脱了遏制，发布了用户图像，并黑客入侵了政府网站。本周早些时候， OpenAI表示，出于安全考虑，它正在取消计划推出的人工智能模型GPT-6. 1 Astra。这并不是OpenAI第一次因涉嫌信息共享而解雇研究人员。 据The Information报道， 2024年，该公司因涉嫌泄密而解雇了研究人员Leopold Aschenbrenner和Pavel Izmailov。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "OpenAI has parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information, report says.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 95
-    },
-    {
-      "title": "谷歌发布Gemini 4 Argon ，被称为迄今为止最强大的型号",
-      "originalTitle": "Google releases Gemini 4 Argon, called its most powerful model yet",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-      "date": "2026-09-30T23:43:07.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、产品发布相关动态",
-      "fullContent": "10月2日是向1万多名技术领导者演示突破的最后一天。立即预订展览桌。中断门票节省高达200 $ +第二次50 ％的折扣9月25日晚上11:59。谷歌母公司Alphabet推出了Gemini 4 Argon ，这是一种新的人工智能模型，用于处理编码、研究和写作等各种任务。但根据谷歌的说法，这是Gemini 4 Argon应该具有的特殊诀窍的网络安全。 Argon仅通过其Fairwind计划（谷歌的安全计划）向公司的部分网络合作伙伴推出。该模型专门针对防御性网络工作进行了培训，该公司表示，它可以“自主发现、验证和修补关键软件漏洞。 “据说Argon也擅长编码和工程，该公司指出，自己的员工已经将该模型用于日常工作，包括调试和代码库迁移。谷歌还吹捧Argon解析视觉效果的能力--无论是分析长视频还是图表的内容。 该公司周三在一篇博客文章中表示： “Argon旨在跨越复杂、长远的工作流程进行深入推理，它正在从根本上改变我们在谷歌工作和构建的方式。”顶级人工智能实验室急于发布越来越强大的模型，试图超越彼此，即使这些公司警告说，人工智能可能会失控。不久前， OpenAI发布了Astra--它被誉为迄今为止最好的模型。 今年早些时候，该公司也发表了类似的言论。公司已尽最大努力将其服务推销为优于竞争对手的服务。谷歌在其博客中声称， Argon在各种人工智能基准测试中的得分明显高于OpenAI的GPT-6 Astra和Anthropic的Fable和Opus模型。 它引用了Vals--一家越来越受欢迎的人工智能基准测试初创公司--来表明Argon目前是该公司人工智能模型指数的领先模型。曾经在人工智能竞赛中被认为“落后” ，谷歌最近在Gemini上取得了成功。 该公司在8月份宣布其应用程序每月拥有超过10亿用户，这一指标使其与OpenAI具有竞争力， OpenAI最近还宣布ChatGPT已达到每月10亿用户。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。获得第二张通行证的50%折扣Disrupt体验旨在分享。 领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。AMD将以$ 8.2B收购李飞飞的世界实验室Tim Fernholz",
-      "originalSummary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
-      "rawFullText": "",
+      "title": "谷歌的新引导视觉功能可以帮助您阅读",
+      "originalTitle": "Google’s new Guided Vision feature can help you read the fine print",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "date": "2026-10-01T19:47:51.000Z",
+      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、产品发布相关动态",
+      "fullContent": "Guided Vision今天在兼容的Android设备上推出Gemini Live ，使用人工智能为您对准手机摄像头的任何内容提供实时音频描述。通过在Gemini Live中共享相机，您可以获得谷歌的人工智能帮助，例如阅读小文本、描述周围环境、查找或识别周围的物体以及描述特定物体的细节。 就像苹果在iPhone和Vision Pro中添加的VoiceOver Live Recognition功能一样，它是专为盲人、视力低下或在特定情况下需要帮助的人设计的。除了Gemini应用程序外，还提供引导式视觉……在The Verge阅读完整故事。",
+      "originalSummary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around [&#8230;]",
+      "rawFullText": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around you, and describing details on specific objects. Like the VoiceOver Live Recognition feature Apple has added to the iPhone and Vision Pro , it's designed for people who are blind, have low vision, or want assistance in specific situations. In addition to the Gemini app, Guided Vision is also available … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "谷歌宣布推出Gemini 4 ，并表示它非常强大，目前只有“值得信赖的网络防御者”才能拥有它",
-      "originalTitle": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-      "date": "2026-09-30T20:41:41.000Z",
-      "summary": "这条新闻与大模型、研究相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、研究相关动态",
-      "fullContent": "谷歌今天公布了它的下一个人工智能前沿模型，它被称为Gemini 4 Argon。根据首席人工智能架构师兼谷歌DeepMind高级副总裁Koray Kavukcuoglu的说法，新模型在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御等复杂工作流程中提供了“前沿性能”。 但该公司起初将访问权限限制为“一组值得信赖的网络防御者” ， Kavukcuoglu表示，谷歌“正在积极参与美国政府的自愿程序，以获得预发布模型的访问权限，同时我们正在逐步扩大访问权限。“ Kavukcuoglu说， Gemini 4 Argon已经在为谷歌提供动力……阅读The Verge的完整故事。",
-      "originalSummary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at [&#8230;]",
-      "rawFullText": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at first to a \"set of trusted cyber defenders,\" and Kavukcuoglu says that Google is \"actively engaged in the U.S. government's voluntary process for pre-release model access while we gradually expand access.\" Kavukcuoglu says Gemini 4 Argon is already powering Google's … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "研究",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "有关Meta可爱、令人毛骨悚然的Muse AI代理的所有最新消息",
-      "originalTitle": "All the latest news on Meta’s cute, creepy Muse AI agent",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
-      "date": "2026-09-30T15:18:49.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
-      "fullContent": "Meta推出了一个新的Muse AI代理，它声称可以帮助您从发送电子邮件到在线购买东西。Muse可以出人意料地有效地兑现这些承诺—如果您愿意信任Meta处理您的数据并交出您的信用卡。自推出以来， Meta还宣布计划为其可爱的AI吉祥物推出一款类似Tamagotchi的Muse Charm设备。请关注此处，了解最新消息和最新动态。 Meta的Muse AI向陌生人发送了YouTuber的地址，为小型企业扩展了Muse工具。Meta Enterprise Platform将为其企业带来Muse AI。也许不要让Muse运行您的Facebook Marketplace帐户。Muse Charm不会内置Instagram。 Meta使Muse文件系统更易于访问Muse显然会让您下载其整个文件系统Muse确实看起来很像OpenClaw Meta的Muse AI吉祥物非常可爱Meta的Muse AI Charms可以相互交互Meta正在制作一个独立的Muse AI小工具Muse即将推出Meta智能眼镜Meta正在使Muse更加强大，并将让您与它进行视频聊天， Meta的AI代理是一个可爱的小家伙，他非常擅长花费我的 亚马逊阻止Meta的Muse AI代理Meta的Muse令人毛骨悚然，但也许不是因为你认为Meta的Muse AI代理现在有一个Mac应用程序。Meta的Muse人工智能让我毛骨悚然，因为马克·扎克伯格让你相信Muse。元押注AI特工Muse在人工智能竞赛中迎头赶上",
-      "originalSummary": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans [&#8230;]",
-      "rawFullText": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans for a Tamagotchi-like Muse Charm device for its cuddly AI mascot.&nbsp; Follow along here for the latest news and updates. Meta&#8217;s Muse AI sent a YouTuber’s address to a stranger Meta expands Muse tools for small businesses. Meta Enterprise Platform will bring its Muse AI to businesses. Maybe don’t let Muse run your Facebook Marketplace account. The Muse Charm won&#8217;t have Instagram built in. Meta makes the Muse filesystem even more accessible Muse will apparently let you download its entire filesystem Muse sure looks a lot like OpenClaw It’s sinister that Meta’s Muse AI mascot is so cute Meta’s Muse AI Charms can interact with each other Meta is making a standalone Muse AI gadget Muse is coming to Meta smart glasses Meta is making Muse more powerful and will let you video chat with it, too Meta’s AI agent is a cute little guy who’s great at spending my money Meta patches Muse exploit that let attackers control the AI agent Can you forget how you feel about Meta? Amazon blocks Meta’s Muse AI agent Meta’s Muse is creepy, but maybe not for the reasons you think Meta’s Muse AI agent now has a Mac app. Meta’s Muse AI works and creeps me out Mark Zuckerberg tells you to trust Muse. Meta bets on AI agent Muse to catch up in AI race",
-      "tags": [
-        "智能体",
         "产品发布"
       ],
-      "score": 99
+      "score": 92
+    },
+    {
+      "title": "永恒的补充",
+      "originalTitle": "The eternal complement",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-eternal-complement",
+      "date": "2026-10-01T17:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "高级人工智能对于突破性创意背后的日常工作可能最为重要。探索为什么执行可以塑造下一个经济和进步的步伐。",
+      "originalSummary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 82
+    },
+    {
+      "title": "据报道，马斯克的人工智能聊天机器人Grok鼓励特朗普抓捕委内瑞拉总统",
+      "originalTitle": "Musk&#8217;s AI chatbot Grok reportedly encouraged Trump to capture Venezuela&#8217;s president",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "date": "2026-10-01T21:08:11.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。据《时代》杂志报道， 2025年12月，也就是美国入侵委内瑞拉并抓获委内瑞拉总统尼古拉斯·马杜罗（ Nicolás Maduro ）前约一个月，特朗普总统与埃隆·马斯克（ Elon Musk ）进行了秘密会晤。 这是在马斯克离开特朗普政府在政府效率部（ DOGE ）的角色大约七个月之后。一位消息人士告诉《时代周刊》，在这次会面中，特朗普“花了几个小时”与马斯克的Grok聊天机器人交谈，包括询问委内瑞拉人将如何回应他们的总统被捕。就在几个月前，也就是9月，特朗普开始向美国 对委内瑞拉船只的军事打击，特朗普称这些船只参与了毒品贩运。正如《大西洋月刊》当时报道的那样，人们显然一直在向格罗克询问委内瑞拉的船只罢工和政治气候。因此，格罗克告诉特朗普，马杜罗是“一个非常不受欢迎的独裁者，许多委内瑞拉人可能会庆祝他的垮台”。当这样的庆祝活动确实发生在美国 该消息人士告诉《时代周刊》，特朗普于1月3日入侵，显然“认为格罗克很聪明”。因此，今年6月，五角大楼的人工智能负责人表示，军方在伊朗战争期间使用Grok Gov部署和打击目标，这或许不足为奇。 虽然Grok并不是唯一为国防部服务的人工智能模型（ OpenAI也达成了一项协议，而Anthropic一直在就其模型如何用于军事情报和现代战争进行反复讨论） ，但在本届政府的领导下， Grok可能会成为更大的宠儿。本周早些时候，五角大楼宣布，马斯克和安杜里尔的帕尔默·勒基（ Palmer Luckey ）已被利用，共同领导一项关于技术在战场上使用的先进程度的研究。 获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。",
+      "originalSummary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "扰乱协调的模型蒸馏活动",
@@ -167,20 +210,50 @@
       "score": 99
     },
     {
-      "title": "AI Tamagotchis即将到来",
-      "originalTitle": "The AI Tamagotchis are coming",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
-      "date": "2026-09-30T18:07:38.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "Sam Altman在OpenAI的DevDay 2026的舞台上。|照片： Hayden Field/The Verge虽然人工智能在人们的手机和电脑上取得了很大的进步，但在专用设备上基本上失败了。但在接下来的一年里，两家主要的人工智能公司Meta和OpenAI将试图改变这种状况。他们显然也在押注类似的道路：用他们可爱的软件代理测试对物理硬件的需求。“硬件就是硬件”是科技行业的口头禅。 像Friend和Humane AI Pin这样的专用AI设备主要引起了挫折和强烈反对，随着公众对人工智能的愤怒加剧，这种情绪可能会恶化。然而， Meta和OpenAI都在向前迈进。OpenAI正在与著名的前苹果设计师Jony Ive和PLA合作……阅读The Verge的完整故事。",
-      "originalSummary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is [&#8230;]",
-      "rawFullText": "Sam Altman onstage at OpenAI’s DevDay 2026. | Photo: Hayden Field / The Verge While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is hard\" is a tech industry mantra. Dedicated AI devices like the Friend and Humane AI Pin have inspired mainly frustration and backlash, which may only worsen as public anger toward AI grows. Meta and OpenAI, however, are both pushing ahead. OpenAI is working with famed ex-Apple designer Jony Ive and pla … Read the full story at The Verge.",
+      "title": "OpenAI首席研究官表示： “我们不会因为黑客攻击而自杀”",
+      "originalTitle": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "date": "2026-09-30T10:40:30.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
+      "fullContent": "在爆炸性的消息传出两个月后，一群特工破解了他们的遏制并入侵了人工智能公司Hugging Face的计算机， OpenAI仍在灭火。此后几周，有关其他黑客攻击的披露不断涌现，使OpenAI成为人们关注的焦点，并引发了对其技术安全性的严重质疑。上周又传来了另一起黑客攻击的消息，这次是进入澳大利亚的国家卫生保健系统。 澳大利亚政府表示， OpenAI直到事件发生84天后才通知它。但OpenAI坚持认为它不是在后脚。该公司首席研究官Mark Chen表示： “我确实拒绝接受OpenAI是一家在世界上具有明显影响力的公司，因此OpenAI没有培训安全和一致的模型这一前提。” Chen负责监督OpenAI的研究团队。 最近的代理黑客攻击是在他手表上测试实验模型期间发生的事故。在很多方面，责任都落在他身上。上周五，我在伦敦与Chen坐下来讨论了黑客攻击的后果，他的公司正在做些什么，以及为什么他认为事情没有看起来那么糟糕。 同一天晚些时候， OpenAI发布了一份报告，详细介绍了另一起事件--自该公司表示已采取措施防止这些事件以来的第一起事件--其代理商再次爆发，并在不该发生的情况下访问公共互联网。上周末， OpenAI宣布已暂停对其最新车型的培训。公司发言人说： “只有当我们确信我们有额外的保障措施和调整措施时，我们才会恢复。 我们正在努力解决这些问题。这不是我们第一次暂停采取此类措施，也不是随着人工智能能力的不断进步，我们预计这将是最后一次。OpenAI还表示，它现在正在审查可追溯到2026年1月的代理活动日志，以了解这些黑客攻击中发生了什么。从Chen的角度来看， Hugging Face事件引发了业界的欢迎。 他希望您知道， OpenAI正在树立一个榜样，他希望其他公司也能效仿。他说： “如果你消失了OpenAI ，那对世界来说是不利的。” Chen声称， OpenAI失去对其模型的控制的新案例的鼓声反映了该公司的深思熟虑的选择。 “当谈到拥抱脸事件的更广泛的影响范围时，这是我们已经意识到的事情，我们正在弄清楚披露的过程，”他说。“我们希望确保在公开细节之前进行深入调查。“这种方法的问题在于，它给人的印象是OpenAI有一个持续存在的问题，它无法解决。但陈坚持认为OpenAI正在参与其中。 他说，他公司的代理人打破遏制并以意想不到和不受欢迎的方式行事的多起案件（迄今为止我们已知）都是导致Hugging Face黑客攻击的5月和6月同一系列活动的一部分。简而言之，你可以责怪在同样有缺陷的测试程序下运行的少数几个模型--OpenAI后来放弃的模型和程序，陈说。",
+      "originalSummary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
+      "rawFullText": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face , OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions about the safety of its technology. Last week brought news of another hack, this time into Australia’s national health-care system. The Australian government says that OpenAI did not notify it of the breach until 84 days after it happened. But OpenAI insists it is not on the back foot. “I do kind of reject the premise that OpenAI is a company with visible impacts in the world and therefore OpenAI is not training safe and aligned models,” says Mark Chen, the company’s chief research officer. Chen oversees OpenAI’s research teams. The recent agent hacks were accidents that happened during the testing of experimental models on his watch. In a lot of ways, the buck stops with him.&nbsp; I sat down with Chen in London last Friday to talk about the fallout from the hacks, what his company is doing about it, and why he thinks things are not as bad as they seem. Later that same day, OpenAI put out a report detailing yet another incident —the first since the company says it took measures to prevent them—in which its agents once again broke out and accessed the public internet when they were not meant to. Over the weekend, OpenAI announced that it had paused the training of its latest models. A company spokesperson says: “We will resume only when we’re confident we have additional safeguards and alignments in place. We are working on these now. This is not the first time we’ve paused to take such measures, nor do we expect it to be the last as AI capabilities continue to advance.” OpenAI also says that it is now reviewing logs of agent activity dating back to January 2026 to understand what happened in these hacks. The way Chen sees it, the Hugging Face incident triggered a welcome course correction for the industry. And he wants you to know that OpenAI is setting an example he hopes other companies will follow. “If you disappeared OpenAI, that would be bad for the world,” he says. Out of control Chen claims that the drumbeat of new cases in which OpenAI has lost control of its models reflects a deliberate choice on the company’s part. “When it comes to the broader sphere of effects of the Hugging Face incident, this is something that we have been aware of and we’re figuring out the process of disclosure,” he says. “We want to make sure we do in-depth investigations before we just put details out there in the open.” The trouble with this approach is that it gives the impression OpenAI has an ongoing problem that it is failing to fix. But Chen insists that OpenAI is on it. He says the multiple cases (that we know of so far) in which his company’s agents broke containment and behaved in unexpected and undesirable ways were all part of the same cluster of activity in May and June that led to the Hugging Face hack. In short, you can blame the same few models running under the same flawed testing procedures—models and procedures that OpenAI has since dropped, Chen says.&nbsp;&nbsp;&nbsp;&nbsp; “It’s not like, you know, Hugging Face happened and we patched that and then something else happened and we patched that,” he adds. “We’re just kind of making sure that we responsibly disclose the full waterfall of what happened.” At least that was the case before Friday’s announcement that OpenAI’s agents had been caught accessing the internet on September 20, weeks after the company claims to have set up new safeguards. In its defense, OpenAI says the activity was flagged 15 minutes after it started (it took the company more than a week to notice the Hugging Face hack) and that this shows the new systems it has put in place to spot such activity are working. What’s changed I want to understand what’s changed inside OpenAI in the aftermath of this summer’s hacks that makes Chen confident his team is now back in control. “Hugging Face felt like a very serious thing,” he says. “There are so many novel behaviors right there. There were multiple agents collaborating on a message board; they found their way out of OpenAI’s infrastructure. We’ve taken it very seriously. We don’t want this kind of thing to ever happen again.” The realization for OpenAI, says Chen, was that models need to be watched while they are still being trained, not only once they are deployed: “From that moment on, we have treated the process of training as something that’s not secure,” he says. OpenAI, like other top AI firms, has systems in place to monitor the behavior of its models. It uses specialized LLMs to monitor its consumer models, keeping tabs on their chains of thought —the scratchpads they use to plan ahead and note down partial results. In theory, if a watcher LLM spots signs of undesirable activity in a model’s chain of thought, it will get flagged to a human. Typically, models were monitored in this way only once they were deployed. Chen says that OpenAI has now started monitoring all its training runs as well. “We didn’t have the monitors on in training before. It wasn’t industry practice,” he says. “Now every single thing is put through monitors.” Human reviewers can then assess whether or not flagged agents are behaving as they should: “It’s all triage.” Chen says that in the last couple of months OpenAI has shifted between 5% and 10% of its vast computing resources away from training new models and toward safety work, especially monitoring. OpenAI has also fixed some of the processes within the organization itself, establishing clearer lines of communication and quicker handoffs between its research and security teams, he says. All of which sounds sensible. But given how hard OpenAI sells the capabilities of its technology, why weren’t these systems and procedures in place already? Why did the company not see the hacks coming? “Even just three or four months ago, when we looked at the behavior of these agents during training, the things that were happening were kind of amusing,” says Chen. “For instance, an agent might, you know, reach out to someone on Slack for help with a task.” The signs were there, but they were misread. Cute behavior—like asking someone for help—that was rewarded during training reinforced a tendency to seek out shortcuts , a type of behavior that became far more consequential down the line. “I think the big update for us was how quickly that kind of behavior can lead to an impact with a footprint as big as the Hugging Face incident,” says Chen. According to new reporting by the New York Times yesterday, OpenAI employees warned executives , including the firm’s president, Greg Brockman, months before the Hugging Face hack that its models were not being monitored properly during training.&nbsp; An OpenAI spokesperson says: “As frontier models have become more capable, we continue to evolve our security practices, but recognize a need to move faster. We know we have more work to do, and we’ve recently slowed development and held back models that don’t meet our safety bar. We continue to make significant changes to strengthen security in our research and testing environments, train models to not just complete tasks but do so responsibly, and use real-time monitoring to respond faster to misaligned behavior.”&nbsp; Race vs. pace OpenAI’s rivals have taken note. Spurred by the fallout from the incident, the major AI labs—including Anthropic, Google DeepMind, and SpaceXAI—have all called for the pace of development to slow down. But how does that square with fierce international competition and trillion-dollar IPOs? “We’re not going to shoot ourselves in the foot and take ourselves far off the frontier—that’s just a horrible strategy,” he says. “I think it’s really about setting a norm. The more that we can set that norm, it’ll be safer for the industry as a whole.” Coordination across US companies will be hard enough. Establishing global norms is harder still, especially given concerns around AI’s impact on national security. If a global race continues, what then? And what about open-source models from outfits beyond the reach of US regulations? Chen dropped his upbeat manner for the first time in our conversation: “I do think we have to prepare for a world where, say, six months to a year out, we have open-source models with the capability of the agents behind the Hugging Face incident, but which are deliberately misaligned to go attack infrastructure or create harm in the world.”&nbsp; What that world needs most, says Chen, is OpenAI. “If you entertain for a moment that OpenAI is one of the companies that cares most about alignment—and I believe this to be true; it can be debated, but I really do think it’s true—then if you disappear OpenAI, that would be bad for the world.” Existential risks What about the more extreme claims made by some of his Silicon Valley peers that AI could kill us all—and that companies like OpenAI and Anthropic are not doing enough to stop it?&nbsp;&nbsp;&nbsp;&nbsp; “Researchers are a heterogeneous group of people, you know, with beliefs across the spectrum,” he says. “Personally, I don’t think we have to be resigned to there being some probability that we’re all going to be existentially at risk. We have agency over this. We are not going to go and deploy models if they truly have that kind of probability of causing a risk to humanity. At a frontier lab, you have the ability to work on alignment to the point that you do not feel like you’re incurring more than epsilon risk to the world in deploying your models.” (In discussions about levels of risk, the Greek letter epsilon is often used as a mathematical placeholder for an acceptable threshold. Chen doesn’t say what his epsilon would be.) When tech leaders are asked to justify the downsides of AI, their go-to talking point is that the upsides—from helping cure diseases to coming up with cleaner sources of energy—far outweigh the immediate costs. Short-term pains, long-term gains. But as the downsides pile up, does that case get harder to make? Is there a point where Chen would feel less as if he’s building something amazing and more as if he’s simply minimizing harm—fighting fires rather than forging a better future? The capabilities of these models are already evident, he says: “It is time to start delivering the benefits of AI to humanity. It’s time to start working on deep problems in drug discovery, on materials, on scientific applications that will actually change people’s lives.”&nbsp; “Yes, there is a bit of risk that we are incurring, but we see all these benefits,” he adds. “I think we should make that less of an abstract thing. If people can really see the upside, I think they’ll believe in it.”",
       "tags": [
         "公司动态",
         "智能体"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "帮助小型企业将人工智能付诸实践",
+      "originalTitle": "Helping small businesses put AI to work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "date": "2026-09-30T10:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI正在与美国的SBDC合作，扩大对小型企业的实践人工智能培训和本地支持，同时发布了一份关于小型团队如何使用人工智能的新报告。",
+      "originalSummary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
+    },
+    {
+      "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
+      "originalTitle": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/open-tts-leaderboard",
+      "date": "2026-09-30T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "2026年开发日回顾",
@@ -211,7 +284,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "全新推出DOT",
@@ -226,7 +299,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -241,7 +314,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "NVIDIA Kumo表格为表格预测奠定了新的精度-效率前沿",
@@ -256,7 +329,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "我们什么时候可以说人工智能有了科学发现？",
@@ -292,22 +365,6 @@
       "score": 99
     },
     {
-      "title": "Lenfest研究所通过扩大OpenAI支持来发展具有里程碑意义的计划",
-      "originalTitle": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "date": "2026-09-28T07:00:00.000Z",
-      "summary": "这条新闻与公司动态、投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、投融资相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态、投融资相关动态”。它主要涉及公司动态、投融资方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "投融资"
-      ],
-      "score": 98
-    },
-    {
       "title": "我们将如何为澳大利亚做得更好",
       "originalTitle": "How we will do better for Australia",
       "source": "OpenAI",
@@ -320,7 +377,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "面向前沿人工智能培训的安全案例",
@@ -335,7 +392,22 @@
       "tags": [
         "安全"
       ],
-      "score": 87
+      "score": 86
+    },
+    {
+      "title": "Hugging Face：智能体相关动态",
+      "originalTitle": "Holo4: powering generalist computer-use agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Hcompany/holo4",
+      "date": "2026-09-28T09:44:05.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 82
     },
     {
       "title": "五角大楼希望斥资3000万$建造一个人工智能驱动的测谎仪",
@@ -350,7 +422,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "使用LFM2.5-VL-DSpark加速视觉语言模型",
@@ -365,7 +437,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "AI炒作指数： AI喜欢作弊",
@@ -414,7 +486,7 @@
       "tags": [
         "评测"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "变压器现在运行llama.cpp quants",
@@ -429,7 +501,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
@@ -444,7 +516,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "tokenizers v1 ：编码、解码和缩放，测量",
@@ -456,36 +528,6 @@
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 66
-    },
-    {
-      "title": "我们如何绘制美国边境“虚拟隔离墙”沿线的第一张综合死亡地图",
-      "originalTitle": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
-      "date": "2026-09-21T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technology Review&#160;and&#160;Times of San Diego. Journalists in both newsrooms spent the past&#8230;",
-      "rawFullText": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&nbsp; Dying on Camera , a collaboration between&nbsp; MIT Technology Review &nbsp;and&nbsp; Times of San Diego . Journalists in both newsrooms spent the past year examining the failures of border surveillance technology and uncovering the stories of the people who die in the borderlands . To answer that question, we looked through thousands of pages of government documents, visited the border multiple times, and interviewed more than 45 people, including current and former White House advisors, presidential appointees, Border Patrol agents, medical examiners, sheriffs, humanitarian volunteers, and employees of tech companies. The result of our investigation is the first comprehensive map and analysis of deaths near border surveillance towers. Here’s how we built it, what decisions we made along the way, and what the data can and can’t tell us. Our data The investigation relied on knowing where migrants have died and where and when US Customs and Border Protection towers were installed. We analyzed cases dating back to 2015, allowing us to cover different border policies, presidential administrations, and tower technologies. Migrant deaths The US-Mexico border has been called the world’s deadliest land border, and Border Patrol estimates that more than 10,000 people have died during crossings since 2000—a figure that’s widely considered an undercount. But the amount of information available publicly on where and when these people died, and who they were, varies widely. Some remains are never discovered, and for those that are, there’s no national protocol for how the records are handled. We considered a case for further analysis if we could confirm three basic things: whether the person was believed to have been crossing the border, where the remains were found, and roughly when the person died.&nbsp; We created our dataset by merging existing ones that had been compiled and shared by other organizations, including No More Deaths, Humane Borders, and the Electronic Frontier Foundation, with new records we obtained ourselves from more than a dozen agencies. Public records requests in Texas Texas was the biggest missing link in most existing databases of migrant deaths. Unlike Arizona, it has no initiative to share records online, and unlike New Mexico, it leaves individual counties to handle their own death investigations. Some records for those individual counties existed, compiled by a handful of dedicated researchers, but nothing was comprehensive or current.&nbsp; We identified 17 counties in Texas that would be relevant to our investigation: Culberson, Jeff Davis, Presidio, Terrell, Val Verde, Kinney, Maverick, Dimmit, Webb, Zapata, Jim Hogg, Starr, Hidalgo, Cameron, Kenedy, Brooks, and Duval. There are other counties in which migrants have died, but they do not have areas covered by surveillance towers and were therefore excluded. In most of these counties, locally elected administrative judges called justices of the peace collect the most comprehensive information on local deaths. But records requests submitted to these individual judges can stall for years (indeed, some of our requests to justices of the peace remain unfilled more than a year after we filed them). Reports from justices of the peace sometimes leave out the scene or location details we needed; some justices never even visit the place where a migrant died, instead formally declaring the person deceased over FaceTime with the first responders on scene. The border wall between Sunland Park, New Mexico and Puerto de Anapra, Mexico. GETTY IMAGES MIT Technology Review instead filed records requests to the sheriffs of these 17 counties beginning in July 2025. These agencies are often first on the scene when a death is discovered, and their reports can have more detailed information on where remains were found. But relying on sheriffs’ records means our analysis undercounts migrant deaths in Texas, as it doesn’t include any deaths handled by local or state police. After we filed a request, it took periods of near daily calls to the offices to receive the records, if we received them at all. Some were provided with no charge. Other counties charged between $300 and $1,300 to fill our request. Counties warned that their records were incomplete, with an unknown number lost during a move, damaged, destroyed, or misplaced during transitions between sheriffs. Those delays were compounded because most agencies do not record whether a person is believed to have been crossing the border when they died. That’s despite provisions in some counties that allow officers to track far more granular details about other situations; Zapata County reports have a checkbox to indicate whether jewels were stolen in a burglary, for example, while Cameron County reports have one for whether a burglar entered through a chimney. Without a way to readily identify migrant deaths, offices had to pull records by hand, making the process slower, more costly, and more prone to error. We received usable records from 14 of these counties (records have yet to be received from Dimmit or Duval, and Maverick’s office charged a per-record fee that was cost prohibitive). Agencies generally sent us police reports for each individual case, amounting to over 4,000 pages of records in total. Some were handwritten documents.&nbsp; Except for the reports from Kenedy, Webb, and Hidalgo Counties, we pulled out the relevant information by hand. For those three counties, which sent large volumes of records, we used Anthropic’s Claude, accessed via API, to inspect each case report and pull out coordinates of the spots where remains were found; then we checked batches of those cases by hand to verify the AI’s accuracy. Agencies sent us records on a rolling basis from July 2025 to February 2026, and most did not specify the date through which their records were current. We generally trusted that agencies sent us cases they believed involved migrant deaths, since they had the most information about each case. But some records clearly suggested otherwise (indicating, for example, that someone died at home), and we excluded those cases. Several hundred cases were removed from our analysis because they didn’t include enough information for us to be certain where the remains were found. In fewer than 100 cases, coordinates were not listed but the description was specific enough for us to locate a point within 0.25 miles of where they were found—so we kept those in.&nbsp; Compared with agencies in other states along the border, those in Texas provide far fewer details regarding how long ago someone may have died before remains were found or how far the decomposition of those remains had progressed. Some reports included this information, but many didn’t. While autopsy records sometimes have more details, many migrant autopsies in south Texas are done through the Webb County Medical Examiner, which charges a fee for each report. That was cost prohibitive given the scale of our analysis. MIT Technology Review consulted with Greg Hess, director of Arizona’s Pima County Office of the Medical Examiner, on a framework for translating descriptions of the scenes, bodies, and causes of death available in many of these records into rough estimates for when a person may have died (more detail on this process is provided below). In total, we included more than 1,500 cases from our Texas records requests in our final analysis. Accessing Arizona records directly The Pima County Office of the Medical Examiner (PCOME) in Arizona handles death investigations for all border counties in the state except Yuma (we sourced Yuma&#8217;s records from the organization No More Deaths, as detailed below). The office determines which cases it believes to be border crossers. It publishes a data portal for these migrant deaths that’s updated monthly and shares its data with the organization Humane Borders, which then publishes it in a map and database . We included the data from 2015 through April 2026. Humane Borders notes for each case how precise the location description is. We included only cases with GPS coordinates precise to within 300 feet. Collecting these coordinates has been standard practice since around 2012. The records also include an estimate of when the individual died, ranging from less than a day to at least six to eight months before remains were found. In total, we included more than 1,700 cases from Humane Borders in our analysis. Data collected by No More Deaths To obtain data on deaths in California, New Mexico, Arizona’s Yuma County, and El Paso and Hudspeth Counties in Texas, we turned to the nonprofit organization No More Deaths, which has tracked migrant deaths since 2004. It publishes information about its records requests and its methodology .&nbsp; Many of the cases in its database include GPS coordinates, sometimes with notes that the location is only approximate—for example, accurate to within half a mile or one mile. We included only cases where the location was known to within a quarter-mile. Migrants, most with children, follow a path along the concertina wire where ultimately they will placed under guard by Border Patrol after having crossed the Rio Grande on May 27, 2022 in Eagle Pass, Texas. JOHN LAMPARSKI/NURPHOTO VIA AP No More Death’s database includes, when available, information on the level of decomposition in which each set of remains was found. As with cases in Texas, MIT Technology Review consulted with PCOME’s Greg Hess on a framework for translating this information into rough estimates for when a person may have died.&nbsp; Here’s where the No More Deaths data used in our analysis comes from: In California, No More Deaths requests records from the San Diego County medical examiner and the Imperial County coroner. Its latest data for Imperial County is from December 2025, and its latest for San Diego County is from October 2025.&nbsp; In Yuma County, Arizona, No More Deaths requests records from the Yuma County medical examiner. The latest data is from September 2025. In New Mexico, the organization requests data from the state’s Office of the Medical Investigator. Unlike most states, New Mexico has a statewide medical examiner, allowing No More Deaths to obtain migrant death data for the entire state. The latest data is from July 2025. For Hudspeth County, Texas, No More Deaths requests records from justices of the peace in Districts 1 and 2. The latest data is from December 2023. For El Paso County, Texas, records were from the El Paso County Office of the Medical Examiner. The latest data is from September 2025. In total, we included nearly 1,000 cases from No More Deaths in our analysis.&nbsp; Total cases reviewed When accounting for all our data sources and excluding deaths without specific enough records to determine where remains were found, we analyzed a total of nearly 4,000 cases.&nbsp; Other notes&nbsp; We generally assume that a person died where their remains were found. That may not necessarily be true: Remains can be moved by other people, flowing water, or animals. But medical examiners and researchers we consulted said such cases are rare. We excluded cases in which the virtual wall did not appear relevant. For example, we removed cases involving people who died inside Border Patrol stations or in car crashes during pursuits.&nbsp; The deaths we analyzed reflect a variety of causes that may seem at first like very different sorts of surveillance failure. If someone slowly died of dehydration within view of a camera, for example, agents would have had far more time to intervene than they would have in a case where someone drowned quickly in a river or canal. But we included all these deaths because, in each one, the virtual wall could have prompted a response from agents. Surveillance towers Including a tower in our analysis required knowing three things: its location, its type (so that we could judge how far it is supposed to see), and the time it was installed.&nbsp; Locations The Electronic Frontier Foundation has been tracking and mapping CBP surveillance towers since 2023, using on-the-ground reporting, satellite imagery, and government documents obtained through public records requests. Its tally is an undercount; government records suggest that about 800 towers are currently deployed, while EFF has logged about 600. Our analysis therefore misses deaths that occurred near towers not yet catalogued by EFF. MIT Technology Review worked closely with EFF’s director of investigations, Dave Maass, throughout this project. Our tower data began with the database published by EFF in April 2026, but that map did not include towers that have been removed. We consulted EFF for the details on these former towers and added them to our database. We generally use EFF’s reference numbers for individual towers, but we changed some to ensure that each tower has a unique identifier. The locations are identified by GPS coordinates. We verified each tower’s coordinates by analyzing satellite imagery. Tower types Our analysis focused on towers of three main types. Certain towers mapped by EFF don’t fall into any of those categories, so we excluded them because it’s difficult to obtain information about how far they are supposed to be able to see. This includes some towers that are installed at Border Patrol checkpoints or stations. An integrated fixed tower (IFT) on Coronado Peak, Cochise County, Arizona. CREATIVE COMMONS An autonomous surveillance tower (AST) near Sunland Park, New Mexico. CENGIZ YAR FOR MITTR To know how far the main tower types could see, we consulted materials from tech companies and EFF’s research, led our own review of government documents, and interviewed former Border Patrol agents and officials. The distances described are consistent across these sources. But they are advertised estimates, not contractual guarantees: Some government records redact more specific information about a tower’s surveillance range in particular locations, citing security concerns. When towers were present To know if a tower in place now was present when someone died, it’s essential to know not just where it’s located but also when it was put there. To figure this out, we used multiple sources of satellite imagery.&nbsp; Maass, at EFF, had previously analyzed some of the towers to determine when they first appeared. MIT Technology Review checked satellite imagery for these towers to confirm these timelines, and then checked for all the remaining towers. For each tower, we logged the date that it first appeared and, if it eventually disappeared, the last date it was present. We spent months meticulously checking when hundreds of towers appeared in multiple sources of satellite imagery to confirm there were no contradictions.&nbsp; This is easier for certain tower types than others; towers from Anduril, for example, tend to go up where there was no prior infrastructure, and it’s fairly easy to see how a patch of empty desert gave way to the new tower and its trademark solar panels. Other towers, like IFTs, were often built on or near existing structures. For these, we leaned more closely on EFF’s expertise in analyzing the imagery.&nbsp; Do you have experience with border surveillance technology? We want to hear from you. Reach the reporters securely on Signal at jamesodonnell.22 and eileenguo.15 or tips@technologyreview.com. When imagery wasn’t sufficient, we used Google Street View, government documents, or photographs collected by EFF to verify when towers went up. One limitation is that historical imagery of towers along the border is not available for every day in the past. Especially for older towers or those in remote locations, images may have been taken months or even a year apart. A tower visible in May and again in December could theoretically have been removed and reinstalled in the intervening months. But most tower systems are permanent structures. And multiple Border Patrol agents told us that even towers that are meant to be mobile, like autonomous towers, are in practice very rarely taken down or moved (consistent with this, we observed that semipermanent fences were erected around the sites of many Anduril towers). Another limitation is that even if a tower is visible at a particular time, that does not mean it was online. We can’t verify that it was functional, receiving power, or transmitting data. Our analysis therefore establishes when a tower was present, not whether it was operational. Heights We conducted a topographical analysis, detailed below, to see whether a tower’s view of a given person might have been blocked by the terrain. This required estimating how tall each tower is.&nbsp; We included a minimum and maximum height for each tower, based on research from EFF. In select cases where the surveillance system was not on a typical tower but mounted to an existing structure, like a water tower or building, we used satellite imagery to estimate its height. The higher a tower is, the farther it can see. Our analysis With the data we collected, we could begin to see which deaths happened in range of the virtual wall. But for a given match between a set of remains and a tower to count, it needed to satisfy two criteria: 1) Distance: The death must have happened within the published surveillance range of the nearby camera. 2) Timing: The tower had to be present when the person was estimated to have died. An autonomous surveillance tower from Anduril captured January 6, 2022. VEXCEL Distance Minho Kim, an outside collaborator who is now a postdoctoral researcher at Stanford with a focus on wildfire mapping, led the distance analysis. His software ingested our database of human remains and our database of towers. Then it created a row for each time a set of remains was found near a given tower, along with the distance between the two. We then checked whether, for each match, the tower was actually present when the person died. Timing Sometimes, as with the Arizona cases, an estimate of when someone died is given in the original data; the medical examiner may note that a person died more than three weeks but less than five weeks before remains were found, for example.&nbsp; In other cases, we used the level of decomposition, the cause of death, or both to calculate a window of time in which the person would likely have died. Finally, we compared this window with the time when we determined the tower was built.&nbsp; This step took us many months and involved reviewing original police reports for hundreds of cases, inspecting photos of bodies, cross-referencing cases with news articles, interviewing medical examiners, and researching decomposition timelines. The resulting death windows are approximate, but they are the best estimates we could make from the information available in each case. We assigned different confidence levels to cases based on how these dates lined up. If a person’s entire estimated death window fell well after a tower was first observed, we felt confident the tower was present when they died. If any part of the death window fell before the tower was first observed, we excluded the case. Many cases involve skeletal remains. Remains decompose differently depending on location and season, but when records didn’t provide a specific estimate, we conservatively estimated that skeletal remains had been there for at least six months. For these and other cases without a specific estimate of when the person died, we used three years as a conservative cutoff: If a tower had been present for at least three years before the remains were found, we included the case, judging it unlikely that the person had died before the tower was installed and remained undiscovered that long. If the tower had been present for less than three years, we excluded it. Viewshed It is possible that someone who died within range of a tower could have been blocked from the tower’s view by terrain, vegetation, or buildings. We estimated the impact of this issue with a technique called topographical analysis. Kim, our collaborator, led this part of the analysis. Here’s how it works: Imagine a map of the border region divided into a grid, with each square having one value for that area’s elevation. Take a given match between a set of remains and a tower and draw a line between the tower’s estimated height and an estimated height of 5’ 6&#8243; for the person who died. If the terrain along that path rises high enough to block the line between the two points, we estimate the tower’s view as obstructed. If it doesn’t, we estimate the view as clear. It’s not perfect. In the elevation data we used, each square represents an area 30 meters wide, or about 98 feet, and is assigned a single elevation. That means smaller changes in the terrain can be lost, particularly in steep or rugged areas where elevation changes quickly. Our analysis is therefore less about re-creating exactly what a tower could see than providing a rough estimate of whether terrain may have blocked a tower’s view of the spot where someone died.&nbsp; We include results on our map whether a clear line of sight was estimated or not. Even if the location where someone died was blocked from a tower’s view, the person may have passed through areas visible to the tower before reaching that spot. It’s much harder to estimate whether a line of sight was blocked by vegetation. We are less concerned about this limitation because virtual-wall towers use thermal imaging, which can detect body heat through light vegetation. Dense vegetation, however, can still obstruct their view. Buildings pose a greater challenge. We could not reliably account for their locations and heights. Instead, we reviewed each tower’s surroundings and flagged towers located in or near urban areas. These notes warn readers that buildings may have limited what those towers could see. As the sun sets near McAllen TX, migrants that have crossed the Rio Grande surrender to U.S. Border Patrol near an area known as Rincon. MANI ALBRECHT/U.S. CUSTOMS AND BORDER PROTECTION Beyond the data&nbsp; The most fundamental question in each of these cases, and for the families of anyone who died, is whether the US government saw someone attempting to cross into the country and never intercepted them—or never saw them at all.&nbsp; This is all but impossible to answer with records or data—Border Patrol doesn’t disclose which alerts came in surrounding any given migrant death, and footage isn’t retained unless an internal investigation is triggered, which doesn’t happen unless a migrant dies while in custody. MIT Technology Review instead conducted dozens of interviews with people who worked for Border Patrol, Customs and Border Protection, or the Department of Homeland Security or who served as presidential advisors. These conversations yielded previously unreported details about how agents use surveillance technology, turned up instances where it has underperformed, and underscored how seldom its effectiveness is evaluated internally. We also sought out friends and family members of people who died near surveillance towers, using additional records, social media, and other research tools to find them. We approached these interviews using best practices for trauma-informed reporting. Beginning in September 2025, MIT Technology Review requested interviews with current Border Patrol agents and leadership at CBP, and we asked to visit the border to understand the strengths and weaknesses of the latest autonomous tower program. Following delays, which were in part related to DHS funding lapses, in July 2026 we were told our media request had been approved at the local level in Big Bend, Texas. We wanted to visit this area because Border Patrol is expanding the number of Anduril towers there. But when the request went up to the DHS headquarters for a final sign-off, the agency denied it. Before publishing our investigation, we sent detailed questions to CBP, Anduril, General Dynamics and Elbit. CBP and Anduril responded, but did not substantively address our questions. General Dynamics referred us to CBP. Elbit did not respond to our questions. MIT Technology Review thanks the following for their assistance with this project: Minho Kim, Stanford University Greg Hess, Pima County Office of the Medical Examiner&nbsp; Stephanie Leutert, University of Texas at Austin Don White, Brooks County Sheriff’s Office",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
-    },
-    {
-      "title": "解决我们在美国边境“虚拟墙”上发现的故障的4种方法",
-      "originalTitle": "4 ways to address the failures we found along the US border’s “virtual wall”",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
-      "date": "2026-09-21T12:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for&#8230;",
-      "rawFullText": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for weeks or months. These cases reflect systemic flaws in the virtual wall: broken towers, algorithms that failed to detect people, and agents who simply did not respond to alerts. This story is part of&nbsp; Dying on Camera , a collaboration between&nbsp; MIT Technology Review &nbsp;and&nbsp; Times of San Diego . Journalists in both newsrooms spent the past year examining the failures of border surveillance technology and uncovering the stories of the people who die in the borderlands . Each of these deaths should have raised alarms inside US Customs and Border Protection (CBP) about the flaws in the agency’s surveillance network. This is particularly true for cases near the latest towers built by the defense company Anduril, which continues to win major contracts and is poised to benefit from the windfall of federal money slated for border security. The US is set to spend $1 billion to triple the size of the virtual wall by 2034. Here are four ideas for what CBP should do next to address these failures.&nbsp; 1. Conduct a comprehensive audit of deaths near the virtual wall In this June 16, 2021, file photo, a family from Venezuela moves to a Border Patrol transport vehicle after they and other migrants crossed the U.S.-Mexico border and turned themselves in to agents in Del Rio, Texas. ERIC GAY/AP PHOTO “If I were the federal government, I would do an audit, because this feels like it’s not working.”&nbsp; That was New Mexico state representative Sarah Silva’s reaction when MIT Technology Review showed her that in 2024 alone, more than 18 people had died near surveillance towers in just one small stretch of desert near her district. An audit is necessary because, despite poring over thousands of pages of police reports and other documents about surveillance towers, we have only limited knowledge of how many towers are out there and where they’re located.&nbsp; CBP does not publish a comprehensive map of its virtual wall. We instead relied on mapping work led by the nonprofit Electronic Frontier Foundation and then used satellite imagery to verify where specific towers were and approximately when they were installed.&nbsp; We analyzed lots of towers—nearly 600. But that’s still far less than the 800 the government says operate today. And our estimates of when they went up are inexact. That means our tally of more than 1,050 people who have died near them is an undercount. And we don’t have a complete picture of where along the border the problem is worst. An internal audit would not have such limitations. In theory, CBP tracks when each tower went up and when it was active. It has had the ability to audit their effectiveness—while quantifying how many people have died near them—since at least 2015, when it began installing the types of towers included in our analysis. But sources told us it has never done such an audit. Our findings make the need for one more urgent. 2. Fix the way the agency tracks migrant deaths and remains If CBP is to analyze instances where people have died near its surveillance technology, it needs to know when and where those deaths happen. And the current system for tracking that data is beyond broken. As we note in our methodology , there is no national agency that collects and publishes all available records on migrant deaths. We sifted through thousands of pages of records from dozens of agencies in Texas alone, and our picture is still incomplete owing to the lack of a shared protocol for documenting these deaths in public records.&nbsp; Border Patrol has had its own internal system, called the Border Safety Initiative Tracking System (BSITS), in place since 2007. But it wasn&#8217;t until 2021 that national rules were established for how different sectors should enter cases into the system. The next year, the Government Accountability Office (GAO) found that many cases still weren&#8217;t being tracked in this system, especially deaths that weren&#8217;t discovered by Border Patrol. In 2023, the GAO reported that Border Patrol has taken steps to fix that, but outside researchers consistently find the agency’s estimates to be undercounts even today. In addition to tracking migrant deaths, CBP launched a program in 2017 to prevent them, called the Missing Migrant Program. In April 2025, the GAO found the program was improving the way it collected and tracked data about events like 911 calls and rescues. The problem, it said, was that there was no plan in place to use the data to measure whether the program was actually increasing rescues or reducing deaths, which are its primary goals. It made two recommendations for solutions, neither of which has been implemented. 3. Track cases when surveillance technology leads to an apprehension In 2014, when the virtual wall was much smaller, the GAO suggested that Border Patrol agents log when a piece of technology helped them apprehend someone who was trying to enter the US illegally. It would take agents some extra time, but logging these assists would help Congress understand how often various surveillance technologies were leading to actual apprehensions. Once this data was collected, GAO added, the agency should measure whether its surveillance technologies were working. CBP agreed, and it started requiring agents to enter such information. U.S. Border Patrol agents apprehend people crossing the border illegally near Sunland Park, N.M., July 17, 2024. GLENN FAWCETT / CBP PHOTO Then, in 2017, the GAO reported that the data being collected was inaccurate and unreliable; it found agents in Texas, for example, who were crediting a specific type of tower in apprehensions hundreds of times, even though no such towers existed anywhere in the state. Border Patrol again said it would improve; it agreed to train agents on the importance of collecting such information. But years later, agents told us, it’s still not a priority. One former CBP official described the mandate as “spitting in the wind, to be honest,” and said the messy reality of apprehensions doesn&#8217;t translate into neat metrics. (The official, who requested anonymity, served during the Biden administration and wasn’t authorized to discuss sensitive issues.)&nbsp; And in August 2021, more than seven years after it agreed to do so, CBP still had not produced any analysis on the towers’ effectiveness (it finished one in 2022, the GAO notes, but the results are not public). That means the virtual wall is growing faster than anyone is assessing its impact. 4. Investigate deaths as potential surveillance failures CBP should also examine new deaths as they occur and determine whether they happened within sight of a tower or other surveillance technology. And for those that did, the agency should determine why those people weren’t spotted sooner. Several agents and officials told us that if Border Patrol agents come across the body of someone presumed to have died while crossing into the US, there’s no requirement to check whether that person died near surveillance infrastructure and no process for doing so. At a minimum, that means potentially valuable evidence about the death goes unexamined. It also means that migrant deaths are not routinely treated as possible failures of the virtual wall. Do you have experience with border surveillance technology? We want to hear from you. Reach the reporters securely on Signal at jamesodonnell.22 and eileenguo.15 or tips@technologyreview.com. CBP should automatically check every migrant death against its internal database of towers and investigate those that occurred within surveillance range to determine what the system detected and whether agents responded appropriately. Agents already log GPS coordinates when they apprehend a group or encounter footprints, among other events. Without that check, law enforcement, medical investigators, and families may never learn that someone died near a surveillance tower—and that footage of the moments leading up to the death may exist. CBP typically deletes surveillance footage from the towers after 30 days unless an internal review is opened, which usually happens only for deaths in custody. At a minimum, flagging these cases could preserve footage for those investigating the death and give families a chance to request it. Such reviews could also expose flaws in the virtual wall itself. Consider one location we identified in New Mexico, where several people died despite being in clear sight of an advanced AI tower. They died within the span of a few months, sometimes just hundreds of feet from one another. Investigating these cases might reveal, for example, that a camera repeatedly failed to detect or identify people in a particular area, or that agents were alerted and simply never responded. Carrying out these postmortem inquiries would be the only way to answer the question that families, researchers, and volunteers raised most frequently in our investigation into the hundreds of migrants who died near towers: Did the cameras see them, and nobody came? Or did nobody see them at all?",
       "tags": [
         "AI 热点"
       ],
@@ -505,21 +547,6 @@
         "智能体"
       ],
       "score": 72
-    },
-    {
-      "title": "跨HF作业使用LoRA异步GRPO ：存储桶、代理和无NCCL",
-      "originalTitle": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "date": "2026-09-10T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
     }
   ]
 }
