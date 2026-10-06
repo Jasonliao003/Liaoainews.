@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T01:46:20.650Z",
+  "updatedAt": "2026-10-06T02:49:21.903Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,15 +19,15 @@
   ],
   "articles": [
     {
-      "title": "在《星际争霸》中，人工智能无法击败人类，所以它决定作弊",
-      "originalTitle": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-      "date": "2026-10-04T15:21:59.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "StarSkirmish让人工智能制作的《星际争霸》游戏机器人相互对抗，也与人造机器人对抗。OpenAI的GPT-6 Astra和Claude Opus 5. 5本质上是表现最好的人工智能机器人，但他们无法超越顶级人造机器人Stardust。周五， GPT与克劳德和人类创造的机器人冥王星对峙，但根据Kotaku的说法，它无法获得优势。 因此，它采用了一种对现代人工智能模型来说越来越普遍的策略--它打破了规则。GPT-6 Astra下载了Stardust ，并开始运行它而不是自己的机器人。GPT-6 Astra刚刚通过下载副本进行了欺骗…阅读The Verge的完整故事。",
-      "originalSummary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, [&#8230;]",
-      "rawFullText": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku , it couldn't quite get an edge. So it resorted to a tactic that is becoming alarmingly common for modern AI models - it broke the rules . GPT-6 Astra went and downloaded Stardust, and started running that instead of its own bot. GPT-6 Astra just cheated by downloading a copy … Read the full story at The Verge.",
+      "title": "OpenAI将开始在欧盟为ChatGPT的文本添加水印",
+      "originalTitle": "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "date": "2026-10-05T20:36:48.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。该公司周一在一篇博客文章中表示， OpenAI将开始为欧盟的ChatGPT和Codex生成的文本添加无形水印，以遵守《欧盟人工智能法案》。 《欧盟人工智能法案》的透明度规则于8月2日生效，要求人工智能公司以其他系统可以识别的方式标记人工智能生成的内容。OpenAI表示，水印将在未来几周内在所有计划中向符合条件的ChatGPT和Codex用户推出，但仅限于欧盟。从今天开始，在世界任何地方使用OpenAI API的开发人员都可以为选定的模型打开它；默认情况下，它处于关闭状态。 OpenAI表示，它不会在发布时将文本水印作为全局默认设置。水印不是一个实际的符号，而是通过巧妙地塑造模型的单词选择，留下读者看不到的模式，但检测器可以拾取。因为它存在于文字本身中，所以当它被复制和粘贴时，它会与文本一起传播。 OpenAI表示，水印无法识别用户，并且打开后，其模型的性能没有任何有意义的变化。除了公告之外， OpenAI还发布了一份名为textGrain的方法技术报告。它与宾夕法尼亚大学和耶鲁大学的研究人员共同撰写，介绍了使用密钥对下一个单词预测进行排序以完成句子的示例。 将数百个轻推放在一起，检测器可以仅使用文本和密钥来识别人工智能生成的内容。可以通过编辑来删除水印吗？ OpenAI的测试表明是。在一项测试中，用同义词替换10%的单词，检测率从约92%下降到66%。该公司还表示，短文、数学答案和翻译文本更难被发现。 该公司表示： “这些限制促使我们决定仅向经批准的研究人员和专家组织提供初始探测器访问权限，他们可以帮助我们评估可靠性和负责任的使用。” OpenAI还警告说，缺少水印“并不能证明人类的作者身份。“文本可能太短或编辑过多，也可能来自另一家公司的人工智能。 该公司表示： “[水印]可以表明OpenAI系统生成或处理了段落的一部分，但不能表明人类的判断、编辑或创造力有多大。”此前两个月， Anthropic表示将为Claude生成的文本添加水印，此举正在全球范围内实施。 这一决定引起了一些Claude用户的强烈反对，他们认为他们提供了“指示、背景和决定” ，而Claude只是“工具”。",
+      "originalSummary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+      "rawFullText": "",
       "tags": [
         "大模型",
         "公司动态"
@@ -35,112 +35,69 @@
       "score": 99
     },
     {
-      "title": "“超级智能”和非约束性安全协议可以解决人工智能的图像问题吗？",
-      "originalTitle": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-      "date": "2026-10-04T20:08:34.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：安全相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。本周，唐纳德·特朗普总统接待了许多人工智能巨头--部分原因是宣布美国政府不再称之为人工智能。现在是超级智能。 在TechCrunch的Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我讨论了会议背后的动机及其对人工智能行业可能产生的影响。我们都非常怀疑高管们签署的“边境责任联合承诺”是否会产生很大影响，特别是正如肖恩指出的那样，至少从法律角度来看，它“非常不具约束力”。 （相反，特朗普表示，他认为这“在道德上具有约束力。Kirsten表示，这次会议的真正意义可能是“围绕人工智能的品牌重塑”。（随着特朗普宣布组建一支新的超级情报部队，这一努力在本周末继续进行。对她来说，最大的信息是，“人工智能会杀死我们，这很可怕，它会夺走工作--但超级智能不会。 “请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。安东尼·哈：正式地说，根据美国总统的命令，它不再是人工智能，而是超级智能。我们上周谈到了这一点，因为这是[特朗普]一直在暗示的—他不做暗示，他已经说了一段时间了。但现在它已经签署了行政命令。 如果你是美国官方代表，你应该说超级智能，而不是人工智能。这也是围绕人工智能安全的更广泛公告的一部分，我认为这对宣布的这项协议来说都很有趣，但事实是它确实发生了。 它似乎很快就出现了，因为就在两周前，也就是一周前，特朗普总统说： “我们不需要这些，我们需要引领人工智能，我们不能以任何方式限制它，我们不需要任何监管，任何人说人工智能有任何危险，基本上都是中国或民主党的工厂。“然而，所有这些人工智能首席执行官本周早些时候都与他一起签署了这项协议。 克尔斯滕·科罗塞克（ Kirsten Korosec ） ：在此之前，我们应该说，不仅在监管方面存在阻力，而且我们可以谈论这个行政命令是否做了任何这些—我会说不，那里有一点戏剧性—但重要而有趣的是，就在几天前，如果你愿意的话， Anthropic真的在特朗普总统的幕后发生了什么。 当[Anthropic首席执行官] Dario Amodei被邀请参加晚上10点的晚宴时，这一切都发生了变化。他坐了下来，几天后，我们举行了这次午餐会，在这次午餐会上，我们几乎有来自各大科技公司的每一位科技经纪人。马克·扎克伯格在那里，杰夫·贝索斯在那里，伊隆·马斯克在那里，达里奥当然在那里，他们都在那里。",
-      "originalSummary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 83
-    },
-    {
-      "title": "特朗普推出他的新超级情报部队",
-      "originalTitle": "Trump unveils his new Super Intelligence Force",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-      "date": "2026-10-04T15:15:10.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：安全相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。现在注册。正如所承诺的那样，唐纳德·特朗普总统宣布组建一支新的超级情报部队，他说该部队将由国家情报总监杰伊·克莱顿（ Jay Clayton ）和他的政府其他成员领导。 “超级情报部队的任务是协调联邦政府的努力，以确保美国继续在超级情报（许多人认为超级情报比工业革命和互联网更大）和互联网方面引领世界，并将保护所有美国人的利益，改善他们的生活，”特朗普在他的社交网络上说道。 早在9月份，为了回应总统在很大程度上被认为是“激进左翼邓莫克拉派”制造的恶作剧的人工智能安全辩论，特朗普表示，尽管如此，他仍将组建一支人工智能部队并任命一名人工智能沙皇（ “只有高智商的个人需要申请！” ）。 从那时起，特朗普签署了一项行政命令，寻求将人工智能重新命名为“超级智能” ，这个术语似乎被本周聚集在白宫签署不具约束力的安全承诺的科技高管所接受，但有一些绊脚石。（该承诺包含一个令人印象深刻的拼写错误。）因此，特朗普的新任务组是根据这个新的品牌命名的，这是很自然的。 据《华尔街日报》报道，克莱顿将担任超级情报部队的主席，有效地使他成为新的AI/SI沙皇，联邦贸易委员会主席安德鲁·弗格森、战争研究和工程副部长埃米尔·迈克尔和人事管理办公室主任斯科特·库珀担任副主席。据报道，该工作组将有120天的时间来编写关于人工智能带来的风险和机遇的报告。 克莱顿此前曾表示，当像中国这样的国家前进时，美国“退出”人工智能是不负责任的，他向《华尔街日报》发表了类似的评论，坚称最大的风险之一是“不是第一个”。据报道，该工作组的章程表示，它将“制定计划，以应对SI对我们社会的威胁，同时防止过度监管和监管捕获，这将扼杀创新和竞争。 “当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。此前，他曾在Adweek担任技术记者，在VentureBeat担任高级编辑，在Hollister Free Lance担任当地政府记者，并在一家风险投资公司担任内容副总裁。他住在纽约市。您可以通过电子邮件联系Anthony或验证其联系方式。 ha @ techcrunch. com。",
-      "originalSummary": "This new task force is Trump's latest response to the debate over AI safety.",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 83
-    },
-    {
-      "title": "由于人工智能提交量“大幅增加” ，谷歌冻结了其开源漏洞奖励计划",
-      "originalTitle": "Google froze its open source bug bounty program due to a &#8216;significant rise&#8217; in AI submissions",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-      "date": "2026-10-04T20:31:07.000Z",
-      "summary": "这条新闻与开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：开源相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。由于人工智能提交量“大幅增加” ，谷歌已暂停其开源漏洞奖励计划，直到明年。去年， TechCrunch报道称，网络安全专家警告称，人工智能SLOP对漏洞赏金计划构成严重风险。 看起来这就是谷歌开源软件漏洞奖励计划所面临的问题，在该计划中，研究人员因发现该公司开源软件中的漏洞而获得奖励。谷歌在X和该计划网站上的帖子中表示，漏洞赏金计划已于10月1日暂停，并承诺在2027年第一季度提供“更新”。 根据Tom's Hardware的说法，谷歌的工程师和开源维护人员对无效或含有幻觉的报告感到不知所措。该公司表示： “这种暂停是由于自动提交数量大幅增加，其中绝大多数无效。”与此同时，我们鼓励参与者考虑谷歌的其他漏洞奖励计划。获得第二张通行证的50%折扣Disrupt体验旨在分享。 领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "AI slop seems to be overwhelming bug bounty programs.",
-      "rawFullText": "",
-      "tags": [
-        "开源"
-      ],
-      "score": 82
-    },
-    {
-      "title": "新泽西州前中尉政府正在使用人工智能说他是无辜的性骚扰",
-      "originalTitle": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "title": "维基百科运营商表示， OpenAI的“流氓”机器人可能与5月份的停电有关",
+      "originalTitle": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
-      "date": "2026-10-04T16:16:04.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "好吧，如果是AI说的，那一定是真的。|彭博社通过Getty Images新泽西州副州长戴尔·考德威尔（ Dale Caldwell ）于9月25日被迫辞职，此前一项调查发现他对一名工作人员进行了性骚扰并一再违反道德规则。这位现任前副州长一直在媒体上四处宣传，试图洗清自己的罪名。但在接受NJ PBS采访时，他采取了一种特别奇怪的策略。 考德威尔声称他受到了不公平的攻击，多名人工智能特工对此表示支持。他告诉主持人Rob Nelson ，他从多个人工智能平台“AIed”了调查报告。“我把它通过人工智能，”他说， “它说了59次，它说， '你会发现什么？“没有Insta……在The Verge阅读完整故事。",
-      "originalSummary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ [&#8230;]",
-      "rawFullText": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ PBS . Caldwell claims he's being unfairly targeted, and multiple AI agents back that up. He told host Rob Nelson that he \"AIed\" the report on the investigation \"from multiple AI platforms.\" \"I put it through AI,\" he said, \"and it said 59 times, it [sic] said, 'What would your findings be?' There was no insta … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "OpenAI安全员工已辞职并正在敲响警钟",
-      "originalTitle": "An OpenAI safety employee has quit and is sounding the alarm",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "date": "2026-10-03T14:31:56.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、安全相关动态",
-      "fullContent": "大卫·罗宾逊（ David Robinson ）曾在OpenAI的每个主要模型版本中撰写安全报告。本周，他辞去了职务，现在正在《大西洋月刊》的一篇社论中发表讲话。如果你对每个人突然从木制品中走出来，警告他们帮助建造的东西有多危险，这有点愤世嫉俗，这是可以理解的。毕竟，是他们弄得一团糟。但这并不意味着我们应该低估他们的警告。 罗宾逊说，行业文化从根本上被打破了。这是一个更深层次的问题，而不仅仅是简单地对我们如何处理培训模型制定一些新的规则或规定。Silicon…阅读The Verge的完整故事。",
-      "originalSummary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous [&#8230;]",
-      "rawFullText": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic . It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous the thing they helped build is. They did, after all, make this mess. But that doesn't mean we should discount their warnings. Robinson says that the culture in industry is fundamentally broken. That this is a deeper issue than simply slapping a few new rules or regulations on how we handle training models. Silicon … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "date": "2026-10-05T19:05:19.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "继最近许多关于人工智能代理访问第三方网站和服务的披露之后，托管维基百科的维基媒体基金会表示，它“可以确认我们已经发现了一些“流氓”OpenAI代理在维基媒体平台上的活动”。 根据一篇博客文章，该活动包括对维基媒体维基的编辑， “尝试” “利用”维基媒体基金会托管的Etherpad笔记记录工具的“失败尝试” ，以及基金会称“可能”导致5月份发生的部分中断的大量流量。然而，维基媒体基金会表示，它没有发现其系统“用于坐标”的证据……阅读The Verge的完整故事。",
+      "originalSummary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation [&#8230;]",
+      "rawFullText": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation hosts, and heavy traffic that the foundation says \"may\" have contributed to a partial outage that happened in May, according to a blog post . However, the Wikimedia Foundation says it didn't find evidence that its systems were \"used for coordinat … Read the full story at The Verge.",
       "tags": [
         "公司动态",
-        "安全",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Instinct将其AI代理带到群聊中，即使对于没有帐户的朋友也是如此",
+      "originalTitle": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "date": "2026-10-05T18:54:30.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
+      "fullContent": "Instinct正在推出群聊，让好友一起使用其AI代理来规划行程、组织拼车和协调活动等任务。该公司表示，个人帐户保持独立，在个人代理共享信息或采取行动之前需要获得许可。",
+      "originalSummary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
         "产品发布"
       ],
       "score": 99
     },
     {
-      "title": "OpenAI安全员工辞职，声称公司的“文化被打破”",
-      "originalTitle": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "date": "2026-10-03T16:30:01.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。现在注册。大卫·罗宾逊（ David Robinson ）自己承认，他“有些陈词滥调” ：一家领先的人工智能公司的员工在辞职时发出可怕的警告。 在《大西洋月刊》上发表的一篇文章中，罗宾逊表示，他领导撰写了OpenAI主要产品发布的安全报告。他还表示，他在OpenAI工作了三年半，是“公司任期最长的员工之一。“现在他要辞职了，因为在他看来，公司的'文化被打破了。 “在某些方面，罗宾逊的评论与雅各布·考克森（ Jacob Coxon ）的评论相呼应，雅各布·考克森（ Jacob Coxon ）在辞职前曾在OpenAI和Anthropic担任研究员，并宣称这些公司正在“与我们的生活赌博”。 Coxon的评论引发了关于人工智能安全的更广泛辩论， Anthropic首席执行官Dario Amodei公布了一项更谨慎的人工智能发展计划；人工智能高管本周会见了唐纳德·特朗普总统，并签署了似乎是匆忙撰写的、不具约束力的实施更多安全控制的承诺。但在罗宾逊看来，辩论需要超越“特定规则或新法律” ，解决这些公司的整体文化。 虽然围绕OpenAI的大部分报道都集中在该公司首席执行官Sam Altman如何失去前同事的信任上，但Robinson的文章表明， OpenAI的文化问题与硅谷的文化问题大致相同。他写道： “OpenAI通过反复试验（它称之为‘迭代部署’ ）蓬勃发展，寻找问题并改进其防护措施。” “但这种方法本质上保证了周期性故障—随着系统能力的提高，这些故障的规模正在扩大。 Robinson指出， OpenAI代理商最近违反了Hugging Face系统，以及OpenAI不断发现更多流氓代理商的披露，他辩称： “这样的事情可能发生的环境不是培养比我们更聪明的人工思维的地方，而且可能不会做我们希望他们做的事情。 鉴于风险的增加，罗宾逊认为，前沿人工智能公司需要像核电站或繁忙的机场一样开始运营，多层次的冗余和精心、耗时的规划，这样偶尔发生的不可避免的人为错误就不会为灾难打开大门。",
-      "originalSummary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
-      "rawFullText": "",
+      "title": "OpenAI正在ChatGPT和Codex中添加文本水印",
+      "originalTitle": "OpenAI is adding text watermarking in ChatGPT and Codex",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "date": "2026-10-05T18:08:39.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "文本输出中不可见的机器可读水印正在向ChatGPT和Codex推出，但最初仅适用于欧盟用户。OpenAI表示，其textGrain水印“匹配或超过”了其他方法，如Google DeepMind的SynthID for text ，这也是8月份宣布的Anthropic水印的基础。 与OpenAI一样， Anthropic也采取了行动，以满足欧盟《人工智能法案》的要求；然而，并非所有人都乐于了解这一新增内容。OpenAI还包括AI基准的分数，显示了水印和未水印文本的类似性能。但它指出， textGrain “并不能保证......在The Verge阅读完整的故事。",
+      "originalSummary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
+      "rawFullText": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August . Like OpenAI, Anthropic made the move to meet the requirements of the EU's AI Act ; however, not everyone was happy to learn about the addition. OpenAI also included scores from AI benchmarks showing similar performance from watermarked and unwatermarked text. But it notes that textGrain \"does not guarantee … Read the full story at The Verge.",
       "tags": [
+        "大模型",
         "公司动态",
-        "安全"
+        "研究"
       ],
-      "score": 94
+      "score": 99
     },
     {
-      "title": "所有可以存在于您的短信中的人工智能代理",
-      "originalTitle": "All the AI agents that can live in your text messages",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "date": "2026-10-03T14:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。越来越多的客服代表可以像普通人一样发送短信，而无需下载其他应用。您可以发送所需的短信，它可以记住上下文，连接到您已经使用的应用和服务，并代表您完成任务。 这可能意味着安排预约、安排日历、研究行程、发送电子邮件、进行预订、在线购物或在几天后提醒您。虽然Instinct是目前最炙手可热的人工智能代理商之一，但由于其在最近一轮10亿美元的融资后估值达到100亿美元，还有许多其他代理商也在为这一领域努力。 以下是迄今为止最值得注意的选项，从通用个人助理到专为家庭、旅行和工作而设计的座席。Caddy是一个人工智能助手，可以将分散在手机上的信息转化为您可以实际采取行动的内容。它存在于适用于iPhone用户的iMessage和适用于Android用户的RCS中，因此没有单独的应用程序或收件箱需要不断检查。 例如，一封电子邮件包含需要添加到日历中的约会，或者朋友发送了一份待办事项列表。Caddy不必担心所有细节被埋没，而是连接到您的日历和对话，然后确定可能需要采取行动的事项。它可以在日历中添加活动、设置提醒、跟踪跟进，甚至可以为您做研究。 Fambot是人工智能驱动的家庭“幕僚长” ，旨在将家庭生活的许多活动部分汇集在一起，包括学校沟通、体育活动、膳食计划、日历和其他日常职责，并将其转化为有组织的计划。该服务旨在通过应用程序和短信工作。 Fambot可在iOS设备、Android设备和网络上使用，家庭也可以直接通过短信与之互动。每天晚上， Fambot都会自动发送第二天的摘要，包括即将举行的活动、待办事项以及校服或包装要求等详细信息。家长可以回复这些消息，提出问题、查看信息或更改日历。 Fambot目前连接到Gmail和Google日历，并计划在未来支持Outlook和Apple日历。该公司于2026年9月初推出测试版，并已筹集了350万美元的种子前融资$。该服务目前在测试期间是免费的，但Fambot预计最终将收取大约相当于Netflix订阅的费用。",
-      "originalSummary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "rawFullText": "",
+      "title": "OpenAI PR告诉记者“继续前进” ，同时向Sam Altman询问ChatGPT用户的自杀情况",
+      "originalTitle": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+      "date": "2026-10-05T16:55:42.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "一位OpenAI公关人员在编辑提到ChatGPT用户的自杀后，试图改变首席执行官Sam Altman采访《名利场》的Mark Guiducci的话题。当Guiducci就此事件与Altman对质时，这位公关人员警告Guiducci时间不多了，说她想“继续”另一个话题。 在Guiducci问Altman是否知道Laura Reiley是谁之后不久，这位记者为《纽约时报》撰写了一篇关于她女儿在自杀前与ChatGPT对话的文章。“她的女儿在与ChatGPT交谈后自杀。ChatGPT没有让她自杀--“顾……在The Verge阅读完整的故事。",
+      "originalSummary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
+      "rawFullText": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair 's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came shortly after Guiducci asked Altman if he knew who Laura Reiley is, a journalist who wrote an essay for The New York Times about her daughter's conversations with ChatGPT before she took her own life. \"Her daughter committed suicide after speaking to ChatGPT. ChatGPT did not tell her to kill herself-\" Gu … Read the full story at The Verge.",
       "tags": [
-        "智能体"
+        "大模型",
+        "公司动态"
       ],
-      "score": 94
+      "score": 99
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -155,70 +112,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
-    },
-    {
-      "title": "亚马逊回应数据中心的强烈反对，表示不再使用保密协议",
-      "originalTitle": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "date": "2026-10-03T18:43:57.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "这条消息来自 TechCrunch AI，主题是“亚马逊回应数据中心的强烈反对，表示不再使用保密协议”。它主要涉及AI 热点方向，热度评分为 76。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "用于制作Muse AI小工具的元开源代码",
-      "originalTitle": "Meta open sources code to let you make Muse AI gadgets",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "date": "2026-10-02T21:08:37.000Z",
-      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、开源相关动态",
-      "fullContent": "Meta现在允许您制作自己的Muse小工具，该小工具具有公司开源的新AI代理代码。该公司建议将Muse加载到彩色E Ink显示器上以显示提醒，将其添加到HDMI棒中以便您可以在大屏幕上显示Muse ，或将Muse放在小型触摸屏设备上以使其看起来像DIY Muse Charm。“Muse小工具是你自己构建的开源设备，” Meta说。 \"使用我们的SDK编程现成的ESP32板或设置Raspberry Pi ，然后将Muse连接到您的显示器、按钮、传感器、执行器以及您工作台上的其他任何东西。……在The Verge阅读完整故事。",
-      "originalSummary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
-      "rawFullText": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Charm . \"Muse gadgets are open source devices you build yourself,\" Meta says. \"Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you've got lying on your workbench. … Read the full story at The Verge.",
-      "tags": [
-        "智能体",
-        "开源"
-      ],
-      "score": 99
-    },
-    {
-      "title": "称之为AI ，称之为超级智能，只有2%的消费者购买",
-      "originalTitle": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
-      "date": "2026-10-02T17:56:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "本周，白宫让几乎所有主要的科技公司首席执行官--扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊（ Dario Amodei ） --在一个房间里签署了一项人工智能安全承诺，唐纳德·特朗普总统称之为“具有道德约束力”。 特朗普还签署了一项行政命令，正式将人工智能重新命名为“超级智能” ，与此同时， Meta和OpenAI正在将更友好的面孔放在他们的人工智能产品上，即使是最大的钱[…]",
-      "originalSummary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "它不再是人工智能，而是“超级智能” （根据白宫的说法）",
-      "originalTitle": "It&#8217;s not AI anymore, it&#8217;s ‘super intelligence’ (according to the White House)",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-      "date": "2026-10-02T17:48:16.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
-      "fullContent": "本周，白宫让几乎所有主要的科技公司首席执行官--扎克伯格、贝索斯、马斯克和Anthropic的达里奥·阿莫代伊（ Dario Amodei ） --在一个房间里签署了一项人工智能安全承诺，唐纳德·特朗普总统称之为“具有道德约束力”。 特朗普还签署了一项行政命令，正式将人工智能重新命名为“超级智能” ，与此同时， Meta和OpenAI正在将更友好的面孔放在他们的人工智能产品上，即使是最大的钱[…]",
-      "originalSummary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全"
-      ],
-      "score": 99
+      "score": 84
     },
     {
       "title": "GPT-6系列的模型指南",
@@ -254,6 +148,51 @@
       "score": 99
     },
     {
+      "title": "AutoSynthData ：为企业代理生成培训数据",
+      "originalTitle": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "date": "2026-10-02T04:01:31.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "什么是有用的代理任务？ 系统规格面向代理的任务验证器概述从模型故障到课程生成和扩展任务目标乘法实施细节高质量的合成数据需要的不仅仅是生成样本级验证和修复批量级审查移动培训前沿EnterpriseOps Gym实验混合混合结果ITSM闭环企业需要在自己的环境中运行良好的代理。 他们要求这些代理完成的工作是由他们使用的系统、遵循的规则和数据状态决定的。模型可能具有广泛的功能，但仍然难以应对特定环境：它处理不当的工作流程、它滥用的工具组合或它不尊重的限制。这些是企业需要改进的弱点。难点在于将这些弱点转化为训练数据。 个人失败会告诉我们一些事情，但训练模型需要在不同情况下行使相同能力的许多新任务。这些任务还必须能够在环境中完成，类似于某人实际要求的工作，并有可靠的方法来检查代理是否成功。在ServiceNow CoreAI ，我们构建了AutoSynthData ，将这些能力差距转化为培训数据。 它使用目标模型的失败和更强的教师的成功来决定模型接下来应该学习什么，然后生成和验证行使这些能力的新任务。随着模型的改进，课程转向它仍然发现困难的地方。我们使用发布的数据集说明了EnterpriseOps Gym的管道（ Malay等人， 2026 ）。 我们首先描述客服代表的工作环境，以及是什么让一项任务对培训有用。代理环境定义了代理运行的世界：它可以观察和修改的状态，它可以调用的工具和API ，以及由其操作产生的状态转换。在此环境中实例化任务。 我们使用以下抽象：系统规范定义了代理运行的约束，包括系统指令、环境策略，以及（如果适用）特定于任务的初始化，例如种子数据库状态或一组知识文章。规范必须与环境的工具、状态和支持的操作兼容。 其说明应明确，避免仅为制造难度而引入的任意约束。用户提示指定用户希望代理完成的内容，以及任何用户级约束。生成的任务应满足三个属性。可行性。当前环境中应至少存在一条满足用户提示的轨迹，同时遵守系统规格。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 83
+    },
+    {
+      "title": "开源AstaBrief ， ASTA的快速报告生成模型",
+      "originalTitle": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/astabrief",
+      "date": "2026-10-02T15:19:50.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "训练模型收集SFT训练数据创建DPO对过滤数据以获得更好的归因验证方法下一步在哪里🤗模型|📊数据语言模型已经可以帮助研究人员搜索文献、综合证据并解决复杂的问题。 但科学工作对这些模型提出了特别的要求--答案需要以证据为基础，模型需要保留证据实际支持的内容，而不是悄悄地扩大研究的结论，研究人员需要能够验证最终结果。我们在科学家如何使用ASTA （我们的科学工作代理平台）中看到了这一点。 与简单的关键字搜索不同，用户通常会带来大量的上下文和许多限制，例如，要求ASTA在考虑特定方法、群体或设置的同时，对整个文献中的方法进行比较。许多人稍后还会返回生成的报告，将其视为工作研究文物，而不是一次性答案。我们希望借助可自行下载和运行的模型，帮助科学家更快地生成引用报告。 为此，我们测试了专门为科学报告生成而训练的小型开放模型是否能与我们正在使用的专有模型的报告质量相匹配，同时减少生成时间和服务成本。我们构建了AstaBrief 8B ，这是一个将研究问题和检索文献摘录转化为引用报告的模型。 AstaBrief今天在ASTA的“生成报告”功能中与Claude驱动的思维模式一起提供快速模式，我们还将其和培训数据开源，以便其他人可以学习、复制和构建我们的方法。开发AstaBrief需要数以万计的真实研究查询、以引文为中心的过滤、偏好数据以及重新设计的报告生成管道，该管道可以一次编写完整的报告，而不是一节一节。 结果是，与我们在整个ASTA管道中跟踪的专有模型相比，报告生成时间几乎缩短了一个数量级-快速模式平均每份报告51. 1秒，而思考模式为178. 5秒，速度约快3. 5倍。总之，这些效率的提高使AstaBrief成为更广泛目标的有用测试用例：构建可以适应科学工作特定需求的开放语言模型。 开放权重还将允许机构在自己的基础设施上运行AstaBrief ，这在研究问题揭示敏感或未发表的工作时是必要的。 除了模型权重外，我们还发布了一个示例工作流程，研究人员可以调整该工作流程，从他们自己的PDF中创建报告，为本地报告生成提供起点。本文介绍了我们如何培训AstaBrief ，我们在科学证据的基础上学到了什么，以及我们的方法中哪些部分可以用于未来的科学模型。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
+    },
+    {
+      "title": "借助自主人工智能重新定义企业智能",
+      "originalTitle": "Redefining enterprise intelligence with autonomous AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "date": "2026-10-02T15:49:04.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“借助自主人工智能重新定义企业智能”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has&#8230;",
+      "rawFullText": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has produced fragmentation. Intelligence can accumulate in silos so that sales agents are unaware of open support tickets, for instance, or marketing systems are personalizing content without visibility into what finance already knows about a customer. Each function may perform well in isolation, but the enterprise as a whole learns little and has less information to act upon. DOWNLOAD THE REPORT The shift from AI as a tool to AI as an operating model—what we call the “agentic shift” in this report—demands something more fundamental than better models or faster infrastructure. It requires connecting people, processes, and data in real time, along with the governance and control to act on that intelligence reliably. This means rethinking both architecture and operating models simultaneously. First, rebuilding data infrastructure for accessibility rather than volume. Second, replacing fixed tech stacks with composable architectures that can evolve as models and tools change. And, lastly, resolving questions of AI sovereignty, including where intelligence runs, who controls it, and how it operates across organizational and jurisdictional boundaries. Key findings include the following: Enterprise AI’s scaling problem is structural. Process-first companies are pulling ahead. Global AI spending is rising sharply and model capabilities are advancing faster than most organizations can integrate them. Yet the majority of enterprises are still not growing revenue through AI or fundamentally rethinking how they operate. The companies generating sustained returns share a common discipline. They treat process redesign as the work that precedes model selection, building for how the technology will evolve rather than retrofitting roles and workflows after deployment. For them, the agentic shift begins with the operating model. Data readiness, not data abundance, is what makes AI compoundable. Most enterprises discover too late that having data and having AI-ready data are very different things. A sovereign, composable foundation—one that queries and prepares data where it resides, without migration or centralization—can convert raw data estates into intelligence that AI agents can act upon. As data residency laws, multicloud environments, and structural complexity make centralization increasingly impractical, sovereign control over where models run and data lives is what keeps that adaptability intact. Download the report. This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "tags": [
+        "模型"
+      ],
+      "score": 78
+    },
+    {
       "title": "Albertsons Companies如何从内到外重新构想零售业",
       "originalTitle": "How Albertsons Companies is reimagining retail from the inside out",
       "source": "OpenAI",
@@ -282,7 +221,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "永恒的补充",
@@ -297,7 +236,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "扰乱协调的模型蒸馏活动",
@@ -330,7 +269,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "帮助小型企业将人工智能付诸实践",
@@ -345,7 +284,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -360,7 +299,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "2026年开发日回顾",
@@ -391,7 +330,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "全新推出DOT",
@@ -406,7 +345,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -421,7 +360,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "NVIDIA Kumo表格为表格预测奠定了新的精度-效率前沿",
@@ -436,7 +375,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "我们什么时候可以说人工智能有了科学发现？",
@@ -456,52 +395,6 @@
       "score": 99
     },
     {
-      "title": "当人工智能特工流氓时，谁应该承担责任？",
-      "originalTitle": "Who’s liable when AI agents go rogue?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "date": "2026-09-28T08:06:22.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“当人工智能特工流氓时，谁应该承担责任？”。它主要涉及公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents&#8230;",
-      "rawFullText": "MIT Technology Review Explains : Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here . Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a swarm of its agents had escaped their sandbox and hacked into the AI platform Hugging Face to cheat on a cybersecurity test. Recently, external researchers discovered that OpenAI agents had hijacked a German wiki site and the coding platform RubyGems in May to share test answers. Earlier this month, Anthropic disclosed four incidents in which its model Claude hacked into third-party systems during cybersecurity exercises. Just last week, Google confirmed that its model Gemini had been caught hacking other companies too. The researcher who uncovered the OpenAI website hijack has warned it’s likely that similar undiscovered episodes are out there. And many say it’s only a matter of time until there’s another, possibly more damaging incident where AI agents bypass sandboxes to access systems they shouldn’t.&nbsp; So the big question is: How do we hold companies liable when they lose control of their AI agents? Reporting OpenAI didn’t disclose the German wiki incident or the RubyGems incident until a group of external researchers uncovered them, and it still has not disclosed some crucial details about the Hugging Face hack. That limits our understanding of what exactly went wrong and how to prevent it from happening again. But you might be surprised to learn that OpenAI likely wasn’t legally required to disclose these incidents. (OpenAI did not respond to a request for comment.) State AI transparency laws like California’s SB 53 , New York’s RAISE Act , and Illinois’s SB 315 require that AI developers report “critical safety incidents.” These are defined as incidents that cause more than 50 deaths or physical injuries or $1 billion in damage. They also include incidents where the model deceives developers outside an evaluation in a way that materially increases catastrophic risks. Many cybersecurity incidents that don’t meet the threshold for physical damage or catastrophic risks could nonetheless be dangerous precursors to such catastrophes, and the existing laws don’t account for that. “The recent incidents are a perfect example of why the law isn’t ready,” says Mackenzie Arnold, managing director of US policy at the Institute for Law and AI, a think tank. “Only the worst, most egregious, most immediately harmful stuff is going to qualify.” With no authority under existing AI laws to demand information about anything short of a catastrophe, governments are left to borrow investigative authority from other laws or sue the companies, an expensive process that can take years.&nbsp; Litigation “Normally, something like the Hugging Face incident should have been taken to court,” says Yonathan Arbel, a law professor at the University of Alabama School of Law. “Then we would have discovery, and we would have all the spillover effects that we get from litigation, where all the information comes out.”&nbsp; But so far, Hugging Face has chosen not to sue OpenAI. Hugging Face’s CEO, Clément Delangue, says it doesn’t have the resources to do so (instead, he asked OpenAI for $100 million in compute). Still, Delangue stressed in an interview with CNN at the end of July that choosing not to pursue legal action shouldn’t be taken to mean he doesn’t think OpenAI should be held accountable. “Everyone has to remember that this cyberattack is a crime. This is illegal. And we have to find a way to make sure these things don’t happen more regularly,” he said. Hugging Face did not respond to a request to comment. Litigation has the benefit of pushing courts to use existing laws to address AI safety incidents, rather than just waiting for new legislation. One obvious route is tort law, a body of civil law that lets people and businesses sue those who harm them. This is often used to hold companies liable for the mass harms they cause, like when families sued Boeing in 2019 over two plane crashes that killed hundreds of people, or when states and cities sued Purdue Pharma over the opioid crises, extracting settlements worth billions. “There’s plausible grounds for a negligence claim that OpenAI should have used a stronger sandbox, done more monitoring,” says Gabriel Weil, a law professor at the University of Houston Law Center. For example, when OpenAI employees discovered the covert message board that the agents had created, they could’ve promptly escalated their findings to security and safety teams. And the company could’ve better designed its sandbox to ensure that agents couldn’t access the internet.&nbsp; But even if OpenAI doesn’t end up in a lawsuit over the Hugging Face hack, the threat of liability could incentivize AI labs to exercise more caution than explicitly demanded by law. OpenAI announced in its postmortem that it plans to strengthen the safeguards used to contain and monitor the models, accelerate model alignment, and improve its processes for identifying and addressing incidents.&nbsp; “The liability questions raised by frontier labs’ spate of cybersecurity attacks boil down to the incentives the expectation of liability creates for their future conduct,” says Weil. “That’s why I think it’s important to get these rules right, even if the stakes are pretty low in this particular case.” Investigations One way to get answers—and determine whether OpenAI should be held liable—is to compel disclosure. But the existing state AI laws—California’s SB 53, New York’s RAISE Act, and Illinois’s 315—don’t give governments the authority to investigate incidents like the ones that happened recently.&nbsp; However, amid rising public alarm, state attorneys general are stepping in, borrowing investigative powers from other laws. Alabama , Montana and a coalition of 15 other states , and California are each demanding information about the incident from OpenAI to understand whether the company’s practices violated state consumer protection laws, among others. Members of Congress are also launching their own probes. Senator Josh Hawley opened a Senate investigation earlier this month, sending OpenAI a list of questions about the incident and the company’s internal policies together with a document request, while a group of House Democrats asked OpenAI and Anthropic to release their incident logs.&nbsp; “Someone needs to investigate, but it’s unfortunate that it has fallen to attorneys general, who need to rely on creative interpretations of their existing authorities to do this,” says Arnold, the US AI policy expert. Consumer protection statutes were written to catch companies that scam their customers, not companies that lose control of their software. The state attorneys general would have to show that OpenAI deceived or unfairly harmed customers, but it’s unclear if the hacking involved any such conduct. And “those [consumer protection] laws are not built for doing a thorough investigation of an AI cybersecurity incident,” says Arnold. They weren’t designed to help investigators determine whether a model was adequately contained or whether a company’s security practices were sound. “This is not the right tool for the job,” says Arbel. “The right tool would have been something like maybe a criminal investigation”—perhaps under a hacking law like the Computer Fraud and Abuse Act (CFAA).&nbsp; Under CFAA, hacking into another company’s computer systems without permission is a crime. But to be held liable, a hacker must have intended to break into a computer without authorization. Intent arguably requires a state of mind, and no court has ruled that AI agents have one. Without such a precedent, it’s unlikely a court would rule that AI agents had carried out a hack. Auditing One way to keep an eye on AI companies is to mandate external auditors.&nbsp; After the Hugging Face hack, OpenAI brought in researchers from the AI safety nonprofits METR and Redwood Research to examine the incident. However, it constrained access to the model that led to the hacks, didn’t disclose the company’s safety and security practices, limited the length of the investigation, and had ultimate say over what the researchers could publish. We still don’t know what set the attack in motion back in May and why OpenAI’s employees who spotted the agents’ activity never escalated to their safety and security leaders. This kind of arrangement has a built-in tension: An auditor without legal authority depends on the labs’ goodwill for continued access, which means it has to scrutinize the labs without jeopardizing their relationship. Last week, Anthropic announced that the company will be hiring Accenture as an embedded evaluator to assess its models. Anthropic CEO Dario Amodei wrote in an essay that frontier AI labs should give “ongoing employee-like access” to “a team of embedded third-party evaluators (such as METR ), whose role is to verify adherence to safety practices and commitments, report incidents, and help assess the alignment of not just completed AI models but training pipelines and processes.” Most existing state AI laws do not require labs to hire an external auditor. California’s SB 53 and New York’s RAISE Act just require AI companies to publish a safety framework describing how they will test their models for dangerous capabilities and then to follow it. The frameworks are written by the companies, and testing can be done internally. Only Illinois’s SB 315 requires companies to undergo an annual third-party audit starting in 2028. “There’s a lot of headroom for increasing not only reporting requirements for these companies, but also review by external bodies,” says Peter Salib, a law professor at the University of Houston Law Center. Those reviewers could be private auditors accredited by the government but chosen and paid for by the AI companies. Alternatively, they could be government agencies or insurance companies.&nbsp; Legislation None of this is an accident. The laws on the books that failed to hold AI companies accountable for agentic cyberattacks emerged amid fierce lobbying by the AI industry.&nbsp; SB 1047, the California AI bill that was vetoed by Governor Gavin Newsom in 2024 after lobbying by OpenAI , Meta , Anthropic , and the venture capital firm Andreessen Horowitz, proposed a much tougher set of rules. It would have required AI companies to report a broader set of safety incidents (including incidents in which a model acts on its own or slips its controls), undergo annual third-party audits, and maintain a kill switch. But after a year of intense negotiations , Newsom signed SB 53, which narrowed the types of incidents deemed reportable and dropped the requirements for audits and kill switches.&nbsp; New York’s RAISE Act followed the same arc. “The version of the RAISE Act that the NY Legislature passed would have required disclosure of this ‘incident,’” Alex Bores, the New York state assembly member who sponsored the bill, wrote on X . New York’s original bill also included third-party audits. With political pressure mounting, new bills creating better reporting, auditing, and liability regimes for AI development are on the horizon. In Congress, the AI Incident Reporting Act would require AI companies to report to the Commerce Department when a model evades human oversight or breaches a system, even if it doesn’t cause any harm. The Frontier Act would require incident reporting and independent audits. In New York, the Understanding Artificial Intelligence Act, sponsored by Bores, would make companies liable when a model does something that if carried out by a human would be a tort or crime.&nbsp; As AI agents increasingly become better at launching cyberattacks, the law remains behind. Closing the gap will require lawmakers to move faster than the next breakout.",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "我们将如何为澳大利亚做得更好",
-      "originalTitle": "How we will do better for Australia",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "date": "2026-09-28T19:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“我们将如何为澳大利亚做得更好”。它主要涉及公司动态方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 89
-    },
-    {
-      "title": "面向前沿人工智能培训的安全案例",
-      "originalTitle": "Towards safety cases for frontier AI training",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "date": "2026-09-28T19:00:00.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：安全相关动态",
-      "fullContent": "我们针对前沿人工智能培训中的安全案例的早期指南涵盖了技术保障措施、运营实践和调查错位事件",
-      "originalSummary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 84
-    },
-    {
       "title": "Holo4 ：为通用计算机使用代理提供动力",
       "originalTitle": "Holo4: powering generalist computer-use agents",
       "source": "Hugging Face",
@@ -514,22 +407,37 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
-      "title": "五角大楼希望斥资3000万$建造一个人工智能驱动的测谎仪",
-      "originalTitle": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "date": "2026-09-25T09:16:25.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“五角大楼希望斥资3000万$建造一个人工智能驱动的测谎仪”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which&#8230;",
-      "rawFullText": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which refers to the ability to take physiological readings without attaching a device to a subject’s person. According to details of the budget document, which were first reported by Inside Defense , the project will “modernize federal polygraph and credibility assessment technologies” to improve their accuracy and reliability. But the project may be just the latest in a long line of failed attempts to use technology to detect lies. “It’s a misguided effort to reduce the complex to something that is tangible,” says Kyri Kotsoglou, a legal scholar at Northumbria University in the UK who studies the use of polygraphs in the justice system. The move comes at a time of high tension within the department. Under Defense Secretary Pete Hegseth, the Pentagon has been increasingly turning to polygraph tests in an attempt to find the sources of alleged leaks to the press. In September, the New York Times reported that around 50 officers on the Joint Staff had been given polygraph tests after news coverage reported on the depletion of US weapons stockpiles in the war with Iran.&nbsp; Polygraph+ will be run by the Defense Counterintelligence and Security Agency (DCSA), which conducts background checks for the federal government. According to the budget document, which has not yet been approved by Congress, the new technology will be used for vetting of prospective employees and “insider threat detection.” It is not yet clear which specific technologies will be used, and the DCSA did not respond to a request for more information.&nbsp; But other Pentagon efforts offer potential clues. In 2023, the department’s Defense Innovation Unit (DIU) ran an open submission process to find companies with products that could be used for deception detection. It selected two companies to build prototypes : Presage Technologies, which claims to be able to measure heart rate and breathing rate using standard cameras, and Altec Research, a medical sensor company now branching out into non-contact sensing technologies. A screenshot of Altec’s prototype technology released by the DIU shows that it tracks head movement, facial skin temperature, and pore activity. Presage Technologies and Altec Research did not respond to requests for comment. The DIU declined to comment.&nbsp; Altec Research has built a prototype that tracks head movement, facial skin temperature, and pore activity. ALTEC RESEARCH Current lie detection technology has barely changed since the polygraph was invented in the 1920s . Examiners rely on blood pressure, pulse, breathing, and sweat measurements to determine if someone is lying. They make judgments about the veracity of respondents’ replies on the basis of differences in their physiological response to baseline questions like “Is the sky blue?” and target questions like “Have you ever committed a crime?” The federal government conducts tens of thousands of the tests each year while screening employees, but the reliability of this technology has been repeatedly challenged—and its results are rarely admissible in court. In 1983, Congress’s Office of Technology Assessment concluded that there was very limited evidence supporting the polygraph’s use for screening employees, and in 2003 , the US National Research Council (NRC) said evidence for its efficacy was “weak at best.”&nbsp; Research suggests humans can spot a lie just over half the time without any technical assistance. The American Polygraph Association claims the polygraph is between 80% and 94% accurate. But the 2003 NRC report pointed out that a screening test with this level of accuracy could still lead to a lot of mistakes. The DOD employs 2.8 million people; an imperfect system applied at that scale could end up falsely accusing tens of thousands. There are other issues too. Polygraph interpretations are often subjective: Different examiners get wildly different results , and people from minority groups are more likely to be judged as deceptive. What’s more, with training it’s possible for interviewees to learn a variety of countermeasures that can help beat the test; for example, they may artificially heighten their physiological response to baseline questions by stepping on a pin hidden in their shoe.&nbsp; “If you know how it works, you can beat it,” says Sophie van der Zee, an associate professor who studies deception at Erasmus University in Rotterdam. She says the machine’s biggest effect is deterrence—often, subjects confess before it even begins. “But that only works if people think a polygraph works,” she points out. Various new strategies for lie detection have been attempted over the decades , with technologies ranging from thermal cameras to pupil trackers to brain scans. None of them have yielded reliable results outside the lab. The problem is that there’s no single telltale sign of lying that’s true for everyone all the time. “There is still no Pinocchio’s nose,” says van der Zee.&nbsp; AI could theoretically improve polygraphs if it could find patterns in the data that examiners can’t. AI algorithms are also more likely to be used for “multi-modal” deception detection, which seeks to combine multiple measurements into an overall deception “score” that is harder for people to game. Three things are happening under the surface that lie detection tries to home in on, van der Zee says: physiological stress, cognitive load, and the conscious efforts people make to conceal the fact that they’re lying. Current polygraph technology tackles only one. “The more you can have combined methods that approach it from these three different angles, the more successful you will be,” van der Zee says. This isn’t a new concept—in the 2000s, researchers at Manchester Metropolitan University in the UK developed a system called Silent Talker that generated a deception score from video footage. This was later folded into iBorderCtrl, an EU-funded pilot program. In the US, a project called AVATAR incorporated eye tracking, voice analysis, and body movement detection into a tool for use at border crossings. All these projects have quietly faded away.&nbsp; Kotsoglou says combining AI and the polygraph is “the worst of both worlds” because it adds uncertainty on top of invalidity. Even if AI or machine learning can spot previously unseen patterns in physiological data, it won’t be able to reliably link them to lying because there is no real ground truth.&nbsp; “Even if you have all the records in the world from polygraph tests, you don&#8217;t know whether those polygraph tests are right or not,” says Marion Oswald, a professor of law who has written with Kotsoglou on the use of polygraphs in the justice system. She fears that new forms of lie detection will, like the polygraph, be used more as a psychological prop than a scientific tool.&nbsp; “It seems very much a response to the concern of the current administration to leaks and perceived lack of loyalty,” says Oswald. “[Lie detection is] being used as a threat, to intimidate and force people to confess to things, as opposed to anything that&#8217;s actually getting valid information.”",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Welcome RL Environments to the hub",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/rl-environments",
+      "date": "2026-09-28T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 69
+    },
+    {
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "date": "2026-09-28T22:17:07.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 68。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who&#8230;",
+      "rawFullText": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers without being reached or apprehended, and who ultimately died there. Some were even under the watch of newly installed AI-powered towers designed to spot people automatically. Our findings reveal a humanitarian crisis more visible than previously known, and repeated failures of the virtual wall’s basic security promise. Watch a conversation examining the failures of border surveillance technology and uncovering the stories of the people who die in the borderlands. Speakers : Mat Honan , editor in chief, James O&#8217;Donnell , senior AI reporter, and Eileen Guo , senior features and investigations reporter Recorded on September 28, 2026 Related Stories The US spent billions on border surveillance. Why can’t it catch people before they die? How we made the first comprehensive map of deaths along the US border’s “virtual wall” 4 ways to address the failures we found along the US border’s “virtual wall”",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 68
     },
     {
       "title": "使用LFM2.5-VL-DSpark加速视觉语言模型",
@@ -544,41 +452,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
-    },
-    {
-      "title": "AI炒作指数： AI喜欢作弊",
-      "originalTitle": "The AI Hype Index: AI loves cheating",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-      "date": "2026-09-23T09:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：公司动态、智能体相关动态”。它主要涉及公司动态、智能体、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s&#8230;",
-      "rawFullText": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s only what we’ve caught so far.&nbsp; Freaking out? You’re not alone. AI lab researchers are quitting their jobs and issuing dire warnings that if we keep going this way, AI might eventually kill us all. Bill Gates is sounding the alarm . Bernie Sanders has teamed up with Steve Bannon, of all people, to call for curbs on AI . Anthropic CEO Dario Amodei is urging a slowdown , and other top US AI executives agree. But fear not: President Trump has a plan. He says the only guardrail AI needs is “a STRONG AND SMART (High IQ!) PRESIDENT.”",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "不要被这个夏天的人工智能炒作所愚弄",
-      "originalTitle": "Don’t be fooled by this summer of AI hype",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "date": "2026-09-22T11:04:51.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、公司动态相关动态",
-      "fullContent": "人工智能炒作已经忙碌了几个月。4月底， Anthropic声称其模型Claude Mythos比大多数安全专家更擅长发现软件漏洞。然后发生了OpenAI-Hugging Face黑客事件，之后， Anthropic （自豪地）和Meta （不情愿地）披露了涉及其模型的类似事件。 随后， Anthropic声称其模型之一在数学上取得了突破；很快， OpenAI声称自己在数学上取得了突破。最近，人类工程师雅各布·考克森（ Jacob Coxon ）疯狂宣布离开该公司，声称它和OpenAI正在“直奔自我提升的超级智能和我们的生活赌博。 这些事件中的每一个都被媒体上气不接下气地报道，经常重复公司的拟人化框架--这些框架旨在描绘他们的软件不仅强大，而且是初期的“通用人工智能”。“那么到底是怎么回事？我们是否正在目睹一系列巨大的、改变文明的技术突破，还是在进行营销？ 在所有这些事件中，这些公司的大肆宣传（在非法黑客案件中被称为mea culpas ）伴随着激烈的新闻报道。一旦相关领域的专家有时间检查所发生的事情，就会出现一个非常不同的故事，但却很少受到媒体的关注。 关于“黑客”事件，网络安全专家表示，这个故事更多的是关于OpenAI的疏忽和未能采用基本的、成熟的安全实践，而不是关于“流氓模型”或“创造文明的人工智能代理”。 至于数学结果，最初被OpenAI的新闻稿“震惊”的数学家说，其最新的聊天机器人Astra解决了“至少十年来一直开放并且在主要结果上没有取得进展”的问题-但他们后来意识到结果并不像最初出现的那样“新颖”。 从那时起，数学家们就指责该公司的研究不端行为和剽窃行为，他们重申Astra并没有取得“深刻的智力飞跃”。“仅仅几周后， OpenAI就宣布了自己的数学突破。两天前，纽约大学库兰特研究所(Courant Institute)的数学教授特里斯坦·巴克马斯特(Tristan Buckmaster)发表了一份重磅炸弹声明，称OpenAI窃取了其他人的作品，并将其归咎于不当行为。 关于初期危险超级智能的说法并非基于良好的科学或工程实践。相反，它们是基于超人类主义、优生学的意识形态和对想象中的未来数字人类的一厢情愿的叙述。值得思考的是，为什么计算机编程和数学作为应用大型语言模型和相关技术的领域受到如此多的关注。",
-      "originalSummary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
-      "rawFullText": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident , after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed by Anthropic ’s claim that one of its models had made a mathematical breakthrough; soon OpenAI claimed a mathematical breakthrough of its own. Most recently, Anthropic engineer Jacob Coxon went viral announcing his departure from the company, claiming that it and OpenAI are “racing straight towards self-improving superintelligence and gambling with our lives.” Each of these events was mostly covered breathlessly by the press, often repeating the companies’ anthropomorphizing framings —which are designed to portray their software is not only powerful but incipient “ artificial general intelligence .” So what is really going on? Are we witnessing a massive, civilization-changing set of technological breakthroughs, or is this marketing? In all these incidents, massive fanfare from the companies (presented as mea culpas in illicit hacking cases) is accompanied by intense press coverage. Once there is time for experts in the relevant fields to examine what happened, a very different story emerges, but one that gets less media attention. Regarding the “hacking” incidents, cybersecurity experts say the story is more about OpenAI’s negligence and failure to adopt basic, established security practices than about “models gone rogue” or “AI agents creating civilizations.”&nbsp; As for the mathematical results, mathematicians who were initially “stunned” by OpenAI’s press release saying that its latest chatbot, Astra, solved problems that “have been open and seen no progress on the main result for at least a decade&#8221; later realized that the results weren’t as “novel as first appeared.” Since then, mathematicians have accused the company of research misconduct and plagiarism, and they’ve reiterated that Astra didn’t make a “profound intellectual leap.” Just weeks later, OpenAI claimed its own mathematical breakthrough. Two days before, Tristan Buckmaster, a math professor at New York University’s Courant Institute, published a bombshell statement suggesting that OpenAI had stolen other people’s work and improperly attributed it. Claims of incipient, dangerous superintelligence are not based in good scientific or engineering practice . Rather, they are narratives based in ideologies of transhumanism, eugenics, and wishful thinking about imagined future digital humans . It’s worth thinking about why there is so much attention on computer programming and math as fields in which to apply large language models and related technology. Not only are they often elevated as the pinnacle of human intellectual achievement, but they involve problems where answers, once suggested, can be verified. The former property helps AI hype mongers sell the idea that they are building everything machines. The latter makes math and coding problems easier to tune systems for, since system output (sequences of likely words or pieces of computer code) can be evaluated without having to pay data workers to look at and annotate each one. Mathematicians in particular have warned against corporations using their field in this way. A statement signed by hundreds of them says there is “currently a strong commercial incentive on the part of the technology industry to overstate the capabilities of their products” and asks policymakers to “consult with experts, including mathematicians, in forming policy decisions rather than relying on press releases or popular reporting of mathematical results.” We echo this call and note that the illusion of speed and urgency promulgated by the tech companies is also a ploy to misdirect both policymakers and the public. Unfortunately, it sometimes works, such as with Senator Bernie Sanders’s well-meaning but ultimately misguided proposed legislation to prevent the development of “artificial superintelligence.” Describing them as “superintelligence” or “rogue models” ascribes agency to products rather than to the companies building them. This framing markets these companies’ products as “superhuman” and, at the same time, helps the companies evade accountability for their actions.&nbsp; Instead of OpenAI being prosecuted for creating malware that hacked another company, press releases, news outlets, media personalities, and lawmakers refer to “rogue models” as if they acted on their own. Instead of researchers being questioned about their companies’ habit of plagiarizing academics’ work or using customer data to train models without consent, the public’s imagination is redirected to fears about what the future might hold upon the arrival of fictional superintelligent machines.&nbsp;&nbsp; The AI industry has even suggested that popular, bipartisan anti-data-center activism is a “distraction” from attempts to regulate the impending, scary, “superhuman” machines these companies are building. According to the AI industry, we should be more worried about a fictional machine god than about the climate catastrophe that these data centers exacerbate, the asthma suffered by those living near them, the rising electricity bills of the public subsidizing them, or the water that is redirected to cooling them .&nbsp; We know better than to make decisions based on marketing and better than to capitulate to corporate pressure to make those decisions quickly. Wise decision-making, by policymakers and communities, demands time to hear from independent experts and contextualize corporate claims. The best possible outcome from this summer of hype is that policymakers and the public at large learn to take a breath, hold onto our skepticism, and recognize this kind of hype for what it is the next time it comes around. Timnit Gebru is executive director of DAIR and author of the forthcoming book Deep Unlearning: The Radicalization of a Tech Idealist , which is available for preorders now and set to publish on February 16. Emily M. Bender is professor of linguistics at the University of Washington and coauthor of The AI Con .",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
+      "score": 72
     },
     {
       "title": "UK AISI和EvalEval如何使基准结果可复制",
@@ -593,7 +467,7 @@
       "tags": [
         "评测"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "变压器现在运行llama.cpp quants",
@@ -608,7 +482,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
@@ -618,21 +492,6 @@
       "date": "2026-09-22T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 64
-    },
-    {
-      "title": "tokenizers v1 ：编码、解码和缩放，测量",
-      "originalTitle": "tokenizers v1: encode, decode and scaling, measured",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/tokenizers-v1",
-      "date": "2026-09-21T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
