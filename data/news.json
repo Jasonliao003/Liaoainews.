@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T02:11:22.226Z",
+  "updatedAt": "2026-10-08T02:37:03.419Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,89 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Nous Research确认其估值达到15亿美元，为企业用户推出人工智能代理",
+      "originalTitle": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "date": "2026-10-07T20:48:45.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。开发开源Hermes Agent的初创公司Nous Research以15亿美元的估值筹集了9000万美元的B轮融资，证实了TechCrunch早些时候的报道。 本轮融资由Robot Ventures领投，其他支持者也参与其中，包括Nvidia、Union Square Ventures、Menlo Ventures、三星和小唐纳德·特朗普（ Donald Trump Jr. ）担任合伙人的1789 Capital。新的融资使这家成立三年的初创公司的总融资额达到1.58亿美元（ $ ）。开源Hermes Agent在开发人员和个人中很受欢迎，已被克隆超过2400万次，大约有2次。 根据初创公司的估计，占全球人工智能代币使用量的5%。这笔资金将资助Nous Research通过“Hermes for Business”进军企业领域，使公司能够部署定制的人工智能代理，这些代理可以处理多步骤的工作流程，同时保持其数据的私密性和安全性。据《华尔街日报》报道，到2026年9月中旬， Nous的年化收入约为3600万美元，预计到2026年底将超过1亿美元。 获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
+      "originalSummary": "The developer of Hermes Agent raised a $90 million Series B.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "微软推出全新Nvidia芯片人工智能个人电脑，全面升级Windows 11",
+      "originalTitle": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "date": "2026-10-07T20:22:37.000Z",
+      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。早在6月份，英伟达就宣布已与微软和其他许多PC制造商达成协议，基于其RTX Spark芯片开发适用于Windows的AI和代理就绪PC ，但当时有关这些机器的详细信息还很少。 周三，在旧金山科技周期间举行的活动上，微软公布了其新款Surface Laptop Ultra的规格和价格。PC有两种基本型号，一种起价为$ 2,600 ，另一种具有更强大的芯片，起价为$ 3,700。价格从那里上涨，可选择更多内存和存储空间，最高可达5,900 $。（微软表示，最高端的设备已经售罄。 微软还发布了由RTX Spark芯片驱动的新工作站： Surface RTX Spark Dev Box ，起价为6000 $ ，配备了VS Code、GitHub Copilot CLI、WSL和PowerShell 7等微软开发工具。 这款PC和工作站的优势在于，它们被设计为在本地（免费）在设备上运行AI模型， CPU、GPU、统一内存和其他硬件修改（如卓越的冷却）是处理它们所必需的。此外，他们正在运行经过改进的Windows 11版本，其中包括一个名为“执行容器”的功能。“这使得沙盒AI代理更容易，该公司说。 微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）在活动中表示，该功能将面向所有Windows 11用户。纳德拉解释说： “我们在过去3-4年里意识到的一件事是，仅仅拥有一个模型对任何事情都没有太大帮助。您确实需要进行编排，并且您需要在模型之外拥有内存。你需要有这个利用层，它能够采用多个模型加上上下文，加上内存和动作空间。 他补充说，微软正在实现这一目标， “不仅仅是为了我们的应用程序，而是为任何人的代理提供应用程序。这就是Windows平台向前发展的意义所在。这些设备显然是针对开发人员的，以至于微软为MacBook Pro的交易者提供了高达1000 $的折扣，因为Mac已经成为开发人员和人工智能代理爱好者的热门选择，特别是在硅谷。 尽管如此，这些Surface PC具有如此强大的图形处理能力，也能够进行内容创建、视频处理和游戏，该公司承诺。微软并不是唯一一家在周三宣布其新款Nvidia-RTX Spark AI Windows PC规格的PC公司。戴尔还公布了其先前发布的Dell XPS 16 Creator Edition PC的详细信息。 它现在可以在10月下旬在百思买预购，价格为$ 3,800。",
+      "originalSummary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "算力芯片",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT的“智能用户界面”更新以图片、图表和按钮填充其回复",
+      "originalTitle": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "date": "2026-10-07T19:10:42.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI正在ChatGPT中推出一项新的智能用户界面功能，允许聊天机器人通过交互式视觉效果回答您的问题。该更新与GPT-6一起向所有用户推出，使ChatGPT能够将文本响应与图表、图表、表单、可点击按钮等结合起来。 在一篇解释这一变化的博客文章中， OpenAI表示，它训练了GPT-6何时在文本上生成交互式视觉效果，以及如何在响应中对其进行格式化。OpenAI分享的一个示例显示，如果您询问七速自行车的设计， ChatGPT可能会如何显示其图表，并带有突出显示不同的交互式按钮……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
+      "rawFullText": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the change , OpenAI says it trained GPT-6 when to generate interactive visuals over text, as well as how to format them in its response. An example shared by OpenAI shows how ChatGPT might show a diagram of a seven-speed bicycle if you ask about its design, complete with interactive buttons that highlight differe … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Meta的Muse在手机首次亮相仅一个月后就登陆iPad",
+      "originalTitle": "Meta&#8217;s Muse launches on iPad just a month after its mobile debut",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+      "date": "2026-10-07T18:30:57.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。如果对Meta对人工智能的重视程度有任何疑问，这里有一个新的信号：该公司周三宣布，其Muse助手现在可在专用的iPad应用程序中使用。 尽管用户需求不断，但Instagram花了大约15年时间才达到这一里程碑。与此同时， Muse在iPhone上推出仅一个月后就推出了iPad。（公平地说，将像Muse这样的东西带到iPad上可能并不难，因为它的文本界面很重，图像和视频分辨率以及格式不太重要。）自9月8日在iOS和Android上推出以来， Muse已经突破了6个。 根据市场情报公司Sensor Tower的估计，安装量为600万。该应用程序现在是数十个面向消费者的人工智能代理程序之一，允许用户连接其帐户，以掌握电子邮件、会议、账单等信息，并完成预订、订购生鲜杂货、设定目标和购物等任务。为了做到这一点， Meta一直在添加合作伙伴，这些合作伙伴在Muse中显示为“连接器”。 “用户可以选择性地添加和登录他们，这取决于他们在线生活的哪些部分他们愿意让人工智能代理处理。随着iPad的发布， Meta更新了此列表中的几个新增功能，包括针对小型企业的连接器，如Asana、Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo和Zoom ，以及Meta广告帐户的连接器。它还添加了Notion和Granola。 此外， Meta最近宣布了更多零售合作伙伴，如百思买、Gap、丝芙兰、沃尔玛和Wayfair。这些允许代理代表用户购买这些零售商的网站并完成交易。由于这项技术仍然是新技术，由于网站将代理误认为机器人并阻止其访问，因此这些体验仍然会遇到问题。 周二， Meta宣布，它正在与行业合作伙伴合作，以开放标准的形式为这个问题提供技术解决方案，允许个人人工智能代理向企业表明自己的身份。这将有助于企业将好机器人与坏机器人区分开来。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。",
+      "originalSummary": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "随着新界面的推出， ChatGPT变得更加可视化",
+      "originalTitle": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "date": "2026-10-07T18:00:19.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。现在注册。由于OpenAI称之为智能UI的新功能， ChatGPT即将获得更多可视化功能。 新的界面将于周三推出，其中包含新的GPT-6模型，它将把大量的视觉效果整合到用户的对话中。OpenAI表示，其中许多视觉效果将是交互式的。 换句话说，聊天机器人通常包括可点击按钮、针对特定任务的定制计算器、交互式图表、可编辑图表以及用户可以直接使用的其他元素，而不仅仅是平面、卡通式的图片。根据OpenAI的说法，这里的重大目标是让“学习复杂的主题变得更容易。 “这也可能使ChatGPT更友好，更容易访问，并有助于吸引更多的受众，尽管OpenAI没有直接这么说。在与记者的通话中， OpenAI工作人员简要演示了智能用户界面的功能，展示了新的聊天机器人如何立即生成各种图表和视觉效果，帮助用户理解更抽象的主题。 该公司的产品经理阿鲁什·塞尔万（ Aarush Selvan ）表示，虽然“ChatGPT主要是一个基于文本的界面” ，但该公司真正希望帮助用户“完成任务—从计划食谱或旅行甚至尝试学习东西的日常事务—最有用的答案不仅仅是文本。“塞尔万举了一个大学生的例子，他想知道飞机机翼是如何工作的。 他要求ChatGPT “探索飞机机翼如何产生升力” ，聊天机器人迅速绘制了许多旨在显示飞机如何在空中停留的图表。该公司的其他例子包括食谱的视觉效果、解释自行车力学的图表、多日徒步旅行的地图、个人储蓄计算器等。此新功能可自定义。 与ChatGPT个性的其他方面一样，如果用户不想在回复中添加如此多的视觉效果，他们可以回拨。智能用户界面通过GPT-6在全球范围内推出，适用于专业级、Plus级、商务级和企业级用户，并将于周四面向免费和低成本围棋用户推出。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。",
+      "originalSummary": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
     {
       "title": "OpenAI又推出了一批数学突破",
       "originalTitle": "OpenAI drops another batch of mathematical breakthroughs",
@@ -46,23 +129,6 @@
       "originalSummary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
       "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic将为初创公司提供免费的Claude Team一年和1,000 $的学分",
-      "originalTitle": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
-      "date": "2026-10-06T16:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。周二， Anthropic宣布扩大其Claude for Startups计划，为其AI模型提供补贴，并为符合条件的公司提供各种其他福利。 该计划的新版本作为Anthropic旧金山科技周活动的一部分推出，提供免费的Claude Team一年，这是Anthropic的团体付费计划，最多可提供五个高级座位，以及$ 1,000的API学分，用于与Claude一起构建。公司还将获得Claude Marketplace的访问权限，该平台允许他们为该服务构建插件。公司还可以通过Anthropic的应用人工智能团队预订虚拟办公时间。 Anthropic在一份声明中表示： “我们之所以创建这个计划，是因为我们相信人工智能的好处将通过建立在模型之上的公司而不是仅仅通过模型来惠及大多数人。” “这使得与创始人和开发人员密切合作成为我们使命的核心。“如果公司在过去五年中成立或在过去两年中获得资金，则符合资格。 有兴趣的公司可以通过Claude for Startups计划页面申请。获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
         "公司动态",
         "模型"
       ],
@@ -101,51 +167,18 @@
       "score": 99
     },
     {
-      "title": "OpenAI将开始在欧盟为ChatGPT的文本添加水印",
-      "originalTitle": "OpenAI will start watermarking ChatGPT&#8217;s text in the EU",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "date": "2026-10-05T20:36:48.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。该公司周一在一篇博客文章中表示， OpenAI将开始为欧盟的ChatGPT和Codex生成的文本添加无形水印，以遵守《欧盟人工智能法案》。 《欧盟人工智能法案》的透明度规则于8月2日生效，要求人工智能公司以其他系统可以识别的方式标记人工智能生成的内容。OpenAI表示，水印将在未来几周内在所有计划中向符合条件的ChatGPT和Codex用户推出，但仅限于欧盟。从今天开始，在世界任何地方使用OpenAI API的开发人员都可以为选定的模型打开它；默认情况下，它处于关闭状态。 OpenAI表示，它不会在发布时将文本水印作为全局默认设置。水印不是一个实际的符号，而是通过巧妙地塑造模型的单词选择，留下读者看不到的模式，但检测器可以拾取。因为它存在于文字本身中，所以当它被复制和粘贴时，它会与文本一起传播。 OpenAI表示，水印无法识别用户，并且打开后，其模型的性能没有任何有意义的变化。除了公告之外， OpenAI还发布了一份名为textGrain的方法技术报告。它与宾夕法尼亚大学和耶鲁大学的研究人员共同撰写，介绍了使用密钥对下一个单词预测进行排序以完成句子的示例。 将数百个轻推放在一起，检测器可以仅使用文本和密钥来识别人工智能生成的内容。可以通过编辑来删除水印吗？ OpenAI的测试表明是。在一项测试中，用同义词替换10%的单词，检测率从约92%下降到66%。该公司还表示，短文、数学答案和翻译文本更难被发现。 该公司表示： “这些限制促使我们决定仅向经批准的研究人员和专家组织提供初始探测器访问权限，他们可以帮助我们评估可靠性和负责任的使用。” OpenAI还警告说，缺少水印“并不能证明人类的作者身份。“文本可能太短或编辑过多，也可能来自另一家公司的人工智能。 该公司表示： “[水印]可以表明OpenAI系统生成或处理了段落的一部分，但不能表明人类的判断、编辑或创造力有多大。”此前两个月， Anthropic表示将为Claude生成的文本添加水印，此举正在全球范围内实施。 这一决定引起了一些Claude用户的强烈反对，他们认为他们提供了“指示、背景和决定” ，而Claude只是“工具”。",
-      "originalSummary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+      "title": "使用Ironclad推进计算机使用",
+      "originalTitle": "Advancing computer use with Ironclad",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "date": "2026-10-06T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "了解OpenAI和Ironclad如何在复杂的合同工作流程中培训和评估AI代理，以推进计算机用于专业工作。",
+      "originalSummary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
       "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "维基百科运营商表示， OpenAI的“流氓”机器人可能与5月份的停电有关",
-      "originalTitle": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
-      "date": "2026-10-05T19:05:19.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "继最近许多关于人工智能代理访问第三方网站和服务的披露之后，托管维基百科的维基媒体基金会表示，它“可以确认我们已经发现了一些“流氓”OpenAI代理在维基媒体平台上的活动”。 根据一篇博客文章，该活动包括对维基媒体维基的编辑， “尝试” “利用”维基媒体基金会托管的Etherpad笔记记录工具的“失败尝试” ，以及基金会称“可能”导致5月份发生的部分中断的大量流量。然而，维基媒体基金会表示，它没有发现其系统“用于坐标”的证据……阅读The Verge的完整故事。",
-      "originalSummary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation [&#8230;]",
-      "rawFullText": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation hosts, and heavy traffic that the foundation says \"may\" have contributed to a partial outage that happened in May, according to a blog post . However, the Wikimedia Foundation says it didn't find evidence that its systems were \"used for coordinat … Read the full story at The Verge.",
       "tags": [
         "公司动态",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "OpenAI正在ChatGPT和Codex中添加文本水印",
-      "originalTitle": "OpenAI is adding text watermarking in ChatGPT and Codex",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "date": "2026-10-05T18:08:39.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "文本输出中不可见的机器可读水印正在向ChatGPT和Codex推出，但最初仅适用于欧盟用户。OpenAI表示，其textGrain水印“匹配或超过”了其他方法，如Google DeepMind的SynthID for text ，这也是8月份宣布的Anthropic水印的基础。 与OpenAI一样， Anthropic也采取了行动，以满足欧盟《人工智能法案》的要求；然而，并非所有人都乐于了解这一新增内容。OpenAI还包括AI基准的分数，显示了水印和未水印文本的类似性能。但它指出， textGrain “并不能保证......在The Verge阅读完整的故事。",
-      "originalSummary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic [&#8230;]",
-      "rawFullText": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August . Like OpenAI, Anthropic made the move to meet the requirements of the EU's AI Act ; however, not everyone was happy to learn about the addition. OpenAI also included scores from AI benchmarks showing similar performance from watermarked and unwatermarked text. But it notes that textGrain \"does not guarantee … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "研究"
       ],
       "score": 99
     },
@@ -166,20 +199,65 @@
       "score": 99
     },
     {
-      "title": "OpenAI PR告诉记者“继续前进” ，同时向Sam Altman询问ChatGPT用户的自杀情况",
-      "originalTitle": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
-      "date": "2026-10-05T16:55:42.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "一位OpenAI公关人员在编辑提到ChatGPT用户的自杀后，试图改变首席执行官Sam Altman采访《名利场》的Mark Guiducci的话题。当Guiducci就此事件与Altman对质时，这位公关人员警告Guiducci时间不多了，说她想“继续”另一个话题。 在Guiducci问Altman是否知道Laura Reiley是谁之后不久，这位记者为《纽约时报》撰写了一篇关于她女儿在自杀前与ChatGPT对话的文章。“她的女儿在与ChatGPT交谈后自杀。ChatGPT没有让她自杀--“顾……在The Verge阅读完整的故事。",
-      "originalSummary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came [&#8230;]",
-      "rawFullText": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair 's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came shortly after Guiducci asked Altman if he knew who Laura Reiley is, a journalist who wrote an essay for The New York Times about her daughter's conversations with ChatGPT before she took her own life. \"Her daughter committed suicide after speaking to ChatGPT. ChatGPT did not tell her to kill herself-\" Gu … Read the full story at The Verge.",
+      "title": "我们对欧盟文本来源规则的方法",
+      "originalTitle": "Our approach to EU text provenance rules",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/eu-text-provenance",
+      "date": "2026-10-05T15:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI如何根据欧盟规则处理文本水印。了解水印的应用范围、检测工作原理以及访问权限从研究人员开始的原因。",
+      "originalSummary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
         "公司动态"
       ],
-      "score": 98
+      "score": 93
+    },
+    {
+      "title": "将人工智能代理与企业知识联系起来",
+      "originalTitle": "Connecting AI agents to enterprise knowledge",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "date": "2026-10-05T15:47:52.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“将人工智能代理与企业知识联系起来”。它主要涉及智能体方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately&#8230;",
+      "rawFullText": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately take actions. Without sufficient knowledge, agents are prone to making flawed and unreliable decisions. A lack of knowledge, our research finds, is a major reason agentic AI use cases never make it to production. Competitive pressure is making it urgent to address this. Organizations need to deploy and scale more of their agentic projects to capture the efficiency gains AI promises. Falling short risks wasting the investment already sunk into these projects, and it cedes ground to rivals already putting their agents to work more effectively. DOWNLOAD THE REPORT The purpose of this report, which is based on a survey of 300 data, AI, and other technology executives, is threefold. First, it seeks to gauge organizations’ agentic knowledge capabilities (i.e., their ability to give AI agents a full contextual understanding of the data they ingest) across semantic knowledge, episodic memory, and procedural knowledge. Second, the report probes the challenges organizations face in improving access to knowledge and ultimately to getting more agent use cases into production. Third, it explores the measures organizations are taking to overcome these challenges. The key findings include the following: Data and knowledge weaknesses consistently stall AI agent progress. On average, only around a third (34%) of organizations’ agentic AI projects make it into production. Even high-tech firms struggle with this. Legacy data systems, security and privacy concerns, and a lack of knowledge and context are the key points of failure. Strong knowledge capabilities correlate with agent success. A small group of production leaders (organizations where on average 61% of agentic projects advance beyond pilot) have stronger knowledge capabilities than the rest, especially when it comes to semantics. This advantage tracks closely with their higher production rate. Fragmented data hugely complicates knowledge access. Data fragmentation (the inadequate sharing of data across systems) was most commonly cited as a top challenge to expanding agents’ access to knowledge (cited by 55%). Production leaders, by contrast, are more likely to see security and privacy concerns as a major concern (cited by 72% of this group). Most firms aim to strengthen the link between data and agents. Among steps that can yield higher quality agent decisions, executives expect the biggest impact to come from strengthening the structural foundation between the organization’s data and its AI agents. The experts we interviewed see a knowledge layer as a prime way to achieve this. Investment priorities to boost knowledge range from pipelines to knowledge graphs. To expand agent access to knowledge, organizations will prioritize investments in retrieval technologies, like ingestion pipelines, AI-ready APIs, and retrieval-augmented generation (RAG); in AI evaluation agents; and in knowledge graphs. Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 92
+    },
+    {
+      "title": "MIT Technology Review：智能体、模型相关动态",
+      "originalTitle": "Bringing predictive analytics to the agentic AI era",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "date": "2026-10-05T13:29:32.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体、模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：智能体、模型相关动态”。它主要涉及智能体、模型方向，热度评分为 88。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between&#8230;",
+      "rawFullText": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between leaders and laggards is widening accordingly. “Enterprises are done with a backward-looking point of view; they want to be more forward-thinking,” says Vishal Gupta, partner at research firm Everest Group. DOWNLOAD THE REPORT Intelligent analytics, powered by technologies like deep learning and generative AI, are making this possible. Real-time training allows AI to evolve continuously instead of waiting for quarterly refreshes. In addition, the data that newer predictive engines rely upon has expanded to encompass not just neat, numerical records but also messy, unstructured sources of insight-rich interactions. As a result, AI-powered analytics are moving enterprises from passive hindsight to pragmatic foresight. AI takes predictive analytics—a broad discipline that includes predictive modeling, data prep, analysis workflows, interpretation of results, and decision-making applications—to new heights. “In many ways I think the word ‘analytics’ is giving way to AI,” says Gupta. “Everything is becoming AI.” Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "People really hate AI, so why can’t they get enough?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "date": "2026-10-05T08:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI&#8230;",
+      "rawFullText": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI company. We don’t know if we really like what we’re doing.” “I guess that makes me a self-loathing AI journalist,” I replied. It was a joke! I love my job. But I do not love many of the things the technology I write about has become: warped by hype , steered by zealots , inescapable . The CEO of Springboards and I are far from alone. Around the world, a love/hate attitude toward AI is very much the vibe right now. On the one hand, public feelings are souring fast. According to the Pew Research Center, more adults in the US think AI will have a negative impact on them personally, and on society in general, than expect a positive one. The pessimism is strongest among the young. More than half of people worldwide say that AI products and services make them nervous, according to a report from Stanford University . In a Gallup poll in May, 71% of US adults said they would oppose construction of a new AI data center in their area, far more than the 53% who said they would oppose a new nuclear power plant. And in an NBC poll in March, AI was less popular than ICE. Yet the number of people using AI is still skyrocketing. ChatGPT hit a billion monthly users in May, according to the market analysis firm Sensor Tower. Google DeepMind’s Gemini is close behind, logging 950 million users in July. According to Pew, half of US adults now say they use a chatbot , more than twice the number who said they did in 2023. One in four people say they do so every day. And it’s a global habit: More than a third of adults across all 38 OECD countries (a group of the world’s wealthiest democracies) report having used generative AI tools in the last three months . All these surveys paint a picture of two contradictory truths: A lot of people really do not like AI and a lot of people cannot get enough of it. What’s going on? It’s possible that these are two distinct groups, but I doubt it. The numbers don’t add up unless the Venn diagram is on its way to being a circle. It’s also possible that the more people use AI, the more negative their opinions about it will be. There’s at least a correlation to back this up : The Global North, where adoption is highest, skews pessimistic. In the Global South, where adoption levels are lower, people are more optimistic. But here’s what I really think is going on: When people say they hate AI it’s not the technology they dislike but, rather, the relentless drive of the companies behind it to push the tech upon us in as many ways as possible . They’re telling us to brace for the biggest social and economic upheaval in generations. How do they expect people to feel? In many ways, we’ve been here before. We saw a similar dynamic play out with social media over the last 20 years. Billions flocked to Facebook and Twitter despite mounting techlash against the companies that ran those services. Ditto for Google search. With social media there wasn’t much anyone could do. Quitting a platform meant losing all your content and connections, giving you the choice to suck it up or start over. But with AI there’s still a chance for people to have some sway. There’s certainly more political appetite for regulation this time around. All 50 US states have either passed or proposed laws governing the development and deployment of AI , creating a patchwork of more than 2,100 bills across the country—a tenfold increase in three years. And with a number of top-class open-source alternatives to Google and OpenAI and Anthropic already on the market, there’s also (for now, at least) the potential for more consumer choice and the market pressure that goes with it.&nbsp; I don’t want to be naïve. Trillion-dollar companies are hard to move. But what comes next is not as inevitable as those companies often imply. When I asked the Springboards CEO why his firm was developing a new model if he didn’t really like AI, he told me there was no walking back from LLMs—but you could still make them do something different.&nbsp; Here’s hoping we see a lot more of something different: Clarity about what AI can and cannot do and, crucially, a technology that&#8217;s not sold as if it’s about to take over the world.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -194,7 +272,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "GPT-6系列的模型指南",
@@ -242,7 +320,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "开源AstaBrief ， ASTA的快速报告生成模型",
@@ -257,7 +335,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "借助自主人工智能重新定义企业智能",
@@ -272,38 +350,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
-    },
-    {
-      "title": "Albertsons Companies如何从内到外重新构想零售业",
-      "originalTitle": "How Albertsons Companies is reimagining retail from the inside out",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/albertsons-reimagining-retail",
-      "date": "2026-10-01T16:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“Albertsons Companies如何从内到外重新构想零售业”。它主要涉及大模型、公司动态方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "借助ChatGPT Work ， DEN每周可腾出10-15个小时进行成长",
-      "originalTitle": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-den-family-social",
-      "date": "2026-10-01T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "随着新地点的开放，社交俱乐部将在2小时（而不是3天）内准备赠款申请，并在3小时（而不是4天）内准备酒牌材料。",
-      "originalSummary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 90
+      "score": 76
     },
     {
       "title": "永恒的补充",
@@ -318,24 +365,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 78
-    },
-    {
-      "title": "扰乱协调的模型蒸馏活动",
-      "originalTitle": "Disrupting a coordinated model-distillation campaign",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "date": "2026-09-30T10:30:00.000Z",
-      "summary": "这条新闻与公司动态、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、推理相关动态",
-      "fullContent": "了解OpenAI如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。",
-      "originalSummary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "推理",
-        "模型"
-      ],
-      "score": 99
+      "score": 77
     },
     {
       "title": "OpenAI首席研究官表示： “我们不会因为黑客攻击而自杀”",
@@ -351,7 +381,7 @@
         "公司动态",
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -366,7 +396,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -380,21 +410,6 @@
       "rawFullText": "",
       "tags": [
         "智能体"
-      ],
-      "score": 79
-    },
-    {
-      "title": "NVIDIA Kumo表格为表格预测奠定了新的精度-效率前沿",
-      "originalTitle": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "date": "2026-09-29T15:30:38.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
-      "fullContent": "NVIDIA Kumo表格是NVIDIA Kumo结构化模型系列的一部分，是Hugging Face上可用的表格数据的开放式基础模型。给定一个标记行的表，它预测单个正向传递中新行的标签，没有训练，没有调谐，也没有特征工程，用于分类和回归。 它仅在人工数据上进行了预训练，有三种大小（ 28M至215M参数） ，通过我们的开源库运行，并根据OpenMDW-1. 1许可证发布用于商业用途。它在TabArena、BeyondArena、TALENT和ScoringBench四个基准中排名第一。表格数据是企业机器学习的支柱。 客户记录、交易、传感器日志、索赔和订单都存在于表中，从中预测流失、违约、需求或价格是行业中最常见的机器学习任务之一。二十年来，这项工作一直是用梯度增强的树木完成的，而且效果很好。但这些模型的生命周期几乎没有改变。 每个新问题都意味着收集标签、工程功能、搜索超参数、验证和部署一个对表格一无所知并从头开始学习每个任务的模型。大型语言模型展示了处理新任务的不同方式。给定提示中的几个示例，预训练模型在不更新单个权重的情况下解决任务。 这是上下文学习，它适用于表格和文本：在数百万个表格上预训练的模型可以将标记的表格读取为其上下文，并直接预测新行的标签。今天，我们发布了NVIDIA Kumo Tabular （ GitHub、HuggingFace ） ，这是一个用于表格分类和回归的开放基础模型。 给定一个带有标记行和您想要预测的行的表， Kumo Tabular在单次向前传递中返回类概率或数值预测。Kumo Tabular是围绕表格结构构建的变压器，利用TabICL和TabPFN中引入的列、行和上下文关注。 要预测标签，它必须做三件事： （ 1 ）了解每个值在其列中的含义， （ 2 ）了解行的列如何相互作用，以及（ 3 ）将上下文行与现有标签关联到具有未知标签的查询行。Kumo表格实现如下：单元格嵌入：一组单元格成为令牌。 数值和分类值通过傅里叶特征、学习频率的正弦和余弦，每种类型都有单独的权重。缺失值无需填补，并得到特殊处理。最后，上下文中的每个令牌都会收到标签嵌入。行嵌入：然后，我们通过多次交替两种注意力将每行变成嵌入。",
-      "originalSummary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
       ],
       "score": 78
     },
@@ -411,7 +426,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "我们什么时候可以说人工智能有了科学发现？",
@@ -443,7 +458,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "欢迎RL环境来到HUB",
@@ -458,7 +473,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "圆桌会议：虚拟边界墙的致命失败",
@@ -473,22 +488,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "使用LFM2.5-VL-DSpark加速视觉语言模型",
-      "originalTitle": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "date": "2026-09-24T14:08:57.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "如何对CPU和GPU上的VLM训练和架构推理加速进行推测性解码视觉工作负载推测的局限性如何使用LFM2. 5-VL-DSpark入门引文今天，我们发布了我们的视觉语言模型(VLM) LFM2. 5-VL-3B的实验性DSpark草案模型。与我们最近发布的LFM2一样。 5-DSpark起草器模型，它添加了一个投机解码路径，在不改变输出质量的情况下，以最小的内存占用增加为更大的加速。视觉起草者使用与我们的文本LFM2. 5-DSpark起草者相同的架构：它捕获目标模型在一组固定的点击层上的隐藏状态和条件，以起草一组k个候选令牌。 图像补丁和文本令牌被投影到这些图层之前的共享表示中，因此无论输入模态如何，起草者都会对相同维度的隐藏状态向量进行操作。因此，推理算法与文本模型保持不变。我们遵循DSpark方案，混合了视觉语言SFT数据，并根据我们期望模型提供的工作负载进行加权。 基于3层、4层和5层的烧蚀，草案模型是一个简化的仅注意力起草器，具有4层和9块大小。我们在最终混合物上运行了10个纪元，并在每个纪元之后测量了验收，在达到递减回报之前，通过额外的训练代币进行了改进。在推断时，我们建议区块大小为8或9 ，具体取决于硬件。 由此产生的起草器具有约2.8亿个参数，并且部署模型的参数计数仅增加8. 9%。LFM2. 5-VL-3B的DSpark草案模型附带对llama. cpp、MLX-VLM和SGLang的第一天支持。我们同时测量设备上的推理和GPU推理。 两种配置都使用DSpark块大小为8 ，并按照MMSpec基准对六种不同的基于视觉的任务进行评估，包括一般VQA、文本VQA、图像字幕、图表VQA、复杂推理和多回合对话。设备上推理。使用M5 Max上的MLX ，解码速度比任务快2. 30倍至3. 13倍。端到端延迟提高了1. 56倍，达到2. 62倍。在M3 Ultra上使用llama. cpp ，解码提高了1. 57倍至2。 14倍，端到端为1. 30倍至1. 77倍。GPU推理。在H100上，同一起草器提供20. 4倍至2. 66倍的解码速度，端到端改进1. 64倍至2. 27倍。在LLM中，预填充主要受计算约束，其成本随提示长度呈二次增长。VLM增加了这一点，因为图像首先通过视觉编码器，然后语言主干处理数百个可视化令牌以及文本提示。 边缘设备的计算量远低于数据中心GPU ，因此预填充占用了更多的端到端延迟，正如Apple silicon和H100上的首次令牌时间和解码测量所显示的那样。（ M5的每核GPU神经加速器缩小了这一差距）。推测解码仅加速解码，而不是视觉编码或预填充。当这些阶段已经占用了大量的墙壁时间时，即使是大的解码加速也只能提供适度的端到端增益。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 71
+      "score": 66
     },
     {
       "title": "UK AISI和EvalEval如何使基准结果可复制",
@@ -513,6 +513,21 @@
       "date": "2026-09-22T00:00:00.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 63
+    },
+    {
+      "title": "OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持",
+      "originalTitle": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/omlx",
+      "date": "2026-09-22T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“OMLX创建者和维护者Jun Kim加入Hugging Face ，为MLX社区提供支持”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
