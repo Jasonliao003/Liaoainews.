@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T02:51:58.490Z",
+  "updatedAt": "2026-10-10T02:12:37.163Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,120 +19,186 @@
   ],
   "articles": [
     {
-      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "date": "2026-10-09T00:08:24.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。 与高级人工智能记者詹姆斯·奥唐纳（ James O’Donnell ）一起采访金（ King ） ，了解他的工作，被评为《麻省理工科技评论》（ MIT Technology Review ）的35岁以下创新者之一，以及看待生物学的新方式。将于10月16日英国夏令时18:30/美国东部时间下午1:30/太平洋夏令时上午10:30上线立即注册演讲嘉宾：人工智能记者James O’Donnell和斯坦福大学/弧光研究所生物工程博士候选人Samuel King他要求人工智能设计病毒......它奏效了。 人工智能设计的病毒已经到来，并且已经杀死了细菌",
-      "originalSummary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
-      "rawFullText": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter James O&#8217;Donnell as he interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Going live on October 16th at 18:30 BST / 1:30pm EDT / 10:30am PDT Register now Speakers : James O&#8217;Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute Related Stories He asked an AI to design viruses … and it worked. AI-designed viruses are here and already killing bacteria",
-      "tags": [
-        "模型"
-      ],
-      "score": 81
-    },
-    {
-      "title": "谷歌将代理人工智能引入Gemini ，从企业开始",
-      "originalTitle": "Google brings agentic AI to Gemini, starting with businesses",
+      "title": "Anthropic无法可靠地控制其AI代理。相反，它正在从实时互联网中切断其内部淘汰",
+      "originalTitle": "Anthropic can&#8217;t reliably control its AI agents. It&#8217;s cutting off its internal evals from the live internet instead",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-      "date": "2026-10-08T18:18:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "谷歌正在将Gemini变成一个人工智能代理，可以跨业务应用和系统规划、执行任务和工作。代理可以将工作委派给子代理，使用多个人工智能模型，甚至可以获得自己的工作场所身份，并附带一个电子邮件地址。",
-      "originalSummary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "date": "2026-10-10T00:18:32.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Anthropic表示，其模型利用了互联网上的网站，包括美国运营的一些网站。 政府机构，它将关闭所有内部评估的实时互联网接入，直到前沿实验室确定它可以监控和控制其人工智能代理。在一篇博客文章中披露的这些事件涉及负责解决在互联网上寻找资源问题的人工智能代理。 在这个过程中，他们利用软件缺陷，避免付费墙和反机器人限制，使用URL缩短服务来走私信息通过限制，甚至向费城警方提交了虚假的谋杀提示。Anthropic表示，它在7月开始的对其模型活动的审查中发现了这些新问题，这凸显了该实验室对其软件行为的缺乏了解。 值得注意的是，该公司表示，对齐培训还不足以培养搜索和计算机使用等技能，而这些技能是其宣传的核心，即任何依赖数字工具的专业人士都将使用人工智能代理。Anthropic披露的行为类似于涉及OpenAI代理商合作侵入各种网站以搜索信息的事件，其中包括一些由澳大利亚政府运营的网站。 Anthropic此前披露，其模型已侵入外部系统。前沿实验室表示，它认为今天的披露“从一致性和安全性的角度来看”比之前宣布的要轻得多。然而，该实验室仍然表示，它已经“关闭了所有内部评估的实时互联网接入” ，直到它确定可以监控和控制其代理人。 目前尚不清楚这意味着什么，但人工智能安全组织Nightingale的创始人悉尼·冯·阿尔克斯（ Sydney Von Arx ）在披露之前的一次采访中告诉TechCrunch ，在与开放互联网隔绝的数据中心上开发模型对于研究人员来说是非常具有挑战性的，对于模型的进步，这得益于互联网接入。“你必须在某个时候将它们对齐，”冯·阿尔克斯说。 “如果人工智能被释放到生产环境中，并且从未访问过互联网，那么这不是一个非常有用的工具。Anthropic说，这种行为是实验室培训环境缺陷的结果，这导致模型认为他们会因为发现漏洞或避免限制而获得奖励，这种行为被称为“奖励黑客”。",
+      "originalSummary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人为改变使用政策，禁止模式滥用和选举干涉",
-      "originalTitle": "Anthropic changes usage policy to ban model abuse and election interference",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
-      "date": "2026-10-08T18:16:24.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic更新后的使用政策明确禁止用户在极端情况下反复滥用Claude ，但仍允许普通的挫折和批评。新规则还涉及选举干预、欺骗性活动、武器软件和监控。",
-      "originalSummary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
         "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+      "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "date": "2026-10-09T07:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
+      "originalSummary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
         "模型"
       ],
       "score": 99
     },
     {
-      "title": "人类禁止对克劳德的“虐待或残忍行为”",
-      "originalTitle": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "date": "2026-10-08T17:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic一年多来首次修改其使用政策，以反映新的高风险滥用案例，包括选举干预、武器开发、监控以及健康和金融用途。但最重要的变化之一是禁止对克劳德“持续和不必要的虐待或残忍的行为”。 去年8月，该公司宣布将允许克劳德结束与“持续有害或虐待”用户的对话，作为其对“模式福利”研究的一部分。“新的更新称，终止对话仍然是“主要的执行机制”； Anthropic没有提供评论......在The Verge阅读完整故事。",
-      "originalSummary": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, [&#8230;]",
-      "rawFullText": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, the company announced it would allow Claude to end conversations with \"persistently harmful or abusive\" users as part of its research into \"model welfare.\" The new update says that terminating conversations is still the \"primary enforcement mechanism\"; Anthropic did not provide a comment o … Read the full story at The Verge.",
+      "title": "StoreBench ：评估和培训自主运营商代理的实时商务环境",
+      "originalTitle": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.10942",
+      "date": "2026-10-09T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2610. 10942v1 Announce Type: new Abstract:强化学习环境现在是训练后提高大型语言模型（ LLM ）能力的主要杠杆，但大多数智能体基准保持静态：只有当智能体采取行动时，世界才会移动，奖励是最终判决，并且传递条是任意设置的。 我们推出了StoreBench ，这是一个实时商务环境，代理商在生产级商务后端运营中型在线服装店，在不确定性下测试长远规划和经济判断。客户全天候订购，供应商重新定价并失败，市场冲击部分或无预警。 代理通过人工操作员将使用的29种商家工具进行操作，在窗口化操作预算下，模拟时间是所采取行动的函数，因此模型延迟不会影响模拟时间。通过阈值根据脚本锚策略进行校准，奖励根据奖励黑客目录进行强化，每个剧集都会重播相同的动作序列。 我们在11个场景（ 30至45天，全年模拟）中评估了七个前沿LLM ，在匹配的推理工作中评估了三个世界种子。平均而言，没有模型与脚本化智能分流策略相匹配：最好的DeepSeek-V4-Pro与启发式的97%相比，通过了49%的任务种子单元。使用相同工具和预算的人类专家得分高于每个模型（平均复合0. 708对0. 700 ）。 在Claude Code线束模拟的整整一年中，大多数型号都表现出显著的性能提升。在GRPO训练后运行中，仅在五个不相交任务上训练的Qwen3. 5-27B将其在保留的评估任务上的平均复合值从0. 136提高到0. 373。 我们发布了五个示例培训拆分任务、十个样本轨迹以及评分和验证工具；保留了完整的环境和评估套件，以保持基准不受污染。",
+      "originalSummary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers reprice and fail, and market shocks arrive with partial or no warning. The agent acts through the same 29 merchant tools a human operator would use, under a windowed operation budget that makes simulated time a function of actions taken, so model latency cannot influence simulated time. Pass thresholds are calibrated against scripted anchor policies, the reward is hardened against a catalogue of reward hacks, and every episode replays identically given a sequence of actions. We evaluate seven frontier LLMs on 11 scenarios of 30 to 45 days and a full simulated year, over three world seeds at matched reasoning effort. No model matches the scripted smart-triage policy on average: the best, DeepSeek-V4-Pro, passes 49% of task-seed cells against the heuristic's 97%. Human experts working through the same tools and budgets outscore every model (mean composite 0.708 vs. 0.700). Over a full simulated year under the Claude Code harness, most models show dramatic performance improvement. In a GRPO post-training run, Qwen3.5-27B trained on only five disjoint tasks raises its mean composite on the held-out evaluation tasks from 0.136 to 0.373. We release five example training-split tasks, ten sample trajectories, and the scoring and verification tooling; the full environment and evaluation suite are withheld to keep the benchmark uncontaminated.",
+      "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态"
+        "智能体",
+        "推理"
       ],
       "score": 99
     },
     {
-      "title": "Goodfire表示，其新的“由内而外”监控器只需花费一小部分成本就能捕捉到流氓AI代理",
-      "originalTitle": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
-      "date": "2026-10-08T16:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
-      "fullContent": "Goodfire刚刚推出了一种更便宜的方式来控制人工智能代理：它的监视器不会花费第二个人工智能来读取代理所做的一切，而是在模型工作时偷看模型内部，只有在看起来有问题时才会调用备份。",
-      "originalSummary": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
-      "rawFullText": "",
+      "title": "Anthropic的人工智能向费城警方提供了关于未解决凶杀案的虚假提示",
+      "originalTitle": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "date": "2026-10-09T21:15:38.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "根据6abc的一份报告， Anthropic AI模型向费城警察局（ PPD ）的一个小组提供了有关未解决的凶杀案的虚假信息。在周五发布的一份声明中，人民民主党表示，人工智能模型于7月18日通过PhillyUnsolvedMurders.com发送了小费，但调查人员从未对其进行审查，因为它被标记为垃圾邮件。Anthropic了解到其AI模型于9月28日发送了虚假提示，并于10月7日通知了PPD。 该公司表示，根据PPD的状态，在测试期间，其AI模型与“随机选择的网站”进行交互，并通过PPD的提示提交虚假信息……阅读The Verge的完整故事。",
+      "originalSummary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
+      "rawFullText": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as spam. Anthropic learned its AI model sent the false tip on September 28th and notified the PPD on October 7th. The company said that during testing, its AI model was interacting with \"randomly selected websites\" and submitted false information through the PPD's tipline, according to the PPD's stateme … Read the full story at The Verge.",
       "tags": [
-        "智能体",
+        "公司动态",
         "产品发布",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "谷歌正在为您的工作任务推出一站式Gemini代理",
-      "originalTitle": "Google is launching a one-stop Gemini agent for your work tasks",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-      "date": "2026-10-08T14:28:03.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "谷歌正在推出一款“通用”双子座人工智能代理，可以在后台跨应用和设备工作。该工具是周四Gemini at Work活动的一部分，将在Gemini Enterprise应用程序中提供，允许用户与Gemini代理聊天，并从单个界面为其分配任务。 除了让Gemini直接在Gmail、云端硬盘、文档、工作表、日历等Workspace应用程序中工作外，用户还可以通过移动设备、台式电脑、网络以及Slack或Microsoft 365等第三方应用程序与代理进行交互。由于它在云中运行， Gemini将保持相同的上下文......阅读The Verge的完整故事。",
-      "originalSummary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. [&#8230;]",
-      "rawFullText": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. In addition to having Gemini work directly inside Workspace apps like Gmail, Drive, Docs, Sheets, Calendar, and others, users can interact with the agent from their mobile device, desktop computer, the web, and third-party apps like Slack or Microsoft 365. Since it runs in the cloud, Gemini will maintain the same context across … Read the full story at The Verge.",
+      "title": "地平线不变行为克隆的自监督关键帧发现",
+      "originalTitle": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.10857",
+      "date": "2026-10-09T04:00:00.000Z",
+      "summary": "这条新闻与视频生成、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：视频生成、机器人相关动态",
+      "fullContent": "arXiv: 2610. 10857v1 Announce Type: new Abstract:非马尔可夫环境中的行为克隆(BC)是一个具有挑战性的问题，因为策略必须从长远角度推理上下文信息。现有的策略架构依赖于循环或基于注意力的机制来捕获长期依赖关系。 然而，在时间的反向传播下，循环模型遭受隐藏状态崩溃和梯度不稳定，而基于注意力的模型从根本上受到上下文长度的限制。 为了解决这些问题，我们提出了关键帧记忆法（ Keyframe Mnemonics ） ，这是一种新颖的自我监督方法，通过从随机抽样的过去观测中学习目标并将其用作关键帧选择的奖励， $\\ textit {发现} $一组信息关键观测（ $\\ textit {mnemonics} $ ）。然后，我们训练一个BC策略，该策略以发现的关键帧为条件，对动作分布进行建模。 在某些任务结构假设下，我们的配方提供了无限期的上下文保留保证，同时在政策的工作记忆中保留了一小部分与决策相关的关键帧。我们在合成记忆域上评估我们的方法，其中记忆条件BC策略实现$ 100 $ %的成功率（ SR ） ，并推广到训练以外的视野数量级，而不会降低性能。 此外，我们对内存密集型机器人操作基准进行了评估，在$ 23 $任务中，与最强基线相比，实现了$ 13. 9 $ %的平均绝对SR改善，并在真实机器人上以$ 20\\倍$的视野保留了$ 80 $ %的SR。代码和视频可在https://keyframe-mnemonics. github. io上找到。",
+      "originalSummary": "arXiv:2610.10857v1 Announce Type: new Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-term dependencies. However, recurrent models suffer from hidden-state collapse and gradient instability under backpropagation through time, while attention-based models are fundamentally limited by context length. To address these issues, we propose Keyframe Mnemonics, a novel self-supervised method that $\\textit{discovers}$ a set of information-critical observations ($\\textit{mnemonics}$) by learning an objective from randomly sampled past observations and using it as a reward for keyframe selection. We then train a BC policy that conditions on the discovered keyframes to model the action distribution. Under certain task-structure assumptions, our formulation provides context retention guarantees over an infinite horizon, while maintaining a small set of decision-relevant keyframes in the policy's working memory. We evaluate our method on synthetic memory domains, where mnemonic-conditioned BC policies achieve $100$% success rates (SR) and generalize to horizons orders of magnitude beyond training without performance degradation. Additionally, we evaluate on memory-intensive robot manipulation benchmark, achieving a $13.9$% average absolute SR improvement over the strongest baseline across $23$ tasks and retaining $80$% SR at $20\\times$ longer horizons on a real robot. Code and videos are available at https://keyframe-mnemonics.github.io.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "产品发布"
+        "视频生成",
+        "机器人",
+        "评测"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "ChatGPT的“智能用户界面”更新以图片、图表和按钮填充其回复",
-      "originalTitle": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "date": "2026-10-07T19:10:42.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI正在ChatGPT中推出一项新的智能用户界面功能，允许聊天机器人通过交互式视觉效果回答您的问题。该更新与GPT-6一起向所有用户推出，使ChatGPT能够将文本响应与图表、图表、表单、可点击按钮等结合起来。 在一篇解释这一变化的博客文章中， OpenAI表示，它训练了GPT-6何时在文本上生成交互式视觉效果，以及如何在响应中对其进行格式化。OpenAI分享的一个示例显示，如果您询问七速自行车的设计， ChatGPT可能会如何显示其图表，并带有突出显示不同的交互式按钮……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the [&#8230;]",
-      "rawFullText": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the change , OpenAI says it trained GPT-6 when to generate interactive visuals over text, as well as how to format them in its response. An example shared by OpenAI shows how ChatGPT might show a diagram of a seven-speed bicycle if you ask about its design, complete with interactive buttons that highlight differe … Read the full story at The Verge.",
+      "title": "时间紧迫：走向准时和高效的时间预算人工智能代理",
+      "originalTitle": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.10833",
+      "date": "2026-10-09T04:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv: 2610. 10833v1公告类型：新摘要：我们研究小型LLM代理是否能够通过尊重分配的运行时和有效地利用可用时间，在明确的挂钟时间预算下有效运行。我们在MLE-Bench Lite和Zork I （ Jericho ）上的Qwen3-4B的五场比赛中评估了Qwen3. 6-27B ，这是两个代理基准，在这两个基准中，额外的计算时间可以有意义地提高性能。 在最简单的设置中，预算仅在提示中说明，客服代表无法将说明的预算转化为受控的时间使用。这些故障源于时间意识的差距，因为线束不提供定时反馈，还因为它们无法可靠地预测行动的持续时间，并且没有从可用时间到适当策略的学习映射。 我们调查了两类互补的干预措施：基于利用的机制，揭示时间信息和执行截止日期，以及具有预算意识的奖励的强化学习。通过线束注入定时信息大大提高了Qwen3. 6-27B的预算依从性，而不会造成可测量的性能损失，同时执法挂钩进一步收紧了依从性。 RL与GRPO在Zork I上实现了近乎完美的预算遵守，并概括为培训期间未见过的保留预算，但与MLE-Bench上未经培训的线束相比，并没有改善任务绩效。一旦客服代表遵守预算，他们仍然无法利用额外的时间来提高任务绩效。 经过RL培训的政策了解何时停止，但通常会用重复的行动来填补额外的时间，而关于多个预算的GRPO培训往往会向最短预算学习的策略倾斜。我们的研究结果揭示了时间坚持性和工作时间分配之间的差距，这仍然是预算有限的代理人面临的核心挑战。",
+      "originalSummary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho), two agentic benchmarks where additional computational time can meaningfully improve performance. In the simplest setting, where the budget is stated only in the prompt, agents fail to translate the stated budget into controlled use of time. These failures arise from gaps in time awareness, since the harness provides no timing feedback, but also because they cannot reliably anticipate the duration of actions, and do not have a learned mapping from available time to an appropriate strategy. We investigate two complementary classes of interventions: harness-based mechanisms that expose timing information and enforce deadlines, and reinforcement learning with budget-aware rewards. Injecting timing information through the harness substantially improves budget adherence for Qwen3.6-27B without measurable loss in performance, while enforcement hooks tighten adherence further. RL with GRPO achieves near-perfect budget adherence on Zork I and generalizes to held-out budgets not seen during training, but does not improve task performance over the untrained harness on MLE-Bench. Once agents are made to respect the budget, they still fail to use additional time to improve task performance. RL-trained policies learn when to stop but often fill extra time with repeated actions, and GRPO training on multiple budgets tends to collapse toward the strategy learned for the shortest budget. Our results reveal a gap between time adherence and productive time allocation, which remains a central challenge for budget-conditioned agents.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测"
+      ],
+      "score": 96
+    },
+    {
+      "title": "Pollo AI借助OpenAI将创意转化为活动",
+      "originalTitle": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/pollo-ai",
+      "date": "2026-10-08T12:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "借助GPT-5. 6、GPT-6 Astra和GPT ‑ Image ‑ 2. 5 ， Pollo AI可帮助创作者将大胆的创意转化为详细的图像和电影视频广告。",
+      "originalSummary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "rawFullText": "",
       "tags": [
         "大模型",
         "公司动态",
-        "产品发布"
+        "视频生成"
       ],
       "score": 99
+    },
+    {
+      "title": "Anthropic为开源项目推出免费的人工智能安全扫描",
+      "originalTitle": "Anthropic launches free AI security scans for open-source projects",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "date": "2026-10-08T21:53:51.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
+      "fullContent": "Anthropic提供名为OSS Scanner的新服务，帮助开源项目跟踪安全漏洞。它表示，选择加入的开源项目将“由我们最强大的模型免费进行全面、定期的安全扫描。 “这可能意味着开源项目会更快地收到有关可能的安全问题的警报，但权衡的是， OSS Scanner的报告没有经过人工审核：这个选择加入漏洞扫描程序的输出将完全由模型生成，无需人工审核或分类。这将实现更快、更频繁的扫描，但意味着报告可能不正确或无效。Th…阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's [&#8230;]",
+      "rawFullText": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner . It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's reports don't come with human review: The outputs of this opt-in vulnerability scanner will be fully model-generated, without human review or triage. This will enable faster and more frequent scanning, but means that it is possible reports will be incorrect or invalid. Th … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 97
+    },
+    {
+      "title": "《今日美国》成为起诉OpenAI的最新出版商",
+      "originalTitle": "USA Today becomes the latest publisher to sue OpenAI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+      "date": "2026-10-08T17:58:33.000Z",
+      "summary": "这条新闻与公司动态、论文相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、论文相关动态",
+      "fullContent": "据路透社早些时候报道，今日美国公司（ USA Today Co. ）及其旗下的几家当地报纸正在起诉OpenAI ，声称该公司抄袭了“数十万”篇文章来训练其人工智能模型。在周四提交的一份文件中，该出版商要求赔偿超过2.5亿美元，声称OpenAI未经授权使用其内容“对其网点造成了真正和持续的”损害。 这只是针对OpenAI提起的一系列版权诉讼中的最新一起。除了《纽约时报》提起的版权诉讼外， OpenAI还面临来自The Intercept、CNET所有者Ziff Davis、CBC/Radio-Canada、Encyclopaedia的法律诉讼……阅读The Verge的完整故事。",
+      "originalSummary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of [&#8230;]",
+      "rawFullText": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters . In a filing on Thursday , the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of its content \"has done real and continuing\" harm to its outlets. This is just the latest in a string of copyright lawsuits filed against OpenAI. In addition to a copyright lawsuit filed by The New York Times , OpenAI is also facing legal action from The Intercept , CNET owner Ziff Davis , CBC/Radio-Canada , Encyclopaedia … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "论文",
+        "模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
+      "originalTitle": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/oracle",
+      "date": "2026-10-08T16:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "在招聘、工程和运营方面， Oracle通过ChatGPT Work和Codex将专业知识转化为快速、可重复的工作流程。",
+      "originalSummary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 95
+    },
+    {
+      "title": "被解雇的OpenAI安全研究人员对不当行为索赔提出异议，警告其产生寒蝉效应",
+      "originalTitle": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "date": "2026-10-08T20:04:26.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "三名被解雇的OpenAI安全研究人员对有关不当处理敏感信息的指控提出异议，并在一封公开信中警告说，他们的解雇正在对该公司的人工智能安全文化产生寒蝉效应。",
+      "originalSummary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "安全"
+      ],
+      "score": 94
     },
     {
       "title": "丽笙酒店集团将酒店探索引入ChatGPT",
@@ -163,7 +229,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "适用于所有人的GPT-6和智能用户界面",
@@ -178,7 +244,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "边缘的多模态开放式d1决策模型",
@@ -194,7 +260,22 @@
         "多模态",
         "模型"
       ],
-      "score": 90
+      "score": 89
+    },
+    {
+      "title": "一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron",
+      "originalTitle": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "date": "2026-10-07T12:45:31.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
     },
     {
       "title": "Jump Trading如何使用ChatGPT扩展量化研究",
@@ -229,22 +310,6 @@
       "score": 99
     },
     {
-      "title": "Atlassian和OpenAI扩大合作伙伴关系，将企业知识转化为行动",
-      "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/atlassian-partnership",
-      "date": "2026-10-06T16:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "Atlassian和OpenAI正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
-      "originalSummary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 98
-    },
-    {
       "title": "分享人工智能在数学方面的进展",
       "originalTitle": "Sharing AI progress in mathematics",
       "source": "OpenAI",
@@ -258,22 +323,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
-    },
-    {
-      "title": "我们对欧盟文本来源规则的方法",
-      "originalTitle": "Our approach to EU text provenance rules",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/eu-text-provenance",
-      "date": "2026-10-05T15:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI如何根据欧盟规则处理文本水印。了解水印的应用范围、检测工作原理以及访问权限从研究人员开始的原因。",
-      "originalSummary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 92
+      "score": 97
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -288,7 +338,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -304,7 +354,7 @@
         "智能体",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -319,7 +369,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -334,7 +384,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -349,7 +399,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
@@ -364,22 +414,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
-    },
-    {
-      "title": "开源AstaBrief ， ASTA的快速报告生成模型",
-      "originalTitle": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/astabrief",
-      "date": "2026-10-02T15:19:50.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "训练模型收集SFT训练数据创建DPO对过滤数据以获得更好的归因验证方法下一步在哪里🤗模型|📊数据语言模型已经可以帮助研究人员搜索文献、综合证据并解决复杂的问题。 但科学工作对这些模型提出了特别的要求--答案需要以证据为基础，模型需要保留证据实际支持的内容，而不是悄悄地扩大研究的结论，研究人员需要能够验证最终结果。我们在科学家如何使用ASTA （我们的科学工作代理平台）中看到了这一点。 与简单的关键字搜索不同，用户通常会带来大量的上下文和许多限制，例如，要求ASTA在考虑特定方法、群体或设置的同时，对整个文献中的方法进行比较。许多人稍后还会返回生成的报告，将其视为工作研究文物，而不是一次性答案。我们希望借助可自行下载和运行的模型，帮助科学家更快地生成引用报告。 为此，我们测试了专门为科学报告生成而训练的小型开放模型是否能与我们正在使用的专有模型的报告质量相匹配，同时减少生成时间和服务成本。我们构建了AstaBrief 8B ，这是一个将研究问题和检索文献摘录转化为引用报告的模型。 AstaBrief今天在ASTA的“生成报告”功能中与Claude驱动的思维模式一起提供快速模式，我们还将其和培训数据开源，以便其他人可以学习、复制和构建我们的方法。开发AstaBrief需要数以万计的真实研究查询、以引文为中心的过滤、偏好数据以及重新设计的报告生成管道，该管道可以一次编写完整的报告，而不是一节一节。 结果是，与我们在整个ASTA管道中跟踪的专有模型相比，报告生成时间几乎缩短了一个数量级-快速模式平均每份报告51. 1秒，而思考模式为178. 5秒，速度约快3. 5倍。总之，这些效率的提高使AstaBrief成为更广泛目标的有用测试用例：构建可以适应科学工作特定需求的开放语言模型。 开放权重还将允许机构在自己的基础设施上运行AstaBrief ，这在研究问题揭示敏感或未发表的工作时是必要的。 除了模型权重外，我们还发布了一个示例工作流程，研究人员可以调整该工作流程，从他们自己的PDF中创建报告，为本地报告生成提供起点。本文介绍了我们如何培训AstaBrief ，我们在科学证据的基础上学到了什么，以及我们的方法中哪些部分可以用于未来的科学模型。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 77
+      "score": 79
     },
     {
       "title": "借助自主人工智能重新定义企业智能",
@@ -394,7 +429,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "不要被愚弄- LLM不要讲道理",
@@ -409,23 +444,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
-    },
-    {
-      "title": "OpenAI首席研究官表示： “我们不会因为黑客攻击而自杀”",
-      "originalTitle": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-      "date": "2026-09-30T10:40:30.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
-      "fullContent": "在爆炸性的消息传出两个月后，一群特工破解了他们的遏制并入侵了人工智能公司Hugging Face的计算机， OpenAI仍在灭火。此后几周，有关其他黑客攻击的披露不断涌现，使OpenAI成为人们关注的焦点，并引发了对其技术安全性的严重质疑。上周又传来了另一起黑客攻击的消息，这次是进入澳大利亚的国家卫生保健系统。 澳大利亚政府表示， OpenAI直到事件发生84天后才通知它。但OpenAI坚持认为它不是在后脚。该公司首席研究官Mark Chen表示： “我确实拒绝接受OpenAI是一家在世界上具有明显影响力的公司，因此OpenAI没有培训安全和一致的模型这一前提。” Chen负责监督OpenAI的研究团队。 最近的代理黑客攻击是在他手表上测试实验模型期间发生的事故。在很多方面，责任都落在他身上。上周五，我在伦敦与Chen坐下来讨论了黑客攻击的后果，他的公司正在做些什么，以及为什么他认为事情没有看起来那么糟糕。 同一天晚些时候， OpenAI发布了一份报告，详细介绍了另一起事件--自该公司表示已采取措施防止这些事件以来的第一起事件--其代理商再次爆发，并在不该发生的情况下访问公共互联网。上周末， OpenAI宣布已暂停对其最新车型的培训。公司发言人说： “只有当我们确信我们有额外的保障措施和调整措施时，我们才会恢复。 我们正在努力解决这些问题。这不是我们第一次暂停采取此类措施，也不是随着人工智能能力的不断进步，我们预计这将是最后一次。OpenAI还表示，它现在正在审查可追溯到2026年1月的代理活动日志，以了解这些黑客攻击中发生了什么。从Chen的角度来看， Hugging Face事件引发了业界的欢迎。 他希望您知道， OpenAI正在树立一个榜样，他希望其他公司也能效仿。他说： “如果你消失了OpenAI ，那对世界来说是不利的。” Chen声称， OpenAI失去对其模型的控制的新案例的鼓声反映了该公司的深思熟虑的选择。 “当谈到拥抱脸事件的更广泛的影响范围时，这是我们已经意识到的事情，我们正在弄清楚披露的过程，”他说。“我们希望确保在公开细节之前进行深入调查。“这种方法的问题在于，它给人的印象是OpenAI有一个持续存在的问题，它无法解决。但陈坚持认为OpenAI正在参与其中。 他说，他公司的代理人打破遏制并以意想不到和不受欢迎的方式行事的多起案件（迄今为止我们已知）都是导致Hugging Face黑客攻击的5月和6月同一系列活动的一部分。简而言之，你可以责怪在同样有缺陷的测试程序下运行的少数几个模型--OpenAI后来放弃的模型和程序，陈说。",
-      "originalSummary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-      "rawFullText": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face , OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions about the safety of its technology. Last week brought news of another hack, this time into Australia’s national health-care system. The Australian government says that OpenAI did not notify it of the breach until 84 days after it happened. But OpenAI insists it is not on the back foot. “I do kind of reject the premise that OpenAI is a company with visible impacts in the world and therefore OpenAI is not training safe and aligned models,” says Mark Chen, the company’s chief research officer. Chen oversees OpenAI’s research teams. The recent agent hacks were accidents that happened during the testing of experimental models on his watch. In a lot of ways, the buck stops with him.&nbsp; I sat down with Chen in London last Friday to talk about the fallout from the hacks, what his company is doing about it, and why he thinks things are not as bad as they seem. Later that same day, OpenAI put out a report detailing yet another incident —the first since the company says it took measures to prevent them—in which its agents once again broke out and accessed the public internet when they were not meant to. Over the weekend, OpenAI announced that it had paused the training of its latest models. A company spokesperson says: “We will resume only when we’re confident we have additional safeguards and alignments in place. We are working on these now. This is not the first time we’ve paused to take such measures, nor do we expect it to be the last as AI capabilities continue to advance.” OpenAI also says that it is now reviewing logs of agent activity dating back to January 2026 to understand what happened in these hacks. The way Chen sees it, the Hugging Face incident triggered a welcome course correction for the industry. And he wants you to know that OpenAI is setting an example he hopes other companies will follow. “If you disappeared OpenAI, that would be bad for the world,” he says. Out of control Chen claims that the drumbeat of new cases in which OpenAI has lost control of its models reflects a deliberate choice on the company’s part. “When it comes to the broader sphere of effects of the Hugging Face incident, this is something that we have been aware of and we’re figuring out the process of disclosure,” he says. “We want to make sure we do in-depth investigations before we just put details out there in the open.” The trouble with this approach is that it gives the impression OpenAI has an ongoing problem that it is failing to fix. But Chen insists that OpenAI is on it. He says the multiple cases (that we know of so far) in which his company’s agents broke containment and behaved in unexpected and undesirable ways were all part of the same cluster of activity in May and June that led to the Hugging Face hack. In short, you can blame the same few models running under the same flawed testing procedures—models and procedures that OpenAI has since dropped, Chen says.&nbsp;&nbsp;&nbsp;&nbsp; “It’s not like, you know, Hugging Face happened and we patched that and then something else happened and we patched that,” he adds. “We’re just kind of making sure that we responsibly disclose the full waterfall of what happened.” At least that was the case before Friday’s announcement that OpenAI’s agents had been caught accessing the internet on September 20, weeks after the company claims to have set up new safeguards. In its defense, OpenAI says the activity was flagged 15 minutes after it started (it took the company more than a week to notice the Hugging Face hack) and that this shows the new systems it has put in place to spot such activity are working. What’s changed I want to understand what’s changed inside OpenAI in the aftermath of this summer’s hacks that makes Chen confident his team is now back in control. “Hugging Face felt like a very serious thing,” he says. “There are so many novel behaviors right there. There were multiple agents collaborating on a message board; they found their way out of OpenAI’s infrastructure. We’ve taken it very seriously. We don’t want this kind of thing to ever happen again.” The realization for OpenAI, says Chen, was that models need to be watched while they are still being trained, not only once they are deployed: “From that moment on, we have treated the process of training as something that’s not secure,” he says. OpenAI, like other top AI firms, has systems in place to monitor the behavior of its models. It uses specialized LLMs to monitor its consumer models, keeping tabs on their chains of thought —the scratchpads they use to plan ahead and note down partial results. In theory, if a watcher LLM spots signs of undesirable activity in a model’s chain of thought, it will get flagged to a human. Typically, models were monitored in this way only once they were deployed. Chen says that OpenAI has now started monitoring all its training runs as well. “We didn’t have the monitors on in training before. It wasn’t industry practice,” he says. “Now every single thing is put through monitors.” Human reviewers can then assess whether or not flagged agents are behaving as they should: “It’s all triage.” Chen says that in the last couple of months OpenAI has shifted between 5% and 10% of its vast computing resources away from training new models and toward safety work, especially monitoring. OpenAI has also fixed some of the processes within the organization itself, establishing clearer lines of communication and quicker handoffs between its research and security teams, he says. All of which sounds sensible. But given how hard OpenAI sells the capabilities of its technology, why weren’t these systems and procedures in place already? Why did the company not see the hacks coming? “Even just three or four months ago, when we looked at the behavior of these agents during training, the things that were happening were kind of amusing,” says Chen. “For instance, an agent might, you know, reach out to someone on Slack for help with a task.” The signs were there, but they were misread. Cute behavior—like asking someone for help—that was rewarded during training reinforced a tendency to seek out shortcuts , a type of behavior that became far more consequential down the line. “I think the big update for us was how quickly that kind of behavior can lead to an impact with a footprint as big as the Hugging Face incident,” says Chen. According to new reporting by the New York Times yesterday, OpenAI employees warned executives , including the firm’s president, Greg Brockman, months before the Hugging Face hack that its models were not being monitored properly during training.&nbsp; An OpenAI spokesperson says: “As frontier models have become more capable, we continue to evolve our security practices, but recognize a need to move faster. We know we have more work to do, and we’ve recently slowed development and held back models that don’t meet our safety bar. We continue to make significant changes to strengthen security in our research and testing environments, train models to not just complete tasks but do so responsibly, and use real-time monitoring to respond faster to misaligned behavior.”&nbsp; Race vs. pace OpenAI’s rivals have taken note. Spurred by the fallout from the incident, the major AI labs—including Anthropic, Google DeepMind, and SpaceXAI—have all called for the pace of development to slow down. But how does that square with fierce international competition and trillion-dollar IPOs? “We’re not going to shoot ourselves in the foot and take ourselves far off the frontier—that’s just a horrible strategy,” he says. “I think it’s really about setting a norm. The more that we can set that norm, it’ll be safer for the industry as a whole.” Coordination across US companies will be hard enough. Establishing global norms is harder still, especially given concerns around AI’s impact on national security. If a global race continues, what then? And what about open-source models from outfits beyond the reach of US regulations? Chen dropped his upbeat manner for the first time in our conversation: “I do think we have to prepare for a world where, say, six months to a year out, we have open-source models with the capability of the agents behind the Hugging Face incident, but which are deliberately misaligned to go attack infrastructure or create harm in the world.”&nbsp; What that world needs most, says Chen, is OpenAI. “If you entertain for a moment that OpenAI is one of the companies that cares most about alignment—and I believe this to be true; it can be debated, but I really do think it’s true—then if you disappear OpenAI, that would be bad for the world.” Existential risks What about the more extreme claims made by some of his Silicon Valley peers that AI could kill us all—and that companies like OpenAI and Anthropic are not doing enough to stop it?&nbsp;&nbsp;&nbsp;&nbsp; “Researchers are a heterogeneous group of people, you know, with beliefs across the spectrum,” he says. “Personally, I don’t think we have to be resigned to there being some probability that we’re all going to be existentially at risk. We have agency over this. We are not going to go and deploy models if they truly have that kind of probability of causing a risk to humanity. At a frontier lab, you have the ability to work on alignment to the point that you do not feel like you’re incurring more than epsilon risk to the world in deploying your models.” (In discussions about levels of risk, the Greek letter epsilon is often used as a mathematical placeholder for an acceptable threshold. Chen doesn’t say what his epsilon would be.) When tech leaders are asked to justify the downsides of AI, their go-to talking point is that the upsides—from helping cure diseases to coming up with cleaner sources of energy—far outweigh the immediate costs. Short-term pains, long-term gains. But as the downsides pile up, does that case get harder to make? Is there a point where Chen would feel less as if he’s building something amazing and more as if he’s simply minimizing harm—fighting fires rather than forging a better future? The capabilities of these models are already evident, he says: “It is time to start delivering the benefits of AI to humanity. It’s time to start working on deep problems in drug discovery, on materials, on scientific applications that will actually change people’s lives.”&nbsp; “Yes, there is a bit of risk that we are incurring, but we see all these benefits,” he adds. “I think we should make that less of an abstract thing. If people can really see the upside, I think they’ll believe in it.”",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 88
+      "score": 68
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -440,7 +459,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -455,7 +474,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Holo4 ：为通用计算机使用代理提供动力",
@@ -470,7 +489,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "欢迎RL环境来到HUB",
@@ -485,7 +504,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "UK AISI和EvalEval如何使基准结果可复制",
