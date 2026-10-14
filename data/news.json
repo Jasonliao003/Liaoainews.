@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:26:12.130Z",
+  "updatedAt": "2026-10-14T01:43:17.436Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,36 +19,68 @@
   ],
   "articles": [
     {
-      "title": "Meta有一些Wonder全新的AI模型",
-      "originalTitle": "Meta has some Wonder Full new AI models",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "date": "2026-10-12T17:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、产品发布相关动态",
-      "fullContent": "Meta正在弥补AI竞赛中失去的时间。在推出Muse Spark （其经过改造的Superintelligence Labs部门的第一个模型）和热闹的人工智能代理Muse之后，它现在推出了两款新型号，它声称可以与业界最好的型号并驾齐驱。新型号Muse Wonder和Muse Wonder Full从今天开始为Muse Code订阅者提供。Meta表示，也可以通过Meta Model API访问Wonder。 Meta表示，它最终计划从订阅者开始，通过Wonder为其Muse AI代理提供支持，并将开发“可以为使用Muse的每个人带来的专业模型。“它没有透露细节或提供时间……在The Verge阅读完整故事。",
-      "originalSummary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available [&#8230;]",
-      "rawFullText": "Meta is making up for lost time in the AI race. After launching Muse Spark , the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse , it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available for Muse Code subscribers starting today. Wonder can also be accessed through the Meta Model API, Meta said. Meta says it eventually plans to power its Muse AI agent with Wonder, starting with subscribers, and will develop specialized models it \"can bring to everyone using Muse.\" It hasn't shared specifics or provided a tim … Read the full story at The Verge.",
+      "title": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
+      "originalTitle": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "date": "2026-10-13T17:30:00.000Z",
+      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、机器人相关动态",
+      "fullContent": "密歇根大学分拆的Laplace Intelligence使用人工智能代理和交互式模拟在部署之前对机器人和自动驾驶车辆进行压力测试。这家盈利的初创公司将于10月13日至15日在旧金山举行的TechCrunch Disrupt上参加Startup Battlefield。",
+      "originalSummary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "rawFullText": "",
       "tags": [
         "智能体",
-        "产品发布",
-        "模型"
+        "机器人"
       ],
       "score": 99
     },
     {
-      "title": "微软的新AI芯片减少了对英伟达GPU的依赖",
-      "originalTitle": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "title": "谷歌终于发布Gemini 4 Argon",
+      "originalTitle": "Google finally releases Gemini 4 Argon",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "date": "2026-10-12T13:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体、推理相关动态",
-      "fullContent": "微软的Maia 300芯片。|图片：微软今天宣布其第三代MAIA内部AI芯片，旨在成为微软产品和服务的“主要AI推理系统”。Maia 300不仅提高了在云中运行AI工作负载的成本和效率，而且还能够更好地处理最新的推理模型和代理任务。 MAIA 300将于2027年开始投产，它的设计考虑到了效率。“与领先的基于GPU的系统相比，我们预计MAIA 300每兆瓦可多提供40%的代币，”微软云计算部门执行副总裁Scott Guthrie说。“以96倍的速度……在The Verge阅读完整故事。",
-      "originalSummary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will [&#8230;]",
-      "rawFullText": "Microsoft’s Maia 300 chip. | Image: Microsoft Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will start being rolled out to production in 2027, and it has been designed with efficiency in mind. \"We expect Maia 300 to deliver 40 percent more tokens per megawatt compared to leading GPU-based systems,\" says Scott Guthrie , executive vice president of Microsoft's cloud group. \"And in a full 96-acceler … Read the full story at The Verge.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "date": "2026-10-13T16:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、推理相关动态",
+      "fullContent": "经过几个月的前沿人工智能竞赛，谷歌终于推出了期待已久的Gemini 4 Argon模型，声称它可以与业界最好的产品竞争。谷歌表示， Argon提供了“前沿推理和跨复杂工作流程的改进性能” ，同时减少了对冲、重复和继续困扰人工智能聊天机器人的陈词滥调。 该公司声称， Argon在编码、网络安全、科学、金融和法律等一系列基准方面的表现优于GPT-6 Astra、Claude Fable 5. 1和Claude Opus 5. 5等竞争对手。谷歌表示，它已经在内部使用Argon……阅读The Verge的完整故事。",
+      "originalSummary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
+      "rawFullText": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that continue to plague AI chatbots. The company claims Argon outperforms rival models like GPT-6 Astra, Claude Fable 5.1, and Claude Opus 5.5 across a range of benchmarks, including coding, cybersecurity, science, finance, and law. Google says it's already putting Argon to use internally, s … Read the full story at The Verge.",
       "tags": [
-        "智能体",
+        "大模型",
         "推理",
-        "算力芯片"
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "即将推出的迪士尼游戏史诗般地转向“人工智能加速开发”",
+      "originalTitle": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+      "date": "2026-10-13T15:12:59.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "根据彭博社的一份报告， Epic Games计划使用人工智能为未经宣布的迪士尼游戏生成代码和艺术品，该游戏现在已从原来的3月发布窗口推迟。该项目的开发人员被赋予了“人工智能优先”的任务，指导他们更多地使用Anthropic的Claude等工具来完成游戏。据彭博社报道，该游戏的一位导演在给员工的消息中说： “不再需要手写代码。 “工作人员还被告知，所有游戏的艺术都将通过完整的人工智能工作流程生成”。“在给彭博社的一份声明中， Epic Games发言人杰克·琼斯（ Jake Jones ）表示，该公司正在“拥抱人工智能加速开发......在The Verge阅读完整故事。",
+      "originalSummary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
+      "rawFullText": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg . The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According to Bloomberg , one of the game's directors said in a message to staff, \"No more hand-written code.\" Staff were also told that all of the game's art will be \"generated with full AI workflows.\" In a statement given to Bloomberg , Epic Games spokesperson Jake Jones said the company is \"embracing AI-accelerated develop … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
+      "originalTitle": "Higgsfield takes AI video from 1 minute to over 10",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "date": "2026-10-13T12:00:00.000Z",
+      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、视频生成相关动态",
+      "fullContent": "Higgsfield通过GPT-6 Astra为创作者带来更长的视频，通过GPT-Image-2. 5提供精确的视觉效果，并通过GPT-Live提供语音电影制作的途径。",
+      "originalSummary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "视频生成"
       ],
       "score": 99
     },
@@ -57,7 +89,7 @@
       "originalTitle": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
       "source": "arXiv AI",
       "link": "https://arxiv.org/abs/2610.12596",
-      "date": "2026-10-12T04:00:00.000Z",
+      "date": "2026-10-13T04:00:00.000Z",
       "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
       "fullContent": "arXiv: 2610. 12596v1公告类型：新摘要： Agentic大型语言模型现在处理复杂的任务，但长期的战略推理未得到充分研究：大多数Agentic基准是短暂的、偶然的，长期任务的表现很难剖析为存储的知识、推理和运气。我们介绍SpireBench ，其中模型扮演完整的商业卡组建商Slay the Spire （ StS ） ，早期决策决定长期成功。 在游戏难度最高的20个大型语言模型（ LLM ）中，前沿模型击败了启发式基线，与普通人类玩家相匹配，但仍远远落后于专家。这种差距随着时间的延长而扩大：最强的模特赢得第一幕的次数与专家一样多，然后落后。强势模式与弱势模式的区别在于他们在每场比赛中的表现；他们都会错误地判断跑步的风险，保护健康，而不是花钱让自己变得更强大。 对每个游戏术语进行全面、自洽的重命名表明，它们的部分性能依赖于对游戏的先验知识，并且模型不会从它们在运行过程中编写的记忆中得到改善，这些记忆通常是错误的，并且过于谨慎。我们的线束是第一个为模型提供完整原创游戏的线束，我们将其与现有线束进行比较。 总体而言， SpireBench提供了一个不饱和长距离基准，其中包含用于定位代理失败位置和原因的工具。",
       "originalSummary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how well they play each fight; all of them misjudge risk over a run, preserving health rather than spending it to grow stronger. A comprehensive, self-consistent renaming of every game term shows that part of their performance rests on prior knowledge of the game, and models do not improve from the memories they write across runs, which are often wrong and overly cautious. Our harness is the first to give a model the complete original game, and we compare it with existing harnesses. Overall, SpireBench offers an unsaturated long-horizon benchmark with tools to locate where and why agents fail.",
@@ -68,193 +100,6 @@
         "评测"
       ],
       "score": 99
-    },
-    {
-      "title": "MagicBeanStalk ：通过递归数据合成摆脱RLVR零优势陷阱",
-      "originalTitle": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.12659",
-      "date": "2026-10-12T04:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、推理相关动态",
-      "fullContent": "arXiv: 2610. 12659v1公告类型：新摘要： RLVR以数据为中心的缩放重点是收集或生成可验证的训练问题。然而，语料库大小本身并不能确定数据集是否为目标策略提供有用的学习信号。为了指导有效RLVR数据的合成，我们通过实验将数据集的有效性表征为其问题、目标策略和培训推出预算的函数。 在这种表征下，我们表明，从广泛使用的RLVR数据集中汇集的大型开源数学语料库几乎完全陷入了零优势陷阱：对于固定的目标策略和推出预算，其大约88%的问题在每次推出时都得到解决，或者在每次推出时都失败。过滤集中了剩余的东西，但它只能选择，丢弃困难的问题。 因此，有效的合成问题应该需要推理操作和解决这些难题所需的组合。然而，他们的难度必须进行校准，以便一些部署成功，一些失败，并且至少有一个正确的解决方案符合培训预算。提示老师直接改变难题并不能做到这一点。 在这些经验原则的指导下，我们引入了MagicBeanStalk ，这是一种自上而下的分解和自下而上的递归数据合成算法，在保留种子推理蓝图的同时，将种子问题生长为全新的、政策和预算校准的训练问题家族。在8个数学基准中， MagicBeanStalk问题上的连续RLVR将gpt-oss-120b从61. 2提高到69. 8 （ +8. 6 ） ， DeepSeek v4Flash从72. 4提高到77. 9 （ +5. 4 ）在16K代币的预算上。全78K源语料库的训练仅提高了+1. 1 ，其最佳滤波真实数据子集提高了+5. 8。在金融领域，我们仅从340个解决方案中综合了超过14000个可验证的问题，在SecQue和FinanceBench的基础上分别提高了6. 9和2. 4个百分点。",
-      "originalSummary": "arXiv:2610.12659v1 Announce Type: new Abstract: Data-centric scaling of RLVR has focused on collecting or generating verifiable training problems. However, corpus size alone does not determine whether the dataset provides a useful learning signal for a target policy. To guide the synthesis of effective RLVR data, we experimentally characterize dataset effectiveness as a function of its problems, the target policy, and the training rollout budget. Under this characterization, we show that a large open-source math corpus pooled from widely used RLVR datasets falls almost entirely into a zero-advantage trap: for a fixed target policy and rollout budget, roughly 88% of its problems are solved in every rollout or failed in every rollout. Filtering concentrates what remains, but it can only select, discarding the hard problems. Effective synthetic problems should therefore require the reasoning operations and compositions required to solve those hard problems. Yet their difficulty must be calibrated, so that some rollouts succeed, some fail, and at least one correct solution fits within the training budget. Prompting a teacher to vary hard problems directly does not achieve this. Guided by these empirical principles, we introduce MagicBeanStalk, a top-down decomposition and bottom-up recursive data-synthesis algorithm that grows seed problems into families of substantively new, policy- and budget-calibrated training problems while preserving the seeds' reasoning blueprints. Across 8 math benchmarks, continual RLVR on MagicBeanStalk problems improves gpt-oss-120b from 61.2 to 69.8 (+8.6) and DeepSeek v4Flash from 72.4 to 77.9 (+5.4) on a 16K-token budget. Training on the full 78K source corpus improves by only +1.1 and its best filtered real data subset by +5.8. In finance, we synthesize over 14K verifiable problems from only 340 solutions and improve over base by 6.9 and 2.4 points on SecQue and FinanceBench, respectively.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "EvoBelief ：自我完善LLM代理商的可证伪世界模型",
-      "originalTitle": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.12789",
-      "date": "2026-10-12T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2610. 12789v1公告类型：新摘要：自我进化的LLM代理通常通过积累的经验、反思或技能来改善他们的行为方式。然而，当他们对环境动态的信念不完整、不正确或过时时，即使是具有程序能力的代理也可能失败。我们研究自我进化的互补轴：在部署过程中发展这些信念。 这种信念可以支持多个任务，但不正确的信念也可以在它们之间传播。我们介绍了EvoBelief ，这是一种自我演化的世界模型，将环境知识表示为可证伪的假设。意想不到的结果和与决策相关的未知数会触发假设的形成。后来的观察和对照实验提供了独立的验证，然后规则可以在其支持的范围内指导预测或计划。 随着环境的变化，对狭义规则或退役规则进行反例分析。语言模型仍然处于冻结状态，每个规则仍然与其证据及其改变的决定相关联。在横跨静态动态、隐性漂移和科学发现的四个基准中， EvoBelief提高了任务性能，并在跨任务中重用已学习的规则。在没有演员侧过渡记忆的ALFWorld上，它比匹配的Frozen World Model的成功率提高了23. 9%和31%。 3% ， Claude Haiku分别为4. 5和GPT-5. 4。在MiniGrid上，它会修改过时的规则，并在未经宣布的动态变化后恢复。在DiscoveryWorld的Reactor Lab中，它发现并验证了定量规律，完成了83. 3%的普通层和58. 3%的挑战层实例，而每个评估基线为0%。这些结果表明，通过可测试、可修改的环境知识而不是模型参数更新，可以实现自我改进。",
-      "originalSummary": "arXiv:2610.12789v1 Announce Type: new Abstract: Self-evolving LLM agents typically improve how they act through accumulated experience, reflection, or skills. Yet even procedurally capable agents can fail when their beliefs about environment dynamics are incomplete, incorrect, or outdated. We study a complementary axis of self-evolution: evolving those beliefs during deployment. Such beliefs can support multiple tasks, but incorrect ones can also propagate across them. We introduce EvoBelief, a self-evolving world model that represents environment knowledge as falsifiable hypotheses. Unexpected outcomes and decision-relevant unknowns trigger hypothesis formation. Later observations and controlled experiments provide independent validation before a rule can guide predictions or plans within its supported scope. Counterexamples narrow or retire rules as the environment changes. The language model remains frozen, and each rule remains linked to its evidence and the decisions it changes. Across four benchmarks spanning static dynamics, hidden drift, and scientific discovery, EvoBelief improves task performance and reuses learned rules across tasks. On ALFWorld without actor-side transition memory, it improves success over the matched Frozen World Model by 23.9% and 31.3% with Claude Haiku 4.5 and GPT-5.4, respectively. On MiniGrid, it revises stale rules and recovers after unannounced dynamics changes. In DiscoveryWorld's Reactor Lab, it discovers and validates quantitative laws, completing 83.3% of Normal-tier and 58.3% of Challenge-tier instances, versus 0% for each evaluated baseline. These results demonstrate self-improvement through testable, revisable environment knowledge rather than model-parameter updates.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "这些高管认为语音AI尚未达到ChatGPT时刻",
-      "originalTitle": "These execs think voice AI hasn&#8217;t reached its ChatGPT moment yet",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "date": "2026-10-11T14:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。获取通行证，即可享受半价优惠。立即注册。 语音是下一个大型界面的理论已经取得了强劲的势头，投资者向语音人工智能初创公司投入了数十亿美元，这些初创公司从事从模型制造商到企业客户服务提供商，以及从会见笔记员到人工智能口述等领域的工作。每周都有一个新模型或工具发布，声称听起来像人类，说话像人类。然而，实际情况可能并非如此。 企业语音人工智能平台PolyAI的首席技术官Shawn Wen认为，尽管发布了全双工模型（可以边听边说） ，但语音人工智能还没有“ChatGPT时刻”。“我们已经达到了开发全双工模型的里程碑。 下一个挑战是使推理非常快，这样模型就可以快速获得答案，对话感觉很自然， ”他在上个月的HumanX会议上告诉我。他还表示，客户服务中的人工智能代理不应该听起来像机器人，应该给来电者足够的信心，让他们能够解决问题。 “我认为下一阶段会有所不同，因为一旦声音足够好，并且客户愿意在前两三个回合与他们互动，他们就会开始建立信心，随着时间的推移，他们会觉得我可能不必与人交谈，如果代理可以解决我的问题，“他说。 会议记录员Otter的首席营销官Alex Gay认为，识别说话者、捕捉意图并用组织知识打字是实现自动化的关键步骤。该公司还在开发可能代表人们参加会议的数字孪生模型。对于这项技术，他说，至关重要的是，输出的语音在会议上给出与人交谈的同样的情感表达。 “如果你想想你现在参加的会议，最好的对话是你可以在那里进行辩论和战略讨论，以及当你觉得有一种关系支撑着它时。如果你不能使用头像，那么它只是一个q和一个聊天机器人。” 虽然语音AI模型有所改进，但AI助手通常不理解用户，或者您的会议记录员显示错误的成绩单或摘要。Wen认为， ASR （自动语音识别）模型往往会漏掉重要的关键词，这给捕捉整个语境带来了问题。Otter's Gay同意这一点，并补充说该公司一直在努力改进转录。",
-      "originalSummary": "Voice AI often misses important points for its context layer, and causes the whole pipeline to break.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 88
-    },
-    {
-      "title": "HomeView会是苹果智能家居的首次成功吗？",
-      "originalTitle": "Will the HomeView be Apple’s first smart home success?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "date": "2026-10-11T21:14:40.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。根据彭博社的马克·古尔曼（ Mark Gurman ）的说法，苹果将在周二宣布一个名为HomeView的新智能家居中心。 在过去的几年里，我们已经看到多份报告称苹果正在开发一款新的智能家居产品，但现在看来该产品有一个名称和一个发布日期。Gurman将HomeView描述为带有显示屏和A18芯片的Siri驱动设备，允许客户控制他们的其他智能家居设备。据报道， HomeView将提供两种型号—一种设计用于台面，另一种安装在墙上。 这将是苹果迄今为止对智能家居最严肃的押注，此前该公司的HomeKit软件框架或HomePod智能扬声器未能获得太多关注。Gurman报道，周二，苹果还将推出另外两款家用设备的更新版本，即Apple TV机顶盒和HomePod mini。 本周早些时候，他表示苹果计划宣布与LG合作生产智能锁、恒温器和门铃。获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。 TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-      "rawFullText": "",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 81
-    },
-    {
-      "title": "学习使用本地人工智能是令人兴奋、不知所措和令人沮丧的",
-      "originalTitle": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "date": "2026-10-11T11:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
-      "fullContent": "Baby的第一个本地AI代理。|照片： Antonio G. Di Benedetto/我正在踏上一段迄今为止一直犹豫不决的旅程：实际上是定期使用人工智能。将大多数个人数据提供给云服务对我来说是一个主要障碍，但越来越有可能在本地运行强大的模型，以了解它们的功能。这项技术是否如此有用，以至于值得向价格过高的RAM的电脑或笔记本电脑投入大量资金？ 我会尽量帮助您找出答案。我不是人工智能专家，这对我来说将是一段旅程，但也许我可以帮助你了解这段旅程是否值得--我将发布我的方式。苹果公司推出新款Mac台式机的很大一部分原因是它们有多好……阅读The Verge的完整故事。",
-      "originalSummary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful [&#8230;]",
-      "rawFullText": "Baby’s first local AI agent. | Photo: Antonio G. Di Benedetto / The Verge I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful that it's worth throwing gobs of money at a computer or a laptop with lots of overpriced RAM? I'll try to help you find out. I'm not an AI expert, it's going to be a journey for me, but maybe I can help you see if that journey is worth taking - and I'll be posting my way through it. A big part of Apple's pitch for its new Mac desktops is how good they … Read the full story at The Verge.",
-      "tags": [
-        "模型"
-      ],
-      "score": 80
-    },
-    {
-      "title": "距离TechCrunch Disrupt 2026有48小时的路程—直接聆听开发人员的心声",
-      "originalTitle": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "date": "2026-10-11T19:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "在不到48小时的时间里， TechCrunch Disrupt 2026在旧金山的Moscone West启动。在价格上涨之前，通行证最多可节省$ 100 ，第二张通行证还可享受50%的优惠。或获得其他优惠。",
-      "originalSummary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "人工智能行业能否通过摆脱保密协议来说服数据中心的对手？",
-      "originalTitle": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "date": "2026-10-11T16:52:33.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。亚马逊最近跟随微软的脚步，并表示在与地方政府就数据中心进行谈判时，将不再使用保密协议(NDA)。 在TechCrunch的Equity播客的最新一集中， Sean O’Kane、Rebeccan Bellan和我讨论了亚马逊的公告，该公告发表在一篇较长的博客文章中，证明数据中心实际上对社区有好处。 丽贝卡有点怀疑最近一连串的数据中心暂停是否会产生持久的影响，特别是因为暂停只持续一两年，而且“这些数据中心在未来两年、三年、四年或五年内不会上线” ，尽管我反驳说，数据中心支持者肯定会担心。与此同时， Sean认为，反弹的一个重要原因是行业沟通不畅。 他说： “通过对人工智能和数据中心的许多争议和强烈反对，我们已经看到，该行业在解释自己时做得非常糟糕，而且他们显然并不断地对大多数人无法想象这些东西对他们有用的世界感到沮丧。”请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。 肖恩·奥凯恩（ Sean O’Kane ） ：有趣的是，它被埋藏在博客文章中，也是亚马逊显然试图讲述的一个更大故事的一部分。我想我理解他们为什么不把它放在前台，但对我来说，这是科技行业目前在人工智能方面所面临的许多问题的根源，尤其是数据中心。 人们是否应该担心数据中心对其物业价值、电费、该地区用水量的影响，以及这些问题是否真正存在，是否夸大了问题等，这些都可以说得太多了。我认为这么多实际上可以追溯到这样一个事实，即许多这些项目基本上都是秘密谈判的。 有时，他们正在（与公众）谈判，知道这是一个数据中心，但只是不知道谁实际上会使用它或在任何时候占用它。这是科技行业长期存在的问题。我总是回到2010年代中期，当时优步的扩张速度非常快。优步是与地方政府合作时真正使用这种策略的公司之一。 特别是，我记得当时我在The Verge工作，我们有一个自由职业者写了一个关于奥兰多以外城市的故事，当时优步正试图通过谈判获得税收补贴，以补贴人们在优步行程结束后使用公共交通工具的行程。",
-      "originalSummary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Anthropic正在从互联网上切断其内部评估",
-      "originalTitle": "Anthropic is cutting off its internal evaluations from the internet",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "date": "2026-10-10T14:41:16.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "在最近一连串备受瞩目的事件中，人工智能特工逃脱了遏制， Anthropic正在切断所有内部评估的互联网接入。在周五的一份报告中，该公司详细介绍了导致该决定的“意外模范行动” ，包括提交有关未解决谋杀案的虚假提示。 虽然这些行为的影响很小，而且我们已经关闭了一些高风险和网络安全评估的实时互联网接入，但我们现在决定将其扩展到包括所有内部评估，直到我们确认我们的安全和监控措施（在补救部分中描述……阅读The Verge的完整故事。",
-      "originalSummary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal [&#8230;]",
-      "rawFullText": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \" unintended model actions ,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal and we had already turned off live internet access for some high-risk and cybersecurity evaluations, we have now decided to expand that to include all our internal evaluations until we have confirmed that our security and monitoring measures (described in the remediation section … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人工智能代理制造商承诺提供隐私—他们能否提供？",
-      "originalTitle": "AI agent makers are promising privacy — will they deliver?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
-      "date": "2026-10-10T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "在今年的OpenAI DevDay上，首席执行官萨姆·奥尔特曼（ Sam Altman ）推出了该公司的新人工智能代理Dots ，并告诉观众，该公司希望“为前沿人工智能的隐私设定一个新标准。“ OpenAI会花一整天的时间来隐瞒其主要竞争对手Meta的Muse ，因为它未能保证用户数据的安全。 然而，几个月前， Muse本身已经推出了一个据称比前任OpenClaw更安全的替代品--首席执行官马克·扎克伯格（ Mark Zuckerberg ）承诺，它是“从头开始为隐私和安全而打造的。“在一个公司囤积客户个人数据和网络攻击一文不值的时代，人工智能实验室正试图说服用户……阅读The Verge的完整故事。",
-      "originalSummary": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. [&#8230;]",
-      "rawFullText": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. Yet Muse itself, a couple of months earlier, had launched as a supposedly safer alternative to predecessor OpenClaw - with CEO Mark Zuckerberg promising it was \"built from the ground up for privacy and security.\" In an age when companies hoard customers' personal data and cyberattacks are a dime a dozen, AI labs are trying to convince user … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "微软的萨蒂亚·纳德拉（ Satya Nadella ）表示，人工智能模型需要“紧急制动”",
-      "originalTitle": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
-      "date": "2026-10-10T21:47:51.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
-      "fullContent": "10月2日是Disrupt向1万多名技术领导者展示突破的最后一天。立即预订展览桌。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）是最新一位就如何提高人工智能安全性提出冗长想法的技术高管。在周六早上的X帖子中，纳德拉写道，现在是时候“退一步评估人工智能的信任架构”了。 纳德拉用特朗普政府对人工智能的首选术语写道： “我们不能将超级智能视为一组嵌套的黑匣子，而只是接受或拒绝其建议、答案和行动。”正如纳德拉所概述的那样，这种方法“意味着将模型与协调其工作的线束分开” ，以及“将控制和保障措施外化”。 他还呼吁用“防篡改的人类可读证据”记录“每一个有意义的模型行动” ，并呼吁“授权人员”始终能够“暂停或关闭模型中间任务”的系统。“我们必须假设一个模型受到了损害，并从一开始就加以控制，”他说。“把它想象成紧急刹车。 “随着领先的人工智能公司承认越来越多的事件似乎失去了对其模型的控制，以及Anthropic首席执行官Dario Amodei发布了更谨慎的人工智能发展计划，纳德拉发表了评论。获得第二张通行证的50%折扣Disrupt体验旨在分享。领取通行证，与同事、合作伙伴或同行者同行，享受五折优惠。 通过建立联系、建立势头和发现创业生态系统的下一步，覆盖更多领域。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。",
-      "originalSummary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 80
-    },
-    {
-      "title": "萨蒂亚·纳德拉（ Satya Nadella ）说，我们应该假设所有的人工智能模型都“",
-      "originalTitle": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "date": "2026-10-10T22:10:17.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：模型相关动态",
-      "fullContent": "在X的一篇长文中，微软首席执行官阐述了他对高度先进的人工智能模型带来的危险以及如何应对这些风险的看法。纳德拉说，我们再也不能接受一个将人工智能视为“一组嵌套的黑匣子”的世界，我们只是接受或拒绝这些建议和行动。他呼吁建立一个更透明的系统，在这个系统中，模型可以被包含、观察并留下“防篡改的人类可读证据”。 “他的许多建议与我们从业内其他人那里听到的一致：及时的事件披露、独立审计、可验证的数据和遏制。正是在最后一点，他出现了......在The Verge阅读完整的故事。",
-      "originalSummary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or [&#8230;]",
-      "rawFullText": "In a lengthy post on X , Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or reject. He calls for building a more transparent system where models can be contained, observed, and leaves behind \"tamper-proof human readable evidence.\" Many of his recommendations align with what we've heard from others in the industry: timely incident disclosure, independent audits, verifiable data, and containment. It's on that last point that he appears t … Read the full story at The Verge.",
-      "tags": [
-        "模型"
-      ],
-      "score": 79
-    },
-    {
-      "title": "DistroKid一直在悄悄地删除歌曲，以回应UMG的诉讼",
-      "originalTitle": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
-      "date": "2026-10-10T18:52:07.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "艺术家们正在社交媒体上抱怨DistroKid在没有通知的情况下毫不客气地删除了他们的作品。现在， DistroKid已向The Verge确认，此次删除是对UMG索赔的直接回应。该品牌在9月份提起诉讼，声称DistroKid创建了“AI-slop管道”。“然而，艺术家们说他们的非人工智能作品正在被清除。 自称为“视频游戏男孩”的音乐家McGwire报告说，他的六首歌曲已从流媒体中删除。与其他人一样， McGwire表示，在移除之前或之后， DistroKid没有任何沟通， a…阅读The Verge的完整故事。",
-      "originalSummary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that [&#8230;]",
-      "rawFullText": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created an \"AI-slop pipeline.\" Artists are saying that their non-AI works are being caught up in the purge, however. Musician and self-described \"Video Game boy\" McGwire reported that six of his songs had been removed from streaming. As has been the case with others, McGwire says that there was no communication from DistroKid before or after the removals, a … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
     },
     {
       "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
@@ -274,23 +119,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic的人工智能向费城警方提供了关于未解决凶杀案的虚假提示",
-      "originalTitle": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "date": "2026-10-09T21:15:38.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、产品发布相关动态",
-      "fullContent": "根据6abc的一份报告， Anthropic AI模型向费城警察局（ PPD ）的一个小组提供了有关未解决的凶杀案的虚假信息。在周五发布的一份声明中，人民民主党表示，人工智能模型于7月18日通过PhillyUnsolvedMurders.com发送了小费，但调查人员从未对其进行审查，因为它被标记为垃圾邮件。Anthropic了解到其AI模型于9月28日发送了虚假提示，并于10月7日通知了PPD。 该公司表示，根据PPD的状态，在测试期间，其AI模型与“随机选择的网站”进行交互，并通过PPD的提示提交虚假信息……阅读The Verge的完整故事。",
-      "originalSummary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as [&#8230;]",
-      "rawFullText": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as spam. Anthropic learned its AI model sent the false tip on September 28th and notified the PPD on October 7th. The company said that during testing, its AI model was interacting with \"randomly selected websites\" and submitted false information through the PPD's tipline, according to the PPD's stateme … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 95
-    },
-    {
       "title": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
       "originalTitle": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "source": "OpenAI",
@@ -303,7 +131,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -319,22 +147,37 @@
         "机器人",
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
-      "title": "“纯粹的疯狂” ：数学家需要数年时间才能理解OpenAI的最新下降",
-      "originalTitle": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-      "date": "2026-10-09T19:09:44.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "“惊人的。” “压倒性的。” “前所未有的。” “超现实的。“纯粹的疯狂。”这些是三十多位数学家在与The Verge的对话中所描述的，他们试图理解OpenAI本周突然在现场抛出的大量数学结果。在对洪水规模的敬畏、兴奋和不确定性中，人们对这一切意味着什么--以及接下来会发生什么--产生了根深蒂固的焦虑。 对于他们所有的不同反应，研究人员一致认为，仅仅了解OpenAI发布的内容可能需要数年时间，更不用说弄清楚数学家自己在fi中的位置了……阅读The Verge的完整故事。",
-      "originalSummary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this week. Amid the awe, excitement, and uncertainty over the sheer scale of the [&#8230;]",
-      "rawFullText": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this week. Amid the awe, excitement, and uncertainty over the sheer scale of the deluge was a deep-seated anxiety over what it all means - and what comes next. For all their different reactions, researchers agreed that simply understanding what OpenAI had released could take years, let alone figuring out where the mathematicians themselves fit in the fi … Read the full story at The Verge.",
+      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
+      "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "date": "2026-10-09T00:08:24.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。 与高级人工智能记者詹姆斯·奥唐纳（ James O’Donnell ）一起采访金（ King ） ，了解他的工作，被评为《麻省理工科技评论》（ MIT Technology Review ）的35岁以下创新者之一，以及看待生物学的新方式。将于10月16日英国夏令时18:30/美国东部时间下午1:30/太平洋夏令时上午10:30上线立即注册演讲嘉宾：人工智能记者James O’Donnell和斯坦福大学/弧光研究所生物工程博士候选人Samuel King他要求人工智能设计病毒......它奏效了。 人工智能设计的病毒已经到来，并且已经杀死了细菌",
+      "originalSummary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
+      "rawFullText": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter James O&#8217;Donnell as he interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Going live on October 16th at 18:30 BST / 1:30pm EDT / 10:30am PDT Register now Speakers : James O&#8217;Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute Related Stories He asked an AI to design viruses … and it worked. AI-designed viruses are here and already killing bacteria",
       "tags": [
-        "公司动态"
+        "模型"
       ],
-      "score": 84
+      "score": 76
+    },
+    {
+      "title": "对GPU集群进行有影响的调度",
+      "originalTitle": "Impactful scheduling for GPU clusters",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "date": "2026-10-09T15:20:29.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "过度投入公共资源的悲剧预算不安排公平分享调度合同模拟结果挑战未来构建集群调度程序，以优先考虑高影响力的研究，同时保持满负荷使用在AI2的AI基础设施团队中，我们负责提供研究所的GPU计算能力，专门针对大型分布式培训工作负载。 我们将这项任务视为四个指标的金字塔，这些指标是相互建立的。基础是可用性：硬件运行正常并准备就绪的频率。上面是占用率：分配给特定工作量的可用时间的比例。接下来是影响：选择最有价值的工作负载接收资源的频率。金字塔的顶点是利用率：在工作负载的整个生命周期内使用的GPU容量的一部分。 这篇帖子是关于改善我们的日程安排决策的影响。我们最近用包括GPU时间预算、分层公平份额分配和时间分片合同在内的系统取代了基于优先级的调度器。因此，我们将关于每个研究项目需要多少GPU时间的争论从个案操作任务转移到透明的行政预算编制流程。 在Ai2 ，我们管理着成千上万的NVIDIA H100、B200和B300 GPU ，这些GPU分布在88到1024个GPU的集群中。这些集群是为AI模型的大规模分布式训练而构建的，它们为大约150名内部研究人员提供服务，他们的工作涵盖了不同的人工智能领域，包括LLM和VLM训练的全模型流程，机器人强化学习（ RL ）模拟，以及科学代理用例的后期训练。 像许多实验室一样，我们对GPU时间的需求远远超过供应量。根据提交的工作负载，在任何时候，我们都有2-3倍于可用GPU的未处理请求。一种思考方法是，我们集群上的每个可用GPU小时都有2-3个不同的研究工作负载。从历史上看，我们使用了基于优先级的调度程序，并允许工作负载选择退出可抢占性。 每个团队都有一个可供工作负载使用的并发GPU限制，这些工作负载可以免于抢占。可抢占的工作负载可能会超过空闲GPU的限制。这种策略产生了可预测的病理学。例如，我们观察到GPU “蹲”的情况，用户会在需要时停放他们可以连接的无操作工作负载。 这是因为研究人员发现他们无法以足够低的延迟启动调试工作负载来实时解决问题。我们还观察到优先级通货膨胀，最终100%的计划工作负载使用了高优先级。这意味着较低的优先级完全没有GPU时间。 由于可抢占性是可选的，我们还发现，我们的待命工程师花费了大部分工单响应时间来协商有组织地关闭在已知存在维护问题的主机上运行的不可抢占工作负载。当这些问题出现时，我们很难确定其根源。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "Pollo AI借助OpenAI将创意转化为活动",
@@ -366,7 +209,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "颠覆人工智能的“虚假前沿”运营",
@@ -381,7 +224,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -397,7 +240,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -413,7 +256,7 @@
         "智能体",
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "丽笙酒店集团将酒店探索引入ChatGPT",
@@ -444,7 +287,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "适用于所有人的GPT-6和智能用户界面",
@@ -459,23 +302,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
-    },
-    {
-      "title": "边缘的多模态开放式d1决策模型",
-      "originalTitle": "Multimodal open d1 decision models for the edge",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "date": "2026-10-07T16:54:33.000Z",
-      "summary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
-      "fullContent": "我们如何为EDGE Benchmark结果构建决策模型速度如何使用开放式d1决策模型开始使用开放式d1决策模型引用今天，我们发布了d1决策模型系列中的两个开放式决策模型： d1-3B和d1-omni-600M （实验）。这些开放式d1决策模型建立在我们的液体基础模型（ LFM ）之上。与我们的生成模型不同，决策模型不产生代币，而是在单次向前传递中回答。 d1-3B和d1-omni-600M来自两个截然不同的主干：我们在七个公共数据集上对d1-3B和d1-omni-600M进行了基准测试，涵盖阅读理解、毒性检测、意图分类、医学QA和跨语言理解。d1-3B的平均得分为82. 9 ，在表中和Decider 4B以上中最高。d1-omni-600M得分为78. 4 ，仅以四分之一的参数超过Decider 2B （ 77. 1 ）。 我们验证了d1-3B在标准视觉基准上保留了其LFM2. 5-VL-3B骨干的视觉能力，并且d1-omni-600M处理所有三种模式。我们不报告任何视觉或音频基准，因为决策指数v0.3仅包括私人视觉分割，而音频决策基准目前是一个未解决的问题。 我们与NVIDIA合作，在NVIDIA GeForce RTX 4090、NVIDIA Jetson AGX Thor、Jetson AGX Orin 64 GB和Jetson Orin Nano的NVIDIA堆栈上评估了d1-3B。由于d1-omni-600M是早期研究版本，因此我们在此版本中不报告任何速度数字。边缘推断。d1-3B在每台测量设备上在50毫秒内回答一个问题。三个问题只需要1. 3倍的时间， AGX Thor从16毫秒到20毫秒。 GPU推理。在GPU上， d1-3B在10毫秒内回答问题，并在两个平台上在18毫秒内处理384px图像。当您需要快速、结构化的决策（包括多模态输入）时，可以使用d1决策模型。d1-3B在其规模上提供最高的决策质量，而d1-omni-600M则适合占用空间。这些模型提供自己的代码，因此使用TRUST_REMOTE_CODE = True加载它：为简洁起见，我们仅包含d1-3B的示例。 有关如何运行的说明，请参阅d1-omni-600M型号卡。这两种决策模型都是开放式的，今天可以在Hugging Face上找到：",
-      "originalSummary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "多模态",
-        "模型"
-      ],
-      "score": 86
+      "score": 89
     },
     {
       "title": "一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron",
@@ -490,7 +317,22 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
+    },
+    {
+      "title": "Falcon ASR简介",
+      "originalTitle": "Introducing Falcon ASR",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "date": "2026-10-07T13:21:03.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "识别阿拉伯语阿拉伯语基准测试结果评估阿联酋语音针对不同录音条件的训练英语和其他语言模型基础尝试Falcon ASR确认阿拉伯语WER ： 20. 92% ·参数： 1. 6B ·阿联酋WER （ TII评估） ： 22. 73%我们正在引入Falcon-ASR ，这是我们的16亿个参数的阿拉伯语语音识别模型，特别关注阿联酋方言。 它由阿布扎比的技术创新研究所（ TII ）开发，还支持英语、法语、西班牙语和葡萄牙语。在我们的评估中， Falcon-ASR在六个阿拉伯语测试集中的平均单词错误率为20. 92% ，而我们使用的排行榜快照中的最佳发布结果为23. 17%。在我们的阿联酋内部评估中，在我们比较的系统中，它记录了最低的单词和字符错误率。 我们还支持转录的单词级时间戳，将每个转录的单词链接到其在音频中的位置。阿拉伯语因地区、扬声器和设置而异。处理正式新闻广播的模式可能仍然难以处理阿联酋语的对话或通过电话线录制的语音。方言阿拉伯语的转录资源也少于现代标准阿拉伯语（ MSA ） ，这使得培训和评估更加困难。 我们对Falcon-ASR进行了阿联酋语、MSA、其他海湾和阿拉伯方言以及英语的培训。我们的目标是转录人们在日常言语中使用的单词，包括方言形式和语言之间的变化。由ELM研究中心维护的开放式通用阿拉伯语ASR排行榜按六个测试集的等权重平均值对系统进行排名。它还报告字符错误率（ CER ）。对于两个指标，值越低越好。 我们的Falcon-ASR评估遵循此协议。WER =文字错误率； CER =字符错误率。值越低表示性能越好。我们使用排行榜的固定清单在相同的六个基准上评估了Falcon-ASR。竞争对手数据是2026年9月30日公布的排行榜平均值。Falcon-ASR的平均WER比该快照中公布的最佳结果高2. 25个百分点。 公开评估数据已包括阿联酋：卡萨布兰卡有一个阿联酋子集。我们通过对其他阿联酋和海湾语音的内部评估来补充这一覆盖范围，使用公开的录音和人工验证的成绩单来评估阿联酋公共子集以外的转录准确性。在我们的阿联酋内部评估中， Falcon-ASR实现了22. 73%的WER和10. 19%的CER ：",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 71
     },
     {
       "title": "Jump Trading如何使用ChatGPT扩展量化研究",
@@ -509,22 +351,6 @@
       "score": 99
     },
     {
-      "title": "使用Ironclad推进计算机使用",
-      "originalTitle": "Advancing computer use with Ironclad",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "date": "2026-10-06T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "了解OpenAI和Ironclad如何在复杂的合同工作流程中培训和评估AI代理，以推进计算机用于专业工作。",
-      "originalSummary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
       "title": "分享人工智能在数学方面的进展",
       "originalTitle": "Sharing AI progress in mathematics",
       "source": "OpenAI",
@@ -538,7 +364,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -553,7 +379,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -569,7 +395,7 @@
         "智能体",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -584,7 +410,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -599,7 +425,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -614,7 +440,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
@@ -629,37 +455,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
-    },
-    {
-      "title": "借助自主人工智能重新定义企业智能",
-      "originalTitle": "Redefining enterprise intelligence with autonomous AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-      "date": "2026-10-02T15:49:04.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“借助自主人工智能重新定义企业智能”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has&#8230;",
-      "rawFullText": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has produced fragmentation. Intelligence can accumulate in silos so that sales agents are unaware of open support tickets, for instance, or marketing systems are personalizing content without visibility into what finance already knows about a customer. Each function may perform well in isolation, but the enterprise as a whole learns little and has less information to act upon. DOWNLOAD THE REPORT The shift from AI as a tool to AI as an operating model—what we call the “agentic shift” in this report—demands something more fundamental than better models or faster infrastructure. It requires connecting people, processes, and data in real time, along with the governance and control to act on that intelligence reliably. This means rethinking both architecture and operating models simultaneously. First, rebuilding data infrastructure for accessibility rather than volume. Second, replacing fixed tech stacks with composable architectures that can evolve as models and tools change. And, lastly, resolving questions of AI sovereignty, including where intelligence runs, who controls it, and how it operates across organizational and jurisdictional boundaries. Key findings include the following: Enterprise AI’s scaling problem is structural. Process-first companies are pulling ahead. Global AI spending is rising sharply and model capabilities are advancing faster than most organizations can integrate them. Yet the majority of enterprises are still not growing revenue through AI or fundamentally rethinking how they operate. The companies generating sustained returns share a common discipline. They treat process redesign as the work that precedes model selection, building for how the technology will evolve rather than retrofitting roles and workflows after deployment. For them, the agentic shift begins with the operating model. Data readiness, not data abundance, is what makes AI compoundable. Most enterprises discover too late that having data and having AI-ready data are very different things. A sovereign, composable foundation—one that queries and prepares data where it resides, without migration or centralization—can convert raw data estates into intelligence that AI agents can act upon. As data residency laws, multicloud environments, and structural complexity make centralization increasingly impractical, sovereign control over where models run and data lives is what keeps that adaptability intact. Download the report. This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "模型"
-      ],
-      "score": 71
-    },
-    {
-      "title": "不要被愚弄- LLM不要讲道理",
-      "originalTitle": "Don’t be fooled—LLMs don’t reason",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-      "date": "2026-10-02T08:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "2016年3月的一个下午，我在首尔观看了一个我帮助制作的节目，在围棋板的第五排放了一块石头，看起来像是送给人类对手的礼物。在五场比赛中的第二场比赛中，移动37看起来非常荒谬，以至于一些评论员认为这是一个编程故障。事实并非如此。AlphaGo赢得了比赛，最终以4比1战胜了李世石，李世石是有史以来最伟大的职业围棋选手之一。 “我认为AlphaGo是基于概率计算的，它只是一台机器，” Lee后来说。“但是当我看到这一举动时，我改变了主意。当然， AlphaGo很有创意。“当深蓝在1997年击败当时的卫冕世界国际象棋冠军加里·卡斯帕罗夫（ Garry Kasparov ）时，它通过使用人类硬编码的规则，每个玩家提前六到八步，每秒评估2亿个国际象棋位置。围棋是一个非常复杂的游戏。 一块石头的价值取决于遥远的群体和领土在数十个动作中的展开方式。即使计算一小部分可能的结果，也需要超级计算机数十亿年的时间。为了获胜， AlphaGo必须一眼就能感知谁领先，甚至发明出人类从未想过的动作。这就是为什么许多关于AlphaGo与Lee的比赛的描述将MOVE 37描述为纯粹的机器直觉的闪光。但这是一个误会。 实际上，是AlphaGo的推理能力做出了这种创造性的选择，而这些正是当今人工智能所缺乏的力量。如果我们希望未来的人工智能系统在科学和医学等领域产生值得信赖的结果和真正的新见解，我们需要为他们配备这种真正的推理能力。AlphaGo由两个系统组成。第一个是它的政策网络，它被训练来猜测一个强壮的人会采取什么行动。 这个“直觉”部分认为第37步没有什么特别之处--这部戏大约有1万分之一的概率是由专业的人类玩家完成的。AlphaGo选择它的原因是该计划的搜索机制，它超越了直接的合理性，并权衡了拟议举措的未来后果。它明确构建并搜索了一个包含数千个分支的游戏树，每个分支代表不同的可能未来。 丹尼尔·卡尼曼（ Daniel Kahneman ）在行为科学中推广的一个众所周知的理论区分了人类思维的两种模式：系统1是快速、直觉水平、毫不费力的；系统2是缓慢、循序渐进和深思熟虑的。AlphaGo提供了一个引人注目的机器模拟分裂。 它的网络提供了预感--这一举动看起来很有希望，这个立场看起来很成功，它的搜索提供了审议，测试这些预感与随之而来的举动和反击。与人类认知一样，两半都不是单独工作的。仅凭直觉永远不会选择第37步，而蛮力搜索将难以筛选所有可能的步骤。这与今天的人工智能模型的工作方式截然不同。 大型语言模型一遍又一遍地选择下一个令牌。这相当于系统1在几乎所有人写的主题中快速、关联性强、令人惊讶的良好模式完成。在ChatGPT首次亮相后不久，该领域意识到仅语言流利性不足以发挥真正的实用性。",
-      "originalSummary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a&#8230;",
-      "rawFullText": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a programming glitch. It wasn’t. AlphaGo won the game, ultimately triumphing 4-1 over Lee Sedol, one of the greatest professional Go players of all time. “I thought AlphaGo was based on probability calculation and that it was merely a machine,” Lee said afterwards . “But when I saw this move, I changed my mind. Surely, AlphaGo is creative.” When Deep Blue defeated then reigning world chess champion Garry Kasparov in 1997, it did so by looking six to eight moves ahead per player and evaluating 200 million chess positions per second, using rules hard-coded by humans. Go is a vastly more complex game. A stone’s worth depends on how distant groups and territory unfold over dozens of moves. Computing even a fraction of the possible outcomes would take a supercomputer billions of years. To win, AlphaGo had to sense who was ahead at a glance and even invent moves no human had thought to play. That is why many accounts of AlphaGo’s match against Lee portray move 37 as a flash of pure machine intuition. But that is a misunderstanding. It was actually AlphaGo’s powers of reasoning that made this creative choice—and these are powers that today’s AI lacks. If we want future AI systems to produce trustworthy results and really novel insights in fields like science and medicine, we need to equip them with genuine reasoning capabilities of this kind. AlphaGo is made up of two systems. The first, its policy network, was trained to guess what move a strong human would play. This “intuitive” part regarded move 37 as nothing special—a play that had a roughly one in 10,000 chance of being made by an expert human player. What made AlphaGo choose it was the program’s search machinery, which looked beyond immediate plausibility and weighed the future consequences of proposed moves. It explicitly constructed and searched a game tree with thousands of branches, each representing a different possible future.&nbsp; A well-known theory in the behavioral sciences, popularized by Daniel Kahneman, distinguishes between two modes of human thought: System 1 is fast, gut-level, effortless; system 2, slow, step-by-step, and deliberative. AlphaGo offered a striking machine analogue of that split. Its networks supplied the hunches—this move looks promising, this position looks won—and its search supplied the deliberation, testing those hunches against the moves and countermoves that would follow. As in human cognition, neither half works alone. Intuition alone would never have opted for move 37, and brute-force search would have struggled to sieve through all the many possible moves. This is strikingly different from the way today’s AI models work. A large language model picks the next token, over and over. That amounts to system 1 in action—fast, associative, and surprisingly good pattern completion across almost every subject people write about. Not long after ChatGPT debuted, the field realized that language fluency alone falls short of true usefulness. The apparent solution was to make models that deliberate: Instead of answering immediately, they can now generate intermediate steps that decompose a problem, carry forward partial results, and influence subsequent reasoning—a process known as chain of thought. The gains have proved real, above all in mathematics and coding. But unlike AlphaGo’s search, this does not introduce a genuinely separate reasoning mechanism: The intermediate reasoning is still produced by the same next-token prediction process, iterated for longer before the model commits to an answer. Three shortcomings prevent what chatbots do from qualifying as reasoning (in a way that a scientist might recognize). First, these models typically maintain no explicit, persistent, and inspectable epistemic state. There is no open ledger that lays out the hypotheses a model is considering, the confidence it has in various explanations, the evidence it’s weighing, and the unresolved questions it’s holding onto—all things that should be systematically revised as new information arrives. Second, they lack a clean separation between what the system knows and how it manipulates that knowledge. Knowledge and reasoning are inextricably interwoven in the weights of the neural network—there is no independent, explicitly represented set of beliefs. Third, while the chains of thought chatbots produce look like deliberation, research has demonstrated that the bots often concoct them after the fact, reaching an answer by one route but reporting another. This is a problem because in the high-stakes applications we all care about, such as medicine, engineering, and scientific research, it matters not only what a system concludes but also how it arrives at its conclusion. When mistakes happen—for example, in medical diagnosis and treatment—we need to be able to pinpoint what went wrong: Was the system’s reasoning at fault, did it draw on invalid evidence, or did it make incorrect assumptions?&nbsp; This is why I recently left my position at Google DeepMind. I believe we need a fresh approach to machine reasoning—one that draws on AlphaGo’s architecture. AlphaGo maintains a record of what it knows about a given position: the game tree. This data structure contains all the variations, the possible futures, that AlphaGo has considered, each move and position being annotated with judgments made by its neural networks. As its reasoning progresses, AlphaGo updates the game tree and eventually synthesizes the information in it to decide which move to make.&nbsp; Similarly, for general reasoning a system should maintain an epistemic state that represents what the system holds as settled, what it doubts, what it has ruled out, which questions stay open. Reasoning can then be understood as a sequence of moves that change the epistemic state to advance knowledge and reduce uncertainty: deducing consequences, breaking problems into parts, and—crucially—deciding what question to ask, calculation to perform, or experiment to run next. Of course, open-world reasoning is harder than playing a board game such as Go or chess. In the real world the current state of affairs is only partially known, the set of available actions is large and variable, and the consequences of actions are stochastic or unknown.&nbsp; But recent advances in LLMs and other neural models now give us the capability to take on such general reasoning problems. For example, LLMs can suggest ways of tackling a problem on the basis of what is known and what resources are available. They can interact with tools via APIs or code and help assess whether a claim is supported by available evidence. Most important, to keep the system honest, an independent part of the system must evaluate each move by how much it actually resolves uncertainty, updating beliefs only when the change is backed by evidence. Once these rules are enforced, the model can accumulate certified knowledge and improve its reasoning policy by learning from past reasoning experiences. You can think of such a system as the scientific method on steroids, with the purpose of producing knowledge that can withstand scrutiny. I do not think we reach trustworthy machine intelligence by making system 1 bigger. Scale sharpens intuition, but it does not make intuition more deliberative. Move 37 mattered because a machine held a position, weighed the possible futures, and chose the move its artificial instincts would likely have rejected. Society needs such creative moves in drug discovery, materials, climate, diagnosis—fields where the board looks nothing like a Go board and nobody hands us the rules. We will get such insights only from systems that reason—systems whose conclusions arise from an auditable sequence of evidence, inference, and belief revision rather than from a convincing story told after the fact. Thore Graepel is chair of machine learning at University College London. He was a core member of the AlphaGo team at DeepMind and works to ensure that AI benefits human flourishing.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
+      "score": 75
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -674,7 +470,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
@@ -689,7 +485,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "Holo4 ：为通用计算机使用代理提供动力",
