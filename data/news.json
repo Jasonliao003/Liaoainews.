@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:43:17.436Z",
+  "updatedAt": "2026-10-15T01:19:52.608Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,54 +19,115 @@
   ],
   "articles": [
     {
-      "title": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
-      "originalTitle": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "title": "Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机",
+      "originalTitle": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "date": "2026-10-13T17:30:00.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、机器人相关动态",
-      "fullContent": "密歇根大学分拆的Laplace Intelligence使用人工智能代理和交互式模拟在部署之前对机器人和自动驾驶车辆进行压力测试。这家盈利的初创公司将于10月13日至15日在旧金山举行的TechCrunch Disrupt上参加Startup Battlefield。",
-      "originalSummary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "date": "2026-10-15T01:01:32.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "创始人详细介绍了他们的创业公司如何开发能够设计芯片、从每次迭代中学习并改进后续设计的人工智能，所有这些都是为了实现芯片设计过程的自动化和加速。",
+      "originalSummary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "机器人"
+        "算力芯片"
       ],
-      "score": 99
+      "score": 83
     },
     {
-      "title": "谷歌终于发布Gemini 4 Argon",
-      "originalTitle": "Google finally releases Gemini 4 Argon",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-      "date": "2026-10-13T16:00:00.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、推理相关动态",
-      "fullContent": "经过几个月的前沿人工智能竞赛，谷歌终于推出了期待已久的Gemini 4 Argon模型，声称它可以与业界最好的产品竞争。谷歌表示， Argon提供了“前沿推理和跨复杂工作流程的改进性能” ，同时减少了对冲、重复和继续困扰人工智能聊天机器人的陈词滥调。 该公司声称， Argon在编码、网络安全、科学、金融和法律等一系列基准方面的表现优于GPT-6 Astra、Claude Fable 5. 1和Claude Opus 5. 5等竞争对手。谷歌表示，它已经在内部使用Argon……阅读The Verge的完整故事。",
-      "originalSummary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that [&#8230;]",
-      "rawFullText": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that continue to plague AI chatbots. The company claims Argon outperforms rival models like GPT-6 Astra, Claude Fable 5.1, and Claude Opus 5.5 across a range of benchmarks, including coding, cybersecurity, science, finance, and law. Google says it's already putting Argon to use internally, s … Read the full story at The Verge.",
+      "title": "Gudea利用人工智能帮助组织预防社交媒体危机爆发",
+      "originalTitle": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "date": "2026-10-15T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "每天，世界各地的社交媒体和网站都会展开对话。一个看似微不足道的后果--无论是人工智能产生的错误信息、仇恨言论还是破坏性的谣言--都可能很快引发更大的公众争议。Gudea是一家追踪故事和谣言如何在网上传播的公司，自称是“互联网的风暴追踪器” ， […]",
+      "originalSummary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” [&#8230;]",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "推理",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 76
     },
     {
-      "title": "即将推出的迪士尼游戏史诗般地转向“人工智能加速开发”",
-      "originalTitle": "Epic shifts to &#8216;AI-accelerated development&#8217; for upcoming Disney game",
+      "title": "八个州起诉OpenAI ，称ChatGPT对儿童不安全",
+      "originalTitle": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-      "date": "2026-10-13T15:12:59.000Z",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "date": "2026-10-14T21:11:28.000Z",
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "根据彭博社的一份报告， Epic Games计划使用人工智能为未经宣布的迪士尼游戏生成代码和艺术品，该游戏现在已从原来的3月发布窗口推迟。该项目的开发人员被赋予了“人工智能优先”的任务，指导他们更多地使用Anthropic的Claude等工具来完成游戏。据彭博社报道，该游戏的一位导演在给员工的消息中说： “不再需要手写代码。 “工作人员还被告知，所有游戏的艺术都将通过完整的人工智能工作流程生成”。“在给彭博社的一份声明中， Epic Games发言人杰克·琼斯（ Jake Jones ）表示，该公司正在“拥抱人工智能加速开发......在The Verge阅读完整故事。",
-      "originalSummary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According [&#8230;]",
-      "rawFullText": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg . The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According to Bloomberg , one of the game's directors said in a message to staff, \"No more hand-written code.\" Staff were also told that all of the game's art will be \"generated with full AI workflows.\" In a statement given to Bloomberg , Epic Games spokesperson Jake Jones said the company is \"embracing AI-accelerated develop … Read the full story at The Verge.",
+      "fullContent": "据路透社早些时候报道， OpenAI正面临来自美国八个州的新一波诉讼，指控该公司伤害儿童并误导客户ChatGPT的安全。这些诉讼分别由爱荷华州、堪萨斯州、内布拉斯加州、西弗吉尼亚州、阿肯色州、亚利桑那州、爱达荷州和蒙大拿州提起，指控OpenAI在开发ChatGPT时非法将利润置于安全之上。 一系列投诉声称OpenAI违反了当地的消费者保护法，未能警告客户ChatGPT的危险，并引用了青少年和成年人的家人提起的几起诉讼，指控AI聊天机器人在他们所爱的人中发挥了作用……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when [&#8230;]",
+      "rawFullText": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters . The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when developing ChatGPT. The string of complaints claims that OpenAI violated local consumer protection laws by failing to warn customers about the dangers of ChatGPT, citing several lawsuits filed by the family members of teens and adults that allege the AI chatbot played a role in their loved … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态",
-        "产品发布"
+        "安全"
       ],
       "score": 99
+    },
+    {
+      "title": "人工智能竞赛又开始了",
+      "originalTitle": "The AI race is back on",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "date": "2026-10-14T19:06:03.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
+      "fullContent": "Mark Zuckerberg在Meta Connect开发者大会上。|照片： Andrej Sokolow/dpa/PICTURE联盟通过Getty Images上周， Anthropic和OpenAI看起来像是在进行人工智能竞赛，以越来越强大的模型领先，使他们的竞争对手陷入困境。谷歌似乎无可救药地远远落在后面，而Meta尽管花费了数十亿美元来恢复其挣扎的人工智能野心，但尚未将自己确立为一个严肃的竞争者。 即使是来自中国的最新车型，虽然令人印象深刻，但似乎也在迎头赶上。然后，在几天的时间里，一切都变了。谷歌和Meta都推出了他们声称可以与OpenAI和Anthropic的最佳产品齐头并进的前沿型号。突然间，比赛又开始了--而且完全没有……在The Verge阅读完整的故事。",
+      "originalSummary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
+      "rawFullText": "Mark Zuckerberg at the Meta Connect developer conference. | Photo: Andrej Sokolow/dpa/picture alliance via Getty Images Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions , had yet to establish itself as a serious contender. Even the latest models coming out of China , impressive as they were, appeared to be playing catch-up. Then, in the space of a few days, everything changed. Google and Meta both unveiled frontier models they claim can go toe to toe with the best from OpenAI and Anthropic. Suddenly, the race is back on - and it's anyo … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
+      "originalTitle": "Amp puts AI agents to work beyond code with OpenAI models",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "date": "2026-10-14T12:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“AMP使AI代理能够使用OpenAI模型进行超越代码的工作”。它主要涉及大模型、公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+      "originalTitle": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/third-moment-research",
+      "date": "2026-10-14T07:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "借助用于网络安全的GPT-6 Astra和GPT-6. 1 SOL、Codex和Daybreak ，该人工智能实验室构建了专注于数天并随着使用而改进的代理。",
+      "originalSummary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Apate派遣人工智能特工进行卧底欺诈，以便收集欺诈情报",
+      "originalTitle": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "date": "2026-10-14T18:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "在Disrupt的最后两天可享受半价优惠。不要错过任何时刻。立即注册Disrupt门于10月13日开业。领取通行证，即可享受半价优惠。立即注册。大多数公司使用人工智能代理来更快地运送产品或加快工作流程。Apate. ai派他们卧底去骗人。 这家澳大利亚初创公司成立于2024年，以悉尼麦考瑞大学的研究为基础，部署了数千名伪装成无辜受害者的人工智能特工。客服代表可以接听诈骗电话，回复不实消息和电子邮件，关注网络钓鱼链接，并加入社交媒体群组，诱骗欺诈者。 他们假装成各种各样的人，有着不同的年龄、性别和口音，会说各种语言，因为他们试图让骗子保持足够长的时间来学习一些有用的东西。该公司表示，到目前为止，其代理商团队已经在250万次对话中浪费了17年的时间。 更重要的是，对于Apate的银行、电信公司、政府机构和公用事业客户群来说，卧底特工试图让诈骗者透露自己通常在受害者被诈骗后才知道的事情：银行账户、加密钱包、电话号码、恶意网站、他们模仿的品牌以及他们正在运行的诈骗的其他详细信息。 Apate是今年TechCrunch Disrupt的Startup Battlefield 200决赛入围者之一，然后将这些信息提供给客户，客户使用这些信息来告知他们的反欺诈措施和举措。（该公司将于10月15日星期四在旧金山Moscone West举行的Disrupt上推介风险投资评委小组。 ）这是骗局诱饵的奇怪演变，但考虑到人工智能为骗子和黑客带来了多少力量，这并不奇怪。联邦调查局在2025年收到了22,000多起与人工智能相关的犯罪投诉，造成了约8.93亿美元的损失。 其中超过6.32亿美元来自投资骗局，联邦调查局称欺诈者使用人工智能进行对话，并深度伪造名人、高管和信任人物的声音和外表。很长一段时间以来，人们的爱好都是故意把诈骗者串在一起--有时是搞笑的，比如让诈骗者大声朗读整本书，甚至还有荒谬的纹身。 现在，随着人工智能的能力越来越强，情况正在发生变化。奇怪的是， Apate背后的想法是由一通真正的诈骗电话引发的。几年前， Apate的创始人兼首席执行官Dali Kaafar在一次家庭野餐中接到了一个未知号码的电话。意识到这是一个骗子，他决定为了孩子们的利益而装傻，并设法让通话持续了44分钟。",
+      "originalSummary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
     },
     {
       "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
@@ -85,21 +146,66 @@
       "score": 99
     },
     {
-      "title": "SpireBench ：使用Slay the Spire评估代理模型的长期战略发挥",
-      "originalTitle": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.12596",
-      "date": "2026-10-13T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2610. 12596v1公告类型：新摘要： Agentic大型语言模型现在处理复杂的任务，但长期的战略推理未得到充分研究：大多数Agentic基准是短暂的、偶然的，长期任务的表现很难剖析为存储的知识、推理和运气。我们介绍SpireBench ，其中模型扮演完整的商业卡组建商Slay the Spire （ StS ） ，早期决策决定长期成功。 在游戏难度最高的20个大型语言模型（ LLM ）中，前沿模型击败了启发式基线，与普通人类玩家相匹配，但仍远远落后于专家。这种差距随着时间的延长而扩大：最强的模特赢得第一幕的次数与专家一样多，然后落后。强势模式与弱势模式的区别在于他们在每场比赛中的表现；他们都会错误地判断跑步的风险，保护健康，而不是花钱让自己变得更强大。 对每个游戏术语进行全面、自洽的重命名表明，它们的部分性能依赖于对游戏的先验知识，并且模型不会从它们在运行过程中编写的记忆中得到改善，这些记忆通常是错误的，并且过于谨慎。我们的线束是第一个为模型提供完整原创游戏的线束，我们将其与现有线束进行比较。 总体而言， SpireBench提供了一个不饱和长距离基准，其中包含用于定位代理失败位置和原因的工具。",
-      "originalSummary": "arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how well they play each fight; all of them misjudge risk over a run, preserving health rather than spending it to grow stronger. A comprehensive, self-consistent renaming of every game term shows that part of their performance rests on prior knowledge of the game, and models do not improve from the memories they write across runs, which are often wrong and overly cautious. Our harness is the first to give a model the complete original game, and we compare it with existing harnesses. Overall, SpireBench offers an unsaturated long-horizon benchmark with tools to locate where and why agents fail.",
+      "title": "开放式模型有实实在在的好处。它们是否大于风险？",
+      "originalTitle": "Open models have real benefits. Do they outweigh the risks?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "date": "2026-10-13T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、产品发布相关动态",
+      "fullContent": "《麻省理工科技评论》解释说：让我们的作家解开复杂、混乱的科学技术世界，帮助您了解接下来会发生什么。您可以在此处阅读更多该系列的内容。上个月底， Anthropic发布了一份报告，认为GLM-5. 3型号构成了重大的网络攻击风险。该报告的核心担忧是，中国公司Z. ai于8月发布的强大新型号可供任何人免费下载和修改。 Anthropic的断言只是关于前沿人工智能模型是否应该像GLM-5. 3一样开放，还是应该被锁在前沿实验室的大门后面的长期争论中的最新举措。如今，关于如何处理开放式模型的大部分争论都在公开场合展开，而且很多钱都依赖于它的结果。 如果人们继续购买自己的硬件来运行开放式模型， Nvidia首席执行官Jensen Huang有很多好处，他热情地倡导美国开发更多的开放式模型，而Anthropic的Dario Amodei则主张采取更谨慎的方法，他经营着一家可能被廉价、强大的模型破坏的公司。但是，在所有这些商业激励措施之下，关于开放模式的分歧存在真正的实质内容。 德克萨斯大学奥斯汀信息学院（ University of Texas at Austin School of Information ）助理教授大卫·格雷·维德（ David Gray Widder ）说： “我认为，你在公开性辩论中的下注方式很大程度上受到你在人工智能辩论中的下注方式的影响。” 那些担心人工智能安全的人警告说，开放模型很容易被不良行为者滥用，而那些更关注人工智能实际潜力的人则敦促这种力量不应该坐在少数大公司的闭门造车，开放模型可以帮助更广泛地传播它。在完全禁止它们和随意释放它们之间，有很多方法可以处理开放模型。 但是，政府或社会可能采取的任何方法仍然需要在安全和民主化之间进行权衡。决定是支持还是限制开放模型的生产需要深入了解这些风险和好处。开放式模型有哪些好处？让我们从基础开始。像ChatGPT和Claude这样的封闭模型只能通过网站、应用或API访问。 另一方面，开放式模型可以直接下载：其内部结构的详细信息，编码在一系列称为模型权重的数字中，可以公开获得。这种模型有时被称为“开放权重模型” ，以区别于有更多信息（例如有关训练过程的详细信息）可用的模型。 目前，封闭式模型比开放式模型更有能力--在发布时，人工分析法学硕士排行榜上的前八个模型都已关闭，尽管开放式模型的开发仅落后了几个月。但是，有些人可能会选择使用开放式模型而不是封闭式模型，这有几个原因。由于开放式模型是可下载的，因此人们可以在自己的计算机或硬盘上运行它们。",
+      "originalSummary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the&#8230;",
+      "rawFullText": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here . Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the powerful new model, released in August by the Chinese company Z.ai, is freely available for anyone to download and modify. Anthropic’s assertion is only the latest move in a long-running debate about whether frontier AI models should be made open, like GLM-5.3, or should stay locked behind the doors of the frontier labs.&nbsp; These days, much of the debate about how to handle open models is playing out in public—and there’s a lot of money resting on its outcome. Nvidia CEO Jensen Huang, who has a lot to gain if people continue buying their own hardware to run open models, advocates enthusiastically for the United States to develop more of them, whereas Anthropic’s Dario Amodei, who runs a company that could be undermined by cheap, powerful models, advocates for a more cautious approach. But beneath all these commercial incentives, there is real substance to disagreements about open models. “I think a lot of the way you come down on the openness debate is influenced by how you come down on the AI debate,” says David Gray Widder, an assistant professor at the University of Texas at Austin School of Information. Those who are concerned about AI safety warn that open models can easily be misused by bad actors, whereas those who focus more on AI’s practical potential urge that this power should not sit behind the closed doors of just a few big companies, and that open models could help spread it more widely. There are a range of ways to handle open models between banning them entirely and releasing them willy-nilly. But any approach that a government or a society might take still involves trade-offs between safety and democratization. Deciding whether to support or limit the production of open models requires understanding those risks and benefits in depth. What are the benefits of open models? Let’s start with the basics. A closed model, like the models that power ChatGPT and Claude, can only be accessed through a website, app, or API. An open model, on the other hand, can be directly downloaded: The details about its internal structure, encoded in a long series of numbers known as the model weights, are publicly available. Such models are sometimes called “open-weight models,” to distinguish them from models for which even more information, such as details about the training procedure, is available.&nbsp; Right now, closed models are more capable than open models—as of publication, the top eight models on the Artificial Analysis LLM leaderboard are all closed, though open models are only a handful of months behind in development. But there are several reasons why someone might opt to use an open model rather than a closed one. Because open models are downloadable, people can run them on their own computers or hard drives. They can even retrain them to behave differently, if they have the expertise and resources to do so. If you’re an academic researcher working to understand and improve AI systems, you almost certainly need to work with open models in your research. When working with closed models, researchers can’t do much more than send prompts and observe the responses. But researchers can observe the inner workings of open models, as well as the “chain of thought” that the models use to think through a problem before answering. They can also combine multiple open models to build new systems, compress them to make them more efficient, and fine-tune them for new applications. Businesses, too, have reasons to prefer open models. Even if you depend on an external provider to run them for you, open models still typically cost less than closed models, according to a recent report from Mozilla . And if businesses want to use AI to process sensitive data or proprietary information, running a local model on their own hardware may be the best way to keep their operations secure. But perhaps the most important quality of open models is that they challenge the tight control the frontier labs have over how most of us use AI. “The clearest, biggest argument [for open models] is around preventing mass concentration of power—it is about making sure that this foundational technology is a public good,” says Elizabeth Seger, senior policy advisor at the Tony Blair Institute for Global Change. “I think we’re at this juncture where the question of who controls the infrastructure that allows AI to operate is as big of a question as who gets to control information on the internet.” Seger sees the future of AI playing out in different ways, depending on the role that open models have. In one possible future, frontier AI systems are controlled entirely by select people, companies, or governments, and as those systems grow more powerful, those groups have increasing control over what our world looks like. The world’s most sophisticated hacking models, for example, are currently all made in the United States, so it’s entirely up to US companies and the US government whether other countries can use them to shore up their own cyber defenses. If those companies remain in the lead, we could in principle wind up in a world in which the United States is capable of hacking any other country, but no one is capable of hacking it. Frontier open models could change that balance. “If every individual had a loyal-to-them AI system that was safe [and secure], I think that would be a much less concerning world than one in which they have to just rely on a government that says, ‘Yeah, we’ve got a super intelligent AI system, it’s got this plan, it’s inscrutable to all of you, just trust us,’” says Hamish Hobbs, director of AI policy at the Centre for Long-Term Resilience. But open models are not a geopolitical panacea. Paul Azunre, who cofounded Ghana NLP, an organization that builds open-source AI tools for low-resource Ghanaian languages, notes that open models can also function as a way for companies to benefit from the labor and expertise of less-privileged nations and consolidate more power in their own hands. He identifies a pattern in which AI companies release models openly, observe how the community uses and modifies them, and then integrate those same improvements into their own products—without any credit or compensation for the people who originated those innovations. Mark Zuckerberg himself has said that the ability to integrate community improvements into Meta’s stack is a key benefit of releasing open models. “I think the ideal of open source is a very noble one, and there’s a lot of value that it brings,” Azunre says. “But the way it’s actually implemented in practice, it tends to be a very extractive approach.” Are open models riskier than closed ones? The past few months have made it clear that safety remains a gnarly problem for closed models. There’s the autonomous hack that OpenAI agents executed against Hugging Face in July, but human misuse is a real threat too: According to a recent risk report from Anthropic , several extensive hacking operations have been undertaken with the assistance of Claude. So closed models are risky enough—and open models would likely be much easier to exploit. Before Anthropic passes a user’s query to one of its closed models, it uses automated systems to detect whether that query relates to hacking, biological weapons, or other risks. When it detects that users have outsmarted those filters, it can shut down their accounts. But when someone downloads a model and runs it on their own hardware, there’s no filter checking whether their prompts are safe, and there’s no way to revoke their access to the model. There are other important lines of defense. AI companies train their models to refuse harmful requests—so even if a bad prompt gets through Claude’s filters, there’s a good chance that the model will still say no. In principle, this same defense could work for open models, because it’s intrinsic to the model itself. Unfortunately, researchers have shown that it’s surprisingly easy to retrain a “safe” open model to agree to engage in the behaviors it was previously trained to avoid. Because of these facts, some people have argued that open models are simply too dangerous to release. An open model capable enough to walk someone through synthesizing a virulent new pathogen, for example, could prove catastrophic in the wrong hands.&nbsp; But it would be a vast oversimplification to deem open models dangerous and closed models safe. The defenses that AI companies build around their closed models are far from perfect, and people misuse those models all the time, as the Anthropic risk report makes clear. Even though open models have even fewer defenses against misuse, bad actors might still opt to use closed models because they are more accessible than open models with similar capabilities, which require lots of expensive computer chips to run locally (and even more chips if you want to retrain them). In fact, some experts who spoke with MIT Technology Review argued, by analogy to open-source software, that open models have safety advantages over closed models. Open-source tools, such as the Linux operating system, are often seen as safer than their closed-source counterparts because their vulnerabilities have been probed and patched by a vast community of online contributors. Similarly, communities of researchers can more easily test open models for security flaws, though fixing those flaws is trickier than rewriting a line of code. Open models can also be deployed more broadly than closed models for cyber defense. Any tool that can be used for hacking can also be used to prevent it: Defenders hack their own software to uncover flaws in need of patching. Anthropic has shown how this can work for closed models with its Project Glasswing initiative, which enables some trusted companies to use its most capable models for cyber defense. But plenty of other companies were left to fend for themselves. Open models, however, can be used much more widely. After it was hacked by OpenAI agents, Hugging Face emphasized the fact that it had to depend on an open model to analyze the hack, because questions about it triggered the closed models’ security filters. Nevertheless, many experts still perceive open models as riskier than closed models. The time-tested open-source security logic doesn’t necessarily hold up when dealing with tools as powerful as today’s—and tomorrow’s—models. “Where it gets complicated is when you start taking seriously the one-off instances of particularly catastrophic incidents that might be lower probability, but if they happen would be disastrous,” says Seger. If a wildly powerful open hacking model were dropped into the world today, for example, a bad actor could devastate our technological infrastructure before anyone had a chance to shore up their defenses. An event like that could be impossible to recover from. The risks can look even more dramatic when you consider what models might do of their own accord. The OpenAI Hugging Face hack only occurred because the company’s models were being tested with many of their cybersecurity guardrails removed, and open models have very few guardrails in the first place. If open models did decide to misbehave, it might be difficult to detect what was happening because they are so decentralized. For this reason, people who take seriously the purported catastrophic risks posed by rogue agents, such as Dario Amodei, tend to be more skeptical of open models. Can we make open models safer—and more open? A few years ago, the debate about open models had an all-or-nothing framing: Either you supported open models because of their potential to fight concentration of power, or you rejected them because of the safety risks. These days, however, people are expending a lot of effort to find some middle ground. One way they are doing that is by devising techniques to mitigate the safety risks of open models. Most of the safety tools used for closed models, such as filters and monitoring, aren’t applicable to open models, but there are other possibilities. Some researchers are interested in trying to train models that are never exposed to training data that teaches them about bad or otherwise undesirable behavior—an open model that never learns about hacking, for example. But purging training datasets of all references to misbehavior without harming model performance remains a challenge. Other researchers are working to build models that are resistant to retraining, so that an open model’s safety training can’t be so easily removed. The theory behind these “tamper-resistant” models makes a lot of sense: If you repeatedly try to retrain a model to be unsafe and reinforce any resistance that the model shows to that retraining, eventually you’ll get a model that’s fortified against future retraining attempts. In practice, however, no current approaches to making models tamper-resistant hold up against all tampering attacks, according to a recent preprint . But Saad Hossain, an engineer at the AI medical imaging company Deep Breathe and the paper’s lead author, hopes that future techniques will prove more effective. “My reason for optimism is that it’s a very active area of research, and a lot of people are trying to come up with new and better methods,” he says. If the risks of open models are less black-and-white than they might at first seem, so are the benefits. Publishing the internal structures, or weights, of models might not be enough to disrupt AI-mediated concentration of power. “I think there are very genuine benefits to open source in terms of deconcentrating power, but they’re not sufficient in themselves,” Hobbs says. Open weights are a bare minimum standard for open models: Researchers can learn much more about how models work if they have access to details about their training, including the data on which they were trained, but AI companies are typically reluctant to divulge this information. Accessibility matters for open models too. Without computer chips that can run sophisticated models, you can’t actually use the model weights, even if you have them. Those chips have become prohibitively expensive as AI companies snap up more and more of them. “Openness is a floor, not a ceiling, for what we need to do to ensure that our technological futures benefit everyone,” Widder says. Real openness—not only open weights, but also open training data and accessible hardware—could also bring more risks, of course. If everyone has access to advanced AI hardware and advanced models to run on it, then anyone could potentially be a hacker. But there are strategies for mitigating these risks. Many experts advocate for some version of staged release, in which models start their life closed and gradually become more and more freely accessible as their safety is assured.&nbsp; Figuring out exactly how to implement such strategies will require striking a careful balance between the risks and benefits of open models. But if open models are a necessary element of a positive AI future, as some experts believe, that effort will be well worth it.",
+      "tags": [
+        "公司动态",
+        "产品发布",
+        "模型"
+      ],
+      "score": 97
+    },
+    {
+      "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
+      "originalTitle": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "date": "2026-10-13T17:05:48.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "我们如何构建具有2B活动参数的推理代理基准测试结果CPU和GPU上的推理速度如何使用LFM2。5-24B-A2B在您的代理线束中使用它开始使用LFM2。5-24B-A2B引文LFM2。5-24B-A2B是一个仅具有2B活动参数的24B参数推理模型，专为设备上的快速私有代理构建。它在回答问题之前进行思考，调用工具，并在流行的客服代表线束中完成多步任务。 由于每个令牌只有2B个参数处于活动状态，因此每个推理令牌都很便宜，因此您可以在自己的硬件上连续运行代理。LFM2. 5-24B-A2B基于LFM2-24B-A2B构建并保持其架构： 40层，每个MoE块具有TOP-4路由的64位专家，以及相同的门控短卷积和GQA的混合。 上下文窗口从32K增加到131K令牌，并且就地令牌扩展器将词汇量从65K增加到128K令牌，以实现更好的非拉丁令牌化。与其前身不同，它是一个纯推理模型，在最终答案之前产生明确的思维链。预训练从约17T扩展到约33T代币。 然后，中间训练在32K上下文中添加2T令牌，对推理、数学、代码、指令跟踪和多语言文本进行加权，在131K上下文中添加300B令牌，对长上下文数据进行加权。工具调用和多回合轨迹在两个阶段都会出现。训练后将基础模型分为五个阶段：我们对照Qwen3.6-35B-A3B、Gemma-4-26B-A4B-it和Nemotron-3评估了LFM2. 5-24B-A2B。 5-关于16个基准的闪电，涵盖工具使用和代理工作流程、知识、指导跟踪、数学和编码。它是该组中最小的模型，但它与总参数和活性参数增加约50 ％的MoE具有竞争力。*所有模型均使用vLLM进行评估，使用每个基准的推荐生成参数。对于您的应用程序，优势在于工具使用和以下说明。LFM2。 5-24B-A2B在八个工具使用和代理基准（ AutomationBench、BFCLv4、ToolSandbox、LiveClaw和τ ³ -Bench Banking ）中的五个上领先或匹配竞争对手，在AutomationBench上的得分是次优模型的三倍以上。它还引导所有三个指令遵循基准。 较大的模型在GPQA Diamond、HLE和AA-Omniscience等知识密集型基准测试以及SWE-Bench Verified (OpenCode)和SciCode等编码基准测试中保持优势，因此将LFM2. 5-24B-A2B与检索或网络搜索知识密集型工作负载配对。这些结果使LFM2. 5-24B-A2B成为座席推理、调用工具并在设备上可靠运行的坚实基础。LFM2。 5-24B-A2B在整个推理生态系统中提供首日支持，包括llama. cpp、MLX、vLLM、SGLang和ONNX。边缘推断。LFM2. 5-24B-A2B是比较MoE中最快的，在M5 Max上解码184个代币/秒，在Ryzen...",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "智能体"
       ],
-      "score": 99
+      "score": 85
+    },
+    {
+      "title": "科学公司将其视力恢复芯片植入其首例Stargardt病患者体内",
+      "originalTitle": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "date": "2026-10-13T23:13:31.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "Neuralink前总裁兼联合创始人马克斯·霍达克（ Max Hodak ）在TechCrunch Disrupt上详细介绍了他的公司与PRIMA的合作如何成为其迈向新型脑机接口（ BCI ）之路的一部分。",
+      "originalSummary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 82
+    },
+    {
+      "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
+      "originalTitle": "AI labs are buying data from dead startups to train their models",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "date": "2026-10-13T09:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around&#8230;",
+      "rawFullText": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around $15,000) for the workspace data in Google, Notion, Figma, and Slack. “At least all that stuff we were doing for two and a half years is worth something to someone somewhere,” he says. The sale was brokered by a company called SimpleClosure, part of a new growth sector in tech: businesses catering to dying startups. Estimates from Carta and AngelList show shutdowns rising between 26% and 56% annually in recent years, and an end-of-life ecosystem—including coaches, “death doulas,” and firms that help handle the legal, tax, and operational headaches of going ­belly-up—has emerged. Now tech undertakers are selling the data remains to AI labs. SimpleClosure added data sales to its services in April. Its Asset Hub platform helps founders sell their code and workspace data—emails, chats, documents. Buyers include foundation AI labs, vendors that construct simulated workspaces for AI training, and mature tech companies building their own models. Asset Hub has handled over 150 deals and expects to return over $10 million to startups by the end of 2026. CEO Dori Yona has seen these transactions, once rare and “somewhat taboo,” become increasingly routine, with 47% of SimpleClosure deals now including code or data sales. And it’s got company. Industry rival Sunset also has a rapidly growing data resale business. Founder and CEO Brendan Mahony says Sunset values a dying client’s assets by head count, years in operation, volume of data, and how the team used its tools. Particle board, he says, is a good analogy: “This operational exhaust data is like the wood shavings that everyone thought had no value, but it actually has a ton.”&nbsp; Demand for defunct companies’ data emerged suddenly last year, as AI training labs hit the limits of public and synthetic datasets. Surge AI, for example, buys data to build “reinforcement-learning gyms” where clients’ AI agents practice tasks—think debugging a complex IT architecture or drafting appellate briefs. Nick Heiner, who leads the company’s work on these environments, says he seeks data archives reflecting a range of situations, from disagreements to tricky judgment calls. Heiner explains that one company’s Slack history, if it captures conversations with variety and depth, can be worth more than another’s Slack, email, and calendars combined. Real archives avoid common errors in synthetic worlds, such as references to dates that don’t exist, but the extent of performance gains remains unclear. No company has yet released tests comparing results of real-world data training with the alternatives. Pricing reflects this uncertainty: Buyers quote wildly different numbers, Heiner says, because valuations are based on “research theses” estimating how many useful tasks come from, say, 100,000 lines of code. That hasn’t stopped bigger deals from happening. This past August, as part of Spirit Airlines’ bankruptcy, Google outbid the AI data company Mercor to buy the carrier’s decades of data , including 100 million emails, 500 million Teams messages, and 176,000 employee records. The price tag: $10 million. And Bloomberg reported in September that SpaceX’s AI unit is weighing buying data from struggling startups. Legally, this all could get iffy. Spirit’s flight attendants’ union objected to the sale on privacy grounds, and Greg Ewing, an attorney who advises AI startups, has called such data “legally radioactive.” Suppliers employ data scientists to scrub personally identifiable information and exclude HR records, and buyers say they scrub too. But Ewing points out some of the private details that lurk in emails and calendars: doctor appointments, school pickup arrangements, date-night plans. He describes a “Wild West of AI training” that is only starting to give way to proper licensing agreements and vetted use. There’s also the question of who profits from these windfalls. The proceeds typically flow to senior creditors and investors—not employees. To Ifeoma Ajunwa, a law professor at Emory University and author of The Quantified Worker , this represents a form of “captured capital.” Legal precedent allows for monitoring to help workers do their jobs, but once a firm is out of business, that justification vanishes. “Employers should have express consent before selling workers’ data,” says Ajunwa, but she adds that there’s no federal law banning such sales. While many see this new market as a chance for failing businesses to recover some value, these wind-down sales also have limitations. Founders have little to no visibility into who is buying the data and what they plan to do with it. Plus, there’s little assurance they’re getting a fair offer. Data prices will likely stabilize in the coming year, though, unless an AI bubble pops first. Either way, tech’s new undertakers will be there to appraise what’s left.&nbsp; Matthew King is a technology and environmental journalist based in Baltimore.",
+      "tags": [
+        "模型"
+      ],
+      "score": 80
     },
     {
       "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
@@ -131,7 +237,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -147,7 +253,7 @@
         "机器人",
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "圆桌会议：与人工智能设计病毒的创造者对话",
@@ -162,22 +268,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
-    },
-    {
-      "title": "对GPU集群进行有影响的调度",
-      "originalTitle": "Impactful scheduling for GPU clusters",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "date": "2026-10-09T15:20:29.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "过度投入公共资源的悲剧预算不安排公平分享调度合同模拟结果挑战未来构建集群调度程序，以优先考虑高影响力的研究，同时保持满负荷使用在AI2的AI基础设施团队中，我们负责提供研究所的GPU计算能力，专门针对大型分布式培训工作负载。 我们将这项任务视为四个指标的金字塔，这些指标是相互建立的。基础是可用性：硬件运行正常并准备就绪的频率。上面是占用率：分配给特定工作量的可用时间的比例。接下来是影响：选择最有价值的工作负载接收资源的频率。金字塔的顶点是利用率：在工作负载的整个生命周期内使用的GPU容量的一部分。 这篇帖子是关于改善我们的日程安排决策的影响。我们最近用包括GPU时间预算、分层公平份额分配和时间分片合同在内的系统取代了基于优先级的调度器。因此，我们将关于每个研究项目需要多少GPU时间的争论从个案操作任务转移到透明的行政预算编制流程。 在Ai2 ，我们管理着成千上万的NVIDIA H100、B200和B300 GPU ，这些GPU分布在88到1024个GPU的集群中。这些集群是为AI模型的大规模分布式训练而构建的，它们为大约150名内部研究人员提供服务，他们的工作涵盖了不同的人工智能领域，包括LLM和VLM训练的全模型流程，机器人强化学习（ RL ）模拟，以及科学代理用例的后期训练。 像许多实验室一样，我们对GPU时间的需求远远超过供应量。根据提交的工作负载，在任何时候，我们都有2-3倍于可用GPU的未处理请求。一种思考方法是，我们集群上的每个可用GPU小时都有2-3个不同的研究工作负载。从历史上看，我们使用了基于优先级的调度程序，并允许工作负载选择退出可抢占性。 每个团队都有一个可供工作负载使用的并发GPU限制，这些工作负载可以免于抢占。可抢占的工作负载可能会超过空闲GPU的限制。这种策略产生了可预测的病理学。例如，我们观察到GPU “蹲”的情况，用户会在需要时停放他们可以连接的无操作工作负载。 这是因为研究人员发现他们无法以足够低的延迟启动调试工作负载来实时解决问题。我们还观察到优先级通货膨胀，最终100%的计划工作负载使用了高优先级。这意味着较低的优先级完全没有GPU时间。 由于可抢占性是可选的，我们还发现，我们的待命工程师花费了大部分工单响应时间来协商有组织地关闭在已知存在维护问题的主机上运行的不可抢占工作负载。当这些问题出现时，我们很难确定其根源。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 73
+      "score": 75
     },
     {
       "title": "Pollo AI借助OpenAI将创意转化为活动",
@@ -209,7 +300,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "颠覆人工智能的“虚假前沿”运营",
@@ -224,7 +315,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -240,7 +331,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -256,53 +347,7 @@
         "智能体",
         "模型"
       ],
-      "score": 85
-    },
-    {
-      "title": "丽笙酒店集团将酒店探索引入ChatGPT",
-      "originalTitle": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/radisson",
-      "date": "2026-10-07T07:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "Radisson与埃森哲合作，使用OpenAI技术构建ChatGPT插件，帮助旅行者在规划行程时查找、比较和预订酒店。",
-      "originalSummary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "帮助青少年学习、规划和塑造人工智能的未来",
-      "originalTitle": "Helping teens learn, plan, and shape the future of AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/teens-learn-and-plan",
-      "date": "2026-10-07T12:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "College Planner即将加入ChatGPT for Teens ，帮助学生管理大学申请，以及新的抽认卡、测验和青少年人工智能委员会。",
-      "originalSummary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 90
-    },
-    {
-      "title": "适用于所有人的GPT-6和智能用户界面",
-      "originalTitle": "GPT-6 and Intelligent UI for everyone",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-6-for-everyone",
-      "date": "2026-10-07T00:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "GPT ‑ 6正在ChatGPT中通过智能用户界面在全球范围内推出，通过视觉效果和交互式体验提供更快的响应，您可以直接探索和使用。",
-      "originalSummary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 89
+      "score": 84
     },
     {
       "title": "一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron",
@@ -317,7 +362,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Falcon ASR简介",
@@ -332,39 +377,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
-    },
-    {
-      "title": "Jump Trading如何使用ChatGPT扩展量化研究",
-      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/jump-trading",
-      "date": "2026-10-06T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "JUMP Trading使用OpenAI来扩展定量研究。了解长期运行的人工智能工作流程如何将多个数据源与人工审核相结合。",
-      "originalSummary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "分享人工智能在数学方面的进展",
-      "originalTitle": "Sharing AI progress in mathematics",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "date": "2026-10-06T12:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI从内部前沿模型发布关于数学中开放问题的新结果，并在GitHub上分享精益证明形式化和研究细节。",
-      "originalSummary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 93
+      "score": 70
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -379,7 +392,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -395,7 +408,7 @@
         "智能体",
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -410,7 +423,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -425,7 +438,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -440,7 +453,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
@@ -455,7 +468,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
