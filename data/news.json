@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T01:19:52.608Z",
+  "updatedAt": "2026-10-16T01:05:27.384Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,67 +19,87 @@
   ],
   "articles": [
     {
-      "title": "Ricursive Intelligence押注于人工智能设计的芯片，以帮助解决计算危机",
-      "originalTitle": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "date": "2026-10-15T01:01:32.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "创始人详细介绍了他们的创业公司如何开发能够设计芯片、从每次迭代中学习并改进后续设计的人工智能，所有这些都是为了实现芯片设计过程的自动化和加速。",
-      "originalSummary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 83
-    },
-    {
-      "title": "Gudea利用人工智能帮助组织预防社交媒体危机爆发",
-      "originalTitle": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "date": "2026-10-15T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "每天，世界各地的社交媒体和网站都会展开对话。一个看似微不足道的后果--无论是人工智能产生的错误信息、仇恨言论还是破坏性的谣言--都可能很快引发更大的公众争议。Gudea是一家追踪故事和谣言如何在网上传播的公司，自称是“互联网的风暴追踪器” ， […]",
-      "originalSummary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy. Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "八个州起诉OpenAI ，称ChatGPT对儿童不安全",
-      "originalTitle": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
+      "title": "ChatGPT现在可以查看您的Chrome标签页",
+      "originalTitle": "ChatGPT can peek at your Chrome tabs now",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-      "date": "2026-10-14T21:11:28.000Z",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "date": "2026-10-15T22:43:23.000Z",
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "据路透社早些时候报道， OpenAI正面临来自美国八个州的新一波诉讼，指控该公司伤害儿童并误导客户ChatGPT的安全。这些诉讼分别由爱荷华州、堪萨斯州、内布拉斯加州、西弗吉尼亚州、阿肯色州、亚利桑那州、爱达荷州和蒙大拿州提起，指控OpenAI在开发ChatGPT时非法将利润置于安全之上。 一系列投诉声称OpenAI违反了当地的消费者保护法，未能警告客户ChatGPT的危险，并引用了青少年和成年人的家人提起的几起诉讼，指控AI聊天机器人在他们所爱的人中发挥了作用……阅读The Verge的完整故事。",
-      "originalSummary": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when [&#8230;]",
-      "rawFullText": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters . The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when developing ChatGPT. The string of complaints claims that OpenAI violated local consumer protection laws by failing to warn customers about the dangers of ChatGPT, citing several lawsuits filed by the family members of teens and adults that allege the AI chatbot played a role in their loved … Read the full story at The Verge.",
+      "fullContent": "OpenAI的ChatGPT Atlas浏览器已不复存在，但现在ChatGPT的Google Chrome扩展正在进行一些升级，允许它使用您已经打开的浏览器选项卡。OpenAI表示，在安装扩展程序后，当您在ChatGPT的网络或桌面应用程序中标记Chrome时， ChatGPT现在可以查看您的浏览器选项卡，并发布一个演示视频，显示有人要求ChatGPT将他们打开的三个选项卡与他们正在考虑的沙发进行比较。 今天为Chrome用户带来了一些重大升级！我们将电脑的强大功能带给所有使用Chrome浏览器的用户。首先： ChatGPT现在可以使用Chrome浏览器中的标签页，使答案更有用，并为您完成工作。如果……在The Verge阅读完整故事。",
+      "originalSummary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
+      "rawFullText": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.",
       "tags": [
         "大模型",
         "公司动态",
-        "安全"
+        "视频生成"
       ],
       "score": 99
     },
     {
-      "title": "人工智能竞赛又开始了",
-      "originalTitle": "The AI race is back on",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-      "date": "2026-10-14T19:06:03.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、模型相关动态",
-      "fullContent": "Mark Zuckerberg在Meta Connect开发者大会上。|照片： Andrej Sokolow/dpa/PICTURE联盟通过Getty Images上周， Anthropic和OpenAI看起来像是在进行人工智能竞赛，以越来越强大的模型领先，使他们的竞争对手陷入困境。谷歌似乎无可救药地远远落在后面，而Meta尽管花费了数十亿美元来恢复其挣扎的人工智能野心，但尚未将自己确立为一个严肃的竞争者。 即使是来自中国的最新车型，虽然令人印象深刻，但似乎也在迎头赶上。然后，在几天的时间里，一切都变了。谷歌和Meta都推出了他们声称可以与OpenAI和Anthropic的最佳产品齐头并进的前沿型号。突然间，比赛又开始了--而且完全没有……在The Verge阅读完整的故事。",
-      "originalSummary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
-      "rawFullText": "Mark Zuckerberg at the Meta Connect developer conference. | Photo: Andrej Sokolow/dpa/picture alliance via Getty Images Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions , had yet to establish itself as a serious contender. Even the latest models coming out of China , impressive as they were, appeared to be playing catch-up. Then, in the space of a few days, everything changed. Google and Meta both unveiled frontier models they claim can go toe to toe with the best from OpenAI and Anthropic. Suddenly, the race is back on - and it's anyo … Read the full story at The Verge.",
+      "title": "人工性的第一次考试：超智能的LLM引用C检验",
+      "originalTitle": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.14005",
+      "date": "2026-10-15T04:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv: 2610. 14005v1公告类型：新摘要：在人工智能发展步伐加快的情况下，任何与人类或当前人工智能系统进行难度校准的基准都会变成循环，或很快饱和。然后，我们如何评估可能比当前机器和编写测试的人员更强大的机器？ 这个问题的一个答案取决于反问题，即归纳推理问题，考虑到观察和先前的知识，难度取决于底层机制的复杂性。Levin's Kt是Kolmogorov复杂性的可计算变体，它为这一难度设定了理论上限，平衡了该机制最简单的表示编码和运行该机制的时间步长的对数。 以前源自Levin's Kt的测试（例如原始C测试）基于极简通用图灵机（ UTM ） ，能够进行非常有限的表示，并且没有先前的知识。推理大型语言模型（ LLM ）是一种UTM ，它使用提示作为自然语言程序，将人类文化概要捕获为知识。本文介绍了第一个基于Levin's Kt的测试，其中LLMs作为代表性机器。 在任何人或前沿模型能够解决之前，新鲜的测试项目可以在高难度下进行生产，以比特为单位的比例进行估计。我们制定措施，设计轻量化生成和认证管道，探索参考机功率的影响以及考官和考生之间的差距。我们生产第一批认证项目，由12名LLM管理。 由此产生的代理特性曲线随着难度的降低而降低，直到未知的高难度区域，即我们可以认证的项目的超智能窗口，但超越了几代前沿智能。",
+      "originalSummary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
-        "模型"
+        "智能体",
+        "推理",
+        "评测"
       ],
       "score": 99
+    },
+    {
+      "title": "Long-Horizon-Terminal-Bench 2.0 ：自动化多元化任务构建并衡量持续的代理进度",
+      "originalTitle": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.14146",
+      "date": "2026-10-15T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2610. 14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks衡量代理是否可以通过具有流程奖励的扩展工作流来维持进度，而不仅仅是其最终状态是否通过二进制检查。我们提出了Long-Horizon-Terminal-Bench 2. 0 （ LHTB 2. 0 ） ，这是Long-Horizon-Terminal-Bench的扩展，保留了其46个原始任务，同时纠正了任务和评估基础设施缺陷并扩展了31个任务。 0包含13个域和8种任务类型的77项任务。扩展任务通过系统的重建任务管道产生。我们从一个工作的科学或工程工件开始，然后使用参数化的参考实现来生成多个场景，揭示六个作为行为证据，拿出三个进行评估，并使用密集的进度阶梯来奖励部分进展，同时防止记忆公共输出。 我们还将评估时间从90分钟延长到3小时，并每30分钟记录一次验证检查点，以便直接测量运行中的持续进度。在15个前沿模型的1,145次得分模型任务运行中， GPT-6-astra导联的密集平均奖励为0. 69 ， 37个任务的R至少为0. 95 ，其次是GPT-5. 6-sol的密集平均奖励为0. 67 ， 32个任务的阈值相同。 在30个重建任务中，二进制验证者得分平均为0. 221 ，而密集阶梯得分平均为0. 653 ，这表明仅结果评估放弃了实质性的中间进度。LHTB 2. 0提供了一个更广泛、更强大、流程感知的测试平台，用于研究可靠的代理在数小时内的执行情况。",
+      "originalSummary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "线束^ 2 ：用于开放世界的递归代理线束",
+      "originalTitle": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.14224",
+      "date": "2026-10-15T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2610. 14224v1公告类型：新摘要： LLM代理的能力不仅取决于其基础模型，还取决于其执行线束。递归自我改进（ RSI ）提供了一种有希望的方法来自动发展这些线束。然而，在开放世界中部署RSI仍然面临两个关键挑战。 首先，开放世界的任务在线束设计阶段通常是看不到的，在测试时是新颖的，没有留下可靠地指导在线束编辑的地面真相验证器。其次， RSI过程仍然具有高度的任务特定性，无法推广到新颖的场景。我们引入了线束^ 2 ，这是一个即插即用的递归代理利用框架，通过两个相互关联的递归级别来解决这些挑战。 任务级递归使用对比的Propose-Probe-Compose步骤来优化当前任务的线束，该步骤在没有地面真实性验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步缩放。利用级别递归然后从这些编辑中提取经验，以更新持续改进利用，使代理能够更好地适应未来的任务。 在三个专业基准和四个模型线束配置中，一个步骤不断改进GLM-5和Gemini 3. 5闪光灯的基础线束，在WorkBuddy-Bench上获得高达11. 5分的收益，在JobBench上获得4. 5分的收益，在实验室获得11. 8个百分点的收益，随着任务级递归预算的增加，进一步获得收益。",
+      "originalSummary": "arXiv:2610.14224v1 Announce Type: new Abstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "将GPT-Rosalind带入学术研究实验室",
+      "originalTitle": "Bringing GPT-Rosalind to academic research labs",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "date": "2026-10-15T19:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "推出Rosalind学术计划，为符合条件的学术实验室提供GPT-Rosalind赞助的访问权限以及推进生命科学研究的工具。",
+      "originalSummary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
     },
     {
       "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
@@ -115,19 +135,49 @@
       "score": 99
     },
     {
-      "title": "Apate派遣人工智能特工进行卧底欺诈，以便收集欺诈情报",
-      "originalTitle": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
-      "date": "2026-10-14T18:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "在Disrupt的最后两天可享受半价优惠。不要错过任何时刻。立即注册Disrupt门于10月13日开业。领取通行证，即可享受半价优惠。立即注册。大多数公司使用人工智能代理来更快地运送产品或加快工作流程。Apate. ai派他们卧底去骗人。 这家澳大利亚初创公司成立于2024年，以悉尼麦考瑞大学的研究为基础，部署了数千名伪装成无辜受害者的人工智能特工。客服代表可以接听诈骗电话，回复不实消息和电子邮件，关注网络钓鱼链接，并加入社交媒体群组，诱骗欺诈者。 他们假装成各种各样的人，有着不同的年龄、性别和口音，会说各种语言，因为他们试图让骗子保持足够长的时间来学习一些有用的东西。该公司表示，到目前为止，其代理商团队已经在250万次对话中浪费了17年的时间。 更重要的是，对于Apate的银行、电信公司、政府机构和公用事业客户群来说，卧底特工试图让诈骗者透露自己通常在受害者被诈骗后才知道的事情：银行账户、加密钱包、电话号码、恶意网站、他们模仿的品牌以及他们正在运行的诈骗的其他详细信息。 Apate是今年TechCrunch Disrupt的Startup Battlefield 200决赛入围者之一，然后将这些信息提供给客户，客户使用这些信息来告知他们的反欺诈措施和举措。（该公司将于10月15日星期四在旧金山Moscone West举行的Disrupt上推介风险投资评委小组。 ）这是骗局诱饵的奇怪演变，但考虑到人工智能为骗子和黑客带来了多少力量，这并不奇怪。联邦调查局在2025年收到了22,000多起与人工智能相关的犯罪投诉，造成了约8.93亿美元的损失。 其中超过6.32亿美元来自投资骗局，联邦调查局称欺诈者使用人工智能进行对话，并深度伪造名人、高管和信任人物的声音和外表。很长一段时间以来，人们的爱好都是故意把诈骗者串在一起--有时是搞笑的，比如让诈骗者大声朗读整本书，甚至还有荒谬的纹身。 现在，随着人工智能的能力越来越强，情况正在发生变化。奇怪的是， Apate背后的想法是由一通真正的诈骗电话引发的。几年前， Apate的创始人兼首席执行官Dali Kaafar在一次家庭野餐中接到了一个未知号码的电话。意识到这是一个骗子，他决定为了孩子们的利益而装傻，并设法让通话持续了44分钟。",
-      "originalSummary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+      "title": "SentinelOne将恶意软件分析从数周减少到数小时",
+      "originalTitle": "SentinelOne cuts malware analysis from weeks to hours",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/sentinelone",
+      "date": "2026-10-14T12:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "借助OpenAI Daybreak ， SentinelOne将数周的恶意软件分析时间缩短到数小时，从而创建调查更多威胁的能力。",
+      "originalSummary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
+    },
+    {
+      "title": "Block如何使用OpenAI技术构建人工智能驱动的安全",
+      "originalTitle": "How Block is building AI-powered security with OpenAI technology",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/block-ai-powered-security",
+      "date": "2026-10-14T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "Block正在使用OpenAI构建人工智能驱动的安全性。其安全团队更快地调查威胁，并在几分钟内提出补丁。",
+      "originalSummary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
+    },
+    {
+      "title": "欧盟在人工智能领域的下一篇章是代理",
+      "originalTitle": "The EU’s next chapter in AI is agentic",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "date": "2026-10-14T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
+      "fullContent": "新的分析显示，在欧盟企业和小企业中，代理人工智能的采用正在增长，而更深入的使用可以释放更多的价值。",
+      "originalSummary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "rawFullText": "",
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 90
     },
     {
       "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
@@ -160,7 +210,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
@@ -175,22 +225,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
-    },
-    {
-      "title": "科学公司将其视力恢复芯片植入其首例Stargardt病患者体内",
-      "originalTitle": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "date": "2026-10-13T23:13:31.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "Neuralink前总裁兼联合创始人马克斯·霍达克（ Max Hodak ）在TechCrunch Disrupt上详细介绍了他的公司与PRIMA的合作如何成为其迈向新型脑机接口（ BCI ）之路的一部分。",
-      "originalSummary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 82
+      "score": 84
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -205,7 +240,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
@@ -237,7 +272,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -253,7 +288,7 @@
         "机器人",
         "模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "圆桌会议：与人工智能设计病毒的创造者对话",
@@ -268,24 +303,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
-    },
-    {
-      "title": "Pollo AI借助OpenAI将创意转化为活动",
-      "originalTitle": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/pollo-ai",
-      "date": "2026-10-08T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "借助GPT-5. 6、GPT-6 Astra和GPT ‑ Image ‑ 2. 5 ， Pollo AI可帮助创作者将大胆的创意转化为详细的图像和电影视频广告。",
-      "originalSummary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "视频生成"
-      ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
@@ -300,22 +318,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 90
-    },
-    {
-      "title": "颠覆人工智能的“虚假前沿”运营",
-      "originalTitle": "Disrupting AI-enabled “false front” operations",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "date": "2026-10-08T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI破坏了两项支持人工智能的影响力行动，这两项行动利用虚假新闻记者和智囊团传播地缘政治信息。",
-      "originalSummary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
+      "score": 89
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -331,7 +334,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -347,7 +350,22 @@
         "智能体",
         "模型"
       ],
-      "score": 84
+      "score": 83
+    },
+    {
+      "title": "不存在的模型，所以你自己做的",
+      "originalTitle": "The model that didn&apos;t exist, so you made it yourself",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/building-with-ml-intern",
+      "date": "2026-10-08T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "我如何提示ML实习生1.了解您领域的模型2.吸引您角色的模型3.具有新技巧的模型4.适合您设备的型号价格制作您的上周，我想要一个小版本的Qwen-Image 2附带的提示重写器。1.官方的9B型号需要大约20GB的内存，并且在编写单个段落之前会考虑数千个令牌。 在Hub上，我只找到了相同9B型号的压缩副本。所以我向机器学习实习生描述了我想要的东西，第二天我就有了一个在CPU上运行的0.8B版本。它在99. 7%的时间内返回有效输出，并使用约四分之一的教师令牌。整个项目的计算，包括9B模型标签8,797个示例请求，达到16美元。在接下来的几天里，我又以同样的方式制作了五个模型。 每个都以HuggingChat中的消息开始， ML-intern打开，每个都以Hub上的公共模型结束，并在模型卡中进行评估。机器学习实习生计划这项工作，在花费任何东西之前向我询问预算，在真正的工作之前进行小型测试，然后在Hugging Face硬件上进行培训、评估和发布。第一个信息是我把精力花在了哪里。对于下面分享的柑橘模型，我的第一个提示大约是450个单词。 在我的第六个项目中，它接近2000个，因为每个项目都教会了我在下一个项目中想要的东西。所有七个提示都在GitHub上，地址为yvrjsharma/ml-intern-prompts ，和我写的一模一样。提示以一行中的想法以及我想要它的原因开始。然后，它会命名确切的部分：数据集、基本模型、训练脚本。 我已经检查过的任何内容都在一个标题下，字面上写着“已验证的事实，不要重新推导” ，因此代理将预算花在工作上，而不是重新发现我所知道的内容。对于相机角度的LoRA ，该部分列出了哪位培训师刚刚添加了透明图像支持，以及哪些未解决的GitHub问题使后备培训师面临风险。提示中的两行至关重要。第一个要求在任何培训之前提供基线。 例如，柑橘提示说： “在训练之前，还要报告基本模型在同一指标上的零分，这样我们就可以看到收益。“没有它，你会得到一个训练有素的模型，不知道它是否比你开始时做的更好。第二个是附有支票的烟雾测试。对于图像LoRA ，我要求50个训练步骤，然后检查保存的权重是否确实发生了变化，然后再支付完整的运行费用。 在提示的最后，我列出了预期的交付成果并限制了成本。我定义了模型卡中的内容，并包括一个说明： “将总支出限制在12美元，并在超过之前询问我。“由于ML-intern以零美元预算开始每项任务，并且在执行带薪工作之前需要获得许可，因此这一支出限制仍然严格执行。 当您省略预算时，代理会根据项目规模提出几条路径，并询问您更喜欢哪一条。您不一定在第一次尝试时就需要所有这些。例如，我的柑橘简报中没有verified-facts部分， ML Intern仍然制作了一个模型，将Qwen3. 5-2B模型的准确性提高了两倍多。让我带您了解我在...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 75
     },
     {
       "title": "一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron",
@@ -362,7 +380,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "Falcon ASR简介",
@@ -377,7 +395,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -392,7 +410,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -408,7 +426,7 @@
         "智能体",
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -423,7 +441,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -438,7 +456,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -453,7 +471,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
@@ -468,7 +486,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -499,51 +517,6 @@
         "智能体"
       ],
       "score": 72
-    },
-    {
-      "title": "Holo4 ：为通用计算机使用代理提供动力",
-      "originalTitle": "Holo4: powering generalist computer-use agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Hcompany/holo4",
-      "date": "2026-09-28T09:44:05.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：智能体相关动态”。它主要涉及智能体方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
-    },
-    {
-      "title": "欢迎RL环境来到HUB",
-      "originalTitle": "Welcome RL Environments to the hub",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/rl-environments",
-      "date": "2026-09-28T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
-    },
-    {
-      "title": "UK AISI和EvalEval如何使基准结果可复制",
-      "originalTitle": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/evaleval-aisi",
-      "date": "2026-09-22T00:00:00.000Z",
-      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "fullContent": "为什么可重现的评估报告很重要AISI分享的内容为共同的使命做出贡献关于EvalEval联盟关于英国人工智能安全研究所进一步阅读EvalEval联盟很高兴地宣布，英国人工智能安全研究所（ AISI ）正在使用EvalEval的基础设施公开分享评估结果，支持更可重现和可验证的评估科学。 AISI和EvalEval此前曾合作开展研究，该研究始于与NeurIPS 2025一起举办的联合研讨会，该研究所的反馈有助于塑造Every Eval Ever （ EEE ）模式。合作的下一阶段是将共享基础设施付诸实践。随着人工智能部署的加速，评估正成为有关模型和系统性能的越来越重要的证据来源。 然而，许多格式、平台和渠道都报告了结果，但往往没有足够的信息来复制它们。再次进行评估本身可能过于昂贵。EvalEval的使命是通过共享报告架构Every Eval Ever和开放平台Evaluation Cards来改善这一生态系统，该平台将评估结果和解释评估结果所需的信息整合到一个共同的结构中。 这自然建立在AISI的工作基础上，通过OptStop提高评估效率，通过HiBayES提高统计严谨性，并在成绩单分析和能力提取等领域更加标准化。AISI和EvalEval正在共同努力诊断评估报告中的差距，并建立共享基础设施以弥补这些差距。转录水平的透明度不仅关系到重现性，也关系到分析和诊断。 在合作的新阶段， AISI将酌情通过评估卡公开报告评估方法和结果。该版本包括本文主要实验中五个基准的验证结果、上下文和配置信息：这些结果涵盖六个前沿模型： Claude Opus 4、Claude Opus 4. 5、Claude Opus 4. 6、GPT-5、GPT-5. 2和GPT-5. 4。 该版本还包括两个相关的网络评估结果--Cyber CTF和The Last Ones--它们使用了不同的、部分重叠的模型集。这些数据伴随着AISI的论文《推理计算如何塑造前沿法学硕士评估》（ How Inference Compute Shapes Frontier LLM Evaluation ） ，该论文研究了基准性能如何依赖于推理时间计算和评估协议。Humanity's Last Exam的性能随评估协议和推理计算而变化。 每个曲线显示在给定令牌计数内尝试解决的任务的累积份额，使用最早观察到的每个任务的成功率。当模型在每次尝试后收到来自预言机的正确性反馈时，随着令牌使用的增加，它们会继续解决其他任务。当结果与设置信息一起公开发布时，研究人员和从业人员可以更仔细地研究个体研究，并比较更广泛生态系统的研究结果。 在其他报告缺乏这些细节的情况下，像AISI这样的发布为在上下文中解释评估提供了经过验证的参考点，例如，通过帮助研究人员了解设置选择如何影响报告的绩效。随着越来越多的评估者采用EEE ，像这样的公开比...",
-      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
-      "rawFullText": "",
-      "tags": [
-        "评测"
-      ],
-      "score": 69
     }
   ]
 }
