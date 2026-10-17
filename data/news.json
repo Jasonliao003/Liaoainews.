@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T01:05:27.384Z",
+  "updatedAt": "2026-10-17T01:11:45.669Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,89 @@
   ],
   "articles": [
     {
+      "title": "首席执行官表示， Replit不再与Anthropic合作",
+      "originalTitle": "Replit is no longer working with Anthropic, CEO says",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "date": "2026-10-16T21:22:28.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。",
+      "originalSummary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "英伟达内部人士转向VC ，解释为什么机器人技术还没有达到其ChatGPT时刻",
+      "originalTitle": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "date": "2026-10-16T16:30:00.000Z",
+      "summary": "这条新闻与大模型、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、机器人相关动态",
+      "fullContent": "Amulya Vishwanath曾在英伟达机器人平台的产品营销部门工作了七年，她表示，机器人技术目前正处于“乐高时代” ，执行器、机器人手、软件和安全标准等基本构件仍在重建中。这种观点与那些认为由通用基础模型驱动的机器人技术即将[…]的人背道而驰。",
+      "originalSummary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "机器人",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "物理人工智能不仅仅是机器人，这位英伟达的资深人士现在投资于它",
+      "originalTitle": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "date": "2026-10-16T16:30:00.000Z",
+      "summary": "这条新闻与机器人、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、算力芯片相关动态",
+      "fullContent": "Amulya Vishwanath曾在英伟达机器人平台的产品营销部门工作了七年，她表示，机器人技术目前正处于“乐高时代” ，执行器、机器人手、软件和安全标准等基本构件仍在重建中。这种观点与那些认为由通用基础模型驱动的机器人技术即将[…]的人背道而驰。",
+      "originalSummary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "机器人",
+        "算力芯片",
+        "安全"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Elorian的第一个人工智能模型想要用图像进行推理，而不仅仅是关于它们",
+      "originalTitle": "Elorian’s first AI model wants to reason with images, not just about them",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "date": "2026-10-16T16:01:37.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、推理相关动态",
+      "fullContent": "根据Elorian的评估， Glimpse在科学图表推理和短视频字幕方面的表现甚至优于GPT-6 Astra ，在其他视觉推理任务上取得了有竞争力的结果。",
+      "originalSummary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "视频生成"
+      ],
+      "score": 99
+    },
+    {
+      "title": "世界不会等待：在实时时钟下评估和教导代理商",
+      "originalTitle": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2610.20665",
+      "date": "2026-10-16T04:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv: 2610. 20665v1公告类型：新摘要：大型语言模型（ LLM ）代理可以解决复杂的交互式任务，但推理和工具调用需要时间。在不断变化的环境中，否则正确的行动可能来得太晚。我们引入了RealtimeBench ，在六种游戏类型中包含180个任务，以评估代理，同时在推理期间继续运行游戏。配对评估显示GPT-6。 当游戏暂停时， 1-sol的表现优于速度更快的Jev ，但当它们继续运行时则落后。我们提出了双时间尺度离线递归自我改进（ TORSI ） ：缓慢的教师研究失败，并在尝试之间测试暂停游戏中的校正，然后为快速的学生编写可重用的指令。在游戏过程中，学生在没有老师打电话的情况下行事，验证分数决定了采用哪些更新。 两轮将Jev的平均测试分数从13. 51提高到24. 19 ，在0-100进度量表上，提高了所有六种游戏类型。这些说明还提高了其他三种型号的平均分数，而无需重新调整。这些发现指向实时智能：通过在不同时间尺度上组织思考、学习和行动，使强大的LLM代理能够在不断变化的世界中保持效率。",
+      "originalSummary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
       "title": "ChatGPT现在可以查看您的Chrome标签页",
       "originalTitle": "ChatGPT can peek at your Chrome tabs now",
       "source": "The Verge AI",
@@ -36,57 +119,6 @@
       "score": 99
     },
     {
-      "title": "人工性的第一次考试：超智能的LLM引用C检验",
-      "originalTitle": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.14005",
-      "date": "2026-10-15T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2610. 14005v1公告类型：新摘要：在人工智能发展步伐加快的情况下，任何与人类或当前人工智能系统进行难度校准的基准都会变成循环，或很快饱和。然后，我们如何评估可能比当前机器和编写测试的人员更强大的机器？ 这个问题的一个答案取决于反问题，即归纳推理问题，考虑到观察和先前的知识，难度取决于底层机制的复杂性。Levin's Kt是Kolmogorov复杂性的可计算变体，它为这一难度设定了理论上限，平衡了该机制最简单的表示编码和运行该机制的时间步长的对数。 以前源自Levin's Kt的测试（例如原始C测试）基于极简通用图灵机（ UTM ） ，能够进行非常有限的表示，并且没有先前的知识。推理大型语言模型（ LLM ）是一种UTM ，它使用提示作为自然语言程序，将人类文化概要捕获为知识。本文介绍了第一个基于Levin's Kt的测试，其中LLMs作为代表性机器。 在任何人或前沿模型能够解决之前，新鲜的测试项目可以在高难度下进行生产，以比特为单位的比例进行估计。我们制定措施，设计轻量化生成和认证管道，探索参考机功率的影响以及考官和考生之间的差距。我们生产第一批认证项目，由12名LLM管理。 由此产生的代理特性曲线随着难度的降低而降低，直到未知的高难度区域，即我们可以认证的项目的超智能窗口，但超越了几代前沿智能。",
-      "originalSummary": "arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Long-Horizon-Terminal-Bench 2.0 ：自动化多元化任务构建并衡量持续的代理进度",
-      "originalTitle": "Long-Horizon-Terminal-Bench 2.0: Automating Diverse Task Construction and Measuring Sustained Agent Progress",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.14146",
-      "date": "2026-10-15T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2610. 14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks衡量代理是否可以通过具有流程奖励的扩展工作流来维持进度，而不仅仅是其最终状态是否通过二进制检查。我们提出了Long-Horizon-Terminal-Bench 2. 0 （ LHTB 2. 0 ） ，这是Long-Horizon-Terminal-Bench的扩展，保留了其46个原始任务，同时纠正了任务和评估基础设施缺陷并扩展了31个任务。 0包含13个域和8种任务类型的77项任务。扩展任务通过系统的重建任务管道产生。我们从一个工作的科学或工程工件开始，然后使用参数化的参考实现来生成多个场景，揭示六个作为行为证据，拿出三个进行评估，并使用密集的进度阶梯来奖励部分进展，同时防止记忆公共输出。 我们还将评估时间从90分钟延长到3小时，并每30分钟记录一次验证检查点，以便直接测量运行中的持续进度。在15个前沿模型的1,145次得分模型任务运行中， GPT-6-astra导联的密集平均奖励为0. 69 ， 37个任务的R至少为0. 95 ，其次是GPT-5. 6-sol的密集平均奖励为0. 67 ， 32个任务的阈值相同。 在30个重建任务中，二进制验证者得分平均为0. 221 ，而密集阶梯得分平均为0. 653 ，这表明仅结果评估放弃了实质性的中间进度。LHTB 2. 0提供了一个更广泛、更强大、流程感知的测试平台，用于研究可靠的代理在数小时内的执行情况。",
-      "originalSummary": "arXiv:2610.14146v1 Announce Type: new Abstract: Long-horizon terminal benchmarks measure whether an agent can sustain progress through extended workflows with process rewards, not only whether its final state passes a binary check. We present Long-Horizon-Terminal-Bench 2.0 (LHTB 2.0), an extension of Long-Horizon-Terminal-Bench that preserves its 46 original tasks while correcting task and evaluation-infrastructure defects and extending 31 tasks. LHTB 2.0 contains 77 tasks across 13 domains and eight task types. The extended tasks are produced through a systematic reconstruction-task pipeline. We start from a working scientific or engineering artifact, then use a parameterized reference implementation to generate multiple scenarios, reveal six as behavioral evidence, hold out three for evaluation, and use dense progress ladders to reward partial progress while preventing memorization of public outputs. We also extend the evaluation horizon from 90 minutes to three hours and record verifier checkpoints every 30 minutes, enabling direct measurement of sustained progress within a run. Across 1,145 scored model-task runs from 15 frontier models, GPT-6-astra leads with dense mean reward 0.69 and 37 tasks at R at least 0.95, followed by GPT-5.6-sol with dense mean reward 0.67 and 32 tasks at the same threshold. On the 30 reconstruction tasks, binary verifier scores average 0.221, whereas dense ladder scores average 0.653, showing that outcome-only evaluation discards substantial intermediate progress. LHTB 2.0 provides a broader, hardened, and process-aware testbed for studying reliable agent execution over hours.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "线束^ 2 ：用于开放世界的递归代理线束",
-      "originalTitle": "Harness^2: Recursive Agent Harnessing for an Open World",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.14224",
-      "date": "2026-10-15T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2610. 14224v1公告类型：新摘要： LLM代理的能力不仅取决于其基础模型，还取决于其执行线束。递归自我改进（ RSI ）提供了一种有希望的方法来自动发展这些线束。然而，在开放世界中部署RSI仍然面临两个关键挑战。 首先，开放世界的任务在线束设计阶段通常是看不到的，在测试时是新颖的，没有留下可靠地指导在线束编辑的地面真相验证器。其次， RSI过程仍然具有高度的任务特定性，无法推广到新颖的场景。我们引入了线束^ 2 ，这是一个即插即用的递归代理利用框架，通过两个相互关联的递归级别来解决这些挑战。 任务级递归使用对比的Propose-Probe-Compose步骤来优化当前任务的线束，该步骤在没有地面真实性验证器的情况下可靠地指导编辑，并且可以通过并行或顺序递归进一步缩放。利用级别递归然后从这些编辑中提取经验，以更新持续改进利用，使代理能够更好地适应未来的任务。 在三个专业基准和四个模型线束配置中，一个步骤不断改进GLM-5和Gemini 3. 5闪光灯的基础线束，在WorkBuddy-Bench上获得高达11. 5分的收益，在JobBench上获得4. 5分的收益，在实验室获得11. 8个百分点的收益，随着任务级递归预算的增加，进一步获得收益。",
-      "originalSummary": "arXiv:2610.14224v1 Announce Type: new Abstract: LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving no ground-truth verifiers to reliably guide online harness edits. Second, the RSI process remains highly task-specific and fails to generalize to novel scenarios. We introduce Harness^2, a plug-and-play, recursive agent harnessing framework that addresses these challenges through two connected levels of recursion. Task-level recursion refines the current task's harness using a contrastive Propose-Probe-Compose step that reliably guides edits without ground-truth verifiers, and can be scaled further via parallel or sequential recursion. Harnessing-level recursion then extracts experience from these edits to update a continual improvement harness, enabling the agent to better adapt to future tasks. Across three professional benchmarks and four model-harness configurations, a single step consistently improves GLM-5 and Gemini 3.5 Flash over their base harnesses, yielding gains of up to 11.5 points on WorkBuddy-Bench, 4.5 points on JobBench, and 11.8 percentage points on LAB, with further gains as the task-level recursion budget increases.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
       "title": "将GPT-Rosalind带入学术研究实验室",
       "originalTitle": "Bringing GPT-Rosalind to academic research labs",
       "source": "OpenAI",
@@ -99,7 +131,53 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
+    },
+    {
+      "title": "好友不会让好友将他们的数据馈送给人工智能代理",
+      "originalTitle": "Friends don&#8217;t let friends feed their data to AI agents",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+      "date": "2026-10-15T16:21:45.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "消费科技领域有一个日益增长的趋势：设计用于监视您周围的一切和每个人的小工具，无论其他人是否实际同意。 现在，随着像Meta's Muse这样的“人工智能个人助理”的出现，人们高兴地要求您不仅要放弃自己的数据，还要放弃您的朋友、家人、五年前与您进行铰链约会的人的信息，以及您曾经接触过的几乎任何其他人的信息。自从Muse上个月发布以来，该代理已经被下载了数百万次，并在苹果的App Store上排名第一。 在令人毛骨悚然的虚拟AV的帮助下……在The Verge阅读完整故事。",
+      "originalSummary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
+      "rawFullText": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you , regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also the information of your friends, family, the person you went on a Hinge date with five years ago - and virtually anyone else you've ever come in contact with. Since Muse was released last month, the agent has already been downloaded millions of times and hit No. 1 on Apple's App Store. With the help of its creepy virtual av … Read the full story at The Verge.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
+    },
+    {
+      "title": "Sullivan & Cromwell将法律专业知识引入协议审查",
+      "originalTitle": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/sullivan-cromwell",
+      "date": "2026-10-15T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "Sullivan & Cromwell与OpenAI合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
+      "originalSummary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
+    },
+    {
+      "title": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
+      "originalTitle": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "date": "2026-10-15T00:00:00.000Z",
+      "summary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
+      "fullContent": "总体能力和架构专家的混合感知编码器音频编码器长上下文推理支持变压器音频推理Llama。cpp SGLang vLLM MLX使用推理端点部署Muse Spark Open使用TRL进行微调演示3D资产生成器使用OpenEnv和Hugging Face Sandbox的浏览器交互调用浏览器总结Muse Spark Open是Meta的开放权重模型。 专家模型的混合将文本、图像、音频和视频带入一个具有约8160亿个参数的模型，每个令牌的活动量约为420亿，上下文窗口最多可达100万个令牌。它生成文本，为开发人员提供了一个通用界面，用于询问有关不同类型输入的问题。 继Muse Glimmer之后， Muse Spark Open引入了更大规模的专家混合架构，以及迄今为止最强大的美国开放式重量模型。Meta训练Muse Spark Open用于代理编码：读取代码库、编写和调试代码以及调用工具。它还以图像、音频和视频作为输入，因此相同的模型可以在处理代码时读取屏幕截图、收听语音留言或观看屏幕录制。 这篇文章向您展示了如何运行它，如何微调它，以及我们使用它构建的内容。在此处查找所有型号。Meta将Muse Spark Open描述为在真实开发人员工作流程（如多文件重构和长调试会话）上训练的编码优化模型。Muse Spark Open是一个以代理为中心的模型，可以计划、操作、观察和自我纠正长时间的任务，包括使用图像浏览网页。 检查点存储库为Muse-Spark-Open-816B-A42B和Muse-Spark-Open-816B-A42B-NVFP4。Muse Spark Open是Muse系列的全尺寸型号。Muse Glimmer于8月份发布，是同一系列中的小型密集型号，非常适合在本地运行。两种型号都使用相同的标记器和词汇。聊天模板遵循Muse Glimmer模板，并添加了新模式。 在Muse Spark Open中，输入嵌入层和输出层是单独的矩阵，每个矩阵约有1. 66B个参数。语言模型有62层，隐藏维度为8192。每层有128个查询头和16个键值头（分组查询注意）。每个头部有64个尺寸。注意力块具有输出门和输出归一化层。该模型还将规范化应用于查询和键（ QK-norm ）。 每个块通过学习的残差门组合其输入和输出，而不是通过纯和。Muse Glimmer在每层使用一个密集的前馈网络。Muse Spark Open将此密集网络替换为专家混合(Mixed-of-Experts, MoE)块。每个教育部区块有256名专家，路由器为每个代币选择8名专家。 每个专家都是一个前馈网络，从8192到4096维投影，然后返回到8192 ，然后对其输出应用自己的归一化。专家拥有约97%的总模型参数。每个令牌仅运行8个专家，因此模型使用大约42B个参数计算每个令牌。所有256名专家...",
+      "originalSummary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "多模态",
+        "模型"
+      ],
+      "score": 89
     },
     {
       "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
@@ -147,7 +225,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Block如何使用OpenAI技术构建人工智能驱动的安全",
@@ -162,7 +240,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "欧盟在人工智能领域的下一篇章是代理",
@@ -177,7 +255,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
@@ -210,7 +288,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
@@ -225,7 +303,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -240,24 +318,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
-    },
-    {
-      "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-      "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "date": "2026-10-09T07:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "Asana在Codex中使用GPT-6 Astra ，使其浏览器代理的测试成本降低了76倍，测试速度提高了5倍，从而为客户提供更强大的模型。",
-      "originalSummary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
+      "score": 78
     },
     {
       "title": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
@@ -272,7 +333,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -288,37 +349,7 @@
         "机器人",
         "模型"
       ],
-      "score": 83
-    },
-    {
-      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
-      "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "date": "2026-10-09T00:08:24.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "2026年10月16日（星期五）人工智能可以设计新的生命形式吗？ 2025年，斯坦福大学博士生塞缪尔·金（ Samuel King ）在使用生成人工智能模型提出微观病毒的遗传蓝图时提出了初步答案。它还不是人工智能生成生命的一个例子，但这可能是下一个例子。 与高级人工智能记者詹姆斯·奥唐纳（ James O’Donnell ）一起采访金（ King ） ，了解他的工作，被评为《麻省理工科技评论》（ MIT Technology Review ）的35岁以下创新者之一，以及看待生物学的新方式。将于10月16日英国夏令时18:30/美国东部时间下午1:30/太平洋夏令时上午10:30上线立即注册演讲嘉宾：人工智能记者James O’Donnell和斯坦福大学/弧光研究所生物工程博士候选人Samuel King他要求人工智能设计病毒......它奏效了。 人工智能设计的病毒已经到来，并且已经杀死了细菌",
-      "originalSummary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
-      "rawFullText": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter James O&#8217;Donnell as he interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Going live on October 16th at 18:30 BST / 1:30pm EDT / 10:30am PDT Register now Speakers : James O&#8217;Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute Related Stories He asked an AI to design viruses … and it worked. AI-designed viruses are here and already killing bacteria",
-      "tags": [
-        "模型"
-      ],
-      "score": 74
-    },
-    {
-      "title": "Oracle如何通过ChatGPT和Codex将工作日变为几分钟",
-      "originalTitle": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/oracle",
-      "date": "2026-10-08T16:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "在招聘、工程和运营方面， Oracle通过ChatGPT Work和Codex将专业知识转化为快速、可重复的工作流程。",
-      "originalSummary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 89
+      "score": 82
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -334,7 +365,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -350,7 +381,7 @@
         "智能体",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "不存在的模型，所以你自己做的",
@@ -365,22 +396,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
-    },
-    {
-      "title": "一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron",
-      "originalTitle": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "date": "2026-10-07T12:45:31.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“一个型号系列，两个金牌级结果：针对IOI和IMO的微调Nemotron”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "Falcon ASR简介",
@@ -395,7 +411,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -410,7 +426,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -426,7 +442,7 @@
         "智能体",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -441,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -456,7 +472,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -471,7 +487,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
@@ -486,7 +502,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
@@ -502,21 +518,6 @@
         "AI 热点"
       ],
       "score": 63
-    },
-    {
-      "title": "正确获取源，而不仅仅是事实： MCP代理的源感知验证",
-      "originalTitle": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "date": "2026-09-29T13:07:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "问题：在某个地方支持与正确的来源支持不同ProvenanceGuard做什么结果当来源看起来相似时检查声明修复被阻止的答案为什么这适合Multiverse Computing Tool-使用LLM代理不再从单个检索的段落中读取。 通过模型上下文协议(MCP) ，代理可以调用搜索工具、检查结构化患者或帐户记录、查询数据库和拉取元数据，然后将所有元数据编织成一个答案。这使得通常的事实性问题比看起来更微妙。 大多数为检查LLM答案而构建的系统，从RAGA忠诚度到MiniCheck、AlignScore和SummaC等细粒度检查器，询问一旦证据汇总在一起，索赔是否得到现有证据的支持。在他们通常的形式中，他们没有告诉我们哪个MCP工具输出支持每个声明，或者这是否是答案名称的来源。 我们的最新论文《ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents》（请阅读Hugging Face或arXiv ）针对了这一差距。我们关心的失败模式是我们称之为跨源融合的模式：这种说法在证据中的某个地方是正确的，但归因于错误的来源。源盲验证器可能会传递它，因为事实确实存在于池中。源代码感知验证器不应该。 考虑一位客服代表回答说：「根据账号记录，此计划包含30天的退款窗口。“退款窗口可能是完全真实的，但在政策文件中说明，而不是在答案指向的账户记录中说明。将两者合并在一起，索赔似乎得到了支持。将它们分开，归因是错误的，在数据敏感的设置中，错误的归因可能与错误的事实一样具有破坏性。 同样的模式出现在临床药物中，从患者历史工具中获取的患者特定用药细节在答案将其作为医学文献中的发现时变得具有误导性。索赔可以由一个MCP来源支持，而答案将其归因于另一个MCP来源。 源盲评分在汇总的证据中看到支持并传递； ProvenanceGuard单独检查支持源是否与答案状态或暗示的匹配。资料来源：纸张图1。这就是为什么忠诚度评分虽然有用，但对MCP代理来说还不够。答案带有出处，有时是明确的（ “根据账户记录” ） ，有时是隐含的。 ProvenanceGuard保持索赔和来源之间的联系可供检查。ProvenanceGuard是一个后代验证层，位于黑盒MCP代理之上。它在代理生成答案后运行，并且从不将证据折叠到一个匿名上下文中。相反，它通过管道始终携带源标识。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
     }
   ]
 }
