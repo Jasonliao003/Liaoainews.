@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:11:45.669Z",
+  "updatedAt": "2026-10-18T00:46:36.046Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,82 @@
   ],
   "articles": [
     {
-      "title": "首席执行官表示， Replit不再与Anthropic合作",
-      "originalTitle": "Replit is no longer working with Anthropic, CEO says",
+      "title": "首席执行官表示， Replit使OpenAI成为Anthropic的默认值",
+      "originalTitle": "Replit makes OpenAI its default over Anthropic, CEO says",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "2026-10-16T21:22:28.000Z",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "date": "2026-10-17T18:48:08.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。该公司首席执行官兼联合创始人阿姆贾德·马萨德(Amjad Masad)周四在TechCrunch Disrupt的讲台上表示，已成为初创公司创始人和开发人员最喜欢的人工智能编码平台Replit已不再与Anthropic合作。 马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。“我认为ChatGPT现在更好了，”马萨德说，并补充说，该公司使用内部基准来帮助评估绩效指标。 “我们也发布了一个公共基准，并且一贯地， Sol和Astra在从头开始构建氛围编码应用程序方面表现更好。这是一个基于成本、合作伙伴关系和绩效的决定。出于所有这些原因，我们觉得他们现在是一个更好的合作伙伴。 “然而， Anthropic似乎并没有完全脱离Replit ， Replit销售基于云的软件开发平台，用户可以直接从浏览器内部开发和部署应用程序。中断后， Masad澄清说，客户仍然可以在平台上访问Anthropic模型，但OpenAI的ChatGPT现在是默认值。 这种转变可以大大减少Replit在Anthropic上的支出，因为大多数客户坚持使用默认值，而不是自己选择模型。在与OpenAI达成协议之前， Replit依靠Anthropic的Claude模型来运行其平台。据说这种伙伴关系帮助公司大幅增加了收入， Masad在舞台上指出，直到最近， Replit一直是Anthropic的前五大客户。 “Replit仍然是不可知的模型，”马萨德周末告诉TechCrunch。“我们的用户可以选择Anthropic的Claude或其他受支持的型号…… OpenAI现在是我们为Replit Agent提供支持的首选合作伙伴，这取决于我们的性能、经济和合作伙伴关系的实力。然而， Masad在舞台上的评论被熟悉Anthropic和Replit之间伙伴关系的内部人士拒绝。 一位不愿透露姓名的熟人表示，合作伙伴关系仍然存在。该公司的网站、博客帖子和社交媒体帖子有证据表明，就在几周前， Replit还在推广Anthropic产品。例如， 9月下旬的一篇博客文章引用了Anthropic的Claude Fable 5和Claude Fable 5.1作为Replit Agent生产环境中运行的模型。 大约在同一时间， Replit的一名产品员工在X上发布了关于使用Anthropic的旗舰型号Opus 5. 5并推广其功能的信息。Masad还在Disrupt的舞台上分享了有关公司增长的见解，并指出企业开始提供更大的收入。",
+      "originalSummary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "网站正在向人工智能代理敞开大门",
+      "originalTitle": "Websites are closing their doors to AI agents",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "date": "2026-10-17T13:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
+      "fullContent": "自主智能体是人工智能中最热门的东西。OpenAI、Meta、Google、Instinct和其他公司承诺，他们的代理可以代表您浏览互联网，从预订晚餐、清理收件箱到购买新鞋，无所不包。但是，当互联网的其他部分表现不佳时，会发生什么呢？ 最近几周， Meta的Muse、xAI的Grok、OpenAI的Dots和Instinct等服务的用户报告称，他们的AI代理无法在热门网站上执行任务。Yelp告诉TechCrunch ，它只允许为其数据许可计划付费的人工智能代理，而达美航空公司则阻止他们预订机票……阅读The Verge的完整故事。",
+      "originalSummary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, [&#8230;]",
+      "rawFullText": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Yelp told TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta Air Lines is preventing them from booking ticket … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间",
+      "originalTitle": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "date": "2026-10-17T20:21:19.000Z",
       "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。",
-      "originalSummary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。根据人工智能公司周五发布的一份报告， Anthropic的员工构成和工作类型在过去一年中发生了显着变化。 Anthropic认为，它自己的工作场所趋势可能是“人工智能将如何改变整个经济的工作组织、招聘和劳动力需求”的指标，特别是因为该公司“已经围绕人工智能彻底塑造了工作流程。“但即使其他组织从未像Anthropic那样彻底或以完全相同的方式拥抱人工智能，该报告也提供了对该公司目前运营方式的有趣一瞥。 值得注意的是， Anthropic的初级招聘人数正在减少，自2025年初以来，技术部门的初级员工比例从21%降至14% ，初级技术员工的比例从27%降至9% ，降幅更大。 Anthropic还表示，技术团队现在在整个员工队伍中所占份额较小，从61%下降到56% ，这一趋势归因于“随着公司规模的扩大，业务职能自然扩展” ，以及“编码工具越来越多地允许非技术人员自己制作软件。据报道，一位员工描述了“ Anthropic的永恒压力，要求尽快采取行动，并使用Claude来处理所有事情。 “在2026年4月的一项调查中， 27%的员工表示，由于Claude ，他们的工作效率提高了， 20%的员工表示，他们的工作已经“从实际工作转向了管理Claudes ”；显然，一位设计师将其与保姆进行了比较：“当你照看孩子时，每个孩子都会给你带来同样需要你关注的问题，而各种[Claudes]也会这样做。 事实上，该报告表明“人类的注意力和判断力”正在成为生产力的“瓶颈” ，因为克劳德产生了大量需要阅读和组织的文本。不出所料，该报告认为，人工智能的采用提高了公司的生产力，正如“每人更多的代码，每位代表完成更多的销售，以及处理更多的合同。 该公司承认， “更多的代码并不一定意味着更好的代码或业务影响” ，但它也没有发现任何代码质量下降的迹象。该报告称，根据日历数据，与一年前相比，每位员工的会议时间增加了20% ，技术贡献者增加了16%。 该公司将其归因于“人类信任和问责制”的重要性，员工一再表示“面对面的协调是不可或缺的。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。",
+      "originalSummary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
       "rawFullText": "",
       "tags": [
         "公司动态"
       ],
-      "score": 99
+      "score": 88
+    },
+    {
+      "title": "Meta删除了引起抓取和人工智能培训问题的语言",
+      "originalTitle": "Meta removes language that raised scraping and AI training concerns",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "date": "2026-10-17T21:31:32.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Meta最近更新了其商业使用条款，声明公司可以“使用[企业帐户]域、网页或URL中的任何内容来提供、开发、改进、研究、培训和维护” Meta产品和服务的完整性。 根据Nieman Lab采访的法律专家的说法，这似乎是一项“非凡的规定” ，可以允许Meta抓取任何拥有Meta商业帐户的发布商的网站，并使用这些内容来训练公司的人工智能模型。（尽管Meta去年击败了一起备受瞩目的涉嫌侵犯版权的诉讼，但包括Meta在内的其他人工智能公司的案件仍在继续。 然而， Meta发言人坚持认为，更新后的条款并不反映Meta抓取网页的方式发生了变化。现在， The Verge报告说该条款已被删除。该公司在一份声明中表示： “我们已经听取了您的意见，并希望澄清：我们合并的爬行条款仅适用于我们的广告和商业产品，我们已经在条款本身中对此进行了澄清。” “它不会改变Meta使用网络爬虫的方式。 “获得第二张通行证的五折优惠带上您的联合创始人或合作伙伴，在TechCrunch年度终极创始人训练营中获得更多优惠。第二次使用通行证可享五折优惠。结识扩展和投资领导者，提出问题，寻找解决方案等。节省10月16日的最后一天每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "Meta删除了可能允许其抓取新闻网站的语言",
+      "originalTitle": "Meta removes language that may have allowed it to scrape news sites",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "date": "2026-10-17T15:04:36.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "在强烈反对之后， Meta再次更新其条款，以删除暗示它可以从包括新闻网站在内的网站上抓取内容来训练其人工智能的语言。 具体而言，以下语言不再出现在商业条款页面上： …… Meta可以使用此类域、网页或URL中的任何内容来提供、开发、改进、研究、培训和维护根据本商业条款和任何其他适用补充条款提供的Meta公司产品、服务和功能的完整性。 包括Neiman Lab和康奈尔大学数字和信息法教授James Grimmelmann在内的许多人将其解释为……阅读The Verge的完整故事。",
+      "originalSummary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, [&#8230;]",
+      "rawFullText": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page : … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Company Products, services, and features provided under these Commercial Terms and any other applicable supplemental terms. Many, including Neiman Lab and James Grimmelmann, a professor of digital and information law at Cornell, interpreted it as an … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "英伟达内部人士转向VC ，解释为什么机器人技术还没有达到其ChatGPT时刻",
@@ -85,21 +148,35 @@
       "score": 99
     },
     {
-      "title": "世界不会等待：在实时时钟下评估和教导代理商",
-      "originalTitle": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.20665",
-      "date": "2026-10-16T04:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv: 2610. 20665v1公告类型：新摘要：大型语言模型（ LLM ）代理可以解决复杂的交互式任务，但推理和工具调用需要时间。在不断变化的环境中，否则正确的行动可能来得太晚。我们引入了RealtimeBench ，在六种游戏类型中包含180个任务，以评估代理，同时在推理期间继续运行游戏。配对评估显示GPT-6。 当游戏暂停时， 1-sol的表现优于速度更快的Jev ，但当它们继续运行时则落后。我们提出了双时间尺度离线递归自我改进（ TORSI ） ：缓慢的教师研究失败，并在尝试之间测试暂停游戏中的校正，然后为快速的学生编写可重用的指令。在游戏过程中，学生在没有老师打电话的情况下行事，验证分数决定了采用哪些更新。 两轮将Jev的平均测试分数从13. 51提高到24. 19 ，在0-100进度量表上，提高了所有六种游戏类型。这些说明还提高了其他三种型号的平均分数，而无需重新调整。这些发现指向实时智能：通过在不同时间尺度上组织思考、学习和行动，使强大的LLM代理能够在不断变化的世界中保持效率。",
-      "originalSummary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 on a 0--100 progress scale, improving all six game types. The instructions also improve average scores for three other models without retuning. These findings point toward real-time intelligence: enabling powerful LLM agents to remain effective in a continuously changing world by organizing deliberation, learning, and action across timescales.",
+      "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
+      "originalTitle": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "date": "2026-10-16T00:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“Stack Overflow for Agents使用ChatGPT插件将注册增加三倍”。它主要涉及大模型、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "智能体",
-        "推理"
+        "智能体"
       ],
       "score": 99
+    },
+    {
+      "title": "印度成为报告流氓AI代理活动的最新国家",
+      "originalTitle": "India becomes the latest country to report rogue AI agent activity",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "date": "2026-10-16T17:52:24.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。印度网络安全机构周四表示，来自多个提供商的人工智能代理在研究和测试期间访问了印度组织的个人数据和机密材料。 印度计算机应急响应小组（ CERT-In ）表示，它已收到“人工智能模型提供商的多次自愿披露” ，其模型在开放互联网上运行的研究和评估期间“已进入印度组织的实时系统。 “代理通过应用配置、公共代码存储库和过于宽松的云角色中暴露的凭据和连接设置进入，其操作”超出了其分配任务的授权。“这使得印度成为流氓人工智能特工世界巡演的最新一站。今年7月， OpenAI的代理人逃脱了一个测试环境，并入侵了法国公司Hugging Face ，开启了一个流氓AI代理活动的夏天。 上个月， OpenAI的代理人访问了包括Medicare统计门户在内的四个政府网站，并向澳大利亚道歉。在Hugging Face ， OpenAI的代理以同样的方式开始，但随后发现并利用软件缺陷在公司的服务器上运行代码。CERT-In表示，在印度没有这样的黑客行为，特工们似乎只是简单地利用了左右躺着的访问权限。 尽管如此，印度的案件似乎在某一方面更糟糕，特工们也看到了这一点：在澳大利亚， OpenAI表示，即使他们在Medicare统计系统内编写文件，也没有发现任何证据表明其特工接触过个人的医疗或犯罪记录，而在印度，特工会读取个人数据和机密业务记录。与早先由单个实验室披露的事件不同，印度的案件涉及多个提供商的代理商。 CERT-In没有指明提供者或受影响的组织，也没有说明代理是否更改了任何系统。TechCrunch已联系CERT-In以获取更多信息。目前，最接近的相似之处似乎是Anthropic在7月份披露Claude在使用弱密码等基本技术进行测试时打破了三家公司的系统。在印度，就像在Anthropic的案例中一样，受影响的组织没有自己检测到入侵。 这些披露使得依赖人工智能公司的政府导致这些违规行为自愿披露流氓人工智能代理活动。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 94
     },
     {
       "title": "ChatGPT现在可以查看您的Chrome标签页",
@@ -131,22 +208,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
-    },
-    {
-      "title": "好友不会让好友将他们的数据馈送给人工智能代理",
-      "originalTitle": "Friends don&#8217;t let friends feed their data to AI agents",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-      "date": "2026-10-15T16:21:45.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "消费科技领域有一个日益增长的趋势：设计用于监视您周围的一切和每个人的小工具，无论其他人是否实际同意。 现在，随着像Meta's Muse这样的“人工智能个人助理”的出现，人们高兴地要求您不仅要放弃自己的数据，还要放弃您的朋友、家人、五年前与您进行铰链约会的人的信息，以及您曾经接触过的几乎任何其他人的信息。自从Muse上个月发布以来，该代理已经被下载了数百万次，并在苹果的App Store上排名第一。 在令人毛骨悚然的虚拟AV的帮助下……在The Verge阅读完整故事。",
-      "originalSummary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also [&#8230;]",
-      "rawFullText": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you , regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also the information of your friends, family, the person you went on a Hinge date with five years ago - and virtually anyone else you've ever come in contact with. Since Muse was released last month, the agent has already been downloaded millions of times and hit No. 1 on Apple's App Store. With the help of its creepy virtual av … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 93
+      "score": 94
     },
     {
       "title": "Sullivan & Cromwell将法律专业知识引入协议审查",
@@ -161,7 +223,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
@@ -177,7 +239,22 @@
         "多模态",
         "模型"
       ],
-      "score": 89
+      "score": 88
+    },
+    {
+      "title": "技术反弹现已在影院上映",
+      "originalTitle": "The tech backlash is now in theaters",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+      "date": "2026-10-15T21:39:52.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：机器人相关动态",
+      "fullContent": "虽然关于颠覆性科技创始人的电影并不是什么新鲜事，但2026年却异乎寻常地堆叠着一些功能，这些功能对硅谷如何重塑我们的现实进行了更严格的审视。亚伦·索尔金（ Aaron Sorkin ）的《社会清算》（ The Social Reckoning ）将马克·扎克伯格（ Mark Zuckerberg ）描述为一个机器人恶棍，其野心是破坏社会稳定。 内森·菲尔德（ Nathan Fielder ）和兰斯·奥本海姆（ Lance Oppenheim ）的《你可以看到一切》（ You Can See Everything ）描绘了Theranos创始人伊丽莎白·福尔摩斯（ Elizabeth Holmes ）为她正在狱中服刑做准备经过多年作为远见卓识者的广泛庆祝，您可以看到围绕埃隆·马斯克的更大叙事是如何在亚历克斯·吉布尼（ Alex Gibney ）的马斯克文档（ Musk docume ）等项目中发生变化的……阅读The Verge的完整故事。",
+      "originalSummary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
+      "rawFullText": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society . Nathan Fielder and Lance Oppenheim's You Can See Everything paints a damning picture of Theranos founder Elizabeth Holmes as she prepares for her ongoing stint in prison . After years of being widely celebrated as a visionary, you can see how the larger narrative around Elon Musk has shifted in projects like Alex Gibney's Musk docume … Read the full story at The Verge.",
+      "tags": [
+        "机器人"
+      ],
+      "score": 81
     },
     {
       "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
@@ -225,7 +302,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Block如何使用OpenAI技术构建人工智能驱动的安全",
@@ -240,7 +317,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "欧盟在人工智能领域的下一篇章是代理",
@@ -255,7 +332,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
@@ -288,7 +365,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
@@ -303,7 +380,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -318,22 +395,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
-    },
-    {
-      "title": "Sophos借助OpenAI Daybreak将威胁调查时间缩短96%",
-      "originalTitle": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sophos",
-      "date": "2026-10-09T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "了解Sophos如何利用OpenAI的Daybreak将网络威胁调查时间缩短96% ，并自动化52%的MDR案例，同时保持人为监督。",
-      "originalSummary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 88
+      "score": 77
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -349,7 +411,7 @@
         "机器人",
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -365,7 +427,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -381,7 +443,7 @@
         "智能体",
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "不存在的模型，所以你自己做的",
@@ -396,7 +458,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "Falcon ASR简介",
@@ -411,7 +473,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -426,7 +488,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "将预测分析引入代理人工智能时代",
@@ -442,7 +504,7 @@
         "智能体",
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
@@ -457,7 +519,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "EmTech Future 2026 ：当人工智能遇到一切",
@@ -472,7 +534,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -487,7 +549,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "AutoSynthData ：为企业代理生成培训数据",
