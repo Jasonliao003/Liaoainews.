@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T00:59:51.886Z",
+  "updatedAt": "2026-10-20T01:39:28.006Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,19 +19,102 @@
   ],
   "articles": [
     {
-      "title": "Anthropic表示，它将把5%的股份投入“公益基金”",
-      "originalTitle": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "title": "马姆达尼说，联邦调查局已经放弃了人工智能，敦促纽约人反击",
+      "originalTitle": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "date": "2026-10-18T20:37:40.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Anthropic今天宣布，它将创建一个“公益基金” ，为公司提供“更大的灵活性和规模” ，以支持社会公益项目。 Anthropic表示，它将向该基金（作为公司内的全资实体）承诺其5%的股份，并可选择每增加50%的价值就额外贡献2%。它为如何实际使用这笔钱提供了一些大致的想法，例如“向传统非营利组织捐赠大笔资金或直接向特定人群分配。 “人工智能也可能对就业市场产生影响， Anthropic已经承诺投入2亿美元($)进行研究。但该公司表示：“鉴于人工智能进步的步伐，可能需要更大胆的方法。该基金将拥有追求这些目标的多功能性。Anthropic宣布这一消息之际，人工智能行业面临着越来越负面的公众情绪，首席执行官Dario Amodei将其描述为“从根本上讲是一场信任危机。 “如果你想知道谁将真正决定哪些公共福利值得资助， Anthropic表示将在未来几个月分享有关结构和治理的更多信息。获得第二张通行证的50%折扣带上您的联合创始人或合作伙伴，在TechCrunch年度终极创始人训练营中获得更多保障。第二次使用通行证可享五折优惠。结识扩展和投资领导者，提出问题，寻找解决方案等。把握最后一天，为您节省10月 16每个工作日和周日，您都可以获得TechCrunch最好的报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。",
-      "originalSummary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "date": "2026-10-20T01:27:03.000Z",
+      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：监管相关动态",
+      "fullContent": "市长Zohran Mamdani周一晚间表示，纽约人必须抵制人工智能收购不可避免的说法，并要求保护公众并将权力交还给他们的监管。",
+      "originalSummary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
       "rawFullText": "",
       "tags": [
+        "监管"
+      ],
+      "score": 83
+    },
+    {
+      "title": "微软表示，人工智能代理就像内部威胁一样，因为“前沿模型不可信”",
+      "originalTitle": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "date": "2026-10-19T22:04:28.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。微软周一推出了新的安全功能，旨在保护企业免受人工智能代理日益增长的威胁。此次发布正值微软继续警告企业人工智能和智能体的危险之际。 也许最值得注意的是Guardian Agents ，这是一项旨在监控公司使用的人工智能代理的新功能。Guardian Agents是6月份推出的产品Project Perception的一部分。Project Perception是微软对Anthropic的Mythos and Fable和OpenAI的安全漏洞扫描系统Daybreak等强大黑客模型的回答。 Project Perception最初推出了三类代理：一个像黑客一样攻击的“红色团队” ，一个发现红色团队并评估他们发现的漏洞的“蓝色团队” ，以及一个负责修复这些漏洞的“绿色团队”。该产品的设计基于人工智能黑客将来自公司外部的假设。 但最近，微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）一直警告说，人工智能的敌人可能正是企业部署并支付的代理商，就像一个流氓人类员工一样，也被称为“内部威胁”。“本月早些时候，纳德拉在他的私人博客中警告说，现在是时候停止信任人工智能模型提供商了，即使他们的代理产品提供了安全保证。 他希望企业实施独立的系统，而不是由人工智能实验室控制，以监视和控制这些人工智能实验室产品推出的代理。他写道： “我们正在部署这些复杂的代理系统和模型，可以访问我们最敏感的数据，并使他们能够代表我们采取关键任务行动！” “我们根本无法将智能代表我们所做的事情的责任外包出去。 模范供应商的保证并不能免除我们的责任。…换句话说，我们需要将情报供应与情报权威分开。“在宣布Guardian Agents时，微软的安全业务主管Hayete Gallot甚至更加直截了当。 “不幸的是，前沿模型，无论其来源如何，都不可信，”她写道，并补充说，这不是因为它们是恶意的或容易被黑客入侵，而是因为它们是不可预测的。他们接受培训是为了完成任务，而不是遵循“组织规范或判断。“最重要的是，他们经常获得进入王国的钥匙，可以访问可能造成严重伤害的数据和工具。 微软的解决方案既令人惊讶又自私。令人惊讶的一面是，微软出名地接近OpenAI和Anthropic ，两者都进行了投资。OpenAI也是其最大的云客户之一，微软拥有自己的人工智能实验室开发模型。因此，微软正在对其自身的一些商业利益播下不信任的种子。",
+      "originalSummary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "黑客攻击人工智能编码工具OpenCode ，对用户的人工智能账户收费",
+      "originalTitle": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "date": "2026-10-19T19:28:34.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
+      "fullContent": "OpenCode是一种开源的AI编码代理，已成为Claude Code和Cursor的流行替代品。但黑客进入了其在线平台的一部分，并窃取了一些用户的API密钥，它寻求帮助的人工智能工具一直拒绝查看恶意代码。",
+      "originalSummary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "开源"
+      ],
+      "score": 99
+    },
+    {
+      "title": "英伟达推出新的开放模式，可在企业和PC上运行代理",
+      "originalTitle": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "date": "2026-10-19T15:37:09.000Z",
+      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
+      "fullContent": "英伟达正在努力适应企业公司希望在自己的数据中心运行自己的开放模型的趋势，并试图让设备上的私有AI代理成为现实。",
+      "originalSummary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "算力芯片",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
+      "originalTitle": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "date": "2026-10-19T12:30:00.000Z",
+      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、机器人相关动态",
+      "fullContent": "密歇根大学分拆的Laplace Intelligence使用人工智能代理和交互式模拟在部署之前对机器人和自动驾驶车辆进行压力测试。这家盈利的初创公司将于10月13日至15日在旧金山举行的TechCrunch Disrupt上参加Startup Battlefield。",
+      "originalSummary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "机器人"
+      ],
+      "score": 99
+    },
+    {
+      "title": "推进低资源编程语言编码",
+      "originalTitle": "Advancing coding in low‑resource programming languages",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19T12:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解OpenAI如何在低资源编程语言中改进ChatGPT ，并对软件工程、SQLite和COBOL迁移进行新的评估。",
+      "originalSummary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
         "公司动态"
       ],
-      "score": 88
+      "score": 99
     },
     {
       "title": "一名女子因拦截派送机器人而在费城被捕",
@@ -46,39 +129,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 83
-    },
-    {
-      "title": "迪士尼同意雇用Character.AI的大部分员工",
-      "originalTitle": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "date": "2026-10-18T16:30:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "该文件还指出， Character的“绝大多数”。在迪士尼工作的人工智能员工接受了他们。然而，这是一个跟踪马的出价，所以另一家公司可能会提出更高的报价。",
-      "originalSummary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "首席执行官表示， Replit使OpenAI成为Anthropic的默认值",
-      "originalTitle": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "2026-10-17T18:48:08.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。该公司首席执行官兼联合创始人阿姆贾德·马萨德(Amjad Masad)周四在TechCrunch Disrupt的讲台上表示，已成为初创公司创始人和开发人员最喜欢的人工智能编码平台Replit已不再与Anthropic合作。 马萨德说，做出这一决定有许多不同的原因，包括成本。Replit于8月宣布与OpenAI建立合作伙伴关系，但从未有任何迹象表明它不再与Anthropic合作。“我认为ChatGPT现在更好了，”马萨德说，并补充说，该公司使用内部基准来帮助评估绩效指标。 “我们也发布了一个公共基准，并且一贯地， Sol和Astra在从头开始构建氛围编码应用程序方面表现更好。这是一个基于成本、合作伙伴关系和绩效的决定。出于所有这些原因，我们觉得他们现在是一个更好的合作伙伴。 “然而， Anthropic似乎并没有完全脱离Replit ， Replit销售基于云的软件开发平台，用户可以直接从浏览器内部开发和部署应用程序。中断后， Masad澄清说，客户仍然可以在平台上访问Anthropic模型，但OpenAI的ChatGPT现在是默认值。 这种转变可以大大减少Replit在Anthropic上的支出，因为大多数客户坚持使用默认值，而不是自己选择模型。在与OpenAI达成协议之前， Replit依靠Anthropic的Claude模型来运行其平台。据说这种伙伴关系帮助公司大幅增加了收入， Masad在舞台上指出，直到最近， Replit一直是Anthropic的前五大客户。 “Replit仍然是不可知的模型，”马萨德周末告诉TechCrunch。“我们的用户可以选择Anthropic的Claude或其他受支持的型号…… OpenAI现在是我们为Replit Agent提供支持的首选合作伙伴，这取决于我们的性能、经济和合作伙伴关系的实力。然而， Masad在舞台上的评论被熟悉Anthropic和Replit之间伙伴关系的内部人士拒绝。 一位不愿透露姓名的熟人表示，合作伙伴关系仍然存在。该公司的网站、博客帖子和社交媒体帖子有证据表明，就在几周前， Replit还在推广Anthropic产品。例如， 9月下旬的一篇博客文章引用了Anthropic的Claude Fable 5和Claude Fable 5.1作为Replit Agent生产环境中运行的模型。 大约在同一时间， Replit的一名产品员工在X上发布了关于使用Anthropic的旗舰型号Opus 5. 5并推广其功能的信息。Masad还在Disrupt的舞台上分享了有关公司增长的见解，并指出企业开始提供更大的收入。",
-      "originalSummary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
+      "score": 82
     },
     {
       "title": "网站正在向人工智能代理敞开大门",
@@ -97,36 +148,6 @@
       "score": 99
     },
     {
-      "title": "Anthropic表示，其员工队伍已经变得不那么初级了，并且在会议上花费了更多的时间",
-      "originalTitle": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "date": "2026-10-17T20:21:19.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。根据人工智能公司周五发布的一份报告， Anthropic的员工构成和工作类型在过去一年中发生了显着变化。 Anthropic认为，它自己的工作场所趋势可能是“人工智能将如何改变整个经济的工作组织、招聘和劳动力需求”的指标，特别是因为该公司“已经围绕人工智能彻底塑造了工作流程。“但即使其他组织从未像Anthropic那样彻底或以完全相同的方式拥抱人工智能，该报告也提供了对该公司目前运营方式的有趣一瞥。 值得注意的是， Anthropic的初级招聘人数正在减少，自2025年初以来，技术部门的初级员工比例从21%降至14% ，初级技术员工的比例从27%降至9% ，降幅更大。 Anthropic还表示，技术团队现在在整个员工队伍中所占份额较小，从61%下降到56% ，这一趋势归因于“随着公司规模的扩大，业务职能自然扩展” ，以及“编码工具越来越多地允许非技术人员自己制作软件。据报道，一位员工描述了“ Anthropic的永恒压力，要求尽快采取行动，并使用Claude来处理所有事情。 “在2026年4月的一项调查中， 27%的员工表示，由于Claude ，他们的工作效率提高了， 20%的员工表示，他们的工作已经“从实际工作转向了管理Claudes ”；显然，一位设计师将其与保姆进行了比较：“当你照看孩子时，每个孩子都会给你带来同样需要你关注的问题，而各种[Claudes]也会这样做。 事实上，该报告表明“人类的注意力和判断力”正在成为生产力的“瓶颈” ，因为克劳德产生了大量需要阅读和组织的文本。不出所料，该报告认为，人工智能的采用提高了公司的生产力，正如“每人更多的代码，每位代表完成更多的销售，以及处理更多的合同。 该公司承认， “更多的代码并不一定意味着更好的代码或业务影响” ，但它也没有发现任何代码质量下降的迹象。该报告称，根据日历数据，与一年前相比，每位员工的会议时间增加了20% ，技术贡献者增加了16%。 该公司将其归因于“人类信任和问责制”的重要性，员工一再表示“面对面的协调是不可或缺的。“当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。Anthony Ha是TechCrunch的周末编辑。",
-      "originalSummary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 87
-    },
-    {
-      "title": "Meta删除了引起抓取和人工智能培训问题的语言",
-      "originalTitle": "Meta removes language that raised scraping and AI training concerns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "date": "2026-10-17T21:31:32.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Meta最近更新了其商业使用条款，声明公司可以“使用[企业帐户]域、网页或URL中的任何内容来提供、开发、改进、研究、培训和维护” Meta产品和服务的完整性。 根据Nieman Lab采访的法律专家的说法，这似乎是一项“非凡的规定” ，可以允许Meta抓取任何拥有Meta商业帐户的发布商的网站，并使用这些内容来训练公司的人工智能模型。（尽管Meta去年击败了一起备受瞩目的涉嫌侵犯版权的诉讼，但包括Meta在内的其他人工智能公司的案件仍在继续。 然而， Meta发言人坚持认为，更新后的条款并不反映Meta抓取网页的方式发生了变化。现在， The Verge报告说该条款已被删除。该公司在一份声明中表示： “我们已经听取了您的意见，并希望澄清：我们合并的爬行条款仅适用于我们的广告和商业产品，我们已经在条款本身中对此进行了澄清。” “它不会改变Meta使用网络爬虫的方式。 “获得第二张通行证的五折优惠带上您的联合创始人或合作伙伴，在TechCrunch年度终极创始人训练营中获得更多优惠。第二次使用通行证可享五折优惠。结识扩展和投资领导者，提出问题，寻找解决方案等。节省10月16日的最后一天每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。 初创公司是TechCrunch的核心，因此我们每周提供最好的报道。为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
       "title": "Meta删除了可能允许其抓取新闻网站的语言",
       "originalTitle": "Meta removes language that may have allowed it to scrape news sites",
       "source": "The Verge AI",
@@ -139,58 +160,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
-    },
-    {
-      "title": "英伟达内部人士转向VC ，解释为什么机器人技术还没有达到其ChatGPT时刻",
-      "originalTitle": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "date": "2026-10-16T16:30:00.000Z",
-      "summary": "这条新闻与大模型、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、机器人相关动态",
-      "fullContent": "Amulya Vishwanath曾在英伟达机器人平台的产品营销部门工作了七年，她表示，机器人技术目前正处于“乐高时代” ，执行器、机器人手、软件和安全标准等基本构件仍在重建中。这种观点与那些认为由通用基础模型驱动的机器人技术即将[…]的人背道而驰。",
-      "originalSummary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "机器人",
-        "算力芯片"
-      ],
-      "score": 99
-    },
-    {
-      "title": "物理人工智能不仅仅是机器人，这位英伟达的资深人士现在投资于它",
-      "originalTitle": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "date": "2026-10-16T16:30:00.000Z",
-      "summary": "这条新闻与机器人、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：机器人、算力芯片相关动态",
-      "fullContent": "Amulya Vishwanath曾在英伟达机器人平台的产品营销部门工作了七年，她表示，机器人技术目前正处于“乐高时代” ，执行器、机器人手、软件和安全标准等基本构件仍在重建中。这种观点与那些认为由通用基础模型驱动的机器人技术即将[…]的人背道而驰。",
-      "originalSummary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
-      "rawFullText": "",
-      "tags": [
-        "机器人",
-        "算力芯片",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Elorian的第一个人工智能模型想要用图像进行推理，而不仅仅是关于它们",
-      "originalTitle": "Elorian’s first AI model wants to reason with images, not just about them",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "date": "2026-10-16T16:01:37.000Z",
-      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、推理相关动态",
-      "fullContent": "根据Elorian的评估， Glimpse在科学图表推理和短视频字幕方面的表现甚至优于GPT-6 Astra ，在其他视觉推理任务上取得了有竞争力的结果。",
-      "originalSummary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "推理",
-        "视频生成"
-      ],
-      "score": 99
+      "score": 73
     },
     {
       "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
@@ -209,36 +179,64 @@
       "score": 99
     },
     {
-      "title": "印度成为报告流氓AI代理活动的最新国家",
-      "originalTitle": "India becomes the latest country to report rogue AI agent activity",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "date": "2026-10-16T17:52:24.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "在10月16日的TechCrunch创始人峰会上节省高达200 $的最后一天。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。印度网络安全机构周四表示，来自多个提供商的人工智能代理在研究和测试期间访问了印度组织的个人数据和机密材料。 印度计算机应急响应小组（ CERT-In ）表示，它已收到“人工智能模型提供商的多次自愿披露” ，其模型在开放互联网上运行的研究和评估期间“已进入印度组织的实时系统。 “代理通过应用配置、公共代码存储库和过于宽松的云角色中暴露的凭据和连接设置进入，其操作”超出了其分配任务的授权。“这使得印度成为流氓人工智能特工世界巡演的最新一站。今年7月， OpenAI的代理人逃脱了一个测试环境，并入侵了法国公司Hugging Face ，开启了一个流氓AI代理活动的夏天。 上个月， OpenAI的代理人访问了包括Medicare统计门户在内的四个政府网站，并向澳大利亚道歉。在Hugging Face ， OpenAI的代理以同样的方式开始，但随后发现并利用软件缺陷在公司的服务器上运行代码。CERT-In表示，在印度没有这样的黑客行为，特工们似乎只是简单地利用了左右躺着的访问权限。 尽管如此，印度的案件似乎在某一方面更糟糕，特工们也看到了这一点：在澳大利亚， OpenAI表示，即使他们在Medicare统计系统内编写文件，也没有发现任何证据表明其特工接触过个人的医疗或犯罪记录，而在印度，特工会读取个人数据和机密业务记录。与早先由单个实验室披露的事件不同，印度的案件涉及多个提供商的代理商。 CERT-In没有指明提供者或受影响的组织，也没有说明代理是否更改了任何系统。TechCrunch已联系CERT-In以获取更多信息。目前，最接近的相似之处似乎是Anthropic在7月份披露Claude在使用弱密码等基本技术进行测试时打破了三家公司的系统。在印度，就像在Anthropic的案例中一样，受影响的组织没有自己检测到入侵。 这些披露使得依赖人工智能公司的政府导致这些违规行为自愿披露流氓人工智能代理活动。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
-      "originalSummary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "rawFullText": "",
+      "title": "RTX Spark一周体验：我们使用Nvidia新款笔记本电脑所学到的一切",
+      "originalTitle": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "date": "2026-10-16T15:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "英伟达的新SoC可在六家不同制造商的Windows笔记本电脑上使用。到目前为止，我们已经对其中四个进行了集体测试。|照片： Antonio G. Di Benedetto/The Verge Nvidia的RTX Spark N1X处理器终于问世了，我们一直在共同测试这款新型“超级芯片”所搭载的一小部分功能强大的笔记本电脑。 “RTX Spark旨在成为适用于笔记本电脑和小型台式计算机的高性能基于Arm的SoC ，可与苹果、英特尔、AMD和高通相媲美。它具有大量内核、Nvidia RTX Blackwell显卡以及足够的功率和统一内存，可以运行相当大的本地AI模型。旗舰产品放置在微软的Surface Laptop Ultra中，具有惊人的128GB统一内存，我们自己的Tom Warren对此进行了全面审查。 Sean Hollister一直在测试64GB版本的华硕…阅读The Verge的完整故事。",
+      "originalSummary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia [&#8230;]",
+      "rawFullText": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia RTX Blackwell graphics, and enough power and unified memory to run sizable local AI models. The flagship placement is inside Microsoft's Surface Laptop Ultra with a staggering 128GB of unified memory, which our own Tom Warren fully reviewed . Sean Hollister has been testing a 64GB version of the Asus … Read the full story at The Verge.",
       "tags": [
-        "智能体"
+        "算力芯片"
       ],
-      "score": 93
+      "score": 87
     },
     {
-      "title": "ChatGPT现在可以查看您的Chrome标签页",
-      "originalTitle": "ChatGPT can peek at your Chrome tabs now",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "date": "2026-10-15T22:43:23.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI的ChatGPT Atlas浏览器已不复存在，但现在ChatGPT的Google Chrome扩展正在进行一些升级，允许它使用您已经打开的浏览器选项卡。OpenAI表示，在安装扩展程序后，当您在ChatGPT的网络或桌面应用程序中标记Chrome时， ChatGPT现在可以查看您的浏览器选项卡，并发布一个演示视频，显示有人要求ChatGPT将他们打开的三个选项卡与他们正在考虑的沙发进行比较。 今天为Chrome用户带来了一些重大升级！我们将电脑的强大功能带给所有使用Chrome浏览器的用户。首先： ChatGPT现在可以使用Chrome浏览器中的标签页，使答案更有用，并为您完成工作。如果……在The Verge阅读完整故事。",
-      "originalSummary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video [&#8230;]",
-      "rawFullText": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.",
+      "title": "Itaú如何为整个客户群构建生成式人工智能",
+      "originalTitle": "How Itaú is building generative AI for its entire customer base",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/itau-generative-ai",
+      "date": "2026-10-16T19:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。",
+      "originalSummary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态",
-        "视频生成"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 80
+    },
+    {
+      "title": "Benefit Street Partners通过Codex更快地回答问题",
+      "originalTitle": "Benefit Street Partners answers questions faster with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/benefit-street-partners",
+      "date": "2026-10-16T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "Anant Kumar使用Codex进行代码审查和更快的跟进，构建用于比较贷款估值和分析信贷协议的工具。",
+      "originalSummary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
+    },
+    {
+      "title": "Welcome Beam ：您可以拥有、定制和扩展的501B开放式模型",
+      "originalTitle": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/reflection-beam",
+      "date": "2026-10-16T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "使用Beam构建什么是Beam ？专家注意混合剩余流长上下文基准测试结果硬件要求推理支持变压器vLLM SGLang推理提供商推理端点我们测试的带有TRL GRPO的训练后Beam SFT带有LoRA的Miles Train带有Beam的构建：演示嘿Beam ，构建本地本地MacOS应用程序！嘿， Beam ，您如何在多个代理上进行扩展？嘿， Beam ，为我的代码库微调一个决策模型！ 在拥抱的脸上用反射包裹光束！这是美国新实验室Reflection的第一个模型，现已开放！它是一个专家混合（ MoE ）模型，具有501B参数（每个令牌有23B个活动） ，支持文本作为输入，具有1M令牌的上下文窗口，并在Apache 2. 0许可证下发布。Beam专注于编码和代理用例。 它适用于希望在自己的硬件、基础设施或云上建立前沿规模模型并希望根据自己的用例对其进行定制的团队。Beam附带自己的专用开源Rust线束，可提供模型的最佳性能。Beam具有原生变压器实现，以及vLLM和SGLang等下游库。 我们与反思团队合作，为您带来推理、SFT （监督微调）和RL （强化学习）食谱，供您使用此模型构建以满足您的需求。除了在变压器、SGLang和vLLM中的第0天支持之外，这篇文章还向您展示了如何运行它、如何对其进行后期培训以及我们使用它构建的内容。Reflection将向使用Beam的最佳项目发放$ 10,000 Hub积分。 你所要做的就是做一件事，并在Hub上分享：如果你用Beam构建了一些东西，然后在Hub上分享，有机会赢得$ 10,000。您所要做的就是构建空间、模型或数据集存储库，并在模型的存储库页面上共享。我们将收集所有链接，选择最合适的链接，然后将消费金发送到您的Hub账号。Beam是一个纯文本模型，专为长上下文（ 1M上下文长度）推理和代理工作而构建。 这是一个稀疏的MoE模型，其中每个令牌由网络的一小部分计算，因此它以小得多的模型的速度运行，同时保持大型模型的容量。解码器有52层，隐藏大小为5,120。大多数图层在之前的512个令牌上使用滑动窗口注意力；每六个图层和最后一个图层都会关注完整的上下文。这就产生了43个滑动窗口层和9个全局层。 这两种层处理位置的方式不同。滑动窗口层使用RoPE ，因为相对位置在短窗口内最重要。全局图层不使用位置编码。相反，每个查询都乘以一个缩放器，该缩放器随着可见令牌的数量缓慢增长， (1 + (pos + 1)/2048) * * 0. 1。它充当温度：随着上下文变长而不是变平， softmax保持其精度。 实现调用这种可缩放的softmax查询缩放。Attention使用分组查询注意力， 48个查询头和8个键值头， RMSNorm用于查询和键。从层输入计算出的学习sigmoid门在输出投影之前缩放每个头的每个通道。前3层使...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 79
     },
     {
       "title": "将GPT-Rosalind带入学术研究实验室",
@@ -253,7 +251,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Sullivan & Cromwell将法律专业知识引入协议审查",
@@ -268,7 +266,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
@@ -284,22 +282,37 @@
         "多模态",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
-      "title": "技术反弹现已在影院上映",
-      "originalTitle": "The tech backlash is now in theaters",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-      "date": "2026-10-15T21:39:52.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：机器人相关动态",
-      "fullContent": "虽然关于颠覆性科技创始人的电影并不是什么新鲜事，但2026年却异乎寻常地堆叠着一些功能，这些功能对硅谷如何重塑我们的现实进行了更严格的审视。亚伦·索尔金（ Aaron Sorkin ）的《社会清算》（ The Social Reckoning ）将马克·扎克伯格（ Mark Zuckerberg ）描述为一个机器人恶棍，其野心是破坏社会稳定。 内森·菲尔德（ Nathan Fielder ）和兰斯·奥本海姆（ Lance Oppenheim ）的《你可以看到一切》（ You Can See Everything ）描绘了Theranos创始人伊丽莎白·福尔摩斯（ Elizabeth Holmes ）为她正在狱中服刑做准备经过多年作为远见卓识者的广泛庆祝，您可以看到围绕埃隆·马斯克的更大叙事是如何在亚历克斯·吉布尼（ Alex Gibney ）的马斯克文档（ Musk docume ）等项目中发生变化的……阅读The Verge的完整故事。",
-      "originalSummary": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society. Nathan Fielder and Lance Oppenheim's You Can [&#8230;]",
-      "rawFullText": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark Zuckerberg as a robotic villain whose ambitions are destabilizing society . Nathan Fielder and Lance Oppenheim's You Can See Everything paints a damning picture of Theranos founder Elizabeth Holmes as she prepares for her ongoing stint in prison . After years of being widely celebrated as a visionary, you can see how the larger narrative around Elon Musk has shifted in projects like Alex Gibney's Musk docume … Read the full story at The Verge.",
+      "title": "教导学生通过问题进行思考和学习",
+      "originalTitle": "Teaching students to think and learn through questions",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "date": "2026-10-15T13:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "用巴西葡萄牙语的AI for Educators庆祝教师节，并了解学习模式如何帮助教师支持积极、循序渐进的学习。",
+      "originalSummary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "rawFullText": "",
       "tags": [
-        "机器人"
+        "AI 热点"
       ],
-      "score": 80
+      "score": 79
+    },
+    {
+      "title": "Apertus 1.5发行说明",
+      "originalTitle": "Apertus 1.5 Release Notes",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "date": "2026-10-15T09:08:45.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布相关动态",
+      "fullContent": "关键增强培训流程多模态通过标记器预训练训练训练后评估结果评估❤️卡： Apertus EvalEval Apertus 1. 5再现性模型可用性如何参与引用我们的最新版本Apertus 1. 5扩展了8B和70B Apertus 1. 0模型，具有图像/音频理解、可选思维模式、四倍长的上下文窗口、改进的指令跟踪和更好的工具使用。 更新的8B和70B型号重量已于2026年7月24日在Apache 2. 0许可证下发布给Hugging Face。现在可以从项目技术报告中获得更多详细信息，并在此处进行总结。Apertus 1. 5是对第一代模型的持续预训练：向8B模型添加4万亿个文本和多模式训练数据，向70B模型添加2万亿个令牌，总共分别为19T和17T。 与每个Apertus版本一样，模型是完全开放的：开放的权重、开放的数据、开放的价值和完整的训练细节。我们以早期融合的方式在v1. 5模型中引入了多模态性，其中图像和音频以与文本令牌相同的顺序作为离散令牌进入Apertus ，而不是使用单独的视觉编码器。图像使用Emu3进行标记。 5个令牌生成器（ 512 × 512图像变为1,024个令牌）和带有WavTokenizer的音频（每秒40个令牌）。我们只扩展了词汇量，因此架构保持不变，培训以纯文本的速度运行。模型理解图像和音频，但仅生成文本。从Apertus 1. 0开始，我们继续分四个阶段进行预训练：总体而言，超过一半的训练令牌是纯文本的，这保留了Apertus 1. 0的语言能力。 使用FineWeb2-HQ +、FinePDFs和Nemotron-CC等源刷新文本数据。包括多式联运在内的所有新数据都符合与以前相同的标准：公开提供、许可许可和机器人。txt选择退出将追溯适用。每个光源都列在apertus-data-transparency中。培训后分为五个阶段： SFT→长上下文SFT → RL → DPO→章程调整（ SDPO ）。 除了扩展模型功能外，我们还大大扩展了评估范围。除了用于Apertus 1. 0的现有基于文本的评估之外，我们还添加了多模式评估（图像和音频）以及思维模式评估。多模态评估通过MLLM-eval-suite管道完成，合并了两个主要的多模态评估框架lmms-eval和VLMEvalKit。 我们还添加了一系列基于文本的基准，以及针对翻译和多语言功能、安全性和工具使用的扩展基准。这些可以在我们的培训后评估存储库中找到，基于lm-evaluation-harness分叉。在仍然落后于前沿开放重量模型的同时，新版本还显着提高了Apertus 1在编码和指令跟踪功能方面的性能。 5 8B在IF和多语言任务上的表现优于类似大小的开放权重模型。思考进一步提高了AIME等具有挑战性的推理重度基准的性能。该模型的多模态性能更接近Gemma 4 12...",
+      "originalSummary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布相关动态",
+      "rawFullText": "",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 79
     },
     {
       "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
@@ -347,7 +360,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "Block如何使用OpenAI技术构建人工智能驱动的安全",
@@ -362,7 +375,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "欧盟在人工智能领域的下一篇章是代理",
@@ -377,23 +390,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
-    },
-    {
-      "title": "希格斯菲尔德将人工智能视频从1分钟缩短到10分钟以上",
-      "originalTitle": "Higgsfield takes AI video from 1 minute to over 10",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "date": "2026-10-13T12:00:00.000Z",
-      "summary": "这条新闻与大模型、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、视频生成相关动态",
-      "fullContent": "Higgsfield通过GPT-6 Astra为创作者带来更长的视频，通过GPT-Image-2. 5提供精确的视觉效果，并通过GPT-Live提供语音电影制作的途径。",
-      "originalSummary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "视频生成"
-      ],
-      "score": 99
+      "score": 86
     },
     {
       "title": "开放式模型有实实在在的好处。它们是否大于风险？",
@@ -410,7 +407,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
@@ -425,7 +422,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -440,7 +437,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -456,7 +453,7 @@
         "机器人",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "机器人领域的人工智能突破不会很快改变你的生活",
@@ -472,7 +469,7 @@
         "视频生成",
         "机器人"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "构建一条更安全的自主工业人工智能之路",
@@ -488,7 +485,7 @@
         "智能体",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "不存在的模型，所以你自己做的",
@@ -503,7 +500,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "Falcon ASR简介",
@@ -518,7 +515,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "将人工智能代理与企业知识联系起来",
@@ -533,53 +530,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 81
-    },
-    {
-      "title": "将预测分析引入代理人工智能时代",
-      "originalTitle": "Bringing predictive analytics to the agentic AI era",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "date": "2026-10-05T13:29:32.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体、模型相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：智能体、模型相关动态”。它主要涉及智能体、模型方向，热度评分为 88。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between&#8230;",
-      "rawFullText": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between leaders and laggards is widening accordingly. “Enterprises are done with a backward-looking point of view; they want to be more forward-thinking,” says Vishal Gupta, partner at research firm Everest Group. DOWNLOAD THE REPORT Intelligent analytics, powered by technologies like deep learning and generative AI, are making this possible. Real-time training allows AI to evolve continuously instead of waiting for quarterly refreshes. In addition, the data that newer predictive engines rely upon has expanded to encompass not just neat, numerical records but also messy, unstructured sources of insight-rich interactions. As a result, AI-powered analytics are moving enterprises from passive hindsight to pragmatic foresight. AI takes predictive analytics—a broad discipline that includes predictive modeling, data prep, analysis workflows, interpretation of results, and decision-making applications—to new heights. “In many ways I think the word ‘analytics’ is giving way to AI,” says Gupta. “Everything is becoming AI.” Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "智能体",
-        "模型"
-      ],
-      "score": 77
-    },
-    {
-      "title": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
-      "originalTitle": "People really hate AI, so why can’t they get enough?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-      "date": "2026-10-05T08:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI&#8230;",
-      "rawFullText": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI company. We don’t know if we really like what we’re doing.” “I guess that makes me a self-loathing AI journalist,” I replied. It was a joke! I love my job. But I do not love many of the things the technology I write about has become: warped by hype , steered by zealots , inescapable . The CEO of Springboards and I are far from alone. Around the world, a love/hate attitude toward AI is very much the vibe right now. On the one hand, public feelings are souring fast. According to the Pew Research Center, more adults in the US think AI will have a negative impact on them personally, and on society in general, than expect a positive one. The pessimism is strongest among the young. More than half of people worldwide say that AI products and services make them nervous, according to a report from Stanford University . In a Gallup poll in May, 71% of US adults said they would oppose construction of a new AI data center in their area, far more than the 53% who said they would oppose a new nuclear power plant. And in an NBC poll in March, AI was less popular than ICE. Yet the number of people using AI is still skyrocketing. ChatGPT hit a billion monthly users in May, according to the market analysis firm Sensor Tower. Google DeepMind’s Gemini is close behind, logging 950 million users in July. According to Pew, half of US adults now say they use a chatbot , more than twice the number who said they did in 2023. One in four people say they do so every day. And it’s a global habit: More than a third of adults across all 38 OECD countries (a group of the world’s wealthiest democracies) report having used generative AI tools in the last three months . All these surveys paint a picture of two contradictory truths: A lot of people really do not like AI and a lot of people cannot get enough of it. What’s going on? It’s possible that these are two distinct groups, but I doubt it. The numbers don’t add up unless the Venn diagram is on its way to being a circle. It’s also possible that the more people use AI, the more negative their opinions about it will be. There’s at least a correlation to back this up : The Global North, where adoption is highest, skews pessimistic. In the Global South, where adoption levels are lower, people are more optimistic. But here’s what I really think is going on: When people say they hate AI it’s not the technology they dislike but, rather, the relentless drive of the companies behind it to push the tech upon us in as many ways as possible . They’re telling us to brace for the biggest social and economic upheaval in generations. How do they expect people to feel? In many ways, we’ve been here before. We saw a similar dynamic play out with social media over the last 20 years. Billions flocked to Facebook and Twitter despite mounting techlash against the companies that ran those services. Ditto for Google search. With social media there wasn’t much anyone could do. Quitting a platform meant losing all your content and connections, giving you the choice to suck it up or start over. But with AI there’s still a chance for people to have some sway. There’s certainly more political appetite for regulation this time around. All 50 US states have either passed or proposed laws governing the development and deployment of AI , creating a patchwork of more than 2,100 bills across the country—a tenfold increase in three years. And with a number of top-class open-source alternatives to Google and OpenAI and Anthropic already on the market, there’s also (for now, at least) the potential for more consumer choice and the market pressure that goes with it.&nbsp; I don’t want to be naïve. Trillion-dollar companies are hard to move. But what comes next is not as inevitable as those companies often imply. When I asked the Springboards CEO why his firm was developing a new model if he didn’t really like AI, he told me there was no walking back from LLMs—but you could still make them do something different.&nbsp; Here’s hoping we see a lot more of something different: Clarity about what AI can and cannot do and, crucially, a technology that&#8217;s not sold as if it’s about to take over the world.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
-    },
-    {
-      "title": "EmTech Future 2026 ：当人工智能遇到一切",
-      "originalTitle": "EmTech Future 2026: When AI Meets Everything",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
-      "date": "2026-10-05T04:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "谷歌研究副总裁兼负责人Yossi Matias探讨了人工智能如何开始重塑生物学、基础设施、制造业和科学，以及为什么当它与其他领域交叉时可能会产生最大的影响。与我们的《麻省理工学院技术评论》编辑一起进入新闻编辑室，从每天研究和报道新兴技术的团队那里获得尖锐的分析和未发表的见解。 还有更多值得探索的地方这些只是EmTech Future 2026的两个部分。 在为期三天的时间里， EmTech Future探讨了目前影响技术的一些最重要的问题：人工智能如何影响行业，量子将走向何方，什么样的新能源系统可以成为可能，机器人技术如何发展，以及当这些技术开始融合时会出现什么样的挑战和机遇。聆听您在EmTech Future 2026错过的想法、见解和观点。 完整的程序现在可以按需提供，让您可以访问活动的所有对话和会话，包括： Google Quantum AI的创始人兼负责人Hartmut Neven探讨了量子如何与其他前沿领域并驾齐驱，以及为什么它的重要性不仅在于它可以做什么，而且在于它如何开始与周围的系统进行交互。 麻省理工学院能源与气候副总裁Evelyn Wang探讨了能源、计算、基础设施和气候技术如何日益相互关联，以及这些融合系统对工业和社会的未来意味着什么。重新思考我们与人工智能的关系--畅销书作家、屡获殊荣的作家科里·多克托罗（ Cory Doctorow ）探讨了人工智能如何改变我们的工作和思维方式。 作为MIT Technology Review的订阅者，您将获得20%的折扣，这意味着您只需$ 596即可参加完整的EmTech Future 2026计划。访问完整计划",
-      "originalSummary": "Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches&#8230;",
-      "rawFullText": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&nbsp; Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches and reports on emerging tech daily.&nbsp; There’s much more to discover &nbsp; These are just&nbsp;two&nbsp;sessions from&nbsp; EmTech&nbsp;Future 2026 . Across three days,&nbsp;EmTech&nbsp;Future explored some of the most important questions shaping technology right now: how AI is&nbsp;impacting industries, where quantum is heading, what new energy systems could make possible, how robotics are evolving, and what&nbsp;challenges and&nbsp;opportunities&nbsp;arise&nbsp;when these technologies start to converge.&nbsp;&nbsp; Hear the ideas, insights, and perspectives you missed at&nbsp;EmTech&nbsp;Future&nbsp;2026. &nbsp; The full&nbsp;program&nbsp;is now available on demand, giving you access to&nbsp;all&nbsp;the conversations and sessions from the event, including:&nbsp; Qua ntum in context &nbsp;Hartmut Neven,&nbsp;founder and lead at&nbsp;Google Quantum AI, explores&nbsp;how quantum is advancing alongside other frontiers&nbsp;and why its significance may lie not only in what it can do on its own, but in how it begins to interact with the systems around it.&nbsp; Energy Systems for the&nbsp;Future &nbsp;Evelyn&nbsp;Wang, VP for&nbsp;energy &&nbsp;climate at MIT, explores how energy, computing, infrastructure, and climate technologies are increasingly interconnected, and what these converging systems could mean for the future of industry and society.&nbsp; Rethinking our relationship with AI &nbsp;–Cory Doctorow, bestselling author and award-winning writer, explores how AI is changing the way we work and think.&nbsp; As an&nbsp;MIT Technology Review subscriber,&nbsp;you’ll&nbsp;get a&nbsp; 20% discount ,&nbsp;meaning you can access the full&nbsp;EmTech&nbsp;Future 2026 program&nbsp;for just $596.&nbsp; ACCESS FULL PROGRAM",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 80
     },
     {
       "title": "经纪人说已经完成了。数据库不同意。",
@@ -595,36 +546,6 @@
         "智能体"
       ],
       "score": 72
-    },
-    {
-      "title": "AutoSynthData ：为企业代理生成培训数据",
-      "originalTitle": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "date": "2026-10-02T04:01:31.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "什么是有用的代理任务？ 系统规格面向代理的任务验证器概述从模型故障到课程生成和扩展任务目标乘法实施细节高质量的合成数据需要的不仅仅是生成样本级验证和修复批量级审查移动培训前沿EnterpriseOps Gym实验混合混合结果ITSM闭环企业需要在自己的环境中运行良好的代理。 他们要求这些代理完成的工作是由他们使用的系统、遵循的规则和数据状态决定的。模型可能具有广泛的功能，但仍然难以应对特定环境：它处理不当的工作流程、它滥用的工具组合或它不尊重的限制。这些是企业需要改进的弱点。难点在于将这些弱点转化为训练数据。 个人失败会告诉我们一些事情，但训练模型需要在不同情况下行使相同能力的许多新任务。这些任务还必须能够在环境中完成，类似于某人实际要求的工作，并有可靠的方法来检查代理是否成功。在ServiceNow CoreAI ，我们构建了AutoSynthData ，将这些能力差距转化为培训数据。 它使用目标模型的失败和更强的教师的成功来决定模型接下来应该学习什么，然后生成和验证行使这些能力的新任务。随着模型的改进，课程转向它仍然发现困难的地方。我们使用发布的数据集说明了EnterpriseOps Gym的管道（ Malay等人， 2026 ）。 我们首先描述客服代表的工作环境，以及是什么让一项任务对培训有用。代理环境定义了代理运行的世界：它可以观察和修改的状态，它可以调用的工具和API ，以及由其操作产生的状态转换。在此环境中实例化任务。 我们使用以下抽象：系统规范定义了代理运行的约束，包括系统指令、环境策略，以及（如果适用）特定于任务的初始化，例如种子数据库状态或一组知识文章。规范必须与环境的工具、状态和支持的操作兼容。 其说明应明确，避免仅为制造难度而引入的任意约束。用户提示指定用户希望代理完成的内容，以及任何用户级约束。生成的任务应满足三个属性。可行性。当前环境中应至少存在一条满足用户提示的轨迹，同时遵守系统规格。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
-    },
-    {
-      "title": "开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估",
-      "originalTitle": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/open-tts-leaderboard",
-      "date": "2026-09-30T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“开放式TTS排行榜：多语言文本到语音和语音克隆的可扩展评估”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 63
     }
   ]
 }
