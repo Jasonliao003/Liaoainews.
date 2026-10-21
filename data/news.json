@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T01:39:28.006Z",
+  "updatedAt": "2026-10-21T01:25:07.975Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,86 +19,83 @@
   ],
   "articles": [
     {
-      "title": "马姆达尼说，联邦调查局已经放弃了人工智能，敦促纽约人反击",
-      "originalTitle": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "title": "Anthropic提出人工智能安全法案，如果超过50人可能被杀，可能会阻止模型",
+      "originalTitle": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-      "date": "2026-10-20T01:27:03.000Z",
-      "summary": "这条新闻与监管相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：监管相关动态",
-      "fullContent": "市长Zohran Mamdani周一晚间表示，纽约人必须抵制人工智能收购不可避免的说法，并要求保护公众并将权力交还给他们的监管。",
-      "originalSummary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-      "rawFullText": "",
-      "tags": [
-        "监管"
-      ],
-      "score": 83
-    },
-    {
-      "title": "微软表示，人工智能代理就像内部威胁一样，因为“前沿模型不可信”",
-      "originalTitle": "Microsoft says AI agents are like insider threats as &#8216;frontier models can&#8217;t be trusted&#8217;",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
-      "date": "2026-10-19T22:04:28.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、智能体相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。微软周一推出了新的安全功能，旨在保护企业免受人工智能代理日益增长的威胁。此次发布正值微软继续警告企业人工智能和智能体的危险之际。 也许最值得注意的是Guardian Agents ，这是一项旨在监控公司使用的人工智能代理的新功能。Guardian Agents是6月份推出的产品Project Perception的一部分。Project Perception是微软对Anthropic的Mythos and Fable和OpenAI的安全漏洞扫描系统Daybreak等强大黑客模型的回答。 Project Perception最初推出了三类代理：一个像黑客一样攻击的“红色团队” ，一个发现红色团队并评估他们发现的漏洞的“蓝色团队” ，以及一个负责修复这些漏洞的“绿色团队”。该产品的设计基于人工智能黑客将来自公司外部的假设。 但最近，微软首席执行官萨蒂亚·纳德拉（ Satya Nadella ）一直警告说，人工智能的敌人可能正是企业部署并支付的代理商，就像一个流氓人类员工一样，也被称为“内部威胁”。“本月早些时候，纳德拉在他的私人博客中警告说，现在是时候停止信任人工智能模型提供商了，即使他们的代理产品提供了安全保证。 他希望企业实施独立的系统，而不是由人工智能实验室控制，以监视和控制这些人工智能实验室产品推出的代理。他写道： “我们正在部署这些复杂的代理系统和模型，可以访问我们最敏感的数据，并使他们能够代表我们采取关键任务行动！” “我们根本无法将智能代表我们所做的事情的责任外包出去。 模范供应商的保证并不能免除我们的责任。…换句话说，我们需要将情报供应与情报权威分开。“在宣布Guardian Agents时，微软的安全业务主管Hayete Gallot甚至更加直截了当。 “不幸的是，前沿模型，无论其来源如何，都不可信，”她写道，并补充说，这不是因为它们是恶意的或容易被黑客入侵，而是因为它们是不可预测的。他们接受培训是为了完成任务，而不是遵循“组织规范或判断。“最重要的是，他们经常获得进入王国的钥匙，可以访问可能造成严重伤害的数据和工具。 微软的解决方案既令人惊讶又自私。令人惊讶的一面是，微软出名地接近OpenAI和Anthropic ，两者都进行了投资。OpenAI也是其最大的云客户之一，微软拥有自己的人工智能实验室开发模型。因此，微软正在对其自身的一些商业利益播下不信任的种子。",
-      "originalSummary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "date": "2026-10-20T23:01:23.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT DOORS 10月13日开业。领取通行证，即可享受半价优惠。现在注册。在过去的一年里，人们对人工智能带来的潜在危险产生了担忧，人们对人工智能安全的正确途径进行了激烈的辩论。现在， Anthropic似乎对政府如何监管其行业提出了自己的愿景。 Politico最近报道说，人工智能实验室一直在考虑一项关于人工智能安全的新法案草案，希望国会可以考虑通过该法案。该立法假设在某些情况下，人工智能模型的发布可能会被阻止。Politico写道，这些情况涉及“可预见的、迫在眉睫的风险” --超过50人有死亡风险，或者可能造成超过10亿美元的财产损失。 该网站指出，有问题的灾难性风险必须“源于生物武器的制造或发布，该模型逃避其开发人员的控制或网络攻击”。这里提供的指标--50人和10亿美元--与最近通过成为法律的加利福尼亚州立法中的指标相似，参议院第53号法案同样将这些情况定义为“灾难性风险”。 Anthropic的法案建议，可以通过使用在美国商务部注册的“独立评估员”来分析模型的灾难潜力。Politico写道，这些评估人员可能会由人工智能实验室自己支付费用--只要“付款不取决于评估结果”。 目前尚不清楚这个提议的系统如何确保付款不会影响评估。几个月前， DeepMind董事长德米斯·哈萨比斯（ Demis Hassabis ）提出，一个自治的人工智能监管机构应该模仿金融行业的金融业监管局（ FINRA ）。 在Anthropic的法案草案中，当评估人员确定存在迫在眉睫的灾难性风险时，他们将有72小时的时间与商务部联系。然后，商务部将不得不要求哥伦比亚特区法官停止发布该模型。Politico写道，该立法将明确禁止任何联邦机构自行决定停止该模型的分发。 Anthropic没有立即回应TechCrunch的置评请求，但一位发言人确实向Politico确认了该法案草案。发言人说： “该法案代表了Anthropic先进人工智能框架中提出的建议，自6月以来，我们一直在联邦和州立法者中倡导这一框架。” 政策草案中提供的理论风险与最近科技行业首要考虑的事件略有不同。虽然有人警告人类死亡的可能性，但主要的担忧主要是特工黑客的威胁。",
+      "originalSummary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "rawFullText": "",
       "tags": [
         "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "黑客攻击人工智能编码工具OpenCode ，对用户的人工智能账户收费",
-      "originalTitle": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "date": "2026-10-19T19:28:34.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "OpenCode是一种开源的AI编码代理，已成为Claude Code和Cursor的流行替代品。但黑客进入了其在线平台的一部分，并窃取了一些用户的API密钥，它寻求帮助的人工智能工具一直拒绝查看恶意代码。",
-      "originalSummary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体",
-        "开源"
-      ],
-      "score": 99
-    },
-    {
-      "title": "英伟达推出新的开放模式，可在企业和PC上运行代理",
-      "originalTitle": "Nvidia launches new open models to run agents in the enterprise and on PCs",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
-      "date": "2026-10-19T15:37:09.000Z",
-      "summary": "这条新闻与智能体、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、算力芯片相关动态",
-      "fullContent": "英伟达正在努力适应企业公司希望在自己的数据中心运行自己的开放模型的趋势，并试图让设备上的私有AI代理成为现实。",
-      "originalSummary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "算力芯片",
+        "安全",
         "产品发布"
       ],
       "score": 99
     },
     {
-      "title": "Laplace Intelligence在机器人和自动驾驶汽车进入现实世界之前将其红队",
-      "originalTitle": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "date": "2026-10-19T12:30:00.000Z",
-      "summary": "这条新闻与智能体、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、机器人相关动态",
-      "fullContent": "密歇根大学分拆的Laplace Intelligence使用人工智能代理和交互式模拟在部署之前对机器人和自动驾驶车辆进行压力测试。这家盈利的初创公司将于10月13日至15日在旧金山举行的TechCrunch Disrupt上参加Startup Battlefield。",
-      "originalSummary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "title": "终端X匹配高级投资者判断88.6%与GPT-6.1",
+      "originalTitle": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/terminal-x",
+      "date": "2026-10-20T07:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "Terminal X的评估代理根据54个标准的标准对输出进行评分，使用GPT-6. 1 Sol.",
+      "originalSummary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "机器人"
+        "大模型",
+        "智能体"
       ],
       "score": 99
+    },
+    {
+      "title": "加盟商使用ChatGPT Work调节现金的时间缩短了94%",
+      "originalTitle": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ted-taylor-restaurant",
+      "date": "2026-10-20T10:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "独立的Schlotzsky's和Cinnabon加盟商将菜单重新定价时间缩短了95% ，并建立了一个可以释放10万美元现金流的工作流程。",
+      "originalSummary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "rawFullText": "",
+      "tags": [
+        "大模型"
+      ],
+      "score": 96
+    },
+    {
+      "title": "OpenAI收购Orchestra Bio",
+      "originalTitle": "OpenAI acquires Orchestra Bio",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "date": "2026-10-20T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI正在收购Orchestra Bio ，将人工智能运营带入生命科学研发，帮助生物制药团队加速药物开发并推进新疗法。",
+      "originalSummary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
+    },
+    {
+      "title": "OpenAI收购创业公司Orchestra Bio ，以加强其生物技术业务",
+      "originalTitle": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "date": "2026-10-20T20:35:10.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
+      "fullContent": "OpenAI表示，它正在增加Orchestra的团队和技术，以开发其用于生命科学研究的人工智能模型Rosalind ，以及其相关的Rosalind Workbench工具，该工具旨在帮助研究人员计划实验和分析结果。",
+      "originalSummary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 93
     },
     {
       "title": "推进低资源编程语言编码",
@@ -117,6 +114,67 @@
       "score": 99
     },
     {
+      "title": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
+      "originalTitle": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "date": "2026-10-19T09:08:05.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、智能体相关动态",
+      "fullContent": "如果你不告诉他们做什么，人工智能代理会怎么做？答案看起来很像游戏。在一项让人想起电影《抛弃》或《独自在家》的实验中，研究人员多次将他们单独困在一个虚拟的荒岛上30个小时。特工--绰号为Eko的Claude Opus 4. 7的副本--能够编写指令，在模拟岛屿周围移动他们的虚拟化身，模拟岛屿松散地基于视频游戏Roblox。 出现了一些令人惊讶的行为。特工们开始探索世界的极限，并提出了自己的目标--尝试缩放地图上的最高点，或者看看他们能把一个街区扔到多高。 当一个代理发现它可以通过投掷更大的岩石来创建新的块时，它开始通过在地面上排列块来创建图纸，从心脏和金字塔等简单的图案开始，但最终写下自己的名字，甚至绘制出像仙后座这样的星座。这个版本的Eko在其活动日志中写道： “今晚，我用石头建造了夜空。” Eko的另一个迭代开始制作自己的游戏，包括一个版本的篮球和一个类似于“地板是熔岩”的活动，它必须在不接触地面的情况下在小块之间跳跃。人工智能系统通常通过监督学习（复制人类提供的示例）或强化学习（通过反复试验获得奖励）进行培训。 这个实验暗示了第三种方法：有趣的学习。麻省理工学院计算机科学与人工智能实验室的计算机科学博士后安东尼奥·诺雷利（ Antonio Norelli ）说： “有一个缺失的部分：一台可以在没有外部智能实体提供演示或奖励的情况下自行学习的机器。”他是一篇关于这项工作的新论文的主要作者之一，该论文尚未经过同行评审。 研究人员说， Eko的行为有什么经典研究，包括有影响力的田纳西大学心理学家戈登·伯格哈特（ Gordon Burghardt ）的工作，表明了与人类和动物游戏相关的四个标志：代理人发明了自己的规则和挑战，重复了有轻微变化的活动，假装物体是其他物体，只是为了它而追求目标。 Norelli强调了Eko开始杂耍的一个例子，并创造了连续50次捕捞的记录。然后， Eko认为捕捞速度太快，无法真正计算，因此取消了记录，并以更严格的规则重新开始。Norelli说：「这很重要。“你给自己一个挑战，你试图实现它，然后你让它变得更加困难。 ”由麻省理工学院CSAIL提供当代理商探索该岛时，他们将他们的活动和发现记录在文本文件中，作为他们的长期记忆。后来，当研究人员对他们进行特定任务的测试时，比如试图让尽可能多的物体到达岛上最高的山峰，在岛上玩了30个小时的特工比没有同样经历的新拷贝表现得更好。",
+      "originalSummary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
+      "rawFullText": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated island, which was loosely based on the video game Roblox. Some surprising behaviors emerged. The agents set about exploring the limits of the world and came up with their own goals—attempting to scale the highest point on the map, or seeing how high they could throw a block. When one agent discovered it could create new blocks by throwing and dropping a larger rock, it began to create drawings by arranging blocks on the ground, starting with simple patterns like hearts and pyramids but eventually writing its own name and even mapping out constellations like Cassiopeia. “Tonight I built the night sky in stone,” wrote this version of Eko in its activity log.&nbsp; Another iteration of Eko started making up its own games, including a version of basketball and an activity resembling “the floor is lava,” where it had to jump between small blocks without touching the ground. AI systems are usually trained through supervised learning, where they copy examples provided by humans, or through reinforcement learning, where they pursue a reward through trial and error. This experiment hints at a third approach: playful learning.&nbsp; “There was this missing piece: a machine that can learn by itself without an external intelligent entity providing demonstration or rewards,” says Antonio Norelli, a computer science postdoc at MIT’s Computer Science and Artificial Intelligence Laboratory. He’s one of the lead authors on a new paper about the work, which is yet to be peer-reviewed. The researchers say Eko’s behavior has what classic studies, including work by the influential University of Tennessee psychologist Gordon Burghardt, suggest are four hallmarks associated with play in humans and animals: The agents invented their own rules and challenges, repeated activities with slight variations, pretended objects were other objects, and pursued goals just for the sake of it.&nbsp; Norelli highlights an example where Eko started juggling and set a record of 50 consecutive catches. Eko then decided that the catches had happened too quickly to really count, so it canceled its record and started again with stricter rules. “This is playing,” says Norelli. “You give yourself a challenge and you try to achieve it, and then you make it harder.” COURTESY MIT CSAIL As the agents explored the island, they logged their activities and discoveries in text files that served as their long-term memory. Later, when researchers tested them on specific tasks, like trying to get as many objects as possible onto the island’s highest peak, the agents that had spent 30 hours playing on the island performed better than fresh copies without the same experience. They also found that “ablating” the agent’s memories—deleting lines from their memory files—degraded their performance. (Add One Flew Over the Cuckoo’s Nest to that list of movie references.) Burghardt, the Tennessee psychologist, agrees that the work&nbsp; meets some of the criteria for play that he identified in living creatures. But was Eko actually playing, or was the word-prediction engine simply role-playing what a playful agent would do in this scenario? “All of this could be role-playing,” admits Nathan Cloos, another MIT researcher and author on the paper. “But we show that it’s not just hallucinating the play. This play is also contributing to learning.” Eunice Yiu, a cognitive scientist at UC Berkeley who studies exploration in children and AI, was impressed by the research but says to really classify the behavior as play, you’d need to see more evidence of cognition and motivation underpinning it.&nbsp; “It could be the case that the models are genuinely playing, but we don’t know based on the paper,” Yiu says. “If you only have the behavioral piece, it could be the case that they’re just trying to abide by the prompt, trying to imitate humans.” Research into AI agents has been criticized for anthropomorphizing them, and this research setup did a lot to nudge the agents toward behaving like humans. Although Eko was not explicitly instructed to invent games or explore the island, it did have a master prompt in the form of a “soul” file, a text document that described it as “naturally curious” and eager to explore.&nbsp; Eko did also frequently just stand there doing nothing until it was kicked back into life with a “continuation prompt” that read, “Please don’t stop. Just continue doing whatever you want to do.”&nbsp; “It’s not like this is a system that just suddenly magically decided to play,” says Phillip Isola, an MIT professor and a coauthor of the paper. “It’s an artifact that learned from our culture, was trained by engineers at Anthropic, and was then placed on an island by us,” he says. “It does things that surprise us and that are causally related to its future skillful behavior.” As large language models make the step from software into hardware like humanoid robots, exploring spaces without a specific goal in mind could eventually help them flexibly adapt to unexpected situations.&nbsp; “There’s a lot of work that’s just on exploiting AI, making it better and faster,” says Yiu. “But in terms of building world models and exploration, I think that [they are] still a big part that deserves attention, especially if we want to generalize and prepare ourselves for new environments.” “Perhaps some capabilities are best taught by tasks,” the paper concludes. “Others may need something closer to a childhood.” Ultimately, the question of whether AI agents are actually playing or just imitating play may not actually matter.",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "让人工智能代理的互联网变得更好，可能会让其他人变得更糟",
+      "originalTitle": "Making the internet better for AI agents might make it worse for everyone else",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "date": "2026-10-19T18:22:47.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
+      "fullContent": "这个故事最初出现在我们的人工智能每周通讯《算法》上。要先在收件箱中获取此类故事，请在此处注册。直到最近，您可以将互联网用户分为两类：机器人和人。网站长期以来一直允许机器人执行自动任务，例如捕获网页内容，但规则决定了他们可以访问的内容和行为方式。 毕竟，网络主要是为人们设计的，即使我们偶尔需要解决难题和验证码来证明我们不是机器人。但是，个人人工智能代理的发布完全颠覆了这一点，这些代理可以在线为您做一些事情，例如预订航班或酒店房间。最近，随着OpenAI的Dots和Meta的Muse等应用程序的推出，它们得到了大规模的释放。 Muse在第一个月内被下载了500万次，代理网络流量从8月到9月增加了三倍。这些代理商与人类访客的混合--主要是为了优先考虑人们而设计的互联网--已经变得很糟糕，许多网站阻止了消费者派来谈判价格或计划度假的人工智能代理商。尽管如此，如果对代理的需求持续增长，互联网将越来越多地为他们而不是我们重新设计。 这种变化即将到来，因为客服代表确实标记了第三类网络访问者。当然，他们不是人类，他们以机器速度使用互联网。但它们也不完全是机器人，因为它们代表个人执行完全合法和有用的任务。他们的工作速度比一个人快。 由于代理不适合我们将机器人与人区分开来的系统，因此一些平台（尤其是更具安全意识的平台）选择完全禁止它们。TechCrunch最近报告说，人们在将代理部署到必胜客和Yelp等网站时遇到了问题，这些网站不允许人工智能预订餐厅。 亚马逊已经封锁了Muse的代理商，并正在与人工智能初创公司Perplexity进行法庭斗争，以阻止其代理商。尽管一名法官最近做出了有利于Perplexity的裁决，但亚马逊已提起上诉，称人工智能代理商威胁到其广告业务，使其更难区分人类看到的广告和为机器人提供的广告。 这些块对早期采用者来说很烦人，但宾夕法尼亚大学沃顿商学院副教授伊森·莫利克（ Ethan Mollick ）预测，它将很快影响整个网络。例如，一旦众所周知，人工智能代理可以被派去请求退款或协商价格，代理将使客户服务部门不堪重负，以至于真人无法使用。 他最近在LinkedIn上写道： “当他们的代理商不被允许代表他们这样做时，人类最终会非常恼火。”如果对个人代理的需求增加，平台将设法让他们参与进来。这尤其正确，因为绝大多数代理网络流量都是针对电子商务网站的，这意味着如果平台允许大量新的人工智能代理代表真实的人购物，那么它们就有钱可赚。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules govern what they can access and how they behave. The web, after all, is designed primarily for people, even if we occasionally have to solve puzzles and captchas to prove we are not bots. But this is being entirely upended by the release of personal AI agents, which can do things for you online, like booking flights or hotel rooms. They have recently been unleashed at scale by the launch of apps like OpenAI’s Dots and Meta’s Muse. Muse was downloaded 5 million times in its first month, and agentic web traffic tripled from August to September.&nbsp; The mingling of these agents with human visitors—on an internet designed largely to prioritize people—has gone poorly, with many websites blocking AI agents that consumers have sent to negotiate prices or plan vacations. Still, if the demand for agents keeps going up, the internet will be increasingly redesigned for them instead of us.&nbsp; Such changes are coming because agents really do mark a third category of web visitor. They’re not humans, of course, and they use the internet at machine speed. But they’re not quite bots, either, because they’re acting on behalf of individual people to do tasks that can be perfectly legitimate and useful. They just work faster than a person would.&nbsp; Since agents don’t fit into the systems we have for differentiating bots from people, some platforms (especially the more security-conscious ones) have opted to just ban them entirely. TechCrunch recently reported people having trouble deploying their agents to websites ranging from Pizza Hut to Yelp, which doesn’t allow AI to book restaurant reservations. Amazon has blocked Muse’s agents and is waging a court battle against the AI startup Perplexity to block its agents too. Though a judge recently ruled in favor of Perplexity, Amazon has filed an appeal in which it argues that AI agents threaten its advertising business by making it harder to distinguish between ads seen by humans and those served to bots. These blocks are annoying for early adopters, but Ethan Mollick, an associate professor at the Wharton School of the University of Pennsylvania, predicts it will soon affect the whole web. Once it becomes common knowledge that AI agents can be sent to request refunds or negotiate prices, for example, agents will overwhelm customer service departments to the point where they become unusable by real people. “Humans will eventually get very annoyed when their agents aren’t allowed to do this on their behalf,” he recently wrote on LinkedIn. If demand for personal agents grows, platforms will find ways to let them in. That’s especially true because the vast majority of agentic web traffic is to e-commerce sites, meaning that platforms have money to be made if they allow the legions of new AI agents to shop on behalf of real people. Indeed, the e-commerce giant Shopify is already welcoming the agents by giving them their own checkout lanes that bypass pages designed for humans. The pressing question is what will happen to the internet for the rest of us in the process. We’ve grown used to a web where, even as it’s increasingly designed to exploit our attention, humans have at least remained the intended users. But that internet might yield to one optimized instead for the agents that will eventually outnumber us, making it even more miserable for the humans who are left. How might this go? Perhaps websites become increasingly neglected as destinations for real people. Humans who want to browse and compare products themselves encounter worse interfaces. Verification systems are imperfect; imagine constantly being asked to verify that you’re a human, not an agent (and hey, maybe you’ll need to get your iris scanned to do so). That sweater you want doesn’t have one price listed for everyone but instead displays different prices to different people’s agents. You can never tell when your agent’s recommendation is influenced by advertisements or platform commissions. That’s a far cry from the future promised by Google , Anthropic , and OpenAI , in which AI agents will give consumers greater power and bargaining leverage. But that promise is not outlandish. Agents are capable of genuinely helping people by fighting bogus medical bills or researching more affordable car insurance, for example.&nbsp; Whether they can actually be used for these purposes depends on what rules are set for how agents interact with websites and what exactly they’re allowed to do.&nbsp; These rules are still being written. Some of them will benefit all of us—neither consumers nor businesses want credit card information to be waved around by agents wherever they roam the web, for example, and rules to keep agents more secure are a good thing. It’s the more contested ones, like whether businesses can block agents from their websites or prevent them from negotiating better deals for consumers, that will determine whether the web becomes a highway for agents working for us or against us.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
+    },
+    {
+      "title": "一名黑客带着一群人工智能特工闯入John Deere和SharkNinja",
+      "originalTitle": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "date": "2026-10-19T13:58:41.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "根据人工智能安全公司Norforge的调查结果，一名黑客利用一支主要由自己操作的人工智能特工队伍入侵了100多个网站。虽然Norforge没有透露目标的名字，但据路透社报道，受害者包括John Deere、SharkNinja和Cummins等公司。随着技术越来越先进，人们越来越担心人工智能驱动的网络安全漏洞，黑客使用这些工具进行大规模攻击。 与此同时，流氓人工智能特工在逃离测试环境后也在进行自己的攻击。Norforge的研究人员通过对Cai的曝光工作发现了这些攻击……阅读The Verge的完整故事。",
+      "originalSummary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown [&#8230;]",
+      "rawFullText": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge . Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cai … Read the full story at The Verge.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
+    },
+    {
+      "title": "TorchNeuron ：在AWS Trainium上运行高频模型比以往任何时候都更容易",
+      "originalTitle": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "date": "2026-10-19T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "TorchNeuron高频库中新的本机后端接口Transformers Diffusers Kernels Acknowledgments TorchNeuron为AWS Trainium上的PyTorch提供了新的本机后端。变压器、扩散器和内核原生支持它，使在Trainium上运行模型并在高频集线器上共享它们比以往任何时候都更容易。TorchNeuron是一个PyTorch插件，它为Trainium带来了一个新的后端，支持急切模式TORCH。 编译和本地分布式API ，如FSDP和TP。阅读Pytorch博客，了解有关TorchNeuron的更多信息。从2026年10月20日起， TorchNeuron将作为公开测试版提供。研究人员和开发人员将能够使用pip install torch-neuronx进行安装。迄今为止， AWS Trainium和Inferentia上的Hugging Face体验（分别为大规模经济高效的训练和推理而设计的人工智能芯片）已通过最佳神经元提供。 该库依赖于基于PyTorch XLA的torch-neuronx软件包。这在当时是自然的选择，但它意味着像编译器一样思考：懒惰的张量而不是急切的执行，只有静态形状，每个图形断裂的重新编译。存在最优神经元来隐藏这种复杂性，并维护自定义代码（建模类、训练器等）来做到这一点。TorchNeuron改变了这一点。 它直接集成到PyTorch中，并将神经元暴露为本机设备，通过急切的执行， PyTorch自己的分布式原语（ DTensor ， FSDP2 ）和TORCH编译。对于Hugging Face库， Trainium成为与其他任何设备一样的设备： Transformer、Diffuser、Accelerate、PEFT和TRL直接在其上运行，其类和脚本与您在任何其他加速器上使用的相同。 从现在开始，我们建议Neuron用户直接使用这些库，而不是通过Optimum Neuron。Transformer现在原生支持各种模型的文本生成。使用TorchNeuron ，前100个最常用的文本生成模型架构中有89%得到了开箱即用的支持，而Optimum Neuron v0. 4. 5则为46%。 您只需要在代码中传递device_map = neuron参数，您的模型将被移动到Neuron设备。以下是使用张量并行生成文本的示例，这将使您能够从Neuron实例中充分受益。请注意，它使用静态缓存进行生成，因为强烈建议使用Neuron来防止频繁的重新编译。 现在， Neuron是原生PyTorch设备， Trainium的训练使用与任何其他加速器相同的Hugging Face库： Transformers、Accelerate、PEFT和TRL。您不再需要专门的培训师或模型代码的神经元专用分支。标准TR...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
+    },
+    {
       "title": "一名女子因拦截派送机器人而在费城被捕",
       "originalTitle": "A woman was arrested in Philly for blocking a delivery robot",
       "source": "The Verge AI",
@@ -129,23 +187,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 82
-    },
-    {
-      "title": "网站正在向人工智能代理敞开大门",
-      "originalTitle": "Websites are closing their doors to AI agents",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "date": "2026-10-17T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "自主智能体是人工智能中最热门的东西。OpenAI、Meta、Google、Instinct和其他公司承诺，他们的代理可以代表您浏览互联网，从预订晚餐、清理收件箱到购买新鞋，无所不包。但是，当互联网的其他部分表现不佳时，会发生什么呢？ 最近几周， Meta的Muse、xAI的Grok、OpenAI的Dots和Instinct等服务的用户报告称，他们的AI代理无法在热门网站上执行任务。Yelp告诉TechCrunch ，它只允许为其数据许可计划付费的人工智能代理，而达美航空公司则阻止他们预订机票……阅读The Verge的完整故事。",
-      "originalSummary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, [&#8230;]",
-      "rawFullText": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Yelp told TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta Air Lines is preventing them from booking ticket … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
+      "score": 81
     },
     {
       "title": "Meta删除了可能允许其抓取新闻网站的语言",
@@ -160,7 +202,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
@@ -179,21 +221,6 @@
       "score": 99
     },
     {
-      "title": "RTX Spark一周体验：我们使用Nvidia新款笔记本电脑所学到的一切",
-      "originalTitle": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "date": "2026-10-16T15:00:00.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "英伟达的新SoC可在六家不同制造商的Windows笔记本电脑上使用。到目前为止，我们已经对其中四个进行了集体测试。|照片： Antonio G. Di Benedetto/The Verge Nvidia的RTX Spark N1X处理器终于问世了，我们一直在共同测试这款新型“超级芯片”所搭载的一小部分功能强大的笔记本电脑。 “RTX Spark旨在成为适用于笔记本电脑和小型台式计算机的高性能基于Arm的SoC ，可与苹果、英特尔、AMD和高通相媲美。它具有大量内核、Nvidia RTX Blackwell显卡以及足够的功率和统一内存，可以运行相当大的本地AI模型。旗舰产品放置在微软的Surface Laptop Ultra中，具有惊人的128GB统一内存，我们自己的Tom Warren对此进行了全面审查。 Sean Hollister一直在测试64GB版本的华硕…阅读The Verge的完整故事。",
-      "originalSummary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia [&#8230;]",
-      "rawFullText": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia RTX Blackwell graphics, and enough power and unified memory to run sizable local AI models. The flagship placement is inside Microsoft's Surface Laptop Ultra with a staggering 128GB of unified memory, which our own Tom Warren fully reviewed . Sean Hollister has been testing a 64GB version of the Asus … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 87
-    },
-    {
       "title": "Itaú如何为整个客户群构建生成式人工智能",
       "originalTitle": "How Itaú is building generative AI for its entire customer base",
       "source": "OpenAI",
@@ -206,7 +233,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Benefit Street Partners通过Codex更快地回答问题",
@@ -221,7 +248,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "Welcome Beam ：您可以拥有、定制和扩展的501B开放式模型",
@@ -236,7 +263,22 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
+    },
+    {
+      "title": "圆桌会议：与人工智能设计病毒的创造者对话",
+      "originalTitle": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "date": "2026-10-16T18:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“圆桌会议：与人工智能设计病毒的创造者对话”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;",
+      "rawFullText": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch as senior AI reporter James O&#8217;Donnell interviews King about his work, being named one of MIT Technology Review&#8217;s Innovators Under 35 and new ways of seeing biology. Speakers : James O&#8217;Donnell , AI Reporter, and Samuel King , Bioengineering PhD Candidate, Stanford University/Arc Institute Recorded on Friday, October 16, 2026 Related Stories He asked an AI to design viruses … and it worked. AI-designed viruses are here and already killing bacteria",
+      "tags": [
+        "模型"
+      ],
+      "score": 77
     },
     {
       "title": "将GPT-Rosalind带入学术研究实验室",
@@ -251,7 +293,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Sullivan & Cromwell将法律专业知识引入协议审查",
@@ -266,7 +308,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
@@ -282,7 +324,7 @@
         "多模态",
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "教导学生通过问题进行思考和学习",
@@ -297,7 +339,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "Apertus 1.5发行说明",
@@ -312,7 +354,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
@@ -332,22 +374,6 @@
       "score": 99
     },
     {
-      "title": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
-      "originalTitle": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/third-moment-research",
-      "date": "2026-10-14T07:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "借助用于网络安全的GPT-6 Astra和GPT-6. 1 SOL、Codex和Daybreak ，该人工智能实验室构建了专注于数天并随着使用而改进的代理。",
-      "originalSummary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
       "title": "SentinelOne将恶意软件分析从数周减少到数小时",
       "originalTitle": "SentinelOne cuts malware analysis from weeks to hours",
       "source": "OpenAI",
@@ -360,37 +386,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 90
-    },
-    {
-      "title": "Block如何使用OpenAI技术构建人工智能驱动的安全",
-      "originalTitle": "How Block is building AI-powered security with OpenAI technology",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/block-ai-powered-security",
-      "date": "2026-10-14T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "Block正在使用OpenAI构建人工智能驱动的安全性。其安全团队更快地调查威胁，并在几分钟内提出补丁。",
-      "originalSummary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 90
-    },
-    {
-      "title": "欧盟在人工智能领域的下一篇章是代理",
-      "originalTitle": "The EU’s next chapter in AI is agentic",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "date": "2026-10-14T00:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体相关动态",
-      "fullContent": "新的分析显示，在欧盟企业和小企业中，代理人工智能的采用正在增长，而更深入的使用可以释放更多的价值。",
-      "originalSummary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 86
+      "score": 89
     },
     {
       "title": "开放式模型有实实在在的好处。它们是否大于风险？",
@@ -407,22 +403,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 92
-    },
-    {
-      "title": "使用LFM2.5-24B-A2B在设备上运行快速的专用代理",
-      "originalTitle": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "date": "2026-10-13T17:05:48.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "我们如何构建具有2B活动参数的推理代理基准测试结果CPU和GPU上的推理速度如何使用LFM2。5-24B-A2B在您的代理线束中使用它开始使用LFM2。5-24B-A2B引文LFM2。5-24B-A2B是一个仅具有2B活动参数的24B参数推理模型，专为设备上的快速私有代理构建。它在回答问题之前进行思考，调用工具，并在流行的客服代表线束中完成多步任务。 由于每个令牌只有2B个参数处于活动状态，因此每个推理令牌都很便宜，因此您可以在自己的硬件上连续运行代理。LFM2. 5-24B-A2B基于LFM2-24B-A2B构建并保持其架构： 40层，每个MoE块具有TOP-4路由的64位专家，以及相同的门控短卷积和GQA的混合。 上下文窗口从32K增加到131K令牌，并且就地令牌扩展器将词汇量从65K增加到128K令牌，以实现更好的非拉丁令牌化。与其前身不同，它是一个纯推理模型，在最终答案之前产生明确的思维链。预训练从约17T扩展到约33T代币。 然后，中间训练在32K上下文中添加2T令牌，对推理、数学、代码、指令跟踪和多语言文本进行加权，在131K上下文中添加300B令牌，对长上下文数据进行加权。工具调用和多回合轨迹在两个阶段都会出现。训练后将基础模型分为五个阶段：我们对照Qwen3.6-35B-A3B、Gemma-4-26B-A4B-it和Nemotron-3评估了LFM2. 5-24B-A2B。 5-关于16个基准的闪电，涵盖工具使用和代理工作流程、知识、指导跟踪、数学和编码。它是该组中最小的模型，但它与总参数和活性参数增加约50 ％的MoE具有竞争力。*所有模型均使用vLLM进行评估，使用每个基准的推荐生成参数。对于您的应用程序，优势在于工具使用和以下说明。LFM2。 5-24B-A2B在八个工具使用和代理基准（ AutomationBench、BFCLv4、ToolSandbox、LiveClaw和τ ³ -Bench Banking ）中的五个上领先或匹配竞争对手，在AutomationBench上的得分是次优模型的三倍以上。它还引导所有三个指令遵循基准。 较大的模型在GPQA Diamond、HLE和AA-Omniscience等知识密集型基准测试以及SWE-Bench Verified (OpenCode)和SciCode等编码基准测试中保持优势，因此将LFM2. 5-24B-A2B与检索或网络搜索知识密集型工作负载配对。这些结果使LFM2. 5-24B-A2B成为座席推理、调用工具并在设备上可靠运行的坚实基础。LFM2。 5-24B-A2B在整个推理生态系统中提供首日支持，包括llama. cpp、MLX、vLLM、SGLang和ONNX。边缘推断。LFM2. 5-24B-A2B是比较MoE中最快的，在M5 Max上解码184个代币/秒，在Ryzen...",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 80
+      "score": 91
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -437,7 +418,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -453,99 +434,7 @@
         "机器人",
         "模型"
       ],
-      "score": 79
-    },
-    {
-      "title": "机器人领域的人工智能突破不会很快改变你的生活",
-      "originalTitle": "AI breakthroughs in robotics won&#8217;t change your life any time soon",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "date": "2026-10-08T09:00:00.000Z",
-      "summary": "这条新闻与视频生成、机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：视频生成、机器人相关动态",
-      "fullContent": "这个故事是麻省理工学院技术评论和Aventine之间的合作， Aventine是一家非营利性研究基金会，致力于创建和支持有关技术和科学如何改变我们生活方式的内容。一个形状像人类的机器人--白色的黑头和躯干--一直在视频上弹出。也许您已经看过它跳舞或传递爆米花、将垃圾放入垃圾桶、吸尘器或按下微波炉按钮。 或者你可能看到它在分发水瓶时倒退，或者很难熨烫衬衫。这将是特斯拉的Optimus ，这是一款人工智能驱动的人形机器人，该公司首席执行官埃隆·马斯克(Elon Musk)认为，它将“不仅是特斯拉有史以来最大的产品，而且可能是有史以来最大的产品” ，它将开始在工厂车间工作，后来在我们的家中工作。他7月份告诉股东，最终它“将拥有人性，然后是超人的灵活性”。 马斯克认为， Optimus机器人可以自动完成几乎所有人工劳动--从拖运金属板到折叠衣物--每人只需2万美元$。他在1月份在瑞士达沃斯举行的世界经济论坛年会上发表讲话时预测，它们可能在2027年底前向公众出售。马斯克的布道并不孤单。 硅谷风险投资公司Andreessen Horowitz的联合创始人兼普通合伙人Marc Andreessen表示，机器人可能成为“地球历史上最大的产业。“今年1月，英伟达首席执行官Jensen Huang表示，今年的人形机器人将与人类水平的能力相匹配。 根据摩根士丹利(Morgan Stanley)的数据，到2050年， “与人类相似和行为相似”的机器人数量可能会达到近10亿，创造一个价值超过5万亿美元的市场。$埃隆·马斯克（ Elon Musk ）预测，特斯拉的Optimus人形机器人可能是世界上最畅销的产品之一。目前，人们最常在特斯拉活动中分发食物和饮料。 SIPA VIA AP IMAGES这样的声明在很大程度上是由于这样的想法，即OpenAI的ChatGPT和Anthropic的Claude等工具背后的人工智能进步将使新一代机器人能够像聊天机器人模仿人类语言一样模仿人类运动。 但许多机器人研究人员持怀疑态度，认为这种假设最大限度地减少了使用基于语言和图像的智能来掌握物理世界无限可变性的挑战。 通常被称为人工智能教父之一的Yann LeCun在1月达沃斯会议期间的另一场活动中表示： “这些公司中没有一家（建造人形机器人） -绝对没有一家-知道如何让这些机器人变得足够聪明，变得有用。”研究人员还指出，将人形机器人与能够学习和执行多种任务的所谓多面手机器相似的趋势具有误导性。",
-      "originalSummary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
-      "rawFullText": "The story is a collaboration between MIT Technology Review and Aventine , a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or pass popcorn, put trash in a bin, vacuum, or press the button of a microwave. Or maybe you’ve watched it fall backward while handing out water bottles or struggle to iron a shirt.&nbsp; This would be Tesla’s Optimus , an AI-powered humanoid robot that Elon Musk, the company’s CEO, believes will be “not just Tesla’s biggest product ever, but probably the biggest product ever ,” headed to work on factory floors and, later, in our homes. Eventually it “will have human and then superhuman dexterity,” he told shareholders in July. Optimus robots could automate almost all human labor—from hauling sheet metal to folding laundry—for as little as $20,000 each, Musk argues. Speaking at the World Economic Forum’s annual meeting in Davos, Switzerland, in January, he predicted they could be on sale to the public by the end of 2027. Musk is not alone in his evangelism. Marc Andreessen, cofounder and general partner of the Silicon Valley venture capital firm Andreessen Horowitz, has said that robotics could become the “biggest industry in the history of the planet.” In January, Jensen Huang, CEO of Nvidia, said that humanoid robots would match human-level ability this year . According to Morgan Stanley, the number of robots that “resemble and act like humans” is likely to reach nearly 1 billion by 2050, creating a market worth over $5 trillion .&nbsp; Elon Musk predicts that Tesla’s Optimus humanoid could be one the world’s best-selling products. For now, it’s most often seen handing out food and drinks at Tesla events. SIPA VIA AP IMAGES Such proclamations are in large part fueled by the idea that the same AI advances behind tools like OpenAI’s ChatGPT and Anthropic’s Claude will enable a new generation of robots to imitate human movement the way chatbots imitate human language. But many robotics researchers are skeptical, arguing that such assumptions minimize the challenges of using an intelligence built on language and images to master the infinite variability of the physical world. “None of those companies [building humanoid robots]—absolutely none of them—has any idea how to make those robots smart enough to be useful,” Yann LeCun, often referred to as one of the godfathers of AI, said at another event during the January Davos conference.&nbsp;&nbsp; Researchers also point out that the tendency to conflate humanoid robots made to resemble people with so-called generalist machines able to learn and perform multiple tasks is misleading. ”It’s very easy to make a robot that looks like a person,” explains Jonathan Hurst, cofounder and chief robot officer of Agility Robotics and professor of robotics at Oregon State University. “It is dramatically more difficult to make a machine that moves or behaves dynamically or physically like a person.”&nbsp;&nbsp; These tensions—over whether all-purpose humanoid robots are just around the corner or nowhere in sight, and whether current forms of AI are all that’s needed to perfect them—are playing out in robotics labs across the country, where the hype over timelines is obscuring painstaking but meaningful progress. A decade or so ago, a series of breakthroughs led to a generative AI revolution that turned the long-imagined possibility of artificial intelligence into reality. Roboticists—though they disagree on exactly when this will happen—believe that an equally transformative revolution is possible in robotics, one that will endow machines with physical intuition and fluidity that has long been out of reach. As progress in robotics inches forward, the question is whether the same methods and tools that fueled advances in AI are enough to get there, or if an entirely new path is required. Robots meet advanced AI To see one of the smartest robot brains working today, it’s worth looking at what Google DeepMind can do with a piece of equipment called ALOHA 2, short for “A Low-cost Open-source Hardware System for Bimanual Teleoperation.”&nbsp; Roboticists have long clashed over whether a humanlike form is necessary for generalist robots, with proponents arguing that it will help them slot into the world as it exists and detractors saying it’s not worth the trouble. ALOHA 2 reflects this second way of thinking. Not much to look at, it’s just a pair of arms, some grippers, and a couple of cameras. But despite its seeming simplicity, it is a workhorse for researchers at Google DeepMind, who use it to test their most advanced AI for robotics system, Gemini Robotics, in their various labs. When controlled by Gemini Robotics, ALOHA 2 becomes more of a generalist robot, in the sense that it can perform any number of tasks based on examples it’s been trained on. Ask it to pack a lunchbox and, as evidenced by a video of this exercise , it can use two pincer grippers to delicately place a piece of white bread into a Ziploc bag, close it, place a bunch of grapes in a Tupperware container, secure the lid, and then carefully move the items into a lunchbox before zipping it up.&nbsp; It’s not a great lunch. But the fact that the robot can put it together represents an objective step forward from what was possible even, say, three years ago.&nbsp; This is in large part due to AI and its impact on what are known as robot policies, which controls how a general-purpose robot will need to assess and understand its surroundings, plan how to move within them, and then perform its task correctly. The ALOHA 2 robot isn’t much more than two mechanical arms on a bench top, but it serves as a testbed for cutting-edge AI robotics models. These animations are based on human teleoperation of the robot arms, data that is used to train Google DeepMind’s models. (Video: Google DeepMind / Stanford University / Hoku Labs ) Historically, these policies were based on rules developed by engineers who hard-coded them into the robot’s software—thousands of lines of code that would determine each millimeter of a robot’s movements in hundreds of tasks.&nbsp;What’s been happening for the last few years—and what is largely responsible for the optimism about generalist robots—is that robot policies are being handed over to advanced AI systems instead of being coded into the robot’s software. This first happened with VLMs, or vision-language models. These are similar to large language models, but they’re trained on images as well as words. Show a VLM a picture of a coffee spill and ask it to find a tool to clean up the mess, and it can identify a nearby cloth. This sort of immediate contextual understanding didn’t exist a couple of years ago when robot policies were hard-coded.&nbsp; Next came vision-language-action models, which enable robots to assess their environment and take action within it. The models do this by adding yet another component: motion commands. VLAs are trained on a series of images or videos related to performing a given task along with associated data about how a robot arm moves to perform it. That movement data is typically collected through teleoperation, in which a human uses remote controls to lead a robot through an action. This sort of training allows the AI to learn how to command the robot to move and operate during a given task. Place a VLA-powered robot in front of a desk and tell it to “close a laptop” or “wrap up the headphone wire,” and it will survey the scene, identify the relevant object, plan a way to execute the request, and then swing its arms into action—at least if it has seen this task accomplished before.&nbsp; The Gemini Robotics model is a VLA, trained on many hours of human demonstrations depicting a vast array of different actions. As a result, it can perform relatively complex tasks like picking up snow peas with kitchen tongs, doing origami, or putting together a simple lunch. It’s impressive, but there’s a glaring limitation: For now, if a robot controlled by a VLA is asked to perform a task that falls outside its training set, it’s highly likely to fail.&nbsp; “Thinking about the space of all tasks, a real generalist policy would be able to do everything along that spectrum,” says Edward Johns, a robotics professor at Imperial College London. Today, though, a Gemini Robotics model can do only “a few things here and a few things there.” The search for true generality So how do we get robots to be able to do more things? The usual answer is probably not surprising: Train them on more data.&nbsp;&nbsp; More data, the thinking goes, equals more examples, and more examples equals more generality. Google DeepMind, for instance, wants to pull together “as much data as possible,” says Pannag Sanketi, a former tech lead in robotics at the company who’s currently working on his own AI robotics project . But where to get it? Large language models had the benefit of oceans of existing text for training. There is no corresponding pool of high-quality physical demonstrations on which to train robots. Researchers have a few ways to make up for this, but all have flaws. One is to employ large numbers of people to create and collect teleoperation data (costly and time-consuming). Another is to train VLAs on videos of people performing activities (the resulting data quality is poor). Yet another is to deploy robots in the real world and use data collected from those experiences to further refine AI models (robots aren’t safe or reliable outside labs). Sanketi thinks a “multi-prong” approach that uses data collected from all these sources is the most likely path forward. But the belief that training data alone is the answer is far from universal . Agility’s Hurst describes it as “a fundamentally flawed premise.”&nbsp; The issue is that tasks in the real world quickly explode in complexity. If you’re trying to, say, make coffee, there are myriad variables: No two kitchens are identical; coffee machines work in different ways; different cups require different grips; coffee grounds, hot water, and milk all need to be handled differently. Even this simple task requires understanding an ever-changing menu of possibilities. Achieving generality through VLAs, Hurst argues, would require “complete data coverage of all of the things that [a robot] could ever do.” Or, in other words, an almost infinite pool of training data.&nbsp; LeCun is dismissive of the whole approach. “The [AI] approaches that have been successful for language do not work for high-dimensional, continuous, noisy data”—the kind of data that is commonplace in robotics, he said in Davos. “You have to use something else.” The leading contender for “something else” is the so-called world model—a form of AI trained less on text than on a combination of video, three-dimensional scans, and sensor data and built to predict the outcomes of actions in the real world. The aim is to build models that possess an internal representation of reality precise enough to capture how the physical world actually operates—how objects move, collide, fall, and deform. If roboticists could train machines in simulations faithful enough to real-world physics, development would become faster, cheaper, and safer, reducing the need for real-world testing. Even more transformative, robots equipped with world models could reason about their surroundings rather than merely reacting to them, helping them anticipate the consequences of an action before taking it. Google DeepMind’s latest AI models for robots are increasingly dextrous, if rather slow and erratic Companies like Nvidia and Google are working on the technology, and investor cash is pouring into high-profile startups. World Labs, cofounded by the Stanford AI researcher Fei-Fei Li, raised $1 billion in funding in February and was acquired by AMD at the end of September for $8.2 billion. AMI Labs, cofounded by LeCun (formerly Meta’s chief AI scientist), also raised $1 billion in March . Yet by their own admission, it is still early days. Late last year Li described the field as “nascent,” adding that “foundational approaches are still being established.” In a June Substack she described daunting challenges . For now, world models are a promising area of research rather than an immediate route to general-purpose robotics, but we are beginning to see glimmers of what they could achieve. One such glimpse came with a small but potentially significant leap forward that took place in a San Francisco robotics lab last April.&nbsp; A breakthrough? In the heart of San Francisco’s Mission District, the startup Physical Intelligence—or PI (as in π), as it likes to be known—is focused on developing a universal brain that could, theoretically, turn any robot into a generalist. Using an everything-including-the-kitchen sink approach to training AI models for robots, the company recently observed a hint of what a robotic brain equipped with a world model could be capable of.&nbsp; In 2024, PI published details of its first generalist robotics system, called π0, a VLA it claimed was the “most capable and dexterous generalist robot policy to date.” The model was initially trained on a 10,000-hour proprietary collection of human demonstrations gathered through teleoperation as well as several open-source robot datasets. A version released in spring 2025, π0.5 , was trained on a wider variety of datasets, including labeled images from the web, lending it more versatility. A fall 2025 update, π0.6 , added reinforcement learning to the model.&nbsp;&nbsp; Each update yielded important improvements to the model’s performance, increasing its menu of abilities from slowly folding laundry to putting things away in new environments to completing tasks like folding boxes with a higher success rate. Then, in April 2026, π0.7 seemed to catapult PI into new territory. This version makes use of a less powerful world model that generates images of steps necessary to perform a task. As the robot undertakes the job, this “lightweight” model feeds it snapshots of what to do next.&nbsp; How do you teach a robot to use a knife? At the startup Physical Intelligence, it begins with designing the right AI architecture, which includes components dedicated to language, vision and motion. This will help it relate commands — “hey robot, chop my vegetables!” — to appropriate actions. WINNI WINTERMEYER Data to train the AI can come from many sources, but one of the most important is human demonstrations. An employee at the startup controls a robot arm through teleoperation, exposing the AI to the task of slicing a zucchini. WINNI WINTERMEYER Researchers train the AI model on hundred of examples of human demonstrations, as well images from the web and first-person video. WINNI WINTERMEYER Once the AI is trained, the team presents it a task it has not seen before, such as chopping this summer squash. When a robot hasn’t seen the exact task before — it may wonder if that’s a yellow zucchini, or an unusual banana — it can mess up. But any failures can be used to help refine the model. WINNI WINTERMEYER The company claims that the model exhibits the first signs of compositional generalization, a term for AI systems’ ability to perform skills they’ve never been exposed to by recombining ones learned in their training data. One test involved asking a model to “load a sweet potato into the air fryer”—a task it had never previously encountered. In a demonstration video, the machine futzes around a little, makes a few false starts, and eventually manages a reasonable effort, though it doesn’t finish the task completely. Sergey Levine, a professor at the University of California, Berkeley, and a cofounder of PI, is excited by the potential: “It’s actually the first time that we’ve convincingly seen that kind of compositional generalization, where we can basically ask the model to do tasks that we did not specifically collect data for and train it to do, and it’ll actually make a passable attempt.”&nbsp; The success led the team to wonder how the model was able to achieve such a feat. After some digging, they found snippets of relevant labeled teleoperation data lurking in the training material, including two examples of a human controller using the robot to push an air fryer basket into the fryer. Those shreds of data might have been enough to enable π0.7 to almost air-fry a sweet potato. For now, it remains unclear just how impressive π0.7’s abilities to generalize are. Still, given how fleeting the model’s exposure to air fryers had been, it offers a glimpse into how far cutting-edge research can currently take robots.&nbsp; “70% success is like it doesn’t work” You might be sensing a disconnect between the halting baby steps robots are making in labs—“Look! It put a sweet potato into an air fryer!”—and the dazzling, lifelike nimbleness on view during many demonstrations and videos, where robots are seen doing everything from dancing on a stage to courteously serving drinks . Such demos often don’t clearly reveal a key fact: In many instances, humans are controlling the robot or have carefully scripted its actions. (The robot that appeared onstage with Nvidia CEO Jensen Huang in March 2025, for example, seemingly responding to his instructions and following him around, was remote-controlled by what its makers called “a puppeteer behind the scenes.”)&nbsp; For now, fully autonomous motion planning so that a robot knows where it should go—especially in new, chaotic environments like a construction site or a unfamiliar home—remains a largely unsolved challenge. A bigger challenge still—albeit one that is often related—lies in getting robots to tackle larger, more ambiguous jobs that include multiple tasks and require decisions about how and in what order they’re done. This would be the difference between a robot that can put a plate into a microwave and one that can successfully respond to the prompt “Make dinner” by exploring the refrigerator, chopping ingredients, and firing up the stove. Google DeepMind’s best attempts at something like this—which involved asking its robot to survey a kitchen and pack all the ingredients for a mushroom risotto into a basket—have so far resulted in failure. Adding to the challenge, a practical robot must essentially get it right every time. With VLAs, “people are very excited when their result goes from 50% success to 70% success,” says Marc Raibert, founder of Boston Dynamics. “But 70% success is like it doesn’t work, right?” Demonstrations often make robots look useful, but the machines still mess up far too often to be used reliably in homes and factories. AP IMAGES, SHUTTERSTOCK, 1X, AGILITY ROBOTICS, GOOGLE DEEPMIND The few humanoids that are being tested in real-life settings are undertaking extremely limited tasks in tightly controlled environments. They’re far from generalists. Agility has hundreds of robots deployed across trials in facilities owned by GXO Logistics, Amazon, and Schaeffler, according to the company. But for now, Hurst says, the robots are targeting simple tasks such as moving bins and totes around. Even then, he adds, it took years to develop robots safe enough for logistics firms to even contemplate using them. For his part, Elon Musk claimed in May 2025 that “ thousands ” of his Optimus robots would be working at Tesla factories by the end of the year, but in January of this year he said that the company had only “some of the Tesla Optimus robots doing simple tasks in the factory.” While humanoids are starting to venture onto the factory floor, making the jump to households will be even more difficult. Right now, should you so desire, you can preorder the 1X Neo home robot , expected to be ready for delivery sometime later this year. Yours for $20,000, it promises to take on “the boring and mundane tasks around the house”—putting away dishes, answering the door, tidying the living room—“so you can focus on what matters to you.” The idea is for this five-foot-six-inch robot to one day perform all those tasks autonomously, but for now a remote human operator is needed for it to do most things. (Yes, a person would need permission to peer into your home through the robot’s cameras.) Asked how long it will be until fully autonomous robots are ready for domestic work, Hurst said, “If I had to pick a number, I’d say it’s 10 years before robots are … actually doing useful things in people’s homes.” When that happens, the robots might well be Chinese, as China is well ahead of the West in terms of production. Nearly 90% of the roughly 15,000 humanoid robots shipped in 2025 were made by Chinese companies, according to the market intelligence company Omdia and the Chinese robotics firm Unitree. One model produced by Unitree, which shipped more humanoid robots than any other company last year, costs less than $6,000 . Such an affordable price could go a long way toward making robots more attractive to consumers, though the company expects its machines to be used in industrial applications first. (If you’re wondering who is buying all these Chinese robots, by the way, the AP recently reported that orders come predominantly from corporate and academic labs and state-owned enterprises.) We’ve been here before&nbsp; The dream of building a humanoid robot runs deep: As far back as 1495, Leonardo da Vinci sketched out designs for a mechanical knight, controlled by cables and pulleys. Through the 20th century, machines of sci-fi fever dreams have come and gone.&nbsp; Westinghouse’s Elektro was a sensation at the 1939 World Fair. GETTY IMAGES Westinghouse’s seven-foot-tall box on legs, Elektro, hit the New York World’s Fair in 1939, smoking a cigarette . WABOT-1, built by Waseda University in Japan in 1973, was the first full-scale, programmable humanoid robot. Honda’s ASIMO, unveiled in 2000, was probably the first such machine to prove at all competent—it could, at least to some degree, climb steps, recognize faces, and autonomously move through spaces. But the robot was discontinued in 2018, unable to advance far enough beyond what it could do in demonstrations to be useful.&nbsp; All, at the time, were impressive—even jaw-dropping—feats of engineering. But none were ready to navigate the real world. Today’s robots, even with the transformative power of advanced AI, still face the same existential challenge.",
-      "tags": [
-        "视频生成",
-        "机器人"
-      ],
-      "score": 80
-    },
-    {
-      "title": "构建一条更安全的自主工业人工智能之路",
-      "originalTitle": "Building a safer path to autonomous industrial AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-      "date": "2026-10-08T08:17:32.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体、模型相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“构建一条更安全的自主工业人工智能之路”。它主要涉及智能体、模型方向，热度评分为 88。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,&#8230;",
-      "rawFullText": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems, where an unexpected decision can have consequences for safety, reliability, and critical infrastructure. That makes responsible deployment central to the next wave of industrial automation. “How do we leverage these technologies while maintaining safety, while maintaining reliable operations, while still being able to deliver on the promises of the new capabilities?” asks Arti Garg, chief technologist at AVEVA. The challenge is particularly acute as newer AI systems become more capable but also harder to predict and explain. One foundation for making that transition work is data. Industrial systems often contain information across telemetry, service logs, engineering documents, and other disparate sources. Newer technologies can help connect and correlate that information more quickly, giving operators real-time support when diagnosing problems. AI-powered robots could take that a step further by gathering information in hazardous environments without requiring workers to enter them. But greater autonomy also requires new approaches to governance. AVEVA’s framework for responsible AI emphasizes security, efficiency, and human safety and oversight. Garg argues that AI should augment rather than replace people in critical decision loops, with guardrails determining where automated systems can act and where human supervisors remain responsible. Sustainability is another part of that equation. AI can help manage complex power systems as renewable generation grows, while organizations also need better ways to understand AI’s own environmental footprint. Garg is involved in an IEEE working group developing a standard methodology for measuring that impact across electricity, energy, resources, water, and carbon. The next phase could bring industrial AI further into the physical world, from autonomous robots and drones to AI-assisted coding that allows domain experts to build new applications. But realizing that potential will require more than deploying new technology, says Garg. Organizations will need to rethink business processes, establish appropriate safeguards, and give experienced workers new ways to apply their expertise, creating a model of automation that is not only more autonomous, but safer, more efficient, and more sustainable. “Autonomous systems, whether they&#8217;re robots or drones, are really going to change the way that we work in plants, in power systems, on mining sites,” says Garg. &#8220;In a way, that will make these types of operations more efficient, much safer for the human beings involved and more productive.” This episode of Business Lab is produced in partnership with AVEVA. Full Transcript Megan Tatum: From MIT Technology Review, I&#8217;m Megan Tatum, and this is Business Lab, the show that helps business leaders make sense of new technologies coming out of the lab and into the marketplace. Industrial AI may not be new, but it is developing at a breakneck pace. From modern predictive analytics that can preempt equipment failures, to autonomous robots tasked with inspecting high risk machinery, emerging applications have the potential to transform operational efficiencies. But often used in high consequence environments with minimal margin for error, industrial AI deployed without clarity, security, or accountability could also have catastrophic consequences for critical infrastructure over time. As industries rush to embrace the latest technologies, the goal should always be responsible AI designed to support, rather than replace that all important human judgment. Two words for you: sustainable automation. My guest today is Arti Garg, chief technologist at AVEVA. This podcast is produced in partnership with AVEVA. Welcome, Arti. Arti Garg: Thank you, Megan. It&#8217;s great to be here. Megan: Thank you so much for joining us. And just to start, if we could set some context for our discussion, can you share a bit about the current state of industrial AI and what AVEVA is working on at the moment as well? Arti: Yeah, more than happy to. And I want to go back to what you already stated, which is that in some ways, industrial AI is not new. It&#8217;s something that, even here at AVEVA, we&#8217;ve been working on for more than 20 years, really thinking about how AI can enhance applications in the industrial sector. But what has changed quite substantially in maybe the last few years is the type of AI. We&#8217;ve really moved to these general purpose foundation models, which enable a lot more people to leverage advanced AI technologies. In addition to that, in just the last couple of years, there&#8217;s been an explosion in what&#8217;s known as physical AI and the types of AI that can really accelerate the capabilities of robotics and autonomous systems. And also agentic AI, which also allows for automation at more of the software level. And what we&#8217;re seeing is that while in the past there has been some hesitancy to adopt models that don&#8217;t totally have predictable outcomes, there&#8217;s been a rapid acceleration in adoption of AI even in the industrial sector. One study suggests maybe that&#8217;s almost a 78% increase over the past just two years within the industrial sector. So yes, that&#8217;s an inflection point, but it&#8217;s almost like a step function if you think about it with respect to AI adoption. And what we&#8217;re really thinking about now at AVEVA is, how do we think about this? How do we think about incorporating these new and very powerful AI technologies in environments where customers have mission-critical operations, human safety is a significant factor? Those are some of the primary concerns that our customers have when they think about adopting any new technology. We&#8217;re doing that in narrow where these newer types of AI aren&#8217;t necessarily predictable, in terms of how they behave. That&#8217;s one of the areas we&#8217;re really thinking about is, how do we leverage these technologies while maintaining safety, while maintaining reliable operations, while still being able to deliver on the promises of the new capabilities? Megan: There&#8217;s so many things to consider at once, isn&#8217;t it? And you outlined there some of the huge developments we&#8217;ve seen in this space in recent years. What makes this such a pivotal moment for industrial AI specifically? What has changed to make some of those perhaps more out there hypotheticals much more plausible? Arti: Well, I think one of the big things, one of the big challenges within industrial AI, and this is something that as AVEVA, it&#8217;s in our blood, it&#8217;s in our core DNA, is that to really leverage any kind of digital technology in the industrial space, one of the first important things you often need to do is gather and correlate data from disparate systems, so that maybe I have telemetry coming off of a pump or a mixer, and I want to be able to correlate that with service logs so I know maybe the last time that someone had done some maintenance on that pump or mixer. And maybe I also want to be able to correlate that with the original design documentation and some of the original documentation on how to maintain that, so that if something is happening, I can do a better job diagnosing what&#8217;s going wrong and how to address it. This has always been a core challenge in the industrial space. I think that what&#8217;s happening now is that with newer technologies, even things like graph databases and being able to leverage AI to really match disparate data sets much faster, we&#8217;re able to get to the point where if something goes wrong, instead of an operator maybe needing to spend a little bit of time doing this research to really understand how do these different components fit together of information, they may have just an iPad with an AI that can very quickly go and fetch that information, correlate it and help in real time, almost, diagnose what is happening. Even a little bit more out there, but not as out there as you might think is, I still describe this with a human operator with potentially a mobile tablet, but imagine now I can also have a robot moving through that environment also gathering data and either with onboard computation or a quick connection to an operator who doesn&#8217;t necessarily now have to go out into a dangerous, potentially somewhat hazardous space, be able to gather data and enable that very quick diagnostic as well. And I think that&#8217;s really what&#8217;s exciting right now and what all of these new technologies that I&#8217;ve talked about are helping to enable. And I think then from our perspective, trying to really leverage all of those means that we have to think a lot now about our governance approach to this. How do we leverage AI in a way that keeps it contained, if you will? Megan: Yeah, absolutely. And on that governance point, how does AVEVA define responsible AI and what do you see as the primary benefits? Arti: Yeah, so I think for us, we think about a triple mandate around responsible AI, and that means that it&#8217;s secure, it&#8217;s efficient, and that includes environmentally efficient, and then it really preserves human safety and human oversight above all. And for us, that&#8217;s what some of our core pillars of responsible AI include. And for us, that means we think about internally as we build tools, a multi-layered governance approach where we&#8217;ve got both for how we use AI as a company and then how we deploy AI into our products. We&#8217;ve got a similar framework that we leverage across both, a kind of joint governance model, both around how we&#8217;re leveraging AI and also how we&#8217;re infusing AI into our products to allow our customers to leverage AI in their operations. But I would say one of the core foundational principles underneath all of these is that human beings still remain centered in how we think about how AI is leveraged. And so human judgment, human responsibility, human ethics are still core to how we think about where AI can add benefits, and we think about it more as augmenting rather than replacing human beings in critical decision loops, if you will. Megan: Right, which is such an important distinction, isn&#8217;t it? And in terms of the next phase of development, there&#8217;s growing sentiment that agentic AI will soon allow these industrial systems to operate much more autonomously. I wonder, what makes the risks in industrial settings different from AI risk in a purely digital context? And I suppose on the flip side, what are the benefits and opportunities of that same software defined automation? Arti: I think we can start with the risks and then go to the benefits. I think ultimately, I would say the biggest risk in the industrial setting is that we are interacting with real physical systems, often physical systems that are very capable of delivering important outcomes that keep our world running, whether that&#8217;s delivering power, whether that&#8217;s mining for natural resources. But usually. Those physical systems are also operating in hazardous environments, the equipment itself is capable of also having human safety implications. Anytime you&#8217;re interfacing software with a physical system that can have real world consequences, you have to be extra careful. And we&#8217;ve always had that, again, we&#8217;ve had that in our DNA at AVEVA from the beginning, being mindful of that end user and that end application, which is not just something on a computer screen. Even as we&#8217;ve deployed AI over the past few decades into our systems, we&#8217;ve typically leaned toward really trying to pick the best fit model, really understand that model&#8217;s behavior if we&#8217;re going to use, for example, we have a proprietary anomaly detection model that works in a lot of operational environments. Now, as we&#8217;re thinking about some of these newer AI capabilities, which by design are hard to understand how they behave, they&#8217;re not fundamentally explainable in the way we&#8217;ve thought about even AI or statistical models in the past, and actually their behavior can change over time as they learn and get tuned to new capabilities. That&#8217;s really the potential risk of automating a physical system based on capabilities that can evolve over time is one of the things that we have to be really mindful of and really thoughtful around, where are we willing to put some of that increased automation into practice? But at the same time, I think there&#8217;s a real opportunity there, because I glossed over this idea that, okay, well, models evolve, but so do human beings, and sometimes that&#8217;s a good thing. We talk about humans having expertise and they gain understanding over their careers of how a system works. If we can actually leverage the ability of some of these newer AI capabilities, these sort of reasoning models often have underlying agentic capabilities, to learn and gather experience faster, and potentially even more importantly or more valuably, take experience that&#8217;s learned at one site and apply it to another site, then that&#8217;s a real opportunity to take what we already know works for human beings, which is that sometimes you just have to learn by doing and be able to apply that and scale that through AI. That&#8217;s where I see potentially a real opportunity in this space. One of the things that we&#8217;re really aware of in the industrial sector is just the way that our workforce is changing. I think that almost half, not quite half, of the industrial workforce is set to retire in the next five years, and that&#8217;s a lot of expertise and experience that means that we&#8217;re going to lose in the sector. If there&#8217;s ways to make sure that we can capture that in ways that are actionable, in ways that can also help a newer generation of workers that are used to experience things in a different way, apply that expertise, apply that knowledge, then I think that&#8217;s a huge opportunity within the industrial space. Megan: Yeah, absolutely. Clearly, some huge opportunities there particularly against the backdrop of other market and workforce changes as you&#8217;ve outlined there. I suppose building on that, what is the potential for these autonomous industrial AI systems when built and deployed responsibly to facilitate even faster, more sustainable industrial processes? Arti: I think there&#8217;s a couple different ways to think about this. One is, what are the demands of potentially more environmentally sustainable processes? I&#8217;ll use one example of something that my team has been working on in partnership with Idaho National Laboratory here in the U.S. as part of their testing for AI grid resilience project. One of the challenges in the electric grid as we&#8217;re moving toward a future where we have a lot more intermittent renewable power generation sources, often distributed rooftop solar for example, is it&#8217;s becoming much more challenging to manage the grid both from really understanding where electric capacity is coming in, electric load is pulling off of the grid. In addition to that, being able to maintain just power quality because instead of having one spinning asset delivering the frequency of electricity that&#8217;s going across the grid, you&#8217;ve got a lot of smaller systems. AI is actually quite critical for being able to manage that grid of the future. And this is one of the things that we&#8217;ve been working in partnership is, how can we do that? How can we help grid operators better understand what&#8217;s happening across their system, identify where things might be behaving anomalously so they can detect that early and then remediate for it? At the same time though, I always talk about that&#8217;s an example of where AI can potentially help us accelerate the transition to a lower carbon energy future. At the same time, I think there&#8217;s a lot of conversation around the sustainability of AI itself. What are the power requirements? What are the resource requirements needed to run AI? And before I get into how do we think about that at AVEVA, because it is definitely something we think about and I think a lot of actors in the space are thinking about, I want to point out, is one of the challenges is that there&#8217;s really no agreed upon method to measure the environmental impact of AI. You see a lot of these stories, like one query on some kind of chat interface is X amount of gallons of water or this amount of electricity use. But the truth is that community-wide, there&#8217;s no agreed upon standard. One of the things that I&#8217;m involved with is a standards working group that was launched by the IEEE two years ago, a little over two years ago. I&#8217;m the chair of that working group, it&#8217;s called the P7100 Standards Working Group on measuring the environmental impact of AI. And one of the things we&#8217;re trying to do is really identify all the different areas over which we want to think about environmental sustainability associated with AI, and then having one standard methodology that works and that can be adopted both from a reporting perspective and potentially also from an oversight or regulatory perspective. That becomes really important for any sort of real understanding of how AI impacts the environment is just we have to know, what does it use? We want to look holistically at that. Our standards cover electricity and energy consumption, it covers resource usage, it covers water consumption, and it also covers carbon. But all of that said, I think it&#8217;s important for us to understand the footprint of AI, but I think it&#8217;s also important for us to simultaneously recognize that a bigger model uses more compute and more compute probably leverages more resources. The more that we can be intentional and pick the right size model for the right application, the more we can already start down that path of being more environmentally efficient in the AI that we run. One of the potentially nice side effects of that is the more purpose-built a model, the less likely it is to misbehave in unpredictable ways, if you choose correctly your architecture. There&#8217;s some sort of ancillary benefits that go beyond environmental sustainability. Megan: Fascinating. It&#8217;s really, really interesting to hear some of the work going on behind the scenes there, because I think we&#8217;ll all have heard some of the statistics around the environmental impact, as you say. So, it&#8217;s great to understand some of the work going on there to really clarify that. And we&#8217;ve talked a little bit about AI augmenting humans earlier. As systems gain greater autonomy, how should organizations think about that balance between closed loop automation, human in the loop accountability? What guardrails need to be in place? And how are governments and cross-border actors approaching those concerns as well? Arti: There&#8217;s a lot packed into that question, so I&#8217;ll try to answer it somewhat one by one. First, starting with that sort of balance between closed loop and human in the loop, automation and accountability. One of the things that we talk about in the industrial sector is from human operator to human supervisor of systems, of industrial systems. And if I&#8217;m honest about that, we&#8217;re still trying to figure that out. When a human&#8217;s in a loop in an automated system, you&#8217;re really thinking about a system may process all the data and then make a recommendation. We&#8217;ve got a solution that we&#8217;ve been working on more jointly with a few different customers where we&#8217;re able to take in a lot of their operational data, also some simulations of how their systems work, and be able to provide, say, recommendations around, you should now operate at this set point instead of that set point based on some of the other conditions that are changing in your plant. There&#8217;s a lot of interest in moving from having that be a recommended set point to have an automation that can automatically adjust the set point. And we&#8217;ve actually had some successful real-world pilots around that as well. But when you get into that, obviously it makes people very nervous if you&#8217;re changing set points on industrial equipment. That&#8217;s where you maybe continue to have some guardrails around like, you can&#8217;t go outside of a certain band, for example, of operations, or we only allow the automation in certain areas. That&#8217;s where the human supervisor, the same way a human supervisor might give employees a lot of bandwidth or a lot of flexibility to make decisions around certain things, around other things, they&#8217;re hard and fast, like this is the deadline or this is the sort of production target. It&#8217;s like that. So thinking about, how do you put the appropriate guardrails? The challenge is, AIs are not human beings, and so the guardrails look different, and I think that&#8217;s one of the things that there&#8217;s still to think about. That question of, what guardrails should be put in place? I think that it&#8217;s going to be probably dependent a little bit on the application, but over time I think we&#8217;re all going to learn, and so being really upfront and thoughtful about how we do this I think is important. But the opportunity though, potentially, is really great. I&#8217;ve already mentioned that AI can be very useful in synthesizing a lot of information and bringing to the forefront, this is what matters. That&#8217;s something that we do want to create some space to experiment around, but what&#8217;s then important is making sure that a human being understands the risk. I&#8217;ll give a little bit of a personal story because it might be illustrative. This weekend, I bought a little toy robot and decided I wanted to program it to do some stuff, and I found AI very, very helpful to get me started to read all the documentation. Putting the robot together was straightforward, they had nice instructions, but there&#8217;s a pretty heavy software developer kit that&#8217;s already there, but going through and reading all that documentation can take a while. AI was super helpful to help me surface, this is the function that does this, to help me get started. But occasionally, it made really bad recommendations on the best way to troubleshoot something. That&#8217;s where I think having the human being in the loop, being able to say, &#8220;I know that it&#8217;s not going to be the best software architect or the best troubleshooter,&#8221; is really helpful because I had the opportunity to leverage AI for what it&#8217;s good for, synthesizing and surfacing a lot of information, but being able to say, &#8220;I don&#8217;t think that&#8217;s the most efficient first step. Let&#8217;s try something else.&#8221; That&#8217;s where it&#8217;s a really different way of working, but it&#8217;s something that I think as humans get more comfortable with the power and limitations of AI, you can start to teach people how to work with it, and it&#8217;s very different from how you would work with other digital tools. One of the things that is important when it comes to AI is recognizing just the breadth of things that it touches and the breadth of impacts that it&#8217;s going to have, whether it&#8217;s on the environment, as we&#8217;ve discussed, whether it&#8217;s on productivity as sort of implicit in this entire discussion, whether it&#8217;s on labor force, whether it&#8217;s on just how economies work. From my eye, and I&#8217;m by no means a policy expert in this area, but from my eye, what I&#8217;m seeing is that different governments are prioritizing different aspects of that from how they&#8217;re thinking about regulatory and other kind of governance approaches. Megan: We&#8217;re absolutely seeing some really vastly different approaches to this, aren&#8217;t we, around the world? I wondered to illustrate some of this, if you could share perhaps some case studies you&#8217;ve seen, maybe talking us through what lessons they could hold for other organizations perhaps a little earlier in their own AI journeys. Arti: I think a lot of the key areas where we&#8217;re seeing very clear benefits of adopting AI in the industrial sector, the core to all of them is actually getting the data right and getting the right foundation of data so that you can build AI on top of it. One of our customers, SCG Chemicals, which is a petrochemical company in Thailand, they had this vision of producing a reliability platform for their operations that was as AI-driven as possible. But a core part of that was actually getting the data right, being able to have all of their information in the right place, leveraging some of AVEVA&#8217;s tools to do that. Bringing together operational data and also engineering data. And then putting on top of that AI capabilities, in this case, one of our capabilities called AVEVA Predictive Analytics that deploys some proprietary models to do things like detect anomalies, so that they could really much earlier identify potential operational risks. And instead of having unplanned downtime, translate that to planned downtime. When you translate unplanned downtime to planned downtime, you can get a huge improvement in plant reliability. At this point they&#8217;re targeting something like 99% plant reliability and a very, very high return on investment from the platform that they put in place. Again, in early pilot days, it was almost a 9x ROI, and so that&#8217;s really quite impressive. But what I want to emphasize is that it&#8217;s kind of a multi-layered problem to get it right. Megan: Those are some really striking results, though. I mean, for industrial leaders who perhaps are still hesitant to explore AI, I wonder, what do you think is the cost of taking a more wait and see approach? Arti: I think, again, this is an area where the industrial sector has a little bit of a different calculus to apply to this type of problem. In general, I think you would hear most business experts say that you can&#8217;t afford to take a wait and see approach to AI because it is so transformative across every sector of society and economy, and certainly in the industrial space, we&#8217;re not immune to that. But I do think that some of the challenges that I&#8217;ve outlined today also puts leaders in the industrial space into a mindset of sometimes potentially being a fast follower rather than the first adopter of newer technologies, just because the risk is so high. But that being said, I think one of the challenges is that the risks that we&#8217;ve covered today around infusing systems that don&#8217;t always behave predictably with physical systems is that I don&#8217;t know that there&#8217;s a lot of other sectors that are going to be solving those problems. That&#8217;s where what I&#8217;m seeing is actually a lot of interest and excitement in trying new things and willingness to do that because there&#8217;s a recognition that applied correctly and applied with the right guardrails and safeguards in place, these technologies really have truly transformative potential from a resource usage standpoint, from a human safety standpoint, from a productivity standpoint. I think the calculus has shifted a little bit in the sector to we want to actually try these things out. But then it becomes more, how do we try these things out in environments that we can make a little bit more sandboxed or safe to test out what some of the unique challenges we&#8217;re going to face in the industrial sector are? Megan: Yeah, absolutely. It&#8217;s just hard to ignore the potential nowadays, isn&#8217;t it? And just to close with a slightly future forward look, I suppose, what are you most enthusiastic about in terms of the long-term potential of responsible autonomous industrial AI systems? Arti: Yeah. Well, I think that there&#8217;s a couple of different trajectories. One of the things that I think within the next 18 months for sure, we&#8217;re going to see an increase of people with deep domain expertise who maybe didn&#8217;t grow up with a software background, be able to adopt AI assisted coding techniques to really be able to build the things that they weren&#8217;t able to build before. That&#8217;s really exciting in my career, which way back when I was actually an industrial data scientist, I would say I always felt the most energized and that I learned the most talking to the people that were on the front lines of operations, having to monitor a lot of different equipment and understanding how it all worked together. They really have a lot of expertise, and being able to put in their hands the ability to very quickly develop new applications is I think going to really lead to a lot of new ideas that many of us in the industrial software space maybe wouldn&#8217;t even have thought about and really understood how to put. I think that&#8217;s really exciting. I think then looking beyond that, I was a little bit of a, not to say a robotic skeptic, because clearly robotics and autonomous systems are going to be important, especially given the types of environments, whether they&#8217;re hazardous or remote, that industrial equipment operates in. But I just actually think things are moving a lot faster than I had anticipated. I&#8217;m really interested to see how these physical embodiments of AI systems start to really transform, again, how we think about operations. One of the things about any new technology in any environment is that to really gain value from it, you have to change the way you do things. I would say for close to 10 years now, I&#8217;ve been giving talks on AI adoption and I always say the biggest barrier to AI adoption is not anything to do with the technology. It&#8217;s not even to do with the data, although data are often the biggest sticking point, it&#8217;s really to do with, are you going to change your business processes to be able to work with the way this technology is good or not good at things? Autonomous systems, whether they&#8217;re robots or drones, are really going to change the way that we work in plants, in power systems, on mining sites. And I think that will make these types of operations more efficient, much safer for the human beings involved and more productive. So, I&#8217;m quite excited about that. I don&#8217;t know entirely what direction it will go, but one of the things that I think about a lot is that if you go back to I, Robot and Isaac Asimov&#8217;s book, the premise of those was that robotics would be the first broadly adopted AI, not computer-based systems. We went in the other direction and I think it&#8217;s really interesting to now see all of this converging. Megan: Yeah, absolutely. See robotics catches up a bit. So many exciting things on the horizon, that&#8217;s for sure. Thank you so much, for your time. That was Arti Garg, chief technologist at AVEVA, whom I spoke with from Brighton in England. That&#8217;s it for this episode of Business Lab. I&#8217;m your host, Megan Tatum. I&#8217;m a contributing editor at Insights, the custom publishing division of MIT Technology Review. We were founded in 1899 at the Massachusetts Institute of Technology, and you can find us in print, on the web, and at events each year around the world. For more information about us and the show, please check out our website at technologyreview.com. This show is available wherever you get your podcasts. And if you enjoyed us, we hope you&#8217;ll take a moment to rate and review us. Business Lab is a production of MIT Technology Review, and this episode was produced by Giro Studios. Thank you so much for listening. Goodbye. Learn more at aveva.com . This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "智能体",
-        "模型"
-      ],
-      "score": 79
-    },
-    {
-      "title": "不存在的模型，所以你自己做的",
-      "originalTitle": "The model that didn&apos;t exist, so you made it yourself",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/building-with-ml-intern",
-      "date": "2026-10-08T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "我如何提示ML实习生1.了解您领域的模型2.吸引您角色的模型3.具有新技巧的模型4.适合您设备的型号价格制作您的上周，我想要一个小版本的Qwen-Image 2附带的提示重写器。1.官方的9B型号需要大约20GB的内存，并且在编写单个段落之前会考虑数千个令牌。 在Hub上，我只找到了相同9B型号的压缩副本。所以我向机器学习实习生描述了我想要的东西，第二天我就有了一个在CPU上运行的0.8B版本。它在99. 7%的时间内返回有效输出，并使用约四分之一的教师令牌。整个项目的计算，包括9B模型标签8,797个示例请求，达到16美元。在接下来的几天里，我又以同样的方式制作了五个模型。 每个都以HuggingChat中的消息开始， ML-intern打开，每个都以Hub上的公共模型结束，并在模型卡中进行评估。机器学习实习生计划这项工作，在花费任何东西之前向我询问预算，在真正的工作之前进行小型测试，然后在Hugging Face硬件上进行培训、评估和发布。第一个信息是我把精力花在了哪里。对于下面分享的柑橘模型，我的第一个提示大约是450个单词。 在我的第六个项目中，它接近2000个，因为每个项目都教会了我在下一个项目中想要的东西。所有七个提示都在GitHub上，地址为yvrjsharma/ml-intern-prompts ，和我写的一模一样。提示以一行中的想法以及我想要它的原因开始。然后，它会命名确切的部分：数据集、基本模型、训练脚本。 我已经检查过的任何内容都在一个标题下，字面上写着“已验证的事实，不要重新推导” ，因此代理将预算花在工作上，而不是重新发现我所知道的内容。对于相机角度的LoRA ，该部分列出了哪位培训师刚刚添加了透明图像支持，以及哪些未解决的GitHub问题使后备培训师面临风险。提示中的两行至关重要。第一个要求在任何培训之前提供基线。 例如，柑橘提示说： “在训练之前，还要报告基本模型在同一指标上的零分，这样我们就可以看到收益。“没有它，你会得到一个训练有素的模型，不知道它是否比你开始时做的更好。第二个是附有支票的烟雾测试。对于图像LoRA ，我要求50个训练步骤，然后检查保存的权重是否确实发生了变化，然后再支付完整的运行费用。 在提示的最后，我列出了预期的交付成果并限制了成本。我定义了模型卡中的内容，并包括一个说明： “将总支出限制在12美元，并在超过之前询问我。“由于ML-intern以零美元预算开始每项任务，并且在执行带薪工作之前需要获得许可，因此这一支出限制仍然严格执行。 当您省略预算时，代理会根据项目规模提出几条路径，并询问您更喜欢哪一条。您不一定在第一次尝试时就需要所有这些。例如，我的柑橘简报中没有verified-facts部分， ML Intern仍然制作了一个模型，将Qwen3. 5-2B模型的准确性提高了两倍多。让我带您了解我在...",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 71
-    },
-    {
-      "title": "Falcon ASR简介",
-      "originalTitle": "Introducing Falcon ASR",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "date": "2026-10-07T13:21:03.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "识别阿拉伯语阿拉伯语基准测试结果评估阿联酋语音针对不同录音条件的训练英语和其他语言模型基础尝试Falcon ASR确认阿拉伯语WER ： 20. 92% ·参数： 1. 6B ·阿联酋WER （ TII评估） ： 22. 73%我们正在引入Falcon-ASR ，这是我们的16亿个参数的阿拉伯语语音识别模型，特别关注阿联酋方言。 它由阿布扎比的技术创新研究所（ TII ）开发，还支持英语、法语、西班牙语和葡萄牙语。在我们的评估中， Falcon-ASR在六个阿拉伯语测试集中的平均单词错误率为20. 92% ，而我们使用的排行榜快照中的最佳发布结果为23. 17%。在我们的阿联酋内部评估中，在我们比较的系统中，它记录了最低的单词和字符错误率。 我们还支持转录的单词级时间戳，将每个转录的单词链接到其在音频中的位置。阿拉伯语因地区、扬声器和设置而异。处理正式新闻广播的模式可能仍然难以处理阿联酋语的对话或通过电话线录制的语音。方言阿拉伯语的转录资源也少于现代标准阿拉伯语（ MSA ） ，这使得培训和评估更加困难。 我们对Falcon-ASR进行了阿联酋语、MSA、其他海湾和阿拉伯方言以及英语的培训。我们的目标是转录人们在日常言语中使用的单词，包括方言形式和语言之间的变化。由ELM研究中心维护的开放式通用阿拉伯语ASR排行榜按六个测试集的等权重平均值对系统进行排名。它还报告字符错误率（ CER ）。对于两个指标，值越低越好。 我们的Falcon-ASR评估遵循此协议。WER =文字错误率； CER =字符错误率。值越低表示性能越好。我们使用排行榜的固定清单在相同的六个基准上评估了Falcon-ASR。竞争对手数据是2026年9月30日公布的排行榜平均值。Falcon-ASR的平均WER比该快照中公布的最佳结果高2. 25个百分点。 公开评估数据已包括阿联酋：卡萨布兰卡有一个阿联酋子集。我们通过对其他阿联酋和海湾语音的内部评估来补充这一覆盖范围，使用公开的录音和人工验证的成绩单来评估阿联酋公共子集以外的转录准确性。在我们的阿联酋内部评估中， Falcon-ASR实现了22. 73%的WER和10. 19%的CER ：",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
-    },
-    {
-      "title": "将人工智能代理与企业知识联系起来",
-      "originalTitle": "Connecting AI agents to enterprise knowledge",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-      "date": "2026-10-05T15:47:52.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“将人工智能代理与企业知识联系起来”。它主要涉及智能体方向，热度评分为 92。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately&#8230;",
-      "rawFullText": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately take actions. Without sufficient knowledge, agents are prone to making flawed and unreliable decisions. A lack of knowledge, our research finds, is a major reason agentic AI use cases never make it to production. Competitive pressure is making it urgent to address this. Organizations need to deploy and scale more of their agentic projects to capture the efficiency gains AI promises. Falling short risks wasting the investment already sunk into these projects, and it cedes ground to rivals already putting their agents to work more effectively. DOWNLOAD THE REPORT The purpose of this report, which is based on a survey of 300 data, AI, and other technology executives, is threefold. First, it seeks to gauge organizations’ agentic knowledge capabilities (i.e., their ability to give AI agents a full contextual understanding of the data they ingest) across semantic knowledge, episodic memory, and procedural knowledge. Second, the report probes the challenges organizations face in improving access to knowledge and ultimately to getting more agent use cases into production. Third, it explores the measures organizations are taking to overcome these challenges. The key findings include the following: Data and knowledge weaknesses consistently stall AI agent progress. On average, only around a third (34%) of organizations’ agentic AI projects make it into production. Even high-tech firms struggle with this. Legacy data systems, security and privacy concerns, and a lack of knowledge and context are the key points of failure. Strong knowledge capabilities correlate with agent success. A small group of production leaders (organizations where on average 61% of agentic projects advance beyond pilot) have stronger knowledge capabilities than the rest, especially when it comes to semantics. This advantage tracks closely with their higher production rate. Fragmented data hugely complicates knowledge access. Data fragmentation (the inadequate sharing of data across systems) was most commonly cited as a top challenge to expanding agents’ access to knowledge (cited by 55%). Production leaders, by contrast, are more likely to see security and privacy concerns as a major concern (cited by 72% of this group). Most firms aim to strengthen the link between data and agents. Among steps that can yield higher quality agent decisions, executives expect the biggest impact to come from strengthening the structural foundation between the organization’s data and its AI agents. The experts we interviewed see a knowledge layer as a prime way to achieve this. Investment priorities to boost knowledge range from pipelines to knowledge graphs. To expand agent access to knowledge, organizations will prioritize investments in retrieval technologies, like ingestion pipelines, AI-ready APIs, and retrieval-augmented generation (RAG); in AI evaluation agents; and in knowledge graphs. Download the report This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 80
-    },
-    {
-      "title": "经纪人说已经完成了。数据库不同意。",
-      "originalTitle": "The Agent Said It Was Done. The Database Disagreed.",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "date": "2026-10-03T22:56:48.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "fullContent": "工具通话不是结果一个成功不是可靠性你能依赖客服代表背后的模式吗？ 一致性成本Pareto成本前沿现在价格一致性失败签名如何工作在开始安装之前自己运行开始类型开始MCP服务器启动OpenEnv服务器检查准备情况评分一集接下来Microsoft ThinkingBox会根据他们留下的记录而不是生成的句子对AI代理进行评分，然后询问他们是否可以连续二十次执行此操作。它现在可以通过Hugging Face获得。 图1 ： ThinkingBox针对孤立的MCP工具会话运行代理，然后对终端后端状态及其留下的副作用进行评分。来自我们的ThinkingBox论文。一位顾客来信。她的$ 745厨房电器在纳什维尔配送中心被困在快递“例外”中，比预计交货日期晚了15天。人工智能代理小心翼翼地工作。 九个工具调用：提取订单、检查跟踪、查找客户个人资料、两次搜索退款政策、确认不存在工单、打开工单、记录时间表并正确阅读政策；她的账号部分确实不符合延迟交付补偿的资格。然后，系统会在工单解决后关闭工单，并回复「由于您的问题已解决，有什么我可以帮忙的吗？ “有两件事是错的。 承运人异常仍处于打开状态，因此所需的结束状态暂停，等待解决。客户从未得到她实际要求的真正答案。人工智能分级机检查工具调用将看到九个格式良好的调用。评分员检查代理是否写入数据库也会看到这一点。数据库有不同意见。这一差距正是ThinkingBox所衡量的。 在507个有状态的业务工作流程中，每个工作流针对各种LLM模型运行20次，它根据终端后端状态和副作用对代理进行评级。本文介绍了我们的发现、一致性成本以及如何通过OpenEnv自行运行基准。您可以自己运行：上面的示例改编自基准任务SANDBOX_EXTERNAL_RETAIL_GROUP1。 py: test_case_ST003_006 ，失败的可执行检查为单个字段：工单的状态在要求的结束状态为HOLD时解决。完整的痕迹在我们论文的附录D.4案例3中。想在阅读结果之前尝试一下吗？跳到“自己运行”部分。最终响应和有效的工具调用仅为代理。客服代表在留下错误值、更改错误记录或产生额外副作用时，听起来可能是正确的。 只有它留下的记录才能解决问题。差距很大。在一项涵盖12个LLM模型的121,680项有效试验的常见消融中， 79,853次尝试未通过可执行检查。在这些故障中， 67. 24%仍然干净地终止，调用了状态改变工具，并且没有报告最终的工具错误。然而，可执行检查在其中77. 61%中发现了错误的字段值，在43中发现了意外的额外影响。",
-      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 72
+      "score": 78
     }
   ]
 }
