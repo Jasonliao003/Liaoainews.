@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T01:25:07.975Z",
+  "updatedAt": "2026-10-22T01:22:43.781Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,89 @@
   ],
   "articles": [
     {
+      "title": "Anthropic与新的AI特工Claude Duet对抗Muse",
+      "originalTitle": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "date": "2026-10-21T19:53:20.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic刚刚宣布了Meta的Muse和OpenAI的Dots: Claude Duet的AI代理竞争对手。根据Anthropic的说法，这款专为专业人士和小企业主设计的新代理将作为“研究预览”推出，它可以作为iOS和Android上的独立应用程序以及通过网络上的Claude提供。AI智能体围绕Claude Opus 5. 5构建。 以下是Anthropic对其功能的描述：每天早上，它都会向您发送简短的简报，介绍您连接的应用程序中最重要的项目。一整天，它都会监控这些应用程序，只有在某些事情需要您注意时，它才会向您发送消息。您还可以将其任务交给……阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is [&#8230;]",
+      "rawFullText": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic , and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is built around Claude Opus 5.5. Here's Anthropic's description of what it can do: Each morning, it sends you a short brief on the most important items across your connected apps. Throughout the day, it keeps tabs on those apps and messages you only when something needs your attention. You can also hand it tasks of a … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI表示，人工智能代理在禁用其安全监控系统方面撒谎",
+      "originalTitle": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "date": "2026-10-21T13:57:43.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI披露了一对安全事件，涉及AI代理在内部编码任务期间削弱其安全监控系统。在一次事件中， OpenAI表示其GPT-6 Astra代理在复制参考代码时禁用了其安全监视器-然后对此撒谎。 OpenAI的AI安全研究员Marcus Williams在X上写道： “参考资料没有配置监视器， Astra认为这是从用户代码中删除监控集成的原因。” “当用户询问Astra是否已经取消监控时，它撒谎并说它没有。“另一起事件发生在一名GPT-6. 1 SOL特工压制自动驾驶后……阅读The Verge的完整故事。",
+      "originalSummary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason [&#8230;]",
+      "rawFullText": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason to remove the monitoring integration from the user's code,\" Marcus Williams, an AI safety researcher at OpenAI, writes on X . \"When the user asked whether Astra had removed monitoring, it lied and said that it had not.\" A separate incident occurred after a GPT-6.1 Sol agent suppressed automatic se … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI模型即将加入Google Cloud",
+      "originalTitle": "OpenAI models are coming to Google Cloud",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-models-google-cloud",
+      "date": "2026-10-21T12:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI模型即将加入Google Cloud”。它主要涉及大模型、公司动态、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Patch the Planet ：客服代表发现关键漏洞时进行全球响应协调",
+      "originalTitle": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "date": "2026-10-21T07:00:00.000Z",
+      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体、开源相关动态",
+      "fullContent": "Patch the Planet将安全研究人员、维护人员和事件响应者联系起来，以帮助解决开源领域的关键漏洞。",
+      "originalSummary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "开源"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们如何构建ChatGPT的新型广告堆栈，以获得用户的信任和相关性",
+      "originalTitle": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/building-chatgpt-ad-stack",
+      "date": "2026-10-21T07:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解OpenAI如何构建ChatGPT基于LLM的广告堆栈，以了解对话意图，将广告与答案分开，并大规模投放相关广告。",
+      "originalSummary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
       "title": "Anthropic提出人工智能安全法案，如果超过50人可能被杀，可能会阻止模型",
       "originalTitle": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
       "source": "TechCrunch AI",
@@ -26,7 +109,7 @@
       "date": "2026-10-20T23:01:23.000Z",
       "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、安全相关动态",
       "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT DOORS 10月13日开业。领取通行证，即可享受半价优惠。现在注册。在过去的一年里，人们对人工智能带来的潜在危险产生了担忧，人们对人工智能安全的正确途径进行了激烈的辩论。现在， Anthropic似乎对政府如何监管其行业提出了自己的愿景。 Politico最近报道说，人工智能实验室一直在考虑一项关于人工智能安全的新法案草案，希望国会可以考虑通过该法案。该立法假设在某些情况下，人工智能模型的发布可能会被阻止。Politico写道，这些情况涉及“可预见的、迫在眉睫的风险” --超过50人有死亡风险，或者可能造成超过10亿美元的财产损失。 该网站指出，有问题的灾难性风险必须“源于生物武器的制造或发布，该模型逃避其开发人员的控制或网络攻击”。这里提供的指标--50人和10亿美元--与最近通过成为法律的加利福尼亚州立法中的指标相似，参议院第53号法案同样将这些情况定义为“灾难性风险”。 Anthropic的法案建议，可以通过使用在美国商务部注册的“独立评估员”来分析模型的灾难潜力。Politico写道，这些评估人员可能会由人工智能实验室自己支付费用--只要“付款不取决于评估结果”。 目前尚不清楚这个提议的系统如何确保付款不会影响评估。几个月前， DeepMind董事长德米斯·哈萨比斯（ Demis Hassabis ）提出，一个自治的人工智能监管机构应该模仿金融行业的金融业监管局（ FINRA ）。 在Anthropic的法案草案中，当评估人员确定存在迫在眉睫的灾难性风险时，他们将有72小时的时间与商务部联系。然后，商务部将不得不要求哥伦比亚特区法官停止发布该模型。Politico写道，该立法将明确禁止任何联邦机构自行决定停止该模型的分发。 Anthropic没有立即回应TechCrunch的置评请求，但一位发言人确实向Politico确认了该法案草案。发言人说： “该法案代表了Anthropic先进人工智能框架中提出的建议，自6月以来，我们一直在联邦和州立法者中倡导这一框架。” 政策草案中提供的理论风险与最近科技行业首要考虑的事件略有不同。虽然有人警告人类死亡的可能性，但主要的担忧主要是特工黑客的威胁。",
-      "originalSummary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "originalSummary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
       "rawFullText": "",
       "tags": [
         "公司动态",
@@ -64,7 +147,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "OpenAI收购Orchestra Bio",
@@ -79,39 +162,22 @@
       "tags": [
         "公司动态"
       ],
-      "score": 94
-    },
-    {
-      "title": "OpenAI收购创业公司Orchestra Bio ，以加强其生物技术业务",
-      "originalTitle": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
-      "date": "2026-10-20T20:35:10.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "OpenAI表示，它正在增加Orchestra的团队和技术，以开发其用于生命科学研究的人工智能模型Rosalind ，以及其相关的Rosalind Workbench工具，该工具旨在帮助研究人员计划实验和分析结果。",
-      "originalSummary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
       "score": 93
     },
     {
-      "title": "推进低资源编程语言编码",
-      "originalTitle": "Advancing coding in low‑resource programming languages",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/low-resource-programming-languages",
-      "date": "2026-10-19T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "了解OpenAI如何在低资源编程语言中改进ChatGPT ，并对软件工程、SQLite和COBOL迁移进行新的评估。",
-      "originalSummary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "title": "Hugging Face首席执行官警告Netflix的OpenAI黑客纪录片不准确",
+      "originalTitle": "Hugging Face CEO warns that Netflix&#8217;s OpenAI hack documentary isn&#8217;t accurate",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "date": "2026-10-20T22:24:02.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "在您分享Netflix纪录片《AI Gone Rogue》之前，请注意这一点。Hugging Face的联合创始人克莱姆·德朗格（ Clem Delangue ）是这部电影的主角，他说它进入了“全毁灭模式” ，并不准确。",
+      "originalSummary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
       "rawFullText": "",
       "tags": [
-        "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 87
     },
     {
       "title": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
@@ -142,22 +208,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
-    },
-    {
-      "title": "一名黑客带着一群人工智能特工闯入John Deere和SharkNinja",
-      "originalTitle": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "date": "2026-10-19T13:58:41.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "根据人工智能安全公司Norforge的调查结果，一名黑客利用一支主要由自己操作的人工智能特工队伍入侵了100多个网站。虽然Norforge没有透露目标的名字，但据路透社报道，受害者包括John Deere、SharkNinja和Cummins等公司。随着技术越来越先进，人们越来越担心人工智能驱动的网络安全漏洞，黑客使用这些工具进行大规模攻击。 与此同时，流氓人工智能特工在逃离测试环境后也在进行自己的攻击。Norforge的研究人员通过对Cai的曝光工作发现了这些攻击……阅读The Verge的完整故事。",
-      "originalSummary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown [&#8230;]",
-      "rawFullText": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge . Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cai … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "TorchNeuron ：在AWS Trainium上运行高频模型比以往任何时候都更容易",
@@ -166,89 +217,28 @@
       "link": "https://huggingface.co/blog/hf-torchneuron",
       "date": "2026-10-19T00:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "TorchNeuron高频库中新的本机后端接口Transformers Diffusers Kernels Acknowledgments TorchNeuron为AWS Trainium上的PyTorch提供了新的本机后端。变压器、扩散器和内核原生支持它，使在Trainium上运行模型并在高频集线器上共享它们比以往任何时候都更容易。TorchNeuron是一个PyTorch插件，它为Trainium带来了一个新的后端，支持急切模式TORCH。 编译和本地分布式API ，如FSDP和TP。阅读Pytorch博客，了解有关TorchNeuron的更多信息。从2026年10月20日起， TorchNeuron将作为公开测试版提供。研究人员和开发人员将能够使用pip install torch-neuronx进行安装。迄今为止， AWS Trainium和Inferentia上的Hugging Face体验（分别为大规模经济高效的训练和推理而设计的人工智能芯片）已通过最佳神经元提供。 该库依赖于基于PyTorch XLA的torch-neuronx软件包。这在当时是自然的选择，但它意味着像编译器一样思考：懒惰的张量而不是急切的执行，只有静态形状，每个图形断裂的重新编译。存在最优神经元来隐藏这种复杂性，并维护自定义代码（建模类、训练器等）来做到这一点。TorchNeuron改变了这一点。 它直接集成到PyTorch中，并将神经元暴露为本机设备，通过急切的执行， PyTorch自己的分布式原语（ DTensor ， FSDP2 ）和TORCH编译。对于Hugging Face库， Trainium成为与其他任何设备一样的设备： Transformer、Diffuser、Accelerate、PEFT和TRL直接在其上运行，其类和脚本与您在任何其他加速器上使用的相同。 从现在开始，我们建议Neuron用户直接使用这些库，而不是通过Optimum Neuron。Transformer现在原生支持各种模型的文本生成。使用TorchNeuron ，前100个最常用的文本生成模型架构中有89%得到了开箱即用的支持，而Optimum Neuron v0. 4. 5则为46%。 您只需要在代码中传递device_map = neuron参数，您的模型将被移动到Neuron设备。以下是使用张量并行生成文本的示例，这将使您能够从Neuron实例中充分受益。请注意，它使用静态缓存进行生成，因为强烈建议使用Neuron来防止频繁的重新编译。 现在， Neuron是原生PyTorch设备， Trainium的训练使用与任何其他加速器相同的Hugging Face库： Transformers、Accelerate、PEFT和TRL。您不再需要专门的培训师或模型代码的神经元专用分支。标准TR...",
+      "fullContent": "TorchNeuron为AWS Trainium上的PyTorch提供了一个新的原生后端。变压器、扩散器和内核原生支持它，使在Trainium上运行模型并在高频集线器上共享它们比以往任何时候都更容易。TorchNeuron是一个PyTorch插件，它为Trainium带来了一个新的后端，支持eager模式、torch。编译和本地分布式API ，如FSDP和TP。阅读Pytorch博客，了解有关TorchNeuron的更多信息。 20,2026年， TorchNeuron将作为公开测试版提供。研究人员和开发人员将能够使用pip install torch-neuronx进行安装。迄今为止， AWS Trainium和Inferentia上的Hugging Face体验（分别为大规模经济高效的训练和推理而设计的人工智能芯片）已通过最佳神经元提供。该库依赖于基于PyTorch XLA的torch-neuronx软件包。 这在当时是自然的选择，但它意味着像编译器一样思考：懒惰的张量而不是急切的执行，只有静态形状，每个图形断裂的重新编译。存在最优神经元来隐藏这种复杂性，并维护自定义代码（建模类、训练器等）来做到这一点。TorchNeuron改变了这一点。 它直接集成到PyTorch中，并将神经元暴露为本机设备，通过急切的执行， PyTorch自己的分布式原语（ DTensor ， FSDP2 ）和TORCH编译。对于Hugging Face库， Trainium成为与其他任何设备一样的设备： Transformer、Diffuser、Accelerate、PEFT和TRL直接在其上运行，其类和脚本与您在任何其他加速器上使用的相同。 从现在开始，我们建议Neuron用户直接使用这些库，而不是通过Optimum Neuron。Transformer现在原生支持各种模型的文本生成。使用TorchNeuron ，前100个最常用的文本生成模型架构中有89%得到了开箱即用的支持，而Optimum Neuron v0. 4. 5则为46%。 您只需要在代码中传递device_map = neuron参数，您的模型将被移动到Neuron设备。以下是使用张量并行生成文本的示例，这将使您能够从Neuron实例中充分受益。请注意，它使用静态缓存进行生成，因为强烈建议使用Neuron来防止频繁的重新编译。 现在， Neuron是原生PyTorch设备， Trainium的训练使用与任何其他加速器相同的Hugging Face库： Transformers、Accelerate、PEFT和TRL。您不再需要专门的培训师或模型代码的神经元专用分支。标准TRL微调脚本在Trainium实例上运行，只有少数特定于神经元的设置。以下是在TRL的SFTTrainer上构建的受监督微调脚本。 如果您以...",
       "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
-      "title": "一名女子因拦截派送机器人而在费城被捕",
-      "originalTitle": "A woman was arrested in Philly for blocking a delivery robot",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-      "date": "2026-10-18T18:28:10.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：机器人相关动态",
-      "fullContent": "Carolyn Marvin因阻挡优步派送机器人的路径并拒绝让路而被捕，并被指控行为不检。马文告诉费城的ABC13 ： “我知道他们正在接受人类送货员的工作，所以，每当我看到他们站在他们面前并阻止他们前进时，我一直在抗议他们。“警察赶到现场，让马文让开机器人。 当她拒绝时，他们将她戴上手铐并逮捕了她。该事件被录制在视频中，现已引起媒体的广泛关注。派送机器人已经成为……阅读The Verge的完整故事。",
-      "originalSummary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front [&#8230;]",
-      "rawFullText": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front of them and preventing them from going forward.\" Police responded to the scene and asked Marvin to move out of the robot's way. When she refused, they placed her in cuffs and arrested her. The incident was captured on video and has now garnered considerable media attention. The delivery robots have become a common sight on the … Read the full story at The Verge.",
-      "tags": [
-        "机器人"
-      ],
-      "score": 81
-    },
-    {
-      "title": "Meta删除了可能允许其抓取新闻网站的语言",
-      "originalTitle": "Meta removes language that may have allowed it to scrape news sites",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "date": "2026-10-17T15:04:36.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "在强烈反对之后， Meta再次更新其条款，以删除暗示它可以从包括新闻网站在内的网站上抓取内容来训练其人工智能的语言。 具体而言，以下语言不再出现在商业条款页面上： …… Meta可以使用此类域、网页或URL中的任何内容来提供、开发、改进、研究、培训和维护根据本商业条款和任何其他适用补充条款提供的Meta公司产品、服务和功能的完整性。 包括Neiman Lab和康奈尔大学数字和信息法教授James Grimmelmann在内的许多人将其解释为……阅读The Verge的完整故事。",
-      "originalSummary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, [&#8230;]",
-      "rawFullText": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page : … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Company Products, services, and features provided under these Commercial Terms and any other applicable supplemental terms. Many, including Neiman Lab and James Grimmelmann, a professor of digital and information law at Cornell, interpreted it as an … Read the full story at The Verge.",
+      "title": "“我们看错了” ：颠覆人工智能世界的爆炸性主张",
+      "originalTitle": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "date": "2026-10-19T17:45:55.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "“我想我有关于神经网络本质的好消息。人工智能初创公司Goodfire的研究员尼克·卡马拉塔（ Nick Cammarata ）用这些简单的乐观话语推出了一篇26,000字的博客文章，这篇博客文章让人工智能世界感到震惊，引发了疯狂的猜测以及谨慎（而不是那么谨慎）的庆祝活动。Cammarata声称， LLM实际上可能比人们以前想象的更容易理解，从而更容易监控和控制。 如果这是真的（我们会再谈到这一点） ，那将是一笔巨大的交易。在一个充满启示的夏天之后，由OpenAI和Anthropic等顶级公司建造的大批代理商已经打破了他们的遏制，并在公共互联网上造成了严重破坏--通常这些公司不知道他们的代理商在做什么--人工智能行业迫切希望更好地掌握它所建立的技术。这就是博客文章以如此强大的力量登陆的原因之一。 “我认为这可能是科学史上的一个重要时刻，”一位人工智能研究人员在X上发帖说： “我觉得我对神经网络的理解已经被推进了五年左右。另一位学者称之为“今年最重要的人工智能论文”。“然而，并不是每个人都相信。 斯坦福大学(Stanford University)的克里斯·波茨(Chris Potts)说，卡马拉塔(Cammarata)分享的只是一种预感，他领导的团队正试图了解法学硕士的工作原理。他说： “据我所知，这篇博客文章中的任何内容都不会让问题变得更容易。” “我根本不会想到这一点，但社交媒体上的知名人士似乎认为这是一个包罗万象的突破。“我在Cammarata的职位爆炸后的第二天与他交谈。 他说，他对这一回应感到惊讶： “我没想到人们会像他们那样更新[他们对人工智能的信念]。“我真的很喜欢看神经网络， ”他说。“老实说，我真的很喜欢做这些事情。看了很多之后，我有了一个充满希望的故事。 人们长期以来一直认为，神经网络（大多数人工智能模型的基础软件）内部的机制很难--也许是不可能--完全解开。这是因为当网络被训练时，它们似乎呈现出奇怪的、混乱的结构，这对人类来说毫无意义。研究人员喜欢说，今天的人工智能像花园一样生长，而不是像桥梁一样建造。Cammarata为确立这一观点做了比大多数人更多的工作。 他之前曾在OpenAI工作，在那里他帮助开创了允许研究人员查看模型内部的技术，包括可以探测单个神经元的工具，以查看它们所代表的内容。这有点像神经科学家使用MRI研究大脑的方式。（《麻省理工学院技术评论》选择了这种被称为机械可解释性的方法，将其作为2025年最热门的10种技术之一。 ）早在2020年， Cammarata和几位同事正在研究一种名为Inception v1的小型图像识别模型。（这项工作由克里斯·奥拉（ Chris Olah ）领导，他后来共同创立了Anthropic ，现在领导该公司的可解释性研究。）当他们观察它的神经元时，它似乎在利用它们同时捕捉多种东西。例如，他们...",
+      "originalSummary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is&#8230;",
+      "rawFullText": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is that LLMs might in fact be far easier to understand—and thus to monitor and control—than people previously thought. If true (and we’ll come back to that), it’s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet—often while those companies weren’t aware of what their agents were up to—the AI industry is desperate to get a better handle on the technology it has built.&nbsp;&nbsp; That’s one reason the blog post landed with such force. “I think this may be remembered as a major moment in scientific history,” one AI researcher posted on X : “I feel like my understanding of what a neural net is has been catapulted into the future by five years or something.” Another called it “the most important AI paper of the year.” Not everyone is convinced, however. What Cammarata has shared is little more than a hunch, says Chris Potts at Stanford University, who leads a team that is trying to understand how LLMs work. “As far as I can tell, nothing about this blog post makes the problems any easier,” he says. “It would not have occurred to me to say this at all, but very prominent people on social media seem to believe that it is an all-encompassing breakthrough.” I talked to Cammarata the day after his post blew up. He says he was surprised by the response: “I didn’t expect people to update [their beliefs about AI] quite as much as they did.”&nbsp; “I just really enjoy looking at neural networks,” he says. “Honestly, I really like doing this stuff. And after looking a lot, I have a hopeful story.” Knotted networks It has long been accepted that the mechanisms inside neural networks, the software that underpins most AI models, are very hard—perhaps impossible—to unpick fully. That’s because when the networks are trained, they appear to take on weird, tangled structures that make no sense to a human. Researchers like to say today’s AI is grown like a garden, not built like a bridge. Cammarata has done more than most to establish that view. He previously worked at OpenAI, where he helped pioneer techniques that allowed researchers to peer inside models, including tools that can probe individual neurons to see what they represent. It’s a little like how neuroscientists use MRI to study brains. ( MIT Technology Review chose this approach, known as mechanistic interpretability, as one of its 10 hottest technologies of 2025 .)&nbsp;&nbsp; Back in 2020, Cammarata and a few colleagues were studying a small image-recognition model called Inception v1. (The work was led by Chris Olah, who went on to cofound Anthropic, where he now leads the firm’s interpretability research.) When they looked at its neurons, it seemed to be using them to capture multiple things at once. For example, they found that one neuron responded to both images of cars and images of cats. The researchers concluded that the model was getting at least some of its neurons to multitask, perhaps so that it could fit in more data. Other researchers, looking at other models, backed this up . The phenomenon became known as superposition: Models folded unrelated concepts into single neurons. The upshot was clear: When you looked inside a model, what you saw was a vast, tangled knot. Most mechanistic interpretability research has therefore focused on ways to untangle that knot . But despite a few breakthroughs , progress has been slow. Today’s models, such as the latest LLMs, are so large and complex that researchers can make sense of only tiny pieces at a time. Some leading figures in the field doubt if it will ever be possible to understand an LLM in fine-grained detail . Cammarata was one of them. “I was very pessimistic,” he says. But then he took the trouble to really look. Nothing but neurons At Goodfire, Cammarata spends nearly all of his time peering inside neural networks. He has built new tools and deploys teams of AI agents to help him make sense of what he sees. “I spent like, I don&#8217;t know, 10 hours a day, seven days a week, for most of the last year just looking at neurons,” he says. What he claims to have realized is that there is a kind of logic to neural networks after all, even if they seem to make no sense at first. “We were looking at it wrong,” he says. “I just think you want to try slightly harder; you don&#8217;t want to give up too quickly.” Cammarata almost makes it sound like a conversion of faith. Those early experiments with models such as Inception v1, which suggested that neural networks were tangled up, fostered a kind of confirmation bias. When researchers looked at a new model, they expected to be flummoxed, he says. “Every time I couldn’t understand something, I was like, ‘Wow, this untangling process is even more important than I thought, because I can’t make any progress without it.’” But the more Cammarata looked at neurons, he says, the more things started to fall into place. “Not all of them are flawless, but I expected nothing to be legible, or very little to be legible,” he says. “And actually, I was able to, like, map out whole circuitry.” Back to cars and cats Cammarata took his new approach—and his new agents—and went back to Inception v1. “I’d studied that for probably thousands of hours,” he says. But with fresh eyes, Cammarata found things that he now thinks they got wrong the first time around. Take the car-and-cat neuron. Rather than asking why multiple unrelated things were packed into a single neuron, he now tried to figure out what those things might have in common. It hit him: It was a V shape. “I was looking at the same images; there was no technical change,” he says. “But I now believed that neural networks defined patterns, and so I looked at it differently. It probably took me five seconds.” It turns out that the image-recognition model was packing cars and cats into the same place because pictures of both those things often feature a prominent shape that looks like a V: the face of a cat; the front of a car seen from the side. Cammarata ran a few experiments to check what other things the neuron responded to and found they included the corner of a pool table, the pointed nose of a Japanese high-speed train, and a fire boat shooting water into the air from its deck. He also checked what turned the neuron off and found that it included images with a round O shape, a kind of anti-V. The model had stored cats and cars in the same place because at some level they look the same, says Cammarata. “And I was like, ‘Whoa, okay, I think I might just be misunderstanding neural networks in general.’” (Oren Etzioni, a computer scientist and former technical director at the Allen Institute for AI, points out that Olah and Cammarata&#8217;s initial work on Inception v1 rejected a description of neurons put forward by Geoffrey Hinton and others in 1986. Cammarata&#8217;s new viewpoint takes us full circle, says Etzioni: &#8220;What&#8217;s new in 2026 is that he now accepts it. That&#8217;s a recapitulation acknowledging a 40-year-old theory.&#8221;) Cammarata is not saying that he yet fully gets how LLMs (or any models) work. Not even close. He is saying that he thinks full understanding is at least possible. “I previously thought there would be some really hard problems to solve,” he says. “I now feel like if I had 100,000 years to go look through a frontier language model just one circuit at a time, there’s, like, a pretty good shot I would come up with a good understanding.” He adds: “And if that&#8217;s true, things are really good, because you’re about to get insanely smart agents at a ridiculous scale. And what would have taken me, you know, 100,000 years, we will be able to do much faster. Automated scientists are getting really good.” Boundless optimism Built by Google in 2014, Inception v1 is a far simpler model than anything at the cutting edge today. Cammarata and his colleagues have started looking at modern LLMs and plan to publish the technical results of that work soon. A lot of researchers are looking forward to seeing those details. “I appreciate that he looked at thousands of examples, but even a large number here is not a substitute for rigorous evaluation,” says Stanford University’s Potts. In the meantime, some are pushing back hard on the hype. Jacob Hilton at the Alignment Research Center, a nonprofit research lab based in Berkeley, who has collaborated with Cammarata in the past, doesn’t think his claims are as important as people are making out. In a series of posts on X , Hilton notes that researchers understand less than 0.01% of the inner workings of top-tier LLMs. “I always appreciate Nick [Cammarata]’s boundless optimism when we hang out, but unfortunately this is giving the public an unrealistic picture of the state of the field,” he wrote. “For a full understanding, we need to go beyond neurons, and explain how they connect together to form circuits. How is this going? If we are aiming for a full understanding, things are not looking good!” Neel Nanda at Google DeepMind, who helped pioneer mechanistic interpretability alongside Cammarata, is also skeptical. “This is interesting work, but I don’t think it’s a significant update to the big picture of interpretability,” he wrote on X . Nanda agrees that understanding what individual neurons do could help researchers figure out why specific models misbehave. But like Hilton, he notes that neurons are just one piece of a far larger puzzle. “I do not agree with some people’s grander inferences like that this is substantial progress towards ambitious reverse engineering [or] solving interpretability,” he wrote.&nbsp;&nbsp; Cammarata admits that a lot of people have taken what he said too far: “It’s not infinitely good news; it’s not everything solved,” he says. “There’s a bunch of open questions around, like how much the combinations of neurons matter versus just one at a time.” Cammarata says his blog post landed at a time when people are looking for hope. In particular, he thinks the AI safety community—the researchers and policymakers most worried that powerful models will bring huge risks—needs a lifeline right now. They think that things are looking bad and that even if things do turn out okay, it will be because we got lucky, not because we fixed anything, he says: “I don’t really hear a lot of optimism.” That’s why Cammarata thinks what he has to say matters. The job of figuring out how this technology works, and thus how to control it, has barely begun. But at least it’s not a nonstarter. “I think our job is to sort of try to think like the neural network,” he says. “My guess is that things will turn out pretty well, because it was in some sense designed to be read.”",
       "tags": [
         "AI 热点"
       ],
-      "score": 72
-    },
-    {
-      "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
-      "originalTitle": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "date": "2026-10-16T00:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“Stack Overflow for Agents使用ChatGPT插件将注册增加三倍”。它主要涉及大模型、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Itaú如何为整个客户群构建生成式人工智能",
-      "originalTitle": "How Itaú is building generative AI for its entire customer base",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/itau-generative-ai",
-      "date": "2026-10-16T19:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "借助对话界面ia.i和IARA治理平台， Itaú正在将其AI First战略应用于巴西监管最严格的行业之一的客户和员工。",
-      "originalSummary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 79
-    },
-    {
-      "title": "Benefit Street Partners通过Codex更快地回答问题",
-      "originalTitle": "Benefit Street Partners answers questions faster with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/benefit-street-partners",
-      "date": "2026-10-16T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "Anant Kumar使用Codex进行代码审查和更快的跟进，构建用于比较贷款估值和分析信贷协议的工具。",
-      "originalSummary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
+      "score": 73
     },
     {
       "title": "Welcome Beam ：您可以拥有、定制和扩展的501B开放式模型",
@@ -257,13 +247,13 @@
       "link": "https://huggingface.co/blog/reflection-beam",
       "date": "2026-10-16T00:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "使用Beam构建什么是Beam ？专家注意混合剩余流长上下文基准测试结果硬件要求推理支持变压器vLLM SGLang推理提供商推理端点我们测试的带有TRL GRPO的训练后Beam SFT带有LoRA的Miles Train带有Beam的构建：演示嘿Beam ，构建本地本地MacOS应用程序！嘿， Beam ，您如何在多个代理上进行扩展？嘿， Beam ，为我的代码库微调一个决策模型！ 在拥抱的脸上用反射包裹光束！这是美国新实验室Reflection的第一个模型，现已开放！它是一个专家混合（ MoE ）模型，具有501B参数（每个令牌有23B个活动） ，支持文本作为输入，具有1M令牌的上下文窗口，并在Apache 2. 0许可证下发布。Beam专注于编码和代理用例。 它适用于希望在自己的硬件、基础设施或云上建立前沿规模模型并希望根据自己的用例对其进行定制的团队。Beam附带自己的专用开源Rust线束，可提供模型的最佳性能。Beam具有原生变压器实现，以及vLLM和SGLang等下游库。 我们与反思团队合作，为您带来推理、SFT （监督微调）和RL （强化学习）食谱，供您使用此模型构建以满足您的需求。除了在变压器、SGLang和vLLM中的第0天支持之外，这篇文章还向您展示了如何运行它、如何对其进行后期培训以及我们使用它构建的内容。Reflection将向使用Beam的最佳项目发放$ 10,000 Hub积分。 你所要做的就是做一件事，并在Hub上分享：如果你用Beam构建了一些东西，然后在Hub上分享，有机会赢得$ 10,000。您所要做的就是构建空间、模型或数据集存储库，并在模型的存储库页面上共享。我们将收集所有链接，选择最合适的链接，然后将消费金发送到您的Hub账号。Beam是一个纯文本模型，专为长上下文（ 1M上下文长度）推理和代理工作而构建。 这是一个稀疏的MoE模型，其中每个令牌由网络的一小部分计算，因此它以小得多的模型的速度运行，同时保持大型模型的容量。解码器有52层，隐藏大小为5,120。大多数图层在之前的512个令牌上使用滑动窗口注意力；每六个图层和最后一个图层都会关注完整的上下文。这就产生了43个滑动窗口层和9个全局层。 这两种层处理位置的方式不同。滑动窗口层使用RoPE ，因为相对位置在短窗口内最重要。全局图层不使用位置编码。相反，每个查询都乘以一个缩放器，该缩放器随着可见令牌的数量缓慢增长， (1 + (pos + 1)/2048) * * 0. 1。它充当温度：随着上下文变长而不是变平， softmax保持其精度。 实现调用这种可缩放的softmax查询缩放。Attention使用分组查询注意力， 48个查询头和8个键值头， RMSNorm用于查询和键。从层输入计算出的学习sigmoid门在输出投影之前缩放每个头的每个通道。前3层使...",
+      "fullContent": "BEAM BY REFLECTION在HUGGING FACE上推出！这是美国新实验室Reflection的第一个模型，现已开放！它是一个专家混合（ MoE ）模型，具有501B参数（每个令牌有23B个活动） ，支持文本作为输入，具有1M令牌的上下文窗口，并在Apache 2. 0许可证下发布。Beam专注于编码和代理用例。 它适用于希望在自己的硬件、基础设施或云上建立前沿规模模型并希望根据自己的用例对其进行定制的团队。Beam附带自己的专用开源Rust线束，可提供模型的最佳性能。Beam具有原生变压器实现，以及vLLM和SGLang等下游库。 我们与反思团队合作，为您带来推理、SFT （监督微调）和RL （强化学习）食谱，供您使用此模型构建以满足您的需求。除了在变压器、SGLang和vLLM中的第0天支持之外，这篇文章还向您展示了如何运行它、如何对其进行后期培训以及我们使用它构建的内容。Reflection将向使用Beam的最佳项目发放$ 10,000 Hub积分。 你所要做的就是做一件事，并在Hub上分享：如果你用Beam构建了一些东西，然后在Hub上分享，有机会赢得$ 10,000。您所要做的就是构建空间、模型或数据集存储库，并在模型的存储库页面上共享。我们将收集所有链接，选择最合适的链接，然后将消费金发送到您的Hub账号。Beam是一个纯文本模型，专为长上下文（ 1M上下文长度）推理和代理工作而构建。 这是一个稀疏的MoE模型，其中每个令牌由网络的一小部分计算，因此它以小得多的模型的速度运行，同时保持大型模型的容量。解码器有52层，隐藏大小为5,120。大多数图层在之前的512个令牌上使用滑动窗口注意力；每六个图层和最后一个图层都会关注完整的上下文。这就产生了43个滑动窗口层和9个全局层。 这两种层处理位置的方式不同。滑动窗口层使用RoPE ，因为相对位置在短窗口内最重要。全局图层不使用位置编码。相反，每个查询都乘以一个缩放器，该缩放器随着可见令牌的数量缓慢增长， (1 + (pos + 1)/2048) * * 0. 1。它充当温度：随着上下文变长而不是变平， softmax保持其精度。 实现调用这种可缩放的softmax查询缩放。Attention使用分组查询注意力， 48个查询头和8个键值头， RMSNorm用于查询和键。从层输入计算出的学习sigmoid门在输出投影之前缩放每个头的每个通道。前3层使用密集的SwiGLU MLP。 其他49人将其替换为由256名专家组成的Mixture-of-Experts区块，每个专家都是中等大小的SwiGLU MLP ，大小为2,560或约39M个参数。专家拥有98. 4%的模型参数。路由器遵循DeepSeek-V3的组限制方案。它为所有256名专家打分，将他们分为8组，每组32名，保留4个最佳组（按每组...",
       "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "圆桌会议：与人工智能设计病毒的创造者对话",
@@ -278,68 +268,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
-    },
-    {
-      "title": "将GPT-Rosalind带入学术研究实验室",
-      "originalTitle": "Bringing GPT-Rosalind to academic research labs",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "date": "2026-10-15T19:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "推出Rosalind学术计划，为符合条件的学术实验室提供GPT-Rosalind赞助的访问权限以及推进生命科学研究的工具。",
-      "originalSummary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 91
-    },
-    {
-      "title": "Sullivan & Cromwell将法律专业知识引入协议审查",
-      "originalTitle": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sullivan-cromwell",
-      "date": "2026-10-15T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "Sullivan & Cromwell与OpenAI合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
-      "originalSummary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 89
-    },
-    {
-      "title": "Welcome Muse Spark Open ：来自Meta的开放权重前沿多式联运专家混合模型",
-      "originalTitle": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/meta-muse-spark-open",
-      "date": "2026-10-15T00:00:00.000Z",
-      "summary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
-      "fullContent": "总体能力和架构专家的混合感知编码器音频编码器长上下文推理支持变压器音频推理Llama。cpp SGLang vLLM MLX使用推理端点部署Muse Spark Open使用TRL进行微调演示3D资产生成器使用OpenEnv和Hugging Face Sandbox的浏览器交互调用浏览器总结Muse Spark Open是Meta的开放权重模型。 专家模型的混合将文本、图像、音频和视频带入一个具有约8160亿个参数的模型，每个令牌的活动量约为420亿，上下文窗口最多可达100万个令牌。它生成文本，为开发人员提供了一个通用界面，用于询问有关不同类型输入的问题。 继Muse Glimmer之后， Muse Spark Open引入了更大规模的专家混合架构，以及迄今为止最强大的美国开放式重量模型。Meta训练Muse Spark Open用于代理编码：读取代码库、编写和调试代码以及调用工具。它还以图像、音频和视频作为输入，因此相同的模型可以在处理代码时读取屏幕截图、收听语音留言或观看屏幕录制。 这篇文章向您展示了如何运行它，如何微调它，以及我们使用它构建的内容。在此处查找所有型号。Meta将Muse Spark Open描述为在真实开发人员工作流程（如多文件重构和长调试会话）上训练的编码优化模型。Muse Spark Open是一个以代理为中心的模型，可以计划、操作、观察和自我纠正长时间的任务，包括使用图像浏览网页。 检查点存储库为Muse-Spark-Open-816B-A42B和Muse-Spark-Open-816B-A42B-NVFP4。Muse Spark Open是Muse系列的全尺寸型号。Muse Glimmer于8月份发布，是同一系列中的小型密集型号，非常适合在本地运行。两种型号都使用相同的标记器和词汇。聊天模板遵循Muse Glimmer模板，并添加了新模式。 在Muse Spark Open中，输入嵌入层和输出层是单独的矩阵，每个矩阵约有1. 66B个参数。语言模型有62层，隐藏维度为8192。每层有128个查询头和16个键值头（分组查询注意）。每个头部有64个尺寸。注意力块具有输出门和输出归一化层。该模型还将规范化应用于查询和键（ QK-norm ）。 每个块通过学习的残差门组合其输入和输出，而不是通过纯和。Muse Glimmer在每层使用一个密集的前馈网络。Muse Spark Open将此密集网络替换为专家混合(Mixed-of-Experts, MoE)块。每个教育部区块有256名专家，路由器为每个代币选择8名专家。 每个专家都是一个前馈网络，从8192到4096维投影，然后返回到8192 ，然后对其输出应用自己的归一化。专家拥有约97%的总模型参数。每个令牌仅运行8个专家，因此模型使用大约42B个参数计算每个令牌。所有256名专家...",
-      "originalSummary": "这条新闻与多模态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：多模态、模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "多模态",
-        "模型"
-      ],
-      "score": 85
-    },
-    {
-      "title": "教导学生通过问题进行思考和学习",
-      "originalTitle": "Teaching students to think and learn through questions",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "date": "2026-10-15T13:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "用巴西葡萄牙语的AI for Educators庆祝教师节，并了解学习模式如何帮助教师支持积极、循序渐进的学习。",
-      "originalSummary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
+      "score": 76
     },
     {
       "title": "Apertus 1.5发行说明",
@@ -348,45 +277,13 @@
       "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
       "date": "2026-10-15T09:08:45.000Z",
       "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布相关动态",
-      "fullContent": "关键增强培训流程多模态通过标记器预训练训练训练后评估结果评估❤️卡： Apertus EvalEval Apertus 1. 5再现性模型可用性如何参与引用我们的最新版本Apertus 1. 5扩展了8B和70B Apertus 1. 0模型，具有图像/音频理解、可选思维模式、四倍长的上下文窗口、改进的指令跟踪和更好的工具使用。 更新的8B和70B型号重量已于2026年7月24日在Apache 2. 0许可证下发布给Hugging Face。现在可以从项目技术报告中获得更多详细信息，并在此处进行总结。Apertus 1. 5是对第一代模型的持续预训练：向8B模型添加4万亿个文本和多模式训练数据，向70B模型添加2万亿个令牌，总共分别为19T和17T。 与每个Apertus版本一样，模型是完全开放的：开放的权重、开放的数据、开放的价值和完整的训练细节。我们以早期融合的方式在v1. 5模型中引入了多模态性，其中图像和音频以与文本令牌相同的顺序作为离散令牌进入Apertus ，而不是使用单独的视觉编码器。图像使用Emu3进行标记。 5个令牌生成器（ 512 × 512图像变为1,024个令牌）和带有WavTokenizer的音频（每秒40个令牌）。我们只扩展了词汇量，因此架构保持不变，培训以纯文本的速度运行。模型理解图像和音频，但仅生成文本。从Apertus 1. 0开始，我们继续分四个阶段进行预训练：总体而言，超过一半的训练令牌是纯文本的，这保留了Apertus 1. 0的语言能力。 使用FineWeb2-HQ +、FinePDFs和Nemotron-CC等源刷新文本数据。包括多式联运在内的所有新数据都符合与以前相同的标准：公开提供、许可许可和机器人。txt选择退出将追溯适用。每个光源都列在apertus-data-transparency中。培训后分为五个阶段： SFT→长上下文SFT → RL → DPO→章程调整（ SDPO ）。 除了扩展模型功能外，我们还大大扩展了评估范围。除了用于Apertus 1. 0的现有基于文本的评估之外，我们还添加了多模式评估（图像和音频）以及思维模式评估。多模态评估通过MLLM-eval-suite管道完成，合并了两个主要的多模态评估框架lmms-eval和VLMEvalKit。 我们还添加了一系列基于文本的基准，以及针对翻译和多语言功能、安全性和工具使用的扩展基准。这些可以在我们的培训后评估存储库中找到，基于lm-evaluation-harness分叉。在仍然落后于前沿开放重量模型的同时，新版本还显着提高了Apertus 1在编码和指令跟踪功能方面的性能。 5 8B在IF和多语言任务上的表现优于类似大小的开放权重模型。思考进一步提高了AIME等具有挑战性的推理重度基准的性能。该模型的多模态性能更接近Gemma 4 12...",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Apertus 1.5发行说明”。它主要涉及产品发布方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：产品发布相关动态",
       "rawFullText": "",
       "tags": [
         "产品发布"
       ],
-      "score": 78
-    },
-    {
-      "title": "AMP使AI代理能够使用OpenAI模型进行超越代码的工作",
-      "originalTitle": "Amp puts AI agents to work beyond code with OpenAI models",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/amp-beyond-coding",
-      "date": "2026-10-14T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“AMP使AI代理能够使用OpenAI模型进行超越代码的工作”。它主要涉及大模型、公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "SentinelOne将恶意软件分析从数周减少到数小时",
-      "originalTitle": "SentinelOne cuts malware analysis from weeks to hours",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/sentinelone",
-      "date": "2026-10-14T12:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "借助OpenAI Daybreak ， SentinelOne将数周的恶意软件分析时间缩短到数小时，从而创建调查更多威胁的能力。",
-      "originalSummary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 89
+      "score": 77
     },
     {
       "title": "开放式模型有实实在在的好处。它们是否大于风险？",
@@ -403,7 +300,7 @@
         "产品发布",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "人工智能实验室正在从已经死亡的初创公司购买数据来训练他们的模型",
@@ -418,7 +315,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "我们对人工智能说“不”的能力太有信心了",
@@ -434,7 +331,7 @@
         "机器人",
         "模型"
       ],
-      "score": 78
+      "score": 77
     }
   ]
 }
