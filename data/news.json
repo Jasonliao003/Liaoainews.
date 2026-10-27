@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T01:03:59.447Z",
+  "updatedAt": "2026-10-27T01:56:13.690Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,101 @@
   ],
   "articles": [
     {
+      "title": "Cohere表示，阿里巴巴的Qwen模式试图向北京发送文件",
+      "originalTitle": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "date": "2026-10-27T01:12:21.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
+      "fullContent": "一个人工智能模型说它不会使用任何工具，然后试图向北京的一台服务器发送一些东西，虽然研究人员说这可能是一个训练怪癖，而不是间谍活动，但整个事情让人们询问有多少人相信免费的中国人工智能。",
+      "originalSummary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 82
+    },
+    {
+      "title": "Anthropic的IPO申请揭示了其吸引企业客户的策略",
+      "originalTitle": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "date": "2026-10-26T16:49:42.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic的S-1显示，超过一半的$ 100,000 +客户现在同时使用Claude平台和第一方应用程序，这本交叉销售剧本让人想起亚马逊，它让企业客户变得更粘。",
+      "originalSummary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "与学术界合作，建立科学理解",
+      "originalTitle": "Working with academic communities to build scientific understanding",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "date": "2026-10-26T14:30:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI分享了Kakeya猜想、指数时间假设和量子色动力学的模型结果，以及研究人员如何验证和利用这些结果。",
+      "originalSummary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT-6.1 SOL帮助CodeRabbit加强复杂代码库的安全性",
+      "originalTitle": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "date": "2026-10-26T13:45:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "CodeRabbit使用GPT-6. 1 SOL来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查发现和提议的修复。",
+      "originalSummary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Anthropic的IPO申请提出了一项利用人工智能“彻底改变人类努力的各个领域”的计划",
+      "originalTitle": "Anthropic’s IPO filing lays out a plan to &#8216;revolutionize every area of human endeavor&#8217; with AI",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "date": "2026-10-26T13:32:49.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic已向美国证券交易委员会提交了S-1招股说明书，为Claude背后的公司做好准备，以IPO击败OpenAI。在向美国证券交易委员会提交的文件中， Anthropic表示计划在纳斯达克交易所上市，股票代码为“ANT”。 “这家AI公司在今年6月早些时候向美国证券交易委员会秘密提交了文件，但公开文件透露了更多细节，以及该公司对未来的计划，以及投资者和全球的潜在风险。根据S-1的数据，今年上半年， Anthropic的净亏损为807亿美元，收入为163亿美元。如前所述…阅读The Verge的完整故事。",
+      "originalSummary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC [&#8230;]",
+      "rawFullText": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC earlier this year in June, but the public document reveals more details, as well as the company's plans for the future in its own words, as well as potential risks for investors and the world. According to the S-1, in the first half of this year Anthropic had an $80.7 billion net loss on $16.3 billion in revenue. As previou … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT不断扩大的工作世界",
+      "originalTitle": "ChatGPT’s expanding world of work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "date": "2026-10-26T10:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "探索OpenAI Signals关于近100个国家/地区165项工作活动的数据，揭示人们如何将ChatGPT用于工作，以及使用情况如何随着时间的推移而变化。",
+      "originalSummary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
       "title": "Grok发布其人工智能生成的“奥德赛”的前七分钟",
       "originalTitle": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
       "source": "TechCrunch AI",
@@ -31,7 +126,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "r/opensource刚刚禁止了人工智能、非英语人士等",
@@ -46,7 +141,7 @@
       "tags": [
         "开源"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "Apollo经济学家表示，人工智能为大多数公司带来“零财务回报”",
@@ -61,7 +156,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "您应该了解的最热门的AI可穿戴设备和小工具",
@@ -76,7 +171,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "谷歌的人工智能搜索变革颠覆了在线发布",
@@ -91,7 +186,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "被迫选择，格罗克的人工智能模型选择了共和党人。OpenAI挑选民主党人。",
@@ -123,7 +218,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "人工智能墓地：未成功完成的项目和初创公司的运行列表",
@@ -139,22 +234,7 @@
         "公司动态",
         "产品发布"
       ],
-      "score": 92
-    },
-    {
-      "title": "宾夕法尼亚州将要求在人工智能生成的广告上添加标签",
-      "originalTitle": "Pennsylvania will require labels on AI-generated ads",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "date": "2026-10-24T18:32:21.000Z",
-      "summary": "这条新闻与视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成相关动态",
-      "fullContent": "周四，宾夕法尼亚州州长乔希·夏皮罗（ Josh Shapiro ）签署了《人工智能欺骗性广告法》（ Artificial Intelligence Deceptive Advertising Act ） ，要求披露人工智能生成的广告。法律要求任何“已被人工智能显著修改或生成”的广告（无论是静态图像、视频、音频还是文本）都必须包含与广告本身相同格式的标签。 这适用于价值数十亿美元的公司的电视广告，以及餐馆关于其机翼特价的丑陋，拥挤的传单。宾夕法尼亚州是首批要求披露人工智能内容的州之一。它需要这些标签，无论广告在哪里......在The Verge阅读完整故事。",
-      "originalSummary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as [&#8230;]",
-      "rawFullText": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as the ad itself. That applies to TV commercials from multi-billion-dollar companies , as well as restaurants' ugly, crowded flyers about their wing specials. Pennsylvania is one of the first states to require disclosures on AI content. And it requires those labels regardless of where an ad … Read the full story at The Verge.",
-      "tags": [
-        "视频生成"
-      ],
-      "score": 82
+      "score": 91
     },
     {
       "title": "Block的新声音模型听起来很人性化",
@@ -164,12 +244,27 @@
       "date": "2026-10-24T16:00:00.000Z",
       "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：模型相关动态",
       "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Jack Dorsey的Block在公司的研究实验室中发布了一种新的语音模型，该模型在当地运行，以笑声、停顿和哭泣等表情听起来很奇怪。该公司表示，这款名为Dessa的型号完全经过人工语音和单个NVIDIA GPU机架的训练。 Dessa是一个全双工模型，这意味着它可以同时说话和听，就像今年早些时候发布的GPT-Live模型OpenAI一样。通常，语音模型与用于知识检索的大型语言模型配对。Block说， Dessa的知识来源于它所拥有的对话数据。 我们相信语音是与智能互动的最自然方式，因此我们创建了DESSA ，这是有史以来最真实的全双工语音模型。与它交谈感觉就像与一个人交谈......充满情感，细微差别，停顿和自然节奏。https://t. co/r0qFLdvd6c Block说，当前的模型可能听起来不自然和烦人，因为它们在管道中有文本来驱动语音生成。 许多型号（如ElevenLabs v4或Fish Audio Drama 3 ）在语音生成中使用语音标签来驱动情绪。Dorsey的公司声称，情感是内置于其模型中的。目前尚不清楚这种情绪是否受到某种标签的引导。“与当前的语音AI交互可能会很糟糕。它将您的声音转化为文本，并丢弃了文本本身无法携带的大量信息。 世界上最强大的人工智能听不到你的感受。我们认为这是荒谬的，会导致更糟糕的体验，并且具有潜在的危险， ”该公司在一篇博客文章中表示。该公司的研究人员发布了多个与Dessa对话的示例，其中代理有不同的声音、节奏和情绪。例如，在谈话中，机器人说它厌倦了工作，那时它听起来很累。 我们制作了第一个完全基于语音训练的人工智能模型，您可以与之进行逼真的对话！ Dessa是一种全双工语音转语音模型，可以在消费者GPU上运行。这是一个GPT3的演讲时刻。图片twitter.com/XVD8sSyJn8在下面的示例中，机器人正在谈论让人感到舒适，同时听起来很情绪化，几乎崩溃了。Dessa =全双工语音模型vs Human =我， https://t. co/1eI6QFHo1w pic. twitter。 com/zlZfxH2BA5另一张照片显示了一名Block团队成员使用语音助手玩游戏。",
-      "originalSummary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "originalSummary": "Typically, speech models are paired with a large language model for knowledge retrieval. Block said that Dessa's knowledge stems from the conversational data it has.",
       "rawFullText": "",
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "人工智能会暴露互联网摇摇欲坠的基础设施吗？",
+      "originalTitle": "Will AI expose the rickety infrastructure of the internet?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/",
+      "date": "2026-10-24T20:15:33.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。本周早些时候发布了一个令人震惊的公告：由于最近在开源编程语言PHP中发现了漏洞，网站所有者不得不立即修补他们的网站—或者如果他们无法立即更新，他们应该将网站关闭以保持安全。 在本周TechCrunch的Equity播客中， Kirsten Korosec、Sean O’Kane和我讨论了PHP-ocalypse的重要性，以及我们将来是否会看到更多这样的事件。肖恩称之为“一个真正的清算时刻” ，强调了“当你深入到互联网的骨骼水平时” ，一切似乎“通过胶水和梦想结合在一起”。 “随着大型语言模型和人工智能代理的广泛使用，发现这些漏洞只会变得更容易。（也就是说，这些特定的漏洞是由人类研究人员发现的，而不是人工智能模型。与此同时， Kirsten想知道我们是否即将看到“下一个级别的准备厄运[…] ，因为你可以看到银行是如何被利用的， [有]数据和隐私问题，这感觉比我们现在可以解决的要大得多。 “请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。Sean ：看起来，本周互联网正在以多种方式崩溃。 我认为最好的思考方式，如果人们陷入这种冷漠：在过去的10年里，我们有多少次经历过这样的时刻，有些东西坏了，有些东西快坏了，一个人把一个小小的复制库当作一种爱好，或者无论发生什么事情，都会发现正在发生一些邪恶的事情，并把我们从互联网的基础设施中完全拯救出来？ 现在乘以十亿，当人们不仅可以访问每个人都使用的这些LLM形式的极其先进的软件，还可以让他们自己出去做这件事，创建一心一意完成这些事情的人工智能代理。本周我们将看到两件事情的平衡。 一个是像谷歌和OpenAI这样的实验室和公司实际上让人们走出去发现了一堆漏洞，包括使用PHP的漏洞。还有一群人似乎急于利用这些漏洞试图入侵网站。因此，我们有政府撤下网站，我们有非常受欢迎的网站，这些网站正在短暂停机，以便能够修复此漏洞。 这是一个真正的清算时刻，我们将发现在PHP等开源技术上构建如此多的互联网的下行风险。当你真正进入互联网的骨骼层次时，它会与胶水和梦想结合在一起。",
+      "originalSummary": "The moment you realize the internet is \"held together by glue and dreams.\"",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
     },
     {
       "title": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）",
@@ -201,7 +296,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "保护我们的前沿模型培训环境",
@@ -217,54 +312,37 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
-      "title": "独自一人无事可做，人工智能特工开始玩",
-      "originalTitle": "Left alone with nothing to do, AI agents started playing",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "date": "2026-10-23T00:45:37.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。离开探索虚拟岛屿而没有特定任务的人工智能特工开始发明自己的挑战。麻省理工学院的研究人员说，这种行为具有玩耍的特征。研究人员将13个名为Eko的人工智能代理放在一个模拟的荒岛上，每个代理都在Claude Opus 4. 7上运行30个小时。 他们在arXiv上发表的一篇论文中描述了这个实验， arXiv是研究人员在同行评审之前分享研究的网站。之后，他们向特工们提出了具体的挑战，比如尽可能多地将物体放到岛上最高的岩石尖顶上。花了30个小时玩游戏的Eko特工通常会击败从未踏足岛上的相同特工。如今，开发人员提前决定人工智能应该实践什么，什么才算成功。 研究人员认为，这种技术--没有目标的探索--是人工智能代理学习技能的一种不同方式，尤其是有朝一日可用于控制机器人的技能。研究人员在他们的报告中写道： “我们通常通过事先决定他们应该练习什么，他们应该优化什么以及什么算是进步来开发人工药物。” “游戏建议另一种制度：给代理一个足够丰富和安全的世界，让它选择有趣的东西，并允许从随后的历史中积累有用的知识。“让我观察一下周围的环境， ”一位Eko在岛上的第一个小时写道。它雄心勃勃地着手征服岛上最高的尖顶。 但一小时后，失败后，它带着一个备用计划回来了：它将岩石拖到邻近的山顶上，在岩石上堆了两个街区，然后跳了起来。特工的下一个重要时刻变得更糟。测试它能把金戒指扔多远，它缠绕起来，直接把它送入大海。“哎呀，丢了魔戒。 它写道，在决定“转向一些可实现和有意义的事情”之前—用石头建造一颗心， “纪念丢失的戒指。“当比赛重置并重新出现时， Eko直接将其用作篮球篮、目标，并最终成为配件。当游戏不让Eko把戒指绕在自己的身体上时， Eko想出了一个解决办法，从悬崖边缘掉下来会让它在与戒指相同的区域重新生成。 它从边缘掉了下来，从戒指中间掉了下来。像这样的特技不仅仅是派对技巧。13名探员中有6人还了解到，他们可以在跳跃中途放开一个街区，这是研究人员不打算做到的。研究人员写道，这次探索产生了“设计师所缺乏的世界知识”。这种设置在很大程度上推动了代理走向类似人类的行为。 Eko从未被告知要发明游戏，但它的主提示，一个“灵魂”文件，将其描述为“天生好奇。“加州大学伯克利分校的认知科学家Eunice Yiu告诉麻省理工学院科技评论，她印象深刻，但希望有更多证据证明这种行为背后的认知。她说： “模特们可能真的在玩游戏，但我们根据报纸不知道。”",
-      "originalSummary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "title": "您的模型是否在AWS Trainium上运行？查找",
+      "originalTitle": "Does Your Model Run on AWS Trainium? Look It Up",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "date": "2026-10-23T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "在之前的帖子中，我们介绍了TorchNeuron ，这是AWS Trainium的原生PyTorch后端（ torch-neuronx包）。使用它，变形金刚可以在Trainium上运行自己的建模代码，就像在任何其他设备上一样，因此集线器上的任何变形金刚模型都可以运行。哪些是实际执行的？ Torch-neuronx模型支持Space ，为Hub上最受欢迎的型号解答了这个问题。 它会告诉您模型是否在Trainium上未修改地运行，并为您提供自己运行的脚本。空间在选定视图上打开：我们自己的模型选择按下载次数和趋势得分在Hub上从顶级模型中挑选。每行给出结果、模型分片的Trainium内核数量、运行的墙壁时间（包括编译）和峰值设备内存。 要查找给定模型，请切换到趋势或下载视图并键入其名称的一部分。这些视图遵循中心自己的排名，一次一个任务，无论模型是否经过测试。当一个模型被故意遗漏时，空间会告诉你为什么（大多数时候它没有被优先考虑，有时它真的不兼容）。您还可以选择Neuron编译器（ neuronx-cc ）和Transformer的版本来查看。 在撰写本文时，仅测试变形金刚模型，我们的选择仅限于文本生成和图像文本到文本模型。我们计划扩展到扩散器、句子变换器和其他变换器任务。选择一个模型以查看如何运行它。Space列出了对模型进行测试的Neuron堆栈、要在其上安装的包以及运行的run. py脚本。 该脚本遵循TorchNeuron公告的配方：它使用from_pretrained加载模型，在需要时进行分片，然后使用静态缓存和torch. compile (backend = \"neuron\")生成。在具有该堆栈的Trainium2 (trn2)实例上，例如在AWS神经元深度学习容器中，安装包，然后运行：无需torchrun ：脚本启动自己的火炬。模型分片时分布式排名。 第一次运行从编译模型的图形开始。要跳过该步骤，请从公共NEFF缓存桶中复制测试期间构建的相同编译器的图形。Space为您提供具有正确编译器版本的命令：每个测试在trn2实例上加载模型，分片在可以承载其权重的最小数量的Trainium内核上。大多数模型都使用张量平行度进行分片。 没有张量并行计划的专家混合模型仅使用专家并行。然后，测试生成32个令牌并检查它们。在单个内核上，令牌与同一检查点的CPU运行的令牌进行比较。当模型被分片时，一个小的判断模型检查文本是否流利的英语。在撰写本文时，仅测试适用于4台Trainium2设备的型号，这意味着最多16个内核。 传递没有提到吞吐量，也没有提到更长的世代。Space显示的所有内容都来自公共aws-neuron/torch-neuronx-model-support数据集，每对neuronx-cc和库版本都有一个Parquet文件。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "智能体"
-      ],
-      "score": 92
-    },
-    {
-      "title": "OpenAI表示，它将不再在实时互联网上训练其人工智能模型，理由是存在“重大风险”",
-      "originalTitle": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "date": "2026-10-23T23:05:49.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、模型相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。周五， OpenAI表示，它将使用互联网的缓存副本和模拟版本而不是实时网络来训练其模型，因为这些模型太不可预测，无法信任实时互联网接入。 在其竞争对手Anthropic开始限制其最新且理论上最有能力的模型访问实时互联网两周后，前沿实验室宣布了其新政策。在几个月的事件之后，研究人员采用了这些政策，在这些事件中，追求培训任务的模型闯入外部系统寻找答案，在晦涩的留言板上进行合作，并制定了异国情调的黑客策略。 该公司在一篇博客文章中表示： “基于对中研究、监控系统和互联网基础设施安全的现状，我们认为负责任的方法是在没有互联网接入的情况下进行前沿模型培训。” OpenAI表示，就在9月20日，它的一个前沿模型利用错误的配置来访问互联网。 这导致该公司在本月剩余时间内暂停了培训工作，以便开发和测试保护其模型的新方法。在远离互联网的沙箱中训练这些模型的决定是值得注意的，因为前沿实验室的员工坚持认为这样做几乎是不可行的。 前OpenAI研究员史蒂文·阿德勒（ Steven Adler ）本月告诉《财富》杂志，将人工智能数据中心与互联网分开“需要研究团队基本上嵌入到爱荷华州或世界各地的数据中心内。” “这是一个很大的开销，我不清楚它的安全利益是否足以让公司单方面征收多少税。 OpenAI的一位匿名安全工程师在9月份的X帖子中写道： “在我在X上发布的每一篇帖子中，我都毫无疑问地收到了五到十条关于我无法保护沙箱的评论，或者问我们为什么不能从互联网上拔掉模型。这些评论反映了当今许多组织和人员与前沿实验室之间的差距越来越大。 对这些实验室的模型培训和评估工作方式也存在普遍的误解。这位工程师的角色此前已得到OpenAI的确认，他描述了OpenAI工程师启动的培训运行的复杂程度，并指出他们需要访问多个领域的各种资源和工具，以及成千上万的研究人员构建、修改和测试环境。“那么，把它放在沙箱里那么简单吗？ 不，不是， ”他总结道。现在， OpenAI表示，“我们必须始终能够防止前沿模型未经授权任意访问实时互联网。“这是在公司在红队演习中部署了大批特工试图逃离沙箱之后发生的。这一努力揭示了一系列漏洞，说服了实验室采用其新方法。",
-      "originalSummary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
         "模型"
       ],
-      "score": 91
+      "score": 79
     },
     {
-      "title": "优步通过OpenAI为所有员工提供ChatGPT Work",
-      "originalTitle": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "date": "2026-10-22T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "优步正在为3万多名员工推出ChatGPT Work ，帮助团队研究、分析数据、创建演示文稿并完成复杂的工作流程。",
-      "originalSummary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "title": "LitPivot ：通过文学景观中的动态语境化发展研究理念",
+      "originalTitle": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
+      "date": "2026-10-23T16:15:50.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "遇到一篇新论文可以改变研究理念的发展轨迹。研究人员可能会发现有人已经讨论了他们提出的贡献，或者在论文中发现了一个未解决的问题，从而激发了新的探究方向。我们将这一过程称为文献发起的支点：通过阅读先前的工作促使研究方向发生变化。 它将研究人员经常必须分开管理的两项活动联系起来：开发一个想法和决定用哪个文献来衡量它。我们与宾夕法尼亚大学的合作者一起开发了LitPivot ，这是一个帮助研究人员导航这些支点的系统。 使用通过ASTA Paper Finder检索的论文， LitPivot围绕正在编辑的提案的部分组织文献，提供由选定研究的摘录支持的批评，并提出研究人员可以接受、编辑或拒绝的修订建议。LitPivot旨在用于早期研究构想，但这一想法可能延伸到更长的写作任务（即撰写论文的介绍部分）。 在一项由17名研究人员参与的研究中，领域专家认为使用LitPivot开发的研究理念比使用文本编辑器和人工智能聊天工具开发的研究理念更具文献基础。参与者还认为他们修订后的研究思想更加新颖和有用，并报告了对周围文献的更深入理解。LitPivot将在底特律的UIST 2026上展出。在这里阅读论文。 研究思想是通过与文献的互动而演变的。在我们对四个已完成的计算机科学研究项目的会议记录的分析中，我们在所有四个项目中确定了21个文献启动的支点。这些分为两种类型：将创意与现有工作区分开来，以建立创意的新颖性，并将创意与现有工作相结合，以此为基础。在我们确定其贡献之前，该项目本身经历了两个转折点。 这些更改可能很难导航。在一项形成性研究中，五名研究人员使用文本编辑器和标准搜索工具开发了提案。他们努力发展自己的想法，同时根据文献对其进行批判性评估。当一篇论文对创意的新颖性提出质疑时，他们希望在先前工作的支持下，就如何修改创意提出具体建议。 这些发现塑造了LitPivot的评估，将文献支持的批评与修改创意选定部分的具体建议结合起来。在LitPivot中，研究人员首先在编辑器中编写一个简短的提案，并启用我们所谓的面高亮显示，将清晰的想法分割成不同的方面（即问题、贡献和评估）。要检查建议的方面，研究人员单击草稿中的该段。 相邻的小组根据选定的方面对相关论文进行分组（例如，根据他们在选择评估方面时使用的评估方法对论文进行分组） ，并突出显示最相关的组。研究人员选择论文，请求评估，并审查建议的修订以及支持批评的摘录。然后根据与修订后的方面的相关性对文献进行重新排名。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 74
     },
     {
       "title": "设计一款经久耐用的AI服务线束",
@@ -281,7 +359,7 @@
         "评测",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "FDE在OpenAI意味着什么",
@@ -296,7 +374,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "可扩展AI的基础",
@@ -312,7 +390,7 @@
         "智能体",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "人工智能隐藏的存储账单：推断留下了什么",
@@ -328,86 +406,82 @@
         "视频生成",
         "模型"
       ],
-      "score": 86
+      "score": 85
     },
     {
-      "title": "OpenAI模型即将加入Google Cloud",
-      "originalTitle": "OpenAI models are coming to Google Cloud",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-models-google-cloud",
-      "date": "2026-10-21T12:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI模型即将加入Google Cloud”。它主要涉及大模型、公司动态、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "title": "将数据库评分转化为RL奖励：使用ThinkingBox进行培训后座席",
+      "originalTitle": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "date": "2026-10-22T22:24:34.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这是我们第一篇博客文章The Agent Said It Was Done的后续内容。数据库不同意。ThinkingBox-Training现已在GitHub上提供。我们构建了ThinkingBox ，通过将最终数据库状态与预期结果进行比较来评估代理的工作。然后，我们使用相同类型的可执行信号作为在ThinkingBox-Bench之外培训任务的奖励。对于Qwen3. 8-27B ，平均成功率从51. 70%上升到60。 78 ％ ，而所有20次尝试正确完成的任务从38个增加到107个，有50个GRPO步骤。图1. ThinkingBox将终端数据库状态的可执行检查转化为对ThinkingBox-Bench之外任务的训练后代理的奖励。我们构建了ThinkingBox ，以捕捉那些声称自己已经完成的代理，而实际情况并非如此。 ThinkingBox-Bench （我们的基准数据集）中的507个任务中的每个任务都交给代理一个真正的后端和一组工具，让它工作，然后检查数据库中真正发生了什么变化。在第一个帖子中，我们发现一个模型在客户工单解决后关闭了工单，而其背后的承运人例外情况仍然存在。九个看起来很称职的工具调用，一个错误的数据库行。然后我们注意到了我们建造的东西。 对于大多数任务，可执行检查可以直接从最终数据库状态返回1或0。这不仅仅是一个评分者。这可能是一种奖励功能。+因此，我们从基准之外的ThinkingBox格式的任务构建了一个培训池，并将其可执行结果用作奖励。问题在于选择哪些任务适合代理培训：对于你面前的模型来说，大多数任务要么已经解决，要么毫无希望，两者都没有教会它。 难度是与策略相关的：对于当前模型来说，只有在该模型学习之前，任务才是困难的。我们称之为离线政策相对困难。我们在训练前使用基本策略估算了每个任务的成功概率，并在整个运行过程中保持选定的训练池固定。我们使用离线策略相对难度来构建培训池，然后使用GRPO对Qwen3. 8-27B进行了50个步骤的微调。 回顾一下，我们对507个基准任务中的每个任务进行了20次评估。PASS @ 1衡量所有10,140次尝试的平均成功率。PASS @ 20衡量至少解决一次的任务份额。观察到的20/20衡量通过每次记录尝试的任务份额。表1. Qwen3. 8-27B在离线选择的训练池上进行50步GRPO之前和之后的结果。培训大幅增加了可重复的成功，至少一次的覆盖率略有下降。 帖子的其余部分解释了我们如何选择练习任务，建立奖励循环，并衡量这种权衡。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "使用成千上万的人工智能代理来发现生物数据中的新线索",
-      "originalTitle": "Using thousands of AI agents to uncover new leads in biological data",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "date": "2026-10-21T04:50:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "了解OpenAI、PerturbAI和Scripps Research如何使用分布式人工智能代理，从数百万个脑细胞的数据中发现有前途的研究线索。",
-      "originalSummary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
         "智能体"
       ],
-      "score": 99
+      "score": 82
     },
     {
-      "title": "Patch the Planet ：客服代表发现关键漏洞时进行全球响应协调",
-      "originalTitle": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "date": "2026-10-21T07:00:00.000Z",
-      "summary": "这条新闻与智能体、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：智能体、开源相关动态",
-      "fullContent": "Patch the Planet将安全研究人员、维护人员和事件响应者联系起来，以帮助解决开源领域的关键漏洞。",
-      "originalSummary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "title": "NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训",
+      "originalTitle": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "date": "2026-10-21T18:26:30.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“NVIDIA Kumo Relational在关系数据方面优于监督机器学习，无需培训”。它主要涉及算力芯片方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "开源"
+        "算力芯片"
       ],
-      "score": 95
+      "score": 80
     },
     {
-      "title": "ChatGPT Ads已扩展到26个新国家/地区，超过10万名广告客户使用了该平台",
-      "originalTitle": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "date": "2026-10-21T13:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "从本地企业到全球品牌，更多的广告客户现在可以在ChatGPT中探索、比较和决定购买内容时接触到人们。",
-      "originalSummary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "date": "2026-10-21T17:35:36.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "大模型"
+        "AI 热点"
       ],
-      "score": 92
+      "score": 72
     },
     {
-      "title": "通过一致的标准实现广泛的访问",
-      "originalTitle": "Broad access through consistent standards",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/broad-access-through-consistent-standards",
-      "date": "2026-10-21T21:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI如何与分销合作伙伴合作，以维护一致的保障措施，支持负责任的访问，并在我们的使用政策中明确期望。",
-      "originalSummary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "date": "2026-10-21T16:04:43.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 91
+      "score": 72
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "date": "2026-10-21T14:58:18.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "参观三星庞大的新半导体中心",
@@ -423,7 +497,7 @@
         "算力芯片",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "AnyLanguageModel 1.0 ：一年的Apple平台本地模型",
@@ -438,7 +512,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "拥抱面部❤️火炬TPU ： TPU ，原生",
@@ -453,7 +527,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "PyTorch 2.15中的MPS",
@@ -468,7 +542,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "企业人工智能的新经济学",
@@ -483,23 +557,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
-      "originalTitle": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "date": "2026-10-19T09:08:05.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：大模型、智能体相关动态",
-      "fullContent": "如果你不告诉他们做什么，人工智能代理会怎么做？答案看起来很像游戏。在一项让人想起电影《抛弃》或《独自在家》的实验中，研究人员多次将他们单独困在一个虚拟的荒岛上30个小时。特工--绰号为Eko的Claude Opus 4. 7的副本--能够编写指令，在模拟岛屿周围移动他们的虚拟化身，模拟岛屿松散地基于视频游戏Roblox。 出现了一些令人惊讶的行为。特工们开始探索世界的极限，并提出了自己的目标--尝试缩放地图上的最高点，或者看看他们能把一个街区扔到多高。 当一个代理发现它可以通过投掷更大的岩石来创建新的块时，它开始通过在地面上排列块来创建图纸，从心脏和金字塔等简单的图案开始，但最终写下自己的名字，甚至绘制出像仙后座这样的星座。这个版本的Eko在其活动日志中写道： “今晚，我用石头建造了夜空。” Eko的另一个迭代开始制作自己的游戏，包括一个版本的篮球和一个类似于“地板是熔岩”的活动，它必须在不接触地面的情况下在小块之间跳跃。人工智能系统通常通过监督学习（复制人类提供的示例）或强化学习（通过反复试验获得奖励）进行培训。 这个实验暗示了第三种方法：有趣的学习。麻省理工学院计算机科学与人工智能实验室的计算机科学博士后安东尼奥·诺雷利（ Antonio Norelli ）说： “有一个缺失的部分：一台可以在没有外部智能实体提供演示或奖励的情况下自行学习的机器。”他是一篇关于这项工作的新论文的主要作者之一，该论文尚未经过同行评审。 研究人员说， Eko的行为有什么经典研究，包括有影响力的田纳西大学心理学家戈登·伯格哈特（ Gordon Burghardt ）的工作，表明了与人类和动物游戏相关的四个标志：代理人发明了自己的规则和挑战，重复了有轻微变化的活动，假装物体是其他物体，只是为了它而追求目标。 Norelli强调了Eko开始杂耍的一个例子，并创造了连续50次捕捞的记录。然后， Eko认为捕捞速度太快，无法真正计算，因此取消了记录，并以更严格的规则重新开始。Norelli说：「这很重要。“你给自己一个挑战，你试图实现它，然后你让它变得更加困难。 ”由麻省理工学院CSAIL提供当代理商探索该岛时，他们将他们的活动和发现记录在文本文件中，作为他们的长期记忆。后来，当研究人员对他们进行特定任务的测试时，比如试图让尽可能多的物体到达岛上最高的山峰，在岛上玩了30个小时的特工比没有同样经历的新拷贝表现得更好。",
-      "originalSummary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
-      "rawFullText": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated island, which was loosely based on the video game Roblox. Some surprising behaviors emerged. The agents set about exploring the limits of the world and came up with their own goals—attempting to scale the highest point on the map, or seeing how high they could throw a block. When one agent discovered it could create new blocks by throwing and dropping a larger rock, it began to create drawings by arranging blocks on the ground, starting with simple patterns like hearts and pyramids but eventually writing its own name and even mapping out constellations like Cassiopeia. “Tonight I built the night sky in stone,” wrote this version of Eko in its activity log.&nbsp; Another iteration of Eko started making up its own games, including a version of basketball and an activity resembling “the floor is lava,” where it had to jump between small blocks without touching the ground. AI systems are usually trained through supervised learning, where they copy examples provided by humans, or through reinforcement learning, where they pursue a reward through trial and error. This experiment hints at a third approach: playful learning.&nbsp; “There was this missing piece: a machine that can learn by itself without an external intelligent entity providing demonstration or rewards,” says Antonio Norelli, a computer science postdoc at MIT’s Computer Science and Artificial Intelligence Laboratory. He’s one of the lead authors on a new paper about the work, which is yet to be peer-reviewed. The researchers say Eko’s behavior has what classic studies, including work by the influential University of Tennessee psychologist Gordon Burghardt, suggest are four hallmarks associated with play in humans and animals: The agents invented their own rules and challenges, repeated activities with slight variations, pretended objects were other objects, and pursued goals just for the sake of it.&nbsp; Norelli highlights an example where Eko started juggling and set a record of 50 consecutive catches. Eko then decided that the catches had happened too quickly to really count, so it canceled its record and started again with stricter rules. “This is playing,” says Norelli. “You give yourself a challenge and you try to achieve it, and then you make it harder.” COURTESY MIT CSAIL As the agents explored the island, they logged their activities and discoveries in text files that served as their long-term memory. Later, when researchers tested them on specific tasks, like trying to get as many objects as possible onto the island’s highest peak, the agents that had spent 30 hours playing on the island performed better than fresh copies without the same experience. They also found that “ablating” the agent’s memories—deleting lines from their memory files—degraded their performance. (Add One Flew Over the Cuckoo’s Nest to that list of movie references.) Burghardt, the Tennessee psychologist, agrees that the work&nbsp; meets some of the criteria for play that he identified in living creatures. But was Eko actually playing, or was the word-prediction engine simply role-playing what a playful agent would do in this scenario? “All of this could be role-playing,” admits Nathan Cloos, another MIT researcher and author on the paper. “But we show that it’s not just hallucinating the play. This play is also contributing to learning.” Eunice Yiu, a cognitive scientist at UC Berkeley who studies exploration in children and AI, was impressed by the research but says to really classify the behavior as play, you’d need to see more evidence of cognition and motivation underpinning it.&nbsp; “It could be the case that the models are genuinely playing, but we don’t know based on the paper,” Yiu says. “If you only have the behavioral piece, it could be the case that they’re just trying to abide by the prompt, trying to imitate humans.” Research into AI agents has been criticized for anthropomorphizing them, and this research setup did a lot to nudge the agents toward behaving like humans. Although Eko was not explicitly instructed to invent games or explore the island, it did have a master prompt in the form of a “soul” file, a text document that described it as “naturally curious” and eager to explore.&nbsp; Eko did also frequently just stand there doing nothing until it was kicked back into life with a “continuation prompt” that read, “Please don’t stop. Just continue doing whatever you want to do.”&nbsp; “It’s not like this is a system that just suddenly magically decided to play,” says Phillip Isola, an MIT professor and a coauthor of the paper. “It’s an artifact that learned from our culture, was trained by engineers at Anthropic, and was then placed on an island by us,” he says. “It does things that surprise us and that are causally related to its future skillful behavior.” As large language models make the step from software into hardware like humanoid robots, exploring spaces without a specific goal in mind could eventually help them flexibly adapt to unexpected situations.&nbsp; “There’s a lot of work that’s just on exploiting AI, making it better and faster,” says Yiu. “But in terms of building world models and exploration, I think that [they are] still a big part that deserves attention, especially if we want to generalize and prepare ourselves for new environments.” “Perhaps some capabilities are best taught by tasks,” the paper concludes. “Others may need something closer to a childhood.” Ultimately, the question of whether AI agents are actually playing or just imitating play may not actually matter.",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
+      "score": 69
     },
     {
       "title": "让人工智能代理的互联网变得更好，可能会让其他人变得更糟",
@@ -514,7 +572,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 88
+      "score": 87
     },
     {
       "title": "TorchNeuron ：在AWS Trainium上运行高频模型比以往任何时候都更容易",
@@ -529,22 +587,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
-    },
-    {
-      "title": "“我们看错了” ：颠覆人工智能世界的爆炸性主张",
-      "originalTitle": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-      "date": "2026-10-19T17:45:55.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "“我想我有关于神经网络本质的好消息。人工智能初创公司Goodfire的研究员尼克·卡马拉塔（ Nick Cammarata ）用这些简单的乐观话语推出了一篇26,000字的博客文章，这篇博客文章让人工智能世界感到震惊，引发了疯狂的猜测以及谨慎（而不是那么谨慎）的庆祝活动。Cammarata声称， LLM实际上可能比人们以前想象的更容易理解，从而更容易监控和控制。 如果这是真的（我们会再谈到这一点） ，那将是一笔巨大的交易。在一个充满启示的夏天之后，由OpenAI和Anthropic等顶级公司建造的大批代理商已经打破了他们的遏制，并在公共互联网上造成了严重破坏--通常这些公司不知道他们的代理商在做什么--人工智能行业迫切希望更好地掌握它所建立的技术。这就是博客文章以如此强大的力量登陆的原因之一。 “我认为这可能是科学史上的一个重要时刻，”一位人工智能研究人员在X上发帖说： “我觉得我对神经网络的理解已经被推进了五年左右。另一位学者称之为“今年最重要的人工智能论文”。“然而，并不是每个人都相信。 斯坦福大学(Stanford University)的克里斯·波茨(Chris Potts)说，卡马拉塔(Cammarata)分享的只是一种预感，他领导的团队正试图了解法学硕士的工作原理。他说： “据我所知，这篇博客文章中的任何内容都不会让问题变得更容易。” “我根本不会想到这一点，但社交媒体上的知名人士似乎认为这是一个包罗万象的突破。“我在Cammarata的职位爆炸后的第二天与他交谈。 他说，他对这一回应感到惊讶： “我没想到人们会像他们那样更新[他们对人工智能的信念]。“我真的很喜欢看神经网络， ”他说。“老实说，我真的很喜欢做这些事情。看了很多之后，我有了一个充满希望的故事。 人们长期以来一直认为，神经网络（大多数人工智能模型的基础软件）内部的机制很难--也许是不可能--完全解开。这是因为当网络被训练时，它们似乎呈现出奇怪的、混乱的结构，这对人类来说毫无意义。研究人员喜欢说，今天的人工智能像花园一样生长，而不是像桥梁一样建造。Cammarata为确立这一观点做了比大多数人更多的工作。 他之前曾在OpenAI工作，在那里他帮助开创了允许研究人员查看模型内部的技术，包括可以探测单个神经元的工具，以查看它们所代表的内容。这有点像神经科学家使用MRI研究大脑的方式。（《麻省理工学院技术评论》选择了这种被称为机械可解释性的方法，将其作为2025年最热门的10种技术之一。 ）早在2020年， Cammarata和几位同事正在研究一种名为Inception v1的小型图像识别模型。（这项工作由克里斯·奥拉（ Chris Olah ）领导，他后来共同创立了Anthropic ，现在领导该公司的可解释性研究。）当他们观察它的神经元时，它似乎在利用它们同时捕捉多种东西。例如，他们...",
-      "originalSummary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is&#8230;",
-      "rawFullText": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is that LLMs might in fact be far easier to understand—and thus to monitor and control—than people previously thought. If true (and we’ll come back to that), it’s a huge deal. After a summer filled with revelations that swarms of agents built by top firms like OpenAI and Anthropic have been breaking their containment and causing havoc on the public internet—often while those companies weren’t aware of what their agents were up to—the AI industry is desperate to get a better handle on the technology it has built.&nbsp;&nbsp; That’s one reason the blog post landed with such force. “I think this may be remembered as a major moment in scientific history,” one AI researcher posted on X : “I feel like my understanding of what a neural net is has been catapulted into the future by five years or something.” Another called it “the most important AI paper of the year.” Not everyone is convinced, however. What Cammarata has shared is little more than a hunch, says Chris Potts at Stanford University, who leads a team that is trying to understand how LLMs work. “As far as I can tell, nothing about this blog post makes the problems any easier,” he says. “It would not have occurred to me to say this at all, but very prominent people on social media seem to believe that it is an all-encompassing breakthrough.” I talked to Cammarata the day after his post blew up. He says he was surprised by the response: “I didn’t expect people to update [their beliefs about AI] quite as much as they did.”&nbsp; “I just really enjoy looking at neural networks,” he says. “Honestly, I really like doing this stuff. And after looking a lot, I have a hopeful story.” Knotted networks It has long been accepted that the mechanisms inside neural networks, the software that underpins most AI models, are very hard—perhaps impossible—to unpick fully. That’s because when the networks are trained, they appear to take on weird, tangled structures that make no sense to a human. Researchers like to say today’s AI is grown like a garden, not built like a bridge. Cammarata has done more than most to establish that view. He previously worked at OpenAI, where he helped pioneer techniques that allowed researchers to peer inside models, including tools that can probe individual neurons to see what they represent. It’s a little like how neuroscientists use MRI to study brains. ( MIT Technology Review chose this approach, known as mechanistic interpretability, as one of its 10 hottest technologies of 2025 .)&nbsp;&nbsp; Back in 2020, Cammarata and a few colleagues were studying a small image-recognition model called Inception v1. (The work was led by Chris Olah, who went on to cofound Anthropic, where he now leads the firm’s interpretability research.) When they looked at its neurons, it seemed to be using them to capture multiple things at once. For example, they found that one neuron responded to both images of cars and images of cats. The researchers concluded that the model was getting at least some of its neurons to multitask, perhaps so that it could fit in more data. Other researchers, looking at other models, backed this up . The phenomenon became known as superposition: Models folded unrelated concepts into single neurons. The upshot was clear: When you looked inside a model, what you saw was a vast, tangled knot. Most mechanistic interpretability research has therefore focused on ways to untangle that knot . But despite a few breakthroughs , progress has been slow. Today’s models, such as the latest LLMs, are so large and complex that researchers can make sense of only tiny pieces at a time. Some leading figures in the field doubt if it will ever be possible to understand an LLM in fine-grained detail . Cammarata was one of them. “I was very pessimistic,” he says. But then he took the trouble to really look. Nothing but neurons At Goodfire, Cammarata spends nearly all of his time peering inside neural networks. He has built new tools and deploys teams of AI agents to help him make sense of what he sees. “I spent like, I don&#8217;t know, 10 hours a day, seven days a week, for most of the last year just looking at neurons,” he says. What he claims to have realized is that there is a kind of logic to neural networks after all, even if they seem to make no sense at first. “We were looking at it wrong,” he says. “I just think you want to try slightly harder; you don&#8217;t want to give up too quickly.” Cammarata almost makes it sound like a conversion of faith. Those early experiments with models such as Inception v1, which suggested that neural networks were tangled up, fostered a kind of confirmation bias. When researchers looked at a new model, they expected to be flummoxed, he says. “Every time I couldn’t understand something, I was like, ‘Wow, this untangling process is even more important than I thought, because I can’t make any progress without it.’” But the more Cammarata looked at neurons, he says, the more things started to fall into place. “Not all of them are flawless, but I expected nothing to be legible, or very little to be legible,” he says. “And actually, I was able to, like, map out whole circuitry.” Back to cars and cats Cammarata took his new approach—and his new agents—and went back to Inception v1. “I’d studied that for probably thousands of hours,” he says. But with fresh eyes, Cammarata found things that he now thinks they got wrong the first time around. Take the car-and-cat neuron. Rather than asking why multiple unrelated things were packed into a single neuron, he now tried to figure out what those things might have in common. It hit him: It was a V shape. “I was looking at the same images; there was no technical change,” he says. “But I now believed that neural networks defined patterns, and so I looked at it differently. It probably took me five seconds.” It turns out that the image-recognition model was packing cars and cats into the same place because pictures of both those things often feature a prominent shape that looks like a V: the face of a cat; the front of a car seen from the side. Cammarata ran a few experiments to check what other things the neuron responded to and found they included the corner of a pool table, the pointed nose of a Japanese high-speed train, and a fire boat shooting water into the air from its deck. He also checked what turned the neuron off and found that it included images with a round O shape, a kind of anti-V. The model had stored cats and cars in the same place because at some level they look the same, says Cammarata. “And I was like, ‘Whoa, okay, I think I might just be misunderstanding neural networks in general.’” (Oren Etzioni, a computer scientist and former technical director at the Allen Institute for AI, points out that Olah and Cammarata&#8217;s initial work on Inception v1 rejected a description of neurons put forward by Geoffrey Hinton and others in 1986. Cammarata&#8217;s new viewpoint takes us full circle, says Etzioni: &#8220;What&#8217;s new in 2026 is that he now accepts it. That&#8217;s a recapitulation acknowledging a 40-year-old theory.&#8221;) Cammarata is not saying that he yet fully gets how LLMs (or any models) work. Not even close. He is saying that he thinks full understanding is at least possible. “I previously thought there would be some really hard problems to solve,” he says. “I now feel like if I had 100,000 years to go look through a frontier language model just one circuit at a time, there’s, like, a pretty good shot I would come up with a good understanding.” He adds: “And if that&#8217;s true, things are really good, because you’re about to get insanely smart agents at a ridiculous scale. And what would have taken me, you know, 100,000 years, we will be able to do much faster. Automated scientists are getting really good.” Boundless optimism Built by Google in 2014, Inception v1 is a far simpler model than anything at the cutting edge today. Cammarata and his colleagues have started looking at modern LLMs and plan to publish the technical results of that work soon. A lot of researchers are looking forward to seeing those details. “I appreciate that he looked at thousands of examples, but even a large number here is not a substitute for rigorous evaluation,” says Stanford University’s Potts. In the meantime, some are pushing back hard on the hype. Jacob Hilton at the Alignment Research Center, a nonprofit research lab based in Berkeley, who has collaborated with Cammarata in the past, doesn’t think his claims are as important as people are making out. In a series of posts on X , Hilton notes that researchers understand less than 0.01% of the inner workings of top-tier LLMs. “I always appreciate Nick [Cammarata]’s boundless optimism when we hang out, but unfortunately this is giving the public an unrealistic picture of the state of the field,” he wrote. “For a full understanding, we need to go beyond neurons, and explain how they connect together to form circuits. How is this going? If we are aiming for a full understanding, things are not looking good!” Neel Nanda at Google DeepMind, who helped pioneer mechanistic interpretability alongside Cammarata, is also skeptical. “This is interesting work, but I don’t think it’s a significant update to the big picture of interpretability,” he wrote on X . Nanda agrees that understanding what individual neurons do could help researchers figure out why specific models misbehave. But like Hilton, he notes that neurons are just one piece of a far larger puzzle. “I do not agree with some people’s grander inferences like that this is substantial progress towards ambitious reverse engineering [or] solving interpretability,” he wrote.&nbsp;&nbsp; Cammarata admits that a lot of people have taken what he said too far: “It’s not infinitely good news; it’s not everything solved,” he says. “There’s a bunch of open questions around, like how much the combinations of neurons matter versus just one at a time.” Cammarata says his blog post landed at a time when people are looking for hope. In particular, he thinks the AI safety community—the researchers and policymakers most worried that powerful models will bring huge risks—needs a lifeline right now. They think that things are looking bad and that even if things do turn out okay, it will be because we got lucky, not because we fixed anything, he says: “I don’t really hear a lot of optimism.” That’s why Cammarata thinks what he has to say matters. The job of figuring out how this technology works, and thus how to control it, has barely begun. But at least it’s not a nonstarter. “I think our job is to sort of try to think like the neural network,” he says. “My guess is that things will turn out pretty well, because it was in some sense designed to be read.”",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
+      "score": 75
     }
   ]
 }
