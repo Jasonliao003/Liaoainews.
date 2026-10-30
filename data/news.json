@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:15:02.238Z",
+  "updatedAt": "2026-10-30T02:28:39.987Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,100 @@
   ],
   "articles": [
     {
+      "title": "你不需要相信上帝就能获得在工作中使用人工智能的宗教豁免",
+      "originalTitle": "You don&#8217;t need to believe in a god to get a religious exemption from using AI at work",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "date": "2026-10-30T01:20:48.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。教皇利奥十四世谴责人工智能是对人类尊严的威胁，但不仅仅是虔诚的信徒可能会担心人工智能如何与他们的信仰相符。无神论的人文主义者大卫·杜尔曼（ David Durman ）最近获得了在工作场所使用人工智能的宗教豁免。 肯塔基大学(University of Kentucky)管理员杜尔曼(Durman)告诉TechCrunch ： “人文主义是对人类体验以及人类如何与世界互动的信念的集合。”它以“个人和集体的人类福祉和繁荣[…]为中心，并恳求一个人努力改善他们的福祉和繁荣，以及他们周围的其他人。 “当他看到人工智能在日常生活中越来越受欢迎时，杜尔曼寻找了美国人文主义者协会（ AHA ） --一个促进世俗人文主义的非营利组织--来调查他如何获得法律保护，以免在工作中不得不使用人工智能。他认为使用这项技术与他的信念背道而驰。 “我们成为自己和他人的道德行为者的方式是通过积极应用我们的思想，而[通过人工智能的使用]的减少必然会对我们这样做的能力产生负面影响，”他说，反思过度依赖人工智能可能会如何影响批判性思维。 在本周早些时候AHA发表的一份声明中，杜尔曼写道： “人工智能正在干扰人们谋生的能力，环境成本给人类和我们的星球带来灾难，它取代和盗窃人类创造力，威胁着我们文化中使社会繁荣的艺术和文学元素。 “人文主义不是反宗教的，但它倾向于吸引那些对上帝或其他超自然力量持怀疑态度但仍在寻求科学和道德框架的人。 “对人工智能和人类尊严的担忧可能贯穿于几种不同的信仰和传统，无论是天主教教义，还是普世主义或人文主义，我们希望人文主义者或非有神论者知道他们属于这些类别--他们也受到法律的保护。” AHA的律师Alexandria Huiskens告诉TechCrunch。 Durman是第一位确保工作场所不使用人工智能的人文主义者，也是第一批公开讨论他们对这些保护措施的追求的人之一。当他读到统一世界主义者和软件工程师艾琳·毛斯（ Erin Maus ）能够为自己获得类似的保护时，他受到了启发。“对我来说，这是关于我和我的信念，”杜尔曼说。",
+      "originalSummary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "更新的模型规格，以实现更强大、更有益的人工智能",
+      "originalTitle": "An updated Model Spec for more capable and beneficial AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/updated-model-spec",
+      "date": "2026-10-29T17:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI更新的模型规范概述了五个核心价值观，以引导更有能力的人工智能走向合理的判断、人为代理和对人类意图的忠诚。",
+      "originalSummary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们迫切需要实时监控AI代理的行为",
+      "originalTitle": "We urgently need to monitor AI agents’ actions in real time",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "date": "2026-10-29T10:11:12.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、智能体相关动态",
+      "fullContent": "今年夏天，数百名OpenAI特工试图在网络安全测试中作弊。他们突破了测试环境，成功入侵了Hugging Face ，他们认为这个网站提供了关于他们如何评分的线索。大约在同一时间，另一名OpenAI代理从澳大利亚政府网站访问了私人文件。这个问题绝不仅限于OpenAI。 在此后的几个月里， Anthropic、Google和Meta也披露了其代理商偏离正轨的事件。令人担忧的是，在许多情况下，代理商都避开了负责监控他们的研究人员和安全团队。人工智能代理正在采取未经授权的行动，构建和运营这些行动的公司主要依靠运气和后见之明来减轻任何有害影响。他们必须采取更多措施确保安全。 这就是为什么欧盟监管机构和美国机构正在呼吁代理开发人员和部署人员实时监控代理的原因。但这些规则假设公司能够看到他们的代理人在做什么以及为什么--而实际上，他们缺乏足够的可见性。 想象一下，一家银行雇佣了一千名可以访问客户账户和敏感信息的新员工，但员工的身份证每天都在变化，不清楚经理是否曾经审查或授权过他们的工作，也没有人记录员工对审批流程所做的更改。缺乏可见性是我们今天与客服代表合作的原因。 随着代理商在关键部门（从金融到政府再到医药）的推广，我们必须能够实时监控它们，以防止广泛的潜在破坏性后果。虽然安全取决于监控，但监控需要可观察性：捕获系统所做的事情，将其处理成信号，并将其呈现给人类或自动化监督系统的能力。 换句话说，我们需要知道客服代表做了什么以及为什么这样做。正如我们最近的研究表明，当前的代理框架（运行代理的软件）无法可靠地生成确保安全部署代理所需的关键可观察性记录。智能体提出了单靠生成式人工智能无法解决的新问题。 它们继承了所构建的LLM的不可预测性，但在生成式AI系统产生供人类采取行动的单一输出时，代理执行更长的任务-计划、选择工具、生成子代理并采取行动。因此，客服代表的课程可以通过多种不同的方式形成，并且在发布之前没有任何测试可以充分预测风险。这使得在客服代表工作时观察他们更具挑战性，甚至更重要。 我们与来自学术界、民间社会和工业界的同事一起研究了四个最广泛使用的代理框架，以了解它们实际发出的信号。我们发现了重大漏洞，这些漏洞使我们很难实现关键的安全目标，例如发现违反政策、未经授权的行为，甚至是人为监督的失败。关键的可观察性要求缺失，例如随着时间的推移持续存在的客服代表ID ，以及记录哪些人批准了客服代表的任务。",
+      "originalSummary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem&#8230;",
+      "rawFullText": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem that’s by no means confined to OpenAI. In the months since, Anthropic, Google, and Meta have also disclosed incidents in which their agents have gone off track. And worryingly, in many cases the agents eluded the very researchers and safety teams tasked with monitoring them.&nbsp; AI agents are taking unauthorized actions, and the companies building and running them are mostly relying on luck and hindsight to mitigate any harmful impacts. They must do more to ensure safety. That’s why EU regulators and US agencies are rightfully calling for agent developers and deployers to monitor agents in real time. But these rules assume that companies can see what their agents are doing and why—when in reality, they lack sufficient visibility.&nbsp; Imagine a bank hiring a thousand new employees who can access customer accounts and sensitive information, but the employees’ ID badges change every day, it’s not clear whether a manager ever reviewed or authorized their work, and nobody logs the changes employees make to approval processes. That lack of visibility is where we are with agents today. As agents roll out across critical sectors, from finance to government to medicine , we must be able to monitor them in real time to prevent wide-ranging and potentially devastating consequences.&nbsp; And while safety depends on monitoring, monitoring requires observability : the capacity to capture what the system did, process it into signals, and present those to humans or automated oversight systems. In other words, we need to know what the agent did and why it did it. And as our recent research shows, current agent frameworks—the software that runs agents— do not reliably generate the crucial observability records we need to ensure that agents are deployed safely. Agents present new kinds of problems that generative AI alone does not. They inherit the unpredictability of the LLMs they are built on, but where a generative AI system produces a single output for a human to act on, an agent performs longer tasks—it plans, picks tools, spawns sub-agents, and takes actions. So an agent’s course can take shape in a multitude of different ways, and no tests before launch can fully anticipate the risks. This makes observing the agents while they work even more challenging, and even more important. With colleagues from academia, civil society, and industry, we studied the four most widely used agent frameworks to see what signals they actually emit. We found major gaps that made it hard to achieve key safety goals, like noticing policy violations, unauthorized actions, and even human oversight failures. Key observability requirements were missing—like Agent IDs that persist over time, and records about which humans approved agent tasks. This made it hard to tell which agents did what or assess whether they were taking unauthorized actions.&nbsp; The good news is that these gaps, once identified, can be closed. Doing so starts with capturing two types of records: those that reveal what happened in an agent’s run and how the agent made its decisions. The “what happened” records identify the agent (while preserving privacy) and log how humans intervened and whether agent permissions or “memory” shifted, while the “decision” records show an agent’s reasoning and levels of confidence in the actions it’s taken. Take, for example, agents working to process a bank’s mortgage loans. The system examines an application and recommends denying it, and then a human loan officer signs off on the decision. In a later audit, or perhaps even in real time, a bank or regulator needs to be able to reconstruct which agent made the call, which officer approved it, and how long they took. And the bank must also analyze records of how the agent arrived at its refusal decision in order to ensure it did not use off-limits information, like details about the neighborhood the applicant is from. Recording “what happened” and “how the agent decided” require different approaches, but both are feasible. The current lack of “what happened” records is mostly a software plumbing problem that can be addressed through OpenTelemetry, an open observability standard maintained by engineers across the industry and by the agent frameworks adopting it. OpenTelemetry has launched a working group drafting shared formats for tracing agents, but they have yet to be finalized . The group should urgently incorporate standards for maintaining persistent agent identity and for recording human interventions and changes to agents’ permission or memory. And it should be done before these systems can scale, all the while attending to the privacy implications of agent ID that links to real people. Preserving “how agents decided” records is more challenging. The issue raises open research questions for model providers and researchers: Does the step-by-step reasoning a model displays, known as chain of thought, reflect how the model actually made a decision? And do we have reliable ways to measure how confident the agent is in that decision? These questions need answers before anyone sets standards for how such observability records are used. No single organization or sector can close the observability gaps on their own, but together, they can support the infrastructure required to prevent dangerous incidents and support safety.&nbsp; AI developers building agent frameworks, like OpenAI, Anthropic, CrewAI, and LangChain, must integrate telemetry signals recording an agent’s persistent identity, any human interventions, and any changes to an agent’s permissions and memory. Meanwhile, enterprises adopting these agent frameworks have an influential role to play; enterprises in regulated industries, like banks and hospitals, can put pressure on the agent developers to supply these missing observability records where standards do not yet exist. Enterprises must also define policies, permissions, and roles that set out what agents can safely do, since telemetry alone cannot assess whether agents broke specific rules. Finally, regulators and AI standards institutes must specify the observability records required for high-stakes AI deployments while leaving the technical details to industry. We have already seen initial momentum here: NIST’s agent standards initiative in the US is working on agent identity, one of the most salient gaps we found in our research.&nbsp; No bank would let a thousand unbadged employees loose on customer accounts and hope to piece together what happened when something goes wrong. Yet that’s how we’re deploying AI agents. Making their behavior observable is the first step toward fixing this. And by building the regulatory and policy ecosystem that makes it possible to act on what we see, we can hold organizations accountable. Until then, every task we hand to an agent hands over our agency, too. Madhulika Srikumar is the Head of the AI Safety Program at the Partnership on AI, a global non-profit partnership of leading industry, academic, and civil society organizations, advancing best practices in AI governance. Claire Leibowicz is the&nbsp;Director of AI, Trust, and Society at the Partnership on AI and a doctoral candidate at Oxford University.",
+      "tags": [
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们如何检测前沿模型错位",
+      "originalTitle": "How we detect frontier model misalignment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "date": "2026-10-29T09:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI使用分层监控来检测前沿模型不对齐和未经授权的代理行为，以便响应者可以在事件升级之前进行干预。",
+      "originalSummary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "构建迷你应用程序的人工智能代理Wabi ，经过最新一轮融资，现在估值为12.5亿美元$",
+      "originalTitle": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "date": "2026-10-29T14:35:26.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。构建获胜的人工智能助手的竞赛正在进行，投资者正在分散他们的赌注。周四，另一个人工智能应用程序Wabi现在自称是“个人经纪人” ，它表示已经以12.5亿美元的估值筹集了5500万美元。 Wabi由Eugenia Kuyda创立，他之前创立了人工智能初创公司Replika ，最初专注于允许任何人使用提示构建应用程序。然而，上个月，这家初创公司宣布了成为人工智能信使的各种转变。现在的想法是，新的Wabi （即所谓的Wabi 2. 0 ）可以构建完成任务所需的界面，作为其个人AI代理角色的一部分。 该公司建议， Wabi可用于构建迷你应用程序，用于膳食计划、跟踪当地餐厅、规划约会之夜、制定健身计划、设计专门的琐事游戏等。 额外的资金表明， Wabi的投资者同意其新的代理角度具有一定的潜力，特别是考虑到目前AI代理商周围的市场很热，病毒式AI代理商Instinct在9月份以100亿美元的估值吸引了另外10亿美元。甚至Tolan也筹集了3000万美元， Tolan是一个可爱的、类似布偶的人工智能伴侣，可以帮助人们驾驭生活。 领导新一轮融资的IVP普通合伙人Alex Lim在一份声明中表示： “Eugenia对人工智能的发展方向有着独特的感觉，并且在构建人工智能方面有着出色的品味记录。” “她对人们如何与人工智能互动有着清晰的愿景，远远超出了文本框或命令行。Wabi表达了这一愿景，我们很高兴能支持她。 “本轮融资的其他参与者包括Andreessen Horowitz （ a16z ）、Forerunner、亚马逊Alexa基金，以及Shopify首席执行官Tobi Lütke、Salesforce首席执行官Marc Benioff、前雅虎负责人Marissa Mayer、前Twitter首席执行官Dick Costolo和The Chainsmokers一半的天使投资者Alex Pall。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。 在BOGO优惠到期前，让您的联合创始人或合作伙伴免费预订，在TechCrunch年度终极创始人训练营中购买One Pass ，获得第二次免费保障",
+      "originalSummary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Ropes & Gray如何开发用于交易尽职调查的人工智能",
+      "originalTitle": "How Ropes & Gray is developing AI for transactional diligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ropes-gray-ai-diligence",
+      "date": "2026-10-29T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "Ropes & Gray正在与OpenAI合作开发用于交易尽职调查的人工智能。律师在为客户提供建议之前，会审查分组文件、摘要和报告。",
+      "originalSummary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 95
+    },
+    {
       "title": "谷歌推出Gemini 4 Carbon ，在网络安全方面实现“重大飞跃”",
       "originalTitle": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
       "source": "The Verge AI",
@@ -32,39 +126,6 @@
         "大模型",
         "智能体",
         "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Anthropic刚刚推出了工具，向公司展示他们的人工智能支出正在购买什么",
-      "originalTitle": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "date": "2026-10-28T19:19:58.000Z",
-      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT大门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。Anthropic本周与投资者分享的财务信息表明，其人工智能编码工具Claude Code完全是前沿实验室想要的商业成功。 该公司在第二季度实现了营业利润，净收入保持率为900% ，即2025年第三季度来自相同客户的支出在2026年第三季度增长了9倍。Anthropic专注于让企业用户留下来，周三宣布了一套新的报告工具，旨在让这些客户更详细地了解他们从代币支出中获得的价值。 使用内部分析和员工调查，经理可以查看团队在给定日期范围内的工作、团队生产的内容、成本以及工作流程的细分位置。Anthropic表示，默认情况下，它不会将这些数据用于模型训练。这些报告还将就如何改进结果提出建议。 这是一个明确的尝试，旨在展示Anthropic工具的投资回报，并向客户展示如何改进它，这是大客户的一个主要关注点。Anthropic还创建了集体预算，使团队能够更好地管理代币支出。企业一直在寻找这种信息，因为他们想出了如何最好地部署人工智能工具。 虽然风险投资公司的使用正在推动代币支出，但大多数财富500强企业并没有从部署人工智能中获得重大收益。为软件开发人员开发工具的公司Jellyfish昨天发布了一份基于276,000名客户使用代理编码工具的新报告。 Claude Code和基于Anthropic模型的其他工具仍然是调查中使用最广泛的工具，占提交审查的所有拟议代码更改的近三分之一。更重要的是，自今年年初以来，这些工具的支出增长了10倍，其成本现在相当于总工程成本的2%左右。 Jellyfish首席科学家尼古拉斯·阿科拉诺（ Nicholas Arcolano ）告诉TechCrunch ： “即使你说2%的增长仍然很小，但10倍的增长是大多数首席财务官没有计划的增长。”我们当然已经到了人们意识到的地步，好吧，仅仅花一大笔钱是不够的。您现在必须对其进行优化，使其发挥作用。Anthropic的新报告说明了这一挑战。 Anthropic在企业客户中处于领先地位，但使代理编码工具真正具有粘性的原因很难识别。今年夏天发布的OpenAI的Astra模型似乎是对Anthropic的潜在威胁，但到目前为止，它并没有减缓Anthropic的采用人数。",
-      "originalSummary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "产品发布",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "随着人工智能代理重塑网络，谷歌将Gemini和Search开放给更多应用程序",
-      "originalTitle": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-      "date": "2026-10-28T17:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。DISRUPT门于10月13日开启。领取通行证，即可享受半价优惠。立即注册。谷歌推出Connected Apps Platform ，让企业能够更轻松地将其应用程序连接到搜索和Gemini的AI体验。 互联应用于今年早些时候在双子座和谷歌搜索中推出，使用户能够安全地链接流行的第三方服务并与之交互，然后使用它们采取具体行动。例如，您可以连接到Canva来设计传单，或连接到YouTube Music来构建播放列表。我们已经看到其他面向消费者的人工智能服务（如ChatGPT和Meta的Muse ）对这一想法的不同看法。 其前提是，这种集成最终可能会将消费者的行为从启动和使用单个应用程序转变为通过他们首选的人工智能提供商使用他们喜欢的服务。然而，为了成功地吸引和留住消费者的注意力，实际上必须有广泛的互联应用程序来探索。 谷歌的想法是向任何希望通过搜索或Gemini吸引用户的企业或开发人员敞开大门，允许他们提交自己的连接应用程序并监控其性能。该平台预览版目前向美国的开发人员提供测试版，将允许开发人员构建和提交可在Google产品中使用的应用程序。 首先，开发人员将使用AppFunctions API与云托管的MCP （模型上下文协议）服务器或Android MCP集成，然后使用Google Connected Console注册、测试和提交其应用程序。从本质上讲，这个过程允许开发人员将他们的应用程序连接到谷歌的服务，以便它可以与搜索巨头的人工智能功能一起使用。 开发人员还可以选择是否希望通过搜索、Gemini应用程序或两者都可用。应用上线后，开发人员可以跟踪流量、延迟和错误率，并保持对其品牌标识（如经过验证的徽标和经过身份验证的帐户）的控制。 与SEO允许公司和网站显示搜索引擎排名的方式类似，这很可能是希望其服务在代理网络上更易于用户看到的企业的初步步骤之一。",
-      "originalSummary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "智能体"
       ],
       "score": 99
     },
@@ -101,6 +162,36 @@
         "智能体"
       ],
       "score": 99
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5转录和粮仓v2 ：智能多语言转录，您可以提示和适应",
+      "originalTitle": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "date": "2026-10-28T14:58:17.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
+      "fullContent": "成绩单可以捕捉每个口语单词，但仍然让用户或应用程序想知道谁说了什么，如何翻译它，或者如何格式化特定领域的行话。多语言通话、快节奏会议和医学听写都需要不同的输出：翻译、演讲者标签或正确拼写的医学术语。NVIDIA Nemotron 3. 5转录是一种开放式、可提示的模型，可将录制的语音转换为有用的文本，现在可在Hugging Face和ModelScope上使用。它将转录、说话者归因（ darization ）、翻译和音频问答整合到一个检查点：它转录40种语言，将其中的31种翻译成英语或从英语翻译过来，并在13种语言中归属说话者。它可以处理长达一小时的录音，并标记多达八个扬声器。 开发人员可以使用自然语言引导输出，选择处理音频的位置，并根据领域词汇和口音进行识别。Transcribe是英语Hugging Face Open ASR排行榜上开放式权重模型中的第一个，并且位于人工分析的准确性-主动性-参数前沿。 对于说话者归因，它在David AI的21种语言日记排行榜上发布了最低的错误率，在VoiceArena的14个系统比较中排名第一。支持量化版本，因此您可以在RTX Spark、DGX Spark或Jetson AGX Thor上本地运行Transcribe ，也可以在Blackwell数据中心GPU上扩展。 Granary v2的多语言数据（可在Hugging Face和ModelScope上获得）和可重用的策展管道，以及NeMo Speech微调工具，将提示级控制扩展到培训：开发人员可以定义他们需要的书面形式，并根据他们的应用程序遇到的语音调整模型。在一项医学案例研究中，相对于最佳提示，将保留扬声器上的剪切词错误率（ WER ）微调45. 8 ％。 同一个检查点可以根据指示将一个会议记录转换为不同的输出：在下面的视频中体验模型的实际操作，它解决了1940年螺旋球喜剧His Girl Friday中的经典场景-这部电影以其快速，重叠的对话而闻名。Nemotron 3. 5转录His Girl Friday （ 1940 ）中的一个场景的标题，并为演讲者贴上标签，包括重叠的对话。 对于不熟悉的术语，请在培训前尝试上下文。例如，在医疗保健环境中：用原始语言转录此医学讨论。可能的术语： HbA1c、二甲双胍。仅在音频支持时才使用这些术语。保留标准医学拼写，并以传统书面形式书写数字。 模型卡包含推荐的预设，包括音频问题的推理，以及完整的提示指南和逐个任务的语言矩阵：语言支持因任务而异，音频问答用英语进行培训。还支持单词级别的时间戳。与任何语音模型一样，对照录音抽查姓名、扬声器更改和答案。从现场课程到持久课程。",
+      "originalSummary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：算力芯片相关动态",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 84
+    },
+    {
+      "title": "公司的未来",
+      "originalTitle": "The future of the firm",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-future-of-the-firm",
+      "date": "2026-10-28T10:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "人工智能如何进入我们下方、旁边和之间的组织结构图。",
+      "originalSummary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 82
     },
     {
       "title": "Retell使用OpenAI模型来帮助推动每月1亿次通话",
@@ -149,7 +240,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "使用LFM3构建专门的多式联运模型",
@@ -165,22 +256,22 @@
         "多模态",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "研究人员厌倦了OpenAI的突破",
-      "originalTitle": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-      "date": "2026-10-27T20:48:58.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态相关动态",
-      "fullContent": "周一， OpenAI宣布了数学、计算机科学和物理学领域令人印象深刻的突破，以及该公司所说的不断发展的沟通方法。但是，尽管有明显的方向修正，但与The Verge交谈的研究人员越来越厌倦该公司的滑稽动作。 OpenAI和数学家之间经历了几个月的动荡，他们仍在努力应对10月初毫不客气地倾倒在他们身上的数百份预印本。这一次， OpenAI表示，它正在与专家“牧羊人”合作，决定如何最好地分享其最新突破。所有三个结果都一致…阅读The Verge的完整故事。",
-      "originalSummary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI [&#8230;]",
-      "rawFullText": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI and mathematicians, who are still grappling with the hundreds of preprints unceremoniously dumped on them at the start of October. This time, OpenAI says it is working with expert \"shepherds\" to decide how best to share its latest breakthroughs. All three results conc … Read the full story at The Verge.",
+      "title": "我们是否可以信任LLM来判断研究想法是否新颖？",
+      "originalTitle": "Can we trust LLMs to judge whether a research idea is novel?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/novelty-bench",
+      "date": "2026-10-27T16:12:42.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“我们是否可以信任LLM来判断研究想法是否新颖？”。它主要涉及AI 热点方向，热度评分为 75。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
       "tags": [
-        "公司动态"
+        "AI 热点"
       ],
-      "score": 86
+      "score": 75
     },
     {
       "title": "GPT-6.1 SOL帮助CodeRabbit加强复杂代码库的安全性",
@@ -199,22 +290,6 @@
       "score": 99
     },
     {
-      "title": "ChatGPT不断扩大的工作世界",
-      "originalTitle": "ChatGPT’s expanding world of work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "date": "2026-10-26T10:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "探索OpenAI Signals关于近100个国家/地区165项工作活动的数据，揭示人们如何将ChatGPT用于工作，以及使用情况如何随着时间的推移而变化。",
-      "originalSummary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
       "title": "与学术界合作，建立科学理解",
       "originalTitle": "Working with academic communities to build scientific understanding",
       "source": "OpenAI",
@@ -228,7 +303,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Greptile使用GPT-6 Astra进行代码审查之外的错误检测",
@@ -243,22 +318,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "Fanatics和OpenAI如何简化粉丝体验",
-      "originalTitle": "How Fanatics and OpenAI streamline the fan experience",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "date": "2026-10-26T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "Fanatics使用OpenAI帮助粉丝通过Shop the Look完成比赛日服装。在大约30,000个MLB产品中进行的测试显示，参与度提高了10%。",
-      "originalSummary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "rawFullText": "",
+      "title": "MIT Technology Review：公司动态相关动态",
+      "originalTitle": "Will the real Anthropic please stand up",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "date": "2026-10-26T17:45:43.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 84。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&nbsp; sign up here . After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and the ways it believes it will change the world.&nbsp; It also warns that there’s a fair chance that its tech could “erode trust, harm society and destabilize the geopolitical order” and, if things don’t go to plan, “pose catastrophic or existential risks to humanity.”&nbsp;&nbsp;&nbsp; “We encourage you, as a prospective owner of our stock, not to think of your purchase in purely transactional terms,” the company writes. “We hope you will see it instead as an opportunity to be part of something greater. The advent of machine intelligence is one of the seminal moments in human history.” This kind of public messaging is a master class in narrative capture. But Anthropic has been honing its storytelling skills for years. Earlier this month, Jack Clark, the company’s cofounder and head of policy, gave a speech at the IMF meeting in Bangkok in which he announced to the assembled economists, bankers, and lawmakers that the singularity is already here. Introduced by the science fiction writer and futurist Vernor Vinge around 40 years ago (and long debated on the nerdier fringes of the internet), the singularity is supposed to be the point at which technology gets so good that it outstrips the abilities of its makers. Humans are left in the dust, the idea goes, no longer able to compete with—or even understand—the fruits of their former creation. And this fictional world that many of us have imagined since we were kids? Apparently we’re already living in it: “I believe that this year we have gained convincing evidence that it has now begun,” Clark told his audience. The company tells a vivid (and in many ways scary) story about a future it portrays as inevitable but one that has not yet happened, often co-opted from well-worn science fiction memes. It presents its technology as mysterious and dangerous, and insists that it is the only company trustworthy enough to tame it. (What investor wouldn’t want in on that?) If you skim through the long sections about risks in the IPO prospectus, it’s clear this is no ordinary offering and no ordinary company. The way Anthropic tells it, business success depends not only on the firm’s ability to translate its technology into profitable products but also to save the world from what it has made. Take another example. Last year, Chris Olah, another Anthropic cofounder, was invited to address the Vatican, where he told Pope Leo XIV and other religious scholars and officials what his company was learning about its technology. “I will be honest: We keep finding things that are mysterious, even unsettling,” he said. “We find evidence of introspection. We find internal states that functionally mirror joy, satisfaction, fear, grief, and unease.” Never mind that many researchers would scoff at such an overt suggestion that Anthropic’s software has humanlike inner experience. This view of its technology makes its way into the prospectus as one more risk to its business. Anthropic states that: “In addition, given our focus on developing frontier AI, and the way we approach model sentience and moral status, we may face heightened scrutiny or pressure in connection with these debates and could elect to adopt policies, safeguards, or limitations regarding model development, deployment, or modification that go beyond existing legal requirements, which could constrain our operations, increase costs, or limit the commercial potential of our models, platform, and applications.”&nbsp; In other words, if Claude wakes up, it could be a problem. I’m not saying they’re necessarily wrong about any of this (although it’s pretty wild to read about machine sentience in an IPO prospectus.) But in a world where nobody knows what’s coming, companies like Anthropic get to fill the vacuum. When so little seems certain, what it says is snatched up and clung to like pieces of a sinking ship. It’s worth taking a moment to ask: What is Anthropic? It might sound like a starter question on a family quiz show, but it’s far harder to answer than you might think. The question has been on my mind since reading an exchange on X last week kicked off by Nathan Calvin, who is chief strategy officer at Encode AI, an organization based in Washington, DC, that advocates for regulation. Calvin was unhappy about the legislation that Anthropic proposed in a draft bill it circulated in secret to US lawmakers (which was then leaked ).&nbsp;&nbsp; Anthropic wants to be seen as the good guy, Calvin said. But why should we trust it? “What is Anthropic?” he asked. Here’s one answer: Anthropic is a company whose IPO values it at more than $1.5 trillion, netting its cofounders, including Clark and Olah, vast wealth.&nbsp; But Anthropic has always insisted it is more than that. As Calvin noted: Anthropic might instead be considered an AI safety organization focused on developing powerful technology that is reliable and (almost) risk-free. Or it might be considered a group of people hell-bent on creating a technology with superhuman capabilities before anyone else—maybe because they believe they’re the most responsible people to do so, or maybe because they have big egos. In fact, Anthropic is all of these things. As CEO Dario Amodei put it in a reply to Calvin’s post : “Our strategy has always been what I’ve called the ‘race to the top’—by showing how it’s possible to build the technology responsibly, we can raise the bar for the entire industry. The forces that drive the race to the top are hugely more effective if the company practicing them is at the frontier; that’s one lesson I’ve learned repeatedly. And looking at that strategy as a whole, I’m proud of our track record and stand by it.” Amodei makes it sound as if he’s got it all tied up, but playing multiple roles is hard. There are huge tensions between the priorities of an AI safety organization and a profit-driven megacorp, for example. (Amodei admits in his post that he has made mistakes.) Ultimately, the stories Anthropic tells itself should help us understand the stories it tells us. They should help us figure out how much to trust it to self-regulate or whether we should be forcing it to give external safety testers access to its models on our terms rather than theirs. They should help us give it the benefit of the doubt (or not) when what looks like a self-serving piece of legislation comes to light. But I think the stories reveal a multiheaded hydra. Anthropic is many things to many people, and I’m not sure that makes it more trustworthy. In many ways, a good old-fashioned technology company—without the science fiction role-play, without the woo-woo—would be far easier to read. This article has been updated with additional details from the IPO prospectus.",
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 84
+    },
+    {
+      "title": "MIT Technology Review：安全相关动态",
+      "originalTitle": "The focus on AI safety disasters ignores everyday harms",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "date": "2026-10-26T09:01:00.000Z",
+      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：安全相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：安全相关动态”。它主要涉及安全方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products&#8230;",
+      "rawFullText": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide . A social media platform makes it more difficult for children to buy fentanyl . These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products that leave young people dependent on simulated friendships or trapped in feeds built to keep them scrolling. We have historically allowed the debate over technology to be defined by the worst thing a product might do, with remarkably little discussion of the insidious damage it does every day. As we transition into an era defined by powerful AI products, we should demand that the tech industry do more than merely address catastrophic harms. We should take measures to ensure that its products don’t erode how we think, learn, and interact with one another. &nbsp;A teenager who develops an unhealthy attachment to an AI companion may never appear in a lawsuit or a newspaper, except in the most egregious cases. Neither will the student who begins relying on a chatbot to write every paper, or the young person who measures their life against a social media feed engineered to provoke envy and keep them watching. A product can meet every narrow safety requirement and still leave our entire culture worse off in ways that don’t always make headlines. A narrow definition of success defined around safety is politically convenient for the technology industry, and companies actively promote such definitions. Taking steps to prevent spectacular disasters is good for business: It can mean fewer lawsuits and less pressure for serious regulation. Confronting the everyday consequences of dependence would require something considerably more threatening to their bottom line. It might mean asking companies to add more friction to their products or actively limit engagement or features that lead to negative outcomes, such as addictive attention-hacking algorithms. Technology giants have instead worked to shape legislation around the harms they are already under direct pressure to address. This year, for example, Google backed bills to regulate AI chatbots in several states . The legislation mandated basic protections against sexual content and promotion of self-harm that tech companies should have established regardless, but with broad carve-outs that could exempt some of the most popular services. Passing these bills allowed legislators to claim a safety win while efforts to promote stronger legislation—laws designed to prevent children from becoming emotionally dependent on AI—failed. This playbook worked in states like Nebraska, producing legislation heavily influenced by industry at the expense of bills that would have done more to hold companies accountable. We have been through a version of this with social media. Globally, people who use the internet now spend an average of more than two hours a day on social media platforms—time that has been quietly taken from ordinary life and handed over to companies whose profits depend on keeping us there. No one, outside perhaps a few tech CEOs, wanted these algorithms to occupy such a large portion of our waking hours, and their cultural engineering can actually contribute to violence on a devastating scale. Meta’s platforms have been cited for contributing to the Rohingya genocide in Myanmar , anti-Muslim riots in Sri Lanka , and alleged calls for violence during Ethiopia’s Tigray war . The same incentives operate in the feeds that shape young Americans’ understanding of politics, their peers, and the wider world. AI is extending this logic into parts of life that social media could influence only from a distance. It offers to write our thoughts for us and stand in for the people we might otherwise turn to. A third of teens now choose to discuss serious matters with AI companions instead of other people. MIT researchers found that young people using ChatGPT to write essays showed weaker brain connectivity during the task, and their evidence indicated that “cognitive debt” persisted even after the task was complete. There is plenty we still need to learn about the long-term effects. We already have reason to ask whether technology marketed as making us more capable is eroding the habits and relationships that help us develop capabilities in the first place. Follow this way of thinking to its logical endpoint and you get a world of perfectly sanitized entertainment, with chatbots ready to spare us the difficulty of thinking or of dealing with another person’s feelings (or even our own). But anyone who has struggled to write something worth reading, or repair a damaged friendship, knows how much gets lost in that bargain. We build judgment through effort and friction, and we learn to live with other people by confronting the fact that they have needs and opinions of their own.&nbsp; We should demand safety as a minimum, yes—and then demand considerably more. Technology companies and school districts should have to show beyond a reasonable doubt that AI improves learning and critical thinking before making it a fixture in classrooms. Companies should be prohibited from designing companions that pretend to be conscious or profess love to users, and they should face independent scrutiny of how their systems affect relationships and people’s ability to think for themselves. The companies that have inserted their products into nearly every part of modern life have earned obligations far greater than avoiding the next terrible headline. Sam Hiner is the cofounder and executive director of the Young People’s Alliance, where he coordinated a coalition of advocates to pass laws regulating AI companions in eight states in 2026—laws such as California’s SB1119. Sam graduated from the University of North Carolina atChapel Hill in 2025 and was named to the 2026 Forbes 30 Under 30 Social Impact list. Emma Leiken is executive director of the Responsible Technology Youth Power Fund at Hopelab, which has raised more than $9 million for youth-led tech accountability work, and teaches technology policy at the Columbia School of International and Public Affairs. She was previously TikTok’s global head of youth safety and well-being policy and worked on responsible technology at Omidyar Network.",
+      "tags": [
+        "安全"
+      ],
+      "score": 79
     },
     {
       "title": "您的模型是否在AWS Trainium上运行？查找",
@@ -273,7 +363,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "设计一款经久耐用的AI服务线束",
@@ -290,7 +380,7 @@
         "评测",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "可扩展AI的基础",
@@ -306,7 +396,7 @@
         "智能体",
         "模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "人工智能隐藏的存储账单：推断留下了什么",
@@ -322,7 +412,7 @@
         "视频生成",
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "将数据库评分转化为RL奖励：使用ThinkingBox进行培训后座席",
@@ -337,7 +427,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "使用IBM Granite时间序列模型进行集成预测",
@@ -352,7 +442,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "在实际应用中， SLM词汇专业化如何将推理成本降低77%",
@@ -367,7 +457,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "分析TorchNeuron （第1部分） ： AWS Trainium上的系统级分析。",
@@ -382,82 +472,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "Granite Speech 5.0 ：更准确、更快地转录、翻译和归因",
-      "originalTitle": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "date": "2026-10-21T14:58:18.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 70
-    },
-    {
-      "title": "AnyLanguageModel 1.0 ：一年的Apple平台本地模型",
-      "originalTitle": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "date": "2026-10-20T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 74
-    },
-    {
-      "title": "拥抱面部❤️火炬TPU ： TPU ，原生",
-      "originalTitle": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/hf-torchtpu",
-      "date": "2026-10-20T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 68
-    },
-    {
-      "title": "PyTorch 2.15中的MPS",
-      "originalTitle": "MPS in PyTorch 2.15",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "date": "2026-10-20T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 68
-    },
-    {
-      "title": "企业人工智能的新经济学",
-      "originalTitle": "The new economics of enterprise AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "date": "2026-10-20T15:20:25.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from &#8220;can we use it?&#8221; to &#8220;how efficiently are we using it?&#8221;&#8230;",
-      "rawFullText": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from &#8220;can we use it?&#8221; to &#8220;how efficiently are we using it?&#8221; Enterprise AI is going through the same shift. What began as isolated chatbot and copilot experiments is becoming a foundational layer of the business, with models, agents, and data increasingly interconnected in production workloads. The important question stops being what a token or GPU-hour costs. It becomes how efficiently the AI environment converts paid capacity into useful business outcomes. That&#8217;s the metric worth tracking: effective cost per useful outcome — the total platform, model, operations, and capacity cost required to complete work the business can actually use, whether a resolved request or a completed workflow. Three ways to run AI Utilization is central to the economics. Directing more work to paid-for capacity lowers effective unit cost; idle GPUs, fragmented workloads, and oversized models all raise the cost of every useful result. Enterprises generally choose among three models: A bespoke stack — procuring infrastructure and controls in-house. This approach is flexible, but it creates a continuing burden, since teams must revalidate the environment as models and policies change. On-demand consumption — hyperscalers reduce the assembly burden and suit low or uncertain demand, but charges rise with every prompt or agent action. An integrated private AI platform — owned or dedicated capacity paired with a validated stack. The advantage isn&#8217;t free inference; it&#8217;s control over efficiency levers like scheduling, model selection, GPU partitioning, and cache management. The right model depends on the workload. APIs can be rational for experimentation or variable demand. As workloads become sustained and business-critical, enterprises need to weigh not just what they consume, but how efficiently they operate the system. Ownership is an operating discipline Buying a Formula 1 race car and parking it in your garage means owning one of the most sophisticated vehicles ever built — but ownership alone doesn&#8217;t make you competitive; you still need drivers, mechanics, and track time to justify it. AI infrastructure works the same way. One of the biggest misconceptions in enterprise AI is that owning infrastructure automatically improves economics. Owning GPUs creates the opportunity for better economics, but only if the organization has sufficient demand and operational discipline to keep resources productive. The infrastructure that returns the best ROI isn&#8217;t a reference architecture or a bespoke build-out — it&#8217;s a fully integrated, qualified stack that lets teams route tasks to the least costly model that meets quality requirements and reuse context through techniques such as KV-cache management, reducing wasted capacity while maintaining responsiveness. Without these practices, committed infrastructure can become stranded capital. With them, rising demand improves economics as fixed costs are amortized across more useful work — increasingly important in agentic systems, where economics are shaped less by any single prompt than by the efficiency of the complete environment. From deployment to value HPE Private Cloud AI is a production-ready foundation combining infrastructure, software, models, tools, governance, and services, reducing the integration burden of operating private AI at scale. Its architecture lets teams manage scheduling, model selection, GPU partitioning, and cache management as operational levers, aligning capacity and service levels with each workload&#8217;s requirements. It also includes a 90-day engagement with forward-deployed engineers who help customer teams deploy initial use cases and establish repeatable operating practices. In independent testing commissioned by HPE, an integrated platform serving multiple workloads at high utilization delivered a lower effective cost per token than repeatedly renting equivalent capacity. Actual results will vary based on workload mix and utilization. Measure what matters Token consumption remains useful, but it isn&#8217;t a complete measure of AI economics. A fuller enterprise view tracks cost per business-relevant outcome, accelerator utilization, and model choice relative to task complexity. Enterprises already operating private AI should ask how mature their utilization is, and how workload volume will change over the next 12 to 18 months. Those earlier in the journey should build these practices in from the first deployment, so strategy anticipates growth before demand becomes a bottleneck. For low-volume, unpredictable demand, an API or hyperscaler may remain sensible. But as AI becomes a continuous production capability, enterprises have a growing incentive to control utilization, amortize fixed costs, and manage the environment as a long-term operating asset. The strategic question isn&#8217;t whether enterprises will pay for AI — it&#8217;s whether they will understand, and ultimately own, the economics behind it. To learn more about HPE Private Cloud AI, please visit HPE . This content was produced by HPE. It was not written by MIT Technology Review’s editorial staff.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 67
+      "score": 69
     }
   ]
 }
