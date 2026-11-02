@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:01:00.246Z",
+  "updatedAt": "2026-11-02T02:15:49.883Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,38 +19,34 @@
   ],
   "articles": [
     {
-      "title": "在Agentic智能合约合成中测量意图丢失的地方",
-      "originalTitle": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.37830",
-      "date": "2026-10-31T04:00:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、产品发布相关动态",
-      "fullContent": "arXiv: 2610. 37830v1 Announce Type: new Abstract: AI代理现在可以从简单的英语描述编写软件，但运行的代码与执行请求的代码不同。这一差距对智能合约最为重要，智能合约是在区块链上转移资金的Web3应用程序背后的程序，一旦部署就无法修复。我们询问如何检查人工智能撰写的合约是否表现出应有的行为，以及所请求的行为在何处丢失。 我们设计的评估建立在执行而不是意见的基础上。我们在AI编写的合同上重播相同的交易，并在原始合约上重现和衡量他们同意的频率。我们针对种植的错误测试每个评分工具，与没有描述的答案进行比较，并审计我们自己的评分员，直到已知的错误答案无法通过。 常见的方法，如人工智能判断和标准分析工具，会漏掉明显的错误，评分选择也很重要。仅检查每个系统包含的功能HID大约是管道之间差异的一半。然后，我们提出了一个以启发为先的架构。 在编写代码之前，代理向客户询问一个简短的问题清单，根据独立编写的可执行答案密钥检查合同，并将分歧返回给客户，而不是默默重写代码。在三个人工智能模型中，询问第一个问题远比事后审查或修补更重要，而自动安全修复往往会破坏所请求的行为。 一些精心挑选的问题可以恢复简短描述中遗漏的大部分内容，并且可以在没有原始合同的情况下估计其价值。据我们所知，这是智能合约合成领域的第一项研究，该研究在生成之前收集缺失的要求，并根据独立编写的可执行模型检查结果。这些课程扩展到人工智能代理将请求转换为程序的任何设置。我们发布工具、600项任务和所有结果。",
-      "originalSummary": "arXiv:2610.37830v1 Announce Type: new Abstract: AI agents can now write software from a plain-English description, but code that runs is not the same as code that does what was asked. This gap matters most for smart contracts, the programs behind Web3 applications that move money on a blockchain and cannot be fixed once deployed. We ask how to check whether an AI-written contract behaves as it should, and where the requested behavior gets lost. We design an evaluation built on execution rather than opinion. We replay the same transactions on an AI-written contract and on the original it should reproduce and measure how often they agree. We test every grading tool on planted mistakes, compare against an answer key written without the description, and audit our own scorer until known wrong answers cannot pass. Common methods, such as AI judges and standard analysis tools, miss obvious mistakes, and scoring choices matter too. Checking only the functions every system includes hid about half the difference between pipelines. We then propose an elicitation-first architecture. Before writing code, the agent asks the client a short checklist of questions, checks the contract against an independently written executable answer key, and returns disagreements to the client instead of silently rewriting code. Asking first matters far more than reviewing or patching afterwards, across three AI models, while automated security fixes often break requested behavior. A few well-chosen questions recover much of what a short description omits, and their value can be estimated without the original contract. To our knowledge, this is the first study in smart contract synthesis to gather missing requirements before generation and check the result against an independently written executable model. The lessons extend to any setting where AI agents turn requests into programs. We release our tools, 600 tasks and all results.",
+      "title": "OpenAI可能会将其数据中心重新命名为“AI计算园区”",
+      "originalTitle": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "date": "2026-11-01T21:55:23.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。数据中心非常不受欢迎。但是，如果我们称之为其他东西呢？ Axios报道称， OpenAI正在为周二的中期选举后的“公关闪电战”做准备，因为民主党似乎有可能赢回众议院，也可能赢回参议院。 该公司的首席全球事务官Chris Lehane告诉Axios ，中期选举将“有点像2028年的电影预告片” ，他预计人工智能将成为总统选举中的“问题”。 因此， OpenAI将影响人工智能辩论的前进， Lehane讨论了几项建议，包括开发人工智能“速度限制” ；寻找方法帮助人们在日常生活中看到人工智能赋予他们权力；推动美国在制定全球标准方面发挥作用--是的，将数据中心重新命名为“人工智能计算园区”。 Lehane还描述了围绕数据中心的对话（这场辩论促使亚马逊和微软表示他们将不再在与地方政府的谈判中使用保密协议）是“良好和健康的。他说：“社区应该让公司承担责任，这样他们才能真正从这些项目中获得变革性的利益。” 在BOGO交易到期之前，让您的联合创始人或合作伙伴免费预订，在TechCrunch的年度终极创始人训练营中购买One Pass ，获得第二次免费保障。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。",
+      "originalSummary": "Data centers are deeply unpopular. But what if we called them something else?",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "产品发布",
-        "模型"
+        "公司动态"
       ],
-      "score": 99
+      "score": 88
     },
     {
-      "title": "评估和改进用于测序方案理解的人工智能制剂",
-      "originalTitle": "Evaluating and improving AI agents for sequencing protocol understanding",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.37851",
-      "date": "2026-10-31T04:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv: 2610. 37851v1公告类型：新摘要：现有的科学代理基准很少评估代理是否可以重建测序方案指定的确切分子结构和生成工作流程，这是分析定制测序分析的关键能力。我们引入了LibStructBench ，这是一个基于文档的基准，用于重建测序库结构和分子工作流程。 我们的实验表明，前沿代理通常会产生近似正确的重建，但在精确重建时仍然不可靠，特别是在分子状态表示和工作流连接方面。与切换剂线束相比，切换基础语言模型产生了更大的平均性能差异，仅在分子状态重建方面存在统计学显著差异。 额外的知识提高了小试点中寡家族的回收率，但没有提高平均分子工作流程得分。程序规则和交叉方案实例的自主积累显示了非单调验证性能，并且在测试轨迹中没有平均延迟的分子工作流改善。 这些研究结果强调了在复杂的实验方案中对分子过程进行科学推理的必要性，需要更多可控和可验证的方法。",
-      "originalSummary": "arXiv:2610.37851v1 Announce Type: new Abstract: Existing scientific-agent benchmarks rarely evaluate whether agents can reconstruct the exact molecular structures and generation workflows specified by sequencing protocols, a capability critical for analyzing customized sequencing assays. We introduce LibStructBench, a document-grounded benchmark for reconstructing sequencing-library structures and molecular workflows. Our experiments show that frontier agents often produce approximately correct reconstructions but remain unreliable at exact reconstruction, particularly in molecular-state representation and workflow connectivity. Switching the underlying language model produced larger average performance differences than switching agent harnesses, with a statistically significant difference only for molecular-state reconstruction. Additional knowledge improved oligo-family recovery in a small pilot without improving mean molecular-workflow scores. Autonomous accumulation of procedural rules and cross-protocol examples showed non-monotonic validation performance and no mean held-out molecular-workflow improvement in the tested trajectory. These findings highlight the need for more controlled and verifiable approaches to scientific reasoning about molecular processes in complex experimental protocols.",
+      "title": "人工智能可以让科技CEO的生活更轻松。其他人呢？",
+      "originalTitle": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "date": "2026-11-01T20:57:58.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。Dazzle AI首席执行官玛丽莎·梅耶尔（ Marissa Mayer ）最近成为最新的技术首席执行官，因其看似过时的评论而受到批评，这些评论赞扬了AI的实用性。在Mayer的案例中，这涉及到向人工智能工具寻求有关其女儿的学校指定描述的帮助。 对于OpenAI首席执行官Sam Altman来说，这包括建议家长为孩子开车上学创建个性化的播客，并宣称他无法想象没有ChatGPT的育儿方式。Meta首席执行官马克·扎克伯格（ Mark Zuckerberg ）甚至表示，通过人工智能来满足您的社交和浪漫需求将变得越来越可接受。 这一切都让TechCrunch的阿曼达·西尔伯林（ Amanda Silberling ）怀疑人工智能高管是否太过脱节，无法为普通人构建产品--这是一个至关重要的问题，随着华尔街开始失去对大量人工智能支出的兴趣，《人类》将上市。在Equity播客的最新一集中， Kirsten Korosec、Sean O’Kane和我与Amanda聊了聊为什么行业领导者有时看起来如此充耳不闻。 Kirsten想知道这更像是营销问题还是产品问题。阿曼达的回答： “两者都有一点点。她还认为，科技行业正在越来越多地推动未来“基本的人际互动在实际发生时得到越来越多的优化”，并补充道，“并称我为老派，但我认为人类能够相互交流可能对社会有利。 “请继续阅读，以预览我们的对话，并根据长度和清晰度进行编辑。安东尼·哈（ Anthony Ha ） ：社会上对人工智能有很多怀疑，这种感觉是，运营这些公司的人并没有把我们的最大利益放在心上，他们脱节了。因此，您只会想，“也许不要做出这样的陈述”，因为当然，人们会非常怀疑地看待它们。 我认为[首席执行官]正在努力实现这种微妙的平衡。一方面，他们有很大的经济激励来证明你应该在生活的各个方面使用这项技术。但当你提出这个案例时，它实际上[并没有]描绘出一幅非常吸引人的画面。在某些情况下，这是彻头彻尾的反乌托邦。Kirsten Korosec ： Anthony ，如果他们接受你的建议，我们在这个节目中就没什么可谈的了。 但我要说的是： ChatGPT和其他人工智能工具的整个想法使您在个人关系方面的生活更轻松。在许多情况下，它似乎过于复杂，就像观察你的孩子一样。对于某些人来说，制造这些产品的人来说，这可能很难，而且不一定与世界上的其他人有关。 当你看到这些引用时，它看起来非常不连贯。",
+      "originalSummary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "推理",
-        "评测"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 76
     },
     {
       "title": "据报道， OpenAI降低了新一轮融资目标",
@@ -66,41 +62,67 @@
         "公司动态",
         "投融资"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "OpenFrontiers ：开放研究问题集合和科学再发现的基准",
-      "originalTitle": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.37739",
-      "date": "2026-10-31T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2610. 37739v1公告类型：新摘要：大型语言模型（ LLM ）在研究级问题解决中显示出越来越大的前景，但此类问题的综合集合仍然缺失，在研究级问题上评估它们仍然具有挑战性。 我们介绍了OpenFrontiers ，这是一种跨学科资源，它将开放研究问题的结构化语料库与最近解决的数学问题的回顾性基准相结合。语料库记录了12,151个问题的问题陈述、上下文、进度和其他信息。 该基准包含200个问题，其中110个在2026年解决， 90个仍未解决，每个问题都有一个由自动化探测和两个独立审查检查的Lean ~ 4语句；一个子集HQ-50基于质量分数的进一步过滤器等。我们的评估协议在封闭书籍、冻结检索和实时网络条件下，使用两个独立的检查器在一个孤立的沙箱中对正式证明进行评分。 在标准化预算下对HQ-50子集的七个LLM代理进行评估，我们发现封闭式重新发现很少见， 40个已解决的问题中最多有7个，而实时网络成功主要反映了对已发布解决方案的检索。 通过将广泛的研究问题语料库与具有成文解决方案的正式分级评估子集联系起来， OpenFrontiers为衡量研究层面的重新发现和研究解决当前未解决的科学问题的进展奠定了基础。数据集和基准可以在https://huggingface. co/collections/FlippyDora/openfrontiers中找到。",
-      "originalSummary": "arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under closed-book, frozen-retrieval, and live-web conditions. Evaluating seven LLM agents on the HQ-50 subset under a standardized budget, we find that closed-book rediscovery is rare, at most 7 of 40 resolved problems, whereas live-web success mostly reflects retrieval of published solutions. By linking a broad research-problem corpus to a formally graded evaluation subset with documented solutions, OpenFrontiers provides a foundation for measuring research-level rediscovery and studying progress toward solving currently open scientific problems. The dataset and benchmark could be found in https://huggingface.co/collections/FlippyDora/openfrontiers.",
+      "title": "英伟达将为Nscale位于西弗吉尼亚州的人工智能数据中心配音",
+      "originalTitle": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "date": "2026-10-31T01:20:05.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。The Information周四报道， Nvidia正在谈判为人工智能云提供商Nscale计划在西弗吉尼亚州建立的人类数据中心提供数十亿美元的债务融资担保。彭博社后来证实了这一报道。Anthropic签下了44 $。 根据Nscale的IPO文件，仅该项目的第一栋建筑就签订了60亿美元的合同。从本质上讲，这家芯片制造商将共同签署客户的贷款，这表明人工智能行业正在努力维持其扩建计划，因为投资者对所涉及的资金数量越来越紧张。拟议的安排将有助于Nscale为其西弗吉尼亚州园区的电力和建设成本获得融资。 根据The Information的说法，根据所谓的剩余价值担保，如果Nscale拖欠建设付款， Nvidia将介入，暂时接管该设施，并帮助寻找买家和新租户。英伟达早期对云提供商的支持主要涵盖租赁和芯片购买，而不是建设。 Nscale的风险很高，该公司正寻求以高达350亿美元的估值上市，尽管人们越来越担心其交付雄心勃勃的数据中心项目的能力。Anthropic与Nscale的合同涵盖了Nscale西弗吉尼亚校区的第一座460兆瓦的建筑，预计将使用Nvidia的下一代Vera Rubin芯片。 两家公司还在讨论另一栋大楼的第二笔交易，价值约450 $。Nscale一直难以启动其项目。该公司在8月份运行了大约2.5万个先进的人工智能芯片，这只是其计划部署的近50万个芯片的一小部分。它的西弗吉尼亚校区自己也遇到了麻烦。施工现场的径流不止一次淹没了附近的房屋。 9月，经过数月的谈判，该项目获得了国家认证。本月，微软退出了英国计划中的Nscale站点，此前该站点的电网供电已推迟到21世纪30年代。根据The Information的数据，英伟达一直是该行业的主要资金支持者，为新云和大客户提供了约1700亿美元的投资和信贷支持。 其中包括9月份向Nscale承诺的10亿美元可转换融资。Neoclouds在没有现金充裕的核心业务的情况下出租人工智能计算能力，受到投资者的压力。据CNBC报道，截至上周， CoreWeave、Nebius和IREN的股价在10月份分别下跌了30%以上。拟议的担保将加深英伟达与Nscale的财务关系，同时帮助确保其芯片的主要客户。 作为人工智能计算能力的最大买家之一， Anthropic已将其基础设施支出分散到多家芯片制造商。一位投资者告诉The Information ， Anthropic的参与可能解释了Nvidia保持Nscale项目正常进行的兴趣。",
+      "originalSummary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "模型"
+        "算力芯片"
       ],
-      "score": 92
+      "score": 89
     },
     {
-      "title": "Seq @ K ：评估顺序反馈下的语言模型",
-      "originalTitle": "Seq@K: Evaluating Language Models Under Sequential Feedback",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2610.37859",
-      "date": "2026-10-31T04:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv: 2610. 37859v1公告类型：新摘要：语言模型代理与先前的智能系统在从上下文中学习自然语言的能力方面存在根本差异。此功能使客服代表能够根据反馈迭代优化其答案，这是现代客服代表工作流程中的一种普遍操作模式。 然而，社区主要根据Pass @ 1或Pass @ K等指标对模型进行排名，这些指标无法捕捉他们如何利用先前尝试的反馈。我们引入了Seq @ K ，这是一种自然评估协议，用于衡量模型是否可以在K次序尝试中解决问题，并在每次失败后提供反馈。 与检查长远规划的多回合代理基准不同， Seq @ K从反馈中分离并形式化了精炼的核心能力。 我们在7个基准和16个前沿模型的套件上评估Seq @ K ，并表明Seq @ K揭示了截然不同的模型选择景观：在Seq @ K下， （ 1 ）模型排名经常不同， （ 2 ）帕累托前沿承认更有效的配置， （ 3 ）选择最佳模型配置的收益相对于Pass @ K可以扩大或缩小。 我们进一步表明，在Seq @ K下分析模型轨迹有助于表征迭代细化行为，例如模型解决反馈中提出的问题的速率，或者他们坚持自己的答案的严格程度。最后，我们研究了反馈的性质如何影响模型的迭代细化，表明从业者必须仔细设计和基准测试迭代代理系统的反馈循环。 这些结果共同确定了Seq @ K如何为通常在这种反馈回路中运行的智能系统提供更忠实的指标，以及在评估这些系统的模型时考虑Seq @ K的必要性。",
-      "originalSummary": "arXiv:2610.37859v1 Announce Type: new Abstract: Language-model agents differ fundamentally from prior intelligent systems in their ability to learn from natural language in context. This capability enables agents to iteratively refine their answers in response to feedback, a prevalent mode of operation in modern agentic workflows. However, the community primarily ranks models by metrics such as Pass@1 or Pass@K, which cannot capture how they utilize feedback on prior attempts. We introduce Seq@K, a natural evaluation protocol that measures whether a model can solve a problem within K sequential attempts, provided feedback after each previous failure. Unlike multi-turn agentic benchmarks that examine long-horizon planning, Seq@K isolates and formalizes the core capability of refinement from feedback. We evaluate Seq@K on a suite of 7 benchmarks and 16 frontier models, and show that Seq@K reveals a materially different model-selection landscape: under Seq@K, (1) model rankings often differ, (2) the Pareto frontiers admit more efficient configurations and (3) the gains from choosing the optimal model configuration can widen or shrink relative to those of Pass@K. We further show that analyzing model trajectories under Seq@K helps characterize iterative refinement behavior, such as the rate at which models address issues raised in feedback, or how rigidly they hold onto their own answers. Finally, we study how the nature of feedback affects models' iterative refinement, showing that practitioners must carefully design and benchmark the feedback loops of iterative agentic systems. Together, these results establish how Seq@K offers a more faithful metric for intelligent systems that typically operate in such feedback loop, and the necessity to consider Seq@K in evaluating models for these systems.",
+      "title": "苹果首席执行官表示，该公司“不想为人工智能出货”",
+      "originalTitle": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "date": "2026-10-31T21:41:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。在最近接受Wired的Steven Levy采访时，苹果首席执行官John Ternus为公司目前在人工智能领域的地位辩护。 在过去的几年里，苹果经常被描述为人工智能的落后者，特别是因为它推迟了今年夏天终于推出的更强大的Siri版本的发布。但是，尽管9月初正式成为首席执行官的长期苹果高管Ternus承认“每个人都有自己的观点” ，但他坚持认为， “我真的很喜欢我们所处的位置。 Ternus补充说，苹果在其新产品中“绝对会利用人工智能” ，但他说， “我们不想为了人工智能而出货人工智能。当我们做得正确时，人们不必考虑是人工智能还是更传统的软件实现了这一点。重要的是，我们是否建立了他们真正喜欢的东西？ 当Levy问他人工智能是否会更显著地影响苹果及其生态系统时，代理商可能会让应用程序这样的东西变得不必要， Ternus回答说： “我想，这可以让生活变得非常容易，但产品的创造是一件非常人性化和个人化的事情，这是我们喜欢做的事情。 “在BOGO交易到期之前，带上您的联合创始人或合作伙伴免费预订，在TechCrunch年度终极创始人训练营中购买一张通行证，获得第二次免费保障。每个工作日和周日，您都可以获得TechCrunch的最佳报道。TechCrunch Mobility是您获取交通新闻和见解的目的地。初创公司是TechCrunch的核心，因此我们每周提供最好的报道。 为调酒师和摇酒师提供他们开始新一天所需的信息。提交电子邮件即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Apple's new CEO defended the company's current position in the AI landscape.",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "模型"
+        "AI 热点"
       ],
-      "score": 92
+      "score": 75
+    },
+    {
+      "title": "还剩4天： TechCrunch创始人峰会如何帮助您建立更有用的联系以扩大规模",
+      "originalTitle": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "date": "2026-10-31T21:36:07.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "11月4日，在波士顿的SoWa发电站，准备好一整天，充满有意义的网络机会、可操作的见解以及可能改变您的创意和创业轨迹的联系。请在所有价格上涨前登记。",
+      "originalSummary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
+    {
+      "title": "法官允许NAACP就xAI数据中心污染提起诉讼",
+      "originalTitle": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "date": "2026-10-31T21:17:03.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。一名联邦法官驳回了xAI提出的动议，该动议寻求驳回一项全国有色人种协进会的诉讼，该诉讼指控SpaceX拥有的公司未能获得运营其位于孟菲斯以外的Colossus数据中心的燃气轮机所需的许可证。 南方环境法律中心代表全国有色人种协进会提起诉讼，称该人工智能公司“在Colossus工地安装并运行了至少35台燃气轮机和其他空气污染源，但从未获得必要的预建或运行空气许可证。它还指控xAI违反了《清洁空气法》。 xAI试图驳回诉讼，声称涡轮机因其可移动性而免于许可要求。该公司还辩称，原告没有起诉资格。 Debra M. Brown法官在裁决中写道： “由于原告在《清洁空气法》下具有法定地位，因为根据密西西比州的[州实施计划] ，燃气轮机不是‘移动源’ ，并且由于公民诉讼条款不违反宪法第二条或私人非授权原则，原告的索赔将继续进行。” 针对xAI声称此类公民诉讼违宪的说法，布朗法官写道： “由于公民诉讼原告代表自己以自己的名义提起诉讼，并寻求对自己造成伤害的惩罚，因此他们没有行使联邦政府的行政权力。 全国有色人种协进会环境和气候正义主任阿布雷·康纳（ Abre ’Connor ）在一份声明中称，这是“我们追究xAI责任的另一个重要胜利。” （本月早些时候，司法部驳回了一项类似的动议） “法院一再拒绝了xAI和司法部驳回全国有色人种协进会清洁空气法案案件的企图，申明我们有权为受污染影响的社区伸张正义，”康纳说。 “我们的立场很明确： xAI不能在没有所需许可证的情况下运行燃气轮机。NAACP的诉讼正在向前推进，因为公众舆论似乎已经急剧转向数据中心，纽约最近暂停了新的数据中心，其他州和地方政府也在考虑类似的措施。 这种反弹也促使亚马逊和微软承诺停止在与政府机构打交道时使用保密协议，这可能是美国即将举行的中期选举的一个重要因素。当您通过我们文章中的链接购买时，我们可能会获得一小笔佣金。这不会影响我们的编辑独立性。",
+      "originalSummary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
     },
     {
       "title": "让网站更容易表达人工智能培训偏好",
@@ -148,7 +170,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "科技书呆子的最后一刻万圣节服装",
@@ -163,22 +185,23 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "Zest的新人工智能代理通过短信查找餐厅和预订",
-      "originalTitle": "Zest&#8217;s new AI agent finds restaurants and books reservations over text",
+      "title": "英国《金融时报》报告称， Anthropic预计将在IPO后获得信贷机构的高“垃圾”评级",
+      "originalTitle": "Anthropic expected to receive high &#8216;junk&#8217; rating from credit agencies following IPO, FT report says",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
-      "date": "2026-10-30T17:47:12.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "购买一张创始人峰会门票，免费获得一秒钟。立即注册。创始人峰会于11月4日上午9:00开始。ET。在开始之前获得通行证优惠和优惠。在这里注册。今年早些时候推出的餐厅发现应用程序Zest已经在考虑未来移动应用程序不再是主要界面。 周四，这家初创公司推出了一项新功能：一个个人人工智能驱动的“餐厅礼宾服务” ，它存在于你的短信中，类似于Instinct或Poke等其他流行的人工智能代理。此次发布反映了初创公司对人工智能的看法发生了更广泛的转变，因为会话式人工智能代理承担了以前要求用户推出独立移动应用程序的任务。 对于Zest来说，这意味着将其餐厅推荐内容转化为文本，然后允许用户立即采取下一步预订餐桌。Zest创始人兼首席执行官Mario Gomez-Hall解释说： “代理商现在就是产品。“你发短信，它会从你自己的历史和你的朋友那里得到答案。”它不需要几个星期的谈话来学习你，因为它从你实际去过的地方开始，”他说。 该应用程序最初成立于2024年11月，由Alexis Ohanian （ 776岁）和Kindred Ventures的Steve Jang提供180万美元的种子前支持，其独特之处在于它与用户的信用卡链接，以跟踪他们的实际外出就餐地点，从而了解他们的口味和兴趣。 有了这些数据， Zest可以为您提供量身定制的建议，告诉您接下来想去哪些地方，无论是在您所在的城市，还是在旅行时可以尝试的地方。Zest的应用程序使用的信用卡数据通过金融服务公司Plaid导入，该公司被银行和其他金融科技和预算应用程序使用。 Zest表示，在制作个性化地图和列表时，它只关注食品和饮料类别的交易。这家初创公司的最新想法是从一个新的角度来解决同样的问题--我应该去哪里吃饭？ 现在，它将从短信线程中提出建议，并可以借助人工智能来检查可订状态，并通过OpenTable、Resy和SevenRooms等互联服务为您预订住宿。为了工作，用户将给Zest礼宾部发短信（ 212 ） 470-6067。更好的是， Zest可以被放入群聊中，在那里它可以融合每个人的口味，找到整个群组都会喜欢的地方。 在这里，它还可以通过线程内投票功能来解决犹豫不决的问题，然后可以为小组预订一张桌子，而无需离开对话。用户可以根据多种因素（如美食、爱好、场合、饮食限制或街区）向Zest寻求推荐，也可以询问有关餐厅的问题，例如餐厅的繁忙程度，或餐厅是否提供无线网络等。",
-      "originalSummary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "date": "2026-10-30T21:52:03.000Z",
+      "summary": "这条新闻与公司动态、投融资相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、投融资相关动态",
+      "fullContent": "Blackstone的预测只是一个预测，但自然，高垃圾评级将使Anthropic更难以筹集资金，以继续为其作为其业务基础的巨额支出提供资金。",
+      "originalSummary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
       "rawFullText": "",
       "tags": [
-        "智能体"
+        "公司动态",
+        "投融资"
       ],
-      "score": 94
+      "score": 92
     },
     {
       "title": "我们迫切需要实时监控AI代理的行为",
@@ -227,7 +250,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "Ropes & Gray如何开发用于交易尽职调查的人工智能",
@@ -242,7 +265,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Credit Saison在ChatGPT Enterprise试点项目中实现954%的投资回报率",
@@ -257,7 +280,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "OpenAI和ServiceNow扩展跨企业工作流程的合作伙伴关系",
@@ -306,7 +329,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "利用企业环境创造人工智能价值",
@@ -321,7 +344,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "将工业人工智能自主性和人为控制配对",
@@ -336,7 +359,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "Retell使用OpenAI模型来帮助推动每月1亿次通话",
@@ -386,7 +409,7 @@
         "多模态",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "我们是否可以信任LLM来判断研究想法是否新颖？",
@@ -401,7 +424,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "工业智能：制造业的下一个增长机会",
@@ -416,7 +439,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "真正的人类请站起来",
@@ -431,7 +454,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "对人工智能安全灾难的关注忽视了日常危害",
@@ -446,7 +469,7 @@
       "tags": [
         "安全"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "您的模型是否在AWS Trainium上运行？查找",
@@ -461,7 +484,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "设计一款经久耐用的AI服务线束",
@@ -478,7 +501,7 @@
         "评测",
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "可扩展AI的基础",
@@ -494,7 +517,7 @@
         "智能体",
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "人工智能隐藏的存储账单：推断留下了什么",
@@ -510,7 +533,7 @@
         "视频生成",
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "将数据库评分转化为RL奖励：使用ThinkingBox进行培训后座席",
@@ -525,7 +548,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "使用IBM Granite时间序列模型进行集成预测",
@@ -540,7 +563,7 @@
       "tags": [
         "模型"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "在实际应用中， SLM词汇专业化如何将推理成本降低77%",
@@ -555,7 +578,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "分析TorchNeuron （第1部分） ： AWS Trainium上的系统级分析。",
@@ -570,7 +593,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     }
   ]
 }
