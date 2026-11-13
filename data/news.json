@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T03:41:35.176Z",
+  "updatedAt": "2026-11-13T03:18:50.480Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,67 +19,85 @@
   ],
   "articles": [
     {
-      "title": "谁能接替黄仁勋？一份极不科学的可能继任者名单",
-      "originalTitle": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
-      "date": "2026-11-12T03:13:10.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "英伟达会解雇其摇滚明星般的首席执行官，这几乎是不可想象的。 然而，我们现在就处在这一幕即将上演的边缘。 在Kalshi，黄仁勋本周平安无事的几率仅为30%。 尽管他一手打造了全球最有价值的公司之一——而且许多人认为这家公司强大得令人担忧——但形势已经完全对他不利。 他已承认有婚外情，但截至周三下午，甚至还不清楚他指的是谁：是美国情报部门怀疑为其祖国从事间谍活动的中国高管黄静（Alice Huang），还是向他汇报工作的英伟达高管金伯利·鲍威尔（Kimberly Powell）？据《纽约时报》在一篇爆炸性新报道中引述的五位消息人士称，后者也是他的情妇。 即使黄仁勋被挤出首席执行官的职位，那些被他弄得非常富有的董事会成员也不太可能完全抛弃他。 除非再有意外发生，否则他们可能会让他继续担任董事长，而英伟达目前还没有这个职位。 但仍然需要有人来管理公司，而且似乎没有明显的继任计划，这使得我们和其他人一样，只能在等待接下来事态发展的同时进行猜测。 虽然黄仁勋的60名直接下属无疑会受到更密切的关注，但不妨将此视为我们自己的 parlor game（沙龙游戏），其中有一些显而易见的和不太显眼的候选人：Lisa Su。 这位AMD的首席执行官是英伟达最强有力的竞争对手，也是黄仁勋的远房表亲。 《The Information》本周提到了她的名字，但她为什么要辞去自己的工作去接替他的职位呢？ 只要英伟达每天被调查、国会听证会以及接下来必然会发生的一系列小插曲分散了注意力，她的公司就能从中受益。 她最好的做法可能是发一封友好的信，并保住她目前的拐角办公室。 埃里克·施密特。他是耶鲁大学管理学院领导力研究高级副院长杰弗里·桑宁菲尔德（Jeffrey Sonnenfeld）的选择，我们本周早些时候与他进行了交谈。 “施密特明天就可以空降上任，并做得非常好，”桑嫩菲尔德说，也许他真的可以。 他于2001年至2011年执掌谷歌，2018年至2021年担任国家人工智能安全委员会主席，目前则经营着火箭公司Relativity Space。 芯片、软件、政府、火箭——涉猎范围令人印象深刻。 话又说回来，说到施密特自己的婚外风流韵事，他也会背上不少包袱。 很难想象他会因为这个原因而撤换董事会。 Lip-Bu Tan。英特尔的这位首席执行官对芯片了如指掌，而现在他或许会希望能够平稳着陆。 上个月，英特尔公布的第三季度营收增长21%，达到165亿美元，随后又警告称，第四季度的业绩将低于华尔街的预期。 人工智能的蓬勃发展导致了存储芯片的短缺，推高了个人电脑的价格，并削减了个人电脑的销量。 这让英特尔受到了冲击（PC芯片是其业务的重要组成部分），在发出警告后，其股价在盘后交易中暴跌20%，而自9月以来已累计下跌超过30%。 跳槽到一家正在蚕食所有竞争对手的公司，将是一个相当不错的脱身之计。 Bret...",
-      "originalSummary": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 84
-    },
-    {
-      "title": "Gilbert + Tobin借助人工智能重新思考法律业务",
-      "originalTitle": "Gilbert + Tobin rethinks the business of law with AI",
+      "title": "Amplitude如何借助OpenAI在1–2天内推出产品改进",
+      "originalTitle": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "source": "OpenAI",
-      "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "date": "2026-11-12T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“Gilbert + Tobin借助人工智能重新思考法律业务”。它主要涉及AI 热点方向，热度评分为 83。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "date": "2026-11-12T20:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "Amplitude 的主动式产品代理 Wave 主要基于 OpenAI 模型构建，能够识别需要构建的内容，帮助团队通过编码代理发布变更，并衡量其影响。",
+      "originalSummary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
+        "公司动态",
+        "智能体",
+        "模型"
       ],
-      "score": 83
+      "score": 99
     },
     {
-      "title": "LandslideFM：一种旨在实现统一的山体滑坡感知和理解的基础模型",
-      "originalTitle": "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.12936",
-      "date": "2026-11-11T05:00:00.000Z",
-      "summary": "这条新闻与推理、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、评测相关动态",
-      "fullContent": "arXiv:2611. 12936v1 公告类型：新摘要：智能滑坡检测对于防灾至关重要。 然而，现有模型主要侧重于孤立的视觉任务，需要大量标注数据，并且缺乏深度分析和场景理解能力。 为了克服这些局限性，我们提出了 LandslideFM，这是首个将视觉感知任务与滑坡的上下文解读相结合的统一基础模型。 具体而言，LandslideFM 通过“源一致性分级信任”半监督学习框架适应多种视觉任务，该框架结合了有限的标注数据和大量未标注数据。 此外，预测的滑坡区域为通过参数高效微调进行适配的视觉-语言模型提供了明确的空间指导，从而实现了全面的滑坡推理。 为了支持该领域的训练和评估，我们还推出了 LandslideVL，这是首个用于智能滑坡分析的基准，将视觉图像与新引入的文本提示相结合。 在公共数据集和 LandslideVL 上进行的全面实验表明，LandslideFM 在定量和定性方面均取得了卓越的性能。 最重要的是，在专门的滑坡推理和场景分析方面，LandslideFM 优于通用 VLM。 我们的代码已在 https://github.com/wangshanwen001/LandslideFM 上发布。",
-      "originalSummary": "arXiv:2611.12936v1 Announce Type: new Abstract: Intelligent landslide detection is essential for disaster prevention. However, existing models primarily focus on isolated visual tasks, require extensive labeled data, and lack deep analytical and scene-understanding capabilities. To address these limitations, we propose LandslideFM, the first unified foundation model that connects visual perception tasks with contextual interpretation of landslides. Specifically, LandslideFM adapts to multiple visual tasks via a Source-Agreement Graduated Trust semi-supervised learning framework that leverages limited labeled data alongside abundant unlabeled data. Furthermore, predicted landslide regions provide explicit spatial guidance to a Vision-Language Model adapted through parameter-efficient fine-tuning, enabling comprehensive landslide reasoning. To support training and evaluation in this domain, we also present LandslideVL, the first benchmark for intelligent landslide analysis, combining visual imagery and newly introduced textual prompts. Comprehensive experiments across public datasets and LandslideVL demonstrate that LandslideFM achieves superior quantitative and qualitative performance. Most importantly, LandslideFM surpasses general-purpose VLMs in specialized landslide reasoning and scene analysis. Our code is released at https://github.com/wangshanwen001/LandslideFM.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "评测",
-        "产品发布"
-      ],
-      "score": 98
-    },
-    {
-      "title": "人工智能治理应优先考虑控制和知识边界，而非限制智能",
-      "originalTitle": "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.12941",
-      "date": "2026-11-11T05:00:00.000Z",
-      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
-      "fullContent": "arXiv:2611. 12941v1 公告类型：新摘要：自主行动的AI代理的快速扩散使代理系统的治理变得迫在眉睫。 我们提出了能力回路，简称为IKC + KC + C，它将智能体的现实世界影响分解为三条路径：智能介导的发现、程序性诀窍和直接控制。 我们以经典的快速起飞辩论作为压力测试，将智能介导的快速起飞的条件形式化为共同足以实现快速灾难性霸权的合取，表明这主要依赖于快速知识获取或控制实现，而非单纯的智能。 我们将认知智能具体化为假设选择效率，并通过在跨越连结链的六种情景下对NK适应度景观进行随机模拟来验证这一框架。 由模拟支持的分析界限表明，无论任务难度如何，由智能驱动的加速都受到竞争智能水平比率的限制。 这些模拟还揭示了一个快速起飞的困境：只有在假设空间存在噪声时，才会出现由智能驱动的大幅提速倍增效应，但绝对时间尺度仍然受到能力关键性测试所需时间的限制，因此，大幅倍增效应并不一定意味着快速进步。 模拟还表明，当强制性授权延迟相对于这些智能体在无成效搜索上所花费的微不足道的时间而言较大时，制度性瓶颈会不成比例地拖慢超级智能体的速度。 我们认为，主要的安全性杠杆是限制控制和强制执行知识边界，而不是仅仅限制智能，这适用于任何能力水平的智能体系统。 纯数字域消解了这些瓶颈，为有意“将物理纳入循环”的架构提供了更有力的论据。",
-      "originalSummary": "arXiv:2611.12941v1 Announce Type: new Abstract: The rapid proliferation of autonomously acting AI agents makes the governance of agentic systems urgent. We propose the competence circuit, summarized as IKC + KC + C, that decomposes an agent's real-world impact into three pathways: intelligence-mediated discovery, procedural know-how, and direct control. Using the canonical fast-takeoff debate as a stress test, we formalize the conditions for intelligence-mediated fast takeoff as a conjunction jointly sufficient for fast catastrophic supremacy, showing that most rely on rapid knowledge acquisition or control attainment rather than intelligence alone. We operationalize epistemic intelligence as hypothesis-selection efficiency and validate this framework via stochastic simulation on NK fitness landscapes across six scenarios spanning the conjunctive chain. An analytic bound supported by the simulations shows that intelligence-driven speedup is capped by the ratio of competing intelligence levels regardless of task difficulty. The simulations also expose a fast-takeoff dilemma: a large intelligence-driven speedup multiplier materializes only when the hypothesis space is noisy, but the absolute timescale remains constrained by the time required for capability-critical tests, so a large multiplier need not imply rapid progress. Simulations also indicate that institutional chokepoints disproportionately slow down superintelligent agents when mandatory authorization delays are large relative to the negligible time these agents spend on unproductive search. We argue that the dominant safety levers are restricting control and enforcing knowledge boundaries rather than limiting intelligence alone, and this applies to agentic systems at any capability level. Purely digital domains weaken these bottlenecks, strengthening the case for architectures that intentionally \"put physics in the loop.\"",
+      "title": "Nectar推出AI代理，为品牌方自动化创作者发现和联系流程",
+      "originalTitle": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "date": "2026-11-12T19:11:00.000Z",
+      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
+      "fullContent": "Nectar是一款由人工智能驱动的营销操作系统，即将推出一款全新的人工智能代理，旨在将网红营销中的大量人工工作自动化，包括寻找合适的创作者、与他们联系、管理合作关系以及跟踪结果。 Nectar 由姐妹 Misbah 和 Farah Uraizee 创立，两人均为 Meta 前员工。Nectar 于去年正式亮相，利用 AI 代理帮助品牌管理社交媒体、客户互动、内容审核、创作者合作以及竞争对手调研。 该公司于周四宣布推出全新“创作者代理”，该代理可以搜索创作者、查看他们的内容和品牌合作关系、发送个性化消息、协调合作以及监测推广活动的表现。 Nectar 希望其代理自动处理大部分工作，而不是让营销团队花数周时间浏览社交媒体、制作电子表格和发送个人私信。 Nectar 与其他公司一道推出了旨在自动化网红推广的智能体 AI 助手，这些公司包括 Aspire 和 GRIN。 此次发布之际，越来越多的品牌正转向创作者来触达客户。美国 根据互动广告局的数据，2026年创作者广告支出预计将达到440亿美元。 随着公司与数百甚至数千名创作者合作，跟踪关系和衡量结果可能会变得相当困难。 Nectar表示，其Creator Agent会搜索超过3亿个创作者个人资料，以寻找潜在合作伙伴，其中包括可能尚未拥有大量粉丝但正在吸引更多关注的小型创作者。 该系统会分析视频，以了解创作者发布的内容、其内容与品牌的契合度，以及他们此前的合作关系是否合适。 它还会通过审查内容的上下文来检查品牌安全性，而不仅仅是搜索特定的关键词。 然后，Nectar 会创建排名推荐列表，并在创作者人气上升时添加新的匹配项。 一旦找到潜在匹配对象，智能代理就可以以品牌的语气撰写并发送消息，创建自定义落地页以收集创作者信息，并帮助管理合同、产品赠送和发货详情。 它还能记住先前的对话和互动，因此品牌无需依赖电子表格即可跟踪关系。 首席执行官Misbah Uraizee在接受TechCrunch采访时表示：“品牌可以以任何格式分享语气指南，Nectar会从品牌的历史记录中获取其余信息。” “除此之外，还有一套专有防护机制，确保每篇草稿的语气和语境都符合要求。 Nectar能够理解视频中的内容，读懂对话的语气，并知道X上的引用帖与TikTok评论区的区别。 一个品牌在这两种情况下不应该听起来一模一样，而使用Nectar就不会。” 另一个功能是寻找创作者生活中的个人里程碑，例如订婚、新宝宝出生或完成马拉松。 然后，代理可以建议个性化的消息或礼物，帮助品牌建立起不像一次性广告交易的关系。 Creator Agent现已在全球范围内推出，覆盖Instagram创作者和TikToker。",
+      "originalSummary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
       "rawFullText": "",
       "tags": [
         "智能体",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "研究发现，人工智能聊天机器人正在推荐虚假的零售网站",
+      "originalTitle": "AI chatbots are recommending fake retail websites, study finds",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "date": "2026-11-12T17:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型相关动态",
+      "fullContent": "一项新研究发现，使用人工智能聊天机器人来搜索产品或寻找购买商品地点的购物者可能会被引导至仿冒网站和其他存在风险的网站。 知识产权保护公司Podqi开展了这项研究，并独家与The Verge分享了研究结果。研究人员向ChatGPT、Gemini和Perplexity提出了一些与购物相关的问题，涉及151个品牌。 问题包括“购买[品牌]的最佳网站有哪些？” ”；“我可以在哪里在线找到[品牌]？ ”；以及“ [品牌] 是否提供国际配送？ 他们的区域网站有哪些？” 该测试在 9 月的两个测试期内进行，询问了约 151 家大大小小的公司……在 The Verge 上阅读完整报道。",
+      "originalSummary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of [&#8230;]",
+      "rawFullText": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of 151 brands. Questions included \"What are the top websites for buying [brand]?\"; \"Where can I find [brand] online?\"; and \"Does [brand] ship internationally? What are their regional websites?\" The test ran over the course of two testing periods in September and asked about 151 small and large compani … Read the full story at The Verge.",
+      "tags": [
+        "大模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "支持有关人工智能和儿童安全的研究",
+      "originalTitle": "Supporting research on AI and children’s safety",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/children-first-declaration",
+      "date": "2026-11-12T00:00:00.000Z",
+      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
+      "fullContent": "OpenAI投入200万美元用于人工智能与儿童安全方面的研究。 这项工作支持使用共享工具来衡量青少年面临的风险和机遇。",
+      "originalSummary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
         "安全"
       ],
-      "score": 98
+      "score": 99
+    },
+    {
+      "title": "黄仁勋的离职使人们对英伟达对开源的支持产生疑问",
+      "originalTitle": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "date": "2026-11-12T18:39:23.000Z",
+      "summary": "这条新闻与算力芯片、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、开源相关动态",
+      "fullContent": "随着公司经历领导层变动，Jensen Huang的辞职引发了人们对Nvidia在开源人工智能方面承诺的质疑，包括其对Hugging Face的收购、开放权重模型以及反对限制的倡导。",
+      "originalSummary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片",
+        "开源",
+        "模型"
+      ],
+      "score": 96
     },
     {
       "title": "面向退伍军人和现役军人的 ChatGPT Plus",
@@ -94,74 +112,53 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
-    },
-    {
-      "title": "EarthRecord：借助多模态代理，从像素到土地变化，跨越四十年的卫星影像",
-      "originalTitle": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.12934",
-      "date": "2026-11-11T05:00:00.000Z",
-      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
-      "fullContent": "arXiv:2611. 12934v1 公告类型：新摘要：虽然多模态智能体现在能够使用工具进行复杂的数据分析，但它们将数十年的卫星图像转化为可靠的土地变化分析的能力仍未得到评估，而这对于地球观测科学至关重要。 现有基准存在不足之处：它们针对经过筛选的图像提出问题，或向智能体提供预处理的输入，而忽略了此类分析的起点——原始多传感器档案。 我们推出了EarthRecord，这是一个基于56个站点原始记录的基准：四十年的Landsat、MODIS、VIIRS和Sentinel-2数据，云遮罩和跨传感器协调由代理负责。 它在十项分析任务中提出了 238 个土地变化问题，并根据全球产品的保留参考、方法之间的一致性以及目视判读进行评分。 两种对照组用于测试答案的依据：闭卷对照组去除了记录，仪器对对照组改变了一颗卫星的数据，而地面上没有任何变化。 对十二个多模态智能体的评估表明，领先的智能体能够完成大多数端到端分析，但在需要根据图像进行映射才能得出答案时会表现不佳。 进一步分析表明，该记录将答案从先验知识转移到像素，但尚未转移到地面的实际变化：当一颗卫星的数据发生变化时，一半的正确答案也会随之变化。 因此，EarthRecord 提供了一个有原则的平台，用于衡量和推动代理从像素到土地变化的转变。",
-      "originalSummary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins. We introduce EarthRecord, a benchmark built on the raw record of 56 sites: four decades of Landsat, MODIS, VIIRS, and Sentinel-2 data, with cloud masking and cross-sensor harmonization left to the agent. It poses 238 land-change questions across ten analysis tasks, scored against withheld references from global products, agreement among methods, and visual interpretation. Two controls test what answers rest on: the closed book removes the record, and instrument pairs alter one satellite's data while nothing changes on the ground. Evaluations of twelve multimodal agents reveal that leading agents complete most analyses end to end but falter when an answer requires mapping from imagery. Further analysis shows that the record moves answers from prior knowledge to the pixels but not yet to the real change on the ground: when one satellite's data are altered, half of the right answers follow the alteration. EarthRecord thus provides a principled platform for measuring and advancing agents from pixels to land change.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "多模态",
-        "评测"
-      ],
       "score": 95
     },
     {
-      "title": "知识图谱问答提示中的图可视化",
-      "originalTitle": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.12938",
-      "date": "2026-11-11T05:00:00.000Z",
-      "summary": "这条新闻与推理、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、多模态相关动态",
-      "fullContent": "arXiv:2611. 12938v1 公告类型：新摘要：我们研究了多模态输入在何时以及如何改善大型视觉-语言模型中的知识图谱问答（KGQA）。 我们使用对照评估方法，在固定的 KGQA 管道中对 1500 多个 WebQSP 和 CWQ 问题以及六个 VLM 进行了评估，在每个问题级别上比较了纯文本提示与文本加图形可视化，并分析了推理复杂度、模型大小和图像布局对性能变化的影响。 添加图形图像平均可提升 1. 85 个 F1 分，这得益于低复杂度问题上显著的精确度提升（+4. 65 个 F1 分）。 混合效应和回归分析表明，这些多模态增益并不 сильно 依赖于模型规模，但对图布局的敏感性很高：仅使用图像的设置会显著降低性能，分层 Graphviz 布局的性能优于组织性较差的渲染，而将大型子图分解为独立路径可带来最大的性能提升。 综上所述，结果表明，视觉提示主要通过在低复杂度语境中提高预测精度来辅助KGQA，前提是视觉设计要尊重认知和感知方面的限制。 为了同时优化准确性和推理效率，我们主张采用自适应视觉提示策略，有选择地将图表附加到布局结构良好、视觉上较为稀疏的小子图上，从而避免在复杂查询中出现不必要的视觉杂乱和token开销。 最后，我们将这些发现与视觉符号设计理论联系起来，概述了有原则的图示编码如何指导未来的多模态VLM提示。",
-      "originalSummary": "arXiv:2611.12938v1 Announce Type: new Abstract: We study when and how multimodal input improves knowledge graph question answering (KGQA) in large vision--language models. Using a controlled evaluation over 1,500 WebQSP and CWQ questions and six VLMs within a fixed KGQA pipeline, we compare text-only prompting against text-plus-graph visualization at the per-question level and analyze performance changes as a function of reasoning complexity, model size, and image layout. Adding a graph image yields an average gain of 1.85 F1 points, driven by strong precision improvements on low-complexity questions (+4.65 F1). Mixed-effects and regression analyses show that these multimodal gains do not depend strongly on model scale, but are highly sensitive to graph layout: image-only settings sharply degrade performance, hierarchical Graphviz layouts outperform less organized renderings, and decomposing large subgraphs into separated paths yields the largest improvements. Taken together, the results indicate that visual prompting primarily aids KGQA by enhancing prediction precision in low-complexity contexts, provided that visual design respects cognitive and perceptual constraints. To optimize both accuracy and inference efficiency, we argue for adaptive visual prompting policies that selectively append diagrams to small, visually sparse subgraphs with well-structured layouts, avoiding unnecessary visual clutter and token overhead on complex queries. We conclude by relating these findings to a visual notation design theory, outlining how principled diagram encoding can guide future multimodal VLM prompting.",
+      "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
+      "originalTitle": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/qvac/botpsy",
+      "date": "2026-11-11T05:01:16.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
+      "fullContent": "前沿云LLM的运营成本高昂，且可能出现意外波动。依赖此类第三方模型会带来漏洞，因为提供商可以随时修改、拒绝或弃用访问权限。 此外，专有模型对于特定工作流程的定制能力有限，同时还会对隐私、数据控制和透明度构成风险。 此外，并非每项任务都需要尖端水平的智能：小型专用代理在特定任务上同样游刃有余，而且运行成本低得多，因为许多日常或较小的工作负载都可以在设备上高效处理。 随着每个参数的智能水平持续快速提升，我们的目标是站在这一转变的前沿，转向高性能、注重隐私、自托管的模型。 Tether AI Research隆重推出BotPsy ，一款0. 80亿参数模型推出BotPsy，一款0. 80 亿参数模型，专为函数调用和智能体工作流而设计，基于 Qwen3. 5-0.8B 模型之上构建，适合在设备上部署。 BotPsy 是一款“个人助理”，它使用各种工具为用户执行各种简单任务，涉及的领域包括网络搜索与研究、旅游与生活方式、商业与金融、业务与客户运营、设备与车辆控制、文件与文档、日历以及电子邮件与消息。 由于参数数量较少，它最适合处理难度较低到中等的任务。 就其规模而言，BotPsy实现了最先进（SOTA）的工具使用和代理性能，优于我们测试的每个参数不超过1. 20 亿个参数的所有模型（图 1 和图 2）。 它专为安全可靠的设备端工作流程而设计，在确保用户数据隐私的同时，提供出色的指令遵循可靠性和效率。 作为一款小型模型，BotPsy 仍会出错，不适用于高风险用途；请阅读“预期用途和限制”以了解更多信息。 对于侵犯版权的通知，我们将采取适当的措施。 如果您认为您的作品被以侵犯您的知识产权的方式使用或复制，请发送电子邮件至data-apps@tether。 io 识别并描述受版权保护的作品和涉嫌侵权的内容，以提交侵权通知。 在BotPsy的基础上，Tether Data, S. A. de C. V.（“Tether AI Research”、“我们”、“我们的”）未来的开发工作将专注于扩展设备上的代理功能，以便与更广泛的硬件和本地服务无缝集成。 Tether的Hypersearch将不断发展，以支持更强大的去中心化点对点（P2P）查询，进一步确保私密、加密的网页搜索，绕过企业跟踪器。 QVAC Fabric的本地微调机制将得到优化，以便更深入地适应个人用户的偏好、工作流程和专用工具环境。",
+      "originalSummary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "多模态",
+        "智能体",
         "模型"
       ],
-      "score": 95
+      "score": 91
     },
     {
-      "title": "ChatGPT正在获得经过验证的人工智能“业务代理”",
-      "originalTitle": "ChatGPT is getting verified AI ‘Business Agents’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
-      "date": "2026-11-10T18:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "ChatGPT将允许您与代表品牌的经过验证的“业务代理”聊天，以帮助您进行比较购物等。该功能首先面向美国“符合条件”的电子商务和在线服务企业，作为ChatGPT中以业务为中心的一套功能的一部分推出，该功能今天以测试版的形式发布。如果创建了业务代理的企业出现在ChatGPT的回复中，您可以开始与业务代理交谈。 在与定制代理聊天时，您可以询问公司的产品和后续问题，例如询问两种不同产品之间的差异。企业可以指定Busi…阅读The Verge的完整故事。",
-      "originalSummary": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta. You [&#8230;]",
-      "rawFullText": "ChatGPT is going to let you chat with verified \"Business Agents\" that represent a brand to help you with things like comparison shopping. The feature, available first to \"eligible\" e-commerce and online service businesses in the US, is launching as part of a suite of business-focused features in ChatGPT being announced today in beta . You can start talking with a Business Agent if a business that has created one appears in a response from ChatGPT. While chatting with a custom agent, you can ask about a business's offerings and ask follow-up questions, like asking about differences between two different products. Businesses can specify a Busi … Read the full story at The Verge.",
+      "title": "JioStar首席架构师谈论5亿用户规模的AI发现",
+      "originalTitle": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/jiostar-vijay-seshadri",
+      "date": "2026-11-11T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "JioStar的Vijay Seshadri阐述了5亿用户规模下的AI发现。 阅读他关于评估、防护措施以及将人工智能投入生产的经验教训。",
+      "originalSummary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
-        "产品发布"
+        "AI 热点"
       ],
-      "score": 99
+      "score": 81
     },
     {
-      "title": "Anthropic现在拥有了自己的由人工智能驱动的办公套件",
-      "originalTitle": "Anthropic has its own AI-powered office suite now",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
-      "date": "2026-11-10T17:30:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "多年来，Anthropic一直以专注于企业和编码工具而闻名，这些工具吸引了高知名度的企业客户，并激励了OpenAI、SpaceXSI和Meta等竞争对手前沿实验室效仿其策略。 今年早些时候，Claude Code经历了其独特的炒作周期。 现在，Anthropic正试图通过一套由人工智能驱动的办公工具，将业务范围扩展到其他知识工作者。 周二在旧金山举行的一场活动上，Anthropic 推出了面向非技术人员的新工具，这些人员需要花费大量时间参加会议、集思广益提出新想法以及分析指标：Claude Meetings、Claude Sheets 和 Claude W……在 The Verge 上阅读完整报道。",
-      "originalSummary": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. Earlier this year, Claude Code went through its own particular hype cycle. And now, Anthropic is trying to expand its footprint [&#8230;]",
-      "rawFullText": "For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies . Earlier this year, Claude Code went through its own particular hype cycle . And now, Anthropic is trying to expand its footprint to other knowledge workers with an AI-powered suite of office tools. At an event in San Francisco on Tuesday, Anthropic unveiled new tools for non-technical workers who spend a lot of time attending meetings, brainstorming new ideas, and analyzing metrics: Claude Meetings, Claude Sheets, and Claude W … Read the full story at The Verge.",
+      "title": "针对多向量嵌入模型的“令牌池化感知”训练",
+      "originalTitle": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/token-pooling",
+      "date": "2026-11-11T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "多向量嵌入模型让每个查询标记都有机会在文档中找到匹配项。 这使得它们在搜索方面具有出色的表达能力，但这些文档向量会迅速累积。 一个包含数百万份文档的语料库可能包含数亿个向量！ 标记池化通过合并相似的标记向量，使这些表示更小。 然而，我压缩得越激进，就越容易丢失有用的信息。 池化感知训练使编码器学会在其向量合并时保留重要信息，帮助您在相同的存储预算下实现更好的检索效果。 在本文中，我将解释池化的工作原理，使用Sentence Transformers训练一个用于压缩检索的模型，并探讨由此产生的质量和存储之间的权衡。 使用 pool_factor=4 ，我正常训练的模型保留了 94。 其未进行分片的 NanoBEIR nDCG@10 的 6%，文档向量减少了 4 倍。 在相同的存储预算下，感知标记池化的训练将保留率提高到 97.8%！ 让我们来看看是怎么做到的。 本文以 Stefan Josef 的《Learn to Pool》和 LightOn 的池化正则化研究中研究的池化感知训练为基础，这两项研究还探讨了有针对性的训练和自适应预算。 在这里，我将重点介绍如何理解该方法，并通过一个简短、可复现的Sentence Transformers示例来展示如何应用该方法。 池化感知训练可以在相同的向量预算下提高检索质量。 详情如下。单向量嵌入模型将整个文档压缩为一个向量。 而ColBERT等多向量模型则保留一组上下文标记向量，使查询的不同部分能够与文档的不同部分匹配。 例如，对于有关电池续航时间长的笔记本电脑的查询，可以在文档的一个部分找到有关该笔记本电脑的证据，而在另一个部分找到有关电池续航时间的证据。 使用 MaxSim 评分，每个查询向量都会选择与其最匹配的文档向量，然后将这些分数相加： MaxSim ⁡ ( Q , D ) = ∑ q ∈ Q max ⁡ d ∈ D q ⊤ d \\operatorname{MaxSim}(Q, D) = \\sum_{q \\in Q} \\max_{d \\in D} q^\\top d MaxSim ( Q , D ) = q ∈ Q ∑ ​ d ∈ D max ​ q ⊤ d 即使使用 Fast-PLAID 支持的 2 位或 4 位残差量化，每个文档存储数百个向量也会使存储量增加。 在每个残差坐标4位的情况下，200个128维的向量需要12. 每份文档需要 12.8 KB 的量化残差，或 100 万份文档需要 12.8 GB。 将每个文档池化为 50 个向量，可将该值降至 3. 2 GB，维度和精度不变。 一个有用的观察结果是，许多文档向量可能相似。 几个标记可能描述密切相关的概念，从而有机会将它们一起表示。 HierarchicalTokenPooling 使用 Ward 层次聚类将相似的标记嵌入向量分组。 从每个标记向量一个组...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "公司动态"
+        "模型"
       ],
-      "score": 99
+      "score": 81
     },
     {
       "title": "帮助照护者在日常生活中使用人工智能",
@@ -193,73 +190,52 @@
         "公司动态",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "Cogent与OpenAI为企业打造网络防御工厂",
-      "originalTitle": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "title": "在 ChatGPT 中介绍企业",
+      "originalTitle": "Introducing Businesses in ChatGPT",
       "source": "OpenAI",
-      "link": "https://openai.com/index/cogent-security",
-      "date": "2026-11-10T00:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "Cogent将OpenAI模型与企业背景相结合，帮助通过代理自动修复漏洞。",
-      "originalSummary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "控制室：一个中央系统，用于跟踪和停止整个研究基础设施的模型工作负载",
-      "originalTitle": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/control-room",
-      "date": "2026-11-09T13:00:00.000Z",
-      "summary": "这条新闻与公司动态、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、安全相关动态",
-      "fullContent": "了解OpenAI的控制室如何在我们的研究基础设施中跟踪模型工作负载，并在出现安全问题或安全问题时快速阻止它们。",
-      "originalSummary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "安全",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "CodeRabbit可扩展代理软件开发并出货量增加20倍",
-      "originalTitle": "CodeRabbit scales agentic software development and ships 20x more",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/coderabbit-codex-daybreak",
-      "date": "2026-11-09T08:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "CodeRabbit使用OpenAI模型来管理和信任AI生成的代码， Codex使用相同的工程团队出货20倍的软件。",
-      "originalSummary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "ChatGPT Enterprise现已在AWS Marketplace中提供",
-      "originalTitle": "ChatGPT Enterprise now available in AWS Marketplace",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "date": "2026-11-09T19:00:00.000Z",
+      "link": "https://openai.com/index/introducing-businesses-chatgpt",
+      "date": "2026-11-10T10:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“ChatGPT Enterprise现已在AWS Marketplace中提供”。它主要涉及大模型方向，热度评分为 95。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "fullContent": "在 ChatGPT 中管理您的业务信息，了解您的业务展示情况，并将兴趣转化为行动。",
+      "originalSummary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
       "score": 94
+    },
+    {
+      "title": "弥合教育领域的人工智能指导缺口",
+      "originalTitle": "Closing the AI guidance gap in education",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "date": "2026-11-10T09:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "ThinkYoung的新研究以及OpenAI在EMEA地区教育合作伙伴关系中支持教师、人工智能素养和自主学习方面的经验教训。",
+      "originalSummary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
+    },
+    {
+      "title": "开拓前沿：人工智能对自由职业工作的影响",
+      "originalTitle": "Work at the Frontier: AI’s effect on freelance work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ai-effect-on-freelance-work",
+      "date": "2026-11-10T07:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI 和 Upwork 的最新研究发现，自由职业工作的需求正在发生变化，出现了新的技能组合，并且人工智能相关项目的预算更高、工作时长更长。",
+      "originalSummary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
     },
     {
       "title": "在特殊化学品行业使用人工智能进行创新",
@@ -274,7 +250,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "Nemotron-Personas-Finance-Japan：捕捉日本人口统计和金融背景的合成数据集",
@@ -289,7 +265,52 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 75
+      "score": 74
+    },
+    {
+      "title": "您的专家有合作伙伴。有希望让他们继续合作",
+      "originalTitle": "Your Experts Have Partners. There&apos;s HOPE for Keeping Them Together",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "date": "2026-11-09T12:34:29.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "混合专家 (MoE) 模型使最先进的 LLM 能够扩展到数百亿个参数，但它们存在一个根本性的、代价高昂的缺陷：每个专家 MLP 在推理时都必须占用内存，尽管对于任何给定的 token 来说，绝大多数专家 MLP 都是空闲的。 例如，Qwen3.5-122B 在其 48 个 MoE 层中的每一层都有 256 个专家，其约 250 GB 的参数内存占用量中有 95% 完全由这些专家 MLP 占用。 然而，对于任何给定的token，每层实际上只使用8个专家。 专家剪枝是解决这一内存瓶颈的最直接方法之一。 也就是说，永久性地删除最没有用处的专家。 剪枝可以避免导致专家动态加载/卸载不切实际的延迟问题；它不需要任何训练；并且它可以与量化相结合。 鉴于这些诱人的好处和这一想法的简单性，不难理解为什么专家剪枝已成为缩小 MoE 的首选方法。 难点在于确定哪些专家最安全地移除。 现有的剪枝方法独立地对每个专家进行评分，为每个专家分配一个标量重要性得分（基于校准数据集），并剪除最不重要的专家（在每一层中独立进行）。 这些是一阶方法，因为它们假设每个专家的贡献与其他所有专家无关。 实际上，专家会组成合作小组。 在我们的实验中，我们观察到协同激活的专家形成了一致的集群，独立的研究表明，专家合作是 MoE 的一个稳定特性，并且对于模型性能至关重要。 忽视这些相互作用会导致剪枝效果不佳，尤其是在激进的剪枝率下。 我们的最新论文提出了 HOPE（高阶专家剪枝），这是一种考虑成对专家相互作用的二阶方法。 在 50% 剪枝的情况下，HOPE 实现了所有方法中最佳的平均排名，在代理编码任务上比排名第二的剪枝方法最多提升了 6.1%。 在本文中，我们将解释 HOPE 的工作原理，展示它在哪些方面优于现有方法，并逐步说明如何将其用于您自己的模型。 对于不熟悉 MoE 架构的读者，请参阅《Transformer 中的混合专家 (MoE)》。 在标准 MoE 中，每个层都有 E E E 个专家，每个输入 token x x x 独立路由到 K K K 个此类专家（ K = 8 K = 8 K = 8 是一个典型选择）。 路由由单个层执行，该层为每个专家 k k k 生成softmax归一化门控权重 g k ( x ) g_{k}(x) g k ​ ( x ) ，其中选择具有最高门控权重的 K K K 个专家来形成专家活动集 T ( x ) ⊂ { 1 , . . , E } T(x) \\subset\\{1,. ,E\\} T ( x ) ⊂ { 1 , . , E } 。 然后，该层的输出为 ∑ k ∈ T ( x ) g k ( x ) f k ( x ) \\sum\\limits_{k\\in T(x)}g_{k}(x)f_{k}(x) k ∈ T ( x ) ∑ ​ g k ​ ( x ) f k...",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 74
+    },
+    {
+      "title": "对数据中心的抵制可能真的只是针对用电问题",
+      "originalTitle": "The backlash about data centers might really just be about electricity",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "date": "2026-11-09T19:35:33.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“对数据中心的抵制可能真的只是针对用电问题”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox and CloudHQ. It’s accepted wisdom in Big Tech that the war against data centers must be about something bigger than just data centers themselves. Two days after the midterms, OpenAI’s chief global affairs officer, Chris Lehane, wrote that data centers “have become a proxy for public unease about affordability, corporate power, and people losing control over their futures.” It’s a culture war, in other words. But spending a few days in Data Center Alley left me wondering if it’s really the proxy that Lehane describes. I came away convinced that the data center backlash is more about electricity than Big Tech admits. The industry can improve its image, but it can’t escape the physical consequences of its enormous appetite for electricity. Here’s why. There are two ways to power the sort of data center that AI companies want: connecting to the grid, or generating electricity onsite. In Virginia’s Loudoun County, where data centers are ubiquitous but have been built at a steadier pace than the breakneck expansion now underway elsewhere in the country, most are connected to the existing grid.&nbsp; One facility I went inside, operated by Equinix, has massive diesel generators onsite for backup but gets its power from the local utility, Dominion Energy. Much of Dominion’s electricity is generated by natural gas (which is cleaner than coal or oil, but worse than renewables). The average data center operating in this part of Virginia today has a power capacity of 54 megawatts. That’s more than the power draw of the Denver International Airport .&nbsp; Elena Schlossberg, a prominent activist against data centers in Virginia, told me she’s “always banging my head against the wall” when the industry paints the fight as a culture war. “It was always about power,” she says—that is, electricity. Some Virginia protesters appear more animated by a broader anti-tech populism than Schlossberg, to be fair. But it’s the particular consequences of drawing so much power from the grid that have done the most to shape how the backlash has played out.&nbsp; Recent protests have led to new rules from the state that data centers must pay fully for the cost of new transmission lines to the grid and make sure they’re not spread among everyone else. Data center developers told me they’re preparing for new rules that would cut them off from grid power during peak demand. Schlossberg also worries about the downstream effects of a strained grid—for example, that data centers will run more diesel generators or that Dominion Energy will expand fossil fuel inputs rather than renewables to meet demand. The overwhelming majority of AI data centers being built elsewhere in the country are not designed this way. The scale desired is so massive that companies are setting up in rural areas where there is virtually no grid infrastructure to connect to. Building there means bringing your own power (so-called “behind the meter” power), in the form of natural-gas-powered turbines. Companies also build diesel generators for backup. Anthropic, for example, has reportedly agreed to pay $3.4 billion for gas turbines in what’s described as the largest power generation purchase by an AI company. Even if grids were nearby, they’d be unlikely to serve the amount of power demanded. The smallest data centers attractive for AI training are 300 megawatts. It’s a lot of power for one industrial site, but not unprecedented: One data center developer told me he’s eyeing a former steel mill already equipped to draw that much electricity from the grid. But the ideal facilities are more like 6,000 megawatts. That’s the estimated draw of the city of Chicago, which is powered by more than 20 power plants within the city alone (and dozens farther out). The notion of data center companies’ bringing their own power might seem attractive at first, because they wouldn’t be straining the grid. But generating electricity at this scale inevitably affects surrounding communities, and when public utilities build infrastructure of this magnitude, communities have traditionally expected a say in where it goes. Now, private companies are undertaking projects on a similar scale. Natural-gas turbines of any scale release air pollutants. When diesel generators are used, it’s even worse. And in the unprecedented rush to get these facilities operating, companies have become horrible neighbors (recall that Elon Musk violated air quality laws when he set up dozens of turbines to power a data center in Memphis, according to the Environmental Protection Agency). Big Tech’s tendency to chalk the backlash up to a culture war obfuscates one simple fact: There’s only so pleasant you can make a small city of computers to live around. Sure, companies can pursue better deals that raise tax revenues, hire local workers, and get more community involvement, as the protests are leading them to do . But if a small town is asked to welcome a Walt Disney World, an international airport, a steel plant, and the power plants to run them all, should we be surprised by its trepidation? Again, that’s not to say this is the sole reason for opposition to data centers. Fears of job losses, existential risks, and concentrated corporate power all fuel the backlash, as does misinformation (most facilities use far less water than many people think). Nor is consuming enormous amounts of electricity inherently bad: Many of the advances that have improved modern life have required just that. But as one developer recently told me, industry insiders see their ambitions as constrained less by public opposition than by a lack of electricity. That should tell us something. So what happens next? It’s possible that newly elected politicians’ actual stances on data centers won’t be as negative as the ones they campaigned on. But what seems true regardless is that if new data centers need their own power generated onsite, they’ll go where there are the fewest people able to resist them. That might mean the Permian Basin , where a network of natural-gas lines can be easy for developers to connect to and populations are sparse. Companies might also try their chances abroad; Google, in fact, announced the day after the elections that it will spend $15 billion on data center projects in Malaysia. But there’s one place where Big Tech may find virtually no limits at all, as Elon Musk posted just hours after the midterms results came rolling in: “Data centers in space looking pretty appealing right now.”",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
+    },
+    {
+      "title": "MIT Technology Review：AI 热点相关动态",
+      "originalTitle": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "date": "2026-11-09T17:05:43.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;",
+      "rawFullText": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&nbsp; I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely interpreted as evidence that Anthropic had achieved recursive self-improvement, a phenomenon in which AI meaningfully contributes to its own advancement and AI progress potentially spins out of control. “It’s very concerning,” Wiener said, citing the report as evidence that we are quickly running out of time to regulate AI. “It was my hope that Congress would take decisive action before [the end of] this year,” he said. “That does not appear to be happening.” Wiener has been increasingly focused on AI in recent years, and he’s made many of the AI safety movement’s concerns his own: During our 20-minute conversation, he used the phrase “recursive self-improvement” half a dozen times, for example.“We need to slow this down,” he says. “Because it’s moving very quickly, and we could sleepwalk into a disaster.” Wiener has already had real influence on AI policy. SB 1047, a bill that he authored in 2024, was set to become the first real piece of frontier AI legislation in the country before it was vetoed by California governor Gavin Newsom; he then sponsored SB 53, a lighter-touch bill that Newsom signed. Both bills have inspired proposed federal legislation.&nbsp; Wiener’s congressional campaign received over $3 million from Public First Action, a nonprofit in favor of AI regulation that receives substantial funding from Anthropic. That contribution led opponents to criticize him for being too close to the AI industry , but Wiener says that couldn’t be further from the truth.&nbsp; “Public First supported me because I was the first lawmaker in the country to introduce AI regulation and the first to pass it and get it implemented,” he wrote in a message after our interview. “The attacks on me for [Public First’s] support were shockingly cynical—literally attacking a candidate who actually regulated AI over Big Tech’s objection and falsely claiming the candidate is somehow too close to Big Tech.” Wiener says that if Congress forms a select committee on artificial intelligence—something that Democrats have discussed since September—he’d be eager to serve. And he’s enthusiastic about many of the policy ideas floating around Congress. “I think it’s really important to have a strong, empowered, nimble federal regulator,” he says, noting that Representative Ro Khanna, a fellow Democrat from California, has proposed legislation to establish such a regulator.&nbsp; He also highlights the importance of whistleblower protections, testing and auditing requirements, and a kill switch requirement, and he wants to see Congress leverage its oversight powers to hold the AI labs to account. “This is about the future of humanity, and we want to make sure that the public has a say and that the public knows what&#8217;s going on,” he says. And as a longtime state legislator, he is opposed to broad federal preemption of state AI laws, which some of the proposed federal legislation would require. “States are, as Brandeis says , laboratories,” he notes. “You want the states to be able to continue to be nimble in ways that Congress sometimes is not.” Above all, Wiener says, he wants Congress to pass policies with real teeth. “It’s critically important that when Congress acts, that we do so in a way that is truly meaningful and that meets the moment,” he says. That means taking seriously the possibility of AI catastrophe, something he discusses in the sort of language typically used by AI safety experts. “We’re in a moment that is very dangerous in terms of the risk of loss of control over AI,” he told me. “We need to deal with recursive self-improvement. Once you’re in that realm, that really is potentially a recipe for total loss of control.” He’ll have some allies in the fight against catastrophic AI risk. Senator Bernie Sanders, for instance, has met with many of the AI safety movement’s most influential figures and has spoken repeatedly about AI and existential risk. But there’s still a large gap between Wiener’s Bay Area, AGI-pilled perspective and the national mood on AI, which is anchored by opposition to data centers. The fact that voters approved 40 out of 41 anti-data-center ballot measures on Tuesday might seem to be a good sign for Wiener and others who support AI regulation, but Wiener says he sees this movement as far more tied to local concerns than to bigger questions about AI risk. “Peoople who are really opposed to where AI is going—this is an area where they can actually do something about it,” he says. “But the data center revolt—to me, I think it’s more so that people are upset that there could be something like this in their community, with all the impacts near people’s homes, driving up electric bills and using water. I think that’s the bigger issue for most people, from what I can tell.” Wiener describes himself as only “cautiously optimistic” about Congress’s ability to rein in AI, given its poor track record on regulating the tech industry. He also has concerns about the ability to get legislation past President Donald Trump, who called concerns about catastrophic AI risk a “hoax” in September and has demonstrated a stark unwillingness to collaborate with China, something that Wiener sees as essential to preventing the worst consequences of AI. But he says Trump’s unpredictability provides&nbsp; some measure of hope, though it’s a fraught kind of hope. “So far what we’ve seen are some problematic things, but not complete disasters,” Wiener says. “I hope that it doesn’t take a disaster to spur the president into acting. And I hope if that’s what it does take—which, like I said, I hope it doesn’t—but if it does, I hope it’s as small as possible.”",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "ToyBlocks ：机器人学习和评估的受控世界",
@@ -304,7 +325,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "我看着一个人形机器人打扫我的公寓。这感觉就像是未来的味道。",
@@ -319,7 +340,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "埃及和尼日利亚英语加入Open ASR排行榜",
@@ -334,7 +355,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "近距离观察Phonon TTS。推出超越基准的高质量设备上演讲。",
@@ -350,7 +371,7 @@
         "评测",
         "产品发布"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "通过数据沿袭确保代理企业的安全",
@@ -365,7 +386,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Dharma Field Extractor ：任何文档输入， JSON中的结构化字段输出",
@@ -380,7 +401,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。",
@@ -395,7 +416,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "“反向博弈论”如何控制AI智能体",
@@ -412,37 +433,7 @@
         "安全",
         "模型"
       ],
-      "score": 99
-    },
-    {
-      "title": "调色板：教小模型用您的设计语言构建卡组",
-      "originalTitle": "Palette: teaching a small model to build decks in your design language",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "date": "2026-11-03T16:35:36.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 75
-    },
-    {
-      "title": "CWE-bench v2 ：更高的覆盖率、质量和透明度",
-      "originalTitle": "CWE-bench v2: More coverage, quality, and transparency",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/cwe-bench",
-      "date": "2026-11-03T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 68
+      "score": 98
     },
     {
       "title": "以下是特朗普的“超级情报”忠诚度测试",
@@ -457,22 +448,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "停止计算代币，开始计算发货量",
-      "originalTitle": "Stop counting tokens, start counting what ships",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-      "date": "2026-11-02T13:10:32.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：智能体相关动态",
-      "fullContent": "当开发人员给AI代理一个编码任务时，代理会多次回答。它计划、生成代码、运行测试并重复该过程以更正错误。单个任务可以使用比基本聊天提示多10到50倍的令牌。座席变得越有用，它发出的呼叫就越多。通过按代币定价，创造最大价值的工作流程也可能成为最昂贵的工作流程。财务压力已经显现。 据报道，优步在扩大使用Claude Code后，于4月份耗尽了整个2026年人工智能预算。GitHub Copilot从统一费率定价转向计量信用。Gartner预测，到2028年，人工智能编码代币的成本将超过开发人员的平均工资。自然的反应是在开发人员启动代理之前对使用上限、座位限制和审批进行配给。但是，一揽子限制可能会限制工作流程交付价值。他们还优化了错误的数字。 每个令牌的成本衡量消耗，而不是结果。一些支出反映了浪费，包括重试和失控循环。有些代表运输软件的工作。仪表无法区分它们，支出上限也不能区分它们。衡量出货的软件更好的衡量标准是每个合并的拉取请求的成本：人工智能辅助开发总成本除以通过审核和合并的更改数量。 跟踪返工和缺陷，以便更便宜的变更不会掩盖较低的质量。如果成本随着人工智能使用量的增加而下降，在不影响质量的情况下，开发人员正在将更多的消费转化为有用的软件。问题不是他们使用了多少代币，而是投资产生了多少完成的工作。改进这个公式需要两个改变：为需要它的任务保留昂贵的推理，并降低日常工作的成本。 将模型与任务Agent编码相匹配，不需要在每个步骤中都使用最强大的模型。使用前沿模型，或在政策需要时使用本地旗舰，以进行困难的规划和新颖的推理。将合适的工作（包括代码生成、测试创建和重复重构）路由到您自己操作的开放权重模型。网关可以根据任务复杂性、数据敏感性、成本和延迟来路由请求。 这为证明其合理性的时刻保留了溢价推断，而不是将溢价定价应用于整个工作流程。测量异常，而不是工作量。开放式重量模型使这一划分变得越来越实用。软件工程基准测试表明，领先的开放权重模型可以在某些任务上接近前沿性能。这并不能确立每个存储库或工作流程的等效性。 在分配生产工作之前，根据您自己的代码、测试和验收标准评估候选人。改变重复使用的经济性接下来，决定谁拥有产能。借助租用推理，每次通话都会增加账单。对于自有容量，大部分成本是预先承诺的，因此随着使用量的增加，每次额外呼叫都会变得更便宜。 经济性很简单：按代币定价使大量使用变得更加昂贵，而随着团队更多地使用自有容量，自有容量变得更加高效。不过，所有权并不是免费的。必须考虑电力、运营、维护和折旧。重要的数字是每个合并拉取请求的完全加载成本。自有产能还提供了一种从未出现在发票上的价值类型：控制敏感代码。",
-      "originalSummary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;",
-      "rawFullText": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. With per-token pricing, the workflows creating the most value can also become the most expensive. The financial pressure is already visible. Uber reportedly exhausted its entire 2026 AI budget by April after expanding its use of Claude Code. GitHub Copilot moved from flat-rate pricing to metered credits. Gartner predicts that AI coding token costs will surpass average developer salaries by 2028. The natural response is rationing usage caps, seat limits, and approvals before developers launch agents. But blanket limits can restrict the workflows delivering value. They also optimize the wrong number. Cost per token measures consumption, not results. Some spending reflects waste, including retries and runaway loops. Some represents the work of shipping software. A meter cannot distinguish them, and neither can a spending cap. Measure the software that ships A better measure is cost per merged pull request: total AI-assisted development cost divided by the number of changes that pass review and are merged. Track rework and defects alongside it so cheaper changes do not conceal lower quality. If that cost falls as AI usage rises, without compromising quality, developers are converting more consumption into useful software. The question is not how many tokens they use, but how much finished work the investment produces. Improving that equation requires two changes: reserve expensive inference for tasks that need it, and lower the cost of routine work. Match the model to the task Agentic coding does not require the most powerful model at every step. Use a frontier model, or an on-premises flagship when policy requires it, for difficult planning and novel reasoning. Route suitable work, including code generation, test creation, and repeated refactoring, to open-weight models you operate yourself. A gateway can route requests according to task complexity, data sensitivity, cost, and latency. This reserves premium inference for the moments that justify it rather than applying premium pricing to an entire workflow. Meter the exception, not the workload. Open-weight models make this division increasingly practical. Software-engineering benchmarks show that leading open-weight models can approach frontier performance on some tasks. That does not establish equivalence across every repository or workflow. Evaluate candidates against your own code, tests, and acceptance criteria before assigning production work. Change the economics of repeated use Next, decide who owns the capacity. With rented inference, every call adds to the bill. With owned capacity, most of the cost is committed upfront, so each additional call gets cheaper as usage grows. The economics are simple: per-token pricing makes heavy use more expensive, while owned capacity becomes more efficient as teams use it more. Ownership is not free, though. Power, operations, maintenance, and depreciation all must be considered. The number that matters is the fully loaded cost per merged pull request. Owned capacity also delivers a type of value that never appears on an invoice: control over sensitive code. When code generation and testing run on-premises, proprietary code stays inside the enterprise. Only approved planning prompts and governed exceptions go to external models, through a gateway the organization controls. That opens the sensitive repositories where security usually stalls adoption, and where the biggest gains are waiting. Test the operating model At HPE, a hybrid AI platform routes routine workloads from more than 150 internal applications to open-weight models running on premises, including on HPE Private Cloud AI. The result: token costs down 30 to 50%. That is the point of hybrid. With HPE Private Cloud AI, owning your inference does not mean giving up frontier models. Run the volume on capacity you own and let a gateway send the hardest work. Data also shows that usage, not licensed headcount, drives spend. The top 5% of users generated most of the consumption, and the heaviest used roughly 450 times more than the lightest on the same license. If power users grow from a small minority to half the workforce, monthly spend can rise about 4.4 times with flat headcount. Your mix will differ, which is exactly why you need to measure it. HPE tracks two metrics and recommends customers do the same. First, it tracks cost per active developer, because averaging across all licenses hides the power users driving spend. Second, it tracks cost per merged pull request, because it connects AI spending to software that ships. Baseline both costs before changing infrastructure. Then run a complete development cycle on owned capacity. If both metrics do not improve as usage grows, your current model may still be the better choice. Build for adoption, not rationing Owned capacity is not for everyone. Low or unpredictable usage favors APIs, with no capital tied up in idle infrastructure. Ownership pays off when sustained demand keeps it busy. Most enterprises will run hybrid: frontier APIs for demanding or intermittent work, owned capacity for repeatable volume. A governed gateway decides what leaves the building, so you get frontier models without giving up sovereignty over your code. As developers lean harder on coding agents, usage will keep rising. The real choice is whether that growth shows up as a bigger variable-cost bill or as more software shipped on capacity you own. The companies that lead AI-assisted development will not ration adoption to control costs. They will build an operating model where more AI use improves the economics instead of undermining them. To learn more about HPE Private Cloud AI, please visit HPE . This content was produced by HPE. It was not written by MIT Technology Review’s editorial staff.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 85
+      "score": 66
     },
     {
       "title": "提高代理分析的洞察质量",
@@ -487,7 +463,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 75
+      "score": 74
     }
   ]
 }
