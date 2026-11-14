@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T03:18:50.480Z",
+  "updatedAt": "2026-11-14T02:57:49.990Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,88 @@
   ],
   "articles": [
     {
+      "title": "ChatGPT钱包让OpenAI的Dots代理为您代为购物",
+      "originalTitle": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "date": "2026-11-13T20:45:10.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "在今年早些时候推出Dots AI代理平台之后，OpenAI将为这些代理推出一款钱包。 从今天开始，ChatGPT钱包将面向美国境内年满18周岁、使用美国账单地址以及“符合条件的美国发行的美国运通卡、大通卡、万事达卡和Visa卡”的ChatGPT Pro订阅用户推出。 “将银行卡添加到钱包后，您的Dots代理就可以根据您的提示使用该卡购买商品，但每次结账前都会与您确认。 OpenAI 的支持页面指出，每次使用 ChatGPT 钱包进行购买时，都需要进行安全检查，包括面容 ID 或指纹扫描等生物识别验证。 现在，您的Dots代理……在The Verge上阅读完整报道。",
+      "originalSummary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card [&#8230;]",
+      "rawFullText": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "AI代理初创公司LangChain估值达30亿美元",
+      "originalTitle": "AI agent startup LangChain hits $3B valuation",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "date": "2026-11-13T19:37:57.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
+      "fullContent": "代理管理初创公司LangChain周五宣布，该公司已完成一轮由CapitalG领投的3亿美元C轮融资，估值为30亿美元，参与投资的还有新加坡GIC、DFJ Growth、IVP和Sapphire Ventures等投资者。 这比该公司约一年前在IVP领投下筹集1.25亿美元时的12.5亿美元估值高出一倍多。 LangChain 于 2022 年起步，是一个广受欢迎的开源项目，旨在处理早期 LLM 难以胜任的任务，例如搜索网页、调用 API 和与数据库交互。 随着前沿人工智能实验室推出了如今能够胜任这些任务的工具，LangChain 将工作重点转向了管理人工智能代理。 该公司显然已在这个竞争激烈的领域找到了自己的发展方向，其理念很简单：让企业拥有自己的智能。 这家初创公司源于开源，表示其代理创建和管理软件LangSmith并不像主流云服务提供商或尖端人工智能实验室那样试图将用户锁定在任何特定模型、云或生态系统中。 该公司还承诺，LangSmith将包含代理行为，并且易于使用。 诚然，如今还有许多其他初创公司也在宣传类似的优势，而且表现也不错（新晋公司Mintive就是一个例子）。 然而，LangChain起步较早，目前声称拥有7,000家LangSmith客户，其中包括Harvey、Rippling和Clay等知名初创公司，以及Nvidia、丰田和Salesforce等企业。 每周工作日和周日，您都可以获得TechCrunch的精彩报道。 TechCrunch Mobility是您获取交通运输新闻和见解的理想之地。 初创企业是TechCrunch的核心，因此请每周接收我们最精彩的报道。 为有影响力的人物提供他们开始新一天所需的信息。 提交您的电子邮件，即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "ChatGPT 的新钱包让 AI 代理为您购物和结账",
+      "originalTitle": "ChatGPT&#8217;s new Wallet lets AI agents shop and check out for you",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "date": "2026-11-13T16:00:12.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
+      "fullContent": "OpenAI表示，用户对购买行为拥有完全的掌控权，因为在结账之前，他们可以查看商品、总价以及用于完成交易的支付卡。 此外，用户将通过面容识别或指纹等安全验证直接批准购买，从而生成交易记录。 此次新增功能正值面向消费者的AI工具正努力寻找合适的产品与市场契合点，即如何帮助人们更高效地完成各种任务。 虽然DoorDash和Uber等公司迄今为止报告的人工智能代理下单数量很少，但Meta的Muse目前拥有超过1000万用户，人工智能辅助购物已成为其应用程序上的热门活动。 其他个人人工智能代理，如Instinct，也支持代用户购物。 因此，OpenAI 希望通过自己的代理购物功能进一步进入这一领域也就不足为奇了。 OpenAI 表示，商家将自动从 dot 处收到履行订单所需的信息，例如收货地址和联系方式。 该公司指出，通过dots购物的顾客仍将能够获得信用卡奖励，并能够享受通常随信用卡提供的保障，例如能够对交易提出异议。 上线时有限的可用性将使OpenAI能够在更广泛地推出该功能之前对其进行测试和改进。 未来，该公司计划允许用户设置消费限额，或针对购买类别或时间段配置其他参数，从而为用户提供对该功能的更多控制权，这样用户就可以预先批准购买，然后由代理更自主地处理。 该公司还计划将代理购物功能扩展至更多支持的零售商。 在某些地区，这可能是一个挑战，因为零售商正在阻止 AI 代理使用他们的网站；在购物领域，禁止 AI 代理的最大零售商是亚马逊，因为它希望引导用户使用自己的 AI 代理 Alexa。 为了帮助零售商适应代理式商务，OpenAI 还发布了《商务合作伙伴手册》，为希望支持使用代理的客户的网站提供工具和指导。 当您通过我们文章中的链接进行购买时，我们可能会赚取少量佣金。 这不会影响我们的编辑独立性。 正在发酵的黄仁勋丑闻：时间线Amanda Silberling微软最近的电子邮件服务中断演变为一场全面的全球云端危机Zack Whittaker路透社报道称，黄仁勋有第三段婚外情Russell Brandom",
+      "originalSummary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "隆重推出ChatGPT钱包",
+      "originalTitle": "Introducing ChatGPT Wallet",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "date": "2026-11-13T15:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "隆重推出 ChatGPT 钱包，这是 ChatGPT Work、Codex 和 dots 中的客服代表在获得用户批准并使用现有银行卡保护措施完成购买的安全方式。",
+      "originalSummary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Claude 的 Duet 智能助手有点神经质，但出人意料地有用",
+      "originalTitle": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "date": "2026-11-13T14:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "让我们开始工作吧。 | 图片：Allison Johnson / The Verge 通常，我测试的产品不会主动提出要帮助我撰写使用体验。 Duet与众不同。Claude Duet是Anthropic面向消费者的AI代理，是这家AI公司为说服我们相信代理对不会写代码的人也有用而作出的最新尝试。 过去几个月很有意思：Instinct为我们提供了一款令人印象深刻的文本型助手，Meta为我们提供了它那可爱的小家伙Muse，帮助我们购物，而OpenAI则为我们提供了更面向工作的Dots。 与这些产品相比，Claude Duet 更专注于工作。 它也比Claude Cowork更面向消费者，而Claude Cowork又比Claude Code更面向消费者——co……在The Verge上阅读完整报道。",
+      "originalSummary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple [&#8230;]",
+      "rawFullText": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impressive text-based assistant , Meta offered us its cute little guy, Muse, to help us buy things , and OpenAI gave us the more work-oriented Dots . Claude Duet is even more focused on work than those. It's also more consumer-friendly than Claude Cowork , which was more consumer-friendly than Claude Code - the co … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
       "title": "Amplitude如何借助OpenAI在1–2天内推出产品改进",
       "originalTitle": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "source": "OpenAI",
@@ -32,22 +114,6 @@
         "公司动态",
         "智能体",
         "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Nectar推出AI代理，为品牌方自动化创作者发现和联系流程",
-      "originalTitle": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "date": "2026-11-12T19:11:00.000Z",
-      "summary": "这条新闻与智能体、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、产品发布相关动态",
-      "fullContent": "Nectar是一款由人工智能驱动的营销操作系统，即将推出一款全新的人工智能代理，旨在将网红营销中的大量人工工作自动化，包括寻找合适的创作者、与他们联系、管理合作关系以及跟踪结果。 Nectar 由姐妹 Misbah 和 Farah Uraizee 创立，两人均为 Meta 前员工。Nectar 于去年正式亮相，利用 AI 代理帮助品牌管理社交媒体、客户互动、内容审核、创作者合作以及竞争对手调研。 该公司于周四宣布推出全新“创作者代理”，该代理可以搜索创作者、查看他们的内容和品牌合作关系、发送个性化消息、协调合作以及监测推广活动的表现。 Nectar 希望其代理自动处理大部分工作，而不是让营销团队花数周时间浏览社交媒体、制作电子表格和发送个人私信。 Nectar 与其他公司一道推出了旨在自动化网红推广的智能体 AI 助手，这些公司包括 Aspire 和 GRIN。 此次发布之际，越来越多的品牌正转向创作者来触达客户。美国 根据互动广告局的数据，2026年创作者广告支出预计将达到440亿美元。 随着公司与数百甚至数千名创作者合作，跟踪关系和衡量结果可能会变得相当困难。 Nectar表示，其Creator Agent会搜索超过3亿个创作者个人资料，以寻找潜在合作伙伴，其中包括可能尚未拥有大量粉丝但正在吸引更多关注的小型创作者。 该系统会分析视频，以了解创作者发布的内容、其内容与品牌的契合度，以及他们此前的合作关系是否合适。 它还会通过审查内容的上下文来检查品牌安全性，而不仅仅是搜索特定的关键词。 然后，Nectar 会创建排名推荐列表，并在创作者人气上升时添加新的匹配项。 一旦找到潜在匹配对象，智能代理就可以以品牌的语气撰写并发送消息，创建自定义落地页以收集创作者信息，并帮助管理合同、产品赠送和发货详情。 它还能记住先前的对话和互动，因此品牌无需依赖电子表格即可跟踪关系。 首席执行官Misbah Uraizee在接受TechCrunch采访时表示：“品牌可以以任何格式分享语气指南，Nectar会从品牌的历史记录中获取其余信息。” “除此之外，还有一套专有防护机制，确保每篇草稿的语气和语境都符合要求。 Nectar能够理解视频中的内容，读懂对话的语气，并知道X上的引用帖与TikTok评论区的区别。 一个品牌在这两种情况下不应该听起来一模一样，而使用Nectar就不会。” 另一个功能是寻找创作者生活中的个人里程碑，例如订婚、新宝宝出生或完成马拉松。 然后，代理可以建议个性化的消息或礼物，帮助品牌建立起不像一次性广告交易的关系。 Creator Agent现已在全球范围内推出，覆盖Instagram创作者和TikToker。",
-      "originalSummary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "产品发布"
       ],
       "score": 99
     },
@@ -83,21 +149,34 @@
       "score": 99
     },
     {
-      "title": "黄仁勋的离职使人们对英伟达对开源的支持产生疑问",
-      "originalTitle": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "date": "2026-11-12T18:39:23.000Z",
-      "summary": "这条新闻与算力芯片、开源相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片、开源相关动态",
-      "fullContent": "随着公司经历领导层变动，Jensen Huang的辞职引发了人们对Nvidia在开源人工智能方面承诺的质疑，包括其对Hugging Face的收购、开放权重模型以及反对限制的倡导。",
-      "originalSummary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "title": "Gondola 的团队使用 Codex 构建更多内容，收入翻倍",
+      "originalTitle": "Gondola doubles revenue as its team builds more with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/gondola",
+      "date": "2026-11-12T12:00:00.000Z",
+      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
+      "fullContent": "Gondola 帮助创意人士获得认可并找到工作，Codex 将首席工程师的产出提高了 50%，ChatGPT 则简化了日常工作。",
+      "originalSummary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "rawFullText": "",
       "tags": [
-        "算力芯片",
-        "开源",
-        "模型"
+        "大模型"
       ],
-      "score": 96
+      "score": 95
+    },
+    {
+      "title": "不，AI 代理并未发现此前未知的玛雅遗址",
+      "originalTitle": "No, AI agents did not discover a previously unknown Maya site",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "date": "2026-11-12T19:42:40.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "“我醒来后查看了代理的报告。 “该死！”它们发现了许多村庄和其他看起来像建筑或房屋的规则形状。”Pietro Miotti在博客上写道。 | 图片：Pietro Miotti凭借一支由人工智能代理组成的团队，谷歌研究员Pietro Miotti本周早些时候声称在墨西哥发现了一处可能未被标绘的玛雅遗址。 只有一个问题：该遗址去年就已经被发现，并发表在了一份学术期刊上。 此事在网上引发了考古学家的批评，凸显了科学界日益加剧的紧张关系，因为业余爱好者使用日益强大的人工智能工具空降到专业领域，而他们往往不具备理解所见事物的专业知识。 当地社区通常已经非常了解本地区的遗址。 Miotti表示，使用人工智能来监测海洋的……在The Verge上阅读全文。",
+      "originalSummary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a [&#8230;]",
+      "rawFullText": "“I woke up and checked the agents' reports. 'DAMN!' They had found lots of villages and other regular shapes that looked like structures or houses,“ Pietro Miotti wrote on his blog. | Image: Pietro Miotti Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a growing tension in science as amateurs wielding increasingly powerful AI tools parachute into specialist fields, often without the expertise needed to understand what they are looking at. Local communities are often already well aware of sites in their area. Miotti said the idea to use AI to sea … Read the full story at The Verge.",
+      "tags": [
+        "智能体"
+      ],
+      "score": 93
     },
     {
       "title": "面向退伍军人和现役军人的 ChatGPT Plus",
@@ -112,7 +191,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
@@ -128,7 +207,7 @@
         "智能体",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "JioStar首席架构师谈论5亿用户规模的AI发现",
@@ -143,7 +222,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "针对多向量嵌入模型的“令牌池化感知”训练",
@@ -158,7 +237,7 @@
       "tags": [
         "模型"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "帮助照护者在日常生活中使用人工智能",
@@ -177,22 +256,6 @@
       "score": 99
     },
     {
-      "title": "新加坡航空公司借助OpenAI技术提升旅行与工作体验",
-      "originalTitle": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/singapore-airlines-travel-work",
-      "date": "2026-11-10T08:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "了解新加坡航空公司如何使用OpenAI模型和API来提升客户支持、旅行探索和员工工作效率，并将其Kris聊天机器人的客户满意度（CSAT）提高一倍。",
-      "originalSummary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 98
-    },
-    {
       "title": "在 ChatGPT 中介绍企业",
       "originalTitle": "Introducing Businesses in ChatGPT",
       "source": "OpenAI",
@@ -205,7 +268,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "弥合教育领域的人工智能指导缺口",
@@ -220,22 +283,37 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
-      "title": "开拓前沿：人工智能对自由职业工作的影响",
-      "originalTitle": "Work at the Frontier: AI’s effect on freelance work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ai-effect-on-freelance-work",
-      "date": "2026-11-10T07:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI 和 Upwork 的最新研究发现，自由职业工作的需求正在发生变化，出现了新的技能组合，并且人工智能相关项目的预算更高、工作时长更长。",
-      "originalSummary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "title": "Hugging Face 中的决策模型",
+      "originalTitle": "Decision Models in Hugging Face",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/decision",
+      "date": "2026-11-10T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "大型语言模型（LLM）在生成文本方面表现尤为出色。 我们使用它们来回答问题、编写代码、分析问题等等。 但并非每个问题都需要生成文本。 假设一个客户支持系统收到了以下消息：“我的订阅被收取了两次费用。 我今天需要退款。 “系统需要确定哪个团队应处理该请求、该请求的紧急程度以及客户是否要求退款。 我们可以要求 LLM 返回一个包含这些答案的 JSON 对象。 但是，如果模型可以直接评估可用选项，并返回这些选项的概率分布，而无需生成任何文本，那该怎么办呢？ 决策模型会获取一些输入上下文（状态），使用一组预定义的可能答案（基元）评估一个问题，然后返回一个结构化决策以及概率。 我们不要求模型逐个生成答案的标记，而是要求它为我们的应用程序已经理解的答案分配概率。 TypeSafe AI 推出了 Jev ，将其描述为一种系统 1 模型。 这个名称的灵感源自快速、直觉性思维（系统1）与较慢、深思熟虑的思维（系统2）之间的区别。 该社区已统一使用“决策模型”一词，因为它描述的是模型的计算作用，而不是援引某种特定的认知理论。 在本文的其余部分，我们将把这些模型称为“决策模型”，而不是“系统一模型”。 （一项推特投票，决定我们应该如何称呼此类模型）我们可以简单地提示一个大语言模型（LLM）返回一个包含我们决策的JSON对象。 事实上，许多应用程序已经采用这种方式使用语言模型进行分类、路由和其他结构化任务。 在了解决策模型的接口之前，不妨先回顾一下两种密切相关的方法，即传统分类和零样本分类。 假设我们训练一个分类器，将客户支持请求路由到三个部门：",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "模型"
       ],
-      "score": 93
+      "score": 79
+    },
+    {
+      "title": "使用您的 Google Cloud 账户为 Hugging Face Hub 付费",
+      "originalTitle": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "date": "2026-11-10T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "您现在可以将您的 Hugging Face 组织关联到您的 Google Cloud 账户，这样您的 Hugging Face 使用情况就会显示在您的 Google Cloud 账单上，而不会从信用卡中扣款。 在 Google Cloud Marketplace 上开始使用。 Hugging Face是团队查找、构建和运行开放模型的平台：从托管私有模型和数据集，到使用Jobs运行GPU工作负载，使用推理端点部署模型，通过推理提供商调用数千个模型，或在GPU Spaces上托管演示。 如果贵公司已经在使用 Google Cloud，那么仅仅为了使用这些服务而添加一个新的供应商和一张公司信用卡可能会拖慢工作进度。 通过 Google Cloud Marketplace 关联您的组织：如果您是 Hugging Face 组织的管理员，请参阅以下分步设置指南。 您现在位于 Hugging Face，您可以在这里选择要关联到您的 Google Cloud 账户的组织。 仅列出您是管理员的组织。 选择并确认。 然后，您将被重定向到您所在组织的账单设置。 “付款方式”部分现在显示已关联的 Google Cloud 账户，其状态为“待处理”。 在通过云市场订阅开始对付费使用进行计费之前，Hugging Face 团队会对每个订阅进行审核。 在订阅处于待处理状态期间，使用量将继续通过组织的现有付款方式（如有）计费。 订阅获得批准后，您将收到一封电子邮件，确认您的 Google Cloud 账户已与 Hugging Face 组织关联。 已登记信用卡的组织将在下一个账单期开始时切换到云市场账单。 处于免费套餐且未登记信用卡的组织通常会立即切换，因此其付费使用量会立即通过云市场计费。 要确认这一点，请打开您所在组织的账单设置：Google Cloud 账户现在显示为该组织的有效付款方式。 您的组织现在通过您的 Google Cloud 账户付费。 您组织的所有成员都可以使用 Hugging Face 计算服务，使用情况将显示在您的 Google Cloud 账单上。 感谢您的阅读！您可以在账单文档中找到更多详情。 如果您有任何疑问，请通过 billing@huggingface.co 联系我们。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 73
     },
     {
       "title": "在特殊化学品行业使用人工智能进行创新",
@@ -250,22 +328,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
-    },
-    {
-      "title": "Nemotron-Personas-Finance-Japan：捕捉日本人口统计和金融背景的合成数据集",
-      "originalTitle": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan&apos;s Demographics and Financial Context",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "date": "2026-11-09T15:05:57.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "基于现实世界分布的复合型人工智能方法，用于分析日本用户 在金融领域，由于严格的隐私法规、合规要求以及对高级领域专业知识的需求，现实世界数据的利用面临着重大限制。 在这种背景下，金融领域自主型人工智能的发展需要合成数据，既要能够避免使用真实数据的风险，又要能够反映人口统计特征、家庭结构和资产状况，以重现多样化、真实的金融情景。 为了应对这些挑战，Elith 和 NVIDIA 发布了 Nemotron-Personas-Finance-Japan ，这是开源角色数据集“Nemotron-Personas-Japan”的金融领域扩展。 “据我们所知，这是首个将日本官方统计数据与家庭财务和金融知识数据相结合的百万级规模开放式角色数据集。 该数据集以官方政府统计数据为基础，使用 NeMo SDG-PGM （用于合成数据生成 (SDG) 的概率图模型框架）和 NeMo Data Designer （企业级合成数据生成系统）开发而成。 此外，为了增强数据集在金融用例中的实用性，其设计借鉴了多家领先的国内金融机构和行业协会提供的见解和反馈，包括Sompo Japan、Tokio Marine Holdings、福冈银行、瑞穗金融集团、明治安田生命保险和金融数据利用协会（FDUA）。 该数据集拓宽了日本开发人员和企业无需使用真实客户数据即可开发和评估符合本地和行业需求的人工智能的环境。 该数据集根据 CC BY 4.0 许可证发布，可用于商业用途。 从构建对话代理到客户模拟和模型评估，它为实用的金融 AI 开发提供支持。 Nemotron-Personas 系列（包括 Nemotron-Personas-Finance-Japan）旨在与用户模拟框架 NeMo User Sim 无缝集成，从而能够即时执行源自与现实世界相符的各种分布的模拟。 它使用 NVIDIA 的合成数据生成框架 NeMo Data Designer 构建而成。 该复合人工智能系统支持复杂的Jinja模板、Pydantic验证、结构化输出、自动重试，并支持多个生成后端。 这是生成此类大规模合成数据集所必需的基本工具集。 此外，还使用了以下模型：Nemotron-Personas-Finance-Japan 的设计旨在与日本的官方人口和劳动力统计数据保持一致，同时考虑到对人工智能训练至关重要的关键因素：每个角色都是完全合成的。 没有代表任何真实个人，数据集旨在降低隐私风险。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 74
+      "score": 77
     },
     {
       "title": "您的专家有合作伙伴。有希望让他们继续合作",
@@ -280,7 +343,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 74
+      "score": 73
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -295,10 +358,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
-      "title": "MIT Technology Review：AI 热点相关动态",
+      "title": "南希·佩洛西的继任者已准备好监管人工智能",
       "originalTitle": "Nancy Pelosi’s replacement is ready to regulate AI",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
@@ -310,22 +373,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
-    },
-    {
-      "title": "ToyBlocks ：机器人学习和评估的受控世界",
-      "originalTitle": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/toyblocks",
-      "date": "2026-11-06T14:00:48.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "fullContent": "机器人正在学习折叠衣物、分类零件和处理不熟悉的物体。但这些演示往往相当狭隘，无法解释机器人学到了什么或为什么会失败。为了研究复杂的系统，科学家通常从一个小而可控的环境开始，例如培养皿或培养皿，在那里他们可以改变条件并观察效果。 机器人需要使这种调查成为可能的环境--研究人员应该能够更改训练数据或模型设计，重复测试，并追踪失败的原因。今天，我们将介绍一个用于创建这些环境的框架；我们称之为FoundationWorlds。 每个人将一个受控的模拟世界配对，旨在在特定环境中研究机器人技术，使用自动生成任务和训练演示的工具，以及测量机器人随时间变化的行为的指标。它们共同为研究问题提供了一个环境，例如随着更多的训练数据变得可用，模型如何改进，以及如何最好地将高级推理与精确的物理控制相结合。 我们的第一个基础世界是ToyBlocks ：一个围绕机器人手臂和桌面上的块构建的开放式模拟框架。设置非常简单，但机器人仍然必须推理模块如何相互作用以及如何在推动、翻转和堆叠时排列它们。 ToyBlocks自动生成演示，这是机器人在模拟中完成任务的录制，而不需要耗时的远程操作，其中人远程控制机器人。研究人员可以轻松地改变这些培训体验。例如，团队可以生成更多的推送或翻转演示，然后评估未接受培训的任务的绩效。 从ToyBlocks作为我们的第一个FoundationWorld开始，我们的目标是将这种方法扩展到日益复杂的环境。在我们早期开放式机器人学习工作的基础上，包括MolmoAct 2、MolmoBot和MolmoSpaces ， ToyBlocks为研究人员提供了一种在故意受限的领域中研究机器人问题的方法。 作为FoundationWorld ， ToyBlocks围绕四个要求进行设计： （ 1 ）逼真的物理和外观， （ 2 ）大规模自动生成任务和演示， （ 3 ）将推理和灵活性相结合的挑战，以及（ 4 ）广泛涵盖领域内可能的任务。开放式领域需要对各种对象和交互进行建模，因此无法满足所有这些要求。 另一方面， ToyBlocks的范围狭窄，使其能够实现所有目标。在ToyBlocks较小的设置中，研究人员可以研究机器人如何学习执行任何合理的任务，同时确信模拟的手臂和模块的行为与它们的物理对应物非常相似。ToyBlocks设置中木块上方的物理机器人抓手。",
-      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "rawFullText": "",
-      "tags": [
-        "机器人"
-      ],
-      "score": 79
+      "score": 71
     },
     {
       "title": "我看着一个人形机器人打扫我的公寓。这感觉就像是未来的味道。",
@@ -340,7 +388,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "埃及和尼日利亚英语加入Open ASR排行榜",
@@ -355,7 +403,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "近距离观察Phonon TTS。推出超越基准的高质量设备上演讲。",
@@ -371,7 +419,7 @@
         "评测",
         "产品发布"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "通过数据沿袭确保代理企业的安全",
@@ -386,22 +434,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 86
-    },
-    {
-      "title": "Dharma Field Extractor ：任何文档输入， JSON中的结构化字段输出",
-      "originalTitle": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "date": "2026-11-04T17:50:10.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这是一个20亿参数的模型，可从任何文档类型中准确提取您要求的字段，其性能优于我们测试的每个前沿法学硕士，成本仅为前沿法学硕士的一小部分。4月，我们发布了DharmaOCR-LITE ，这是一种专门针对OCR的模型，适用于各种文件，从合同和法院文件到发票、身份证件和表格。 其背后的论文为领域专业化提出了一个狭隘的、经过精心测量的案例：一个更接近其任务的较小模型，在该任务上击败了通用前沿API。OCR为您提供页面上的文本，忠实于原始格式。当工作是整个文件时，这正是你想要的，比如你将端到端阅读的合同或你正在数字化的手稿。 但是，有一个不同的用例：您不想要页面，您希望从中删除特定字段，形成下游系统可以使用的形状。发票上的每个行项目，作为列表。医疗请购单中的患者姓名、检查类型和日期，可随时安排。ID上的字段，映射到员工记录的列。 通过OCR运行该文档，您可以逐行取回打印在其上的所有内容，而不指示哪个字符串是考试类型，哪个是日期或哪个数字是总数。在每个值到达数据库之前，仍然需要有人编写代码，将每个值映射到正确的字段。通用法学硕士今天可以在仔细的提示下完成这项工作。 在前沿API定价和延迟方面，对于许多企业需要以高容量运行的任务，这很快成为解决明确定义问题的昂贵方法。因此，我们为它构建了一个模型。字段提取器获取文档图像以及它可以找到的所有内容的请求或要填写的确切架构，并返回结构化JSON ：类型化，逐字段，嵌套在文档嵌套的位置。 发票以有序列表的形式返回每个行项目，每个行项目都有自己的数量和价值，以及总计。身份证件将作为您将存储的字段返回，并显示在您的系统已为其使用的名称下。相同的检查点处理所有问题，无需每种类型的微调。假设每天早上都有一批供应商发票，每张发票都需要四样东西才能推送到您的系统中：供应商、发票编号、截止日期、总金额。 对于进入调度程序的医疗请购单或提供合规系统的合同，同样的情况，重要的是各方、期限、罚款和罚款金额。您不需要页面，您需要某些字段。使用字段提取器，有两种方法可以要求它们：选择归结为您已经知道的内容。当您不知道文件包含哪些内容时，请发送未结申请。 当输出必须与其他地方已存在的形状匹配时，发送架构。无论哪种方式，返回的是JSON ：字段作为键，键入为请求的值，以及在文档没有您所要求的内容时为null。当您发送架构时，输出完全遵循它，具有相同的键，没有额外的字段，因此它可以直接进入下一个系统。基础模型是DharmaOCR-LITE v1。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
+      "score": 85
     },
     {
       "title": "德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。",
@@ -416,7 +449,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "“反向博弈论”如何控制AI智能体",
@@ -433,7 +466,7 @@
         "安全",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "以下是特朗普的“超级情报”忠诚度测试",
@@ -448,7 +481,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "提高代理分析的洞察质量",
@@ -463,7 +496,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 74
+      "score": 73
     }
   ]
 }
