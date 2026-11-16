@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T02:28:57.985Z",
+  "updatedAt": "2026-11-16T02:39:00.234Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,67 @@
   ],
   "articles": [
     {
+      "title": "苹果推出新应用，研究人们如何使用人工智能来管理健康",
+      "originalTitle": "Apple launches new app to study how people use AI for health",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "date": "2026-11-16T01:30:00.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：产品发布相关动态",
+      "fullContent": "OpenAI和Anthropic等大型人工智能实验室已将赌注押在提供聊天机器人上，这些聊天机器人具备专门功能，能够回答与健康相关的问题。 苹果公司正在开展一项新研究，以了解人们如何使用人工智能来管理健康。 但它目前还没有完全跟上其他人工智能初创公司的步伐；它希望研究基于临床的答案如何能够帮助人们。 这家iPhone制造商正在与专注于医疗保健的人工智能公司OpenEvidence合作，推出一款新的研究应用程序。 苹果正在邀请符合以下条件的用户参与：年满21周岁、居住在美国、使用iPhone 15或更新机型、运行iOS 26或更新版本，且已启用Apple Intelligence。 该公司计划在12个月以上的时间里开展这项研究，参与者人数最多可达20万人。 这款新应用将允许用户像使用ChatGPT或Claude一样提出与健康相关的问题，答案将基于来自《新英格兰医学杂志》、《美国医学会杂志》和《自然》等来源的临床数据。 苹果表示，该应用程序将尝试对日常医疗问题给出简明扼要的答案。 用户可以对这些答案进行评分，并提供有关回复的反馈；他们还会被要求参与每月调查。 参与者可以分享HealthKit中的数据，例如静息心率、活动、睡眠或实验室结果，以便从应用程序中获得更个性化、更有针对性的建议。 该公司表示，该应用程序还可以帮助参与者更好地为看医生做好准备，并将引导用户找到具体的医疗服务提供者，以获得与相关医疗问题有关的答案。 苹果公司明确表示，数据在发送到安全的第三方云提供商之前将进行匿名处理，且不会用于训练任何类型的人工智能模型。 该公司表示，OpenEvidence会在24小时后删除查询和回复数据。 “在苹果，我们认为负责任的创新始于科学严谨和临床基础。 健康具有深刻的个人性，开展专门的研究是了解人们在日常生活中如何接触、理解和评估健康人工智能的最周全方式。”——Sumbul Desai医学博士 苹果公司健康与健身副总裁在声明中表示，并补充道：“这项研究的洞见将有助于推动更广泛的科学讨论，并确保随着技术的发展，我们继续打造值得信赖的工具，真正为人们的健康之旅提供支持，无论他们身处何方。” 从今天起，美国用户可以下载该应用程序。 目前尚不清楚苹果是否希望在其“健康”应用或Siri中推出由人工智能驱动的问答功能。 其潜力巨大——今年早些时候，OpenAI表示，用户每周提出的与健康相关的问题超过3亿个。 如果您通过我们文章中的链接进行购买，我们可能会赚取少量佣金。 这不会影响我们的编辑独立性。 Ivan在TechCrunch报道全球消费科技的发展动态。",
+      "originalSummary": "Apple's new app for a study will answer everyday medical questions",
+      "rawFullText": "",
+      "tags": [
+        "产品发布"
+      ],
+      "score": 82
+    },
+    {
+      "title": "朝着在格点上定义标准模型迈出的一步",
+      "originalTitle": "A step toward defining the Standard Model on a lattice",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "date": "2026-11-15T22:00:01.000Z",
+      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
+      "fullContent": "探索标准模型的候选非微扰格定义，以及GPT-6 Astra如何帮助将这一想法转化为详细的证明。",
+      "originalSummary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "我们的新科学博客",
+      "originalTitle": "Our new blog for science",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/our-new-blog-for-science",
+      "date": "2026-11-15T22:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI科学博客分享了使用人工智能推动科学发现的研究人员的新发现、实用方法和第一手经验。",
+      "originalSummary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 95
+    },
+    {
+      "title": "在英伟达间谍丑闻之后，国会希望收紧对人工智能芯片的出口管制",
+      "originalTitle": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "date": "2026-11-15T19:15:43.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "不出所料，在涉及现已卸任的英伟达首席执行官黄仁勋和一名疑似中国间谍的丑闻曝出后，美国国会正寻求进一步限制人工智能芯片的出口。 民主党和共和党都表示支持旨在收紧监管的各种措施和法案，并要求黄仁勋和其他英伟达高管在国会作证。 参议院少数党领袖查克·舒默已表示，黄仁勋和特朗普政府需要向国会作出交代。 参议院银行委员会主席蒂姆·斯科特（Tim Scott）也致函黄仁勋和商务部长霍华德·卢特尼克（Howard Lutnick），呼吁他们公开在委员会作证……请在The Verge上阅读全文。",
+      "originalSummary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority [&#8230;]",
+      "rawFullText": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority Leader Chuck Schumer has already said that Huang and the Trump administration need to answer to Congress . Senate Banking Committee Chairman Tim Scott has also sent letters to both Huang and Commerce Secretary Howard Lutnick calling on them to publicly testify to the commit … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 90
+    },
+    {
       "title": "Nvidia 的安全团队在哪里？",
       "originalTitle": "Where was Nvidia&#8217;s security team?",
       "source": "TechCrunch AI",
@@ -31,75 +92,22 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 91
+      "score": 90
     },
     {
-      "title": "Together Compiler：用于 AI 推理的持续编译",
-      "originalTitle": "Together Compiler: Continual Compilation for AI Inference",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.14681",
-      "date": "2026-11-14T05:00:00.000Z",
-      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
-      "fullContent": "arXiv:2611. 14681v1 公告类型：新文章摘要：当今的AI工作负载正在迅速变化：新模型发布得更加频繁，模型架构日益多样化，流量分布也频繁变化。 我们在Together AI面临的挑战是如何持续优化这些不断变化的工作负载。 将部署编译为优化的前向传播是一项非常适合代理爬山法的挑战。 由于测量吞吐量和保真度之间存在权衡，现有系统在持续编译方面存在困难。 许多系统使用代理，通过离线基准来优化推理前向传播中的单个内核，但由于混合专家 (MoE) 等基元中存在数据相关行为，因此计时精度较低。 另一方面，系统使用代理直接优化端到端引擎，但引擎启动时间较慢。 为了应对这些挑战，我们构建了 Together Compiler (TKCC)，这是首个专为 AI 推理优化而设计的真正持续性代理循环。 为了解决吞吐量与保真度之间的权衡问题，我们提出：(1) 一种分层持久引擎，将引擎启动开销与前向传播计算解耦；(2) 一种成本模型，用于选择为优化过程提供种子的并行配置。 我们还对代理上下文管理进行了大量消融实验，并介绍了我们在生产环境中部署 TKCC 的见解。 在 Llama 1B 工作负载中，TKCC 的性能比高度优化的手工编写 Megakernel 高出多达 1.7 倍，并且在最新前沿模型（Kimi K3、GLM 5. 3、MiniMax M3. 1 Flash、DeepSeek v4. 1 Flash）在 InferenceX 基准测试中的 TPS 高出多达 2.6 倍。 TKCC 还树立了批处理大小为 1 时的最先进性能标杆，在 M3. 1 Flash 上达到 1111 TPS，在 DeepSeek v4. 1 Flash。最后，TKCC 的应用范围超越了前沿语言模型的推理。 TKCC 在我们的生产集群中提供数万亿个token的服务。",
-      "originalSummary": "arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff between measurement throughput and fidelity. Many systems use agents to optimize individual kernels from the inference forward pass using offline benchmarks, but timings are low-fidelity because of data-dependent behavior in primitives like mixture-of-experts (MoE). On the other hand, systems use agents to directly optimize end-to-end engines but suffer from slow engine launch times. To address these challenges, we build Together Compiler (TKCC), the first truly continual agent loop designed for AI inference optimization. To address the throughput-fidelity tradeoff, we propose: (1) a Tiered Persistent Engine that decouples engine launch overheads from forward pass computation; (2) a cost model to select the parallelism configurations that seed the optimization process. We also conduct extensive ablations on agent context management and present our insights on deploying TKCC in production. TKCC outperforms highly-optimized hand-written Megakernels on the Llama 1B workhorse workload by up to 1.7x and the best open source engines on the latest frontier models (Kimi K3, GLM 5.3, MiniMax M3.1 Flash, DeepSeek v4.1 Flash) across hardware platforms by up to 2.6x higher TPS on the InferenceX benchmark. TKCC also sets the state-of-the-art performance at batch size 1, with 1111 TPS on M3.1 Flash and 1205 TPS on DeepSeek v4.1 Flash. Finally, TKCC generalizes beyond frontier language model inference. TKCC serves trillions of tokens across our production fleet.",
+      "title": "对黄仁勋来说是坏消息，对人工智能行业来说也是坏消息吗？",
+      "originalTitle": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "date": "2026-11-15T21:56:35.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "我们没有预料到会发生这种情况。 或者至少我没有预料到——一周前，当我写到英伟达董事会对当时的首席执行官黄仁勋展开调查时，我以为他的职位是稳固的。 在TechCrunch的Equity播客最新一期节目中，Rebecca Bellan、Tim De Chant和我讨论了黄仁勋是如何被罢免的，以及这对更广阔的人工智能经济意味着什么。 虽然蒂姆表示他预料到会发生这种情况（尽管没有这么快），但丽贝卡说：“我根本没想到会发生这种情况。” “Jensen就是Nvidia，对吧？”她补充道。 “而且这个经济体有很大一部分都依赖于英伟达。” 同样，我也对黄仁勋的支持似乎如此迅速地崩塌感到惊讶，每天似乎都有更多的丑闻曝出。 （与此同时，仍有许多人希望看到他回归。 ）我们还花了一些时间思考Nvidia在更广阔的人工智能生态系统中的投资将走向何方。 请继续阅读，以预览我们的对话（为篇幅和清晰起见进行了编辑）；您可以在此处收听完整的一期节目。 Tim De Chant：我就知道会有这么一天。 我没想到会这么快发生。 我以为至少还会过几天。 Rebecca Bellan：我根本没想到会发生这样的事。 我的意思是，Jensen就是Nvidia，对吧？ 而这个经济体有很大一部分都依赖于Nvidia。 我们只有过去几年的数据，这些数据向我们表明，亿万富翁可以为所欲为。 所以他的辞职让我感到很惊讶 — 这几乎让我重拾了对人性的信心。 但有人对我说：“如果这是埃隆，什么都不会发生。” 他不会辞职的。 什么都不会发生。Anthony Ha：这很有趣，因为要是一周前，甚至仅仅是几天前，我都会说Jensen与Elon属于同一类人。 我的意思是，没有人像埃隆那样特别，但它是一家规模庞大、极其成功的公司。 正如您所说，在很多方面，整个人工智能经济都是建立在Nvidia的基础之上。 对于大多数人来说，黄仁勋就是英伟达。 他是最大的股东。 他的家人在公司工作，也许最重要的是，公司没有制定继任计划。 所以，他们对此完全没有准备。 Rebecca：我认为我们实际上应该退后一步，因为我们刚刚开始这场谈话，就理所当然地认为我们的听众会知道我们在说什么。 但对于那些不知情的人来说，在传出Jensen与Nvidia客户Megaspeed的一名前高管有染后，他于周四辞职。该前高管据称与中国情报部门有联系。 然后还有一桩据称与英伟达高管的婚外情。",
+      "originalSummary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
       "rawFullText": "",
       "tags": [
-        "智能体",
-        "评测",
-        "开源"
+        "算力芯片"
       ],
-      "score": 99
-    },
-    {
-      "title": "SynthCorp：用于创建数据代理基准的平台",
-      "originalTitle": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.14765",
-      "date": "2026-11-14T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 14765v1 公告类型：新摘要：当前针对LLM驱动的数据代理的基准很快就会饱和，并且无法针对特定能力。 我们推出了SynthCorp，这是一个通过模拟业务事件随时间推移如何产生和修改企业数据来创建可定制数据资产和基准的平台。 每个数据域都结合了关系数据库、文档存储和数据目录，并与评估任务和可执行的黄金程序相配合。 首先，在给定场景和目标复杂度维度的情况下，SynthCorp 合成可重用事件类型，并将每个事件类型编译成一个基于预定义模拟原语的程序。 其次，SynthCorp 在虚拟日历上安排事件实例，将常规事件和中断事件交织在一起，以使表、文档和目录条目保持一致。 第三，SynthCorp 执行日历以实现数据资产，并将每个操作记录在模拟日志中。 第四，SynthCorp生成分析任务，并从日志中导出经过验证的金标准程序。 我们使用 SynthCorp 生成初始评估基准，其中包括七个数据域（最多 1K 个操作表）和五个域中的 256 个任务。 数据资产通过了确定性管道检查（例如外键冲突、未声明的写入、重复冲突和数据库执行失败），错误率接近于零，引入了跨资产的复杂性，并涵盖了所有要求的维度。 在四个数据上下文设置中评估三个模型的结果表明，基准将数据上下文和模型层级区分开来。 通过对照模拟日志中的因果溯源来审核候选查询，可以在无需人工标注的情况下验证黄金程序，包括在多事件复合任务中验证，这些任务会暴露最先进的智能体在推理方面的缺陷。 我们希望社区使用SynthCorp生成更具挑战性和更有用的数据资产和基准，以促进企业数据代理的开发。",
-      "originalSummary": "arXiv:2611.14765v1 Announce Type: new Abstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by simulating how business events produce and modify corporate data over time. Each data estate combines relational databases, a document store, and a data catalog, paired with evaluation tasks and executable gold programs. First, given a scenario and target complexity dimensions, SynthCorp synthesizes reusable event types and compiles each into a program over predefined simulation primitives. Second, SynthCorp schedules event instances on a virtual calendar, interleaving routine and disruption events so that tables, documents, and catalog entries remain consistent. Third, SynthCorp executes the calendar to materialize the data estate and records every operation in a simulation log. Fourth, SynthCorp generates analytical tasks and derives verified gold programs from the log. We use SynthCorp to generate initial evaluation benchmarks comprising seven data estates (up to 1K operational tables) and 256 tasks across five domains. The data estates pass deterministic pipeline checks (such as foreign-key violations, undeclared writes, recurrence violations, and database execution failures) with a near-zero error rate, introduce cross-asset complexities, and cover all requested dimensions. Evaluating three models across four data-context settings shows that the benchmarks separate data contexts and model tiers. Auditing candidate queries against causal provenance in the simulation log verifies gold programs without manual annotation, including on multi-event composite tasks that expose reasoning failures in state-of-the-art agents. We hope the community uses SynthCorp to generate more challenging and useful data estates and benchmarks that foster the development of enterprise data agents.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人机系统中的开放性挑战与机遇",
-      "originalTitle": "Open Challenges and Opportunities in Human-Agent Systems",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.14846",
-      "date": "2026-11-14T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 14846v1 公告类型：新文 摘要：智能体人工智能系统越来越多地承担扩展任务并代表人类行事，因此人机互动成为其发挥效能的关键。 成功的互动需要理解人类的视角，协调互补的能力，并在社会技术环境中维持富有成效的关系。 本文探讨了自主代理与多代理系统（AAMAS）社区所提出的基础理论如何为这些需求提供指导。 我们考虑的互动范围从个体人机合作到团队和更大的群体，其中的参与者在角色、决策权、能力和目标方面各不相同。 我们围绕理解他人和决定如何与他人互动这两个相互关联的挑战来组织计算方法。 心理理论、信念-愿望-意图架构、目标和计划识别、逆向规划以及递归推理提供了表征和推断部分可观察心理状态的机制。 观察者感知规划、模型调和和决策理论沟通将这些推理与行动、解释和信息交流联系起来。 这些方法与共享自主性、论证和合作性逆强化学习相结合，为能够考虑到人类知识、意图和期望不断演变的智能体系统奠定了基础。 我们认为，要取得进步，就需要将人类互动视为一个持续的决策问题，该问题受不确定性、相互依存关系以及可能存在冲突的目标的影响。",
-      "originalSummary": "arXiv:2611.14846v1 Announce Type: new Abstract: Agentic AI systems increasingly undertake extended tasks and act on people's behalf, making human-agent interaction central to their effectiveness. Successful interaction requires understanding human perspectives, coordinating complementary capabilities, and maintaining productive relationships within socio-technical environments. This paper examines how foundations developed by the Autonomous Agents and Multi-Agent Systems (AAMAS) community inform these demands. We consider interactions ranging from individual human-agent partnerships to teams and larger groups, where participants differ in their roles, decision authority, capabilities, and objectives. We organize computational approaches around the connected challenges of understanding others and deciding how to interact with them. Theory of Mind, belief-desire-intention architectures, goal and plan recognition, inverse planning, and recursive reasoning provide mechanisms for representing and inferring partially observable mental states. Observer-aware planning, model reconciliation, and decision-theoretic communication connect these inferences to action, explanation, and information exchange. Together with shared autonomy, argumentation, and cooperative inverse reinforcement learning, these approaches offer foundations for agentic systems that account for evolving human knowledge, intentions, and expectations. We argue that progress requires treating human interaction as an ongoing decision problem shaped by uncertainty, interdependence, and potentially conflicting objectives.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "论文"
-      ],
-      "score": 99
-    },
-    {
-      "title": "人类与人工智能在社会协调方面的合理时间使用",
-      "originalTitle": "Rational Use of Time for Social Coordination in Humans and AI",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.14766",
-      "date": "2026-11-14T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 14766v1 公告类型：新摘要：所有社会互动都存在于时间之中。 先前的研究表明，人类能够利用隐性时间线索（例如停顿的持续时间）来推断他人的心理状态。 但是，人类如何利用时间线索来进行动态、精细的社会协调？ 那么，AI系统能否在没有像人类那样“体验”连续实时的情况下做到同样的事情？ 我们使用名为《心灵（The Mind）》的合作卡牌游戏任务来研究这些问题，该游戏要求玩家在反复的互动中实现共同目标，但禁止明示性沟通：唯一可用的信号是时间的流逝。 我们评估了150名人类以及两类人工智能模型，这两类模型反映了在人工智能系统中将时间概念付诸实施的不同方式：计算机使用代理（CUA）和标准文本提示大语言模型（LLM）。 我们发现，通过一种贝叶斯策略，可以最好地捕捉到人类行为，该策略根据博弈伙伴的时机推断其信念——对于前沿模型也是如此。 然而，与人类不同的是，在博弈过程中，所有经过测试的模型似乎都无法有效地将自己的行为调整为与博弈伙伴的行为相适应。 从认知角度来看，我们的研究结果表明，人类在动态的社会环境中对连续时间信号进行隐性概率推理，并且这种推理机制可能在没有实时经验的情况下出现。 从实践角度来看，我们的研究凸显了人工智能系统面临的新挑战，即通过学习如何解读和适应其他智能体在动态环境中的隐性信号，从而与这些智能体高效协作。",
-      "originalSummary": "arXiv:2611.14766v1 Announce Type: new Abstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-grained social coordination? And can AI systems do the same, without ``experiencing'' continuous real-time as humans do? We study these questions using a cooperative card game task called The Mind, which requires players to achieve a shared goal across repeated interactions but forbids explicit communication: the only available signal is the passage of time. We evaluate 150 humans, and two classes of AI models which reflect different ways of operationalizing time in artificial systems: computer-use agents (CUAs), and standard text-prompted LLMs. We find that human behavior is best captured by a Bayesian strategy that infers a partner's belief from their timing---and similarly for frontier models. However, unlike humans, none of the tested models seem to efficiently adapt their behaviors to their partners' over the course of the game. From a cognitive perspective, our findings suggest that humans perform implicit probabilistic reasoning about continuous-time signals in dynamic social settings, and that such reasoning mechanisms may emerge without real-time experience. Practically, our study highlights new challenges for AI systems to coordinate efficiently with other agents by learning to interpret and adapt to their implicit signals in dynamic settings.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "模型"
-      ],
-      "score": 95
+      "score": 84
     },
     {
       "title": "解雇萨姆·阿尔特曼的OpenAI董事会成员表示，我们仍然不能信任人工智能公司的首席执行官",
@@ -115,7 +123,68 @@
         "公司动态",
         "安全"
       ],
-      "score": 94
+      "score": 93
+    },
+    {
+      "title": "人工智能墓地：未成功完成的项目和初创公司的运行列表",
+      "originalTitle": "The AI graveyard: a running list of projects and startups that didn&#8217;t make it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "date": "2026-11-14T17:30:00.000Z",
+      "summary": "这条新闻与公司动态、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、产品发布相关动态",
+      "fullContent": "上个月，聊天机器人平台Character.ai在上线仅五年后就申请了破产。 不久之后，以隐私为重点的AI助手Ollie也宣布停运，理由是市场竞争激烈。 “我们曾接近成功，但最终还是跟不上步伐。”联合创始人兼首席执行官Bill Lennon在X上表示。 除了Character.ai和Ollie之外，还有许多人工智能项目甚至无法在开发它们的公司内部存活下来。 根据标普全球市场情报的数据，约有42%的人工智能项目最终被其母公司放弃。 原因各不相同：资金不足、技术挑战、竞争、扩展困难，或者仅仅是用户需求疲软。 结果是人工智能的坟场日益扩大。 以下是已停运、转型或严重未达预期的部分最知名人工智能产品、初创公司、发布项目和投资项目。 不要将它看作是失败的记分卡，而应看作是这些尝试可以（希望如此）为行业其他参与者提供借鉴的记录。 即使是最大的玩家也难免失手。 OpenAI是世界上最有价值的私营公司之一，也经历过不少挫折和失误。 最近的一个例子是，该公司试图将ChatGPT打造成一款更广泛的“超级应用”。 “7月9日，OpenAI更新了该应用程序，将多个功能整合在一起，包括独立的“聊天”、“Codex”和“工作”模式，同时将传统、熟悉的版本更名为“ChatGPT Classic”。这次重新设计很快招致用户的批评，他们认为新界面令人困惑且杂乱无章，OpenAI 随后很快就回滚了这一变更，恢复了熟悉的 ChatGPT 界面。 这并不是OpenAI唯一一次试图将所有功能整合到同一个平台上。 该公司还关闭了几款独立应用程序，并将其功能直接整合到ChatGPT中——这一策略的效果比重新设计要好。 ChatGPT Atlas是一款独立的人工智能驱动型网页浏览器，存在不到一年时间，于8月9日停用，其最有用的功能被纳入ChatGPT。 该公司对Operator也采取了同样的做法，Operator是一款能够代表用户浏览网页并完成任务的AI代理。OpenAI正越来越多地将图像生成功能直接集成到ChatGPT中，从而削弱了DALL-E作为独立图像生成工具的作用。 我们也不能忘记其视频分享平台Sora，该平台因高昂的运营成本和用户留存方面的挑战而举步维艰，并于2026年3月关闭。 2024年，苹果发布Apple Intelligence时，升级版Siri是其中一项亮点功能。 苹果承诺，Siri将能够理解上下文，了解跨应用程序的动态，并高效地完成任务。 然而，苹果公司一再推迟新版Siri的发布，给出的理由五花八门，包括工程问题和漏洞等。 这一延误最终导致苹果公司就有关其如何宣传iPhone 16的AI功能的索赔达成2.5亿美元的和解。 Siri AI 终于在今年 7 月的 iOS 27 测试版中亮相，本月将率先向英语用户推出全新 AI 版本；预计随后将支持其他语言。 Character.AI 由前...",
+      "originalSummary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 92
+    },
+    {
+      "title": "亚洲各国政府对英伟达首席执行官黄仁勋离职的反应",
+      "originalTitle": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "date": "2026-11-14T16:34:15.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "Jensen Huang离开英伟达一事在亚洲引发了各种各样的反应，一些政府正着手确认芯片供应承诺，而另一些政府则在监测此事对本地项目的影响或处理正在进行的调查。 11月8日星期日，有报道称黄仁勋成为中国间谍行动的目标，Nvidia董事会随后启动了独立调查；黄仁勋承认与总部位于新加坡的芯片公司Megaspeed前高管Alice Huang有染。 英伟达的影响力远远超出了美国。 这家芯片巨头与世界各地的公司建立了密切的联系，特别是在亚洲，其许多关键合作伙伴在全球人工智能行业中发挥着重要作用。 11月10日，中国外交部驳斥了有关与英伟达前首席执行官黄仁勋有联系的中国女商人是间谍的指控，称这些指控毫无根据，是对北京的抹黑。 周五，一位发言人重申反对扰乱全球供应链的出口管制，并表示该部并不知悉有报道将受限的英伟达芯片与与黄仁勋有关的上海数据中心联系起来。 据路透社报道，黄的离职也给价值超过30亿美元的中国人工智能计算项目带来了不确定性，这些项目依赖于英伟达的受限处理器。 其中许多芯片都受到美国 出口管制，使中国公司难以获得。 据新加坡内政部透露，2025年6月，新加坡当局没收了总部位于新加坡的云计算公司Megaspeed前首席执行官Alice Huang的护照，此举是调查其在服务器采购方面可能存在虚假申报行为的一部分。 新加坡该部委表示，由于Alice Huang不住在新加坡，警方拿走了她的护照，以确保她随时可以接受讯问。 调查的重点是，从新加坡运往马来西亚的服务器后来是否在未妥善申报的情况下被运往其他国家。 据该部称，2026年2月，警方认为证据不足，无法确定Alice Huang犯有与涉嫌虚假申报有关的罪行。 然而，当局表示，她故意提供了关于她在Megaspeed的职务的不实信息。 她被警告并被禁止再次入境新加坡。 她的护照于当月归还。 新加坡还表示，尽管多次要求提供有关美国服务器制造商超微的信息，但从美国当局得到的协助有限。 新加坡内政部表示，其对Megaspeed和另外六名个人的调查仍在进行中。 该部未指明这六名个人，也未具体说明他们在该案中的涉嫌角色。 韩国与英伟达关系密切，主要芯片制造商三星电子和SK海力士在其人工智能处理器所用存储芯片的供应方面发挥着重要作用。",
+      "originalSummary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 90
+    },
+    {
+      "title": "埃隆·马斯克和其他科技公司高管签署请愿书，呼吁英伟达恢复黄仁勋的职位",
+      "originalTitle": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "date": "2026-11-14T21:41:22.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "截至周六下午，一份呼吁英伟达（Nvidia）恢复该公司近期被罢免的首席执行官黄仁勋职位的请愿书似乎已吸引了超过11.5万个签名。 该请愿网站表示，签名者包括5,965名英伟达现任员工、1,108名前员工和63,063名股东。 知名支持者包括特斯拉和SpaceX首席执行官埃隆·马斯克、Replit首席执行官Amjad Masad、Epic Games首席执行官蒂姆·斯威尼以及Y Combinator首席执行官Garry Tan。 请愿书指出，签署人“担心Jensen在没有经过有意义的正当程序的情况下被免职”，并要求董事会“在独立调查查明事实真相之前让他复职”。请愿书还呼吁董事会确保公正调查，并向公众提供更多信息。 请愿书指出：“Jensen应享有正当程序，而不是被暴民审判。” 黄仁勋于周四辞职，此前四天，他承认与一名芯片公司高管有染，美国情报部门怀疑该高管是中国间谍。 这位前首席执行官已同意在国会作证，而新闻报道还称，黄仁勋曾多次有婚外情。 英伟达任命首席财务官科莱特·克雷斯（Colette Kress）担任公司临时首席执行官，同时物色永久继任者。 英伟达的股价本周大幅下跌，而黄仁勋的离职预计也将给人工智能行业的融资带来一个巨大的缺口。 每周工作日和周日，您都可以获得TechCrunch的精彩报道。 TechCrunch Mobility是您获取交通运输新闻和见解的首选之地。 初创企业是TechCrunch的核心，因此请每周接收我们最精彩的报道。 为行业领袖提供开启新一天所需的信息。 提交您的电子邮件，即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 83
+    },
+    {
+      "title": "The Verge AI：算力芯片相关动态",
+      "originalTitle": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "date": "2026-11-14T12:00:00.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：算力芯片相关动态”。它主要涉及算力芯片方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that [&#8230;]",
+      "rawFullText": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that shimmered in the stadium's lights. Few are cheering for Jensen Huang now. He has left Nvidia after seemingly enabling two chip smuggling scandals and allegedly having three extramarital affairs , including one with an alleged Chinese spy at the same time he was mingling with President Donald Trump. The world is watching to see if … Read the full story at The Verge.",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 82
     },
     {
       "title": "ChatGPT钱包让OpenAI的Dots代理为您代为购物",
@@ -230,7 +299,7 @@
         "公司动态",
         "安全"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "Gondola 的团队使用 Codex 构建更多内容，收入翻倍",
@@ -245,38 +314,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
-      "title": "不，AI 代理并未发现此前未知的玛雅遗址",
-      "originalTitle": "No, AI agents did not discover a previously unknown Maya site",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-      "date": "2026-11-12T19:42:40.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "“我醒来后查看了代理的报告。 “该死！”它们发现了许多村庄和其他看起来像建筑或房屋的规则形状。”Pietro Miotti在博客上写道。 | 图片：Pietro Miotti凭借一支由人工智能代理组成的团队，谷歌研究员Pietro Miotti本周早些时候声称在墨西哥发现了一处可能未被标绘的玛雅遗址。 只有一个问题：该遗址去年就已经被发现，并发表在了一份学术期刊上。 此事在网上引发了考古学家的批评，凸显了科学界日益加剧的紧张关系，因为业余爱好者使用日益强大的人工智能工具空降到专业领域，而他们往往不具备理解所见事物的专业知识。 当地社区通常已经非常了解本地区的遗址。 Miotti表示，使用人工智能来监测海洋的……在The Verge上阅读全文。",
-      "originalSummary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a [&#8230;]",
-      "rawFullText": "“I woke up and checked the agents' reports. 'DAMN!' They had found lots of villages and other regular shapes that looked like structures or houses,“ Pietro Miotti wrote on his blog. | Image: Pietro Miotti Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a growing tension in science as amateurs wielding increasingly powerful AI tools parachute into specialist fields, often without the expertise needed to understand what they are looking at. Local communities are often already well aware of sites in their area. Miotti said the idea to use AI to sea … Read the full story at The Verge.",
+      "title": "MIT Technology Review：算力芯片相关动态",
+      "originalTitle": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "date": "2026-11-12T20:16:24.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：算力芯片相关动态”。它主要涉及算力芯片方向，热度评分为 87。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on&#8230;",
+      "rawFullText": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on Science, Space, and Technology, is a cosponsor of the act, which would introduce geotracking requirements to verify the location of advanced AI chips in order to prevent their smuggling to China. It is one of three chip-security bills under consideration for inclusion in the Senate’s National Defense Authorization Act, each of which is drawing renewed attention after Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy. When the Chip Security Act was introduced, in May 2025, lawmakers said the technology to implement it existed, something Nvidia has not publicly confirmed. In March 2026, the Semiconductor Industry Association, of which Nvidia is a member, explicitly opposed the bill and wrote that its mandates for chip tracking were “new, untested, and potentially infeasible.” But privately, Nvidia representatives working with Foster told the lawmaker that the company could implement them. “They never put anything in writing,” Foster says, but during technical discussions on the possibility of such safeguards, their reaction was “yeah, of course we can do this.” This private acknowledgment to Foster goes further than anything Nvidia has previously made public. Other technology Nvidia has built for its customers suggests that the company can indeed offer accurate tracking of its chips’ locations. In December 2025, for example, it announced a new tool called Fleet Intelligence that would allow customers to monitor how its advanced chips were performing across different data center locations. In doing so, the tool could indicate which country chips were in, Nvidia confirmed to Reuters, but the company would not elaborate on whether this technology could be used to prevent smuggling. Nvidia did not respond to requests for comment or confirmation of Foster’s characterization. In early October, when lawmakers were reportedly increasingly concerned about Nvidia’s role in smuggling, MIT Technology Review asked the company if Fleet Intelligence could be used to prevent the practice. It declined to answer directly, instead sending a statement: “Governments and media have found insignificant diversion of controlled US products—a drop in the bucket compared to the ocean of domestic compute China already has.” The recent fallout at Nvidia involves a number of people and companies alleged to be involved in chip smuggling. Alice Huang, with whom Jensen Huang reportedly had an affair, runs Megaspeed, a Singaporean firm now under investigation for smuggling advanced GPUs to China. A US Commerce Department inquiry into the company was reportedly halted after invention by Nvidia. Megaspeed reportedly bought chips from Supermicro, a company that packages Nvidia’s chips onto servers.&nbsp; The Chip Security Act as drafted would require a mechanism to track the locations of chips, either by inspections of facilities, attestations by companies, or ping-based location mechanisms. The ping-based technique, the hardest option to circumvent, would require the GPU to send a signal of its location when it comes online. In September, the Center for Security and Emerging Technology found it would be the most cost-effective option. Foster said he did not ask Nvidia’s representatives why they weren’t voluntarily adopting such chip-tracking tools if they could technically do so. But if the requirements of the bill pass as part of the Senate’s National Defense Authorization Act, the new tracking mechanisms would only tell investigators where the chips are, not offer a way to disconnect them if it’s revealed they have been smuggled. Foster told MIT Technology Review he intends to introduce new, stricter legislation in the new year that would offer a workaround. The new rule would require licenses to operate advanced GPUs, and before a GPU could connect, its valid license would need to be verified.&nbsp;&nbsp; In the meantime, the controversy at Nvidia, Foster says, has fueled support among his colleagues for the rules in the bill: “There will be a lot of political pressure, in the wake of everything that’s happened, on the companies to actually do a very good job of the geographic validation of where the chip actually is.”",
       "tags": [
-        "智能体"
+        "算力芯片"
       ],
-      "score": 92
+      "score": 87
     },
     {
-      "title": "谷歌的新Gemini模型更擅长理解复杂的问题",
-      "originalTitle": "Google’s new Gemini model is better at understanding complicated questions",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "date": "2026-11-12T21:55:32.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、模型相关动态",
-      "fullContent": "Google 表示，其全新 Gemini 4 Hydrogen 模型能够对复杂问题提供更有帮助的答案，包括“包含多个部分的问题、难以理解的拼写错误或高度具体的要求。” 新模型可以将您的问题分解开来，并在回答中逐一解答每个部分。 从今天起，该模型将在搜索、Gemini应用、所有级别的Google AI Studio、Gemini API、Gemini for Business以及Google Antigravity（面向Google AI Pro和Ultra订阅用户）中提供。 Google搜索产品副总裁Robby Stein表示，它“现在是AI模式下的新默认模型，并被用于回答您在AI综述中最棘手的问题。” Google表示，Gemini 4 Hydrog……请在The Verge上阅读完整报道。",
-      "originalSummary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google [&#8230;]",
-      "rawFullText": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for business, and in Google Antigravity for Google AI Pro and Ultra subscribers. Robby Stein, VP of product at Google Search, says it's \"now the new default model in AI Mode & being used for your hardest questions in AI Overviews.\" Google says Gemini 4 Hydrog … Read the full story at The Verge.",
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "Holiday Extras is rethinking what it can build with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "date": "2026-11-12T09:30:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "模型"
+        "AI 热点"
       ],
-      "score": 91
+      "score": 80
     },
     {
       "title": "面向退伍军人和现役军人的 ChatGPT Plus",
@@ -291,7 +359,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
@@ -307,7 +375,7 @@
         "智能体",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "JioStar首席架构师谈论5亿用户规模的AI发现",
@@ -322,7 +390,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "针对多向量嵌入模型的“令牌池化感知”训练",
@@ -337,7 +405,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "帮助照护者在日常生活中使用人工智能",
@@ -356,36 +424,6 @@
       "score": 99
     },
     {
-      "title": "在 ChatGPT 中介绍企业",
-      "originalTitle": "Introducing Businesses in ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-businesses-chatgpt",
-      "date": "2026-11-10T10:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "在 ChatGPT 中管理您的业务信息，了解您的业务展示情况，并将兴趣转化为行动。",
-      "originalSummary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "弥合教育领域的人工智能指导缺口",
-      "originalTitle": "Closing the AI guidance gap in education",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "date": "2026-11-10T09:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "ThinkYoung的新研究以及OpenAI在EMEA地区教育合作伙伴关系中支持教师、人工智能素养和自主学习方面的经验教训。",
-      "originalSummary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 91
-    },
-    {
       "title": "Hugging Face 中的决策模型",
       "originalTitle": "Decision Models in Hugging Face",
       "source": "Hugging Face",
@@ -398,7 +436,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "使用您的 Google Cloud 账户为 Hugging Face Hub 付费",
@@ -413,7 +451,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "在特殊化学品行业使用人工智能进行创新",
@@ -428,7 +466,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "您的专家有合作伙伴。有希望让他们继续合作",
@@ -443,7 +481,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -458,7 +496,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "南希·佩洛西的继任者已准备好监管人工智能",
@@ -473,7 +511,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "我看着一个人形机器人打扫我的公寓。这感觉就像是未来的味道。",
@@ -488,7 +526,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "埃及和尼日利亚英语加入Open ASR排行榜",
@@ -503,7 +541,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "近距离观察Phonon TTS。推出超越基准的高质量设备上演讲。",
@@ -519,7 +557,7 @@
         "评测",
         "产品发布"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "通过数据沿袭确保代理企业的安全",
@@ -534,7 +572,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。",
@@ -549,7 +587,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "“反向博弈论”如何控制AI智能体",
@@ -566,7 +604,7 @@
         "安全",
         "模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "以下是特朗普的“超级情报”忠诚度测试",
@@ -581,7 +619,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 64
+      "score": 63
     },
     {
       "title": "提高代理分析的洞察质量",
@@ -596,7 +634,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 72
+      "score": 71
     }
   ]
 }
