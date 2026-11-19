@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T04:05:16.994Z",
+  "updatedAt": "2026-11-19T04:01:33.644Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,45 +19,63 @@
   ],
   "articles": [
     {
-      "title": "英伟达的初创企业投资额飙升至650亿美元，但黄仁勋的退出使未来交易蒙上阴影",
-      "originalTitle": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "title": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何要求6万名员工离职",
+      "originalTitle": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "date": "2026-11-18T01:44:21.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "在过去九个月里，英伟达的私募投资价值几乎翻了两番，这得益于黄仁勋积极的交易活动及其现有投资组合公司的估值不断攀升。",
-      "originalSummary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "date": "2026-11-19T00:42:56.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何在10月份向6万名员工提供买断方案的原因，这实际上是在敦促他们自愿离职，而不是通过另一次大规模裁员来削减员工队伍。 简短的答案是人工智能，但并不是你想象的那样。",
+      "originalSummary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
       "rawFullText": "",
       "tags": [
-        "算力芯片"
+        "AI 热点"
       ],
-      "score": 84
+      "score": 76
     },
     {
-      "title": "英伟达承诺，目前营收将继续飙升",
-      "originalTitle": "Nvidia promises that revenue will keep soaring — for now",
+      "title": "萨蒂亚·纳德拉预测，人工智能代理将重塑互联网经济",
+      "originalTitle": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "date": "2026-11-18T00:16:50.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "尽管在声名狼藉的创始人兼首席执行官黄仁勋离职后，英伟达陷入了动荡，但该公司预计其创纪录的收入增长势头不会就此止步。",
-      "originalSummary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "date": "2026-11-18T22:58:11.000Z",
+      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
+      "fullContent": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）预测，人工智能代理的兴起将重塑互联网经济，影响依赖广告和其所称的“人类网络”流量的公司的商业模式。 这位科技高管周三在《纽约时报》DealBook峰会上发言时表示，向代理网络的转变可能会改变哪些公司为流量和交易向其他公司付费，这与多年前从雅虎等门户网站向谷歌等搜索引擎的转变类似。 “目前那些采用面向人类网络的商业模式的聚合商，在某种意义上将面临洗牌。”纳德拉表示。 “如果你是因为眼球而通过广告变现，现在你可能不得不降到基本上是CPC [每次点击费用]获胜；也许这更具交易性。”他继续说道。 “所以，如果你不接受代理，就会有其他人接受。 ”讨论的话题转向了亚马逊及其阻止AI代理访问其零售网站的决定，该决定阻止AI代理浏览其商品目录并代表其用户进行购物。 纳德拉表示，试图保护现有商业模式的公司可能会输给那些更愿意拥抱AI代理的竞争对手。 例如，如果亚马逊继续封禁代理商，那么像 Shopify 这样的其他购物平台就可以允许代理商入驻，从而获得优势。 “我认为这会很有意思，”他谈到不断变化的模式时说道。 “其他类别也在发生同样的事情，对吧？ 也就是说，如果你钟情于某种特定的商业模式，你就必须奋力拼搏。”他说。 每周工作日和周日，您都可以获得TechCrunch的精彩报道。 TechCrunch Mobility是您获取交通运输新闻和见解的首选之地。 初创企业是TechCrunch的核心，因此请每周接收我们最精彩的报道。 为有影响力的人物提供他们开始新一天所需的信息。 提交您的电子邮件，即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
       "rawFullText": "",
       "tags": [
-        "算力芯片"
+        "智能体",
+        "模型"
       ],
-      "score": 84
+      "score": 99
     },
     {
-      "title": "就连萨姆·阿尔特曼（Sam Altman）也无法幸免于 Instagram 上的 AI 深伪技术",
-      "originalTitle": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "title": "还记得尖端人工智能暂停吗？芯片公司也不记得了",
+      "originalTitle": "Remember the frontier AI pause? Chip companies don’t either",
       "source": "The Verge AI",
-      "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-      "date": "2026-11-17T21:00:55.000Z",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "date": "2026-11-18T15:44:02.000Z",
       "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI首席执行官萨姆·阿尔特曼接受电视采访| Getty Images Instagram上充斥着发布深度伪造内容的人，包括最近来自Meta一位最知名高管的帖子。 11月初，Meta首席人工智能官亚历山大·王（Alexandr Wang）分享了一段短视频，为该公司的消费级人工智能代理Muse进行推广。 在这段由人工智能生成的视频片段中，王、Meta首席执行官马克·扎克伯格、OpenAI首席执行官萨姆·阿尔特曼以及Muse的拟人化吉祥物Jolly正在进行四方视频通话。 当奥特曼加入通话时，他打扮得像Jolly一样，穿着带毛绒兜帽的套装，脸上涂着彩绘，看起来像那个可爱的人物。 该视频的标题是“当朋友们讨论OpenAI的产品策略时”，这是对人工智能……在The Verge上阅读完整报道。",
-      "originalSummary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and [&#8230;]",
-      "rawFullText": "Open AI CEO Sam Altman does a television interview | Getty Images Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and Jolly, the anthropomorphic mascot of Muse, are on a four-way video call. When Altman joins the call he's dressed like Jolly, wearing a furry hooded suit and face paint to look like the cutesy character. The clip is captioned \"When the homies meet about openai product strategy,\" a reference to the AI ag … Read the full story at The Verge.",
+      "fullContent": "英伟达开始出货其最先进的AI计算系统Vera Rubin NVL72，并称之为“公司历史上产品爬坡最快的一次”。|图片来源：Nvidia今年夏天，OpenAI暂停了其计划中最大规模的前沿训练，此前其AI代理意外黑进了Hugging Face，且早期证据表明，其下一代模型可能能够独立发现并利用安全漏洞。 9月，Anthropic首席执行官Dario Amodei呼吁放缓最强大人工智能模型的发展步伐，并警告称，这些模型可能被用于发动网络攻击，或者变得更难被其创造者控制。 对于人工智能的蓬勃发展来说，这是一个奇怪的时刻。 正在打造最强大模型的人们正在警告这些模型可能具备的能力，而投资者突然开始担心芯片需求会发生什么……在The Verge上阅读全文。",
+      "originalSummary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used [&#8230;]",
+      "rawFullText": "Nvidia began shipping its most advanced AI computing system, the Vera Rubin NVL72, calling it the “fastest product ramp in the company’s history.” | Image: Nvidia This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models , warning that they could be used to launch cyberattacks or become harder for their own creators to control. It was a strange moment for the AI boom. The people building the most powerful models were warning about what those models might be capable of, and investors were suddenly wondering what would happen to chip demand i … Read the full story at The Verge.",
+      "tags": [
+        "公司动态",
+        "智能体",
+        "算力芯片"
+      ],
+      "score": 99
+    },
+    {
+      "title": "研究加速：崎岖的前沿",
+      "originalTitle": "Research acceleration: The jagged frontier",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "date": "2026-11-18T08:00:00.000Z",
+      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
+      "fullContent": "OpenAI 正在衡量编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。",
+      "originalSummary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "rawFullText": "",
       "tags": [
         "公司动态",
         "智能体"
@@ -65,19 +83,35 @@
       "score": 99
     },
     {
-      "title": "谷歌的Spark AI代理更名为“Tasks”，现已免费",
-      "originalTitle": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
-      "date": "2026-11-17T18:58:01.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "您现在可以从“聊天”切换到“任务”。| 图片：Google Google 正将其 Spark AI 代理更名为“Tasks”，并使其免费使用。 该功能由谷歌全新Gemini 4 Hydrogen AI模型提供支持，可以执行诸如制定膳食计划、管理日历以及搜索您的电子邮件以查找您可能不需要的重复支出等操作。 美国用户将可以使用其他一些功能，包括让AI代理致电商家以比较产品价格和查看库存、使用Google Pay购买商品以及登录支持Google密码管理器的账户。 美国用户还可以通过发送电子邮件至gemini@google.com或发送短信给Gemini来为其分配任务。 视频：Google Google f……在The Verge上阅读完整报道。",
-      "originalSummary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US [&#8230;]",
-      "rawFullText": "You can now switch from the “Chat” toggle to “Tasks.” | Image: Google Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US will get access to a few other features, including the ability for the AI agent to call businesses to compare product pricing and check inventory, purchase items with Google Pay, and sign into accounts that support Google Password Manager. US users can also assign Gemini tasks by emailing gemini@google.com or texting it. Video: Google Google f … Read the full story at The Verge.",
+      "title": "管理前沿人工智能风险：从训练到部署",
+      "originalTitle": "Managing frontier AI risk: From training to deployment",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/managing-frontier-ai-risk",
+      "date": "2026-11-18T06:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "OpenAI解释了如何通过模型对齐、沙盒机制、屏蔽防护措施和监控，从训练到部署来管理前沿人工智能的风险。",
+      "originalSummary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "rawFullText": "",
       "tags": [
-        "大模型",
-        "智能体",
+        "公司动态",
         "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "NEBench R1：用于评估大型语言模型核能领域能力的推理基准",
+      "originalTitle": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.21682",
+      "date": "2026-11-18T05:00:00.000Z",
+      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
+      "fullContent": "arXiv:2611. 21682v1 公告类型：新摘要：人们越来越多地探索将大型语言模型（LLM）应用于核工程中知识密集型和安全关键型应用。 然而，现有的核能领域基准内容覆盖范围有限，或者主要关注答案的准确性，而没有系统地评估其背后的推理质量。 本研究介绍了 NEBench R1，这是一个以推理为导向的基准测试，包含 7,546 道独特的单选题，这些题目摘自美国核管理委员会 (NRC) 涵盖 18 座核设施的反应堆操作员执照考试。 每个问题均根据 NRC 知识和能力目录进行分类，并附有官方解释，作为推理评估的参考。 对六个大语言模型进行了评估，在三个不同的性能等级中，总体准确率介于 34.0% 至 73.9% 之间。 为了评估推理质量，基于大语言模型的评判者使用多维评分细则对回答正确的回复进行了评估。 虽然答卷者通常表现出对问题的深刻理解，但在事实和程序准确性以及干扰项分析方面得分较低，这表明正确答案不一定有技术上合理的理由作为支撑。 答案的清晰度对技术质量的指示性也不强。 此外，在两种前沿推理模型中，推理轨迹越长，准确率越低，这表明推理长度可能反映的是问题的难度，而不是问题求解性能的提升。 因此，推理代币消耗量可能为识别潜在的不可靠回答提供一个额外的信号。 NEBench R1 为评估答案准确性和推理质量设定了基准，为评估 LLM 在核工程领域的胜任力和可靠性奠定了基础。",
+      "originalSummary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct performance tiers. To assess reasoning quality, an LLM-based judge evaluated correctly answered responses using a multidimensional rubric. Although responses generally demonstrated strong problem comprehension, they scored lower in factual and procedural accuracy and distractor analysis, indicating that correct answers were not necessarily supported by technically sound justifications. Response clarity was also weakly indicative of technical quality. Furthermore, longer reasoning traces were associated with lower accuracy in both frontier reasoning models, suggesting that reasoning length may reflect question difficulty rather than improved problem-solving performance. Reasoning-token consumption may therefore provide an additional signal for identifying potentially unreliable responses. NEBench R1 establishes a benchmark for evaluating both answer accuracy and reasoning quality, providing a foundation for assessing the domain competence and reliability of LLMs in nuclear engineering.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "安全",
+        "评测"
       ],
       "score": 99
     },
@@ -110,7 +144,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "隆重推出面向销售的 ChatGPT",
@@ -125,40 +159,37 @@
       "tags": [
         "大模型"
       ],
-      "score": 96
+      "score": 95
     },
     {
-      "title": "加州就恶性人工智能黑客事件起诉OpenAI",
-      "originalTitle": "California sues OpenAI over rogue AI hacking incidents",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "date": "2026-11-16T20:46:01.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：公司动态、智能体相关动态”。它主要涉及公司动态、智能体、安全方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the [&#8230;]",
-      "rawFullText": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday , Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters . The lawsuit claims the cyberattack on Hugging Face \"was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability.\" It alleges that OpenAI recently told the attorney general's office that it \"lost control\" of its AI agents … Read the full story at The Verge.",
-      "tags": [
-        "公司动态",
-        "智能体",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "拓宽科学家使用人工智能的渠道",
-      "originalTitle": "Broadening access to AI for scientists",
+      "title": "利用人工智能加强北约和盟国的网络防御",
+      "originalTitle": "Strengthening NATO and allied cyber defenses with AI",
       "source": "OpenAI",
-      "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "date": "2026-11-16T17:00:00.000Z",
-      "summary": "这条新闻与大模型、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：大模型、模型相关动态”。它主要涉及大模型、模型方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI如何与北约和盟国网络机构合作，帮助值得信赖的防御者发现漏洞、测试补丁并保护关键系统。",
+      "originalSummary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "rawFullText": "",
       "tags": [
-        "大模型",
-        "模型"
+        "公司动态"
       ],
-      "score": 99
+      "score": 93
+    },
+    {
+      "title": "OpenAI 智启智利",
+      "originalTitle": "Introducing OpenAI for Chile",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-openai-for-chile",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "OpenAI与智利政府正在合作，以支持负责任地采用人工智能，培养公共部门的技能，并帮助当地初创企业开发人工智能应用。",
+      "originalSummary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -191,23 +222,37 @@
         "智能体",
         "模型"
       ],
-      "score": 99
+      "score": 98
     },
     {
-      "title": "Revolut 如何在不降低标准的情况下提升目标",
-      "originalTitle": "How Revolut raises ambition without lowering the bar",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/customer-stories/revolut",
-      "date": "2026-11-16T09:30:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "了解Revolut如何使用OpenAI模型和Codex将编码时间缩短30–60%，扩展金融犯罪调查，并在不影响安全性的情况下进行创新。",
-      "originalSummary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "title": "开源运动希望黄仁勋回归",
+      "originalTitle": "The open-source movement wants Jensen Huang back",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "date": "2026-11-16T18:38:47.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：算力芯片相关动态",
+      "fullContent": "这篇文章最初刊登在我们的每周人工智能通讯《The Algorithm》上。 如需第一时间在您的收件箱中收到此类报道，请在此处订阅。 周五，一份要求恢复黄仁勋担任英伟达首席执行官的请愿书开始在社交媒体上流传，到周一，请愿书上列出了一些知名签名人，包括埃隆·马斯克和几位有影响力的英伟达研究人员。 但仔细梳理一下这11.5万多个名字，您就会发现，黄仁勋的支持者中有一个庞大的派系——来自AI模型共享平台Hugging Face的高层，以及风险投资公司Andreessen Horowitz和红杉资本——他们都来自科技界的某个特定群体。 这些名字在开源人工智能的发展中有着既得利益，与ChatGPT或Claude不同，这些模型可以下载并独立于大型科技公司运行。 这种模式的支持者表示，如果将人工智能集中在少数几家实力雄厚的公司手中，其他人就会陷入更加不利的境地（如果不是有这么多开源倡导者同时也是风险投资家，他们会在初创公司能够利用更便宜的人工智能而无需向大型科技公司付费时从中获利，那么这种担忧在左翼人工智能行业批评者中听起来就不会显得格格不入）。 黄仁勋已成为向政策制定者捍卫开源事业的领军人物，以应对人们的担忧，即此类模型没有安全防护措施，并将人工智能的领导地位拱手让给中国，而最强大、最受欢迎的开源模型正是诞生于中国。 他们现在希望这位最有影响力的代言人重返岗位。 但威胁到他（以及英伟达）作为开源人工智能倡导者的信誉的，不仅仅是黄仁勋的婚外情。 一项针对中国使用英伟达芯片的初创企业的新研究，以及美国商务部周一宣布的一项新规定，可能会对该运动的声誉及其技术进步造成打击。 周四，也就是黄辞职的那天，前OpenAI研究员Will DePue在网上发布了研究结果，表明中国的人工智能公司获得英伟达先进的Blackwell芯片的渠道比此前估计的要多得多。 中国被禁止使用英伟达最尖端的芯片，以帮助保护美国在人工智能领域的领先地位。 目前尚不清楚他们是如何获得这些芯片的。 DePue声称，这些结果已得到OpenAI和Anthropic高级研究人员的验证，但独立分析尚未证实这些结果。 （DePue未回复采访请求。 英伟达未立即回应置评请求。 )调查结果并未证实英伟达帮助中国公司获得芯片，而且众所周知，芯片走私这一更广泛的问题早已超出英伟达的控制范围。 但这些调查结果暗示，英伟达可能从中国人工智能初创企业的崛起中获益，而美国公司越来越多地使用这些初创企业的模型，而不是国内的替代产品，这确实让黄仁勋陷入了尴尬的境地。 他一直倡导将开源人工智能作为加强美国技术领先地位的一种方式。 去年12月，他在一次关于帮助美国在与中国的AI竞赛中取胜的演讲中表示：“如果没有开源，初创企业就无法蓬勃发展，大学研究人员就无法开展研究，你就无法教授AI，科学家就无法使用AI。” 这也让黄仁勋复职的希望更加渺茫。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-source AI, models that, unlike ChatGPT or Claude, can be downloaded and run independent of large tech companies. Supporters of such models say that concentrating AI in the hands of a few powerful companies will leave everyone else worse off (a concern that wouldn’t sound out of place among the AI industry&#8217;s critics on the left, if so many open-source advocates weren’t also venture capitalists who stand to profit when startups can build on cheaper AI without paying Big Tech). Huang had become a sort of ringleader for those who defend open source to policymakers against concerns that such models come with no guardrails and cede AI leadership to China, where the most powerful and popular open-source models are created. They now want their most influential voice returned to his post.&nbsp; But it’s not just Huang’s extramarital affairs that threaten his (and Nvidia’s) credibility as an advocate for open-source AI. New research into China’s startups using Nvidia’s chips, and a new rule from the US Department of Commerce announced Monday, could deal a blow to both the movement’s reputation and its technical progress.&nbsp; On Thursday, the day Huang resigned, ex-OpenAI researcher Will DePue published findings online suggesting that China’s AI companies had far more access to Nvidia’s advanced Blackwell chips than previously estimated. China is banned from accessing Nvidia’s most cutting-edge chips to help protect America’s AI lead. It’s unclear how they would have gained access to the chips. DePue claims the results were verified by senior researchers at OpenAI and Anthropic, but an independent analysis has not confirmed the results. (DePue did not respond to a request for an interview. Nvidia did not immediately respond to a request for comment.) The findings do not establish that Nvidia helped Chinese companies obtain the chips, and the broader problem of chip smuggling was already known to extend well beyond Nvidia’s control. But in suggesting that Nvidia may have profited from the rise of Chinese AI startups, whose models are increasingly being used by American companies instead of domestic alternatives, the findings do leave Huang in an awkward position. He has championed open-source AI as a way to strengthen American technological leadership. “Without open source, startups can’t thrive, university researchers can’t do research, you can’t teach AI, scientists can’t use AI,” he said last December during a talk about helping the US win the AI race against China. It also makes the idea of reinstating Huang even more of a long shot. US Treasury Secretary Scott Bessent even said last week that Nvidia should not consider someone from inside the company to replace him. The new findings lower Huang’s chances further. What happens next? Nvidia announced in September it would acquire Hugging Face for nearly $13 billion. Its support for open source also serves a straightforward financial interest: The more businesses that build their own models instead of forking over money to Anthropic and OpenAI, the more chips Nvidia can sell.&nbsp; But a new rule from the US Department of Commerce could mean the models popular on Hugging Face will soon stop getting smarter. The rule aims to prevent Chinese companies from training models on Nvidia chips that they can’t own directly, but that they can access remotely in data centers in countries like Malaysia—a workaround that has helped China’s open-source models get so good. The open-source world rallied around Huang because of his influence on policymakers. That was important, since the rise of China’s open-source models has splintered some in Trump’s orbit. If Huang is out, who is next?",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 81
+    },
+    {
+      "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
+      "originalTitle": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/openrouter",
+      "date": "2026-11-16T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "Hugging Face 和 OpenRouter 正在合作，让开放权重模型更易于运行。 每个主要的开放权重版本都已经发布在 Hugging Face Hub 上，OpenRouter 则大规模地提供这些模型，根据每个提供商的实时测量结果，将每个请求路由到 80 多个提供商。 总而言之，您可以使用您的 Hugging Face 令牌，通过同一个 API 调用提供商在 Hub 上提供的每个开放权重模型，系统会为每个请求选择最佳提供商。 今天，我们将推理提供商从我们自己的自定义路由器切换到 OpenRouter 的路由器。 现在，向语言模型发出的请求将通过OpenRouter进行处理。OpenRouter会根据实时价格、速度和可靠性为每次调用选择最佳提供商，如果第一个提供商失败，则会尝试使用其他提供商。 您的代码保持不变。 对于每个聊天模型，无论其背后的提供商是谁，路由器都支持OpenAI的聊天补全和回复API以及Anthropic的消息API。 选择您的编码代理或 SDK 和一个模型，然后复制步骤，或将整个设置复制为代理的提示： Claude Code 、Codex 、OpenCode 、Pi 和 Hermes Agent 的设置指南。同一个 Hugging Face 令牌还为您提供存储桶存储、作业计算和推理端点专用推理。 PRO、团队和企业套餐包含用于计算和推理的月度额度。 在 OpenRouter 上，开放权重模型从 26 个 2025年10月提供的代币占比为8%，到2026年9月底升至71.7%，此前在7月曾达到77.5%的峰值（OpenRouter，2026年10月）。 同期，开放权重模型的每周使用量增长了 60 多倍，而封闭模型的每周使用量仅增长了近 10 倍。 本周，OpenRouter 上使用最多的模型是一款开放权重模型，即 DeepSeek V4。1 Flash 1017，处理了 59.2 万亿个 token（排名）。 开放权重模型的成本平均低约四倍：0. 每百万个输入token 0.28美元，每百万个输出token 1.62美元，而闭源模型的相应价格分别为1.27美元和6.36美元。 在最难的基准测试中，最好的开源模型仍然落后于最好的专有模型。 在Artificial Analysis的智能指数中，Kimi K3. 1 Pro 是表现最佳的开源模型，得分为 46 分，而 Claude Fable 5.2 的得分为 65 分，但每项任务的成本仅为后者的约七分之一（3.68 美元对 26. 54）。对于许多工作负载来说，这种权衡是值得的。 OpenRouter每月为超过1000万用户提供超过800万亿个token，涵盖80多家提供商的600多个模型。 其路由基于对该流量中每个提供商的实时测量。 OpenRouter最近重建了其提供商路由：它不再...",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
       "rawFullText": "",
       "tags": [
-        "公司动态",
         "模型"
       ],
-      "score": 99
+      "score": 80
     },
     {
       "title": "使用SimReady资产构建机器人拾取和放置模拟",
@@ -222,7 +267,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "XYBench：帮助解决问题背后的难题",
@@ -237,7 +282,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -252,7 +297,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -267,7 +312,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "3D 生成模型的权威性微调指南",
@@ -282,7 +327,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
@@ -297,7 +342,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
@@ -313,52 +358,7 @@
         "智能体",
         "模型"
       ],
-      "score": 86
-    },
-    {
-      "title": "针对多向量嵌入模型的“令牌池化感知”训练",
-      "originalTitle": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/token-pooling",
-      "date": "2026-11-11T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "多向量嵌入模型让每个查询标记都有机会在文档中找到匹配项。 这使得它们在搜索方面具有出色的表达能力，但这些文档向量会迅速累积。 一个包含数百万份文档的语料库可能包含数亿个向量！ 标记池化通过合并相似的标记向量，使这些表示更小。 然而，我压缩得越激进，就越容易丢失有用的信息。 池化感知训练使编码器学会在其向量合并时保留重要信息，帮助您在相同的存储预算下实现更好的检索效果。 在本文中，我将解释池化的工作原理，使用Sentence Transformers训练一个用于压缩检索的模型，并探讨由此产生的质量和存储之间的权衡。 使用 pool_factor=4 ，我正常训练的模型保留了 94。 其未进行分片的 NanoBEIR nDCG@10 的 6%，文档向量减少了 4 倍。 在相同的存储预算下，感知标记池化的训练将保留率提高到 97.8%！ 让我们来看看是怎么做到的。 本文以 Stefan Josef 的《Learn to Pool》和 LightOn 的池化正则化研究中研究的池化感知训练为基础，这两项研究还探讨了有针对性的训练和自适应预算。 在这里，我将重点介绍如何理解该方法，并通过一个简短、可复现的Sentence Transformers示例来展示如何应用该方法。 池化感知训练可以在相同的向量预算下提高检索质量。 详情如下。单向量嵌入模型将整个文档压缩为一个向量。 而ColBERT等多向量模型则保留一组上下文标记向量，使查询的不同部分能够与文档的不同部分匹配。 例如，对于有关电池续航时间长的笔记本电脑的查询，可以在文档的一个部分找到有关该笔记本电脑的证据，而在另一个部分找到有关电池续航时间的证据。 使用 MaxSim 评分，每个查询向量都会选择与其最匹配的文档向量，然后将这些分数相加： MaxSim ⁡ ( Q , D ) = ∑ q ∈ Q max ⁡ d ∈ D q ⊤ d \\operatorname{MaxSim}(Q, D) = \\sum_{q \\in Q} \\max_{d \\in D} q^\\top d MaxSim ( Q , D ) = q ∈ Q ∑ ​ d ∈ D max ​ q ⊤ d 即使使用 Fast-PLAID 支持的 2 位或 4 位残差量化，每个文档存储数百个向量也会使存储量增加。 在每个残差坐标4位的情况下，200个128维的向量需要12. 每份文档需要 12.8 KB 的量化残差，或 100 万份文档需要 12.8 GB。 将每个文档池化为 50 个向量，可将该值降至 3. 2 GB，维度和精度不变。 一个有用的观察结果是，许多文档向量可能相似。 几个标记可能描述密切相关的概念，从而有机会将它们一起表示。 HierarchicalTokenPooling 使用 Ward 层次聚类将相似的标记嵌入向量分组。 从每个标记向量一个组...",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 76
-    },
-    {
-      "title": "Hugging Face 中的决策模型",
-      "originalTitle": "Decision Models in Hugging Face",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/decision",
-      "date": "2026-11-10T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "大型语言模型（LLM）在生成文本方面表现尤为出色。 我们使用它们来回答问题、编写代码、分析问题等等。 但并非每个问题都需要生成文本。 假设一个客户支持系统收到了以下消息：“我的订阅被收取了两次费用。 我今天需要退款。 “系统需要确定哪个团队应处理该请求、该请求的紧急程度以及客户是否要求退款。 我们可以要求 LLM 返回一个包含这些答案的 JSON 对象。 但是，如果模型可以直接评估可用选项，并返回这些选项的概率分布，而无需生成任何文本，那该怎么办呢？ 决策模型会获取一些输入上下文（状态），使用一组预定义的可能答案（基元）评估一个问题，然后返回一个结构化决策以及概率。 我们不要求模型逐个生成答案的标记，而是要求它为我们的应用程序已经理解的答案分配概率。 TypeSafe AI 推出了 Jev ，将其描述为一种系统 1 模型。 这个名称的灵感源自快速、直觉性思维（系统1）与较慢、深思熟虑的思维（系统2）之间的区别。 该社区已统一使用“决策模型”一词，因为它描述的是模型的计算作用，而不是援引某种特定的认知理论。 在本文的其余部分，我们将把这些模型称为“决策模型”，而不是“系统一模型”。 （一项推特投票，决定我们应该如何称呼此类模型）我们可以简单地提示一个大语言模型（LLM）返回一个包含我们决策的JSON对象。 事实上，许多应用程序已经采用这种方式使用语言模型进行分类、路由和其他结构化任务。 在了解决策模型的接口之前，不妨先回顾一下两种密切相关的方法，即传统分类和零样本分类。 假设我们训练一个分类器，将客户支持请求路由到三个部门：",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 75
-    },
-    {
-      "title": "使用您的 Google Cloud 账户为 Hugging Face Hub 付费",
-      "originalTitle": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "date": "2026-11-10T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "您现在可以将您的 Hugging Face 组织关联到您的 Google Cloud 账户，这样您的 Hugging Face 使用情况就会显示在您的 Google Cloud 账单上，而不会从信用卡中扣款。 在 Google Cloud Marketplace 上开始使用。 Hugging Face是团队查找、构建和运行开放模型的平台：从托管私有模型和数据集，到使用Jobs运行GPU工作负载，使用推理端点部署模型，通过推理提供商调用数千个模型，或在GPU Spaces上托管演示。 如果贵公司已经在使用 Google Cloud，那么仅仅为了使用这些服务而添加一个新的供应商和一张公司信用卡可能会拖慢工作进度。 通过 Google Cloud Marketplace 关联您的组织：如果您是 Hugging Face 组织的管理员，请参阅以下分步设置指南。 您现在位于 Hugging Face，您可以在这里选择要关联到您的 Google Cloud 账户的组织。 仅列出您是管理员的组织。 选择并确认。 然后，您将被重定向到您所在组织的账单设置。 “付款方式”部分现在显示已关联的 Google Cloud 账户，其状态为“待处理”。 在通过云市场订阅开始对付费使用进行计费之前，Hugging Face 团队会对每个订阅进行审核。 在订阅处于待处理状态期间，使用量将继续通过组织的现有付款方式（如有）计费。 订阅获得批准后，您将收到一封电子邮件，确认您的 Google Cloud 账户已与 Hugging Face 组织关联。 已登记信用卡的组织将在下一个账单期开始时切换到云市场账单。 处于免费套餐且未登记信用卡的组织通常会立即切换，因此其付费使用量会立即通过云市场计费。 要确认这一点，请打开您所在组织的账单设置：Google Cloud 账户现在显示为该组织的有效付款方式。 您的组织现在通过您的 Google Cloud 账户付费。 您组织的所有成员都可以使用 Hugging Face 计算服务，使用情况将显示在您的 Google Cloud 账单上。 感谢您的阅读！您可以在账单文档中找到更多详情。 如果您有任何疑问，请通过 billing@huggingface.co 联系我们。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
+      "score": 85
     },
     {
       "title": "在特种化学品行业利用人工智能进行创新",
@@ -373,22 +373,7 @@
       "tags": [
         "模型"
       ],
-      "score": 73
-    },
-    {
-      "title": "您的专家有合作伙伴。有希望让他们继续合作",
-      "originalTitle": "Your Experts Have Partners. There&apos;s HOPE for Keeping Them Together",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "date": "2026-11-09T12:34:29.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "混合专家 (MoE) 模型使最先进的 LLM 能够扩展到数百亿个参数，但它们存在一个根本性的、代价高昂的缺陷：每个专家 MLP 在推理时都必须占用内存，尽管对于任何给定的 token 来说，绝大多数专家 MLP 都是空闲的。 例如，Qwen3.5-122B 在其 48 个 MoE 层中的每一层都有 256 个专家，其约 250 GB 的参数内存占用量中有 95% 完全由这些专家 MLP 占用。 然而，对于任何给定的token，每层实际上只使用8个专家。 专家剪枝是解决这一内存瓶颈的最直接方法之一。 也就是说，永久性地删除最没有用处的专家。 剪枝可以避免导致专家动态加载/卸载不切实际的延迟问题；它不需要任何训练；并且它可以与量化相结合。 鉴于这些诱人的好处和这一想法的简单性，不难理解为什么专家剪枝已成为缩小 MoE 的首选方法。 难点在于确定哪些专家最安全地移除。 现有的剪枝方法独立地对每个专家进行评分，为每个专家分配一个标量重要性得分（基于校准数据集），并剪除最不重要的专家（在每一层中独立进行）。 这些是一阶方法，因为它们假设每个专家的贡献与其他所有专家无关。 实际上，专家会组成合作小组。 在我们的实验中，我们观察到协同激活的专家形成了一致的集群，独立的研究表明，专家合作是 MoE 的一个稳定特性，并且对于模型性能至关重要。 忽视这些相互作用会导致剪枝效果不佳，尤其是在激进的剪枝率下。 我们的最新论文提出了 HOPE（高阶专家剪枝），这是一种考虑成对专家相互作用的二阶方法。 在 50% 剪枝的情况下，HOPE 实现了所有方法中最佳的平均排名，在代理编码任务上比排名第二的剪枝方法最多提升了 6.1%。 在本文中，我们将解释 HOPE 的工作原理，展示它在哪些方面优于现有方法，并逐步说明如何将其用于您自己的模型。 对于不熟悉 MoE 架构的读者，请参阅《Transformer 中的混合专家 (MoE)》。 在标准 MoE 中，每个层都有 E E E 个专家，每个输入 token x x x 独立路由到 K K K 个此类专家（ K = 8 K = 8 K = 8 是一个典型选择）。 路由由单个层执行，该层为每个专家 k k k 生成softmax归一化门控权重 g k ( x ) g_{k}(x) g k ​ ( x ) ，其中选择具有最高门控权重的 K K K 个专家来形成专家活动集 T ( x ) ⊂ { 1 , . . , E } T(x) \\subset\\{1,. ,E\\} T ( x ) ⊂ { 1 , . , E } 。 然后，该层的输出为 ∑ k ∈ T ( x ) g k ( x ) f k ( x ) \\sum\\limits_{k\\in T(x)}g_{k}(x)f_{k}(x) k ∈ T ( x ) ∑ ​ g k ​ ( x ) f k...",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
+      "score": 72
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -403,7 +388,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "南希·佩洛西的继任者已准备好监管人工智能",
@@ -418,52 +403,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
-    },
-    {
-      "title": "我看着一个人形机器人打扫我的公寓。这感觉就像是未来的味道。",
-      "originalTitle": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-      "date": "2026-11-06T10:00:00.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：机器人相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“我看着一个人形机器人打扫我的公寓。这感觉就像是未来的味道。”。它主要涉及机器人方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
-      "rawFullText": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed up for the waitlist. I wanted my apartment to feel like The Jetsons , even if just for an hour. I was also motivated by journalistic interest. In order to ensure an authentic experience, I didn’t tell Tau Robotics, the startup behind the X post, that I was a journalist—though I did use my real name, so it’s possible someone looked me up. Tau’s long-term goal is to make autonomous cleaning robots a reality, but they’re not quite there yet: For now, the robots are piloted remotely by humans, who watch what’s going on via cameras mounted in the robots’ heads and wrists. As the robots clean, they collect data that Tau will use to train up their more independent descendants. Every counter successfully wiped and T-shirt successfully folded will help the models that power the robots learn to do better on the next go-round. Because this data is so valuable to Tau, the company charges less for cleaning than one might expect for such a cutting-edge product. At the time I booked, Tau was offering $30 for an hourlong cleaning with a single robot; now the charge is $60 per weekly cleaning with two robots, or $100 for a one-time visit. But even at the cheaper rate of $30 per hour, Tau’s robots aren’t a great bargain. They are thorough but slow, so if you, like me, are tempted to stand around watching them for their entire visit, it would probably be a better use of your time to just take care of the cleaning yourself.&nbsp; But the robots are physically capable of cleaning, and they’re undeniably cute. Tau has armed each four-and-a-half-foot-tall robot with a 3D-printed “head” with antennae that allow it to communicate with Tau’s headquarters, as well as two 3D-printed claw “hands” (the more humanlike alternatives apparently aren’t durable enough, and claws do surprisingly well for most cleaning tasks). Mine was wearing a Tau Robotics shirt, and grippy socks so that it didn’t scratch hardwood floors. With all the human support they need, the robots are closer to radio-controlled cars than Waymos. Many tasks, such as making the bed and folding laundry, require what’s called kinematic guidance: The human pilot performs the necessary motions, and sensors transmit those movements to the robot, which copies them. These kinematically guided tasks produce especially valuable training data. Tau’s AI models might not have solved laundry folding yet, but learning from the examples of robots that have completed the task in the real world is how they’ll get there. But according to Tau cofounder Cornelia Weinzierl, to whom I came clean as a journalist a few weeks after the cleaning, the robot can already complete some other tasks—such as vacuuming and mopping—without any human help. If Tau succeeds in using all the data it is collecting to train truly autonomous cleaning robots, they could even become San Francisco’s newest tech tourist attraction as Waymos become more commonplace countrywide. The cleaning robot that came to my building last month was already a bit of a spectacle. It arrived in a blue minivan, out of which it was helped by Weinzierl and another Tau employee. That’s when the robot encountered its first obstacle: the eight stairs leading up to the building’s front door. I’d come down to greet Weinzierl and the robot, so I had a front-row seat to its struggles with my steps. It climbed as if it were drunk. Each successful step was as likely as not to be followed by a stumbling backward stagger that erased all its progress—though, impressively, it never entirely lost its footing. When I later discussed my experience with Weinzierl, she explained that the robot sometimes walks strangely because it is operated remotely from Tau’s headquarters, and the short signal transmission delay can affect its coordination. “The amount of work and time that we spend just optimizing, for example, timings and connectivity is crazy,” she said. Inside, the carpeted staircase leading up to my apartment defeated the robot entirely, and Weinzierl had to lug it up the last few steps. This, it turned out, was not typical. As the robot cleaned, it repeatedly stalled out, something Weinzierl attributed to it overheating in the unseasonably hot weather—until she heard from one of her colleagues that the heat had shut down not the robot but the equipment that its human controller was using to watch its progress through my apartment. Without remote assistance, the robot couldn’t clean, and so it, and Weinzierl, departed before my booked hour was up. (Back in September, Weinzierl or another Tau representative remained with the robot throughout its visit, but she says that’s no longer necessary.) You can’t fault Tau on customer service, though. Weinzierl quickly emailed me to apologize, comp the visit, and offer me another on the house (minus whatever price I assign to my data privacy)—and that was all before I told her I was a journalist. I scheduled the next cleaning for about a month later, after a couple of trips out of town, and it went much more smoothly—the robot got up my stairs without much assistance, though still with the drunken stagger. In the hour it was there, it did a creditable job of cleaning my kitchen (though it didn’t brave the stove) and even saved me my most dreaded cleaning task, the toilet. That was its most impressive performance: Three times the head fell off its toilet cleaning wand, and three times it managed to reattach it by poking around with the handle until it made contact at just the right angle. The robot is still rough around the edges, which is to be expected for a product in beta. It repeatedly left my taps dripping, it knocked over a (closed) bottle of olive oil, and it couldn’t manage to right an air purifier that it had toppled. But I easily forgave all those missteps because of how charming it was. As I watched it wipe down my countertops, I felt the same fond gratitude that I feel when a Waymo delivers me safely home after a night out. Still, it’s not all slapstick and whimsy. If Tau Robotics or its competitors succeeds in training robots to clean autonomously and inexpensively, people could lose their livelihoods, and the United States is a long way away from implementing policies to take care of those left unemployed by AI.&nbsp; But Weinzierl maintains that someday turning over cleaning work to robots could make a lot of sense. “Cleaning is not a job that a lot of people really actively want to be doing—there’s high turnover, there’s a high risk of injury,” she said when we spoke after the cleanings. “We need people, and we don’t have them, and no one wants to do it.” She said that the company is also starting to consider someday deploying the robots for other dangerous or physically challenging jobs, such as mold remediation and home health care. Tau Robotics still has a long way to go: The amount of data needed to train robots to do the varied and complicated tasks of apartment cleaning is probably enormous, and the company has completed only a couple hundred cleanings so far. But it’s remarkable that there are now humanoid robots able to clean your toilets and mop your floors, even if they need quite a bit of human help to do so. The Jetsons no longer feels quite so far away.",
-      "tags": [
-        "机器人"
-      ],
-      "score": 72
-    },
-    {
-      "title": "埃及和尼日利亚英语加入Open ASR排行榜",
-      "originalTitle": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "date": "2026-11-06T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 65
-    },
-    {
-      "title": "德克萨斯州是人工智能数据中心建设的新中心。那可能是失败了。",
-      "originalTitle": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "date": "2026-11-04T18:50:55.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 70。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,&#8230;",
-      "rawFullText": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent, Greg Abbott. At the state level, Democrats will take control of the Texas House for the first time in 24 years. Talarico and Hinojosa made data centers a central issue, discussing them constantly on the campaign trail. Even before the polls closed, insiders in the data center industry noticed that the times were changing. At the industry&#8217;s DCD conference in Ashburn, Virginia, on Tuesday, panelists lamented that Texas had been the easiest place to build for years—until September. That&#8217;s when Abbott, perhaps seeing the increasingly bipartisan distaste for these facilities , began changing course himself.&nbsp; Developers said the governor’s office had stopped responding to their emails. On September 21, Abbott directed a key state regulator to halt data center permits. Many panelists at the conference were expecting this to mean that existing projects might be slowed and new ones could be halted altogether.&nbsp; The governor-elect indeed seems eager to do that. Hinojosa supported tax breaks for data centers in 2023 as a way to boost construction jobs, but during her campaign she began pushing for a full-fledged moratorium. That would be a problem for the hyperscalers of Big Tech, which have ambitious plans for AI training facilities in the state. The scale of projects already underway in Texas is massive. The Stargate Frontier data center in Shackelford County is projected to serve 1,820 megawatts—about as much as the nation’s largest data center, SpaceX’s Colossus 2 in Tennessee, and more than twice as much as the largest data center currently operating in Texas. Nexus Hubbard, also under construction and intended mostly to serve Anthropic, has a planned size of 6,400 megawatts and is the second-largest data center being built in the US, behind only Meta’s Hyperion project in Louisiana.&nbsp; The potential for Democrats to order delays to these projects or moratoriums on new ones adds to growing anxiety that the AI buildout could stall. Banks and lenders are already getting pickier about the projects they back. And given the extent to which the data center buildout is underpinning growth in the economy right now, those forces combined could have ripple effects. Voters around the country, though, were unambiguous in the midterms, sending a similar message on everything from state ballot questions to national offices. Voters supported efforts to protect ratepayers from increases in their electricity bills caused by data centers, and they favored some larger bans on new data centers altogether. If we needed any more convincing that Big Tech has fumbled its effort to sell voters on the idea that AI-powered abundance will make health care better, goods cheaper, and scientific breakthroughs more common, this was it. A key question is whether the Texas counties with the largest data center presence were part of the reason these Democrats got elected, or if the anti-data-center vote came from elsewhere.&nbsp; It’s complicated: The counties where much of the data center buildout is happening are around Dallas. Dallas County and others closest to it predictably went blue, but nearby Ellis County, which leads in permitting requests for data centers, went for Greg Abbott and Ken Paxton. Cameron County, near the state’s southern border, is a hot spot for data centers and voted blue in the midterms, which was a shift. But Mitchell County and Scurry County, where a bunch of projects in west Texas are located, went red.&nbsp; This is a big deal, because no single office in the state decides whether a project goes ahead or is halted. Decisions often reflect an interplay between city governments, county officials, and state offices.&nbsp; Local officials who have some say over data center development may resist sweeping restrictions from the state. And Democrats pushing for a moratorium might also face pushback from the construction unions that supported some of their campaigns. So while the blue wave spells a death knell for Texas data centers in theory, election winners may find that following through on their opposition once in office is much more complicated than campaigning on it.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 66
     }
   ]
 }
