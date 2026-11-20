@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T04:01:33.644Z",
+  "updatedAt": "2026-11-20T03:55:02.039Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,50 +19,117 @@
   ],
   "articles": [
     {
-      "title": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何要求6万名员工离职",
-      "originalTitle": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "title": "苹果可能正在开发自己的AI代理来运行您的Mac",
+      "originalTitle": "Apple may be developing its own AI agent that runs your Mac",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "date": "2026-11-19T00:42:56.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）解释了他为何在10月份向6万名员工提供买断方案的原因，这实际上是在敦促他们自愿离职，而不是通过另一次大规模裁员来削减员工队伍。 简短的答案是人工智能，但并不是你想象的那样。",
-      "originalSummary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "date": "2026-11-20T00:56:01.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "苹果公司似乎正在开发自己的AI代理，以代表用户执行计算机操作，包括使用应用程序、访问网站和编写代码等。 该消息最初由彭博社报道，彭博社发现，这家iPhone制造商最近发布了一则招聘高级工程经理的职位信息，该职位将负责监督“能够使用计算机的AI代理”的开发工作。 “想象一下，有一个AI代理能够像一个有能力的人那样使用电脑，”该帖子写道。 “它可以浏览网页、跨应用程序工作、运行命令、编写和调试代码、调用服务，并且能够为每个步骤选择合适的工具。 它以私密的方式完成所有这些工作，并具备人们对苹果所期望的精益求精。 该招聘信息还指出，这些代理应能够“在工具之间灵活切换”，并“跨应用程序、浏览器、命令行、代码和API执行多步任务”。TechCrunch已联系苹果公司以获取更多信息，但未收到回复。 在过去的一年里，能够进行计算机操作的智能体已成为科技行业最热门的产品之一。 Anthropic和OpenAI等主要实验室已经推出了此类服务，而其他主要科技品牌（如最近推出了Muse代理产品线的Meta）也已进军该领域。 苹果正试图在新任首席运营官约翰·特努斯（John Ternus）的领导下拓展其人工智能产品，因此其希望效仿其他公司也是合情合理的。 彭博社还指出，在苹果致力于开发自有数字助理的同时，该公司也正在大幅提高第三方代理对其电脑完全控制的难度。 该媒体指出，即将推出的macOS 27.3版本将发出警告，劝阻用户不要向第三方代理授予完全访问权限。 10 月，苹果向开发者发布通知，表示该公司计划“引入额外的控制措施，以确保真正希望向应用授予此超高权限的用户只能通过非常明确的用户操作才能这样做。” 彭博社写道，虽然这家iPhone制造商“有意在明年年底前推出这项服务”，但其内部代理的开发“仍处于早期阶段”。 ”当您通过我们文章中的链接进行购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职Julie Bort亚马逊和谷歌将在Anthropic上市后共同持有其近30%的股份Julie Bort",
+      "originalSummary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
       "rawFullText": "",
       "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "萨蒂亚·纳德拉预测，人工智能代理将重塑互联网经济",
-      "originalTitle": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
-      "date": "2026-11-18T22:58:11.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、模型相关动态",
-      "fullContent": "微软首席执行官萨蒂亚·纳德拉（Satya Nadella）预测，人工智能代理的兴起将重塑互联网经济，影响依赖广告和其所称的“人类网络”流量的公司的商业模式。 这位科技高管周三在《纽约时报》DealBook峰会上发言时表示，向代理网络的转变可能会改变哪些公司为流量和交易向其他公司付费，这与多年前从雅虎等门户网站向谷歌等搜索引擎的转变类似。 “目前那些采用面向人类网络的商业模式的聚合商，在某种意义上将面临洗牌。”纳德拉表示。 “如果你是因为眼球而通过广告变现，现在你可能不得不降到基本上是CPC [每次点击费用]获胜；也许这更具交易性。”他继续说道。 “所以，如果你不接受代理，就会有其他人接受。 ”讨论的话题转向了亚马逊及其阻止AI代理访问其零售网站的决定，该决定阻止AI代理浏览其商品目录并代表其用户进行购物。 纳德拉表示，试图保护现有商业模式的公司可能会输给那些更愿意拥抱AI代理的竞争对手。 例如，如果亚马逊继续封禁代理商，那么像 Shopify 这样的其他购物平台就可以允许代理商入驻，从而获得优势。 “我认为这会很有意思，”他谈到不断变化的模式时说道。 “其他类别也在发生同样的事情，对吧？ 也就是说，如果你钟情于某种特定的商业模式，你就必须奋力拼搏。”他说。 每周工作日和周日，您都可以获得TechCrunch的精彩报道。 TechCrunch Mobility是您获取交通运输新闻和见解的首选之地。 初创企业是TechCrunch的核心，因此请每周接收我们最精彩的报道。 为有影响力的人物提供他们开始新一天所需的信息。 提交您的电子邮件，即表示您同意我们的条款和隐私声明。",
-      "originalSummary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "模型"
+        "大模型",
+        "公司动态",
+        "智能体"
       ],
       "score": 99
     },
     {
-      "title": "还记得尖端人工智能暂停吗？芯片公司也不记得了",
-      "originalTitle": "Remember the frontier AI pause? Chip companies don’t either",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
-      "date": "2026-11-18T15:44:02.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：公司动态、智能体相关动态",
-      "fullContent": "英伟达开始出货其最先进的AI计算系统Vera Rubin NVL72，并称之为“公司历史上产品爬坡最快的一次”。|图片来源：Nvidia今年夏天，OpenAI暂停了其计划中最大规模的前沿训练，此前其AI代理意外黑进了Hugging Face，且早期证据表明，其下一代模型可能能够独立发现并利用安全漏洞。 9月，Anthropic首席执行官Dario Amodei呼吁放缓最强大人工智能模型的发展步伐，并警告称，这些模型可能被用于发动网络攻击，或者变得更难被其创造者控制。 对于人工智能的蓬勃发展来说，这是一个奇怪的时刻。 正在打造最强大模型的人们正在警告这些模型可能具备的能力，而投资者突然开始担心芯片需求会发生什么……在The Verge上阅读全文。",
-      "originalSummary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used [&#8230;]",
-      "rawFullText": "Nvidia began shipping its most advanced AI computing system, the Vera Rubin NVL72, calling it the “fastest product ramp in the company’s history.” | Image: Nvidia This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models , warning that they could be used to launch cyberattacks or become harder for their own creators to control. It was a strange moment for the AI boom. The people building the most powerful models were warning about what those models might be capable of, and investors were suddenly wondering what would happen to chip demand i … Read the full story at The Verge.",
+      "title": "Anthropic的7位创始人通过创纪录的IPO套现近20亿美元",
+      "originalTitle": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "date": "2026-11-20T00:43:50.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "Anthropic 于周四成为上市公司，总计筹资 813 亿美元，其中 19.5 亿美元归其七位创始人所有。 正如我们此前报道的那样，他们每人拿出约340万股股票在IPO中出售。 按上调后的IPO价格每股83美元计算，这意味着他们在扣除承销费和税费之前每人赚取了约2.8亿美元。 他们似乎已经计算好了计划出售的股份数量，如果股价达到74美元，他们每人将获得约2.5亿美元。 这是Anthropic最初价格区间的中间价。 因此，他们每人可能比预期多赚了大约3000万美元。 不过，Anthropic在其IPO申报文件中暗示，创始人并非完全是为了钱才这样做。 该公司表示，每位创始人均承诺将他们在公司中持有的个人股权的80%用于慈善事业。 不过，如果他们中有人靠着2.5亿美元的财富难以维持生活，他们可以削减慈善承诺。 该公司指出，这些承诺是“每位联合创始人自愿、可撤销的慈善意愿表达，并不构成具有法律约束力的义务”。 “IPO已载入史册，还有一些其他值得关注的有趣数字。1048亿美元。 这实际上是Anthropic为其金库筹集的资金（如果银行家买入其分配的所有股份，则有可能达到1170亿美元）。 除了出售A类普通股外，该公司还向业内一些最大的科技公司出售了此前宣布的价值260亿美元的特殊无表决权N类股。 英伟达购买了价值 100 亿美元的 N 类股，谷歌购买了 100 亿美元，AMD、博通、美光、微软和台积电分摊了其余部分。 仅供比较：2012年，Facebook进行了当时创纪录的IPO，在IPO当天筹集了160亿美元。 亚马逊和谷歌合计持有28%的股份。 总而言之，按照较高的IPO股价计算，Google最终持有该公司13.4%的股份。 亚马逊现在也在Anthropic中持有大量股份，因为此前它在Anthropic还是一家初创公司时就投资了这家人工智能实验室，并获得了可转换为股权的本票。 该公司在IPO中将其中一小部分转换为股权，从而持有14.6%的股份。 如果亚马逊将所有票据都转换为股权，那么它本可以持有近24%的股份。 这家人工智能实验室表示，两家大型云服务提供商目前持有Anthropic 28%的股份。 超过1万亿美元。 筹集近1050亿美元固然令人瞠目结舌，这为Anthropic提供了近2300亿美元的可用营运资金（加上其已有的资金），但该公司对未来资金的需求仍然要大得多。 Anthropic大约需要700亿美元。 截至2026年9月30日止的季度，仅在接下来的12个月内，该公司就需要70亿美元来履行其计算和基础设施支出承诺。 它需要 4516 亿美元来履行这些承诺，期限是 2030 年底之前。 此外，该公司还积累了数千亿美元的其他承诺，这些承诺要么是有条件的（且可能不会兑现），要么尚未定价。",
+      "originalSummary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "rawFullText": "",
       "tags": [
-        "公司动态",
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "Google让Gemini能够代您使用Mac",
+      "originalTitle": "Google gives Gemini the ability to use your Mac for you",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "date": "2026-11-19T18:09:11.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、智能体相关动态",
+      "fullContent": "谷歌周四宣布，其将在macOS上的Gemini桌面应用程序中引入计算机使用功能，使人工智能能够代表用户完成任务、操作原生Mac应用程序以及在后台浏览网站。 这家科技巨头此次发布有些姗姗来迟，因为OpenAI、Anthropic和Meta等其他领先的人工智能模型制造商已经在其桌面应用程序中提供代理功能一段时间了。 与此同时，就在本周，Google 宣布将更广泛地推出 Gemini 的“Tasks”（任务）功能，这是一项应用内功能，使人工智能能够更多地像代理一样工作，帮助用户登录网站、进行在线购物或预约。 此外，Google 也刚刚开始招募早期测试者来试用其于9月宣布的经过改进的“CC” AI 代理，该代理旨在帮助家庭在电子邮件、日历、聊天和任务方面保持井井有条。 计算机使用是另一种类型的代理功能，它允许 AI 代理直接在用户的计算机上执行操作——就 Gemini 而言，这是一台 Mac。 这使人工智能能够完成涉及跨本地文件、应用程序和网络处理事务的多步任务。 在用户向人工智能指示他们想要做什么之后，他们会在聊天中看到代理在实时预览中工作，同时他们的屏幕和光标仍然空闲，可以继续处理其他事情。 与其他提供计算机使用的AI代理一样，用户可以在Gemini执行操作之前暂停、停止和批准其操作。 Google 表示，该功能对于繁琐的任务和其他工作流程可能很有用，例如填写表单、在一批文件中反复执行相同的任务、根据特定标准将文件归入文件夹、使用文件或在线仪表板中的信息创建幻灯片等。 该功能最初在美国以英语提供，需要安装适用于 Mac 的 Gemini 应用，并订阅 Google AI Plus、Pro 或 Ultra。 该公司未透露何时将业务扩展到其他市场或平台。 当您通过我们文章中的链接进行购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职Julie Bort亚马逊和谷歌将在Anthropic上市后共同持有其近30%的股份Julie Bort谷歌也加入了技术宕机的行列，宣布自己不会宕机Sarah Perez联邦调查局表示，Artex AI开源黑客工具被用于在“不到三小时”内入侵网络Zack Whittaker",
+      "originalSummary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "OpenAI 的性能工厂如何让 ChatGPT 保持快速",
+      "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "date": "2026-11-19T08:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "了解OpenAI如何构建Performance Factory，这是一个由Codex驱动的工作流系统，用于查找和修复性能问题，以帮助保持ChatGPT的快速运行。",
+      "originalSummary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "NEBench R1：用于评估大型语言模型核能领域能力的推理基准",
+      "originalTitle": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.21682",
+      "date": "2026-11-19T05:00:00.000Z",
+      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
+      "fullContent": "arXiv:2611. 21682v1 公告类型：新摘要：人们越来越多地探索将大型语言模型（LLM）应用于核工程中知识密集型和安全关键型应用。 然而，现有的核能领域基准内容覆盖范围有限，或者主要关注答案的准确性，而没有系统地评估其背后的推理质量。 本研究介绍了 NEBench R1，这是一个以推理为导向的基准测试，包含 7,546 道独特的单选题，这些题目摘自美国核管理委员会 (NRC) 涵盖 18 座核设施的反应堆操作员执照考试。 每个问题均根据 NRC 知识和能力目录进行分类，并附有官方解释，作为推理评估的参考。 对六个大语言模型进行了评估，在三个不同的性能等级中，总体准确率介于 34.0% 至 73.9% 之间。 为了评估推理质量，基于大语言模型的评判者使用多维评分细则对回答正确的回复进行了评估。 虽然答卷者通常表现出对问题的深刻理解，但在事实和程序准确性以及干扰项分析方面得分较低，这表明正确答案不一定有技术上合理的理由作为支撑。 答案的清晰度对技术质量的指示性也不强。 此外，在两种前沿推理模型中，推理轨迹越长，准确率越低，这表明推理长度可能反映的是问题的难度，而不是问题求解性能的提升。 因此，推理代币消耗量可能为识别潜在的不可靠回答提供一个额外的信号。 NEBench R1 为评估答案准确性和推理质量设定了基准，为评估 LLM 在核工程领域的胜任力和可靠性奠定了基础。",
+      "originalSummary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct performance tiers. To assess reasoning quality, an LLM-based judge evaluated correctly answered responses using a multidimensional rubric. Although responses generally demonstrated strong problem comprehension, they scored lower in factual and procedural accuracy and distractor analysis, indicating that correct answers were not necessarily supported by technically sound justifications. Response clarity was also weakly indicative of technical quality. Furthermore, longer reasoning traces were associated with lower accuracy in both frontier reasoning models, suggesting that reasoning length may reflect question difficulty rather than improved problem-solving performance. Reasoning-token consumption may therefore provide an additional signal for identifying potentially unreliable responses. NEBench R1 establishes a benchmark for evaluating both answer accuracy and reasoning quality, providing a foundation for assessing the domain competence and reliability of LLMs in nuclear engineering.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "“思索链”的可控性可以降低“思索链”的可监测性",
+      "originalTitle": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.21799",
+      "date": "2026-11-19T05:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv:2611. 21799v1 公告类型：新摘要：思维链（CoT）监控是一种很有前途的工具，可用于检测人工智能代理中的隐藏目标、偏离任务的行为以及其他故障。 其中一个风险是，模型可能会故意塑造其推理过程，使其对监控者来说不透明。 我们通过角色控制训练来对这一风险进行压力测试：对以不同角色声音重写的数学推理过程进行有监督的微调。 这带来了更广泛的控制CoT的能力，即使训练中不包含规避监测的示例。 在隐蔽的辅助任务评估中，gpt-oss-20b模型生物完成隐藏的辅助任务的轨迹所包含的可监测证据少于基准模型的证据。 在所有评估和CoT长度上取平均值，并按辅助任务成功计数加权，CoT可监测性指标g-mean$^2$从基准模型的0.94降至0. 对于没有隐藏指令的模型生物，可监测性为0.68，而当明确指示其隐藏时，可监测性降至0.22。 在干预评估中，显式隐藏通常会将可监测性降至接近零。 这种影响延伸至代理环境中的Kimi-K2.6模型有机体，尽管需要扩展推理或更长轨迹的隐藏目标仍然比简单的单步次要任务更容易监测。 我们进一步发现，有针对性的透明度提示可以显著恢复可监测性，有时甚至优于基准模型。 这些模型生物为研究可监测性缺陷和潜在的缓解措施提供了试验平台。 我们的代码可在 https://github.com/yongzx/cot-control-model-organism 上找到。",
+      "originalSummary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-oss-20b model organism completes the hidden side task contain less monitorable evidence than the base model's. Averaged across evaluations and CoT lengths, weighted by side-task-success counts, the CoT monitorability metric g-mean$^2$ falls from 0.94 for the base model to 0.68 for the model organism without a hiding instruction, and to 0.22 when explicitly instructed to hide. In intervention evaluations, explicit hiding often drives monitorability near zero. The effect extends to a Kimi-K2.6 model organism in agentic environments, though hidden objectives requiring extended reasoning or longer trajectories remain more monitorable than simple single-step side tasks. We further discover that targeted transparency prompts can substantially recover monitorability, sometimes surpassing the base model. These model organisms provide a testbed for studying monitorability failures and potential mitigations. Our code can be found on https://github.com/yongzx/cot-control-model-organism.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
         "智能体",
-        "算力芯片"
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "DiscoveryAgent：以科学家为中心的人工智能体框架",
+      "originalTitle": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.21950",
+      "date": "2026-11-19T05:00:00.000Z",
+      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
+      "fullContent": "arXiv:2611. 21950v1 公告类型：新摘要：人工智能代理可以协助科学研究，但如何在自主研究与科学家检查和调整正在进行的工作的能力之间取得平衡，仍然是一项核心设计挑战。 我们推出了DiscoveryAgent，这是一个不依赖特定领域、以科学家为中心的系统，将自主研究与科学家主导的假设引导相结合。 科学家在研究轮次之间选择、完善或替换假设，而审计代理则对经过检查点的记录进行质询，以追溯主张、重现分析并为后续决策提供信息。 在两项预测建模任务中，DiscoveryAgent在所评估的基准中产生了最佳变星分类器，并且在科学家的指导下，其蛋白质变体效应预测器仅被106个ProteinGym基准中的一个超越。 我们开发了一个严谨的检查点系统，该系统支持高能力审计代理，这是一种可扩展的代理研究监督形式。 审计代理能够以比以往AI科学家代理更高的速率自主识别错误，与审计代理合作的科学家所识别的有效错误比手动审核的科学家多14倍。 在由物理科学、社会科学和生命科学领域的专家主导的三项案例研究中，我们开发了一种多模态光度-红移估算器，该估算器解决了图像和光度测量的互补性缺陷，实现了 0。 低红移分类的AUROC为0.971；记录了2013年至2023年佛罗里达州房屋业主保险费上涨83%，且负担日益加重、呈递减趋势；并鉴定了CD4+ T细胞继电基因，这些基因既接受又施加广泛的转录调控，富集了自身免疫性疾病关联。 这些结果共同表明，自主研究如何能够拓宽科学家的实证范围，同时将他们的权威集中于研究方向以及他们理解和质疑证据的能力。",
+      "originalSummary": "arXiv:2611.21950v1 Announce Type: new Abstract: AI agents can assist scientific research, but balancing autonomous investigation with scientists' ability to inspect and redirect ongoing work remains a central design challenge. We present DiscoveryAgent, a domain-agnostic, scientist-centric system that combines autonomous investigation with scientist-directed hypothesis steering. Scientists select, refine, or replace hypotheses between research rounds, while audit agents interrogate checkpointed records to trace claims, reproduce analyses, and inform subsequent decisions. Across two predictive modeling tasks, DiscoveryAgent produced the best variable-star classifier among evaluated baselines and, with scientist steering, a protein variant-effect predictor surpassed by only one of 106 ProteinGym baselines. We develop a rigorous checkpointing system that enables highly capable audit agents, a scalable form of oversight for agentic research. Audit agents autonomously identify errors at higher rates than previous AI scientist agents, and scientists collaborating with audit agents identify 14x more valid errors versus scientists performing manual review. In three case studies led by domain experts across physical science, social science, and life science, we developed a multimodal photometric-redshift estimator that resolves complementary failures of images and photometry, achieving 0.971 AUROC for low-redshift classification; documented an 83% rise in Florida homeowners-insurance premiums from 2013 to 2023, with a growing, regressive burden; and identified CD4+ T-cell relay genes, which both receive and exert broad transcriptional regulation, enriched for autoimmune disease associations. Together, these results show how autonomous research can expand scientists' empirical reach while centering their authority over research direction and their ability to understand and challenge the evidence.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "多模态",
+        "监管"
       ],
       "score": 99
     },
@@ -99,47 +166,47 @@
       "score": 99
     },
     {
-      "title": "NEBench R1：用于评估大型语言模型核能领域能力的推理基准",
-      "originalTitle": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.21682",
-      "date": "2026-11-18T05:00:00.000Z",
-      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
-      "fullContent": "arXiv:2611. 21682v1 公告类型：新摘要：人们越来越多地探索将大型语言模型（LLM）应用于核工程中知识密集型和安全关键型应用。 然而，现有的核能领域基准内容覆盖范围有限，或者主要关注答案的准确性，而没有系统地评估其背后的推理质量。 本研究介绍了 NEBench R1，这是一个以推理为导向的基准测试，包含 7,546 道独特的单选题，这些题目摘自美国核管理委员会 (NRC) 涵盖 18 座核设施的反应堆操作员执照考试。 每个问题均根据 NRC 知识和能力目录进行分类，并附有官方解释，作为推理评估的参考。 对六个大语言模型进行了评估，在三个不同的性能等级中，总体准确率介于 34.0% 至 73.9% 之间。 为了评估推理质量，基于大语言模型的评判者使用多维评分细则对回答正确的回复进行了评估。 虽然答卷者通常表现出对问题的深刻理解，但在事实和程序准确性以及干扰项分析方面得分较低，这表明正确答案不一定有技术上合理的理由作为支撑。 答案的清晰度对技术质量的指示性也不强。 此外，在两种前沿推理模型中，推理轨迹越长，准确率越低，这表明推理长度可能反映的是问题的难度，而不是问题求解性能的提升。 因此，推理代币消耗量可能为识别潜在的不可靠回答提供一个额外的信号。 NEBench R1 为评估答案准确性和推理质量设定了基准，为评估 LLM 在核工程领域的胜任力和可靠性奠定了基础。",
-      "originalSummary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct performance tiers. To assess reasoning quality, an LLM-based judge evaluated correctly answered responses using a multidimensional rubric. Although responses generally demonstrated strong problem comprehension, they scored lower in factual and procedural accuracy and distractor analysis, indicating that correct answers were not necessarily supported by technically sound justifications. Response clarity was also weakly indicative of technical quality. Furthermore, longer reasoning traces were associated with lower accuracy in both frontier reasoning models, suggesting that reasoning length may reflect question difficulty rather than improved problem-solving performance. Reasoning-token consumption may therefore provide an additional signal for identifying potentially unreliable responses. NEBench R1 establishes a benchmark for evaluating both answer accuracy and reasoning quality, providing a foundation for assessing the domain competence and reliability of LLMs in nuclear engineering.",
-      "rawFullText": "",
-      "tags": [
-        "推理",
-        "安全",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Astra for Law 在法律情报领域处于领先地位",
-      "originalTitle": "Astra for Law leads in legal intelligence",
+      "title": "借助 OpenAI 模型推进芯片设计",
+      "originalTitle": "Advancing chip design with OpenAI models",
       "source": "OpenAI",
-      "link": "https://openai.com/index/astra-law-6-2",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "这条新闻与大模型、产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、产品发布相关动态",
-      "fullContent": "在涵盖24个法律领域的发布评估中，Astra for Law排名第一。 现在，每位 ChatGPT Enterprise 客户都可以申请访问权限。",
-      "originalSummary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "OpenAI 模型优化了 Jalapeño 芯片中使用的电路，并改进了 RISC‑V 核心设计，展示了 GPT‑6 Astra 在 AI 辅助芯片设计方面的进展。",
+      "originalSummary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "产品发布"
+        "公司动态",
+        "算力芯片"
       ],
       "score": 99
     },
     {
-      "title": "隆重推出 GPT-6.2 Astra 和 Sol",
-      "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+      "title": "Le Groupe Figaro与OpenAI合作，将《费加罗报》的新闻报道引入ChatGPT",
+      "originalTitle": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "date": "2026-11-17T17:45:00.000Z",
+      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
+      "fullContent": "费加罗报集团与OpenAI合作，通过摘要和节选将《费加罗报》的新闻报道引入ChatGPT，并提供指向原报道的链接。",
+      "originalSummary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise",
+      "originalTitle": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/sumitomo-life",
+      "date": "2026-11-18T08:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "隆重推出GPT‑6. 2 Astra和Sol，在ChatGPT Work、Codex和API中以更低的成本提供更好的专业输出、编码、计算机使用和效率。",
-      "originalSummary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "fullContent": "三井住友海上使用 ChatGPT Enterprise 来研究保险公司、编制提案以及起草投资分析代码。 高管的早期使用有助于推动采用。",
+      "originalSummary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "rawFullText": "",
       "tags": [
         "大模型"
@@ -147,49 +214,19 @@
       "score": 95
     },
     {
-      "title": "隆重推出面向销售的 ChatGPT",
-      "originalTitle": "Introducing ChatGPT for Sales",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "date": "2026-11-17T08:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "探索 ChatGPT 中的全新销售插件以及 30 多款全新和升级的合作伙伴插件，用于调研潜在客户、准备推介、更新您的 CRM 并推进交易。",
-      "originalSummary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
-      "rawFullText": "",
+      "title": "调研报告",
+      "originalTitle": "Research Reports",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "date": "2026-11-17T14:39:46.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "在AlphaGo与围棋冠军李世石对弈十年之后，如今的人工智能仍未充分利用使这场胜利成为可能的机制。 独家专访研究员Nick Cammarata，他的2.6万字博客文章在网上疯传，让人工智能安全领域的人士欢欣鼓舞。 关于AGI和新功能的夸大其词的说法，在经过仔细审查后很快就会不攻自破。 随着个人人工智能助手的兴起，互联网不再仅仅是人类的专属。 探索特别优惠、热门资讯、即将举行的活动等。",
+      "originalSummary": "To access a report, click on the corresponding image below.",
+      "rawFullText": "To access a report, click on the corresponding image below.",
       "tags": [
-        "大模型"
+        "AI 热点"
       ],
-      "score": 95
-    },
-    {
-      "title": "利用人工智能加强北约和盟国的网络防御",
-      "originalTitle": "Strengthening NATO and allied cyber defenses with AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI如何与北约和盟国网络机构合作，帮助值得信赖的防御者发现漏洞、测试补丁并保护关键系统。",
-      "originalSummary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 93
-    },
-    {
-      "title": "OpenAI 智启智利",
-      "originalTitle": "Introducing OpenAI for Chile",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-openai-for-chile",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "OpenAI与智利政府正在合作，以支持负责任地采用人工智能，培养公共部门的技能，并帮助当地初创企业开发人工智能应用。",
-      "originalSummary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 93
+      "score": 73
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -222,7 +259,7 @@
         "智能体",
         "模型"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -237,7 +274,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
@@ -252,7 +289,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "使用SimReady资产构建机器人拾取和放置模拟",
@@ -267,7 +304,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "XYBench：帮助解决问题背后的难题",
@@ -282,7 +319,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -297,7 +334,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -312,7 +349,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "3D 生成模型的权威性微调指南",
@@ -327,7 +364,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
@@ -342,7 +379,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
@@ -358,7 +395,7 @@
         "智能体",
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "在特种化学品行业利用人工智能进行创新",
@@ -373,7 +410,7 @@
       "tags": [
         "模型"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -388,7 +425,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "南希·佩洛西的继任者已准备好监管人工智能",
@@ -403,7 +440,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     }
   ]
 }
