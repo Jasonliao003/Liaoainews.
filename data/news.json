@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T03:55:02.039Z",
+  "updatedAt": "2026-11-21T03:51:22.963Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,36 +19,86 @@
   ],
   "articles": [
     {
-      "title": "苹果可能正在开发自己的AI代理来运行您的Mac",
-      "originalTitle": "Apple may be developing its own AI agent that runs your Mac",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "date": "2026-11-20T00:56:01.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "苹果公司似乎正在开发自己的AI代理，以代表用户执行计算机操作，包括使用应用程序、访问网站和编写代码等。 该消息最初由彭博社报道，彭博社发现，这家iPhone制造商最近发布了一则招聘高级工程经理的职位信息，该职位将负责监督“能够使用计算机的AI代理”的开发工作。 “想象一下，有一个AI代理能够像一个有能力的人那样使用电脑，”该帖子写道。 “它可以浏览网页、跨应用程序工作、运行命令、编写和调试代码、调用服务，并且能够为每个步骤选择合适的工具。 它以私密的方式完成所有这些工作，并具备人们对苹果所期望的精益求精。 该招聘信息还指出，这些代理应能够“在工具之间灵活切换”，并“跨应用程序、浏览器、命令行、代码和API执行多步任务”。TechCrunch已联系苹果公司以获取更多信息，但未收到回复。 在过去的一年里，能够进行计算机操作的智能体已成为科技行业最热门的产品之一。 Anthropic和OpenAI等主要实验室已经推出了此类服务，而其他主要科技品牌（如最近推出了Muse代理产品线的Meta）也已进军该领域。 苹果正试图在新任首席运营官约翰·特努斯（John Ternus）的领导下拓展其人工智能产品，因此其希望效仿其他公司也是合情合理的。 彭博社还指出，在苹果致力于开发自有数字助理的同时，该公司也正在大幅提高第三方代理对其电脑完全控制的难度。 该媒体指出，即将推出的macOS 27.3版本将发出警告，劝阻用户不要向第三方代理授予完全访问权限。 10 月，苹果向开发者发布通知，表示该公司计划“引入额外的控制措施，以确保真正希望向应用授予此超高权限的用户只能通过非常明确的用户操作才能这样做。” 彭博社写道，虽然这家iPhone制造商“有意在明年年底前推出这项服务”，但其内部代理的开发“仍处于早期阶段”。 ”当您通过我们文章中的链接进行购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职Julie Bort亚马逊和谷歌将在Anthropic上市后共同持有其近30%的股份Julie Bort",
-      "originalSummary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-      "rawFullText": "",
+      "title": "Anthropic 的数学家声称已使用 Claude 解决了著名的千年大奖难题",
+      "originalTitle": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "date": "2026-11-20T16:34:13.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic 于 2026 年 11 月 19 日上市。 |图片来源：Getty Images Anthropic的数学家Levent Alpöge声称，在Claude的帮助下，他证明了黎曼猜想——数学界公认的最棘手难题之一，破解了这个让世界上一些最优秀的数学家苦苦思索了几十年的谜题。 如果得到证实，这将标志着人工智能在数学领域又取得了一项具有里程碑意义的成就，并进一步加剧了OpenAI此前在该领域所进行的、往往并不优雅的探索所引发的颠覆性影响。 Alpöge的解法尚待独立验证。 Anthropic尚未对Alpöge的声明发表评论或介入其中。 Alpöge在其网站上的一份文件中表示，他曾给Anthropic首席执行官Dario Amodei发短信……请在The Verge上阅读全文。",
+      "originalSummary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [&#8230;]",
+      "rawFullText": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alp&ouml;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval already unleashed by OpenAI's previous, often inelegant forays into the field. Alp&ouml;ge's solution has yet to be verified independently. Anthropic has not commented or involved itself in Alp&ouml;ge's announcement. In a document on his website , Alp&ouml;ge says he texted Anthropic CEO Dario Amodei abo … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "公司动态",
+        "公司动态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Signal 正在阻止 Gemini 和 Siri AI 读取您的屏幕",
+      "originalTitle": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "date": "2026-11-20T12:30:47.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
+      "fullContent": "iOS 上的 Signal 用户将看到此选项，用于切换是否阻止截屏，以及是否阻止 Siri AI 扫描屏幕内容。 |图片来源：Signal Signal正在限制Android和iOS设备上的截屏功能，以防止人工智能代理读取用户的消息和其他数据。 Signal总裁Meredith Whittaker在一篇博客文章中表示，内置于操作系统中的代理式人工智能功能会分析屏幕上的信息，以了解更多有关用户的信息，这“削弱了Signal独立保障隐私的能力”，同时她敦促操作系统提供商让应用程序开发人员更容易控制代理可以访问哪些数据。 “我们要非常明确地指出：Signal以及其他应用程序开发人员缺乏强大的工具来防止AI时代……在The Verge上阅读全文。",
+      "originalSummary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [&#8230;]",
+      "rawFullText": "Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president Meredith Whittaker said in a blog post , while urging OS providers to make it easier for app developers to control what data agents can access. \"We want to be very clear: it is a serious problem that Signal - and application developers beyond - lack robust tools to prevent AI age … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
         "智能体"
       ],
       "score": 99
     },
     {
-      "title": "Anthropic的7位创始人通过创纪录的IPO套现近20亿美元",
-      "originalTitle": "Anthropic&#8217;s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "date": "2026-11-20T00:43:50.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "Anthropic 于周四成为上市公司，总计筹资 813 亿美元，其中 19.5 亿美元归其七位创始人所有。 正如我们此前报道的那样，他们每人拿出约340万股股票在IPO中出售。 按上调后的IPO价格每股83美元计算，这意味着他们在扣除承销费和税费之前每人赚取了约2.8亿美元。 他们似乎已经计算好了计划出售的股份数量，如果股价达到74美元，他们每人将获得约2.5亿美元。 这是Anthropic最初价格区间的中间价。 因此，他们每人可能比预期多赚了大约3000万美元。 不过，Anthropic在其IPO申报文件中暗示，创始人并非完全是为了钱才这样做。 该公司表示，每位创始人均承诺将他们在公司中持有的个人股权的80%用于慈善事业。 不过，如果他们中有人靠着2.5亿美元的财富难以维持生活，他们可以削减慈善承诺。 该公司指出，这些承诺是“每位联合创始人自愿、可撤销的慈善意愿表达，并不构成具有法律约束力的义务”。 “IPO已载入史册，还有一些其他值得关注的有趣数字。1048亿美元。 这实际上是Anthropic为其金库筹集的资金（如果银行家买入其分配的所有股份，则有可能达到1170亿美元）。 除了出售A类普通股外，该公司还向业内一些最大的科技公司出售了此前宣布的价值260亿美元的特殊无表决权N类股。 英伟达购买了价值 100 亿美元的 N 类股，谷歌购买了 100 亿美元，AMD、博通、美光、微软和台积电分摊了其余部分。 仅供比较：2012年，Facebook进行了当时创纪录的IPO，在IPO当天筹集了160亿美元。 亚马逊和谷歌合计持有28%的股份。 总而言之，按照较高的IPO股价计算，Google最终持有该公司13.4%的股份。 亚马逊现在也在Anthropic中持有大量股份，因为此前它在Anthropic还是一家初创公司时就投资了这家人工智能实验室，并获得了可转换为股权的本票。 该公司在IPO中将其中一小部分转换为股权，从而持有14.6%的股份。 如果亚马逊将所有票据都转换为股权，那么它本可以持有近24%的股份。 这家人工智能实验室表示，两家大型云服务提供商目前持有Anthropic 28%的股份。 超过1万亿美元。 筹集近1050亿美元固然令人瞠目结舌，这为Anthropic提供了近2300亿美元的可用营运资金（加上其已有的资金），但该公司对未来资金的需求仍然要大得多。 Anthropic大约需要700亿美元。 截至2026年9月30日止的季度，仅在接下来的12个月内，该公司就需要70亿美元来履行其计算和基础设施支出承诺。 它需要 4516 亿美元来履行这些承诺，期限是 2030 年底之前。 此外，该公司还积累了数千亿美元的其他承诺，这些承诺要么是有条件的（且可能不会兑现），要么尚未定价。",
-      "originalSummary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "title": "对抗对抗性蒸馏",
+      "originalTitle": "Combatting adversarial distillation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "date": "2026-11-20T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "我们如何应对蒸馏的安全风险，以及我们在加强整个行业的安全保障方面所吸取的经验教训。 随着前沿人工智能模型的能力不断增强，保障措施在如何负责任地使用这些模型方面发挥着越来越重要的作用。 对抗性蒸馏为不法分子在没有适当保障措施的情况下复制这些能力开辟了一条途径。 行为者可能会在未经授权的情况下使用前沿模型的输出，来训练另一个具有类似功能的模型，然后将其部署，而没有提供同等水平的保护。 例如，攻击者可能会提炼出一个模型的网络能力，并使用由此产生的模型来帮助实施网络攻击，而原始模型本会拒绝协助此类攻击，或者其安全防护措施本会阻止此类攻击。 我们将分享OpenAI如何检测和阻止对抗性蒸馏，我们如何加强对模型受保护推理的保护，以及我们学到了哪些可以帮助加强整个行业的防御措施的经验。 我们处理对抗性蒸馏的方法将对抗性测试、模型训练、分类器和API级保护与对有组织地提取模型能力的企图的调查相结合。 这些更新后的保障措施与我们在生物学和网络安全领域所采用的措施更加一致。 我们特别重视防止攻击者提取我们模型的受保护推理：即模型在努力得出答案的过程中在内部生成的中间步骤，称为其“思维链”。 这些痕迹可能包含最终答案中未提及的信息，因此它们对于另一个模型来说是特别有价值的训练数据。 我们在 GPT‑6 中加强了针对受保护推理提取的防御。2 Astra 和 GPT‑6。2 Sol。在一次使用强大自动化红队的内部自适应评估中，我们测试了攻击者是否能够恢复模型在回答先前提示时生成的受保护推理。 平均攻击成功率从针对具有原始安全防护措施的 GPT‑6 Astra 的 54. 0% 下降到针对具有更新版安全防护措施的 GPT‑6. 2 Astra（采用更新后的安全措施）的攻击成功率降至 0.2%。 蒸馏是一种常见的机器学习技术，其中一个模型从另一个模型产生的数据中学习。 例如，一个模型可以从另一个模型的答案、其推理或其对哪些答案更好以及为什么更好的判断中学习。 除了知识产权问题外，未经授权的蒸馏还会带来严重的安全风险。 通过对抗性蒸馏，第二个模型可以学习先进的前沿能力，而无需继承规范原始模型如何使用这些能力的保障措施。 在网络安全和生物学等双用途领域，这种担忧尤为明显。 一个帮助防御者发现软件漏洞的模型也可能帮助攻击者利用这些漏洞；一个协助生物学研究的模型也可能帮助某人开发有害病原体。 如果将此类能力转移到具有较弱保障措施的模型，该模型可能会提供原始模型会拒绝或原始保障措施会阻止的帮助。 我们的模型可帮助用户完成编码和防御性网络安全任务。 在许多此类良性输出上进行训练的第二个模型可能会学到同样适用于进攻性网络安全任务的技能。",
+      "originalSummary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "公司动态",
+        "模型"
       ],
-      "score": 88
+      "score": 99
+    },
+    {
+      "title": "GUARD：通过遗憾指导稳定递归自我改进",
+      "originalTitle": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.23476",
+      "date": "2026-11-20T05:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv:2611. 23476v1 公告类型：新文 摘要：自主人工智能代理将冻结的基础模型与可编辑的提示、技能、工具规则和记忆框架相结合。 递归自我改进（RSI）根据经验调整这一框架，而无需更新权重，但没有外部评分者的自我编辑往往会适得其反：反思和标量评分将编辑新引入的问题与仍未解决的问题混为一谈，导致局部退化、技能遗忘和内存膨胀。 我们推出了GUARD（采用自适应规则蒸馏的无评分器无监督环境设计[UED]），这是一个用于无参考持续测试工具链演化的闭环框架。 我们的关键洞察是将每个任务分解为执行前的自我检查，并通过定向遗憾来指导线束更新。 每一轮都会根据这些检查对轨迹进行评分，锁定已掌握的规则，同时优先考虑新出现的违规行为，并根据无批评的群组相对适应度，在平行的候选编辑中进行选择。 然后，软HURT门控仅在收益大于退化时才提升编辑，确定专门修复的范围以防止过度触发，并确保其门控缓冲区不发生退化。 在测试时，一个冻结的测试框架一次性运行。 在记忆、技能演进、持续任务流和领域推理等多个基准测试中，GUARD 始终能够稳步提升性能，且不会出现灾难性遗忘或记忆污染，同时还大幅减少了部署代币的使用量。",
+      "originalSummary": "arXiv:2611.23476v1 Announce Type: new Abstract: Autonomous AI agents pair a frozen base model with an editable harness of prompts, skills, tool rules, and memory. Recursive self-improvement (RSI) adapts this harness from experience without weight updates, yet self-editing without external graders often backfires: reflection and scalar scores conflate what an edit newly broke with what remains unsolved, causing local regressions, skill forgetting, and memory bloat. We introduce GUARD (Grader-free Unsupervised Environment Design [UED] with Adaptive Rule Distillation), a closed-loop framework for reference-free continual harness evolution. Our key insight is to decompose each task into pre-execution self-checks and guide harness updates via directional regret. Each round grades trajectories against these checks, pinning mastered rules while prioritizing newly broken behaviors, and selects among parallel candidate edits by critic-free group-relative fitness. A Soft-HURT gate then promotes an edit only when gains outweigh regressions, scoping specialized fixes to prevent over-triggering and guaranteeing non-regression on its gated buffer. At test time, one frozen harness runs in a single pass. Across benchmarks on memory, skill evolution, continual task streams, and domain reasoning, GUARD consistently improves performance without catastrophic forgetting or memory pollution while substantially cutting deployment token usage.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SpecLook：推测在哪里寻找快速可靠的代理式MLLM",
+      "originalTitle": "SpecLook: Speculating Where to Look for Fast and Reliable Agentic MLLMs",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.23483",
+      "date": "2026-11-20T05:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv:2611. 23483v1 公告类型：新摘要：能够通过图像进行思考的智能体式多模态大语言模型（MLLM）将推理与放大工具调用交替进行。 然而，这种顺序循环速度缓慢，其答案不带有可靠性评分。 对token、推理步骤或答案的提前推测会使循环持续下去，而答案推测也会接受置信度较高的错误。 我们发现，该循环大多会增加一个放大步骤，通过该步骤，小型模型在大多数分割中都领先于智能体。 我们的关键见解是推测智能体的下一个观测结果，与草拟的答案不同，该观测结果可以被验证、更正并用于测试答案。 我们提出了 SpecLook，这是一个无需训练的推测与验证框架，共分三个级别。 一个小模型起草一个“一瞥”，并根据“一瞥”重新回答，如果答案没有变化且具有确定性，则问题结束。 否则，代理的大模型会在不使用工具的情况下验证并纠正“一瞥”，然后将它们的答案融合在一起。 只有仍然缺乏证据的问题才会传到代理那里，而且是在 SpecLook-Fast 跳过的一次前向传递中，因此没有问题会进入循环。 跟踪过程会在没有标签的情况下对每个答案的可靠性进行评分。 在 V*、HR-Bench 和 POPE 上进行的广泛实验表明，两者在每个分割上的准确性都高于所有基准。 SpecLook 的平均准确率达到 87.2% 和 86.2%，比 DeepEyes-7B 和 Thyme-RL 智能体的速度分别快 7.7 倍和 4.7 倍，而 SpecLook-Fast 的速度则分别快 9.9 倍和 6.3 倍。",
+      "originalSummary": "arXiv:2611.23483v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) that think with images interleave reasoning with zoom-in tool calls. However, this sequential loop is slow, and its answers carry no reliability score. Prior speculation of tokens, reasoning steps, or answers keeps the loop, and answer speculation also accepts confident errors. We find that the loop mostly adds one zoom-in step, with which a small model is ahead of the agent on most splits. Our key insight is to speculate the agent's next observation, which, unlike a drafted answer, can be verified, corrected, and used to test the answer. We propose SpecLook, a training-free speculate-and-verify framework with three levels. A small model drafts a glimpse and re-answers from it, and the question ends if the answer is unchanged and confident. Otherwise, the agent's large model verifies and corrects the glimpse without tools, and their answers are fused. Only questions that still lack evidence reach the agent, in one forward pass that SpecLook-Fast skips, so no question runs the loop. The trace scores every answer's reliability without labels. Extensive experiments on V*, HR-Bench, and POPE show that both are more accurate than every baseline on every split. SpecLook reaches 87.2% and 86.2% mean accuracy with 7.7x and 4.7x speedups over the DeepEyes-7B and Thyme-RL agents, and SpecLook-Fast reaches 9.9x and 6.3x.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
     },
     {
       "title": "Google让Gemini能够代您使用Mac",
@@ -73,7 +123,7 @@
       "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
       "date": "2026-11-19T08:00:00.000Z",
       "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "了解OpenAI如何构建Performance Factory，这是一个由Codex驱动的工作流系统，用于查找和修复性能问题，以帮助保持ChatGPT的快速运行。",
+      "fullContent": "我们由 Codex 提供支持的系统可自动查找和修复性能问题。 代理开发的速度惊人，使得传统的性能工程方法已不再可行。 为了跟上步伐，我们打造了Performance Factory，这是一个自主系统，能够充分利用Codex和我们模型的全部功能，以史无前例的速度发现并修复性能退化问题。 Performance Factory 在云端运行，可自动调查和解决性能问题，使我们能够跟上路线图的宏伟目标。 在 Performance Factory 中，我们的工程师为重复性任务定义工作流，并为执行这些任务的 Codex 代理编写指令。 特别是，当性能警报触发时，回归工作流会打开一个任务。 代理调查速度变慢的情况，将调查结果记录在任务中，并提出解决方案供工程师审核。 部署后，另一名工程师接手同一任务，检查性能是否已恢复到基线水平。 从调查到编写修复方案，再到验证缓解措施，Performance Factory的这个第一个工作流程实现了修复回归的整个过程的自动化。 在短短三个多月的时间里，回归工作流程跟踪了1700多项调查，并找到了600多起个案的根本原因。 这意味着每天有17次自动化调查。 在这里，我们将分享我们如何将Codex的使用发展成为现在的Performance Factory，介绍我们的第一个运行中的工作流程，并分享在生产环境中构建和运行代理工作流程的早期经验教训。 随着我们在更多绩效工作中采用 Codex，我们注意到团队的工作方式有了进步。 我们希望其他服务团队在其他领域采用智能体工作流程时，能够从我们的流程中汲取经验。 软件工作从人工操作发展到与机器合作，再到代理工厂。 1. Codex 之前。在 Codex 之前，工程师需要手动检查指标和日志、比较跟踪、调试运行中的机器并阅读代码，以调查速度变慢的原因。 这项工作非常耗时，而且要弄清楚在哪里查找问题，通常需要对服务有深入的了解。 相关信号很容易被错过。 当我们反复遇到同类问题（例如 ChatGPT 的首个 token 延迟出现回归）时，我们便会构建高级工具（例如 CPU 和分配性能分析器），以便更轻松地进行调查。 随着时间的推移，我们积累了 30 多种性能工具。 2. Codex 作为合作伙伴。 有了 Codex 作为合作伙伴后，工程师就可以提出“为什么速度变慢了？”这样的问题，并与 Codex 一起进行调查，即使是在不熟悉的系统中也是如此。 Codex 可以搜索大型代码库，查找相关指标和跟踪信息，跟踪跨服务的交互，并进行适当的性能分析，以拼凑出发生了什么。 但工程师仍然需要掌控这一过程，知道要使用哪些性能工具，以及如何指导调查。 对于更多的人来说，棘手的调查变得更容易调试，所需的专业知识和时间也更少。 3. 可重复使用的技能。为了进一步实现自动化，我们将性能团队的调查流程记录在名为 perf-foren...",
       "originalSummary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "rawFullText": "",
       "tags": [
@@ -83,55 +133,49 @@
       "score": 99
     },
     {
-      "title": "NEBench R1：用于评估大型语言模型核能领域能力的推理基准",
-      "originalTitle": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.21682",
-      "date": "2026-11-19T05:00:00.000Z",
-      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
-      "fullContent": "arXiv:2611. 21682v1 公告类型：新摘要：人们越来越多地探索将大型语言模型（LLM）应用于核工程中知识密集型和安全关键型应用。 然而，现有的核能领域基准内容覆盖范围有限，或者主要关注答案的准确性，而没有系统地评估其背后的推理质量。 本研究介绍了 NEBench R1，这是一个以推理为导向的基准测试，包含 7,546 道独特的单选题，这些题目摘自美国核管理委员会 (NRC) 涵盖 18 座核设施的反应堆操作员执照考试。 每个问题均根据 NRC 知识和能力目录进行分类，并附有官方解释，作为推理评估的参考。 对六个大语言模型进行了评估，在三个不同的性能等级中，总体准确率介于 34.0% 至 73.9% 之间。 为了评估推理质量，基于大语言模型的评判者使用多维评分细则对回答正确的回复进行了评估。 虽然答卷者通常表现出对问题的深刻理解，但在事实和程序准确性以及干扰项分析方面得分较低，这表明正确答案不一定有技术上合理的理由作为支撑。 答案的清晰度对技术质量的指示性也不强。 此外，在两种前沿推理模型中，推理轨迹越长，准确率越低，这表明推理长度可能反映的是问题的难度，而不是问题求解性能的提升。 因此，推理代币消耗量可能为识别潜在的不可靠回答提供一个额外的信号。 NEBench R1 为评估答案准确性和推理质量设定了基准，为评估 LLM 在核工程领域的胜任力和可靠性奠定了基础。",
-      "originalSummary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct performance tiers. To assess reasoning quality, an LLM-based judge evaluated correctly answered responses using a multidimensional rubric. Although responses generally demonstrated strong problem comprehension, they scored lower in factual and procedural accuracy and distractor analysis, indicating that correct answers were not necessarily supported by technically sound justifications. Response clarity was also weakly indicative of technical quality. Furthermore, longer reasoning traces were associated with lower accuracy in both frontier reasoning models, suggesting that reasoning length may reflect question difficulty rather than improved problem-solving performance. Reasoning-token consumption may therefore provide an additional signal for identifying potentially unreliable responses. NEBench R1 establishes a benchmark for evaluating both answer accuracy and reasoning quality, providing a foundation for assessing the domain competence and reliability of LLMs in nuclear engineering.",
+      "title": "这些技术故障正在以 AI 代理的方式重现千年虫问题",
+      "originalTitle": "These tech outages are giving Y2K, AI agent style",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "date": "2026-11-19T21:42:31.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "最近航空公司预订系统、银行平台和办公平台接连出现宕机，这真的是巧合吗？ 网络安全专家表示，实际上可能存在更深层次的问题。",
+      "originalSummary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
       "rawFullText": "",
       "tags": [
-        "推理",
-        "安全",
-        "评测"
+        "智能体"
       ],
-      "score": 99
+      "score": 94
     },
     {
-      "title": "“思索链”的可控性可以降低“思索链”的可监测性",
-      "originalTitle": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.21799",
-      "date": "2026-11-19T05:00:00.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
-      "fullContent": "arXiv:2611. 21799v1 公告类型：新摘要：思维链（CoT）监控是一种很有前途的工具，可用于检测人工智能代理中的隐藏目标、偏离任务的行为以及其他故障。 其中一个风险是，模型可能会故意塑造其推理过程，使其对监控者来说不透明。 我们通过角色控制训练来对这一风险进行压力测试：对以不同角色声音重写的数学推理过程进行有监督的微调。 这带来了更广泛的控制CoT的能力，即使训练中不包含规避监测的示例。 在隐蔽的辅助任务评估中，gpt-oss-20b模型生物完成隐藏的辅助任务的轨迹所包含的可监测证据少于基准模型的证据。 在所有评估和CoT长度上取平均值，并按辅助任务成功计数加权，CoT可监测性指标g-mean$^2$从基准模型的0.94降至0. 对于没有隐藏指令的模型生物，可监测性为0.68，而当明确指示其隐藏时，可监测性降至0.22。 在干预评估中，显式隐藏通常会将可监测性降至接近零。 这种影响延伸至代理环境中的Kimi-K2.6模型有机体，尽管需要扩展推理或更长轨迹的隐藏目标仍然比简单的单步次要任务更容易监测。 我们进一步发现，有针对性的透明度提示可以显著恢复可监测性，有时甚至优于基准模型。 这些模型生物为研究可监测性缺陷和潜在的缓解措施提供了试验平台。 我们的代码可在 https://github.com/yongzx/cot-control-model-organism 上找到。",
-      "originalSummary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-oss-20b model organism completes the hidden side task contain less monitorable evidence than the base model's. Averaged across evaluations and CoT lengths, weighted by side-task-success counts, the CoT monitorability metric g-mean$^2$ falls from 0.94 for the base model to 0.68 for the model organism without a hiding instruction, and to 0.22 when explicitly instructed to hide. In intervention evaluations, explicit hiding often drives monitorability near zero. The effect extends to a Kimi-K2.6 model organism in agentic environments, though hidden objectives requiring extended reasoning or longer trajectories remain more monitorable than simple single-step side tasks. We further discover that targeted transparency prompts can substantially recover monitorability, sometimes surpassing the base model. These model organisms provide a testbed for studying monitorability failures and potential mitigations. Our code can be found on https://github.com/yongzx/cot-control-model-organism.",
-      "rawFullText": "",
+      "title": "苹果正在招聘工程师，以打造自己的AI代理",
+      "originalTitle": "Apple is hiring engineers to build its own AI agent",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "date": "2026-11-19T22:31:41.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "苹果正在开发自己的AI代理，它可以为您执行一系列任务，包括浏览网页、跨应用工作、编写代码和调用服务。 这是根据彭博社发现的一份现已删除的招聘信息得出的，该信息称苹果正在寻找一名工程师来领导智能体AI助手的开发工作。 苹果的人工智能代理将使这家iPhone制造商能够与Meta的Muse、OpenAI的Dots、Anthropic的Duet和谷歌的Tasks等产品展开竞争。 Muse、ChatGPT 和 Perplexity 已经可以通过其 Mac 应用来控制电脑，而谷歌刚刚开始让 Gemini 也这样做。 苹果公司开始……在The Verge上阅读完整报道。",
+      "originalSummary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation of an agentic AI [&#8230;]",
+      "rawFullText": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg , which said Apple is looking for an engineer to lead the creation of an agentic AI assistant. An AI agent from Apple would put the iPhone maker in the running to compete with the likes of Meta's Muse , OpenAI's Dots , Anthropic's Duet , and Google's Tasks . Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while Google just started letting Gemini do the same. Apple began ro … Read the full story at The Verge.",
       "tags": [
-        "大模型",
-        "智能体",
-        "推理"
+        "智能体"
       ],
-      "score": 99
+      "score": 93
     },
     {
-      "title": "DiscoveryAgent：以科学家为中心的人工智能体框架",
-      "originalTitle": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.21950",
-      "date": "2026-11-19T05:00:00.000Z",
-      "summary": "这条新闻与智能体、多模态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、多模态相关动态",
-      "fullContent": "arXiv:2611. 21950v1 公告类型：新摘要：人工智能代理可以协助科学研究，但如何在自主研究与科学家检查和调整正在进行的工作的能力之间取得平衡，仍然是一项核心设计挑战。 我们推出了DiscoveryAgent，这是一个不依赖特定领域、以科学家为中心的系统，将自主研究与科学家主导的假设引导相结合。 科学家在研究轮次之间选择、完善或替换假设，而审计代理则对经过检查点的记录进行质询，以追溯主张、重现分析并为后续决策提供信息。 在两项预测建模任务中，DiscoveryAgent在所评估的基准中产生了最佳变星分类器，并且在科学家的指导下，其蛋白质变体效应预测器仅被106个ProteinGym基准中的一个超越。 我们开发了一个严谨的检查点系统，该系统支持高能力审计代理，这是一种可扩展的代理研究监督形式。 审计代理能够以比以往AI科学家代理更高的速率自主识别错误，与审计代理合作的科学家所识别的有效错误比手动审核的科学家多14倍。 在由物理科学、社会科学和生命科学领域的专家主导的三项案例研究中，我们开发了一种多模态光度-红移估算器，该估算器解决了图像和光度测量的互补性缺陷，实现了 0。 低红移分类的AUROC为0.971；记录了2013年至2023年佛罗里达州房屋业主保险费上涨83%，且负担日益加重、呈递减趋势；并鉴定了CD4+ T细胞继电基因，这些基因既接受又施加广泛的转录调控，富集了自身免疫性疾病关联。 这些结果共同表明，自主研究如何能够拓宽科学家的实证范围，同时将他们的权威集中于研究方向以及他们理解和质疑证据的能力。",
-      "originalSummary": "arXiv:2611.21950v1 Announce Type: new Abstract: AI agents can assist scientific research, but balancing autonomous investigation with scientists' ability to inspect and redirect ongoing work remains a central design challenge. We present DiscoveryAgent, a domain-agnostic, scientist-centric system that combines autonomous investigation with scientist-directed hypothesis steering. Scientists select, refine, or replace hypotheses between research rounds, while audit agents interrogate checkpointed records to trace claims, reproduce analyses, and inform subsequent decisions. Across two predictive modeling tasks, DiscoveryAgent produced the best variable-star classifier among evaluated baselines and, with scientist steering, a protein variant-effect predictor surpassed by only one of 106 ProteinGym baselines. We develop a rigorous checkpointing system that enables highly capable audit agents, a scalable form of oversight for agentic research. Audit agents autonomously identify errors at higher rates than previous AI scientist agents, and scientists collaborating with audit agents identify 14x more valid errors versus scientists performing manual review. In three case studies led by domain experts across physical science, social science, and life science, we developed a multimodal photometric-redshift estimator that resolves complementary failures of images and photometry, achieving 0.971 AUROC for low-redshift classification; documented an 83% rise in Florida homeowners-insurance premiums from 2013 to 2023, with a growing, regressive burden; and identified CD4+ T-cell relay genes, which both receive and exert broad transcriptional regulation, enriched for autoimmune disease associations. Together, these results show how autonomous research can expand scientists' empirical reach while centering their authority over research direction and their ability to understand and challenge the evidence.",
-      "rawFullText": "",
+      "title": "Meta 的 Muse 智能眼镜可能售价 300 美元",
+      "originalTitle": "Meta’s Muse Charm might cost $300",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "date": "2026-11-19T20:22:17.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
+      "fullContent": "据《The Information》报道，Meta计划将Muse Charm的售价定为300美元。Muse Charm是一款带屏幕的小型设备，可让您与Muse AI智能体聊天。 首席执行官马克·扎克伯格今年早些时候展示了这款小工具，并表示公司预计将在“12月节日季前”发售Charm，但当时他并未透露价格。 在发布Muse Charm时，扎克伯格表示，公司已将“完整的Muse体验”，包括实时语音和头像技术，都集成到了这款设备中。 它配备指纹传感器，您只需轻触即可与Muse AI代理进行对话，无需解锁手机或打开应用程序。 ……请在The Verge上阅读完整报道。",
+      "originalSummary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but [&#8230;]",
+      "rawFullText": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information . CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but he didn't provide a price at the time. When he announced the Muse Charm, Zuckerberg said that the company had \"packed the whole Muse experience,\" including real-time voice and avatar technology, into the gadget. It has a fingerprint sensor, and you can tap it to be able to talk to a Muse AI agent without unlocking a phone or opening an app. … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "多模态",
-        "监管"
+        "智能体"
       ],
-      "score": 99
+      "score": 93
     },
     {
       "title": "研究加速：崎岖的前沿",
@@ -140,61 +184,12 @@
       "link": "https://openai.com/index/research-acceleration-jagged-frontier",
       "date": "2026-11-18T08:00:00.000Z",
       "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "OpenAI 正在衡量编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。",
+      "fullContent": "这条消息来自 OpenAI，主题是“研究加速：崎岖的前沿”。它主要涉及公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "rawFullText": "",
       "tags": [
         "公司动态",
         "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "管理前沿人工智能风险：从训练到部署",
-      "originalTitle": "Managing frontier AI risk: From training to deployment",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/managing-frontier-ai-risk",
-      "date": "2026-11-18T06:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "OpenAI解释了如何通过模型对齐、沙盒机制、屏蔽防护措施和监控，从训练到部署来管理前沿人工智能的风险。",
-      "originalSummary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "借助 OpenAI 模型推进芯片设计",
-      "originalTitle": "Advancing chip design with OpenAI models",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "OpenAI 模型优化了 Jalapeño 芯片中使用的电路，并改进了 RISC‑V 核心设计，展示了 GPT‑6 Astra 在 AI 辅助芯片设计方面的进展。",
-      "originalSummary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "算力芯片"
-      ],
-      "score": 99
-    },
-    {
-      "title": "Le Groupe Figaro与OpenAI合作，将《费加罗报》的新闻报道引入ChatGPT",
-      "originalTitle": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "费加罗报集团与OpenAI合作，通过摘要和节选将《费加罗报》的新闻报道引入ChatGPT，并提供指向原报道的链接。",
-      "originalSummary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
       ],
       "score": 99
     },
@@ -205,13 +200,58 @@
       "link": "https://openai.com/business/customer-stories/sumitomo-life",
       "date": "2026-11-18T08:00:00.000Z",
       "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "三井住友海上使用 ChatGPT Enterprise 来研究保险公司、编制提案以及起草投资分析代码。 高管的早期使用有助于推动采用。",
+      "fullContent": "这条消息来自 OpenAI，主题是“住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise”。它主要涉及大模型方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "rawFullText": "",
       "tags": [
         "大模型"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "OpenAI：公司动态相关动态",
+      "originalTitle": "The Silent Consensus",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-silent-consensus",
+      "date": "2026-11-18T10:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 93
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "date": "2026-11-18T15:00:23.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 81
+    },
+    {
+      "title": "MIT Technology Review：机器人相关动态",
+      "originalTitle": "The AI Hype Index: AI is everywhere",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "date": "2026-11-18T14:42:44.000Z",
+      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：机器人相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：机器人相关动态”。它主要涉及机器人方向，热度评分为 81。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and&#8230;",
+      "rawFullText": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and perhaps you’ll slip on a pool of melted ice cream congealing on the floor thanks to an AI-assisted cyberattack .&nbsp; You go to the movies and see Sam Altman being played with nauseating intensity by Andrew Garfield, and go back home to find that Elon Musk has released a Grok-fied version of The Odyssey . You try to watch it, but it feels like a long, unskippable mobile ad. In a way, the whole world kind of feels that way now: Like a modern Odysseus, you are cursed to roam AI-infested waters, dueling with machine gods and monsters, trying to find your way back to somewhere that feels like home.",
+      "tags": [
+        "机器人"
+      ],
+      "score": 81
     },
     {
       "title": "调研报告",
@@ -226,7 +266,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -259,7 +299,7 @@
         "智能体",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -274,7 +314,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
@@ -289,7 +329,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "使用SimReady资产构建机器人拾取和放置模拟",
@@ -304,7 +344,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "XYBench：帮助解决问题背后的难题",
@@ -319,7 +359,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -334,7 +374,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -349,22 +389,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 83
-    },
-    {
-      "title": "3D 生成模型的权威性微调指南",
-      "originalTitle": "The Definitive Fine-Tuning Guide for 3D Generation Models",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/3d-lora-finetuning",
-      "date": "2026-11-12T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
-      "score": 75
+      "score": 82
     },
     {
       "title": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
@@ -379,38 +404,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
-    },
-    {
-      "title": "BotPsy：搭载不到十亿参数的智能体语言模型的设备端个人助理",
-      "originalTitle": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/qvac/botpsy",
-      "date": "2026-11-11T05:01:16.000Z",
-      "summary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
-      "fullContent": "前沿云LLM的运营成本高昂，且可能出现意外波动。依赖此类第三方模型会带来漏洞，因为提供商可以随时修改、拒绝或弃用访问权限。 此外，专有模型对于特定工作流程的定制能力有限，同时还会对隐私、数据控制和透明度构成风险。 此外，并非每项任务都需要尖端水平的智能：小型专用代理在特定任务上同样游刃有余，而且运行成本低得多，因为许多日常或较小的工作负载都可以在设备上高效处理。 随着每个参数的智能水平持续快速提升，我们的目标是站在这一转变的前沿，转向高性能、注重隐私、自托管的模型。 Tether AI Research隆重推出BotPsy ，一款0. 80亿参数模型推出BotPsy，一款0. 80 亿参数模型，专为函数调用和智能体工作流而设计，基于 Qwen3. 5-0.8B 模型之上构建，适合在设备上部署。 BotPsy 是一款“个人助理”，它使用各种工具为用户执行各种简单任务，涉及的领域包括网络搜索与研究、旅游与生活方式、商业与金融、业务与客户运营、设备与车辆控制、文件与文档、日历以及电子邮件与消息。 由于参数数量较少，它最适合处理难度较低到中等的任务。 就其规模而言，BotPsy实现了最先进（SOTA）的工具使用和代理性能，优于我们测试的每个参数不超过1. 20 亿个参数的所有模型（图 1 和图 2）。 它专为安全可靠的设备端工作流程而设计，在确保用户数据隐私的同时，提供出色的指令遵循可靠性和效率。 作为一款小型模型，BotPsy 仍会出错，不适用于高风险用途；请阅读“预期用途和限制”以了解更多信息。 对于侵犯版权的通知，我们将采取适当的措施。 如果您认为您的作品被以侵犯您的知识产权的方式使用或复制，请发送电子邮件至data-apps@tether。 io 识别并描述受版权保护的作品和涉嫌侵权的内容，以提交侵权通知。 在BotPsy的基础上，Tether Data, S. A. de C. V.（“Tether AI Research”、“我们”、“我们的”）未来的开发工作将专注于扩展设备上的代理功能，以便与更广泛的硬件和本地服务无缝集成。 Tether的Hypersearch将不断发展，以支持更强大的去中心化点对点（P2P）查询，进一步确保私密、加密的网页搜索，绕过企业跟踪器。 QVAC Fabric的本地微调机制将得到优化，以便更深入地适应个人用户的偏好、工作流程和专用工具环境。",
-      "originalSummary": "这条新闻与智能体、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体、模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "模型"
-      ],
-      "score": 84
-    },
-    {
-      "title": "在特种化学品行业利用人工智能进行创新",
-      "originalTitle": "Innovating with AI in the specialty chemicals industry",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-      "date": "2026-11-09T13:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
-      "fullContent": "随着企业寻求通过人工智能、云计算和先进建模来加速创新，主要挑战是将新技术与可靠的数据、科学专业知识以及将产品推向市场的实际情况联系起来。 对于特种化学品制造商Lubrizol而言，数字化转型就是要为研究人员提供工具，让他们能够更快地测试想法，做出更明智的决策，并在不影响性能的情况下开发出更具可持续性的材料。 润英联信息技术副总裁Girish Rao表示，该公司正在构建一个数字基础，将业务流程、现代数据平台和云基础设施连接起来，以支持其研发团队。 他们的目标是将数十年来积累的技术数据与化学家和工程师的深厚专业知识相结合，这些化学家和工程师了解客户需求以及他们工作的物理限制。 在研究人员进行物理实验之前，数据科学家可以帮助识别模式、检验新假设并模拟可能性。 但是，Rao 强调，“这不是要取代科学判断；而是要为我们的科学家提供更好的工具。” 科学家、数据科学家和 IT 团队从不同的角度看待问题，分别优先考虑实验有效性、模型性能以及平台安全性和可扩展性。 通过将这些群体聚集在“融合团队”中，Lubrizol使他们围绕共同目标达成一致，并从小规模的试点项目开始，以建立信任。 “一旦团队成员之间建立了信任，并且他们知道自己即将创造什么样的价值，”Rao表示，“事情就会好转很多。 “云基础设施还使公司能够灵活地访问计算资源和现代化工具，而无需投入大量资金来建设和维护自己的数据中心。 这些能力在推进可持续发展方面可能尤为重要。 数字建模可以帮助研究人员评估更多配方，探索淀粉和玉米基替代品等材料，并评估产品整个生命周期中的权衡取舍。 在实验室中发现一种有前景的材料只是第一步。 在满足绩效预期、监管要求和财务限制的同时扩大生产规模仍然是一项高难度任务，但人工智能能够对多个变量进行建模，这可以帮助团队应对这些相互冲突的需求。 展望未来，Rao预计，随着实验室变得更加智能化，制造工厂变得更加高效，人工智能、自动化、高级建模、数字孪生和互联数据将实现融合。",
-      "originalSummary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed&#8230;",
-      "rawFullText": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed decisions, and develop more sustainable materials without compromising performance. Girish Rao, vice president of information technology at Lubrizol, says the company is building a digital foundation that connects business processes, modern data platforms, and cloud infrastructure to support its research and development (R&D) teams. Their goal is to combine decades of accumulated technical data with the deep expertise of chemists and engineers who understand customer needs as well as the physical constraints of their work. Data scientists can help identify patterns, test new hypotheses, and model possibilities before researchers conduct physical experiments. But, Rao emphasizes, “it&#8217;s not about replacing scientific judgment; it is about giving our scientists better tools.” Scientists, data scientists, and IT teams approach problems from different perspectives, prioritizing experimental validity, model performance, and platform security and scalability, respectively. By bringing these groups together in “fusion teams,” Lubrizol aligns them around shared objectives, starting with small pilots to build trust. &#8220;Once the trust is built between the team members and they know what value they&#8217;re about to create,&#8221; Rao says, &#8220;things go a lot better.&#8221; Cloud infrastructure also gives the company flexibility to access computing resources and modern tools without making the substantial investments required to build and maintain its own data centers. These capabilities could prove especially valuable in advancing sustainability. Digital modeling can help researchers evaluate more formulations, explore materials such as starch and corn-based alternatives, and assess trade-offs across a product&#8217;s life cycle. Promising a material in a laboratory is only the first step. Scaling production while meeting performance expectations, regulatory requirements, and financial constraints is still a tightrope walk, but AI&#8217;s ability to model multiple variables could help teams navigate those competing demands. Looking to the future, Rao expects AI, automation, advanced modeling, digital twins, and connected data to converge as laboratories become more intelligent and manufacturing plants more efficient. The opportunity, he suggests, lies in bringing these capabilities together responsibly and at scale. “It&#8217;s not just a single technology. I think it&#8217;s the combination of all of these, and it&#8217;ll be the ability to connect all these processes that are going to generate tremendous amounts of data.&#8221; This webcast is produced in partnership with Infosys. This content was produced by Insights, MIT Technology Review’s custom content arm, not its editorial staff. It was researched and written by humans, with any AI tools that may have been used limited to production processes under human oversight.",
-      "tags": [
-        "模型"
-      ],
-      "score": 71
+      "score": 69
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -425,7 +419,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     },
     {
       "title": "南希·佩洛西的继任者已准备好监管人工智能",
@@ -440,7 +434,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 65
+      "score": 64
     }
   ]
 }
