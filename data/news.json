@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T02:55:41.368Z",
+  "updatedAt": "2026-11-23T03:36:58.628Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,96 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "Notable Capital、GIC和Baillie Gifford如何在Anthropic上市前对其进行大手笔投资",
+      "originalTitle": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "date": "2026-11-23T01:25:53.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "当Notable Capital将其超过10亿美元的基金中约10%的美国份额投入Anthropic的E轮融资时，许多有限合伙人都对这笔巨额押注感到困惑。 Claude 的开发商仍落后于其最大竞争对手 OpenAI，而 DeepSeek 仅在几周前发布了其 R1 模型，有超越闭源竞争对手的势头。此外，以 61 美元的价格， 50亿美元，Anthropic的估值是这家主要投资早期阶段的风险投资公司在其25年历史中迄今为止最高的投资估值。 但在Notable（2024年与中国业务分拆前名为GGV资本）的投资者对Anthropic的未来充满信心。 由管理合伙人Hans Tung和Glenn Solomon以及负责人Dan Cahana组成的团队对数据进行了分析，发现开发者越来越倾向于使用Claude而非ChatGPT，Claude的使用率达到了70%，与前一年相比发生了逆转。 该公司的联合创始人Tung在接受TechCrunch采访时表示：“我们只是知道，对于人工智能来说，开发者是核心，因为他们是早期采用者。” 在应对美国复杂的 -中国关系的亲身经历，Notable还深信，“任务关键型”工作始终需要基于美国的闭源模型，Tung表示。 不到两年后，Notable的有限合伙人不再对这笔巨额投资提出质疑。 周三，Anthropic在有史以来规模最大的IPO中筹集了813亿美元，在其股票于次日开始交易之前，其完全摊薄估值达到约1.5万亿美元，账面回报约为15倍。 当然，Notable 并不是唯一一家从 Anthropic 获得巨额账面收益的公司。 即使是很少看到风险投资规模倍数的传统后期投资者，也注定会大获全胜。 新加坡主权财富基金GIC在2024年全年都在研究Anthropic，但直到2025年初，该基金的技术投资主管Chris Emanuel在旧金山的一家意大利餐厅Che Fico与Anthropic首席财务官Krishna Rao会面后，才进行了首次投资。 Rao向Emanuel展示了模型改进如何推动企业采用率的提升，从而激发了Emanuel对该公司的兴趣。 随后，GIC对Anthropic的F轮融资进行了首次投资，该轮融资于2025年9月宣布，估值为1830亿美元。 “当时Claude Code刚刚发布，”Emanuel告诉TechCrunch。 “当时还很早，但即使是那时，我们也能看到它在开发者中非常受欢迎的迹象。 “GIC 对这家人工智能实验室的信心之高，以至于该基金后来与 Coatue 一起领投了 Anthropic 的 G 轮融资，估值为 3800 亿美元，并在 9650 亿美元的 IPO 前融资轮中再次成为联合领投方之一。 据一位熟悉GIC财务状况的人士透露，在三轮融资中，GIC向Anthropic投资了超过45亿美元，累计持股比例相当于该公司IPO后约...",
+      "originalSummary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "OpenAI首席科学家对如何限制人工智能发展发表了看法",
+      "originalTitle": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "date": "2026-11-22T21:14:07.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
+      "fullContent": "OpenAI首席科学家雅库布·帕乔基（Jakub Pachocki）在新发布的博客文章中讨论了人工智能发展的潜在局限性，重点关注一种名为“困惑度”的衡量指标。 在一位曾就职于OpenAI和Anthropic的研究员表示这两家公司“拿我们的生命在冒险”之后，放缓人工智能发展成为一个特别热门的话题。甚至Anthropic的IPO申请文件也指出，该技术可能对社会构成“灾难性或生存性风险”。 ”随后，Anthropic首席执行官Dario Amodei发布了一项“掌控前沿”的计划，该计划似乎得到了OpenAI首席执行官Sam Altman和SpaceX首席执行官Elon Musk的支持。 除其他事项外，Amodei呼吁各公司同意“共同的安全标准，以及对不受监管的人工智能发展速度的限制”。 但是，要对人工智能的发展设定速度限制，就需要就如何衡量速度达成一致。 Pachocki的帖子——被Altman称为“OpenAI一段时间以来发布的最重要内容”——表明困惑度（perplexity，不要与同名公司混淆）可能是这种衡量标准。 在帕乔基的论述中，随着技术的进步，那些侧重于人工智能“下游能力”的基准很快就过时了。 但困惑度——“衡量模型平均预测下一个token的准确性；困惑度越低，预测越准确”——仍然“具有信息性”。Pachochki的帖子中包含一张图表，显示了自GPT-3以来OpenAI模型困惑度的下降情况。5. “GPT-4的困惑度约为0. 91，善于高效地利用“链式思维”推理，这促使我们随后有针对性地激发了这种能力，并创造了现代推理模型。”他写道。 “现在，随着我们已将损失降至0.8以下，我们在网络安全和数学等领域看到了颠覆性能力的出现。 因此，在他看来，困惑度可以为“通用智能的共同基准”提供基础，人工智能公司随后可以利用这一基准来确立“共同的限度”。如果将困惑度作为衡量人工智能进步的标准，那么各公司将承诺不越过某个阈值，“直到我们理解和监测人工智能行为的能力达到某个具体的里程碑。” ”当您通过我们文章中的链接购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 Anthony Ha是TechCrunch的周末编辑。 此前，他曾担任《Adweek》的科技记者、《VentureBeat》的高级编辑、《Hollister Free Lance》的地方政府记者，以及一家风险投资公司的内容副总裁。 他现居纽约市。 您可以通过发送电子邮件至[email protected]与Anthony联系或核实其联系信息。 一家初创公司在印度起诉苹果，原因是“轻点分享”联系人功能 Jagmeet Singh",
+      "originalSummary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 88
+    },
+    {
+      "title": "困惑度和智能",
+      "originalTitle": "Perplexity and Intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/perplexity-and-intelligence",
+      "date": "2026-11-22T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：模型相关动态",
+      "fullContent": "从远处看，现代人工智能的构建方式似乎与过去几十年中软件的构建方式相似：使用一套多样化的技术来针对特定的功能。 确实有各种各样的方法，但它们大多不是从零开始设计，而是利用来自一个更简单、更难解释的过程的智能：在一个非常庞大的数据语料库上训练一个压缩器（或等效地（在新窗口中打开） ，预测器）。 1 我认为，跟踪训练更好压缩器的进展速度是理解人工智能发展轨迹的关键。 在本文中，我主张将困惑度（或等效的交叉熵损失）确立为一种指标，用于在模型开发者之间进行比较，并为共同的安全标准提供参考。 作为第一步，我将让OpenAI的预训练进展更加透明。 我们对发布内部困惑度测量结果进行了慎重考虑；这样做会让竞争对手更清楚地了解我们的立场，但与在整个行业建立共同的（在新窗口中打开）安全措施的紧迫性相比，这种顾虑显得微不足道。 我们OpenAI希望此举能成为迈向为未来的步伐控制工作建立共同科学基础的一步。 对人工智能发展的看法，一种简单但本质上具有启发性的观点是：首先，人们构建一台大型计算机，然后使用它在一个大型非结构化数据集上对一个模型（压缩器）进行预训练，接着在不同的语境中应用各种技术——如提示、微调或强化学习——以激发该模型的潜在能力。 算法的进步可能会模糊训练阶段之间的界限，但我们仍然可以将人工智能的创造（我之前称之为“外星人的思维”）与随后有针对性的诱导区分开来，因为人工智能具有难以预测的涌现能力。 多年来，我们衡量这一关键“智能基质”进展的主要方式一直保持着显著的稳定性——我们一直在跟踪模型在留出数据集上的困惑度。 2 , 3困惑度衡量的是模型平均预测下一个token的准确性；困惑度越低，预测越准确。 本文开头展示的图表显示了从 GPT-3 开始，这一指标在我们模型中的演变情况。5. 主要通过这一指标来描述的模型能力范围令人惊叹。 GPT-2 在旧数据集上树立了新的困惑度最高水平 4 ，可以说是有史以来第一个能够持续生成连贯文本段落的模型。 下一个重大飞跃是 GPT-3，它能够在给定任务的几个示例的情况下进行上下文学习。 GPT-3.5 在我们当前的主要评估数据集上的对数困惑度约为 0.99，能够进行流利的对话，并构成了最初的 ChatGPT 的基础。GPT-4 的对数困惑度约为 0.",
+      "originalSummary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 88
+    },
+    {
+      "title": "为什么数据中心成为科技巨头遭遇强烈反弹的焦点",
+      "originalTitle": "Why data centers are at the center of the Big Tech backlash",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "date": "2026-11-22T18:08:43.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
+      "fullContent": "在新作《超大规模》（Hyperscale）中，记者巴黎·马克斯（Paris Marx）探究了数据中心和生成式人工智能的影响，带领读者走进数据中心内部，并解释了已有数十年历史的计算基础设施为何近期成为政治地雷。 这本书可谓应运而生，因为对数据中心的强烈反弹似乎是最近 中期选举中出现大规模“蓝潮”的诱因之一。 随着民主党人掌握更多的政府权力，这些争论很可能会继续下去。 在接受TechCrunch采访时，马克思将数据中心的建设描述为“从根本上不可持续”且“完全不符合宜居星球的理念”，同时还指出，在人们对科技行业普遍不满的背景下，这些设施显然成为了众矢之的。 毕竟，如果要在您的社区建造数据中心，“它非常具体，非常实在。 “无论您站在政治光谱的哪一端，都没有关系，”Marx说道。 “您将在生活质量、电费账单、用水方面，以及可能在社区周边的噪音方面（如果数据中心屋顶的空调机组发出很大的噪音）感受到这些影响。 ”他还指出，反对数据中心只是针对“科技行业的实体表现”的更广泛运动中最显眼的一部分，[……]无论是反对Flock摄像头在美国各地铺开，还是反对Meta试图让人们戴上的智能眼镜，甚至是反对Waymo正在推出的自动驾驶汽车。 ”在我们的谈话中（我为了篇幅和清晰度进行了编辑），Marx和我讨论了数据中心对环境的影响、科技公司如何应对社区的抵制，以及数据中心内部的实际情况。 我喜欢您对试图进入“超大规模”数据中心内部，然后最终参观[一个数据中心]的描述。 您能否多谈谈那次经历是什么样的？ 您是如何进入的？ 当您真正进入时，有什么让您感到惊讶？ 进入超大规模数据中心并不是世界上最容易的任务。 我与一些比我更早开始研究数据中心的研究人员进行了交谈，他们告诉我，在生成式人工智能兴起之前，以及在最近数据中心受到广泛关注之前，进入数据中心要容易得多。 我给多家公司发了电子邮件，询问是否可以进去看看，但往往没有收到回复，有时则被拒绝。 最后，在参观了弗吉尼亚州北部、爱尔兰等地的一些数据中心的外部之后，我实际上去了新西兰，进入了一个数据中心内部。 最令我印象深刻的是安全级别。 显然，您会认为这是一处真正实现安全化的基础设施，因为里面的数据需要得到妥善保护。显然，[他们]在数据中心周围设有高大的围栏和各种安防摄像头。 但要进去，我必须提前提交护照。",
+      "originalSummary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 76
+    },
+    {
+      "title": "我们还没有看到最后一次重大技术中断",
+      "originalTitle": "We haven’t seen the last of the major tech outages",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "date": "2026-11-22T22:48:02.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "在过去一周左右的时间里，我们经历了美国联邦航空管理局（FAA）的全国性停飞令、导致整家公司陷入停顿的持续多日Outlook服务中断，以及摩根大通的银行业务中断。 但人们普遍认为，今后还会有更多此类事件发生。 国家情报总监杰伊·克莱顿（Jay Clayton）对CNN表示：“美国人民应该做好准备，为升级我们的系统投入大量资金；他们应该做好准备，为网络安全投入资金；他们还应该做好准备，每当技术发生飞跃性变革，计算和应用都发生飞跃性变革时，道路上都会有颠簸。” 微软总裁布拉德·史密斯发布了一份……在The Verge上阅读全文。",
+      "originalSummary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be [&#8230;]",
+      "rawFullText": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase . But the consensus is that there are more to come . Director of National Intelligence Jay Clayton told CNN : \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road.\" Microsoft President Brad Smith issued a … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
+    {
+      "title": "《以撒的结合》开发商从《忏悔+》中删除了AI音乐",
+      "originalTitle": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "date": "2026-11-22T17:25:20.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
+      "fullContent": "在发现游戏的一个特定部分使用了AI音乐后，《以撒的结合：忏悔+》在过去几天里在Steam上遭遇了差评轰炸。 Reddit用户ShweetsStuff发现了在《侠盗猎车手》主题关卡中使用的歌曲。 他们发现了几个带有Suno元数据的音频文件，这些元数据指向Suno网站上的曲目。 创作者埃德蒙·麦克米伦（Edmund McMillen）在X上道歉，并声称他“完全不知道”游戏中的《GTA》模仿作品使用了生成式AI音乐。 更戏剧性的是，Valve要求开发商披露他们在开发过程中如何以及何时使用生成式人工智能，而Nicalis, Inc.是……在The Verge上阅读完整报道。",
+      "originalSummary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to [&#8230;]",
+      "rawFullText": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music . Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto -themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmund McMillen took to X to apologize and claimed he \"had no idea\" the in-game GTA parody used generative AI music. Adding to the drama, Valve requires developers to disclose how and when they use generative AI in the development process, and Nicalis, Inc., the studio behin … Read the full story at The Verge.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 75
+    },
     {
       "title": "Anthropic 是否有能力将安全放在首位？",
       "originalTitle": "Can Anthropic afford to put safety first?",
@@ -48,7 +138,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "两个英伟达的故事",
@@ -63,7 +153,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "联合国未能就“杀手机器人”的监管规则达成一致",
@@ -78,7 +168,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "Chess.com 的下一步棋是打造一个经典游戏的新平台，涵盖麻将到数独等各种游戏",
@@ -93,7 +183,7 @@
       "tags": [
         "产品发布"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "Signal 正在阻止 Gemini 和 Siri AI 读取您的屏幕",
@@ -107,39 +197,6 @@
       "rawFullText": "Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president Meredith Whittaker said in a blog post , while urging OS providers to make it easier for app developers to control what data agents can access. \"We want to be very clear: it is a serious problem that Signal - and application developers beyond - lack robust tools to prevent AI age … Read the full story at The Verge.",
       "tags": [
         "大模型",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "对抗对抗性蒸馏",
-      "originalTitle": "Combatting adversarial distillation",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/combatting-adversarial-distillation",
-      "date": "2026-11-20T10:00:00.000Z",
-      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
-      "fullContent": "我们如何应对蒸馏的安全风险，以及我们在加强整个行业的安全保障方面所吸取的经验教训。 随着前沿人工智能模型的能力不断增强，保障措施在如何负责任地使用这些模型方面发挥着越来越重要的作用。 对抗性蒸馏为不法分子在没有适当保障措施的情况下复制这些能力开辟了一条途径。 行为者可能会在未经授权的情况下使用前沿模型的输出，来训练另一个具有类似功能的模型，然后将其部署，而没有提供同等水平的保护。 例如，攻击者可能会提炼出一个模型的网络能力，并使用由此产生的模型来帮助实施网络攻击，而原始模型本会拒绝协助此类攻击，或者其安全防护措施本会阻止此类攻击。 我们将分享OpenAI如何检测和阻止对抗性蒸馏，我们如何加强对模型受保护推理的保护，以及我们学到了哪些可以帮助加强整个行业的防御措施的经验。 我们处理对抗性蒸馏的方法将对抗性测试、模型训练、分类器和API级保护与对有组织地提取模型能力的企图的调查相结合。 这些更新后的保障措施与我们在生物学和网络安全领域所采用的措施更加一致。 我们特别重视防止攻击者提取我们模型的受保护推理：即模型在努力得出答案的过程中在内部生成的中间步骤，称为其“思维链”。 这些痕迹可能包含最终答案中未提及的信息，因此它们对于另一个模型来说是特别有价值的训练数据。 我们在 GPT‑6 中加强了针对受保护推理提取的防御。2 Astra 和 GPT‑6。2 Sol。在一次使用强大自动化红队的内部自适应评估中，我们测试了攻击者是否能够恢复模型在回答先前提示时生成的受保护推理。 平均攻击成功率从针对具有原始安全防护措施的 GPT‑6 Astra 的 54. 0% 下降到针对具有更新版安全防护措施的 GPT‑6. 2 Astra（采用更新后的安全措施）的攻击成功率降至 0.2%。 蒸馏是一种常见的机器学习技术，其中一个模型从另一个模型产生的数据中学习。 例如，一个模型可以从另一个模型的答案、其推理或其对哪些答案更好以及为什么更好的判断中学习。 除了知识产权问题外，未经授权的蒸馏还会带来严重的安全风险。 通过对抗性蒸馏，第二个模型可以学习先进的前沿能力，而无需继承规范原始模型如何使用这些能力的保障措施。 在网络安全和生物学等双用途领域，这种担忧尤为明显。 一个帮助防御者发现软件漏洞的模型也可能帮助攻击者利用这些漏洞；一个协助生物学研究的模型也可能帮助某人开发有害病原体。 如果将此类能力转移到具有较弱保障措施的模型，该模型可能会提供原始模型会拒绝或原始保障措施会阻止的帮助。 我们的模型可帮助用户完成编码和防御性网络安全任务。 在许多此类良性输出上进行训练的第二个模型可能会学到同样适用于进攻性网络安全任务的技能。",
-      "originalSummary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "模型"
-      ],
-      "score": 99
-    },
-    {
-      "title": "苹果可能正在开发自己的AI代理来运行您的Mac",
-      "originalTitle": "Apple may be developing its own AI agent that runs your Mac",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "date": "2026-11-20T00:56:01.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "苹果公司似乎正在开发自己的AI代理，以代表用户执行计算机操作，包括使用应用程序、访问网站和编写代码等。 该消息最初由彭博社报道，彭博社发现，这家iPhone制造商最近发布了一则招聘高级工程经理的职位信息，该职位将负责监督“能够使用计算机的AI代理”的开发工作。 “想象一下，有一个AI代理能够像一个有能力的人那样使用电脑，”该帖子写道。 “它可以浏览网页、跨应用程序工作、运行命令、编写和调试代码、调用服务，并且能够为每个步骤选择合适的工具。 它以私密的方式完成所有这些工作，并具备人们对苹果所期望的精益求精。 该招聘信息还指出，这些代理应能够“在工具之间灵活切换”，并“跨应用程序、浏览器、命令行、代码和API执行多步任务”。TechCrunch已联系苹果公司以获取更多信息，但未收到回复。 在过去的一年里，能够进行计算机操作的智能体已成为科技行业最热门的产品之一。 Anthropic和OpenAI等主要实验室已经推出了此类服务，而其他主要科技品牌（如最近推出了Muse代理产品线的Meta）也已进军该领域。 苹果正试图在新任首席运营官约翰·特努斯（John Ternus）的领导下拓展其人工智能产品，因此其希望效仿其他公司也是合情合理的。 彭博社还指出，在苹果致力于开发自有数字助理的同时，该公司也正在大幅提高第三方代理对其电脑完全控制的难度。 该媒体指出，即将推出的macOS 27.3版本将发出警告，劝阻用户不要向第三方代理授予完全访问权限。 10 月，苹果向开发者发布通知，表示该公司计划“引入额外的控制措施，以确保真正希望向应用授予此超高权限的用户只能通过非常明确的用户操作才能这样做。” 彭博社写道，虽然这家iPhone制造商“有意在明年年底前推出这项服务”，但其内部代理的开发“仍处于早期阶段”。 ”当您通过我们文章中的链接进行购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 微软首席执行官萨蒂亚·纳德拉解释了他为何要求6万名员工离职Julie Bort亚马逊和谷歌将在Anthropic上市后共同持有其近30%的股份Julie Bort",
-      "originalSummary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态",
         "智能体"
       ],
       "score": 99
@@ -161,6 +218,22 @@
       "score": 99
     },
     {
+      "title": "对抗对抗性蒸馏",
+      "originalTitle": "Combatting adversarial distillation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "date": "2026-11-20T10:00:00.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、模型相关动态",
+      "fullContent": "我们如何应对蒸馏的安全风险，以及我们在加强整个行业的安全保障方面所吸取的经验教训。 随着前沿人工智能模型的能力不断增强，保障措施在如何负责任地使用这些模型方面发挥着越来越重要的作用。 对抗性蒸馏为不法分子在没有适当保障措施的情况下复制这些能力开辟了一条途径。 行为者可能会在未经授权的情况下使用前沿模型的输出，来训练另一个具有类似功能的模型，然后将其部署，而没有提供同等水平的保护。 例如，攻击者可能会提炼出一个模型的网络能力，并使用由此产生的模型来帮助实施网络攻击，而原始模型本会拒绝协助此类攻击，或者其安全防护措施本会阻止此类攻击。 我们将分享OpenAI如何检测和阻止对抗性蒸馏，我们如何加强对模型受保护推理的保护，以及我们学到了哪些可以帮助加强整个行业的防御措施的经验。 我们处理对抗性蒸馏的方法将对抗性测试、模型训练、分类器和API级保护与对有组织地提取模型能力的企图的调查相结合。 这些更新后的保障措施与我们在生物学和网络安全领域所采用的措施更加一致。 我们特别重视防止攻击者提取我们模型的受保护推理：即模型在努力得出答案的过程中在内部生成的中间步骤，称为其“思维链”。 这些痕迹可能包含最终答案中未提及的信息，因此它们对于另一个模型来说是特别有价值的训练数据。 我们在 GPT‑6 中加强了针对受保护推理提取的防御。2 Astra 和 GPT‑6。2 Sol。在一次使用强大自动化红队的内部自适应评估中，我们测试了攻击者是否能够恢复模型在回答先前提示时生成的受保护推理。 平均攻击成功率从针对具有原始安全防护措施的 GPT‑6 Astra 的 54. 0% 下降到针对具有更新版安全防护措施的 GPT‑6. 2 Astra（采用更新后的安全措施）的攻击成功率降至 0.2%。 蒸馏是一种常见的机器学习技术，其中一个模型从另一个模型产生的数据中学习。 例如，一个模型可以从另一个模型的答案、其推理或其对哪些答案更好以及为什么更好的判断中学习。 除了知识产权问题外，未经授权的蒸馏还会带来严重的安全风险。 通过对抗性蒸馏，第二个模型可以学习先进的前沿能力，而无需继承规范原始模型如何使用这些能力的保障措施。 在网络安全和生物学等双用途领域，这种担忧尤为明显。 一个帮助防御者发现软件漏洞的模型也可能帮助攻击者利用这些漏洞；一个协助生物学研究的模型也可能帮助某人开发有害病原体。 如果将此类能力转移到具有较弱保障措施的模型，该模型可能会提供原始模型会拒绝或原始保障措施会阻止的帮助。 我们的模型可帮助用户完成编码和防御性网络安全任务。 在许多此类良性输出上进行训练的第二个模型可能会学到同样适用于进攻性网络安全任务的技能。",
+      "originalSummary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 98
+    },
+    {
       "title": "Anthropic 的数学家声称已使用 Claude 解决了著名的千年大奖难题",
       "originalTitle": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
       "source": "The Verge AI",
@@ -174,7 +247,22 @@
         "大模型",
         "公司动态"
       ],
-      "score": 98
+      "score": 97
+    },
+    {
+      "title": "英伟达黄仁勋丑闻的影响仍在持续",
+      "originalTitle": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
+      "date": "2026-11-20T14:55:44.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "在应对罢免首席执行官黄仁勋所带来的余波之际，英伟达本周发布了最新财报，显示出稳健的增长态势，并承诺美好势头将持续下去。 与此同时，这家芯片制造商表示将停止在中国销售其H200芯片，并驳回了 […] 的呼吁。",
+      "originalSummary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to [&#8230;]",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 89
     },
     {
       "title": "OpenAI 的性能工厂如何让 ChatGPT 保持快速",
@@ -193,51 +281,6 @@
       "score": 99
     },
     {
-      "title": "苹果正在招聘工程师，以打造自己的AI代理",
-      "originalTitle": "Apple is hiring engineers to build its own AI agent",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "date": "2026-11-19T22:31:41.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "苹果正在开发自己的AI代理，它可以为您执行一系列任务，包括浏览网页、跨应用工作、编写代码和调用服务。 这是根据彭博社发现的一份现已删除的招聘信息得出的，该信息称苹果正在寻找一名工程师来领导智能体AI助手的开发工作。 苹果的人工智能代理将使这家iPhone制造商能够与Meta的Muse、OpenAI的Dots、Anthropic的Duet和谷歌的Tasks等产品展开竞争。 Muse、ChatGPT 和 Perplexity 已经可以通过其 Mac 应用来控制电脑，而谷歌刚刚开始让 Gemini 也这样做。 苹果公司开始……在The Verge上阅读完整报道。",
-      "originalSummary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation of an agentic AI [&#8230;]",
-      "rawFullText": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg , which said Apple is looking for an engineer to lead the creation of an agentic AI assistant. An AI agent from Apple would put the iPhone maker in the running to compete with the likes of Meta's Muse , OpenAI's Dots , Anthropic's Duet , and Google's Tasks . Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while Google just started letting Gemini do the same. Apple began ro … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 92
-    },
-    {
-      "title": "Meta 的 Muse 智能眼镜可能售价 300 美元",
-      "originalTitle": "Meta’s Muse Charm might cost $300",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "date": "2026-11-19T20:22:17.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：智能体相关动态",
-      "fullContent": "据《The Information》报道，Meta计划将Muse Charm的售价定为300美元。Muse Charm是一款带屏幕的小型设备，可让您与Muse AI智能体聊天。 首席执行官马克·扎克伯格今年早些时候展示了这款小工具，并表示公司预计将在“12月节日季前”发售Charm，但当时他并未透露价格。 在发布Muse Charm时，扎克伯格表示，公司已将“完整的Muse体验”，包括实时语音和头像技术，都集成到了这款设备中。 它配备指纹传感器，您只需轻触即可与Muse AI代理进行对话，无需解锁手机或打开应用程序。 ……请在The Verge上阅读完整报道。",
-      "originalSummary": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but [&#8230;]",
-      "rawFullText": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information . CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but he didn't provide a price at the time. When he announced the Muse Charm, Zuckerberg said that the company had \"packed the whole Muse experience,\" including real-time voice and avatar technology, into the gadget. It has a fingerprint sensor, and you can tap it to be able to talk to a Muse AI agent without unlocking a phone or opening an app. … Read the full story at The Verge.",
-      "tags": [
-        "智能体"
-      ],
-      "score": 92
-    },
-    {
-      "title": "英伟达近期股价波动的简史",
-      "originalTitle": "A brief history of Nvidia’s recent stock fluctuations",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "date": "2026-11-19T21:59:35.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
-      "fullContent": "2026年11月18日，交易员在纽约市纽约证券交易所的交易大厅进行晨间交易。 |图片来源：Getty Images“我们能行。”英伟达临时首席执行官科莱特·克雷斯（Colette Kress）周二晚在结束这家备受困扰的芯片公司第三季度财报电话会议时表示。 截至周四，该公司的股价徘徊在每股150美元左右，较10月6日历史高点下跌近40%，周二晚间财报发布后的短暂上涨也被抹平。 与此同时，华尔街正在为英伟达的最大客户之一买单，因为Anthropic在纳斯达克上市的股价为每股111.50美元，比预期高出34%。 仅从财报数据来看，英伟达度过了一个创纪录的季度。 第三季度收入比去年同期翻了一番多……在The Verge上阅读全文。",
-      "originalSummary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings [&#8230;]",
-      "rawFullText": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings pop on Tuesday night. Meanwhile, Wall Street was paying up for one of Nvidia's biggest customers as Anthropic made its Nasdaq debut at $111.50 per share - 34 percent higher than expected. Looking at the earnings report numbers alone, Nvidia had a blockbuster quarter. Q3 revenue more than doubled from the same period … Read the full story at The Verge.",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 88
-    },
-    {
       "title": "部署曙光红",
       "originalTitle": "Deploying Daybreak Red",
       "source": "OpenAI",
@@ -250,7 +293,52 @@
       "tags": [
         "安全"
       ],
-      "score": 87
+      "score": 86
+    },
+    {
+      "title": "查看 PR 扫描的实际运作情况",
+      "originalTitle": "See PR scans in action",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/learn/pr-scans-demo",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "观看PR扫描的演练，了解演示者如何在拉取请求工作流中审核扫描结果。",
+      "originalSummary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
+    },
+    {
+      "title": "开始使用Daybreak Blue",
+      "originalTitle": "Get started with Daybreak Blue",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "观看Daybreak Blue的入门指南，详细了解设置体验以及如何开始使用。",
+      "originalSummary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
+    },
+    {
+      "title": "探索 Codex Security 插件",
+      "originalTitle": "Explore the Codex Security Plugin",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "观看Codex Security插件的演示，了解从入门到查看录像中显示的结果的整个工作流程。",
+      "originalSummary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 79
     },
     {
       "title": "研究加速：崎岖的前沿",
@@ -281,7 +369,7 @@
       "tags": [
         "大模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "默契共识",
@@ -296,7 +384,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "Streamhouse 中的时间序列模型：新前沿与用例",
@@ -311,7 +399,7 @@
       "tags": [
         "模型"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "人工智能炒作指数：人工智能无处不在",
@@ -326,7 +414,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 80
+      "score": 79
     },
     {
       "title": "调研报告",
@@ -341,7 +429,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 71
+      "score": 70
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -374,7 +462,7 @@
         "智能体",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -389,7 +477,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
@@ -404,7 +492,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "使用SimReady资产构建机器人拾取和放置模拟",
@@ -419,7 +507,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "XYBench：帮助解决问题背后的难题",
@@ -434,7 +522,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -449,7 +537,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -464,7 +552,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 81
+      "score": 80
     },
     {
       "title": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
@@ -479,7 +567,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -494,7 +582,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     },
     {
       "title": "南希·佩洛西的继任者已准备好监管人工智能",
@@ -509,7 +597,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 63
+      "score": 62
     }
   ]
 }
