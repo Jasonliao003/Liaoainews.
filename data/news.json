@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T03:36:58.628Z",
+  "updatedAt": "2026-11-24T06:51:47.322Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,34 +19,84 @@
   ],
   "articles": [
     {
-      "title": "Notable Capital、GIC和Baillie Gifford如何在Anthropic上市前对其进行大手笔投资",
-      "originalTitle": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "title": "Anthropic推出Claude Ship，让AI代理审查、修复和批准代码变更",
+      "originalTitle": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "date": "2026-11-23T01:25:53.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "当Notable Capital将其超过10亿美元的基金中约10%的美国份额投入Anthropic的E轮融资时，许多有限合伙人都对这笔巨额押注感到困惑。 Claude 的开发商仍落后于其最大竞争对手 OpenAI，而 DeepSeek 仅在几周前发布了其 R1 模型，有超越闭源竞争对手的势头。此外，以 61 美元的价格， 50亿美元，Anthropic的估值是这家主要投资早期阶段的风险投资公司在其25年历史中迄今为止最高的投资估值。 但在Notable（2024年与中国业务分拆前名为GGV资本）的投资者对Anthropic的未来充满信心。 由管理合伙人Hans Tung和Glenn Solomon以及负责人Dan Cahana组成的团队对数据进行了分析，发现开发者越来越倾向于使用Claude而非ChatGPT，Claude的使用率达到了70%，与前一年相比发生了逆转。 该公司的联合创始人Tung在接受TechCrunch采访时表示：“我们只是知道，对于人工智能来说，开发者是核心，因为他们是早期采用者。” 在应对美国复杂的 -中国关系的亲身经历，Notable还深信，“任务关键型”工作始终需要基于美国的闭源模型，Tung表示。 不到两年后，Notable的有限合伙人不再对这笔巨额投资提出质疑。 周三，Anthropic在有史以来规模最大的IPO中筹集了813亿美元，在其股票于次日开始交易之前，其完全摊薄估值达到约1.5万亿美元，账面回报约为15倍。 当然，Notable 并不是唯一一家从 Anthropic 获得巨额账面收益的公司。 即使是很少看到风险投资规模倍数的传统后期投资者，也注定会大获全胜。 新加坡主权财富基金GIC在2024年全年都在研究Anthropic，但直到2025年初，该基金的技术投资主管Chris Emanuel在旧金山的一家意大利餐厅Che Fico与Anthropic首席财务官Krishna Rao会面后，才进行了首次投资。 Rao向Emanuel展示了模型改进如何推动企业采用率的提升，从而激发了Emanuel对该公司的兴趣。 随后，GIC对Anthropic的F轮融资进行了首次投资，该轮融资于2025年9月宣布，估值为1830亿美元。 “当时Claude Code刚刚发布，”Emanuel告诉TechCrunch。 “当时还很早，但即使是那时，我们也能看到它在开发者中非常受欢迎的迹象。 “GIC 对这家人工智能实验室的信心之高，以至于该基金后来与 Coatue 一起领投了 Anthropic 的 G 轮融资，估值为 3800 亿美元，并在 9650 亿美元的 IPO 前融资轮中再次成为联合领投方之一。 据一位熟悉GIC财务状况的人士透露，在三轮融资中，GIC向Anthropic投资了超过45亿美元，累计持股比例相当于该公司IPO后约...",
-      "originalSummary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "date": "2026-11-23T22:05:50.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic正在从让Claude编写代码转向帮助开发者决定何时可以发布该代码。 周一，这家新近上市的人工智能公司宣布推出Claude Ship，这是一套用于自动化代码审查、修复和常规代码变更批准的人工智能代理。 后者是这套新工具中更有趣的部分，因为在此之前，AI编码工具就已经提供了代码审查功能。 Claude Ship的显著之处不仅在于它能够审核拟议的代码变更，并识别和解决问题，而且它还包含一个代理，该代理可以根据开发团队制定的策略自动批准代码变更。 此次发布正值人工智能编码代理日益具备生成大量代码的能力，导致在代码变更上线前审查和批准代码变更方面出现瓶颈。 使用Claude Ship，其理念是将开发过程中更多的工作自动化，本质上是将审批权限委派给AI代理本身。 “大多数团队都希望由专人来批准每一处变更，当人们亲自编写每一行代码时，这样做很容易跟上进度。 但现在很多开发人员都使用代理进行开发。”该公司的一篇博客文章解释道。 “在Claude Code团队中，Claude编写了我们的大部分代码，我们希望PR之后的所有工作也能同样快速推进。” Claude Ship正在推出测试版，让早期采用者能够使用它来审核拉取请求（PR），然后决定哪些内容已准备好合并。 新产品包括已正式发布的代码评审功能，以及目前处于测试阶段的两个新代理：PR Steward和Claude Approvals。 PR Steward专注于解决CI检查失败、合并冲突以及代码评审反馈等问题。 它还会在每次推送后发表评论，说明更改了哪些内容，以及在需要时如何回滚。 然后，Claude Approvals 会应用团队以文件形式写入代码仓库的审批策略。 此审批流程可以纳入各种信号，包括代码审查结果或公司自己的分类器，以及以自然语言撰写的政策。 由于该产品仍处于测试阶段，Anthropic建议首先以“仅观察”模式运行审批功能。 团队还可以选择仅从一个代码仓库开始，并设置每月支出限额，以便更好地控制该流程。 Anthropic表示，团队仍将掌控Claude Ship的运行位置、要使用的审核设置（例如 快速、标准或深度），以及哪些变更应上报给人工进行决策。 Claude Ship正在面向GitHub上的代码仓库推出Claude Team和Enterprise套餐。 代码审核已正式上线，而 PR Steward 和 Claude Approvals 仍处于测试阶段。 当您通过我们文章中的链接购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 一家初创公司在印度起诉苹果，原因是“轻点分享”联系人功能 Jagmeet Singh",
+      "originalSummary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
       "rawFullText": "",
       "tags": [
-        "公司动态"
+        "大模型",
+        "公司动态",
+        "智能体"
       ],
-      "score": 88
+      "score": 99
     },
     {
-      "title": "OpenAI首席科学家对如何限制人工智能发展发表了看法",
-      "originalTitle": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "title": "Claude AI 现在可以自行审核拉取请求并发布修复",
+      "originalTitle": "Claude AI can review pull requests and ship fixes on its own now",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "date": "2026-11-23T20:00:00.000Z",
+      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
+      "fullContent": "Anthropic正在推出一些新的Claude AI功能，以帮助软件工程师交付代码。 作为今天宣布的全新Claude Ship产品的一部分，Claude现在可以审核、修复和批准拉取请求。 得益于3月发布的代码审查功能，工程师已经能够利用Claude的代码审查功能，该功能于10月正式上线。 除了 Claude Ship 之外，还有 PR Steward 和 Claude Approvals 代理，它们今天将以测试版的形式推出。 PR Steward“会介入处理失败的CI检查、合并冲突，并审核来自代码评审、其他评审工具或团队成员的反馈……在The Verge上阅读完整报道。",
+      "originalSummary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was [&#8230;]",
+      "rawFullText": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was announced in March and became generally available in October . What's new alongside Claude Ship are the PR Steward and Claude Approvals agents, which are launching in beta today. PR Steward \"jumps in on failing CI checks, merge conflicts, and review feedback from Code Review, other review tools, or team member … Read the full story at The Verge.",
+      "tags": [
+        "大模型",
+        "公司动态",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Richpanel 帮助公司在 30 天内实现 50% 的支持自动化",
+      "originalTitle": "Richpanel helps companies automate 50% of support in 30 days",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "date": "2026-11-23T08:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、智能体相关动态",
+      "fullContent": "Richpanel 使用 GPT‑6 Astra 和 GPT‑6。1 Sol 为其 AI 客服专员提供工具和流程，并使用 GPT‑6 Luna 进行对话。 除了知道如何回应客户的请求外，AI 支持专员还需要能够执行解决方案。 为此，他们需要能够使用合适的工具和说明。 据 Richpanel 首席执行官 Amit RG 介绍，人工客服代表在为客户提供服务时可能会使用 20 或 30 种工具，而他们遵循的流程可能从未被记录下来。 Richpanel ⁠（在新窗口中打开）使用OpenAI模型解决了这个问题，既可以设置AI客服专员采取行动和处理客户对话所需的工具，也可以设置所需的程序。 “智能不再是瓶颈。 而是围绕它的所有东西。 “部署支持代理通常需要一名前线部署工程师将代理连接到客户的系统，并确定其工作方式。 Amit发现许多公司没有多余的工程师，于是他问自己：“如果前线部署的工程师本身就是一名AI代理呢？” 于是，Richpanel 打造了这个产品：一个负责处理代理设置的 AI 管理员。 客户开始称之为 Boss AI。 它编写程序，并定义 Richpanel 的一线支持专员、Copilot 和质量保证专员如何调用他们所需的工具。 Richpanel 使用 GPT‑6 Astra 和 GPT‑6. 1 Sol for Boss AI，在构建其他客服代表将遵循的工具和程序时，优先考虑准确性。 Richpanel 设计的一线客服代表能够处理数十万次对话，因此每次互动的成本成为模型选择的一个重要考量因素。 它使用 GPT‑6 Luna 和其他 OpenAI 模型来完成这项工作。 Amit 表示，Richpanel 对其 Copilot 和质量保证客服代表也采取了同样的方法。 “关键在于成本和智能之间的平衡。”Amit 表示。 Richpanel 的客户可能已经在使用低成本的外包支持服务。 与这一起点相比，实现运营自动化必须具有财务意义。 Amit认为，OpenAI提供了能够处理长上下文和更长任务的模型，同时保持了成本效益。 Richpanel 可以使用更深入的推理来培训其客服专员，并使用更经济的模型来开展后续的对话。 在2026年10月的采访中，Amit表示，Richpanel在过去六个月内完成了约300次AI客户支持部署。",
+      "originalSummary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体"
+      ],
+      "score": 99
+    },
+    {
+      "title": "Supertake 筹集 2000 万美元，让 AI 代理将您的市场预测转化为股票投资组合",
+      "originalTitle": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "date": "2026-11-22T21:14:07.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态相关动态",
-      "fullContent": "OpenAI首席科学家雅库布·帕乔基（Jakub Pachocki）在新发布的博客文章中讨论了人工智能发展的潜在局限性，重点关注一种名为“困惑度”的衡量指标。 在一位曾就职于OpenAI和Anthropic的研究员表示这两家公司“拿我们的生命在冒险”之后，放缓人工智能发展成为一个特别热门的话题。甚至Anthropic的IPO申请文件也指出，该技术可能对社会构成“灾难性或生存性风险”。 ”随后，Anthropic首席执行官Dario Amodei发布了一项“掌控前沿”的计划，该计划似乎得到了OpenAI首席执行官Sam Altman和SpaceX首席执行官Elon Musk的支持。 除其他事项外，Amodei呼吁各公司同意“共同的安全标准，以及对不受监管的人工智能发展速度的限制”。 但是，要对人工智能的发展设定速度限制，就需要就如何衡量速度达成一致。 Pachocki的帖子——被Altman称为“OpenAI一段时间以来发布的最重要内容”——表明困惑度（perplexity，不要与同名公司混淆）可能是这种衡量标准。 在帕乔基的论述中，随着技术的进步，那些侧重于人工智能“下游能力”的基准很快就过时了。 但困惑度——“衡量模型平均预测下一个token的准确性；困惑度越低，预测越准确”——仍然“具有信息性”。Pachochki的帖子中包含一张图表，显示了自GPT-3以来OpenAI模型困惑度的下降情况。5. “GPT-4的困惑度约为0. 91，善于高效地利用“链式思维”推理，这促使我们随后有针对性地激发了这种能力，并创造了现代推理模型。”他写道。 “现在，随着我们已将损失降至0.8以下，我们在网络安全和数学等领域看到了颠覆性能力的出现。 因此，在他看来，困惑度可以为“通用智能的共同基准”提供基础，人工智能公司随后可以利用这一基准来确立“共同的限度”。如果将困惑度作为衡量人工智能进步的标准，那么各公司将承诺不越过某个阈值，“直到我们理解和监测人工智能行为的能力达到某个具体的里程碑。” ”当您通过我们文章中的链接购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 Anthony Ha是TechCrunch的周末编辑。 此前，他曾担任《Adweek》的科技记者、《VentureBeat》的高级编辑、《Hollister Free Lance》的地方政府记者，以及一家风险投资公司的内容副总裁。 他现居纽约市。 您可以通过发送电子邮件至[email protected]与Anthony联系或核实其联系信息。 一家初创公司在印度起诉苹果，原因是“轻点分享”联系人功能 Jagmeet Singh",
-      "originalSummary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "date": "2026-11-23T22:02:05.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "人工智能投资初创公司Supertake有一个有趣的前提：如果您的市场“观点”可以让您赚钱，而您又不必亲自挑选股票，那会怎么样？ 该服务让人们能够利用尖端人工智能模型和交易代理，将自己的想法转化为真正的投资组合。 如今，该公司已筹集了2000万美元的种子轮融资，以发展其业务。 本轮融资由风险投资公司Adjacent（Nico Wittenborn）领投，Coinbase Ventures和Union Square Ventures（USV）参与投资。 众多天使投资人也参与其中，包括目前担任Meta Superintelligence Labs产品总监的Nat Friedman、Vercel首席执行官Guillermo Rauch、知名产品经理Nikita Bier、投资人Scott Belsky，以及前Coinbase高管、现任Y Combinator客座合伙人的Nemil Dalal。 Michael Mignano最初是在USV孵化这家初创企业的。 他是播客平台Anchor的联合创始人兼前首席执行官，Spotify于2019年以超过1.5亿美元的价格收购了该平台。 在担任Spotify播客业务“谈话主管”数年后，他以风险合伙人的身份加入Lightspeed团队，投资Suno和Granola等人工智能公司。 他还共同创立了人工智能教育初创公司Oboe，并于4月加入USV担任普通合伙人。 “我们真心相信，有机会让投资更加民主化……让每个人都能根据自己的见解、信念和想法进行投资。”Mignano 表示。 虽然他将继续担任创始人兼执行董事长，但他现在已引入一支团队来负责公司的日常运营。 团队成员包括联合创始人Lincoln Murr（首席执行官）和John Peterson（首席技术官）。 两人均来自Coinbase，Mignano指出，他们在Coinbase担任人工智能产品和工程负责人，主导了Coinbase顾问、Coinbase for agents、代理钱包等产品的发布。 这家初创公司是在人工智能继续进军金融服务领域之际成立的，但要让人工智能接管人们的实际投资，则需要一个新的信任水平。 鉴于尖端人工智能模型近期的改进，Supertake押注人们最终将愿意迈出这一步。 目前，Supertake与Coinbase和Robinhood合作，该公司打算随着时间的推移将业务扩展到更多经纪商。 其理念是，您可以以通俗易懂的自然语言阐述您对世界将如何变化的看法，Supertake 的人工智能将与您反复互动，将这一想法转化为可投资的“观点”。 在幕后，这家初创公司正在利用尖端人工智能技术和工具，并结合其自有专有软件来指导和限制人工智能的运作范围。 Supertake 网站上的排行榜会跟踪用户的想法，这样，其他认同这些想法的人就可以与他们一起投资。 例如，排行榜上目前有一个...",
+      "originalSummary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
+      "title": "OpenAI 和思科推出 Shirudo",
+      "originalTitle": "OpenAI and Cisco introduce Shirudo",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-shirudo",
+      "date": "2026-11-23T21:20:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "一款开源运行时，可帮助运维人员保护正在运行的 Linux 系统，无需等待补丁或重启OpenAI 和思科正在推出 Shirudo，这是一款开源运行时，可帮助团队在推出补丁的同时保护 Linux 系统。 在一次受控测试中（在新窗口中打开） ，由 Codex 生成的防护机制阻止了针对正在运行的 Elasticsearch 服务的 Java4Shell 漏洞利用尝试，且无需重启。 我们诚邀整个行业的开发者、安全研究人员和基础设施运营商共同参与，帮助进一步推进该项目的发展。 该项目汇集了OpenAI的前沿人工智能、安全和基础设施研究以及思科的基础设施和安全专长，以帮助保护人们每天依赖的系统。 测试和部署补丁仍可能需要数天或数周的时间。 与此同时，保护服务可能具有挑战性，因为漏洞利用和合法请求可能依赖于相同的Linux操作。 完全阻止该操作可能会使服务离线。 Shirudo（日语意为“盾牌”）旨在帮助安全团队应对这种权衡。 团队可以测试一种名为“盾”的临时防护措施是否能够阻止暴露漏洞的行为，同时允许合法请求通过。 一旦操作员批准了防护，就可以在服务继续运行的同时进行部署。 Shirudo 使用 eBPF，这是一种 Linux 技术，允许小型程序在操作系统内的特定点运行。 这使得观察可疑活动并对正在运行的系统应用有针对性的安全保护成为可能。 Guardian 代理如何使用 eBPF 观察和保护正在运行的系统。 OpenAI 和思科正在围绕四项核心功能设计 Shirudo：实时保护：eBPF 屏蔽功能可以在不重启系统的情况下阻止易受攻击的代码路径。 安全团队可以在实施拟议的防护之前，先监测该防护会对应用程序产生怎样的影响。 以机器速度进行防御：OpenAI 和思科正在设计 Shirudo，旨在为代理提供可编程控制功能，以便调查漏洞、开发有针对性的防护措施，并验证其针对漏洞利用和实际工作负载的有效性。 安全团队控制部署的内容。 可信部署：Shield 在加载前经过加密签名和验证。 Linux 的 eBPF 验证器根据其安全规则检查 eBPF 程序，而内核安全控制则限制未经授权的更改。 硬件支持的验证：Shirudo 使用可信平台模块 (TPM) 来支持加载或移除保护的可验证记录。 运营商可以使用这些证据来检查系统是否符合其安全要求。",
+      "originalSummary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "rawFullText": "",
       "tags": [
         "公司动态"
       ],
-      "score": 88
+      "score": 95
     },
     {
       "title": "困惑度和智能",
@@ -61,145 +111,7 @@
       "tags": [
         "模型"
       ],
-      "score": 88
-    },
-    {
-      "title": "为什么数据中心成为科技巨头遭遇强烈反弹的焦点",
-      "originalTitle": "Why data centers are at the center of the Big Tech backlash",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-      "date": "2026-11-22T18:08:43.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：AI 热点相关动态",
-      "fullContent": "在新作《超大规模》（Hyperscale）中，记者巴黎·马克斯（Paris Marx）探究了数据中心和生成式人工智能的影响，带领读者走进数据中心内部，并解释了已有数十年历史的计算基础设施为何近期成为政治地雷。 这本书可谓应运而生，因为对数据中心的强烈反弹似乎是最近 中期选举中出现大规模“蓝潮”的诱因之一。 随着民主党人掌握更多的政府权力，这些争论很可能会继续下去。 在接受TechCrunch采访时，马克思将数据中心的建设描述为“从根本上不可持续”且“完全不符合宜居星球的理念”，同时还指出，在人们对科技行业普遍不满的背景下，这些设施显然成为了众矢之的。 毕竟，如果要在您的社区建造数据中心，“它非常具体，非常实在。 “无论您站在政治光谱的哪一端，都没有关系，”Marx说道。 “您将在生活质量、电费账单、用水方面，以及可能在社区周边的噪音方面（如果数据中心屋顶的空调机组发出很大的噪音）感受到这些影响。 ”他还指出，反对数据中心只是针对“科技行业的实体表现”的更广泛运动中最显眼的一部分，[……]无论是反对Flock摄像头在美国各地铺开，还是反对Meta试图让人们戴上的智能眼镜，甚至是反对Waymo正在推出的自动驾驶汽车。 ”在我们的谈话中（我为了篇幅和清晰度进行了编辑），Marx和我讨论了数据中心对环境的影响、科技公司如何应对社区的抵制，以及数据中心内部的实际情况。 我喜欢您对试图进入“超大规模”数据中心内部，然后最终参观[一个数据中心]的描述。 您能否多谈谈那次经历是什么样的？ 您是如何进入的？ 当您真正进入时，有什么让您感到惊讶？ 进入超大规模数据中心并不是世界上最容易的任务。 我与一些比我更早开始研究数据中心的研究人员进行了交谈，他们告诉我，在生成式人工智能兴起之前，以及在最近数据中心受到广泛关注之前，进入数据中心要容易得多。 我给多家公司发了电子邮件，询问是否可以进去看看，但往往没有收到回复，有时则被拒绝。 最后，在参观了弗吉尼亚州北部、爱尔兰等地的一些数据中心的外部之后，我实际上去了新西兰，进入了一个数据中心内部。 最令我印象深刻的是安全级别。 显然，您会认为这是一处真正实现安全化的基础设施，因为里面的数据需要得到妥善保护。显然，[他们]在数据中心周围设有高大的围栏和各种安防摄像头。 但要进去，我必须提前提交护照。",
-      "originalSummary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 76
-    },
-    {
-      "title": "我们还没有看到最后一次重大技术中断",
-      "originalTitle": "We haven’t seen the last of the major tech outages",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1039851/major-tech-outages",
-      "date": "2026-11-22T22:48:02.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "在过去一周左右的时间里，我们经历了美国联邦航空管理局（FAA）的全国性停飞令、导致整家公司陷入停顿的持续多日Outlook服务中断，以及摩根大通的银行业务中断。 但人们普遍认为，今后还会有更多此类事件发生。 国家情报总监杰伊·克莱顿（Jay Clayton）对CNN表示：“美国人民应该做好准备，为升级我们的系统投入大量资金；他们应该做好准备，为网络安全投入资金；他们还应该做好准备，每当技术发生飞跃性变革，计算和应用都发生飞跃性变革时，道路上都会有颠簸。” 微软总裁布拉德·史密斯发布了一份……在The Verge上阅读全文。",
-      "originalSummary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be [&#8230;]",
-      "rawFullText": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase . But the consensus is that there are more to come . Director of National Intelligence Jay Clayton told CNN : \"The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity, and they should be prepared that any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road.\" Microsoft President Brad Smith issued a … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "《以撒的结合》开发商从《忏悔+》中删除了AI音乐",
-      "originalTitle": "Binding of Isaac developer removes AI music from Repentance Plus",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
-      "date": "2026-11-22T17:25:20.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：AI 热点相关动态",
-      "fullContent": "在发现游戏的一个特定部分使用了AI音乐后，《以撒的结合：忏悔+》在过去几天里在Steam上遭遇了差评轰炸。 Reddit用户ShweetsStuff发现了在《侠盗猎车手》主题关卡中使用的歌曲。 他们发现了几个带有Suno元数据的音频文件，这些元数据指向Suno网站上的曲目。 创作者埃德蒙·麦克米伦（Edmund McMillen）在X上道歉，并声称他“完全不知道”游戏中的《GTA》模仿作品使用了生成式AI音乐。 更戏剧性的是，Valve要求开发商披露他们在开发过程中如何以及何时使用生成式人工智能，而Nicalis, Inc.是……在The Verge上阅读完整报道。",
-      "originalSummary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to [&#8230;]",
-      "rawFullText": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music . Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto -themed section. They found several audio files with Suno metadata that pointed back to the tracks on Suno's site. Creator Edmund McMillen took to X to apologize and claimed he \"had no idea\" the in-game GTA parody used generative AI music. Adding to the drama, Valve requires developers to disclose how and when they use generative AI in the development process, and Nicalis, Inc., the studio behin … Read the full story at The Verge.",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 75
-    },
-    {
-      "title": "Anthropic 是否有能力将安全放在首位？",
-      "originalTitle": "Can Anthropic afford to put safety first?",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "date": "2026-11-21T15:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "今天，我将与The Verge的高级人工智能记者Hayden Field聊聊Anthropic的IPO，这是我们关于人工智能在现实生活中的系列节目的第三期，也是最后一期。 Claude背后的这家人工智能实验室于上周四在纳斯达克上市。 数字非常庞大，但对于这次谈话来说并不那么重要，只是想说，Anthropic已经成为全球最有价值的公司之一。 真正值得关注的是现在发生的事情——以及Anthropic是否能够继续在关注和投资人工智能安全的同时，也成为一家对股东负责的上市公司。 哦，对了，它还要不断增加收入，以便能够继续支付不断增加的计算费用，未来几年这些费用总计约9000亿美元。 所有这些观点之间都存在着一种引人入胜的张力，因此Hayden和我真的努力剖析我们认为Anthropic在应对公开市场的压力时可能会如何应对。 您将听到我们谈论公司的独特公司治理结构，在黄仁勋的持续风波之后，这一点尤为重要。 我们还将探讨为什么OpenAI似乎乐于让Anthropic先上市，以及为什么Anthropic向大客户推销的全部内容都归结为同样的安全性品牌，而这一品牌现在与其业务中以盈利为导向的部分存在冲突。 在开始之前，请帮我一个忙，在YouTube上订阅Decoder，我们每周一和周四都会发布新一期节目。 好的：The Verge高级人工智能记者Hayden Field将谈论Anthropic的IPO和前沿人工智能的经济学。 我们开始吧。本次访谈内容经过少量编辑，以控制篇幅并提高清晰度。 Hayden Field，欢迎再次来到《解码》。 谢谢。很高兴来到这里。 我很高兴今天能和你聊聊，因为这不是纯粹的肥皂剧式戏剧性混乱。 我知道。这就像一件很平常的事情。 这次不是以人物为中心，也不是肥皂剧。 这关乎冷冰冰、硬邦邦的潜在现金。 [笑]好吧，其中还是有一些个性色彩的，因为我们将大量讨论Anthropic的IPO，其中涉及一群个性鲜明的人物，而且他们构建这家公司以抵御资本主义的贪婪压力的方式，我想说，非常另类。 它反映了一些特立独行的人的信念。 没错，绝对是这样。 再次深入研究S-1表格，看看谁在哪个委员会任职，哪些创始人在这里拥有最大的控制权，以及创始人实际上拥有多少控制权，这真的很有意思，而且比看起来要多。 让我们从头开始。 你和我正在IPO当天交谈。 Anthropic是第一家上市的纯人工智能实验室。 他们的IPO定价为每股83美元，股价一路涨至111美元。 等到人们听到这段话时，谁知道实际价格会是多少，但对于所有投资Anthropic的人来说，这确实是一次胜利的庆功。 一大批律师事务所都把主页改成了“恭喜大家！” 你对此有何看法？ 这只是必然会发生的事情，还是一个迹象，表明人工智能泡沫不会破裂？ 人们应该如何看待这个问题？",
-      "originalSummary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [&#8230;]",
-      "rawFullText": "Today, I’m talking with Hayden Field, The Verge ’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to say that Anthropic has become one of the most valuable companies on the planet. The real story is what happens now — and whether Anthropic can continue to thread the needle of caring about and investing in AI safety while also being a public company beholden to shareholders. Oh, and it also continuously growing the amount of money it makes so it can keep paying its ever-increasing compute bills, which total roughly $900 billion over the coming years. All of these ideas sit in a fascinating tension with one another, and so Hayden and I really tried to break down how we think this might play out as Anthropic navigates the pressures of the public markets. You’ll hear us talk about the company’s unique corporate governance structure , something that is especially relevant in the wake of the ongoing Jensen Huang saga. We also get into why OpenAI seems happy to have let Anthropic go public first , and why Anthropic’s whole pitch to big customers boils down to the same safety branding that now sits in conflict with the profit-oriented part of its business. Before we get going, do me a favor and subscribe to Decoder on YouTube, where we put out new episodes every Monday and Thursday. Okay: Hayden Field, The Verge ’s senior AI reporter, on the Anthropic IPO and the economics of frontier AI. Here we go. This interview has been lightly edited for length and clarity. Hayden Field, welcome back to Decoder . Thanks. Great to be here. I&#8217;m excited to talk to you today because it&#8217;s not pure soap opera drama chaos. I know. It&#8217;s like a normal thing that happened. It&#8217;s for once not personality-based and soap opera. It&#8217;s about cold, hard would-be cash. [Laughs] Well, there is some personality in it because we&#8217;re going to talk a lot about Anthropic&#8217;s IPO, which has a bunch of big personalities in it, and the way they have structured this company to repel the rapacious pressures of capitalism is, I would say, very eccentric. It reflects the beliefs of a number of eccentric people. Yep, absolutely. It&#8217;s really been interesting digging into the S-1 again and just seeing who was on what committee and which founders have the most control here and how much control the founders actually have, which is more than it may seem. Let&#8217;s start at the start. You and I are talking on IPO day. Anthropic is the first pure AI lab to go public. They priced the IPO at $83 a share and they got all the way up to $111. By the time people are listening to this, who knows what the price will actually be, but it&#8217;s been a real victory lap for all the people who are invested in Anthropic. A bunch of law firms have changed their homepages to be like, &#8220;Congratulations, guys!” What do you make of this? Is it just the thing that had to happen or is it a sign that the AI bubble is not going to pop? How should people think about it? I don&#8217;t think it really gives us new information about whether the AI bubble is going to pop or not, because I mean, this is peak AI hype right here. It&#8217;s the first AI lab to go public. It&#8217;s been kind of on track to break records for months. Everyone was like, &#8220;It&#8217;s probably going to beat Musk,&#8221; and then it did. I can&#8217;t wait to see his tweets later. But the other interesting part of this is that I’ve heard thousands of new millionaires and hundreds of new centimillionaires will be born from this, not to mention billionaires, too. It&#8217;s one of those things where I think the AI bubble is continuing to swell. I was even chatting with some tech workers inside a bunch of different companies this morning, and they were all saying within their companies, they&#8217;re seeing the bubble swell and swell, and they&#8217;re being tasked with doing more and more AI, even if it makes them less productive and makes the work less good. So I think there&#8217;s going to be a reckoning eventually, but right now we&#8217;re at peak AI hype and Anthropic does a great job of marketing its business as safe AI. Of course, they&#8217;re going to have more pressure around that marketing term now more than ever. So it&#8217;s going to be interesting to see the tension point kind of go into the spotlight and see how they handle this. Verge subscribers, don&#8217;t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here . Not a subscriber? You can sign up here . I was at the Semafor conference earlier this week. I saw Sam Altman and Sarah Friar, OpenAI&#8217;s CFO, on stage there. Altman and Greg Brockman were at the DealBook conference this week. I get the sense they&#8217;re kind of happy that Anthropic went first to see what happens in the markets and to see how companies value the revenue potential of their big competitors so they can tell their IPO story better. Is that the sense you get, that Anthropic is the trial balloon? Or is OpenAI just retconning the fact that it didn&#8217;t go first? Yes, I think that&#8217;s absolutely the case. I heard there was a time in the past year that Altman was really obsessed with beating Anthropic to go public. That&#8217;s what I heard. It was all he thought about. But then with all the bad press around OpenAI this year, they&#8217;ve had setback after setback. A lot of the public is particularly focused on hating OpenAI right now. Obviously, there&#8217;s a big AI populism backlash and a lot of people hate a lot of AI, but it seems like OpenAI has really borne the brunt of a lot of public hatred and scandals this year. And so they were like, &#8220;You know what? Let&#8217;s just take a step back and let Anthropic go first.&#8221; And they seem happy to do that. Now that Anthropic has gone first and set this historic precedent, OpenAI can ride on its coattails and say, &#8220;Yeah, us too.&#8221; I doubt they would beat Anthropic&#8217;s record. Maybe they will, maybe they won&#8217;t. But either way, I think they know that things could have gone a lot worse for them if Anthropic did not go first, if it&#8217;s happening this year. I can&#8217;t stop thinking about Anthropic in terms of just dumb business fundamentals now that it&#8217;s a public company. You buy a token from them. They have to make that token for less than you pay for it. They also want to make AGI. Somewhere else they have some other huge set of costs. Just based on what we know about the business today, now that it&#8217;s a public company, are they profitable on the face of it? Do they have a long way to go before inference is so profitable it can pay for training all the new models? How does their business actually work? They have a long way to go and that is why it&#8217;s going to be so interesting to see what exactly they do here with regard to driving more revenue, which is what they&#8217;re going to have to do. I saw one estimate from Steve Rattner saying Anthropic is going to have to increase its revenue roughly 17-fold within the next 10 years to deliver a comparable return to some of its competitors in the tech industry. But even without that specific number, you can tell. I mean, when a company goes public, investors want to see a return on their investment. They want to see profits go up or just profits at all. They also want to see that even if profits aren&#8217;t a thing yet, they want to see that you&#8217;re driving so much revenue that they could see profit happening in the near term. That is something that Anthropic is going to have to reckon with more than ever before after today. I was chatting with a bunch of corporate governance experts and law professors and they were all saying Anthropic, like OpenAI, has such an unusual corporate structure that they aren&#8217;t actually beholden to shareholders in the way that some public companies are. Shareholders can never vote out executives. They don&#8217;t have a lot of power to influence anything really. It&#8217;s the founders and this special trust, which we can get to in a second, that have the power. But either way, they were all saying it doesn&#8217;t matter if shareholders have a say here really in voting. It&#8217;s about the fact that no matter who has a say, Anthropic is going to be under so much pressure to make money and to buy compute and catch up with OpenAI in that way, that this is going to be a huge reckoning for them. We&#8217;re probably going to see a lot of things fall by the wayside, maybe even some expensive safety efforts. I want to come to the governance structure angle here. We live in a time of Nvidia scandals. Corporate governance is all the rage now. It&#8217;s the hottest topic in American business, but let&#8217;s come to that in one minute. I just want to stay on “can you sell a token for a dollar more than it cost you to make it” for one more turn. It&#8217;s just the dumbest way of thinking about this. Anthropic rents capacity from big cloud providers, from hyperscalers. They run the GPUs in them. They pay for power, they pay for the GPUs. There&#8217;s some input cost and then they have to sell the token for more than all those input costs. That is the dumbest way of thinking about their business. I promise you that they think about it in a more sophisticated way than that, but that is how I think about it. I was just at the Microsoft Ignite conference this week and I saw Satya Nadella and he was very clear to me and others that they&#8217;re going to try to bring the price of tokens down, that their whole system is designed to make all the AI vendors fungible underneath Copilot and they&#8217;ll pick the best model for the task and make sure you get the cheapest one for whatever it is you&#8217;re trying to do. That seems totally at odds with what Anthropic needs to do, which is get more and more margin for every single token they sell so they can keep renting capacity from data centers or buy more chips than OpenAI or whatever it is they need to do. How are they structured to solve that problem? Is it just more people using AI or is it more expensive tokens? I think it&#8217;s a little of both, and it&#8217;s interesting because Anthropic has been kind of sneakily trying to do this. We wrote a piece in the past year about how there was a big outcry, particularly focused on Anthropic, for passing on costs to consumers . Individuals who were customers of Anthropic were really mad because they felt like the prices were going up for the same stuff or for worse quality and that costs were just getting passed on to them. This became a thing across the industry, a big outcry, but Anthropic bore the brunt of it. Anthropic had to have a public statement. They&#8217;re like, &#8220;Look, we&#8217;re going to work on this.&#8221; And they did roll it back a little, but I mean, they&#8217;ve got to keep doing it in some way. The other thing they&#8217;re focused on is hoping that their models are going to be good enough that people just form an attachment — not emotionally, well maybe — but form an attachment to them and they can moat people in. They&#8217;re all about the moat these days: “We&#8217;ve got to build a moat.” OpenAI is about this, too. They want so much of your everyday life and business to be married to Anthropic&#8217;s tools that it&#8217;d be really hard to port it all over and you won&#8217;t want to and you&#8217;ll just keep paying. So that&#8217;s what they&#8217;re going for. They&#8217;re also, of course, hoping that enterprise and government contracts are going to really make up a bunch of this, in which case you don&#8217;t have to worry quite as much about nickel-and-diming because they&#8217;ve got a lot of money. But I think that&#8217;s the interesting part here. When it comes to people that do care about the price a lot, they&#8217;re just trying to moat them in and hope for the best. What&#8217;s interesting there is that consumers are sensitive to price in one way. I think Anthropic&#8217;s big business customers, which is where they&#8217;ve been historically focused, are sensitive to price in different ways. If you&#8217;re paying Anthropic a lot of money, you might want to be able to switch providers quickly and you might demand data sovereignty and all this stuff that big enterprises are thinking about. Anthropic either has to deliver that, which would kill their moat for their big enterprise customers, or say, &#8220;We&#8217;re so good, you can&#8217;t have that.&#8221; I&#8217;m not sure that they can say the second one yet. That&#8217;s why they&#8217;re marketing this safe, trustworthy AI line so deeply, because it’s the only thing they&#8217;ve really got going for them here. When you have an enterprise customer, most of the time you do have to give them data sovereignty. You can&#8217;t trade on their data. There&#8217;s a lot of stuff that Anthropic could be doing to make more money that they can&#8217;t do when someone is paying that much. I think that&#8217;s really why they&#8217;re driving home this point of being the safe, trustworthy alternative because that&#8217;s the only thing that&#8217;s really going to get people to stick around, particularly if they also drive home the cybersecurity tools in an age when everything&#8217;s getting hacked all the time. The other interesting thing is even not with huge enterprises, but with small to medium-sized businesses, I&#8217;ve been chatting with a bunch of them and they&#8217;ve all been creating their own internal tools to kind of track which tasks they need specifically to use an expensive Anthropic model for and which ones they can port over to maybe an open-source model or a really cheap model. So a lot of companies like law firms — and people in a lot of different industries that have small to medium-sized businesses — are literally creating their own internal benchmarks about, “Okay, let&#8217;s save money as much as we can to just only put 10 percent of our tasks toward the expensive Anthropic model, and then this 40 percent can go to an open-source model and this 50 percent can go to a mid-tier, cheaper model.” So that&#8217;s what&#8217;s really interesting to me. People are trying to figure this out on their own and not even sharing those benchmarks publicly because it&#8217;s their own way of budgeting. I actually heard Nadella this week say every company will have its own set of evaluations and they will test the models against them and always use the most efficient one and this will become one of the major things that every company does. The flip side to that is I&#8217;ve heard Anthropic executives say, &#8220;Well, you will always want the frontier model because your competitor will always be using the frontier model and if you use a cheaper one, you&#8217;ll be left behind.&#8221; And that has always seemed somewhere between naive and idealistic to me because I think a lot of companies do cheap things knowing that their competitors will also do cheap things. I agree completely. Everyone&#8217;s being cheap. Yeah, I think if you can get away with good enough, you&#8217;re going to find out exactly where good enough is and you will not assume that your competitor is going to eke out a 5 percent advantage by using a more expensive model. Somewhere on the margin is where all of the costs should be and the market will figure it out. Exactly. It just feels like the basics of the business, maybe on IPO day, the pressure isn&#8217;t on that, everyone&#8217;s just very happy and rich. The next quarter&#8217;s earnings are going to be where we start to see this shakeout. Can it keep growing the way it&#8217;s growing at the margins it needs to build everything, especially when its own suppliers are now major shareholders? Totally. And we saw one quarter where they experienced huge growth and then the next quarter wasn&#8217;t that much. So yeah, I mean they&#8217;re going to have a lot to reckon with. Let&#8217;s talk about the governance issues. Because of Nvidia, corporate governance is the hottest topic in American business. Like you said, OpenAI and Anthropic have some of the most complicated governance structures in history. If you think that Anthropic&#8217;s future is to sell the best intelligence — the most capable, the most cutting-edge frontier, close-to-AGI intelligence possible — you would probably not do a bunch of safety work. You would probably not kill your margins on a bunch of researchers who are telling you to stop or slow down or not release the best model. Anthropic is deeply committed to doing that. You and I have had conversations before about whether that can withstand the pressures of capitalism and growth. That was hard when they weren&#8217;t a public company, but now they are. Talk about Anthropic&#8217;s structure and how they&#8217;re trying to codify their commitment to safety. Yeah, that&#8217;s a really great question. I just published a piece about this . It&#8217;s so interesting to me that Anthropic, despite seeing all the roller-coaster drama that OpenAI went through around the Sam Altman ouster and all of the restructurings that that company has gone through, Anthropic has a similarly unusual structure. And in a way it&#8217;s helpful because they&#8217;re not beholden, as we said, to shareholder pressure besides if shareholders start selling off their stock or don&#8217;t buy more. But the two kinds of groups of people that have power over what happens at Anthropic are the founders and this group called the Long-Term Benefit Trust (LTBT). Anthropic likes to market this as being like, &#8220;Oh, don&#8217;t worry about that the founders are doing what&#8217;s best for humanity but with no checks. We&#8217;ve got this trust above us that can appoint or remove us anytime.&#8221; As we’ll see in the movie Artificial , Sam Altman famously says, &#8220;Oh, well, the board can fire me whenever.&#8221; He says that a million times . Now, Anthropic is implying the same thing: &#8220;Oh, we have this trust above us. They can remove or appoint the majority of board members,&#8221; even though it&#8217;s actually not all of them, but we&#8217;ll get to that in a minute. So this trust is a group of right now four people and none of them have a lot of AI experience. It&#8217;s [former Federal Reserve Chairman] Ben Bernanke, a foreign policy analyst named Richard Fontaine, an experimental physicist named Christopher Stubbs, and a former GiveWell executive named Neil Buddy Shah, who is chair of the LTBT. I spoke to a couple of former Anthropic employees that left not too long ago and one of them said that this trust is kind of handpicked to not rock the boat at Anthropic. The founders appointed them. They&#8217;re not going to be appointing someone that&#8217;s going to probably disagree with them a lot. Ironically, the trust doesn&#8217;t have the authority to step in on everyday decisions at Anthropic, unlike even the OpenAI nonprofit board that existed. They could say, “Oh look, don&#8217;t release this model. It&#8217;s too dangerous.” The trust doesn&#8217;t have any of those powers. All it can do is appoint or remove certain board members. Even then, they have to give 30 days’ notice to a small committee of the board, which includes Daniela Amodei, the chair of that little committee who is also a founder of Anthropic. To oversimplify things, out of these seven board seats, the trust gets to pick three, the founders get to pick three, and then the kind of tie-breaking seat, the seventh one, the trust technically appoints, but they have to basically get founder approval to do it. So it&#8217;s one of these things that&#8217;s so complex, but when you really look at the nitty-gritty of it, the founders have pretty unchecked control here. I think that&#8217;s something that&#8217;s getting lost in the narrative of, &#8220;Oh, this trust is above us. Don&#8217;t worry.&#8221; Okay, well, they don&#8217;t really have much power to check you. The founder control structure is the wildest thing I have ever read about in years of doing the show and thinking about business. Anthropic has seven founders. They have been issued a single share of stock that holds 50.1 percent of the voting power of the company. That is issued to a company called Founder LLC, and they&#8217;re the seven co-owners of Founder LLC. How on earth does that work? Do they just all get together and then decide how to vote the one share of stock? Yeah, it&#8217;s really interesting and that&#8217;s why I was kind of oversimplifying it a minute ago with who gets to choose this tie-breaking seat because it&#8217;s technically Founder LLC. It&#8217;s just a total mess. But when you really look at the simplified version, it&#8217;s that yes, through all of these weird structures and things they&#8217;ve done, they basically have pretty unchecked power and that&#8217;s the way they want it. When I was talking to a former employee who recently left, they said it&#8217;s not necessarily that the founders have a financial interest in making the most money. In their eyes, it&#8217;s more that they have an interest in unchecked control. I think that&#8217;s a really important point here. Some dissenters within the ranks of Anthropic think it&#8217;s not about them wanting to get rich, but rather it&#8217;s about them wanting that total control, which does track with a lot of their public statements. They say, &#8220;You can&#8217;t do safety from second place.&#8221; They&#8217;re all in on speeding up this race, but the problem is when you speed up the AI race, you&#8217;re speeding it up for everyone involved. The safety piece is the really interesting portion of this to me because it&#8217;s the thing you would spend money on, absent some huge litigation drama or liability concern, that no other company would spend money on. So let&#8217;s say it&#8217;s proven in court that model companies are liable for what people&#8217;s agents do. I think then all the model companies would build safety systems. They would have some big incentive to make sure their models are safe. That has not yet happened. We don&#8217;t know. There&#8217;s a big debate about safety and where the regulation will come from and what will create the incentives. In the meantime, you&#8217;ve got seven founders holding a single share of stock who right now appear to be aligned on investing in safety in various ways inside of Anthropic. What happens if they start to disagree? Yeah, that&#8217;s a great question. I think that the other interesting question here is what happens when you can explain away anything in the name of safety if you&#8217;re thinking it’s &#8220;for the greater good,&#8221; which as we know is a common villain trope in every movie. But it&#8217;s also one of Anthropic&#8217;s main things on its website . They&#8217;re like, &#8220;We want to do this for the greater good, for the global good.&#8221; If you&#8217;re saying, &#8220;Hey, we have to win this race at all costs because we&#8217;re the only good guys and anyone else who wins it is going to do worse than us,&#8221; are you really the good guy at that point? And can&#8217;t you just explain away any single decision, even dropping some safety measures, as saying, &#8220;Oh, it&#8217;s slowing us down too much. We&#8217;re going to lose. We&#8217;ve got to win at all costs”? So you drop this or drop that. And then you look in the mirror at the end of the race and you say, &#8220;Oh, actually, we&#8217;re the exact same as the other company we&#8217;re trying to be different from.&#8221; I think that&#8217;s increasingly happening. So I mean, right now they&#8217;ve said, &#8220;Look, we&#8217;re really committed to this.&#8221; You do have to remember that these people are almost religiously dedicated to this idea of safe AI. A lot of them think that AI systems are potentially conscious . I mean, this is by Anthropic founders&#8217; own statements. So I think that it&#8217;s not like they&#8217;re just secretly only trying to make money and just talking about safety and they don&#8217;t mean it. I think it&#8217;s more something a little more dangerous in that they want complete control because they believe that they have the right plan for AI safety and they will do it better than anyone else. But as we know, absolute power corrupts absolutely. So a lot of Anthropic employees that I was talking to, former ones, were saying, &#8220;Yeah, it does not make sense that this industry is so unregulated. There&#8217;s no external regulation. Even if these seven people think they have the best idea for AI safety, okay, then prove it to someone else — that you shouldn&#8217;t be the only ones deciding this. Because you&#8217;re not elected.” So that&#8217;s the consensus among some. They have a morally binding handshake agreement to allow external auditors, Hayden. It&#8217;s going to be fine. Oh, yeah, with employee-level access. Also, it&#8217;s called “Super Intelligence” now. It&#8217;s going to be totally fine. They all went to the White House and they looked deeply into each other&#8217;s eyes and said it was going to be fine. Obviously Anthropic came up with this structure well before the events with Nvidia and Jensen Huang, but I can&#8217;t help but put them together in my head. They are happening at the same time. And Nvidia has a very traditional corporate governance structure. Jensen owned 3 percent of the company, but he had a board of directors. The board of directors determined that he had violated the company&#8217;s code of conduct in some way. He resigned. It&#8217;s very obvious that he was thoroughly encouraged to resign, but that&#8217;s just normal corporate governance. That&#8217;s what you learn about in school. A company has a board of directors. Their number one job is to hire and fire the CEO. That&#8217;s very different in Silicon Valley, right? Founder control of companies is a big story everywhere. Mark Zuckerberg famously has control over Meta, even though Meta shareholders repeatedly vote to remove him, which is one of the underemphasized stories in all of American business. Sergey Brin and Larry Page control Google. Is this more in the, &#8220;We need to insulate our founders from the demands of the market and boards of directors&#8221; in classic Silicon Valley style? Or is it, &#8220;We need to insulate our founders and Dario from the demands of the market so we can stay focused on AGI and safety&#8221;? Because it feels like a combination of both. It&#8217;s definitely a combination. I mean, they say it&#8217;s the latter. I think in a lot of ways it&#8217;s like the former. It&#8217;s totally a combination. I&#8217;d say it&#8217;s about 50/50. I mean, they want control so that they can focus on what they think is best and not lose control to someone that they don&#8217;t think knows best. But ironically, as we know, no one group of people should be in control of what is best here. So at least that&#8217;s what a lot of my sources say. So I think that, yeah, I mean, it&#8217;s just a combination. Elon Musk famously won&#8217;t run a company that he doesn&#8217;t have voting control over. So I think it&#8217;s just a new Valley thing and it&#8217;s pervading here for a couple of different reasons. There are seven of them. What seven different people do over the course of the next five to 10 years is as unpredictable as anything. What happens if one of them does something illegal or lies to the board or smuggles chips to China or anything? Is there some way to remove one of these founders from this LLC? Yeah. I mean, allegedly the trust has the power to remove. They haven&#8217;t said whether they have the power to remove all of the board or just some, but in some way when you&#8217;re looking at the fine print of the S-1, basically if the trust gives 30 days’ notice to essentially Daniela Amodei and her other two people on this subcommittee, then they can suggest removal of a board member. Again, they can waive that 30-day notice if they deem it correct, if Daniela does. But yeah, there&#8217;s a lot of fine print here. Essentially, yes, you can remove someone and there is stuff about that in the S-1 saying if they&#8217;ve done something illegal, if they&#8217;ve done something really bad, they can be removed, but it&#8217;s definitely not easy. It also depends on who it is, I think. It&#8217;s interesting. I keep coming back to this because it is so complicated, it&#8217;s so unusual, and it is right next to the Nvidia situation where he materially misrepresented his relationship to the shareholders by having his PR people issue statements saying it was all normal. He had to admit that it wasn&#8217;t all normal and he was in fact involved in extramarital affairs and the board fired him. I felt a little bad for that PR guy who had to put his name on all those statements that ended up being a lie. I feel nothing. As the audience may know, as Hayden is well aware, we make all the PR people put their names on everything just in case something like this happens. That&#8217;s just a little bit of Verge trivia. Anyhow, right, I mean, that&#8217;s just normal governance. Here you have a company where the only check might be the market itself, right? Yep. If they can&#8217;t sell tokens for more than what they make them for, they&#8217;re going to have to report that in the financials and the market might say this company is failing and pull all the money back. That is a very different kind of pressure. If the only meaningful way that Dario might lose his job is if the company goes bankrupt and then the swirl of things is he&#8217;s got to buy chips before OpenAI can buy the chips, he&#8217;s got to increase the number of verticals that Anthropic competes in within the enterprise, and he also idealistically has to train the next model and the next model with RSI to get to AGI, it feels like actually the pressure is to go as fast as possible. If I just added that up, I would say I would not slow down ever. Yeah. That&#8217;s why I say you can kind of explain away anything if you&#8217;re trying to be first, which they are. And they&#8217;ve been very public about that. Regarding the money thing, Ann Lipton, a law professor at the University of Colorado Law School, told me this week that the trust and the founders together are the ones who actually have governance power and that you either trust that they&#8217;re going to balance the interest of society appropriately or you don&#8217;t. But either way, the real constraint on whatever impulses they have is going to be the fact that Anthropic needs money. That&#8217;s the thing, Anthropic needs money. In a livestream recently, Dario told the CEO of JPMorgan Chase that compute is the “deepest business dilemma” that the company faces. Essentially if you buy too much, you can financially overextend yourself. If you buy too little, then you can&#8217;t support inference for customers. Even more importantly, you can&#8217;t do the R&D. You can&#8217;t come up with new models. So they&#8217;re extremely compute-constrained, even maybe more so than OpenAI because OpenAI was made fun of for a long time for losing a ton of money, but they were investing a lot in compute. Anthropic did not do that as much, and now they&#8217;re having to pay the piper . So it&#8217;s an interesting turnaround here. Hopefully for them and their interests, I guess, if they can get the compute they need. But as we know, the supply is a lot lower than the demand. So it&#8217;s just going to be interesting to see what they will do to make money and therefore money to buy compute. It&#8217;s funny. A couple of weeks ago I told our colleague, Liz Lopatto, that the Anthropic IPO would be one of the biggest stories of the year. She was laughing at me today, because she says it&#8217;s not even the biggest story of the week because of Jensen Huang and Nvidia. My argument — take it or leave it, and you can judge whether I&#8217;m correct — is that they are the same story. That if Nvidia’s financing architecture fails or wobbles because Jensen isn&#8217;t there to bully everyone into believing in it, then maybe you do have a glut of chips sitting in data centers without the appropriate permitting or power to light them up and the market for chips will change dramatically. Maybe a company like CoreWeave does get way more wobbly or some of the already wobbly neoclouds start to get wobbly and the price of compute falls and lets Anthropic compete differently. Maybe a bunch of chips that were allocated to China on the gray market come flooding back to the United States. That apparently will happen. Right? So there&#8217;s a lot of ways the Nvidia story affects Anthropic&#8217;s financials. Has the company said anything about that yet? Is the market reacting to that in any way? Not yet. They&#8217;ve just talked about how important compute is and that it&#8217;s going to be a really big issue for them. And Anthropic&#8217;s IPO, it has a lot of ties to Nvidia and there&#8217;s a lot of complexities here because Nvidia had agreed to buy $10 billion in Anthropic shares via private placement on top of a $10 billion funding promise it made last year. So they are in bed together, and that&#8217;s going to be interesting to see, too. The new CEO of Nvidia has made a lot of claims about diverting chips that were potentially going to China and bringing them back so they’re not doing that anymore. Now we&#8217;re going to see if there&#8217;s more supply or not. Also, Jensen personally made some of these deals, especially with large financial institutions to fund the AI infrastructure buildout last August. So he&#8217;s wheeling and dealing a lot. And so it&#8217;s going to remain to be seen whether the new chief executive has that kind of power to wheel and deal and pressure people into doing stuff like this or not. This is my last question. Obviously everyone&#8217;s just celebrating today. We are probably throwing the most cold water on this by noting that the structure of Anthropic is very odd. What should people be looking for? What are the signs that you&#8217;re looking for now that Anthropic is a stock that&#8217;s trading? What&#8217;s the relationship in your mind between the value of Anthropic stock on any given day and the broader AI story? I think that stock is a little bit like benchmarks in the AI industry in that sometimes it doesn&#8217;t mean what you think it means and also it never means everything. So you always take it with a grain of salt. It&#8217;s all vibes based. It&#8217;s all hype. So people get scared, they sell, and people hear one good thing or a rumor and they buy. So I think it&#8217;s important to look at it and see what&#8217;s driving that fear or hype that day or that week. But it&#8217;s also really important to see what the company says in these reports and earnings calls. That&#8217;s what I think is the most interesting. Not really the numbers all the time, but instead, what they try to sneak into these reports by saying, &#8220;Oh, we sidelined this team,” or, “We discontinued this safety initiative all in the name of being first.&#8221; That&#8217;s the type of thing that I think we&#8217;re going to see a lot of and that&#8217;s what I want to watch for. Because the company that made its bed on safe AI is increasingly looking the same as OpenAI and is going to have a lot of swept-under-the-rug type of updates like that, if my sources are right. You heard it here first. Former CNBC reporter Hayden Field says, look past the day-to-day swings into the fundamentals of the company. That&#8217;s good. Also, the stock market is only vibes. That&#8217;s the other thing I heard you say. Yep. I mean, it&#8217;s controversial, but after being a financial reporter, yeah, I mean, there&#8217;s a lot of vibes there. It&#8217;s a lot of vibes. Oh, I agree. I think sometimes the only thing they ask me to go on CNBC to say is this is just vibes, and then they usher me off the air very quickly. Hayden, this is great. We&#8217;re obviously going to be talking about this story many times with you in the year to come. Hopefully we can do another straightforward business story and not just a soap opera one. I&#8217;ll be here for both. We’ve got to do them both. Amazing. Thank you so much, Hayden. Thanks. Questions or comments? Hit us up at decoder@theverge.com. We really do read every email!",
-      "tags": [
-        "大模型",
-        "公司动态",
-        "安全"
-      ],
-      "score": 99
-    },
-    {
-      "title": "以下是可以存在于您的短信中的顶级AI代理",
-      "originalTitle": "Here are the top AI agents that can live in your text messages",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "date": "2026-11-21T17:00:00.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "越来越多的智能体不再需要下载额外的应用程序，而是像普通人一样，只需发短信即可。 您可以向它发送您需要的消息，它能够记住上下文，连接到您已经使用的应用程序和服务，并代您完成任务。 这可能意味着安排约会、整理日历、查询行程、发送电子邮件、预订、在线购物，或者在几天后提醒您某件事。 虽然Instinct目前是最热门的AI代理之一，这得益于其在最新一轮10亿美元的融资后达到了100亿美元的估值，但还有许多其他公司也在争夺这一领域。 以下是迄今为止最值得关注的选项，包括通用型个人助理，以及专为家庭、旅行和工作设计的智能体。 该公司在其网站上解释说，Ask Proxy最大的与众不同之处在于它“像女性一样思考”，这意味着它旨在在你提出要求之前就预见到你的需求。 它就像一个聊天机器人，您可以像和朋友一样发短信给它，无论您是需要礼物灵感、帮助规划活动，还是需要周末活动建议。 您可以要求它将重要日期添加到您的日历中、设置提醒，或帮助您做出日常决策。 您还可以向它发送照片，比如一张空桌子的照片，让它帮您想出如何为晚宴布置这张桌子。 与典型的聊天机器人不同，Ask Proxy 还会采取主动出击的方式。 当它注意到您可能遗忘的事情，或者当它发现您可能喜欢的全新活动、餐厅或体验时，它会主动联系您。 还有一款面向工作的版本，该公司解释说，该版本“让员工更快地重返工作岗位，同时将个人数据与公司系统隔离开来。” 个人版费用为每天1美元。 对于企业而言，大公司的定价为每名员工每月15美元起，员工人数少于49人的小团队的定价为每名员工每月23美元。 Ask Proxy 通过短信运作。 您可以将“start”发送至820-732-2625。 Caddy是一款人工智能助手，它可以将分散在您手机上的信息转化为您可以实际采取行动的内容。 对于 iPhone 用户，Caddy 位于 iMessage 中；对于 Android 用户，Caddy 位于 RCS 中，因此无需单独的应用程序或收件箱来不断查看。 例如，一封电子邮件中包含需要添加到您日历中的预约，或者朋友发来一份需要取货的清单。 Caddy 会连接到您的日历和对话，然后识别可能需要采取行动的事项，让您不再担心所有细节被埋没。 它可以将活动添加到您的日历中，设置提醒，跟踪跟进事项，甚至为您进行调研。",
-      "originalSummary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 94
-    },
-    {
-      "title": "两个英伟达的故事",
-      "originalTitle": "A tale of two Nvidias",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
-      "date": "2026-11-21T21:07:42.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "本周，我们看到了两个截然不同的英伟达形象，这取决于您关注的是该公司最新的财报，还是那些高声呼吁前首席执行官黄仁勋回归的技术高管。 在TechCrunch的Equity播客最新一期节目中，Kirsten Korosec、Tim De Chant和我讨论了这家人工智能芯片制造商的最新消息。该公司报告称营收飙升，并坚持表示没有让黄仁勋回归的计划。 Kirsten将此描述为“本周英伟达的两面故事”，该公司的现任高管向投资者保证：“别担心，我们能搞定。” 与此同时，“埃隆·马斯克和其他人正在竭力推动让黄仁勋回归，他们发起了一份请愿书，黄仁勋本人也表示他已做好回归的准备。” （该公司股价的下跌无疑表明华尔街并不感到放心。 ）请继续阅读，以预览我们的对话内容（为篇幅和清晰起见，内容经过编辑）。 Kirsten Korosec：英伟达将不再在中国销售其H200芯片。 这是临时首席执行官科莱特·克雷斯（Colette Kress）直接宣布的，这与特朗普政府也谈到要封锁我们过去讨论过的内容不谋而合，即远程访问的理念——真正封锁并收紧所有这些限制，[从而]让芯片无法进入中国。 当时的情况是，数据中心正在境外建立，比如在马来西亚等国家/地区，然后中国境内的公司远程访问这些芯片，现在这也已经被叫停了。 在中国方面正在发生很多事情，其影响远远超过Nvidia，但Nvidia公开表示：“不，我们要关闭这一业务。 “我很想知道这种情况是否会发生变化，也许在2027年上半年。 Tim De Chant：我很想像只苍蝇一样旁听特朗普政府的一些谈话，因为在第一届特朗普政府的末期，他们在出口管制方面要严格得多，这种情况在拜登政府期间也得以延续，他们确实限制了英伟达向中国出口芯片的能力。 我认为，过去几年里发生了一些变化，这些变化真正打开了Nvidia在该国销售的大门。 Anthony Ha：在我们筹备本期节目时，令我感到非常惊讶的一件事是[了解到]批评Nvidia对华立场的那些人估计，该公司有20%的业务来自中国。 同样，这并不是您会在他们的财务报表中直接看到的东西，因为这不是直接向中国公司销售。 但他们说：“很多卖给马来西亚公司或东亚、东南亚其他公司的芯片最终都会被[中国的公司]使用。” “所以，如果英伟达真的对此很重视——我认为这件事情还在不断变化中——这实际上可能会对其利润造成相当大的打击。” Kirsten：尽管英伟达的净利润表现相当不错。 从各个方面来看，他们的业绩指引都非常出色。 他们超出了预期。他们有很长的产品线。",
-      "originalSummary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
-      "rawFullText": "",
-      "tags": [
-        "算力芯片"
-      ],
-      "score": 83
-    },
-    {
-      "title": "联合国未能就“杀手机器人”的监管规则达成一致",
-      "originalTitle": "The UN fails to agree on rules regulating ‘killer robots’",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "date": "2026-11-21T20:03:37.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：机器人相关动态",
-      "fullContent": "本周在日内瓦举行的联合国外交官会议的议程之一是制定关于使用自主武器（或所谓的“杀手机器人”）的规则。经过一周基本毫无成果的谈判后，代表们最终在会议结束时同意“开始讨论各种方案”。 据NPR报道：在谈判开始之前，作为《日内瓦公约》守护者的红十字国际委员会表示，迫切需要在一年内起草具有法律约束力的规则。 这一呼吁得到了联合国秘书长和教宗利奥的支持。 达成的妥协是，各国将……在The Verge上阅读全文。",
-      "originalSummary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [&#8230;]",
-      "rawFullText": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR : Before the negotiations got underway, the International Committee of the Red Cross, the guardian of the Geneva Conventions, said it was urgent for legally binding rules to be drafted within a year. That call was backed by the U.N. secretary-general and by Pope Leo. The compromise reached was that countries would inste … Read the full story at The Verge.",
-      "tags": [
-        "机器人"
-      ],
-      "score": 82
-    },
-    {
-      "title": "Chess.com 的下一步棋是打造一个经典游戏的新平台，涵盖麻将到数独等各种游戏",
-      "originalTitle": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
-      "date": "2026-11-21T14:00:00.000Z",
-      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
-      "fullContent": "Chess.com 准备好要比国际象棋走得更远。 今年早些时候，该公司推出了一个不涉及赌博的扑克网站Gambit ，现在又增加了10款游戏：西洋双陆棋、跳棋、围棋、红心大战、麻将、将棋、数独、纸牌、象棋以及一款名为Word的拼字游戏替代品。 这些游戏都是Chess全新经典游戏平台的一部分，该平台将于周六在网页上以及通过面向iOS和Android的全新应用程序推出公开测试版。 “很多人会来找我们的联合创始人，说：‘嘿，我周三晚上会组织麻将活动’，或者‘我和大约五个人一起去芝加哥的一家本地酒吧，我们喜欢下围棋，但我们缺少一个下象棋的人……’在The Verge上阅读完整报道。",
-      "originalSummary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching [&#8230;]",
-      "rawFullText": "Chess.com is ready to go a lot bigger than chess. After launching Gambit , a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word . They're all part of Chess's new Classic Games platform, which is launching its public beta on Saturday on the web and through a new app for iOS and Android . \"Our cofounders have had many people come up to them and say, 'Hey, I run a mahjong night on Wednesdays' or 'I go to this local bar in Chicago with like five people, and we love playing go, but we lack a Chess.c … Read the full story at The Verge.",
-      "tags": [
-        "产品发布"
-      ],
-      "score": 80
-    },
-    {
-      "title": "Signal 正在阻止 Gemini 和 Siri AI 读取您的屏幕",
-      "originalTitle": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "date": "2026-11-20T12:30:47.000Z",
-      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、智能体相关动态",
-      "fullContent": "iOS 上的 Signal 用户将看到此选项，用于切换是否阻止截屏，以及是否阻止 Siri AI 扫描屏幕内容。 |图片来源：Signal Signal正在限制Android和iOS设备上的截屏功能，以防止人工智能代理读取用户的消息和其他数据。 Signal总裁Meredith Whittaker在一篇博客文章中表示，内置于操作系统中的代理式人工智能功能会分析屏幕上的信息，以了解更多有关用户的信息，这“削弱了Signal独立保障隐私的能力”，同时她敦促操作系统提供商让应用程序开发人员更容易控制代理可以访问哪些数据。 “我们要非常明确地指出：Signal以及其他应用程序开发人员缺乏强大的工具来防止AI时代……在The Verge上阅读全文。",
-      "originalSummary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president [&#8230;]",
-      "rawFullText": "Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president Meredith Whittaker said in a blog post , while urging OS providers to make it easier for app developers to control what data agents can access. \"We want to be very clear: it is a serious problem that Signal - and application developers beyond - lack robust tools to prevent AI age … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "智能体"
-      ],
-      "score": 99
+      "score": 87
     },
     {
       "title": "Hebbia借助GPT-6 Astra实现了财务研究的改进",
@@ -215,7 +127,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "对抗对抗性蒸馏",
@@ -231,38 +143,52 @@
         "公司动态",
         "模型"
       ],
-      "score": 98
-    },
-    {
-      "title": "Anthropic 的数学家声称已使用 Claude 解决了著名的千年大奖难题",
-      "originalTitle": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "date": "2026-11-20T16:34:13.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic 于 2026 年 11 月 19 日上市。 |图片来源：Getty Images Anthropic的数学家Levent Alpöge声称，在Claude的帮助下，他证明了黎曼猜想——数学界公认的最棘手难题之一，破解了这个让世界上一些最优秀的数学家苦苦思索了几十年的谜题。 如果得到证实，这将标志着人工智能在数学领域又取得了一项具有里程碑意义的成就，并进一步加剧了OpenAI此前在该领域所进行的、往往并不优雅的探索所引发的颠覆性影响。 Alpöge的解法尚待独立验证。 Anthropic尚未对Alpöge的声明发表评论或介入其中。 Alpöge在其网站上的一份文件中表示，他曾给Anthropic首席执行官Dario Amodei发短信……请在The Verge上阅读全文。",
-      "originalSummary": "Anthropic mathematician Levent Alp&#246;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval [&#8230;]",
-      "rawFullText": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alp&ouml;ge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval already unleashed by OpenAI's previous, often inelegant forays into the field. Alp&ouml;ge's solution has yet to be verified independently. Anthropic has not commented or involved itself in Alp&ouml;ge's announcement. In a document on his website , Alp&ouml;ge says he texted Anthropic CEO Dario Amodei abo … Read the full story at The Verge.",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
       "score": 97
     },
     {
-      "title": "英伟达黄仁勋丑闻的影响仍在持续",
-      "originalTitle": "The fallout from Nvidia’s Jensen Huang scandal continues",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
-      "date": "2026-11-20T14:55:44.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "在应对罢免首席执行官黄仁勋所带来的余波之际，英伟达本周发布了最新财报，显示出稳健的增长态势，并承诺美好势头将持续下去。 与此同时，这家芯片制造商表示将停止在中国销售其H200芯片，并驳回了 […] 的呼吁。",
-      "originalSummary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismissed calls to [&#8230;]",
+      "title": "人工智能能否帮助科学家识别有前景的候选药物？",
+      "originalTitle": "Can AI help scientists identify promising drug candidates?",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-medchembench",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：模型相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“人工智能能否帮助科学家识别有前景的候选药物？”。它主要涉及模型方向，热度评分为 85。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "rawFullText": "",
       "tags": [
-        "算力芯片"
+        "模型"
       ],
-      "score": 89
+      "score": 85
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 79。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 79
+    },
+    {
+      "title": "MIT Technology Review：模型相关动态",
+      "originalTitle": "The most misunderstood graph in AI just got a major update",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "date": "2026-11-20T18:15:15.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：模型相关动态”。它主要涉及模型方向，热度评分为 78。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely&#8230;",
+      "rawFullText": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared— and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans. Each task’s difficulty was scored by how long it took the human testers to finish it—and then models were rated according to the length of the tasks that they could complete. That plot showed that AI systems were rapidly improving—every four months, the length of the tasks that frontier models could successfully complete doubled. The updated plot adds more tasks—some that are estimated to take humans far longer than those in the original suite, and others that are more open-ended. One of the biggest questions in AI right now is the extent to which progress on “verifiable” tasks—where it’s possible to check automatically whether an AI system has succeeded or failed—carry over into tasks on which success or failure is harder to measure. We know how to teach neural networks how to do verifiable tasks: Researchers have the systems attempt one many times, strengthen the neural pathways that contribute to success, and weaken the pathways that contribute to failures. That’s why AI systems have become so good at coding and math, two domains where it’s possible to determine automatically whether a solution does or doesn’t work. It’s much harder to apply this technique, known as reinforcement learning, to tasks where success is less well defined or takes longer to ascertain—such as choosing a new research direction. For the same reason, it’s tough to evaluate AI performance on these tasks, so METR’s original time horizon plot didn’t include any of them. But it’s precisely this type of task that will prove essential if AI systems are to automate research and development. And AI research and development is an especially hot topic right now. Parts of the AI community are still reeling from a different, heavily redacted METR report from earlier this month, which claimed that AI might be speeding up the pace of AI progress at Anthropic by a factor of two. That report sparked fears that the company (which just had a blockbuster IPO) could soon achieve full recursive self-improvement, a regime in which AI systems autonomously design their own successors with no human involvement. METR researchers have worked to make sure their new suite of tasks includes some of the fuzzier, judgment-laden ones that could be most relevant to AI research and development. In one task, they ask models to design new AI evaluations that METR could use in its research and then have human METR employees score the results. Even though the most advanced models are now better than almost every human at software engineering, here they fall short: Not one of the AI-designed evaluations was good enough for METR employees to consider it useful for their research. In another task, models have to score philosophical arguments. This task is intended to capture the extent to which models can exercise good judgment—though METR writes in the report that employees disagree about how relevant the task is for automation of AI R&D. On this task, too, models fell short of human performance. Though it’s difficult to score these new tasks—and even harder to determine what the scores mean—experts I spoke with appreciate that METR is incorporating new types of evaluations into its work. “We’re at the point where AI evaluations need to get more creative,” says Sayash Kapoor, a computer scientist and incoming professor at UC Berkeley. “Trying to push the envelope of the space of evaluations is a welcome change.” Kapoor says he wasn’t surprised to see that models fall short of performance on more open-ended tasks, such as designing an AI evaluation—in a preprint from August , he and his collaborators reported that AI models are not yet able to reproduce human computer science research on their own. And in a Wednesday blog post, OpenAI reported that its models don’t do as well on the real-world tasks its employees assign them as they do on the easier, more verifiable tasks in METR’s original suite. Still, people disagree about how to interpret current performance differences on easily verifiable and hard-to-verify tasks, Kapoor says. Though he thinks that research taste—the ability to choose promising questions, hypotheses, and experiments—will prove a major bottleneck in automating AI R&D, others contend that models trained on easy-to-verify tasks will eventually be able to successfully complete open-ended tasks as well. And progress on verifiable tasks doesn’t seem to be slowing down.&nbsp; Even if the models do lag behind human performance on open-ended tasks right now, the new report suggests that they might be getting better. Some of the newest models, such as Opus 5.5, tend to achieve what METR calls “borderline above the bar” performance on the evaluation design tasks—not yet usable for METR&#8217;s research, but promising. Just a year ago, every model was scoring in the “clearly below the bar” category. But because these open-ended and judgment-heavy tasks are so tough to design and score, METR includes few of them in its report, and that makes it difficult to predict whether and how models might continue to progress in these areas. “The improvement we observe, I think that does tell us something for the current moment,” says Najoung Kim, a linguist and computer scientist at Boston University. “I’m not sure just yet how to think about how it would extrapolate.” Matt Putz, a member of the technical staff at METR, says that predicting progress on these kinds of tasks is likely to remain difficult. “By their nature, hard-to-verify or judgment-laden tasks are much harder to study, and especially to quantify,” he said in an email. “Ultimately, I don’t think we’ll be able to establish trends as clean and robust as for the easy-to-specify [tasks].” In general, METR is clearly butting up against the practical difficulties of testing AI performance on difficult and underspecified tasks—precisely the ones most relevant to automating AI R&D. METR’s time horizon plots score task difficulty by evaluating how long it would take a human to complete the task, and for the original plot they measured this quantity by actually having people try each task.&nbsp; In the new report, however, the completion times are mostly estimates, because paying people for tasks that might take hundreds of hours, or that only a few experts are qualified to complete, is prohibitively expensive and time-consuming. Other tasks have more specific shortcomings—for example, for the philosophical argument task, just one person rated most of the arguments, and agents are judged by how well they agree with that particular individual. It’s possible that the scores would change if more experts were surveyed—but that, too, is time-consuming. It’s still early days for evaluating models on tasks that are hard to validate or require judgment. And while the experts I spoke with see the inclusion of these tasks in METR’s newest time horizon plot as a clear step in the right direction, they agree that we are still far from achieving any definitive answers about whether, and how quickly, automated AI R&D might be coming. “This move toward open-ended tasks is promising,” Kapoor says. But, he adds, “there is just such a lot more to be done to actually get a fuller understanding.”",
+      "tags": [
+        "模型"
+      ],
+      "score": 78
     },
     {
       "title": "OpenAI 的性能工厂如何让 ChatGPT 保持快速",
@@ -293,7 +219,7 @@
       "tags": [
         "安全"
       ],
-      "score": 86
+      "score": 85
     },
     {
       "title": "查看 PR 扫描的实际运作情况",
@@ -308,7 +234,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "开始使用Daybreak Blue",
@@ -323,7 +249,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "探索 Codex Security 插件",
@@ -338,53 +264,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 79
-    },
-    {
-      "title": "研究加速：崎岖的前沿",
-      "originalTitle": "Research acceleration: The jagged frontier",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "date": "2026-11-18T08:00:00.000Z",
-      "summary": "这条新闻与公司动态、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态、智能体相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“研究加速：崎岖的前沿”。它主要涉及公司动态、智能体方向，热度评分为 99。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态",
-        "智能体"
-      ],
-      "score": 99
-    },
-    {
-      "title": "住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise",
-      "originalTitle": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/customer-stories/sumitomo-life",
-      "date": "2026-11-18T08:00:00.000Z",
-      "summary": "这条新闻与大模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“住友生命保险的领导者如何帮助团队采用 ChatGPT Enterprise”。它主要涉及大模型方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "rawFullText": "",
-      "tags": [
-        "大模型"
-      ],
-      "score": 92
-    },
-    {
-      "title": "默契共识",
-      "originalTitle": "The Silent Consensus",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-silent-consensus",
-      "date": "2026-11-18T10:00:00.000Z",
-      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
-      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：公司动态相关动态”。它主要涉及公司动态方向，热度评分为 93。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "rawFullText": "",
-      "tags": [
-        "公司动态"
-      ],
-      "score": 91
+      "score": 78
     },
     {
       "title": "Streamhouse 中的时间序列模型：新前沿与用例",
@@ -399,7 +279,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "人工智能炒作指数：人工智能无处不在",
@@ -414,7 +294,52 @@
       "tags": [
         "机器人"
       ],
-      "score": 79
+      "score": 78
+    },
+    {
+      "title": "Hugging Face：模型相关动态",
+      "originalTitle": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/rumble-2-flash",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
+      "rawFullText": "",
+      "tags": [
+        "模型"
+      ],
+      "score": 77
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "date": "2026-11-18T19:54:56.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
+    },
+    {
+      "title": "Hugging Face：AI 热点相关动态",
+      "originalTitle": "Why your fine-tuning job takes longer than the FLOPs say",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "date": "2026-11-18T18:53:43.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 72
     },
     {
       "title": "调研报告",
@@ -429,7 +354,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -462,7 +387,7 @@
         "智能体",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -477,7 +402,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
@@ -492,7 +417,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "使用SimReady资产构建机器人拾取和放置模拟",
@@ -507,22 +432,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 76
-    },
-    {
-      "title": "XYBench：帮助解决问题背后的难题",
-      "originalTitle": "XYBench: Helping with the problem behind the question",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/xybench",
-      "date": "2026-11-13T17:02:35.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 74。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 68
+      "score": 75
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -537,7 +447,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 68
+      "score": 67
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -552,22 +462,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 80
-    },
-    {
-      "title": "LLMON：一种LLM原生标记语言，现已在Granite 4.1 3B和8B中推出",
-      "originalTitle": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "date": "2026-11-12T19:07:35.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 73。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 67
+      "score": 79
     },
     {
       "title": "对数据中心的抵制可能真的只是针对用电问题",
@@ -582,22 +477,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 62
-    },
-    {
-      "title": "南希·佩洛西的继任者已准备好监管人工智能",
-      "originalTitle": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-      "date": "2026-11-09T17:05:43.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“MIT Technology Review：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;",
-      "rawFullText": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&nbsp; I spoke with Wiener on Friday, only a few hours after he had been declared the victor. But he was already thinking about AI risk. The previous day, the AI nonprofit METR had released a report that had been widely interpreted as evidence that Anthropic had achieved recursive self-improvement, a phenomenon in which AI meaningfully contributes to its own advancement and AI progress potentially spins out of control. “It’s very concerning,” Wiener said, citing the report as evidence that we are quickly running out of time to regulate AI. “It was my hope that Congress would take decisive action before [the end of] this year,” he said. “That does not appear to be happening.” Wiener has been increasingly focused on AI in recent years, and he’s made many of the AI safety movement’s concerns his own: During our 20-minute conversation, he used the phrase “recursive self-improvement” half a dozen times, for example.“We need to slow this down,” he says. “Because it’s moving very quickly, and we could sleepwalk into a disaster.” Wiener has already had real influence on AI policy. SB 1047, a bill that he authored in 2024, was set to become the first real piece of frontier AI legislation in the country before it was vetoed by California governor Gavin Newsom; he then sponsored SB 53, a lighter-touch bill that Newsom signed. Both bills have inspired proposed federal legislation.&nbsp; Wiener’s congressional campaign received over $3 million from Public First Action, a nonprofit in favor of AI regulation that receives substantial funding from Anthropic. That contribution led opponents to criticize him for being too close to the AI industry , but Wiener says that couldn’t be further from the truth.&nbsp; “Public First supported me because I was the first lawmaker in the country to introduce AI regulation and the first to pass it and get it implemented,” he wrote in a message after our interview. “The attacks on me for [Public First’s] support were shockingly cynical—literally attacking a candidate who actually regulated AI over Big Tech’s objection and falsely claiming the candidate is somehow too close to Big Tech.” Wiener says that if Congress forms a select committee on artificial intelligence—something that Democrats have discussed since September—he’d be eager to serve. And he’s enthusiastic about many of the policy ideas floating around Congress. “I think it’s really important to have a strong, empowered, nimble federal regulator,” he says, noting that Representative Ro Khanna, a fellow Democrat from California, has proposed legislation to establish such a regulator.&nbsp; He also highlights the importance of whistleblower protections, testing and auditing requirements, and a kill switch requirement, and he wants to see Congress leverage its oversight powers to hold the AI labs to account. “This is about the future of humanity, and we want to make sure that the public has a say and that the public knows what&#8217;s going on,” he says. And as a longtime state legislator, he is opposed to broad federal preemption of state AI laws, which some of the proposed federal legislation would require. “States are, as Brandeis says , laboratories,” he notes. “You want the states to be able to continue to be nimble in ways that Congress sometimes is not.” Above all, Wiener says, he wants Congress to pass policies with real teeth. “It’s critically important that when Congress acts, that we do so in a way that is truly meaningful and that meets the moment,” he says. That means taking seriously the possibility of AI catastrophe, something he discusses in the sort of language typically used by AI safety experts. “We’re in a moment that is very dangerous in terms of the risk of loss of control over AI,” he told me. “We need to deal with recursive self-improvement. Once you’re in that realm, that really is potentially a recipe for total loss of control.” He’ll have some allies in the fight against catastrophic AI risk. Senator Bernie Sanders, for instance, has met with many of the AI safety movement’s most influential figures and has spoken repeatedly about AI and existential risk. But there’s still a large gap between Wiener’s Bay Area, AGI-pilled perspective and the national mood on AI, which is anchored by opposition to data centers. The fact that voters approved 40 out of 41 anti-data-center ballot measures on Tuesday might seem to be a good sign for Wiener and others who support AI regulation, but Wiener says he sees this movement as far more tied to local concerns than to bigger questions about AI risk. “Peoople who are really opposed to where AI is going—this is an area where they can actually do something about it,” he says. “But the data center revolt—to me, I think it’s more so that people are upset that there could be something like this in their community, with all the impacts near people’s homes, driving up electric bills and using water. I think that’s the bigger issue for most people, from what I can tell.” Wiener describes himself as only “cautiously optimistic” about Congress’s ability to rein in AI, given its poor track record on regulating the tech industry. He also has concerns about the ability to get legislation past President Donald Trump, who called concerns about catastrophic AI risk a “hoax” in September and has demonstrated a stark unwillingness to collaborate with China, something that Wiener sees as essential to preventing the worst consequences of AI. But he says Trump’s unpredictability provides&nbsp; some measure of hope, though it’s a fraught kind of hope. “So far what we’ve seen are some problematic things, but not complete disasters,” Wiener says. “I hope that it doesn’t take a disaster to spur the president into acting. And I hope if that’s what it does take—which, like I said, I hope it doesn’t—but if it does, I hope it’s as small as possible.”",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 62
+      "score": 61
     }
   ]
 }
