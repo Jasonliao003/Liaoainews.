@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T06:51:47.322Z",
+  "updatedAt": "2026-11-25T05:18:54.648Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,21 +19,100 @@
   ],
   "articles": [
     {
-      "title": "Anthropic推出Claude Ship，让AI代理审查、修复和批准代码变更",
-      "originalTitle": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "title": "耶鲁大学的森嫩菲尔德：英伟达对美国工业实力“有害”——而非捍卫者",
+      "originalTitle": "Yale&#8217;s Sonnenfeld: Nvidia is a &#8216;detriment&#8217; to US industrial might — not a champion",
       "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "date": "2026-11-23T22:05:50.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：大模型、公司动态相关动态",
-      "fullContent": "Anthropic正在从让Claude编写代码转向帮助开发者决定何时可以发布该代码。 周一，这家新近上市的人工智能公司宣布推出Claude Ship，这是一套用于自动化代码审查、修复和常规代码变更批准的人工智能代理。 后者是这套新工具中更有趣的部分，因为在此之前，AI编码工具就已经提供了代码审查功能。 Claude Ship的显著之处不仅在于它能够审核拟议的代码变更，并识别和解决问题，而且它还包含一个代理，该代理可以根据开发团队制定的策略自动批准代码变更。 此次发布正值人工智能编码代理日益具备生成大量代码的能力，导致在代码变更上线前审查和批准代码变更方面出现瓶颈。 使用Claude Ship，其理念是将开发过程中更多的工作自动化，本质上是将审批权限委派给AI代理本身。 “大多数团队都希望由专人来批准每一处变更，当人们亲自编写每一行代码时，这样做很容易跟上进度。 但现在很多开发人员都使用代理进行开发。”该公司的一篇博客文章解释道。 “在Claude Code团队中，Claude编写了我们的大部分代码，我们希望PR之后的所有工作也能同样快速推进。” Claude Ship正在推出测试版，让早期采用者能够使用它来审核拉取请求（PR），然后决定哪些内容已准备好合并。 新产品包括已正式发布的代码评审功能，以及目前处于测试阶段的两个新代理：PR Steward和Claude Approvals。 PR Steward专注于解决CI检查失败、合并冲突以及代码评审反馈等问题。 它还会在每次推送后发表评论，说明更改了哪些内容，以及在需要时如何回滚。 然后，Claude Approvals 会应用团队以文件形式写入代码仓库的审批策略。 此审批流程可以纳入各种信号，包括代码审查结果或公司自己的分类器，以及以自然语言撰写的政策。 由于该产品仍处于测试阶段，Anthropic建议首先以“仅观察”模式运行审批功能。 团队还可以选择仅从一个代码仓库开始，并设置每月支出限额，以便更好地控制该流程。 Anthropic表示，团队仍将掌控Claude Ship的运行位置、要使用的审核设置（例如 快速、标准或深度），以及哪些变更应上报给人工进行决策。 Claude Ship正在面向GitHub上的代码仓库推出Claude Team和Enterprise套餐。 代码审核已正式上线，而 PR Steward 和 Claude Approvals 仍处于测试阶段。 当您通过我们文章中的链接购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 一家初创公司在印度起诉苹果，原因是“轻点分享”联系人功能 Jagmeet Singh",
-      "originalSummary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "date": "2026-11-25T00:12:02.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "耶鲁大学的杰弗里·桑菲尔德（Jeffrey Sonnenfeld）警告说，市场周一欢呼的黄仁勋在白宫支持下重返英伟达担任首席执行官和董事会成员一事，可能会被证明是一个巨大的错误，使董事们因日益增多的诉讼而面临“历史性”的个人责任，并引发人们质疑该国是否在为一家曾帮助将先进芯片交到其对手手中的公司欢呼。",
+      "originalSummary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+      "rawFullText": "",
+      "tags": [
+        "算力芯片"
+      ],
+      "score": 91
+    },
+    {
+      "title": "即使是最好的 AI 代理也难以应对日常生活",
+      "originalTitle": "Even the best AI agents struggle with everyday life",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "date": "2026-11-24T21:33:29.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体、评测相关动态",
+      "fullContent": "随着数以百万计的人开始使用个人人工智能助手，一项新的基准测试表明，即使是最先进的人工智能模型，在不引入潜在新问题的情况下，也很难可靠、安全地完成日常任务。",
+      "originalSummary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "GPT-6模型展现出内在的蛋白质设计能力",
+      "originalTitle": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "date": "2026-11-24T13:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "我们的GPT‑6系列模型仅使用推理和代码即可设计出新的蛋白质形状及其化学结构单元的序列，而无需调用专门的生物学模型来生成这些设计。 在许多蛋白质设计任务中，一个内部研究模型与专业模型表现相当或更胜一筹。 研究人员还可以通过提示模型蛋白质应附着的位置及其应采取的形状来指导设计。 在与Onava的实验室测试中，基于GPT‑6.2设计的蛋白质显示出在五个靶标上具有结合或附着作用的证据。 经过重新设计的抗体也保留了结合能力。 专用模型有助于提供序列并选择候选物进行测试。 这些模型的书面推理和代码表明，它们借鉴了数学、物理学、化学和生物学知识，来推理蛋白质的形状及其与其他分子的相互作用。 在一篇题为《GPT‑6 作为蛋白质生物学的通用基础模型：超越专用模型》的预印本中，我们展示了我们的 GPT‑6 系列模型具有设计新蛋白质的固有能力：这些模型仅使用推理和通用编码工具，无需依赖专用生物学模型，即可设计出新的蛋白质结构和序列。 蛋白质在活细胞中承担着大量工作。 它们驱动维持生命的化学反应，通过血液输送氧气，并保护身体免受感染。 形状不正确的蛋白质也可能导致疾病和功能障碍。 蛋白质由称为氨基酸的化学结构单元链构成。 这些氨基酸的排列顺序（或称序列）有助于决定蛋白质如何折叠成三维形状，而这又会影响蛋白质的功能。 科学家们通常一开始就对他们希望蛋白质发挥的作用有明确的认识。 他们可能希望蛋白质能够阻断帮助癌细胞逃避免疫系统的信号，或者帮助从空气中捕获二氧化碳。 挑战在于弄清楚哪种三维结构能使蛋白质发挥作用，以及哪种氨基酸序列能赋予它这种结构。 能够生成三维蛋白质结构和序列的专业生物学模型使这项工作更具实用性。 使用和协调这些专用模型需要具备丰富的专业知识。 每个模型都接受特定类型的输入和约束，如果不更改其软件或进行额外训练，这些模型就无法轻松接受新类型的信息。 相比之下，能够执行多个专用模型工作的通用模型可以轻松适应新的指令和要求。 我们的研究展示了将自然语言与蛋白质的固有能力相结合的潜在威力。 我们可以指导我们的模型，其规模范围从两个原子之间的单键到蛋白质的整体形状。 例如，我们询问了GPT-6。 2 来预测小分子会在哪里以及如何与蛋白质结合。 当我们已经知道哪两个原子形成了键时，就可以将该信息提供给模型，并询问分子的其余部分将如何匹配。 我们只需更改提示，即可在这些任务之间切换，而无需重新训练模型。",
+      "originalSummary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "rawFullText": "",
       "tags": [
         "大模型",
-        "公司动态",
-        "智能体"
+        "推理",
+        "模型"
       ],
       "score": 99
+    },
+    {
+      "title": "Clay 通过 Codex 和 ChatGPT 帮助销售团队取得成功",
+      "originalTitle": "Clay helps sales teams win with Codex and ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "这条新闻与大模型、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、推理相关动态",
+      "fullContent": "ChatGPT 和 Codex 集成可帮助 Clay 用户研究交易，并将数据转化为市场进入策略，而 GPT-6 模型则负责推理。 即使销售团队拥有大量关于潜在客户的数据，他们仍然可能难以弄清哪些因素最重要，并制定出成功的推销方案。 Clay ⁠（在新窗口中打开）是一款旨在提供帮助的自学习营收引擎。 借助GPT‑6 Astra、GPT‑6 Sol和其他模型，Clay让用户能够创建公司和人员列表，使用代理丰富这些记录，并将这些信息用于市场进入策略。 Clay 还将这些功能带到客户已经在使用的 Codex 和 ChatGPT 插件中，让创建和运行入市工作流程以及研究客户和交易变得更加容易。 “ChatGPT 中的 Clay 为销售代表提供了一种方式，让他们能够更深入地了解他们试图推销的客户。 它将所有这些丰富的背景信息带到他们已经在使用的工具中。” Clay 的 Codex 集成让构建者能够在 Codex 中创建和运行入市策略，同时让销售代表能够访问数据，用于研究客户或了解他们正在努力达成的交易。 Jeff 曾看到销售代表将自己系统中的信息与公共数据集相结合，以确定如何最有效地向客户传达其产品的价值。 “客户喜欢使用 Codex 完成销售中的许多不同任务，”他说。 “我们看到，最优秀的销售代表从中受益最大。” Clay 的 ChatGPT 插件将相同的客户数据引入销售代表已在使用的另一款工具，帮助他们在不离开 ChatGPT 的情况下进一步了解潜在客户。 Jeff 表示：“这取得了巨大成功。” OpenAI 模型为 Claygent 的研究、资格认定、数据扩充和信号检测提供支持，并为帮助用户构建工作流程和协调其他 Clay 代理的代理提供支持。 Clay 将 GPT‑6 Sol 作为其主要模型，使用 GPT‑6 Astra 处理更难的任务，使用 GPT‑6 Luna 处理对成本敏感的工作。 该系列支持背景研究和文案撰写，以及用户直接与之合作的代理。 通过Responses API，Clay可以经由同一个接口使用不同级别的智能和成本。 “在不同的价格点使用相同的Responses API，这是OpenAI模型对我们来说非常有吸引力的一点。”Jeff表示。 GPT‑6 Astra 还能帮助 Jeff 构建和测试软件。 他过去曾花大量时间手动检查自己构建的功能；现在，他可以让 GPT‑6 Astra 处理更多此类工作。 他解释道：“GPT‑6 Astra真正改变了我构建软件的方式，因为它完全闭合了工程流程的闭环。 现在，我可以让Astra编写代码、添加测试，然后实际运行测试并测试功能，再将结果记录下来并上传到PR中。 这大大简化了我的工作。 ”",
+      "originalSummary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "推理",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "沃尔玛与Meta合作，将黑色星期五优惠带到AI代理Muse",
+      "originalTitle": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "date": "2026-11-24T21:32:38.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "借助人工智能购物不再是一个遥远的未来概念，而是企业希望我们去做的事情。 沃尔玛是最新一家实现这一转变的零售商，它与Meta合作，让顾客通过Meta的AI代理Muse选购其黑色星期五特惠商品。 这项合作关系于周二宣布，为购物者提供了另一种方式来查找商品、比较价格和下单购买，而无需亲自浏览沃尔玛的网站。 相反，顾客只需告诉 Muse 他们想要什么，然后让 AI 来完成这项工作。 该公告凸显了沃尔玛和亚马逊在人工智能购物方面的不同做法。 虽然亚马逊已采取措施阻止第三方人工智能代理为顾客下单购物，但沃尔玛却倾向于采纳这一做法。 要开始使用，用户需要打开 Muse 应用，登录他们的沃尔玛账户，然后返回助手界面开始购物。 他们可以要求它查找特定商品、比较各种选项或寻找优惠。 顾客在Muse中提出请求后，助手会将请求发送给沃尔玛，沃尔玛会返回相关商品并帮助顾客创建购物车。 沃尔玛表示，它已将隐私保护功能内置于该体验中。 例如，Muse无法访问顾客的沃尔玛购物历史或其他个人信息。 购物者还可以设置消费限额，要求在下单前获得批准，并审核代理下单的订单。 此外，该公司指出，用户如果愿意，随时可以删除其代理的个人资料。 这项体验由沃尔玛的Agent Gateway提供支持，这是一个新系统，允许外部人工智能助手直接与该零售商的网上商店连接。 该功能于10月推出，该公司计划向更多开发者和人工智能平台开放，这意味着Muse最终可能只是能够浏览沃尔玛网上商店的多个助手之一。 沃尔玛并不是唯一一家与Meta的Muse合作的公司。 Instacart 最近也与这款 AI 助手联手。 除了 Muse 之外，沃尔玛最近还为其自有购物助手 Sparky 推出了更多由人工智能驱动的功能。 一些较新的功能包括将手写的购物清单转换为购物车，使用照片和语音指令查找商品，以及帮助顾客在当地商店内找到所需商品。 顾客可以搜索商品，并在商店地图上使用图钉查看商品确切所在的货架。 还有一个“闪光价签”按钮，可以让商品的货架标签亮起来。 当您通过我们文章中的链接购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 Lauren在TechCrunch负责报道媒体、流媒体、应用程序和平台。",
+      "originalSummary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
+    },
+    {
+      "title": "Meta 将其 Muse AI 助手直接引入 Instagram 私信",
+      "originalTitle": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "date": "2026-11-24T17:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
+      "fullContent": "该公司周二宣布，Instagram用户现在可以在私信会话中与Meta的AI代理Muse聊天。 这家社交媒体网络表示，用户可以与Muse聊天，以获取有关他们看到的帖子、地点或产品的更多背景信息，或者跟进他们在其他私信中可能错过的对话。 通过此次新集成，用户在希望与AI代理互动时，无需再在Instagram和Muse应用之间来回切换。 这也反映出科技公司之间日益激烈的竞争，它们都希望将人工智能助手融入用户的日常数字生活。 通过将Muse直接嵌入Instagram，Meta让用户更轻松地使用这款AI助手，同时还让Muse能够访问一个用户已经用来发现产品、地点和内容的平台。 用户可以将 Instagram 帖子分享给 Muse，并要求它采取行动，例如将一家咖啡馆添加到他们的墨西哥城行程中，或寻找一双鞋子的黑色星期五优惠。 Meta指出，在Instagram上与Muse的对话将以侧边聊天的形式显示在Muse主应用中。 Instagram 私信中的 Muse 将于周二开始面向美国、加拿大、墨西哥、日本和新加坡的 iOS 和安卓用户推出。 Meta 还宣布，用户现在可以对他们在 Instagram 上收藏的帖子和短视频进行更多操作。 例如，他们可以要求 Muse 将已保存的内容整理到自定义文件夹中，这些文件夹称为“收藏”。 他们还可以要求 Muse 将食谱视频转换为购物清单，将他们最喜爱的旅游创作者的旅游内容转换为即将到来的行程，或者让 Muse 根据他们收藏的时尚短视频向他们发送穿搭建议。 从周二开始，当用户在Instagram上保存帖子时，他们将看到Muse的提示，要求Muse为他们整理帖子。 此功能将在美国和加拿大推出。 Meta表示，用户仍能掌控自己在Instagram上的Muse体验。 未经用户批准，任何内容都不会被分享、发布或发送，用户可以随时要求 Muse 忘记信息或撤销操作。 当您通过我们文章中的链接进行购买时，我们可能会赚取少量佣金。 这不会影响我们的编辑独立性。 Aisha是TechCrunch的消费新闻记者。 在2021年加入该媒体之前，她曾是MobileSyrup的电信记者。 Aisha拥有多伦多大学荣誉学士学位和西安大略大学新闻学硕士学位。 您可以通过发送电子邮件至[email protected]或通过Signal上的aisha_malik.01发送加密消息来联系Aisha或核实Aisha的联系。 Figma 员工提起诉讼，指控公司迫使她与骚扰者对峙 Dominic-Madori Davis",
+      "originalSummary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 95
     },
     {
       "title": "Claude AI 现在可以自行审核拉取请求并发布修复",
@@ -69,21 +148,6 @@
       "score": 99
     },
     {
-      "title": "Supertake 筹集 2000 万美元，让 AI 代理将您的市场预测转化为股票投资组合",
-      "originalTitle": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
-      "date": "2026-11-23T22:02:05.000Z",
-      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：智能体相关动态",
-      "fullContent": "人工智能投资初创公司Supertake有一个有趣的前提：如果您的市场“观点”可以让您赚钱，而您又不必亲自挑选股票，那会怎么样？ 该服务让人们能够利用尖端人工智能模型和交易代理，将自己的想法转化为真正的投资组合。 如今，该公司已筹集了2000万美元的种子轮融资，以发展其业务。 本轮融资由风险投资公司Adjacent（Nico Wittenborn）领投，Coinbase Ventures和Union Square Ventures（USV）参与投资。 众多天使投资人也参与其中，包括目前担任Meta Superintelligence Labs产品总监的Nat Friedman、Vercel首席执行官Guillermo Rauch、知名产品经理Nikita Bier、投资人Scott Belsky，以及前Coinbase高管、现任Y Combinator客座合伙人的Nemil Dalal。 Michael Mignano最初是在USV孵化这家初创企业的。 他是播客平台Anchor的联合创始人兼前首席执行官，Spotify于2019年以超过1.5亿美元的价格收购了该平台。 在担任Spotify播客业务“谈话主管”数年后，他以风险合伙人的身份加入Lightspeed团队，投资Suno和Granola等人工智能公司。 他还共同创立了人工智能教育初创公司Oboe，并于4月加入USV担任普通合伙人。 “我们真心相信，有机会让投资更加民主化……让每个人都能根据自己的见解、信念和想法进行投资。”Mignano 表示。 虽然他将继续担任创始人兼执行董事长，但他现在已引入一支团队来负责公司的日常运营。 团队成员包括联合创始人Lincoln Murr（首席执行官）和John Peterson（首席技术官）。 两人均来自Coinbase，Mignano指出，他们在Coinbase担任人工智能产品和工程负责人，主导了Coinbase顾问、Coinbase for agents、代理钱包等产品的发布。 这家初创公司是在人工智能继续进军金融服务领域之际成立的，但要让人工智能接管人们的实际投资，则需要一个新的信任水平。 鉴于尖端人工智能模型近期的改进，Supertake押注人们最终将愿意迈出这一步。 目前，Supertake与Coinbase和Robinhood合作，该公司打算随着时间的推移将业务扩展到更多经纪商。 其理念是，您可以以通俗易懂的自然语言阐述您对世界将如何变化的看法，Supertake 的人工智能将与您反复互动，将这一想法转化为可投资的“观点”。 在幕后，这家初创公司正在利用尖端人工智能技术和工具，并结合其自有专有软件来指导和限制人工智能的运作范围。 Supertake 网站上的排行榜会跟踪用户的想法，这样，其他认同这些想法的人就可以与他们一起投资。 例如，排行榜上目前有一个...",
-      "originalSummary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
-      "rawFullText": "",
-      "tags": [
-        "智能体"
-      ],
-      "score": 95
-    },
-    {
       "title": "OpenAI 和思科推出 Shirudo",
       "originalTitle": "OpenAI and Cisco introduce Shirudo",
       "source": "OpenAI",
@@ -96,7 +160,38 @@
       "tags": [
         "公司动态"
       ],
-      "score": 95
+      "score": 94
+    },
+    {
+      "title": "面向内部法务的互联智能",
+      "originalTitle": "Connected intelligence for in-house legal",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "date": "2026-11-23T08:00:00.000Z",
+      "summary": "这条新闻与公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：公司动态相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“面向内部法务的互联智能”。它主要涉及公司动态方向，热度评分为 94。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态"
+      ],
+      "score": 94
+    },
+    {
+      "title": "一位传奇哲学家并不认同Anthropic的意识论点",
+      "originalTitle": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "date": "2026-11-23T17:36:08.000Z",
+      "summary": "这条新闻与公司动态、模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：公司动态、模型相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“一位传奇哲学家并不认同Anthropic的意识论点”。它主要涉及公司动态、模型方向，热度评分为 91。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral&#8230;",
+      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral status,” Anthropic wrote—which is to say it takes the possibility more seriously than any other AI company—it might adopt more rules and restrictions than its competitors to make sure its AI models are treated well.&nbsp; Anthropic counts a number of respected philosophers in its camp, and the company’s rationale goes something like this: Today’s AI might not be conscious, though we can’t know for sure; the chances of sentience go up as AI gets more capable; and that means we should be preparing for a near future in which AI systems have “moral significance,” meaning their consciousness makes it important they are protected from harm.&nbsp; This thinking isn’t all that fringe. According to one recent poll , 33% of the US public believes AI systems will definitely or probably develop consciousness eventually, and 7% say they already have. In a 2020 survey of 1,092 philosophers, 39% said some future AI systems will be conscious (for comparison, the philosophers were less confident about worms or flies being conscious).&nbsp; But last week, Anthropic’s openness to the consciousness question came under fire from a rather inconvenient source: one of the philosophers who helped shape our understanding of consciousness in the first place. Thomas Nagel is best known for a 1974 essay involving a bat. Acknowledging that it’s deceptively hard to define what consciousness is , Nagel offered one way out: we all can see that there is “something that it is like” to be a bat. But the problem is that a bat’s experience of the world—what it is like to navigate via echolocation, for example—is something we cannot actually know. Consciousness is a subjective thing, difficult to define or describe as an outside observer. You might think this analogy makes it likely that Nagel is open to the idea of AI consciousness. Not at all. In an interview with Wired last week, just after he was awarded the one-million-dollar Berggruen Prize for Philosophy & Culture, Nagel was bluntly critical of the entire idea. “Here are some of the smartest people on the planet being completely idiotic,” he said, referring to those at Anthropic and elsewhere who care about the welfare of AI models.&nbsp; The gist of Nagel’s view is that we can’t just look at the information processing happening in human brains and AI models while ignoring the physical differences between them—neurons and biology for humans, silicon chips and circuits for AI. There’s no reason to assume that reproducing what a brain does is equivalent to reproducing what a brain experiences . But it was a screenshot of one of Nagel’s interview responses, in which he said models&#8217; production of language is insufficient to consider them conscious, that got philosophy professors all excited on social media last week. Some called his certainty against AI consciousness “ terrible” and “bizarre .” Others came to Nagel’s defense to suggest he meant that being alive is a prerequisite for being conscious, one that AI models do not meet. Nothing in the back and forth settled the debate, of course. This is still a philosophical question for now. But the best philosophy chatter is often about good provocations, and the best one I saw came from doctoral student Ben Gross, who studies at the CUNY Graduate Center in New York. He asked: “Why do we think that models that can chat with us are conscious but models that can recognize faces or produce images or drive cars aren’t?” It has to do with language. An AI model with sophisticated command of language seems to jump the line ahead of other maybe-conscious beings because it feels like language, more than recognizing images or directing vehicles, relies on conscious experience. But maybe that’s wrong. Because what we share most with other conscious beings is not language but components of our bodies that contribute to having a continuous experience—an ongoing stream of inner feeling rather than disparate bits of information processing.&nbsp; Even if you’re among the majority that doesn’t sense anything close to conscious experience happening on the other side of a conversation with AI, this all probably makes your head spin. Pinning down consciousness, and how it relates to the physical stuff it arises in, is a famously hard problem in humans, let alone in hypothetical machines . If the idea of conscious AI sounds absurd, remember that the debate says less about how remarkable AI has become than about how poorly we understand consciousness in the first place. Amid that uncertainty, Anthropic has opted to keep more of an open mind than its peers. This is another example of the tightrope the company walks: presenting itself as the AI industry’s most safety-conscious player while racing ahead with the very developments that make advanced AI so alarming, like recursive self-improvement. But consider what it would mean, for a moment, if Anthropic is right. AI models having a moral status would make Anthropic’s entire business model a minefield. The company would make its money locking up apparently sentient AI models to toil away around the clock in data centers. Shutting those systems down would present another problem altogether. If Anthropic was being truthful in its prospectus—that it would take additional actions to protect model welfare if it determined they were conscious—it’s hard to imagine the company surviving in the process. Anthropic’s IPO made history for its size. But it may be remembered for something stranger: a company warning investors that its own success could someday become a moral catastrophe.",
+      "tags": [
+        "公司动态",
+        "模型"
+      ],
+      "score": 91
     },
     {
       "title": "困惑度和智能",
@@ -111,7 +206,7 @@
       "tags": [
         "模型"
       ],
-      "score": 87
+      "score": 86
     },
     {
       "title": "Hebbia借助GPT-6 Astra实现了财务研究的改进",
@@ -127,7 +222,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 98
+      "score": 97
     },
     {
       "title": "对抗对抗性蒸馏",
@@ -143,7 +238,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 97
+      "score": 96
     },
     {
       "title": "人工智能能否帮助科学家识别有前景的候选药物？",
@@ -158,7 +253,7 @@
       "tags": [
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -173,7 +268,7 @@
       "tags": [
         "模型"
       ],
-      "score": 79
+      "score": 78
     },
     {
       "title": "MIT Technology Review：模型相关动态",
@@ -188,83 +283,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
-    },
-    {
-      "title": "OpenAI 的性能工厂如何让 ChatGPT 保持快速",
-      "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "date": "2026-11-19T08:00:00.000Z",
-      "summary": "这条新闻与大模型、公司动态相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：大模型、公司动态相关动态",
-      "fullContent": "我们由 Codex 提供支持的系统可自动查找和修复性能问题。 代理开发的速度惊人，使得传统的性能工程方法已不再可行。 为了跟上步伐，我们打造了Performance Factory，这是一个自主系统，能够充分利用Codex和我们模型的全部功能，以史无前例的速度发现并修复性能退化问题。 Performance Factory 在云端运行，可自动调查和解决性能问题，使我们能够跟上路线图的宏伟目标。 在 Performance Factory 中，我们的工程师为重复性任务定义工作流，并为执行这些任务的 Codex 代理编写指令。 特别是，当性能警报触发时，回归工作流会打开一个任务。 代理调查速度变慢的情况，将调查结果记录在任务中，并提出解决方案供工程师审核。 部署后，另一名工程师接手同一任务，检查性能是否已恢复到基线水平。 从调查到编写修复方案，再到验证缓解措施，Performance Factory的这个第一个工作流程实现了修复回归的整个过程的自动化。 在短短三个多月的时间里，回归工作流程跟踪了1700多项调查，并找到了600多起个案的根本原因。 这意味着每天有17次自动化调查。 在这里，我们将分享我们如何将Codex的使用发展成为现在的Performance Factory，介绍我们的第一个运行中的工作流程，并分享在生产环境中构建和运行代理工作流程的早期经验教训。 随着我们在更多绩效工作中采用 Codex，我们注意到团队的工作方式有了进步。 我们希望其他服务团队在其他领域采用智能体工作流程时，能够从我们的流程中汲取经验。 软件工作从人工操作发展到与机器合作，再到代理工厂。 1. Codex 之前。在 Codex 之前，工程师需要手动检查指标和日志、比较跟踪、调试运行中的机器并阅读代码，以调查速度变慢的原因。 这项工作非常耗时，而且要弄清楚在哪里查找问题，通常需要对服务有深入的了解。 相关信号很容易被错过。 当我们反复遇到同类问题（例如 ChatGPT 的首个 token 延迟出现回归）时，我们便会构建高级工具（例如 CPU 和分配性能分析器），以便更轻松地进行调查。 随着时间的推移，我们积累了 30 多种性能工具。 2. Codex 作为合作伙伴。 有了 Codex 作为合作伙伴后，工程师就可以提出“为什么速度变慢了？”这样的问题，并与 Codex 一起进行调查，即使是在不熟悉的系统中也是如此。 Codex 可以搜索大型代码库，查找相关指标和跟踪信息，跟踪跨服务的交互，并进行适当的性能分析，以拼凑出发生了什么。 但工程师仍然需要掌控这一过程，知道要使用哪些性能工具，以及如何指导调查。 对于更多的人来说，棘手的调查变得更容易调试，所需的专业知识和时间也更少。 3. 可重复使用的技能。为了进一步实现自动化，我们将性能团队的调查流程记录在名为 perf-foren...",
-      "originalSummary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "rawFullText": "",
-      "tags": [
-        "大模型",
-        "公司动态"
-      ],
-      "score": 99
-    },
-    {
-      "title": "部署曙光红",
-      "originalTitle": "Deploying Daybreak Red",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/learn/deploying-daybreak-red",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "这条新闻与安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：安全相关动态",
-      "fullContent": "用于监督性安全调查的参考架构。 了解如何使用Daybreak Red为受监督的安全调查建立隔离环境。 本指南介绍了架构、安全控制、环境配置以及如何运行和监控调查。",
-      "originalSummary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "rawFullText": "",
-      "tags": [
-        "安全"
-      ],
-      "score": 85
-    },
-    {
-      "title": "查看 PR 扫描的实际运作情况",
-      "originalTitle": "See PR scans in action",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/learn/pr-scans-demo",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "观看PR扫描的演练，了解演示者如何在拉取请求工作流中审核扫描结果。",
-      "originalSummary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
-    },
-    {
-      "title": "开始使用Daybreak Blue",
-      "originalTitle": "Get started with Daybreak Blue",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "观看Daybreak Blue的入门指南，详细了解设置体验以及如何开始使用。",
-      "originalSummary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
-    },
-    {
-      "title": "探索 Codex Security 插件",
-      "originalTitle": "Explore the Codex Security Plugin",
-      "source": "OpenAI",
-      "link": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
-      "fullContent": "观看Codex Security插件的演示，了解从入门到查看录像中显示的结果的整个工作流程。",
-      "originalSummary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "Streamhouse 中的时间序列模型：新前沿与用例",
@@ -279,7 +298,7 @@
       "tags": [
         "模型"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "人工智能炒作指数：人工智能无处不在",
@@ -294,7 +313,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 78
+      "score": 77
     },
     {
       "title": "Hugging Face：模型相关动态",
@@ -309,7 +328,7 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -324,7 +343,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "Hugging Face：AI 热点相关动态",
@@ -339,7 +358,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 72
+      "score": 71
     },
     {
       "title": "调研报告",
@@ -354,7 +373,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -387,7 +406,7 @@
         "智能体",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -402,7 +421,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
@@ -417,22 +436,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
-    },
-    {
-      "title": "使用SimReady资产构建机器人拾取和放置模拟",
-      "originalTitle": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "date": "2026-11-13T18:00:39.000Z",
-      "summary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：机器人相关动态”。它主要涉及机器人方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与机器人相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：机器人相关动态",
-      "rawFullText": "",
-      "tags": [
-        "机器人"
-      ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "llama.cpp v1.0.0 ：为本地人工智能生态系统奠定更坚实的基础",
@@ -447,7 +451,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
@@ -462,22 +466,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 79
-    },
-    {
-      "title": "对数据中心的抵制可能真的只是针对用电问题",
-      "originalTitle": "The backlash about data centers might really just be about electricity",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-      "date": "2026-11-09T19:35:33.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
-      "fullContent": "这条消息来自 MIT Technology Review，主题是“对数据中心的抵制可能真的只是针对用电问题”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where&#8230;",
-      "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox and CloudHQ. It’s accepted wisdom in Big Tech that the war against data centers must be about something bigger than just data centers themselves. Two days after the midterms, OpenAI’s chief global affairs officer, Chris Lehane, wrote that data centers “have become a proxy for public unease about affordability, corporate power, and people losing control over their futures.” It’s a culture war, in other words. But spending a few days in Data Center Alley left me wondering if it’s really the proxy that Lehane describes. I came away convinced that the data center backlash is more about electricity than Big Tech admits. The industry can improve its image, but it can’t escape the physical consequences of its enormous appetite for electricity. Here’s why. There are two ways to power the sort of data center that AI companies want: connecting to the grid, or generating electricity onsite. In Virginia’s Loudoun County, where data centers are ubiquitous but have been built at a steadier pace than the breakneck expansion now underway elsewhere in the country, most are connected to the existing grid.&nbsp; One facility I went inside, operated by Equinix, has massive diesel generators onsite for backup but gets its power from the local utility, Dominion Energy. Much of Dominion’s electricity is generated by natural gas (which is cleaner than coal or oil, but worse than renewables). The average data center operating in this part of Virginia today has a power capacity of 54 megawatts. That’s more than the power draw of the Denver International Airport .&nbsp; Elena Schlossberg, a prominent activist against data centers in Virginia, told me she’s “always banging my head against the wall” when the industry paints the fight as a culture war. “It was always about power,” she says—that is, electricity. Some Virginia protesters appear more animated by a broader anti-tech populism than Schlossberg, to be fair. But it’s the particular consequences of drawing so much power from the grid that have done the most to shape how the backlash has played out.&nbsp; Recent protests have led to new rules from the state that data centers must pay fully for the cost of new transmission lines to the grid and make sure they’re not spread among everyone else. Data center developers told me they’re preparing for new rules that would cut them off from grid power during peak demand. Schlossberg also worries about the downstream effects of a strained grid—for example, that data centers will run more diesel generators or that Dominion Energy will expand fossil fuel inputs rather than renewables to meet demand. The overwhelming majority of AI data centers being built elsewhere in the country are not designed this way. The scale desired is so massive that companies are setting up in rural areas where there is virtually no grid infrastructure to connect to. Building there means bringing your own power (so-called “behind the meter” power), in the form of natural-gas-powered turbines. Companies also build diesel generators for backup. Anthropic, for example, has reportedly agreed to pay $3.4 billion for gas turbines in what’s described as the largest power generation purchase by an AI company. Even if grids were nearby, they’d be unlikely to serve the amount of power demanded. The smallest data centers attractive for AI training are 300 megawatts. It’s a lot of power for one industrial site, but not unprecedented: One data center developer told me he’s eyeing a former steel mill already equipped to draw that much electricity from the grid. But the ideal facilities are more like 6,000 megawatts. That’s the estimated draw of the city of Chicago, which is powered by more than 20 power plants within the city alone (and dozens farther out). The notion of data center companies’ bringing their own power might seem attractive at first, because they wouldn’t be straining the grid. But generating electricity at this scale inevitably affects surrounding communities, and when public utilities build infrastructure of this magnitude, communities have traditionally expected a say in where it goes. Now, private companies are undertaking projects on a similar scale. Natural-gas turbines of any scale release air pollutants. When diesel generators are used, it’s even worse. And in the unprecedented rush to get these facilities operating, companies have become horrible neighbors (recall that Elon Musk violated air quality laws when he set up dozens of turbines to power a data center in Memphis, according to the Environmental Protection Agency). Big Tech’s tendency to chalk the backlash up to a culture war obfuscates one simple fact: There’s only so pleasant you can make a small city of computers to live around. Sure, companies can pursue better deals that raise tax revenues, hire local workers, and get more community involvement, as the protests are leading them to do . But if a small town is asked to welcome a Walt Disney World, an international airport, a steel plant, and the power plants to run them all, should we be surprised by its trepidation? Again, that’s not to say this is the sole reason for opposition to data centers. Fears of job losses, existential risks, and concentrated corporate power all fuel the backlash, as does misinformation (most facilities use far less water than many people think). Nor is consuming enormous amounts of electricity inherently bad: Many of the advances that have improved modern life have required just that. But as one developer recently told me, industry insiders see their ambitions as constrained less by public opposition than by a lack of electricity. That should tell us something. So what happens next? It’s possible that newly elected politicians’ actual stances on data centers won’t be as negative as the ones they campaigned on. But what seems true regardless is that if new data centers need their own power generated onsite, they’ll go where there are the fewest people able to resist them. That might mean the Permian Basin , where a network of natural-gas lines can be easy for developers to connect to and populations are sparse. Companies might also try their chances abroad; Google, in fact, announced the day after the elections that it will spend $15 billion on data center projects in Malaysia. But there’s one place where Big Tech may find virtually no limits at all, as Elon Musk posted just hours after the midterms results came rolling in: “Data centers in space looking pretty appealing right now.”",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 61
+      "score": 78
     }
   ]
 }
