@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T04:49:52.812Z",
+  "updatedAt": "2026-11-27T04:53:07.134Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -18,6 +18,91 @@
     "免费翻译接口不保证稳定；失败时会使用缓存或中文兜底内容。"
   ],
   "articles": [
+    {
+      "title": "《侠盗猎车手6》证明了效率为何不是一种美德",
+      "originalTitle": "Grand Theft Auto VI proves why efficiency isn&#8217;t a virtue",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "date": "2026-11-26T16:00:00.000Z",
+      "summary": "这条新闻与公司动态、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：公司动态、视频生成相关动态",
+      "fullContent": "《侠盗猎车手6》（GTA VI）本应不可能不辜负人们的期望。 粉丝们等待了13年，才盼来这款犯罪冒险系列游戏的最新作品。当游戏在上周终于发布时，Rockstar Games的表现甚至超出了这些难以想象的期望。 《GTA VI》在Metacritic上以有史以来最高评分的游戏身份发布，并赚取了3美元。 在发布当天创下790亿美元的票房，这可能是史上规模最大的娱乐盛事——比《复仇者联盟：终局之战》（29亿美元）或泰勒·斯威夫特的“时代”巡演（20亿美元）还要盛大。 13 年的等待无疑助长了围绕《GTA VI》的热潮和销售，但一些粉丝渴望《GTA VI》，是因为它在新兴的人工智能时代所代表的意义。 即使是我们当中最热爱工作的群体——初创企业创始人——也安排了休假时间来玩这款游戏，其中包括Spiry的联合创始人Dima Beseda，他告诉TechCrunch：“我重新安排了工作量，以便在周末腾出时间，甚至还预约了维生素静脉滴注，以保持精力充沛。” 然而，一些玩家在擦去Xbox上的一层灰尘，准备玩这款他们从小就翘首以盼的游戏时，却感到一种先期怀旧的情绪。 “我们确实认为，《GTA》很可能是以这种方式制作的最后一款同类游戏。”TIRTA Ventures的执行合伙人、Rockstar母公司Take-Two Interactive的前首席执行官Ben Feder在接受TechCrunch采访时表示。 这是因为《GTA VI》的创作完全没有使用生成式人工智能。 “我们正处于这样一个技术节点，这种开发方式似乎已经达到了其自然极限。”Feder表示。 “我认为不能说像这样的游戏会永远存在。” 当数百万玩家沉浸在《侠盗猎车手：罪恶都市》的世界中时，科技行业迎来了另一个翘首以盼的时刻：Anthropic成为首家上市的大型人工智能实验室。 在纳斯达克总部，Anthropic的高管们欢聚一堂，庆祝Claude的制造商成功IPO，市值达813亿美元。 几乎就在Anthropic创下史上最大IPO纪录的同时，《GTA VI》也以有史以来评分最高、销量最佳的游戏发布创下了纪录。 但当Anthropic团队周四敲响上市钟声时，这声音也标志着一个时代的结束，不仅是视频游戏开发领域的时代，也许甚至是整个艺术领域的时代。 人工智能行业以效率为指路明灯。 这项技术的前景在于，我们将能够实现大量工作的自动化，从而拓展人类的能力，避免在最终徒劳无功的想法上浪费不必要的时间。 相反，提示语输入到LLM中，然后LLM就会输出一个答案。 这场技术革命席卷全球，但也带来了一些令人沮丧的副作用：孩子们在 YouTube 上被无聊的视频垃圾淹没，律师在法庭上援引不存在的案例，而像 Meta 这样的科技公司则以“效率年”为名义裁减数万名员工。",
+      "originalSummary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "rawFullText": "",
+      "tags": [
+        "公司动态",
+        "视频生成",
+        "产品发布"
+      ],
+      "score": 99
+    },
+    {
+      "title": "MOZAIC：用于识别虚假内容的视听深伪基准",
+      "originalTitle": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.31301",
+      "date": "2026-11-26T05:00:00.000Z",
+      "summary": "这条新闻与多模态、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、视频生成相关动态",
+      "fullContent": "arXiv:2611. 31301v2 公告类型：新摘要：视听（AV）深度伪造可以伪造面部、声音或两者兼有。 大多数基准测试只询问一段视频是真实的还是虚假的，因此无法显示检测器是依赖于图像、声音还是编码痕迹。 我们推出了 MOZAIC，这是一个具有 4 种标签的成对基准，其中每个源片段都以真实或虚假视频和真实或虚假音频的所有四种组合发布，因此可以直接测量每种模态的贡献。 伪造内容包括面部内部替换、全帧视频扩散和语音转换。 MOZAIC 包含来自 15,014 个源对的 137,745 个片段，以及四项任务：T1 音视频真实性、T2 篡改类型、T3 身份验证和 T4 说明。 我们评估了 12 个视听多模态大语言模型（MLLM），训练了四个检测器，并使用 LoRA 对 MLLM 进行了微调。 总体而言，表现最佳的MLLM在四向T1上的得分仅为35.6%，并且检测到的纯视频虚假内容远多于纯语音虚假内容（43.6%对7. 5%）。经过训练的检测器在 T1 上的准确率达到 98.4%，而 LoRA 微调提高了解释得分（OmniVinci 从 4.17 提高到 7. 40，Qwen2.5-Omni 从 4.42 提高到 6.98），但最佳 T1 检测器的得分降至 78。 当换脸生成器不参与训练时，准确率为 3%，因此泛化和解释仍有待研究。 我们发布了数据集、紧凑的 MOZAIC-SMALL 分割、代码和提示。https://vectorinstitute. github. io/mozaic/",
+      "originalSummary": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released in all four combinations of real or fake video and real or fake audio so each modality contribution can be measured directly. Fakes cover inner-face swapping, whole-frame video diffusion and voice conversion. MOZAIC has 137,745 clips from 15,014 source pairs and four tasks: T1 AV authenticity, T2 manipulation type, T3 identity verification and T4 explanation. We evaluate 12 AV multimodal LLMs (MLLMs), train four detectors and fine-tune MLLMs with LoRA. Overall, the best MLLM reaches only 35.6% on the four-way T1 and catches far more video-only fakes than voice-only fakes (43.6% vs 7.5%). Trained detectors reach 98.4% on T1, and LoRA fine-tuning raises explanation scores (OmniVinci 4.17 to 7.40, Qwen2.5-Omni 4.42 to 6.98), but the best T1 detector falls to 78.3% when the face-swap generator is held out of training, so generalization and explanation remain open. We release the dataset, the compact MOZAIC-SMALL split, the code and the prompts. https://vectorinstitute.github.io/mozaic/",
+      "rawFullText": "",
+      "tags": [
+        "多模态",
+        "视频生成",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "人们选择不说的内容：用于对话中细粒度信息操纵的多模态基准",
+      "originalTitle": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.31346",
+      "date": "2026-11-26T05:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv:2611. 31346v1 公告类型：新摘要：MLLM 的最新进展提高了社会理解能力，使模型能够识别情绪并区分真实行为与欺骗行为。 然而，现有的基准主要侧重于粗粒度情绪识别或二元真假识别，忽视了人们在对话中操纵信息的各种方式，例如隐瞒、泄露、捏造、搪塞和防御性反驳。 要理解这些行为，需要对潜在事实、参与者知识和对话语境进行推理，因此难以对其进行可靠的评估。 为了弥补这一缺口，我们推出了InfoCon，这是一个用于对话中细粒度信息操纵的多模态基准。 InfoCon 识别出六种精细策略，并从其事实关系和互动关系中推导出粗略的一致性标签。 我们开发了一个基于证据的多智能体标注框架，用于从丰富的上下文证据中构建和验证可靠的标签。 我们对具有代表性的多模态模型进行了基准测试，并系统地分析了它们对细粒度信息操纵的理解，从而提供了一个超越二元真假判断的测试平台。",
+      "originalSummary": "arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond binary truth-deception judgments.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
+    },
+    {
+      "title": "学习“什么”与学习“如何”：在自主性训练中分解任务和界面能力",
+      "originalTitle": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.31427",
+      "date": "2026-11-26T05:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv:2611. 31427v1 公告类型：新摘要：LLM代理通过定义系统提示、操作格式、反馈回路和资源限制的框架来运行。 一个模型可能具备解决任务所需的知识，但却无法通过特定的框架来表达这些知识。 这引出了一个基本问题：当策略在给定约束下失败时，是缺少任务知识还是缺少操作接口的能力？ 我们将智能体能力区分为两个组成部分：任务能力（解决任务所需的知识和推理能力）和界面能力（通过给定工具利用这些知识采取行动的能力）。 通过四个推理和智能体基准，我们表明，根据这些基准的相互作用方式，Harness条件训练会产生截然不同的结果。 多线束蒸馏将通过不同线束收集的轨迹中的任务知识聚合到一个共享策略中，但只有当训练在推理时界面上保持或提高能力时，这种知识才能得以实现。 否则，单线束训练可能会对接口能力造成干扰，有时即使底层任务知识有所提升，也会导致留出线束上的性能灾难性地崩溃。 为了将任务监督与界面监督区分开来，我们引入了线束演练：在包含最少任务知识的轨迹上进行蒸馏，同时对目标界面进行演练。 仅进行跨Harness任务监督或预演收效甚微，但将两者结合起来的收益远大于其中任何一种：在Qwen3-4B的BFCL V3多轮测试中，它们分别取得了8.5%和32.5%的成绩，而结合起来则取得了58.8%的成绩。 最后，与单线束训练的蒸馏相比，策略内强化学习（RL）更加稳健：它不会显著降低在其他线束上的性能，并且通过多线束蒸馏获得的接口能力在随后的RL中得以保持。",
+      "originalSummary": "arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface. Otherwise, single-harness training can induce interference in interface competence, sometimes catastrophically collapsing performance on a held-out harness despite improvements in underlying task knowledge. To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface. Cross-harness task supervision or rehearsal alone yields little gain, but their combination yields gains far larger than either: on BFCL V3 multi-turn with Qwen3-4B, they achieve 8.5% and 32.5% respectively, versus 58.8% together. Finally, on-policy reinforcement learning (RL) is more robust than distillation to single-harness training: it does not substantially degrade performance on other harnesses, and interface competence acquired through multi-harness distillation persists through subsequent RL.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "SpatialCraft：从经验和技能中演进的空间推理智能体程序性智能",
+      "originalTitle": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.31475",
+      "date": "2026-11-26T05:00:00.000Z",
+      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
+      "fullContent": "arXiv:2611. 31475v1 公告类型：新文摘：空间推理智能体越来越多地依赖于外部工具，例如 3D 重建、分割和几何计算，来回答多模态大语言模型（MLLM）仅凭像素无法解决的问题。 然而，工具访问将瓶颈转移到了编排上：代理必须决定调用哪些工具、以何种顺序调用以及如何解释它们的输出，但无状态代理会在不同任务中重复同样的错误。 我们探讨的是，一个冻结的工具使用型智能体是否能够在不更新参数的情况下，从自身的交互历史中改进其编排能力。 我们推出了SpatialCraft，这是一个自我演进的框架，维护着两种形式的外部知识：经验（通过对比同一任务的 rollout 提炼出的条件-行动策略）和技能（具有明确激活和终止条件的多步程序）。 三种设计将这两个流结合在一起。 经验可以与技能挂钩，仅在该技能处于激活状态时才会出现，而不是在每次任务中都出现。 对比效用分数通过在同一任务的多次实施中随机不使用某项体验来评估该体验的效果，将体验的贡献与任务难度区分开来。效用始终为正的体验将被整合到其所支持的技能中。 在五项空间基准和四项主干任务中，SpatialCraft 在所有 20 个设置中均实现了最佳准确性，这表明冻结的智能体可以从自身经验中学习如何协调空间工具。",
+      "originalSummary": "arXiv:2611.31475v1 Announce Type: new Abstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, and how to interpret their outputs, yet a stateless agent repeats the same mistakes across tasks. We ask whether a frozen tool-using agent can improve its orchestration from its own interaction history, without parameter updates. We present SpatialCraft, a self-evolving framework that maintains two forms of external knowledge: Experiences, condition-action tactics distilled by contrasting rollouts of the same task, and Skills, multi-step procedures with explicit activation and termination conditions. Three designs couple the two streams. Experiences can be anchored to a Skill, appearing only while it is active rather than once per task. A Contrastive Utility Score estimates each Experience's effect by randomly withholding it across rollouts of the same task, separating its contribution from task difficulty, and Experiences with consistently positive utility are consolidated into the Skills they support. Across five spatial benchmarks and four backbones, SpatialCraft achieves the best accuracy in all 20 settings, showing that a frozen agent can learn to orchestrate spatial tools from its own experience.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "推理",
+        "多模态"
+      ],
+      "score": 99
+    },
     {
       "title": "OpenAI表示，随着ChatGPT将聊天和工作功能合并，重度用户可能更快达到使用上限。",
       "originalTitle": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
@@ -47,7 +132,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "据报道，亚马逊和Meta正在商讨解除对AI代理Muse的封锁",
@@ -62,7 +147,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "据报道，亚马逊正在就终止Muse AI购物屏蔽进行谈判",
@@ -77,7 +162,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "Anthropic的Dario Amodei称，将人类控制权拱手让给人工智能的指控“荒谬至极”",
@@ -93,7 +178,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "GPT-6模型展现出内在的蛋白质设计能力",
@@ -143,7 +228,7 @@
         "视频生成",
         "算力芯片"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "iFood 如何在 15,000 个代码仓库中扩展编码代理",
@@ -158,22 +243,22 @@
       "tags": [
         "智能体"
       ],
-      "score": 90
+      "score": 89
     },
     {
-      "title": "在全体员工大会上，黄仁勋感谢白宫，并表示他正在接受心理治疗",
-      "originalTitle": "In all-hands meeting, Jensen Huang thanks White House and says he&#8217;s in therapy",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
-      "date": "2026-11-24T21:48:27.000Z",
-      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
-      "fullContent": "在经历了一段疾风骤雨般的时期，黄仁勋的生活先是分崩离析，然后又重归于好。这位英伟达的创始人现在希望他的员工知道，他已经变了。 周一复职后，黄仁勋于周二召开了英伟达的首次全体员工大会。 CNBC报道称，在这次会议上，黄仁勋以“充满悔意的语气”对大家说：“我伤害了你们所有人。” 这位创始人的婚外情被指责危及从股市到美国国家安全的方方面面，他接着描述了当前对他来说多么艰难：“这将是我主持过的最艰难的公司会议，也是我主持过的第二艰难的会议。”据报道，黄仁勋对员工这样说道。 “我经历过的最艰难的会议是我和我妻子的那次，”他补充道。 这位首席执行官在会议上承认，他违反了英伟达的行为准则，而该准则很大程度上是他本人制定的。 黄仁勋强调，行为准则仍然有效，但减轻处罚的情节将非常重要。 正如《连线》杂志报道的黄仁勋的表态，“这并不意味着，只要你违反了行为准则，我们就会马上让你卷铺盖走人。” 黄向员工表示，他正在接受心理治疗，并称他很感激公司给予他第二次机会。 这位首席执行官现在正走在一条艰难的钢丝绳上，一方面要重申他对这家全球最具实力和影响力的公司的掌控权，另一方面又要承认自己可能犯了一些错误。 他还谈到了一个棘手的问题，即特朗普总统在其复职过程中所起的作用。 据报道，总统直接致电英伟达董事会，游说黄仁勋回归，但在讲话中，黄仁勋淡化了特朗普的作用。据《华尔街日报》报道，黄仁勋周二感谢政府“为英伟达提供快速获取情报的渠道，他表示，这帮助董事会确定，公司在让他复职方面面临的国家安全风险很低”。 黄仁勋可能需要政府的支持，以应对即将到来的由新上任的民主党领导的政府所进行的国会审查。 该首席执行官计划于下周出席参议院银行委员会的公开听证会，并在接下来的几周内应邀出席多场众议院的非公开听证会，包括情报委员会、外交事务委员会和中国问题特别委员会的听证会。 当您通过我们文章中的链接进行购买时，我们可能会赚取一小笔佣金。 这不会影响我们的编辑独立性。 Figma 员工提起诉讼，指控公司迫使她与骚扰者对峙 Dominic-Madori Davis Anthropic 推出了 Claude Ship，让 AI 代理审查、修复和批准代码更改 Sarah Perez",
-      "originalSummary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
-      "rawFullText": "",
+      "title": "据报道，黄仁勋告诉英伟达员工，特朗普让他“官复原职”的说法“不属实”",
+      "originalTitle": "Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "date": "2026-11-24T20:02:03.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：算力芯片相关动态",
+      "fullContent": "据彭博社、纽约时报和The Handbasket的Marisa Kabas报道，Nvidia首席执行官黄仁勋在重返公司后的第一次全体员工大会上向员工道歉，同时试图撇清白宫和科技界领袖帮助他重返岗位的说法。 据报道，在会议期间，黄仁勋称，关于唐纳德·特朗普总统直接参与他复职的说法——这是特朗普本人公开宣扬的观点——“完全不属实”。他补充道：“千万别以为政治在公司中起到了作用。 我们是最不沾染政治的公司。”Kabas 表示。 同时……在The Verge上阅读完整报道。",
+      "originalSummary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang [&#8230;]",
+      "rawFullText": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg , The New York Times , and The Handbasket's Marisa Kabas . During the meeting, Huang reportedly called claims that President Donald Trump was directly involved in his reinstatement - an idea publicly promoted by Trump himself - \"completely untrue.\" He added, \"Don't think for a second politics played a role in the company. We are the most apolitical company,\" according to Kabas . Along w … Read the full story at The Verge.",
       "tags": [
         "算力芯片"
       ],
-      "score": 83
+      "score": 81
     },
     {
       "title": "Richpanel 帮助公司在 30 天内实现 50% 的支持自动化",
@@ -204,7 +289,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "面向内部法务的互联智能",
@@ -219,7 +304,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "一位传奇哲学家并不认同Anthropic的意识论点",
@@ -235,7 +320,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "如何建立和维持能动性评估",
@@ -250,7 +335,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 83
+      "score": 82
     },
     {
       "title": "困惑度和智能",
@@ -265,7 +350,7 @@
       "tags": [
         "模型"
       ],
-      "score": 85
+      "score": 84
     },
     {
       "title": "Hebbia借助GPT-6 Astra实现了财务研究的改进",
@@ -281,7 +366,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 96
+      "score": 95
     },
     {
       "title": "对抗对抗性蒸馏",
@@ -297,7 +382,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "人工智能能否帮助科学家识别有前景的候选药物？",
@@ -312,10 +397,10 @@
       "tags": [
         "模型"
       ],
-      "score": 83
+      "score": 82
     },
     {
-      "title": "Hugging Face：模型相关动态",
+      "title": "隆重推出安全带适配器：将您喜爱的型号适配到您的安全带上，以提高性能并降低成本",
       "originalTitle": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/harness-adapters-at-scale",
@@ -327,10 +412,10 @@
       "tags": [
         "模型"
       ],
-      "score": 77
+      "score": 76
     },
     {
-      "title": "MIT Technology Review：模型相关动态",
+      "title": "人工智能领域最常被误解的图表刚刚进行了重大更新",
       "originalTitle": "The most misunderstood graph in AI just got a major update",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
@@ -342,7 +427,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "人工智能炒作指数：人工智能无处不在",
@@ -357,25 +442,10 @@
       "tags": [
         "机器人"
       ],
-      "score": 76
-    },
-    {
-      "title": "Hugging Face：模型相关动态",
-      "originalTitle": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/rumble-2-flash",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：模型相关动态”。它主要涉及模型方向，热度评分为 77。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
-      ],
       "score": 75
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "DaisyRose-27B：突破训练后效率的极限",
       "originalTitle": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -387,10 +457,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "为什么您的微调任务所需时间比 FLOP 所述的时间更长",
       "originalTitle": "Why your fine-tuning job takes longer than the FLOPs say",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
@@ -402,10 +472,10 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 70
+      "score": 69
     },
     {
-      "title": "Hugging Face：AI 热点相关动态",
+      "title": "1800 亿参数，32GB 内存：使用 Transformer 将 MoE 推理推向极限",
       "originalTitle": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/moe-expert-streaming",
@@ -417,7 +487,22 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
+    },
+    {
+      "title": "这家嗅觉初创公司称其AI嗅觉与人类的嗅觉一样灵敏",
+      "originalTitle": "This smell startup says its AI nose is as good as a human’s",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "date": "2026-11-18T10:20:30.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：MIT Technology Review：AI 热点相关动态",
+      "fullContent": "这条消息来自 MIT Technology Review，主题是“这家嗅觉初创公司称其AI嗅觉与人类的嗅觉一样灵敏”。它主要涉及AI 热点方向，热度评分为 67。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
+      "rawFullText": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation model for smell. The company’s goal, says founder Alex Wiltschko, is “to give computers a sense of smell.” “Scent molecules are really the only language most species on this planet can speak,” he says. “Most species can’t communicate with sound or visually, so it truly is Earth’s original language. And it’s incredibly powerful for us, from a memory and an emotional standpoint. You can smell something once and remember it for the rest of your life. You can smell something on the street and be pulled back to high school.” In the last few months, Wiltschko claims, Osmo’s model has achieved “human-level olfactory intelligence.” The company’s definition of this is that the model is about as good as the average person at detecting and discriminating between smells, and about as good as a junior perfume designer at creating them. It says its technology is already being used in the fragrance industry to help brands design and manufacture new scents. Last month, the company says, Osmo’s AI model outperformed in-house perfumers at one of the world’s largest consumer goods companies. Wiltschko believes it could be deployed eventually for threat detection at airports, for example, or diagnosing diseases.&nbsp; Wiltschko spun the startup out of his work at Google Brain, the search giant’s former AI research lab, in 2023, and he is running the same playbook as AI startups in other domains: Throw a lot of data at difficult problems, and see what happens. The challenge with scent, Wiltschko says, is that there was a dearth of good data. Before Osmo, there were fewer than 200,000 human descriptions of smells in existing databases, by his count. Plus, the chemical sensor devices needed to collect data are expensive, and the fragrance industry is secretive about its work on olfactory science.&nbsp; OSMO AI A lot of the company’s work has been in creating its own dataset of more than 10 million human labels and 800 million “scent tokens,” which describe the exact molecules and concentrations that go into creating specific odors. Osmo uses spectrometers and other chemical sensors, running around the clock, to break down the molecular makeup of everything from fruit and flowers to pantry&nbsp; staples and organs. A team of around 70 trained data labelers in the US and overseas spend their days sniffing things and writing down what they smell like, using a standardized fragrance vocabulary. Mapping out scents in this way is throwing out some unlikely parallels. In the same way that changing the order of words can drastically influence the meaning of a sentence, rearranging scent molecules in different proportions can drastically alter the smells humans perceive. “The scent tokens that define the smell of a newborn baby have massive overlap with the scent tokens in a fresh plate of cooked spaghetti,” Wiltschko says. (Specifically Barilla brand spaghetti, he says, which perhaps raises some questions for the people at the pasta factory.) The company also creates its own scents, using a smell-printing robot the size of a school bus that mixes ingredients according to precise formulas to make samples for Osmo’s own research and fragrances for paying customers. It can design and print scents to order based on a ChatGPT-style prompt. Wiltschko flipped open his laptop to show me how the AI model worked. He opened a text box on screen, and I asked him to generate a fragrance that smelled like a Portuguese custard tart (we were in Lisbon for Web Summit), aimed at 18- to 23-year-old men. The system spent a few minutes cogitating, then generated three options for potential scent profiles that matched the brief (creamy, coconutty, fruity) and the molecules needed to create them. If I’d continued with the ordering process, my signature L’Eau de Custard would have been ready about a week later.&nbsp; Osmo’s technology has already been used to create retail fragrances, including for giants like Procter & Gamble. The Gates Foundation, which invested $5 million when Osmo launched, later gave the company a $3.5 million grant to assess molecules that repel disease-carrying insects, and Osmo identified eight substances that were more repellent than DEET. Osmo has also worked with StockX, the online clothing marketplace, on using smell to spot counterfeit sneakers by detecting differences in the chemical composition of the materials used in the shoes. But not everyone is convinced by the technology or the company’s big claims. Avery Gilbert, a smell scientist and author of What the Nose Knows , has been sharply critical of Osmo on his Substack , arguing that some of its marketing claims are undocumented, and that its patent filings still rely on human sensory panels and perfumers, rather than AI. “This heavy reliance on human sensory judgments seems odd for a company premised on super-cool AI,” he wrote in March. In response, Wiltschko says that “human perception isn&#8217;t a workaround for AI”. “Language models learn from what people have written. Our model learns from what people smell. Smell is ultimately a human experience, so the model has to learn from humans to bridge chemistry and perception. That’s what lets it predict how people will experience a scent as well as the human nose does.” Michael Schmuker, a former professor of neural computation at the University of Hertfordshire who has previously consulted for Osmo, says the company’s technology is an achievement. With colleagues, he created an open-source, reverse-engineered version of Osmo’s 2023 model, but it lacks the reams of data the company has collected since.&nbsp; But even with all this smell data, Osmo may be missing some of the factors that make human olfaction unique, Schmuker says. “Smell is super complex. Context is very important for smell. The same molecule may evoke a different association depending on context,” he says. “[The smell of] a French cheese like Camembert is partly the same molecule as in used nappies. You don’t confuse the two because of the context.” In a controlled setting like a fragrance lab, this lack of context may not matter so much. But it could have an impact if Osmo’s technology becomes, as Wiltschko suggests, the “olfactive channel” for AI world models. Imagine a machine that could sniff out spoilage in food on a production line, or detect tumors through smell the way dogs have been trained to do in pilot studies . For that to happen, sensor technology will need to get a lot better, Schmuker says. The models will need to keep improving. Medical diagnostics is the biggest prize.&nbsp; “There’s a lot of history of companies that have gone directly at that mountain peak and, unfortunately, not been successful, because it is very expensive and it is very difficult,” Wiltschko says. &#8220;So what we’re doing is building this foundation at the foothills of all these mountains. We’re sending expeditions up to the mountains, doing explorations, and basically smelling the whole world.” This article has been updated with an additional comment from Alex Wiltschko.",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 67
     },
     {
       "title": "调研报告",
@@ -432,7 +517,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -465,7 +550,7 @@
         "智能体",
         "模型"
       ],
-      "score": 91
+      "score": 90
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -479,21 +564,6 @@
       "rawFullText": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-source AI, models that, unlike ChatGPT or Claude, can be downloaded and run independent of large tech companies. Supporters of such models say that concentrating AI in the hands of a few powerful companies will leave everyone else worse off (a concern that wouldn’t sound out of place among the AI industry&#8217;s critics on the left, if so many open-source advocates weren’t also venture capitalists who stand to profit when startups can build on cheaper AI without paying Big Tech). Huang had become a sort of ringleader for those who defend open source to policymakers against concerns that such models come with no guardrails and cede AI leadership to China, where the most powerful and popular open-source models are created. They now want their most influential voice returned to his post.&nbsp; But it’s not just Huang’s extramarital affairs that threaten his (and Nvidia’s) credibility as an advocate for open-source AI. New research into China’s startups using Nvidia’s chips, and a new rule from the US Department of Commerce announced Monday, could deal a blow to both the movement’s reputation and its technical progress.&nbsp; On Thursday, the day Huang resigned, ex-OpenAI researcher Will DePue published findings online suggesting that China’s AI companies had far more access to Nvidia’s advanced Blackwell chips than previously estimated. China is banned from accessing Nvidia’s most cutting-edge chips to help protect America’s AI lead. It’s unclear how they would have gained access to the chips. DePue claims the results were verified by senior researchers at OpenAI and Anthropic, but an independent analysis has not confirmed the results. (DePue did not respond to a request for an interview. Nvidia did not immediately respond to a request for comment.) The findings do not establish that Nvidia helped Chinese companies obtain the chips, and the broader problem of chip smuggling was already known to extend well beyond Nvidia’s control. But in suggesting that Nvidia may have profited from the rise of Chinese AI startups, whose models are increasingly being used by American companies instead of domestic alternatives, the findings do leave Huang in an awkward position. He has championed open-source AI as a way to strengthen American technological leadership. “Without open source, startups can’t thrive, university researchers can’t do research, you can’t teach AI, scientists can’t use AI,” he said last December during a talk about helping the US win the AI race against China. It also makes the idea of reinstating Huang even more of a long shot. US Treasury Secretary Scott Bessent even said last week that Nvidia should not consider someone from inside the company to replace him. The new findings lower Huang’s chances further. What happens next? Nvidia announced in September it would acquire Hugging Face for nearly $13 billion. Its support for open source also serves a straightforward financial interest: The more businesses that build their own models instead of forking over money to Anthropic and OpenAI, the more chips Nvidia can sell.&nbsp; But a new rule from the US Department of Commerce could mean the models popular on Hugging Face will soon stop getting smarter. The rule aims to prevent Chinese companies from training models on Nvidia chips that they can’t own directly, but that they can access remotely in data centers in countries like Malaysia—a workaround that has helped China’s open-source models get so good. The open-source world rallied around Huang because of his influence on policymakers. That was important, since the rise of China’s open-source models has splintered some in Trump’s orbit. If Huang is out, who is next?",
       "tags": [
         "算力芯片"
-      ],
-      "score": 74
-    },
-    {
-      "title": "Hugging Face 和 OpenRouter 携手合作，让开放权重模型易于运行",
-      "originalTitle": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/openrouter",
-      "date": "2026-11-16T00:00:00.000Z",
-      "summary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "fullContent": "Hugging Face 和 OpenRouter 正在合作，让开放权重模型更易于运行。 每个主要的开放权重版本都已经发布在 Hugging Face Hub 上，OpenRouter 则大规模地提供这些模型，根据每个提供商的实时测量结果，将每个请求路由到 80 多个提供商。 总而言之，您可以使用您的 Hugging Face 令牌，通过同一个 API 调用提供商在 Hub 上提供的每个开放权重模型，系统会为每个请求选择最佳提供商。 今天，我们将推理提供商从我们自己的自定义路由器切换到 OpenRouter 的路由器。 现在，向语言模型发出的请求将通过OpenRouter进行处理。OpenRouter会根据实时价格、速度和可靠性为每次调用选择最佳提供商，如果第一个提供商失败，则会尝试使用其他提供商。 您的代码保持不变。 对于每个聊天模型，无论其背后的提供商是谁，路由器都支持OpenAI的聊天补全和回复API以及Anthropic的消息API。 选择您的编码代理或 SDK 和一个模型，然后复制步骤，或将整个设置复制为代理的提示： Claude Code 、Codex 、OpenCode 、Pi 和 Hermes Agent 的设置指南。同一个 Hugging Face 令牌还为您提供存储桶存储、作业计算和推理端点专用推理。 PRO、团队和企业套餐包含用于计算和推理的月度额度。 在 OpenRouter 上，开放权重模型从 26 个 2025年10月提供的代币占比为8%，到2026年9月底升至71.7%，此前在7月曾达到77.5%的峰值（OpenRouter，2026年10月）。 同期，开放权重模型的每周使用量增长了 60 多倍，而封闭模型的每周使用量仅增长了近 10 倍。 本周，OpenRouter 上使用最多的模型是一款开放权重模型，即 DeepSeek V4。1 Flash 1017，处理了 59.2 万亿个 token（排名）。 开放权重模型的成本平均低约四倍：0. 每百万个输入token 0.28美元，每百万个输出token 1.62美元，而闭源模型的相应价格分别为1.27美元和6.36美元。 在最难的基准测试中，最好的开源模型仍然落后于最好的专有模型。 在Artificial Analysis的智能指数中，Kimi K3. 1 Pro 是表现最佳的开源模型，得分为 46 分，而 Claude Fable 5.2 的得分为 65 分，但每项任务的成本仅为后者的约七分之一（3.68 美元对 26. 54）。对于许多工作负载来说，这种权衡是值得的。 OpenRouter每月为超过1000万用户提供超过800万亿个token，涵盖80多家提供商的600多个模型。 其路由基于对该流量中每个提供商的实时测量。 OpenRouter最近重建了其提供商路由：它不再...",
-      "originalSummary": "这条新闻与模型相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：模型相关动态",
-      "rawFullText": "",
-      "tags": [
-        "模型"
       ],
       "score": 73
     },
@@ -510,7 +580,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 77
+      "score": 76
     }
   ]
 }
