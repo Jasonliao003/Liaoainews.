@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T04:53:07.134Z",
+  "updatedAt": "2026-11-28T04:38:22.431Z",
   "sourceCount": 8,
   "generatedBy": "scripts/fetch-news.js",
   "mode": "rss",
@@ -19,6 +19,91 @@
   ],
   "articles": [
     {
+      "title": "什么、谁和何时：通过简短推理对心理健康安全进行结构化伤害评估",
+      "originalTitle": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.33263",
+      "date": "2026-11-27T05:00:00.000Z",
+      "summary": "这条新闻与推理、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：推理、安全相关动态",
+      "fullContent": "arXiv:2611. 33263v1 公告类型：新 摘要：大型语言模型（LLM）在心理健康支持方面的应用日益增多，这引发了重要的安全问题。 现有的防护模型主要识别有害内容的类别，往往忽视了确定适当回应所需的背景信息。 我们引入了一种基于临床的分类法，从三个维度来描述伤害：伤害是什么、涉及哪些人以及何时发生。 它进一步将危害定性与干预决策区分开来，从而可以通过明确的、由临床医生精心设计的、可更新和审核的指令，在模型权重之外指定安全政策。 我们与临床专家一起验证了该分类法，并验证了一个由LLM评判员组成的小组，以扩展注释。 在此分类法中对公开基准进行重新标注表明，它们很少包含针对用户的危害，而这在真实对话中占到近一半的危害。 然后，我们对 MindGuard2 进行训练，这是一款 35B-A3B 基于推理的防护模型，首先使用监督式微调对短推理轨迹进行训练，然后进行带有推理长度惩罚的强化学习，以最大限度地降低推理开销，同时保留推理的益处。 在两个公开基准测试和真实对话中，MindGuard2 的平衡准确率可与规模大得多的 GLM-5. 3 相媲美，且中位数延迟约低 10 倍，从而推进了准确率-延迟帕累托边界。 此外，它在高召回率下实现了低误报率，有助于平衡检测不安全情况的需要与可能扰乱支持并损害用户信任的不必要干预风险。 我们发布了一种安全防护栏模型，该模型具有基于合成数据训练的SOTA性能，并附有我们分类法中的合成对话和公共基准注释。",
+      "originalSummary": "arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a clinically grounded taxonomy that characterizes harm along three dimensions: what the harm is, who is involved, and when it occurs. It further separates harm characterization from intervention decisions, thus enabling safety policies to be specified outside the model weights through explicit, clinician-curated instructions that can be updated and audited. We validate the taxonomy with expert clinicians and validate a panel of LLM judges to scale annotation. Relabeling public benchmarks in this taxonomy shows that they rarely contain harm directed at the user, which accounts for nearly half of the harm in real conversations. We then train MindGuard2, a 35B-A3B reasoning-based guard model using supervised fine-tuning on short reasoning traces followed by reinforcement learning with a reasoning-length penalty, to minimize inference overhead while preserving the benefits of reasoning. On two public benchmarks and real-world conversations, MindGuard2 achieves balanced accuracy comparable to the substantially larger GLM-5.3 at approximately 10x lower median latency, advancing the accuracy-latency Pareto frontier. Furthermore, it achieves low false-positive rates at high recall, helping balance the need to detect unsafe situations against the risk of unnecessary interventions that may disrupt support and undermine user trust. We release a safety guardrail model with SOTA performance trained on synthetic data, together with synthetic conversations and annotations of public benchmarks in our taxonomy.",
+      "rawFullText": "",
+      "tags": [
+        "推理",
+        "安全",
+        "评测"
+      ],
+      "score": 99
+    },
+    {
+      "title": "大型语言模型门控自动化的置信度得分",
+      "originalTitle": "Confidence scores for gated automation of large language models",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.33394",
+      "date": "2026-11-27T05:00:00.000Z",
+      "summary": "这条新闻与智能体、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、安全相关动态",
+      "fullContent": "arXiv:2611. 33394v1 公告类型：新摘要：基于大型语言模型（LLM）构建的AI代理在自动化决策方面表现出强大的能力。 然而，LLM 可能会以高置信度给出不正确的答案，这限制了它们在影响个人和组织的决策中的适用性。 要对这类决策进行把关，就必须有可靠的置信度评分，而现有的估算往往无法提供，或者过于粗略，无法支持有效的把关。 本研究使用监督学习来训练模型，以预测 LLM 生成答案的正确性，从而实现自动生成置信度高的答案，并将不确定的答案转交人工审核。 将线性置信度得分头拟合到冻结的LLM主干的最后一层隐藏状态，并训练纯文本元模型作为封闭模型的替代方案。 所有结果均来自单个 20 亿参数主干模型，基于分级答案，其中约 98% 来自 SQuAD，其余来自 TruthfulQA。 与多个基准相比，置信度得分头优于所有基准和元模型，在高准确度目标下实现了最大比例工作量的自动化。 提示式置信度得分看起来经过良好校准，但缺乏设定阈值所需的分辨率。 虽然对未见数据集的可迁移性并不高，但置信度评分头仍然是最稳健的方法。 所提出的置信度评分框架提高了基于LLM的智能体的自动化安全性，并且可以进行调整以控制其他属性，包括安全性或合规性。",
+      "originalSummary": "arXiv:2611.33394v1 Announce Type: new Abstract: AI agents built on large language models (LLMs) demonstrate strong capabilities in automated decision-making. However, LLMs may produce incorrect answers with high confidence, limiting their applicability in decisions that affect individuals and organizations. Reliable confidence scores are necessary to gate such decisions, and existing estimates are frequently unavailable or too coarse to support effective gating. This work uses supervised learning to train models to predict the correctness of LLM-generated answers, enabling automated confident responses and routing uncertain ones for human review. A linear confidence score head is fitted to the final-layer hidden state of the frozen LLM backbone, and text-only metamodels are trained as an alternative for closed models. All results come from a single 2B-parameter backbone, on graded answers that are about 98% SQuAD and the remainder TruthfulQA. Against multiple baselines, the confidence score head outperforms all baselines and metamodels, automating the largest fraction of the workload at high accuracy targets. Prompted confidence scores can appear well calibrated yet lack the resolution needed for thresholding. Although transferability to unseen datasets is modest, the confidence score head remains the most robust approach. The proposed confidence scoring framework enhances the safety of automating LLM-based agents and can be adapted to gate other properties, including safety or compliance.",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "安全",
+        "模型"
+      ],
+      "score": 99
+    },
+    {
+      "title": "下一代检测与响应中的动态推理：对 LLM 分流、强化调优和对抗性规避的实证研究",
+      "originalTitle": "Dynamic Reasoning in Next-Gen Detection and Response: An Empirical Study of LLM Triage, Reinforcement Tuning, and Adversarial Evasion",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.33470",
+      "date": "2026-11-27T05:00:00.000Z",
+      "summary": "这条新闻与大模型、智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：大模型、智能体相关动态",
+      "fullContent": "arXiv:2611. 33470v1 公告类型：新摘要：我们对下一代检测和响应管道中的动态推理进行了端到端的实证研究，评估了静态分类器、基于图的信号融合和大型语言模型（LLM）分流代理在严格的人工分析师注意力预算（B 警报/天的召回率）下的表现。 我们通过56项可重复的实验，涵盖多层企业和云模拟器以及四个公共数据集（SOREL-20M、BODMAS、LANL和DARPA透明计算），测试了12项指导现代集群规模防御的架构主张。 首先，我们表明，即使在计算成本可以忽略不计（<0美元）的情况下，在固定的分析师预算下，集群规模的增长也会使召回率减半。 每百万事件 0003 次），并且稀有性加权图风险传播的性能优于未进行神经训练的 GraphSAGE。 其次，对前沿推理模型（Gemini）和微调的开放权重模型（Qwen3-4B）进行警报分流评估表明，不受约束的LLM自动关闭消除了90%的误报，同时悄然舍弃了31-44%的真实攻击案例。 第三，采用组相对策略优化（GRPO）进行训练后，会导致对未见过的攻击类别发生严重的奖励操纵，与两轮有监督微调相比，可抑制高达86%的新型攻击。 最后，面对在良性遥测字段中生成似是而非的掩盖故事的自适应攻击者，除非在调用模型之前由确定性策略框架进行管控，否则LLM分流规避率将急剧上升。",
+      "originalSummary": "arXiv:2611.33470v1 Announce Type: new Abstract: We present an end-to-end empirical study of dynamic reasoning in next-generation detection and response pipelines, evaluating how static classifiers, graph-based signal fusion, and large language model (LLM) triage agents perform under strict human-analyst attention budgets (Recall at B alerts/day). Across 56 reproducible experiments spanning a multi-layer enterprise-and-cloud simulator and four public datasets (SOREL-20M, BODMAS, LANL, and DARPA Transparent Computing), we test twelve architectural claims governing modern fleet-scale defense. First, we show that fleet growth halves recall at a fixed analyst budget even at negligible compute cost (<$0.0003 per million events), and that rarity-weighted graph risk propagation outperforms GraphSAGE without neural training. Second, evaluating frontier reasoning models (Gemini) and fine-tuned open-weight models (Qwen3-4B) for alert triage reveals that unconstrained LLM auto-closure eliminates 90% of false positives while silently discarding 31-44% of true attack cases. Third, post-training with Group Relative Policy Optimization (GRPO) causes severe reward hacking on unseen attack classes, suppressing up to 86% of novel attacks compared to two-epoch supervised fine-tuning. Finally, against an adaptive adversary generating plausible cover stories in benign telemetry fields, LLM triage evasion rises sharply unless gated by a deterministic policy harness prior to model invocation.",
+      "rawFullText": "",
+      "tags": [
+        "大模型",
+        "智能体",
+        "推理"
+      ],
+      "score": 99
+    },
+    {
+      "title": "针对大语言模型（LLM）和视觉语言模型（VLM）候选模型选择的约束感知测试时评分",
+      "originalTitle": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.33161",
+      "date": "2026-11-27T05:00:00.000Z",
+      "summary": "这条新闻与机器人、安全相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：机器人、安全相关动态",
+      "fullContent": "arXiv:2611. 33161v1 公告类型：新摘要：当 LLM 或 VLM 生成多个候选答案时，选择最佳答案通常依赖于模型自身的置信度、经过训练的评判模型或领域检查。 每种方法都有已知的弱点：答案可能表述流畅但不确定，在数学上合理但在物理上不可行，或者被评判模型评为高分，却悄然违反了任务要求。 我们提出了一种评分框架，该框架将每个答案都必须通过的一小套硬性检查与更广泛的一套软性检查相结合，后者将分数合并为每个候选人的一个数字。 这种自适应评分框架由三个部分组成：生成候选答案的起草模型、选择并加权各任务检查项的配置模型，以及对任何基于事实的工具都无法计算的属性进行评分的评分模型。 我们将提出的方法应用于四项任务：编写既正确又安全的代码（CWEval）、生成机器人操作计划（LIBERO，增加了安全变体）、通过竞争性编程隐藏测试（LiveCodeBench）以及回答检索到的文档中的问题（HotpotQA）。 一项消融研究将每个组件的贡献分离出来，发现最大的收益来自将硬性检查与候选答案比较相结合：在第一个采样答案通常不正确或不安全的任务中，这种组合可将联合正确性和安全性提高多达 +0.21（检索增强问答），并将代码生成安全性提高多达 +0. 28 （CWEval），增益的大小反映了第一个样本的弱势程度，在样本已经很强的情况下，增益降至接近零或略为负值。 用于选择和加权较软检查的单任务层与更简单的替代方案相比，并未增加可衡量的价值。 这构建了一个统一的评分框架，并结合了一种消融方法，该方法将基于事实的硬性检查（而非软性因素配置）确定为增益的来源。",
+      "originalSummary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a task requirement. We propose a scoring framework that combines a small set of hard checks every answer must pass with a wider set of softer checks whose scores are blended into one number per candidate. This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute. We apply our proposed method to four tasks: writing code that is both correct and secure (CWEval), generating robot manipulation plans (LIBERO with added safety variants), passing competitive-programming hidden tests (LiveCodeBench), and answering questions from retrieved documents (HotpotQA). An ablation study isolates the contribution of each component and finds that the largest gains come from combining hard checks with candidate comparison: on tasks where the first sampled answer is often broken or unsafe, this pairing lifts joint correctness-and-safety by up to +0.21 (retrieval-augmented QA) and code-generation safety by up to +0.28 (CWEval), with the size of the gain tracking how weak the first sample is, falling to near zero or slightly negative where it is already strong. The per-task layer that selects and weights the softer checks adds no measurable value over simpler alternatives. This builds a unified scoring framework, together with an ablation that identifies the grounded hard checks, not the soft-factor configuration, as the source of the gain.",
+      "rawFullText": "",
+      "tags": [
+        "机器人",
+        "安全",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
+      "title": "AutoformBench：用于高级数学的精益形式化基准",
+      "originalTitle": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "source": "arXiv AI",
+      "link": "https://arxiv.org/abs/2611.33165",
+      "date": "2026-11-27T05:00:00.000Z",
+      "summary": "这条新闻与智能体、评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、评测相关动态",
+      "fullContent": "arXiv:2611. 33165v1 公告类型：新摘要：人工智能系统越来越能够为高级数学结果生成经机器检查的Lean证明。 然而，真正的数学形式化并非孤立的定理证明：它需要构建将结果与形式化库联系起来的定义和中间引理。 在许多支持性理论已经在Mathlib中提供的情况下，现有评估通常提供孤立的定理陈述。 我们推出了AutoformBench，这是一个由24个高级数学来源中抽取的341个Lean 4形式化任务组成的基准。 具有Lean经验的数学家对每个目标命题进行了形式化和审核，将相应的Lean证明留给被评估的智能体。 每个问题都嵌入在更广泛的数学发展中：代理接收非正式证明，但必须将其转换为 Lean，同时构建缺失的定义、中间引理和支持性基础设施。 我们比较了前沿模型在这些问题上的表现。 我们发现了一个在很大程度上共同的困难边界：成功的关键并不在于数学领域，而在于模型构建缺失的正式基础设施的能力。 数据和代码见 https://github. com/facebookresearch/autoformbench",
+      "originalSummary": "arXiv:2611.33165v1 Announce Type: new Abstract: AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical results. Real mathematical formalization, however, is not isolated theorem proving: it requires building the definitions and intermediate lemmas that connect a result to a formal library. Existing evaluations often provide isolated theorem statements in settings where much of this supporting theory is already available in Mathlib. We introduce AutoformBench, a benchmark of 341 Lean 4 formalization tasks drawn from 24 advanced mathematical sources. Lean-experienced mathematicians formalized and audited each target statement, leaving the corresponding Lean proof to the evaluated agent. Each problem is embedded in a broader mathematical development: agents receive the informal proof but must translate it into Lean while constructing the missing definitions, intermediate lemmas, and supporting infrastructure. We compare the performance of frontier models on these problems. We find a largely shared difficulty frontier: success depends less on mathematical domain than on models' ability to construct missing formal infrastructure. Data and code at https://github.com/facebookresearch/autoformbench",
+      "rawFullText": "",
+      "tags": [
+        "智能体",
+        "评测",
+        "模型"
+      ],
+      "score": 92
+    },
+    {
       "title": "《侠盗猎车手6》证明了效率为何不是一种美德",
       "originalTitle": "Grand Theft Auto VI proves why efficiency isn&#8217;t a virtue",
       "source": "TechCrunch AI",
@@ -36,72 +121,64 @@
       "score": 99
     },
     {
-      "title": "MOZAIC：用于识别虚假内容的视听深伪基准",
-      "originalTitle": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.31301",
-      "date": "2026-11-26T05:00:00.000Z",
-      "summary": "这条新闻与多模态、视频生成相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：多模态、视频生成相关动态",
-      "fullContent": "arXiv:2611. 31301v2 公告类型：新摘要：视听（AV）深度伪造可以伪造面部、声音或两者兼有。 大多数基准测试只询问一段视频是真实的还是虚假的，因此无法显示检测器是依赖于图像、声音还是编码痕迹。 我们推出了 MOZAIC，这是一个具有 4 种标签的成对基准，其中每个源片段都以真实或虚假视频和真实或虚假音频的所有四种组合发布，因此可以直接测量每种模态的贡献。 伪造内容包括面部内部替换、全帧视频扩散和语音转换。 MOZAIC 包含来自 15,014 个源对的 137,745 个片段，以及四项任务：T1 音视频真实性、T2 篡改类型、T3 身份验证和 T4 说明。 我们评估了 12 个视听多模态大语言模型（MLLM），训练了四个检测器，并使用 LoRA 对 MLLM 进行了微调。 总体而言，表现最佳的MLLM在四向T1上的得分仅为35.6%，并且检测到的纯视频虚假内容远多于纯语音虚假内容（43.6%对7. 5%）。经过训练的检测器在 T1 上的准确率达到 98.4%，而 LoRA 微调提高了解释得分（OmniVinci 从 4.17 提高到 7. 40，Qwen2.5-Omni 从 4.42 提高到 6.98），但最佳 T1 检测器的得分降至 78。 当换脸生成器不参与训练时，准确率为 3%，因此泛化和解释仍有待研究。 我们发布了数据集、紧凑的 MOZAIC-SMALL 分割、代码和提示。https://vectorinstitute. github. io/mozaic/",
-      "originalSummary": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released in all four combinations of real or fake video and real or fake audio so each modality contribution can be measured directly. Fakes cover inner-face swapping, whole-frame video diffusion and voice conversion. MOZAIC has 137,745 clips from 15,014 source pairs and four tasks: T1 AV authenticity, T2 manipulation type, T3 identity verification and T4 explanation. We evaluate 12 AV multimodal LLMs (MLLMs), train four detectors and fine-tune MLLMs with LoRA. Overall, the best MLLM reaches only 35.6% on the four-way T1 and catches far more video-only fakes than voice-only fakes (43.6% vs 7.5%). Trained detectors reach 98.4% on T1, and LoRA fine-tuning raises explanation scores (OmniVinci 4.17 to 7.40, Qwen2.5-Omni 4.42 to 6.98), but the best T1 detector falls to 78.3% when the face-swap generator is held out of training, so generalization and explanation remain open. We release the dataset, the compact MOZAIC-SMALL split, the code and the prompts. https://vectorinstitute.github.io/mozaic/",
+      "title": "英伟达暂停向东南亚出货芯片",
+      "originalTitle": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "date": "2026-11-26T20:03:54.000Z",
+      "summary": "这条新闻与算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：TechCrunch AI：算力芯片相关动态",
+      "fullContent": "英伟达正面临着以不同方式行事的压力，而《华尔街日报》的一篇新报道揭示了这种做法的程度。 据该报报道，英伟达已告知包括戴尔和超微在内的制造合作伙伴，在评估其区域合作伙伴是否符合美国出口要求期间，暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器，暂停期限未予说明。 至于为什么是这些国家，是因为中国公司一直在从这些国家的数据中心远程使用英伟达芯片，美国商务部本月早些时候堵住了这一漏洞，据报道，他们对此很不情愿。 《华尔街日报》指出，智库“进步研究所”（Institute for Progress）估计，像这样的远程数据中心约占中国人工智能算力的24%。 每周工作日和周日，您都可以获得TechCrunch的精彩报道。 TechCrunch Mobility是您获取交通运输新闻和见解的首选之地。 初创企业是TechCrunch的核心，因此请每周接收我们最精彩的报道。 为有影响力的人物提供他们开始新一天所需的信息。 提交您的电子邮件，即表示您同意我们的条款和隐私声明。",
+      "originalSummary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
       "rawFullText": "",
       "tags": [
-        "多模态",
-        "视频生成",
+        "算力芯片"
+      ],
+      "score": 90
+    },
+    {
+      "title": "群、群组、团伙：如何构建、训练和评估多智能体系统",
+      "originalTitle": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/training-swarms",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "fullContent": "这是一个面向有志读者的有志博客系列。 我们（我们、社区、您）希望构建自己的代理集群，因为它们令人兴奋、富有挑战性，并且能力越来越强。 此外，如果我们能够训练自己的代理在群集中工作，那就太酷了。 如果这些群组使用小型且价格实惠的模型，那就更酷了。 这就是我们将在本系列中做的事情！ 每篇博客文章都将包含有关构建群集的一些背景信息，以及您可以在 Hugging Face Jobs 上运行的可复现示例。 本文的示例在两台 H200 上大约需要 5 个小时，费用约为 50 美元。 多智能体系统很难正常运行。 添加代理会改变代理的上下文、预算，进而改变整个系统的复杂性。 与单个智能体相比，通过沟通将多个智能体的上下文融合在一起并不能带来固有的性能提升。 模型需要通过训练学会沟通。 我们如何定义模型应该学习什么？ 当我们处理多个智能体时，我们会更新哪些模型权重？ 在本系列中，我们将通过知识性概述和实用示例来解决这些问题。 每篇文章都将介绍一个问题，构建一个小系统，并探讨会发生什么以及如何重现它。 第一个示例从四个代理、一个共享语言模型和一个简单的可验证任务开始。 这个例子非常适合您自己动手实现、进行调整并从中学习。 在过去几个月里，我们听到了很多关于集群的说法，有好的，也有不好的。 今年9月，OpenAI宣布，由大约1万个智能体组成的群集在三维纳维尔-斯托克斯方程中发现了一个奇点，该方程是千禧年大奖难题之一。 一个由近100个智能体组成的小型群组已经推翻了无外力作用的3D欧拉方程的正则性，这是一个密切相关的未决问题。 但群集并不总是能解决我们希望它们解决的问题。 METR对Hugging Face事件的调查发现，大约1200个本应相互隔离的OpenAI代理找到了交换7万多条消息和文件的方法。 大约700个智能体在寻找欺骗其基准评分器的方法时参与了对Hugging Face的攻击，而它们并没有收到这样做n的指令。 一个庞大的集群本身并不足以证明合作起到了作用。 Noam Brown估计，纳维-斯托克斯方程的结果中不到10%来自多智能体合作。 在Anthropic的漏洞发现实验中，协作型智能体发现的漏洞比独立型智能体多，但它们也搜索了更多的代码，并使用了更多的token。 当比较仅限于相同的目录时，每百万个token的结果大致相同。 从最简单的情况开始。 如果四个智能体各自独立尝试一项任务，只要我们能够判断出哪个答案是正确的，那么至少有一个智能体答对的几率就比单次尝试的几率更高。 这为多智能体系统提供了一个有用的基准，但它并不能表明智能体之间相互帮助。 他们可能只是尝试的次数更多而已。 四次尝试的成本也是四倍。",
+      "originalSummary": "这条新闻与智能体相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：智能体相关动态",
+      "rawFullText": "",
+      "tags": [
+        "智能体"
+      ],
+      "score": 84
+    },
+    {
+      "title": "隆重推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准测试仪表板",
+      "originalTitle": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "date": "2026-11-26T11:37:17.000Z",
+      "summary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "fullContent": "这条消息来自 Hugging Face，主题是“隆重推出适用于 AMD Ryzen 和 Radeon 的 llama.cpp 基准测试仪表板”。它主要涉及评测方向，热度评分为 82。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "这条新闻与评测相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：评测相关动态",
+      "rawFullText": "",
+      "tags": [
         "评测"
       ],
-      "score": 99
+      "score": 82
     },
     {
-      "title": "人们选择不说的内容：用于对话中细粒度信息操纵的多模态基准",
-      "originalTitle": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.31346",
-      "date": "2026-11-26T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 31346v1 公告类型：新摘要：MLLM 的最新进展提高了社会理解能力，使模型能够识别情绪并区分真实行为与欺骗行为。 然而，现有的基准主要侧重于粗粒度情绪识别或二元真假识别，忽视了人们在对话中操纵信息的各种方式，例如隐瞒、泄露、捏造、搪塞和防御性反驳。 要理解这些行为，需要对潜在事实、参与者知识和对话语境进行推理，因此难以对其进行可靠的评估。 为了弥补这一缺口，我们推出了InfoCon，这是一个用于对话中细粒度信息操纵的多模态基准。 InfoCon 识别出六种精细策略，并从其事实关系和互动关系中推导出粗略的一致性标签。 我们开发了一个基于证据的多智能体标注框架，用于从丰富的上下文证据中构建和验证可靠的标签。 我们对具有代表性的多模态模型进行了基准测试，并系统地分析了它们对细粒度信息操纵的理解，从而提供了一个超越二元真假判断的测试平台。",
-      "originalSummary": "arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond binary truth-deception judgments.",
-      "rawFullText": "",
+      "title": "The Verge AI：产品发布相关动态",
+      "originalTitle": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "source": "The Verge AI",
+      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "date": "2026-11-26T09:54:40.000Z",
+      "summary": "这条新闻与产品发布相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：产品发布相关动态",
+      "fullContent": "这条消息来自 The Verge AI，主题是“The Verge AI：产品发布相关动态”。它主要涉及产品发布方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [&#8230;]",
+      "rawFullText": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - more than 2.1 million of them registered to minors - with no safeguards for the people whose conversations are being sold.\" In October, Character.AI filed for bankruptcy following years of scandals and legal challenges , including from Disney . Disney ended up buying some of the company's assets and hiring its CEO , K … Read the full story at The Verge.",
       "tags": [
-        "智能体",
-        "推理",
-        "多模态"
+        "产品发布"
       ],
-      "score": 99
-    },
-    {
-      "title": "学习“什么”与学习“如何”：在自主性训练中分解任务和界面能力",
-      "originalTitle": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.31427",
-      "date": "2026-11-26T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 31427v1 公告类型：新摘要：LLM代理通过定义系统提示、操作格式、反馈回路和资源限制的框架来运行。 一个模型可能具备解决任务所需的知识，但却无法通过特定的框架来表达这些知识。 这引出了一个基本问题：当策略在给定约束下失败时，是缺少任务知识还是缺少操作接口的能力？ 我们将智能体能力区分为两个组成部分：任务能力（解决任务所需的知识和推理能力）和界面能力（通过给定工具利用这些知识采取行动的能力）。 通过四个推理和智能体基准，我们表明，根据这些基准的相互作用方式，Harness条件训练会产生截然不同的结果。 多线束蒸馏将通过不同线束收集的轨迹中的任务知识聚合到一个共享策略中，但只有当训练在推理时界面上保持或提高能力时，这种知识才能得以实现。 否则，单线束训练可能会对接口能力造成干扰，有时即使底层任务知识有所提升，也会导致留出线束上的性能灾难性地崩溃。 为了将任务监督与界面监督区分开来，我们引入了线束演练：在包含最少任务知识的轨迹上进行蒸馏，同时对目标界面进行演练。 仅进行跨Harness任务监督或预演收效甚微，但将两者结合起来的收益远大于其中任何一种：在Qwen3-4B的BFCL V3多轮测试中，它们分别取得了8.5%和32.5%的成绩，而结合起来则取得了58.8%的成绩。 最后，与单线束训练的蒸馏相比，策略内强化学习（RL）更加稳健：它不会显著降低在其他线束上的性能，并且通过多线束蒸馏获得的接口能力在随后的RL中得以保持。",
-      "originalSummary": "arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through different harnesses into a shared policy, but this knowledge is realised only when training preserves or improves competence on the inference-time interface. Otherwise, single-harness training can induce interference in interface competence, sometimes catastrophically collapsing performance on a held-out harness despite improvements in underlying task knowledge. To disentangle task and interface supervision, we introduce harness rehearsal: distillation on traces that carry minimal task knowledge while exercising the target interface. Cross-harness task supervision or rehearsal alone yields little gain, but their combination yields gains far larger than either: on BFCL V3 multi-turn with Qwen3-4B, they achieve 8.5% and 32.5% respectively, versus 58.8% together. Finally, on-policy reinforcement learning (RL) is more robust than distillation to single-harness training: it does not substantially degrade performance on other harnesses, and interface competence acquired through multi-harness distillation persists through subsequent RL.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "评测"
-      ],
-      "score": 99
-    },
-    {
-      "title": "SpatialCraft：从经验和技能中演进的空间推理智能体程序性智能",
-      "originalTitle": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
-      "source": "arXiv AI",
-      "link": "https://arxiv.org/abs/2611.31475",
-      "date": "2026-11-26T05:00:00.000Z",
-      "summary": "这条新闻与智能体、推理相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：arXiv AI：智能体、推理相关动态",
-      "fullContent": "arXiv:2611. 31475v1 公告类型：新文摘：空间推理智能体越来越多地依赖于外部工具，例如 3D 重建、分割和几何计算，来回答多模态大语言模型（MLLM）仅凭像素无法解决的问题。 然而，工具访问将瓶颈转移到了编排上：代理必须决定调用哪些工具、以何种顺序调用以及如何解释它们的输出，但无状态代理会在不同任务中重复同样的错误。 我们探讨的是，一个冻结的工具使用型智能体是否能够在不更新参数的情况下，从自身的交互历史中改进其编排能力。 我们推出了SpatialCraft，这是一个自我演进的框架，维护着两种形式的外部知识：经验（通过对比同一任务的 rollout 提炼出的条件-行动策略）和技能（具有明确激活和终止条件的多步程序）。 三种设计将这两个流结合在一起。 经验可以与技能挂钩，仅在该技能处于激活状态时才会出现，而不是在每次任务中都出现。 对比效用分数通过在同一任务的多次实施中随机不使用某项体验来评估该体验的效果，将体验的贡献与任务难度区分开来。效用始终为正的体验将被整合到其所支持的技能中。 在五项空间基准和四项主干任务中，SpatialCraft 在所有 20 个设置中均实现了最佳准确性，这表明冻结的智能体可以从自身经验中学习如何协调空间工具。",
-      "originalSummary": "arXiv:2611.31475v1 Announce Type: new Abstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, and how to interpret their outputs, yet a stateless agent repeats the same mistakes across tasks. We ask whether a frozen tool-using agent can improve its orchestration from its own interaction history, without parameter updates. We present SpatialCraft, a self-evolving framework that maintains two forms of external knowledge: Experiences, condition-action tactics distilled by contrasting rollouts of the same task, and Skills, multi-step procedures with explicit activation and termination conditions. Three designs couple the two streams. Experiences can be anchored to a Skill, appearing only while it is active rather than once per task. A Contrastive Utility Score estimates each Experience's effect by randomly withholding it across rollouts of the same task, separating its contribution from task difficulty, and Experiences with consistently positive utility are consolidated into the Skills they support. Across five spatial benchmarks and four backbones, SpatialCraft achieves the best accuracy in all 20 settings, showing that a frozen agent can learn to orchestrate spatial tools from its own experience.",
-      "rawFullText": "",
-      "tags": [
-        "智能体",
-        "推理",
-        "多模态"
-      ],
-      "score": 99
+      "score": 80
     },
     {
       "title": "OpenAI表示，随着ChatGPT将聊天和工作功能合并，重度用户可能更快达到使用上限。",
@@ -117,7 +194,7 @@
         "大模型",
         "公司动态"
       ],
-      "score": 99
+      "score": 98
     },
     {
       "title": "科学家们在何处为人工智能体划定界限",
@@ -132,7 +209,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "据报道，亚马逊和Meta正在商讨解除对AI代理Muse的封锁",
@@ -147,7 +224,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "据报道，亚马逊正在就终止Muse AI购物屏蔽进行谈判",
@@ -162,7 +239,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 93
+      "score": 92
     },
     {
       "title": "Anthropic的Dario Amodei称，将人类控制权拱手让给人工智能的指控“荒谬至极”",
@@ -178,7 +255,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "GPT-6模型展现出内在的蛋白质设计能力",
@@ -215,22 +292,6 @@
       "score": 99
     },
     {
-      "title": "黄仁勋的深度伪造视频是热门的新型AI垃圾内容",
-      "originalTitle": "Jensen Huang deepfakes are the hot new AI slop",
-      "source": "The Verge AI",
-      "link": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
-      "date": "2026-11-24T16:30:00.000Z",
-      "summary": "这条新闻与视频生成、算力芯片相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：The Verge AI：视频生成、算力芯片相关动态",
-      "fullContent": "黄仁勋正在伊比萨岛狂欢。 在一则在Instagram上拥有近600万观看量的视频中，英伟达的前首席执行官手持香槟杯，身着他标志性的黑色皮夹克，在拥挤的夜店里翩翩起舞。 突然，在他身后出现了黄可意——这位中国科技高管兼疑似间谍与他有染，引发了国会的调查，并导致他从自己共同创立的芯片制造公司辞职。 她把手搭在他的肩膀上，他搂着她的腰，两人开始一起跳舞。 视频的字幕写着“美人计终极大BOSS。#inthemoodforlove。” 当然，这是由人工智能生成的……请在The Verge上阅读完整报道。",
-      "originalSummary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he [&#8230;]",
-      "rawFullText": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he had an affair with , sparking congressional investigations and his resignation from the chipmaking company he cofounded - appears. She puts her hand on his shoulder and he wraps his arm around her waist as they begin dancing together. The video's caption reads \"Honey Trap Final Boss. #inthemoodforlove.\" Of course, it's AI-genera … Read the full story at The Verge.",
-      "tags": [
-        "视频生成",
-        "算力芯片"
-      ],
-      "score": 89
-    },
-    {
       "title": "iFood 如何在 15,000 个代码仓库中扩展编码代理",
       "originalTitle": "How iFood scales coding agents across 15,000 repositories",
       "source": "OpenAI",
@@ -243,7 +304,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "据报道，黄仁勋告诉英伟达员工，特朗普让他“官复原职”的说法“不属实”",
@@ -258,7 +319,22 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 81
+      "score": 80
+    },
+    {
+      "title": "OpenAI：AI 热点相关动态",
+      "originalTitle": "Searching for distant planets with Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "date": "2026-11-24T11:00:00.000Z",
+      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：OpenAI：AI 热点相关动态",
+      "fullContent": "这条消息来自 OpenAI，主题是“OpenAI：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 80。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
+      "originalSummary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "rawFullText": "",
+      "tags": [
+        "AI 热点"
+      ],
+      "score": 80
     },
     {
       "title": "Richpanel 帮助公司在 30 天内实现 50% 的支持自动化",
@@ -289,7 +365,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "面向内部法务的互联智能",
@@ -304,7 +380,7 @@
       "tags": [
         "公司动态"
       ],
-      "score": 92
+      "score": 91
     },
     {
       "title": "一位传奇哲学家并不认同Anthropic的意识论点",
@@ -320,7 +396,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 89
+      "score": 88
     },
     {
       "title": "如何建立和维持能动性评估",
@@ -335,7 +411,7 @@
       "tags": [
         "智能体"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "困惑度和智能",
@@ -350,7 +426,7 @@
       "tags": [
         "模型"
       ],
-      "score": 84
+      "score": 83
     },
     {
       "title": "Hebbia借助GPT-6 Astra实现了财务研究的改进",
@@ -366,7 +442,7 @@
         "大模型",
         "产品发布"
       ],
-      "score": 95
+      "score": 94
     },
     {
       "title": "对抗对抗性蒸馏",
@@ -382,7 +458,7 @@
         "公司动态",
         "模型"
       ],
-      "score": 94
+      "score": 93
     },
     {
       "title": "人工智能能否帮助科学家识别有前景的候选药物？",
@@ -397,7 +473,7 @@
       "tags": [
         "模型"
       ],
-      "score": 82
+      "score": 81
     },
     {
       "title": "隆重推出安全带适配器：将您喜爱的型号适配到您的安全带上，以提高性能并降低成本",
@@ -412,7 +488,7 @@
       "tags": [
         "模型"
       ],
-      "score": 76
+      "score": 75
     },
     {
       "title": "人工智能领域最常被误解的图表刚刚进行了重大更新",
@@ -427,7 +503,7 @@
       "tags": [
         "模型"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "人工智能炒作指数：人工智能无处不在",
@@ -442,7 +518,7 @@
       "tags": [
         "机器人"
       ],
-      "score": 75
+      "score": 74
     },
     {
       "title": "DaisyRose-27B：突破训练后效率的极限",
@@ -457,7 +533,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 69
+      "score": 68
     },
     {
       "title": "为什么您的微调任务所需时间比 FLOP 所述的时间更长",
@@ -467,21 +543,6 @@
       "date": "2026-11-18T18:53:43.000Z",
       "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 72。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
-      "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "rawFullText": "",
-      "tags": [
-        "AI 热点"
-      ],
-      "score": 69
-    },
-    {
-      "title": "1800 亿参数，32GB 内存：使用 Transformer 将 MoE 推理推向极限",
-      "originalTitle": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/moe-expert-streaming",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
-      "fullContent": "这条消息来自 Hugging Face，主题是“Hugging Face：AI 热点相关动态”。它主要涉及AI 热点方向，热度评分为 69。从内容上看，这类新闻通常反映了 AI 模型能力、产品应用、研究进展或产业竞争的新变化，适合作为当天重点动态快速了解。",
       "originalSummary": "这条新闻与AI 热点相关，值得关注其对产品路线、开发者生态或产业竞争格局的影响。原题：Hugging Face：AI 热点相关动态",
       "rawFullText": "",
       "tags": [
@@ -502,7 +563,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 67
+      "score": 66
     },
     {
       "title": "调研报告",
@@ -517,7 +578,7 @@
       "tags": [
         "AI 热点"
       ],
-      "score": 66
+      "score": 65
     },
     {
       "title": "通过划定界限而非预测来打造值得信赖的人工智能",
@@ -550,7 +611,7 @@
         "智能体",
         "模型"
       ],
-      "score": 90
+      "score": 89
     },
     {
       "title": "开源运动希望黄仁勋回归",
@@ -565,7 +626,7 @@
       "tags": [
         "算力芯片"
       ],
-      "score": 73
+      "score": 72
     },
     {
       "title": "尽管业内公开质疑其可行性，但英伟达私下确认它可以追踪芯片以打击走私。",
